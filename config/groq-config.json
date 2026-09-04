@@ -1,0 +1,24 @@
+{
+  "provider": "groq",
+  "api_url": "https://api.groq.com/openai/v1/chat/completions",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0.2,
+  "max_tokens": 65536,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "vidhwaan_daily_content",
+      "strict": true
+    }
+  },
+  "source_manifest": "data/daily-manifest.json",
+  "output_directory": "data/days",
+  "rules": {
+    "one_day_per_request": true,
+    "syllabus_is_authoritative": true,
+    "do_not_invent_syllabus": true,
+    "preserve_learning_unit_ids": true,
+    "require_all_learning_units": true,
+    "require_mcq_explanations": true
+  }
+}

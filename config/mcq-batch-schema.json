@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "day": {
+      "type": "integer"
+    },
+    "batch_id": {
+      "type": "string"
+    },
+    "mcqs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "mcq_id": {
+            "type": "string"
+          },
+          "learning_unit_id": {
+            "type": "string"
+          },
+          "learning_point": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "options": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "A": {
+                "type": "string"
+              },
+              "B": {
+                "type": "string"
+              },
+              "C": {
+                "type": "string"
+              },
+              "D": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "correct_option": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "answer": {
+            "type": "string"
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": [
+              "easy",
+              "medium",
+              "hard"
+            ]
+          }
+        },
+        "required": [
+          "mcq_id",
+          "learning_unit_id",
+          "learning_point",
+          "question",
+          "options",
+          "correct_option",
+          "answer",
+          "explanation",
+          "difficulty"
+        ]
+      }
+    }
+  },
+  "required": [
+    "day",
+    "batch_id",
+    "mcqs"
+  ]
+}

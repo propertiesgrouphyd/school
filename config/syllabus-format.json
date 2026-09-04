@@ -1,0 +1,31 @@
+{
+  "required": [
+    "class",
+    "subject",
+    "book",
+    "board_alignment",
+    "syllabus_type",
+    "chapters"
+  ],
+  "chapter_required": [
+    "chapter_number",
+    "title",
+    "topics"
+  ],
+  "topic_format": {
+    "name": "string",
+    "subtopics": [
+      {
+        "name": "string",
+        "concepts": [
+          {
+            "name": "string",
+            "learning_points": [
+              "string"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "model": "openai/gpt-oss-120b",
+  "rate_limits": {
+    "requests_per_minute": 1000,
+    "tokens_per_minute": 8000,
+    "safe_tokens_per_minute": 7000
+  },
+  "generation": {
+    "batch_max_output_tokens": 5000,
+    "minimum_mcqs_per_learning_unit": 10,
+    "target_mcqs_per_learning_unit": 20,
+    "max_mcqs_per_learning_unit": 30,
+    "generate_lessons": true,
+    "generate_mcqs": true,
+    "retry_on_rate_limit": true,
+    "resume_existing_batches": true,
+    "validate_before_save": true
+  },
+  "coverage": {
+    "syllabus_authoritative": true,
+    "every_learning_unit_required": true,
+    "every_learning_point_required": true,
+    "four_options_required": true,
+    "answer_required": true,
+    "explanation_required": true,
+    "difficulty_required": true
+  },
+  "storage": {
+    "batch_directory": "data/batches",
+    "day_directory": "data/days",
+    "progress_file": "data/generation-progress.json"
+  }
+}

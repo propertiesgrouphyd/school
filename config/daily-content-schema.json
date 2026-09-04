@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VIDHWAAN School Daily Content",
+  "type": "object",
+  "required": [
+    "day",
+    "title",
+    "curriculum",
+    "lessons",
+    "mcqs"
+  ],
+  "properties": {
+    "day": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "curriculum": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "learning_unit_id",
+          "class",
+          "subject",
+          "chapter",
+          "topic",
+          "subtopic",
+          "concept",
+          "learning_points"
+        ],
+        "properties": {
+          "learning_unit_id": {
+            "type": "string"
+          },
+          "class": {
+            "type": "integer",
+            "minimum": 6,
+            "maximum": 12
+          },
+          "subject": {
+            "type": "string"
+          },
+          "chapter": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "subtopic": {
+            "type": "string"
+          },
+          "concept": {
+            "type": "string"
+          },
+          "learning_points": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "learning_unit_id",
+          "concept",
+          "explanation",
+          "key_points",
+          "examples",
+          "common_mistakes",
+          "competitive_connections"
+        ],
+        "properties": {
+          "learning_unit_id": {
+            "type": "string"
+          },
+          "concept": {
+            "type": "string"
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "key_points": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "common_mistakes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "competitive_connections": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "mcqs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "learning_point",
+          "mcq_id",
+          "learning_unit_id",
+          "question",
+          "options",
+          "correct_option",
+          "answer",
+          "explanation",
+          "difficulty"
+        ],
+        "properties": {
+          "mcq_id": {
+            "type": "string"
+          },
+          "learning_unit_id": {
+            "type": "string"
+          },
+          "learning_point": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "options": {
+            "type": "object",
+            "required": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "properties": {
+              "A": {
+                "type": "string"
+              },
+              "B": {
+                "type": "string"
+              },
+              "C": {
+                "type": "string"
+              },
+              "D": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "correct_option": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": [
+              "easy",
+              "medium",
+              "hard"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
