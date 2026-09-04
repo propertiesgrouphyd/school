@@ -58,11 +58,51 @@ async function configureGitIdentity() {
     return;
   }
 
-  await runCommand("git", ["config", "user.name", "github-actions[bot]"]);
-  await runCommand(
-    "git",
-    ["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]
-  );
+  const { spawn } = await import("child_process");
+
+  await new Promise((resolve, reject) => {
+    const git = spawn(
+      "git",
+      ["config", "user.name", "github-actions[bot]"],
+      { stdio: "inherit" }
+    );
+
+    git.on("error", reject);
+
+    git.on("close", (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(
+          new Error(`git config user.name failed with code ${code}`)
+        );
+      }
+    });
+  });
+
+  await new Promise((resolve, reject) => {
+    const git = spawn(
+      "git",
+      [
+        "config",
+        "user.email",
+        "41898282+github-actions[bot]@users.noreply.github.com"
+      ],
+      { stdio: "inherit" }
+    );
+
+    git.on("error", reject);
+
+    git.on("close", (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(
+          new Error(`git config user.email failed with code ${code}`)
+        );
+      }
+    });
+  });
 }
 
 async function checkpointBatches() {
