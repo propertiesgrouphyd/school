@@ -1,6 +1,7 @@
 import { setTimeout as sleep } from "node:timers/promises";
 
-const MAX_RETRIES = 20;
+const MAX_RETRIES = 5;
+const MAX_NETWORK_RETRIES = 2;
 const SAFETY_MS = 1500;
 const DEFAULT_429_WAIT_MS = 5000;
 const MAX_SERVER_WAIT_MS = 60000;
@@ -155,25 +156,136 @@ export async function waitForRateLimit(
   await sleep(waitMs);
 }
 
+
+async function readGroqError(response) {
+  try {
+    const text = await response.text();
+
+    if (!text) {
+      return {
+        raw: "",
+        message: ""
+      };
+    }
+
+    try {
+      const data = JSON.parse(text);
+      return {
+        raw: text,
+        message: String(data?.error?.message ?? "")
+      };
+    } catch {
+      return {
+        raw: text,
+        message: text
+      };
+    }
+  } catch {
+    return {
+      raw: "",
+      message: ""
+    };
+  }
+}
+
+function parseGroqRetryWindow(message) {
+  const match = String(message).match(
+    /try again in\s+([0-9.]+)\s*(seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h)/i
+  );
+
+  if (!match) return 0;
+
+  const value = Number(match[1]);
+
+  if (!Number.isFinite(value) || value < 0) {
+    return 0;
+  }
+
+  const unit = match[2].toLowerCase();
+
+  if (
+    unit.startsWith("hour") ||
+    unit === "h"
+  ) {
+    return value * 60 * 60 * 1000;
+  }
+
+  if (
+    unit.startsWith("minute") ||
+    unit.startsWith("min") ||
+    unit === "m"
+  ) {
+    return value * 60 * 1000;
+  }
+
+  return value * 1000;
+}
+
+function isTpdLimit(message) {
+  const text = String(message).toLowerCase();
+
+  return (
+    text.includes("tokens per day") ||
+    text.includes("(tpd)")
+  );
+}
+
 async function handleRateLimitResponse(response, attempt) {
   const retryAfterMs = parseRetryAfter(
     response.headers.get("retry-after")
   );
+
+  const error = await readGroqError(response);
 
   console.log(
     `HTTP 429 RATE LIMITED | ` +
     `attempt ${attempt}/${MAX_RETRIES}`
   );
 
+  if (error.raw) {
+    console.log(
+      `GROQ 429 RESPONSE: ${error.raw}`
+    );
+  }
+
+  const tpd = isTpdLimit(error.message);
+
+  if (tpd) {
+    const groqRetryMs = parseGroqRetryWindow(
+      error.message
+    );
+
+    const waitMs =
+      groqRetryMs > 0
+        ? groqRetryMs
+        : retryAfterMs;
+
+    console.log(
+      `TPD RATE LIMIT | ` +
+      `waiting=${Math.ceil(waitMs / 1000)}s`
+    );
+
+    await waitForRateLimit(
+      response.headers,
+      "HTTP 429 TPD",
+      waitMs
+    );
+
+    return "tpd";
+  }
+
   await waitForRateLimit(
     response.headers,
     "HTTP 429",
     retryAfterMs
   );
+
+  return "rate_limit";
 }
 
 export async function fetchWithRetry(url, options) {
   let lastError = null;
+  let networkRetries = 0;
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     let response;
@@ -187,8 +299,9 @@ export async function fetchWithRetry(url, options) {
       response = await fetch(url, options);
     } catch (error) {
       lastError = error;
+      networkRetries++;
 
-      if (attempt >= MAX_RETRIES) {
+      if (networkRetries > MAX_NETWORK_RETRIES) {
         break;
       }
 
