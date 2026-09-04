@@ -335,10 +335,26 @@ export async function fetchWithRetry(url, options) {
      * Do not throw it into the generic catch block.
      */
     if (response.status === 429) {
-      await handleRateLimitResponse(
+      const rateLimitType = await handleRateLimitResponse(
         response,
         attempt
       );
+
+      /*
+       * TPD is a daily quota exhaustion, not a temporary
+       * per-minute limit. The caller must be allowed to
+       * switch to another Groq API key immediately.
+       */
+      if (rateLimitType === "tpd") {
+        const error = new Error(
+          "Groq tokens-per-day (TPD) limit reached"
+        );
+
+        error.code = "GROQ_TPD";
+        error.headers = response.headers;
+
+        throw error;
+      }
 
       continue;
     }

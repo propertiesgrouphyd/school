@@ -31,18 +31,26 @@ jobs:
       - name: Validate project
         run: npm run validate
 
-      - name: Verify Groq API key
+      - name: Verify Groq API keys
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_1: ${{ secrets.GROQ_API_KEY_1 }}
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
         run: |
-          if [ -z "$GROQ_API_KEY" ]; then
-            echo "ERROR: GROQ_API_KEY GitHub Secret is missing."
+          if [ -z "$GROQ_API_KEY_1" ]; then
+            echo "ERROR: GROQ_API_KEY_1 GitHub Secret is missing."
             exit 1
           fi
 
-          echo "GROQ_API_KEY is configured."
+          if [ -z "$GROQ_API_KEY_2" ]; then
+            echo "ERROR: GROQ_API_KEY_2 GitHub Secret is missing."
+            exit 1
+          fi
+
+          echo "GROQ_API_KEY_1 is configured."
+          echo "GROQ_API_KEY_2 is configured."
 
       - name: Find and generate exactly one study day
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY_1: ${{ secrets.GROQ_API_KEY_1 }}
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
         run: node generator/run-next-day.js

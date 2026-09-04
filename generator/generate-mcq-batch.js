@@ -1,7 +1,15 @@
 import fs from "fs";
 import path from "path";
 import { createRequire } from "module";
-import { fetchWithRetry, getRateLimitState } from "./groq-rate-limit.js";
+import {
+  fetchWithRetry,
+  getRateLimitState
+} from "./groq-rate-limit.js";
+
+import {
+  loadKeyState,
+  saveKeyState
+} from "./groq-key-state.js";
 
 const require = createRequire(import.meta.url);
 
@@ -45,10 +53,22 @@ const SYSTEM_PROMPT = fs.readFileSync(
   "utf8"
 );
 
-const API_KEY = process.env.GROQ_API_KEY;
+const API_KEYS = [
+  process.env.GROQ_API_KEY_1,
+  process.env.GROQ_API_KEY_2
+].filter(Boolean);
 
-if (!API_KEY) {
-  throw new Error("GROQ_API_KEY is not set");
+if (API_KEYS.length === 0) {
+  throw new Error(
+    "Neither GROQ_API_KEY_1 nor GROQ_API_KEY_2 is set"
+  );
+}
+
+if (API_KEYS.length === 1) {
+  console.warn(
+    "WARNING: Only one Groq API key is configured. " +
+    "TPD failover will not be available."
+  );
 }
 
 const DAY = Number(process.argv[2]);
@@ -610,36 +630,122 @@ async function requestBatch(batchNumber, retryCount = 0) {
     await waitForQuota(quotaHeaders);
   }
 
-  const response = await fetchWithRetry(
-    GROQ_CONFIG.api_url,
-    {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${API_KEY}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model: CONFIG.model,
-        messages: [
-          {
-            role: "system",
-            content: SYSTEM_PROMPT
-          },
-          {
-            role: "user",
-            content: buildPrompt(queueBatch, batchId)
-          }
-        ],
-        temperature: GROQ_CONFIG.temperature,
-        max_tokens: CONFIG.generation.batch_max_output_tokens,
-        include_reasoning: false,
-        response_format: {
-          type: "json_object"
-        }
-      }),
-      signal: AbortSignal.timeout(900000)
-    }
+  /*
+   * Groq key failover:
+   *
+   * The batch generator is launched as a separate Node process
+   * for every batch. Therefore the active key is persisted in
+   * data/groq-key-state.json.
+   *
+   * Key 1 is always preferred at the beginning of a fresh CI run.
+   * When Groq reports TPD exhaustion, immediately switch to Key 2.
+   */
+  let keyState = loadKeyState();
+
+  let activeKeyIndex = Math.min(
+    Math.max(Number(keyState.active_key_index) || 0, 0),
+    API_KEYS.length - 1
   );
+
+  let response = null;
+
+  /*
+   * Malformed model responses are recoverable. They must never
+   * terminate the entire study-day runner immediately.
+   */
+  const MAX_RESPONSE_RETRIES = 8;
+
+  while (true) {
+    const activeKey = API_KEYS[activeKeyIndex];
+
+    console.log(
+      `GROQ KEY: ${activeKeyIndex + 1}/${API_KEYS.length}`
+    );
+
+    try {
+      response = await fetchWithRetry(
+        GROQ_CONFIG.api_url,
+        {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${activeKey}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            model: CONFIG.model,
+            messages: [
+              {
+                role: "system",
+                content: SYSTEM_PROMPT
+              },
+              {
+                role: "user",
+                content: buildPrompt(queueBatch, batchId)
+              }
+            ],
+            temperature: GROQ_CONFIG.temperature,
+            max_tokens: CONFIG.generation.batch_max_output_tokens,
+            include_reasoning: false,
+            response_format: {
+              type: "json_object"
+            }
+          }),
+          signal: AbortSignal.timeout(900000)
+        }
+      );
+
+      /*
+       * A successful request means this key is currently usable.
+       * Keep it as the active key for subsequent batches.
+       */
+      if (activeKeyIndex !== keyState.active_key_index) {
+        saveKeyState(activeKeyIndex);
+      }
+
+      break;
+    } catch (error) {
+      /*
+       * TPD is the only condition that causes API-key failover.
+       * TPM/RPM/server/network errors are already handled by
+       * fetchWithRetry with waiting and retries.
+       */
+      if (error?.code === "GROQ_TPD") {
+        console.error("");
+        console.error(
+          `GROQ KEY ${activeKeyIndex + 1} TOKEN-PER-DAY LIMIT REACHED`
+        );
+
+        if (activeKeyIndex + 1 < API_KEYS.length) {
+          activeKeyIndex += 1;
+          keyState = {
+            ...keyState,
+            active_key_index: activeKeyIndex
+          };
+
+          saveKeyState(activeKeyIndex);
+
+          console.log(
+            `SWITCHING TO GROQ KEY ${activeKeyIndex + 1}/${API_KEYS.length}`
+          );
+
+          continue;
+        }
+
+        console.error(
+          "ALL CONFIGURED GROQ API KEYS HAVE REACHED THEIR TPD LIMIT."
+        );
+        console.error(
+          "STOPPING SAFELY. THE NEXT CI RUN CAN RESUME FROM THIS BATCH."
+        );
+
+        throw new Error(
+          "GROQ_ALL_KEYS_TPD: all configured Groq API keys reached their tokens-per-day limit"
+        );
+      }
+
+      throw error;
+    }
+  }
 
   saveQuotaState(response.headers);
 
@@ -649,28 +755,117 @@ console.log(
   `requests ${rateState.requestRemaining}/${rateState.requestLimit}`
 );
 
-  const payload = await response.json();
+  let payload;
 
-  if (
-    !payload.choices ||
-    !payload.choices[0] ||
-    !payload.choices[0].message
-  ) {
-    throw new Error("Invalid Groq response");
+  try {
+    payload = await response.json();
+  } catch (error) {
+    payload = null;
   }
 
-  const content = payload.choices[0].message.content;
+  let content = null;
 
-  if (!content) {
-    throw new Error("Groq returned empty content");
+  if (
+    payload?.choices &&
+    payload.choices[0] &&
+    payload.choices[0].message
+  ) {
+    content = payload.choices[0].message.content;
+  }
+
+  /*
+   * Groq may return failed_generation or another malformed
+   * structured-output response. This is recoverable because
+   * the same batch can simply be generated again.
+   */
+  const invalidResponse =
+    !payload ||
+    !payload.choices ||
+    !payload.choices[0] ||
+    !payload.choices[0].message ||
+    !content;
+
+  if (invalidResponse) {
+    const reason =
+      payload?.error?.failed_generation
+        ? "Groq returned failed_generation"
+        : !payload
+          ? "Groq returned unreadable JSON response"
+          : !payload.choices
+            ? "Groq response contained no choices"
+            : !content
+              ? "Groq returned empty content"
+              : "Groq returned an invalid response";
+
+    console.error("");
+    console.error(`GROQ RESPONSE REJECTED: ${reason}`);
+
+    if (payload?.error?.message) {
+      console.error(
+        `GROQ ERROR: ${String(payload.error.message).slice(0, 1000)}`
+      );
+    }
+
+    if (retryCount >= MAX_RESPONSE_RETRIES - 1) {
+      throw new Error(
+        `Groq response remained invalid after ${MAX_RESPONSE_RETRIES} attempts: ${reason}`
+      );
+    }
+
+    const wait = Math.min(
+      30000,
+      2000 * Math.pow(2, retryCount)
+    );
+
+    const retryProgress = loadProgress();
+    markRetry(retryProgress);
+
+    console.log(
+      `RESPONSE RETRY ${retryCount + 1}/${MAX_RESPONSE_RETRIES} — ` +
+      `waiting ${Math.ceil(wait / 1000)}s`
+    );
+
+    await sleep(wait);
+
+    return requestBatch(
+      batchNumber,
+      retryCount + 1
+    );
   }
 
   let data;
 
   try {
     data = JSON.parse(content);
-  } catch {
-    throw new Error("Groq returned invalid JSON");
+  } catch (error) {
+    console.error("");
+    console.error("GROQ RESPONSE REJECTED: invalid JSON content");
+
+    if (retryCount >= MAX_RESPONSE_RETRIES - 1) {
+      throw new Error(
+        `Groq returned invalid JSON after ${MAX_RESPONSE_RETRIES} attempts`
+      );
+    }
+
+    const wait = Math.min(
+      30000,
+      2000 * Math.pow(2, retryCount)
+    );
+
+    const retryProgress = loadProgress();
+    markRetry(retryProgress);
+
+    console.log(
+      `JSON RETRY ${retryCount + 1}/${MAX_RESPONSE_RETRIES} — ` +
+      `waiting ${Math.ceil(wait / 1000)}s`
+    );
+
+    await sleep(wait);
+
+    return requestBatch(
+      batchNumber,
+      retryCount + 1
+    );
   }
 
   try {
