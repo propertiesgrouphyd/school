@@ -94,6 +94,50 @@ fs.mkdirSync(batchDirectory, { recursive: true });
 const sleep = (ms) =>
   new Promise((resolve) => setTimeout(resolve, ms));
 
+const QUOTA_STATE_FILE = path.join(
+  ROOT,
+  "data",
+  "groq-quota-state.json"
+);
+
+function saveQuotaState(headers) {
+  if (!headers) return;
+
+  const state = {
+    updated_at: new Date().toISOString(),
+    token_limit: getHeader(headers, "x-ratelimit-limit-tokens"),
+    token_remaining: getHeader(headers, "x-ratelimit-remaining-tokens"),
+    token_reset: getHeader(headers, "x-ratelimit-reset-tokens"),
+    request_limit: getHeader(headers, "x-ratelimit-limit-requests"),
+    request_remaining: getHeader(headers, "x-ratelimit-remaining-requests"),
+    request_reset: getHeader(headers, "x-ratelimit-reset-requests")
+  };
+
+  const tempFile = `${QUOTA_STATE_FILE}.tmp`;
+
+  fs.writeFileSync(
+    tempFile,
+    JSON.stringify(state, null, 2) + "\n",
+    "utf8"
+  );
+
+  fs.renameSync(tempFile, QUOTA_STATE_FILE);
+}
+
+function loadQuotaState() {
+  if (!fs.existsSync(QUOTA_STATE_FILE)) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(
+      fs.readFileSync(QUOTA_STATE_FILE, "utf8")
+    );
+  } catch {
+    return null;
+  }
+}
+
 function parseResetDuration(value) {
   if (!value) return 1000;
 
@@ -428,10 +472,59 @@ async function requestBatch(batchNumber, retryCount = 0) {
 
   /*
    * Wait BEFORE the next Groq request when the previous
-   * response shows insufficient remaining quota.
+   * batch left insufficient quota.
+   *
+   * The batch generator runs as a separate Node process for
+   * every batch, so quota state must be persisted to disk.
    */
-  if (globalThis.__vidhwaanLastGroqHeaders) {
-    await waitForQuota(globalThis.__vidhwaanLastGroqHeaders);
+  const previousQuotaState = loadQuotaState();
+
+  if (previousQuotaState) {
+    const quotaHeaders = new Headers();
+
+    if (previousQuotaState.token_limit !== null) {
+      quotaHeaders.set(
+        "x-ratelimit-limit-tokens",
+        previousQuotaState.token_limit ?? ""
+      );
+    }
+
+    if (previousQuotaState.token_remaining !== null) {
+      quotaHeaders.set(
+        "x-ratelimit-remaining-tokens",
+        previousQuotaState.token_remaining ?? ""
+      );
+    }
+
+    if (previousQuotaState.token_reset !== null) {
+      quotaHeaders.set(
+        "x-ratelimit-reset-tokens",
+        previousQuotaState.token_reset ?? ""
+      );
+    }
+
+    if (previousQuotaState.request_limit !== null) {
+      quotaHeaders.set(
+        "x-ratelimit-limit-requests",
+        previousQuotaState.request_limit ?? ""
+      );
+    }
+
+    if (previousQuotaState.request_remaining !== null) {
+      quotaHeaders.set(
+        "x-ratelimit-remaining-requests",
+        previousQuotaState.request_remaining ?? ""
+      );
+    }
+
+    if (previousQuotaState.request_reset !== null) {
+      quotaHeaders.set(
+        "x-ratelimit-reset-requests",
+        previousQuotaState.request_reset ?? ""
+      );
+    }
+
+    await waitForQuota(quotaHeaders);
   }
 
   const response = await fetchWithRetry(
@@ -465,7 +558,7 @@ async function requestBatch(batchNumber, retryCount = 0) {
     }
   );
 
-  globalThis.__vidhwaanLastGroqHeaders = response.headers;
+  saveQuotaState(response.headers);
 
   const rateState = getRateLimitState(response.headers);
 console.log(
