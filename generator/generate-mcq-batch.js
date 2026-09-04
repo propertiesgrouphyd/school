@@ -377,7 +377,7 @@ async function requestBatch(batchNumber, retryCount = 0) {
           }
         ],
         temperature: GROQ_CONFIG.temperature,
-        max_tokens: 3500,
+        max_tokens: CONFIG.generation.batch_max_output_tokens,
         include_reasoning: false,
         response_format: {
           type: "json_schema",
