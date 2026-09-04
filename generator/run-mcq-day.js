@@ -63,7 +63,7 @@ async function checkpointBatches() {
   await new Promise((resolve, reject) => {
     const add = spawn(
       "git",
-      ["add", "data/batches", "data/days"],
+      ["add", "data/batches"],
       {
         cwd: ROOT,
         stdio: "inherit"

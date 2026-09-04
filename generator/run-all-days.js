@@ -123,7 +123,7 @@ function checkpointToGitHub(dayNumber) {
 
   return new Promise((resolve, reject) => {
     const commands = [
-      ["git", ["add", "data/batches", "data/days"]],
+      ["git", ["add", "data/batches"]],
       ["git", ["diff", "--cached", "--quiet"]]
     ];
 

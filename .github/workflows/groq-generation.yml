@@ -53,7 +53,7 @@ jobs:
 
       - name: Commit remaining generated content
         run: |
-          git add data/batches data/days
+          git add data/batches
 
           if git diff --cached --quiet; then
             echo "No remaining generated content changes to commit."
