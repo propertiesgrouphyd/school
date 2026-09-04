@@ -41,20 +41,22 @@ jobs:
           fi
           echo "GROQ_API_KEY: AVAILABLE"
 
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Run Groq generation
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node generator/run-all-days.js
 
-      - name: Commit generated content
+      - name: Commit remaining generated content
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add data/batches data/days
 
           if git diff --cached --quiet; then
-            echo "No generated content changes to commit."
+            echo "No remaining generated content changes to commit."
           else
             git commit -m "Generate Vidhwaan School daily content"
             git push origin main

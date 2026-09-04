@@ -116,6 +116,108 @@ function getQueue(dayNumber) {
   return queue;
 }
 
+function checkpointToGitHub(dayNumber) {
+  if (process.env.GITHUB_ACTIONS !== "true") {
+    return;
+  }
+
+  return new Promise((resolve, reject) => {
+    const commands = [
+      ["git", ["add", "data/batches", "data/days"]],
+      ["git", ["diff", "--cached", "--quiet"]]
+    ];
+
+    const check = spawn(commands[0][0], commands[0][1], {
+      cwd: ROOT,
+      stdio: "inherit"
+    });
+
+    check.on("error", reject);
+
+    check.on("close", (addCode) => {
+      if (addCode !== 0) {
+        reject(
+          new Error(
+            `Git staging failed after Day ${dayNumber}`
+          )
+        );
+        return;
+      }
+
+      const diff = spawn(commands[1][0], commands[1][1], {
+        cwd: ROOT,
+        stdio: "inherit"
+      });
+
+      diff.on("error", reject);
+
+      diff.on("close", (diffCode) => {
+        if (diffCode === 0) {
+          console.log(
+            `DAY ${dayNumber}: NOTHING NEW TO COMMIT`
+          );
+          resolve();
+          return;
+        }
+
+        const commit = spawn(
+          "git",
+          [
+            "commit",
+            "-m",
+            `Generate Vidhwaan School Day ${dayNumber}`
+          ],
+          {
+            cwd: ROOT,
+            stdio: "inherit"
+          }
+        );
+
+        commit.on("error", reject);
+
+        commit.on("close", (commitCode) => {
+          if (commitCode !== 0) {
+            reject(
+              new Error(
+                `Git commit failed after Day ${dayNumber}`
+              )
+            );
+            return;
+          }
+
+          const push = spawn(
+            "git",
+            ["push", "origin", "main"],
+            {
+              cwd: ROOT,
+              stdio: "inherit"
+            }
+          );
+
+          push.on("error", reject);
+
+          push.on("close", (pushCode) => {
+            if (pushCode !== 0) {
+              reject(
+                new Error(
+                  `Git push failed after Day ${dayNumber}`
+                )
+              );
+              return;
+            }
+
+            console.log(
+              `DAY ${dayNumber}: CHECKPOINT PUSHED TO GITHUB`
+            );
+
+            resolve();
+          });
+        });
+      });
+    });
+  });
+}
+
 console.log("==============================================");
 console.log("VIDHWAAN SCHOOL — PRODUCTION MCQ GENERATION");
 console.log("==============================================");
@@ -191,6 +293,8 @@ for (const day of days) {
     console.log(
       `DAY ${dayNumber}: ALL ${totalBatches} BATCHES COMPLETE`
     );
+
+    await checkpointToGitHub(dayNumber);
   } catch (error) {
     console.error("");
     console.error("==============================================");
