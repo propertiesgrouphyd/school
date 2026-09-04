@@ -103,14 +103,73 @@ const QUOTA_STATE_FILE = path.join(
 function saveQuotaState(headers) {
   if (!headers) return;
 
+  const now = Date.now();
+
+  const tokenReset = getHeader(
+    headers,
+    "x-ratelimit-reset-tokens"
+  );
+
+  const requestReset = getHeader(
+    headers,
+    "x-ratelimit-reset-requests"
+  );
+
+  const parseResetMs = (value) => {
+    if (!value) return null;
+
+    const match = String(value).trim().match(
+      /^(?:(\d+(?:\.\d+)?)h)?(?:(\d+(?:\.\d+)?)m)?(?:(\d+(?:\.\d+)?)s)?$/
+    );
+
+    if (!match) return null;
+
+    const hours = Number(match[1] || 0);
+    const minutes = Number(match[2] || 0);
+    const seconds = Number(match[3] || 0);
+
+    return (
+      hours * 60 * 60 * 1000 +
+      minutes * 60 * 1000 +
+      seconds * 1000
+    );
+  };
+
+  const tokenResetMs = parseResetMs(tokenReset);
+  const requestResetMs = parseResetMs(requestReset);
+
   const state = {
-    updated_at: new Date().toISOString(),
-    token_limit: getHeader(headers, "x-ratelimit-limit-tokens"),
-    token_remaining: getHeader(headers, "x-ratelimit-remaining-tokens"),
-    token_reset: getHeader(headers, "x-ratelimit-reset-tokens"),
-    request_limit: getHeader(headers, "x-ratelimit-limit-requests"),
-    request_remaining: getHeader(headers, "x-ratelimit-remaining-requests"),
-    request_reset: getHeader(headers, "x-ratelimit-reset-requests")
+    updated_at: new Date(now).toISOString(),
+
+    token_limit: getHeader(
+      headers,
+      "x-ratelimit-limit-tokens"
+    ),
+
+    token_remaining: getHeader(
+      headers,
+      "x-ratelimit-remaining-tokens"
+    ),
+
+    token_reset_at:
+      tokenResetMs === null
+        ? null
+        : new Date(now + tokenResetMs).toISOString(),
+
+    request_limit: getHeader(
+      headers,
+      "x-ratelimit-limit-requests"
+    ),
+
+    request_remaining: getHeader(
+      headers,
+      "x-ratelimit-remaining-requests"
+    ),
+
+    request_reset_at:
+      requestResetMs === null
+        ? null
+        : new Date(now + requestResetMs).toISOString()
   };
 
   const tempFile = `${QUOTA_STATE_FILE}.tmp`;
@@ -130,9 +189,33 @@ function loadQuotaState() {
   }
 
   try {
-    return JSON.parse(
+    const state = JSON.parse(
       fs.readFileSync(QUOTA_STATE_FILE, "utf8")
     );
+
+    const now = Date.now();
+
+    const remainingDuration = (resetAt) => {
+      if (!resetAt) return null;
+
+      const resetTime = Date.parse(resetAt);
+
+      if (!Number.isFinite(resetTime)) {
+        return null;
+      }
+
+      return Math.max(0, resetTime - now);
+    };
+
+    state.token_reset = remainingDuration(
+      state.token_reset_at
+    );
+
+    state.request_reset = remainingDuration(
+      state.request_reset_at
+    );
+
+    return state;
   } catch {
     return null;
   }
