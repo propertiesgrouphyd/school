@@ -1,0 +1,61 @@
+name: Vidhwaan School - Groq Generation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+concurrency:
+  group: vidhwaan-school-groq-generation
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Validate project
+        run: npm run validate
+
+      - name: Verify Groq API key
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if [ -z "$GROQ_API_KEY" ]; then
+            echo "ERROR: GROQ_API_KEY GitHub Secret is missing"
+            exit 1
+          fi
+          echo "GROQ_API_KEY: AVAILABLE"
+
+      - name: Run Groq generation
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node generator/run-all-days.js
+
+      - name: Commit generated content
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/batches data/days
+
+          if git diff --cached --quiet; then
+            echo "No generated content changes to commit."
+          else
+            git commit -m "Generate Vidhwaan School daily content"
+            git push origin main
+          fi
