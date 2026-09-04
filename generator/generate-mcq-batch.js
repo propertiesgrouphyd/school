@@ -461,7 +461,7 @@ async function requestBatch(batchNumber, retryCount = 0) {
           type: "json_object"
         }
       }),
-      signal: AbortSignal.timeout(180000)
+      signal: AbortSignal.timeout(900000)
     }
   );
 
