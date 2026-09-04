@@ -239,19 +239,58 @@ for (const day of days) {
 
   const totalBatches = queue.batches.length;
 
-  const existingBatches = queue.batches.filter(
-    (batch) =>
-      fs.existsSync(
-        batchFile(
-          dayNumber,
-          batch.batch_number
-        )
-      )
-  ).length;
+  /*
+   * An existing file is not automatically considered complete.
+   * Every existing batch must pass the authoritative validator.
+   */
+  let existingBatches = 0;
+
+  for (const batch of queue.batches) {
+    const file = batchFile(
+      dayNumber,
+      batch.batch_number
+    );
+
+    if (!fs.existsSync(file)) {
+      continue;
+    }
+
+    const validation = await new Promise((resolve, reject) => {
+      const child = spawn(
+        process.execPath,
+        [
+          path.join(
+            ROOT,
+            "scripts",
+            "validate-mcq-batch.js"
+          ),
+          file
+        ],
+        {
+          cwd: ROOT,
+          stdio: "ignore"
+        }
+      );
+
+      child.on("error", reject);
+      child.on("close", resolve);
+    });
+
+    if (validation === 0) {
+      existingBatches++;
+    } else {
+      console.log(
+        `DAY ${dayNumber}: INVALID EXISTING BATCH ` +
+        `${batch.batch_number} — WILL REGENERATE`
+      );
+
+      fs.rmSync(file, { force: true });
+    }
+  }
 
   if (existingBatches === totalBatches) {
     console.log(
-      `DAY ${dayNumber}: ALL ${totalBatches} BATCHES ALREADY COMPLETE — SKIPPING`
+      `DAY ${dayNumber}: ALL ${totalBatches} BATCHES VALID — SKIPPING`
     );
     skippedDays++;
     continue;

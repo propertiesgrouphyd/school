@@ -120,6 +120,10 @@ function getHeader(headers, name) {
 }
 
 async function waitForQuota(headers) {
+  if (!headers) {
+    return;
+  }
+
   const remainingTokens = Number(
     getHeader(headers, "x-ratelimit-remaining-tokens")
   );
@@ -128,17 +132,22 @@ async function waitForQuota(headers) {
     getHeader(headers, "x-ratelimit-remaining-requests")
   );
 
+  const safeTokenReserve =
+    CONFIG.rate_limits.safe_tokens_per_minute;
+
+  /*
+   * Never start another request when the remaining token
+   * capacity is below the safe reserve.
+   */
   if (
     Number.isFinite(remainingTokens) &&
-    remainingTokens <=
-      CONFIG.rate_limits.tokens_per_minute -
-        CONFIG.rate_limits.safe_tokens_per_minute
+    remainingTokens < safeTokenReserve
   ) {
     const reset = parseResetDuration(
       getHeader(headers, "x-ratelimit-reset-tokens")
     );
 
-    const wait = reset + 500;
+    const wait = Math.max(reset, 1000) + 1000;
 
     console.log(
       `TOKEN QUOTA LOW: ${remainingTokens} remaining`
@@ -151,12 +160,19 @@ async function waitForQuota(headers) {
     await sleep(wait);
   }
 
-  if (Number.isFinite(remainingRequests) && remainingRequests <= 2) {
+  /*
+   * The request limit is 1000/minute and is normally not
+   * the limiting resource, but protect against exhaustion.
+   */
+  if (
+    Number.isFinite(remainingRequests) &&
+    remainingRequests <= 2
+  ) {
     const reset = parseResetDuration(
       getHeader(headers, "x-ratelimit-reset-requests")
     );
 
-    const wait = reset + 500;
+    const wait = Math.max(reset, 1000) + 1000;
 
     console.log(
       `REQUEST QUOTA LOW: ${remainingRequests} remaining`
@@ -356,6 +372,14 @@ async function requestBatch(batchNumber, retryCount = 0) {
   console.log(`BATCH ID: ${batchId}`);
   console.log("=".repeat(60));
 
+  /*
+   * Wait BEFORE the next Groq request when the previous
+   * response shows insufficient remaining quota.
+   */
+  if (globalThis.__vidhwaanLastGroqHeaders) {
+    await waitForQuota(globalThis.__vidhwaanLastGroqHeaders);
+  }
+
   const response = await fetchWithRetry(
     GROQ_CONFIG.api_url,
     {
@@ -392,58 +416,13 @@ async function requestBatch(batchNumber, retryCount = 0) {
     }
   );
 
-  await waitForQuota(response.headers);
-
-  if (response.status === 429) {
-    const retryAfter = getHeader(response.headers, "retry-after");
-
-    const wait =
-      retryAfter && !Number.isNaN(Number(retryAfter))
-        ? Number(retryAfter) * 1000 + 1000
-        : Math.min(60000, 2000 * Math.pow(2, retryCount));
-
-    console.log(
-      `RATE LIMITED (429). Waiting ${Math.ceil(wait / 1000)} seconds...`
-    );
-
-    const retryProgress = loadProgress();
-    markRetry(retryProgress);
-
-    await sleep(wait);
-
-    return requestBatch(batchNumber, retryCount + 1);
-  }
-
-  if (response.status >= 500) {
-    const wait = Math.min(
-      60000,
-      2000 * Math.pow(2, retryCount)
-    );
-
-    console.log(
-      `SERVER ERROR ${response.status}. Retrying in ${Math.ceil(
-        wait / 1000
-      )} seconds...`
-    );
-
-    await sleep(wait);
-
-    return requestBatch(batchNumber, retryCount + 1);
-  }
+  globalThis.__vidhwaanLastGroqHeaders = response.headers;
 
   const rateState = getRateLimitState(response.headers);
 console.log(
   `RATE STATUS: tokens ${rateState.tokenRemaining}/${rateState.tokenLimit} | ` +
   `requests ${rateState.requestRemaining}/${rateState.requestLimit}`
 );
-
-if (!response.ok) {
-    const body = await response.text();
-
-    throw new Error(
-      `Groq HTTP ${response.status}: ${body}`
-    );
-  }
 
   const payload = await response.json();
 
@@ -543,9 +522,33 @@ if (!response.ok) {
       fs.unlinkSync(tempPath);
     }
 
-    throw new Error(
-      "MCQ BATCH REJECTED BY AUTHORITATIVE VALIDATOR"
+    const retryProgress = loadProgress();
+    markRetry(retryProgress);
+
+    if (retryCount >= 7) {
+      throw new Error(
+        `MCQ batch ${batchId} failed authoritative validation after 8 attempts`
+      );
+    }
+
+    const wait = Math.min(
+      15000,
+      2000 * Math.pow(2, retryCount)
     );
+
+    console.error(
+      `AUTHORITATIVE VALIDATION FAILED — ` +
+      `REGENERATING ${batchId} ` +
+      `(attempt ${retryCount + 2}/8)`
+    );
+
+    console.log(
+      `VALIDATOR RETRY WAIT: ${Math.ceil(wait / 1000)}s`
+    );
+
+    await sleep(wait);
+
+    return requestBatch(batchNumber, retryCount + 1);
   }
 
   fs.renameSync(tempPath, outputPath);

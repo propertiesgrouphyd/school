@@ -53,6 +53,145 @@ function batchFile(batchNumber) {
   );
 }
 
+async function checkpointBatches() {
+  if (process.env.GITHUB_ACTIONS !== "true") {
+    return;
+  }
+
+  const { spawn } = await import("child_process");
+
+  await new Promise((resolve, reject) => {
+    const add = spawn(
+      "git",
+      ["add", "data/batches", "data/days"],
+      {
+        cwd: ROOT,
+        stdio: "inherit"
+      }
+    );
+
+    add.on("error", reject);
+
+    add.on("close", (addCode) => {
+      if (addCode !== 0) {
+        reject(new Error("Git staging failed during batch checkpoint"));
+        return;
+      }
+
+      const diff = spawn(
+        "git",
+        ["diff", "--cached", "--quiet"],
+        {
+          cwd: ROOT,
+          stdio: "inherit"
+        }
+      );
+
+      diff.on("error", reject);
+
+      diff.on("close", (diffCode) => {
+        if (diffCode === 0) {
+          resolve();
+          return;
+        }
+
+        const commit = spawn(
+          "git",
+          [
+            "commit",
+            "-m",
+            `Checkpoint Vidhwaan School Day ${DAY} batches`
+          ],
+          {
+            cwd: ROOT,
+            stdio: "inherit"
+          }
+        );
+
+        commit.on("error", reject);
+
+        commit.on("close", (commitCode) => {
+          if (commitCode !== 0) {
+            reject(
+              new Error("Git commit failed during batch checkpoint")
+            );
+            return;
+          }
+
+          const pushWithRetry = (attempt = 1) => {
+            const push = spawn(
+              "git",
+              ["push", "origin", "main"],
+              {
+                cwd: ROOT,
+                stdio: "inherit"
+              }
+            );
+
+            push.on("error", (error) => {
+              if (attempt >= 5) {
+                reject(
+                  new Error(
+                    `Git push failed after ${attempt} attempts: ${error.message}`
+                  )
+                );
+                return;
+              }
+
+              const waitMs = Math.min(60000, 5000 * attempt);
+
+              console.log(
+                `GIT PUSH RETRY ${attempt + 1}/5 — waiting ${Math.ceil(
+                  waitMs / 1000
+                )}s`
+              );
+
+              setTimeout(
+                () => pushWithRetry(attempt + 1),
+                waitMs
+              );
+            });
+
+            push.on("close", (pushCode) => {
+              if (pushCode === 0) {
+                console.log(
+                  `BATCH CHECKPOINT: Day ${DAY} pushed to GitHub`
+                );
+                resolve();
+                return;
+              }
+
+              if (attempt >= 5) {
+                reject(
+                  new Error(
+                    `Git push failed after ${attempt} attempts`
+                  )
+                );
+                return;
+              }
+
+              const waitMs = Math.min(60000, 5000 * attempt);
+
+              console.log(
+                `GIT PUSH RETRY ${attempt + 1}/5 — waiting ${Math.ceil(
+                  waitMs / 1000
+                )}s`
+              );
+
+              setTimeout(
+                () => pushWithRetry(attempt + 1),
+                waitMs
+              );
+            });
+          };
+
+          pushWithRetry();
+        });
+      });
+    });
+  });
+}
+
 function runBatch(batchNumber) {
   return new Promise((resolve, reject) => {
     console.log("");
@@ -112,11 +251,44 @@ for (const batch of queue.batches) {
 
   if (fs.existsSync(file)) {
     console.log(
-      `SKIP BATCH ${number}: already completed`
+      `VERIFYING EXISTING BATCH ${number}...`
     );
-    skipped++;
-    completed++;
-    continue;
+
+    const validator = spawn(
+      process.execPath,
+      [
+        path.join(
+          ROOT,
+          "scripts",
+          "validate-mcq-batch.js"
+        ),
+        file
+      ],
+      {
+        cwd: ROOT,
+        stdio: "inherit"
+      }
+    );
+
+    const validationCode = await new Promise((resolve, reject) => {
+      validator.on("error", reject);
+      validator.on("close", resolve);
+    });
+
+    if (validationCode === 0) {
+      console.log(
+        `SKIP BATCH ${number}: existing batch VALID`
+      );
+      skipped++;
+      completed++;
+      continue;
+    }
+
+    console.log(
+      `EXISTING BATCH ${number} IS INVALID — REGENERATING`
+    );
+
+    fs.rmSync(file, { force: true });
   }
 
   try {
@@ -133,6 +305,13 @@ for (const batch of queue.batches) {
     console.log(
       `BATCH ${number} CONFIRMED SAVED`
     );
+
+    if (
+      process.env.GITHUB_ACTIONS === "true" &&
+      completed % 5 === 0
+    ) {
+      await checkpointBatches();
+    }
   } catch (error) {
     failed++;
 
