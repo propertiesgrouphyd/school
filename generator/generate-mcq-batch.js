@@ -469,7 +469,39 @@ if (!response.ok) {
     throw new Error("Groq returned invalid JSON");
   }
 
-  validateBatchStructure(data);
+  try {
+    validateBatchStructure(data);
+  } catch (error) {
+    console.error("");
+    console.error(
+      `BATCH CONTENT VALIDATION FAILED: ${error.message}`
+    );
+    console.error(
+      "REJECTING MODEL OUTPUT AND REGENERATING THE SAME BATCH..."
+    );
+
+    const retryProgress = loadProgress();
+    markRetry(retryProgress);
+
+    if (retryCount >= 7) {
+      throw new Error(
+        `Batch ${batchId} failed content validation after ${retryCount + 1} attempts: ${error.message}`
+      );
+    }
+
+    const wait = Math.min(
+      15000,
+      2000 * Math.pow(2, retryCount)
+    );
+
+    console.log(
+      `CONTENT RETRY ${retryCount + 1}/8 — waiting ${Math.ceil(wait / 1000)}s`
+    );
+
+    await sleep(wait);
+
+    return requestBatch(batchNumber, retryCount + 1);
+  }
 
   if (data.batch_id !== batchId) {
     data.batch_id = batchId;

@@ -32,16 +32,22 @@ function parseReset(value) {
 
   const text = String(value).trim();
 
-  if (text.endsWith("ms")) {
-    return Math.max(0, number(text.replace("ms", "")));
+  if (/^\\d+(?:\\.\\d+)?ms$/.test(text)) {
+    return Math.max(0, number(text.slice(0, -2)));
   }
 
-  if (text.endsWith("s")) {
-    return Math.max(0, number(text.replace("s", "")) * 1000);
-  }
+  const match = text.match(
+    /^(?:(\\d+(?:\\.\\d+)?)m)?(?:(\\d+(?:\\.\\d+)?)s)?$/
+  );
 
-  if (text.endsWith("m")) {
-    return Math.max(0, number(text.replace("m", "")) * 60000);
+  if (match && (match[1] !== undefined || match[2] !== undefined)) {
+    const minutes = match[1] ? number(match[1]) : 0;
+    const seconds = match[2] ? number(match[2]) : 0;
+
+    return Math.max(
+      0,
+      minutes * 60000 + seconds * 1000
+    );
   }
 
   const n = number(text);
