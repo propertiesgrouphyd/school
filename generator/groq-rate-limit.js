@@ -147,6 +147,32 @@ export async function fetchWithRetry(url, options) {
 
       const body = await response.text();
 
+      /*
+       * Groq may return a complete JSON generation inside
+       * failed_generation while reporting json_validate_failed.
+       * Preserve that payload so the caller can parse and apply
+       * its own authoritative validation.
+       */
+      if (
+        response.status === 400 &&
+        body.includes('"code":"json_validate_failed"') &&
+        body.includes('"failed_generation"')
+      ) {
+        const recovered = new Response(
+          body,
+          {
+            status: 200,
+            headers: response.headers
+          }
+        );
+
+        console.log(
+          "GROQ JSON VALIDATION ERROR: recovered failed_generation payload"
+        );
+
+        return recovered;
+      }
+
       throw new Error(
         `HTTP ${response.status}: ${body}`
       );

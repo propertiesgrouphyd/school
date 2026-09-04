@@ -9,7 +9,6 @@ const {
   loadProgress,
   markStarted,
   markBatchCompleted,
-  markFailure,
   markRetry
 } = await import("./progress.js");
 
@@ -34,8 +33,11 @@ const MANIFEST = Array.isArray(MANIFEST_RAW)
   ? MANIFEST_RAW
   : MANIFEST_RAW.days;
 
-const SCHEMA = JSON.parse(
-  fs.readFileSync(path.join(ROOT, "config/mcq-batch-schema.json"), "utf8")
+const BASE_SCHEMA = JSON.parse(
+  fs.readFileSync(
+    path.join(ROOT, "config/mcq-batch-schema.json"),
+    "utf8"
+  )
 );
 
 const SYSTEM_PROMPT = fs.readFileSync(
@@ -210,6 +212,32 @@ function validateBatchStructure(data) {
   }
 
   for (const [index, mcq] of data.mcqs.entries()) {
+
+    if (!Number.isInteger(mcq.job_number)) {
+      throw new Error(
+        `MCQ ${index + 1}: job_number must be an integer`
+      );
+    }
+
+    if (
+      ![
+        "direct_concept",
+        "conceptual_understanding",
+        "definition_and_distinction",
+        "application",
+        "example_based",
+        "scenario_based",
+        "misconception_check",
+        "reasoning",
+        "comparison",
+        "competitive_exam"
+      ].includes(mcq.question_type)
+    ) {
+      throw new Error(
+        `MCQ ${index + 1}: invalid question_type`
+      );
+    }
+
     const required = [
       "mcq_id",
       "learning_unit_id",
@@ -288,7 +316,7 @@ function validateBatchStructure(data) {
   }
 }
 
-function buildPrompt(batch) {
+function buildPrompt(batch, batchId) {
   const curriculum = JSON.stringify(
     batch.jobs,
     null,
@@ -304,8 +332,22 @@ Do not add, remove, rename, merge, replace, or invent any syllabus item.
 DAY:
 ${DAY}
 
+EXACT BATCH ID:
+${batchId}
+
 ASSIGNED MCQ JOBS FOR THIS BATCH:
 ${curriculum}
+
+MANDATORY TOP-LEVEL OUTPUT:
+{
+  "day": ${DAY},
+  "batch_id": "${batchId}",
+  "mcqs": [...]
+}
+
+The value of "day" MUST be exactly ${DAY}.
+The value of "batch_id" MUST be exactly "${batchId}".
+Never use another day number or another batch ID.
 
 Each job specifies exactly one MCQ to generate.
 
@@ -335,19 +377,23 @@ MCQ REQUIREMENTS:
 19. Explanations should explain why the correct answer is correct and,
     where useful, why the other options are incorrect.
 20. Do not introduce unrelated syllabus content.
-21. Do not generate an MCQ for any job not supplied above.
-22. Do not omit any supplied job.
-23. Return ONLY valid JSON matching the supplied schema.
-24. Do not return Markdown.
-25. Do not return commentary.
-26. Do not return a partial batch.
-27. Complete every supplied job before returning JSON.
-
-Return exactly one complete MCQ for each supplied job.
-Return complete JSON only.
-
-JSON schema:
-${JSON.stringify(SCHEMA)}
+21. Every MCQ MUST contain the exact job_number of its assigned job.
+22. Every MCQ MUST contain the exact question_type of its assigned job.
+23. Every MCQ object MUST contain these fields:
+    job_number, question_type, mcq_id, learning_unit_id, learning_point,
+    question, options, correct_option, answer, explanation, difficulty.
+24. The options object MUST contain exactly A, B, C and D.
+25. correct_option MUST be exactly one of A, B, C or D.
+26. answer MUST exactly equal the text of the selected option.
+27. Do not generate an MCQ for any job not supplied above.
+28. Do not omit any supplied job.
+29. Do not reuse a job_number.
+30. Return ONLY valid JSON.
+31. Do not return Markdown.
+32. Do not return commentary.
+33. Do not return a partial batch.
+34. Complete every supplied job before returning JSON.
+35. Return exactly one complete MCQ for each supplied job.
 `;
 }
 async function requestBatch(batchNumber, retryCount = 0) {
@@ -364,6 +410,14 @@ async function requestBatch(batchNumber, retryCount = 0) {
   const batchId = `DAY-${String(DAY).padStart(3, "0")}-BATCH-${String(
     batchNumber
   ).padStart(4, "0")}`;
+
+  /*
+   * The batch identity is enforced by the prompt and by the
+   * authoritative validator below. JSON mode is deliberately
+   * used instead of Groq Structured Outputs so a model-side
+   * schema-generation failure cannot terminate the entire run.
+   */
+  const SCHEMA = JSON.parse(JSON.stringify(BASE_SCHEMA));
 
   console.log("");
   console.log("=".repeat(60));
@@ -397,19 +451,14 @@ async function requestBatch(batchNumber, retryCount = 0) {
           },
           {
             role: "user",
-            content: buildPrompt(queueBatch)
+            content: buildPrompt(queueBatch, batchId)
           }
         ],
         temperature: GROQ_CONFIG.temperature,
         max_tokens: CONFIG.generation.batch_max_output_tokens,
         include_reasoning: false,
         response_format: {
-          type: "json_schema",
-          json_schema: {
-            name: "vidhwaan_mcq_batch",
-            strict: true,
-            schema: SCHEMA
-          }
+          type: "json_object"
         }
       }),
       signal: AbortSignal.timeout(180000)
@@ -483,7 +532,9 @@ console.log(
   }
 
   if (data.batch_id !== batchId) {
-    data.batch_id = batchId;
+    throw new Error(
+      `Wrong batch_id returned: expected ${batchId}, got ${data.batch_id}`
+    );
   }
 
   const outputPath = path.join(
@@ -501,12 +552,27 @@ console.log(
 
   console.log("RUNNING AUTHORITATIVE BATCH VALIDATOR...");
 
+  /*
+   * The authoritative validator requires the exact production filename.
+   * Validate a temporary copy using that exact filename, then remove it.
+   */
+  const validationDirectory = fs.mkdtempSync(
+    path.join(batchDirectory, ".validate-")
+  );
+
+  const validationPath = path.join(
+    validationDirectory,
+    path.basename(outputPath)
+  );
+
+  fs.copyFileSync(tempPath, validationPath);
+
   const validator = await new Promise((resolve) => {
     const child = require("child_process").spawn(
       process.execPath,
       [
         path.join(ROOT, "scripts/validate-mcq-batch.js"),
-        tempPath
+        validationPath
       ],
       {
         cwd: ROOT,
@@ -515,6 +581,11 @@ console.log(
     );
 
     child.on("close", (code) => resolve(code));
+  });
+
+  fs.rmSync(validationDirectory, {
+    recursive: true,
+    force: true
   });
 
   if (validator !== 0) {

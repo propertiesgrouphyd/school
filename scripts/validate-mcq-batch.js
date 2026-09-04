@@ -14,6 +14,8 @@ const MANIFEST = Array.isArray(MANIFEST_RAW)
   ? MANIFEST_RAW
   : MANIFEST_RAW.days;
 
+const QUEUE_DIR = path.join(ROOT, "data", "mcq-queue");
+
 const file = process.argv[2];
 
 if (!file) {
@@ -52,10 +54,193 @@ if (!Array.isArray(data.mcqs)) {
   errors.push("mcqs must be an array");
 }
 
+/*
+ * The filename, day, batch number, and queue batch must agree.
+ * A generated batch is valid only when it is the exact batch
+ * requested by the authoritative MCQ queue.
+ */
+const fileName = path.basename(batchPath);
+const fileMatch = fileName.match(
+  /^DAY-(\d{3})-BATCH-(\d{4})\.json$/
+);
+
+if (!fileMatch) {
+  errors.push(
+    `Invalid batch filename: ${fileName}. Expected DAY-NNN-BATCH-NNNN.json`
+  );
+}
+
+const fileDay = fileMatch ? Number(fileMatch[1]) : null;
+const fileBatch = fileMatch ? Number(fileMatch[2]) : null;
+
+if (fileMatch && fileDay !== data.day) {
+  errors.push(
+    `Filename day ${fileDay} does not match data.day ${data.day}`
+  );
+}
+
+const expectedBatchId =
+  fileMatch
+    ? `DAY-${String(fileDay).padStart(3, "0")}-BATCH-${String(fileBatch).padStart(4, "0")}`
+    : null;
+
+if (expectedBatchId && data.batch_id !== expectedBatchId) {
+  errors.push(
+    `batch_id mismatch: expected ${expectedBatchId}, got ${data.batch_id}`
+  );
+}
+
+let queueBatch = null;
+
+if (fileMatch) {
+  const queuePath = path.join(
+    QUEUE_DIR,
+    `day-${String(fileDay).padStart(3, "0")}.json`
+  );
+
+  if (!fs.existsSync(queuePath)) {
+    errors.push(`MCQ queue not found: ${queuePath}`);
+  } else {
+    try {
+      const queue = JSON.parse(
+        fs.readFileSync(queuePath, "utf8")
+      );
+
+      queueBatch = Array.isArray(queue.batches)
+        ? queue.batches.find(
+            (batch) => batch.batch_number === fileBatch
+          )
+        : null;
+
+      if (!queueBatch) {
+        errors.push(
+          `Queue batch ${fileBatch} not found for Day ${fileDay}`
+        );
+      }
+    } catch (error) {
+      errors.push(
+        `Unable to read queue: ${error.message}`
+      );
+    }
+  }
+}
+
+if (queueBatch) {
+  const expectedCount = Number(queueBatch.target_mcqs);
+
+  if (
+    !Number.isInteger(expectedCount) ||
+    expectedCount < 1
+  ) {
+    errors.push(
+      `Invalid queue target_mcqs for batch ${fileBatch}`
+    );
+  } else if (data.mcqs.length !== expectedCount) {
+    errors.push(
+      `MCQ count mismatch: expected ${expectedCount}, got ${data.mcqs.length}`
+    );
+  }
+
+  /*
+   * Every queue batch is deliberately constructed from one
+   * learning unit. Therefore every generated MCQ must belong
+   * to that exact learning unit.
+   */
+  const expectedUnitIds = new Set(
+    queueBatch.jobs.map(
+      (job) => job.learning_unit_id
+    )
+  );
+
+  for (const [index, mcq] of data.mcqs.entries()) {
+    if (
+      mcq.learning_unit_id &&
+      !expectedUnitIds.has(mcq.learning_unit_id)
+    ) {
+      errors.push(
+        `MCQ ${index + 1}: learning_unit_id ${mcq.learning_unit_id} is not assigned to this queue batch`
+      );
+    }
+  }
+}
+
 if (errors.length > 0) {
   console.error("VALIDATION FAILED");
   for (const error of errors) console.error(`- ${error}`);
   process.exit(1);
+}
+
+/*
+ * JOB-LEVEL AUTHORITATIVE VALIDATION
+ *
+ * Every generated MCQ must correspond to exactly one queue job.
+ * The following fields must match the queue job exactly:
+ * job_number
+ * learning_unit_id
+ * learning_point
+ * question_type
+ * difficulty
+ */
+if (queueBatch) {
+  const expectedJobs = new Map();
+
+  for (const job of queueBatch.jobs) {
+    expectedJobs.set(job.job_number, job);
+  }
+
+  const seenJobNumbers = new Set();
+
+  for (const [index, mcq] of data.mcqs.entries()) {
+    const label = `MCQ ${index + 1}`;
+    const job = expectedJobs.get(mcq.job_number);
+
+    if (!job) {
+      errors.push(
+        `${label}: job_number ${mcq.job_number} does not belong to this batch`
+      );
+      continue;
+    }
+
+    if (seenJobNumbers.has(mcq.job_number)) {
+      errors.push(
+        `${label}: duplicate job_number ${mcq.job_number}`
+      );
+    } else {
+      seenJobNumbers.add(mcq.job_number);
+    }
+
+    if (mcq.learning_unit_id !== job.learning_unit_id) {
+      errors.push(
+        `${label}: learning_unit_id mismatch for job ${job.job_number}`
+      );
+    }
+
+    if (mcq.learning_point !== job.learning_point) {
+      errors.push(
+        `${label}: learning_point mismatch for job ${job.job_number}`
+      );
+    }
+
+    if (mcq.question_type !== job.question_type) {
+      errors.push(
+        `${label}: question_type mismatch for job ${job.job_number}`
+      );
+    }
+
+    if (mcq.difficulty !== job.difficulty) {
+      errors.push(
+        `${label}: difficulty mismatch for job ${job.job_number}`
+      );
+    }
+  }
+
+  for (const job of queueBatch.jobs) {
+    if (!seenJobNumbers.has(job.job_number)) {
+      errors.push(
+        `Missing generated MCQ for job ${job.job_number}`
+      );
+    }
+  }
 }
 
 const units = new Map();

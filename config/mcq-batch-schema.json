@@ -73,9 +73,29 @@
               "medium",
               "hard"
             ]
+          },
+          "job_number": {
+            "type": "integer"
+          },
+          "question_type": {
+            "type": "string",
+            "enum": [
+              "direct_concept",
+              "conceptual_understanding",
+              "definition_and_distinction",
+              "application",
+              "example_based",
+              "scenario_based",
+              "misconception_check",
+              "reasoning",
+              "comparison",
+              "competitive_exam"
+            ]
           }
         },
         "required": [
+          "job_number",
+          "question_type",
           "mcq_id",
           "learning_unit_id",
           "learning_point",
