@@ -53,7 +53,21 @@ function batchFile(batchNumber) {
   );
 }
 
+async function configureGitIdentity() {
+  if (process.env.GITHUB_ACTIONS !== "true") {
+    return;
+  }
+
+  await runCommand("git", ["config", "user.name", "github-actions[bot]"]);
+  await runCommand(
+    "git",
+    ["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]
+  );
+}
+
 async function checkpointBatches() {
+  await configureGitIdentity();
+
   if (process.env.GITHUB_ACTIONS !== "true") {
     return;
   }
