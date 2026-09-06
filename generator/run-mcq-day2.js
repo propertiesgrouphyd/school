@@ -172,62 +172,82 @@ async function checkpointBatches() {
             return;
           }
 
-          const pushWithRetry = (attempt = 1) => {
-            const push = spawn(
-              "git",
-              ["push", "origin", "main"],
-              {
-                cwd: ROOT,
-                stdio: "inherit"
-              }
-            );
-
-            push.on("error", (error) => {
-              if (attempt >= 5) {
-                reject(
-                  new Error(
-                    `Git push failed after ${attempt} attempts: ${error.message}`
-                  )
-                );
-                return;
-              }
-
-              const waitMs = Math.min(60000, 5000 * attempt);
-
-              console.log(
-                `GIT PUSH RETRY ${attempt + 1}/5 — waiting ${Math.ceil(
-                  waitMs / 1000
-                )}s`
+          const runGit = (args) =>
+            new Promise((resolveGit, rejectGit) => {
+              const child = spawn(
+                "git",
+                args,
+                {
+                  cwd: ROOT,
+                  stdio: "inherit"
+                }
               );
 
-              setTimeout(
-                () => pushWithRetry(attempt + 1),
-                waitMs
-              );
+              child.on("error", rejectGit);
+
+              child.on("close", (code) => {
+                if (code === 0) {
+                  resolveGit();
+                } else {
+                  rejectGit(
+                    new Error(
+                      `git ${args.join(" ")} failed with code ${code}`
+                    )
+                  );
+                }
+              });
             });
 
-            push.on("close", (pushCode) => {
-              if (pushCode === 0) {
+          const pushWithRetry = async (attempt = 1) => {
+            try {
+              await runGit(["fetch", "origin", "main"]);
+
+              try {
+                await runGit([
+                  "rebase",
+                  "origin/main"
+                ]);
+              } catch (rebaseError) {
                 console.log(
-                  `BATCH CHECKPOINT: Day ${DAY} pushed to GitHub`
+                  `GIT REBASE RETRY ${attempt}/5 — checkpoint conflict detected`
                 );
-                resolve();
-                return;
+
+                await runGit([
+                  "rebase",
+                  "--abort"
+                ]).catch(() => {});
+
+                throw rebaseError;
               }
 
+              await runGit([
+                "push",
+                "origin",
+                "main"
+              ]);
+
+              console.log(
+                `BATCH CHECKPOINT: Day ${DAY} pushed to GitHub`
+              );
+
+              resolve();
+            } catch (error) {
               if (attempt >= 5) {
                 reject(
                   new Error(
-                    `Git push failed after ${attempt} attempts`
+                    `Git push failed after ${attempt} synchronized attempts: ${error.message}`
                   )
                 );
                 return;
               }
 
-              const waitMs = Math.min(60000, 5000 * attempt);
+              const waitMs = Math.min(
+                60000,
+                5000 * attempt
+              );
 
               console.log(
-                `GIT PUSH RETRY ${attempt + 1}/5 — waiting ${Math.ceil(
+                `GIT SYNC RETRY ${attempt + 1}/5 — waiting ${Math.ceil(
                   waitMs / 1000
                 )}s`
               );
@@ -236,7 +256,7 @@ async function checkpointBatches() {
                 () => pushWithRetry(attempt + 1),
                 waitMs
               );
-            });
+            }
           };
 
           pushWithRetry();
