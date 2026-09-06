@@ -1,0 +1,54 @@
+name: Vidhwaan School Groq Generation2
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: vidhwaan-school-groq-generation
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Validate project
+        run: npm run validate
+
+      - name: Verify Groq API keys
+        env:
+          GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
+          GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
+        run: |
+          if [ -z "$GROQ_API_KEY_5" ]; then
+            echo "ERROR: GROQ_API_KEY_5 GitHub Secret is missing."
+            exit 1
+          fi
+
+          if [ -z "$GROQ_API_KEY_6" ]; then
+            echo "ERROR: GROQ_API_KEY_6 GitHub Secret is missing."
+            exit 1
+          fi
+
+          echo "GROQ_API_KEY_5 is configured."
+          echo "GROQ_API_KEY_6 is configured."
+
+      - name: Find and generate exactly one study day
+        env:
+          GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
+          GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
+        run: node generator/run-next-day2.js
