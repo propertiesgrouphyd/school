@@ -406,6 +406,34 @@ for (const batch of queue.batches) {
   }
 }
 
+/*
+ * FINAL DAY CHECKPOINT
+ *
+ * Normal checkpoints happen every 5 completed batches.
+ * This final checkpoint guarantees that any remaining
+ * batches (1-4) generated after the last 5-batch checkpoint
+ * are committed and pushed before the day is declared complete.
+ */
+if (
+  process.env.GITHUB_ACTIONS === "true" &&
+  completed > 0
+) {
+  console.log("");
+  console.log("=".repeat(70));
+  console.log("FINAL DAY CHECKPOINT");
+  console.log("=".repeat(70));
+  console.log(
+    `Completed batches: ${completed}/${queue.batches.length}`
+  );
+  console.log(
+    "Saving and pushing any remaining batch files..."
+  );
+
+  await checkpointBatches();
+
+  console.log("FINAL DAY CHECKPOINT COMPLETE");
+}
+
 console.log("");
 console.log("=".repeat(70));
 console.log("DAY MCQ GENERATION FINISHED");
