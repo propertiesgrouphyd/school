@@ -1,0 +1,78 @@
+{
+  "day": 10,
+  "batch_id": "DAY-010-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00047",
+      "learning_point": "Inspect the digit immediately to its right",
+      "question": "When rounding the number 467 to the nearest ten, which digit must you inspect to decide whether to round up or down?",
+      "options": {
+        "A": "Hundreds digit (4)",
+        "B": "Tens digit (6)",
+        "C": "Units digit (7)",
+        "D": "The digit two places to the left (4)"
+      },
+      "correct_option": "C",
+      "answer": "Units digit (7)",
+      "explanation": "To round to the nearest ten, you look at the digit immediately to the right of the tens place, which is the units digit. If this digit is 5 or more, you round up; otherwise you round down. Here the units digit is 7, so you would round up. The other digits are not used for this decision.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00047",
+      "learning_point": "Round down when appropriate",
+      "question": "What is 342 rounded to the nearest hundred?",
+      "options": {
+        "A": "300",
+        "B": "400",
+        "C": "340",
+        "D": "350"
+      },
+      "correct_option": "A",
+      "answer": "300",
+      "explanation": "When rounding to the nearest hundred, examine the tens digit (the digit immediately to the right of the hundreds place). In 342 the tens digit is 4, which is less than 5, so we round down. The nearest hundred below 342 is 300.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00047",
+      "learning_point": "Round up when appropriate",
+      "question": "Which of the following numbers will be rounded up (i.e., to a larger value) when rounded to the nearest ten?",
+      "options": {
+        "A": "31",
+        "B": "42",
+        "C": "53",
+        "D": "64"
+      },
+      "correct_option": "C",
+      "answer": "53",
+      "explanation": "Rounding to the nearest ten depends on the units digit. If the units digit is 5 or more, the number rounds up. For 31 (units 1) and 42 (units 2) the numbers round down. For 64 (units 4) it also rounds down. Only 53 has a units digit of 5, so it rounds up to 60.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00047",
+      "learning_point": "Round to tens, hundreds, thousands and larger places",
+      "question": "If you first round 2,467 to the nearest ten and then round the resulting number to the nearest hundred, what is the final rounded number?",
+      "options": {
+        "A": "2,400",
+        "B": "2,500",
+        "C": "2,600",
+        "D": "2,700"
+      },
+      "correct_option": "B",
+      "answer": "2,500",
+      "explanation": "Step 1: Round 2,467 to the nearest ten. The units digit is 7 (≥5), so it rounds up to 2,470. Step 2: Round 2,470 to the nearest hundred. The tens digit is 7 (≥5), so it rounds up to 2,500. Hence the final rounded value is 2,500. Options A, C, and D result from incorrect handling of one of the steps.",
+      "difficulty": "hard"
+    }
+  ]
+}
