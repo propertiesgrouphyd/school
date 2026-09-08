@@ -1,0 +1,78 @@
+{
+  "day": 12,
+  "batch_id": "DAY-012-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Understand why grouping affects an expression",
+      "question": "Consider the expression 8 - 3 + 2. Which of the following evaluations follows the correct order of operations?",
+      "options": {
+        "A": "(8 - 3) + 2 = 7",
+        "B": "8 - (3 + 2) = 3",
+        "C": "8 - 3 + 2 = 5 (no grouping)",
+        "D": "(8 - (3 + 2)) = 3"
+      },
+      "correct_option": "A",
+      "answer": "(8 - 3) + 2 = 7",
+      "explanation": "Addition and subtraction have the same precedence, so they are performed from left to right. First compute 8 - 3 = 5, then add 2 to get 7. Grouping the numbers differently changes the order of operations and therefore changes the result, which shows why brackets matter.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "What is the value of the expression 5 + 3 × (2 + 4) - 6?",
+      "options": {
+        "A": "11",
+        "B": "13",
+        "C": "17",
+        "D": "23"
+      },
+      "correct_option": "C",
+      "answer": "17",
+      "explanation": "First evaluate the brackets: (2 + 4) = 6. Then the multiplication: 3 × 6 = 18. Add to 5: 5 + 18 = 23. Finally subtract 6: 23 - 6 = 17. Systematically following the order of operations gives 17.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Use brackets correctly",
+      "question": "Which of the following expressions correctly uses brackets to represent the distributive property for 4 × (5 + 2)?",
+      "options": {
+        "A": "(4 × 5) + 2",
+        "B": "4 × 5 + 2",
+        "C": "(4 × 5) + (4 × 2)",
+        "D": "4 × (5) + 2"
+      },
+      "correct_option": "C",
+      "answer": "(4 × 5) + (4 × 2)",
+      "explanation": "The distributive property states a(b + c) = ab + ac. Applying it to 4 × (5 + 2) gives (4 × 5) + (4 × 2) = 20 + 8 = 28. Options A, B, and D miss the second product, so they do not correctly apply the property.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Check equivalence of differently written expressions",
+      "question": "Which pair of expressions is always equivalent, no matter what numbers are substituted?",
+      "options": {
+        "A": "6 × (3 + 4)  and  (6 × 3) + (6 × 4)",
+        "B": "(8 - 2) × 5  and  8 - (2 × 5)",
+        "C": "9 + (2 × 3)  and  (9 + 2) × 3",
+        "D": "(7 + 5) - 2  and  7 + 5 - (2)²"
+      },
+      "correct_option": "A",
+      "answer": "6 × (3 + 4)  and  (6 × 3) + (6 × 4)",
+      "explanation": "Option A uses the distributive law: a(b + c) = ab + ac, so the two expressions are always equal. Option B changes subtraction and multiplication order, giving different results (30 vs -2). Option C changes addition and multiplication order, also giving different results (15 vs 33). Option D subtracts the square of 2 in the second expression, yielding 8 instead of 10. Hence only option A is universally equivalent.",
+      "difficulty": "hard"
+    }
+  ]
+}
