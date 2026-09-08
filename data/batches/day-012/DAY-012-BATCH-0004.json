@@ -1,0 +1,150 @@
+{
+  "day": 12,
+  "batch_id": "DAY-012-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Understand why grouping affects an expression",
+      "question": "Consider the expression 8 - 3 + 2. If we rewrite it as 8 - (3 + 2), what is the value and why does the grouping change the result?",
+      "options": {
+        "A": "7",
+        "B": "3",
+        "C": "5",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "Without brackets the operations are performed left‑to‑right: (8‑3)+2 = 5+2 = 7. With brackets the addition inside is done first: 8‑(3+2) = 8‑5 = 3. Grouping changes which operation is performed first, giving a different result.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "A student evaluates the expression 6 + 4 × 2 - (3 + 1). Which systematic sequence of steps gives the correct value?",
+      "options": {
+        "A": "First add 6 + 4, then multiply by 2, then subtract (3+1)",
+        "B": "First multiply 4 × 2, evaluate (3+1), then perform addition and subtraction from left to right",
+        "C": "First evaluate (3+1), then add 6, then multiply 4 × 2",
+        "D": "First subtract (3+1) from 6, then multiply 4 × 2, then add the result"
+      },
+      "correct_option": "B",
+      "answer": "First multiply 4 × 2, evaluate (3+1), then perform addition and subtraction from left to right",
+      "explanation": "Apply the order of operations: 4×2 = 8, (3+1) = 4. The expression becomes 6 + 8 - 4. Now work left to right: 6+8 = 14, 14‑4 = 10. Hence the systematic steps in option B lead to the correct value 10.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Use brackets correctly",
+      "question": "Some students think that in 12 ÷ 3 × 2 the brackets can be placed around 3 × 2 without changing the answer. What is the value of 12 ÷ (3 × 2)?",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "2",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "answer": "2",
+      "explanation": "Inside the brackets, 3 × 2 = 6. Then 12 ÷ 6 = 2. Without brackets the expression is (12 ÷ 3) × 2 = 4 × 2 = 8. The brackets change the order, so the correct value with brackets is 2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Check equivalence of differently written expressions",
+      "question": "Are the two expressions (5 + 2) × 3 and 5 + (2 × 3) equivalent?",
+      "options": {
+        "A": "Yes, they give the same value",
+        "B": "No, the first is larger",
+        "C": "No, the second is larger",
+        "D": "They are equal only when the numbers are prime"
+      },
+      "correct_option": "B",
+      "answer": "No, the first is larger",
+      "explanation": "Calculate each: (5+2)×3 = 7×3 = 21. 5 + (2×3) = 5 + 6 = 11. The first expression yields 21, which is larger than 11, so they are not equivalent.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Understand why grouping affects an expression",
+      "question": "Compare the values of (9 - 4) + 6 and 9 - (4 + 6). Which statement is true?",
+      "options": {
+        "A": "The first expression is larger",
+        "B": "The second expression is larger",
+        "C": "Both expressions are equal",
+        "D": "It cannot be determined without a calculator"
+      },
+      "correct_option": "A",
+      "answer": "The first expression is larger",
+      "explanation": "(9‑4)+6 = 5+6 = 11. 9‑(4+6) = 9‑10 = -1. Because grouping changes which operations are performed together, the first expression yields a larger value.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "Evaluate the expression: 15 - [4 + (6 ÷ 2)] + 3 × 2.",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "correct_option": "B",
+      "answer": "14",
+      "explanation": "First compute the innermost bracket: 6 ÷ 2 = 3. Then the inner brackets: 4 + 3 = 7. The expression becomes 15 - 7 + 3 × 2. Next multiplication: 3 × 2 = 6. Finally, 15 - 7 + 6 = 8 + 6 = 14.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Use brackets correctly",
+      "question": "Which of the following correctly uses brackets to show that multiplication is performed before addition?",
+      "options": {
+        "A": "5 + 3 × 2",
+        "B": "(5 + 3) × 2",
+        "C": "5 + (3 × 2)",
+        "D": "(5 × 3) + 2"
+      },
+      "correct_option": "C",
+      "answer": "5 + (3 × 2)",
+      "explanation": "Option C places brackets around 3 × 2, explicitly indicating that the multiplication should be carried out first, giving 5 + 6 = 11. Options A relies on the standard order of operations, B changes the order, and D also changes the order.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Check equivalence of differently written expressions",
+      "question": "Are the expressions 7 × (2 + 3) and (7 × 2) + (7 × 3) equivalent?",
+      "options": {
+        "A": "Yes, they are equivalent",
+        "B": "No, they give different results",
+        "C": "Only when 7 is a prime number",
+        "D": "Only when the sum inside the brackets is even"
+      },
+      "correct_option": "A",
+      "answer": "Yes, they are equivalent",
+      "explanation": "Using the distributive property, 7 × (2 + 3) = 7 × 5 = 35. Expanding gives (7 × 2) + (7 × 3) = 14 + 21 = 35. Both expressions produce the same value, so they are equivalent.",
+      "difficulty": "easy"
+    }
+  ]
+}
