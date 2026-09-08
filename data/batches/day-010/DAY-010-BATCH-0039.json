@@ -1,0 +1,78 @@
+{
+  "day": 10,
+  "batch_id": "DAY-010-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00045",
+      "learning_point": "Compare numbers having different numbers of digits",
+      "question": "Rohan says that because the first digit of 3,456 is larger than the first digit of 12,789, the number 3,456 must be greater than 12,789. Is Rohan's statement correct?",
+      "options": {
+        "A": "Yes, because the first digit decides the size",
+        "B": "No, because the number with more digits is always larger",
+        "C": "No, because we must compare numbers digit by digit from the left",
+        "D": "Yes, because both numbers have the same number of digits"
+      },
+      "correct_option": "B",
+      "answer": "No, because the number with more digits is always larger",
+      "explanation": "Rohan's reasoning is a common misconception. When numbers have different numbers of digits, the one with more digits is larger (provided both are positive). Here 12,789 has five digits while 3,456 has four, so 12,789 > 3,456 regardless of the first digit. Option B correctly explains this.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00045",
+      "learning_point": "Compare numbers having equal numbers of digits",
+      "question": "Which statement is true about the two numbers 54,321 and 53,987?",
+      "options": {
+        "A": "54,321 > 53,987 because the first digit is larger",
+        "B": "54,321 < 53,987 because the last digit is smaller",
+        "C": "54,321 > 53,987 because after comparing the thousands place, the first number is larger",
+        "D": "Both numbers are equal"
+      },
+      "correct_option": "C",
+      "answer": "54,321 > 53,987 because after comparing the thousands place, the first number is larger",
+      "explanation": "Both numbers have five digits, so we compare them digit by digit from the highest place. The ten‑thousands digits are both 5, so we move to the thousands place: 4 (in 54,321) vs 3 (in 53,987). Since 4 > 3, the whole number 54,321 is greater, making option C correct. The other options misuse the last digit or claim equality, which are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00045",
+      "learning_point": "Compare digit by digit from the highest place",
+      "question": "Arrange the numbers 4,567; 4,576; and 4,657 in ascending order.",
+      "options": {
+        "A": "4,567, 4,576, 4,657",
+        "B": "4,567, 4,657, 4,576",
+        "C": "4,576, 4,567, 4,657",
+        "D": "4,657, 4,567, 4,576"
+      },
+      "correct_option": "A",
+      "answer": "4,567, 4,576, 4,657",
+      "explanation": "All three numbers have the same thousands and hundreds digits (4 and 5). Comparing the tens place: 4,567 has 6, 4,576 has 7, and 4,657 has 6. Since 6 < 7, 4,567 comes before 4,576. Between 4,567 and 4,657, the tens digits are equal (6), so we compare the units: 7 < 7? Actually units are 7 and 7, but the hundreds digit of 4,657 is 6 while that of 4,567 is 5, making 4,567 smaller. Thus the correct ascending order is 4,567, 4,576, 4,657 (option A).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00045",
+      "learning_point": "Use greater-than and less-than relationships",
+      "question": "Select the correct relational symbol to complete the statement: 78,945 ___ 78,954.",
+      "options": {
+        "A": ">",
+        "B": "<",
+        "C": "=",
+        "D": "None of the above"
+      },
+      "correct_option": "B",
+      "answer": "<",
+      "explanation": "Comparing digit by digit from the left, the numbers are identical up to the thousands place (7, 8, 9). At the tens place, 78,945 has 4 while 78,954 has 5. Since 4 < 5, the whole number 78,945 is less than 78,954. Therefore the correct symbol is '<', option B. Options A and C are incorrect because they imply the opposite relationship, and D is unnecessary.",
+      "difficulty": "hard"
+    }
+  ]
+}
