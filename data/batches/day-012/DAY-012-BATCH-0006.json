@@ -1,0 +1,150 @@
+{
+  "day": 12,
+  "batch_id": "DAY-012-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Understand why grouping affects an expression",
+      "question": "Why does the value of the expression 3 + 2 × 5 differ from the value of (3 + 2) × 5?",
+      "options": {
+        "A": "Because multiplication is performed before addition unless brackets change the order.",
+        "B": "Because addition is always performed before multiplication.",
+        "C": "Because brackets add the numbers together regardless of the operation.",
+        "D": "Because the numbers in the two expressions are different."
+      },
+      "correct_option": "A",
+      "answer": "Because multiplication is performed before addition unless brackets change the order.",
+      "explanation": "According to the order of operations, multiplication is done before addition. In 3 + 2 × 5, we first compute 2 × 5 = 10, then add 3 to get 13. In (3 + 2) × 5, the brackets force addition first: 3 + 2 = 5, then multiply by 5 to get 25. Hence the grouping changes the result.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "What is the value of the expression 8 - (3 + 2) × 2 when evaluated step‑by‑step?",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "6",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "-2",
+      "explanation": "First evaluate the brackets: (3 + 2) = 5. Next multiply: 5 × 2 = 10. Finally subtract: 8 - 10 = -2. Systematic evaluation gives -2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Use brackets correctly",
+      "question": "Which of the following expressions correctly uses brackets to indicate that addition should be performed before multiplication?",
+      "options": {
+        "A": "4 × 2 + 3",
+        "B": "(4 × 2) + 3",
+        "C": "4 × (2 + 3)",
+        "D": "4 + 2 × 3"
+      },
+      "correct_option": "C",
+      "answer": "4 × (2 + 3)",
+      "explanation": "In 4 × (2 + 3), the brackets force the addition 2 + 3 to be done first, giving 5, then multiplication 4 × 5 = 20. The other options either perform multiplication first or do not change the natural order.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Check equivalence of differently written expressions",
+      "question": "Are the two expressions 5 + (3 × 2) and (5 + 3) × 2 equivalent?",
+      "options": {
+        "A": "Yes, both equal 11.",
+        "B": "Yes, both equal 16.",
+        "C": "No, the first equals 11 and the second equals 16.",
+        "D": "No, both equal 13."
+      },
+      "correct_option": "C",
+      "answer": "No, the first equals 11 and the second equals 16.",
+      "explanation": "Evaluating each: 5 + (3 × 2) = 5 + 6 = 11. (5 + 3) × 2 = 8 × 2 = 16. Since the results differ, the expressions are not equivalent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Understand why grouping affects an expression",
+      "question": "Consider the expression 6 ÷ 2 × (1 + 2). Which step shows why the brackets are important?",
+      "options": {
+        "A": "Adding 1 and 2 first to get 3, then performing the division and multiplication.",
+        "B": "Multiplying 2 by (1 + 2) before dividing 6.",
+        "C": "Dividing 6 by 2 before using the brackets.",
+        "D": "The brackets can be ignored because division and multiplication have the same priority."
+      },
+      "correct_option": "A",
+      "answer": "Adding 1 and 2 first to get 3, then performing the division and multiplication.",
+      "explanation": "The brackets force the addition 1 + 2 = 3 to be done first. Then the expression becomes 6 ÷ 2 × 3. Performing division first (6 ÷ 2 = 3) and then multiplication (3 × 3 = 9) gives the correct value. Without the brackets, a different grouping could change the result.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "A student evaluates 7 + 3 × 4 - 2 by first adding 7 and 3. What is the correct value of the expression when evaluated using the proper order of operations?",
+      "options": {
+        "A": "12",
+        "B": "17",
+        "C": "22",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "17",
+      "explanation": "The correct order: first multiplication 3 × 4 = 12, then addition 7 + 12 = 19, finally subtraction 19 - 2 = 17. Adding 7 and 3 first would give a wrong result.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Use brackets correctly",
+      "question": "A student writes 5 × 2 + 3 as 5 × (2 + 3). Which interpretation is mathematically correct?",
+      "options": {
+        "A": "5 × (2 + 3) = 25, which is the intended value.",
+        "B": "(5 × 2) + 3 = 13, which follows the correct order of operations.",
+        "C": "Both expressions give the same result.",
+        "D": "Neither expression is correct for the original problem."
+      },
+      "correct_option": "B",
+      "answer": "(5 × 2) + 3 = 13, which follows the correct order of operations.",
+      "explanation": "The original expression 5 × 2 + 3 means multiply first (5 × 2 = 10) then add 3, giving 13. Writing 5 × (2 + 3) changes the meaning to 5 × 5 = 25, which is incorrect for the intended calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00054",
+      "learning_point": "Check equivalence of differently written expressions",
+      "question": "Is the expression 8 - (3 + 1) equivalent to (8 - 3) + 1? Choose the correct statement.",
+      "options": {
+        "A": "Yes, both expressions equal 4.",
+        "B": "Yes, both expressions equal 6.",
+        "C": "No, the first expression equals 4 and the second equals 6.",
+        "D": "No, both expressions equal 5."
+      },
+      "correct_option": "C",
+      "answer": "No, the first expression equals 4 and the second equals 6.",
+      "explanation": "Evaluating each: 8 - (3 + 1) = 8 - 4 = 4. (8 - 3) + 1 = 5 + 1 = 6. Since the results differ, the expressions are not equivalent.",
+      "difficulty": "medium"
+    }
+  ]
+}
