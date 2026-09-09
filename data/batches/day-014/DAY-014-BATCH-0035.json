@@ -1,0 +1,150 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is guaranteed to be divisible by 9 because the sum of its digits is a multiple of 9?",
+      "options": {
+        "A": "729",
+        "B": "123",
+        "C": "456",
+        "D": "789"
+      },
+      "correct_option": "A",
+      "answer": "729",
+      "explanation": "The rule for 9 states that a number is divisible by 9 when the sum of its digits is a multiple of 9. For 729, 7+2+9 = 18, and 18 ÷ 9 = 2, so 729 is divisible by 9. The other numbers have digit sums (1+2+3=6, 4+5+6=15, 7+8+9=24) that are not multiples of 9, so they are not guaranteed to be divisible by 9.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "A student wants to know quickly whether 462 is divisible by 6. Which test should the student apply?",
+      "options": {
+        "A": "Check if the number is even and its digit sum is divisible by 3.",
+        "B": "Check if the last two digits form a number divisible by 6.",
+        "C": "Add the first and last digit and see if the result is divisible by 6.",
+        "D": "Divide the number by 6 directly."
+      },
+      "correct_option": "A",
+      "answer": "Check if the number is even and its digit sum is divisible by 3.",
+      "explanation": "A number is divisible by 6 when it satisfies both divisibility rules for 2 and 3. 462 ends with 2, so it is even (divisible by 2). The sum of its digits is 4+6+2 = 12, which is divisible by 3. Therefore the combined test confirms divisibility by 6 without performing long division. The other options either misuse the rule or require unnecessary calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which of the following statements about divisibility is FALSE?",
+      "options": {
+        "A": "If a number ends with 0 or 5, it is divisible by 5.",
+        "B": "If the sum of the digits of a number is divisible by 3, the number is divisible by 3.",
+        "C": "If a number is divisible by 4, then it is always divisible by 8.",
+        "D": "A number is divisible by 2 if its last digit is even."
+      },
+      "correct_option": "C",
+      "answer": "If a number is divisible by 4, then it is always divisible by 8.",
+      "explanation": "Divisibility by 4 only guarantees that the last two digits form a number divisible by 4. It does not ensure divisibility by 8, which requires the last three digits to be divisible by 8. For example, 12 is divisible by 4 but not by 8. Options A, B, and D correctly describe the standard rules, making C the false statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the rule ‘A number is divisible by 11 if the alternating sum of its digits is a multiple of 11’ hold true?",
+      "options": {
+        "A": "Because 10 ≡ -1 (mod 11), so each digit’s place value alternates sign.",
+        "B": "Because 10 ≡ 1 (mod 11), making all digits add directly.",
+        "C": "Because 100 ≡ 0 (mod 11), cancelling pairs of digits.",
+        "D": "Because the sum of the digits equals the number modulo 11."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ -1 (mod 11), so each digit’s place value alternates sign.",
+      "explanation": "In base‑10, each successive place value is a power of 10. Modulo 11, 10 ≡ -1, 10² ≡ 1, 10³ ≡ -1, and so on. Hence the contribution of each digit alternates between adding and subtracting, giving the alternating‑sum rule. Options B, C, and D misstate the modular relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following pairs correctly matches a number with the most efficient divisibility test for checking divisibility by 7?",
+      "options": {
+        "A": "203 – subtract twice the last digit from the rest of the number.",
+        "B": "145 – double the last digit and add to the rest.",
+        "C": "371 – add five times the last digit to the rest.",
+        "D": "462 – divide the number by 7 directly."
+      },
+      "correct_option": "A",
+      "answer": "203 – subtract twice the last digit from the rest of the number.",
+      "explanation": "The standard quick test for 7 is: remove the last digit, double it, and subtract that from the remaining leading part. Applying it to 203: 20 – (2×3) = 20 – 6 = 14, which is divisible by 7, so 203 is divisible by 7. Options B and C describe incorrect transformations, and D does not use a shortcut.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which of the following numbers is divisible by both 3 and 4 (i.e., by 12) without performing long division?",
+      "options": {
+        "A": "144",
+        "B": "250",
+        "C": "378",
+        "D": "560"
+      },
+      "correct_option": "A",
+      "answer": "144",
+      "explanation": "A number is divisible by 12 when it meets the rules for 3 and 4. For 144, the digit sum is 1+4+4 = 9, which is divisible by 3, and the last two digits, 44, form a number divisible by 4. Hence 144 is divisible by 12. The other numbers fail one of the two tests: 250’s digit sum is 7 (not divisible by 3); 378’s last two digits 78 are not divisible by 4; 560’s digit sum is 11 (not divisible by 3).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which of the following numbers is divisible by 4?",
+      "options": {
+        "A": "123",
+        "B": "256",
+        "C": "371",
+        "D": "589"
+      },
+      "correct_option": "B",
+      "answer": "256",
+      "explanation": "A number is divisible by 4 if its last two digits form a number divisible by 4. The last two digits of 256 are 56, and 56 ÷ 4 = 14, so 256 is divisible by 4. The other options have last two digits 23, 71, and 89, none of which are multiples of 4.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does a number end with 0 or 5 if and only if it is divisible by 5?",
+      "options": {
+        "A": "Because the base 10 system repeats every 5 units in the units place.",
+        "B": "Because 10 is a multiple of 5, so any number whose units digit is 0 or 5 can be expressed as 5×(something).",
+        "C": "Because the sum of the digits determines divisibility by 5.",
+        "D": "Because numbers ending with 0 or 5 are always even."
+      },
+      "correct_option": "B",
+      "answer": "Because 10 is a multiple of 5, so any number whose units digit is 0 or 5 can be expressed as 5×(something).",
+      "explanation": "In the decimal system, each place value is a power of 10. Since 10 = 5×2, any number can be written as 10·k + d, where d is the units digit. If d is 0 or 5, the expression becomes 5·(2k) or 5·(2k+1), showing the whole number is a multiple of 5. Options A, C, and D give incorrect reasons.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following statements about divisibility is NOT always true?",
+      "options": {
+        "A": "A number is divisible by 2 if its last digit is even.",
+        "B": "A number is divisible by 5 if its last digit is 0 or 5.",
+        "C": "A number is divisible by 9 if the sum of its digits is divisible by 3.",
+        "D": "A number is divisible by 3 if the sum of its digits is divisible by 3."
+      },
+      "correct_option": "C",
+      "answer": "A number is divisible by 9 if the sum of its digits is divisible by 3.",
+      "explanation": "The rule for 9 requires the sum of the digits to be divisible by 9, not merely by 3. Options A, B and D state correct divisibility rules, while C is a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which of the following is the quickest way to determine whether 1,236 is divisible by 3?",
+      "options": {
+        "A": "Add the digits (1+2+3+6=12) and check if 12 is divisible by 3.",
+        "B": "Check if the last digit is 0 or 5.",
+        "C": "See if the number is even.",
+        "D": "Divide the number by 4."
+      },
+      "correct_option": "A",
+      "answer": "Add the digits (1+2+3+6=12) and check if 12 is divisible by 3.",
+      "explanation": "A number is divisible by 3 when the sum of its digits is divisible by 3. 1+2+3+6=12, and 12 ÷ 3 = 4, so 1,236 is divisible by 3. The other options test unrelated rules.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which statement correctly compares the divisibility properties of 2,520 and 2,530?",
+      "options": {
+        "A": "Both are divisible by 5, but only 2,520 is divisible by 8.",
+        "B": "Both are divisible by 8, but only 2,530 is divisible by 5.",
+        "C": "Neither is divisible by 5.",
+        "D": "Both are divisible by 9."
+      },
+      "correct_option": "A",
+      "answer": "Both are divisible by 5, but only 2,520 is divisible by 8.",
+      "explanation": "Both numbers end in 0, so each is divisible by 5. 2,520 ÷ 8 = 315, an integer, so it is divisible by 8. 2,530 ÷ 8 = 316.25, not an integer. Options B, C, and D are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the test for divisibility by 11 (alternating sum of digits) work?",
+      "options": {
+        "A": "Because 10 ≡ -1 (mod 11), so each digit contributes alternately positive and negative.",
+        "B": "Because 10 ≡ 1 (mod 11).",
+        "C": "Because 100 ≡ 0 (mod 11).",
+        "D": "Because the sum of digits equals the number modulo 11."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ -1 (mod 11), so each digit contributes alternately positive and negative.",
+      "explanation": "In modulo 11, 10 is congruent to -1. Writing a number as d₀ + d₁·10 + d₂·10² + … gives alternating signs when reduced modulo 11, leading to the alternating‑sum rule. The other statements misrepresent the modular relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is guaranteed to be divisible by 4?",
+      "options": {
+        "A": "Any number whose last two digits form a number divisible by 4.",
+        "B": "Any number whose digit sum is divisible by 4.",
+        "C": "Any number ending with 0 or 5.",
+        "D": "Any number whose first digit is even."
+      },
+      "correct_option": "A",
+      "answer": "Any number whose last two digits form a number divisible by 4.",
+      "explanation": "A number is divisible by 4 exactly when the number formed by its last two digits is divisible by 4. Digit sum and first digit give no reliable test for 4, and ending with 0 or 5 relates to 5, not 4.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "What is the simplest test to see if a whole number is divisible by 2?",
+      "options": {
+        "A": "Check if the last digit is even (0,2,4,6,8).",
+        "B": "Add all digits and see if the sum is even.",
+        "C": "See if the number ends with 5.",
+        "D": "Divide the number by 3."
+      },
+      "correct_option": "A",
+      "answer": "Check if the last digit is even (0,2,4,6,8).",
+      "explanation": "Divisibility by 2 depends only on the unit digit being even. Adding digits checks for 3 or 9, ending with 5 checks for 5, and dividing by 3 is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which statement correctly distinguishes a prime number from a composite number?",
+      "options": {
+        "A": "A prime number has exactly two distinct positive divisors, 1 and itself; a composite has more than two.",
+        "B": "A prime number is always even.",
+        "C": "A composite number cannot be divided by 3.",
+        "D": "A prime number ends with 0."
+      },
+      "correct_option": "A",
+      "answer": "A prime number has exactly two distinct positive divisors, 1 and itself; a composite has more than two.",
+      "explanation": "By definition, primes have only 1 and themselves as divisors. All other statements are false: primes can be odd (except 2), composites may be divisible by 3, and primes never end with 0 because that would make them divisible by 10.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "A student adds the digits of 4,587 and gets 24. Using the divisibility rule for 3, what can the student conclude?",
+      "options": {
+        "A": "4,587 is divisible by 3.",
+        "B": "4,587 is not divisible by 3.",
+        "C": "4,587 is divisible by 9.",
+        "D": "No conclusion can be drawn."
+      },
+      "correct_option": "A",
+      "answer": "4,587 is divisible by 3.",
+      "explanation": "The sum of the digits is 24, and 24 ÷ 3 = 8, so the original number is divisible by 3. The rule does not guarantee divisibility by 9 (24 is not divisible by 9), and a clear conclusion is possible, making options B, C, and D incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which statement correctly compares the divisibility of 12345 and 54321 by 3 and by 9?",
+      "options": {
+        "A": "Both numbers are divisible by 3, but only 12345 is divisible by 9.",
+        "B": "Both numbers are divisible by 9, but only 54321 is divisible by 3.",
+        "C": "Both numbers are divisible by 3, and neither is divisible by 9.",
+        "D": "Neither number is divisible by 3 nor by 9."
+      },
+      "correct_option": "C",
+      "answer": "Both numbers are divisible by 3, and neither is divisible by 9.",
+      "explanation": "The sum of the digits of 12345 is 1+2+3+4+5 = 15, which is divisible by 3 but not by 9. The sum of the digits of 54321 is also 15, giving the same result. Hence both numbers are divisible by 3 and neither is divisible by 9. Options A, B, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which of the following numbers is divisible by 11?",
+      "options": {
+        "A": "3528",
+        "B": "4620",
+        "C": "6174",
+        "D": "8392"
+      },
+      "correct_option": "B",
+      "answer": "4620",
+      "explanation": "For divisibility by 11, subtract the sum of digits in even positions from the sum of digits in odd positions. For 4620: (4+2) – (6+0) = 6 – 6 = 0, which is a multiple of 11, so 4620 is divisible by 11. The other numbers give differences of 8, 8, and 12 respectively, none of which are multiples of 11.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which of the following numbers is divisible by 5?",
+      "options": {
+        "A": "123",
+        "B": "250",
+        "C": "387",
+        "D": "442"
+      },
+      "correct_option": "B",
+      "answer": "250",
+      "explanation": "A number is divisible by 5 if its last digit is 0 or 5. Among the options, only 250 ends with 0, so it is the only number divisible by 5. The other numbers end with 3, 7, and 2, so they are not divisible by 5.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the rule 'a number is divisible by 3 if the sum of its digits is divisible by 3' hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 3), making the tens place irrelevant.",
+        "C": "Because 100 ≡ 1 (mod 3), which affects only the hundreds place.",
+        "D": "Because 10 ≡ -1 (mod 3), causing alternating signs."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+      "explanation": "In modulo 3 arithmetic, 10 leaves a remainder of 1. Therefore a number written as 10·a + b has the same remainder as a + b. Extending this to all place values shows that the remainder of the whole number modulo 3 equals the remainder of the sum of its digits. Hence the rule works. Options B, C, and D describe incorrect modular relationships.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which statement correctly defines the divisibility rule for 4?",
+      "options": {
+        "A": "A number is divisible by 4 if its last digit is even.",
+        "B": "A number is divisible by 4 if the number formed by its last two digits is divisible by 4.",
+        "C": "A number is divisible by 4 if the sum of its digits is divisible by 4.",
+        "D": "A number is divisible by 4 if it is also divisible by 2."
+      },
+      "correct_option": "B",
+      "answer": "A number is divisible by 4 if the number formed by its last two digits is divisible by 4.",
+      "explanation": "The rule for 4 depends only on the last two digits because 100 is a multiple of 4. Thus any higher place values contribute a multiple of 4 and do not affect divisibility. Option A is the rule for 2, C is not a valid rule, and D is insufficient because being even does not guarantee divisibility by 4.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "A teacher wants to know quickly whether 2,345,678 is divisible by 6. Which test should she apply?",
+      "options": {
+        "A": "Check that the number is divisible by both 2 and 3.",
+        "B": "Check that the number is divisible by both 2 and 5.",
+        "C": "Check only divisibility by 3.",
+        "D": "Perform long division by 6."
+      },
+      "correct_option": "A",
+      "answer": "Check that the number is divisible by both 2 and 3.",
+      "explanation": "A number is divisible by 6 if and only if it is divisible by both 2 (evenness) and 3 (sum of digits divisible by 3). This combined test is faster than long division. Option B uses 5, which is irrelevant; option C omits the evenness condition; option D is unnecessary when the shortcut exists.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "A number leaves remainder 2 when divided by 5 and remainder 3 when divided by 7. Which of the following could be the smallest such positive integer?",
+      "options": {
+        "A": "17",
+        "B": "38",
+        "C": "53",
+        "D": "68"
+      },
+      "correct_option": "A",
+      "answer": "17",
+      "explanation": "We need x ≡ 2 (mod 5) and x ≡ 3 (mod 7). Testing numbers that are 2 mod 5 gives 2,7,12,17,… The first that is also 3 mod 7 is 17 (since 17 ÷ 7 leaves remainder 3). Hence 17 is the smallest solution. The other options do not satisfy both conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "A student observes that any whole number ending with 0 is divisible by 5. Which explanation best justifies this observation?",
+      "options": {
+        "A": "Because 10 is a multiple of 5, and any number ending with 0 can be written as 10 × k.",
+        "B": "Because the digit 0 represents no value, making the number automatically divisible by 5.",
+        "C": "Because numbers ending with 0 are always even, and all even numbers are divisible by 5.",
+        "D": "Because the sum of the digits of such numbers is always a multiple of 5."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 is a multiple of 5, and any number ending with 0 can be written as 10 × k.",
+      "explanation": "If a number ends with 0, it can be expressed as 10 × k where k is the number formed by the remaining digits. Since 10 = 5 × 2, the product is always a multiple of 5, guaranteeing divisibility. Options B, C, and D give incorrect or irrelevant reasons.",
+      "difficulty": "medium"
+    }
+  ]
+}
