@@ -1,0 +1,78 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00067",
+      "learning_point": "Identify hidden relationships",
+      "question": "Consider the number series: 2, 6, 12, 20, __. Which number correctly completes the series?",
+      "options": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "34"
+      },
+      "correct_option": "B",
+      "answer": "30",
+      "explanation": "Each term equals n × (n + 1) for n = 1, 2, 3, 4 … (1×2=2, 2×3=6, 3×4=12, 4×5=20). The hidden relationship is the product of two consecutive integers. For n = 5 the term is 5×6 = 30. Some students may think the pattern is adding consecutive even numbers, which also gives 30, but the underlying relationship is the product of consecutive numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00067",
+      "learning_point": "Make and test conjectures",
+      "question": "Which of the following conjectures about the sum of the digits of any multiple of 9 is always true?",
+      "options": {
+        "A": "The sum of the digits is always 9.",
+        "B": "The sum of the digits is always a multiple of 9.",
+        "C": "The sum of the digits is always 18.",
+        "D": "The sum of the digits is always an odd number."
+      },
+      "correct_option": "B",
+      "answer": "The sum of the digits is always a multiple of 9.",
+      "explanation": "A number divisible by 9 has a digit‑sum that is also divisible by 9. For example, 27 → 2+7 = 9, 81 → 8+1 = 9, 126 → 1+2+6 = 9. Hence the correct conjecture is that the digit sum is always a multiple of 9. Options A and C are too specific, and D is false because the digit sum can be even (e.g., 18 → 1+8 = 9, which is odd, but 99 → 9+9 = 18, which is even).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00067",
+      "learning_point": "Use systematic reasoning",
+      "question": "To find the missing number in the sequence 3, 9, 27, __, 243, which systematic reasoning method is most appropriate?",
+      "options": {
+        "A": "Assume the pattern adds 6 each time.",
+        "B": "Observe that each term is multiplied by 3 to get the next term.",
+        "C": "Look for a pattern of adding 24 each time.",
+        "D": "Assume each term is multiplied by 2 to get the next term."
+      },
+      "correct_option": "B",
+      "answer": "Observe that each term is multiplied by 3 to get the next term.",
+      "explanation": "The sequence follows powers of 3: 3 = 3¹, 9 = 3², 27 = 3³, 243 = 3⁵. Multiplying each term by 3 yields the next term, so the missing term is 27 × 3 = 81. This multiplicative reasoning is systematic and leads directly to the correct answer, whereas the other options describe incorrect additive or multiplicative patterns.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00067",
+      "learning_point": "Explain solutions logically",
+      "question": "A box contains 2 red balls, 3 blue balls, and 5 green balls (total 10 balls). Three balls are drawn at random without replacement. Which statement correctly explains the probability of drawing exactly one red ball?",
+      "options": {
+        "A": "(2/10) × (8/9) × (7/8) = 14/90",
+        "B": "(2/10) × (3/9) × (5/8) = 30/720",
+        "C": "[C(2,1) × C(8,2)] / C(10,3) = 56/120",
+        "D": "[C(2,1) × C(3,1) × C(5,1)] / C(10,3) = 30/120"
+      },
+      "correct_option": "C",
+      "answer": "[C(2,1) × C(8,2)] / C(10,3) = 56/120",
+      "explanation": "To have exactly one red ball, choose 1 red from the 2 reds (C(2,1)=2) and 2 non‑red balls from the remaining 8 balls (C(8,2)=28). Favorable ways = 2 × 28 = 56. Total possible selections of 3 balls from 10 is C(10,3)=120. Hence probability = 56/120 = 7/15. Option C expresses this reasoning correctly. Option A misapplies sequential multiplication, B multiplies specific colors incorrectly, and D counts one ball of each color, which is a different event.",
+      "difficulty": "hard"
+    }
+  ]
+}
