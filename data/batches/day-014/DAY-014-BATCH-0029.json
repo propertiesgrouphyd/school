@@ -1,0 +1,150 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-014-17",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A student says: “If the sum of the digits of a number is divisible by 3, then the number must be divisible by 6.” Which statement best identifies the flaw in this reasoning?",
+      "options": {
+        "A": "The statement is correct; divisibility by 3 guarantees divisibility by 6.",
+        "B": "The statement is false because a number must also be even to be divisible by 6.",
+        "C": "The statement is false because the sum‑of‑digits test works only for 5.",
+        "D": "The statement is correct only when the number ends with 0."
+      },
+      "correct_option": "B",
+      "answer": "The statement is false because a number must also be even to be divisible by 6.",
+      "explanation": "A number is divisible by 6 only when it satisfies both conditions: it is divisible by 2 (i.e., even) and divisible by 3 (sum of digits divisible by 3). The sum‑of‑digits test alone does not guarantee evenness, so the student's claim is a misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-014-18",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which of the following methods allows you to decide most quickly whether 7,254 is divisible by 3?",
+      "options": {
+        "A": "Add the digits (7+2+5+4) and check if the sum is divisible by 3.",
+        "B": "Divide 7,254 by 3 using long division.",
+        "C": "Check whether the last digit is 0 or 5.",
+        "D": "Verify that the number is even."
+      },
+      "correct_option": "A",
+      "answer": "Add the digits (7+2+5+4) and check if the sum is divisible by 3.",
+      "explanation": "The quickest test for divisibility by 3 is the digit‑sum rule: if the sum of the digits is a multiple of 3, the whole number is. 7+2+5+4 = 18, and 18 ÷ 3 = 6, so 7,254 is divisible by 3. The other options either take longer or test unrelated divisibility criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-014-19",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which statement correctly compares 2,376 and 2,385 using divisibility by 3 and by 5?",
+      "options": {
+        "A": "2,376 is divisible by 3 but not by 5, while 2,385 is divisible by both 3 and 5.",
+        "B": "2,376 is divisible by 5 but not by 3, while 2,385 is divisible only by 3.",
+        "C": "Both numbers are divisible by 5, but only 2,376 is divisible by 3.",
+        "D": "Neither number is divisible by 3, but both are divisible by 5."
+      },
+      "correct_option": "A",
+      "answer": "2,376 is divisible by 3 but not by 5, while 2,385 is divisible by both 3 and 5.",
+      "explanation": "For 2,376, the digit sum is 2+3+7+6 = 18, which is a multiple of 3, so it is divisible by 3. Its last digit is 6, not 0 or 5, so it is not divisible by 5. For 2,385, the digit sum is 2+3+8+5 = 18 (divisible by 3) and the last digit is 5, so it is also divisible by 5. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-014-20",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the rule ‘a number is divisible by 9 if and only if the sum of its digits is divisible by 9’ hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 9), each digit contributes its face value to the remainder, so the whole number and the digit sum have the same remainder modulo 9.",
+        "B": "Because 10 ≡ 0 (mod 9), making every digit irrelevant to divisibility by 9.",
+        "C": "Because the product of the digits determines divisibility by 9.",
+        "D": "Because only numbers ending in 9 can be divisible by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 9), each digit contributes its face value to the remainder, so the whole number and the digit sum have the same remainder modulo 9.",
+      "explanation": "In base‑10, any number can be written as Σ d_i·10^i. Since 10 ≡ 1 (mod 9), 10^i ≡ 1^i ≡ 1 (mod 9). Therefore each term d_i·10^i ≡ d_i (mod 9). Adding all terms gives the same remainder as the sum of the digits. Hence the number is divisible by 9 exactly when its digit sum is divisible by 9.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-014-21",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is guaranteed to be divisible by 5?",
+      "options": {
+        "A": "342",
+        "B": "415",
+        "C": "628",
+        "D": "791"
+      },
+      "correct_option": "B",
+      "answer": "415",
+      "explanation": "A number is divisible by 5 if its last digit is 0 or 5. Among the options, only 415 ends with 5, so it is the only number guaranteed to be divisible by 5.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-014-22",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which quick test can be used to decide whether 7,432 is divisible by 4?",
+      "options": {
+        "A": "Check whether the number formed by the last two digits (32) is divisible by 4.",
+        "B": "Add all the digits and see if the sum is divisible by 4.",
+        "C": "Verify that the last digit is 0 or 5.",
+        "D": "Confirm that the whole number is even."
+      },
+      "correct_option": "A",
+      "answer": "Check whether the number formed by the last two digits (32) is divisible by 4.",
+      "explanation": "A number is divisible by 4 if its last two digits form a number divisible by 4. The last two digits of 7,432 are 32, and 32 ÷ 4 = 8, so the test confirms divisibility. The other options test unrelated rules.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-014-23",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which statement correctly distinguishes the divisibility rules for 2 and for 3?",
+      "options": {
+        "A": "A number is divisible by 2 if its last digit is even; it is divisible by 3 if the sum of its digits is a multiple of 3.",
+        "B": "A number is divisible by 2 if the sum of its digits is even; it is divisible by 3 if its last digit is 3 or 6.",
+        "C": "A number is divisible by 2 if it ends with 0 or 5; it is divisible by 3 if the product of its digits is a multiple of 3.",
+        "D": "A number is divisible by 2 if its last two digits form an even number; it is divisible by 3 if the number of digits is a multiple of 3."
+      },
+      "correct_option": "A",
+      "answer": "A number is divisible by 2 if its last digit is even; it is divisible by 3 if the sum of its digits is a multiple of 3.",
+      "explanation": "The rule for 2 looks only at the unit digit: even digits (0,2,4,6,8) indicate divisibility. The rule for 3 uses the digit‑sum test: if the sum of all digits is a multiple of 3, the whole number is divisible by 3. The other options mix up or invent incorrect criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-014-24",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "A student uses the rule for 11: subtract and add alternating digits of 52731 → 5 − 2 + 7 − 3 + 1 = 8. Since 8 is not a multiple of 11, the number is not divisible by 11. Why does this alternating‑sum rule work?",
+      "options": {
+        "A": "Because 10 ≡ –1 (mod 11), so each place value contributes either +digit or –digit to the total modulo 11.",
+        "B": "Because 10 ≡ 0 (mod 11), making only the first digit matter.",
+        "C": "Because the product of the digits determines divisibility by 11.",
+        "D": "Because any number with an odd number of digits is never divisible by 11."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ –1 (mod 11), so each place value contributes either +digit or –digit to the total modulo 11.",
+      "explanation": "In base‑10, 10 ≡ –1 (mod 11). Therefore 10^0 ≡ 1, 10^1 ≡ –1, 10^2 ≡ 1, etc. When a number is expressed as Σ d_i·10^i, each digit alternately adds or subtracts modulo 11. The alternating‑sum of the digits gives the same remainder as the original number, so if that sum is a multiple of 11, the number is divisible by 11. The other options are mathematically incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

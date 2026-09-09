@@ -1,0 +1,150 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "LU-00066-MCQ-009",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which pair of numbers shares exactly the same set of divisibility properties for 2, 3 and 5?",
+      "options": {
+        "A": "24 and 48",
+        "B": "30 and 45",
+        "C": "14 and 28",
+        "D": "27 and 54"
+      },
+      "correct_option": "A",
+      "answer": "24 and 48",
+      "explanation": "Both 24 and 48 are divisible by 2 and 3 but not by 5, giving them the same divisibility pattern (2 & 3 only). The other pairs differ: B (30 is divisible by 2,3,5 while 45 lacks 2), C (both only by 2, which is a different pattern), D (27 lacks 2).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-00066-MCQ-010",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "A student wants to know which of the following numbers is divisible by 9 without performing long division. Which number is divisible by 9?",
+      "options": {
+        "A": "462",
+        "B": "527",
+        "C": "738",
+        "D": "851"
+      },
+      "correct_option": "C",
+      "answer": "738",
+      "explanation": "A number is divisible by 9 if the sum of its digits is a multiple of 9. 7+3+8 = 18, which is a multiple of 9, so 738 is divisible by 9. For the others: 4+6+2=12, 5+2+7=14, 8+5+1=14 – none are multiples of 9.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-00066-MCQ-011",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which of the following statements about the number 84 is true?",
+      "options": {
+        "A": "84 is divisible by 2, 3, 4, 6 and 7.",
+        "B": "84 is divisible by 2, 5, 6 and 9.",
+        "C": "84 is divisible by 3, 5, 7 and 11.",
+        "D": "84 is divisible only by 2 and 7."
+      },
+      "correct_option": "A",
+      "answer": "84 is divisible by 2, 3, 4, 6 and 7.",
+      "explanation": "84 ÷ 2 = 42, ÷ 3 = 28, ÷ 4 = 21, ÷ 6 = 14, ÷ 7 = 12, so all those divisions are exact. Options B, C and D list numbers that do not divide 84 evenly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-00066-MCQ-012",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does a number that ends in 0 or 5 always divide evenly by 5?",
+      "options": {
+        "A": "Because the decimal system groups numbers in blocks of 10, and the last digit determines the remainder when divided by 5.",
+        "B": "Because any number ending in 0 or 5 can be written as 5 × (2 × k) where k is an integer.",
+        "C": "Because the base‑10 representation allows the number to be expressed as 5 × an integer, since the units place contributes either 0 or 5, both multiples of 5.",
+        "D": "Because the sum of the digits of such a number is always a multiple of 5."
+      },
+      "correct_option": "C",
+      "answer": "Because the base‑10 representation allows the number to be expressed as 5 × an integer, since the units place contributes either 0 or 5, both multiples of 5.",
+      "explanation": "In base‑10, a number N = 10·k + d, where d is the last digit. If d = 0 or 5, then N = 5·(2k) or N = 5·(2k+1), both of which are multiples of 5. Options A and D describe unrelated ideas, and B is an incorrect formulation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-00066-MCQ-013",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which statement correctly distinguishes the divisibility rule for 3 from that for 9?",
+      "options": {
+        "A": "A number is divisible by 3 if its last digit is 3; it is divisible by 9 if its last digit is 9.",
+        "B": "A number is divisible by 3 if the sum of its digits is a multiple of 3; it is divisible by 9 if the sum of its digits is a multiple of 9.",
+        "C": "A number is divisible by 3 when the number of its digits is a multiple of 3; it is divisible by 9 when the number of its digits is a multiple of 9.",
+        "D": "A number is divisible by 3 if it is even; it is divisible by 9 if it ends in 0."
+      },
+      "correct_option": "B",
+      "answer": "A number is divisible by 3 if the sum of its digits is a multiple of 3; it is divisible by 9 if the sum of its digits is a multiple of 9.",
+      "explanation": "The digit‑sum rule works for both 3 and 9, but the required multiple differs: 3 for divisibility by 3, 9 for divisibility by 9. The other options describe incorrect or unrelated criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "LU-00066-MCQ-014",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Using the rule that a number is divisible by 4 if its last two digits form a number divisible by 4, which of the following numbers is divisible by 4?",
+      "options": {
+        "A": "123",
+        "B": "456",
+        "C": "789",
+        "D": "102"
+      },
+      "correct_option": "B",
+      "answer": "456",
+      "explanation": "The last two digits of 456 are 56, and 56 ÷ 4 = 14, so 456 is divisible by 4. For the others: 23, 89, and 02 are not multiples of 4 (02 = 2).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "LU-00066-MCQ-015",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "A number is known to be divisible by 2 and 3 but not by 5. Which of the following could be that number?",
+      "options": {
+        "A": "30",
+        "B": "42",
+        "C": "55",
+        "D": "70"
+      },
+      "correct_option": "B",
+      "answer": "42",
+      "explanation": "Divisible by 2 and 3 means the number is a multiple of 6. 42 = 6 × 7, so it meets the condition and is not a multiple of 5. 30 is divisible by 5, 55 is not even, and 70 is not divisible by 3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-00066-MCQ-016",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "A student notices that the three‑digit number 333 is divisible by 3. Why does this happen?",
+      "options": {
+        "A": "Because the sum of its digits (3+3+3 = 9) is a multiple of 3, and the digit‑sum rule guarantees divisibility by 3.",
+        "B": "Because any number that repeats the same digit three times is always a multiple of 3.",
+        "C": "Because the last digit is 3, and any number ending in 3 is divisible by 3.",
+        "D": "Because 333 equals 3 × 111, and any product with 3 is divisible by 3."
+      },
+      "correct_option": "A",
+      "answer": "Because the sum of its digits (3+3+3 = 9) is a multiple of 3, and the digit‑sum rule guarantees divisibility by 3.",
+      "explanation": "The digit‑sum rule states that a number is divisible by 3 if the sum of its digits is a multiple of 3. Here 3+3+3 = 9, which is divisible by 3, so 333 is divisible by 3. Option B is overgeneralised, C is false, and D, while true, does not explain the underlying rule.",
+      "difficulty": "medium"
+    }
+  ]
+}
