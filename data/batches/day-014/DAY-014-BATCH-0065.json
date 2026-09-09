@@ -1,0 +1,78 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00068",
+      "learning_point": "Visualise configurations involving three lines",
+      "question": "Which of the following diagrams does NOT represent three lines that intersect each other at three distinct points?",
+      "options": {
+        "A": "All three lines meet at a single point.",
+        "B": "Two lines intersect, and the third line is parallel to one of them.",
+        "C": "Each line intersects the other two at different points, forming a triangle.",
+        "D": "Two lines are parallel, and the third line intersects both of them."
+      },
+      "correct_option": "A",
+      "answer": "All three lines meet at a single point.",
+      "explanation": "When all three lines pass through the same point, there is only one intersection point, not three distinct ones. Options B, C, and D each produce at least two distinct intersection points, so they do represent configurations with multiple intersections. Therefore, option A is the correct choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00068",
+      "learning_point": "Identify intersection points",
+      "question": "Given the three lines: l1: y = 2x + 1, l2: y = -x + 4, and l3: y = 0.5x + 2, how many distinct intersection points do they have?",
+      "options": {
+        "A": "1 distinct intersection point",
+        "B": "2 distinct intersection points",
+        "C": "3 distinct intersection points",
+        "D": "No intersection points"
+      },
+      "correct_option": "C",
+      "answer": "3 distinct intersection points",
+      "explanation": "Find each pairwise intersection:\n- l1 and l2: 2x + 1 = -x + 4 → 3x = 3 → x = 1, y = 3.\n- l1 and l3: 2x + 1 = 0.5x + 2 → 1.5x = 1 → x = 2/3, y = 7/3.\n- l2 and l3: -x + 4 = 0.5x + 2 → -1.5x = -2 → x = 4/3, y = 8/3.\nAll three points are different, giving three distinct intersection points. Hence option C is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00068",
+      "learning_point": "Identify the angles formed",
+      "question": "In a configuration where three lines intersect such that each pair forms angles of 30°, 60°, and 90°, which statement about the largest angle formed at any intersection point is true?",
+      "options": {
+        "A": "The largest angle is 90°.",
+        "B": "The largest angle is 120°.",
+        "C": "The largest angle is 150°.",
+        "D": "The largest angle is 180°."
+      },
+      "correct_option": "A",
+      "answer": "The largest angle is 90°.",
+      "explanation": "The given pairwise angles are 30°, 60°, and 90°. Among them, 90° is the greatest. No other angle can be larger because the lines only create the specified angles. Therefore, the largest angle present in the figure is 90°, making option A correct. The other options propose angles that are not among the given measurements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00068",
+      "learning_point": "Describe the arrangement of lines",
+      "question": "A competitive‑exam question describes three lines: line A is parallel to line B, and line C intersects both A and B at distinct points, forming a triangle. Which description best matches this arrangement?",
+      "options": {
+        "A": "All three lines intersect at a single point.",
+        "B": "Two lines are parallel and the third cuts them, forming a triangle.",
+        "C": "No two lines intersect.",
+        "D": "Each line intersects the other two at different points, forming a triangle."
+      },
+      "correct_option": "B",
+      "answer": "Two lines are parallel and the third cuts them, forming a triangle.",
+      "explanation": "When two lines are parallel (A and B) they never meet. A third line (C) that cuts both creates two intersection points, one on each parallel line, and together they outline a triangular region. This matches option B. Option A would require all lines to meet at one point, which contradicts the parallelism. Option C states no intersections, which is false because line C does intersect A and B. Option D describes three lines each intersecting the others, which would not have any parallel pair. Hence, B is the correct description.",
+      "difficulty": "hard"
+    }
+  ]
+}
