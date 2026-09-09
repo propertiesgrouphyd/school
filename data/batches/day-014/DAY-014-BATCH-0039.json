@@ -1,0 +1,78 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following statements about divisibility patterns is correct?",
+      "options": {
+        "A": "A number is divisible by 2 if its last digit is 0 or 5.",
+        "B": "A number is divisible by 3 if the sum of its digits is a multiple of 3.",
+        "C": "A number is divisible by 5 if its last digit is 2 or 4.",
+        "D": "A number is divisible by 9 if its last digit is 0."
+      },
+      "correct_option": "B",
+      "answer": "A number is divisible by 3 if the sum of its digits is a multiple of 3.",
+      "explanation": "The rule for 3 works because any power of 10 leaves a remainder of 1 when divided by 3, so the number’s remainder equals the remainder of the sum of its digits. Hence option B is correct. Option A confuses the rule for 5 with 2, option C gives a wrong rule for 5, and option D is not a valid rule for 9 (the rule for 9 also uses the digit‑sum, not just the last digit).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which of the following numbers is divisible by 6?",
+      "options": {
+        "A": "144",
+        "B": "157",
+        "C": "169",
+        "D": "181"
+      },
+      "correct_option": "A",
+      "answer": "144",
+      "explanation": "A number is divisible by 6 when it is divisible by both 2 and 3. 144 is even (divisible by 2) and its digit sum 1+4+4=9, which is a multiple of 3, so 144 is divisible by 6. The other numbers are either odd or their digit sums are not multiples of 3, so they fail the test.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Consider the numbers 462 and 528. Which statement is true?",
+      "options": {
+        "A": "Both numbers are divisible by 7, and only 528 is divisible by 8.",
+        "B": "Both numbers are divisible by 8, and only 462 is divisible by 7.",
+        "C": "Neither number is divisible by 7 nor by 8.",
+        "D": "Both numbers are divisible by 7 and by 8."
+      },
+      "correct_option": "A",
+      "answer": "Both numbers are divisible by 7, and only 528 is divisible by 8.",
+      "explanation": "462 ÷ 7 = 66, so 462 is divisible by 7; 528 ÷ 7 = 75.428…, so 528 is not. For 8, 462 ÷ 8 = 57.75 (not divisible) while 528 ÷ 8 = 66 (divisible). Therefore only the statement in option A correctly describes the divisibility of the two numbers. All other options contain false claims.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the rule 'a number is divisible by 3 if the sum of its digits is divisible by 3' hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 3), making the place values irrelevant.",
+        "C": "Because 100 ≡ 1 (mod 3), which only applies to two‑digit numbers.",
+        "D": "Because the rule actually works for 4, not for 3."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+      "explanation": "In modulo 3 arithmetic, 10 leaves a remainder of 1 (10 ≡ 1 (mod 3)). Thus a number written as 10·a + b has the same remainder as a + b. Extending this to all place values shows that the remainder of the whole number equals the remainder of the sum of its digits, proving the rule. Options B, C, and D give incorrect modular relationships or misstate the rule.",
+      "difficulty": "hard"
+    }
+  ]
+}

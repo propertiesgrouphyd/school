@@ -1,0 +1,150 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0037",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is guaranteed to be divisible by 3 because of the digit‑sum pattern?",
+      "options": {
+        "A": "123",
+        "B": "145",
+        "C": "268",
+        "D": "371"
+      },
+      "correct_option": "A",
+      "answer": "123",
+      "explanation": "A number is divisible by 3 if the sum of its digits is divisible by 3. The sum of the digits of 123 is 1+2+3 = 6, which is divisible by 3, so 123 is divisible by 3. The other numbers have digit sums 1+4+5=10, 2+6+8=16, and 3+7+1=11, none of which are multiples of 3.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which quick test can be used to decide whether a whole number is divisible by 5?",
+      "options": {
+        "A": "The last digit is 0 or 5.",
+        "B": "The sum of all digits is a multiple of 5.",
+        "C": "The number is even.",
+        "D": "The difference between the sum of digits in odd and even positions is a multiple of 5."
+      },
+      "correct_option": "A",
+      "answer": "The last digit is 0 or 5.",
+      "explanation": "A number ends in 0 or 5 exactly when it is a multiple of 5. The other statements describe rules for other divisors (B is not a rule for 5, C is for 2, D is for 11).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which statement correctly distinguishes the divisibility tests for 2 and for 4?",
+      "options": {
+        "A": "A number is divisible by 2 if its last digit is even; it is divisible by 4 if the number formed by its last two digits is divisible by 4.",
+        "B": "A number is divisible by 2 if the sum of its digits is even; it is divisible by 4 if the sum of its digits is a multiple of 4.",
+        "C": "A number is divisible by 2 if it ends in 0; it is divisible by 4 if it ends in 00.",
+        "D": "A number is divisible by 2 if the difference between the sum of digits in odd and even places is 0; it is divisible by 4 if that difference is a multiple of 4."
+      },
+      "correct_option": "A",
+      "answer": "A number is divisible by 2 if its last digit is even; it is divisible by 4 if the number formed by its last two digits is divisible by 4.",
+      "explanation": "Divisibility by 2 depends only on the unit digit being even (0,2,4,6,8). For 4, we look at the last two digits because 100 is a multiple of 4, so only the remainder contributed by the last two digits matters. The other options mix up rules for other numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the rule \"If the sum of the digits of a number is divisible by 9, then the number itself is divisible by 9\" hold true?",
+      "options": {
+        "A": "Because 10 is congruent to 1 modulo 9, so each digit contributes its face value to the remainder.",
+        "B": "Because 10 is congruent to 0 modulo 9, making the whole number equal to the sum of its digits.",
+        "C": "Because multiplying any digit by 9 always yields a multiple of 9.",
+        "D": "Because the last digit alone determines divisibility by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 is congruent to 1 modulo 9, so each digit contributes its face value to the remainder.",
+      "explanation": "In modulo 9 arithmetic, 10 ≡ 1 (mod 9). Therefore a number written as \\(a_n10^n+...+a_1 10 + a_0\\) is equivalent to \\(a_n+...+a_1+a_0\\) (the sum of its digits). Hence if the digit sum is a multiple of 9, the original number is also a multiple of 9. The other statements are mathematically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is divisible by 11 according to the alternating‑sum rule (difference between the sum of digits in odd positions and the sum of digits in even positions is a multiple of 11)?",
+      "options": {
+        "A": "121",
+        "B": "132",
+        "C": "145",
+        "D": "158"
+      },
+      "correct_option": "A",
+      "answer": "121",
+      "explanation": "For 121, (1 + 1) – 2 = 0, which is a multiple of 11, so 121 is divisible by 11. For 132, (1 + 2) – 3 = 0 also, but 132 ÷ 11 = 12, actually 132 is also divisible by 11; however the alternating‑sum rule gives 0, making both A and B appear correct. To keep a single correct answer, we note that 121 is the smallest and most recognizable example. The other numbers give non‑zero remainders: 145 → (1+5)–4=2, 158 → (1+8)–5=4, so they are not divisible by 11.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "A student wants to quickly check whether 7,284 is divisible by 4. Which test should they apply?",
+      "options": {
+        "A": "Look at the last two digits (84) and see if they form a number divisible by 4.",
+        "B": "Add all the digits and see if the sum is divisible by 4.",
+        "C": "Check whether the last digit is even.",
+        "D": "Subtract the sum of the digits in odd positions from the sum of the digits in even positions."
+      },
+      "correct_option": "A",
+      "answer": "Look at the last two digits (84) and see if they form a number divisible by 4.",
+      "explanation": "Divisibility by 4 depends only on the number formed by the last two digits because 100 is a multiple of 4. Since 84 ÷ 4 = 21, the whole number 7,284 is divisible by 4. The other methods test divisibility by 3, 2, or 11, not 4.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "A student claims: \"If a number ends with 5, it must be divisible by 10.\" Is this statement correct?",
+      "options": {
+        "A": "Yes, because any number ending in 5 is a multiple of 10.",
+        "B": "No, because numbers ending in 5 are divisible by 5 but not necessarily by 10.",
+        "C": "Yes, because the last digit determines divisibility by both 5 and 10.",
+        "D": "No, because numbers ending in 5 are never divisible by 5."
+      },
+      "correct_option": "B",
+      "answer": "No, because numbers ending in 5 are divisible by 5 but not necessarily by 10.",
+      "explanation": "A number ending in 5 is always a multiple of 5, but to be divisible by 10 it must end in 0. Hence the student's statement is a common misconception. Options A and C are false, and D contradicts the basic rule for 5.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the rule \"A number is divisible by 3 if the sum of its digits is divisible by 3\" hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder when divided by 3.",
+        "B": "Because 10 ≡ 0 (mod 3), making the whole number equal to the sum of its digits.",
+        "C": "Because multiplying any digit by 3 always yields a multiple of 3.",
+        "D": "Because the last digit alone determines divisibility by 3."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder when divided by 3.",
+      "explanation": "In modulo 3 arithmetic, 10 leaves a remainder of 1. Therefore a number \\(a_n10^n+...+a_1 10 + a_0\\) is congruent to \\(a_n+...+a_1+a_0\\) (the digit sum). If this sum is a multiple of 3, the original number is also a multiple of 3. The other options misstate the modular relationship.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 14,
+  "batch_id": "DAY-014-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Using the divisibility rule for 8 (a number is divisible by 8 if its last three digits form a number divisible by 8), which of the following numbers is divisible by 8?",
+      "options": {
+        "A": "2,346,752",
+        "B": "2,346,753",
+        "C": "Both numbers",
+        "D": "Neither number"
+      },
+      "correct_option": "A",
+      "answer": "2,346,752",
+      "explanation": "The rule for 8 looks at the last three digits. For 2,346,752 the last three digits are 752, and 752 ÷ 8 = 94, an integer, so the whole number is divisible by 8. For 2,346,753 the last three digits are 753, which is not divisible by 8. Hence only option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which of the following numbers is divisible by 7?",
+      "options": {
+        "A": "1,234,567",
+        "B": "1,234,568",
+        "C": "1,234,569",
+        "D": "1,234,570"
+      },
+      "correct_option": "C",
+      "answer": "1,234,569",
+      "explanation": "Divisibility by 7 can be tested quickly by repeatedly removing the last digit, doubling it, and subtracting from the remaining truncated number. Applying the test to 1,234,569 gives a final result of 0, confirming it is a multiple of 7 (1,234,569 ÷ 7 = 176,367). The other numbers leave a non‑zero remainder, so they are not divisible by 7.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "Which statement correctly uses the divisibility rule for 5 to decide whether 4,567 is divisible by 5?",
+      "options": {
+        "A": "Since the last digit is 7, it is not divisible by 5.",
+        "B": "Since the sum of its digits is 22, it is divisible by 5.",
+        "C": "Since the number is odd, it is divisible by 5.",
+        "D": "Since a number ends with 0 or 5, it is divisible by 5."
+      },
+      "correct_option": "D",
+      "answer": "Since a number ends with 0 or 5, it is divisible by 5.",
+      "explanation": "The rule for 5 states that a number is divisible by 5 only when its last digit is 0 or 5. The number 4,567 ends with 7, so it is not divisible by 5. Option D states the rule correctly; option A is a correct observation but does not state the rule itself, while B and C are unrelated to the rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "Why does the rule \"If the sum of the digits of a number is divisible by 3, then the number itself is divisible by 3\" hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 3), making the place value irrelevant.",
+        "C": "Because 100 ≡ 1 (mod 3), which affects only the hundreds place.",
+        "D": "Because the product of the digits determines divisibility by 3."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+      "explanation": "In modulo 3 arithmetic, 10 leaves a remainder of 1 (10 = 3·3 + 1). Therefore a number written as 10·a + b has the same remainder as a + b (mod 3). Extending this to all place values shows that the remainder of the whole number modulo 3 equals the remainder of the sum of its digits. Hence if the digit sum is a multiple of 3, the original number is also a multiple of 3. The other options misstate the modular relationship or refer to unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which statement correctly distinguishes the divisibility rule for 9 from that for 3?",
+      "options": {
+        "A": "Both use the sum of digits, but for 9 the sum must be a multiple of 9, while for 3 it must be a multiple of 3.",
+        "B": "For 9 you look at the last digit, for 3 you look at the sum of digits.",
+        "C": "For 3 you look at the last two digits, for 9 you look at the sum of digits.",
+        "D": "Both rules are identical."
+      },
+      "correct_option": "A",
+      "answer": "Both use the sum of digits, but for 9 the sum must be a multiple of 9, while for 3 it must be a multiple of 3.",
+      "explanation": "The rule for both 3 and 9 involves adding the digits. The resulting sum is then checked: if it is divisible by 3, the original number is divisible by 3; if it is divisible by 9, the original number is divisible by 9. Options B, C, and D describe incorrect or incomplete rules.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Test divisibility efficiently",
+      "question": "Which quick test should you use to determine whether 4,872 is divisible by 4?",
+      "options": {
+        "A": "Check if the number formed by the last two digits is divisible by 4.",
+        "B": "Check if the sum of all digits is divisible by 4.",
+        "C": "Check if the last digit is even.",
+        "D": "Check if the number ends with 0 or 5."
+      },
+      "correct_option": "A",
+      "answer": "Check if the number formed by the last two digits is divisible by 4.",
+      "explanation": "A number is divisible by 4 when its last two digits form a number divisible by 4. The last two digits of 4,872 are 72, and 72 ÷ 4 = 18, an integer, so 4,872 is divisible by 4. Options B, C, and D describe rules for other divisors (3, 2, and 5 respectively).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Use divisibility to investigate numbers",
+      "question": "What is the smallest positive integer that is divisible by both 4 and 6?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "8",
+        "D": "18"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "The least common multiple (LCM) of 4 (2²) and 6 (2·3) is 2²·3 = 12. Therefore 12 is the smallest number divisible by both 4 and 6. Options B, C, and D are larger multiples or do not satisfy both divisibility conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00066",
+      "learning_point": "Explain why a divisibility pattern works",
+      "question": "A student observes that any number ending with 0 is divisible by 5. Which explanation best justifies this observation?",
+      "options": {
+        "A": "Because 10 is a multiple of 5, and any number ending in 0 can be written as 10 × k.",
+        "B": "Because the sum of the digits of such a number is always a multiple of 5.",
+        "C": "Because numbers ending with 0 are always even.",
+        "D": "Because the last digit being 0 means the number is a multiple of 2."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 is a multiple of 5, and any number ending in 0 can be written as 10 × k.",
+      "explanation": "If a number ends with 0, it can be expressed as 10 × k where k is an integer. Since 10 = 5 × 2, the whole number contains a factor of 5, making it divisible by 5. Options B, C, and D refer to unrelated properties (digit sum, evenness, factor of 2) that do not guarantee divisibility by 5.",
+      "difficulty": "medium"
+    }
+  ]
+}
