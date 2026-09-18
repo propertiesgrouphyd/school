@@ -1,0 +1,78 @@
+{
+  "day": 46,
+  "batch_id": "DAY-046-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Count objects systematically in a figure pattern",
+      "question": "In a visual pattern, Figure 1 shows 1 circle. Each next figure adds 2 more circles than the previous figure. How many circles are there in Figure 4?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "Figure 1 has 1 circle. Figure 2 adds 2 → 3 circles. Figure 3 adds 2 → 5 circles. Figure 4 adds 2 → 7 circles. The systematic count gives 7 circles. Options B, C, and D are larger because they assume a different increase (e.g., adding 3 or 4 each time), which is a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Relate figure number to number of objects",
+      "question": "In a pattern of figures, the number of dots follows the triangular‑number sequence: Figure 1 has 1 dot, Figure 2 has 3 dots, Figure 3 has 6 dots, Figure 4 has 10 dots, Figure 5 has 15 dots. How many dots will be in Figure 8?",
+      "options": {
+        "A": "28",
+        "B": "36",
+        "C": "45",
+        "D": "56"
+      },
+      "correct_option": "B",
+      "answer": "36",
+      "explanation": "Triangular numbers are given by Tₙ = n(n + 1)/2. For n = 8, T₈ = 8 × 9 / 2 = 36. Option B is correct. Option A (28) is T₇, Option C (45) is T₉, and Option D (56) is T₁₀; they result from using the wrong figure number.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Predict later figures without drawing every intermediate figure",
+      "question": "A series of figures is formed by squares arranged in a single row. Figure 1 contains 2 squares, and each subsequent figure doubles the number of squares of the previous figure. Without drawing the intermediate figures, how many squares will Figure 6 contain?",
+      "options": {
+        "A": "32",
+        "B": "64",
+        "C": "128",
+        "D": "256"
+      },
+      "correct_option": "B",
+      "answer": "64",
+      "explanation": "The number of squares follows 2, 4, 8, 16, 32, 64… i.e., 2ⁿ for Figure n. For n = 6, 2⁶ = 64 squares. Option B is correct. Options A, C, and D correspond to 2⁵, 2⁷, and 2⁸ respectively, showing the error of counting one step too few or too many.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Describe visual patterns mathematically",
+      "question": "In a sequence of figures, each figure shows a regular polygon whose number of sides increases by one starting from a triangle in Figure 1. In Figure n, each side of the polygon is divided into n equal parts, and all the division lines are drawn. How many line segments are drawn in Figure 5?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "42",
+        "D": "49"
+      },
+      "correct_option": "B",
+      "answer": "35",
+      "explanation": "Figure n has (n + 2) sides (since Figure 1 is a triangle with 3 sides). Each side is split into n equal parts, giving n segments per side. Total segments = (n + 2) × n. For n = 5, (5 + 2) × 5 = 7 × 5 = 35. Option B is correct. Options A, C, and D arise from using wrong formulas such as (n + 1) × n or (n + 2) × (n – 1).",
+      "difficulty": "hard"
+    }
+  ]
+}
