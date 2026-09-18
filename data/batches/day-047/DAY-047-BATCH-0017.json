@@ -1,0 +1,150 @@
+{
+  "day": 47,
+  "batch_id": "DAY-047-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-47-25",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "A student evaluated the expression 8 + 3 × 2 and wrote 22 as the answer. Which statement best explains why this answer should be checked for reasonableness?",
+      "options": {
+        "A": "The student correctly applied the order of operations, so 22 is reasonable.",
+        "B": "Multiplication must be done before addition, giving 8 + (3×2) = 14; therefore 22 is unreasonable.",
+        "C": "Addition must be done before multiplication, so 22 is the correct result.",
+        "D": "Grouping symbols are missing, so any answer is acceptable."
+      },
+      "correct_option": "B",
+      "answer": "Multiplication must be done before addition, giving 8 + (3×2) = 14; therefore 22 is unreasonable.",
+      "explanation": "According to the order of operations (PEMDAS/BODMAS), multiplication is performed before addition. 3×2 = 6, then 8+6 = 14. An answer of 22 shows the student added first, which is not reasonable. Option B correctly identifies the mistake; the other options either claim the answer is correct or misunderstand the role of grouping symbols.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-47-26",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "Riya is solving the expression 5 × (2 + 3). Why does she need the parentheses?",
+      "options": {
+        "A": "They tell her to add 2 and 3 first, then multiply the sum by 5.",
+        "B": "They indicate that multiplication should be done before addition.",
+        "C": "They are optional and do not affect the result.",
+        "D": "They change the numbers 2 and 3 into a single number."
+      },
+      "correct_option": "A",
+      "answer": "They tell her to add 2 and 3 first, then multiply the sum by 5.",
+      "explanation": "Parentheses are grouping symbols that force the operations inside them to be performed first. In 5 × (2 + 3), the addition 2 + 3 = 5 is done before the multiplication, giving 5 × 5 = 25. Option A states this purpose correctly; the other options misinterpret the role of parentheses.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47-27",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "What is the correct value of the expression 6 ÷ 2 × 3?",
+      "options": {
+        "A": "9, because division is performed first and then multiplication.",
+        "B": "1, because multiplication is performed first and then division.",
+        "C": "5, because addition is performed before multiplication.",
+        "D": "3, because the operations are performed from right to left."
+      },
+      "correct_option": "A",
+      "answer": "9, because division is performed first and then multiplication.",
+      "explanation": "When only division and multiplication appear, they are evaluated from left to right. First 6 ÷ 2 = 3, then 3 × 3 = 9. Option A follows this systematic rule. Options B, C, and D apply incorrect orders or unrelated operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-47-28",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Apply the correct order of operations",
+      "question": "Find the value of 4 + 6 × (5 – 2) ÷ 3.",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "First evaluate the parentheses: 5 – 2 = 3. Then multiplication: 6 × 3 = 18. Next division: 18 ÷ 3 = 6. Finally addition: 4 + 6 = 10. Option A matches the correct calculation; the other options result from mis‑ordering the steps.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-47-29",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Avoid changing the order of operations arbitrarily",
+      "question": "Which statement about the expressions 7 + 3 × 2 and (7 + 3) × 2 is true?",
+      "options": {
+        "A": "Both expressions give the same result, so the order can be changed arbitrarily.",
+        "B": "Changing the order gives a different result; therefore the original order must not be altered.",
+        "C": "Multiplication and addition are interchangeable, so any order works.",
+        "D": "Parentheses never affect the value of an expression."
+      },
+      "correct_option": "B",
+      "answer": "Changing the order gives a different result; therefore the original order must not be altered.",
+      "explanation": "7 + 3 × 2 = 7 + 6 = 13, while (7 + 3) × 2 = 10 × 2 = 20. The results differ, showing that arbitrarily changing the order of operations leads to incorrect answers. Option B correctly states this; the other options ignore the effect of grouping symbols.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-47-30",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "A competitive exam question asks for the value of 125 – 45 ÷ 5 + 8 × 2. Which of the following is the most reasonable answer?",
+      "options": {
+        "A": "132",
+        "B": "140",
+        "C": "124",
+        "D": "150"
+      },
+      "correct_option": "A",
+      "answer": "132",
+      "explanation": "First perform division: 45 ÷ 5 = 9. Then multiplication: 8 × 2 = 16. Substitute: 125 – 9 + 16 = 116 + 16 = 132. Option A matches the correct calculation. The other options are unreasonable because they either ignore the order of operations or mis‑calculate one of the steps.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-47-31",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "What is the main purpose of grouping symbols such as parentheses in arithmetic expressions?",
+      "options": {
+        "A": "To indicate which operations must be performed first.",
+        "B": "To decorate the expression without affecting its value.",
+        "C": "To replace numbers with letters.",
+        "D": "To be used only in algebraic equations."
+      },
+      "correct_option": "A",
+      "answer": "To indicate which operations must be performed first.",
+      "explanation": "Grouping symbols tell us the order in which parts of an expression should be evaluated before applying the remaining operations. This ensures a unique, correct result. Options B, C, and D describe functions that are not true for grouping symbols in arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-47-32",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "Which sequence correctly evaluates the expression 9 – 3 × 2 + 4?",
+      "options": {
+        "A": "Subtract, then multiply, then add.",
+        "B": "Multiply, then subtract, then add.",
+        "C": "Multiply, then add, then subtract.",
+        "D": "Add, then multiply, then subtract."
+      },
+      "correct_option": "B",
+      "answer": "Multiply, then subtract, then add.",
+      "explanation": "According to the order of operations, multiplication comes before addition and subtraction. First compute 3 × 2 = 6, then perform the subtraction 9 – 6 = 3, and finally add 4 to get 7. Option B describes this correct systematic process; the other options place the operations in an incorrect order.",
+      "difficulty": "easy"
+    }
+  ]
+}

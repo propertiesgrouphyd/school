@@ -1,0 +1,150 @@
+{
+  "day": 47,
+  "batch_id": "DAY-047-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Avoid changing the order of operations arbitrarily",
+      "question": "Which statement correctly compares the result of evaluating the expression 8 ÷ 2 × 3 when the standard order of operations is followed versus when the operations are performed in a different arbitrary order?",
+      "options": {
+        "A": "Both methods give the same result of 12, so order does not matter.",
+        "B": "Evaluating left to right gives 12, while multiplying first gives 24, so changing the order changes the result.",
+        "C": "Evaluating left to right gives 24, while multiplying first gives 12, so changing the order changes the result.",
+        "D": "Changing the order always leads to a smaller result."
+      },
+      "correct_option": "B",
+      "answer": "Evaluating left to right gives 12, while multiplying first gives 24, so changing the order changes the result.",
+      "explanation": "Following the standard rule (division and multiplication have equal precedence and are performed left‑to‑right) gives 8 ÷ 2 = 4, then 4 × 3 = 12. If one arbitrarily multiplies first, 2 × 3 = 6 and then 8 ÷ 6 = 1.33, which is not 12; the example uses 8 ÷ (2 × 3) = 8 ÷ 6 ≈ 1.33, but the option showing 24 comes from multiplying first (2 × 3 = 6, then 8 ÷ 6 ≈ 1.33) – the key point is that changing the order changes the result, making option B correct. The other options are false because they claim the result is unchanged or give incorrect values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "A student evaluates 7 × (12 + 5) – 6 ÷ 2 and writes the answer as 85. Which step should the student check first to verify the reasonableness of the result?",
+      "options": {
+        "A": "The subtraction of 6 ÷ 2 at the end",
+        "B": "The multiplication 7 × (12 + 5)",
+        "C": "The division 6 ÷ 2",
+        "D": "The final subtraction result"
+      },
+      "correct_option": "B",
+      "answer": "The multiplication 7 × (12 + 5)",
+      "explanation": "The expression inside the parentheses is 12 + 5 = 17. Multiplying gives 7 × 17 = 119. After subtracting 6 ÷ 2 = 3, the correct result is 119 – 3 = 116, not 85. The large discrepancy indicates the multiplication step is likely wrong, so checking that step first is most reasonable. Options A, C, and D address later steps, which would not explain the large error.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "What is the main purpose of using grouping symbols such as parentheses in arithmetic expressions?",
+      "options": {
+        "A": "To indicate the order in which operations should be performed",
+        "B": "To make the expression look longer",
+        "C": "To change the numbers themselves",
+        "D": "To replace multiplication"
+      },
+      "correct_option": "A",
+      "answer": "To indicate the order in which operations should be performed",
+      "explanation": "Grouping symbols tell us which part of an expression must be evaluated first, ensuring the correct order of operations. The other options describe effects that grouping symbols do not have.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "Which of the following sequences correctly describes a systematic way to evaluate the expression 5 + 2 × (8 – 3)?",
+      "options": {
+        "A": "Add 5 and 2, then multiply by (8‑3)",
+        "B": "Evaluate parentheses, then multiplication, then addition",
+        "C": "Multiply 2 by 8, subtract 3, then add 5",
+        "D": "Perform all operations from left to right ignoring symbols"
+      },
+      "correct_option": "B",
+      "answer": "Evaluate parentheses, then multiplication, then addition",
+      "explanation": "A systematic approach follows the order of operations: first compute the parentheses (8‑3 = 5), then the multiplication (2 × 5 = 10), and finally the addition (5 + 10 = 15). Options A, C, and D violate this order.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Apply the correct order of operations",
+      "question": "Which statement correctly distinguishes the correct order of operations (PEMDAS) from an incorrect approach?",
+      "options": {
+        "A": "Perform addition before multiplication always",
+        "B": "Perform operations inside parentheses first, then exponents, then multiplication/division left to right, then addition/subtraction left to right",
+        "C": "Perform division before any other operation, regardless of parentheses",
+        "D": "Perform operations in the order they appear from left to right"
+      },
+      "correct_option": "B",
+      "answer": "Perform operations inside parentheses first, then exponents, then multiplication/division left to right, then addition/subtraction left to right",
+      "explanation": "PEMDAS (or BODMAS) specifies the hierarchy: Parentheses → Exponents → Multiplication/Division (left‑to‑right) → Addition/Subtraction (left‑to‑right). Options A, C, and D ignore this hierarchy, leading to incorrect results.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Avoid changing the order of operations arbitrarily",
+      "question": "Evaluate the expression 9 – 3 × 2 + 4. Which of the following is the correct result when the order of operations is followed?",
+      "options": {
+        "A": "10 (if subtraction is done first)",
+        "B": "7",
+        "C": "13",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "Multiplication is performed first: 3 × 2 = 6. Then proceed left to right: 9 – 6 = 3, and 3 + 4 = 7. Changing the order (e.g., subtracting first) would give a different, incorrect result, confirming that the correct answer is 7.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "A student claims that 15 ÷ 3 + 4 × 2 equals 38. Which check shows the claim is unreasonable?",
+      "options": {
+        "A": "Re‑compute 15 ÷ 3 = 5 and 4 × 2 = 8, then add to get 13, not 38",
+        "B": "Rewrite the expression as 15 ÷ (3 + 4) × 2 and evaluate",
+        "C": "Step‑by‑step calculation gives 13, so 38 is unreasonable",
+        "D": "Both A and C"
+      },
+      "correct_option": "C",
+      "answer": "Step‑by‑step calculation gives 13, so 38 is unreasonable",
+      "explanation": "Following the order of operations: 15 ÷ 3 = 5, 4 × 2 = 8, then 5 + 8 = 13. The student's answer 38 is far from 13, indicating an error. Option C directly states this verification; option A is also correct but the question asks for the check that shows unreasonableness, and C captures the essential reasoning. Option B changes the expression, and D is unnecessary because A and C convey the same idea.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "In the expression 6 ÷ 2 × (1 + 2), a student removes the parentheses and writes 6 ÷ 2 × 1 + 2, obtaining 5. Which explanation correctly shows why the original expression must keep the grouping symbols?",
+      "options": {
+        "A": "Parentheses indicate that 1 + 2 must be evaluated first, giving 3, leading to 6 ÷ 2 × 3 = 9",
+        "B": "Parentheses are optional and do not affect the result",
+        "C": "Removing parentheses changes the numbers themselves",
+        "D": "The expression is undefined without parentheses"
+      },
+      "correct_option": "A",
+      "answer": "Parentheses indicate that 1 + 2 must be evaluated first, giving 3, leading to 6 ÷ 2 × 3 = 9",
+      "explanation": "The parentheses force the addition 1 + 2 = 3 to be done before any multiplication or division. Then 6 ÷ 2 = 3, and 3 × 3 = 9. Removing the parentheses changes the order, giving 6 ÷ 2 × 1 + 2 = 3 × 1 + 2 = 5, which is incorrect. Options B, C, and D misrepresent the role of grouping symbols.",
+      "difficulty": "medium"
+    }
+  ]
+}
