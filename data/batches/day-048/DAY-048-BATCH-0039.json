@@ -1,0 +1,78 @@
+{
+  "day": 48,
+  "batch_id": "DAY-048-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00211",
+      "learning_point": "Represent a pattern using a variable",
+      "question": "The numbers 3, 6, 9, 12, … form a pattern where each term increases by 3. Which of the following expressions correctly gives the nth term of this pattern?",
+      "options": {
+        "A": "3 + n",
+        "B": "3n",
+        "C": "n - 3",
+        "D": "3^n"
+      },
+      "correct_option": "B",
+      "answer": "3n",
+      "explanation": "In this pattern the first term (n = 1) is 3, the second term (n = 2) is 6, etc. Each term is three times the position number, so the nth term is 3 × n, written as 3n. Option A adds 3 to n, giving 4 when n = 1, which is wrong. Option C subtracts 3, giving negative values for early n. Option D raises 3 to the power n, which grows much faster than the pattern. Therefore, 3n is the correct representation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00211",
+      "learning_point": "Use an expression to calculate a later term",
+      "question": "If the pattern 5, 9, 13, 17, … is represented by the expression 4n + 1, what is the 6th term of the pattern?",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "29",
+        "D": "33"
+      },
+      "correct_option": "B",
+      "answer": "25",
+      "explanation": "Substitute n = 6 into the expression: 4(6) + 1 = 24 + 1 = 25. Hence the 6th term is 25. Option A (21) would result from 4(5) + 1, which is the 5th term. Options C and D are larger because they use higher values of n or a different multiplier.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00211",
+      "learning_point": "Explain the meaning of each part of a pattern expression",
+      "question": "Consider the expression 2n + 3 that represents a pattern. Which of the following statements correctly explains the meaning of each part of the expression?",
+      "options": {
+        "A": "\"2n shows the starting number, and +3 adds three to every term.\"",
+        "B": "\"2n indicates that each term increases by 2 as n increases by 1, while +3 is the constant term added to each result.\"",
+        "C": "\"2n is the constant term, and +3 represents the variable part that changes with n.\"",
+        "D": "\"2n + 3 means multiply the term number by 3 and then add 2.\""
+      },
+      "correct_option": "B",
+      "answer": "\"2n indicates that each term increases by 2 as n increases by 1, while +3 is the constant term added to each result.\"",
+      "explanation": "In 2n + 3, the coefficient 2 multiplies the variable n, so each time n increases by 1, the product 2n increases by 2 – this creates the step of 2 between successive terms. The '+3' is a constant that is added to every term, shifting the whole pattern upward by 3. Option A misidentifies 2n as the starting number. Option C reverses the roles of variable and constant. Option D swaps the numbers 2 and 3, giving an incorrect interpretation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00211",
+      "learning_point": "Verify an algebraic rule using known terms",
+      "question": "A pattern is claimed to follow the rule a_n = 2a_{n-1} + 1. The first three terms are a_1 = 3, a_2 = 7, a_3 = 15. Which statement correctly verifies the rule using these known terms?",
+      "options": {
+        "A": "\"Since 7 = 2×3 + 1, the rule holds for n = 2, and 15 = 2×7 + 1, so it also holds for n = 3.\"",
+        "B": "\"Since 7 = 3×2 + 1, the rule holds for n = 2, and 15 = 7×2 + 1, so it also holds for n = 3.\"",
+        "C": "\"Since 7 = 2×3 – 1, the rule does not hold, therefore the pattern is incorrect.\"",
+        "D": "\"Since 15 = 2×3 + 1, the rule holds for n = 3, but we have no information about n = 2.\""
+      },
+      "correct_option": "A",
+      "answer": "\"Since 7 = 2×3 + 1, the rule holds for n = 2, and 15 = 2×7 + 1, so it also holds for n = 3.\"",
+      "explanation": "To verify the rule, substitute the known terms: For n = 2, a_2 should equal 2a_1 + 1 = 2×3 + 1 = 7, which matches the given a_2. For n = 3, a_3 should equal 2a_2 + 1 = 2×7 + 1 = 15, which matches the given a_3. Hence the rule is verified for the first three terms. Option B uses the wrong multiplication order (3×2 instead of 2×3) but still gives 7; however it incorrectly writes the second verification as 7×2 + 1, which is 15, but the wording misrepresents the rule. Option C uses subtraction, contradicting the rule. Option D checks the wrong pair of terms. Therefore, option A is the correct verification.",
+      "difficulty": "hard"
+    }
+  ]
+}
