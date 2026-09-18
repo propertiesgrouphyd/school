@@ -1,0 +1,150 @@
+{
+  "day": 47,
+  "batch_id": "DAY-047-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "A student evaluated 8 + 5 × 2 – 3 = 23. Which of the following statements best checks the reasonableness of this result?",
+      "options": {
+        "A": "The sum of 8 and 5 is 13, which is less than 23.",
+        "B": "Multiplying 5 by 2 gives 10, and adding 8 gives 18, then subtracting 3 gives 15, which is far from 23.",
+        "C": "The largest possible value if all operations were addition would be 8+5+2+3=18, which is less than 23.",
+        "D": "The smallest possible value if all operations were subtraction would be 8-5-2-3=-2, which is far from 23."
+      },
+      "correct_option": "B",
+      "answer": "Multiplying 5 by 2 gives 10, and adding 8 gives 18, then subtracting 3 gives 15, which is far from 23.",
+      "explanation": "To check reasonableness, recompute the expression using the correct order of operations: 5×2 = 10, 8+10 = 18, 18–3 = 15. Since the student's answer 23 differs significantly from 15, the result is unreasonable. Option B shows this correct recomputation, while the other options do not directly verify the calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "Riya writes 4 × (6 + 2) – 5. She wonders why the parentheses are needed. Which statement best explains the purpose of the grouping symbols?",
+      "options": {
+        "A": "They indicate that addition should be performed before multiplication.",
+        "B": "They change the numbers in the expression.",
+        "C": "They are used only to make the expression look neat.",
+        "D": "They tell us to subtract 5 before multiplying."
+      },
+      "correct_option": "A",
+      "answer": "They indicate that addition should be performed before multiplication.",
+      "explanation": "Parentheses are grouping symbols that tell us to evaluate the enclosed operation first. In 4 × (6 + 2) – 5, the addition 6 + 2 must be done before the multiplication, ensuring the correct value. The other options misstate the role of parentheses.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "A student evaluates 9 – 3 × 2 + 4 as (9 – 3) × (2 + 4) = 36. Which misconception does this illustrate?",
+      "options": {
+        "A": "Ignoring the order of operations and treating all operations as left‑to‑right.",
+        "B": "Forgetting to use parentheses.",
+        "C": "Adding instead of subtracting.",
+        "D": "Multiplying before adding."
+      },
+      "correct_option": "A",
+      "answer": "Ignoring the order of operations and treating all operations as left‑to‑right.",
+      "explanation": "The student incorrectly inserted parentheses and performed operations out of the prescribed order (PEMDAS/BODMAS). The correct systematic evaluation would be 3×2 = 6, then 9–6 = 3, then 3+4 = 7. Option A captures this misconception; the other options describe different errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Apply the correct order of operations",
+      "question": "What is the value of the expression 7 + 3 × (4 – 2)² ÷ 2?",
+      "options": {
+        "A": "13",
+        "B": "20",
+        "C": "11",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "13",
+      "explanation": "First evaluate inside parentheses: 4 – 2 = 2. Square it: 2² = 4. Multiply: 3 × 4 = 12. Divide by 2: 12 ÷ 2 = 6. Finally add 7: 7 + 6 = 13. Option A follows the correct order; the other options result from mis‑ordering operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Avoid changing the order of operations arbitrarily",
+      "question": "Consider the two expressions: 1) 6 ÷ 2 × 3  2) 6 ÷ (2 × 3). Which statement is true?",
+      "options": {
+        "A": "Both expressions give 9.",
+        "B": "Both expressions give 1.",
+        "C": "They give different results because changing grouping changes the order of operations.",
+        "D": "They give the same result because division and multiplication are interchangeable."
+      },
+      "correct_option": "C",
+      "answer": "They give different results because changing grouping changes the order of operations.",
+      "explanation": "Expression 1 is evaluated left‑to‑right: (6 ÷ 2) × 3 = 3 × 3 = 9. Expression 2 groups 2 × 3 first: 6 ÷ 6 = 1. Changing the grouping alters which operation is performed first, leading to different results. Hence option C is correct; the others are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "A student obtains 22 as the result of (15 ÷ 3) × (8 – 5) + 7. Which of the following is the most effective way to check the reasonableness of this answer?",
+      "options": {
+        "A": "Estimate each part: 15 ÷ 3 ≈ 5, 8 – 5 ≈ 3, product ≈ 15, plus 7 ≈ 22.",
+        "B": "Add all numbers first: 15 + 3 + 8 + 5 + 7 = 38, then compare.",
+        "C": "Multiply 15 by 8, then divide by 3, subtract 5, add 7.",
+        "D": "Reverse the order of operations and see if you get the same result."
+      },
+      "correct_option": "A",
+      "answer": "Estimate each part: 15 ÷ 3 ≈ 5, 8 – 5 ≈ 3, product ≈ 15, plus 7 ≈ 22.",
+      "explanation": "Reasonableness checking involves estimating each sub‑expression using simple numbers. The estimate 5 × 3 + 7 ≈ 22 matches the computed answer, confirming it is plausible. Options B, C, and D either ignore the structure of the expression or perform incorrect operations, so they are not effective checks.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "In the expression 5 × (2 + 3), what is the purpose of the parentheses?",
+      "options": {
+        "A": "To indicate that 2 + 3 should be performed before multiplication.",
+        "B": "To change the sign of 3.",
+        "C": "To show that multiplication comes before addition.",
+        "D": "To separate the numbers for readability only."
+      },
+      "correct_option": "A",
+      "answer": "To indicate that 2 + 3 should be performed before multiplication.",
+      "explanation": "Parentheses are grouping symbols that force the addition inside them to be carried out first, giving 5 × 5 = 25. This is the essential purpose; the other options misinterpret the role of parentheses.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "Which sequence correctly evaluates the expression 12 – 4 ÷ 2 + 3?",
+      "options": {
+        "A": "Divide 4 ÷ 2 = 2, then 12 – 2 = 10, then 10 + 3 = 13.",
+        "B": "Subtract 12 – 4 = 8, then divide 8 ÷ 2 = 4, then add 3 = 7.",
+        "C": "Add 4 + 2 = 6, then 12 – 6 = 6, then +3 = 9.",
+        "D": "Multiply 12 × 4 = 48, then ÷2 =24, then +3 =27."
+      },
+      "correct_option": "A",
+      "answer": "Divide 4 ÷ 2 = 2, then 12 – 2 = 10, then 10 + 3 = 13.",
+      "explanation": "Following the order of operations, division comes before subtraction and addition. First compute 4 ÷ 2 = 2, then 12 – 2 = 10, finally 10 + 3 = 13. Option A follows this systematic approach; the other options violate the correct order.",
+      "difficulty": "easy"
+    }
+  ]
+}

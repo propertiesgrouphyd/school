@@ -1,0 +1,150 @@
+{
+  "day": 47,
+  "batch_id": "DAY-047-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Avoid changing the order of operations arbitrarily",
+      "question": "Two students evaluate the expression 8 ÷ 2 × 3 + 4.\n\nStudent A follows the standard order of operations (division and multiplication left‑to‑right, then addition) and obtains 16.\nStudent B first multiplies 2 × 3, then divides 8 by the product, and finally adds 4, obtaining 8.\nWhich student's result is correct?",
+      "options": {
+        "A": "Student A’s result is correct.",
+        "B": "Student B’s result is correct.",
+        "C": "Both results are correct because the expression is ambiguous.",
+        "D": "Neither result is correct; the expression must be rewritten with grouping symbols."
+      },
+      "correct_option": "A",
+      "answer": "Student A’s result is correct.",
+      "explanation": "According to the conventional order of operations, division and multiplication are performed from left to right. 8 ÷ 2 = 4, then 4 × 3 = 12, and finally 12 + 4 = 16. Changing the order arbitrarily (as Student B did) gives a wrong value. Hence Student A’s answer is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "In a competitive exam, a candidate evaluates the expression 5 + 3 × 4 – 2 and obtains 15. Which of the following statements best explains why this answer should be accepted as reasonable?",
+      "options": {
+        "A": "Because multiplication is performed before addition and subtraction, giving 5 + 12 – 2 = 15.",
+        "B": "Because all operations are performed from left to right, giving ((5+3)×4)–2 = 30.",
+        "C": "Because subtraction should be done before multiplication, giving 5 + (3×(4–2)) = 11.",
+        "D": "Because addition and subtraction are performed before multiplication, giving (5+3)×(4–2) = 16."
+      },
+      "correct_option": "A",
+      "answer": "Because multiplication is performed before addition and subtraction, giving 5 + 12 – 2 = 15.",
+      "explanation": "The standard rule (PEMDAS/BODMAS) requires performing multiplication before addition and subtraction. 3 × 4 = 12, then 5 + 12 = 17, and finally 17 – 2 = 15. The answer is therefore reasonable. The other options misuse the order of operations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "What is the main purpose of using grouping symbols such as parentheses, brackets, or braces in arithmetic expressions?",
+      "options": {
+        "A": "To indicate the order in which the operations inside the symbols must be performed before those outside.",
+        "B": "To replace the need for the multiplication sign.",
+        "C": "To make the expression look more complicated.",
+        "D": "To show that the numbers inside are always added together."
+      },
+      "correct_option": "A",
+      "answer": "To indicate the order in which the operations inside the symbols must be performed before those outside.",
+      "explanation": "Grouping symbols explicitly tell us which part of an expression must be evaluated first, overriding the default left‑to‑right rule for operations of the same rank. This prevents ambiguity and ensures a unique result.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Evaluate expressions systematically",
+      "question": "Which of the following is the correct systematic procedure to evaluate the expression 6 – 2 × (3 + 1)?",
+      "options": {
+        "A": "First add 3 + 1, then multiply by 2, finally subtract from 6.",
+        "B": "First subtract 2 from 6, then add 3 + 1, then multiply.",
+        "C": "Multiply 2 by 3, add 1, then subtract from 6.",
+        "D": "Add 6 and 2, then multiply by (3 + 1)."
+      },
+      "correct_option": "A",
+      "answer": "First add 3 + 1, then multiply by 2, finally subtract from 6.",
+      "explanation": "The systematic steps are: (1) evaluate the parentheses: 3 + 1 = 4; (2) perform multiplication: 2 × 4 = 8; (3) perform subtraction: 6 – 8 = -2. Option A describes this correct order.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Apply the correct order of operations",
+      "question": "According to the standard order of operations (PEMDAS/BODMAS), which operation is performed first in the expression 9 – 3 × 2 + 4?",
+      "options": {
+        "A": "Subtraction (9 – 3)",
+        "B": "Multiplication (3 × 2)",
+        "C": "Addition (2 + 4)",
+        "D": "All operations are performed simultaneously."
+      },
+      "correct_option": "B",
+      "answer": "Multiplication (3 × 2)",
+      "explanation": "Multiplication and division have higher precedence than addition and subtraction. Therefore, 3 × 2 is performed first, giving 6. The expression then becomes 9 – 6 + 4.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Avoid changing the order of operations arbitrarily",
+      "question": "Riya writes the expression 12 ÷ 3 × 2 and, thinking she can do the multiplication first, calculates 12 ÷ (3 × 2) = 2. What is the correct value of the expression?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "Division and multiplication are of equal priority and are performed left to right. First, 12 ÷ 3 = 4; then 4 × 2 = 8. Changing the order, as Riya did, gives an incorrect result.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Check an evaluated expression for reasonableness",
+      "question": "A student evaluates 7 + 5 × 2 and writes the answer as 24. Which of the following statements correctly assesses the reasonableness of this result?",
+      "options": {
+        "A": "The answer is reasonable because addition is done before multiplication.",
+        "B": "The answer is unreasonable because the correct order gives 7 + (5 × 2) = 17, not 24.",
+        "C": "The answer is reasonable because 7 + 5 =12 and 12 × 2 =24.",
+        "D": "The answer is unreasonable because multiplication should be done after addition, giving (7 + 5) × 2 =24."
+      },
+      "correct_option": "B",
+      "answer": "The answer is unreasonable because the correct order gives 7 + (5 × 2) = 17, not 24.",
+      "explanation": "Multiplication must be performed before addition. 5 × 2 = 10; then 7 + 10 = 17. The student's result 24 comes from incorrectly adding first. Therefore the answer is unreasonable.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00206",
+      "learning_point": "Understand the purpose of grouping symbols",
+      "question": "In a word problem, the total cost is given by the expression (20 + 5) × 3. Which of the following best explains why the parentheses are necessary?",
+      "options": {
+        "A": "They ensure that the addition 20 + 5 is performed before multiplying by 3, giving the correct total of 75.",
+        "B": "They indicate that the numbers 20 and 5 should be multiplied first.",
+        "C": "They are optional because multiplication and addition have the same priority.",
+        "D": "They change the expression to 20 + (5 × 3), which would give a different result."
+      },
+      "correct_option": "A",
+      "answer": "They ensure that the addition 20 + 5 is performed before multiplying by 3, giving the correct total of 75.",
+      "explanation": "Parentheses force the addition inside to be carried out first: 20 + 5 = 25. Then the product 25 × 3 = 75. Without the parentheses, the expression would be interpreted as 20 + (5 × 3) = 35, which is a different and incorrect total for the scenario.",
+      "difficulty": "medium"
+    }
+  ]
+}
