@@ -1,0 +1,150 @@
+{
+  "day": 46,
+  "batch_id": "DAY-046-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Describe visual patterns mathematically",
+      "question": "In the following series of figures, Figure 1 contains 1 square, Figure 2 contains 4 squares, Figure 3 contains 9 squares, and Figure 4 contains 16 squares. Which mathematical expression correctly describes the number of squares in the nth figure?",
+      "options": {
+        "A": "n",
+        "B": "n²",
+        "C": "2n - 1",
+        "D": "n + 1"
+      },
+      "correct_option": "B",
+      "answer": "n²",
+      "explanation": "The numbers of squares are 1, 4, 9, 16 … which are perfect squares. The nth figure contains n² squares. Option B matches this rule. The other options give linear or incorrect growth.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Observe patterns formed by figures",
+      "question": "A pattern is formed by arranging equilateral triangles side by side. The first figure has 1 triangle, the second figure has 3 triangles, the third figure has 6 triangles, and the fourth figure has 10 triangles. Which number of triangles will the fifth figure contain?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "15",
+      "explanation": "The sequence 1, 3, 6, 10 … are triangular numbers given by n(n + 1)/2. For n = 5, the value is 5·6/2 = 15. Hence option C is correct. The other numbers do not follow the triangular‑number rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Count objects systematically in a figure pattern",
+      "question": "Three equal circles overlap so that each pair of circles overlaps and there is a region where all three overlap. How many distinct regions are formed in the whole diagram?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "8",
+      "explanation": "A Venn diagram with three circles divides the plane into 8 regions: 3 outer exclusive parts, 3 pairwise‑overlap parts, 1 triple‑overlap part, and the region outside all circles. Many students forget the outside region, leading to the common mistake of answering 7.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Relate figure number to number of objects",
+      "question": "Figure 1 contains 2 stars. Each subsequent figure adds 5 more stars than the previous figure. Which expression gives the number of stars in the nth figure?",
+      "options": {
+        "A": "5n - 3",
+        "B": "5n + 2",
+        "C": "2n + 5",
+        "D": "n² + 1"
+      },
+      "correct_option": "A",
+      "answer": "5n - 3",
+      "explanation": "The sequence is 2, 7, 12, 17 … which is an arithmetic progression with first term a₁ = 2 and common difference d = 5. The nth term formula is aₙ = a₁ + (n‑1)d = 2 + 5(n‑1) = 5n - 3. Option A matches this; the other options give incorrect relationships.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Predict later figures without drawing every intermediate figure",
+      "question": "Pattern A has the number of dots equal to n². Pattern B has the number of dots equal to 2n + 1. Which pattern will have more dots in the 10th figure?",
+      "options": {
+        "A": "Pattern A",
+        "B": "Pattern B",
+        "C": "Both have the same number",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "A",
+      "answer": "Pattern A",
+      "explanation": "For n = 10, Pattern A gives 10² = 100 dots, while Pattern B gives 2·10 + 1 = 21 dots. Clearly 100 > 21, so Pattern A has more dots. Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Describe visual patterns mathematically",
+      "question": "A figure pattern starts with 2 objects. Each new figure adds 3 more objects than were added in the previous step (i.e., the increments form 3, 6, 9, …). Which formula gives the number of objects in the nth figure?",
+      "options": {
+        "A": "(3n² - 3n + 4) / 2",
+        "B": "3n + 2",
+        "C": "n² + n + 2",
+        "D": "(3n² + n) / 2"
+      },
+      "correct_option": "A",
+      "answer": "(3n² - 3n + 4) / 2",
+      "explanation": "The increments form an arithmetic series 3, 6, 9,… whose sum after (n‑1) steps is 3·(n‑1)n/2. Adding the initial 2 objects gives: Fₙ = 2 + 3·(n‑1)n/2 = (3n² - 3n + 4)/2. Option A matches this derived expression; the other options do not satisfy the pattern.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Observe patterns formed by figures",
+      "question": "In a series, each figure is made by adding one more square to the right of the previous figure. Which figure will contain exactly 5 squares?",
+      "options": {
+        "A": "Figure 3",
+        "B": "Figure 4",
+        "C": "Figure 5",
+        "D": "Figure 6"
+      },
+      "correct_option": "C",
+      "answer": "Figure 5",
+      "explanation": "The number of squares equals the figure number because each step adds one square. Therefore Figure 5 has 5 squares. Options A, B, and D correspond to 3, 4, and 6 squares respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00203",
+      "learning_point": "Count objects systematically in a figure pattern",
+      "question": "Dots are arranged in rows: the first row has 1 dot, the second row has 2 dots, and the third row has 3 dots. How many dots are there in total in the first three rows?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "Total dots = 1 + 2 + 3 = 6. Option B is correct. The other numbers result from incorrect addition or omission of a row.",
+      "difficulty": "easy"
+    }
+  ]
+}
