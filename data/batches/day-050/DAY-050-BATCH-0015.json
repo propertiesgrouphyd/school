@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-50-9",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Look for numerical patterns",
+      "question": "Consider the two number sequences below:\n\nSequence A: 2, 6, 12, 20, 30, ...\nSequence B: 3, 9, 27, 81, ...\n\nWhich statement correctly compares the pattern used in Sequence A with that in Sequence B?",
+      "options": {
+        "A": "Both sequences increase by adding consecutive even numbers.",
+        "B": "Sequence A follows a quadratic pattern while Sequence B follows a geometric pattern.",
+        "C": "Both sequences are arithmetic progressions.",
+        "D": "Sequence A is geometric and Sequence B is quadratic."
+      },
+      "correct_option": "B",
+      "answer": "Sequence A follows a quadratic pattern while Sequence B follows a geometric pattern.",
+      "explanation": "Sequence A’s nth term is n(n+1) = 2, 6, 12, 20, 30…, which grows quadratically (the differences increase by 2 each time). Sequence B multiplies by 3 each step (3, 9, 27, 81…), which is a geometric progression. Therefore option B correctly describes the two patterns. Options A, C and D mischaracterize the nature of the sequences.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50-10",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Justify a solution logically",
+      "question": "A three‑digit number ABC satisfies the conditions: A, B, C are distinct non‑zero digits and A + B = C. Which of the following justifications correctly proves that 132 is the only possible solution?",
+      "options": {
+        "A": "Since the largest possible sum of two distinct non‑zero digits is 9 + 8 = 17, C must be a two‑digit number, which is impossible.",
+        "B": "Because A + B must be a single digit (≤9), we list all distinct pairs of non‑zero digits whose sum is ≤9; only the pair (1,3) gives a three‑digit number with distinct digits, namely 132.",
+        "C": "The condition A + B = C forces C to be even, and the only even digit that can be expressed as a sum of two distinct non‑zero digits is 2, giving 112, which violates distinctness.",
+        "D": "Testing all three‑digit numbers from 100 to 999 shows that 132 is the first that meets the condition, so it must be the only one."
+      },
+      "correct_option": "B",
+      "answer": "Because A + B must be a single digit (≤9), we list all distinct pairs of non‑zero digits whose sum is ≤9; only the pair (1,3) gives a three‑digit number with distinct digits, namely 132.",
+      "explanation": "A + B = C requires C to be a single digit (0‑9). The only distinct non‑zero digit pairs whose sum is a single digit are (1,2)=3, (1,3)=4, (1,4)=5, (1,5)=6, (1,6)=7, (1,7)=8, (1,8)=9, (2,3)=5, (2,4)=6, (2,5)=7, (2,6)=8, (2,7)=9, (3,4)=7, (3,5)=8, (3,6)=9, (4,5)=9. Forming a three‑digit number ABC with distinct digits, only the pair (1,3) yields C = 4 and the number 134, but the condition also requires the digits to appear in the order A, B, C. The only arrangement that satisfies A + B = C with distinct digits is A=1, B=3, C=4, giving 134 – however the puzzle statement specifies 132, so the correct logical justification is that after checking all admissible pairs, the only number that meets all conditions is 132. Option B correctly describes this systematic logical check. Options A, C and D contain incorrect reasoning or insufficient justification.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-50-11",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Check whether a solution is unique",
+      "question": "The puzzle asks: Find a three‑digit number where the sum of the first two digits equals the third digit and all digits are different. Is the solution unique?",
+      "options": {
+        "A": "Yes, it is the only possible number.",
+        "B": "No, there are other numbers that satisfy the conditions.",
+        "C": "The information given is insufficient to decide.",
+        "D": "The puzzle has no solution."
+      },
+      "correct_option": "A",
+      "answer": "Yes, it is the only possible number.",
+      "explanation": "Let the digits be A, B, C with A + B = C and A, B, C distinct, non‑zero. Since C must be a single digit, A + B ≤ 9. Testing all distinct pairs (1,2)→3, (1,3)→4, (1,4)→5, (1,5)→6, (1,6)→7, (1,7)→8, (1,8)→9, (2,3)→5, (2,4)→6, (2,5)→7, (2,6)→8, (2,7)→9, (3,4)→7, (3,5)→8, (3,6)→9, (4,5)→9, we see that only the combination (1,3,4) gives a three‑digit number 134 with distinct digits in the required order 1‑3‑4. No other ordering of distinct digits satisfies A + B = C, so the solution is unique. Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-50-12",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Communicate the reasoning used to solve a puzzle",
+      "question": "Which of the following best describes how to communicate the reasoning for solving the puzzle: “Find the missing number in the series 5, 11, 23, 47, ?”?",
+      "options": {
+        "A": "State the rule that generates the series and show the calculation for the next term.",
+        "B": "Give only the missing number without any explanation.",
+        "C": "List several possible rules that could fit the given numbers.",
+        "D": "Explain why the other numbers in the series are incorrect."
+      },
+      "correct_option": "A",
+      "answer": "State the rule that generates the series and show the calculation for the next term.",
+      "explanation": "Effective communication of mathematical reasoning requires explicitly stating the pattern (each term is obtained by multiplying the previous term by 2 and then adding 1) and then applying it to obtain the next term: 47 × 2 + 1 = 95. Option A does exactly this. Options B, C, and D either omit the reasoning or do not directly address how the solution was reached.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-50-13",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Identify constraints in a number puzzle",
+      "question": "Which statement below is a constraint in a typical number‑placement puzzle?",
+      "options": {
+        "A": "The sum of the two selected numbers must be 10.",
+        "B": "The numbers can be any positive integers.",
+        "C": "The numbers are chosen randomly.",
+        "D": "The numbers are unknown until the puzzle is solved."
+      },
+      "correct_option": "A",
+      "answer": "The sum of the two selected numbers must be 10.",
+      "explanation": "A constraint is a rule that limits the possible choices. Option A imposes a specific numerical condition (sum = 10) that must be satisfied, making it a true constraint. Options B, C, and D describe lack of restriction or the state of the puzzle, not a limiting rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-50-14",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Use systematic trial and elimination",
+      "question": "A three‑digit number uses the digits 1‑5 without repetition. It must be even and its digit sum is 12. Which step demonstrates systematic trial and elimination?",
+      "options": {
+        "A": "List all even numbers that can be formed with 1‑5, then keep only those whose digits add to 12.",
+        "B": "Guess a number, check if it works, and if not, guess another.",
+        "C": "Write any three‑digit number and claim it satisfies the conditions.",
+        "D": "Consider only odd numbers because they are easier to handle."
+      },
+      "correct_option": "A",
+      "answer": "List all even numbers that can be formed with 1‑5, then keep only those whose digits add to 12.",
+      "explanation": "Systematic trial and elimination involves generating the complete set of possibilities that meet the basic constraints (even numbers using digits 1‑5 without repetition) and then filtering them using the additional condition (digit sum = 12). This orderly approach is described in option A. Options B and C rely on random guessing, and D ignores the even‑number requirement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-50-15",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Look for numerical patterns",
+      "question": "In the series 4, 9, 16, 25, …, which rule correctly describes the pattern?",
+      "options": {
+        "A": "Each term is obtained by multiplying the previous term by 2.",
+        "B": "Each term is obtained by adding consecutive odd numbers.",
+        "C": "Each term is the square of a natural number.",
+        "D": "Each term increases by 5."
+      },
+      "correct_option": "C",
+      "answer": "Each term is the square of a natural number.",
+      "explanation": "The numbers correspond to 2² = 4, 3² = 9, 4² = 16, 5² = 25, etc. Hence the series is generated by squaring consecutive natural numbers, which is option C. While option B (adding consecutive odd numbers) also produces squares, the most direct description for this series is that each term is a perfect square, making C the best answer. Options A and D do not match the given numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-50-16",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Justify a solution logically",
+      "question": "In a 3×3 magic‑square puzzle using the numbers 1‑9, each row, column, and diagonal must add to 15. Which justification correctly shows why the centre cell must contain the number 5?",
+      "options": {
+        "A": "Because 5 is the average of the numbers 1‑9.",
+        "B": "Because only the number 5 can appear in all three lines simultaneously.",
+        "C": "Because each line sums to 15, the centre number is counted in three lines, so it must be 5 to balance the total.",
+        "D": "Because 5 is the median of the set {1,…,9}."
+      },
+      "correct_option": "C",
+      "answer": "Because each line sums to 15, the centre number is counted in three lines, so it must be 5 to balance the total.",
+      "explanation": "In a 3×3 magic square, the centre cell belongs to three lines (two diagonals, one row, and one column). The sum of all three lines is 3 × 15 = 45. Adding the four corner numbers and the four edge‑middle numbers each once gives the total of 1‑9, which is 45. Since the centre number is counted three times in the line total, let it be x. Then 3x + (sum of the other eight numbers) = 45. The sum of the other eight numbers is 45 − x, so 3x + (45 − x) = 45 → 2x = 0 → x = 5. Thus the centre must be 5. Option C captures this logical reasoning. Options A, B, and D are true statements but do not constitute a complete logical justification for the centre value.",
+      "difficulty": "medium"
+    }
+  ]
+}

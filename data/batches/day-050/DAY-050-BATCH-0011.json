@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following statements correctly describes a useful divisibility pattern for the number 5?",
+      "options": {
+        "A": "A number is divisible by 5 if its last digit is 0 or 5.",
+        "B": "A number is divisible by 5 if the sum of its digits is a multiple of 5.",
+        "C": "A number is divisible by 5 if the difference between the sum of digits in odd and even positions is a multiple of 5.",
+        "D": "A number is divisible by 5 if its last two digits form a number divisible by 5."
+      },
+      "correct_option": "A",
+      "answer": "A number is divisible by 5 if its last digit is 0 or 5.",
+      "explanation": "The standard rule for 5 is based on the unit digit: any integer ending in 0 or 5 is a multiple of 5. The other options describe rules for different numbers (e.g., sum of digits for 3 or 9, alternating sum for 11) and are therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which quick test can be used to determine whether 462 is divisible by 3 without performing the full division?",
+      "options": {
+        "A": "Add the digits (4+6+2) and see if the sum is divisible by 3.",
+        "B": "Check if the last digit is even.",
+        "C": "Check if the number is a multiple of 6.",
+        "D": "Subtract the last digit from the rest of the number."
+      },
+      "correct_option": "A",
+      "answer": "Add the digits (4+6+2) and see if the sum is divisible by 3.",
+      "explanation": "For divisibility by 3, the sum of the digits determines the result because 10 ≡ 1 (mod 3). 4+6+2 = 12, which is a multiple of 3, so 462 is divisible by 3. Options B, C, and D do not give a reliable test for 3.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule 'a number is divisible by 9 if the sum of its digits is divisible by 9' work?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 9), making the rule trivial.",
+        "C": "Because the product of the digits determines divisibility by 9.",
+        "D": "Because the last digit alone decides divisibility by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+      "explanation": "Since 10 leaves a remainder of 1 when divided by 9, any power of 10 also leaves remainder 1. Therefore a number expressed as Σ d_i·10^i has the same remainder as Σ d_i, so checking the digit sum is sufficient. Options B, C, and D misstate the modular relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Based on simple divisibility rules, which of the following numbers is definitely a factor of 126?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "2",
+      "explanation": "126 ends with an even digit, so it is divisible by 2; therefore 2 is a factor. While 7 is also a factor, the rule for 7 is not as straightforward for quick identification, and 5 and 9 are not factors of 126.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Which of the following statements about the number 2,721 is correct?",
+      "options": {
+        "A": "It is divisible by 3.",
+        "B": "It is divisible by 9.",
+        "C": "It is divisible by 11.",
+        "D": "It is divisible by 6."
+      },
+      "correct_option": "A",
+      "answer": "It is divisible by 3.",
+      "explanation": "The sum of the digits 2+7+2+1 = 12, which is a multiple of 3, so 2,721 is divisible by 3. It is not divisible by 9 (12 is not a multiple of 9), not by 11 (alternating sum 1‑2+7‑2 = 4), and not by 6 because the number is odd.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A student wants to know quickly whether the score 2,345 can be shared equally among 3 players without doing the division. Which test should they use?",
+      "options": {
+        "A": "Add the digits (2+3+4+5) and see if the sum is a multiple of 3.",
+        "B": "Check if the last digit is 0 or 5.",
+        "C": "Check if the last two digits form a number divisible by 4.",
+        "D": "Subtract the last digit from the rest of the number."
+      },
+      "correct_option": "A",
+      "answer": "Add the digits (2+3+4+5) and see if the sum is a multiple of 3.",
+      "explanation": "Divisibility by 3 depends on the digit sum. 2+3+4+5 = 14, which is not a multiple of 3, so the score cannot be divided equally among three players. Options B, C, and D relate to other divisibility rules and do not answer the question.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "A student claims that any number ending with 0 is automatically divisible by 8. Which of the following responses correctly addresses this misconception?",
+      "options": {
+        "A": "The claim is true because 10 is a multiple of 8.",
+        "B": "The claim is false; ending with 0 does not guarantee divisibility by 8.",
+        "C": "The claim is true only for numbers ending with 00.",
+        "D": "The claim is false unless the last three digits form a number that is a multiple of 8."
+      },
+      "correct_option": "D",
+      "answer": "The claim is false unless the last three digits form a number that is a multiple of 8.",
+      "explanation": "Divisibility by 8 depends on the last three digits because 1000 is divisible by 8. A number ending in 0 may or may not be divisible by 8 (e.g., 20 is not, 40 is). Option D gives the precise condition, while B is too vague and A, C are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule 'a number is divisible by 4 if the number formed by its last two digits is divisible by 4' hold true?",
+      "options": {
+        "A": "Because 10 ≡ 2 (mod 4), so the tens place contributes twice its digit.",
+        "B": "Because 100 ≡ 0 (mod 4), so only the last two digits affect divisibility.",
+        "C": "Because 1000 ≡ 0 (mod 4), making the last three digits decisive.",
+        "D": "Because 10 ≡ 0 (mod 4), so the last digit alone decides."
+      },
+      "correct_option": "B",
+      "answer": "Because 100 ≡ 0 (mod 4), so only the last two digits affect divisibility.",
+      "explanation": "Any integer can be written as 100·k + r, where r is the number formed by the last two digits. Since 100 is a multiple of 4, the divisibility of the whole number depends solely on r. Options A, C, and D misrepresent the modular relationship.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which of the following statements about testing divisibility is a misconception?",
+      "options": {
+        "A": "A number is divisible by 2 if its last digit is even.",
+        "B": "A number is divisible by 5 if its last digit is 0 or 5.",
+        "C": "A number is divisible by 3 if the sum of its digits is even.",
+        "D": "A number is divisible by 10 if its last digit is 0."
+      },
+      "correct_option": "C",
+      "answer": "A number is divisible by 3 if the sum of its digits is even.",
+      "explanation": "The statement in option C is false. The correct rule for 3 is that a number is divisible by 3 if the sum of its digits is divisible by 3, not merely even. Options A, B, and D are true divisibility rules: even last digit for 2, last digit 0 or 5 for 5, and last digit 0 for 10.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule 'a number is divisible by 9 if the sum of its digits is divisible by 9' hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 9), making the place values irrelevant.",
+        "C": "Because the product of the digits determines divisibility by 9.",
+        "D": "Because any number ending in 9 is automatically divisible by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+      "explanation": "In modulo 9 arithmetic, 10 leaves a remainder of 1. Therefore a number written as \\(d_n10^n+\\dots+d_1 10+d_0\\) is congruent to \\(d_n+\\dots+d_1+d_0\\) (mod 9). Hence the whole number is divisible by 9 exactly when the sum of its digits is divisible by 9. Options B, C, and D describe incorrect reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following numbers has the greatest number of distinct factors?",
+      "options": {
+        "A": "84",
+        "B": "90",
+        "C": "120",
+        "D": "64"
+      },
+      "correct_option": "C",
+      "answer": "120",
+      "explanation": "Factor counts: 84 = 2²·3·7 → (2+1)(1+1)(1+1)=12 factors. 90 = 2·3²·5 → (1+1)(2+1)(1+1)=12 factors. 120 = 2³·3·5 → (3+1)(1+1)(1+1)=16 factors. 64 = 2⁶ → (6+1)=7 factors. Therefore 120 has the most distinct factors. The answer is option C.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Using a quick divisibility test for 7, which of the following numbers is divisible by 7?",
+      "options": {
+        "A": "2,345,678",
+        "B": "3,456,789",
+        "C": "4,567,890",
+        "D": "5,678,901"
+      },
+      "correct_option": "B",
+      "answer": "3,456,789",
+      "explanation": "A fast test for 7: remove the last digit, double it, and subtract from the remaining truncated number. Apply repeatedly:\n1) 3,456,789 → 345,678 – 2×9 = 345,660\n2) 345,660 → 34,566 – 2×0 = 34,566\n3) 34,566 → 3,456 – 2×6 = 3,444\n4) 3,444 → 344 – 2×4 = 336\nSince 336 ÷ 7 = 48, the result is divisible by 7, so the original number is divisible by 7. The other options do not reduce to a multiple of 7. Hence option B is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

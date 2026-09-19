@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following statements is true regarding the factors of 84 and 90 based on divisibility rules?",
+      "options": {
+        "A": "84 has more factors than 90.",
+        "B": "90 has more factors than 84.",
+        "C": "Both numbers have the same number of factors.",
+        "D": "Neither number is divisible by 5."
+      },
+      "correct_option": "C",
+      "answer": "Both numbers have the same number of factors.",
+      "explanation": "84 = 2^2·3·7 gives (2+1)(1+1)(1+1)=12 factors. 90 = 2·3^2·5 gives (1+1)(2+1)(1+1)=12 factors. Hence both have exactly 12 factors, making option C correct. Options A and B are false because the factor counts are equal, and D is irrelevant to the question about factor counts.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Using a quick divisibility test for 7, which of the following numbers is divisible by 7?",
+      "options": {
+        "A": "12345",
+        "B": "14641",
+        "C": "21007",
+        "D": "9876"
+      },
+      "correct_option": "C",
+      "answer": "21007",
+      "explanation": "For 7, double the last digit and subtract it from the remaining leading part. Applying this repeatedly: 21007 → 2100‑2·7 = 2086 → 208‑2·6 = 196 → 19‑2·6 = 7, which is a multiple of 7, so 21007 is divisible by 7. The other numbers do not reduce to a multiple of 7, so they are not divisible by 7.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is guaranteed to be divisible by 3 because of a digit‑sum pattern?",
+      "options": {
+        "A": "123",
+        "B": "124",
+        "C": "125",
+        "D": "127"
+      },
+      "correct_option": "A",
+      "answer": "123",
+      "explanation": "A number is divisible by 3 if the sum of its digits is a multiple of 3. For 123, 1+2+3 = 6, which is divisible by 3, so 123 is divisible by 3. The sums for 124 (7), 125 (8) and 127 (10) are not multiples of 3, making those options incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which quick test tells you whether a number is divisible by 5?",
+      "options": {
+        "A": "Check whether the last digit is 0 or 5.",
+        "B": "Add all the digits and see if the sum is a multiple of 5.",
+        "C": "Double the last digit and subtract it from the rest of the number.",
+        "D": "Find the alternating sum of the digits."
+      },
+      "correct_option": "A",
+      "answer": "Check whether the last digit is 0 or 5.",
+      "explanation": "In base‑10, a number ends in 0 or 5 exactly when it is a multiple of 5. Therefore option A is the correct divisibility rule. Options B, C, and D describe rules for other numbers (3/9, 7, and 11 respectively) and do not apply to 5.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule \"a number is divisible by 9 if the sum of its digits is divisible by 9\" hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value modulo 9.",
+        "B": "Because 10 ≡ 0 (mod 9), making the place values irrelevant.",
+        "C": "Because the product of the digits determines divisibility by 9.",
+        "D": "Because only the last digit decides divisibility by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value modulo 9.",
+      "explanation": "In modulo 9 arithmetic, 10 ≡ 1, 10^2 ≡ 1, etc. Hence a number like abc = 100a + 10b + c ≡ a + b + c (mod 9). Therefore the sum of the digits being a multiple of 9 guarantees the whole number is a multiple of 9. Options B, C, and D are incorrect statements about the base‑10 system.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following numbers could be a factor of 56?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "13"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "56 ÷ 7 = 8, so 7 is a factor. None of the other numbers divide 56 evenly (56 ÷ 9, 11, 13 all give non‑integer results). Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Which statement correctly explains why 4620 is divisible by 6?",
+      "options": {
+        "A": "Its last digit is even and the sum of its digits (4+6+2+0=12) is divisible by 3.",
+        "B": "Its last two digits form a number divisible by 4.",
+        "C": "The sum of its digits is divisible by 9.",
+        "D": "The alternating sum of its digits is divisible by 11."
+      },
+      "correct_option": "A",
+      "answer": "Its last digit is even and the sum of its digits (4+6+2+0=12) is divisible by 3.",
+      "explanation": "A number is divisible by 6 if it is divisible by both 2 and 3. The last digit 0 makes 4620 even (divisible by 2). The digit sum 12 is a multiple of 3, so the number is also divisible by 3. Therefore it is divisible by 6, making option A correct. Options B, C, and D refer to rules for 4, 9, and 11 respectively, which are not relevant to divisibility by 6.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A student wants to quickly check if the large number 123456789012 is divisible by both 3 and 11. Which pattern should they use?",
+      "options": {
+        "A": "Add all digits for 3 and take the alternating sum of digits for 11.",
+        "B": "Look only at the last digit for both 3 and 11.",
+        "C": "Multiply all digits together for the test of 3.",
+        "D": "Subtract the sum of the first half of the digits from the sum of the second half for the test of 11 only."
+      },
+      "correct_option": "A",
+      "answer": "Add all digits for 3 and take the alternating sum of digits for 11.",
+      "explanation": "Divisibility by 3 uses the digit‑sum rule: if the sum of all digits is a multiple of 3, the number is divisible by 3. Divisibility by 11 uses the alternating‑sum rule: subtract and add digits alternately; if the result is a multiple of 11 (including 0), the number is divisible by 11. Option A correctly states both patterns. The other options describe incorrect or incomplete methods.",
+      "difficulty": "medium"
+    }
+  ]
+}
