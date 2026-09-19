@@ -1,0 +1,78 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Identify constraints in a number puzzle",
+      "question": "In the following number puzzle, a three‑digit number satisfies: (i) all digits are different, (ii) the digit in the hundreds place is twice the digit in the units place, (iii) the sum of the three digits is 12. Which of the following statements is NOT a constraint of the puzzle?",
+      "options": {
+        "A": "The digit in the hundreds place is twice the digit in the units place.",
+        "B": "All three digits are different.",
+        "C": "The tens digit is an even number.",
+        "D": "The sum of the three digits equals 12."
+      },
+      "correct_option": "C",
+      "answer": "The tens digit is an even number.",
+      "explanation": "Options A, B, and D are explicitly stated in the puzzle, so they are true constraints. The puzzle never mentions anything about the tens digit being even; that statement is a misconception. Therefore, option C is the only statement that is NOT a constraint.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Use systematic trial and elimination",
+      "question": "A four‑digit number uses the digits 1, 2, 3, 4 each exactly once. The number must be divisible by 4 and the digit in the thousands place must be greater than the digit in the hundreds place. Using systematic trial and elimination, which of the following could be the correct number?",
+      "options": {
+        "A": "3124",
+        "B": "4213",
+        "C": "2413",
+        "D": "1342"
+      },
+      "correct_option": "A",
+      "answer": "3124",
+      "explanation": "Divisibility by 4 requires the last two digits to form a number divisible by 4. For each option we check: 24 (in 3124) ÷ 4 = 6, so it satisfies the rule. The thousands digit (3) is greater than the hundreds digit (1), meeting the second condition. Options B (13), C (13), and D (42) do not satisfy the divisibility‑by‑4 rule, so they are eliminated. Hence, 3124 is the only viable choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Look for numerical patterns",
+      "question": "Consider the two number sequences below.\n\nSequence X: 2, 5, 10, 17, 26, ...\nSequence Y: 3, 7, 13, 21, 31, ...\n\nWhich of the following statements correctly compares the pattern used to generate the two sequences?",
+      "options": {
+        "A": "Both sequences add consecutive odd numbers, but Sequence X starts with 3 while Sequence Y starts with 4.",
+        "B": "Sequence X adds successive even numbers, whereas Sequence Y adds successive odd numbers.",
+        "C": "Both sequences add consecutive prime numbers, but Sequence X skips the prime 2.",
+        "D": "Sequence X adds consecutive odd numbers (3, 5, 7, 9, …) and Sequence Y adds consecutive even numbers (4, 6, 8, 10, …)."
+      },
+      "correct_option": "D",
+      "answer": "Sequence X adds consecutive odd numbers (3, 5, 7, 9, …) and Sequence Y adds consecutive even numbers (4, 6, 8, 10, …).",
+      "explanation": "For Sequence X the differences are 3, 5, 7, 9 … – consecutive odd numbers starting from 3. For Sequence Y the differences are 4, 6, 8, 10 … – consecutive even numbers starting from 4. Option D precisely describes these patterns. The other options misstate the type of numbers being added or the starting values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Justify a solution logically",
+      "question": "A three‑digit number is formed using the digits 1, 2, and 6 without repetition. The number must be divisible by 6 and must be greater than 500. Which of the following justifications correctly explains why 612 is the only possible answer?",
+      "options": {
+        "A": "Since the number must end with 5 to be divisible by 5, the only arrangement is 612.",
+        "B": "Divisibility by 6 requires the last digit to be 0 or 5; with the given digits, the last digit must be 5, leaving 2 and 7 for the first two places, but only 612 ends with 5.",
+        "C": "Because the number must end with 5, the hundreds digit must be 5, so the only possible number is 612.",
+        "D": "Divisibility by 6 means the number must be even (units digit 2 or 6) and the sum of its digits (1+2+6=9) is already a multiple of 3. The condition that the number is greater than 500 eliminates 126, 162, 216, and 261, leaving only 612 as the possible number."
+      },
+      "correct_option": "D",
+      "answer": "Divisibility by 6 means the number must be even (units digit 2 or 6) and the sum of its digits (1+2+6=9) is already a multiple of 3. The condition that the number is greater than 500 eliminates 126, 162, 216, and 261, leaving only 612 as the possible number.",
+      "explanation": "A number divisible by 6 must satisfy both divisibility by 2 (be even) and by 3 (digit sum multiple of 3). With digits 1, 2, 6 the sum is 9, so every arrangement meets the rule for 3. The even‑digit requirement forces the units place to be 2 or 6, giving four possible numbers: 126, 162, 216, 261, 612, and 621. The extra condition that the number exceeds 500 discards all numbers below 500, leaving only 612 and 621. However, 621 is odd, violating the even‑digit rule. Thus 612 is the sole solution, as explained in option D.",
+      "difficulty": "hard"
+    }
+  ]
+}
