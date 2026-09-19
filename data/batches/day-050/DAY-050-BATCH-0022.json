@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Check whether a solution is unique",
+      "question": "In a number puzzle, three different single‑digit numbers A, B and C satisfy A × B = 15 and A + B = C. Which statement about the solution is correct?",
+      "options": {
+        "A": "There are two possible sets of numbers that satisfy the conditions.",
+        "B": "There is exactly one set of numbers that satisfies the conditions.",
+        "C": "No set of numbers satisfies both conditions.",
+        "D": "An infinite number of sets satisfy the conditions."
+      },
+      "correct_option": "B",
+      "answer": "There is exactly one set of numbers that satisfies the conditions.",
+      "explanation": "The only factor pair of 15 using single‑digit distinct numbers is 3 × 5 = 15. Their sum is 3 + 5 = 8, which is a different single‑digit number. No other factor pair of 15 uses single‑digit distinct numbers, so the solution (A=3, B=5, C=8) is unique.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Communicate the reasoning used to solve a puzzle",
+      "question": "Riya solved the same puzzle as in job 65. Which of the following explanations best communicates her reasoning?",
+      "options": {
+        "A": "I tried many random numbers until something worked.",
+        "B": "I listed all factor pairs of 15, then kept the pair whose sum was a single‑digit number not already used, giving A = 3, B = 5 and C = 8.",
+        "C": "I guessed the answer and it happened to be right.",
+        "D": "I used a calculator to check every possible combination."
+      },
+      "correct_option": "B",
+      "answer": "I listed all factor pairs of 15, then kept the pair whose sum was a single‑digit number not already used, giving A = 3, B = 5 and C = 8.",
+      "explanation": "Option B clearly shows the logical steps: (1) generate factor pairs of the product, (2) test each pair against the sum condition, and (3) verify distinctness. This communicates the reasoning process, unlike random guessing or vague statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Identify constraints in a number puzzle",
+      "question": "Which of the following is NOT a constraint in the puzzle described in job 65?",
+      "options": {
+        "A": "All three numbers must be different.",
+        "B": "The sum of the two smaller numbers must equal the largest number.",
+        "C": "The product of the two smaller numbers must be a prime number.",
+        "D": "Each number must be a single‑digit integer."
+      },
+      "correct_option": "C",
+      "answer": "The product of the two smaller numbers must be a prime number.",
+      "explanation": "The puzzle requires the product to be 15, which is not prime. Therefore, option C is not a stated constraint. The other options (distinctness, sum condition, single‑digit) are actual constraints of the puzzle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Use systematic trial and elimination",
+      "question": "Which step best illustrates systematic trial and elimination when solving the puzzle of job 65?",
+      "options": {
+        "A": "Pick a number at random for A, compute B = 15/A, and see if the sum works.",
+        "B": "List all possible single‑digit factor pairs of 15, then discard any pair whose sum repeats a digit already used.",
+        "C": "Write down any three numbers you like and check if they satisfy the conditions.",
+        "D": "Use a calculator to try every combination of three digits without any order."
+      },
+      "correct_option": "B",
+      "answer": "List all possible single‑digit factor pairs of 15, then discard any pair whose sum repeats a digit already used.",
+      "explanation": "Option B follows a logical sequence: first generate all feasible candidates, then eliminate those that violate the puzzle’s constraints. This is the essence of systematic trial and elimination. The other options rely on randomness or lack structure.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Look for numerical patterns",
+      "question": "Two puzzles are given:\nPuzzle X: Find three distinct digits whose product is 24 and whose sum is 9.\nPuzzle Y: Find three distinct digits whose product is 30 and whose sum is 9.\nWhich puzzle is more likely to be solved quickly by looking for a numerical pattern?",
+      "options": {
+        "A": "Puzzle X, because 24 = 3 × 8 and 3 + 8 = 11, which is close to 9.",
+        "B": "Puzzle Y, because 30 = 5 × 6 and 5 + 6 = 11, which is close to 9.",
+        "C": "Puzzle X, because the factor pairs of 24 (3×8, 4×6) give sums 11 and 10, allowing a quick check for the required sum 9.",
+        "D": "Puzzle Y, because the factor pairs of 30 (5×6, 3×10) include 5 and 6, whose sum 11 is easy to adjust to 9."
+      },
+      "correct_option": "C",
+      "answer": "Puzzle X, because the factor pairs of 24 (3×8, 4×6) give sums 11 and 10, allowing a quick check for the required sum 9.",
+      "explanation": "In Puzzle X, the limited factor pairs of 24 (3×8 and 4×6) make it easy to see that none give a sum of 9, leading to a quick conclusion that no solution exists. Recognizing this pattern speeds up solving. Puzzle Y has more factor possibilities (5×6, 3×10, 2×15) and does not present an immediate pattern for the sum 9, making it less amenable to quick pattern spotting.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Justify a solution logically",
+      "question": "In a competitive exam, a candidate solved the puzzle of job 65 and wrote the following justification:\n\"Since 15 can be expressed as 3 × 5, and 3 + 5 = 8, the only possible set is (3,5,8). No other single‑digit factor pair of 15 exists, so the solution is unique.\"\nWhich part of this justification is essential for logical correctness?",
+      "options": {
+        "A": "Stating that 15 = 3 × 5.",
+        "B": "Observing that 3 + 5 = 8.",
+        "C": "Claiming that no other single‑digit factor pair of 15 exists.",
+        "D": "Writing the numbers in ascending order."
+      },
+      "correct_option": "C",
+      "answer": "Claiming that no other single‑digit factor pair of 15 exists.",
+      "explanation": "The crucial logical step is demonstrating that 15 has only one factor pair using distinct single‑digit numbers (3 and 5). This eliminates alternative possibilities and guarantees uniqueness. Simply stating the factorisation or the sum does not by itself prove uniqueness; the exclusivity claim does.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Check whether a solution is unique",
+      "question": "If a number puzzle has only one possible answer, the solution is said to be:",
+      "options": {
+        "A": "multiple",
+        "B": "ambiguous",
+        "C": "unique",
+        "D": "infinite"
+      },
+      "correct_option": "C",
+      "answer": "unique",
+      "explanation": "When exactly one set of numbers satisfies all the puzzle’s conditions, the solution is described as unique. The other terms refer to situations with many, unclear, or endless solutions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Communicate the reasoning used to solve a puzzle",
+      "question": "Which statement best communicates the reasoning used to solve the puzzle in job 65?",
+      "options": {
+        "A": "I tried a few numbers until I got a correct answer.",
+        "B": "I listed all possible single‑digit factor pairs of 15, checked each pair’s sum, and kept the pair whose sum gave a new digit, arriving at (3,5,8).",
+        "C": "I guessed the answer because it looked right.",
+        "D": "I used a computer program to brute‑force the answer."
+      },
+      "correct_option": "B",
+      "answer": "I listed all possible single‑digit factor pairs of 15, checked each pair’s sum, and kept the pair whose sum gave a new digit, arriving at (3,5,8).",
+      "explanation": "Option B explicitly outlines each logical step: generating candidates, applying the sum condition, and confirming distinctness. This clear articulation demonstrates effective communication of reasoning, unlike vague guessing or reliance on external tools.",
+      "difficulty": "easy"
+    }
+  ]
+}
