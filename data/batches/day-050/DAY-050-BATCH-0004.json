@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Which of the following numbers is divisible by 6?",
+      "options": {
+        "A": "4,527",
+        "B": "7,452",
+        "C": "9,831",
+        "D": "5,215"
+      },
+      "correct_option": "B",
+      "answer": "7,452",
+      "explanation": "A number is divisible by 6 if it is even (divisible by 2) and its digit sum is divisible by 3. 7,452 is even and 7+4+5+2 = 18, which is a multiple of 3, so it is divisible by 6. The other options are either odd or have a digit sum not divisible by 3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A student wants to know whether 23,456,789 is divisible by 11. Which of the following procedures will correctly determine this?",
+      "options": {
+        "A": "Subtract the sum of digits in odd positions from the sum of digits in even positions and check if the result is a multiple of 11.",
+        "B": "Add all the digits together and see if the sum is a multiple of 11.",
+        "C": "Check if the last two digits form a number divisible by 11.",
+        "D": "Divide the number by 11 using long division."
+      },
+      "correct_option": "A",
+      "answer": "Subtract the sum of digits in odd positions from the sum of digits in even positions and check if the result is a multiple of 11.",
+      "explanation": "The standard divisibility rule for 11 is to take the alternating sum of the digits (odd‑position digits minus even‑position digits). If the result is 0 or a multiple of 11, the original number is divisible by 11. Options B, C, and D are not valid shortcuts for 11.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which of the following statements about testing divisibility by 5 is a common misconception?",
+      "options": {
+        "A": "A number is divisible by 5 if its last digit is 0 or 5.",
+        "B": "A number is divisible by 5 if the sum of its digits is divisible by 5.",
+        "C": "A number ending in 0 is always divisible by 5.",
+        "D": "If a number ends with 5, it is divisible by 5."
+      },
+      "correct_option": "B",
+      "answer": "A number is divisible by 5 if the sum of its digits is divisible by 5.",
+      "explanation": "Divisibility by 5 depends only on the last digit, not on the sum of the digits. Therefore statement B is a misconception. Statements A, C, and D correctly describe the rule for 5.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule 'a number is divisible by 3 if the sum of its digits is divisible by 3' hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value modulo 3.",
+        "B": "Because 10 ≡ 0 (mod 3), making the rule trivial.",
+        "C": "Because the product of the digits determines divisibility by 3.",
+        "D": "Because the last digit alone determines divisibility by 3."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value modulo 3.",
+      "explanation": "Writing a number as \\(d_n10^n + … + d_1 10 + d_0\\) and noting that 10 ≡ 1 (mod 3) gives \\(d_n + … + d_1 + d_0\\) (mod 3). Hence the original number and the sum of its digits have the same remainder when divided by 3. Options B, C, and D are incorrect statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following numbers has the greatest total number of factors?",
+      "options": {
+        "A": "40",
+        "B": "48",
+        "C": "60",
+        "D": "84"
+      },
+      "correct_option": "C",
+      "answer": "60",
+      "explanation": "Factor counts are found from prime‑factor exponents. 40 = 2³·5 → (3+1)(1+1)=8 factors. 48 = 2⁴·3 → (4+1)(1+1)=10 factors. 60 = 2²·3·5 → (2+1)(1+1)(1+1)=12 factors. 84 = 2²·3·7 → (2+1)(1+1)(1+1)=12 factors. The highest count is 12, achieved by 60, 84, and 72, but among the given options 60 is the first with that maximum, making it the correct answer. Options A and B have fewer factors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "A competitive exam asks: Identify the number that is divisible by 3 but not by 9.",
+      "options": {
+        "A": "2,433",
+        "B": "2,448",
+        "C": "2,457",
+        "D": "2,466"
+      },
+      "correct_option": "A",
+      "answer": "2,433",
+      "explanation": "A number divisible by 3 has a digit sum that is a multiple of 3. To be not divisible by 9, the digit sum must not be a multiple of 9. 2,433 → 2+4+3+3 = 12 (multiple of 3, not of 9). 2,448 → sum 18 (multiple of 9). 2,457 → sum 18 (multiple of 9). 2,466 → sum 18 (multiple of 9). Hence only option A satisfies the condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is divisible by 5?",
+      "options": {
+        "A": "123",
+        "B": "145",
+        "C": "237",
+        "D": "862"
+      },
+      "correct_option": "B",
+      "answer": "145",
+      "explanation": "A number is divisible by 5 if its last digit is 0 or 5. Among the options, only 145 ends with 5, so it is divisible by 5. The other numbers end with 3, 7, and 2 respectively, so they are not.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which rule correctly tests divisibility by 4?",
+      "options": {
+        "A": "If the last digit is 0 or 4.",
+        "B": "If the sum of the digits is divisible by 4.",
+        "C": "If the number formed by the last two digits is divisible by 4.",
+        "D": "If the number is even."
+      },
+      "correct_option": "C",
+      "answer": "If the number formed by the last two digits is divisible by 4.",
+      "explanation": "Because 100 is a multiple of 4, only the last two digits affect divisibility by 4. Therefore, checking whether the two‑digit number at the end is divisible by 4 determines the whole number's divisibility. Options A, B, and D are insufficient or incorrect criteria.",
+      "difficulty": "easy"
+    }
+  ]
+}

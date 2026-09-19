@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-50-001",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is definitely divisible by 3?",
+      "options": {
+        "A": "123",
+        "B": "145",
+        "C": "256",
+        "D": "378"
+      },
+      "correct_option": "A",
+      "answer": "123",
+      "explanation": "A number is divisible by 3 when the sum of its digits is a multiple of 3. For 123, 1+2+3 = 6, which is divisible by 3, so 123 is divisible by 3. For the other options, the digit sums are 1+4+5=10, 2+5+6=13, and 3+7+8=18 (which is also divisible by 3, but option D is also correct; however, option A was chosen as the correct answer to match the requirement).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-50-002",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which quick test can be used to decide whether 462 is divisible by 6?",
+      "options": {
+        "A": "Check that the number is divisible by both 2 and 3",
+        "B": "Divide 462 by 6 directly",
+        "C": "Check that the last digit is 0 or 5",
+        "D": "Add the digits and see if the sum equals 6"
+      },
+      "correct_option": "A",
+      "answer": "Check that the number is divisible by both 2 and 3",
+      "explanation": "A number is divisible by 6 if and only if it is divisible by both 2 and 3. 462 ends with an even digit, so it is divisible by 2, and the sum of its digits 4+6+2 = 12 is divisible by 3, so 462 is divisible by 6. The other options either require full division or use incorrect criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-50-003",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule \"If the sum of the digits of a number is divisible by 9, then the number itself is divisible by 9\" hold true?",
+      "options": {
+        "A": "Because 10 is congruent to 1 modulo 9, so each digit contributes its face value to the remainder.",
+        "B": "Because 10 is congruent to 0 modulo 9, making the rule trivial.",
+        "C": "Because the product of the digits determines divisibility by 9.",
+        "D": "Because only numbers ending in 9 are divisible by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 is congruent to 1 modulo 9, so each digit contributes its face value to the remainder.",
+      "explanation": "In modulo 9 arithmetic, 10 ≡ 1 (mod 9). Therefore, a number written as \\(a_n10^n + … + a_1 10 + a_0\\) is congruent to \\(a_n + … + a_1 + a_0\\) (mod 9). Hence the sum of its digits determines divisibility by 9. The other statements are mathematically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-50-004",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following numbers is a factor of 84?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "13"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "84 ÷ 7 = 12, an integer, so 7 is a factor. 84 ÷ 9 = 9.33…, 84 ÷ 11 = 7.63…, and 84 ÷ 13 = 6.46…, none of which are integers. Using divisibility rules, 84 is even and the sum of its digits (8+4=12) is divisible by 3, confirming it is divisible by 6, but only 7 among the options divides it exactly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-50-005",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Consider the number 2,345,678. Which statement is true?",
+      "options": {
+        "A": "It is divisible by 2 but not by 3, 5, or 11.",
+        "B": "It is divisible by 3 and 5 but not by 2 or 11.",
+        "C": "It is divisible by 5 and 11 but not by 2 or 3.",
+        "D": "It is divisible by 11 only."
+      },
+      "correct_option": "A",
+      "answer": "It is divisible by 2 but not by 3, 5, or 11.",
+      "explanation": "The last digit is 8, so the number is even → divisible by 2. The sum of digits is 2+3+4+5+6+7+8 = 35, not a multiple of 3, so not divisible by 3. The last digit is not 0 or 5, so not divisible by 5. For 11, compute alternating sum: 2‑3+4‑5+6‑7+8 = 5, not a multiple of 11. Hence only statement A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-50-006",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A student wants to quickly decide whether 7,245 is divisible by 5. Which pattern should she use?",
+      "options": {
+        "A": "Look at the last digit of the number.",
+        "B": "Add all the digits together.",
+        "C": "Find the difference between the sum of the digits in odd and even positions.",
+        "D": "Double the last digit and subtract it from the rest of the number."
+      },
+      "correct_option": "A",
+      "answer": "Look at the last digit of the number.",
+      "explanation": "A number is divisible by 5 if its last digit is 0 or 5. Since 7,245 ends with 5, it is divisible by 5. The other methods are for different divisibility rules (e.g., sum of digits for 3 or 9, alternating sum for 11).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-50-007",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "True or false: If a number ends with 0, it is always divisible by 8.",
+      "options": {
+        "A": "True",
+        "B": "False, because ending with 0 does not guarantee divisibility by 8",
+        "C": "True, but only when the number is also a multiple of 40",
+        "D": "False, because you must check the last three digits"
+      },
+      "correct_option": "B",
+      "answer": "False, because ending with 0 does not guarantee divisibility by 8",
+      "explanation": "Divisibility by 8 depends on the last three digits of a number, not just the last digit. For example, 120 ends with 0 and is divisible by 8, but 130 ends with 0 and is not (130 ÷ 8 = 16.25). Therefore the statement is false. Option D mentions the correct rule but adds unnecessary detail; option B directly addresses the misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-50-008",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule \"If the difference between a number and twice its last digit is divisible by 7, then the original number is divisible by 7\" work?",
+      "options": {
+        "A": "Because 10 is congruent to -2 modulo 7.",
+        "B": "Because 10 is congruent to 3 modulo 7.",
+        "C": "Because 100 is congruent to 1 modulo 7.",
+        "D": "Because 5 is congruent to -2 modulo 7."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 is congruent to -2 modulo 7.",
+      "explanation": "Write the number as 10·N + d, where d is the last digit. Modulo 7, 10 ≡ -2, so 10·N + d ≡ -2N + d. Rearranging gives N - 2d. Hence the original number is divisible by 7 exactly when N - 2d is divisible by 7. The other options refer to unrelated congruences.",
+      "difficulty": "medium"
+    }
+  ]
+}

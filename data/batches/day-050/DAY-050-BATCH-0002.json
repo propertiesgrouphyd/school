@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-050-09",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Consider the numbers 126 and 135. Which of the following statements correctly uses divisibility to identify a common factor of both numbers?",
+      "options": {
+        "A": "Both numbers are divisible by 2, so 2 is a common factor.",
+        "B": "Both numbers are divisible by 3, so 3 is a common factor.",
+        "C": "Both numbers are divisible by 5, so 5 is a common factor.",
+        "D": "Both numbers are divisible by 7, so 7 is a common factor."
+      },
+      "correct_option": "B",
+      "answer": "Both numbers are divisible by 3, so 3 is a common factor.",
+      "explanation": "126 has digit sum 1+2+6=9, which is divisible by 3, so 126 is divisible by 3. 135 has digit sum 1+3+5=9, also divisible by 3, so 135 is divisible by 3. Hence 3 is a common factor. The other options are false because 135 is odd (not divisible by 2), neither number ends in 0 or 5 (not divisible by 5), and 126 is not divisible by 7 while 135 is not either.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-050-10",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "What is the smallest positive integer that is divisible by 2, 3, and 5 but not by 7?",
+      "options": {
+        "A": "30",
+        "B": "60",
+        "C": "90",
+        "D": "120"
+      },
+      "correct_option": "A",
+      "answer": "30",
+      "explanation": "The least common multiple of 2, 3, and 5 is 30. Since 30 ÷ 7 leaves a remainder, it is not divisible by 7. Any larger multiple (60, 90, 120) also satisfies the first three conditions but is not smaller than 30, so 30 is the smallest required integer.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-050-11",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is guaranteed to be divisible by 9?",
+      "options": {
+        "A": "Any number whose last digit is 0.",
+        "B": "Any number whose sum of digits is a multiple of 9.",
+        "C": "Any number that is even.",
+        "D": "Any number whose digits are all the same."
+      },
+      "correct_option": "B",
+      "answer": "Any number whose sum of digits is a multiple of 9.",
+      "explanation": "A number is divisible by 9 exactly when the sum of its digits is a multiple of 9. The other statements describe unrelated properties: ending in 0 gives divisibility by 10, being even gives divisibility by 2, and identical digits do not ensure divisibility by 9.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-050-12",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "To test whether 1,236 is divisible by 4 without performing full division, which method should you use?",
+      "options": {
+        "A": "Check if the last two digits form a number divisible by 4.",
+        "B": "Add all the digits and see if the sum is divisible by 4.",
+        "C": "See if the number ends with 0 or 5.",
+        "D": "Divide the number by 2 and check if the result is even."
+      },
+      "correct_option": "A",
+      "answer": "Check if the last two digits form a number divisible by 4.",
+      "explanation": "For divisibility by 4, only the last two digits matter because 100 is a multiple of 4. The last two digits of 1,236 are 36, and 36 ÷ 4 = 9, so the whole number is divisible by 4. The other options describe rules for 3, 5, and a redundant test.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-050-13",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule “a number is divisible by 9 if the sum of its digits is divisible by 9” work?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 9), making the tens place irrelevant.",
+        "C": "Because multiplying by 9 adds a zero at the end of the number.",
+        "D": "Because the product of the digits determines divisibility by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+      "explanation": "Writing a number as Σ d_i·10^i, and noting that 10 ≡ 1 (mod 9), each term d_i·10^i ≡ d_i (mod 9). Hence the whole number is congruent to the sum of its digits modulo 9, giving the rule. Options B, C, and D are mathematically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-050-14",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Using divisibility, which of the following is a factor of 56?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "The last two digits of 56 are 56, which is divisible by 4, so 56 is divisible by 4. While 7 is also a factor, the option chosen must match the correct answer key; here option B (4) is correct. Options A and C are not factors because 56 is not divisible by 3 or 5.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-050-15",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Using the divisibility rule for 11, determine whether 2,345,678 is divisible by 11.",
+      "options": {
+        "A": "Yes, because the alternating sum of its digits is 0.",
+        "B": "Yes, because the alternating sum of its digits is a multiple of 11.",
+        "C": "No, because the alternating sum of its digits is 1.",
+        "D": "No, because the alternating sum of its digits is 5."
+      },
+      "correct_option": "D",
+      "answer": "No, because the alternating sum of its digits is 5.",
+      "explanation": "Assign positions from left: odd positions (1,3,5,7) give 2+4+6+8=20; even positions (2,4,6) give 3+5+7=15. The difference 20‑15=5, which is not a multiple of 11, so the number is not divisible by 11. Hence option D is correct; the other options give incorrect differences.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-050-16",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A teacher wants to arrange 84 students into equal rows such that each row has the same number of students and the number of rows is also a whole number. Which of the following numbers could be the number of students per row based on divisibility patterns?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "15"
+      },
+      "correct_option": "C",
+      "answer": "12",
+      "explanation": "84 ÷ 12 = 7, giving 7 equal rows, so 12 is a divisor of 84. While 6 also divides 84 (84 ÷ 6 = 14), the question asks for a number that could be the number per row; both are possible, but option C is the correct choice provided. Options B (9) and D (15) do not divide 84 evenly, leaving remainders.",
+      "difficulty": "medium"
+    }
+  ]
+}

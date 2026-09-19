@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which of the following statements about testing the divisibility of 462 by 3 is correct?",
+      "options": {
+        "A": "You must divide 462 by 3 and check the remainder.",
+        "B": "Add the digits of 462 and see if the sum is divisible by 3.",
+        "C": "Multiply the last digit by 2 and subtract from the rest of the number.",
+        "D": "None of the above."
+      },
+      "correct_option": "B",
+      "answer": "Add the digits of 462 and see if the sum is divisible by 3.",
+      "explanation": "For divisibility by 3, the rule is to add the digits of the number. 4+6+2 = 12, and 12 is divisible by 3, so 462 is divisible by 3. Option A describes the long‑division method, which is unnecessary. Option C is the rule for 7, not 3. Option D is false because option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule \"if the sum of the digits of a number is divisible by 9, then the number itself is divisible by 9\" hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 9), making the place values irrelevant.",
+        "C": "Because 9 is a factor of 100, which determines the rule.",
+        "D": "Because the rule only works for numbers with an even number of digits."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+      "explanation": "Writing a number as \\(a_n10^n+...+a_1 10 + a_0\\) and reducing modulo 9, each \\(10^k\\) is congruent to 1, so the whole number is congruent to the sum of its digits. Hence if the digit sum is a multiple of 9, the original number is also a multiple of 9. Options B, C, and D are incorrect statements about modular arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following numbers is NOT a factor of 1260 based on divisibility rules?",
+      "options": {
+        "A": "14",
+        "B": "18",
+        "C": "21",
+        "D": "25"
+      },
+      "correct_option": "D",
+      "answer": "25",
+      "explanation": "1260 ends with a 0, so it is divisible by 2 and 5, making it divisible by 10. It is also divisible by 2, 3, and 7, giving factors 14 (2×7), 18 (2×3²), and 21 (3×7). However, 25 = 5² requires the number to end with 25, 50, 75 or 00 and be divisible by 25; 1260 ÷ 25 = 50.4, not an integer. Therefore 25 is not a factor. The other options are genuine factors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Let N = 37258. Which of the following statements is true?",
+      "options": {
+        "A": "N is divisible by 6.",
+        "B": "N is divisible by 11.",
+        "C": "N is divisible by 13.",
+        "D": "N is divisible by 7."
+      },
+      "correct_option": "C",
+      "answer": "N is divisible by 13.",
+      "explanation": "For divisibility by 6, a number must be even and divisible by 3. N is even but its digit sum 3+7+2+5+8 = 25 is not a multiple of 3, so not divisible by 6. The 11‑rule gives a difference of 1, not a multiple of 11, so B is false. Dividing 37258 by 13 gives 2866 exactly, confirming C. Testing 7 shows a non‑integer quotient, so D is false. Hence only statement C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following descriptions identifies a number that is always divisible by 5?",
+      "options": {
+        "A": "Any number ending in 0.",
+        "B": "Any number ending in 2.",
+        "C": "Any number ending in 4.",
+        "D": "Any number ending in 6."
+      },
+      "correct_option": "A",
+      "answer": "Any number ending in 0.",
+      "explanation": "A number is divisible by 5 if its last digit is 0 or 5. Among the options, only numbers ending in 0 satisfy this condition. Options B, C, and D end with digits that are not 0 or 5, so they are not guaranteed to be multiples of 5.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "To check if 845 is divisible by 5, you should:",
+      "options": {
+        "A": "Look at the last digit.",
+        "B": "Add all the digits together.",
+        "C": "Multiply the first digit by 2 and subtract from the rest.",
+        "D": "Divide the number completely by 5."
+      },
+      "correct_option": "A",
+      "answer": "Look at the last digit.",
+      "explanation": "The rule for 5 states that a number is divisible by 5 if its last digit is 0 or 5. Since 845 ends with 5, it is divisible by 5. Options B and C describe rules for 3/9 and 7 respectively, while D defeats the purpose of a quick test.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "The rule \"a number is divisible by 4 if the number formed by its last two digits is divisible by 4\" works because:",
+      "options": {
+        "A": "100 is a multiple of 4, so higher place values are automatically multiples of 4.",
+        "B": "10 is a multiple of 4.",
+        "C": "1000 is a multiple of 4.",
+        "D": "None of the above."
+      },
+      "correct_option": "A",
+      "answer": "100 is a multiple of 4, so higher place values are automatically multiples of 4.",
+      "explanation": "Any integer can be written as 100·k + r, where r is the number formed by the last two digits. Since 100 ≡ 0 (mod 4), the divisibility of the whole number depends only on r. Therefore checking the last two digits is sufficient. Options B and C are false because 10 and 1000 are not multiples of 4, and D is incorrect because A is true.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following could be a factor of 84?",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "84 ÷ 12 = 7, an integer, so 12 is a factor. 9 does not divide 84 (84 ÷ 9 = 9.33...), 15 does not (84 ÷ 15 = 5.6), and 20 does not (84 ÷ 20 = 4.2). Hence only option B is a valid factor.",
+      "difficulty": "easy"
+    }
+  ]
+}
