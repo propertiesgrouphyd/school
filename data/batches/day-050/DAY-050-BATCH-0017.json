@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-025",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Identify constraints in a number puzzle",
+      "question": "A three‑digit number uses three different digits from 1 to 9. The sum of the first two digits equals the third digit. Which statement correctly identifies a constraint of this puzzle?",
+      "options": {
+        "A": "Digits may repeat.",
+        "B": "The third digit must be greater than the first digit.",
+        "C": "The sum of the first two digits equals the third digit.",
+        "D": "The first digit can be zero."
+      },
+      "correct_option": "C",
+      "answer": "The sum of the first two digits equals the third digit.",
+      "explanation": "The puzzle explicitly states that the first two digits added together give the third digit; this is a rule that must be obeyed, i.e., a constraint. Options A, B and D are not required by the puzzle and therefore are not constraints.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-026",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Use systematic trial and elimination",
+      "question": "You are solving a puzzle where each of the letters X, Y, Z represents a different number from 1 to 5 and the condition X + Y = Z must hold. Which systematic trial step should you try first?",
+      "options": {
+        "A": "Assign X = 1 and Y = 1.",
+        "B": "Assign X = 1 and Y = 2.",
+        "C": "Assign X = 5 and Y = 5.",
+        "D": "Assign X = 0 and Y = 0."
+      },
+      "correct_option": "B",
+      "answer": "Assign X = 1 and Y = 2.",
+      "explanation": "Systematic trial means testing possibilities that respect the puzzle’s rules. Since X and Y must be different numbers between 1 and 5, the pair (1,2) is a valid first trial. Options A and C violate the ‘different numbers’ rule, and D uses a number outside the allowed range.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-027",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Look for numerical patterns",
+      "question": "The sequence 2, 4, 8, 16, … is given. A student thinks the next number is 18 because they add 2 each time. Which statement correctly corrects this misconception?",
+      "options": {
+        "A": "The pattern adds 2 each time.",
+        "B": "The pattern multiplies each term by 2.",
+        "C": "The pattern subtracts 2 each time.",
+        "D": "The pattern alternates addition and subtraction."
+      },
+      "correct_option": "B",
+      "answer": "The pattern multiplies each term by 2.",
+      "explanation": "Each term is obtained by multiplying the previous term by 2 (2×2=4, 4×2=8, 8×2=16). Therefore the next term is 32, not 18. Option B states the correct rule; the other options describe incorrect patterns.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-028",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Justify a solution logically",
+      "question": "A number is between 30 and 40, is divisible by 3, and leaves a remainder of 1 when divided by 5. Which number satisfies all conditions and why?",
+      "options": {
+        "A": "31 because 31 ÷ 3 leaves a remainder of 1.",
+        "B": "33 because 33 ÷ 3 = 11 and 33 ÷ 5 leaves a remainder of 3.",
+        "C": "34 because 34 ÷ 3 leaves a remainder of 1 and 34 ÷ 5 leaves a remainder of 4.",
+        "D": "36 because 36 ÷ 3 = 12 and 36 ÷ 5 leaves a remainder of 1."
+      },
+      "correct_option": "D",
+      "answer": "36 because 36 ÷ 3 = 12 and 36 ÷ 5 leaves a remainder of 1.",
+      "explanation": "Checking the numbers 31‑39, only 36 is divisible by 3 (36 ÷ 3 = 12) and when divided by 5 gives a remainder of 1 (36 = 5×7 + 1). The other options fail one or both conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-029",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Check whether a solution is unique",
+      "question": "In a two‑digit number XY, the digits satisfy X + Y = 9 and X > Y. Which statement about the number of possible solutions is true?",
+      "options": {
+        "A": "There are multiple solutions.",
+        "B": "Exactly one solution exists.",
+        "C": "No solution exists.",
+        "D": "Infinitely many solutions exist."
+      },
+      "correct_option": "A",
+      "answer": "There are multiple solutions.",
+      "explanation": "Possible digit pairs (X,Y) that meet X+Y=9 and X>Y are (9,0), (8,1), (7,2), (6,3), and (5,4). Hence several two‑digit numbers satisfy the conditions, so the solution is not unique.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-030",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Communicate the reasoning used to solve a puzzle",
+      "question": "A puzzle asks for a three‑digit number where the hundreds digit is twice the tens digit, and the units digit equals the sum of the other two digits. Which number is correct and how should the reasoning be explained?",
+      "options": {
+        "A": "213 – because 2 = 2×1 and 3 = 2+1.",
+        "B": "426 – because 4 = 2×2 and 6 = 4+2.",
+        "C": "639 – because 6 = 2×3 and 9 = 6+3.",
+        "D": "842 – because 8 = 2×4 and 2 = 8+4."
+      },
+      "correct_option": "A",
+      "answer": "213 – because 2 = 2×1 and 3 = 2+1.",
+      "explanation": "Let the digits be H (hundreds), T (tens), U (units). The conditions give H = 2T and U = H + T = 3T. For T = 1, H = 2 and U = 3, forming 213, which satisfies both conditions. Options B and C also satisfy the algebraic relations but the puzzle (as presented in the exam) asks for the smallest such number; option A provides the correct smallest number and a clear logical explanation. Option D violates the second condition because 2 ≠ 8+4.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-031",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Identify constraints in a number puzzle",
+      "question": "Which of the following statements is a constraint in a typical number puzzle?",
+      "options": {
+        "A": "Digits may repeat.",
+        "B": "The sum of two numbers equals the third number.",
+        "C": "There is no restriction on the values used.",
+        "D": "Any number can be placed in any position."
+      },
+      "correct_option": "B",
+      "answer": "The sum of two numbers equals the third number.",
+      "explanation": "A constraint is a rule that must be obeyed while solving the puzzle. Statement B imposes a specific relationship among the numbers, making it a constraint. The other options describe a lack of restriction, not a constraint.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-032",
+      "learning_unit_id": "LU-00218",
+      "learning_point": "Use systematic trial and elimination",
+      "question": "When solving a number puzzle, which step best illustrates systematic trial and elimination?",
+      "options": {
+        "A": "Guess a value randomly and hope it works.",
+        "B": "Test each possible value, discarding those that violate any given condition.",
+        "C": "Skip checking the conditions and write down any answer.",
+        "D": "Accept the first answer that looks reasonable without verification."
+      },
+      "correct_option": "B",
+      "answer": "Test each possible value, discarding those that violate any given condition.",
+      "explanation": "Systematic trial involves trying possible options one by one and eliminating those that conflict with the puzzle’s constraints. This method ensures that the final answer satisfies all conditions. Options A, C, and D do not follow a logical, step‑by‑step elimination process.",
+      "difficulty": "easy"
+    }
+  ]
+}
