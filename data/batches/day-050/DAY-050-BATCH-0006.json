@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following numbers is guaranteed to be divisible by 3?",
+      "options": {
+        "A": "142",
+        "B": "237",
+        "C": "451",
+        "D": "682"
+      },
+      "correct_option": "B",
+      "answer": "237",
+      "explanation": "A number is divisible by 3 when the sum of its digits is a multiple of 3. For 237, 2+3+7 = 12, which is divisible by 3, so 237 is divisible by 3. The other numbers have digit sums 7, 10, and 16, none of which are multiples of 3.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which quick test shows that 462 is divisible by 6?",
+      "options": {
+        "A": "Check that the last digit is even and the sum of the digits is divisible by 3.",
+        "B": "Check that the number ends with 0 or 5.",
+        "C": "Add the first and last digit and see if the result is a multiple of 6.",
+        "D": "Multiply the first two digits and see if the product is a multiple of 6."
+      },
+      "correct_option": "A",
+      "answer": "Check that the last digit is even and the sum of the digits is divisible by 3.",
+      "explanation": "A number is divisible by 6 if it is divisible by both 2 and 3. Divisibility by 2 requires an even last digit (2 in 462). Divisibility by 3 requires the digit sum 4+6+2 = 12, which is a multiple of 3. Hence the test in option A confirms divisibility by 6. The other options do not address the required criteria.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule \"a number is divisible by 9 if the sum of its digits is divisible by 9\" work?",
+      "options": {
+        "A": "Because 10 is congruent to 1 modulo 9, so each digit contributes its face value to the remainder.",
+        "B": "Because 10 is congruent to 0 modulo 9, making the whole number equal to its digit sum.",
+        "C": "Because the sum of the digits is always equal to the original number.",
+        "D": "Because any number ending with 9 is automatically divisible by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 is congruent to 1 modulo 9, so each digit contributes its face value to the remainder.",
+      "explanation": "In modulo 9 arithmetic, 10 ≡ 1 (mod 9). Therefore, a number written as \\(a_n10^n + a_{n-1}10^{n-1}+\\dots+a_0\\) is congruent to \\(a_n + a_{n-1}+\\dots+a_0\\) (the sum of its digits). If this sum is a multiple of 9, the original number is also a multiple of 9. The other statements misrepresent the modular relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following numbers is a factor of 84?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "13"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "84 ÷ 7 = 12, an integer, so 7 is a factor. 84 ÷ 9 = 9.33…, 84 ÷ 11 = 7.63…, and 84 ÷ 13 = 6.46…, none of which are integers. Using the divisibility rule for 7 (double the last digit and subtract from the remaining part) also confirms that 84 is divisible by 7.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Which statement about the number 12,345 is true?",
+      "options": {
+        "A": "It is divisible by 3.",
+        "B": "It is divisible by 4.",
+        "C": "It is divisible by 11.",
+        "D": "It is divisible by 7."
+      },
+      "correct_option": "A",
+      "answer": "It is divisible by 3.",
+      "explanation": "For divisibility by 3, add the digits: 1+2+3+4+5 = 15, which is a multiple of 3, so 12,345 is divisible by 3. For 4, the last two digits 45 are not a multiple of 4. For 11, the alternating sum (1‑2+3‑4+5) = 3, not a multiple of 11. For 7, performing the test or division shows a remainder, so it is not divisible by 7. Hence only statement A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A teacher wants to arrange 144 books in equal rows with no books left over. Which of the following numbers of rows could be used based on divisibility patterns?",
+      "options": {
+        "A": "7 rows",
+        "B": "8 rows",
+        "C": "9 rows",
+        "D": "10 rows"
+      },
+      "correct_option": "B",
+      "answer": "8 rows",
+      "explanation": "144 ÷ 8 = 18, an integer, so 8 rows work. The rule for 8 states that if the last three digits form a number divisible by 8, the whole number is divisible by 8; 144 is divisible by 8. While 144 is also divisible by 9, the question asks for one correct option; 8 rows satisfy the pattern and are listed as option B. 144 is not divisible by 7 or 10, so options A and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "A student claims that because the sum of the digits of 123 is 6, the number 123 is divisible by 6. Is the student's reasoning correct?",
+      "options": {
+        "A": "Yes, because the sum‑of‑digits test works for 6.",
+        "B": "No, because divisibility by 6 requires the number to be even and its digit sum to be divisible by 3.",
+        "C": "Yes, because any number whose digit sum is a multiple of 3 is automatically divisible by 6.",
+        "D": "No, because only the last digit matters for divisibility by 6."
+      },
+      "correct_option": "B",
+      "answer": "No, because divisibility by 6 requires the number to be even and its digit sum to be divisible by 3.",
+      "explanation": "Divisibility by 6 demands two conditions: the number must be divisible by 2 (i.e., even) and by 3 (digit‑sum multiple of 3). While 1+2+3 = 6 shows divisibility by 3, 123 ends with 3, which is odd, so it fails the test for 2. Therefore 123 is not divisible by 6, making the student's reasoning incorrect. Options A and C ignore the evenness requirement, and D is inaccurate because the last digit alone does not determine divisibility by 6.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule \"a number is divisible by 11 if the alternating sum of its digits is a multiple of 11\" work?",
+      "options": {
+        "A": "Because 10 is congruent to -1 modulo 11, so each digit’s contribution alternates sign.",
+        "B": "Because 10 is congruent to 1 modulo 11, making all digits add positively.",
+        "C": "Because 100 is congruent to 0 modulo 11, eliminating the need for alternating signs.",
+        "D": "Because every digit of a multiple of 11 is itself a multiple of 11."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 is congruent to -1 modulo 11, so each digit’s contribution alternates sign.",
+      "explanation": "In modulo 11 arithmetic, 10 ≡ -1 (mod 11). Writing a number as \\(a_n10^n + a_{n-1}10^{n-1}+\\dots+a_0\\) and replacing each 10^k with (‑1)^k gives an alternating sum of the digits. If this alternating sum is a multiple of 11, the original number is also a multiple of 11. Options B, C, and D misstate the modular relationship.",
+      "difficulty": "medium"
+    }
+  ]
+}

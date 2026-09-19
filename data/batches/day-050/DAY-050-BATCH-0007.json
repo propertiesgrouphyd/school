@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Consider the numbers 126 and 140. Which of the following comparisons correctly uses divisibility rules to identify a common factor of both numbers?",
+      "options": {
+        "A": "Both are divisible by 6, so 6 is a common factor.",
+        "B": "Both are divisible by 7, so 7 is a common factor.",
+        "C": "Both are divisible by 9, so 9 is a common factor.",
+        "D": "Both are divisible by 11, so 11 is a common factor."
+      },
+      "correct_option": "B",
+      "answer": "Both are divisible by 7, so 7 is a common factor.",
+      "explanation": "126 ÷ 7 = 18 and 140 ÷ 7 = 20, so both numbers are divisible by 7, making 7 a common factor. Options A, C, and D are incorrect because at least one of the two numbers fails the respective divisibility test.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "A number N is formed by writing the digits 1,2,3,4,3,2,1 in that order to make 1234321. Using divisibility reasoning without performing full division, which of the following statements is true?",
+      "options": {
+        "A": "N is divisible by 3.",
+        "B": "N is divisible by 7.",
+        "C": "N is divisible by 11.",
+        "D": "N is divisible by 13."
+      },
+      "correct_option": "C",
+      "answer": "N is divisible by 11.",
+      "explanation": "For divisibility by 11, compute the alternating sum of digits: (1‑2+3‑4+3‑2+1) = 0. Since 0 is a multiple of 11, the number is divisible by 11. The sum of digits (16) is not a multiple of 3, so A is false. Applying the rule for 7 or 13 does not give a zero remainder, so B and D are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following patterns correctly states a divisibility rule for the number 9?",
+      "options": {
+        "A": "A number is divisible by 9 if the sum of its digits is a multiple of 9.",
+        "B": "A number is divisible by 9 if the difference between the sum of its even‑place digits and odd‑place digits is a multiple of 9.",
+        "C": "A number is divisible by 9 if its last two digits form a number divisible by 9.",
+        "D": "A number is divisible by 9 if the product of its digits is a multiple of 9."
+      },
+      "correct_option": "A",
+      "answer": "A number is divisible by 9 if the sum of its digits is a multiple of 9.",
+      "explanation": "Because 10 ≡ 1 (mod 9), each digit contributes its face value to the remainder; therefore the whole number is divisible by 9 exactly when the sum of its digits is divisible by 9. Options B, C, and D describe rules for other numbers or are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which quick test can be used to determine whether a number is divisible by 5?",
+      "options": {
+        "A": "Check if the sum of its digits is a multiple of 5.",
+        "B": "Check if the last digit is 0 or 5.",
+        "C": "Check if the number formed by the last two digits is divisible by 5.",
+        "D": "Check if the number is even."
+      },
+      "correct_option": "B",
+      "answer": "Check if the last digit is 0 or 5.",
+      "explanation": "A number ends in 0 or 5 exactly when it is a multiple of 5. The other options describe unrelated criteria: digit‑sum works for 3 and 9, the last two digits rule works for 4 or 25, and evenness is the rule for 2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule 'a number is divisible by 3 if the sum of its digits is divisible by 3' hold true?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 3), so only the last digit matters.",
+        "C": "Because multiplying digits does not affect divisibility by 3.",
+        "D": "Because the rule only works for numbers less than 100."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 3), so each digit contributes its face value to the remainder.",
+      "explanation": "Writing a number as Σ d_i·10^i, and noting that 10 ≡ 1 (mod 3), each term reduces to d_i (mod 3). Hence the whole number is congruent to the sum of its digits modulo 3. Options B, C, and D are mathematically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following is a factor of 56 that can be identified using the divisibility rule for 7?",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "56 ÷ 7 = 8, so 7 is a factor. The rule for 7 (double the last digit and subtract from the rest) confirms 56 is divisible by 7. Options A, C, and D are not factors of 56.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "A student wants to know whether 2,345,678 is divisible by 6. Using divisibility rules, which conclusion is correct?",
+      "options": {
+        "A": "It is divisible by 6 because it is even and its digit sum is a multiple of 3.",
+        "B": "It is not divisible by 6 because it is odd.",
+        "C": "It is not divisible by 6 because its digit sum is not a multiple of 3.",
+        "D": "It is divisible by 6 because the last two digits form a number divisible by 6."
+      },
+      "correct_option": "C",
+      "answer": "It is not divisible by 6 because its digit sum is not a multiple of 3.",
+      "explanation": "A number is divisible by 6 if it is even and divisible by 3. The last digit 8 makes it even, but the digit sum 2+3+4+5+6+7+8 = 35, which is not a multiple of 3, so the number fails the divisibility‑by‑3 test. Hence it is not divisible by 6. Options A and D are false because the digit‑sum condition fails; B is false because the number is even.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A retailer notices that any product code ending with 0 is always divisible by 5. Which divisibility pattern does this observation illustrate?",
+      "options": {
+        "A": "A number ending in 0 or 5 is divisible by 5.",
+        "B": "A number whose digit sum is 5 is divisible by 5.",
+        "C": "A number ending in 0 is divisible by 2.",
+        "D": "A number ending in 5 is divisible by 10."
+      },
+      "correct_option": "A",
+      "answer": "A number ending in 0 or 5 is divisible by 5.",
+      "explanation": "The rule for 5 states that any integer whose last digit is 0 or 5 is a multiple of 5. The retailer’s observation matches this rule. Options B, C, and D describe different or incorrect rules.",
+      "difficulty": "medium"
+    }
+  ]
+}

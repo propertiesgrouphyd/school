@@ -1,0 +1,150 @@
+{
+  "day": 50,
+  "batch_id": "DAY-050-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "Which of the following statements correctly uses a divisibility rule to determine whether 7,452 is divisible by 3?",
+      "options": {
+        "A": "The sum of its digits is 18, which is divisible by 3, so 7,452 is divisible by 3.",
+        "B": "The last digit is 2, so it is divisible by 3.",
+        "C": "Because the number is even, it is divisible by 3.",
+        "D": "Since 7,452 ÷ 3 = 2,484 with remainder 0, it is divisible by 3."
+      },
+      "correct_option": "A",
+      "answer": "The sum of its digits is 18, which is divisible by 3, so 7,452 is divisible by 3.",
+      "explanation": "A number is divisible by 3 when the sum of its digits is a multiple of 3. 7+4+5+2 = 18, and 18 ÷ 3 = 6, so the rule confirms divisibility. Options B and C use unrelated properties, and D describes the result of division rather than applying a rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "A teacher wants to arrange students in rows so that each row has the same number of students without any leftover. She knows the class size could be any multiple of 6, 9, or 12. Which of the following numbers could be the class size?",
+      "options": {
+        "A": "54",
+        "B": "58",
+        "C": "61",
+        "D": "65"
+      },
+      "correct_option": "A",
+      "answer": "54",
+      "explanation": "54 is divisible by 6 (6×9), by 9 (9×6), and by 12 (12×4.5). Actually 54 ÷12 = 4.5, so 54 is not a multiple of 12. However the requirement is that the class size could be a multiple of any of the three numbers, not necessarily all simultaneously. 54 satisfies being a multiple of both 6 and 9, making it a valid class size. The other options are not multiples of any of the given numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which of the following statements about testing divisibility is a common misconception?",
+      "options": {
+        "A": "If the sum of the digits of a number is divisible by 3, the number is divisible by 3.",
+        "B": "If a number ends with 0 or 5, it is divisible by 5.",
+        "C": "If a number is even, it is always divisible by 4.",
+        "D": "If the alternating sum of the digits is a multiple of 11, the number is divisible by 11."
+      },
+      "correct_option": "C",
+      "answer": "If a number is even, it is always divisible by 4.",
+      "explanation": "All even numbers end with 0, 2, 4, 6, or 8, but only those whose last two digits form a number divisible by 4 are divisible by 4. For example, 14 is even but not divisible by 4. Options A, B, and D describe correct divisibility rules.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Explain why a divisibility rule works",
+      "question": "Why does the rule 'a number is divisible by 9 if the sum of its digits is divisible by 9' work?",
+      "options": {
+        "A": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+        "B": "Because 10 ≡ 0 (mod 9), making the tens place irrelevant.",
+        "C": "Because the product of the digits determines divisibility by 9.",
+        "D": "Because any number ending in 9 is divisible by 9."
+      },
+      "correct_option": "A",
+      "answer": "Because 10 ≡ 1 (mod 9), so each digit contributes its face value to the remainder.",
+      "explanation": "Writing a number as \\(a_n10^n + … + a_1 10 + a_0\\) and noting that 10 ≡ 1 (mod 9) gives \\(a_n + … + a_1 + a_0\\) (the digit sum) as the remainder modulo 9. Hence the digit‑sum test is valid. The other options misstate the modular relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Use divisibility to identify factors",
+      "question": "Which of the following numbers is a factor of 1,236?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "17",
+        "D": "19"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "1,236 ÷ 12 = 103, an integer, so 12 is a factor. 1,236 ÷ 14 ≈ 88.3, ÷ 17 ≈ 72.7, ÷ 19 ≈ 65.1, none give whole numbers. Thus only option A satisfies the factor condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Apply divisibility reasoning to unfamiliar numbers",
+      "question": "A number N = 13,572. Which of the following statements is true?",
+      "options": {
+        "A": "N is divisible by 2 but not by 4.",
+        "B": "N is divisible by 3 and by 9.",
+        "C": "N is divisible by 5.",
+        "D": "N is divisible by 11."
+      },
+      "correct_option": "B",
+      "answer": "N is divisible by 3 and by 9.",
+      "explanation": "The digit sum of 13,572 is 1+3+5+7+2 = 18, which is divisible by both 3 and 9, so N is divisible by 3 and 9. N ends with 2, so it is even and also divisible by 4 because the last two digits 72 are divisible by 4; therefore option A is false. N does not end with 0 or 5, so not divisible by 5. For 11, the alternating sum (2‑7+5‑3+1) = -2, not a multiple of 11, so D is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Recognise useful divisibility patterns",
+      "question": "Which of the following statements correctly describes a number that is always divisible by 3?",
+      "options": {
+        "A": "Any number whose digits add up to a multiple of 3.",
+        "B": "Any even number.",
+        "C": "Any number ending with 0 or 5.",
+        "D": "Any number whose last two digits form a multiple of 4."
+      },
+      "correct_option": "A",
+      "answer": "Any number whose digits add up to a multiple of 3.",
+      "explanation": "The divisibility rule for 3 states that a number is divisible by 3 exactly when the sum of its digits is a multiple of 3. Options B, C, and D describe rules for other numbers (2, 5, and 4 respectively).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00217",
+      "learning_point": "Test divisibility without performing complete division",
+      "question": "Which quick test can be used to check if a number is divisible by 11?",
+      "options": {
+        "A": "Add all the digits; if the sum is a multiple of 11, the number is divisible by 11.",
+        "B": "Subtract the sum of the digits in odd positions from the sum of the digits in even positions; if the result is a multiple of 11, the number is divisible by 11.",
+        "C": "If the last digit is 0 or 5, the number is divisible by 11.",
+        "D": "If the number is even, it is divisible by 11."
+      },
+      "correct_option": "B",
+      "answer": "Subtract the sum of the digits in odd positions from the sum of the digits in even positions; if the result is a multiple of 11, the number is divisible by 11.",
+      "explanation": "The standard divisibility rule for 11 uses the alternating sum of digits. If the difference (ignoring sign) is 0 or a multiple of 11, the original number is divisible by 11. Option A is the rule for 3 or 9, while C and D are unrelated.",
+      "difficulty": "easy"
+    }
+  ]
+}
