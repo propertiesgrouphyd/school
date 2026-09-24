@@ -1,0 +1,150 @@
+{
+  "day": 71,
+  "batch_id": "DAY-071-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Understand the meaning of a cube number",
+      "question": "Which of the following statements correctly compares the size of a cube number with the corresponding square number for any integer n greater than 1?",
+      "options": {
+        "A": "For every integer n > 1, n³ is always greater than n².",
+        "B": "For every integer n > 3, n³ is always less than n².",
+        "C": "n³ equals n² only when n is 0 or 1.",
+        "D": "The difference n³ − n² becomes smaller as n increases."
+      },
+      "correct_option": "A",
+      "answer": "For every integer n > 1, n³ is always greater than n².",
+      "explanation": "A cube number is n³ and a square number is n². Since n > 1, multiplying n by itself three times (n·n·n) yields a larger product than multiplying it only twice (n·n). Therefore n³ > n² for all n > 1. Option B is false because n³ grows faster, not slower. Option C is partially true only for n = 0 or 1, but the statement does not address n > 1. Option D is false because the difference n³ − n² = n²(n − 1) increases as n increases.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Generate cube numbers",
+      "question": "The sum of the first n cube numbers is given by \\(\\left[\\frac{n(n+1)}{2}\\right]^2\\). What is the smallest integer n for which this sum exceeds 10,000?",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "16"
+      },
+      "correct_option": "B",
+      "answer": "14",
+      "explanation": "We need \\(\\left[\\frac{n(n+1)}{2}\\right]^2 > 10,000\\). Taking square roots gives \\(\\frac{n(n+1)}{2} > 100\\) → n(n+1) > 200. Testing integers: for n = 13, 13·14 = 182 (≤200); for n = 14, 14·15 = 210 (>200). Hence the smallest n is 14. Options A, C, and D are larger or smaller than the correct value.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Recognise perfect cubes",
+      "question": "Which of the following numbers is a perfect cube?",
+      "options": {
+        "A": "64",
+        "B": "50",
+        "C": "72",
+        "D": "90"
+      },
+      "correct_option": "A",
+      "answer": "64",
+      "explanation": "A perfect cube is an integer that can be written as m³ for some integer m. 64 = 4³, so it is a perfect cube. The other numbers cannot be expressed as the cube of an integer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Represent cubes geometrically",
+      "question": "Which three‑dimensional figure best represents the cube of the number 3?",
+      "options": {
+        "A": "A line segment of length 27 units",
+        "B": "A square with area 9 square units",
+        "C": "A cube whose each edge is 3 units long",
+        "D": "A rectangular prism with volume 9 cubic units"
+      },
+      "correct_option": "C",
+      "answer": "A cube whose each edge is 3 units long",
+      "explanation": "The cube of 3 is 3³ = 27. Geometrically, a cube with edge length 3 units has volume 3 × 3 × 3 = 27 cubic units, directly representing the cube number. Options A and B describe one‑dimensional and two‑dimensional objects, while D gives the wrong volume.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Identify patterns in cube numbers",
+      "question": "Which statement correctly describes a pattern that holds for all consecutive cube numbers?",
+      "options": {
+        "A": "The difference between any two consecutive cubes is always an odd number.",
+        "B": "Cube numbers increase by a constant amount.",
+        "C": "The units digit of every cube number is either 0 or 1.",
+        "D": "Cube numbers form a geometric progression."
+      },
+      "correct_option": "A",
+      "answer": "The difference between any two consecutive cubes is always an odd number.",
+      "explanation": "For n ≥ 1, n³ − (n‑1)³ = 3n² − 3n + 1 = 3n(n‑1)+1. Since 3n(n‑1) is even, adding 1 makes the result odd. Therefore the difference is always odd. Options B, C, and D are false: cube numbers do not increase by a constant, their units digit cycles through 0‑9, and they are not in geometric progression.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Use cubes in numerical problems",
+      "question": "A cube has an edge length of 5 cm. What is its volume?",
+      "options": {
+        "A": "125 cm³",
+        "B": "25 cm³",
+        "C": "15 cm³",
+        "D": "75 cm³"
+      },
+      "correct_option": "A",
+      "answer": "125 cm³",
+      "explanation": "Volume of a cube = edge³. Here, 5³ = 5 × 5 × 5 = 125 cubic centimeters. The other options correspond to area, perimeter, or incorrect multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Understand the meaning of a cube number",
+      "question": "Which of the following statements correctly interprets the cube number 27?",
+      "options": {
+        "A": "27 is the product of three consecutive integers.",
+        "B": "27 equals 3 multiplied by itself three times.",
+        "C": "27 is the square of 5 plus 2.",
+        "D": "27 is the sum of the first five natural numbers."
+      },
+      "correct_option": "B",
+      "answer": "27 equals 3 multiplied by itself three times.",
+      "explanation": "A cube number is obtained by multiplying a number by itself three times: 3³ = 3 × 3 × 3 = 27. Option A would give 2 × 3 × 4 = 24, not 27. Option C gives 5² + 2 = 27, but that is a coincidence, not the definition of a cube. Option D sums to 15, not 27.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Generate cube numbers",
+      "question": "A teacher asks students to write the cube of each integer from 2 to 5. Which list correctly shows these cube numbers?",
+      "options": {
+        "A": "8, 27, 64, 125",
+        "B": "4, 9, 16, 25",
+        "C": "2, 3, 4, 5",
+        "D": "8, 64, 216, 512"
+      },
+      "correct_option": "A",
+      "answer": "8, 27, 64, 125",
+      "explanation": "Cubes: 2³ = 8, 3³ = 27, 4³ = 64, 5³ = 125. Option B lists squares, Option C lists the original integers, and Option D lists cubes of 2, 4, 6, 8, which are not the required range.",
+      "difficulty": "medium"
+    }
+  ]
+}

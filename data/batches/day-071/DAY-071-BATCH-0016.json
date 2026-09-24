@@ -1,0 +1,150 @@
+{
+  "day": 71,
+  "batch_id": "DAY-071-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-71-17",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Identify patterns in cube numbers",
+      "question": "Which of the following statements about the pattern of cube numbers is **incorrect**?",
+      "options": {
+        "A": "The difference between successive cubes increases by consecutive multiples of 6.",
+        "B": "The last digit of a cube repeats in a cycle of 10 as the base number runs from 0 to 9.",
+        "C": "Every cube number is either 0 or 1 modulo 9.",
+        "D": "The cube of an even integer is always even."
+      },
+      "correct_option": "C",
+      "answer": "Every cube number is either 0 or 1 modulo 9.",
+      "explanation": "For any integer n, n³ mod 9 can be 0, 1, 8, … (e.g., 2³=8 ≡ 8 (mod 9)). Hence the statement that every cube is 0 or 1 (mod 9) is false. Options A, B and D are true: the successive differences grow by 6, the unit‑digit cycle is 0,1,8,7,4,5,6,3,2,9, and an even number cubed remains even.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-71-18",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Use cubes in numerical problems",
+      "question": "The difference between the cube of a positive integer and the cube of the preceding integer is 61. What is the integer?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "For n > 0, n³ − (n‑1)³ = 3n² − 3n + 1. Setting this equal to 61 gives 3n² − 3n − 60 = 0 → n² − n − 20 = 0 → (n‑5)(n+4)=0. The positive solution is n = 5. Hence option B is correct; the other choices do not satisfy the equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-71-19",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Understand the meaning of a cube number",
+      "question": "Which of the following statements correctly compares numbers that are both perfect squares and perfect cubes?",
+      "options": {
+        "A": "Every perfect square is also a perfect cube.",
+        "B": "The only positive integer that is both a perfect square and a perfect cube is 1.",
+        "C": "There are infinitely many positive integers that are both perfect squares and perfect cubes.",
+        "D": "A number that is a perfect cube must have an even number of prime factors."
+      },
+      "correct_option": "C",
+      "answer": "There are infinitely many positive integers that are both perfect squares and perfect cubes.",
+      "explanation": "A number that is both a perfect square (n²) and a perfect cube (m³) must be a perfect sixth power: k⁶. Since k can be any positive integer, there are infinitely many such numbers (1⁶, 2⁶, 3⁶, …). Options A and B are false, and D is unrelated to the definition of cubes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-71-20",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Generate cube numbers",
+      "question": "What is the 10th positive integer cube?",
+      "options": {
+        "A": "1000",
+        "B": "1331",
+        "C": "1728",
+        "D": "2197"
+      },
+      "correct_option": "A",
+      "answer": "1000",
+      "explanation": "The nth cube is n³. For n = 10, 10³ = 1000. The other options correspond to 11³, 12³, and 13³ respectively, so they are not the 10th cube.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71-21",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Recognise perfect cubes",
+      "question": "Which of the following numbers is a perfect cube?",
+      "options": {
+        "A": "48",
+        "B": "64",
+        "C": "72",
+        "D": "80"
+      },
+      "correct_option": "B",
+      "answer": "64",
+      "explanation": "64 = 4³, so it is a perfect cube. 48, 72 and 80 are not cubes of any integer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-71-22",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Represent cubes geometrically",
+      "question": "Which description best represents the geometric arrangement of the cube of 3 (i.e., 3 × 3 × 3) using unit cubes?",
+      "options": {
+        "A": "A single layer of 9 unit squares.",
+        "B": "Three stacked layers, each containing a 3 × 3 square of unit cubes.",
+        "C": "A 2 × 2 × 2 arrangement of unit cubes.",
+        "D": "A straight line of 27 unit cubes."
+      },
+      "correct_option": "B",
+      "answer": "Three stacked layers, each containing a 3 × 3 square of unit cubes.",
+      "explanation": "3³ = 27 unit cubes arranged as a 3 × 3 × 3 solid, which can be visualised as three layers (height) each having a 3 × 3 square (area). Option B captures this; the other options describe different shapes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-71-23",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Identify patterns in cube numbers",
+      "question": "Which statement correctly defines a cube number and distinguishes it from a square number?",
+      "options": {
+        "A": "A cube number is the product of three equal factors, while a square number is the product of two equal factors.",
+        "B": "A cube number is always odd, whereas a square number can be even or odd.",
+        "C": "A cube number is the sum of consecutive integers, while a square number is the sum of consecutive even integers.",
+        "D": "A cube number is obtained by multiplying a number by its square, while a square number is obtained by multiplying a number by itself."
+      },
+      "correct_option": "A",
+      "answer": "A cube number is the product of three equal factors, while a square number is the product of two equal factors.",
+      "explanation": "By definition, n³ = n × n × n (three equal factors) and n² = n × n (two equal factors). Option A states this precisely. Option B is false (e.g., 8 is a cube and even). Option C is unrelated, and D, while mathematically true, does not highlight the distinction as clearly as A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-71-24",
+      "learning_unit_id": "LU-00302",
+      "learning_point": "Use cubes in numerical problems",
+      "question": "A box can hold 27 unit cubes. How many such boxes are needed to store 216 unit cubes?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "Number of boxes = total cubes ÷ capacity per box = 216 ÷ 27 = 8. Therefore option C is correct; the other numbers are either too few or too many boxes.",
+      "difficulty": "easy"
+    }
+  ]
+}
