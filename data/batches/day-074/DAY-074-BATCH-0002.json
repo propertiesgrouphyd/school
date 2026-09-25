@@ -1,0 +1,150 @@
+{
+  "day": 74,
+  "batch_id": "DAY-074-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-074-009",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Use divisibility to solve number puzzles",
+      "question": "Consider the two three‑digit numbers 462 and 527. Which of the following statements correctly compares their divisibility by 3?",
+      "options": {
+        "A": "Both numbers are divisible by 3.",
+        "B": "Only 462 is divisible by 3.",
+        "C": "Only 527 is divisible by 3.",
+        "D": "Neither number is divisible by 3."
+      },
+      "correct_option": "B",
+      "answer": "Only 462 is divisible by 3.",
+      "explanation": "A number is divisible by 3 when the sum of its digits is a multiple of 3. For 462, 4+6+2 = 12, which is divisible by 3, so 462 is divisible by 3. For 527, 5+2+7 = 14, not a multiple of 3, so 527 is not divisible by 3. Hence only 462 satisfies the rule.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-074-010",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Justify divisibility conclusions",
+      "question": "A number N leaves a remainder of 2 when divided by 5 and a remainder of 3 when divided by 7. Which statement about N's divisibility by 35 is correct?",
+      "options": {
+        "A": "N is divisible by 35.",
+        "B": "N leaves a remainder of 5 when divided by 35.",
+        "C": "N leaves a remainder of 17 when divided by 35.",
+        "D": "N leaves a remainder of 22 when divided by 35."
+      },
+      "correct_option": "C",
+      "answer": "N leaves a remainder of 17 when divided by 35.",
+      "explanation": "We need N modulo 35. Solve the system: N ≡ 2 (mod 5) and N ≡ 3 (mod 7). Testing numbers that are 2 mod 5 gives 2,7,12,17,22,27,32,… The first that is also 3 mod 7 is 17 (since 17 ÷ 7 leaves remainder 3). Therefore N ≡ 17 (mod 35). Hence the correct remainder is 17.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-074-011",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Apply common divisibility rules",
+      "question": "Which of the following is the correct divisibility rule for 9?",
+      "options": {
+        "A": "A number is divisible by 9 if its last digit is 9.",
+        "B": "A number is divisible by 9 if the sum of its digits is a multiple of 9.",
+        "C": "A number is divisible by 9 if the difference between the sum of its even‑place digits and odd‑place digits is a multiple of 9.",
+        "D": "A number is divisible by 9 if it is also divisible by 3."
+      },
+      "correct_option": "B",
+      "answer": "A number is divisible by 9 if the sum of its digits is a multiple of 9.",
+      "explanation": "The standard rule for 9 states that a number is divisible by 9 exactly when the sum of its digits is divisible by 9. The other options describe rules for other numbers or are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-074-012",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Identify factors using divisibility",
+      "question": "Which of the following numbers is a factor of 84?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "9",
+        "D": "11"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "A factor divides the number exactly. 84 ÷ 6 = 14, an integer, so 6 is a factor. 84 ÷ 5, 9, and 11 leave remainders, so they are not factors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-074-013",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Recognise relationships between factors and multiples",
+      "question": "Which statement correctly distinguishes a factor from a multiple?",
+      "options": {
+        "A": "A factor of a number is larger than the number, while a multiple is smaller.",
+        "B": "A factor divides the number exactly without remainder; a multiple is the product of the number with an integer.",
+        "C": "A factor and a multiple are the same concepts expressed differently.",
+        "D": "A factor is always a prime number, whereas a multiple is always composite."
+      },
+      "correct_option": "B",
+      "answer": "A factor divides the number exactly without remainder; a multiple is the product of the number with an integer.",
+      "explanation": "By definition, if a × b = n, then a and b are factors of n, while n is a multiple of a (and of b). The other statements misrepresent the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-074-014",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Use divisibility to solve number puzzles",
+      "question": "What is the smallest two‑digit number that is divisible by both 4 and 6?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "36",
+        "D": "48"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "The LCM of 4 and 6 is 12. The smallest two‑digit multiple of 12 is 12 itself. Hence 12 satisfies the condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-074-015",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Justify divisibility conclusions",
+      "question": "The number 12345 is examined for divisibility by 3. Which justification correctly explains whether it is divisible by 3?",
+      "options": {
+        "A": "The sum of its digits is 15, which is a multiple of 3, so 12345 is divisible by 3.",
+        "B": "The last digit is 5, and numbers ending in 5 are never divisible by 3.",
+        "C": "The alternating sum of its digits is 1−2+3−4+5 =3, which shows divisibility by 3.",
+        "D": "Because 12345 is odd, it cannot be divisible by 3."
+      },
+      "correct_option": "A",
+      "answer": "The sum of its digits is 15, which is a multiple of 3, so 12345 is divisible by 3.",
+      "explanation": "Divisibility by 3 depends on the digit sum. 1+2+3+4+5 = 15, and 15 ÷ 3 = 5, an integer, so the number is divisible by 3. The other options use incorrect criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-074-016",
+      "learning_unit_id": "LU-00313",
+      "learning_point": "Apply common divisibility rules",
+      "question": "A teacher has 84 students and wants to arrange them in equal rows with no leftover students. Which of the following could be a possible number of students per row?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "11"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "The number of students per row must be a divisor of 84. The divisors of 84 include 1,2,3,4,6,7,12,14,21,28,42,84. Among the options, only 7 divides 84 exactly (84 ÷ 7 = 12). Hence 7 is a feasible row size.",
+      "difficulty": "medium"
+    }
+  ]
+}
