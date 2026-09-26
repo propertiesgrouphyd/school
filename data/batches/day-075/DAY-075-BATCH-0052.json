@@ -1,0 +1,78 @@
+{
+  "day": 75,
+  "batch_id": "DAY-075-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97-001",
+      "learning_unit_id": "LU-00320",
+      "learning_point": "Use radius to calculate area",
+      "question": "Which of the following formulas correctly gives the area of a circle when the radius is known?",
+      "options": {
+        "A": "πr²",
+        "B": "2πr",
+        "C": "πr",
+        "D": "2r²"
+      },
+      "correct_option": "A",
+      "answer": "πr²",
+      "explanation": "The area of a circle is calculated as π times the square of the radius (A). Option B is the formula for circumference, C omits the square, and D is not a standard formula. Using the radius directly avoids the common mistake of using the circumference formula for area.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98-001",
+      "learning_unit_id": "LU-00320",
+      "learning_point": "Use diameter to calculate area after converting to radius",
+      "question": "A circular playground has a diameter of 14 cm. What is its area (use π≈3.14)?",
+      "options": {
+        "A": "154 cm²",
+        "B": "98 cm²",
+        "C": "44 cm²",
+        "D": "196 cm²"
+      },
+      "correct_option": "A",
+      "answer": "154 cm²",
+      "explanation": "First convert diameter to radius: r = 14 cm ÷ 2 = 7 cm. Then area = πr² = 3.14 × 7² = 3.14 × 49 ≈ 154 cm². Option B uses πr, C is far too small, and D is the square of the diameter, not the area of the circle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99-001",
+      "learning_unit_id": "LU-00320",
+      "learning_point": "Solve practical problems involving circular areas",
+      "question": "A circular garden has radius 5 m. A square plot next to it has side length 8 m. Which region has the larger area?",
+      "options": {
+        "A": "The circular garden",
+        "B": "The square plot",
+        "C": "Both have the same area",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "The circular garden",
+      "explanation": "Area of circle = πr² = 3.14 × 25 ≈ 78.5 m². Area of square = side² = 8² = 64 m². Since 78.5 m² > 64 m², the circular garden is larger. Options B and C are incorrect, and D is unnecessary because the dimensions are given.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100-001",
+      "learning_unit_id": "LU-00320",
+      "learning_point": "Check units in area calculations",
+      "question": "A circular pond has a diameter of 12 km. What is its area expressed in square metres? (Use π≈3.14)",
+      "options": {
+        "A": "1.13×10⁸ m²",
+        "B": "1.13×10⁶ m²",
+        "C": "1.13×10¹⁰ m²",
+        "D": "1.13×10⁴ m²"
+      },
+      "correct_option": "A",
+      "answer": "1.13×10⁸ m²",
+      "explanation": "Convert diameter to metres: 12 km = 12,000 m, so radius = 6,000 m. Area = πr² = 3.14 × (6,000)² = 3.14 × 36,000,000 ≈ 113,040,000 m² ≈ 1.13×10⁸ m². Option B is off by a factor of 100, C is too large, D is far too small. The key is converting km to m before squaring.",
+      "difficulty": "hard"
+    }
+  ]
+}
