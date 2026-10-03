@@ -1,0 +1,150 @@
+{
+  "day": 102,
+  "batch_id": "DAY-102-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Evaluate a polynomial for a given value",
+      "question": "For the polynomial P(x)=2x^3-5x+1, which statement correctly compares the result of evaluating P(3) by direct substitution with the result obtained using synthetic division by (x-3)?",
+      "options": {
+        "A": "Both methods give the same value, which is 40.",
+        "B": "Direct substitution gives 40, while synthetic division gives 38.",
+        "C": "Direct substitution gives 38, while synthetic division gives 40.",
+        "D": "Both methods give different values, and neither equals 40."
+      },
+      "correct_option": "A",
+      "answer": "Both methods give the same value, which is 40.",
+      "explanation": "Evaluating P(3) by direct substitution gives 2·27‑5·3+1 = 54‑15+1 = 40. Synthetic division by (x‑3) also yields a remainder of 40, which equals P(3). Hence both methods give the same value 40. The other options state unequal or incorrect values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Understand the meaning of a zero of a polynomial",
+      "question": "If α is a zero of the polynomial f(x)=x^3-6x^2+11x-6, which of the following statements is true?",
+      "options": {
+        "A": "x = 2 is a zero because f(2)=0.",
+        "B": "x = -2 is a zero because f(-2)=0.",
+        "C": "x = 3 is not a zero because f(3)≠0.",
+        "D": "x = 0 is a zero because f(0)=0."
+      },
+      "correct_option": "A",
+      "answer": "x = 2 is a zero because f(2)=0.",
+      "explanation": "A zero of a polynomial is a value of x that makes the polynomial equal to zero. Substituting x=2 gives f(2)=8‑24+22‑6=0, so 2 is a zero. For x=-2, f(-2)≠0; for x=3, f(3)=0 (so statement C is false); for x=0, f(0)=-6 (so D is false). Hence only option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Verify whether a given number is a zero",
+      "question": "Is x = -1 a zero of the polynomial Q(x)=x^2+2x+1?",
+      "options": {
+        "A": "Yes, because Q(-1)=0.",
+        "B": "No, because Q(-1)≠0.",
+        "C": "Yes, because the polynomial can be factored as (x+1)^2.",
+        "D": "No, because -1 is not in the domain of Q(x)."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because Q(-1)=0.",
+      "explanation": "Evaluating Q(-1): (-1)^2 + 2(-1) + 1 = 1 - 2 + 1 = 0. Hence -1 satisfies Q(x)=0, making it a zero. Option C is also true factorizationally, but the question asks to verify, and option A directly states the verification. Options B and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Interpret zeroes graphically at a basic level",
+      "question": "The graph of y = (x‑2)(x+1) intersects the x‑axis at which points?",
+      "options": {
+        "A": "(2,0) and (-1,0)",
+        "B": "(2,0) only",
+        "C": "(-1,0) only",
+        "D": "No x‑intercepts"
+      },
+      "correct_option": "A",
+      "answer": "(2,0) and (-1,0)",
+      "explanation": "Zeroes occur where y=0, i.e., (x‑2)(x+1)=0 ⇒ x=2 or x=‑1. Therefore the graph crosses the x‑axis at (2,0) and (-1,0). Options B, C, and D omit one or both intercepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Evaluate a polynomial for a given value",
+      "question": "Which of the following best defines the process of evaluating a polynomial at x = 4?",
+      "options": {
+        "A": "Substituting x = 4 into the polynomial and simplifying to obtain a number.",
+        "B": "Finding all factors of the polynomial.",
+        "C": "Determining the degree of the polynomial.",
+        "D": "Identifying the zeros of the polynomial."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x = 4 into the polynomial and simplifying to obtain a number.",
+      "explanation": "Evaluation means replacing the variable with a specific value and simplifying. Finding factors, degree, or zeros are different operations. Hence option A correctly describes evaluation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Understand the meaning of a zero of a polynomial",
+      "question": "If the height h (in metres) of a plant after t weeks is given by h(t)=t^2‑4t+5, what does the zero of this polynomial represent?",
+      "options": {
+        "A": "t = 2 weeks, meaning the plant reaches ground level at that time.",
+        "B": "t = 4 weeks, meaning the plant reaches ground level at that time.",
+        "C": "No real value of t makes the height zero; the plant never reaches ground level.",
+        "D": "t = 0 weeks, meaning the plant starts at ground level."
+      },
+      "correct_option": "C",
+      "answer": "No real value of t makes the height zero; the plant never reaches ground level.",
+      "explanation": "h(t)=t^2‑4t+5 = (t‑2)^2+1, which is always ≥1 for real t, so h(t) never equals zero. Therefore the polynomial has no real zero, meaning the plant never touches the ground. Options A, B, and D incorrectly claim a real zero.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Verify whether a given number is a zero",
+      "question": "For the polynomial P(x)=x^3‑3x^2‑4x+12, is x = 3 a zero?",
+      "options": {
+        "A": "Yes, because P(3)=0.",
+        "B": "No, because P(3)≠0.",
+        "C": "Yes, because 3 is a factor of the constant term.",
+        "D": "No, because 3 is not a factor of the leading coefficient."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because P(3)=0.",
+      "explanation": "P(3)=27‑27‑12+12=0, so x=3 satisfies P(x)=0 and is a zero. Option C mentions a true fact but does not confirm the zero; the decisive verification is the calculation in option A. Options B and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Interpret zeroes graphically at a basic level",
+      "question": "A student sketches the graph of y = x^2‑9. Which point(s) on the x‑axis represent a zero of the polynomial?",
+      "options": {
+        "A": "(3,0)",
+        "B": "(-3,0)",
+        "C": "(0,0)",
+        "D": "Both (3,0) and (-3,0)"
+      },
+      "correct_option": "D",
+      "answer": "Both (3,0) and (-3,0)",
+      "explanation": "Setting y=0 gives x^2‑9=0 ⇒ x^2=9 ⇒ x=±3. Hence the graph meets the x‑axis at (3,0) and (-3,0). Options A and B list only one of the two intercepts, while C is not a zero.",
+      "difficulty": "medium"
+    }
+  ]
+}
