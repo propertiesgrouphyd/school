@@ -1,0 +1,78 @@
+{
+  "day": 102,
+  "batch_id": "DAY-102-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-102-97",
+      "learning_unit_id": "LU-00426",
+      "learning_point": "Subtract polynomials",
+      "question": "If \\(P(x)=3x^{3}-2x^{2}+5x-7\\) and \\(Q(x)=x^{3}+4x^{2}-2x+3\\), what is \\(P(x)-Q(x)\\)?",
+      "options": {
+        "A": "2x^{3}-6x^{2}+7x-10",
+        "B": "2x^{3}-6x^{2}+3x-10",
+        "C": "2x^{3}+2x^{2}+3x-4",
+        "D": "2x^{3}-6x^{2}+5x-4"
+      },
+      "correct_option": "A",
+      "answer": "2x^{3}-6x^{2}+7x-10",
+      "explanation": "When subtracting \\(Q(x)\\) from \\(P(x)\\) we change the sign of every term of \\(Q(x)\\): \\(P(x)-Q(x) = (3x^{3}-2x^{2}+5x-7) - (x^{3}+4x^{2}-2x+3) = 3x^{3}-x^{3} -2x^{2}-4x^{2} +5x+2x -7-3 = 2x^{3}-6x^{2}+7x-10. Option B forgets to change the sign of \\(-2x\\) and gives 3x instead of 7x. Options C and D contain multiple sign errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-102-98",
+      "learning_unit_id": "LU-00426",
+      "learning_point": "Combine like terms",
+      "question": "Combine like terms in the expression: \\(4x^{2}+3xy-5x+2x^{2}-xy+7\\).",
+      "options": {
+        "A": "6x^{2}+2xy-5x+7",
+        "B": "6x^{2}+4xy-5x+7",
+        "C": "2x^{2}+2xy-5x+7",
+        "D": "6x^{2}+2xy+5x+7"
+      },
+      "correct_option": "A",
+      "answer": "6x^{2}+2xy-5x+7",
+      "explanation": "Group the same powers and same variables: \\(4x^{2}+2x^{2}=6x^{2}\\); \\(3xy-xy=2xy\\); \\(-5x\\) stays unchanged; constant term is 7. Hence the simplified form is \\(6x^{2}+2xy-5x+7\\). Option B adds an extra \\(xy\\), Option C misses the \\(x^{2}\\) terms, and Option D changes the sign of \\(-5x\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-102-99",
+      "learning_unit_id": "LU-00426",
+      "learning_point": "Arrange polynomials by descending powers",
+      "question": "Which of the following expressions is written in standard form with terms arranged in descending powers of \\(x\\)?",
+      "options": {
+        "A": "5x^{4}-3x^{2}+2x-7",
+        "B": "-3x^{2}+5x^{4}+2x-7",
+        "C": "5x^{4}+2-3x^{2}+x",
+        "D": "5x^{4}-7+2x-3x^{2}"
+      },
+      "correct_option": "A",
+      "answer": "5x^{4}-3x^{2}+2x-7",
+      "explanation": "Standard form lists terms from the highest exponent to the lowest. Option A follows the order \\(x^{4}, x^{2}, x^{1}, x^{0}\\). Option B starts with \\(x^{2}\\), Option C places the constant before the \\(x^{2}\\) term, and Option D puts the constant before the \\(x\\) term, breaking the descending order.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-102-100",
+      "learning_unit_id": "LU-00426",
+      "learning_point": "Check algebraic simplification",
+      "question": "Simplify the expression: \\((2x^{3}-4x^{2}+6x) - (x^{3}+5x^{2}-2x) + (3x^{2}-x)\\).",
+      "options": {
+        "A": "x^{3}-6x^{2}+7x",
+        "B": "x^{3}-6x^{2}+5x",
+        "C": "x^{3}-5x^{2}+7x",
+        "D": "2x^{3}-6x^{2}+7x"
+      },
+      "correct_option": "A",
+      "answer": "x^{3}-6x^{2}+7x",
+      "explanation": "First distribute the minus sign: \\( (2x^{3}-4x^{2}+6x) - x^{3} -5x^{2}+2x +3x^{2}-x\\). Combine like terms: \\(2x^{3}-x^{3}=x^{3}\\); \\(-4x^{2}-5x^{2}+3x^{2}= -6x^{2}\\); \\(6x+2x- x =7x\\). The simplified result is \\(x^{3}-6x^{2}+7x\\). Options B and C have incorrect coefficients for the \\(x^{2}\\) or \\(x\\) terms, and D retains the original \\(2x^{3}\\) instead of subtracting correctly.",
+      "difficulty": "hard"
+    }
+  ]
+}
