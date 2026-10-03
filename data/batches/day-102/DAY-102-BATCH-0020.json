@@ -1,0 +1,150 @@
+{
+  "day": 102,
+  "batch_id": "DAY-102-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Evaluate a polynomial for a given value",
+      "question": "What is the value of the polynomial P(x)=2x^3-5x^2+3x-7 when x = -2?",
+      "options": {
+        "A": "-49",
+        "B": "-45",
+        "C": "-41",
+        "D": "-53"
+      },
+      "correct_option": "A",
+      "answer": "-49",
+      "explanation": "Substituting x = -2 gives P(-2)=2(-8)-5(4)+3(-2)-7 = -16-20-6-7 = -49. The other options result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Understand the meaning of a zero of a polynomial",
+      "question": "If α is a zero of the polynomial f(x)=x^3-6x^2+11x-6, which statement is true?",
+      "options": {
+        "A": "α satisfies f(α)=0",
+        "B": "α is the coefficient of x^2",
+        "C": "α is the degree of the polynomial",
+        "D": "α is the constant term of the polynomial"
+      },
+      "correct_option": "A",
+      "answer": "α satisfies f(α)=0",
+      "explanation": "A zero (or root) of a polynomial is a number that makes the polynomial equal to zero when substituted. Hence option A correctly defines a zero. The other options describe unrelated attributes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Verify whether a given number is a zero",
+      "question": "Is x = 3 a zero of the polynomial g(x)=x^2-5x+6?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Cannot be determined",
+        "D": "It is a repeated zero"
+      },
+      "correct_option": "A",
+      "answer": "Yes",
+      "explanation": "Evaluating g(3) gives 3^2-5·3+6 = 9-15+6 = 0, so 3 is indeed a zero. Therefore option A is correct; the other choices are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Interpret zeroes graphically at a basic level",
+      "question": "On the graph of h(x)=x^2-4, which point represents a zero of the polynomial?",
+      "options": {
+        "A": "(0, -4)",
+        "B": "(2, 0)",
+        "C": "(0, 0)",
+        "D": "(-2, 4)"
+      },
+      "correct_option": "B",
+      "answer": "(2, 0)",
+      "explanation": "A zero occurs where the graph meets the x‑axis, i.e., where y = 0. Solving x^2-4=0 gives x=±2, giving points (2,0) and (-2,0). Option B correctly shows one of these points. The other points are not on the x‑axis.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Evaluate a polynomial for a given value",
+      "question": "Which statement correctly distinguishes between evaluating a polynomial and finding its zero?",
+      "options": {
+        "A": "Evaluating means substituting a number to find the polynomial’s value; finding a zero means solving f(x)=0.",
+        "B": "Evaluating finds where the graph crosses the x‑axis; finding a zero finds the maximum point.",
+        "C": "Both processes are identical.",
+        "D": "Evaluating gives the coefficient of the highest-degree term."
+      },
+      "correct_option": "A",
+      "answer": "Evaluating means substituting a number to find the polynomial’s value; finding a zero means solving f(x)=0.",
+      "explanation": "Evaluation is a direct substitution to compute the polynomial’s numerical value. A zero (root) is a specific number that makes the polynomial equal to zero. Options B, C, and D confuse these definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Understand the meaning of a zero of a polynomial",
+      "question": "A ball’s height (in meters) after t seconds is H(t)= -5t^2 + 20t + 15. The time when the ball hits the ground corresponds to a zero of H(t). Which value of t (in seconds) is correct?",
+      "options": {
+        "A": "3",
+        "B": "4.65",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "4.65",
+      "explanation": "Set H(t)=0: -5t^2+20t+15=0 → t^2-4t-3=0. Solving gives t = 2 ± √7. The positive root is 2+√7 ≈ 4.65 s. Hence option B is the correct physical time. The other options are not solutions of the equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Verify whether a given number is a zero",
+      "question": "Given the polynomial p(x)=2x^3 - x^2 - 6x, is x = -2 a zero of p(x)?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "It is a repeated zero",
+        "D": "Cannot be determined without factoring"
+      },
+      "correct_option": "B",
+      "answer": "No",
+      "explanation": "Substituting x = -2: p(-2)=2(-8)-(-2)^2-6(-2)= -16-4+12 = -8 ≠ 0. Therefore -2 is not a zero. Option B is correct; the other options are inaccurate.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Interpret zeroes graphically at a basic level",
+      "question": "A student sketches the graph of q(x)= (x-1)(x+3). Which statement about the graph is correct?",
+      "options": {
+        "A": "The graph touches the x‑axis at x = 1 and crosses at x = –3.",
+        "B": "The graph crosses the x‑axis at both x = 1 and x = –3.",
+        "C": "The graph does not intersect the x‑axis.",
+        "D": "The graph has a maximum at x = 1."
+      },
+      "correct_option": "B",
+      "answer": "The graph crosses the x‑axis at both x = 1 and x = –3.",
+      "explanation": "Each linear factor gives a simple root, so the parabola crosses the x‑axis at each root (x=1 and x=-3). Hence option B is correct. Option A would be true only for a repeated (even‑multiplicity) root, which is not the case here. Options C and D are false.",
+      "difficulty": "medium"
+    }
+  ]
+}

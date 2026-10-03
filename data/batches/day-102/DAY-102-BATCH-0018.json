@@ -1,0 +1,150 @@
+{
+  "day": 102,
+  "batch_id": "DAY-102-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Evaluate a polynomial for a given value",
+      "question": "Which of the following best describes how to evaluate the polynomial P(x)=3x^2 - x + 4 at x = -1?",
+      "options": {
+        "A": "Substitute the given value for x and simplify the expression.",
+        "B": "Find the values of x that make the polynomial equal to zero.",
+        "C": "Differentiate the polynomial and then substitute the value.",
+        "D": "Integrate the polynomial and evaluate at the given point."
+      },
+      "correct_option": "A",
+      "answer": "Substitute the given value for x and simplify the expression.",
+      "explanation": "Evaluating a polynomial means replacing the variable with the specified number and simplifying. Substituting x = -1 into 3(-1)^2 - (-1) + 4 gives 3(1) + 1 + 4 = 8. Options B, C and D describe unrelated operations (finding roots, differentiation, integration).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Understand the meaning of a zero of a polynomial",
+      "question": "If a polynomial P(x) satisfies P(3)=0, what does the number x = 3 represent?",
+      "options": {
+        "A": "It is a zero (root) of the polynomial.",
+        "B": "It is the point where the polynomial attains its maximum value.",
+        "C": "It represents the degree of the polynomial.",
+        "D": "It is the coefficient of the highest‑degree term."
+      },
+      "correct_option": "A",
+      "answer": "It is a zero (root) of the polynomial.",
+      "explanation": "A zero (or root) of a polynomial is a value of x that makes the polynomial equal to zero. Since P(3)=0, x=3 is a zero. The other options describe unrelated concepts: maximum value, degree, or a coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Verify whether a given number is a zero",
+      "question": "For the polynomial P(x)=x^3 - 4x^2 + x + 6, is x = 2 a zero of P(x)?",
+      "options": {
+        "A": "Yes, because substituting x = 2 gives 0.",
+        "B": "No, because substituting x = 2 gives a non‑zero value.",
+        "C": "It cannot be determined without factoring the polynomial.",
+        "D": "It is a factor of the polynomial but not necessarily a zero."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because substituting x = 2 gives 0.",
+      "explanation": "Substituting x = 2: 2^3 - 4·2^2 + 2 + 6 = 8 - 16 + 2 + 6 = 0. Hence 2 is a zero. Options B, C, and D are incorrect because the direct substitution already shows the result, and a factor that makes the polynomial zero is precisely a zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Interpret zeroes graphically at a basic level",
+      "question": "A graph of the polynomial Q(x)=x^2 - 4 meets the x‑axis at the points (-2,0) and (2,0). Which statement is true?",
+      "options": {
+        "A": "The polynomial has zeros at x = -2 and x = 2.",
+        "B": "The polynomial has a zero only at x = 0.",
+        "C": "The graph never touches the x‑axis.",
+        "D": "The zeros are at y = -2 and y = 2."
+      },
+      "correct_option": "A",
+      "answer": "The polynomial has zeros at x = -2 and x = 2.",
+      "explanation": "Where the graph crosses the x‑axis, the y‑coordinate is zero; those x‑values are the zeros of the polynomial. Hence the zeros are -2 and 2. Options B, C, and D misinterpret the graph.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Evaluate a polynomial for a given value",
+      "question": "Evaluate P(x)=2x^3 - x + 5 at x = 2. Which answer is correct?",
+      "options": {
+        "A": "13 (mistakenly using 2·2^2)",
+        "B": "19",
+        "C": "21",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "answer": "19",
+      "explanation": "Correct evaluation: 2·(2)^3 - 2 + 5 = 2·8 - 2 + 5 = 16 - 2 + 5 = 19. Option A arises from the common error of treating the cubic term as 2·x^2. Options C and D result from other arithmetic slips. Only B follows the proper substitution and simplification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Understand the meaning of a zero of a polynomial",
+      "question": "If a polynomial P(x) satisfies P(3)=0, which of the following statements must be true?",
+      "options": {
+        "A": "(x-3) is a factor of P(x).",
+        "B": "(x+3) is a factor of P(x).",
+        "C": "(x-3) is a factor of P(x) only if P(3)=5.",
+        "D": "No factor relationship can be inferred from P(3)=0."
+      },
+      "correct_option": "A",
+      "answer": "(x-3) is a factor of P(x).",
+      "explanation": "The Factor Theorem states that if P(a)=0, then (x-a) is a factor of the polynomial. Since P(3)=0, (x-3) must be a factor. Options B and C are incorrect because they involve the wrong factor or condition, and D contradicts the theorem.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Verify whether a given number is a zero",
+      "question": "Consider the two statements:\n1) For P₁(x)=x²‑5x+6, x=2 is a zero.\n2) For P₂(x)=2x³‑x²‑4x+2, x=1 is a zero.\nWhich comparison is correct?",
+      "options": {
+        "A": "Both numbers are zeros of their respective polynomials.",
+        "B": "Only the first number is a zero.",
+        "C": "Only the second number is a zero.",
+        "D": "Neither number is a zero."
+      },
+      "correct_option": "B",
+      "answer": "Only the first number is a zero.",
+      "explanation": "P₁(2)=4‑10+6=0, so 2 is a zero of P₁. P₂(1)=2‑1‑4+2=-1 ≠0, so 1 is not a zero of P₂. Therefore only the first statement is true. Options A, C, and D are incorrect based on these calculations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00425",
+      "learning_point": "Interpret zeroes graphically at a basic level",
+      "question": "The graph of R(x) = (x+1)² (x‑2) touches the x‑axis at x = -1 and crosses it at x = 2. Which statement correctly describes the zeroes?",
+      "options": {
+        "A": "x = -1 is a zero of multiplicity 2 and x = 2 is a zero of multiplicity 1.",
+        "B": "x = -1 is a zero of multiplicity 1 and x = 2 is a zero of multiplicity 2.",
+        "C": "Both zeroes have multiplicity 1.",
+        "D": "Both zeroes have multiplicity 2."
+      },
+      "correct_option": "A",
+      "answer": "x = -1 is a zero of multiplicity 2 and x = 2 is a zero of multiplicity 1.",
+      "explanation": "The factor (x+1)² indicates the root x = -1 occurs twice (even multiplicity), causing the graph to just touch the axis. The factor (x‑2) occurs once, so the graph crosses the axis at x = 2. Hence option A is correct; the others misstate the multiplicities.",
+      "difficulty": "hard"
+    }
+  ]
+}
