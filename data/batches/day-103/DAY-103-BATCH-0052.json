@@ -1,0 +1,78 @@
+{
+  "day": 103,
+  "batch_id": "DAY-103-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00431",
+      "learning_point": "Understand solutions as ordered pairs",
+      "question": "Which of the following ordered pairs is a solution of the linear equation 2x + 3y = 12?",
+      "options": {
+        "A": "(0, 4)",
+        "B": "(2, 2)",
+        "C": "(3, 1)",
+        "D": "(4, 0)"
+      },
+      "correct_option": "A",
+      "answer": "(0, 4)",
+      "explanation": "Substituting each ordered pair into 2x + 3y = 12: (0,4) gives 2*0 + 3*4 = 12, which satisfies the equation, so it is a solution. (2,2) gives 4 + 6 = 10 (not 12); (3,1) gives 6 + 3 = 9; (4,0) gives 8 + 0 = 8. Hence only option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00431",
+      "learning_point": "Check whether an ordered pair satisfies an equation",
+      "question": "Does the ordered pair (3, -2) satisfy the equation 5x - 4y = 23?",
+      "options": {
+        "A": "Yes, it satisfies the equation.",
+        "B": "No, it does not satisfy the equation.",
+        "C": "It satisfies only if x is positive.",
+        "D": "It satisfies only if y is negative."
+      },
+      "correct_option": "A",
+      "answer": "Yes, it satisfies the equation.",
+      "explanation": "Plugging x = 3 and y = -2 into 5x - 4y gives 5*3 - 4*(-2) = 15 + 8 = 23, which matches the right‑hand side, so the pair satisfies the equation. Options B, C and D are incorrect because the calculation shows the pair does satisfy the equation regardless of the sign conditions mentioned.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00431",
+      "learning_point": "Generate solutions to a linear equation",
+      "question": "Consider the two linear equations: (i) x + y = 5 and (ii) 2x - y = 1. Which ordered pair satisfies both equations?",
+      "options": {
+        "A": "(2, 3)",
+        "B": "(3, 2)",
+        "C": "(1, 4)",
+        "D": "(4, 1)"
+      },
+      "correct_option": "A",
+      "answer": "(2, 3)",
+      "explanation": "Solving the system: From (i) x = 5 - y. Substitute into (ii): 2(5 - y) - y = 1 → 10 - 2y - y = 1 → 10 - 3y = 1 → 3y = 9 → y = 3, then x = 5 - 3 = 2. Thus (2,3) satisfies both equations. The other options fail at least one equation: (3,2) gives 3+2=5 (ok) but 2*3-2=4 ≠1; (1,4) gives 1+4=5 (ok) but 2*1-4=-2 ≠1; (4,1) gives 4+1=5 (ok) but 2*4-1=7 ≠1.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00431",
+      "learning_point": "Understand that a linear equation can have infinitely many solutions",
+      "question": "How many ordered pairs (x, y) satisfy the linear equation 4x - 7y = 0?",
+      "options": {
+        "A": "No ordered pair",
+        "B": "Exactly one ordered pair",
+        "C": "Infinitely many ordered pairs",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "C",
+      "answer": "Infinitely many ordered pairs",
+      "explanation": "The equation 4x - 7y = 0 can be rewritten as 4x = 7y, or x = (7/4) y. For any real value chosen for y, a corresponding x = (7/4) y will satisfy the equation. Hence there are infinitely many ordered pairs. Option A is wrong because many pairs work; B is wrong because the solution set is not a single point; D is unnecessary because the equation alone determines the relationship.",
+      "difficulty": "hard"
+    }
+  ]
+}
