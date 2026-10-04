@@ -1,0 +1,150 @@
+{
+  "day": 105,
+  "batch_id": "DAY-105-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand SSS congruence",
+      "question": "Triangle ABC has sides AB = 5 cm, BC = 7 cm, AC = 9 cm. Triangle DEF has sides DE = 5 cm, EF = 7 cm, DF = 9 cm. Which statement is correct?",
+      "options": {
+        "A": "The two triangles are congruent by the SSS criterion.",
+        "B": "The two triangles are not congruent because the order of the sides is different.",
+        "C": "The two triangles are congruent only if one of the angles is also equal.",
+        "D": "The two triangles cannot be compared because they are not placed on the same plane."
+      },
+      "correct_option": "A",
+      "answer": "The two triangles are congruent by the SSS criterion.",
+      "explanation": "SSS (Side‑Side‑Side) states that if three sides of one triangle are respectively equal to three sides of another triangle, the triangles are congruent. Here AB = DE, BC = EF, and AC = DF, so the condition is satisfied and the triangles are congruent. The other options either misuse the criterion or add unnecessary conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand SAS congruence",
+      "question": "In a construction, triangle PQR and triangle XYZ have PQ = 8 cm, PR = 6 cm, and ∠QPR = 45°. In triangle XYZ, XY = 8 cm, XZ = 6 cm, and ∠YXZ = 45°. Which congruence criterion can be used to prove the two triangles are congruent?",
+      "options": {
+        "A": "SSS (Side‑Side‑Side)",
+        "B": "SAS (Side‑Angle‑Side)",
+        "C": "ASA (Angle‑Side‑Angle)",
+        "D": "RHS (Right angle‑Hypotenuse‑Side)"
+      },
+      "correct_option": "B",
+      "answer": "SAS (Side‑Angle‑Side)",
+      "explanation": "SAS states that if two sides and the included angle of one triangle are equal to the corresponding two sides and included angle of another triangle, the triangles are congruent. Here PQ = XY, PR = XZ and the included angle ∠QPR = ∠YXZ, satisfying SAS. SSS requires three sides, ASA requires two angles and the included side, and RHS applies only to right‑angled triangles.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand ASA congruence",
+      "question": "A student claims: “If two angles and any side of one triangle are equal to the corresponding two angles and side of another triangle, then the triangles are congruent.” Which statement is correct?",
+      "options": {
+        "A": "The claim is correct; ASA works with any side.",
+        "B": "The claim is incorrect because ASA requires the side to be between the two equal angles.",
+        "C": "The claim is correct because two angles uniquely determine a triangle.",
+        "D": "The claim is incorrect because ASA is not a valid congruence criterion."
+      },
+      "correct_option": "B",
+      "answer": "The claim is incorrect because ASA requires the side to be between the two equal angles.",
+      "explanation": "ASA (Angle‑Side‑Angle) demands that the equal side be the one **included** between the two equal angles. If the given side is not the included side, the criterion does not guarantee congruence. Options A and C misstate the requirement, and D is false because ASA is a valid criterion when the side is included.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand RHS congruence",
+      "question": "Two right‑angled triangles have equal hypotenuse lengths and one corresponding leg equal. Which congruence criterion justifies that the triangles are congruent?",
+      "options": {
+        "A": "SSS (Side‑Side‑Side)",
+        "B": "SAS (Side‑Angle‑Side)",
+        "C": "RHS (Right angle‑Hypotenuse‑Side)",
+        "D": "ASA (Angle‑Side‑Angle)"
+      },
+      "correct_option": "C",
+      "answer": "RHS (Right angle‑Hypotenuse‑Side)",
+      "explanation": "RHS states that in right‑angled triangles, if the hypotenuse and one leg are respectively equal, the triangles are congruent. The right angle is common, so the condition is sufficient. SSS would need all three sides, SAS needs an included angle (which is the right angle but the side must be adjacent to it), and ASA is not applicable here.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Apply congruence criteria in proofs",
+      "question": "In proving ΔABC ≅ ΔDEF, which pair of statements correctly applies a valid congruence criterion? (Both triangles are right‑angled at B and E respectively.)",
+      "options": {
+        "A": "AB = DE, BC = EF, and ∠ABC = ∠DEF (SSS).",
+        "B": "AB = DE, ∠ABC = ∠DEF, and ∠ACB = ∠DFE (ASA).",
+        "C": "AB = DE, AC = DF, and ∠BAC = ∠EDF (SAS).",
+        "D": "AB = DE, BC = EF, and AC = DF (RHS)."
+      },
+      "correct_option": "D",
+      "answer": "AB = DE, BC = EF, and AC = DF (RHS).",
+      "explanation": "Since both triangles are right‑angled, RHS can be used: equality of the hypotenuse (AC = DF) and one leg (AB = DE or BC = EF) suffices. Option A incorrectly labels SSS (the right‑angle condition is not used). Option B misapplies ASA because the side between the two angles is not given. Option C claims SAS but the included angle between AB and AC is not known to be equal. Hence only D correctly uses RHS for right‑angled triangles.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Identify invalid congruence conditions",
+      "question": "Which of the following statements describes a condition that is **not** a valid triangle congruence criterion?",
+      "options": {
+        "A": "Two sides and the included angle are equal (SAS).",
+        "B": "Two angles and the included side are equal (ASA).",
+        "C": "Two sides and a non‑included angle are equal (SSA).",
+        "D": "Three sides are equal (SSS)."
+      },
+      "correct_option": "C",
+      "answer": "Two sides and a non‑included angle are equal (SSA).",
+      "explanation": "SSA (Side‑Side‑Angle) is not a reliable congruence criterion because the given angle may be acute, leading to two possible triangles (the ambiguous case). The other three options—SAS, ASA, and SSS—are established valid criteria. Hence option C is the invalid condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand SSS congruence",
+      "question": "Which statement correctly describes the SSS congruence criterion?",
+      "options": {
+        "A": "If three sides of one triangle are respectively equal to three sides of another triangle, the triangles are congruent.",
+        "B": "If two sides and the included angle of one triangle are equal to those of another triangle, the triangles are congruent.",
+        "C": "If two angles and the side between them are equal in two triangles, the triangles are congruent.",
+        "D": "If a right triangle has equal hypotenuse and one leg equal to another right triangle, the triangles are congruent."
+      },
+      "correct_option": "A",
+      "answer": "If three sides of one triangle are respectively equal to three sides of another triangle, the triangles are congruent.",
+      "explanation": "SSS (Side‑Side‑Side) states exactly that: three pairs of corresponding sides being equal guarantees triangle congruence. Options B, C, and D describe SAS, ASA, and RHS respectively, not SSS.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand SAS congruence",
+      "question": "The SAS (Side‑Angle‑Side) criterion asserts that two triangles are congruent when:",
+      "options": {
+        "A": "Two sides and the angle between them are respectively equal.",
+        "B": "Two angles and the side between them are respectively equal.",
+        "C": "All three sides are respectively equal.",
+        "D": "The triangles are right‑angled, have equal hypotenuse and one leg equal."
+      },
+      "correct_option": "A",
+      "answer": "Two sides and the angle between them are respectively equal.",
+      "explanation": "SAS requires equality of two corresponding sides and the included angle. Option B describes ASA, C describes SSS, and D describes RHS. Therefore, option A correctly states the SAS condition.",
+      "difficulty": "easy"
+    }
+  ]
+}
