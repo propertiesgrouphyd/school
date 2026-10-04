@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "What is the semiperimeter of a triangle?",
+      "options": {
+        "A": "Half of the sum of its three side lengths",
+        "B": "The perimeter divided by three",
+        "C": "The length of the longest side",
+        "D": "The area divided by the base"
+      },
+      "correct_option": "A",
+      "answer": "Half of the sum of its three side lengths",
+      "explanation": "The semiperimeter (usually denoted by s) is defined as s = (a + b + c)/2, i.e., half of the sum of the three side lengths. Options B, C, and D describe unrelated quantities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "The sides of a triangle are 7 cm, 9 cm and 12 cm. What is its semiperimeter?",
+      "options": {
+        "A": "14 cm",
+        "B": "28 cm",
+        "C": "9 cm",
+        "D": "19 cm"
+      },
+      "correct_option": "A",
+      "answer": "14 cm",
+      "explanation": "Semiperimeter s = (7 + 9 + 12) / 2 = 28 / 2 = 14 cm. Option B is the full perimeter, C and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Can lengths 5 cm, 9 cm and 15 cm be the sides of a triangle?",
+      "options": {
+        "A": "Yes, because the sum of any two sides is greater than the third side.",
+        "B": "No, because 5 + 9 ≤ 15, violating the triangle inequality.",
+        "C": "Yes, because 5 + 15 > 9 and 9 + 15 > 5.",
+        "D": "Cannot be determined without knowing the angles."
+      },
+      "correct_option": "B",
+      "answer": "No, because 5 + 9 ≤ 15, violating the triangle inequality.",
+      "explanation": "For three lengths to form a triangle, each pair must sum to more than the remaining side. Here 5 + 9 = 14, which is not greater than 15, so a triangle cannot be formed. Options A and C ignore this specific pair, and D is unnecessary.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "A triangle has side lengths 6 cm, 8 cm and 10 cm. What is its area using Heron's formula?",
+      "options": {
+        "A": "24 cm²",
+        "B": "30 cm²",
+        "C": "20 cm²",
+        "D": "12 cm²"
+      },
+      "correct_option": "A",
+      "answer": "24 cm²",
+      "explanation": "First find the semiperimeter: s = (6+8+10)/2 = 12 cm. Then area = √[s(s‑a)(s‑b)(s‑c)] = √[12·6·4·2] = √576 = 24 cm². The other options result from incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "If a triangle has side lengths 13 cm, 14 cm, and 15 cm, what is its semiperimeter?",
+      "options": {
+        "A": "21 cm",
+        "B": "42 cm",
+        "C": "13 cm",
+        "D": "14 cm"
+      },
+      "correct_option": "A",
+      "answer": "21 cm",
+      "explanation": "Semiperimeter s = (13 + 14 + 15) / 2 = 42 / 2 = 21 cm. Option B is the full perimeter, while C and D are individual side lengths.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A farmer wants to fence a triangular field whose sides measure 40 m, 50 m, and 60 m. Before finding the area, he needs the semiperimeter. What is it?",
+      "options": {
+        "A": "75 m",
+        "B": "150 m",
+        "C": "45 m",
+        "D": "100 m"
+      },
+      "correct_option": "A",
+      "answer": "75 m",
+      "explanation": "Semiperimeter s = (40 + 50 + 60) / 2 = 150 / 2 = 75 m. Option B is the full perimeter; C and D are unrelated values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "A student believes that if the longest side is less than the sum of the other two, the lengths always form a triangle. For the lengths 8 cm, 15 cm and 23 cm, does a triangle exist?",
+      "options": {
+        "A": "Yes, they always form a triangle under the given condition.",
+        "B": "No, because 8 + 15 = 23, which does not satisfy the strict inequality.",
+        "C": "Yes, because the longest side is less than the sum of the other two.",
+        "D": "Cannot be decided without knowing the angles."
+      },
+      "correct_option": "B",
+      "answer": "No, because 8 + 15 = 23, which does not satisfy the strict inequality.",
+      "explanation": "The triangle inequality requires each pair to sum to a value **greater** than the third side. Here 8 + 15 equals 23, not greater, so a triangle cannot be formed. Option A repeats the student's mistaken belief, C incorrectly states the condition as satisfied, and D is unnecessary.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "A triangle has side lengths 7 cm, 24 cm and 25 cm. Which statement about its area is correct?",
+      "options": {
+        "A": "Since it is a right triangle, its area is (7 × 24) / 2 = 84 cm².",
+        "B": "Using Heron's formula also gives an area of 84 cm².",
+        "C": "Both statements A and B are correct.",
+        "D": "The area cannot be found without the height."
+      },
+      "correct_option": "C",
+      "answer": "Both statements A and B are correct.",
+      "explanation": "The sides satisfy 7² + 24² = 25², so the triangle is right-angled with legs 7 cm and 24 cm; area = (7·24)/2 = 84 cm². Applying Heron's formula: s = (7+24+25)/2 = 28, area = √[28·21·4·3] = √[7056] = 84 cm². Hence both A and B are true, making C the correct choice. Option D is false because the side lengths are sufficient.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "In a triangle, the semiperimeter is defined as:",
+      "options": {
+        "A": "Half the sum of the three side lengths",
+        "B": "The sum of the three side lengths",
+        "C": "The difference between the longest and shortest side",
+        "D": "The product of the three side lengths"
+      },
+      "correct_option": "A",
+      "answer": "Half the sum of the three side lengths",
+      "explanation": "The semiperimeter (usually denoted by s) equals (a+b+c)/2, i.e., half the perimeter of the triangle. It is not the full perimeter, a difference, or a product, so option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "The sides of a triangle are 7 cm, 9 cm and 12 cm. What is its semiperimeter?",
+      "options": {
+        "A": "14 cm",
+        "B": "28 cm",
+        "C": "9 cm",
+        "D": "19 cm"
+      },
+      "correct_option": "A",
+      "answer": "14 cm",
+      "explanation": "Semiperimeter s = (7+9+12)/2 = 28/2 = 14 cm. The other options either omit the division by 2 or use incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Which of the following sets of lengths can form a triangle?",
+      "options": {
+        "A": "5 cm, 9 cm, 14 cm",
+        "B": "6 cm, 8 cm, 13 cm",
+        "C": "2 cm, 2 cm, 5 cm",
+        "D": "10 cm, 3 cm, 4 cm"
+      },
+      "correct_option": "B",
+      "answer": "6 cm, 8 cm, 13 cm",
+      "explanation": "A set of three lengths forms a triangle only if the sum of any two exceeds the third. For B: 6+8=14>13, 6+13=19>8, 8+13=21>6, so it satisfies the triangle inequality. All other sets violate it (e.g., 5+9=14 is not greater than 14).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "A triangle has side lengths 13 cm, 14 cm and 15 cm. Using Heron's formula, what is its area (in cm²)?",
+      "options": {
+        "A": "84",
+        "B": "90",
+        "C": "78",
+        "D": "70"
+      },
+      "correct_option": "A",
+      "answer": "84",
+      "explanation": "First compute the semiperimeter s = (13+14+15)/2 = 21 cm. Then area = √[s(s‑a)(s‑b)(s‑c)] = √[21·8·7·6] = √7056 = 84 cm². The other numbers result from incorrect arithmetic or omission of the square‑root step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "True or false: The semiperimeter of a triangle is equal to its perimeter divided by three.",
+      "options": {
+        "A": "True",
+        "B": "False, it is half the perimeter",
+        "C": "False, it is the sum of the two shortest sides",
+        "D": "False, it is the product of the three sides"
+      },
+      "correct_option": "B",
+      "answer": "False, it is half the perimeter",
+      "explanation": "The semiperimeter is half the perimeter, not one‑third. Therefore statement B correctly identifies the misconception. Options C and D describe unrelated quantities, and A repeats the incorrect claim.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A triangle has sides a = 7 cm, b = 9 cm and its semiperimeter is 18 cm. What is the length of side c?",
+      "options": {
+        "A": "20 cm",
+        "B": "22 cm",
+        "C": "18 cm",
+        "D": "16 cm"
+      },
+      "correct_option": "A",
+      "answer": "20 cm",
+      "explanation": "Semiperimeter s = (a+b+c)/2 = 18 ⇒ a+b+c = 36. Substituting a and b gives 7+9+c = 36 ⇒ c = 36‑16 = 20 cm. The other options arise from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Consider the two sets of lengths: Set 1 = 7 cm, 10 cm, 17 cm and Set 2 = 9 cm, 12 cm, 20 cm. Which statement is correct?",
+      "options": {
+        "A": "Both sets can form a triangle",
+        "B": "Only Set 1 can form a triangle",
+        "C": "Only Set 2 can form a triangle",
+        "D": "Neither set can form a triangle"
+      },
+      "correct_option": "C",
+      "answer": "Only Set 2 can form a triangle",
+      "explanation": "For Set 1, 7 + 10 = 17, which is not greater than the third side, so it fails the triangle inequality. For Set 2, 9 + 12 = 21 > 20, 9 + 20 = 29 > 12, and 12 + 20 = 32 > 9, so it satisfies the inequality and can form a triangle. Hence only Set 2 is valid.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "A triangle has side lengths 9 cm, 10 cm and 17 cm. Using Heron's formula, what is its area (in cm²)?",
+      "options": {
+        "A": "36",
+        "B": "45",
+        "C": "30",
+        "D": "40"
+      },
+      "correct_option": "A",
+      "answer": "36",
+      "explanation": "First find the semiperimeter: s = (9+10+17)/2 = 18 cm. Then area = √[18·(18‑9)·(18‑10)·(18‑17)] = √[18·9·8·1] = √1296 = 36 cm². The other options result from mis‑calculations of the product inside the square root or forgetting the square‑root step.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "In a triangle with side lengths 5 cm, 7 cm and 10 cm, the quantity (5 + 7 + 10) ÷ 2 is called:",
+      "options": {
+        "A": "Perimeter",
+        "B": "Semiperimeter",
+        "C": "Area",
+        "D": "Altitude"
+      },
+      "correct_option": "B",
+      "answer": "Semiperimeter",
+      "explanation": "The semiperimeter (usually denoted by s) of a triangle is half of its perimeter. For sides 5, 7 and 10, the perimeter is 22 cm, so s = 22 ÷ 2 = 11 cm. Hence the expression represents the semiperimeter. Options A, C and D refer to different concepts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A farmer wants to fence a triangular field whose sides measure 15 m, 20 m and 25 m. What is the semiperimeter of this triangle?",
+      "options": {
+        "A": "30 m",
+        "B": "35 m",
+        "C": "40 m",
+        "D": "45 m"
+      },
+      "correct_option": "A",
+      "answer": "30 m",
+      "explanation": "Semiperimeter s = (a + b + c) ÷ 2 = (15 + 20 + 25) ÷ 2 = 60 ÷ 2 = 30 m. The other options result from incorrect addition or division.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Can the three lengths 3 cm, 4 cm and 9 cm be the sides of a triangle?",
+      "options": {
+        "A": "Yes, they can form a triangle",
+        "B": "No, they cannot form a triangle",
+        "C": "Only if the triangle is right‑angled",
+        "D": "Only if the triangle is isosceles"
+      },
+      "correct_option": "B",
+      "answer": "No, they cannot form a triangle",
+      "explanation": "For three lengths to form a triangle, the sum of any two must be greater than the third (triangle inequality). Here, 3 + 4 = 7, which is less than 9, so the condition fails. Hence a triangle cannot be formed. Options A, C, D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "Which of the following formulas correctly gives the area of a triangle with side lengths a, b, c using the semiperimeter s?",
+      "options": {
+        "A": "√[s (s − a)(s − b)(s − c)]",
+        "B": "s · (a + b + c)",
+        "C": "(a · b · c) ÷ s",
+        "D": "(a + b + c) ÷ 2"
+      },
+      "correct_option": "A",
+      "answer": "√[s (s − a)(s − b)(s − c)]",
+      "explanation": "Heron's formula states that the area = √[s(s‑a)(s‑b)(s‑c)], where s = (a + b + c)/2. Options B, C, and D are not the correct expression for area.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "Which statement correctly relates the semiperimeter (s) to the perimeter (P) of any triangle?",
+      "options": {
+        "A": "s = P",
+        "B": "s = P ÷ 2",
+        "C": "s = 2 · P",
+        "D": "s = P − 2"
+      },
+      "correct_option": "B",
+      "answer": "s = P ÷ 2",
+      "explanation": "By definition, the semiperimeter is half of the perimeter, so s = P/2. Option A would make s equal to the full perimeter, which is false. Options C and D are also incorrect relationships.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A triangle has side lengths 7.5 cm, 8.5 cm and 9.5 cm. What is its semiperimeter?",
+      "options": {
+        "A": "12.5 cm",
+        "B": "12.75 cm",
+        "C": "13 cm",
+        "D": "13.5 cm"
+      },
+      "correct_option": "B",
+      "answer": "12.75 cm",
+      "explanation": "s = (7.5 + 8.5 + 9.5) ÷ 2 = 25.5 ÷ 2 = 12.75 cm. The other options arise from rounding errors or incorrect division.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Do the lengths 6 cm, 8 cm and 10 cm satisfy the triangle inequality and thus form a triangle?",
+      "options": {
+        "A": "Yes, they can form a triangle",
+        "B": "No, they cannot form a triangle",
+        "C": "Only if the triangle is right‑angled",
+        "D": "Only if the triangle is equilateral"
+      },
+      "correct_option": "A",
+      "answer": "Yes, they can form a triangle",
+      "explanation": "Check the sums: 6 + 8 = 14 > 10, 6 + 10 = 16 > 8, and 8 + 10 = 18 > 6. All conditions are satisfied, so a triangle exists. Option C mentions a right‑angled triangle, which is true for these lengths (3‑4‑5 scaled), but the question only asks about existence, making A the correct answer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "When applying Heron's formula to find the area of a triangle, which quantity must be computed first from the given side lengths?",
+      "options": {
+        "A": "Perimeter",
+        "B": "Semiperimeter",
+        "C": "Altitude",
+        "D": "Median"
+      },
+      "correct_option": "B",
+      "answer": "Semiperimeter",
+      "explanation": "Heron's formula requires the semiperimeter s = (a + b + c)/2 before substituting into √[s(s‑a)(s‑b)(s‑c)]. The perimeter is used only to obtain s; altitude and median are unrelated to this formula.",
+      "difficulty": "easy"
+    }
+  ]
+}
