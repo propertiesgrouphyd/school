@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "What is Heron's formula for the area of a triangle with side lengths a, b and c?",
+      "options": {
+        "A": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+        "B": "Area = (1/2)ab sin C",
+        "C": "Area = (a+b+c)/2",
+        "D": "Area = √[(a+b+c)(a+b‑c)(a‑b+c)(‑a+b+c)] / 4"
+      },
+      "correct_option": "A",
+      "answer": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+      "explanation": "Heron's formula states that if a triangle has side lengths a, b, c and semi‑perimeter s = (a+b+c)/2, then its area is √[s(s‑a)(s‑b)(s‑c)]. The other options are formulas for different contexts (e.g., using an angle or an incorrect expression).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "A triangle has side lengths 7 cm, 8 cm and 9 cm. Using Heron's formula, what is its area?",
+      "options": {
+        "A": "12√5 cm²",
+        "B": "√720 cm²",
+        "C": "24 cm²",
+        "D": "30 cm²"
+      },
+      "correct_option": "A",
+      "answer": "12√5 cm²",
+      "explanation": "First compute the semi‑perimeter: s = (7+8+9)/2 = 12 cm. Then area = √[12·(12‑7)·(12‑8)·(12‑9)] = √[12·5·4·3] = √720 = √(144·5) = 12√5 cm². Option B shows the unsimplified root, while C and D are incorrect values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Which of the following expressions correctly gives the area of a triangle when only the three side lengths are known?",
+      "options": {
+        "A": "√[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+        "B": "(a+b+c)/2",
+        "C": "(1/2)ab sin C",
+        "D": "a·b·c"
+      },
+      "correct_option": "A",
+      "answer": "√[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+      "explanation": "Heron's formula (option A) is the only formula that uses only the three side lengths. Option B is the semi‑perimeter, not an area. Option C needs an angle, and option D is dimensionally incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "Find the area of a triangle with sides 13 cm, 14 cm and 15 cm. Choose the correctly simplified answer.",
+      "options": {
+        "A": "84 cm²",
+        "B": "84√2 cm²",
+        "C": "42 cm²",
+        "D": "84√3 cm²"
+      },
+      "correct_option": "A",
+      "answer": "84 cm²",
+      "explanation": "s = (13+14+15)/2 = 21 cm. Area = √[21·(21‑13)·(21‑14)·(21‑15)] = √[21·8·7·6] = √7056 = 84 cm². The other options either miss the simplification or introduce unnecessary radicals.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular garden has side lengths 30 m, 40 m and 50 m. What is its area?",
+      "options": {
+        "A": "600 m²",
+        "B": "500 m²",
+        "C": "700 m²",
+        "D": "800 m²"
+      },
+      "correct_option": "A",
+      "answer": "600 m²",
+      "explanation": "The sides form a 30‑40‑50 right triangle, so area = (1/2)·30·40 = 600 m². Using Heron's formula gives the same result: s = 60 m, area = √[60·30·20·10] = √360000 = 600 m². The other options are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "An engineer must determine the area of a triangular metal plate with sides 5 cm, 12 cm and 13 cm. Which formula should she apply?",
+      "options": {
+        "A": "Heron's formula",
+        "B": "Base × height ÷ 2",
+        "C": "Semi‑perimeter formula (a+b+c)/2",
+        "D": "Pythagorean theorem"
+      },
+      "correct_option": "A",
+      "answer": "Heron's formula",
+      "explanation": "When only the three side lengths are known, Heron's formula (option A) is the appropriate method. Option B requires the height, which is not given. Option C is not an area formula, and option D relates to right‑triangle side relationships, not area.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "When applying Heron's formula to a triangle with sides 9 cm, 10 cm and 11 cm, which of the following substitutions is incorrect?",
+      "options": {
+        "A": "s = 15 cm; area = √[15·(15‑9)·(15‑10)·(15‑11)]",
+        "B": "s = 15 cm; area = √[15·9·10·11]",
+        "C": "s = 15 cm; area = √[15·6·5·4]",
+        "D": "s = 15 cm; area = √[15·6·5·4]"
+      },
+      "correct_option": "B",
+      "answer": "s = 15 cm; area = √[15·9·10·11]",
+      "explanation": "Heron's formula requires the factors (s‑a), (s‑b) and (s‑c). Option B mistakenly uses the side lengths themselves instead of (s‑a), (s‑b), (s‑c). Options A, C and D correctly use (s‑a), (s‑b), (s‑c).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "A triangle has side lengths 5 cm, 6 cm and 7 cm. Using Heron's formula, what is its area?",
+      "options": {
+        "A": "6√6 cm²",
+        "B": "√84 cm²",
+        "C": "14 cm²",
+        "D": "12 cm²"
+      },
+      "correct_option": "A",
+      "answer": "6√6 cm²",
+      "explanation": "First, s = (5+6+7)/2 = 9 cm. Area = √[9·(9‑5)·(9‑6)·(9‑7)] = √[9·4·3·2] = √216 = 6√6 cm². Option B is the unsimplified root, while C and D are incorrect values.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "Which of the following statements correctly defines the semiperimeter of a triangle?",
+      "options": {
+        "A": "Half the sum of the three sides of a triangle.",
+        "B": "Half the difference between the longest side and the sum of the other two sides.",
+        "C": "The product of the three sides divided by two.",
+        "D": "The sum of the three interior angles divided by two."
+      },
+      "correct_option": "A",
+      "answer": "Half the sum of the three sides of a triangle.",
+      "explanation": "The semiperimeter (usually denoted by s) is defined as s = (a + b + c) / 2, where a, b, c are the lengths of the three sides. Option A states exactly this definition. Options B, C, and D describe unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A triangle has side lengths 8 cm, 15 cm and 17 cm. What is its semiperimeter?",
+      "options": {
+        "A": "20 cm",
+        "B": "30 cm",
+        "C": "20 cm",
+        "D": "40 cm"
+      },
+      "correct_option": "A",
+      "answer": "20 cm",
+      "explanation": "Semiperimeter s = (a + b + c) / 2 = (8 + 15 + 17) / 2 = 40 / 2 = 20 cm. Option A gives the correct value. Options B, C (duplicate but same value, but we treat only one correct), and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Which of the following sets of lengths can form a triangle?",
+      "options": {
+        "A": "Both sets can form a triangle.",
+        "B": "Only the first set (3 cm, 4 cm, 5 cm) can form a triangle.",
+        "C": "Only the second set (2 cm, 3 cm, 6 cm) can form a triangle.",
+        "D": "Neither set can form a triangle."
+      },
+      "correct_option": "B",
+      "answer": "Only the first set (3 cm, 4 cm, 5 cm) can form a triangle.",
+      "explanation": "A set of three lengths forms a triangle if the sum of any two sides exceeds the third side. For 3, 4, 5: 3+4>5, 3+5>4, 4+5>3 – all true, so it forms a triangle. For 2, 3, 6: 2+3 = 5 ≤ 6, violating the triangle inequality, so it cannot form a triangle. Hence only the first set works.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "A triangle has side lengths 7 cm, 8 cm and 9 cm. Using Heron's formula, what is its area?",
+      "options": {
+        "A": "12√5 cm²",
+        "B": "24 cm²",
+        "C": "30 cm²",
+        "D": "18√2 cm²"
+      },
+      "correct_option": "A",
+      "answer": "12√5 cm²",
+      "explanation": "First compute the semiperimeter: s = (7 + 8 + 9) / 2 = 24 / 2 = 12 cm. Then apply Heron's formula: Area = √[s(s‑a)(s‑b)(s‑c)] = √[12·(12‑7)·(12‑8)·(12‑9)] = √[12·5·4·3] = √[720] = √[144·5] = 12√5 cm². Option A matches this result; the other options are incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}
