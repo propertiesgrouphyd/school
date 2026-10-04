@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "In the context of a triangle, the semiperimeter is defined as which of the following?",
+      "options": {
+        "A": "Half of the sum of the three side lengths",
+        "B": "The sum of the three side lengths",
+        "C": "The product of the three side lengths divided by two",
+        "D": "The difference between the longest and shortest side"
+      },
+      "correct_option": "A",
+      "answer": "Half of the sum of the three side lengths",
+      "explanation": "The semiperimeter (usually denoted by s) of a triangle is half of its perimeter, i.e., s = (a + b + c)/2 where a, b, c are the side lengths. Option A states this definition correctly; the other options describe unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A triangle has side lengths 8 cm, 15 cm, and 17 cm. What is its semiperimeter?",
+      "options": {
+        "A": "20 cm",
+        "B": "25 cm",
+        "C": "30 cm",
+        "D": "40 cm"
+      },
+      "correct_option": "A",
+      "answer": "20 cm",
+      "explanation": "Semiperimeter s = (8 + 15 + 17)/2 = 40/2 = 20 cm. Hence option A is correct. The other options result from incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Can the lengths 3 cm, 4 cm, and 9 cm be the sides of a triangle?",
+      "options": {
+        "A": "Yes, because they are positive numbers",
+        "B": "No, because the sum of the two smaller sides is not greater than the largest side",
+        "C": "Yes, but only if the triangle is right‑angled",
+        "D": "Yes, only if the triangle is isosceles"
+      },
+      "correct_option": "B",
+      "answer": "No, because the sum of the two smaller sides is not greater than the largest side",
+      "explanation": "For three lengths to form a triangle, the sum of any two must exceed the third. Here 3 + 4 = 7, which is less than 9, so a triangle cannot be formed. Option B correctly states the reason; the other options are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "A triangle has sides of lengths 6 cm, 8 cm and 10 cm. Using Heron's formula, what is its area?",
+      "options": {
+        "A": "24 cm²",
+        "B": "20 cm²",
+        "C": "30 cm²",
+        "D": "12 cm²"
+      },
+      "correct_option": "A",
+      "answer": "24 cm²",
+      "explanation": "First find the semiperimeter s = (6+8+10)/2 = 12 cm. Then area = √[s(s‑a)(s‑b)(s‑c)] = √[12·6·4·2] = √576 = 24 cm². Option A matches this calculation; the other options arise from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "Which of the following statements correctly compares the semiperimeter of a triangle with its perimeter?",
+      "options": {
+        "A": "The semiperimeter is exactly half of the perimeter",
+        "B": "The semiperimeter is equal to the perimeter",
+        "C": "The semiperimeter is twice the perimeter",
+        "D": "The semiperimeter has no fixed relation to the perimeter"
+      },
+      "correct_option": "A",
+      "answer": "The semiperimeter is exactly half of the perimeter",
+      "explanation": "By definition, semiperimeter s = (a+b+c)/2, which is half the perimeter (a+b+c). Therefore option A is correct. Options B, C, and D contradict the definition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "In a competitive exam, a triangle is given with sides 13 cm, 14 cm, and 15 cm. What is its semiperimeter?",
+      "options": {
+        "A": "21 cm",
+        "B": "22 cm",
+        "C": "23 cm",
+        "D": "24 cm"
+      },
+      "correct_option": "A",
+      "answer": "21 cm",
+      "explanation": "Semiperimeter s = (13 + 14 + 15)/2 = 42/2 = 21 cm. Option A is correct; the other options result from adding or dividing incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Which condition must be satisfied for three lengths to be the sides of a triangle?",
+      "options": {
+        "A": "The sum of any two sides must be greater than the third side",
+        "B": "The sum of any two sides must be equal to the third side",
+        "C": "The difference of any two sides must be greater than the third side",
+        "D": "The product of any two sides must be greater than the third side"
+      },
+      "correct_option": "A",
+      "answer": "The sum of any two sides must be greater than the third side",
+      "explanation": "The triangle inequality states that for any triangle, a + b > c, a + c > b, and b + c > a. Hence option A is the correct condition. The other statements are false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "In Heron's formula, after finding the semiperimeter s, which expression gives the area of the triangle?",
+      "options": {
+        "A": "√[s(s‑a)(s‑b)(s‑c)]",
+        "B": "(a + b + c)/2",
+        "C": "√[(a + b + c)/2]",
+        "D": "(a·b)/2"
+      },
+      "correct_option": "A",
+      "answer": "√[s(s‑a)(s‑b)(s‑c)]",
+      "explanation": "Heron's formula states that the area = √[s(s‑a)(s‑b)(s‑c)], where a, b, c are side lengths and s is the semiperimeter. Option A correctly represents this; the other options are unrelated formulas.",
+      "difficulty": "easy"
+    }
+  ]
+}

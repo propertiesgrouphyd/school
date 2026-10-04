@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-107-001",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "The semiperimeter of a triangle is:",
+      "options": {
+        "A": "Half of the sum of its three side lengths.",
+        "B": "The perimeter divided by three.",
+        "C": "The length of the longest side.",
+        "D": "The area divided by its base."
+      },
+      "correct_option": "A",
+      "answer": "Half of the sum of its three side lengths.",
+      "explanation": "For any triangle with side lengths a, b and c, the semiperimeter s is defined as s = (a + b + c) / 2, i.e., half of the perimeter. Options B, C and D describe unrelated quantities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-107-002",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A triangle has side lengths 7 cm, 9 cm, and 12 cm. What is its semiperimeter?",
+      "options": {
+        "A": "14 cm",
+        "B": "28 cm",
+        "C": "9 cm",
+        "D": "12 cm"
+      },
+      "correct_option": "A",
+      "answer": "14 cm",
+      "explanation": "Add the three sides: 7 + 9 + 12 = 28 cm. The semiperimeter is half of this sum, 28 / 2 = 14 cm. The other options are either the full perimeter or unrelated values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-107-003",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "Can lengths 5 cm, 9 cm, and 13 cm be the sides of a triangle?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Only if the triangle is right‑angled",
+        "D": "Only if the triangle is obtuse"
+      },
+      "correct_option": "A",
+      "answer": "Yes",
+      "explanation": "The triangle inequality requires that the sum of any two sides be greater than the third. Here, 5+9=14>13, 5+13=18>9, and 9+13=22>5, so a triangle can be formed. Options B, C, D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-107-004",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "Which of the following formulas correctly gives the area of a triangle in terms of its side lengths a, b, c?",
+      "options": {
+        "A": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+        "B": "Area = (a+b+c)/2",
+        "C": "Area = (a·b)/2",
+        "D": "Area = a + b + c"
+      },
+      "correct_option": "A",
+      "answer": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+      "explanation": "Heron's formula states that the area of a triangle can be found using the semiperimeter s and the three side lengths: Area = √[s(s‑a)(s‑b)(s‑c)]. Options B, C, and D are not formulas for area based on side lengths.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-107-005",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Define semiperimeter",
+      "question": "In a triangle with sides 10 cm, 14 cm, and 18 cm, the semiperimeter is 21 cm. Which statement correctly defines semiperimeter?",
+      "options": {
+        "A": "It is half the sum of the three side lengths.",
+        "B": "It is the sum of the two shortest sides.",
+        "C": "It is the difference between the longest side and the shortest side.",
+        "D": "It is the perimeter divided by three."
+      },
+      "correct_option": "A",
+      "answer": "It is half the sum of the three side lengths.",
+      "explanation": "Semiperimeter s = (10 + 14 + 18) / 2 = 42 / 2 = 21 cm, confirming that it is half the perimeter. Options B, C, and D describe other quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-107-006",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Calculate semiperimeter from three sides",
+      "question": "A farmer’s triangular field has sides 30 m, 40 m, and 50 m. What is the semiperimeter of this field?",
+      "options": {
+        "A": "60 m",
+        "B": "70 m",
+        "C": "80 m",
+        "D": "90 m"
+      },
+      "correct_option": "A",
+      "answer": "60 m",
+      "explanation": "Add the sides: 30 + 40 + 50 = 120 m. The semiperimeter is half of this sum: 120 / 2 = 60 m. The other options are incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-107-007",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Check whether three lengths can form a triangle",
+      "question": "If the lengths of three line segments are 4 cm, 7 cm, and 11 cm, can they form a triangle?",
+      "options": {
+        "A": "No, because 4 + 7 = 11, which gives a degenerate triangle.",
+        "B": "Yes, because the sum of any two exceeds the third.",
+        "C": "No, because 7 + 11 < 4.",
+        "D": "Yes, because they satisfy the Pythagorean theorem."
+      },
+      "correct_option": "A",
+      "answer": "No, because 4 + 7 = 11, which gives a degenerate triangle.",
+      "explanation": "For a non‑degenerate triangle, the sum of any two sides must be strictly greater than the third. Here 4 + 7 equals 11, so the segments lie on a straight line and do not form a proper triangle. Options B, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-107-008",
+      "learning_unit_id": "LU-00446",
+      "learning_point": "Use side lengths in area calculations",
+      "question": "To find the area of a triangle with sides 6 cm, 8 cm, and 10 cm using Heron's formula, which sequence of steps is correct?",
+      "options": {
+        "A": "Compute s = (6+8+10)/2 = 12, then Area = √[12·(12‑6)·(12‑8)·(12‑10)].",
+        "B": "Compute s = (6+8+10)/3, then Area = s².",
+        "C": "Compute s = (6+8+10)/2 = 12, then Area = s·(s‑a)·(s‑b)·(s‑c).",
+        "D": "Compute s = (6+8+10)/2 = 12, then Area = (a+b+c)/2."
+      },
+      "correct_option": "A",
+      "answer": "Compute s = (6+8+10)/2 = 12, then Area = √[12·(12‑6)·(12‑8)·(12‑10)].",
+      "explanation": "Heron's formula requires first finding the semiperimeter s = (a+b+c)/2. Then the area is the square root of s(s‑a)(s‑b)(s‑c). Option A follows this procedure correctly. Option B uses an incorrect divisor, Option C omits the square‑root, and Option D gives the semiperimeter again instead of area.",
+      "difficulty": "medium"
+    }
+  ]
+}
