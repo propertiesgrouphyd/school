@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "Triangle P has side lengths 13 cm, 14 cm, and 15 cm. Triangle Q has side lengths 7 cm, 24 cm, and 25 cm. After applying Heron's formula and simplifying the square‑root term, which triangle has the larger area?",
+      "options": {
+        "A": "Triangle P",
+        "B": "Triangle Q",
+        "C": "Both have equal area",
+        "D": "Cannot be determined without calculation"
+      },
+      "correct_option": "C",
+      "answer": "Both have equal area",
+      "explanation": "For Triangle P, s = (13+14+15)/2 = 21. Area = √[21·8·7·6] = √7056 = 84 cm². For Triangle Q, s = (7+24+25)/2 = 28. Area = √[28·21·4·3] = √7056 = 84 cm². Both areas are equal, so option C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular plot of land has sides of lengths 30 m, 40 m, and 50 m. The cost of planting grass is $5 per square metre. What is the total cost to grass the entire plot?",
+      "options": {
+        "A": "$1500",
+        "B": "$3000",
+        "C": "$4500",
+        "D": "$6000"
+      },
+      "correct_option": "B",
+      "answer": "$3000",
+      "explanation": "First find the semi‑perimeter: s = (30+40+50)/2 = 60 m. Using Heron's formula, area = √[60·30·20·10] = √360000 = 600 m². Cost = 600 m² × $5 = $3000. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "Which of the following expressions correctly states Heron's formula for the area (Δ) of a triangle with side lengths a, b, c?",
+      "options": {
+        "A": "Δ = √[s(s−a)(s−b)(s−c)]",
+        "B": "Δ = (1/2)ab sin C",
+        "C": "Δ = (a+b+c)/2",
+        "D": "Δ = √[(a+b)(b+c)(c+a)]"
+      },
+      "correct_option": "A",
+      "answer": "Δ = √[s(s−a)(s−b)(s−c)]",
+      "explanation": "Heron's formula expresses the area of a triangle solely in terms of its three side lengths: Δ = √[s(s−a)(s−b)(s−c)], where s = (a+b+c)/2. Option A matches this definition; the other options describe different formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "For a triangle with side lengths a = 9 cm, b = 10 cm, and c = 11 cm, what is the expression that must be placed under the square root in Heron's formula after substituting the side lengths correctly?",
+      "options": {
+        "A": "s(s−a)(s−b)(s−c) = 15·6·5·4",
+        "B": "15·9·10·11",
+        "C": "30·6·5·4",
+        "D": "15·(9+10+11)"
+      },
+      "correct_option": "A",
+      "answer": "s(s−a)(s−b)(s−c) = 15·6·5·4",
+      "explanation": "First compute the semi‑perimeter: s = (9+10+11)/2 = 15 cm. Then s−a = 6, s−b = 5, s−c = 4. The product under the root is 15·6·5·4. Option A shows the correct substitution; the other options are algebraically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Which statement correctly distinguishes the use of Heron's formula from the base‑height method for finding the area of a triangle?",
+      "options": {
+        "A": "Heron's formula calculates area directly from the three side lengths, whereas the base‑height method requires the length of an altitude.",
+        "B": "Both methods give the same result but Heron's formula needs the radius of the incircle.",
+        "C": "The base‑height method works only for right‑angled triangles, while Heron's formula works only for equilateral triangles.",
+        "D": "Heron's formula gives perimeter, not area."
+      },
+      "correct_option": "A",
+      "answer": "Heron's formula calculates area directly from the three side lengths, whereas the base‑height method requires the length of an altitude.",
+      "explanation": "Heron's formula uses only the three side lengths (a, b, c) to compute area, making it useful when no altitude is known. The base‑height method (½ × base × height) needs a known altitude. Options B, C, and D contain false statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "A triangle has side lengths 5 cm, 5 cm, and 6 cm. Using Heron's formula, what is the area of the triangle after simplifying the square root?",
+      "options": {
+        "A": "12 cm²",
+        "B": "√144 cm²",
+        "C": "6√4 cm²",
+        "D": "24 cm²"
+      },
+      "correct_option": "A",
+      "answer": "12 cm²",
+      "explanation": "Semi‑perimeter s = (5+5+6)/2 = 8 cm. Product = 8·3·3·2 = 144. √144 = 12 cm². Option A gives the fully simplified area; the other options are unsimplified or incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "An architect is designing a triangular glass window with side lengths 7 m, 24 m, and 25 m. If each square metre of glass costs $80, what is the total cost of the glass required for the window?",
+      "options": {
+        "A": "$6,720",
+        "B": "$7,200",
+        "C": "$5,600",
+        "D": "$8,000"
+      },
+      "correct_option": "A",
+      "answer": "$6,720",
+      "explanation": "The given sides form a right triangle (7² + 24² = 25²). Area = (1/2) × 7 × 24 = 84 m². Cost = 84 m² × $80 = $6,720. Hence option A is correct; the other amounts are miscalculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "A student is asked to find the area of a triangle whose side lengths are 9 cm, 10 cm, and 17 cm. What should be the first step the student writes down?",
+      "options": {
+        "A": "Write Heron's formula: Δ = √[s(s−a)(s−b)(s−c)]",
+        "B": "Compute the altitude using the Pythagorean theorem",
+        "C": "Use the base‑height method with base 9 cm",
+        "D": "Find the circumradius of the triangle"
+      },
+      "correct_option": "A",
+      "answer": "Write Heron's formula: Δ = √[s(s−a)(s−b)(s−c)]",
+      "explanation": "When the problem provides all three side lengths, the standard initial step is to state Heron's formula, which relates the area to the sides via the semi‑perimeter s. Options B, C, and D are not appropriate first steps for this data set.",
+      "difficulty": "medium"
+    }
+  ]
+}

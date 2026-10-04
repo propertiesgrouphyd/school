@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular plot of land has sides 13 m, 14 m, and 15 m. What is its area in square metres?",
+      "options": {
+        "A": "84",
+        "B": "78",
+        "C": "90",
+        "D": "96"
+      },
+      "correct_option": "A",
+      "answer": "84",
+      "explanation": "First compute the semi‑perimeter s = (13+14+15)/2 = 21. Then apply Heron's formula: Area = √[s(s‑a)(s‑b)(s‑c)] = √[21·8·7·6] = √7056 = 84 sq m. The other options result from arithmetic errors in the product or square‑root step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "Which of the following correctly states Heron's formula for the area of a triangle with side lengths a, b and c?",
+      "options": {
+        "A": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+        "B": "Area = (a+b+c)/2 × √[(a‑b)(b‑c)(c‑a)]",
+        "C": "Area = (1/2) × a × b × sin C",
+        "D": "Area = √[a² + b² + c²]"
+      },
+      "correct_option": "A",
+      "answer": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+      "explanation": "Heron's formula expresses the area solely in terms of the three side lengths: first compute the semi‑perimeter s = (a+b+c)/2, then take the square root of the product s(s‑a)(s‑b)(s‑c). Options B, C and D are unrelated or incorrect formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "For a triangle with sides 7 cm, 9 cm and 12 cm, which expression correctly represents the product s(s‑a)(s‑b)(s‑c) before taking the square root in Heron's formula?",
+      "options": {
+        "A": "14 × 7 × 5 × 2",
+        "B": "14 × 7 × 3 × 2",
+        "C": "13 × 6 × 4 × 1",
+        "D": "15 × 8 × 6 × 3"
+      },
+      "correct_option": "A",
+      "answer": "14 × 7 × 5 × 2",
+      "explanation": "First find the semi‑perimeter s = (7+9+12)/2 = 14. Then compute each factor: s‑a = 14‑7 = 7, s‑b = 14‑9 = 5, s‑c = 14‑12 = 2. Hence the product is 14·7·5·2. The other options use incorrect values for s or the subtractions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Using Heron's formula, find the area of a triangle whose side lengths are 5 cm, 12 cm and 13 cm.",
+      "options": {
+        "A": "30",
+        "B": "26",
+        "C": "28",
+        "D": "32"
+      },
+      "correct_option": "A",
+      "answer": "30",
+      "explanation": "The semi‑perimeter s = (5+12+13)/2 = 15. Area = √[15·(15‑5)·(15‑12)·(15‑13)] = √[15·10·3·2] = √900 = 30 cm². Options B, C and D arise from mis‑calculating the product or the square root.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "For a triangle with sides 7 cm, 8 cm and 9 cm, Heron's formula gives the area as √720 cm². Which of the following is the correctly simplified form of this area?",
+      "options": {
+        "A": "12√5",
+        "B": "24√5",
+        "C": "6√20",
+        "D": "√720"
+      },
+      "correct_option": "A",
+      "answer": "12√5",
+      "explanation": "Factor 720 = 144 × 5, so √720 = √144 × √5 = 12√5. Option B doubles the factor, C uses an incorrect factorisation, and D leaves the radical unsimplified.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular garden has sides 13 m, 14 m and 15 m. The midpoints of its three sides are joined to form a smaller triangle. What is the area of this smaller triangle?",
+      "options": {
+        "A": "21",
+        "B": "42",
+        "C": "28",
+        "D": "84"
+      },
+      "correct_option": "A",
+      "answer": "21",
+      "explanation": "First find the area of the original triangle using Heron's formula: s = 21, Area = √[21·8·7·6] = 84 m². The triangle formed by joining the midpoints is similar to the original with a linear scale factor of 1/2, so its area is (1/2)² = 1/4 of the original: 84 ÷ 4 = 21 m². Options B and C are multiples of the original area, while D repeats the original area.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "Which statement correctly gives Heron's formula for the area of a triangle?",
+      "options": {
+        "A": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+        "B": "Area = (a+b+c) / 2",
+        "C": "Area = (1/2) × base × height",
+        "D": "Area = √[a² + b² + c²]"
+      },
+      "correct_option": "A",
+      "answer": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+      "explanation": "Heron's formula relates the area to the three side lengths via the semi‑perimeter s. Options B and D are not area formulas, and C is the base‑height formula, not expressed solely in terms of side lengths.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "In Heron's formula, for a triangle with sides 9 cm, 12 cm and 15 cm, what is the value of the semi‑perimeter s?",
+      "options": {
+        "A": "18",
+        "B": "16",
+        "C": "20",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "18",
+      "explanation": "The semi‑perimeter s = (9+12+15)/2 = 36/2 = 18 cm. The other options arise from incorrect addition or division.",
+      "difficulty": "easy"
+    }
+  ]
+}

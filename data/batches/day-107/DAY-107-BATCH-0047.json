@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-00447-MCQ-57",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "For a triangle with side lengths 13 cm, 14 cm and 15 cm, which of the following expressions correctly gives its area using Heron's formula?",
+      "options": {
+        "A": "\\sqrt{13\\times14\\times15}",
+        "B": "\\sqrt{\\frac{13+14+15}{2}\\times\\left(\\frac{13+14+15}{2}-13\\right)\\times\\left(\\frac{13+14+15}{2}-14\\right)\\times\\left(\\frac{13+14+15}{2}-15\\right)}",
+        "C": "\\sqrt{(13+14+15)\\times13\\times14\\times15}",
+        "D": "\\sqrt{\\frac{13+14+15}{2}\\times(13+14+15)}"
+      },
+      "correct_option": "B",
+      "answer": "\\sqrt{\\frac{13+14+15}{2}\\times\\left(\\frac{13+14+15}{2}-13\\right)\\times\\left(\\frac{13+14+15}{2}-14\\right)\\times\\left(\\frac{13+14+15}{2}-15\\right)}",
+      "explanation": "Heron's formula requires first computing the semi‑perimeter s = (a+b+c)/2. The correct area expression is \\sqrt{s(s-a)(s-b)(s-c)}. Option B follows this procedure; the other options either omit the semi‑perimeter or multiply the sides incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "LU-00447-MCQ-58",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "A triangle has side lengths 7 cm, 8 cm and 9 cm. What is its area?",
+      "options": {
+        "A": "12\\sqrt{5}\\,\\text{cm}^2",
+        "B": "24\\,\\text{cm}^2",
+        "C": "6\\sqrt{5}\\,\\text{cm}^2",
+        "D": "18\\,\\text{cm}^2"
+      },
+      "correct_option": "A",
+      "answer": "12\\sqrt{5}\\,\\text{cm}^2",
+      "explanation": "First find the semi‑perimeter s = (7+8+9)/2 = 12 cm. Then area = \\sqrt{12(12-7)(12-8)(12-9)} = \\sqrt{12\\times5\\times4\\times3}=\\sqrt{720}=12\\sqrt{5}\\,\\text{cm}^2. Option A matches this result; the others are incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "LU-00447-MCQ-59",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "Which of the following gives the correctly simplified form of \\sqrt{180}?",
+      "options": {
+        "A": "6\\sqrt{5}",
+        "B": "12\\sqrt{5}",
+        "C": "\\sqrt{36\\times5}",
+        "D": "5\\sqrt{6}"
+      },
+      "correct_option": "A",
+      "answer": "6\\sqrt{5}",
+      "explanation": "180 = 36 \\times 5, and \\sqrt{36}=6, so \\sqrt{180}=6\\sqrt{5}. Option A shows this simplification. Option B overestimates the factor, C leaves the radical unsimplified, and D is an incorrect factorization.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-00447-MCQ-60",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular garden has sides of lengths 20 m, 21 m and 29 m. What is the area of the garden?",
+      "options": {
+        "A": "210\\,\\text{m}^2",
+        "B": "200\\,\\text{m}^2",
+        "C": "220\\,\\text{m}^2",
+        "D": "230\\,\\text{m}^2"
+      },
+      "correct_option": "A",
+      "answer": "210\\,\\text{m}^2",
+      "explanation": "Semi‑perimeter s = (20+21+29)/2 = 35 m. Area = \\sqrt{35(35-20)(35-21)(35-29)} = \\sqrt{35\\times15\\times14\\times6}=\\sqrt{44100}=210\\,\\text{m}^2. Option A is correct; the others result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-00447-MCQ-61",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "State Heron's formula for the area of a triangle in terms of its side lengths a, b and c.",
+      "options": {
+        "A": "A = \\sqrt{s(s-a)(s-b)(s-c)} \\text{ where } s = \\frac{a+b+c}{2}",
+        "B": "A = \\frac{1}{2}ab\\sin C",
+        "C": "A = \\frac{1}{2}\\times\\text{base}\\times\\text{height}",
+        "D": "A = \\frac{a+b+c}{2}"
+      },
+      "correct_option": "A",
+      "answer": "A = \\sqrt{s(s-a)(s-b)(s-c)} \\text{ where } s = \\frac{a+b+c}{2}",
+      "explanation": "Heron's formula expresses the area solely with the three side lengths: first compute the semi‑perimeter s = (a+b+c)/2, then area = \\sqrt{s(s-a)(s-b)(s-c)}. Options B and C are other area formulas; D is just the semi‑perimeter, not an area.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-00447-MCQ-62",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "When applying Heron's formula, what is the correct first step after knowing the side lengths a, b and c?",
+      "options": {
+        "A": "Compute the semi‑perimeter s = \\frac{a+b+c}{2}",
+        "B": "Multiply the three side lengths together",
+        "C": "Take the square root of the product of the sides",
+        "D": "Find the altitude of the triangle"
+      },
+      "correct_option": "A",
+      "answer": "Compute the semi‑perimeter s = \\frac{a+b+c}{2}",
+      "explanation": "Heron's formula starts with the semi‑perimeter s = (a+b+c)/2. Only after finding s can you evaluate \\sqrt{s(s-a)(s-b)(s-c)}. The other options skip this essential step.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-00447-MCQ-63",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Which statement correctly distinguishes Heron's formula from the base‑height formula for the area of a triangle?",
+      "options": {
+        "A": "Heron's formula uses only the three side lengths, whereas the base‑height formula requires a height measurement",
+        "B": "Both formulas require the length of a height",
+        "C": "The base‑height formula works only for right‑angled triangles",
+        "D": "Heron's formula gives the perimeter of the triangle"
+      },
+      "correct_option": "A",
+      "answer": "Heron's formula uses only the three side lengths, whereas the base‑height formula requires a height measurement",
+      "explanation": "Heron's formula calculates area using only a, b, c (via the semi‑perimeter). The base‑height formula A = ½ × base × height needs a height, which may not be directly known. Options B, C, D are inaccurate.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "LU-00447-MCQ-64",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "Simplify \\sqrt{50} to its simplest radical form.",
+      "options": {
+        "A": "5\\sqrt{2}",
+        "B": "\\sqrt{25\\times2}",
+        "C": "10\\sqrt{5}",
+        "D": "\\sqrt{5\\times10}"
+      },
+      "correct_option": "A",
+      "answer": "5\\sqrt{2}",
+      "explanation": "50 = 25 \\times 2 and \\sqrt{25}=5, so \\sqrt{50}=5\\sqrt{2}. Option A shows the fully simplified radical. Option B leaves the radical unsimplified, while C and D are incorrect factorizations.",
+      "difficulty": "easy"
+    }
+  ]
+}

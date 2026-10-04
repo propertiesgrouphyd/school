@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "What is Heron's formula for the area of a triangle with side lengths a, b and c?",
+      "options": {
+        "A": "Area = \\sqrt{s(s-a)(s-b)(s-c)} where s = (a+b+c)/2",
+        "B": "Area = \\frac{1}{2}ab\\sin C",
+        "C": "Area = (a+b+c)/2",
+        "D": "Area = \\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)}"
+      },
+      "correct_option": "A",
+      "answer": "Area = \\sqrt{s(s-a)(s-b)(s-c)} where s = (a+b+c)/2",
+      "explanation": "Heron's formula states that the area of a triangle equals the square root of the product of the semi‑perimeter s and the three terms (s‑a), (s‑b) and (s‑c). Options B and C are formulas for other contexts, and D is an incorrect expansion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "A triangle has side lengths 7 cm, 8 cm and 9 cm. What is the value of the semi‑perimeter s that must be used in Heron's formula?",
+      "options": {
+        "A": "12 cm",
+        "B": "24 cm",
+        "C": "15 cm",
+        "D": "10 cm"
+      },
+      "correct_option": "A",
+      "answer": "12 cm",
+      "explanation": "The semi‑perimeter s is half of the perimeter: s = (7+8+9)/2 = 24/2 = 12 cm. Option B is the full perimeter, while C and D are unrelated values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Using Heron's formula, what is the exact area of a triangle whose sides are 5 cm, 6 cm and 7 cm?",
+      "options": {
+        "A": "6\\sqrt{6}\\,\\text{cm}^2",
+        "B": "12\\,\\text{cm}^2",
+        "C": "14.7\\,\\text{cm}^2",
+        "D": "9\\,\\text{cm}^2"
+      },
+      "correct_option": "A",
+      "answer": "6\\sqrt{6}\\,\\text{cm}^2",
+      "explanation": "First find s = (5+6+7)/2 = 9 cm. Then area = \\sqrt{9·(9-5)·(9-6)·(9-7)} = \\sqrt{9·4·3·2}=\\sqrt{216}=6\\sqrt{6}\\,\\text{cm}^2. Option B is a random value, C is a decimal approximation of the correct answer, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "A triangle has side lengths 13 cm, 14 cm and 15 cm. After applying Heron's formula, the expression under the square root simplifies to which of the following?",
+      "options": {
+        "A": "84",
+        "B": "84\\sqrt{2}",
+        "C": "84\\sqrt{3}",
+        "D": "\\frac{84}{2}"
+      },
+      "correct_option": "A",
+      "answer": "84",
+      "explanation": "s = (13+14+15)/2 = 21 cm. Area = \\sqrt{21·(21-13)·(21-14)·(21-15)} = \\sqrt{21·8·7·6}=\\sqrt{7056}=84. The square root simplifies to the integer 84, making option A correct. The other options retain unnecessary radicals or fractions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular garden has sides of 30 m, 40 m and 50 m. What is its area (in square metres) using Heron's formula?",
+      "options": {
+        "A": "600",
+        "B": "500",
+        "C": "700",
+        "D": "800"
+      },
+      "correct_option": "A",
+      "answer": "600",
+      "explanation": "The sides form a 30‑40‑50 right triangle. s = (30+40+50)/2 = 60 m. Area = \\sqrt{60·30·20·10}=\\sqrt{360000}=600 m². Options B‑D are incorrect values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "A surveyor measures the distances between three points as 12 m, 13 m and 15 m. Which formula should he use to find the area of the triangle formed by these points?",
+      "options": {
+        "A": "Heron's formula",
+        "B": "Pythagorean theorem",
+        "C": "Base × height ÷ 2",
+        "D": "Law of sines"
+      },
+      "correct_option": "A",
+      "answer": "Heron's formula",
+      "explanation": "When only the three side lengths are known, Heron's formula is the appropriate method. The Pythagorean theorem applies only to right triangles, option C needs a height, and the law of sines is for angle‑side relationships.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "When applying Heron's formula to a triangle with sides 9 cm, 10 cm and 11 cm, which of the following is the correct value to use for s (the semi‑perimeter)?",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "9",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "15",
+      "explanation": "s = (9+10+11)/2 = 30/2 = 15 cm. Option B is the full perimeter, while C and D are individual side lengths, common mistakes students make.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Two triangles have the same semi‑perimeter of 12 cm. Triangle 1 has sides 6 cm, 8 cm, 10 cm and Triangle 2 has sides 7 cm, 7 cm, 10 cm. Which triangle has the larger area?",
+      "options": {
+        "A": "Triangle 1",
+        "B": "Triangle 2",
+        "C": "Both have equal area",
+        "D": "Cannot be determined without angles"
+      },
+      "correct_option": "B",
+      "answer": "Triangle 2",
+      "explanation": "Both have s = 12 cm. Area₁ = \\sqrt{12·6·4·2}=24 cm² (right triangle). Area₂ = \\sqrt{12·5·5·2}=\\sqrt{600}=10\\sqrt{6}≈24.5 cm², which is slightly larger. Hence Triangle 2 has the greater area. Option D is unnecessary because Heron's formula uses only side lengths.",
+      "difficulty": "medium"
+    }
+  ]
+}

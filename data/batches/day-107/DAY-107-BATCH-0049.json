@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Which of the following correctly states Heron's formula for the area of a triangle with side lengths a, b, and c?",
+      "options": {
+        "A": "Area = \\sqrt{s(s-a)(s-b)(s-c)}, where s = (a+b+c)/2",
+        "B": "Area = \\frac{1}{2}ab\\sin C",
+        "C": "Area = (a+b+c)/2",
+        "D": "Area = \\sqrt{a^2 + b^2 + c^2}"
+      },
+      "correct_option": "A",
+      "answer": "Area = \\sqrt{s(s-a)(s-b)(s-c)}, where s = (a+b+c)/2",
+      "explanation": "Heron's formula expresses the area of a triangle solely in terms of its three side lengths: first compute the semi‑perimeter s = (a+b+c)/2, then area = \\sqrt{s(s-a)(s-b)(s-c)}. Option B is the sine formula, C is just the semi‑perimeter, and D is not a formula for area.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "A triangle has side lengths 7 cm, 8 cm, and 9 cm. Using Heron's formula, what is the area of the triangle expressed in simplest radical form?",
+      "options": {
+        "A": "12\\sqrt{5}\\,\\text{cm}^2",
+        "B": "14\\sqrt{3}\\,\\text{cm}^2",
+        "C": "10\\sqrt{6}\\,\\text{cm}^2",
+        "D": "9\\sqrt{7}\\,\\text{cm}^2"
+      },
+      "correct_option": "A",
+      "answer": "12\\sqrt{5}\\,\\text{cm}^2",
+      "explanation": "First find the semi‑perimeter s = (7+8+9)/2 = 12. Then area = \\sqrt{12(12-7)(12-8)(12-9)} = \\sqrt{12\\times5\\times4\\times3} = \\sqrt{720} = \\sqrt{144\\times5} = 12\\sqrt{5}\\,\\text{cm}^2. The other options arise from incorrect simplifications.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular garden has sides of lengths 50 m, 60 m, and 70 m. What is the area of the garden (in simplest radical form)?",
+      "options": {
+        "A": "600\\sqrt{6}\\,\\text{m}^2",
+        "B": "500\\sqrt{5}\\,\\text{m}^2",
+        "C": "700\\sqrt{7}\\,\\text{m}^2",
+        "D": "400\\sqrt{3}\\,\\text{m}^2"
+      },
+      "correct_option": "A",
+      "answer": "600\\sqrt{6}\\,\\text{m}^2",
+      "explanation": "Semi‑perimeter s = (50+60+70)/2 = 90. Area = \\sqrt{90(90-50)(90-60)(90-70)} = \\sqrt{90\\times40\\times30\\times20} = \\sqrt{2,160,000} = \\sqrt{216\\times10,000} = 6\\sqrt{6}\\times100 = 600\\sqrt{6}\\,\\text{m}^2. The other choices result from mis‑calculations of the product inside the root.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "A triangle has side lengths a = 13 cm, b = 14 cm, and c = 15 cm. Which statement correctly states Heron's formula that can be used to find its area?",
+      "options": {
+        "A": "Area = \\sqrt{s(s-a)(s-b)(s-c)}, where s = (a+b+c)/2",
+        "B": "Area = (a+b+c)/2",
+        "C": "Area = \\frac{1}{2}ab\\sin C",
+        "D": "Area = \\sqrt{a^2 + b^2 + c^2}"
+      },
+      "correct_option": "A",
+      "answer": "Area = \\sqrt{s(s-a)(s-b)(s-c)}, where s = (a+b+c)/2",
+      "explanation": "Heron's formula requires the semi‑perimeter s = (a+b+c)/2 and then the area is the square root of s(s‑a)(s‑b)(s‑c). Options B, C, and D are unrelated formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "A right‑angled triangle has side lengths 5 cm, 12 cm, and 13 cm. Which of the following shows the correct substitution of the side lengths into Heron's formula?",
+      "options": {
+        "A": "s = (5+12+13)/2 = 15; Area = \\sqrt{15(15-5)(15-12)(15-13)} = \\sqrt{15\\times10\\times3\\times2} = \\sqrt{900} = 30\\,\\text{cm}^2",
+        "B": "s = (5+12+13) = 30; Area = \\sqrt{30(30-5)(30-12)(30-13)}",
+        "C": "s = (5+12+13)/2 = 15; Area = \\sqrt{15\\times5\\times12\\times13}",
+        "D": "s = (5+12+13)/2 = 15; Area = \\sqrt{15(15+5)(15+12)(15+13)}"
+      },
+      "correct_option": "A",
+      "answer": "s = (5+12+13)/2 = 15; Area = \\sqrt{15(15-5)(15-12)(15-13)} = \\sqrt{15\\times10\\times3\\times2} = \\sqrt{900} = 30\\,\\text{cm}^2",
+      "explanation": "The semi‑perimeter is half the sum of the sides, i.e., 15. The correct substitution uses (s‑a), (s‑b), (s‑c). Option B uses the full perimeter, C omits the subtraction, and D uses addition instead of subtraction, leading to wrong results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Two triangles each have a perimeter of 30 cm. Triangle P is equilateral, while Triangle Q has side lengths 5 cm, 12 cm, and 13 cm. Which triangle has the greater area?",
+      "options": {
+        "A": "Triangle P",
+        "B": "Triangle Q",
+        "C": "Both have equal area",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Triangle P",
+      "explanation": "For a given perimeter, the equilateral triangle maximizes area. Triangle P (10 cm each side) has area = (\\sqrt{3}/4)·10^2 ≈ 43.3 cm^2. Triangle Q (5,12,13) gives s = 15, area = \\sqrt{15·10·3·2} = \\sqrt{900} = 30 cm^2. Hence Triangle P has the larger area.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "For a triangle with sides 9 cm, 10 cm, and 11 cm, Heron's formula gives the area as \\sqrt{(15)(6)(5)(4)}. Which of the following is the correctly simplified radical form of the area?",
+      "options": {
+        "A": "30\\sqrt{2}\\,\\text{cm}^2",
+        "B": "20\\sqrt{4.5}\\,\\text{cm}^2",
+        "C": "10\\sqrt{18}\\,\\text{cm}^2",
+        "D": "15\\sqrt{8}\\,\\text{cm}^2"
+      },
+      "correct_option": "A",
+      "answer": "30\\sqrt{2}\\,\\text{cm}^2",
+      "explanation": "The product inside the root is 15×6×5×4 = 1800. Simplify: 1800 = 36×50 = (6^2)×50, so \\sqrt{1800} = 6\\sqrt{50} = 6·5\\sqrt{2} = 30\\sqrt{2}. Options B, C, and D do not represent the simplest radical form.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular piece of land has sides 30 m, 40 m, and 50 m. The owner wants to plant grass over the entire area. If the cost of grass is Rs 12 per square metre, what is the total cost (in rupees)?",
+      "options": {
+        "A": "Rs 7200",
+        "B": "Rs 6000",
+        "C": "Rs 8400",
+        "D": "Rs 9600"
+      },
+      "correct_option": "A",
+      "answer": "Rs 7200",
+      "explanation": "First find the semi‑perimeter: s = (30+40+50)/2 = 60. Area = \\sqrt{60·(60-30)·(60-40)·(60-50)} = \\sqrt{60·30·20·10} = \\sqrt{360,000} = 600 m^2. Cost = 600 m^2 × Rs 12/m^2 = Rs 7,200. The other options arise from arithmetic errors.",
+      "difficulty": "hard"
+    }
+  ]
+}
