@@ -1,0 +1,78 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "A triangle has side lengths 13 cm, 14 cm and 15 cm. Which of the following expressions correctly represents its area using Heron's formula?",
+      "options": {
+        "A": "\\sqrt{21\\times(21-13)\\times(21-14)\\times(21-15)}",
+        "B": "\\sqrt{(13+14+15)\\times((13+14+15)-13)\\times((13+14+15)-14)\\times((13+14+15)-15)}",
+        "C": "\\sqrt{\\frac{13+14+15}{2}\\times\\frac{13+14+15}{2}\\times\\frac{13+14+15}{2}\\times\\frac{13+14+15}{2}}",
+        "D": "\\sqrt{\\frac{13+14+15}{3}\\times\\left(\\frac{13+14+15}{3}-13\\right)\\times\\left(\\frac{13+14+15}{3}-14\\right)\\times\\left(\\frac{13+14+15}{3}-15\\right)}"
+      },
+      "correct_option": "A",
+      "answer": "\\sqrt{21\\times(21-13)\\times(21-14)\\times(21-15)}",
+      "explanation": "Heron's formula uses the semi‑perimeter s = (a+b+c)/2. For sides 13, 14, 15, s = (13+14+15)/2 = 21. The correct area expression is \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{21(21-13)(21-14)(21-15)}. Options B, C and D use an incorrect value for s or misuse the formula, leading to wrong results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "A triangle has side lengths 7 cm, 8 cm and 9 cm. What is its area (in cm²) correct to one decimal place?",
+      "options": {
+        "A": "24.0",
+        "B": "26.8",
+        "C": "30.0",
+        "D": "36.0"
+      },
+      "correct_option": "B",
+      "answer": "26.8",
+      "explanation": "First find the semi‑perimeter: s = (7+8+9)/2 = 12 cm. Then area = \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{12\\times5\\times4\\times3}=\\sqrt{720}=12\\sqrt5 \\approx 26.832 cm², which rounds to 26.8 cm². The other options result from incorrect arithmetic or rounding errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "For a triangle with sides 13 cm, 14 cm and 15 cm, Heron's formula gives the area as \\sqrt{720}\\,cm². Which of the following is the simplest exact form of this area?",
+      "options": {
+        "A": "12\\sqrt{5}",
+        "B": "6\\sqrt{20}",
+        "C": "24\\sqrt{5}",
+        "D": "12\\sqrt{20}"
+      },
+      "correct_option": "A",
+      "answer": "12\\sqrt{5}",
+      "explanation": "720 = 144 \\times 5, and \\sqrt{144}=12, so \\sqrt{720}=12\\sqrt{5}. Option B simplifies to 6\\sqrt{20}=6\\times2\\sqrt{5}=12\\sqrt{5} (numerically same) but is not in simplest radical form because 20 can be reduced. Options C and D are over‑simplified, giving larger multiples. Hence the simplest exact expression is 12\\sqrt{5}.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular plot of land has sides 50 m, 60 m and 70 m. The owner wants to sow grass over the entire plot. What is the area of the plot (in square metres) rounded to the nearest whole number?",
+      "options": {
+        "A": "1469",
+        "B": "1500",
+        "C": "1600",
+        "D": "1700"
+      },
+      "correct_option": "A",
+      "answer": "1469",
+      "explanation": "Semi‑perimeter s = (50+60+70)/2 = 90 m. Area = \\sqrt{90\\times(90-50)\\times(90-60)\\times(90-70)} = \\sqrt{90\\times40\\times30\\times20}=\\sqrt{2,160,000}=600\\sqrt{6}\\approx 1469.4 m². Rounded to the nearest whole number gives 1469 m². The other options are far from the correct calculation, reflecting common rounding or multiplication mistakes.",
+      "difficulty": "hard"
+    }
+  ]
+}
