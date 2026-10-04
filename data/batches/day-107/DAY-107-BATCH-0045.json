@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "What is Heron's formula for the area of a triangle with side lengths a, b and c?",
+      "options": {
+        "A": "Area = \\sqrt{s(s-a)(s-b)(s-c)} where s = (a+b+c)/2",
+        "B": "Area = \\frac{1}{2}ab\\sin C",
+        "C": "Area = \\frac{a+b+c}{2}",
+        "D": "Area = \\frac{\\sqrt{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)}}{4}"
+      },
+      "correct_option": "A",
+      "answer": "Area = \\sqrt{s(s-a)(s-b)(s-c)} where s = (a+b+c)/2",
+      "explanation": "Heron's formula states that if s = (a+b+c)/2 is the semi‑perimeter, then the area = \\sqrt{s(s-a)(s-b)(s-c)}. Options B and D are other formulas, and C is just the semi‑perimeter, not the area.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "A triangle has sides 7 cm, 8 cm and 9 cm. Which expression correctly represents the product to be placed under the square root in Heron's formula?",
+      "options": {
+        "A": "s(s-7)(s-8)(s-9) where s = (7+8+9)/2",
+        "B": "s(s+7)(s+8)(s+9) where s = (7+8+9)/2",
+        "C": "(7+8+9)(7+8-9)(7-8+9)(-7+8+9)",
+        "D": "s(s-7)(s+8)(s-9) where s = (7+8+9)/2"
+      },
+      "correct_option": "A",
+      "answer": "s(s-7)(s-8)(s-9) where s = (7+8+9)/2",
+      "explanation": "First compute the semi‑perimeter s = (7+8+9)/2 = 12. Heron's formula uses s(s-a)(s-b)(s-c). Option A follows this rule; the other options either add sides or mix signs, which is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Find the area of a triangle whose side lengths are 13 cm, 14 cm and 15 cm.",
+      "options": {
+        "A": "70 cm²",
+        "B": "84 cm²",
+        "C": "90 cm²",
+        "D": "100 cm²"
+      },
+      "correct_option": "B",
+      "answer": "84 cm²",
+      "explanation": "s = (13+14+15)/2 = 21. Area = \\sqrt{21·(21-13)·(21-14)·(21-15)} = \\sqrt{21·8·7·6} = \\sqrt{7056} = 84 cm². The other numbers result from incorrect arithmetic or omission of the square root.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "For a triangle with sides 5 cm, 5 cm and 6 cm, after substitution Heron's formula gives \\sqrt{8\\times3\\times3\\times2}. What is the correctly simplified area?",
+      "options": {
+        "A": "12 cm²",
+        "B": "6\\sqrt{2} cm²",
+        "C": "4\\sqrt{6} cm²",
+        "D": "8 cm²"
+      },
+      "correct_option": "A",
+      "answer": "12 cm²",
+      "explanation": "8×3×3×2 = 144. \\sqrt{144}=12, so the area is 12 cm². Options B, C, and D are results of incomplete simplification or wrong multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular garden has sides 30 m, 40 m and 50 m. What is its area?",
+      "options": {
+        "A": "600 m²",
+        "B": "700 m²",
+        "C": "500 m²",
+        "D": "800 m²"
+      },
+      "correct_option": "A",
+      "answer": "600 m²",
+      "explanation": "The sides form a right triangle (30‑40‑50). Area = (1/2)×30×40 = 600 m². Using Heron's formula gives the same result. The other options are not consistent with the dimensions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "An engineer needs the area of a triangular plot with sides 12 m, 13 m and 15 m. Which formula should she apply?",
+      "options": {
+        "A": "Heron's formula: \\sqrt{s(s-a)(s-b)(s-c)}",
+        "B": "Area = \\frac{1}{2}ab\\sin C",
+        "C": "Area = \\frac{base\\times height}{2}",
+        "D": "Pythagorean theorem"
+      },
+      "correct_option": "A",
+      "answer": "Heron's formula: \\sqrt{s(s-a)(s-b)(s-c)}",
+      "explanation": "When only the three side lengths are known, Heron's formula is the appropriate method. Options B and C require angle or height information, and D is for right‑angled triangles only.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "A student writes the area expression for a triangle with sides 9 cm, 10 cm and 11 cm as \\sqrt{(9+10+11)(9+10-11)(9-10+11)(-9+10+11)}. What is the error in this expression?",
+      "options": {
+        "A": "The semi‑perimeter s was not halved before using the formula",
+        "B": "The square root sign is missing",
+        "C": "One of the side lengths was entered incorrectly",
+        "D": "There is no error; the expression is correct"
+      },
+      "correct_option": "A",
+      "answer": "The semi‑perimeter s was not halved before using the formula",
+      "explanation": "Heron's formula requires s = (a+b+c)/2. The student used (a+b+c) directly, leading to an incorrect product. Options B, C, and D do not address this specific mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "To find the area of a triangle with sides 13 cm, 14 cm and 15 cm, which of the following sequences is correct?",
+      "options": {
+        "A": "Compute s = 21, then area = \\sqrt{21\\times8\\times7\\times6} = 84 cm²",
+        "B": "Compute s = 21, then area = \\frac{1}{2}\\times13\\times14",
+        "C": "Use s = 21, then area = \\sqrt{21\\times13\\times14\\times15}",
+        "D": "Find the perimeter, divide by 2 and that is the area"
+      },
+      "correct_option": "A",
+      "answer": "Compute s = 21, then area = \\sqrt{21\\times8\\times7\\times6} = 84 cm²",
+      "explanation": "The correct application of Heron's formula is option A. Option B uses the base‑height formula without the height, C substitutes the sides directly instead of (s‑side), and D confuses perimeter with area.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "Which of the following statements correctly defines Heron's formula for calculating the area of a triangle when the lengths of all three sides are known?",
+      "options": {
+        "A": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+        "B": "Area = (1/2)·base·height",
+        "C": "Area = √[(a+b+c)(a+b‑c)(a‑b+c)(‑a+b+c)]/4",
+        "D": "Area = (a·b·c)/4R, where R is the circumradius"
+      },
+      "correct_option": "A",
+      "answer": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+      "explanation": "Heron's formula states that the area of a triangle with side lengths a, b, c is √[s(s‑a)(s‑b)(s‑c)], where s is the semi‑perimeter (a+b+c)/2. Option B is the base‑height formula, C is an incorrect rearrangement, and D involves the circumradius, not Heron's formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "A triangle has side lengths 7 cm, 8 cm and 9 cm. Using Heron's formula, what is the area of the triangle expressed in simplest radical form?",
+      "options": {
+        "A": "12√5 cm²",
+        "B": "6√5 cm²",
+        "C": "24√5 cm²",
+        "D": "12√3 cm²"
+      },
+      "correct_option": "A",
+      "answer": "12√5 cm²",
+      "explanation": "First compute the semi‑perimeter s = (7+8+9)/2 = 12. Then area = √[12·(12‑7)·(12‑8)·(12‑9)] = √[12·5·4·3] = √720 = √(144·5) = 12√5 cm². The other options arise from incorrect simplifications of the radical.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular garden has sides of lengths 13 m, 14 m and 15 m. What is the area of the garden?",
+      "options": {
+        "A": "84 m²",
+        "B": "70 m²",
+        "C": "90 m²",
+        "D": "56 m²"
+      },
+      "correct_option": "A",
+      "answer": "84 m²",
+      "explanation": "s = (13+14+15)/2 = 21. Area = √[21·(21‑13)·(21‑14)·(21‑15)] = √[21·8·7·6] = √7056 = 84 m². The other numbers result from using wrong side values or forgetting to take the square root.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "A student is given a triangle with side lengths a = 5 cm, b = 6 cm and c = 7 cm. Which of the following correctly states Heron's formula that the student should use to find the area?",
+      "options": {
+        "A": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+        "B": "Area = (1/2)·a·b·sin C",
+        "C": "Area = (a·b·c)/4R, where R is the circumradius",
+        "D": "Area = √[(a+b+c)(a+b‑c)(a‑b+c)(‑a+b+c)]/4"
+      },
+      "correct_option": "A",
+      "answer": "Area = √[s(s‑a)(s‑b)(s‑c)], where s = (a+b+c)/2",
+      "explanation": "Heron's formula is exactly as given in option A. Options B, C and D are different formulas (base‑height, circumradius, and an incorrect radical expression) and do not represent Heron's method.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "A triangle has side lengths 5 cm, 5 cm and 8 cm. Which of the following shows the correct substitution of these lengths into Heron's formula?",
+      "options": {
+        "A": "s = 9; Area = √[9·(9‑5)·(9‑5)·(9‑8)] = √[9·4·4·1] = 12 cm²",
+        "B": "s = 8; Area = √[8·(8‑5)·(8‑5)·(8‑8)] = √[8·3·3·0] = 0 cm²",
+        "C": "s = 9; Area = √[9·(9‑5)·(9‑5)·(9‑8)] = √[9·5·5·1] = 15 cm²",
+        "D": "s = 9; Area = √[9·(9‑5)·(9‑5)·(9‑8)] = √[9·4·4·2] = 12√2 cm²"
+      },
+      "correct_option": "A",
+      "answer": "s = 9; Area = √[9·(9‑5)·(9‑5)·(9‑8)] = √[9·4·4·1] = 12 cm²",
+      "explanation": "The semi‑perimeter s = (5+5+8)/2 = 9. Substituting gives √[9·4·4·1] = √144 = 12 cm², which is option A. Options B uses wrong s, C uses wrong differences, and D uses an extra factor of 2, all leading to incorrect results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "A triangle has side lengths 10 cm, 10 cm and 12 cm. Which sequence of steps correctly leads to the area of the triangle using Heron's formula?",
+      "options": {
+        "A": "Find s = 16, compute √[16·6·6·4] = √2304 = 48 cm²",
+        "B": "Find s = 16, compute √[16·10·10·12] = √19200 ≈ 138.6 cm²",
+        "C": "Find s = 16, compute √[16·(16‑10)·(16‑10)·(16‑12)] = √[16·6·6·4] = 48 cm², then divide by 2",
+        "D": "Find s = 16, compute (16‑10)+(16‑10)+(16‑12) = 20, then take √20"
+      },
+      "correct_option": "A",
+      "answer": "Find s = 16, compute √[16·6·6·4] = √2304 = 48 cm²",
+      "explanation": "Correct: s = (10+10+12)/2 = 16. Heron's formula gives √[s(s‑a)(s‑b)(s‑c)] = √[16·6·6·4] = √2304 = 48 cm². Option B substitutes the sides directly, C adds an unnecessary division, and D misapplies the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "Which of the following pairs correctly shows two equivalent simplest‑radical forms of √1800?",
+      "options": {
+        "A": "(i) √1800 = 30√2 and (ii) √1800 = 6√50",
+        "B": "(i) √1800 = 30√2 and (ii) √1800 = 12√5",
+        "C": "(i) √1800 = 30√2 and (ii) √1800 = √1800 (unsimplified)",
+        "D": "(i) √1800 = 6√50 and (ii) √1800 = 12√5"
+      },
+      "correct_option": "A",
+      "answer": "(i) √1800 = 30√2 and (ii) √1800 = 6√50",
+      "explanation": "Both (i) and (ii) are valid simplest‑radical expressions for √1800 because 6√50 = 6·5√2 = 30√2. Options B and D give non‑equivalent forms, and C pairs a simplified form with an unsimplified one.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular plot of land has side lengths 25 m, 29 m and 36 m. Using Heron's formula, what is the area of the plot?",
+      "options": {
+        "A": "360 m²",
+        "B": "300 m²",
+        "C": "420 m²",
+        "D": "480 m²"
+      },
+      "correct_option": "A",
+      "answer": "360 m²",
+      "explanation": "s = (25+29+36)/2 = 45. Area = √[45·(45‑25)·(45‑29)·(45‑36)] = √[45·20·16·9] = √[45·2880] = √129600 = 360 m². The other options result from arithmetic errors in computing the product or the square root.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 107,
+  "batch_id": "DAY-107-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular plot of land has sides 13 m, 14 m, and 15 m. What is its area in square metres?",
+      "options": {
+        "A": "84",
+        "B": "78",
+        "C": "90",
+        "D": "96"
+      },
+      "correct_option": "A",
+      "answer": "84",
+      "explanation": "First find the semi‑perimeter s = (13+14+15)/2 = 21. Then apply Heron's formula: Area = √[21·(21‑13)·(21‑14)·(21‑15)] = √[21·8·7·6] = √7056 = 84 m². The other options result from arithmetic errors or using the wrong formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "Which of the following expressions correctly gives the area of a triangle with side lengths a, b and c?",
+      "options": {
+        "A": "√[s(s‑a)(s‑b)(s‑c)] where s = (a+b+c)/2",
+        "B": "(1/2)ab·sin C",
+        "C": "(a+b+c)/2",
+        "D": "√[(a+b)(b+c)(c+a)]"
+      },
+      "correct_option": "A",
+      "answer": "√[s(s‑a)(s‑b)(s‑c)] where s = (a+b+c)/2",
+      "explanation": "Heron's formula states that the area = √[s(s‑a)(s‑b)(s‑c)], with s being the semi‑perimeter. Option B is the formula using two sides and the included angle, C is just the semi‑perimeter, and D is not a valid area formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "When applying Heron's formula to a triangle with sides 7 cm, 8 cm and 9 cm, what is the correct value of the semi‑perimeter s?",
+      "options": {
+        "A": "12 cm",
+        "B": "24 cm",
+        "C": "7 cm",
+        "D": "8 cm"
+      },
+      "correct_option": "A",
+      "answer": "12 cm",
+      "explanation": "The semi‑perimeter s = (7+8+9)/2 = 24/2 = 12 cm. Option B mistakenly uses the full perimeter, while C and D are individual side lengths.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Calculate triangle area",
+      "question": "A triangle has side lengths 5 cm, 12 cm and 13 cm. Using Heron's formula, what is its area?",
+      "options": {
+        "A": "30 cm²",
+        "B": "26 cm²",
+        "C": "28 cm²",
+        "D": "32 cm²"
+      },
+      "correct_option": "A",
+      "answer": "30 cm²",
+      "explanation": "s = (5+12+13)/2 = 15. Area = √[15·(15‑5)·(15‑12)·(15‑13)] = √[15·10·3·2] = √900 = 30 cm². The other numbers arise from incorrect multiplication or forgetting to take the square root.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Use appropriate square-root simplification",
+      "question": "For a triangle with sides 9 cm, 10 cm and 17 cm, Heron's formula gives the area as √(18·9·8·1). Which of the following is the correctly simplified value of the area?",
+      "options": {
+        "A": "36 cm²",
+        "B": "√1296 cm²",
+        "C": "6√36 cm²",
+        "D": "12√9 cm²"
+      },
+      "correct_option": "A",
+      "answer": "36 cm²",
+      "explanation": "√(18·9·8·1) = √1296 = 36. Option B shows the unsimplified radical, while C and D are algebraically equivalent to 36 but are not fully simplified; the simplest exact value is 36 cm².",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Solve real-world problems involving triangular areas",
+      "question": "A triangular piece of land has sides 25 m, 29 m and 36 m. The farmer needs seed at a rate of 1 kg per 10 m². How many kilograms of seed are required (rounded to the nearest whole kilogram)?",
+      "options": {
+        "A": "36 kg",
+        "B": "30 kg",
+        "C": "40 kg",
+        "D": "45 kg"
+      },
+      "correct_option": "A",
+      "answer": "36 kg",
+      "explanation": "s = (25+29+36)/2 = 45. Area = √[45·20·16·9] = √129600 = 360 m². Seed needed = 360 m² ÷ 10 m²/kg = 36 kg. The other options come from mis‑calculating the semi‑perimeter or the square root.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "State Heron's formula",
+      "question": "Heron's formula for the area of a triangle with side lengths a, b and c is:",
+      "options": {
+        "A": "√[s(s‑a)(s‑b)(s‑c)] where s = (a+b+c)/2",
+        "B": "(1/2)ab·sin C",
+        "C": "s² where s = (a+b+c)/2",
+        "D": "√[(a+b)(b+c)(c+a)]"
+      },
+      "correct_option": "A",
+      "answer": "√[s(s‑a)(s‑b)(s‑c)] where s = (a+b+c)/2",
+      "explanation": "Heron's formula expresses the area solely in terms of the three side lengths via the semi‑perimeter s. Options B, C and D are unrelated or incorrect formulations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00447",
+      "learning_point": "Substitute side lengths correctly",
+      "question": "For a triangle with sides 5 cm, 6 cm and 7 cm, what is the value of (s‑a) where s is the semi‑perimeter and a = 5 cm?",
+      "options": {
+        "A": "4 cm",
+        "B": "5 cm",
+        "C": "6 cm",
+        "D": "7 cm"
+      },
+      "correct_option": "A",
+      "answer": "4 cm",
+      "explanation": "s = (5+6+7)/2 = 9 cm. Hence s‑a = 9‑5 = 4 cm. The other options ignore the subtraction or use wrong side lengths.",
+      "difficulty": "easy"
+    }
+  ]
+}
