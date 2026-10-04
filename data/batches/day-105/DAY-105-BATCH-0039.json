@@ -1,0 +1,78 @@
+{
+  "day": 105,
+  "batch_id": "DAY-105-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand SSS congruence",
+      "question": "Which of the following statements about the SSS (Side‑Side‑Side) congruence criterion is incorrect?",
+      "options": {
+        "A": "If three sides of one triangle are respectively equal to three sides of another triangle, the triangles are congruent.",
+        "B": "SSS can be used to prove two triangles are congruent even if the triangles are mirror images of each other.",
+        "C": "SSS requires knowledge of an angle measure to be applied.",
+        "D": "SSS works for any type of triangle, whether acute, right‑angled or obtuse."
+      },
+      "correct_option": "C",
+      "answer": "SSS requires knowledge of an angle measure to be applied.",
+      "explanation": "The SSS criterion states that if the three sides of one triangle are respectively equal to the three sides of another triangle, the triangles are congruent. No angle information is needed. Therefore option C is the only incorrect statement; the other statements correctly describe SSS. Options A, B and D are true because SSS does not depend on orientation or triangle type.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand SAS congruence",
+      "question": "Triangle ABC and triangle DEF satisfy AB = DE, BC = EF and ∠ABC = ∠DEF. Which of the following must be true as a result of the SAS congruence criterion?",
+      "options": {
+        "A": "AC = DF",
+        "B": "∠BAC = ∠DFE",
+        "C": "∠ACB = ∠DFE",
+        "D": "No further equality can be concluded without additional information"
+      },
+      "correct_option": "A",
+      "answer": "AC = DF",
+      "explanation": "SAS (Side‑Angle‑Side) states that if two sides and the included angle of one triangle are respectively equal to two sides and the included angle of another triangle, the triangles are congruent. Hence all corresponding parts are equal, including the third side AC and DF. Options B and C are also true by CPCTC, but the question asks for a statement that must be true directly from SAS; the most immediate consequence is the equality of the third side, option A. Option D is false because SAS already guarantees congruence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand ASA congruence",
+      "question": "Triangle PQR and triangle XYZ have ∠P = ∠X = 50°, ∠Q = ∠Y = 60°, and side PQ = XY = 5 cm. Which statement correctly describes the use of the ASA criterion for these triangles?",
+      "options": {
+        "A": "The triangles are congruent by ASA, but they cannot be proved congruent by SSS because the third side lengths are not given.",
+        "B": "The triangles are congruent by both ASA and SSS since the two given angles force the third side to be the same.",
+        "C": "ASA cannot be applied here because the known side PQ (or XY) is not between the two given angles.",
+        "D": "The triangles may be non‑congruent because ASA requires two sides, not just one."
+      },
+      "correct_option": "A",
+      "answer": "The triangles are congruent by ASA, but they cannot be proved congruent by SSS because the third side lengths are not given.",
+      "explanation": "ASA (Angle‑Side‑Angle) requires two angles and the included side. Both triangles have the same two angles (50° and 60°) and the side between them (PQ = XY = 5 cm), so they are congruent by ASA. However, without knowing the third side (PR and XZ), SSS cannot be applied. Option B is incorrect because equal angles do not guarantee equal third sides. Option C misidentifies the side; PQ is indeed between the given angles. Option D misstates the ASA requirement. Hence A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00438",
+      "learning_point": "Understand RHS congruence",
+      "question": "Two right‑angled triangles, ΔMNO and ΔPQR, have ∠M = ∠P = 90°, hypotenuse MN = PQ = 13 cm and one leg NO = QR = 5 cm. Which conclusion follows from the RHS (Right angle‑Hypotenuse‑Side) criterion?",
+      "options": {
+        "A": "ΔMNO and ΔPQR are congruent by RHS.",
+        "B": "The triangles are not necessarily congruent; a second leg must be known.",
+        "C": "The triangles are congruent by SSS because all three sides are now known.",
+        "D": "RHS cannot be applied because the right angle is not explicitly stated as 90°."
+      },
+      "correct_option": "A",
+      "answer": "ΔMNO and ΔPQR are congruent by RHS.",
+      "explanation": "The RHS (or HL) criterion states that in right‑angled triangles, if the hypotenuse and one corresponding leg are equal, the triangles are congruent. Here both triangles have a right angle, equal hypotenuse (13 cm) and equal leg (5 cm), so they are congruent. Option B is false because RHS already guarantees congruence. Option C is incorrect because the third side is not given; congruence follows without it. Option D is wrong because the right angles are explicitly given. Hence A is the correct choice.",
+      "difficulty": "hard"
+    }
+  ]
+}
