@@ -1,0 +1,150 @@
+{
+  "day": 109,
+  "batch_id": "DAY-109-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Compare experimental frequencies with expected likelihood",
+      "question": "In an experiment of rolling a fair six‑sided die 60 times, the face showing 4 appeared 12 times. Which statement best compares the experimental frequency with the theoretical likelihood?",
+      "options": {
+        "A": "The experimental frequency is higher than the expected likelihood.",
+        "B": "The experimental frequency equals the expected likelihood.",
+        "C": "The experimental frequency is lower than the expected likelihood.",
+        "D": "The experimental data are insufficient to compare."
+      },
+      "correct_option": "A",
+      "answer": "The experimental frequency is higher than the expected likelihood.",
+      "explanation": "The experimental probability of getting a 4 is 12/60 = 0.20. The theoretical probability for a fair die is 1/6 ≈ 0.1667. Since 0.20 > 0.1667, the experimental frequency is higher than the expected likelihood. Options B and C are incorrect because they state equality or a lower value, and D is wrong because the data are sufficient for comparison.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand random experiments",
+      "question": "A student draws a card from a standard 52‑card deck, records its colour, replaces the card, and repeats the procedure 30 times. Which description correctly characterises this procedure as a random experiment?",
+      "options": {
+        "A": "The outcome of each draw is predetermined before the experiment begins.",
+        "B": "Each draw is independent and the outcome is uncertain until the card is drawn.",
+        "C": "The same card will always be drawn because the card is replaced each time.",
+        "D": "The experiment has only one possible outcome, namely ‘red’."
+      },
+      "correct_option": "B",
+      "answer": "Each draw is independent and the outcome is uncertain until the card is drawn.",
+      "explanation": "A random experiment is one where the result cannot be predicted with certainty before it occurs and repetitions are independent. Here each draw is independent (the card is replaced) and the colour cannot be known in advance, matching option B. Options A and C describe deterministic situations, and D ignores the possibility of drawing a black card.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "When two coins are tossed, a student writes the possible outcomes as “Head, Tail, Both”. Which of the following statements correctly identifies the misconception?",
+      "options": {
+        "A": "The student has correctly listed all possible outcomes.",
+        "B": "The student missed the outcome “Tail, Tail”.",
+        "C": "The student included an impossible outcome.",
+        "D": "Both B and C are true."
+      },
+      "correct_option": "D",
+      "answer": "Both B and C are true.",
+      "explanation": "The correct sample space for two coins is {HH, HT, TH, TT}. The student’s list omits ‘Tail, Tail’ (option B) and the term “Both” is ambiguous and does not represent a distinct outcome, effectively an impossible description (option C). Hence both statements are true, making D the correct choice. Options A and B alone are incomplete.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand events",
+      "question": "When a fair die is rolled once, let event A be “the number is even” and event B be “the number is greater than 3”. Which statement about the relationship between A and B is true?",
+      "options": {
+        "A": "A and B are mutually exclusive.",
+        "B": "A is a subset of B.",
+        "C": "B is a subset of A.",
+        "D": "A and B are not mutually exclusive and neither is a subset of the other."
+      },
+      "correct_option": "D",
+      "answer": "A and B are not mutually exclusive and neither is a subset of the other.",
+      "explanation": "A = {2,4,6}; B = {4,5,6}. They share {4,6}, so they are not mutually exclusive. Neither set is wholly contained in the other because A has 2 (not in B) and B has 5 (not in A). Therefore option D correctly describes their relationship. Options A, B, and C are false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Estimate probability from experimental data",
+      "question": "A bag contains 3 red, 2 blue and 5 green balls (total 10). A ball is drawn, its colour noted, and the ball is replaced. This is repeated 200 times. Red is observed 68 times, blue 42 times and green 90 times. Which estimate of the probability of drawing a red ball is closest to the theoretical probability?",
+      "options": {
+        "A": "0.34",
+        "B": "0.30",
+        "C": "0.25",
+        "D": "0.20"
+      },
+      "correct_option": "A",
+      "answer": "0.34",
+      "explanation": "Theoretical probability of red = 3/10 = 0.30. Experimental frequency = 68/200 = 0.34. The experimental estimate 0.34 is numerically closest to the theoretical value (difference of 0.04) compared with the other options. Hence option A is correct. Options B, C, D are farther from the theoretical probability.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Compare experimental frequencies with expected likelihood",
+      "question": "A fair coin is tossed 120 times and heads appear 70 times. Which statement correctly interprets the experimental result in relation to the expected likelihood?",
+      "options": {
+        "A": "The experimental probability of heads (70/120) is exactly equal to the theoretical probability 0.5.",
+        "B": "The experimental probability is higher than the theoretical probability, indicating the coin is biased.",
+        "C": "The experimental probability is higher than the theoretical probability, but the difference could be due to random variation.",
+        "D": "The experimental probability is lower than the theoretical probability, indicating the coin is biased towards tails."
+      },
+      "correct_option": "C",
+      "answer": "The experimental probability is higher than the theoretical probability, but the difference could be due to random variation.",
+      "explanation": "Experimental probability = 70/120 ≈ 0.583, which is higher than the theoretical 0.5. However, with a finite number of trials, deviations from the expected value can occur by chance. Therefore the appropriate interpretation is that the higher value may be due to random variation (option C). Option A is false because the values differ; option B incorrectly assumes bias without statistical testing; option D states the opposite of the observed result.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand random experiments",
+      "question": "Which of the following best defines a random experiment?",
+      "options": {
+        "A": "An experiment where the outcome is known in advance.",
+        "B": "An experiment that can be performed only once.",
+        "C": "An experiment whose outcome cannot be predicted with certainty before it is performed.",
+        "D": "An experiment that always yields the same result."
+      },
+      "correct_option": "C",
+      "answer": "An experiment whose outcome cannot be predicted with certainty before it is performed.",
+      "explanation": "A random experiment is characterised by uncertainty of the outcome prior to execution. Option C captures this definition. Options A and D describe deterministic situations, and B is unrelated to randomness.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "When a single six‑faced die is rolled once, which of the following lists all possible outcomes?",
+      "options": {
+        "A": "{1,2,3,4,5,6}",
+        "B": "{0,1,2,3,4,5}",
+        "C": "{1,2,3,4,5}",
+        "D": "{2,4,6}"
+      },
+      "correct_option": "A",
+      "answer": "{1,2,3,4,5,6}",
+      "explanation": "A standard die has faces numbered 1 through 6, so the complete set of outcomes is {1,2,3,4,5,6}. Options B, C, and D omit or include incorrect numbers, making them incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

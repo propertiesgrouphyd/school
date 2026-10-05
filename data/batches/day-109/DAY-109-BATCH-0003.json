@@ -1,0 +1,150 @@
+{
+  "day": 109,
+  "batch_id": "DAY-109-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "A student tosses a fair coin repeatedly. Which of the following statements about the possible outcomes of each toss reflects a common misconception?",
+      "options": {
+        "A": "Each toss can result in either Head or Tail.",
+        "B": "The outcome of a toss depends on the result of the previous toss.",
+        "C": "The sample space for a single toss is {Head, Tail}.",
+        "D": "The probability of getting Head in a single toss is 1/2."
+      },
+      "correct_option": "B",
+      "answer": "The outcome of a toss depends on the result of the previous toss.",
+      "explanation": "The outcome of each coin toss is independent of earlier tosses; it can be Head or Tail regardless of what happened before. Options A, C, and D correctly describe the outcomes and probabilities. Option B is a misconception because past results do not influence future results in a random experiment.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand events",
+      "question": "When a fair die is rolled, let event E be \"the number obtained is even\" and event F be \"the number obtained is greater than 4\". Which statement is correct?",
+      "options": {
+        "A": "E and F are mutually exclusive.",
+        "B": "E and F are independent events.",
+        "C": "E and F can occur together when the number 6 appears.",
+        "D": "E is a subset of F."
+      },
+      "correct_option": "C",
+      "answer": "E and F can occur together when the number 6 appears.",
+      "explanation": "Even numbers are {2,4,6} and numbers greater than 4 are {5,6}. Their intersection is {6}, so both events can happen simultaneously when 6 is rolled. Therefore option C is correct. Options A and D are false because the events are not mutually exclusive nor is one a subset of the other. Option B is false because the occurrence of one affects the probability of the other (they are not independent).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Estimate probability from experimental data",
+      "question": "A bag contains 3 red, 2 blue, and 5 green marbles. A student draws a marble, records its colour, replaces it, and repeats the experiment 200 times. The experimental probability of drawing a red marble is found to be 0.28. Which statement best compares this experimental probability with the theoretical probability?",
+      "options": {
+        "A": "The experimental probability is exactly equal to the theoretical probability.",
+        "B": "The experimental probability is considerably higher than the theoretical probability.",
+        "C": "The experimental probability is close to, but slightly less than, the theoretical probability.",
+        "D": "The experimental probability is unrelated to the theoretical probability."
+      },
+      "correct_option": "C",
+      "answer": "The experimental probability is close to, but slightly less than, the theoretical probability.",
+      "explanation": "The theoretical probability of drawing a red marble is 3/(3+2+5) = 3/10 = 0.30. The experimental value 0.28 differs by only 0.02, indicating it is close but a little lower. Option C captures this relationship. Option A is false because they are not exactly equal; B is false because the experimental value is not considerably higher; D is false because experimental and theoretical probabilities are related through the law of large numbers.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Compare experimental frequencies with expected likelihood",
+      "question": "In a class of 60 students, a fair coin is tossed 30 times and heads appear 22 times. Which statement best reflects the comparison between the experimental frequency of heads and the expected likelihood?",
+      "options": {
+        "A": "The experimental frequency of heads is lower than the expected likelihood of 0.5.",
+        "B": "The experimental frequency of heads equals the expected likelihood of 0.5.",
+        "C": "The experimental frequency of heads is higher than the expected likelihood of 0.5.",
+        "D": "The experimental frequency cannot be compared with the expected likelihood."
+      },
+      "correct_option": "C",
+      "answer": "The experimental frequency of heads is higher than the expected likelihood of 0.5.",
+      "explanation": "For a fair coin, the expected likelihood (theoretical probability) of heads is 0.5. In 30 tosses, the expected number of heads is 30 × 0.5 = 15. The observed (experimental) number is 22, which is greater than 15, so the experimental frequency (22/30 ≈ 0.733) is higher than the expected likelihood. Hence option C is correct. Options A and B contradict the observed data, and D is incorrect because such a comparison is standard in probability analysis.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand random experiments",
+      "question": "Which of the following best describes a random experiment in probability?",
+      "options": {
+        "A": "An experiment that can be performed only once.",
+        "B": "An experiment whose outcome can be predicted with certainty before it is performed.",
+        "C": "An experiment that has a fixed set of possible outcomes but the actual outcome cannot be predicted in advance.",
+        "D": "An experiment that always yields the same outcome each time it is repeated."
+      },
+      "correct_option": "C",
+      "answer": "An experiment that has a fixed set of possible outcomes but the actual outcome cannot be predicted in advance.",
+      "explanation": "A random experiment is characterized by a well‑defined sample space of possible outcomes, yet the specific result of any single trial is uncertain. Option C captures this definition. Option A is unrelated to randomness, B describes a deterministic experiment, and D contradicts the notion of randomness.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "When two standard dice are rolled, which list correctly represents all possible outcomes for the sum of the numbers shown?",
+      "options": {
+        "A": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+        "B": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+        "C": "2, 3, 4, 5, 6, 7, 8, 9, 10",
+        "D": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12"
+      },
+      "correct_option": "A",
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "explanation": "The smallest possible sum is 1+1 = 2 and the largest is 6+6 = 12, giving the complete set {2,…,12}. Option A lists exactly these sums. Option B incorrectly includes 1, which is impossible. Option C omits 11 and 12. Option D omits 2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand events",
+      "question": "Which statement correctly distinguishes a simple event from a compound event in probability?",
+      "options": {
+        "A": "A simple event consists of a single outcome, whereas a compound event consists of two or more outcomes.",
+        "B": "A simple event is always more likely than a compound event.",
+        "C": "A compound event cannot be expressed as a union of simple events.",
+        "D": "A simple event involves more than one trial, while a compound event involves only one trial."
+      },
+      "correct_option": "A",
+      "answer": "A simple event consists of a single outcome, whereas a compound event consists of two or more outcomes.",
+      "explanation": "In probability, a simple (or elementary) event corresponds to one specific outcome of the sample space. A compound event is formed by combining two or more simple events (using union, intersection, etc.). Option A states this definition accurately. Options B, C, and D are incorrect misconceptions about likelihood and the nature of trials.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Estimate probability from experimental data",
+      "question": "A spinner is divided into four equal sectors numbered 1 to 4. It is spun 40 times and lands on sector 2 a total of 7 times. What is the experimental probability of landing on sector 2?",
+      "options": {
+        "A": "7/40",
+        "B": "1/4",
+        "C": "7/20",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "answer": "7/40",
+      "explanation": "Experimental probability = (Number of favorable outcomes) / (Total number of trials) = 7 / 40. Option A gives this fraction. Option B is the theoretical probability for a fair spinner, not the experimental value. Options C and D are unrelated fractions.",
+      "difficulty": "easy"
+    }
+  ]
+}
