@@ -1,0 +1,150 @@
+{
+  "day": 108,
+  "batch_id": "DAY-108-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "LU-00451-MCQ-65",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Calculate mean for ungrouped data",
+      "question": "The ages (in years) of 7 students are: 12, 15, 13, 14, 16, 11, 13. What is the arithmetic mean of these ages?",
+      "options": {
+        "A": "13",
+        "B": "13.4",
+        "C": "14",
+        "D": "12.5"
+      },
+      "correct_option": "B",
+      "answer": "13.4",
+      "explanation": "Add the ages: 12+15+13+14+16+11+13 = 94. Divide by the number of students (7): 94 ÷ 7 = 13.4286, which rounds to 13.4. Hence option B is correct. The other options are either underestimates or overestimates of the true mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-00451-MCQ-66",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Understand median",
+      "question": "Nine students scored the following marks out of 100: 78, 85, 92, 88, 76, 81, 90, 84, 79. What is the median score?",
+      "options": {
+        "A": "81",
+        "B": "84",
+        "C": "85",
+        "D": "88"
+      },
+      "correct_option": "B",
+      "answer": "84",
+      "explanation": "First arrange the scores in ascending order: 76, 78, 79, 81, 84, 85, 88, 90, 92. With 9 observations, the median is the 5th value, which is 84. Therefore option B is correct. The other options correspond to other positions in the ordered list.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-00451-MCQ-67",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Find the median of ordered data",
+      "question": "A student believes that for an even number of observations the median is the larger of the two middle numbers. Given the ordered data set 5, 7, 9, 11, 13, 15, what is the correct median?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "13"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "For an even number of observations (6 in this case), the median is the average of the two middle numbers, the 3rd and 4th values: (9 + 11) ÷ 2 = 10. Option B is correct. Option A and C are the individual middle numbers, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "LU-00451-MCQ-68",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Understand mode",
+      "question": "In the data set {4, 8, 8, 12, 15, 15, 15, 20}, which statement about the mode is correct?",
+      "options": {
+        "A": "The mode is 8 because it appears first.",
+        "B": "The mode is 15 because it appears most frequently.",
+        "C": "There is no mode because all numbers are different.",
+        "D": "The mode is the average of all numbers."
+      },
+      "correct_option": "B",
+      "answer": "The mode is 15 because it appears most frequently.",
+      "explanation": "The mode is the value occurring most often. In this set, 15 occurs three times, more than any other number, so option B correctly identifies the mode. Option A confuses order with frequency, C is false because repetitions exist, and D describes the mean, not the mode.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "LU-00451-MCQ-69",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Identify the most frequent observation",
+      "question": "Dataset A: {2, 3, 3, 5, 7, 7, 7, 9}. Dataset B: {1, 1, 2, 2, 2, 3, 4, 5}. Which dataset has a higher frequency of its mode?",
+      "options": {
+        "A": "Dataset A",
+        "B": "Dataset B",
+        "C": "Both have the same frequency",
+        "D": "Neither dataset has a mode"
+      },
+      "correct_option": "C",
+      "answer": "Both have the same frequency",
+      "explanation": "In Dataset A, the mode is 7, occurring 3 times. In Dataset B, the mode is 2, also occurring 3 times. Hence both datasets have the same highest frequency, making option C correct. Options A and B incorrectly claim one dataset exceeds the other, while D is false because each set does have a mode.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-00451-MCQ-70",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Compare mean, median and mode",
+      "question": "For a positively skewed distribution, which relationship among the mean, median, and mode is generally true?",
+      "options": {
+        "A": "Mean > Median > Mode",
+        "B": "Mode > Median > Mean",
+        "C": "Median > Mean > Mode",
+        "D": "Mean = Median = Mode"
+      },
+      "correct_option": "A",
+      "answer": "Mean > Median > Mode",
+      "explanation": "In a positively (right) skewed distribution, the tail stretches to the right, pulling the mean upward more than the median, while the mode remains at the peak on the left. Therefore, the typical order is Mean > Median > Mode, which is option A. The other options describe different or impossible relationships for a positively skewed set.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-00451-MCQ-71",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Understand arithmetic mean",
+      "question": "The arithmetic mean of a data set is defined as:",
+      "options": {
+        "A": "The sum of all observations divided by the number of observations",
+        "B": "The middle value when the data are arranged in order",
+        "C": "The most frequently occurring observation",
+        "D": "The difference between the largest and smallest observations"
+      },
+      "correct_option": "A",
+      "answer": "The sum of all observations divided by the number of observations",
+      "explanation": "The arithmetic mean (average) is calculated by adding all the values together and dividing by how many values there are. Option A states this definition precisely. Option B describes the median, C the mode, and D the range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-00451-MCQ-72",
+      "learning_unit_id": "LU-00451",
+      "learning_point": "Calculate mean for ungrouped data",
+      "question": "The arithmetic mean of a set of ungrouped data is obtained by:",
+      "options": {
+        "A": "Adding all observations and dividing by the total number of observations",
+        "B": "Multiplying all observations and taking the nth root",
+        "C": "Finding the middle observation after arranging the data in order",
+        "D": "Identifying the observation that occurs most frequently"
+      },
+      "correct_option": "A",
+      "answer": "Adding all observations and dividing by the total number of observations",
+      "explanation": "For ungrouped data, the mean is calculated by summing every data point and dividing by the count of data points. This is exactly what option A describes. Option B refers to the geometric mean, C to the median, and D to the mode.",
+      "difficulty": "easy"
+    }
+  ]
+}
