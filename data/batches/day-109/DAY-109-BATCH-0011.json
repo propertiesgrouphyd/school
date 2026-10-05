@@ -1,0 +1,150 @@
+{
+  "day": 109,
+  "batch_id": "DAY-109-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand random experiments",
+      "question": "Which of the following best describes a random experiment in probability?",
+      "options": {
+        "A": "An experiment with a predetermined outcome.",
+        "B": "An experiment that can be performed only once.",
+        "C": "An experiment whose outcome cannot be predicted in advance but can be repeated under the same conditions.",
+        "D": "An experiment that always yields the same result."
+      },
+      "correct_option": "C",
+      "answer": "An experiment whose outcome cannot be predicted in advance but can be repeated under the same conditions.",
+      "explanation": "A random experiment is one that can be repeated under identical conditions, yet its individual outcome is uncertain before it is performed. Option C captures this definition. Options A, B, and D describe deterministic or non‑repeatable situations, which are not random experiments.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "When a fair six‑sided die is rolled once, which of the following lists contains all possible outcomes?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{0, 1, 2, 3, 4, 5}",
+        "C": "{1, 2, 3, 4, 5}",
+        "D": "{2, 4, 6}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "A standard die has six faces numbered 1 through 6, so these six numbers constitute the complete set of outcomes. Options B, C, and D omit or add numbers that are not faces of the die.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand events",
+      "question": "In the context of rolling two dice, the event \"sum is 7\" is best described as:",
+      "options": {
+        "A": "A single outcome.",
+        "B": "A set of outcomes that satisfy a particular condition.",
+        "C": "The probability of getting a 7.",
+        "D": "The number of ways to obtain a 7."
+      },
+      "correct_option": "B",
+      "answer": "A set of outcomes that satisfy a particular condition.",
+      "explanation": "An event is a collection of one or more outcomes that share a defined property. \"Sum is 7\" includes several ordered pairs such as (1,6), (2,5), etc., making it a set of outcomes. Option A describes a single outcome, while C and D refer to probability and counting, not the definition of an event.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Estimate probability from experimental data",
+      "question": "A coin is tossed 20 times and heads appears 12 times. What is the experimental probability of obtaining heads?",
+      "options": {
+        "A": "0.4",
+        "B": "0.5",
+        "C": "0.6",
+        "D": "0.8"
+      },
+      "correct_option": "C",
+      "answer": "0.6",
+      "explanation": "Experimental probability = (Number of favorable outcomes) / (Total trials) = 12 / 20 = 0.6. The other options correspond to different ratios.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Compare experimental frequencies with expected likelihood",
+      "question": "A bag contains 3 red, 2 blue, and 5 green balls (total 10). A student draws a ball, records its colour, and replaces it, repeating this 50 times. The recorded frequencies are: red = 18, blue = 12, green = 20. Which colour shows the greatest deviation from its theoretical probability?",
+      "options": {
+        "A": "Red",
+        "B": "Blue",
+        "C": "Green",
+        "D": "All colours deviate equally"
+      },
+      "correct_option": "C",
+      "answer": "Green",
+      "explanation": "Theoretical probabilities: red = 3/10 = 0.30 → expected 15 draws; blue = 2/10 = 0.20 → expected 10 draws; green = 5/10 = 0.50 → expected 25 draws. Deviations: |18‑15| = 3 (red), |12‑10| = 2 (blue), |20‑25| = 5 (green). Green deviates the most. Options A, B, and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand random experiments",
+      "question": "A student flips a fair coin repeatedly until the first tail appears. Which statement about this experiment is true?",
+      "options": {
+        "A": "The number of flips is fixed in advance.",
+        "B": "The experiment is not random because the outcome is certain.",
+        "C": "The sample space consists of all finite sequences that end with the first tail.",
+        "D": "The probability of obtaining exactly three heads before the first tail is 1/8."
+      },
+      "correct_option": "C",
+      "answer": "The sample space consists of all finite sequences that end with the first tail.",
+      "explanation": "The experiment continues until a tail occurs, so each possible outcome is a sequence of zero or more heads followed by a tail (e.g., T, HT, HHT, …). This defines the sample space, making option C correct. Option A is false because the number of flips is not predetermined. Option B misinterprets randomness. Option D is incorrect because the probability of three heads then a tail is (1/2)^4 = 1/16, not 1/8.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "A student claims that when a standard die is rolled, the outcome \"7\" is possible because the die has numbers up to 7. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "The outcome 7 is possible if the die is rolled hard enough.",
+        "B": "The set of outcomes is determined by the faces of the die, so 7 is not possible.",
+        "C": "Outcomes are random, so any number could appear.",
+        "D": "The die can show 7 if it lands on its edge."
+      },
+      "correct_option": "B",
+      "answer": "The set of outcomes is determined by the faces of the die, so 7 is not possible.",
+      "explanation": "A standard die has six faces numbered 1 to 6; therefore the sample space is {1,2,3,4,5,6}. Numbers not printed on a face, such as 7, cannot occur regardless of how the die is thrown. Options A, C, and D introduce incorrect reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand events",
+      "question": "Two cards are drawn from a standard 52‑card deck without replacement. Let event A be \"the first card is a heart\" and event B be \"the second card is a heart\". Which statement is true?",
+      "options": {
+        "A": "Events A and B are independent.",
+        "B": "P(B) = 13/52 regardless of A.",
+        "C": "P(B | A) = 12/51.",
+        "D": "P(A ∩ B) = (13/52) × (13/52)."
+      },
+      "correct_option": "C",
+      "answer": "P(B | A) = 12/51.",
+      "explanation": "If the first card is a heart, there are now 12 hearts left out of 51 remaining cards, so P(B | A) = 12/51. Hence A and B are not independent (option A false), and the unconditional probability of B is 13/52 only before any draw (option B false after the first draw). Option D incorrectly multiplies unconditional probabilities, which is not the joint probability without independence.",
+      "difficulty": "medium"
+    }
+  ]
+}
