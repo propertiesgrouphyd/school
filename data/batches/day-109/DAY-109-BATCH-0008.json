@@ -1,0 +1,150 @@
+{
+  "day": 109,
+  "batch_id": "DAY-109-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "A student tosses a fair coin three times and records the sequence of heads (H) and tails (T). Which of the following is NOT a possible outcome of this experiment?",
+      "options": {
+        "A": "HHT",
+        "B": "THH",
+        "C": "HTH",
+        "D": "HHHH"
+      },
+      "correct_option": "D",
+      "answer": "HHHH",
+      "explanation": "Each toss of a coin can give H or T, so for three tosses the longest possible sequence has three symbols. \"HHHH\" contains four symbols, which cannot occur in three tosses. The other three sequences are all valid outcomes. Hence option D is the only impossible outcome.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand events",
+      "question": "When a single die is rolled, let event A be \"the number obtained is a multiple of 2\" and event B be \"the number obtained is greater than 4\". Which statement about these events is true?",
+      "options": {
+        "A": "The events are mutually exclusive.",
+        "B": "Event A is a subset of event B.",
+        "C": "The events are not mutually exclusive and not independent.",
+        "D": "The events are independent."
+      },
+      "correct_option": "C",
+      "answer": "The events are not mutually exclusive and not independent.",
+      "explanation": "Event A = {2,4,6}; Event B = {5,6}. They share the outcome 6, so they are not mutually exclusive. Because P(A) = 3/6 = 0.5, P(B) = 2/6 ≈ 0.333, and P(A∩B) = 1/6 ≈ 0.167, we have P(A∩B) ≠ P(A)·P(B) (0.5×0.333≈0.167). Hence the events are also not independent. Option C correctly describes the relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Estimate probability from experimental data",
+      "question": "A die is rolled 60 times and the number 6 appears 12 times. Which statement best compares the experimental probability of getting a 6 with the theoretical probability?",
+      "options": {
+        "A": "The experimental probability (12/60 = 0.20) is greater than the theoretical probability (1/6 ≈ 0.1667).",
+        "B": "The experimental probability is less than the theoretical probability.",
+        "C": "Both probabilities are equal.",
+        "D": "The experimental probability cannot be compared because the sample size is too small."
+      },
+      "correct_option": "A",
+      "answer": "The experimental probability (12/60 = 0.20) is greater than the theoretical probability (1/6 ≈ 0.1667).",
+      "explanation": "Experimental probability = number of favorable outcomes ÷ total trials = 12/60 = 0.20. Theoretical probability of a 6 on a fair die = 1/6 ≈ 0.1667. Since 0.20 > 0.1667, the experimental value is higher. Option A states this correctly; the other options are inaccurate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Compare experimental frequencies with expected likelihood",
+      "question": "In an experiment, a biased coin is tossed 200 times and lands heads 130 times. If the theoretical probability of heads for this coin is 0.60, which statement is correct regarding the experimental frequency?",
+      "options": {
+        "A": "The experimental probability (0.65) is higher than the theoretical value, suggesting the coin may be more biased towards heads.",
+        "B": "The experimental probability (0.65) is lower than the theoretical value, indicating a measurement error.",
+        "C": "The experimental probability equals the theoretical probability, confirming the given bias.",
+        "D": "The experimental probability cannot be compared because 200 trials are insufficient."
+      },
+      "correct_option": "A",
+      "answer": "The experimental probability (0.65) is higher than the theoretical value, suggesting the coin may be more biased towards heads.",
+      "explanation": "Experimental probability = 130/200 = 0.65. The given theoretical probability is 0.60. Since 0.65 > 0.60, the observed frequency is higher than expected, indicating the coin might be more biased toward heads than assumed. Option A captures this comparison accurately; the other options misstate the relationship or the adequacy of the sample size.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand random experiments",
+      "question": "Which of the following best defines a random experiment in probability?",
+      "options": {
+        "A": "An experiment that can be performed only once.",
+        "B": "An experiment whose outcome is predetermined.",
+        "C": "An experiment that can be repeated under identical conditions and whose outcome cannot be predicted with certainty.",
+        "D": "An experiment that always yields the same outcome."
+      },
+      "correct_option": "C",
+      "answer": "An experiment that can be repeated under identical conditions and whose outcome cannot be predicted with certainty.",
+      "explanation": "A random experiment must be repeatable under the same conditions, yet each individual trial yields an outcome that is not known in advance. Option C captures both repeatability and uncertainty, which are essential features. The other options describe non‑random or overly restrictive situations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Identify outcomes",
+      "question": "When a single die is rolled once, which of the following lists all possible outcomes?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{0, 1, 2, 3, 4, 5, 6}",
+        "C": "{1, 2, 3, 4, 5}",
+        "D": "{2, 4, 6}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "A standard die has six faces numbered 1 through 6. Therefore the complete set of possible outcomes when it is rolled once is {1,2,3,4,5,6}. Options B, C, and D either include an impossible outcome (0) or omit valid outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Understand events",
+      "question": "In probability, what is the difference between an outcome and an event?",
+      "options": {
+        "A": "An outcome is a single result of an experiment, while an event is a set of one or more outcomes.",
+        "B": "An outcome is a set of results, while an event is a single result.",
+        "C": "Both terms mean the same thing.",
+        "D": "An outcome occurs only in theoretical probability, an event only in experimental probability."
+      },
+      "correct_option": "A",
+      "answer": "An outcome is a single result of an experiment, while an event is a set of one or more outcomes.",
+      "explanation": "The basic terminology: each trial of an experiment produces one outcome. An event groups together one or more outcomes that share a property of interest. Hence option A correctly distinguishes the two. The other options either reverse the definitions or claim they are identical, which is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00452",
+      "learning_point": "Estimate probability from experimental data",
+      "question": "A bag contains 4 red and 6 blue marbles. A marble is drawn, its color noted, and then the marble is replaced. This is repeated 20 times, and red is drawn 9 times. What is the experimental probability of drawing a red marble?",
+      "options": {
+        "A": "9/20",
+        "B": "4/10",
+        "C": "1/2",
+        "D": "6/20"
+      },
+      "correct_option": "A",
+      "answer": "9/20",
+      "explanation": "Experimental probability = (number of times the event occurs) ÷ (total number of trials) = 9 ÷ 20 = 9/20. Option A matches this calculation. Options B, C, and D are unrelated fractions.",
+      "difficulty": "easy"
+    }
+  ]
+}
