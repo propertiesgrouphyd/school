@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Prove that square roots of selected primes are irrational",
+      "question": "Which of the following statements correctly proves that \\(\\sqrt{2}\\) is irrational?",
+      "options": {
+        "A": "Assume \\(\\sqrt{2}=p/q\\) where \\(p,q\\) are integers with no common factor. Squaring gives \\(p^{2}=2q^{2}\\), which implies \\(p\\) is even, leading to a contradiction.",
+        "B": "Assume \\(\\sqrt{2}=p/q\\). Then \\(p^{2}=2q^{2}\\) implies \\(p\\) is odd, contradicting the assumption.",
+        "C": "Assume \\(\\sqrt{2}=p/q\\). Then \\(p^{2}=q^{2}/2\\), which is impossible for integers.",
+        "D": "Assume \\(\\sqrt{2}=p/q\\). Then \\(p=2q\\), which shows \\(\\sqrt{2}\\) is rational."
+      },
+      "correct_option": "A",
+      "answer": "Assume \\(\\sqrt{2}=p/q\\) where \\(p,q\\) are integers with no common factor. Squaring gives \\(p^{2}=2q^{2}\\), which implies \\(p\\) is even, leading to a contradiction.",
+      "explanation": "The classic proof by contradiction starts by assuming \\(\\sqrt{2}\\) is rational, i.e., \\(\\sqrt{2}=p/q\\) with \\(p,q\\) coprime. Squaring gives \\(p^{2}=2q^{2}\\); thus \\(p^{2}\\) is even, so \\(p\\) is even. Write \\(p=2k\\); substituting back yields \\(4k^{2}=2q^{2}\\) or \\(q^{2}=2k^{2}\\), so \\(q\\) is also even, contradicting the coprime assumption. Hence \\(\\sqrt{2}\\) is irrational. Options B, C, and D contain incorrect logical steps.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Distinguish rational and irrational numbers",
+      "question": "Which of the following numbers is rational?",
+      "options": {
+        "A": "√5",
+        "B": "0.333…",
+        "C": "π",
+        "D": "√2"
+      },
+      "correct_option": "B",
+      "answer": "0.333…",
+      "explanation": "A rational number can be expressed as a ratio of two integers. The decimal 0.333… is the repeating decimal for \\(\\frac{1}{3}\\), so it is rational. \\(\\sqrt{5}\\) and \\(\\sqrt{2}\\) are known to be irrational, and \\(π\\) is also irrational.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand consequences of rational and irrational number properties",
+      "question": "If the sum of a rational number and an irrational number is rational, what can be concluded about the irrational number?",
+      "options": {
+        "A": "The irrational number must actually be rational.",
+        "B": "The irrational number must be zero.",
+        "C": "Such a situation is impossible.",
+        "D": "The irrational number must be irrational."
+      },
+      "correct_option": "C",
+      "answer": "Such a situation is impossible.",
+      "explanation": "Let \\(r\\) be rational and \\(i\\) be irrational. If \\(r+i\\) were rational, then \\(i = (r+i) - r\\) would be the difference of two rational numbers, which is rational—a contradiction. Therefore the sum of a rational and an irrational number cannot be rational; the situation described is impossible.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand the meaning of irrational number",
+      "question": "A student claims that the decimal 0.101001000100001… (with an increasing number of zeros between the ones) is rational because it repeats eventually. Which statement is true?",
+      "options": {
+        "A": "The decimal terminates after a finite number of digits.",
+        "B": "The decimal becomes periodic after some point.",
+        "C": "The decimal is non‑terminating and non‑repeating, therefore irrational.",
+        "D": "The decimal equals \\(\\frac{1}{9}\\)."
+      },
+      "correct_option": "C",
+      "answer": "The decimal is non‑terminating and non‑repeating, therefore irrational.",
+      "explanation": "A rational decimal either terminates or eventually repeats. In the given decimal the pattern of zeros keeps increasing, so there is no fixed block that repeats. Hence the decimal is non‑terminating and non‑repeating, which classifies it as irrational. Options A, B, and D are incorrect descriptions of the number.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Use contradiction in elementary irrationality proofs",
+      "question": "In a proof that \\(\\sqrt{3}\\) is irrational, a student assumes \\(\\sqrt{3}=p/q\\) (in lowest terms) and then states that \"p is odd, therefore the proof is complete.\" What is the flaw in this reasoning?",
+      "options": {
+        "A": "Assuming \\(p\\) and \\(q\\) are coprime.",
+        "B": "Concluding that \\(p\\) is odd without first showing \\(q\\) is even.",
+        "C": "Using the even‑odd argument for \\(\\sqrt{3}\\) instead of \\(\\sqrt{2}\\).",
+        "D": "There is no flaw; the proof is complete."
+      },
+      "correct_option": "B",
+      "answer": "Concluding that \\(p\\) is odd without first showing \\(q\\) is even.",
+      "explanation": "To prove \\(\\sqrt{3}\\) irrational, after assuming \\(\\sqrt{3}=p/q\\) with \\(p,q\\) coprime, squaring gives \\(p^{2}=3q^{2}\\). This forces \\(p\\) to be a multiple of 3, say \\(p=3k\\). Substituting back shows \\(q\\) is also a multiple of 3, contradicting coprimality. Simply stating \"p is odd\" does not lead to a contradiction; the necessary step is to show both \\(p\\) and \\(q\\) share a factor. Hence option B identifies the missing step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Prove that square roots of selected primes are irrational",
+      "question": "Which of the following numbers has an irrational square root?",
+      "options": {
+        "A": "√2",
+        "B": "√4",
+        "C": "√9",
+        "D": "√16"
+      },
+      "correct_option": "A",
+      "answer": "√2",
+      "explanation": "The square root of a prime number is always irrational. 2 is prime, so \\(\\sqrt{2}\\) is irrational. The other options are square roots of perfect squares (4, 9, 16) and equal to integers (2, 3, 4), which are rational.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Distinguish rational and irrational numbers",
+      "question": "Select the pair that correctly classifies the first number as irrational and the second as rational.",
+      "options": {
+        "A": "√8 is irrational and 0.75 is rational.",
+        "B": "√9 is irrational and 5/2 is rational.",
+        "C": "√2 is rational and 3.1415… is irrational.",
+        "D": "√16 is irrational and 2 is rational."
+      },
+      "correct_option": "A",
+      "answer": "√8 is irrational and 0.75 is rational.",
+      "explanation": "√8 = 2√2, and √2 is irrational, so √8 is irrational. 0.75 = 3/4, a ratio of integers, hence rational. Option B is wrong because √9 = 3 (rational). Option C incorrectly labels √2 as rational. Option D incorrectly labels √16 = 4 as irrational.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand consequences of rational and irrational number properties",
+      "question": "In a competitive exam, a problem states: If \\(a\\) and \\(b\\) are rational numbers such that \\(a + \\sqrt{2}\\,b\\) is rational, what must be true about \\(b\\)?",
+      "options": {
+        "A": "b must be zero.",
+        "B": "b must be a rational number.",
+        "C": "b must be an irrational number.",
+        "D": "No restriction on b."
+      },
+      "correct_option": "A",
+      "answer": "b must be zero.",
+      "explanation": "Let \\(a, b\\) be rational and suppose \\(a + \\sqrt{2}\\,b\\) is rational. Rearranging gives \\(\\sqrt{2}\\,b = \\text{(rational)} - a\\), which is rational. Since \\(\\sqrt{2}\\) is irrational, the only way their product can be rational is if \\(b = 0\\). Hence option A is correct; the other options ignore this necessary condition.",
+      "difficulty": "hard"
+    }
+  ]
+}
