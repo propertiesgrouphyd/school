@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Which of the following statements reflects a common misconception about the uniqueness of prime factorisation of a positive integer?",
+      "options": {
+        "A": "Every integer greater than 1 can be written as a product of prime numbers in only one way, except for the order of the factors.",
+        "B": "The number 30 can be expressed as 2×3×5 and also as 2×15, so its prime factorisation is not unique.",
+        "C": "If a number has two different prime factorizations, then at least one of the factors must be composite.",
+        "D": "The Fundamental Theorem of Arithmetic guarantees a unique prime factorisation for each integer greater than 1."
+      },
+      "correct_option": "B",
+      "answer": "The number 30 can be expressed as 2×3×5 and also as 2×15, so its prime factorisation is not unique.",
+      "explanation": "The statement in option B is a misconception. While 30 = 2×3×5 is its prime factorisation, 2×15 is not a prime factorisation because 15 is composite. The Fundamental Theorem of Arithmetic ensures that the representation as a product of primes is unique up to order. Options A and D are correct statements, and option C is irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the highest common factor (HCF) of 84 and 126 using prime factorisation.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "14",
+        "D": "42"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "Prime factorisation: 84 = 2² × 3 × 7, 126 = 2 × 3² × 7. The common primes are 2, 3, and 7 with the lowest powers: 2¹, 3¹, 7¹. Multiplying gives 2 × 3 × 7 = 12, which is the HCF. The other options are either too small or too large.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "Using prime factorisation, determine the least common multiple (LCM) of 45 and 60.",
+      "options": {
+        "A": "180",
+        "B": "90",
+        "C": "120",
+        "D": "240"
+      },
+      "correct_option": "A",
+      "answer": "180",
+      "explanation": "Prime factorisation: 45 = 3² × 5, 60 = 2² × 3 × 5. For the LCM, take the highest power of each prime: 2², 3², 5¹. Multiplying gives 4 × 9 × 5 = 180. Options B, C, and D miss at least one required prime power.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "Two positive integers have HCF = 12 and LCM = 180. If one of the numbers is 36, what is the other number?",
+      "options": {
+        "A": "60",
+        "B": "45",
+        "C": "75",
+        "D": "90"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "For any two numbers a and b, a × b = HCF × LCM. Let the unknown number be x. Then 36 × x = 12 × 180 ⇒ 36x = 2160 ⇒ x = 60. Option A satisfies the relationship; the others do not.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following correctly defines a prime number and a composite number?",
+      "options": {
+        "A": "A prime number has exactly two distinct positive divisors; a composite number has more than two.",
+        "B": "A prime number has only one divisor; a composite number has exactly two.",
+        "C": "A prime number is divisible by 1, itself, and exactly one other number; a composite number has no divisors other than 1 and itself.",
+        "D": "Both statements in options B and C are correct."
+      },
+      "correct_option": "A",
+      "answer": "A prime number has exactly two distinct positive divisors; a composite number has more than two.",
+      "explanation": "A prime number is divisible only by 1 and itself, giving exactly two distinct positive divisors. Any integer greater than 1 that has more than two divisors is composite. Options B and C give incorrect definitions, and D is therefore wrong.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Express the number 210 as a product of its prime factors.",
+      "options": {
+        "A": "2 × 3 × 5 × 7",
+        "B": "2 × 3 × 5 × 7 × 1",
+        "C": "2 × 105",
+        "D": "3 × 70"
+      },
+      "correct_option": "A",
+      "answer": "2 × 3 × 5 × 7",
+      "explanation": "210 ÷ 2 = 105, 105 ÷ 3 = 35, 35 ÷ 5 = 7, and 7 is prime. Hence the complete prime factorisation is 2 × 3 × 5 × 7. Options B includes an unnecessary factor 1, while C and D are not fully broken down into primes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Which statement best describes the uniqueness part of the Fundamental Theorem of Arithmetic?",
+      "options": {
+        "A": "A positive integer greater than 1 can be written as a product of prime numbers in more than one way.",
+        "B": "The prime factorisation of a number is unique up to the order of the prime factors.",
+        "C": "Only composite numbers have unique prime factorisations.",
+        "D": "Uniqueness applies only to even numbers."
+      },
+      "correct_option": "B",
+      "answer": "The prime factorisation of a number is unique up to the order of the prime factors.",
+      "explanation": "The theorem states that every integer >1 can be expressed as a product of primes in exactly one way, ignoring the order of the factors. Option A contradicts uniqueness, C is false because primes themselves also have a unique factorisation (themselves), and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the HCF of 56 and 98 by first writing their prime factorisations.",
+      "options": {
+        "A": "14",
+        "B": "7",
+        "C": "28",
+        "D": "56"
+      },
+      "correct_option": "A",
+      "answer": "14",
+      "explanation": "Prime factorisations: 56 = 2³ × 7, 98 = 2 × 7². The common primes are 2¹ and 7¹. Multiplying gives 2 × 7 = 14, the HCF. Options B, C, and D either miss a common factor or exceed the common part.",
+      "difficulty": "easy"
+    }
+  ]
+}

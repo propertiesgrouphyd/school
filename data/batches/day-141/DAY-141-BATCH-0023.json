@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following statements correctly defines a prime number and distinguishes it from a composite number?",
+      "options": {
+        "A": "A prime number has exactly two distinct positive divisors, 1 and itself; a composite number has more than two positive divisors.",
+        "B": "A prime number has only one divisor, 1; a composite number has exactly two divisors.",
+        "C": "A prime number is any odd number greater than 2; a composite number is any even number.",
+        "D": "A prime number can be written as a product of smaller natural numbers; a composite number cannot."
+      },
+      "correct_option": "A",
+      "answer": "A prime number has exactly two distinct positive divisors, 1 and itself; a composite number has more than two positive divisors.",
+      "explanation": "A prime number is defined as having exactly two distinct positive factors: 1 and the number itself. Any integer greater than 1 that has more than two positive factors is called composite. Option A states this precisely, while the other options give incorrect definitions or properties.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Express 84 as a product of prime numbers.",
+      "options": {
+        "A": "2 × 2 × 3 × 7",
+        "B": "2 × 3 × 14",
+        "C": "3 × 28",
+        "D": "4 × 21"
+      },
+      "correct_option": "A",
+      "answer": "2 × 2 × 3 × 7",
+      "explanation": "84 ÷ 2 = 42, ÷ 2 = 21, ÷ 3 = 7, ÷ 7 = 1. Hence the prime factorisation is 2×2×3×7. Options B, C and D include composite factors, so they are not full prime factorizations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Which of the following demonstrates the uniqueness of prime factorisation for the number 180?",
+      "options": {
+        "A": "180 = 2 × 2 × 3 × 3 × 5, and no other combination of primes gives 180.",
+        "B": "180 = 2 × 90 = 3 × 60 = 5 × 36, showing many ways.",
+        "C": "180 = 6 × 30 = 9 × 20, indicating different prime sets.",
+        "D": "180 = 12 × 15 = 20 × 9, which are not prime factorizations."
+      },
+      "correct_option": "A",
+      "answer": "180 = 2 × 2 × 3 × 3 × 5, and no other combination of primes gives 180.",
+      "explanation": "The Fundamental Theorem of Arithmetic states that every integer >1 can be written as a product of primes in one way only, up to the order of the factors. Option A shows the unique prime factorisation of 180; the other options either use composite factors or suggest multiple distinct prime decompositions, which is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the Highest Common Factor (HCF) of 48 and 180 using prime factorisation.",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "36",
+        "D": "48"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Prime factors: 48 = 2^4 × 3, 180 = 2^2 × 3^2 × 5. The common primes are 2^2 and 3^1, so HCF = 2^2 × 3 = 4 × 3 = 12. The other options correspond to larger multiples that are not common to both numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "What is the Least Common Multiple (LCM) of 12 and 18? (Identify the common mistake in the options.)",
+      "options": {
+        "A": "108 (obtained by multiplying 12 and 18, which is incorrect)",
+        "B": "36 (correct LCM using prime factors)",
+        "C": "30 (incorrect, missing factor 2)",
+        "D": "24 (incorrect, missing factor 3)"
+      },
+      "correct_option": "B",
+      "answer": "36 (correct LCM using prime factors)",
+      "explanation": "Prime factors: 12 = 2^2 × 3, 18 = 2 × 3^2. LCM takes the highest power of each prime: 2^2 × 3^2 = 4 × 9 = 36. Option A shows the common mistake of simply multiplying the numbers (12×18=216, not 108), which overestimates the LCM. Options C and D miss one of the required prime powers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "Two numbers have HCF = 12 and LCM = 180. What is the product of the two numbers?",
+      "options": {
+        "A": "2160",
+        "B": "1500",
+        "C": "1920",
+        "D": "1800"
+      },
+      "correct_option": "A",
+      "answer": "2160",
+      "explanation": "For any two positive integers, the product equals the product of their HCF and LCM: a·b = HCF × LCM. Hence a·b = 12 × 180 = 2160. The other options are results of incorrect arithmetic or misapplied formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Consider the statements below:\n1) Every prime number is odd.\n2) Every composite number can be expressed as a product of two or more prime numbers.\nWhich statement(s) are correct?",
+      "options": {
+        "A": "Only statement 1 is correct.",
+        "B": "Only statement 2 is correct.",
+        "C": "Both statements are correct.",
+        "D": "Neither statement is correct."
+      },
+      "correct_option": "B",
+      "answer": "Only statement 2 is correct.",
+      "explanation": "Statement 1 is false because 2 is a prime number that is even. Statement 2 is true: by definition, a composite number has more than two factors and can be written as a product of primes (its prime factorisation). Hence only statement 2 is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "What is the prime factorisation of 1260? (Competitive exam style, choose the complete factorisation.)",
+      "options": {
+        "A": "2^2 × 3^2 × 5 × 7",
+        "B": "2 × 3 × 5 × 7",
+        "C": "2^3 × 3 × 5 × 7",
+        "D": "2^2 × 3 × 5 × 7"
+      },
+      "correct_option": "A",
+      "answer": "2^2 × 3^2 × 5 × 7",
+      "explanation": "1260 ÷ 2 = 630, ÷ 2 = 315, ÷ 3 = 105, ÷ 3 = 35, ÷ 5 = 7, ÷ 7 = 1. Thus the prime factorisation is 2^2·3^2·5·7. Options B, C, and D miss either a factor of 2 or a factor of 3, so they are incomplete.",
+      "difficulty": "hard"
+    }
+  ]
+}

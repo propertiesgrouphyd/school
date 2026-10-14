@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Which statement best describes the uniqueness of prime factorisation of a positive integer greater than 1?",
+      "options": {
+        "A": "It can be expressed as a product of prime numbers in more than one way.",
+        "B": "It can be expressed as a product of prime numbers in exactly one way, ignoring the order of the factors.",
+        "C": "It can be expressed as a product of composite numbers only.",
+        "D": "It cannot be expressed as a product of primes."
+      },
+      "correct_option": "B",
+      "answer": "It can be expressed as a product of prime numbers in exactly one way, ignoring the order of the factors.",
+      "explanation": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 can be written as a product of prime numbers in one unique way, apart from the order of the factors. Option B captures this statement; the other options contradict the theorem.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the Highest Common Factor (HCF) of 84 and 126 using prime factorisation.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "14",
+        "D": "42"
+      },
+      "correct_option": "D",
+      "answer": "42",
+      "explanation": "84 = 2² × 3 × 7 and 126 = 2 × 3² × 7. The common primes are 2, 3 and 7, each to the lowest power appearing in both factorizations: 2¹, 3¹, 7¹. Multiplying gives 2 × 3 × 7 = 42, which is the HCF.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "Which of the following statements correctly describes how to obtain the Least Common Multiple (LCM) of two numbers from their prime factorisations?",
+      "options": {
+        "A": "Take the highest power of each prime that appears in either number and multiply them.",
+        "B": "Take the lowest power of each prime that appears in both numbers.",
+        "C": "Multiply the two numbers directly.",
+        "D": "Add the prime factors of the two numbers."
+      },
+      "correct_option": "A",
+      "answer": "Take the highest power of each prime that appears in either number and multiply them.",
+      "explanation": "For the LCM, we consider every prime that occurs in either factorisation and use the greatest exponent of that prime. This ensures the LCM is divisible by both original numbers. Option A states this rule correctly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "The HCF of two numbers is 6 and their LCM is 180. If one of the numbers is 30, what is the other number?",
+      "options": {
+        "A": "36",
+        "B": "12",
+        "C": "30",
+        "D": "180"
+      },
+      "correct_option": "A",
+      "answer": "36",
+      "explanation": "For any two numbers, HCF × LCM = product of the numbers. Hence, other number = (HCF × LCM) / given number = (6 × 180) / 30 = 1080 / 30 = 36.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following numbers is a composite number?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "9"
+      },
+      "correct_option": "D",
+      "answer": "9",
+      "explanation": "A prime number has exactly two distinct positive divisors: 1 and itself. Numbers 2, 3, and 5 meet this definition. The number 9 has divisors 1, 3, and 9, so it has more than two divisors and is therefore composite.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "A student writes 210 as 2 × 3 × 5 × 7. Is this the correct prime factorisation of 210?",
+      "options": {
+        "A": "Yes, it is correct.",
+        "B": "No, the correct prime factorisation is 2 × 3 × 5 × 7 × 1.",
+        "C": "No, the correct prime factorisation is 2 × 3 × 5 × 7 × 11.",
+        "D": "No, the correct prime factorisation is 2 × 3 × 5 × 7 × 13."
+      },
+      "correct_option": "A",
+      "answer": "Yes, it is correct.",
+      "explanation": "210 = 2 × 3 × 5 × 7, and each factor is prime. Multiplying them gives 210, so the factorisation is correct. Adding extra factors such as 1, 11, or 13 would change the product.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "A student claims that 60 can be written as 2 × 2 × 3 × 5 and also as 2 × 3 × 10, concluding that prime factorisation is not unique. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "Both expressions are prime factorisations, showing non‑uniqueness.",
+        "B": "Only the expression using only prime numbers (2 × 2 × 3 × 5) is a valid prime factorisation; 10 is not prime.",
+        "C": "Prime factorisation uniqueness applies only to numbers greater than 100.",
+        "D": "The order of the factors makes the two expressions different, so uniqueness is preserved."
+      },
+      "correct_option": "B",
+      "answer": "Only the expression using only prime numbers (2 × 2 × 3 × 5) is a valid prime factorisation; 10 is not prime.",
+      "explanation": "A prime factorisation must consist solely of prime numbers. In the second expression, 10 is composite (2 × 5), so it is not a prime factorisation. The correct unique prime factorisation of 60 is 2 × 2 × 3 × 5.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "To find the HCF of 48, 180 and 210 using prime factorisation, which of the following procedures is correct?",
+      "options": {
+        "A": "Identify the common prime factors (2 and 3) and multiply the lowest powers: 2^1 × 3^1 = 6.",
+        "B": "Multiply all the prime factors of each number together.",
+        "C": "Select the smallest number among the three.",
+        "D": "Add together all the prime factors of the three numbers."
+      },
+      "correct_option": "A",
+      "answer": "Identify the common prime factors (2 and 3) and multiply the lowest powers: 2^1 × 3^1 = 6.",
+      "explanation": "Prime factorisations: 48 = 2⁴ × 3, 180 = 2² × 3² × 5, 210 = 2 × 3 × 5 × 7. The primes common to all three numbers are 2 and 3, each appearing at least once. Taking the lowest exponent (2¹ and 3¹) gives HCF = 2 × 3 = 6. The other options do not follow the correct method.",
+      "difficulty": "medium"
+    }
+  ]
+}
