@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Which statement best describes the uniqueness of prime factorisation of a positive integer greater than 1?",
+      "options": {
+        "A": "Every integer can be expressed as a product of primes in more than one way.",
+        "B": "The prime factorisation of an integer is unique except for the order of the factors.",
+        "C": "Only composite numbers have unique prime factorisation.",
+        "D": "Prime numbers cannot be expressed as a product of primes."
+      },
+      "correct_option": "B",
+      "answer": "The prime factorisation of an integer is unique except for the order of the factors.",
+      "explanation": "The Fundamental Theorem of Arithmetic states that each integer greater than 1 can be written as a product of prime numbers in exactly one way, apart from the order in which the primes appear. Option B captures this idea; the other options contradict the theorem.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the Highest Common Factor (HCF) of 84 and 126 using prime factorisation.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "14",
+        "D": "42"
+      },
+      "correct_option": "D",
+      "answer": "42",
+      "explanation": "Prime factorisation: 84 = 2² × 3 × 7, 126 = 2 × 3² × 7. The common prime factors are 2, 3, and 7, each taken to the lowest power present: 2¹ × 3¹ × 7¹ = 42. Hence the HCF is 42. The other options are lower common factors but not the greatest.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "Using prime factorisation, find the Least Common Multiple (LCM) of 45 and 60.",
+      "options": {
+        "A": "180",
+        "B": "90",
+        "C": "120",
+        "D": "240"
+      },
+      "correct_option": "A",
+      "answer": "180",
+      "explanation": "Prime factorisation: 45 = 3² × 5, 60 = 2² × 3 × 5. For the LCM, take each prime to its highest power: 2², 3², and 5¹. Thus LCM = 2² × 3² × 5 = 4 × 9 × 5 = 180. The other options miss at least one required prime power.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "A school has two classes. One class has 48 benches, the other has 180 benches. They want to arrange the benches in rows so that each row contains the same number of benches for both classes. What is the greatest possible number of benches per row (HCF) and the smallest total number of benches that can be arranged in equal rows for both classes (LCM)?",
+      "options": {
+        "A": "HCF = 12, LCM = 720",
+        "B": "HCF = 12, LCM = 1440",
+        "C": "HCF = 24, LCM = 360",
+        "D": "HCF = 6, LCM = 288"
+      },
+      "correct_option": "A",
+      "answer": "HCF = 12, LCM = 720",
+      "explanation": "Prime factorisation: 48 = 2⁴ × 3, 180 = 2² × 3² × 5. The HCF uses the lowest powers: 2² × 3 = 12. The LCM uses the highest powers: 2⁴ × 3² × 5 = 720. Option A correctly lists both values; the other options contain incorrect HCF or LCM values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following statements is FALSE about prime and composite numbers?",
+      "options": {
+        "A": "2 is the only even prime number.",
+        "B": "Every composite number has at least one prime factor other than itself.",
+        "C": "1 is considered a prime number.",
+        "D": "A prime number has exactly two distinct positive divisors."
+      },
+      "correct_option": "C",
+      "answer": "1 is considered a prime number.",
+      "explanation": "By definition, a prime number has exactly two distinct positive divisors: 1 and itself. The number 1 has only one divisor (itself), so it is neither prime nor composite. Therefore statement C is false. The other statements are true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Which of the following expresses 210 as a product of prime numbers?",
+      "options": {
+        "A": "2 × 3 × 5 × 7",
+        "B": "2 × 3 × 5 × 5",
+        "C": "2 × 7 × 15",
+        "D": "3 × 5 × 14"
+      },
+      "correct_option": "A",
+      "answer": "2 × 3 × 5 × 7",
+      "explanation": "Factorising 210: 210 ÷ 2 = 105, 105 ÷ 3 = 35, 35 ÷ 5 = 7, and 7 is prime. Hence 210 = 2 × 3 × 5 × 7, which is option A. Options B, C, and D contain either non‑prime factors or repeat a prime incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Consider the numbers 84 and 90. Which statement correctly compares their prime factorisations with respect to uniqueness?",
+      "options": {
+        "A": "Both numbers have a unique prime factorisation, but 84's factorisation contains the prime 2 twice while 90's contains the prime 3 twice.",
+        "B": "84 has a unique prime factorisation, whereas 90 can be expressed as a product of primes in two different ways.",
+        "C": "Both numbers lack unique prime factorisation because they are composite.",
+        "D": "84's prime factorisation is not unique because the order of factors can be changed, while 90's is unique."
+      },
+      "correct_option": "A",
+      "answer": "Both numbers have a unique prime factorisation, but 84's factorisation contains the prime 2 twice while 90's contains the prime 3 twice.",
+      "explanation": "The Fundamental Theorem of Arithmetic guarantees a unique prime factorisation (up to order) for every integer >1. 84 = 2² × 3 × 7 (prime 2 appears twice) and 90 = 2 × 3² × 5 (prime 3 appears twice). Hence statement A is correct. Statements B, C, and D incorrectly claim non‑uniqueness.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the Highest Common Factor (HCF) of 462, 1071 and 2310 using prime factorisation.",
+      "options": {
+        "A": "21",
+        "B": "42",
+        "C": "7",
+        "D": "14"
+      },
+      "correct_option": "A",
+      "answer": "21",
+      "explanation": "Prime factorisations: 462 = 2 × 3 × 7 × 11, 1071 = 3² × 7 × 17, 2310 = 2 × 3 × 5 × 7 × 11. The common primes are 3 and 7, each appearing at least once in all three numbers. Multiplying the lowest powers gives HCF = 3¹ × 7¹ = 21. Options B, C, and D are either too large or miss a common factor.",
+      "difficulty": "hard"
+    }
+  ]
+}

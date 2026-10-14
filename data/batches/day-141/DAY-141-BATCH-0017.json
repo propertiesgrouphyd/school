@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Consider the numbers 2, 9, 13 and 20. Which of the following statements correctly identifies the prime and composite numbers among them?",
+      "options": {
+        "A": "2 and 13 are prime; 9 and 20 are composite.",
+        "B": "2 and 9 are prime; 13 and 20 are composite.",
+        "C": "9 and 20 are prime; 2 and 13 are composite.",
+        "D": "All four numbers are composite."
+      },
+      "correct_option": "A",
+      "answer": "2 and 13 are prime; 9 and 20 are composite.",
+      "explanation": "A prime number has exactly two distinct positive divisors: 1 and itself. 2 and 13 satisfy this condition. 9 (3×3) and 20 (2×2×5) have more than two divisors, so they are composite. Options B, C and D misclassify the numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "A farmer has 84 apples and wants to pack them in boxes so that each box contains a prime number of apples and all boxes have the same number of apples. What is the prime factorisation of 84?",
+      "options": {
+        "A": "84 = 2 × 2 × 3 × 7",
+        "B": "84 = 2 × 3 × 14",
+        "C": "84 = 4 × 21",
+        "D": "84 = 6 × 14"
+      },
+      "correct_option": "A",
+      "answer": "84 = 2 × 2 × 3 × 7",
+      "explanation": "Prime factorisation expresses a number as a product of prime numbers only. 84 ÷ 2 = 42, ÷ 2 = 21, ÷ 3 = 7, and 7 is prime. Hence 84 = 2 × 2 × 3 × 7. Options B, C and D contain composite factors, so they are not pure prime factorizations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "The number 30 can be written as 2 × 3 × 5 and also as 5 × 3 × 2. Which statement correctly reflects the uniqueness of prime factorisation?",
+      "options": {
+        "A": "Both expressions are different, showing that prime factorisation is not unique.",
+        "B": "Both expressions represent the same prime factorisation because the order of factors does not matter.",
+        "C": "30 can also be expressed as 2 × 15, proving that multiple distinct prime factorizations exist.",
+        "D": "Prime factorisation is unique only for numbers greater than 100."
+      },
+      "correct_option": "B",
+      "answer": "Both expressions represent the same prime factorisation because the order of factors does not matter.",
+      "explanation": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 has a unique prime factorisation, ignoring the order of the factors. 2 × 3 × 5 and 5 × 3 × 2 contain exactly the same primes, so they are the same factorisation. Options A, C and D misinterpret the theorem.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the Highest Common Factor (HCF) of 48 and 180 using their prime factorisations.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "36"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "Prime factorisation: 48 = 2⁴ × 3, 180 = 2² × 3² × 5. The common prime factors are 2² and 3¹. Multiplying them gives 2² × 3 = 4 × 3 = 12. Hence the HCF is 12. Options A, C, and D are incorrect values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "Using prime factorisation, determine the Least Common Multiple (LCM) of 12 and 15.",
+      "options": {
+        "A": "60",
+        "B": "30",
+        "C": "180",
+        "D": "45"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "Prime factorisation: 12 = 2² × 3, 15 = 3 × 5. For the LCM, take the highest power of each prime present: 2², 3¹, 5¹. Multiplying gives 4 × 3 × 5 = 60. The other options miss one or more required prime powers.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "Two positive integers have a product of 720 and their HCF is 12. What is their LCM?",
+      "options": {
+        "A": "60",
+        "B": "72",
+        "C": "90",
+        "D": "120"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "For any two numbers, Product = HCF × LCM. Hence LCM = Product ÷ HCF = 720 ÷ 12 = 60. Option A is correct; the other options do not satisfy the relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following statements correctly defines a prime number?",
+      "options": {
+        "A": "A number greater than 1 that has exactly two distinct positive divisors, 1 and itself.",
+        "B": "A number that can be divided by any integer without remainder.",
+        "C": "A number that has more than two factors.",
+        "D": "A number that is a multiple of 10."
+      },
+      "correct_option": "A",
+      "answer": "A number greater than 1 that has exactly two distinct positive divisors, 1 and itself.",
+      "explanation": "By definition, a prime number has precisely two distinct positive divisors: 1 and the number itself. Options B, C, and D describe other concepts and are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Which of the following is the correct prime factorisation of 210?",
+      "options": {
+        "A": "2 × 3 × 5 × 7",
+        "B": "2 × 5 × 21",
+        "C": "3 × 7 × 10",
+        "D": "2 × 105"
+      },
+      "correct_option": "A",
+      "answer": "2 × 3 × 5 × 7",
+      "explanation": "210 ÷ 2 = 105, ÷ 3 = 35, ÷ 5 = 7, and 7 is prime. Thus 210 = 2 × 3 × 5 × 7, which uses only prime factors. Options B, C, and D contain composite numbers (21, 10, 105) and are therefore not complete prime factorizations.",
+      "difficulty": "easy"
+    }
+  ]
+}

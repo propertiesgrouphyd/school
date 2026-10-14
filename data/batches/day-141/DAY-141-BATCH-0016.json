@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "A student writes the prime factorizations 24 = 2^3 × 3 and 36 = 2^2 × 3^2 and then multiplies the highest powers of each prime to obtain the LCM. Which of the following is the correct LCM obtained by this method?",
+      "options": {
+        "A": "2^3 × 3 = 24",
+        "B": "2^2 × 3^2 = 36",
+        "C": "2^3 × 3^2 = 72",
+        "D": "2^3 × 3^2 × 5 = 360"
+      },
+      "correct_option": "C",
+      "answer": "2^3 × 3^2 = 72",
+      "explanation": "The LCM is found by taking the highest power of each prime that appears in any factorization. For 24 (2^3·3) and 36 (2^2·3^2) the highest powers are 2^3 and 3^2, giving LCM = 2^3·3^2 = 8·9 = 72. Options A and B use lower powers, and D adds an unnecessary prime.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "Two positive integers have HCF = 6 and LCM = 180. Which of the following could be the pair of numbers?",
+      "options": {
+        "A": "6 and 30",
+        "B": "12 and 90",
+        "C": "15 and 72",
+        "D": "20 and 54"
+      },
+      "correct_option": "B",
+      "answer": "12 and 90",
+      "explanation": "For two numbers a and b, a × b = HCF × LCM. Hence a × b = 6 × 180 = 1080. Among the options, only 12 × 90 = 1080 and the HCF of 12 and 90 is 6, giving LCM 180. The other pairs either do not multiply to 1080 or have a different HCF.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following statements correctly distinguishes prime numbers from composite numbers?",
+      "options": {
+        "A": "A prime number has exactly two distinct positive divisors, while a composite number has more than two.",
+        "B": "A prime number has only one positive divisor, whereas a composite number has exactly two.",
+        "C": "Both prime and composite numbers have exactly two distinct positive divisors.",
+        "D": "A composite number has no positive divisors other than 1 and itself."
+      },
+      "correct_option": "A",
+      "answer": "A prime number has exactly two distinct positive divisors, while a composite number has more than two.",
+      "explanation": "By definition, a prime number is divisible only by 1 and itself, giving exactly two distinct positive divisors. A composite number has additional divisors beyond 1 and itself, so it has more than two. Options B, C, and D misstate these definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Which of the following is the correct prime factorisation of 210?",
+      "options": {
+        "A": "2 × 3 × 5 × 7",
+        "B": "2 × 3 × 5 × 5",
+        "C": "2 × 3 × 7 × 7",
+        "D": "2 × 5 × 5 × 7"
+      },
+      "correct_option": "A",
+      "answer": "2 × 3 × 5 × 7",
+      "explanation": "Dividing 210 by the smallest prime gives 210 ÷ 2 = 105; 105 ÷ 3 = 35; 35 ÷ 5 = 7; 7 is prime. Hence 210 = 2·3·5·7. Options B, C, and D contain repeated or missing primes, so they are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 can be expressed in exactly one way as a product of prime numbers, up to the order of the factors. Which statement below reflects this uniqueness?",
+      "options": {
+        "A": "The prime factorisation of a number may vary depending on the method used.",
+        "B": "Two different sets of prime factors can represent the same number.",
+        "C": "Only one set of prime numbers (ignoring order) can multiply to give the original number.",
+        "D": "Prime factorisation is possible only for even numbers."
+      },
+      "correct_option": "C",
+      "answer": "Only one set of prime numbers (ignoring order) can multiply to give the original number.",
+      "explanation": "The theorem guarantees a unique prime factorisation for each integer >1, except for the order of the factors. Therefore option C correctly captures the uniqueness. Options A and B contradict the theorem, and D is false because odd numbers also have prime factorizations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the Highest Common Factor (HCF) of 48 and 180 using prime factorisation.",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "36",
+        "D": "48"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Prime factorisations: 48 = 2^4 × 3, 180 = 2^2 × 3^2 × 5. The common primes are 2 and 3. Take the lowest powers: 2^2 and 3^1, giving HCF = 2^2·3 = 4·3 = 12. The other options are larger than the common factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "Which of the following correctly defines the Least Common Multiple (LCM) of two numbers using prime factorisation?",
+      "options": {
+        "A": "The LCM is the product of the lowest powers of all primes appearing in the factorisations.",
+        "B": "The LCM is the product of the highest powers of all primes appearing in the factorisations.",
+        "C": "The LCM is the sum of the prime factors of the numbers.",
+        "D": "The LCM is the difference between the numbers' prime factorizations."
+      },
+      "correct_option": "B",
+      "answer": "The LCM is the product of the highest powers of all primes appearing in the factorisations.",
+      "explanation": "To obtain the LCM, we take each prime that appears in either number and use its greatest exponent found in the factorizations. Multiplying these highest powers yields the smallest number divisible by both. Option A describes the HCF, while C and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "Find the LCM of 8, 12 and 15 using prime factorisation.",
+      "options": {
+        "A": "120",
+        "B": "60",
+        "C": "240",
+        "D": "180"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "Prime factorisations: 8 = 2^3, 12 = 2^2 × 3, 15 = 3 × 5. Take the highest powers: 2^3, 3^1, 5^1. LCM = 2^3·3·5 = 8·3·5 = 120. The other options either miss a required prime factor or use a lower power.",
+      "difficulty": "easy"
+    }
+  ]
+}
