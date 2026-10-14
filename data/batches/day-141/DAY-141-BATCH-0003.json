@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which of the following statements about the Euclidean algorithm is NOT correct?",
+      "options": {
+        "A": "It finds the greatest common divisor by repeated division.",
+        "B": "The algorithm stops when the remainder becomes zero.",
+        "C": "The algorithm can be applied to any pair of integers, including zero as both numbers.",
+        "D": "At each step, the divisor becomes the new dividend."
+      },
+      "correct_option": "C",
+      "answer": "The algorithm can be applied to any pair of integers, including zero as both numbers.",
+      "explanation": "The Euclidean algorithm works for any pair of non‑negative integers where at least one is positive. If both numbers are zero, the GCD is undefined, so statement C is false. Statements A, B and D correctly describe the algorithm.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Using successive division (the Euclidean algorithm), what is the HCF of 84 and 126?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "14",
+        "D": "42"
+      },
+      "correct_option": "D",
+      "answer": "42",
+      "explanation": "First division: 126 ÷ 84 = 1 remainder 42. Next: 84 ÷ 42 = 2 remainder 0. When the remainder becomes zero, the last non‑zero remainder (42) is the HCF. Hence option D is correct; the other numbers are not the greatest common divisor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following correctly states Euclid's division lemma?",
+      "options": {
+        "A": "For any integers a and b (b>0), there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+        "B": "For any integers a and b (b>0), there exist integers q and r such that a = bq + r, where r > b.",
+        "C": "For any integers a and b (b≥0), there exist unique integers q and r such that a = bq + r, where 0 ≤ r ≤ b.",
+        "D": "For any integers a and b (b>0), there exist unique integers q and r such that a = bq - r, where 0 ≤ r < b."
+      },
+      "correct_option": "A",
+      "answer": "For any integers a and b (b>0), there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma asserts the existence and uniqueness of quotient q and remainder r with 0 ≤ r < b. Option A captures this precisely. Options B, C, and D either give an incorrect inequality for r or use a minus sign, which are not part of the lemma.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "When the integer 275 is divided by 23, what are the quotient and remainder?",
+      "options": {
+        "A": "Quotient = 11, Remainder = 22",
+        "B": "Quotient = 12, Remainder = -1",
+        "C": "Quotient = 10, Remainder = 45",
+        "D": "Quotient = 9, Remainder = 8"
+      },
+      "correct_option": "A",
+      "answer": "Quotient = 11, Remainder = 22",
+      "explanation": "275 ÷ 23 = 11 with a remainder of 275 – (23×11) = 275 – 253 = 22. The quotient is 11 and the remainder is 22, satisfying 0 ≤ remainder < divisor. The other options either give an impossible remainder or an incorrect quotient.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Find the quotient and remainder when 97 is divided by 8.",
+      "options": {
+        "A": "Quotient = 12, Remainder = 1",
+        "B": "Quotient = 11, Remainder = 9",
+        "C": "Quotient = 13, Remainder = 5",
+        "D": "Quotient = 10, Remainder = 7"
+      },
+      "correct_option": "A",
+      "answer": "Quotient = 12, Remainder = 1",
+      "explanation": "8 × 12 = 96, and 97 – 96 = 1, so the quotient is 12 and the remainder is 1. The remainder is less than the divisor (8), satisfying the division algorithm. Other options give either an incorrect quotient or a remainder that is not less than 8.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "What is the HCF of 48 and 180 obtained by repeated division?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "48"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "180 ÷ 48 = 3 remainder 36; 48 ÷ 36 = 1 remainder 12; 36 ÷ 12 = 3 remainder 0. The last non‑zero remainder is 12, which is the HCF. Options A, C, and D are not the greatest common divisor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which definition correctly describes the Euclidean algorithm?",
+      "options": {
+        "A": "A method to find the greatest common divisor of two integers by repeated subtraction or division.",
+        "B": "A technique to compute the least common multiple by adding multiples.",
+        "C": "A process to factorize numbers into primes using division by 2 only.",
+        "D": "An algorithm to solve linear equations by isolating variables."
+      },
+      "correct_option": "A",
+      "answer": "A method to find the greatest common divisor of two integers by repeated subtraction or division.",
+      "explanation": "The Euclidean algorithm is specifically designed to determine the GCD of two integers, using repeated division (or subtraction) until a remainder of zero is obtained. Options B, C, and D describe unrelated procedures.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Find the HCF of 56 and 98 using successive division.",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "28",
+        "D": "56"
+      },
+      "correct_option": "B",
+      "answer": "14",
+      "explanation": "98 ÷ 56 = 1 remainder 42; 56 ÷ 42 = 1 remainder 14; 42 ÷ 14 = 3 remainder 0. The last non‑zero remainder is 14, so the HCF is 14. The other options are not the greatest common divisor of the two numbers.",
+      "difficulty": "easy"
+    }
+  ]
+}

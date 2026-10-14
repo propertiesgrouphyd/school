@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Which of the following correctly states the division algorithm for positive integers a and b (b > 0)?",
+      "options": {
+        "A": "a = bq + r where 0 ≤ r < b",
+        "B": "a = bq - r where 0 ≤ r ≤ b",
+        "C": "a = bq + r where r > b",
+        "D": "a = bq where r = 0 always"
+      },
+      "correct_option": "A",
+      "answer": "a = bq + r where 0 ≤ r < b",
+      "explanation": "The division algorithm states that for any positive integers a and b (b > 0) there exist unique integers q (quotient) and r (remainder) such that a = bq + r and 0 ≤ r < b. Option A matches this definition; the other options either change the sign, allow r to be larger than b, or ignore the remainder.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Find the HCF of 48 and 18 using the Euclidean algorithm.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Applying the Euclidean algorithm: 48 ÷ 18 = 2 remainder 12; 18 ÷ 12 = 1 remainder 6; 12 ÷ 6 = 2 remainder 0. The last non‑zero remainder is 6, which is the HCF. Hence option C is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "When applying the Euclidean algorithm to find the HCF of 84 and 30, what is the remainder after the first division step?",
+      "options": {
+        "A": "24",
+        "B": "14",
+        "C": "6",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "24",
+      "explanation": "The first step is 84 ÷ 30 = 2 with remainder 84 - 30×2 = 24. Therefore the remainder is 24, which corresponds to option A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Two pieces of cloth have lengths 96 cm and 60 cm. Using successive division, what is the greatest length that can be used to cut both pieces into equal smaller strips without any leftover?",
+      "options": {
+        "A": "6 cm",
+        "B": "12 cm",
+        "C": "15 cm",
+        "D": "20 cm"
+      },
+      "correct_option": "B",
+      "answer": "12 cm",
+      "explanation": "Apply Euclidean algorithm: 96 ÷ 60 = 1 remainder 36; 60 ÷ 36 = 1 remainder 24; 36 ÷ 24 = 1 remainder 12; 24 ÷ 12 = 2 remainder 0. The last non‑zero remainder is 12, so the HCF (maximum equal strip length) is 12 cm. Option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements is NOT a correct form of Euclid's division lemma for integers a and b (b > 0)?",
+      "options": {
+        "A": "There exist integers q and r such that a = bq + r and 0 ≤ r < b.",
+        "B": "There exist integers q and r such that a = bq - r and 0 ≤ r < b.",
+        "C": "The remainder r is always less than the divisor b.",
+        "D": "The quotient q may be zero."
+      },
+      "correct_option": "B",
+      "answer": "There exist integers q and r such that a = bq - r and 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma states a = bq + r with 0 ≤ r < b. Option B uses a minus sign before r, which is not part of the lemma, making it incorrect. The other statements correctly describe the lemma.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "When 275 is divided by 16, the equation can be written as 275 = 16 \\u00d7 17 + 3. In this expression, which term represents the divisor?",
+      "options": {
+        "A": "275",
+        "B": "16",
+        "C": "17",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "answer": "16",
+      "explanation": "In the division expression a = bq + r, 'b' is the divisor. Here, 16 multiplies the quotient 17, so 16 is the divisor. The other numbers are the dividend (275), quotient (17), and remainder (3).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Consider the following two applications of the division algorithm: (1) 100 = 9 \\u00d7 11 + 1, (2) 100 = 9 \\u00d7 10 + 10. Which statement is correct?",
+      "options": {
+        "A": "Both (1) and (2) correctly apply the division algorithm.",
+        "B": "Only (1) correctly applies the division algorithm.",
+        "C": "Only (2) correctly applies the division algorithm.",
+        "D": "Neither (1) nor (2) correctly applies the division algorithm."
+      },
+      "correct_option": "B",
+      "answer": "Only (1) correctly applies the division algorithm.",
+      "explanation": "The division algorithm requires the remainder r to satisfy 0 ≤ r < divisor. In (1), divisor = 9, remainder = 1, which satisfies the condition. In (2), remainder = 10, which is not less than the divisor 9, so (2) violates the algorithm. Hence only statement (1) is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Using repeated division (Euclidean algorithm), find the HCF of 462 and 1071.",
+      "options": {
+        "A": "7",
+        "B": "21",
+        "C": "33",
+        "D": "42"
+      },
+      "correct_option": "B",
+      "answer": "21",
+      "explanation": "Apply the Euclidean algorithm: 1071 ÷ 462 = 2 remainder 147; 462 ÷ 147 = 3 remainder 21; 147 ÷ 21 = 7 remainder 0. The last non‑zero remainder is 21, so the HCF is 21. Option B is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

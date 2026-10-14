@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "LU-00587-25",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements correctly expresses Euclid's division lemma?",
+      "options": {
+        "A": "For any integers a and b (b>0), there exist integers q and r such that a = bq + r, where 0 ≤ r < b.",
+        "B": "For any integers a and b (b>0), there exist integers q and r such that a = bq - r, where 0 ≤ r < b.",
+        "C": "For any integers a and b (b>0), there exist integers q and r such that a = b + q r, where 0 ≤ r < b.",
+        "D": "For any integers a and b (b>0), there exist integers q and r such that a = bq + r, where r > b."
+      },
+      "correct_option": "A",
+      "answer": "For any integers a and b (b>0), there exist integers q and r such that a = bq + r, where 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma states that for any integer a and any positive integer b, there are unique integers q (quotient) and r (remainder) satisfying a = bq + r with 0 ≤ r < b. Option A matches this definition; the other options either change the sign, the operation, or the condition on r, making them incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-00587-26",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "A school bus has 57 students. Each row can seat 8 students. When the students are seated row‑wise, what are the dividend, divisor, quotient, and remainder respectively?",
+      "options": {
+        "A": "Dividend 57, divisor 8, quotient 7, remainder 1",
+        "B": "Dividend 8, divisor 57, quotient 1, remainder 7",
+        "C": "Dividend 57, divisor 8, quotient 8, remainder 1",
+        "D": "Dividend 57, divisor 8, quotient 6, remainder 9"
+      },
+      "correct_option": "A",
+      "answer": "Dividend 57, divisor 8, quotient 7, remainder 1",
+      "explanation": "In the division 57 ÷ 8, 57 is the number being divided (dividend), 8 is the divisor, the integer part of the quotient is 7 (since 8×7 = 56), and the leftover is 1, the remainder. Option A correctly lists these values; the other options mix up the roles or give impossible remainders.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-00587-27",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "A student claims that when 20 is divided by 6, the remainder can be 6 because 6 is the divisor. Which statement corrects this misconception?",
+      "options": {
+        "A": "The remainder must be less than the divisor, so the remainder is 2.",
+        "B": "The remainder can be equal to the divisor, so the remainder is 6.",
+        "C": "The remainder must be greater than the divisor, so the remainder is 8.",
+        "D": "Division does not produce a remainder."
+      },
+      "correct_option": "A",
+      "answer": "The remainder must be less than the divisor, so the remainder is 2.",
+      "explanation": "According to the division algorithm, the remainder r satisfies 0 ≤ r < divisor. For 20 ÷ 6, 6×3 = 18, leaving a remainder of 2, which is less than 6. Option A states this correctly; the other options violate the definition of remainder.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "LU-00587-28",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Using repeated division (Euclidean algorithm), what is the HCF of 84 and 30?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Apply Euclidean algorithm: 84 ÷ 30 = 2 remainder 24; 30 ÷ 24 = 1 remainder 6; 24 ÷ 6 = 4 remainder 0. The last non‑zero remainder is 6, which is the HCF. Option A is correct; the other numbers are not the greatest common factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "LU-00587-29",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which of the following statements correctly compares the Euclidean algorithm with the prime factorisation method for finding the HCF of two numbers?",
+      "options": {
+        "A": "The Euclidean algorithm uses successive division and is generally faster than listing all prime factors.",
+        "B": "Prime factorisation always requires fewer steps than the Euclidean algorithm.",
+        "C": "Both methods always give different HCF values.",
+        "D": "The Euclidean algorithm can be used only when the numbers are co‑prime."
+      },
+      "correct_option": "A",
+      "answer": "The Euclidean algorithm uses successive division and is generally faster than listing all prime factors.",
+      "explanation": "The Euclidean algorithm repeatedly applies division, avoiding the need to factor each number completely, which makes it quicker for large numbers. Option A captures this advantage. Options B, C, and D are false: prime factorisation can be lengthy, both methods give the same HCF, and the Euclidean algorithm works for any pair of integers, not just co‑prime ones.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-00587-30",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Find the HCF of 252 and 105 using successive division (Euclidean algorithm).",
+      "options": {
+        "A": "21",
+        "B": "7",
+        "C": "3",
+        "D": "42"
+      },
+      "correct_option": "A",
+      "answer": "21",
+      "explanation": "Apply Euclidean algorithm: 252 ÷ 105 = 2 remainder 42; 105 ÷ 42 = 2 remainder 21; 42 ÷ 21 = 2 remainder 0. The last non‑zero remainder is 21, the HCF. Option A is correct; the other choices are not the greatest common factor.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-00587-31",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Euclid's division lemma states that for any integers a and b (b>0) there exist unique integers q and r such that ______.",
+      "options": {
+        "A": "a = bq + r, where 0 ≤ r < b",
+        "B": "a = bq - r, where 0 ≤ r < b",
+        "C": "a = b + qr, where r < b",
+        "D": "a = bq + r, where r > b"
+      },
+      "correct_option": "A",
+      "answer": "a = bq + r, where 0 ≤ r < b",
+      "explanation": "The lemma precisely says a = bq + r with the remainder r satisfying 0 ≤ r < b, and q, r are unique. Option A matches this definition; the other options alter the sign or condition on r, making them incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-00587-32",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the division expression a ÷ b = q remainder r, which term correctly identifies the dividend?",
+      "options": {
+        "A": "a",
+        "B": "b",
+        "C": "q",
+        "D": "r"
+      },
+      "correct_option": "A",
+      "answer": "a",
+      "explanation": "The dividend is the number being divided, represented by 'a' in the expression. The divisor is 'b', the quotient is 'q', and the remainder is 'r'. Hence option A is correct; the other symbols denote different components of the division.",
+      "difficulty": "easy"
+    }
+  ]
+}

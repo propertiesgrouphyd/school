@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-141-9",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Which of the following correctly represents the result of applying the division algorithm to the integer 123 divided by 17?",
+      "options": {
+        "A": "Quotient = 6, Remainder = 9",
+        "B": "Quotient = 7, Remainder = 4",
+        "C": "Quotient = 8, Remainder = 3",
+        "D": "Quotient = 5, Remainder = 13"
+      },
+      "correct_option": "B",
+      "answer": "Quotient = 7, Remainder = 4",
+      "explanation": "Applying the division algorithm: 123 ÷ 17 = 7 with a remainder of 123 - (17×7) = 123 - 119 = 4. Hence the correct pair is quotient 7 and remainder 4. The other options give incorrect quotients or remainders.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-141-10",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Using repeated division (Euclidean algorithm), what is the highest common factor (HCF) of 462 and 1071?",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "21",
+        "D": "42"
+      },
+      "correct_option": "C",
+      "answer": "21",
+      "explanation": "First step: 1071 = 2×462 + 147. Next: 462 = 3×147 + 21. Next: 147 = 7×21 + 0. The last non‑zero remainder is 21, which is the HCF. Options A, B, and D are not the greatest common divisor.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-141-11",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "The Euclidean algorithm is a systematic method to find:",
+      "options": {
+        "A": "Least common multiple (LCM) of two numbers",
+        "B": "Highest common factor (HCF) of two numbers",
+        "C": "Prime factorization of a number",
+        "D": "Decimal representation of a fraction"
+      },
+      "correct_option": "B",
+      "answer": "Highest common factor (HCF) of two numbers",
+      "explanation": "The Euclidean algorithm repeatedly applies the division algorithm to obtain successive remainders until a remainder of zero is reached; the last non‑zero remainder is the HCF. It does not compute LCM, prime factors, or decimal expansions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-141-12",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Given the successive division steps: 84 = 2×30 + 24, 30 = 1×24 + 6, 24 = 4×6 + 0, what is the HCF of 84 and 30?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "12"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "The Euclidean algorithm ends when the remainder becomes 0. The last non‑zero remainder here is 6 (from 30 = 1×24 + 6). Therefore, HCF(84,30) = 6. Options A, B, and D are not the greatest common divisor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-141-13",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which statement correctly states Euclid's division lemma?",
+      "options": {
+        "A": "For any integers a and b (b>0), there exist integers q and r such that a = bq + r, where 0 ≤ r ≤ b.",
+        "B": "For any integers a and b (b>0), there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+        "C": "For any integers a and b (b>0), there exist integers q and r such that a = bq - r, where 0 ≤ r < b.",
+        "D": "For any integers a and b (b>0), there exist unique integers q and r such that a = bq + r, where r > b."
+      },
+      "correct_option": "B",
+      "answer": "For any integers a and b (b>0), there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma asserts existence and uniqueness of quotient q and remainder r with 0 ≤ r < b. Option B captures both existence, uniqueness, and the correct bound on r. Options A, C, and D either miss uniqueness or give incorrect forms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-141-14",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "When 85 is divided by 9, identify the dividend, divisor, quotient and remainder respectively.",
+      "options": {
+        "A": "85, 9, 9, 4",
+        "B": "85, 9, 4, 9",
+        "C": "9, 85, 9, 4",
+        "D": "85, 4, 9, 9"
+      },
+      "correct_option": "A",
+      "answer": "85, 9, 9, 4",
+      "explanation": "In the division 85 ÷ 9, 85 is the dividend, 9 the divisor. 85 = 9×9 + 4, so the quotient is 9 and the remainder is 4. The other options mix up the roles or give wrong values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-141-15",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Apply the division algorithm to divide 250 by 13. What are the quotient and remainder?",
+      "options": {
+        "A": "Quotient = 18, Remainder = 4",
+        "B": "Quotient = 19, Remainder = 3",
+        "C": "Quotient = 20, Remainder = 10",
+        "D": "Quotient = 17, Remainder = 9"
+      },
+      "correct_option": "B",
+      "answer": "Quotient = 19, Remainder = 3",
+      "explanation": "13 × 19 = 247. Subtracting from 250 gives a remainder of 3. Hence the correct pair is quotient 19 and remainder 3. The other options either give an incorrect product or remainder.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-141-16",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "A carpenter has two wooden planks of lengths 168 cm and 252 cm. He wants to cut them into equal largest possible pieces without any leftover. What should be the length of each piece?",
+      "options": {
+        "A": "12 cm",
+        "B": "24 cm",
+        "C": "42 cm",
+        "D": "84 cm"
+      },
+      "correct_option": "D",
+      "answer": "84 cm",
+      "explanation": "The required length is the HCF of 168 and 252. Using Euclid's algorithm: 252 = 1×168 + 84, 168 = 2×84 + 0, so HCF = 84 cm. Options A, B, and C are smaller common divisors but not the greatest.",
+      "difficulty": "medium"
+    }
+  ]
+}

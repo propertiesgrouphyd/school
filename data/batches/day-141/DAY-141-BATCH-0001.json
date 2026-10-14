@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-141-001",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following correctly states Euclid's division lemma for integers a and b (b > 0)?",
+      "options": {
+        "A": "There exist integers q and r such that a = bq + r, where 0 ≤ r ≤ b.",
+        "B": "There exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+        "C": "There exist integers q and r such that a = bq - r, where 0 ≤ r < b.",
+        "D": "There exist unique integers q and r such that a = bq + r, where 0 < r ≤ b."
+      },
+      "correct_option": "B",
+      "answer": "There exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma (or division algorithm) asserts that for any integer a and any positive integer b, there exist unique integers q (quotient) and r (remainder) satisfying a = bq + r with 0 \\le r < b. Option B captures this statement exactly; the other options either miss the uniqueness condition or give an incorrect range for r.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-141-002",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the expression a = bq + r (the division algorithm), which term corresponds to the dividend, divisor, quotient and remainder respectively?",
+      "options": {
+        "A": "a is dividend, b is divisor, q is quotient, r is remainder.",
+        "B": "a is divisor, b is dividend, q is remainder, r is quotient.",
+        "C": "a is quotient, b is remainder, q is dividend, r is divisor.",
+        "D": "a is remainder, b is quotient, q is divisor, r is dividend."
+      },
+      "correct_option": "A",
+      "answer": "a is dividend, b is divisor, q is quotient, r is remainder.",
+      "explanation": "The dividend is the number being divided (a). The divisor is the number we divide by (b). The quotient (q) is the integer result of the division, and the remainder (r) is what is left over. Option A correctly matches each term; the other options mix up the definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-141-003",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Apply the division algorithm to write 37 as 5 times a quotient plus a remainder. Which of the following is the correct representation?",
+      "options": {
+        "A": "37 = 5 \\times 7 + 2",
+        "B": "37 = 5 \\times 6 + 7",
+        "C": "37 = 5 \\times 8 + (-3)",
+        "D": "37 = 5 \\times 5 + 12"
+      },
+      "correct_option": "A",
+      "answer": "37 = 5 \\times 7 + 2",
+      "explanation": "Dividing 37 by 5 gives quotient 7 (since 5\\times7 = 35) and remainder 2 (37 - 35). The remainder must be non‑negative and less than the divisor (5). Option A satisfies these conditions; the other options either give a remainder larger than the divisor or a negative remainder.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-141-004",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Find the highest common factor (HCF) of 48 and 18 using repeated division (Euclidean algorithm).",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Apply the Euclidean algorithm: 48 = 18\\times2 + 12, then 18 = 12\\times1 + 6, and finally 12 = 6\\times2 + 0. The last non‑zero remainder is 6, so HCF(48,18)=6. Option A is correct; the other numbers are not common divisors of both.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-141-005",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Using the Euclidean algorithm, what is the HCF of 84 and 30?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Step 1: 84 = 30\\times2 + 24. Step 2: 30 = 24\\times1 + 6. Step 3: 24 = 6\\times4 + 0. The last non‑zero remainder is 6, therefore HCF(84,30)=6. Option A is correct; the other choices are not the greatest common divisor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-141-006",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Two wooden planks have lengths 84 cm and 126 cm. To cut them into equal largest possible pieces without waste, what should be the length of each piece?",
+      "options": {
+        "A": "6 cm",
+        "B": "12 cm",
+        "C": "14 cm",
+        "D": "42 cm"
+      },
+      "correct_option": "D",
+      "answer": "42 cm",
+      "explanation": "The required length is the HCF of 84 and 126. Using Euclidean algorithm: 126 = 84\\times1 + 42, 84 = 42\\times2 + 0, so HCF = 42 cm. Hence each piece should be 42 cm long. Option D is correct; the other lengths either do not divide both planks exactly or are not the greatest such length.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-141-007",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements about Euclid's division lemma is FALSE?",
+      "options": {
+        "A": "The remainder r is always non‑negative.",
+        "B": "The remainder r must be strictly less than the divisor b.",
+        "C": "For a given a and b, there can be more than one pair of integers q and r satisfying the lemma.",
+        "D": "Both q and r are integers."
+      },
+      "correct_option": "C",
+      "answer": "For a given a and b, there can be more than one pair of integers q and r satisfying the lemma.",
+      "explanation": "Euclid's division lemma guarantees *uniqueness* of the pair (q, r) for given a and b. Therefore statement C is false. Statements A, B, and D correctly describe properties of the remainder and the integers involved.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-141-008",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "If dividing 123 by a positive integer d gives a quotient of 15 and a remainder of 3, which of the following could be the value of d?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "From the division algorithm: 123 = d \\times 15 + 3. Solving for d gives d = (123 - 3) / 15 = 120 / 15 = 8. Hence d = 8, which is option C. The other options do not satisfy the equation.",
+      "difficulty": "medium"
+    }
+  ]
+}
