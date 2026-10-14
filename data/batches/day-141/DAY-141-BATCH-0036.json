@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Prove that square roots of selected primes are irrational",
+      "question": "Which of the following statements correctly proves that \\(\\sqrt{2}\\) is irrational?",
+      "options": {
+        "A": "Assume \\(\\sqrt{2}=p/q\\) in lowest terms. Then \\(2q^{2}=p^{2}\\), so \\(p\\) is even; write \\(p=2k\\). Substituting gives \\(2q^{2}=4k^{2}\\) ⇒ \\(q^{2}=2k^{2}\\), so \\(q\\) is also even, contradicting the assumption that \\(p/q\\) is in lowest terms.",
+        "B": "Since the decimal expansion of \\(\\sqrt{2}\\) is non‑terminating, it cannot be expressed as a fraction.",
+        "C": "If \\(\\sqrt{2}\\) were rational, then its square would be a rational number, which is false.",
+        "D": "\\(\\sqrt{2}\\) can be written exactly as the fraction 22/15, showing it is rational."
+      },
+      "correct_option": "A",
+      "answer": "Assume \\(\\sqrt{2}=p/q\\) in lowest terms. Then \\(2q^{2}=p^{2}\\), so \\(p\\) is even; write \\(p=2k\\). Substituting gives \\(2q^{2}=4k^{2}\\) ⇒ \\(q^{2}=2k^{2}\\), so \\(q\\) is also even, contradicting the assumption that \\(p/q\\) is in lowest terms.",
+      "explanation": "Option A follows the classic proof by contradiction: assuming \\(\\sqrt{2}\\) is rational leads to both numerator and denominator being even, which contradicts the fraction being in lowest terms. Option B is insufficient because some rational numbers (e.g., 1/3) have non‑terminating repeating decimals. Option C is incorrect because the square of a rational number is always rational; the statement \"which is false\" is unsupported. Option D is false because 22/15 ≈ 1.466…, not \\(\\sqrt{2}\\). Hence A is the correct proof.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Distinguish rational and irrational numbers",
+      "question": "Which of the following numbers is irrational?",
+      "options": {
+        "A": "7/9",
+        "B": "√5",
+        "C": "0.125",
+        "D": "-3"
+      },
+      "correct_option": "B",
+      "answer": "√5",
+      "explanation": "A rational number can be expressed as a ratio of two integers. 7/9, 0.125 (=125/1000) and -3 are all such ratios, so they are rational. \\(\\sqrt{5}\\) cannot be written as a fraction of integers; its decimal expansion is non‑terminating and non‑repeating, making it irrational. Therefore option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand consequences of rational and irrational number properties",
+      "question": "If the product of two numbers is irrational and one of the numbers is a non‑zero rational number, what must be true about the other number?",
+      "options": {
+        "A": "The other number must be irrational.",
+        "B": "The other number must be rational.",
+        "C": "The other number could be either rational or irrational.",
+        "D": "The other number must be zero."
+      },
+      "correct_option": "A",
+      "answer": "The other number must be irrational.",
+      "explanation": "Let the rational number be \\(r\\neq0\\) and the product be \\(p\\) (irrational). Then the other number is \\(p/r\\). Dividing an irrational number by a non‑zero rational number yields an irrational number, because if \\(p/r\\) were rational, multiplying it by \\(r\\) (rational) would give a rational product, contradicting that \\(p\\) is irrational. Hence the other factor must be irrational. Options B, C, and D are false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand the meaning of irrational number",
+      "question": "A decimal is written as 0.101001000100001..., where the number of zeros between successive ones keeps increasing by one each time. A student claims this decimal is rational because it eventually repeats. Which statement is correct?",
+      "options": {
+        "A": "The decimal terminates, so it is rational.",
+        "B": "The decimal repeats after a fixed block, so it is rational.",
+        "C": "The decimal never repeats, so it is irrational.",
+        "D": "The decimal is a finite decimal, so it is rational."
+      },
+      "correct_option": "C",
+      "answer": "The decimal never repeats, so it is irrational.",
+      "explanation": "A rational number’s decimal expansion either terminates or eventually repeats a fixed block of digits. In the given decimal, the pattern of zeros keeps growing, so no fixed block repeats. Hence the expansion is non‑terminating and non‑repeating, which characterises an irrational number. Options A and D are false because the decimal does not terminate. Option B is false because there is no repeating block.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Use contradiction in elementary irrationality proofs",
+      "question": "A common mistaken belief is that showing a number has a non‑terminating decimal expansion is sufficient to prove it is irrational. Why is this reasoning incorrect?",
+      "options": {
+        "A": "Because some rational numbers, like \\(\\frac{1}{3}\\), also have non‑terminating repeating decimals, so non‑termination alone does not guarantee irrationality.",
+        "B": "Because all non‑terminating decimals are irrational, so the reasoning is actually correct.",
+        "C": "Because irrational numbers must have terminating decimals.",
+        "D": "Because decimal expansions are irrelevant to rationality."
+      },
+      "correct_option": "A",
+      "answer": "Because some rational numbers, like \\(\\frac{1}{3}\\), also have non‑terminating repeating decimals, so non‑termination alone does not guarantee irrationality.",
+      "explanation": "Option A correctly points out the flaw: a rational number can have a non‑terminating *repeating* decimal (e.g., 1/3 = 0.333...). Therefore, merely observing a non‑terminating expansion does not prove irrationality; a proof by contradiction (as in the classic \\(\\sqrt{2}\\) proof) is required. Options B and C are false statements about the nature of rational/irrational numbers, and D is inaccurate because decimal expansions are directly related to rationality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Prove that square roots of selected primes are irrational",
+      "question": "Which of the following steps is NOT valid when proving that \\(\\sqrt{7}\\) is irrational?",
+      "options": {
+        "A": "Assume \\(\\sqrt{7}=p/q\\) in lowest terms and square both sides to obtain \\(7q^{2}=p^{2}\\).",
+        "B": "Conclude that \\(p\\) must be divisible by 7, so write \\(p=7k\\).",
+        "C": "Since \\(p^{2}\\) is divisible by 7, conclude that \\(p\\) is even.",
+        "D": "Substituting \\(p=7k\\) gives \\(7q^{2}=49k^{2}\\) ⇒ \\(q^{2}=7k^{2}\\), so \\(q\\) is also divisible by 7, contradicting the assumption of lowest terms."
+      },
+      "correct_option": "C",
+      "answer": "Since \\(p^{2}\\) is divisible by 7, conclude that \\(p\\) is even.",
+      "explanation": "From \\(7q^{2}=p^{2}\\) we can infer that 7 divides \\(p^{2}\\), which means 7 divides \\(p\\) (not that \\(p\\) is even). The statement in option C incorrectly links divisibility by 7 to evenness, which is unrelated. Options A, B, and D are all correct steps in the standard contradiction proof for \\(\\sqrt{7}\\). Hence C is the invalid step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Distinguish rational and irrational numbers",
+      "question": "Which of the following pairs contains one rational number and one irrational number?",
+      "options": {
+        "A": "(\\(\\sqrt{4}\\), \\(\\sqrt{9}\\))",
+        "B": "(π, e)",
+        "C": "(5/2, \\(\\sqrt{2}\\))",
+        "D": "(0, -1)"
+      },
+      "correct_option": "C",
+      "answer": "(5/2, \\(\\sqrt{2}\\))",
+      "explanation": "Option C pairs 5/2, a ratio of integers (rational), with \\(\\sqrt{2}\\), known to be irrational. Option A has \\(\\sqrt{4}=2\\) and \\(\\sqrt{9}=3\\), both rational. Option B contains two well‑known irrational constants. Option D contains two integers, both rational. Therefore C is the correct pair.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand consequences of rational and irrational number properties",
+      "question": "If \\(\\sqrt{2}+\\sqrt{3}\\) were rational, which of the following statements must be true?",
+      "options": {
+        "A": "Both \\(\\sqrt{2}\\) and \\(\\sqrt{3}\\) are rational.",
+        "B": "\\(\\sqrt{2}-\\sqrt{3}\\) is rational.",
+        "C": "\\(\\sqrt{2}\\times\\sqrt{3}\\) is rational.",
+        "D": "Such a situation is impossible; \\(\\sqrt{2}+\\sqrt{3}\\) is irrational."
+      },
+      "correct_option": "D",
+      "answer": "Such a situation is impossible; \\(\\sqrt{2}+\\sqrt{3}\\) is irrational.",
+      "explanation": "Both \\(\\sqrt{2}\\) and \\(\\sqrt{3}\\) are known to be irrational. Their sum cannot be rational; assuming it were leads to a contradiction (subtracting \\(\\sqrt{2}\\) from both sides would make \\(\\sqrt{3}\\) rational). Hence the premise is false, making option D the only correct statement. Options A, B, and C are false because they either incorrectly assert rationality of the individual roots or of derived expressions.",
+      "difficulty": "hard"
+    }
+  ]
+}

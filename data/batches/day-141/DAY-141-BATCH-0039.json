@@ -1,0 +1,78 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Use contradiction in elementary irrationality proofs",
+      "question": "A student argues that to prove \\(\\sqrt{2}\\) is irrational it is enough to note that its decimal expansion does not terminate. Which statement correctly identifies the flaw in this reasoning?",
+      "options": {
+        "A": "A non‑terminating decimal automatically proves a number is irrational.",
+        "B": "A non‑terminating decimal alone does not guarantee irrationality because a rational number can have a non‑terminating but repeating decimal expansion.",
+        "C": "The decimal expansion of \\(\\sqrt{2}\\) actually terminates, so the argument is false.",
+        "D": "Proof by contradiction cannot be used for statements about decimal expansions."
+      },
+      "correct_option": "B",
+      "answer": "A non‑terminating decimal alone does not guarantee irrationality because a rational number can have a non‑terminating but repeating decimal expansion.",
+      "explanation": "Rational numbers have decimal expansions that either terminate or repeat periodically. \\(\\sqrt{2}\\) has a non‑terminating, non‑repeating decimal, which indicates irrationality, but merely observing non‑termination is insufficient; one must also show the expansion does not repeat. Hence option B correctly points out the missing step in the student's argument. Options A and C are factually incorrect, and D misstates the applicability of proof by contradiction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Prove that square roots of selected primes are irrational",
+      "question": "In a proof by contradiction that \\(\\sqrt{3}\\) is irrational, which of the following steps is essential?",
+      "options": {
+        "A": "Assume \\(\\sqrt{3}=\\frac{p}{q}\\) where both \\(p\\) and \\(q\\) are even integers.",
+        "B": "Assume \\(\\sqrt{3}=\\frac{p}{q}\\) with \\(p\\) and \\(q\\) having no common factor, then square both sides to obtain \\(3q^{2}=p^{2}\\).",
+        "C": "From \\(3q^{2}=p^{2}\\) deduce that 3 divides \\(p^{2}\\), hence 3 divides \\(p\\); consequently 3 divides both \\(p\\) and \\(q\\), contradicting the assumption that they are coprime.",
+        "D": "Conclude that \\(\\sqrt{3}\\) must be an integer because its square is an integer."
+      },
+      "correct_option": "C",
+      "answer": "From \\(3q^{2}=p^{2}\\) deduce that 3 divides \\(p^{2}\\), hence 3 divides \\(p\\); consequently 3 divides both \\(p\\) and \\(q\\), contradicting the assumption that they are coprime.",
+      "explanation": "The crucial contradiction arises after assuming \\(\\sqrt{3}=p/q\\) in lowest terms, squaring to get \\(3q^{2}=p^{2}\\), and observing that 3 must divide \\(p\\). If 3 divides \\(p\\), write \\(p=3k\\); substituting gives \\(3q^{2}=9k^{2}\\) → \\(q^{2}=3k^{2}\\), so 3 also divides \\(q\\). This contradicts the coprime assumption, proving irrationality. Option B is a necessary preliminary step, but the essential contradiction is captured in C. Options A and D are incorrect statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Distinguish rational and irrational numbers",
+      "question": "Which of the following pairs correctly classifies the first number as rational and the second as irrational?",
+      "options": {
+        "A": "\\(\\sqrt{5}\\) is rational, \\(\\frac{7}{9}\\) is irrational.",
+        "B": "0.333... (repeating) is rational, \\(\\sqrt{2}\\) is irrational.",
+        "C": "\\(\\sqrt{9}\\) is irrational, \\(\\frac{5}{0}\\) is rational.",
+        "D": "\\(\\sqrt{16}\\) is rational, \\(\\pi\\) is rational."
+      },
+      "correct_option": "B",
+      "answer": "0.333... (repeating) is rational, \\(\\sqrt{2}\\) is irrational.",
+      "explanation": "A repeating decimal like 0.333... equals \\(\\frac{1}{3}\\), a ratio of integers, so it is rational. \\(\\sqrt{2}\\) cannot be expressed as a ratio of integers; its decimal expansion is non‑terminating and non‑repeating, making it irrational. Option A misclassifies \\(\\sqrt{5}\\). Option C includes an undefined expression \\(\\frac{5}{0}\\) and misclassifies \\(\\sqrt{9}=3\\) as irrational. Option D incorrectly states \\(\\pi\\) is rational.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand consequences of rational and irrational number properties",
+      "question": "Let \\(a\\) be a non‑zero rational number and \\(b\\) be an irrational number. Which of the following statements is always true?",
+      "options": {
+        "A": "The sum \\(a + b\\) is rational.",
+        "B": "The product \\(a \\times b\\) is irrational.",
+        "C": "The difference \\(a - b\\) is irrational.",
+        "D": "The quotient \\(a \\div b\\) is rational."
+      },
+      "correct_option": "B",
+      "answer": "The product \\(a \\times b\\) is irrational.",
+      "explanation": "If \\(a\\) is rational (\\(a = \\frac{p}{q}\\), \\(p,q\\in\\mathbb{Z}, q\\neq0\\)) and \\(b\\) is irrational, assuming the product were rational leads to \\(b = \\frac{\\text{rational}}{a}\\), which would make \\(b\\) rational—a contradiction. Hence the product must be irrational. The sum and difference of a rational and an irrational number are also irrational, so options A and C are false. The quotient \\(a/b\\) is irrational because dividing a rational by an irrational yields an irrational (unless \\(a=0\\), which is excluded), so D is false. Therefore B is the always‑true statement.",
+      "difficulty": "hard"
+    }
+  ]
+}
