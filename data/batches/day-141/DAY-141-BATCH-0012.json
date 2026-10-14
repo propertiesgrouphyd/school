@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which of the following pairs of positive integers requires the greatest number of division steps in the Euclidean algorithm to determine their HCF?",
+      "options": {
+        "A": "(48, 18)",
+        "B": "(101, 23)",
+        "C": "(56, 42)",
+        "D": "(84, 30)"
+      },
+      "correct_option": "B",
+      "answer": "(101, 23)",
+      "explanation": "Applying the Euclidean algorithm:\n- (48,18): 48=2·18+12, 18=1·12+6, 12=2·6+0 → 3 division steps.\n- (101,23): 101=4·23+9, 23=2·9+5, 9=1·5+4, 5=1·4+1, 4=4·1+0 → 5 division steps.\n- (56,42): 56=1·42+14, 42=3·14+0 → 2 steps.\n- (84,30): 84=2·30+24, 30=1·24+6, 24=4·6+0 → 3 steps.\nThus the pair (101,23) needs the most steps, making option B correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Using successive division (the Euclidean algorithm), find the Highest Common Factor (HCF) of 2520 and 1050.",
+      "options": {
+        "A": "210",
+        "B": "105",
+        "C": "420",
+        "D": "630"
+      },
+      "correct_option": "A",
+      "answer": "210",
+      "explanation": "Apply the Euclidean algorithm:\n2520 ÷ 1050 = 2 remainder 420.\n1050 ÷ 420 = 2 remainder 210.\n420 ÷ 210 = 2 remainder 0.\nWhen the remainder becomes 0, the last non‑zero remainder is the HCF, which is 210. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following correctly states Euclid's division lemma for any two positive integers a and b (with a > b)?",
+      "options": {
+        "A": "a = b·q + r where 0 ≤ r < b",
+        "B": "a = b·q – r where 0 ≤ r < b",
+        "C": "a = b·q + r where 0 < r ≤ b",
+        "D": "a = b·q and the remainder is always zero"
+      },
+      "correct_option": "A",
+      "answer": "a = b·q + r where 0 ≤ r < b",
+      "explanation": "Euclid's division lemma asserts that for any integers a and b (b > 0) there exist unique integers q (quotient) and r (remainder) such that a = b·q + r and 0 ≤ r < b. Option A captures this statement precisely; the other options either change the sign, restrict r incorrectly, or claim the remainder is always zero, which is false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the division statement 157 ÷ 13 = 12 remainder 1, which term represents the divisor?",
+      "options": {
+        "A": "157",
+        "B": "13",
+        "C": "12",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "answer": "13",
+      "explanation": "In a division expression dividend ÷ divisor = quotient remainder, the divisor is the number by which the dividend is divided. Here 13 is the divisor. The dividend is 157, the quotient is 12, and the remainder is 1. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Which of the following statements correctly applies the division algorithm to the integers 85 and 7?",
+      "options": {
+        "A": "85 = 7 × 12 + 1",
+        "B": "85 = 7 × 13 + 0",
+        "C": "85 = 7 × 11 + 8",
+        "D": "85 = 7 × 12 – 1"
+      },
+      "correct_option": "A",
+      "answer": "85 = 7 × 12 + 1",
+      "explanation": "The division algorithm requires 0 ≤ remainder < divisor. For 85 ÷ 7, the quotient is 12 and the remainder is 1, giving 85 = 7·12 + 1, which satisfies the condition. Options B, C, and D either give an incorrect remainder or violate the inequality condition, so they are wrong.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Find the HCF of 84 and 60 using repeated division (the Euclidean algorithm).",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "24",
+        "D": "18"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Apply the Euclidean algorithm:\n84 ÷ 60 = 1 remainder 24.\n60 ÷ 24 = 2 remainder 12.\n24 ÷ 12 = 2 remainder 0.\nThe last non‑zero remainder is 12, which is the HCF. Therefore option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Given the Euclidean algorithm steps: 119 = 5 × 22 + 9, 22 = 2 × 9 + 4, 9 = 2 × 4 + 1, 4 = 4 × 1 + 0, what is the HCF of 119 and 22?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "The Euclidean algorithm ends when the remainder becomes 0. The last non‑zero remainder before that is 1 (from 9 = 2·4 + 1). Hence the HCF of 119 and 22 is 1. Options B, C, and D are larger than the final remainder, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "A garden has two rectangular plots with dimensions 168 m × 72 m and 168 m × 48 m. To fence each plot using square tiles of equal size without cutting any tile, what should be the side length of the largest possible square tile? (Use successive division to find the HCF of the relevant dimensions.)",
+      "options": {
+        "A": "12 m",
+        "B": "24 m",
+        "C": "36 m",
+        "D": "48 m"
+      },
+      "correct_option": "B",
+      "answer": "24 m",
+      "explanation": "The side length of the largest square tile that fits both plots without cutting is the HCF of the two differing dimensions, 72 m and 48 m.\nSuccessive division:\n72 ÷ 48 = 1 remainder 24.\n48 ÷ 24 = 2 remainder 0.\nThus HCF = 24 m. Option B is correct; the other options are not common divisors of both dimensions.",
+      "difficulty": "medium"
+    }
+  ]
+}

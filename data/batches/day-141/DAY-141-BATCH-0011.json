@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "According to the division algorithm, when a positive integer a is divided by a positive integer b (b > 0), which of the following statements is always true?",
+      "options": {
+        "A": "a = b q + r where 0 ≤ r < b",
+        "B": "a = b q – r where 0 ≤ r < b",
+        "C": "a = b q + r where r > b",
+        "D": "a = b q and the remainder is always 0"
+      },
+      "correct_option": "A",
+      "answer": "a = b q + r where 0 ≤ r < b",
+      "explanation": "The division algorithm states that for any integers a and b (b>0) there exist unique integers q (quotient) and r (remainder) such that a = bq + r and 0 ≤ r < b. Options B, C and D violate the condition on the remainder.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Which of the following sequences correctly applies the Euclidean algorithm to find the HCF of 48 and 18?",
+      "options": {
+        "A": "48 = 18×2 + 12; 18 = 12×1 + 6; 12 = 6×2 + 0 → HCF = 6",
+        "B": "48 = 18×2 + 12; 18 = 12×1 + 5; 12 = 5×2 + 2; 5 = 2×2 + 1; 2 = 1×2 + 0 → HCF = 1",
+        "C": "48 = 18×3 + 6; 18 = 6×3 + 0 → HCF = 6",
+        "D": "48 = 18×2 + 12; 12 = 48×0 + 12; 18 = 12×1 + 6; 6 = 12×0 + 6 → HCF = 6"
+      },
+      "correct_option": "A",
+      "answer": "48 = 18×2 + 12; 18 = 12×1 + 6; 12 = 6×2 + 0 → HCF = 6",
+      "explanation": "The Euclidean algorithm repeatedly divides the larger number by the smaller and replaces the pair by (smaller, remainder). The correct chain is 48 = 18·2 + 12, 18 = 12·1 + 6, 12 = 6·2 + 0, so the last non‑zero remainder is 6. Options B and C contain incorrect divisions, and D does not follow the successive‑division rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "The Euclidean algorithm is best described as:",
+      "options": {
+        "A": "A method to find the greatest common divisor of two integers by repeated division",
+        "B": "A technique to factorise polynomials over the integers",
+        "C": "A process to compute the decimal expansion of a fraction",
+        "D": "A rule for solving systems of linear equations"
+      },
+      "correct_option": "A",
+      "answer": "A method to find the greatest common divisor of two integers by repeated division",
+      "explanation": "The Euclidean algorithm repeatedly applies the division algorithm to obtain remainders until a remainder of zero is reached; the last non‑zero remainder is the HCF (GCD). The other options describe unrelated mathematical procedures.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Find the HCF of 84 and 30 using successive division.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "84 = 30·2 + 24; 30 = 24·1 + 6; 24 = 6·4 + 0. The last non‑zero remainder is 6, so HCF(84,30)=6. The other numbers are not obtained by the Euclidean steps.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements correctly expresses Euclid's division lemma for any integers a and b (b > 0)?",
+      "options": {
+        "A": "There exist unique integers q and r such that a = bq + r, where 0 ≤ r < b",
+        "B": "There exist integers q and r such that a = bq – r, where 0 ≤ r ≤ b",
+        "C": "There exist integers q and r such that a = bq + r, where r > b",
+        "D": "There exist integers q and r such that a = bq, where r = 0 always"
+      },
+      "correct_option": "A",
+      "answer": "There exist unique integers q and r such that a = bq + r, where 0 ≤ r < b",
+      "explanation": "Euclid's division lemma (or division algorithm) guarantees the existence and uniqueness of integers q (quotient) and r (remainder) satisfying a = bq + r with 0 ≤ r < b. Options B, C, and D either change the sign, relax the remainder condition, or ignore the remainder altogether.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the division 125 ÷ 13 = 9 remainder 8, which term represents the dividend?",
+      "options": {
+        "A": "125",
+        "B": "13",
+        "C": "9",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "125",
+      "explanation": "The dividend is the number being divided; here it is 125. The divisor is 13, the quotient is 9, and the remainder is 8. The other options correspond to different parts of the division statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "A student writes: \"When 20 is divided by 6, we have 20 = 6×3 + 2, and says the remainder can be 6.\" Which statement is correct?",
+      "options": {
+        "A": "The remainder must be less than the divisor, so the correct remainder is 2, not 6.",
+        "B": "The remainder can be equal to the divisor.",
+        "C": "The remainder can be any non‑negative integer.",
+        "D": "The quotient should be 4, not 3."
+      },
+      "correct_option": "A",
+      "answer": "The remainder must be less than the divisor, so the correct remainder is 2, not 6.",
+      "explanation": "By the division algorithm, the remainder r satisfies 0 ≤ r < divisor. Since the divisor is 6, r cannot be 6; the correct remainder from 20 = 6·3 + 2 is 2. Options B and C ignore the remainder bound, and D misstates the quotient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "If the Euclidean algorithm for numbers 56 and 15 proceeds as\n56 = 15×3 + 11,\n15 = 11×1 + 4,\n11 = 4×2 + 3,\n4 = 3×1 + 1,\n3 = 1×3 + 0,\nwhat is the HCF of 56 and 15?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "The last non‑zero remainder in the Euclidean process is 1, therefore HCF(56,15)=1. The other numbers are not the final non‑zero remainder and thus are incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}

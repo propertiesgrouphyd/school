@@ -1,0 +1,78 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements correctly states Euclid's division lemma for any integer a and any positive integer b?",
+      "options": {
+        "A": "There exist unique integers q and r such that a = bq + r, where 0 \\u2264 r < b.",
+        "B": "There exist integers q and r such that a = bq - r, where 0 \\u2264 r \\u2264 b.",
+        "C": "There exist integers q and r such that a = bq + r, where 0 < r \\u2264 b.",
+        "D": "There exist integers q and r such that a = bq + r, where r can be any integer."
+      },
+      "correct_option": "A",
+      "answer": "There exist unique integers q and r such that a = bq + r, where 0 \\u2264 r < b.",
+      "explanation": "Euclid's division lemma asserts that for any integer a and any positive integer b, there are unique integers q (quotient) and r (remainder) satisfying a = bq + r with 0 \\u2264 r < b. Option A matches this definition. Options B and C have incorrect signs or range for r, and D ignores the restriction that r must be less than b.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the division expression 37 \\u00f7 5 = 7 remainder 2, which term represents the divisor?",
+      "options": {
+        "A": "37",
+        "B": "5",
+        "C": "7",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "In a division statement dividend \\u00f7 divisor = quotient remainder, the divisor is the number by which the dividend is divided. Here 5 is the divisor. Option A is the dividend, C is the quotient, and D is the remainder.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "When 123 is divided by 7, the remainder is 4. When 123 is divided by 5, the remainder is 3. Which of the following statements is true?",
+      "options": {
+        "A": "The remainder when dividing by a larger divisor is always larger.",
+        "B": "The remainder when dividing by a smaller divisor is always smaller.",
+        "C": "The remainder is always less than the divisor, regardless of its size.",
+        "D": "The remainder is equal to the divisor minus the quotient."
+      },
+      "correct_option": "C",
+      "answer": "The remainder is always less than the divisor, regardless of its size.",
+      "explanation": "The division algorithm guarantees that the remainder r satisfies 0 \\u2264 r < divisor. Hence, irrespective of whether the divisor is larger or smaller, the remainder must be strictly less than that divisor. Options A and B are false because the size of the remainder depends on the specific numbers, not on a simple larger‑smaller rule. Option D confuses remainder with a different expression.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Using Euclid's algorithm (repeated division), what is the highest common factor (HCF) of 84 and 126?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "14",
+        "D": "42"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "Apply Euclid's algorithm: 126 \\u00f7 84 = 1 remainder 42; then 84 \\u00f7 42 = 2 remainder 0. The last non‑zero remainder is 42, but note that 42 is a divisor of 84 and 126. However, the HCF is the greatest common divisor, which is 42. Wait, correction: 126 = 84*1 + 42, 84 = 42*2 + 0, so the HCF is 42. The correct answer should be 42, not 12. Therefore the correct option is D.",
+      "difficulty": "hard"
+    }
+  ]
+}

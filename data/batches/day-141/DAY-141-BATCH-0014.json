@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-00588-001",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following correctly defines a prime number and a composite number?",
+      "options": {
+        "A": "A prime number has exactly two distinct positive divisors, 1 and itself; a composite number has more than two positive divisors.",
+        "B": "A prime number has only one positive divisor, 1; a composite number has exactly two positive divisors.",
+        "C": "A prime number is any odd number greater than 1; a composite number is any even number greater than 2.",
+        "D": "A prime number can be divided by 1, itself, and at least one other number; a composite number cannot be divided by any number other than 1 and itself."
+      },
+      "correct_option": "A",
+      "answer": "A prime number has exactly two distinct positive divisors, 1 and itself; a composite number has more than two positive divisors.",
+      "explanation": "A prime number is defined as having exactly two distinct positive divisors: 1 and the number itself. Any integer greater than 1 that has more than two positive divisors is called composite. Option A states this precisely. Options B, C and D give incorrect or misleading definitions, e.g., saying a prime has only one divisor or linking primality to oddness, which are false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-00588-002",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Express the integer 84 as a product of prime numbers.",
+      "options": {
+        "A": "2 × 2 × 3 × 7",
+        "B": "2 × 3 × 14",
+        "C": "3 × 28",
+        "D": "4 × 21"
+      },
+      "correct_option": "A",
+      "answer": "2 × 2 × 3 × 7",
+      "explanation": "Prime factorisation breaks a number into prime factors only. 84 ÷ 2 = 42, ÷ 2 = 21, ÷ 3 = 7, and 7 is prime, giving 84 = 2·2·3·7. Options B, C and D contain composite factors (14, 28, 21) and therefore are not full prime factorizations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-00588-003",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Which statement best describes the uniqueness part of the Fundamental Theorem of Arithmetic?",
+      "options": {
+        "A": "Every integer greater than 1 can be written as a product of prime numbers in only one way, except for the order of the factors.",
+        "B": "An integer can have many different prime factorizations depending on the method used.",
+        "C": "Prime factorisation is unique only for even numbers.",
+        "D": "The uniqueness holds only when the prime factors are listed in ascending order."
+      },
+      "correct_option": "A",
+      "answer": "Every integer greater than 1 can be written as a product of prime numbers in only one way, except for the order of the factors.",
+      "explanation": "The Fundamental Theorem of Arithmetic states that each integer >1 has a unique prime factorisation, up to the order of the primes. Option A captures this exactly. Options B, C and D incorrectly claim multiple factorizations or impose unnecessary restrictions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-00588-004",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the Highest Common Factor (HCF) of 48 and 180 using prime factorisation.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "36"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "Prime factors: 48 = 2³·3, 180 = 2²·3²·5. The common primes are 2² and 3¹, so HCF = 2²·3 = 4·3 = 12. Options A, C, D are incorrect because they either miss a common factor or include factors not common to both numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-00588-005",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find LCM",
+      "question": "Using prime factorisation, determine the Least Common Multiple (LCM) of 12 and 15.",
+      "options": {
+        "A": "30",
+        "B": "60",
+        "C": "180",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "60",
+      "explanation": "Prime factors: 12 = 2²·3, 15 = 3·5. LCM takes the highest power of each prime: 2², 3¹, 5¹ → 2²·3·5 = 4·3·5 = 60. Option A is the product of the numbers divided by their HCF, not the LCM. Options C and D are too large or too small.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-00588-006",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Relate HCF and LCM to numerical problems",
+      "question": "Two numbers have a Highest Common Factor (HCF) of 12 and a Least Common Multiple (LCM) of 720. What is the product of the two numbers?",
+      "options": {
+        "A": "8640",
+        "B": "720",
+        "C": "12",
+        "D": "4320"
+      },
+      "correct_option": "A",
+      "answer": "8640",
+      "explanation": "For any two positive integers, (HCF) × (LCM) = product of the numbers. Hence product = 12 × 720 = 8640. Options B and C give the HCF or LCM alone, and D is half of the correct product.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-00588-007",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Identify the misconception in the following statement: \"The number 1 is a prime number because it has only one divisor.\"",
+      "options": {
+        "A": "The statement is correct; 1 is a prime number.",
+        "B": "The statement is incorrect; 1 is neither prime nor composite.",
+        "C": "The statement is incorrect; 1 is a composite number.",
+        "D": "The statement is correct; having one divisor qualifies a number as prime."
+      },
+      "correct_option": "B",
+      "answer": "The statement is incorrect; 1 is neither prime nor composite.",
+      "explanation": "By definition, a prime number must have exactly two distinct positive divisors. The number 1 has only one divisor (itself), so it is classified as neither prime nor composite. Options A and D incorrectly label 1 as prime, while C incorrectly calls it composite.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-00588-008",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Which of the following is NOT a correct prime factorisation of the given number?",
+      "options": {
+        "A": "84 = 2 × 2 × 3 × 7",
+        "B": "90 = 2 × 3 × 3 × 5",
+        "C": "100 = 2 × 2 × 5 × 5",
+        "D": "105 = 3 × 5 × 7 × 2"
+      },
+      "correct_option": "D",
+      "answer": "105 = 3 × 5 × 7 × 2",
+      "explanation": "The correct prime factorisation of 105 is 3 × 5 × 7. Option D includes an extra factor 2, making the product 210, not 105. Options A, B, and C are accurate prime factorizations of their respective numbers.",
+      "difficulty": "medium"
+    }
+  ]
+}
