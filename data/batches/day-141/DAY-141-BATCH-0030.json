@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand consequences of rational and irrational number properties",
+      "question": "If \\(\\sqrt{2}\\) is irrational and 5 is rational, which of the following statements is always true?",
+      "options": {
+        "A": "\\(\\sqrt{2}+5\\) is rational",
+        "B": "\\(\\sqrt{2}+5\\) is irrational",
+        "C": "\\(\\sqrt{2}-5\\) is rational",
+        "D": "\\(\\sqrt{2}\\times5\\) is rational"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\sqrt{2}+5\\) is irrational",
+      "explanation": "The sum (or difference) of a rational number and an irrational number is always irrational. Hence \\(\\sqrt{2}+5\\) cannot be expressed as a fraction of two integers, making option B correct. Options A and C claim rationality, which is false. Option D is the product of a non‑zero rational and an irrational, which is also irrational, so D is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand the meaning of irrational number",
+      "question": "A student argues that the decimal 0.101001000100001… (where the number of zeros between successive 1’s keeps increasing) is rational because it “looks like a pattern”. Which response is mathematically correct?",
+      "options": {
+        "A": "It is rational because the pattern eventually repeats.",
+        "B": "It is irrational because its decimal expansion is non‑terminating and non‑repeating.",
+        "C": "It is rational because every decimal can be written as a fraction.",
+        "D": "It is irrational because it is a negative number."
+      },
+      "correct_option": "B",
+      "answer": "It is irrational because its decimal expansion is non‑terminating and non‑repeating.",
+      "explanation": "An irrational number is defined as one whose decimal representation neither terminates nor becomes periodic. The given decimal never repeats a block of digits, so it is irrational. Options A and C misinterpret the definition, and D is irrelevant because the number is positive.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Use contradiction in elementary irrationality proofs",
+      "question": "In a proof by contradiction that \\(\\sqrt{2}\\) is irrational, which of the following statements represents a logical error?",
+      "options": {
+        "A": "Assume \\(\\sqrt{2}=\\dfrac{p}{q}\\) where \\(p\\) and \\(q\\) have no common factor.",
+        "B": "From \\(2q^{2}=p^{2}\\) conclude that \\(p\\) must be even.",
+        "C": "Conclude that \\(p\\) must be odd.",
+        "D": "Show that both \\(p\\) and \\(q\\) being even contradicts the assumption of lowest terms."
+      },
+      "correct_option": "C",
+      "answer": "Conclude that \\(p\\) must be odd.",
+      "explanation": "The correct deduction from \\(2q^{2}=p^{2}\\) is that \\(p\\) is even, not odd. Claiming \\(p\\) is odd is a logical mistake and would prevent reaching the contradiction. The other steps are valid parts of the standard proof.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Prove that square roots of selected primes are irrational",
+      "question": "Which argument correctly proves that \\(\\sqrt{3}\\) is irrational?",
+      "options": {
+        "A": "Assume \\(\\sqrt{3}=\\dfrac{p}{q}\\) in lowest terms. Squaring gives \\(3q^{2}=p^{2}\\). Hence \\(p\\) is a multiple of 3, which forces \\(q\\) also to be a multiple of 3, contradicting the lowest‑terms assumption.",
+        "B": "Assume \\(\\sqrt{3}=\\dfrac{p}{q}\\). Cube both sides to obtain \\(3\\sqrt{3}=p^{3}/q^{3}\\) and deduce a contradiction.",
+        "C": "Since 3 is not a perfect square, its square root must be irrational.",
+        "D": "Write \\(\\sqrt{3}=1.732\\ldots\\) and note that the decimal does not terminate, therefore it is irrational."
+      },
+      "correct_option": "A",
+      "answer": "Assume \\(\\sqrt{3}=\\dfrac{p}{q}\\) in lowest terms. Squaring gives \\(3q^{2}=p^{2}\\). Hence \\(p\\) is a multiple of 3, which forces \\(q\\) also to be a multiple of 3, contradicting the lowest‑terms assumption.",
+      "explanation": "The proof by contradiction uses the fact that if \\(3\\) divides \\(p^{2}\\) then \\(3\\) divides \\(p\\). Substituting \\(p=3k\\) leads to \\(q\\) also being divisible by 3, violating the assumption that \\(p/q\\) is in lowest terms. Options B, C, and D either misuse algebra or rely on incomplete reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Distinguish rational and irrational numbers",
+      "question": "Which of the following pairs correctly identifies a rational number and an irrational number respectively?",
+      "options": {
+        "A": "0.75 and \\(\\sqrt{5}\\)",
+        "B": "\\(\\sqrt{9}\\) and \\(\\pi\\)",
+        "C": "22/7 and 3.14",
+        "D": "0.333... and \\(\\sqrt{4}\\)"
+      },
+      "correct_option": "A",
+      "answer": "0.75 and \\(\\sqrt{5}\\)",
+      "explanation": "0.75 = 3/4 is a terminating decimal and can be expressed as a fraction, so it is rational. \\(\\sqrt{5}\\) cannot be written as a ratio of integers, making it irrational. In option B, \\(\\sqrt{9}=3\\) is rational, so the pair misclassifies it. Option C lists two rational numbers, and option D misclassifies \\(\\sqrt{4}=2\\) as irrational.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand consequences of rational and irrational number properties",
+      "question": "If \\(a\\) and \\(b\\) are irrational numbers such that \\(a+b\\) is rational and \\(a\\times b\\) is irrational, which of the following could be the value of \\(a\\)?",
+      "options": {
+        "A": "\\(\\sqrt{2}\\)",
+        "B": "1-\\sqrt{2}",
+        "C": "\\(\\sqrt{3}\\)",
+        "D": "\\(\\sqrt{2}+\\sqrt{3}\\)"
+      },
+      "correct_option": "B",
+      "answer": "1-\\sqrt{2}",
+      "explanation": "Take \\(a = 1-\\sqrt{2}\\) (irrational). Choose \\(b = \\sqrt{2}-1\\) (also irrational). Their sum is 0, a rational number, while their product is \\((1-\\sqrt{2})(\\sqrt{2}-1)=2\\sqrt{2}-3\\), which remains irrational. Hence option B satisfies both conditions. Options A and C give a product that is rational when paired with their negatives, and option D leads to both sum and product being irrational.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Understand the meaning of irrational number",
+      "question": "An irrational number is best described as:",
+      "options": {
+        "A": "A number that can be expressed as a fraction of two integers",
+        "B": "A number whose decimal expansion terminates",
+        "C": "A number that cannot be expressed as a ratio of two integers",
+        "D": "A number that is always negative"
+      },
+      "correct_option": "C",
+      "answer": "A number that cannot be expressed as a ratio of two integers",
+      "explanation": "By definition, irrational numbers cannot be written as \\(p/q\\) where \\(p\\) and \\(q\\) are integers with \\(q\\neq0\\). Options A and B describe rational numbers, and D is unrelated to the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00589",
+      "learning_point": "Use contradiction in elementary irrationality proofs",
+      "question": "Which step is essential in a proof by contradiction that \\(\\sqrt{5}\\) is irrational?",
+      "options": {
+        "A": "Assume \\(\\sqrt{5}\\) can be written as \\(p/q\\) in lowest terms",
+        "B": "Directly compute the decimal expansion of \\(\\sqrt{5}\\)",
+        "C": "Show that both \\(p\\) and \\(q\\) are prime numbers",
+        "D": "Use mathematical induction on the exponent of 5"
+      },
+      "correct_option": "A",
+      "answer": "Assume \\(\\sqrt{5}\\) can be written as \\(p/q\\) in lowest terms",
+      "explanation": "The standard contradiction proof begins by assuming the opposite of what we want to prove: that \\(\\sqrt{5}\\) is rational, i.e., it equals a fraction \\(p/q\\) with no common factors. This assumption leads to a logical inconsistency, establishing irrationality. The other options are not part of the contradiction method.",
+      "difficulty": "easy"
+    }
+  ]
+}

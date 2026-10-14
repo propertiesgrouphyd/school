@@ -1,0 +1,78 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Define prime and composite numbers",
+      "question": "Which of the following statements about prime and composite numbers is incorrect?",
+      "options": {
+        "A": "2 is the only even prime number.",
+        "B": "1 is a prime number.",
+        "C": "A composite number has more than two distinct positive divisors.",
+        "D": "Every integer greater than 1 is either prime or composite."
+      },
+      "correct_option": "B",
+      "answer": "1 is a prime number.",
+      "explanation": "A prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself. The number 1 has only one divisor (itself), so it is neither prime nor composite. Options A, C, and D correctly describe prime/composite properties, making B the only incorrect statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Express a number as a product of primes",
+      "question": "Express 84 as a product of prime numbers.",
+      "options": {
+        "A": "2 \\times 2 \\times 3 \\times 7",
+        "B": "2 \\times 3 \\times 14",
+        "C": "3 \\times 4 \\times 7",
+        "D": "2 \\times 6 \\times 7"
+      },
+      "correct_option": "A",
+      "answer": "2 \\times 2 \\times 3 \\times 7",
+      "explanation": "To factor 84, divide by the smallest prime repeatedly: 84 ÷ 2 = 42, 42 ÷ 2 = 21, 21 ÷ 3 = 7, and 7 is prime. Hence 84 = 2 × 2 × 3 × 7, which is a product of primes. Options B, C, and D contain composite numbers (14, 4, 6), so they are not valid prime factorizations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Understand uniqueness of prime factorisation",
+      "question": "Which statement correctly reflects the uniqueness of prime factorisation for the integer 180?",
+      "options": {
+        "A": "180 can be written as 2\\times2\\times3\\times3\\times5 or as 2\\times3\\times5\\times6, showing two different prime factorizations.",
+        "B": "Any two prime factorizations of 180 differ only in the order of the same prime factors.",
+        "C": "180 has infinitely many distinct prime factorizations.",
+        "D": "The prime factorisation of 180 must include the prime 7."
+      },
+      "correct_option": "B",
+      "answer": "Any two prime factorizations of 180 differ only in the order of the same prime factors.",
+      "explanation": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 has a unique prime factorisation, up to the order of the factors. For 180, the factorisation is 2^2 \\times 3^2 \\times 5. Option B captures this uniqueness. Option A is wrong because 6 is not prime, so the second expression is not a prime factorisation. Options C and D are false statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00588",
+      "learning_point": "Use prime factorisation to find HCF",
+      "question": "Find the highest common factor (HCF) of 540 and 864 using prime factorisation.",
+      "options": {
+        "A": "108",
+        "B": "72",
+        "C": "144",
+        "D": "216"
+      },
+      "correct_option": "A",
+      "answer": "108",
+      "explanation": "Prime factorise each number: 540 = 2^2 \\times 3^3 \\times 5, 864 = 2^5 \\times 3^3. The common primes are 2 and 3. Take the lowest powers: 2^{min(2,5)} = 2^2 = 4 and 3^{min(3,3)} = 3^3 = 27. Multiply: 4 \\times 27 = 108. Hence the HCF is 108. Options B, C, and D are larger or smaller than the correct common factor.",
+      "difficulty": "hard"
+    }
+  ]
+}
