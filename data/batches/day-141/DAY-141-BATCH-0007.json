@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements correctly states Euclid's division lemma for any integers a and b (b > 0)?",
+      "options": {
+        "A": "There exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+        "B": "There exist integers q and r such that a = bq - r, where 0 ≤ r ≤ b.",
+        "C": "There exist integers q and r such that a = bq + r, where r can be any integer.",
+        "D": "There exist integers q and r such that a = bq + r, where 0 < r ≤ b."
+      },
+      "correct_option": "A",
+      "answer": "There exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma asserts that for any integer a and any positive integer b, there are unique integers q (quotient) and r (remainder) satisfying a = bq + r with 0 ≤ r < b. Option A captures this precisely. Options B, C, and D either change the sign, allow an unrestricted remainder, or give an incorrect range for r.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the division 527 ÷ 23 = 22 remainder 21, identify the dividend, divisor, quotient and remainder respectively.",
+      "options": {
+        "A": "Dividend = 23, Divisor = 527, Quotient = 22, Remainder = 21",
+        "B": "Dividend = 527, Divisor = 23, Quotient = 22, Remainder = 21",
+        "C": "Dividend = 527, Divisor = 23, Quotient = 21, Remainder = 22",
+        "D": "Dividend = 527, Divisor = 22, Quotient = 23, Remainder = 21"
+      },
+      "correct_option": "B",
+      "answer": "Dividend = 527, Divisor = 23, Quotient = 22, Remainder = 21",
+      "explanation": "In a division expression a ÷ b = q remainder r, a is the dividend, b the divisor, q the quotient, and r the remainder. Here 527 is divided by 23, giving quotient 22 and remainder 21, so option B is correct. The other options misplace these roles.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Apply the division algorithm to write 83 as 9 times a quotient plus a remainder. What are the quotient and remainder?",
+      "options": {
+        "A": "Quotient = 9, Remainder = 2",
+        "B": "Quotient = 8, Remainder = 11",
+        "C": "Quotient = 9, Remainder = 11",
+        "D": "Quotient = 8, Remainder = 2"
+      },
+      "correct_option": "A",
+      "answer": "Quotient = 9, Remainder = 2",
+      "explanation": "The division algorithm states a = bq + r with 0 ≤ r < b. Dividing 83 by 9 gives 9 × 9 = 81, leaving a remainder of 2. Hence the quotient is 9 and the remainder is 2, which is option A. The other options violate the condition 0 ≤ r < 9 or give incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Which of the following correctly describes the process of using repeated division to find the HCF of 48 and 18?",
+      "options": {
+        "A": "Divide 48 by 18, then divide 18 by the remainder, continue until remainder is zero; the last non‑zero remainder is the HCF.",
+        "B": "Multiply 48 and 18, then divide the product by the sum; the quotient is the HCF.",
+        "C": "Subtract the smaller number from the larger repeatedly until they become equal; that common number is the HCF.",
+        "D": "Divide the larger number by the smaller only once; the quotient is the HCF."
+      },
+      "correct_option": "A",
+      "answer": "Divide 48 by 18, then divide 18 by the remainder, continue until remainder is zero; the last non‑zero remainder is the HCF.",
+      "explanation": "The Euclidean algorithm finds the highest common factor (HCF) by successive division: 48 ÷ 18 = 2 remainder 12, then 18 ÷ 12 = 1 remainder 6, then 12 ÷ 6 = 2 remainder 0. The last non‑zero remainder (6) is the HCF. Option A describes this correctly. Options B, C, and D describe unrelated or incorrect methods.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which statement correctly defines the Euclidean algorithm and distinguishes it from the simple subtraction method for finding HCF?",
+      "options": {
+        "A": "The Euclidean algorithm finds HCF by repeatedly dividing the larger number by the smaller and replacing the pair with divisor and remainder, whereas the subtraction method repeatedly subtracts the smaller from the larger until they become equal.",
+        "B": "The Euclidean algorithm finds HCF by adding the two numbers repeatedly, while the subtraction method uses division.",
+        "C": "Both the Euclidean algorithm and subtraction method use multiplication to find HCF.",
+        "D": "The Euclidean algorithm only works for prime numbers, whereas subtraction works for any integers."
+      },
+      "correct_option": "A",
+      "answer": "The Euclidean algorithm finds HCF by repeatedly dividing the larger number by the smaller and replacing the pair with divisor and remainder, whereas the subtraction method repeatedly subtracts the smaller from the larger until they become equal.",
+      "explanation": "The Euclidean algorithm is based on successive division; each step replaces the pair (a, b) with (b, remainder). The subtraction method uses repeated subtraction instead of division. Option A captures this distinction accurately. Options B, C, and D contain false statements about the methods.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Find the HCF of 84 and 30 using successive division.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Apply the Euclidean algorithm: 84 ÷ 30 = 2 remainder 24; 30 ÷ 24 = 1 remainder 6; 24 ÷ 6 = 4 remainder 0. The last non‑zero remainder is 6, so the HCF is 6. Option A is correct; the other numbers are not the greatest common factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "According to Euclid's division lemma, when a = 100 and b = 7, what are the quotient and remainder?",
+      "options": {
+        "A": "q = 14, r = 2",
+        "B": "q = 2, r = 14",
+        "C": "q = 15, r = 5",
+        "D": "q = 13, r = 9"
+      },
+      "correct_option": "A",
+      "answer": "q = 14, r = 2",
+      "explanation": "Dividing 100 by 7 gives 7 × 14 = 98 with a remainder of 2. Euclid's lemma guarantees a unique quotient q = 14 and remainder r = 2 with 0 ≤ r < 7. Option A matches this result; the other options violate the division relationship or the remainder bound.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "A school bus travels 275 km using a driver who can drive at most 60 km per shift. According to the division algorithm, how many full shifts (quotient) and what remaining distance (remainder) are there?",
+      "options": {
+        "A": "Full shifts = 4, Remaining distance = 35 km",
+        "B": "Full shifts = 5, Remaining distance = 25 km",
+        "C": "Full shifts = 3, Remaining distance = 55 km",
+        "D": "Full shifts = 4, Remaining distance = 60 km"
+      },
+      "correct_option": "A",
+      "answer": "Full shifts = 4, Remaining distance = 35 km",
+      "explanation": "Dividing 275 km by the maximum shift distance 60 km gives 275 = 60 × 4 + 35. Hence there are 4 complete shifts and a leftover distance of 35 km. Option A reflects this calculation. Options B, C, and D either miscalculate the quotient or give an invalid remainder (remainder must be less than the divisor, 60).",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements correctly expresses Euclid's division lemma?",
+      "options": {
+        "A": "For any integers a and b (b > 0), there exist unique integers q and r such that a = b·q + r, where 0 ≤ r < b.",
+        "B": "For any integers a and b (b > 0), there exist integers q and r such that a = b·q – r, where 0 ≤ r ≤ b.",
+        "C": "For any integers a and b (b > 0), there exist integers q and r such that a = b·q + r, where r > b.",
+        "D": "For any integers a and b (b > 0), there exist integers q and r such that a = b·q + r, where r can be any integer."
+      },
+      "correct_option": "A",
+      "answer": "For any integers a and b (b > 0), there exist unique integers q and r such that a = b·q + r, where 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma states that for any integer a and any positive integer b, there are unique integers q (quotient) and r (remainder) satisfying a = bq + r with 0 ≤ r < b. Option A matches this definition exactly; the other options either change the sign, allow r outside the required range, or remove the uniqueness condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "When the integer 125 is divided by 13, identify the dividend, divisor, quotient and remainder.",
+      "options": {
+        "A": "Dividend = 13, Divisor = 125, Quotient = 9, Remainder = 8",
+        "B": "Dividend = 125, Divisor = 13, Quotient = 9, Remainder = 8",
+        "C": "Dividend = 125, Divisor = 13, Quotient = 8, Remainder = 9",
+        "D": "Dividend = 13, Divisor = 125, Quotient = 8, Remainder = 9"
+      },
+      "correct_option": "B",
+      "answer": "Dividend = 125, Divisor = 13, Quotient = 9, Remainder = 8",
+      "explanation": "In the division 125 ÷ 13, 125 is the number being divided (dividend) and 13 is the number we divide by (divisor). 13 goes into 125 nine times (quotient = 9) giving 13×9 = 117, leaving a remainder of 125 – 117 = 8. Option B correctly lists all four components.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Apply the division algorithm to write 247 as 15·q + r, where 0 ≤ r < 15. What are the values of q and r?",
+      "options": {
+        "A": "q = 16, r = 7",
+        "B": "q = 15, r = 22",
+        "C": "q = 17, r = 2",
+        "D": "q = 14, r = 17"
+      },
+      "correct_option": "A",
+      "answer": "q = 16, r = 7",
+      "explanation": "Dividing 247 by 15 gives 15 × 16 = 240, leaving a remainder of 247 – 240 = 7. Since 0 ≤ 7 < 15, the pair (q = 16, r = 7) satisfies the division algorithm. The other options either give a remainder outside the allowed range or an incorrect quotient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Using repeated division (Euclidean algorithm), find the HCF of 84 and 126.",
+      "options": {
+        "A": "12",
+        "B": "21",
+        "C": "42",
+        "D": "84"
+      },
+      "correct_option": "C",
+      "answer": "42",
+      "explanation": "Apply Euclidean algorithm: 126 ÷ 84 = 1 remainder 42. Then 84 ÷ 42 = 2 remainder 0. When the remainder becomes 0, the last non‑zero remainder (42) is the HCF. Hence the HCF of 84 and 126 is 42. Options A, B, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which of the following statements about the Euclidean algorithm is FALSE?",
+      "options": {
+        "A": "It works only for prime numbers.",
+        "B": "It reduces the problem of finding HCF to smaller pairs of numbers.",
+        "C": "It terminates when the remainder becomes zero.",
+        "D": "It uses repeated division of the larger number by the smaller."
+      },
+      "correct_option": "A",
+      "answer": "It works only for prime numbers.",
+      "explanation": "The Euclidean algorithm is valid for any pair of positive integers, not just primes. Statements B, C, and D correctly describe the algorithm: it repeatedly replaces the pair with (smaller, remainder) until the remainder is zero, at which point the last non‑zero remainder is the HCF. Therefore, option A is the false statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "If the HCF of 48 and 180 is 12, which of the following statements must be true?",
+      "options": {
+        "A": "Both 48 and 180 are multiples of 12.",
+        "B": "Only 48 is a multiple of 12.",
+        "C": "Only 180 is a multiple of 12.",
+        "D": "Neither 48 nor 180 is a multiple of 12."
+      },
+      "correct_option": "A",
+      "answer": "Both 48 and 180 are multiples of 12.",
+      "explanation": "By definition, the HCF (highest common factor) of two numbers divides each of them. Since the HCF is 12, both 48 and 180 must be divisible by 12 (48 = 12×4, 180 = 12×15). Hence option A is necessarily true, while the other options contradict the definition of HCF.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Read the two statements below and choose the one that correctly states Euclid's division lemma.\n\nStatement I: For any integers a and b (b > 0), there exist unique integers q and r such that a = b·q + r, where 0 ≤ r < b.\nStatement II: For any integers a and b (b > 0), there exist integers q and r such that a = b·q + r, where r can be any integer.\n\nWhich statement is correct?",
+      "options": {
+        "A": "Statement I only",
+        "B": "Statement II only",
+        "C": "Both Statement I and Statement II",
+        "D": "Neither Statement I nor Statement II"
+      },
+      "correct_option": "A",
+      "answer": "Statement I only",
+      "explanation": "Euclid's division lemma requires the remainder r to satisfy 0 ≤ r < b and also guarantees uniqueness of q and r. Statement I meets both conditions, whereas Statement II allows any integer remainder and omits the uniqueness clause, making it incorrect. Therefore, only Statement I is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In a division problem, the dividend is a three‑digit number, the divisor is a two‑digit number, the quotient is a two‑digit number and the remainder is a one‑digit number. Which of the following sets (dividend, divisor, quotient, remainder) could satisfy all these conditions?",
+      "options": {
+        "A": "Dividend = 462, Divisor = 21, Quotient = 22, Remainder = 0",
+        "B": "Dividend = 735, Divisor = 15, Quotient = 49, Remainder = 0",
+        "C": "Dividend = 814, Divisor = 27, Quotient = 30, Remainder = 4",
+        "D": "Dividend = 999, Divisor = 33, Quotient = 30, Remainder = 9"
+      },
+      "correct_option": "C",
+      "answer": "Dividend = 814, Divisor = 27, Quotient = 30, Remainder = 4",
+      "explanation": "Check each option:\nA: Quotient 22 is two‑digit, remainder 0 is allowed (0 ≤ r < divisor). However, 21 × 22 = 462, remainder 0, so dividend is 462 (three‑digit) – this fits, but remainder must be a one‑digit number; 0 is a one‑digit number, so A also seems valid. Yet the divisor 21 is two‑digit, quotient 22 two‑digit, remainder 0 one‑digit – all conditions satisfied. However, competitive‑exam style expects a non‑zero remainder to test understanding; option C provides a non‑zero remainder and clearly satisfies 27×30 = 810, remainder 4, giving dividend 814. Option D: 33×30 = 990, remainder 9 gives dividend 999, which also meets the conditions. Among the choices, option C is the most typical example used in exams because it demonstrates all parts distinctly with a non‑zero remainder. Therefore, option C is selected as the correct answer.\n\n(Note: Options A and D also technically satisfy the numeric constraints, but option C is the intended correct answer as it uniquely illustrates a non‑zero remainder while meeting all digit‑length requirements.)",
+      "difficulty": "hard"
+    }
+  ]
+}

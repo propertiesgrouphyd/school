@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "When applying the division algorithm to two positive integers a and b (a > b), which statement is always true?",
+      "options": {
+        "A": "The remainder r is always less than the divisor b.",
+        "B": "The remainder r can be equal to the divisor b.",
+        "C": "The remainder r can be greater than the divisor b.",
+        "D": "The remainder r is zero only when a equals b."
+      },
+      "correct_option": "A",
+      "answer": "The remainder r is always less than the divisor b.",
+      "explanation": "The division algorithm states that for any integers a and b (b > 0) there exist unique integers q and r such that a = bq + r and 0 ≤ r < b. Hence the remainder can never be equal to or greater than the divisor; it is always strictly smaller. Option D is incorrect because r = 0 also occurs when a is a multiple of b, not only when a = b.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Using repeated division (the Euclidean algorithm), what is the HCF of 48 and 18?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "First divide 48 by 18: 48 = 18 × 2 + 12. Next divide 18 by 12: 18 = 12 × 1 + 6. Finally divide 12 by 6: 12 = 6 × 2 + 0. The last non‑zero remainder is 6, which is the HCF. Options A, B and D are not the final remainder, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which statement correctly compares the Euclidean algorithm with the prime‑factor method for finding the HCF of two large integers?",
+      "options": {
+        "A": "The Euclidean algorithm generally requires fewer steps because it works with division rather than factorisation.",
+        "B": "The prime‑factor method is faster for large numbers because factorisation is simple.",
+        "C": "Both methods always need the same number of operations for any pair of numbers.",
+        "D": "The Euclidean algorithm cannot be used when the numbers are not prime."
+      },
+      "correct_option": "A",
+      "answer": "The Euclidean algorithm generally requires fewer steps because it works with division rather than factorisation.",
+      "explanation": "The Euclidean algorithm repeatedly applies the division algorithm, reducing the size of the numbers quickly, and avoids the need to factor each integer completely. Factoring large numbers is computationally intensive, so the prime‑factor method is slower for big integers. Options B, C and D are false statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Find the HCF of 462 and 1071 using successive division (Euclidean algorithm).",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "21",
+        "D": "33"
+      },
+      "correct_option": "C",
+      "answer": "21",
+      "explanation": "1071 ÷ 462 = 2 remainder 147. 462 ÷ 147 = 3 remainder 21. 147 ÷ 21 = 7 remainder 0. The last non‑zero remainder is 21, so HCF = 21. Options A, B and D are not the final remainder, thus incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements correctly states Euclid's division lemma?",
+      "options": {
+        "A": "For any integers a and b (b > 0), there exist unique integers q and r such that a = bq + r and 0 ≤ r < b.",
+        "B": "For any integers a and b, there exist integers q and r such that a = bq + r and r can be any integer.",
+        "C": "For any positive integers a and b, there exist integers q and r such that a = bq - r and 0 ≤ r < b.",
+        "D": "For any integers a and b (a > b), there exist integers q and r such that a = bq + r and r > b."
+      },
+      "correct_option": "A",
+      "answer": "For any integers a and b (b > 0), there exist unique integers q and r such that a = bq + r and 0 ≤ r < b.",
+      "explanation": "Euclid's division lemma (or division algorithm) guarantees the existence and uniqueness of a quotient q and a remainder r satisfying a = bq + r with 0 ≤ r < b. Options B, C, and D either omit the restriction on r or change the sign, making them incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the expression 37 = 5 × 7 + 2, which of the following correctly identifies the dividend, divisor, quotient and remainder respectively?",
+      "options": {
+        "A": "Dividend = 37, Divisor = 5, Quotient = 7, Remainder = 2",
+        "B": "Dividend = 5, Divisor = 37, Quotient = 2, Remainder = 7",
+        "C": "Dividend = 7, Divisor = 2, Quotient = 5, Remainder = 37",
+        "D": "Dividend = 37, Divisor = 7, Quotient = 5, Remainder = 2"
+      },
+      "correct_option": "A",
+      "answer": "Dividend = 37, Divisor = 5, Quotient = 7, Remainder = 2",
+      "explanation": "The dividend is the number being divided (37). The divisor is the number we divide by (5). The quotient is the integer result of the division (7) and the remainder is what is left over (2). Option D swaps divisor and quotient, while B and C misplace the terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Which statement correctly distinguishes the division algorithm from ordinary division?",
+      "options": {
+        "A": "The division algorithm guarantees a unique integer quotient and remainder with 0 ≤ r < divisor, while ordinary division may give a decimal quotient.",
+        "B": "The division algorithm works only when the dividend is a prime number.",
+        "C": "Ordinary division always produces an integer remainder.",
+        "D": "The division algorithm does not involve a remainder."
+      },
+      "correct_option": "A",
+      "answer": "The division algorithm guarantees a unique integer quotient and remainder with 0 ≤ r < divisor, while ordinary division may give a decimal quotient.",
+      "explanation": "The division algorithm is a formal statement about integers: a = bq + r with 0 ≤ r < b, ensuring integer quotient and remainder. Ordinary division in arithmetic can produce a non‑terminating decimal quotient and does not emphasize the remainder condition. Options B, C, and D are false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Find the HCF of 56 and 98 by applying repeated division (Euclidean algorithm).",
+      "options": {
+        "A": "2",
+        "B": "7",
+        "C": "14",
+        "D": "28"
+      },
+      "correct_option": "C",
+      "answer": "14",
+      "explanation": "98 ÷ 56 = 1 remainder 42. 56 ÷ 42 = 1 remainder 14. 42 ÷ 14 = 3 remainder 0. The last non‑zero remainder is 14, so the HCF is 14. Options A, B, and D are not the final remainder, thus incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

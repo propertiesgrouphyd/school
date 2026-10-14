@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which of the following statements correctly describes the Euclidean algorithm for finding the greatest common divisor (HCF) of two positive integers?",
+      "options": {
+        "A": "It repeatedly subtracts the smaller number from the larger until the numbers become equal.",
+        "B": "It repeatedly divides the larger number by the smaller and replaces the larger number with the remainder until the remainder becomes zero.",
+        "C": "It adds the two numbers and then divides the sum by 2.",
+        "D": "It multiplies the two numbers and then finds the prime factors."
+      },
+      "correct_option": "B",
+      "answer": "It repeatedly divides the larger number by the smaller and replaces the larger number with the remainder until the remainder becomes zero.",
+      "explanation": "The Euclidean algorithm uses the division algorithm: for integers a and b (a > b), write a = bq + r (0 ≤ r < b). Replace a by b and b by r and repeat. When the remainder becomes zero, the last non‑zero remainder is the HCF. Option B states this process correctly; the other options describe unrelated or incorrect procedures.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "Using successive division steps of the Euclidean algorithm, what is the HCF of 48 and 18?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "12"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "First, 48 ÷ 18 = 2 remainder 12. Next, 18 ÷ 12 = 1 remainder 6. Finally, 12 ÷ 6 = 2 remainder 0. The last non‑zero remainder is 6, so HCF(48,18)=6. Options A, B, and D are incorrect remainders.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Euclid's division lemma states that for any integers a and b (b > 0) there exist unique integers q and r such that:",
+      "options": {
+        "A": "a = bq + r where 0 ≤ r < b",
+        "B": "a = bq - r where 0 ≤ r ≤ b",
+        "C": "a = bq + r where r > b",
+        "D": "a = bq where r = 0 always"
+      },
+      "correct_option": "A",
+      "answer": "a = bq + r where 0 ≤ r < b",
+      "explanation": "Euclid's division lemma (or division algorithm) guarantees that any integer a can be expressed as a = bq + r with a unique quotient q and remainder r satisfying 0 ≤ r < b. Option A captures this exact statement; the other options either change the sign, the range of r, or incorrectly claim the remainder is always zero.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "In the division 125 ÷ 13 = 9 remainder 8, identify the dividend, divisor, quotient and remainder.",
+      "options": {
+        "A": "Dividend = 13, Divisor = 125, Quotient = 9, Remainder = 8",
+        "B": "Dividend = 125, Divisor = 13, Quotient = 9, Remainder = 8",
+        "C": "Dividend = 125, Divisor = 9, Quotient = 13, Remainder = 8",
+        "D": "Dividend = 125, Divisor = 13, Quotient = 8, Remainder = 9"
+      },
+      "correct_option": "B",
+      "answer": "Dividend = 125, Divisor = 13, Quotient = 9, Remainder = 8",
+      "explanation": "In a division statement a ÷ b = q remainder r, a is the dividend, b the divisor, q the quotient, and r the remainder. Here, 125 is divided by 13, giving quotient 9 and remainder 8, so option B is correct. The other options mix up the roles of the numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Write 2021 in the form 7 × q + r where 0 ≤ r < 7. Which pair (q, r) is correct?",
+      "options": {
+        "A": "q = 288, r = 5",
+        "B": "q = 289, r = 2",
+        "C": "q = 287, r = 6",
+        "D": "q = 286, r = 3"
+      },
+      "correct_option": "A",
+      "answer": "q = 288, r = 5",
+      "explanation": "Dividing 2021 by 7 gives 2021 = 7 × 288 + 5 because 7 × 288 = 2016 and the remainder is 5, which satisfies 0 ≤ 5 < 7. Options B, C, and D give incorrect quotients or remainders that do not satisfy the division algorithm.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Two numbers, 84 and 30, are to be examined using repeated division (Euclidean algorithm). What is their HCF?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "First step: 84 ÷ 30 = 2 remainder 24. Next: 30 ÷ 24 = 1 remainder 6. Next: 24 ÷ 6 = 4 remainder 0. The last non‑zero remainder is 6, so HCF(84,30)=6. Options B, C, and D are not the greatest common divisor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Which of the following statements reflects a common misconception about the Euclidean algorithm?",
+      "options": {
+        "A": "The algorithm works only for prime numbers.",
+        "B": "The algorithm stops when the remainder becomes zero.",
+        "C": "The algorithm uses division with remainder.",
+        "D": "The algorithm finds the greatest common divisor."
+      },
+      "correct_option": "A",
+      "answer": "The algorithm works only for prime numbers.",
+      "explanation": "The Euclidean algorithm is valid for any pair of positive integers, not just primes. Option A is the misconception. Options B, C, and D correctly describe the algorithm: it stops at zero remainder, uses division with remainder, and yields the GCD.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "If the HCF of 56 and 98 is found using successive division, which of the following sequences of division steps is correct?",
+      "options": {
+        "A": "56 ÷ 98 = 0 remainder 56; 98 ÷ 56 = 1 remainder 42; 56 ÷ 42 = 1 remainder 14; 42 ÷ 14 = 3 remainder 0.",
+        "B": "98 ÷ 56 = 1 remainder 42; 56 ÷ 42 = 1 remainder 14; 42 ÷ 14 = 3 remainder 0.",
+        "C": "56 ÷ 98 = 0 remainder 56; 56 ÷ 98 = 0 remainder 56; ... (repeats indefinitely).",
+        "D": "98 ÷ 56 = 2 remainder -14 (invalid division)."
+      },
+      "correct_option": "B",
+      "answer": "98 ÷ 56 = 1 remainder 42; 56 ÷ 42 = 1 remainder 14; 42 ÷ 14 = 3 remainder 0.",
+      "explanation": "The Euclidean algorithm starts with the larger number divided by the smaller: 98 ÷ 56 = 1 remainder 42. Then 56 ÷ 42 = 1 remainder 14, and finally 42 ÷ 14 = 3 remainder 0. The last non‑zero remainder, 14, is the HCF. Option B lists exactly these valid steps. Option A begins with an unnecessary 0‑quotient step, while C and D are mathematically incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}

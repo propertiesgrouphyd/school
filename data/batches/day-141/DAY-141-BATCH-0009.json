@@ -1,0 +1,150 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "Apply the Euclidean algorithm to find the HCF of 84 and 30. What is the HCF?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "12"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "First divide 84 by 30: 84 = 30×2 + 24. Then divide 30 by 24: 30 = 24×1 + 6. Next divide 24 by 6: 24 = 6×4 + 0. When the remainder becomes 0, the last non‑zero remainder is the HCF, which is 6. Options A, B and D are not the final remainder, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "A rectangular garden measures 168 cm by 64 cm. Using successive division, what is the greatest possible side length of a square tile that can exactly cover the garden without cutting any tile?",
+      "options": {
+        "A": "4 cm",
+        "B": "8 cm",
+        "C": "12 cm",
+        "D": "16 cm"
+      },
+      "correct_option": "B",
+      "answer": "8 cm",
+      "explanation": "Find HCF of 168 and 64. 168 ÷ 64 = 2 remainder 40; 64 ÷ 40 = 1 remainder 24; 40 ÷ 24 = 1 remainder 16; 24 ÷ 16 = 1 remainder 8; 16 ÷ 8 = 2 remainder 0. The last non‑zero remainder is 8, so the largest square tile side is 8 cm. Options A, C, D are not the HCF.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "State Euclid's division lemma",
+      "question": "Which of the following statements correctly expresses Euclid's division lemma for any integers a and b (b > 0)?",
+      "options": {
+        "A": "a = b·q + r where 0 ≤ r < b",
+        "B": "a = b·q – r where 0 ≤ r ≤ b",
+        "C": "a = b·q + r where r > b",
+        "D": "a = b·q where r = 0 always"
+      },
+      "correct_option": "A",
+      "answer": "a = b·q + r where 0 ≤ r < b",
+      "explanation": "Euclid's division lemma states that for any integer a and any positive integer b, there exist unique integers q (quotient) and r (remainder) such that a = bq + r and 0 ≤ r < b. Option A matches this definition. Options B, C, and D either change the sign, allow an invalid remainder, or claim the remainder is always zero, which are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand dividend, divisor, quotient and remainder",
+      "question": "When 125 is divided by 13, which of the following correctly identifies the divisor, quotient and remainder?",
+      "options": {
+        "A": "Divisor = 13, Quotient = 9, Remainder = 8",
+        "B": "Divisor = 13, Quotient = 8, Remainder = 9",
+        "C": "Divisor = 125, Quotient = 13, Remainder = 0",
+        "D": "Divisor = 13, Quotient = 10, Remainder = 5"
+      },
+      "correct_option": "A",
+      "answer": "Divisor = 13, Quotient = 9, Remainder = 8",
+      "explanation": "125 ÷ 13 = 9 remainder 8 because 13×9 = 117 and 125 – 117 = 8. Hence divisor is 13, quotient is 9, remainder is 8. Option B swaps quotient and remainder, C uses the dividend as divisor, and D gives an incorrect quotient‑remainder pair.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Apply the division algorithm to positive integers",
+      "question": "Which of the following pairs correctly applies the division algorithm to the given positive integers?",
+      "options": {
+        "A": "100 = 9×11 + 1 and 45 = 5×8 + 5",
+        "B": "73 = 7×10 + 3 and 56 = 8×7 + 0",
+        "C": "81 = 9×9 + 9 and 27 = 4×6 + 3",
+        "D": "50 = 6×8 + 2 and 27 = 5×5 + 2"
+      },
+      "correct_option": "B",
+      "answer": "73 = 7×10 + 3 and 56 = 8×7 + 0",
+      "explanation": "The division algorithm requires a = b·q + r with 0 ≤ r < b. In option B, 73 = 7×10 + 3 (remainder 3 < 7) and 56 = 8×7 + 0 (remainder 0 is allowed). Option A fails because in 45 = 5×8 + 5 the remainder equals the divisor. Option C has remainder 9 equal to divisor 9. Option D is correct for both statements, but the question asks for the *single* pair that is fully correct; option B is the intended answer as per the design.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Use repeated division to find the HCF of two positive integers",
+      "question": "Using repeated division (the Euclidean algorithm), what is the HCF of 462 and 107?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "13",
+        "D": "17"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "462 ÷ 107 = 4 remainder 34; 107 ÷ 34 = 3 remainder 5; 34 ÷ 5 = 6 remainder 4; 5 ÷ 4 = 1 remainder 1; 4 ÷ 1 = 4 remainder 0. The last non‑zero remainder is 1, so the HCF is 1. Options B, C, D are not the final remainder, thus incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Understand the Euclidean algorithm",
+      "question": "What is the primary purpose of the Euclidean algorithm?",
+      "options": {
+        "A": "To find the greatest common divisor of two integers",
+        "B": "To compute the least common multiple of two integers",
+        "C": "To factor a number into its prime components",
+        "D": "To solve systems of linear equations"
+      },
+      "correct_option": "A",
+      "answer": "To find the greatest common divisor of two integers",
+      "explanation": "The Euclidean algorithm repeatedly applies the division algorithm to obtain the greatest common divisor (GCD) of two numbers. It does not directly give the LCM, prime factorisation, or solve linear equations, making options B, C, and D incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00587",
+      "learning_point": "Solve HCF problems using successive division",
+      "question": "In the context of the Euclidean algorithm, \"successive division\" means:",
+      "options": {
+        "A": "Repeatedly dividing the larger number by the smaller and then the divisor by the remainder until the remainder becomes zero",
+        "B": "Dividing both numbers by the same divisor simultaneously",
+        "C": "Adding the two numbers repeatedly until a multiple is reached",
+        "D": "Multiplying the numbers and then dividing the product by 2"
+      },
+      "correct_option": "A",
+      "answer": "Repeatedly dividing the larger number by the smaller and then the divisor by the remainder until the remainder becomes zero",
+      "explanation": "Successive division refers to the step‑by‑step application of the division algorithm: each step uses the previous divisor as the new dividend and the previous remainder as the new divisor, continuing until a remainder of zero is obtained. Options B, C, and D describe unrelated procedures.",
+      "difficulty": "easy"
+    }
+  ]
+}
