@@ -1,0 +1,150 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Recognise when roots are equal",
+      "question": "Consider the quadratic equation \\(x^{2} - 6x + 9 = 0\\). Which statement correctly describes its roots?",
+      "options": {
+        "A": "Two distinct real roots",
+        "B": "Two equal real roots",
+        "C": "No real roots",
+        "D": "One real and one imaginary root"
+      },
+      "correct_option": "B",
+      "answer": "Two equal real roots",
+      "explanation": "The discriminant \\(D = b^{2} - 4ac = (-6)^{2} - 4(1)(9) = 36 - 36 = 0\\). A zero discriminant indicates that the quadratic has two equal (repeated) real roots. Hence option B is correct; the other options correspond to D>0, D<0, or mixed cases, which do not apply here.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "State the quadratic formula",
+      "question": "A student wants to solve the equation \\(ax^{2}+bx+c=0\\) using the quadratic formula. Which of the following expressions is the correct formula?",
+      "options": {
+        "A": "x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}",
+        "B": "x = \\frac{b \\pm \\sqrt{b^{2} + 4ac}}{2a}",
+        "C": "x = \\frac{-b \\pm \\sqrt{b^{2} + 4ac}}{2a}",
+        "D": "x = \\frac{b \\pm \\sqrt{b^{2} - 4ac}}{2a}"
+      },
+      "correct_option": "A",
+      "answer": "x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}",
+      "explanation": "The quadratic formula for \\(ax^{2}+bx+c=0\\) is \\(x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}\\). Option A matches this exactly. Options B, C, and D have incorrect signs or misplaced terms, leading to wrong solutions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Substitute coefficients correctly",
+      "question": "For the quadratic equation \\(2x^{2} + 5x - 3 = 0\\), what is the value of the discriminant \\(D = b^{2} - 4ac\\)?",
+      "options": {
+        "A": "49",
+        "B": "1",
+        "C": "-7",
+        "D": "13"
+      },
+      "correct_option": "A",
+      "answer": "49",
+      "explanation": "Here \\(a = 2\\), \\(b = 5\\), \\(c = -3\\). Substituting correctly gives \\(D = 5^{2} - 4(2)(-3) = 25 + 24 = 49\\). Option B results from forgetting the negative sign of \\(c\\); options C and D are unrelated values. Hence the correct answer is 49.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Simplify roots",
+      "question": "Solve \\(x^{2} - 4x + 5 = 0\\) using the quadratic formula and simplify the roots. Which of the following is the simplified form?",
+      "options": {
+        "A": "2 \\pm \\sqrt{-1}",
+        "B": "2 \\pm i",
+        "C": "2 \\pm \\sqrt{5}",
+        "D": "4 \\pm \\sqrt{-4}"
+      },
+      "correct_option": "B",
+      "answer": "2 \\pm i",
+      "explanation": "The discriminant is \\(D = (-4)^{2} - 4(1)(5) = 16 - 20 = -4\\). \\(\\sqrt{-4} = 2i\\). Applying the formula: \\(x = \\frac{4 \\pm 2i}{2} = 2 \\pm i\\). Option B presents the fully simplified complex roots. Options A and D leave the square root unsimplified, and C ignores the negative discriminant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Verify solutions",
+      "question": "The quadratic equation \\(x^{2} - 3x - 10 = 0\\) has candidate solutions \\(x = 5\\) and \\(x = -2\\). Which statement correctly verifies these solutions?",
+      "options": {
+        "A": "Both x = 5 and x = -2 satisfy the equation.",
+        "B": "Only x = 5 satisfies the equation.",
+        "C": "Only x = -2 satisfies the equation.",
+        "D": "Neither value satisfies the equation."
+      },
+      "correct_option": "A",
+      "answer": "Both x = 5 and x = -2 satisfy the equation.",
+      "explanation": "Substituting \\(x = 5\\): \\(5^{2} - 3(5) - 10 = 25 - 15 - 10 = 0\\). Substituting \\(x = -2\\): \\((-2)^{2} - 3(-2) - 10 = 4 + 6 - 10 = 0\\). Both give zero, confirming they are roots. Hence option A is correct; the other options incorrectly claim partial or no verification.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Recognise when roots are equal",
+      "question": "For which value of \\(k\\) does the quadratic equation \\(3x^{2} + 6x + k = 0\\) have equal (repeated) roots?",
+      "options": {
+        "A": "k = 2",
+        "B": "k = 3",
+        "C": "k = 4",
+        "D": "k = 6"
+      },
+      "correct_option": "B",
+      "answer": "k = 3",
+      "explanation": "Equal roots occur when the discriminant is zero: \\(D = b^{2} - 4ac = 6^{2} - 4(3)k = 36 - 12k = 0\\). Solving gives \\(12k = 36\\) → \\(k = 3\\). Therefore option B is correct. Options A, C, and D give non‑zero discriminants, leading to distinct or complex roots.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "State the quadratic formula",
+      "question": "What is the quadratic formula used to solve \\(ax^{2}+bx+c=0\\)?",
+      "options": {
+        "A": "x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}",
+        "B": "x = \\frac{b \\pm \\sqrt{b^{2} + 4ac}}{2a}",
+        "C": "x = \\frac{-b \\pm \\sqrt{b^{2} + 4ac}}{2a}",
+        "D": "x = \\frac{b \\pm \\sqrt{b^{2} - 4ac}}{2a}"
+      },
+      "correct_option": "A",
+      "answer": "x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}",
+      "explanation": "The standard quadratic formula is \\(x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}\\). This directly provides the two possible roots of any quadratic equation. The other options have sign errors or incorrect terms, making them invalid.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Substitute coefficients correctly",
+      "question": "In the quadratic equation \\(4x^{2} - 7x + 2 = 0\\), what are the values of \\(a\\), \\(b\\), and \\(c\\) respectively?",
+      "options": {
+        "A": "a = 4, b = -7, c = 2",
+        "B": "a = -7, b = 4, c = 2",
+        "C": "a = 2, b = 4, c = -7",
+        "D": "a = 4, b = 2, c = -7"
+      },
+      "correct_option": "A",
+      "answer": "a = 4, b = -7, c = 2",
+      "explanation": "The standard form is \\(ax^{2} + bx + c = 0\\). Comparing, the coefficient of \\(x^{2}\\) is 4, so \\(a = 4\\); the coefficient of \\(x\\) is -7, so \\(b = -7\\); the constant term is 2, so \\(c = 2\\). Option A correctly lists these values; the other options misplace the coefficients.",
+      "difficulty": "easy"
+    }
+  ]
+}

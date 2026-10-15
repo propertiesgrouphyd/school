@@ -1,0 +1,150 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Verify solutions",
+      "question": "Which of the following statements correctly verifies that the numbers x = 2 and x = -3 are roots of the quadratic equation x^2 - x - 6 = 0?",
+      "options": {
+        "A": "Substituting x = 2 gives 0 and substituting x = -3 also gives 0, confirming both are roots.",
+        "B": "Multiplying the two numbers gives -6, which matches the constant term, so they are roots.",
+        "C": "Adding the two numbers gives -1, which matches the coefficient of x, so they are roots.",
+        "D": "No substitution is needed; the sum and product of the numbers automatically satisfy the equation."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x = 2 gives 0 and substituting x = -3 also gives 0, confirming both are roots.",
+      "explanation": "To verify a root, substitute it into the original equation. For x = 2: 2^2 - 2 - 6 = 4 - 2 - 6 = 0. For x = -3: (-3)^2 - (-3) - 6 = 9 + 3 - 6 = 0. Both substitutions give zero, so both numbers are indeed roots. Options B, C and D describe unrelated checks and are not sufficient for verification.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Recognise when roots are equal",
+      "question": "For the quadratic equation ax^2+bx+c=0, the roots are equal if and only if:",
+      "options": {
+        "A": "b^2 - 4ac > 0",
+        "B": "b^2 - 4ac = 0",
+        "C": "b^2 - 4ac < 0",
+        "D": "a + b + c = 0"
+      },
+      "correct_option": "B",
+      "answer": "b^2 - 4ac = 0",
+      "explanation": "Equal (repeated) roots occur when the discriminant b^2 - 4ac equals zero. A positive discriminant gives distinct real roots, a negative discriminant gives complex conjugate roots, and the sum a+b+c is unrelated to root equality.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "State the quadratic formula",
+      "question": "What is the quadratic formula for solving the equation ax^2+bx+c=0?",
+      "options": {
+        "A": "x = (-b \\u00b1 \\sqrt{b^2-4ac})/(2a)",
+        "B": "x = (b \\u00b1 \\sqrt{b^2+4ac})/(2a)",
+        "C": "x = (-b \\u00b1 \\sqrt{b^2+4ac})/a",
+        "D": "x = (-b \\u00b1 \\sqrt{b^2-4ac})/a"
+      },
+      "correct_option": "A",
+      "answer": "x = (-b \\u00b1 \\sqrt{b^2-4ac})/(2a)",
+      "explanation": "The standard quadratic formula is x = [-b ± √(b^2 - 4ac)] / (2a). It gives both roots of any quadratic equation. The other options have incorrect signs, denominators, or discriminant expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Substitute coefficients correctly",
+      "question": "Given the quadratic equation 3x^2 - 5x + 2 = 0, which of the following correctly substitutes the coefficients into the quadratic formula?",
+      "options": {
+        "A": "x = [5 \\u00b1 \\sqrt{25 - 24}] / 6",
+        "B": "x = [-5 \\u00b1 \\sqrt{25 - 24}] / 6",
+        "C": "x = [5 \\u00b1 \\sqrt{25 - 24}] / 3",
+        "D": "x = [5 \\u00b1 \\sqrt{25 + 24}] / 6"
+      },
+      "correct_option": "A",
+      "answer": "x = [5 \\u00b1 \\sqrt{25 - 24}] / 6",
+      "explanation": "For ax^2+bx+c=0, a=3, b=-5, c=2. The formula uses -b, so -(-5)=5. The discriminant is b^2-4ac = (-5)^2-4·3·2 = 25-24 =1. Hence x = [5 ± √1]/(2·3)= [5 ± 1]/6, which matches option A. Options B uses -b incorrectly, C has wrong denominator, D uses wrong discriminant sign.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Simplify roots",
+      "question": "Which of the following is the correct simplification of \\u221a50?",
+      "options": {
+        "A": "5\\u221a2",
+        "B": "\\u221a(25\\u00d72)",
+        "C": "10\\u221a5",
+        "D": "7\\u221a1"
+      },
+      "correct_option": "A",
+      "answer": "5\\u221a2",
+      "explanation": "\\u221a50 = \\u221a(25\\u00d72) = \\u221a25 \\u00d7 \\u221a2 = 5\\u221a2. Option B merely rewrites the radicand without simplifying, C and D are incorrect values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Verify solutions",
+      "question": "A student claims that x = 2 is a root of 2x^2 - 7x + 3 = 0. Which statement correctly verifies this claim?",
+      "options": {
+        "A": "Substituting x = 2 gives 0, so the claim is true.",
+        "B": "Substituting x = 2 gives -3, so the claim is false.",
+        "C": "The discriminant is negative, so no real root exists.",
+        "D": "Since the coefficients are integers, the root must be rational."
+      },
+      "correct_option": "B",
+      "answer": "Substituting x = 2 gives -3, so the claim is false.",
+      "explanation": "Plugging x = 2: 2(4) - 7(2) + 3 = 8 - 14 + 3 = -3, which is not zero; therefore x = 2 is not a root. Option A is incorrect because the substitution does not give zero. Options C and D are irrelevant to verifying a specific root.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "Recognise when roots are equal",
+      "question": "Consider the quadratic equation x^2 - 6x + 9 = 0. Which statement about its roots is correct?",
+      "options": {
+        "A": "The roots are equal because the discriminant is zero.",
+        "B": "The roots are distinct because the discriminant is positive.",
+        "C": "There are no real roots because the discriminant is negative.",
+        "D": "The roots are complex conjugates."
+      },
+      "correct_option": "A",
+      "answer": "The roots are equal because the discriminant is zero.",
+      "explanation": "Discriminant = (-6)^2 - 4·1·9 = 36 - 36 = 0, indicating a repeated (equal) real root. Hence option A is correct. Options B, C, D describe other discriminant cases.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-00601",
+      "learning_point": "State the quadratic formula",
+      "question": "A student needs to find the values of x that satisfy 4x^2 + 12x + 9 = 0. Which formula should the student apply?",
+      "options": {
+        "A": "x = [-12 \\u00b1 \\sqrt{144 - 144}] / (2\\u00d74)",
+        "B": "x = [-12 \\u00b1 \\sqrt{144 + 144}] / 8",
+        "C": "x = [12 \\u00b1 \\sqrt{144 - 144}] / 8",
+        "D": "x = [-12 \\u00b1 \\sqrt{144 - 144}] / 8"
+      },
+      "correct_option": "D",
+      "answer": "x = [-12 \\u00b1 \\sqrt{144 - 144}] / 8",
+      "explanation": "For ax^2+bx+c=0 with a=4, b=12, c=9, the quadratic formula gives x = [-b \\u00b1 \\sqrt{b^2-4ac}] / (2a) = [-12 \\u00b1 \\sqrt{144 - 144}] / 8. Option D matches this expression. Option A has an incorrect denominator (2·4 = 8, but written as 2·4 incorrectly), B uses wrong sign inside the square root, and C has the wrong sign for b.",
+      "difficulty": "medium"
+    }
+  ]
+}
