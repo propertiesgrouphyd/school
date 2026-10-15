@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "What are the zeroes of the quadratic polynomial 2x^2 - 5x + 2 = 0?",
+      "options": {
+        "A": "1/2 and 2",
+        "B": "1 and 2",
+        "C": "2 and 1/2",
+        "D": "1/2 and 1"
+      },
+      "correct_option": "A",
+      "answer": "1/2 and 2",
+      "explanation": "Using the quadratic formula, x = [5 ± √(25‑16)]/4 = (5 ± 3)/4, giving x = 2 or x = 1/2. Hence the zeroes are 1/2 and 2. Option A lists these values; the other options are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "If the quadratic polynomial is ax^2 + bx + c = 0 with zeroes α and β, which expression gives the sum α + β?",
+      "options": {
+        "A": "-b/a",
+        "B": "c/a",
+        "C": "-c/b",
+        "D": "b/a"
+      },
+      "correct_option": "A",
+      "answer": "-b/a",
+      "explanation": "For ax^2 + bx + c = 0, the sum of the zeroes α + β equals -b/a (derived from comparing coefficients with (x-α)(x-β)). Option A is correct; the others represent different relationships.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "For the quadratic ax^2 + bx + c = 0 having zeroes α and β, the product αβ equals ?",
+      "options": {
+        "A": "-c/a",
+        "B": "c/a",
+        "C": "-b/a",
+        "D": "b/c"
+      },
+      "correct_option": "B",
+      "answer": "c/a",
+      "explanation": "The product of the zeroes αβ equals c/a. This follows from expanding (x-α)(x-β) = x^2 -(α+β)x + αβ and matching with ax^2 + bx + c. Option B is correct; the others are incorrect signs or involve the wrong coefficients.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Find unknown coefficients using zeroes",
+      "question": "A quadratic polynomial has zeroes 3 and -2 and leading coefficient 1. What are the coefficients a, b, c in ax^2 + bx + c?",
+      "options": {
+        "A": "1, -1, -6",
+        "B": "1, 1, -6",
+        "C": "1, -1, 6",
+        "D": "1, 1, 6"
+      },
+      "correct_option": "A",
+      "answer": "1, -1, -6",
+      "explanation": "With zeroes 3 and -2, sum = 1, product = -6. For a monic polynomial (a=1), the polynomial is x^2 - (sum)x + product = x^2 - 1x - 6, giving a=1, b=-1, c=-6. Option A matches; others have incorrect signs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "If a quadratic polynomial has zeroes 4 and -1 and its leading coefficient is 2, which of the following is the polynomial?",
+      "options": {
+        "A": "2x^2 - 6x - 8",
+        "B": "2x^2 + 6x - 8",
+        "C": "x^2 - 3x - 4",
+        "D": "2x^2 - 6x + 8"
+      },
+      "correct_option": "A",
+      "answer": "2x^2 - 6x - 8",
+      "explanation": "First form (x-4)(x+1)=x^2 -3x -4. Multiplying by the leading coefficient 2 gives 2x^2 -6x -8. Option A is correct; the other options have wrong signs or missing the factor 2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "A ball’s height after t seconds is h(t)= -5t^2 + 20t + 15 metres. At what time does the ball hit the ground?",
+      "options": {
+        "A": "2 + √7 seconds",
+        "B": "2 - √7 seconds",
+        "C": "4 seconds",
+        "D": "3 seconds"
+      },
+      "correct_option": "A",
+      "answer": "2 + √7 seconds",
+      "explanation": "Set h(t)=0: -5t^2 +20t +15 =0 → divide -5: t^2 -4t -3 =0. Solving gives t = 2 ± √7. The negative root (2‑√7) is not physically meaningful, so the ball hits the ground at t = 2 + √7 seconds. Option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "A student claims that for ax^2 + bx + c = 0, the sum of the zeroes is b/a. Which statement correctly identifies the error?",
+      "options": {
+        "A": "The sum is actually -b/a, so the sign is wrong.",
+        "B": "The sum is c/a, so both coefficient and sign are wrong.",
+        "C": "The sum is -c/b, so both are wrong.",
+        "D": "The student's claim is correct."
+      },
+      "correct_option": "A",
+      "answer": "The sum is actually -b/a, so the sign is wrong.",
+      "explanation": "The correct formula for the sum of zeroes is -b/a. The student's omission of the negative sign is the error. Option A points out this sign mistake; the other options refer to unrelated formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "Given the quadratic equation 3x^2 - 12x + k = 0 has zeroes whose product is 4, find k.",
+      "options": {
+        "A": "12",
+        "B": "-12",
+        "C": "4",
+        "D": "-4"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Product of zeroes = c/a = k/3 = 4 → k = 12. Hence option A is correct; the other values do not satisfy the product condition.",
+      "difficulty": "medium"
+    }
+  ]
+}

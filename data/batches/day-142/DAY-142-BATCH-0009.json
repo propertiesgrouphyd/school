@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "If the zeroes of a quadratic polynomial are -2 and 5, which of the following is the polynomial in standard form?",
+      "options": {
+        "A": "x^2 - 3x - 10",
+        "B": "x^2 + 3x - 10",
+        "C": "x^2 - 3x + 10",
+        "D": "x^2 + 3x + 10"
+      },
+      "correct_option": "A",
+      "answer": "x^2 - 3x - 10",
+      "explanation": "For a quadratic with zeroes α and β, the polynomial is x^2 - (α+β)x + αβ. Here α+β = -2 + 5 = 3 and αβ = -10. Substituting gives x^2 - 3x - 10, which is option A. The other options either have the wrong sign for the linear term or the constant term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "The quadratic polynomial f(x)=2x^2-8x+6 can be written as 2(x-?)(x-?). Which pair of numbers correctly completes the factorisation?",
+      "options": {
+        "A": "1 and 3",
+        "B": "2 and 1",
+        "C": "3 and 1",
+        "D": "2 and 3"
+      },
+      "correct_option": "A",
+      "answer": "1 and 3",
+      "explanation": "Dividing the polynomial by 2 gives x^2-4x+3, which factors as (x-1)(x-3). Hence the zeroes are 1 and 3, corresponding to option A. The other options do not satisfy the factorisation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "For a quadratic ax^2+bx+c=0, the sum of its zeroes is -b/a. Which of the following statements is FALSE?",
+      "options": {
+        "A": "For 3x^2+5x-2, the sum of zeroes is -5/3.",
+        "B": "For x^2-4x+4, the sum of zeroes is 4.",
+        "C": "For 2x^2+7x+3, the sum of zeroes is -7/2.",
+        "D": "For -x^2+6x-9, the sum of zeroes is -6."
+      },
+      "correct_option": "D",
+      "answer": "For -x^2+6x-9, the sum of zeroes is -6.",
+      "explanation": "Using the formula sum = -b/a: for -x^2+6x-9, a = -1 and b = 6, so sum = -6/(-1) = 6, not -6. Hence statement D is false. All other statements correctly apply the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "For a quadratic ax^2+bx+c=0, the product of its zeroes equals c/a. Which of the following polynomials has a product of zeroes equal to -12?",
+      "options": {
+        "A": "x^2+5x-12",
+        "B": "2x^2-3x+6",
+        "C": "3x^2-7x+12",
+        "D": "x^2-4x+12"
+      },
+      "correct_option": "A",
+      "answer": "x^2+5x-12",
+      "explanation": "For option A, a=1 and c=-12, so product = c/a = -12, matching the requirement. For the other options, c/a equals 6, 4, and 12 respectively, which are not -12.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Find unknown coefficients using zeroes",
+      "question": "A quadratic polynomial can be written as P(x)=k(x-2)(x+3). After expanding, the coefficient of x is found to be 5. What is the value of k?",
+      "options": {
+        "A": "5",
+        "B": "2",
+        "C": "1",
+        "D": "-5"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "Expanding gives P(x)=k[x^2 + x -6] = kx^2 + kx -6k. The coefficient of x is k, which is given as 5. Therefore k=5, option A. The other values would give different coefficients of x.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "The zeroes of a quadratic are 1/2 and -3/4. Which polynomial with integer coefficients and leading coefficient 8 has these zeroes?",
+      "options": {
+        "A": "8x^2 + 2x - 3",
+        "B": "8x^2 - 2x - 3",
+        "C": "8x^2 + 2x + 3",
+        "D": "8x^2 - 2x + 3"
+      },
+      "correct_option": "A",
+      "answer": "8x^2 + 2x - 3",
+      "explanation": "Sum of zeroes = 1/2 + (-3/4) = -1/4, product = (1/2)(-3/4) = -3/8. For leading coefficient 8, the polynomial is 8x^2 - (sum·8)x + (product·8) = 8x^2 - (-1/4·8)x + (-3/8·8) = 8x^2 + 2x - 3, which is option A. The other options have incorrect signs for the linear or constant term.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "What are the zeroes of the quadratic equation x^2 - 9 = 0?",
+      "options": {
+        "A": "-3 and 3",
+        "B": "3 and 9",
+        "C": "-9 and 9",
+        "D": "0 and 9"
+      },
+      "correct_option": "A",
+      "answer": "-3 and 3",
+      "explanation": "Setting x^2 - 9 = 0 gives x^2 = 9, so x = ±3. Hence the zeroes are -3 and 3, which is option A. The other options do not satisfy the equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "For the quadratic equation x^2 + px + q = 0, the sum of its zeroes is:",
+      "options": {
+        "A": "-p",
+        "B": "p",
+        "C": "-q",
+        "D": "q"
+      },
+      "correct_option": "A",
+      "answer": "-p",
+      "explanation": "In the standard form ax^2+bx+c=0, the sum of zeroes is -b/a. Here a=1 and b=p, so the sum equals -p. Option A is correct; the other options misinterpret the formula.",
+      "difficulty": "easy"
+    }
+  ]
+}

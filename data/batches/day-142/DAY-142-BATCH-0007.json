@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Find unknown coefficients using zeroes",
+      "question": "The zeroes of a quadratic polynomial are α = 2 and β = -3. Which of the following expressions can represent the polynomial ax² + bx + c (with a ≠ 0)?",
+      "options": {
+        "A": "x² - x - 6",
+        "B": "2x² - x - 12",
+        "C": "x² + x - 6",
+        "D": "3x² - x - 6"
+      },
+      "correct_option": "C",
+      "answer": "x² + x - 6",
+      "explanation": "For a quadratic ax² + bx + c, the sum of zeroes α+β = -b/a and the product αβ = c/a. Here α+β = -1, so -b/a = -1 ⇒ b = a. Also αβ = -6, so c/a = -6 ⇒ c = -6a. Hence the polynomial is a(x² + x - 6). Choosing a = 1 gives x² + x - 6, which is option C. The other options do not satisfy both relationships.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "If the zeroes of a quadratic equation are 4 and -5, the equation can be written as:",
+      "options": {
+        "A": "x² - x - 20 = 0",
+        "B": "x² + x - 20 = 0",
+        "C": "x² - 9x + 20 = 0",
+        "D": "x² + 9x + 20 = 0"
+      },
+      "correct_option": "B",
+      "answer": "x² + x - 20 = 0",
+      "explanation": "A quadratic with zeroes α and β can be written as (x-α)(x-β)=0. Substituting α = 4 and β = -5 gives (x-4)(x+5)=x² + x - 20 = 0, which matches option B. The other options correspond to different sums or products of zeroes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "What are the zeroes of the quadratic polynomial 2x² - 7x + 3 = 0?",
+      "options": {
+        "A": "1 and 3",
+        "B": "3 and 1/2",
+        "C": "-3 and -1/2",
+        "D": "2 and 1"
+      },
+      "correct_option": "B",
+      "answer": "3 and 1/2",
+      "explanation": "Using the quadratic formula, x = [7 ± √(49 - 24)] / (2·2) = [7 ± 5] / 4. This yields x = 12/4 = 3 and x = 2/4 = 1/2. Hence the zeroes are 3 and 1/2, which is option B. The other options are not solutions of the equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "For a quadratic ax² + bx + c = 0, which statement correctly describes the sum of its zeroes?",
+      "options": {
+        "A": "The sum of the zeroes equals b/a.",
+        "B": "The sum of the zeroes equals -b/a.",
+        "C": "The sum of the zeroes equals -c/a.",
+        "D": "The sum of the zeroes equals c/b."
+      },
+      "correct_option": "B",
+      "answer": "The sum of the zeroes equals -b/a.",
+      "explanation": "If α and β are the zeroes, then α + β = -b/a (derived from expanding (x-α)(x-β) = x² - (α+β)x + αβ). Therefore option B is correct. Options A, C, and D misrepresent the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "Which of the following correctly gives the product of the zeroes of the quadratic ax² + bx + c = 0?",
+      "options": {
+        "A": "Product of the zeroes = c/a.",
+        "B": "Product of the zeroes = -c/a.",
+        "C": "Product of the zeroes = b/a.",
+        "D": "Product of the zeroes = -b/a."
+      },
+      "correct_option": "A",
+      "answer": "Product of the zeroes = c/a.",
+      "explanation": "From (x-α)(x-β) = x² - (α+β)x + αβ, we have αβ = c/a. Hence option A is the correct definition. Options B, C, and D confuse the sign or use the wrong coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Find unknown coefficients using zeroes",
+      "question": "A quadratic polynomial has leading coefficient 3 and zeroes 1 and 4. What is its constant term c?",
+      "options": {
+        "A": "7",
+        "B": "12",
+        "C": "-12",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "For zeroes α = 1 and β = 4, product αβ = 4. Since c = a·αβ, with a = 3 we get c = 3 × 4 = 12. Option B matches this value. The other options are unrelated to the product relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "Zeroes of a quadratic are -2 and 5 and the leading coefficient is 2. Which polynomial represents it?",
+      "options": {
+        "A": "2x² - 6x - 20",
+        "B": "x² - 3x - 10",
+        "C": "2x² + 6x - 20",
+        "D": "x² + 3x + 10"
+      },
+      "correct_option": "A",
+      "answer": "2x² - 6x - 20",
+      "explanation": "Sum of zeroes = -2 + 5 = 3, product = -10. With a = 2, b = -a·(sum) = -2·3 = -6, c = a·(product) = 2·(-10) = -20. Hence the polynomial is 2x² - 6x - 20, which is option A. The other options correspond to different leading coefficients or sign errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "A projectile's height (in meters) after t seconds is given by h(t) = -5t² + 20t + 15. At what times does the projectile hit the ground?",
+      "options": {
+        "A": "t = 2 ± √7",
+        "B": "t = -2 ± √7",
+        "C": "t = 1 ± √5",
+        "D": "t = 3 ± √2"
+      },
+      "correct_option": "A",
+      "answer": "t = 2 ± √7",
+      "explanation": "Set h(t) = 0: -5t² + 20t + 15 = 0 ⇒ divide by -5: t² - 4t - 3 = 0. Solving, t = [4 ± √(16 + 12)]/2 = [4 ± √28]/2 = 2 ± √7. Thus the times are 2 ± √7 seconds, which is option A. The other options are not solutions of the equation.",
+      "difficulty": "medium"
+    }
+  ]
+}
