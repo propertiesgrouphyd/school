@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Solve a pair using substitution",
+      "question": "Solve the following pair of linear equations using the substitution method: 2x + 3y = 12 and x - y = 1. What are the values of x and y?",
+      "options": {
+        "A": "x = 3, y = 2",
+        "B": "x = 2, y = 3",
+        "C": "x = 4, y = 1",
+        "D": "x = 1, y = 4"
+      },
+      "correct_option": "A",
+      "answer": "x = 3, y = 2",
+      "explanation": "From the second equation, x = y + 1. Substituting into the first gives 2(y+1)+3y=12 → 5y+2=12 → 5y=10 → y=2, then x=3. Both original equations are satisfied, confirming the solution. Options B, C, D do not satisfy the equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Express one variable in terms of another",
+      "question": "A retailer sells two types of items. The total cost of 5 pens and 2 notebooks is $40. Express the cost of one pen (p) in terms of the cost of one notebook (n) using the substitution method.",
+      "options": {
+        "A": "p = (40 - 2n)/5",
+        "B": "p = (5n - 40)/2",
+        "C": "p = (40 + 2n)/5",
+        "D": "p = (40 - 5n)/2"
+      },
+      "correct_option": "A",
+      "answer": "p = (40 - 2n)/5",
+      "explanation": "Starting from 5p + 2n = 40, isolate p: 5p = 40 - 2n → p = (40 - 2n)/5. This correctly expresses p in terms of n. The other options arise from algebraic sign or coefficient errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Substitute correctly",
+      "question": "Consider the equations: 3x - 2y = 7 and x + y = 4. If we solve the second equation for y = 4 - x and substitute into the first, which of the following is the correct substituted equation?",
+      "options": {
+        "A": "3x - 2(4 - x) = 7",
+        "B": "3x - 2(4 + x) = 7",
+        "C": "3x + 2(4 - x) = 7",
+        "D": "3x - (4 - x) = 7"
+      },
+      "correct_option": "A",
+      "answer": "3x - 2(4 - x) = 7",
+      "explanation": "Substituting y = 4 - x into 3x - 2y = 7 gives 3x - 2(4 - x) = 7. Option B uses a plus sign incorrectly, C changes the sign before 2, and D omits the factor 2. Only A reflects the correct substitution and distribution of the negative sign.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Verify the solution",
+      "question": "After solving the pair of equations 2x + y = 5 and x - y = 1 by substitution, we obtain x = 2 and y = 1. Which of the following checks confirms that this solution is correct?",
+      "options": {
+        "A": "Substituting x = 2, y = 1 into both original equations and both equalities hold.",
+        "B": "Adding the two equations gives 3x = 6, so x = 2.",
+        "C": "Multiplying the first equation by 2 gives 4x + 2y = 10.",
+        "D": "Plotting the two lines shows they intersect at (2,1)."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x = 2, y = 1 into both original equations and both equalities hold.",
+      "explanation": "Verification requires plugging the found values back into each original equation: 2(2)+1=5 and 2-1=1, both true. Option B is a derived step but does not test both equations; C is unrelated; D is a graphical method not a direct algebraic verification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Solve a pair using substitution",
+      "question": "Two students solved the equations 4x + 5y = 20 and x - y = 2 by substitution.\n\nStudent A: From the second equation, x = y + 2. Substituting into the first: 4(y + 2) + 5y = 20 → 4y + 8 + 5y = 20 → 9y = 12 → y = 4/3, x = 10/3.\n\nStudent B: From the second equation, y = x - 2. Substituting into the first: 4x + 5(x - 2) = 20 → 4x + 5x -10 = 20 → 9x = 30 → x = 10/3, y = 4/3.\n\nWhich student's solution is correct?",
+      "options": {
+        "A": "Student A only",
+        "B": "Student B only",
+        "C": "Both students (they obtained the same values)",
+        "D": "Neither student"
+      },
+      "correct_option": "C",
+      "answer": "Both students (they obtained the same values)",
+      "explanation": "Both approaches are algebraically equivalent and lead to the same solution (x = 10/3, y = 4/3). Hence both students are correct. Options A and B claim only one is right, which is false; D is incorrect because a correct solution was found.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Express one variable in terms of another",
+      "question": "For the equations (3/2)x - (4/5)y = 1 and x + 2y = 7, express x in terms of y using substitution.",
+      "options": {
+        "A": "x = (2/3) + (8/15) y",
+        "B": "x = (2/3) - (8/15) y",
+        "C": "x = (3/2) + (4/5) y",
+        "D": "x = (2/3) + (4/5) y"
+      },
+      "correct_option": "A",
+      "answer": "x = (2/3) + (8/15) y",
+      "explanation": "From (3/2)x = 1 + (4/5)y, multiply both sides by 2/3: x = (2/3)[1 + (4/5)y] = (2/3) + (8/15)y. Option A matches this derivation. Options B, C, D contain sign or coefficient errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Substitute correctly",
+      "question": "If the equation 2x + 3y = 6 is solved for x, what is the expression for x in terms of y?",
+      "options": {
+        "A": "x = (6 - 3y)/2",
+        "B": "x = (3y - 6)/2",
+        "C": "x = (6 + 3y)/2",
+        "D": "x = (2 - 3y)/6"
+      },
+      "correct_option": "A",
+      "answer": "x = (6 - 3y)/2",
+      "explanation": "Rearranging 2x = 6 - 3y gives x = (6 - 3y)/2. Option A is correct; B has reversed terms, C adds instead of subtracts, D incorrectly divides by 6.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Verify the solution",
+      "question": "After finding a solution (x = 5, y = -1) for the equations x + 2y = 3 and 3x - y = 16, which of the following statements correctly verifies the solution?",
+      "options": {
+        "A": "Substituting x = 5, y = -1 into both equations satisfies them.",
+        "B": "Adding the two equations gives 4x + y = 19.",
+        "C": "Multiplying the first equation by 3 gives 3x + 6y = 9.",
+        "D": "The determinant of the coefficient matrix is non-zero."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x = 5, y = -1 into both equations satisfies them.",
+      "explanation": "Verification means checking the found values in each original equation: 5 + 2(-1)=3 and 3·5 - (-1)=16, both true. Options B and C are algebraic manipulations that do not confirm the specific solution, and D is a property of the system but does not verify the particular values.",
+      "difficulty": "easy"
+    }
+  ]
+}
