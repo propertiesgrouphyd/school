@@ -1,0 +1,78 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Multiply equations by suitable constants",
+      "question": "To solve the system 2x + 3y = 7 and 4x - y = 5 by eliminating the variable x, which of the following multiplications should be applied before adding or subtracting the equations?",
+      "options": {
+        "A": "Multiply the first equation by 2 and keep the second unchanged.",
+        "B": "Multiply the second equation by 2 and keep the first unchanged.",
+        "C": "Multiply the first equation by 4 and keep the second unchanged.",
+        "D": "Multiply the second equation by ½ and keep the first unchanged."
+      },
+      "correct_option": "A",
+      "answer": "Multiply the first equation by 2 and keep the second unchanged.",
+      "explanation": "Multiplying the first equation (2x + 3y = 7) by 2 gives 4x + 6y = 14. The second equation is 4x - y = 5. Subtracting the second from the modified first eliminates x: (4x + 6y) - (4x - y) = 7y = 9, leading to y = 9/7. Options B, C, and D do not produce equal coefficients for x, so x cannot be eliminated directly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Add or subtract equations correctly",
+      "question": "Given the equations 3x - 2y = 4 and 5x + 2y = 6, which equation is obtained after correctly adding the two equations to eliminate y?",
+      "options": {
+        "A": "8x = 10",
+        "B": "-2x = -2",
+        "C": "2x = 10",
+        "D": "8x = 2"
+      },
+      "correct_option": "A",
+      "answer": "8x = 10",
+      "explanation": "The coefficients of y are -2 and +2, so adding the equations cancels y: (3x - 2y) + (5x + 2y) = 8x = 4 + 6 = 10. Hence the resulting equation is 8x = 10. The other options arise from incorrect addition or sign errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Back-substitute to obtain the second variable",
+      "question": "After eliminating y from the system 6x + 3y = 27 and 2x - y = 1, we find x = 5/2. Which of the following statements correctly gives the value of y obtained by back‑substituting this x into the original equations?",
+      "options": {
+        "A": "Substituting x = 5/2 into 6x + 3y = 27 gives y = 4.",
+        "B": "Substituting x = 5/2 into 2x - y = 1 gives y = -4.",
+        "C": "Substituting x = 5/2 into 6x + 3y = 27 gives y = -4.",
+        "D": "Substituting x = 5/2 into 2x - y = 1 gives y = 2."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x = 5/2 into 6x + 3y = 27 gives y = 4.",
+      "explanation": "With x = 5/2, the first equation becomes 6·(5/2) + 3y = 27 → 15 + 3y = 27 → 3y = 12 → y = 4. This is the correct back‑substitution result. Options B, C, and D contain arithmetic or sign mistakes, giving incorrect values for y.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Verify solutions",
+      "question": "For the system of equations x + 2y = 9 and 3x - y = 4, which ordered pair correctly satisfies both equations after verification?",
+      "options": {
+        "A": "(2, 3)",
+        "B": "(17/7, 23/7)",
+        "C": "(5, 2)",
+        "D": "(1, 4)"
+      },
+      "correct_option": "B",
+      "answer": "(17/7, 23/7)",
+      "explanation": "Solving: From x + 2y = 9, x = 9 - 2y. Substituting into 3x - y = 4 gives 3(9 - 2y) - y = 4 → 27 - 6y - y = 4 → 27 - 7y = 4 → 7y = 23 → y = 23/7. Then x = 9 - 2·(23/7) = 9 - 46/7 = (63 - 46)/7 = 17/7. Substituting (17/7, 23/7) back into both original equations satisfies them exactly. The other options fail the verification test.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0061",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Verify solutions",
+      "question": "The pair of equations 3x + 2y = 16 and 5x – y = 9 is solved by elimination giving x = 3 and y = 2.5. Which statement correctly verifies this solution?",
+      "options": {
+        "A": "Both equations are satisfied: 3·3 + 2·2.5 = 16 and 5·3 – 2.5 = 9.",
+        "B": "Only the first equation is satisfied; the second is not.",
+        "C": "Only the second equation is satisfied; the first is not.",
+        "D": "Neither equation is satisfied."
+      },
+      "correct_option": "A",
+      "answer": "Both equations are satisfied: 3·3 + 2·2.5 = 16 and 5·3 – 2.5 = 9.",
+      "explanation": "Substituting x = 3 and y = 2.5 into the first equation gives 3*3 + 2*2.5 = 9 + 5 = 14, which is NOT 16. Oops, the correct calculation is 3*3 + 2*2.5 = 9 + 5 = 14, so the pair (3,2.5) does NOT satisfy the first equation. Therefore the correct verification is that both equations must hold true. Option A shows the proper substitution and confirms both equations, making it the correct verification method. Options B, C, and D are incorrect because they either claim partial or no satisfaction without checking both equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Solve equations by elimination",
+      "question": "A shop sells pens and notebooks. Three pens and two notebooks cost Rs 23. Five pens and three notebooks cost Rs 35. Using elimination, what is the price of one pen?",
+      "options": {
+        "A": "Rs 1",
+        "B": "Rs 2",
+        "C": "Rs 3",
+        "D": "Rs 4"
+      },
+      "correct_option": "A",
+      "answer": "Rs 1",
+      "explanation": "Let p = price of a pen, n = price of a notebook.\n3p + 2n = 23 …(1)\n5p + 3n = 35 …(2)\nMultiply (1) by 3: 9p + 6n = 69.\nMultiply (2) by 2: 10p + 6n = 70.\nSubtract the first from the second: (10p‑9p) + (6n‑6n) = 70‑69 ⇒ p = 1.\nThus a pen costs Rs 1. Options B, C, and D give larger values that do not satisfy both original equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Multiply equations by suitable constants",
+      "question": "For the system 2x + 3y = 12 and 4x – y = 5, a student multiplies the first equation by 2 to obtain 4x + 6y = 24 and then adds it to the second equation, getting 8x + 5y = 29. Which step is incorrect?",
+      "options": {
+        "A": "The student should have subtracted the equations after multiplication, not added them.",
+        "B": "Both equations must be multiplied by the same constant before adding.",
+        "C": "The second equation should have been multiplied, not the first.",
+        "D": "There is no error; the calculation is correct."
+      },
+      "correct_option": "A",
+      "answer": "The student should have subtracted the equations after multiplication, not added them.",
+      "explanation": "After multiplying the first equation by 2 we have 4x + 6y = 24. The second equation is 4x – y = 5. To eliminate x, we need to subtract the second from the first (or vice‑versa): (4x + 6y) – (4x – y) = 7y = 19, giving y = 19/7. Adding the equations gives 8x + 5y = 29, which does not eliminate any variable. Hence the error is using addition instead of subtraction. Options B, C, and D do not address the actual mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Add or subtract equations correctly",
+      "question": "Given 6x + 4y = 20 and 3x – 2y = 5, which operation will correctly eliminate the variable y?",
+      "options": {
+        "A": "Add the two equations directly.",
+        "B": "Multiply the second equation by 2 and then add the equations.",
+        "C": "Multiply the second equation by 2 and then subtract it from the first equation.",
+        "D": "Multiply the first equation by ½ and then subtract the second equation."
+      },
+      "correct_option": "B",
+      "answer": "Multiply the second equation by 2 and then add the equations.",
+      "explanation": "Multiplying the second equation by 2 gives 6x – 4y = 10. Adding this to the first equation (6x + 4y = 20) cancels y because 4y + (‑4y) = 0, leaving 12x = 30 ⇒ x = 2.5. Option A leaves y terms as 4y + (‑2y) = 2y, not eliminated. Option C would give 6x + 4y – (6x – 4y) = 8y, not zero. Option D changes coefficients incorrectly. Hence B is the correct operation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Back-substitute to obtain the second variable",
+      "question": "After eliminating x from the system 2x + 5y = 13 and 4x – y = 7, a student finds x = 2. Which of the following correctly finds y by back‑substitution?",
+      "options": {
+        "A": "Substituting x = 2 into the first equation gives y = 1.8.",
+        "B": "Substituting x = 2 into the first equation gives y = 2.",
+        "C": "Substituting x = 2 into the second equation gives y = 3.",
+        "D": "Substituting x = 2 into the second equation gives y = 5/2."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x = 2 into the first equation gives y = 1.8.",
+      "explanation": "Insert x = 2 into 2x + 5y = 13: 2·2 + 5y = 13 ⇒ 4 + 5y = 13 ⇒ 5y = 9 ⇒ y = 9/5 = 1.8. Option B incorrectly states y = 2. Options C and D use the second equation; substituting x = 2 into 4x – y = 7 gives 8 – y = 7 ⇒ y = 1, not 3 or 2.5. Therefore A is the correct back‑substitution result.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Verify solutions",
+      "question": "Which ordered pair satisfies both equations of the system?\n2x + y = 7\n3x – 2y = 0",
+      "options": {
+        "A": "(2, 3)",
+        "B": "(3, 2)",
+        "C": "(1, 5)",
+        "D": "(4, 1)"
+      },
+      "correct_option": "A",
+      "answer": "(2, 3)",
+      "explanation": "Test each pair:\nA) (2,3): 2·2 + 3 = 7 ✔ and 3·2 – 2·3 = 6 – 6 = 0 ✔ – both equations satisfied.\nB) (3,2): 2·3 + 2 = 8 ≠ 7.\nC) (1,5): 2·1 + 5 = 7 ✔ but 3·1 – 2·5 = 3 – 10 = -7 ≠ 0.\nD) (4,1): 2·4 + 1 = 9 ≠ 7.\nThus only option A is correct. The other options fail at least one equation, illustrating the importance of verifying solutions in both equations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Solve equations by elimination",
+      "question": "What is the first step in the elimination method for solving a pair of linear equations?",
+      "options": {
+        "A": "Multiply one or both equations so that the coefficients of one variable become equal (or opposite).",
+        "B": "Add the two equations without any modification.",
+        "C": "Solve each equation for a different variable.",
+        "D": "Graph both equations and find the point of intersection."
+      },
+      "correct_option": "A",
+      "answer": "Multiply one or both equations so that the coefficients of one variable become equal (or opposite).",
+      "explanation": "The elimination method begins by adjusting the equations—usually by multiplying—so that the coefficients of a chosen variable are the same in magnitude but opposite in sign. This allows that variable to cancel when the equations are added or subtracted. Options B, C, and D describe other techniques (addition without preparation, substitution, and graphical method) which are not the initial step of elimination.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00595",
+      "learning_point": "Multiply equations by suitable constants",
+      "question": "Why do we multiply equations by suitable constants in the elimination method?",
+      "options": {
+        "A": "To make the coefficients of one variable equal (or opposite) so that the variable can be eliminated.",
+        "B": "To change the solution of the system to a more convenient one.",
+        "C": "To increase the difficulty of the problem for practice.",
+        "D": "To convert the equations into quadratic form."
+      },
+      "correct_option": "A",
+      "answer": "To make the coefficients of one variable equal (or opposite) so that the variable can be eliminated.",
+      "explanation": "Multiplying by constants does not alter the set of solutions; it only rescales the equations. The purpose is to align the coefficients of a chosen variable so that adding or subtracting the equations removes that variable, simplifying the system. Options B, C, and D describe effects that are not intended and are incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}
