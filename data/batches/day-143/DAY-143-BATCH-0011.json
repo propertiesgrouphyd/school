@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "For the pair of equations 2x + 3y = 5 and 4x - 6y = 8, what is the solution using the cross‑multiplication method?",
+      "options": {
+        "A": "(9/4, 1/6)",
+        "B": "(2, -1)",
+        "C": "(1, 2)",
+        "D": "(3/2, -1/3)"
+      },
+      "correct_option": "A",
+      "answer": "(9/4, 1/6)",
+      "explanation": "For a1x + b1y = c1 and a2x + b2y = c2, the formulas are:\n x = (c1·b2 – c2·b1) / (a1·b2 – a2·b1)\n y = (a1·c2 – a2·c1) / (a1·b2 – a2·b1).\nHere a1=2, b1=3, c1=5; a2=4, b2=-6, c2=8.\nDenominator = 2·(-6) – 4·3 = -12 – 12 = -24.\nx‑numerator = 5·(-6) – 8·3 = -30 – 24 = -54 → x = -54 / -24 = 9/4.\n y‑numerator = 2·8 – 4·5 = 16 – 20 = -4 → y = -4 / -24 = 1/6.\nThus the ordered pair is (9/4, 1/6). Options B, C, D give incorrect values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "In the linear equation 5x - 2y = 7, what are the coefficients of x and y respectively?",
+      "options": {
+        "A": "5 and -2",
+        "B": "5 and 2",
+        "C": "-5 and -2",
+        "D": "2 and 5"
+      },
+      "correct_option": "A",
+      "answer": "5 and -2",
+      "explanation": "The coefficient of a variable is the number multiplying it. In 5x - 2y = 7, the coefficient of x is 5 and the coefficient of y is -2. Option B ignores the negative sign, C changes the sign of the x‑coefficient, and D swaps the numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "When using the cross‑multiplication method for a1x + b1y = c1 and a2x + b2y = c2, which statement about sign handling is correct?",
+      "options": {
+        "A": "The denominator is a1·b2 minus a2·b1, keeping the original signs of b2 and b1.",
+        "B": "The denominator is a1·b2 plus a2·b1, regardless of the signs of b1 and b2.",
+        "C": "Only the signs of the constants c1 and c2 matter in the denominator.",
+        "D": "The denominator is always positive, so signs can be ignored."
+      },
+      "correct_option": "A",
+      "answer": "The denominator is a1·b2 minus a2·b1, keeping the original signs of b2 and b1.",
+      "explanation": "The cross‑multiplication formula uses subtraction: denominator = a1·b2 – a2·b1. The signs of b2 and b1 are taken as they appear; changing them leads to an incorrect denominator. Options B, C, and D misrepresent the formula or ignore sign importance.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "The ordered pair (2, -1) is claimed to be the solution of the equations 3x + 4y = 2 and x - 2y = 4. Which statement is true after verification?",
+      "options": {
+        "A": "Both equations are satisfied by (2, -1).",
+        "B": "Only the first equation is satisfied.",
+        "C": "Only the second equation is satisfied.",
+        "D": "Neither equation is satisfied."
+      },
+      "correct_option": "A",
+      "answer": "Both equations are satisfied by (2, -1).",
+      "explanation": "Substituting (2, -1):\nFirst: 3(2) + 4(-1) = 6 - 4 = 2 ✔\nSecond: 2 - 2(-1) = 2 + 2 = 4 ✔\nBoth equations hold, so option A is correct. Options B, C, D are false because the pair satisfies both equations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "Solve the pair of equations 3x + 2y = 7 and 5x - 4y = 1 using the cross‑multiplication method. What is the ordered pair (x, y)?",
+      "options": {
+        "A": "(15/11, 16/11)",
+        "B": "(1, 2)",
+        "C": "(7/3, -1/2)",
+        "D": "(5/2, 3/4)"
+      },
+      "correct_option": "A",
+      "answer": "(15/11, 16/11)",
+      "explanation": "Identify coefficients: a1=3, b1=2, c1=7; a2=5, b2=-4, c2=1.\nDenominator = a1·b2 – a2·b1 = 3·(-4) – 5·2 = -12 – 10 = -22.\n x‑numerator = c1·b2 – c2·b1 = 7·(-4) – 1·2 = -28 – 2 = -30 → x = -30 / -22 = 15/11.\n y‑numerator = a1·c2 – a2·c1 = 3·1 – 5·7 = 3 – 35 = -32 → y = -32 / -22 = 16/11.\nThus the solution is (15/11, 16/11). The other options do not satisfy both equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "A word problem leads to the simultaneous equations 7p + 3q = 20 and -2p + 5q = 9. What are the coefficients of p and q in the second equation?",
+      "options": {
+        "A": "-2 and 5",
+        "B": "2 and -5",
+        "C": "5 and -2",
+        "D": "-5 and 2"
+      },
+      "correct_option": "A",
+      "answer": "-2 and 5",
+      "explanation": "In the equation -2p + 5q = 9, the coefficient of p is -2 and the coefficient of q is 5. Option B reverses the signs, C swaps the variables, and D changes both signs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "A student mistakenly uses a1·b2 + a2·b1 instead of a1·b2 – a2·b1 for the denominator. For the equations 2x + 3y = 4 and 5x - y = 6, what error does this cause?",
+      "options": {
+        "A": "It gives an incorrect value for x.",
+        "B": "It gives the correct value for x but an incorrect value for y.",
+        "C": "It yields the correct solution for both variables.",
+        "D": "It only changes the sign of the computed y value."
+      },
+      "correct_option": "A",
+      "answer": "It gives an incorrect value for x.",
+      "explanation": "Correct denominator = a1·b2 – a2·b1 = 2·(-1) – 5·3 = -2 – 15 = -17.\nIf added, denominator = 2·(-1) + 5·3 = -2 + 15 = 13.\nUsing the wrong denominator changes both x and y calculations, leading to an incorrect x (and y). Hence option A is the most accurate description of the error. Options B, C, D are not fully correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "If the ordered pair (3, -2) is obtained as the solution of the equations 4x + k y = 8 and m x - 2y = 10, which of the following could be the correct values of k and m?",
+      "options": {
+        "A": "k = 2 and m = 2",
+        "B": "k = -2 and m = 2",
+        "C": "k = 2 and m = -2",
+        "D": "k = -2 and m = -2"
+      },
+      "correct_option": "A",
+      "answer": "k = 2 and m = 2",
+      "explanation": "Substitute (3, -2):\nFirst equation: 4·3 + k·(-2) = 12 - 2k = 8 → -2k = -4 → k = 2.\nSecond equation: m·3 - 2·(-2) = 3m + 4 = 10 → 3m = 6 → m = 2.\nThus k = 2 and m = 2 satisfy both equations, making option A correct. The other options give values that do not satisfy one or both equations.",
+      "difficulty": "medium"
+    }
+  ]
+}

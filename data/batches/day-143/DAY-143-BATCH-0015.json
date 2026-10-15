@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "Which of the following systems of two linear equations in two variables has exactly one solution?",
+      "options": {
+        "A": "2x + 3y = 5 and 4x + 6y = 10",
+        "B": "x - y = 2 and 2x - 2y = 5",
+        "C": "3x + 2y = 7 and 5x - y = 1",
+        "D": "x + y = 4 and -2x - 2y = -8"
+      },
+      "correct_option": "C",
+      "answer": "3x + 2y = 7 and 5x - y = 1",
+      "explanation": "For a system to have a unique solution, the determinant (a1*b2 - a2*b1) must be non‑zero. In option C, the coefficients are (3,2) and (5,-1); determinant = (3)(-1) - (5)(2) = -3 -10 = -13 ≠ 0, so the lines intersect at a single point. Options A and D are multiples of each other giving infinitely many solutions, and option B has proportional coefficients but different constants, giving no solution.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "In a competitive exam, the system 6x - 9y = 12 and 4x - 6y = 8 is given. What is the nature of its solution set?",
+      "options": {
+        "A": "Exactly one solution",
+        "B": "No solution",
+        "C": "Infinitely many solutions",
+        "D": "Cannot be determined without further calculation"
+      },
+      "correct_option": "C",
+      "answer": "Infinitely many solutions",
+      "explanation": "Both equations have the same ratio of coefficients: (6/4) = (‑9/‑6) = (12/8) = 3/2. Since the ratios of a1 to a2, b1 to b2, and c1 to c2 are equal, the two equations represent the same straight line, leading to infinitely many common points.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify no solution",
+      "question": "The pair of equations 2x + y = 3 and 4x + 2y = 10 represents which type of system?",
+      "options": {
+        "A": "Consistent with a unique solution",
+        "B": "Consistent with infinitely many solutions",
+        "C": "Inconsistent (no solution)",
+        "D": "Dependent system"
+      },
+      "correct_option": "C",
+      "answer": "Inconsistent (no solution)",
+      "explanation": "The second equation is exactly twice the first left‑hand side (4x + 2y) but the constant term is not twice (10 ≠ 2·3). Hence the lines are parallel and never intersect, giving no solution.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Use coefficient relationships to classify a pair",
+      "question": "For the system a₁x + b₁y = c₁ and a₂x + b₂y = c₂, which condition on the coefficients guarantees that the system is inconsistent?",
+      "options": {
+        "A": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+        "B": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "C": "a₁/a₂ ≠ b₁/b₂",
+        "D": "a₁ = a₂ and b₁ = b₂"
+      },
+      "correct_option": "A",
+      "answer": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+      "explanation": "When the ratios of the coefficients of x and y are equal but differ from the ratio of the constants, the two equations represent parallel distinct lines, leading to no common point (inconsistent). Option B gives infinitely many solutions, C gives a unique solution, and D is insufficient without checking ratios.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand consistent systems",
+      "question": "A consistent system of two linear equations in two variables is one that:",
+      "options": {
+        "A": "has no solution",
+        "B": "has exactly one solution",
+        "C": "has infinitely many solutions",
+        "D": "has at least one solution (either exactly one or infinitely many)"
+      },
+      "correct_option": "D",
+      "answer": "has at least one solution (either exactly one or infinitely many)",
+      "explanation": "Consistency means the equations are not contradictory; they intersect at one point (unique solution) or coincide (infinitely many solutions). Options A and B describe only part of the possibilities, while D captures the full definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand inconsistent systems",
+      "question": "The system of equations 3x + 2y = 7 and 6x + 4y = 5 is:",
+      "options": {
+        "A": "Consistent with a unique solution",
+        "B": "Consistent with infinitely many solutions",
+        "C": "Inconsistent (no solution)",
+        "D": "Dependent"
+      },
+      "correct_option": "C",
+      "answer": "Inconsistent (no solution)",
+      "explanation": "The second equation is exactly twice the left‑hand side of the first (6x + 4y) but the constant term is not twice (5 ≠ 2·7). Hence the lines are parallel distinct, giving no intersection.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "The system 2x - y = 3 and x + y = 5 has a unique solution. What is that solution?",
+      "options": {
+        "A": "(8/3, 7/3)",
+        "B": "(2, 1)",
+        "C": "(1, 2)",
+        "D": "(0, 5)"
+      },
+      "correct_option": "A",
+      "answer": "(8/3, 7/3)",
+      "explanation": "Solving: From the first equation y = 2x - 3. Substituting into the second: x + (2x - 3) = 5 ⇒ 3x = 8 ⇒ x = 8/3. Then y = 2·(8/3) - 3 = 16/3 - 9/3 = 7/3. The determinant is non‑zero, confirming a unique solution. The other options do not satisfy both equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "A student writes two equations that represent the same line: 4x - 2y = 6 and 2x - y = 3. What can be said about the solution set of this system?",
+      "options": {
+        "A": "No solution",
+        "B": "Exactly one solution",
+        "C": "Infinitely many solutions",
+        "D": "Cannot be determined without graphing"
+      },
+      "correct_option": "C",
+      "answer": "Infinitely many solutions",
+      "explanation": "The second equation is obtained by dividing the first equation by 2, so both equations are identical. Identical lines intersect at every point on the line, giving infinitely many solutions. Options A and B describe distinct or intersecting lines, which is not the case here.",
+      "difficulty": "medium"
+    }
+  ]
+}

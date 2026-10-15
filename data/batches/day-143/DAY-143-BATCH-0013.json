@@ -1,0 +1,78 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "Consider the pair of equations 3x + 2y = 7 and 5x - 4y = 1. Using the cross‑multiplication method, which of the following is the correct value of x?",
+      "options": {
+        "A": "15/11",
+        "B": "13",
+        "C": "-7/2",
+        "D": "1.5"
+      },
+      "correct_option": "A",
+      "answer": "15/11",
+      "explanation": "For equations a1x + b1y = c1 and a2x + b2y = c2, x = (c1·b2 – b1·c2) / (a1·b2 – b1·a2). Here a1=3, b1=2, c1=7; a2=5, b2=-4, c2=1. Numerator = 7·(-4) – 2·1 = -28 – 2 = -30. Denominator = 3·(-4) – 2·5 = -12 – 10 = -22. x = (-30)/(-22) = 15/11. Option A gives this value. Options B, C, D arise from sign errors or swapping terms, which is a common misconception when applying the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "For the pair of equations 6x - 2y = 8 and -3x + 4y = -5, which of the following lists the coefficients (a1, b1, a2, b2) in the order required for the cross‑multiplication method?",
+      "options": {
+        "A": "(6, -2, -3, 4)",
+        "B": "(6, 2, -3, -4)",
+        "C": "(-6, -2, 3, 4)",
+        "D": "(6, -2, 3, -4)"
+      },
+      "correct_option": "A",
+      "answer": "(6, -2, -3, 4)",
+      "explanation": "In the standard form a x + b y = c, the coefficients of x and y are taken directly with their signs. For the first equation, a1 = 6 and b1 = -2. For the second equation, a2 = -3 and b2 = 4. Option A correctly records these values. The other options either change the sign of a coefficient or swap the positions, which would lead to an incorrect determinant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "Given the equations (i) x - 2y = 3 and (ii) -4x + 5y = -6, which statement correctly describes the handling of signs when forming the denominator for y using the cross‑multiplication method?",
+      "options": {
+        "A": "Treat b2 as -5, so the denominator becomes a1·(-5) - b1·a2.",
+        "B": "Use b2 as +5 exactly as it appears, giving denominator a1·5 - b1·a2.",
+        "C": "Ignore the sign of a2 and take it as +4 in the denominator.",
+        "D": "Change the sign of both b1 and b2 before computing the denominator."
+      },
+      "correct_option": "B",
+      "answer": "Use b2 as +5 exactly as it appears, giving denominator a1·5 - b1·a2.",
+      "explanation": "For y, the denominator is (a1·b2 – b1·a2). The coefficients are taken with their actual signs: a1 = 1, b1 = -2, a2 = -4, b2 = 5. Hence the denominator is 1·5 – (‑2)·(‑4) = 5 – 8 = -3. Option B respects the sign of b2. Option A incorrectly flips the sign of b2, leading to a wrong denominator. Options C and D alter signs of other coefficients, which is also incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "The ordered pair (2, -1) is claimed to be the solution of the system 3x + 4y = 2 and 5x - 2y = 12. Which of the following statements is true after verification?",
+      "options": {
+        "A": "The pair satisfies both equations.",
+        "B": "The pair satisfies only the first equation.",
+        "C": "The pair satisfies only the second equation.",
+        "D": "The pair satisfies neither equation."
+      },
+      "correct_option": "A",
+      "answer": "The pair satisfies both equations.",
+      "explanation": "Substituting (x, y) = (2, -1):\nFirst equation: 3·2 + 4·(-1) = 6 - 4 = 2 ✔️\nSecond equation: 5·2 - 2·(-1) = 10 + 2 = 12 ✔️\nBoth equations are satisfied, so option A is correct. Options B, C, and D are false because the pair meets both conditions, not just one or none.",
+      "difficulty": "hard"
+    }
+  ]
+}
