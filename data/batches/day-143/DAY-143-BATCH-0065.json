@@ -1,0 +1,78 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00600",
+      "learning_point": "Factorise suitable quadratic expressions",
+      "question": "Which of the following quadratic expressions is correctly factorised?",
+      "options": {
+        "A": "x^2 + 7x + 12 = (x + 3)(x + 4)",
+        "B": "x^2 + 7x + 12 = (x + 2)(x + 6)",
+        "C": "x^2 + 7x + 12 = (x - 3)(x - 4)",
+        "D": "x^2 + 7x + 12 = (x + 1)(x + 12)"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + 7x + 12 = (x + 3)(x + 4)",
+      "explanation": "Option A expands to (x+3)(x+4)=x^2+7x+12, which matches the given expression, so it is correctly factorised. Options B, C and D expand to x^2+8x+12, x^2-7x+12 and x^2+13x+12 respectively, none of which equal the original quadratic. This tests the common misconception of pairing incorrect factor pairs with the same quadratic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00600",
+      "learning_point": "Use zero-product property",
+      "question": "If (x-2)(x+5)=0, which statement correctly explains how to find the solutions?",
+      "options": {
+        "A": "Since the product is zero, either x-2=0 or x+5=0, giving x=2 or x=-5.",
+        "B": "Both factors must be zero at the same time, so x must satisfy x=2 and x=-5 simultaneously.",
+        "C": "Only the factor with the smaller absolute constant term can be zero, so the only solution is x=2.",
+        "D": "A product of two non‑zero numbers can never be zero, therefore the equation has no solution."
+      },
+      "correct_option": "A",
+      "answer": "Since the product is zero, either x-2=0 or x+5=0, giving x=2 or x=-5.",
+      "explanation": "The zero‑product property states that if a product of two expressions equals zero, at least one of the expressions must be zero. Setting each factor to zero gives x-2=0 ⇒ x=2 and x+5=0 ⇒ x=-5. Options B, C and D misinterpret the property, leading to incorrect conclusions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00600",
+      "learning_point": "Solve factorised quadratic equations",
+      "question": "Consider the equations (x-3)(x+2)=0 and (2x+1)(x-4)=0. Which statement correctly compares their solution sets?",
+      "options": {
+        "A": "Each equation has exactly one positive root.",
+        "B": "Both equations have the same set of roots.",
+        "C": "The sum of the roots of the first equation is greater than that of the second equation.",
+        "D": "The product of the roots of the first equation is negative, while that of the second is positive."
+      },
+      "correct_option": "A",
+      "answer": "Each equation has exactly one positive root.",
+      "explanation": "For (x-3)(x+2)=0, the roots are x=3 (positive) and x=-2 (negative). For (2x+1)(x-4)=0, the roots are x=4 (positive) and x=-1/2 (negative). Hence each equation indeed has exactly one positive root, making option A correct. Options B, C and D are false based on the actual root values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00600",
+      "learning_point": "Verify roots",
+      "question": "The quadratic equation x^2 - 5x + 6 = 0 is claimed to have roots x=2 and x=3. Which step correctly verifies this claim?",
+      "options": {
+        "A": "Substituting x=2 gives 4-10+6=0 and substituting x=3 gives 9-15+6=0, confirming both are roots.",
+        "B": "Adding the roots gives 2+3=5, which equals the coefficient of x, so they are roots.",
+        "C": "Multiplying the roots gives 2×3=6, which equals the constant term, so they are roots.",
+        "D": "Since the discriminant is positive, the equation must have roots 2 and 3."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x=2 gives 4-10+6=0 and substituting x=3 gives 9-15+6=0, confirming both are roots.",
+      "explanation": "Direct substitution checks whether each proposed root satisfies the original equation. For x=2: 2^2‑5·2+6=0; for x=3: 3^2‑5·3+6=0. Both equal zero, confirming the claim. Options B and C use necessary but not sufficient conditions (sum and product of roots), and option D misinterprets the discriminant, which only indicates the nature of roots, not their exact values.",
+      "difficulty": "hard"
+    }
+  ]
+}
