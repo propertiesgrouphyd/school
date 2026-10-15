@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Use sum and product relationships",
+      "question": "For the cubic polynomial 2x³ − 3x² + 5x − 6 = 0, let its zeros be α, β and γ. What is the value of α + β + γ?",
+      "options": {
+        "A": "−3/2",
+        "B": "3/2",
+        "C": "−6/2",
+        "D": "6/2"
+      },
+      "correct_option": "B",
+      "answer": "3/2",
+      "explanation": "For a cubic ax³+bx²+cx+d=0, the sum of the zeros is –b/a. Here a=2 and b=−3, so α+β+γ = –(−3)/2 = 3/2. Option B is correct; the other options ignore the sign rule or use the constant term incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Solve elementary coefficient problems involving zeroes",
+      "question": "If α, β, γ are the zeros of the cubic equation x³ + 4x² − 7x + 2 = 0, what is the product α·β·γ?",
+      "options": {
+        "A": "−2",
+        "B": "2",
+        "C": "−7",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "−2",
+      "explanation": "For a monic cubic (a=1), the product of the zeros equals –d/a. Here d=2, so αβγ = –2. Option A gives the correct sign; options B, C, D either miss the negative sign or use the wrong coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Understand the basic relationships among cubic zeroes and coefficients",
+      "question": "Which of the following statements correctly describes the relationship between the coefficients and the zeros of a cubic polynomial ax³+bx²+cx+d=0?",
+      "options": {
+        "A": "Sum of zeros = b/a",
+        "B": "Sum of pairwise products = –c/a",
+        "C": "Product of zeros = –d/a",
+        "D": "Sum of zeros = –c/a"
+      },
+      "correct_option": "C",
+      "answer": "Product of zeros = –d/a",
+      "explanation": "The correct relationships are: α+β+γ = –b/a, αβ+βγ+γα = c/a, and αβγ = –d/a. Only option C states a correct formula. Options A, B, and D mix up signs or use the wrong coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Use sum and product relationships",
+      "question": "A monic cubic polynomial has zeros whose sum is 5 and whose product is –6. What is the coefficient of x² in the polynomial?",
+      "options": {
+        "A": "−5",
+        "B": "5",
+        "C": "−6",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "−5",
+      "explanation": "For a monic cubic (a=1), sum of zeros = –b. Given sum = 5, we have –b = 5 ⇒ b = –5. Hence the coefficient of x² is –5. Option A matches this; the other options either ignore the negative sign or confuse product with the coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Solve elementary coefficient problems involving zeroes",
+      "question": "If the zeros of a monic cubic polynomial are 1, −2 and 3, which of the following is the correct polynomial?",
+      "options": {
+        "A": "x³ − 2x² − 5x + 6 = 0",
+        "B": "x³ + 2x² − 5x − 6 = 0",
+        "C": "x³ − 2x² + 5x − 6 = 0",
+        "D": "x³ + 2x² + 5x + 6 = 0"
+      },
+      "correct_option": "A",
+      "answer": "x³ − 2x² − 5x + 6 = 0",
+      "explanation": "For zeros α,β,γ, the monic cubic is x³ − (α+β+γ)x² + (αβ+βγ+γα)x − αβγ. Here sum = 1 − 2 + 3 = 2, so coefficient of x² is –2. Pairwise sum = (1·−2)+(1·3)+(−2·3)=−2+3−6=−5, giving the x‑term coefficient –5. Product = 1·(−2)·3 = −6, so constant term = –(−6)=+6. Hence option A is correct; the others have incorrect signs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Understand the basic relationships among cubic zeroes and coefficients",
+      "question": "A monic cubic polynomial has zeros that form a geometric progression, the sum of the zeros is 7 and the product of the zeros is 8. Which set of numbers can be the zeros?",
+      "options": {
+        "A": "1, 2, 4",
+        "B": "−1, −2, −4",
+        "C": "2, 2, 2",
+        "D": "−2, 1, −4"
+      },
+      "correct_option": "A",
+      "answer": "1, 2, 4",
+      "explanation": "Let the zeros be a, ar, ar². Then sum = a(1+r+r²)=7 and product = a³r³ = 8 ⇒ (ar)³ = 8 ⇒ ar = 2. Hence a = 2/r. Substituting gives 2(1+r+r²)/r = 7 ⇒ 2+2r+2r² = 7r ⇒ 2r²−5r+2 = 0 ⇒ (2r−1)(r−2)=0, so r = 2 or ½. Both give the same set {1,2,4}. Option A matches; the other options either give the wrong product or do not satisfy a geometric progression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Use sum and product relationships",
+      "question": "For the cubic polynomial x³ + 6x² + 11x + 6 = 0, what is the product of its zeros?",
+      "options": {
+        "A": "6",
+        "B": "−6",
+        "C": "11",
+        "D": "−11"
+      },
+      "correct_option": "B",
+      "answer": "−6",
+      "explanation": "Product of zeros = –d/a. Here a=1 and d=6, so product = –6. Many students forget the negative sign and answer +6 (option A). Options C and D relate to the coefficient of x, not the constant term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Solve elementary coefficient problems involving zeroes",
+      "question": "A monic cubic polynomial x³ + bx² + cx + d = 0 has zeros α, β, γ satisfying α + β + γ = −4 and αβ + βγ + γα = 5. What is the value of the coefficient c?",
+      "options": {
+        "A": "−4",
+        "B": "5",
+        "C": "−5",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "For a monic cubic, the coefficient c equals the sum of the products of the zeros taken two at a time: αβ + βγ + γα = c. The given value is 5, so c = 5. Option B is correct; the other options confuse c with the sum of zeros or sign conventions.",
+      "difficulty": "medium"
+    }
+  ]
+}
