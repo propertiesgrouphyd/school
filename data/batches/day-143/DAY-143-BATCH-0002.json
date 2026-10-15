@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "Two systems of linear equations are given below.\nSystem I: 2x + 3y = 6 and 4x - y = 5\nSystem II: 2x + 3y = 6 and 4x - y = 5 (solved by the substitution method).\nWhich of the following statements correctly compares the solutions obtained by the cross‑multiplication method with those obtained by the substitution method for these systems?",
+      "options": {
+        "A": "Both methods give the same ordered pair (3/2, 1).",
+        "B": "Cross‑multiplication gives (3/2, 1) while substitution gives (2, -1).",
+        "C": "Cross‑multiplication gives (2, -1) while substitution gives (3/2, 1).",
+        "D": "The two methods lead to different determinants, so the solutions cannot be compared."
+      },
+      "correct_option": "A",
+      "answer": "Both methods give the same ordered pair (3/2, 1).",
+      "explanation": "For System I, using the cross‑multiplication formula gives x = (6·(-1) - 5·3)/(-14) = 3/2 and y = (2·5 - 4·6)/(-14) = 1. Solving the same system by substitution yields the identical ordered pair (3/2, 1). Hence both methods produce the same solution. Options B and C are incorrect because they state different solutions, and D is wrong because the determinant is the same for both methods.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "In the linear equation 3x - 5y = 12, which of the following lists the coefficients a, b and the constant term c in the standard form ax + by = c?",
+      "options": {
+        "A": "a = 3, b = -5, c = 12",
+        "B": "a = -3, b = 5, c = -12",
+        "C": "a = 5, b = 3, c = 12",
+        "D": "a = 3, b = 5, c = -12"
+      },
+      "correct_option": "A",
+      "answer": "a = 3, b = -5, c = 12",
+      "explanation": "The standard form is ax + by = c. Comparing 3x - 5y = 12, we have a = 3, b = -5 (the coefficient of y), and c = 12. Option B changes the signs of all terms, C swaps the coefficients, and D gives a positive coefficient for y, all of which are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "When applying the cross‑multiplication formula, the term (c₁b₂ – c₂b₁) must be evaluated. If c₁ = 6, b₂ = –1, c₂ = 5 and b₁ = 3, what is the correct value of this term?",
+      "options": {
+        "A": "-21",
+        "B": "21",
+        "C": "-9",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "-21",
+      "explanation": "Substituting the values: c₁b₂ = 6·(–1) = –6 and c₂b₁ = 5·3 = 15. Then (c₁b₂ – c₂b₁) = –6 – 15 = –21. The negative sign is crucial; forgetting it would give +21, which is option B and is wrong.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "After solving the system 2x + 3y = 6 and 4x – y = 5 by cross‑multiplication, you obtain the ordered pair (3/2, 1). Which of the following checks correctly verifies this solution?",
+      "options": {
+        "A": "Substituting x = 3/2 and y = 1 into both equations and confirming both equalities hold.",
+        "B": "Only substituting the values into the first equation, because the second equation is redundant.",
+        "C": "Checking that the determinant a₁b₂ – a₂b₁ is non‑zero; the ordered pair need not be tested.",
+        "D": "Verifying that x + y = 5/2, which automatically satisfies both equations."
+      },
+      "correct_option": "A",
+      "answer": "Substituting x = 3/2 and y = 1 into both equations and confirming both equalities hold.",
+      "explanation": "Verification requires plugging the obtained values into each original equation. For 2(3/2)+3(1)=3+3=6 (true) and 4(3/2)–1=6–1=5 (true). Option B ignores the second equation, C only checks the determinant, and D uses an unrelated relation, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "Which statement correctly distinguishes the cross‑multiplication method from the elimination method for solving a pair of linear equations?",
+      "options": {
+        "A": "Cross‑multiplication directly gives the values of x and y using determinants, while elimination modifies the equations to cancel a variable before solving.",
+        "B": "Cross‑multiplication eliminates the constant terms first, whereas elimination removes the coefficients of x or y.",
+        "C": "Both methods are identical; the terms are interchangeable.",
+        "D": "Cross‑multiplication can only be used when the coefficients are integers, while elimination works for any real numbers."
+      },
+      "correct_option": "A",
+      "answer": "Cross‑multiplication directly gives the values of x and y using determinants, while elimination modifies the equations to cancel a variable before solving.",
+      "explanation": "The cross‑multiplication (or determinant) method computes x and y from the formulas involving a₁, b₁, c₁, a₂, b₂, c₂. Elimination, on the other hand, adds or subtracts multiples of the equations to eliminate one variable. Options B, C, and D misstate the methods.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "For the system 7x + 2y = 13 and –4x + 5y = –9, what are the coefficients a₁, b₁, a₂ and b₂ that will be used in the cross‑multiplication formula?",
+      "options": {
+        "A": "a₁ = 7, b₁ = 2, a₂ = –4, b₂ = 5",
+        "B": "a₁ = 2, b₁ = 7, a₂ = 5, b₂ = –4",
+        "C": "a₁ = 7, b₁ = –2, a₂ = 4, b₂ = 5",
+        "D": "a₁ = –7, b₁ = 2, a₂ = 4, b₂ = –5"
+      },
+      "correct_option": "A",
+      "answer": "a₁ = 7, b₁ = 2, a₂ = –4, b₂ = 5",
+      "explanation": "In the standard form ax + by = c, the coefficients of x and y are taken directly. From the first equation, a₁ = 7 and b₁ = 2. From the second, a₂ = –4 and b₂ = 5. Options B swaps the roles, C changes signs, and D flips signs of a₁ and a₂, all incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "Solve the system –3x + 4y = 7 and 5x – 2y = –1 using the cross‑multiplication method. What is the value of x?",
+      "options": {
+        "A": "5/7",
+        "B": "–5/7",
+        "C": "7/5",
+        "D": "–7/5"
+      },
+      "correct_option": "A",
+      "answer": "5/7",
+      "explanation": "First compute the determinant D = (–3)(–2) – 5·4 = 6 – 20 = –14. Then x = (c₁b₂ – c₂b₁)/D = (7·(–2) – (–1)·4)/–14 = (–14 + 4)/–14 = (–10)/–14 = 5/7. Careful handling of the negative signs is essential; any sign error would give a different option.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "A student solves the system 3x – 2y = 4 and x + y = 3 by cross‑multiplication and obtains the ordered pair (2, 1). Which of the following actions should the student take next to ensure the solution is correct?",
+      "options": {
+        "A": "Substitute x = 2 and y = 1 into both original equations and check that both are satisfied.",
+        "B": "Only substitute the values into the first equation because the second equation was used to derive the determinant.",
+        "C": "Re‑calculate the determinant to see if it is zero; if it is non‑zero, the solution is automatically correct.",
+        "D": "Add the two original equations; if the left‑hand side equals the right‑hand side, the ordered pair is verified."
+      },
+      "correct_option": "A",
+      "answer": "Substitute x = 2 and y = 1 into both original equations and check that both are satisfied.",
+      "explanation": "Verification always requires plugging the obtained values into each original equation. For 3·2 – 2·1 = 6 – 2 = 4 (true) and 2 + 1 = 3 (true). Option B ignores the second equation, C confuses determinant non‑zero with correctness, and D does not constitute a proper verification.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "Which of the following expressions correctly gives the value of x using the cross‑multiplication method for the system a₁x + b₁y = c₁ and a₂x + b₂y = c₂?",
+      "options": {
+        "A": "x = (c₁b₂ - c₂b₁) / (a₁b₂ - a₂b₁)",
+        "B": "x = (a₁c₂ - a₂c₁) / (a₁b₂ - a₂b₁)",
+        "C": "x = (c₁a₂ - c₂a₁) / (b₁a₂ - b₂a₁)",
+        "D": "x = (b₁c₂ - b₂c₁) / (a₁b₂ - a₂b₁)"
+      },
+      "correct_option": "A",
+      "answer": "x = (c₁b₂ - c₂b₁) / (a₁b₂ - a₂b₁)",
+      "explanation": "The cross‑multiplication formula for x is derived by eliminating y: multiply the first equation by b₂ and the second by b₁, then subtract. This yields x = (c₁b₂ - c₂b₁)/(a₁b₂ - a₂b₁). Option A matches this formula; the other options either mix coefficients incorrectly or give the formula for y.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "For the equations 3x - 4y = 7 and -2x + 5y = -1, what are the values of a₁, b₁, c₁, a₂, b₂, c₂ respectively?",
+      "options": {
+        "A": "3, -4, 7, -2, 5, -1",
+        "B": "3, 4, 7, -2, -5, -1",
+        "C": "-3, -4, 7, 2, 5, -1",
+        "D": "3, -4, -7, -2, 5, 1"
+      },
+      "correct_option": "A",
+      "answer": "3, -4, 7, -2, 5, -1",
+      "explanation": "In the standard form a x + b y = c, the coefficients are taken exactly as they appear. For the first equation, a₁ = 3, b₁ = -4, c₁ = 7. For the second, a₂ = -2, b₂ = 5, c₂ = -1. Option A lists these correctly; the other options change signs or values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "Using the cross‑multiplication method, find x for the system -x + 2y = 3 and 4x - y = -5.",
+      "options": {
+        "A": "-1",
+        "B": "1",
+        "C": "0",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "-1",
+      "explanation": "Identify coefficients: a₁ = -1, b₁ = 2, c₁ = 3; a₂ = 4, b₂ = -1, c₂ = -5. Apply x = (c₁b₂ - c₂b₁)/(a₁b₂ - a₂b₁) = (3·(-1) - (-5)·2)/((-1)·(-1) - 4·2) = (-3 +10)/(1 - 8) = 7/(-7) = -1. Correct handling of the negative signs gives -1; any sign error would give a different value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "A pair (2, -1) is obtained as the solution of the system 5x + 3y = 7 and -2x + y = -5 using cross‑multiplication. Which statement correctly verifies the solution?",
+      "options": {
+        "A": "Substituting (2, -1) satisfies both equations.",
+        "B": "It satisfies only the first equation.",
+        "C": "It satisfies only the second equation.",
+        "D": "It satisfies neither equation."
+      },
+      "correct_option": "A",
+      "answer": "Substituting (2, -1) satisfies both equations.",
+      "explanation": "Check first equation: 5(2) + 3(-1) = 10 - 3 = 7 ✔. Second equation: -2(2) + (-1) = -4 -1 = -5 ✔. Both are true, confirming the ordered pair. Options B, C, D are false because the pair satisfies both equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "A student wrote the formula for x as x = (c₁b₂ + c₂b₁)/(a₁b₂ - a₂b₁). Why is this result incorrect?",
+      "options": {
+        "A": "The numerator should involve subtraction, not addition.",
+        "B": "The denominator sign is reversed.",
+        "C": "The coefficients a and b are interchanged.",
+        "D": "The formula is actually for y, not x."
+      },
+      "correct_option": "A",
+      "answer": "The numerator should involve subtraction, not addition.",
+      "explanation": "The correct cross‑multiplication formula for x is x = (c₁b₂ - c₂b₁)/(a₁b₂ - a₂b₁). Adding the terms in the numerator changes the sign of the result, leading to an incorrect value. The denominator and the placement of coefficients are otherwise correct, and the formula is for x, not y.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "Given (1/2)x + (3/4)y = 5 and -(2/3)x + y = -4, what are the integer coefficients a₁, b₁, c₁, a₂, b₂, c₂ after clearing denominators?",
+      "options": {
+        "A": "2, 3, 20, -2, 3, -12",
+        "B": "1, 3, 5, -2, 1, -4",
+        "C": "4, 6, 40, -3, 6, -24",
+        "D": "2, 3, 10, -2, 3, -8"
+      },
+      "correct_option": "A",
+      "answer": "2, 3, 20, -2, 3, -12",
+      "explanation": "Multiply the first equation by 4: (1/2)·4 = 2, (3/4)·4 = 3, 5·4 = 20 → 2x + 3y = 20, so a₁=2, b₁=3, c₁=20. Multiply the second equation by 3: -(2/3)·3 = -2, y·3 = 3y, -4·3 = -12 → -2x + 3y = -12, so a₂=-2, b₂=3, c₂=-12. Option A matches these values; the other options arise from incorrect scaling.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "Two students solve 6x - 5y = 2 and -3x + 2y = 7 using cross‑multiplication.\nStudent A writes x = (2·2 - 7·(-5)) / (6·2 - (-3)(-5)).\nStudent B writes x = (2·2 - 7·5) / (6·2 - (-3)(-5)).\nWhich student's result is correct and why?",
+      "options": {
+        "A": "Student A is correct because the sign of b₂ (-5) is handled properly in the numerator.",
+        "B": "Student B is correct because both numerators are equivalent.",
+        "C": "Both students are incorrect; the denominator is wrong.",
+        "D": "Both students are correct; the expressions are algebraically identical."
+      },
+      "correct_option": "A",
+      "answer": "Student A is correct because the sign of b₂ (-5) is handled properly in the numerator.",
+      "explanation": "For the system, a₁=6, b₁=-5, c₁=2; a₂=-3, b₂=2, c₂=7. The correct numerator is c₁b₂ - c₂b₁ = 2·2 - 7·(-5) = 4 + 35 = 39. Student A uses this form. Student B mistakenly uses 7·5 (ignoring the negative sign of b₁), giving 4 - 35 = -31, which is wrong. The denominator 6·2 - (-3)(-5) = 12 - 15 = -3 is correct for both. Hence only Student A's answer is valid.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "In a JEE Main problem, the system 4x + 7y = 9 and -8x + 5y = -3 is solved by cross‑multiplication giving the ordered pair (1, 5/7). Which of the following checks confirms the solution?",
+      "options": {
+        "A": "Substituting (1, 5/7) satisfies both equations.",
+        "B": "Only the first equation is satisfied.",
+        "C": "Only the second equation is satisfied.",
+        "D": "Neither equation is satisfied."
+      },
+      "correct_option": "A",
+      "answer": "Substituting (1, 5/7) satisfies both equations.",
+      "explanation": "Check first equation: 4(1) + 7(5/7) = 4 + 5 = 9 ✔. Second equation: -8(1) + 5(5/7) = -8 + 25/7 = (-56 + 25)/7 = -31/7 = -3 ✔. Both equations hold, confirming the ordered pair. Options B, C, D are false because the pair satisfies both equations.",
+      "difficulty": "hard"
+    }
+  ]
+}

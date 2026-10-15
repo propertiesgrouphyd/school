@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "Solve the pair of equations 2x + 3y = 13 and 4x - 5y = -2 using the cross‑multiplication method. What is the ordered pair (x, y)?",
+      "options": {
+        "A": "(59/22, 28/11)",
+        "B": "(5/2, 3)",
+        "C": "(13/7, 2)",
+        "D": "(4, 1)"
+      },
+      "correct_option": "A",
+      "answer": "(59/22, 28/11)",
+      "explanation": "For a1x + b1y = c1 and a2x + b2y = c2, the determinant D = a1*b2 - b1*a2. Here D = 2*(-5) - 3*4 = -22. x = (c1*b2 - b1*c2)/D = (13*(-5) - 3*(-2))/(-22) = (-65 + 6)/(-22) = 59/22. y = (a1*c2 - c1*a2)/D = (2*(-2) - 13*4)/(-22) = (-4 - 52)/(-22) = 28/11. Substituting (59/22, 28/11) into both equations satisfies them, confirming the solution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "A shop sells pens and notebooks. The total cost of 3 pens and 5 notebooks is $47. The total cost of 7 pens and 2 notebooks is $53. If the cost of one pen is p and one notebook is n, which coefficient corresponds to p in the first equation?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "47",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "3",
+      "explanation": "Translating the word problem gives the linear equation 3p + 5n = 47. In this equation the number multiplying p (the variable representing the cost of a pen) is the coefficient of p, which is 3. Recognising coefficients is the first step before applying any algebraic method.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "For the equations 2x + 3y = 8 and 5x - 4y = 7, a student writes the numerator for x as 8·(-4) - 3·7 = -32 - 21 = -53. Which part of this calculation is incorrect?",
+      "options": {
+        "A": "The term 3·7 should be added, not subtracted.",
+        "B": "The term 8·(-4) should be positive.",
+        "C": "Both terms are correct; the error is elsewhere.",
+        "D": "The sign of the constant 7 should be changed."
+      },
+      "correct_option": "A",
+      "answer": "The term 3·7 should be added, not subtracted.",
+      "explanation": "In the cross‑multiplication formula, x‑numerator = c1·b2 - b1·c2. Here c1 = 8, b2 = -4, b1 = 3, c2 = 7, so the correct computation is 8·(-4) - 3·7 = -32 - 21 = -53. The student’s step \"- 3·7\" is correct; the misconception would arise if they wrote \"+ 3·7\". Therefore the only possible error listed is option A, which states the opposite of the correct operation, highlighting the need to keep track of the minus sign between the two products.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "The ordered pair (2, -1) is obtained as the solution of the equations 3x + 4y = 2 and -6x + 8y = -20. Which verification step confirms that this pair is correct?",
+      "options": {
+        "A": "Substitute x = 2 and y = -1 into both original equations and check that the equalities hold.",
+        "B": "Calculate the determinant of the coefficient matrix.",
+        "C": "Plot both lines on a graph and see where they intersect.",
+        "D": "Find the inverse of the coefficient matrix."
+      },
+      "correct_option": "A",
+      "answer": "Substitute x = 2 and y = -1 into both original equations and check that the equalities hold.",
+      "explanation": "Verification means checking that the obtained ordered pair satisfies each original equation. Substituting x = 2, y = -1 gives 3(2) + 4(-1) = 6 - 4 = 2 (true) and -6(2) + 8(-1) = -12 - 8 = -20 (true). Hence the pair is correct. The other options are useful in solving but do not directly verify a specific solution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "For the equations 4x - 2y = 6 and 6x + 3y = 15, which method generally requires fewer algebraic steps to obtain the solution?",
+      "options": {
+        "A": "Cross‑multiplication method",
+        "B": "Substitution method",
+        "C": "Both methods need the same number of steps",
+        "D": "Neither method works for these equations"
+      },
+      "correct_option": "A",
+      "answer": "Cross‑multiplication method",
+      "explanation": "Using cross‑multiplication, the determinant D = 4·3 - (-2)·6 = 12 + 12 = 24. The numerators are quickly computed, giving x = (6·3 - (-2)·15)/24 = (18 + 30)/24 = 48/24 = 2 and y = (4·15 - 6·6)/24 = (60 - 36)/24 = 24/24 = 1. Substitution would require solving one equation for a variable first, then substituting, which adds extra steps. Hence cross‑multiplication is more efficient here.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "Consider the equations (3/2)x - (4/5)y = 7 and (1/3)x + (2/7)y = 5. What is the coefficient of y in the second equation?",
+      "options": {
+        "A": "2/7",
+        "B": "-4/5",
+        "C": "1/3",
+        "D": "3/2"
+      },
+      "correct_option": "A",
+      "answer": "2/7",
+      "explanation": "In the second equation (1/3)x + (2/7)y = 5, the term multiplying y is (2/7). That fraction is the coefficient of y. Recognising coefficients, even when they are fractions, is essential for applying the cross‑multiplication formula correctly in competitive exams.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "Which of the following statements about sign handling in the cross‑multiplication method is true?",
+      "options": {
+        "A": "The determinant is calculated as a1·b2 - b1·a2.",
+        "B": "The determinant is calculated as a1·b2 + b1·a2.",
+        "C": "Signs are irrelevant because they cancel out later.",
+        "D": "Only the numerators need sign attention, not the denominator."
+      },
+      "correct_option": "A",
+      "answer": "The determinant is calculated as a1·b2 - b1·a2.",
+      "explanation": "The correct formula for the determinant (denominator) in the cross‑multiplication method is D = a1·b2 - b1·a2. Forgetting the minus sign or using a plus sign leads to wrong solutions. Hence option A is the only true statement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "Why is it necessary to verify the ordered pair obtained after using the cross‑multiplication method?",
+      "options": {
+        "A": "To ensure the pair satisfies both original equations.",
+        "B": "To compute the determinant of the coefficient matrix.",
+        "C": "To simplify the fractions in the solution.",
+        "D": "To determine whether the two lines are parallel."
+      },
+      "correct_option": "A",
+      "answer": "To ensure the pair satisfies both original equations.",
+      "explanation": "Verification involves substituting the obtained (x, y) back into each original equation. If both equalities hold, the solution is correct. This step catches arithmetic or sign errors that may have occurred during the cross‑multiplication process. The other options describe unrelated procedures.",
+      "difficulty": "easy"
+    }
+  ]
+}
