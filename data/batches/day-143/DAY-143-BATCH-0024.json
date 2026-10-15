@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "For a pair of linear equations a₁x + b₁y = c₁ and a₂x + b₂y = c₂, which condition guarantees a unique solution?",
+      "options": {
+        "A": "a₁/b₁ = a₂/b₂ and c₁/c₂ = a₁/a₂",
+        "B": "a₁·b₂ – a₂·b₁ ≠ 0",
+        "C": "a₁ = a₂ and b₁ = b₂",
+        "D": "The system has no solution"
+      },
+      "correct_option": "B",
+      "answer": "a₁·b₂ – a₂·b₁ ≠ 0",
+      "explanation": "When the determinant a₁·b₂ – a₂·b₁ is non‑zero, the two lines are not parallel and intersect at exactly one point, giving a unique solution. Options A and C describe parallel or coincident lines, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "A pair of linear equations has infinitely many solutions when:",
+      "options": {
+        "A": "a₁·b₂ – a₂·b₁ ≠ 0",
+        "B": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+        "C": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "D": "a₁ = b₁ = 0"
+      },
+      "correct_option": "C",
+      "answer": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+      "explanation": "If the ratios of the coefficients of x, y and the constants are all equal, the second equation is a constant multiple of the first. Both equations represent the same line, so every point on the line satisfies both – infinitely many solutions. Option A gives a unique solution, B gives parallel distinct lines (no solution), D is not a valid linear system.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify no solution",
+      "question": "When does a pair of linear equations have no solution?",
+      "options": {
+        "A": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "B": "a₁·b₂ – a₂·b₁ ≠ 0",
+        "C": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+        "D": "a₁ = b₁ = 0"
+      },
+      "correct_option": "C",
+      "answer": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+      "explanation": "Equal ratios of the coefficients of x and y mean the two lines are parallel. If the constant terms are not in the same ratio, the lines are distinct and never meet, giving no solution. Option A gives coincident lines (infinitely many solutions), B gives a unique intersection, D does not form a proper linear equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Use coefficient relationships to classify a pair",
+      "question": "Classify the system: 2x + 3y = 6 and 4x + 6y = 12. How many solutions does it have?",
+      "options": {
+        "A": "Exactly one solution",
+        "B": "Infinitely many solutions",
+        "C": "No solution",
+        "D": "Cannot be determined from the given information"
+      },
+      "correct_option": "B",
+      "answer": "Infinitely many solutions",
+      "explanation": "The second equation is exactly twice the first (coefficients and constant are multiplied by 2). Hence both equations represent the same straight line, leading to infinitely many common points. Option A would require non‑proportional coefficients, C would need proportional coefficients with different constants, D is unnecessary.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand consistent systems",
+      "question": "Which of the following systems of linear equations is consistent and has a unique solution?",
+      "options": {
+        "A": "x + y = 2; 2x + 2y = 5",
+        "B": "3x - y = 4; 6x - 2y = 8",
+        "C": "x - 2y = 3; 2x - 4y = 6",
+        "D": "x + y = 1; x - y = 0"
+      },
+      "correct_option": "D",
+      "answer": "x + y = 1; x - y = 0",
+      "explanation": "Option D gives two non‑parallel lines that intersect at a single point (x = 0.5, y = 0.5), so the system is consistent with a unique solution. Option A is inconsistent (parallel distinct), B and C are coincident lines (infinitely many solutions) and therefore not unique.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand inconsistent systems",
+      "question": "A student finds that two equations give contradictory results. Which pair below represents an inconsistent system?",
+      "options": {
+        "A": "x + y = 3; 2x + 2y = 6",
+        "B": "x - y = 1; 2x - 2y = 3",
+        "C": "3x + 4y = 5; 6x + 8y = 10",
+        "D": "x + 2y = 4; 2x + 4y = 8"
+      },
+      "correct_option": "B",
+      "answer": "x - y = 1; 2x - 2y = 3",
+      "explanation": "In option B, the coefficients of x and y are proportional (second equation is twice the first), but the constants are not (1×2 ≠ 3). This makes the lines parallel and distinct, so they never intersect – an inconsistent system. Options A, C, and D are all multiples with equal constant ratios, giving infinitely many solutions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "Which statement about a pair of linear equations is correct?",
+      "options": {
+        "A": "If a₁·b₂ – a₂·b₁ = 0, the system has a unique solution.",
+        "B": "If a₁·b₂ – a₂·b₁ ≠ 0, the system has a unique solution.",
+        "C": "If a₁/a₂ = b₁/b₂, the system always has a unique solution.",
+        "D": "If c₁ = c₂ = 0, the system has no solution."
+      },
+      "correct_option": "B",
+      "answer": "If a₁·b₂ – a₂·b₁ ≠ 0, the system has a unique solution.",
+      "explanation": "A non‑zero determinant (a₁·b₂ – a₂·b₁ ≠ 0) means the two lines are not parallel, so they intersect at exactly one point – a unique solution. Option A is the opposite condition, leading to either infinite or no solutions. Option C ignores the constant terms, and D is false because c₁ = c₂ = 0 merely makes both lines pass through the origin, which can still be consistent.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "Given the equations 5x – 2y = 10 and 10x – 4y = 20, what can be concluded about the number of solutions?",
+      "options": {
+        "A": "No solution",
+        "B": "Exactly one solution",
+        "C": "Infinitely many solutions",
+        "D": "Insufficient information to decide"
+      },
+      "correct_option": "C",
+      "answer": "Infinitely many solutions",
+      "explanation": "The second equation is obtained by multiplying the first by 2; therefore both equations represent the same line. All points on that line satisfy both equations, giving infinitely many solutions. Options A and B would require the lines to be parallel distinct or intersecting, which is not the case. The information is sufficient, so D is incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}

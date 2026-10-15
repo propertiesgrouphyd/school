@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify no solution",
+      "question": "Consider the pair of linear equations: 2x + 3y = 5 and 4x + 6y = 12. Which of the following correctly describes the number of solutions of this system?",
+      "options": {
+        "A": "The system has a unique solution",
+        "B": "The system has infinitely many solutions",
+        "C": "The system has no solution",
+        "D": "The system is dependent"
+      },
+      "correct_option": "C",
+      "answer": "The system has no solution",
+      "explanation": "Multiplying the first equation by 2 gives 4x + 6y = 10, which is different from the second equation's right‑hand side 12. Hence the left‑hand sides are proportional while the constants are not, indicating parallel lines with no point of intersection – no solution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Use coefficient relationships to classify a pair",
+      "question": "The equations 5x + 2y = 9 and 10x + 4y = 20 are given. Using the relationships among the coefficients, how should this pair be classified?",
+      "options": {
+        "A": "Consistent with a unique solution",
+        "B": "Consistent with infinitely many solutions",
+        "C": "Inconsistent (no solution)",
+        "D": "Dependent"
+      },
+      "correct_option": "C",
+      "answer": "Inconsistent (no solution)",
+      "explanation": "The second equation is exactly twice the left‑hand side of the first (10x+4y), but the right‑hand side is not twice (20 ≠ 2×9). When the ratios of the coefficients of x and y are equal but differ from the ratio of the constants, the lines are parallel and the system is inconsistent – no solution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand consistent systems",
+      "question": "Which statement about a consistent system of two linear equations in two variables is correct?",
+      "options": {
+        "A": "It always has infinitely many solutions",
+        "B": "It has at least one solution, either unique or infinitely many",
+        "C": "It has no solution because the lines are parallel",
+        "D": "It is impossible for two linear equations to be consistent"
+      },
+      "correct_option": "B",
+      "answer": "It has at least one solution, either unique or infinitely many",
+      "explanation": "A consistent system is defined as one that possesses at least one solution. This can be a single intersection point (unique solution) or the same line (infinitely many solutions). Options A, C and D are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand inconsistent systems",
+      "question": "The equations 2x + y = 4 and 4x + 2y = 10 are presented. Why does this system have no solution?",
+      "options": {
+        "A": "Both equations represent the same line",
+        "B": "The coefficients of x and y are proportional but the constants are not",
+        "C": "The determinant of the coefficient matrix is non‑zero",
+        "D": "There is exactly one point that satisfies both equations"
+      },
+      "correct_option": "B",
+      "answer": "The coefficients of x and y are proportional but the constants are not",
+      "explanation": "Multiplying the first equation by 2 yields 4x + 2y = 8, which differs from the second equation's constant 10. Equal ratios of the coefficients with unequal constants mean the lines are parallel, giving no intersection – an inconsistent system.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "Two systems are given:\nSystem I: 3x - y = 7 and 2x + 5y = 1\nSystem II: x + 2y = 4 and 2x + 4y = 8\nWhich system has a unique solution?",
+      "options": {
+        "A": "Both System I and System II have unique solutions",
+        "B": "Only System I has a unique solution",
+        "C": "Only System II has a unique solution",
+        "D": "Neither system has a unique solution"
+      },
+      "correct_option": "B",
+      "answer": "Only System I has a unique solution",
+      "explanation": "For System I, the ratios of coefficients of x and y are 3/2 ≠ (-1)/5, so the lines intersect at a single point – a unique solution. In System II, the second equation is exactly twice the first, giving infinitely many solutions, not a unique one.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "For what value of k does the system\nx + 2y = 3\n2x + 4y = k\nhave infinitely many solutions?",
+      "options": {
+        "A": "k = 5",
+        "B": "k = 6",
+        "C": "k = 7",
+        "D": "k = 8"
+      },
+      "correct_option": "B",
+      "answer": "k = 6",
+      "explanation": "The second equation is twice the first on the left side. For the two equations to represent the same line, the right‑hand side must also be doubled: 2×3 = 6. Hence k = 6 gives infinitely many solutions. Other values make the lines parallel (no solution).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify no solution",
+      "question": "A pair of linear equations in two variables has no solution when:",
+      "options": {
+        "A": "The ratios of the coefficients of x and y are equal and also equal to the ratio of the constants",
+        "B": "The ratios of the coefficients of x and y are equal but differ from the ratio of the constants",
+        "C": "The determinant of the coefficient matrix is zero and the constants are proportional",
+        "D": "Both equations are identical"
+      },
+      "correct_option": "B",
+      "answer": "The ratios of the coefficients of x and y are equal but differ from the ratio of the constants",
+      "explanation": "When a₁/a₂ = b₁/b₂ ≠ c₁/c₂, the lines are parallel (same slope) but have different intercepts, leading to no point of intersection – no solution. Option A describes infinitely many solutions, C is ambiguous, D describes identical equations (infinitely many solutions).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Use coefficient relationships to classify a pair",
+      "question": "For the pair of equations ax + by = c and dx + ey = f, which relationship among the coefficients guarantees infinitely many solutions?",
+      "options": {
+        "A": "a/d = b/e ≠ c/f",
+        "B": "a/d = b/e = c/f",
+        "C": "a/d ≠ b/e but a/d = c/f",
+        "D": "a/d = c/f and b/e ≠ c/f"
+      },
+      "correct_option": "B",
+      "answer": "a/d = b/e = c/f",
+      "explanation": "If the ratios of the coefficients of x, y, and the constants are all equal, the two equations represent the same line, giving infinitely many solutions. Any other pattern leads either to a unique solution or no solution.",
+      "difficulty": "easy"
+    }
+  ]
+}
