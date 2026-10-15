@@ -1,0 +1,78 @@
+{
+  "day": 141,
+  "batch_id": "DAY-141-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00590",
+      "learning_point": "Identify zeroes from a graph",
+      "question": "The graph of f(x)= (x-2)^2 (x+1) is drawn. Which point shown on the x‑axis corresponds to a zero of the polynomial?",
+      "options": {
+        "A": "(2,0)",
+        "B": "(0,0)",
+        "C": "(3,0)",
+        "D": "(1,0)"
+      },
+      "correct_option": "A",
+      "answer": "(2,0)",
+      "explanation": "A zero of a polynomial occurs where f(x)=0. For f(x)= (x-2)^2 (x+1), the factors give x=2 (multiplicity 2) and x=-1. Hence the point (2,0) lies on the x‑axis and is a zero, even though the graph only touches the axis there. The other points are not roots of the polynomial.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00590",
+      "learning_point": "Understand the geometrical meaning of zeroes",
+      "question": "A cubic polynomial has exactly two distinct x‑intercepts. Which description of the graph is necessarily true?",
+      "options": {
+        "A": "Both intercepts are simple and the graph crosses the x‑axis at each.",
+        "B": "One intercept is a point where the graph merely touches the x‑axis (even multiplicity) and the other is a crossing point (odd multiplicity).",
+        "C": "Both intercepts are points where the graph merely touches the x‑axis.",
+        "D": "The polynomial has no x‑intercept."
+      },
+      "correct_option": "B",
+      "answer": "One intercept is a point where the graph merely touches the x‑axis (even multiplicity) and the other is a crossing point (odd multiplicity).",
+      "explanation": "For a degree‑3 polynomial the sum of multiplicities of its zeros is 3. Having two distinct zeros forces one to have multiplicity 2 (even) and the other multiplicity 1 (odd). The even‑multiplicity root makes the graph just touch the x‑axis, while the odd‑multiplicity root makes it cross. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00590",
+      "learning_point": "Relate number of zeroes to intersections with the x-axis",
+      "question": "Consider three polynomials: a quadratic (degree 2), a cubic (degree 3) and a quartic (degree 4). Which statement correctly compares the maximum possible number of distinct real zeroes (i.e., x‑intercepts) each can have?",
+      "options": {
+        "A": "Quadratic ≤ 2, cubic ≤ 3, quartic ≤ 4.",
+        "B": "Quadratic ≤ 2, cubic ≤ 2, quartic ≤ 4.",
+        "C": "Quadratic ≤ 1, cubic ≤ 3, quartic ≤ 2.",
+        "D": "Quadratic ≤ 2, cubic ≤ 3, quartic ≤ 3."
+      },
+      "correct_option": "A",
+      "answer": "Quadratic ≤ 2, cubic ≤ 3, quartic ≤ 4.",
+      "explanation": "By the Fundamental Theorem of Algebra, a polynomial of degree n can have at most n real roots. Therefore a quadratic can have at most 2, a cubic at most 3, and a quartic at most 4 distinct real zeroes. Option A states this correctly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00590",
+      "learning_point": "Recognise possible numbers of zeroes for different degrees",
+      "question": "A polynomial of degree 5 with real coefficients is given. Which of the following numbers cannot be the count of distinct real zeroes of the polynomial?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "2",
+      "explanation": "A degree‑5 polynomial must have an odd total number of real roots when counted with multiplicity. Distinct real zeroes can therefore be 1, 3, or 5. Having exactly 2 distinct real zeroes would leave three roots to be non‑real, which must occur in conjugate pairs, making the total number of real roots odd—impossible. Hence 2 is not a feasible count.",
+      "difficulty": "hard"
+    }
+  ]
+}
