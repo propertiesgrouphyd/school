@@ -1,0 +1,78 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "For the quadratic equation 2x^2 - 5x + 3 = 0, what is the sum of its zeroes?",
+      "options": {
+        "A": "-5/2",
+        "B": "5/2",
+        "C": "3/2",
+        "D": "-3/2"
+      },
+      "correct_option": "B",
+      "answer": "5/2",
+      "explanation": "For a quadratic ax^2+bx+c=0, the sum of the zeroes is -b/a. Here a=2 and b=-5, so sum = -(-5)/2 = 5/2. Option B is correct; the other options use incorrect sign or values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "If the zeroes of the quadratic x^2 - 6x + p are α and β and αβ = 9, what is the value of p?",
+      "options": {
+        "A": "9",
+        "B": "-9",
+        "C": "6",
+        "D": "-6"
+      },
+      "correct_option": "A",
+      "answer": "9",
+      "explanation": "For ax^2+bx+c=0 (a=1 here), the product of the zeroes is c/a. Hence αβ = p/1 = p. Given αβ = 9, p = 9. Option A is correct; the other options misinterpret sign or confuse with the sum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Find unknown coefficients using zeroes",
+      "question": "The quadratic 5x^2 + bx + c has zeroes 3 and -2. What is the ordered pair (b, c)?",
+      "options": {
+        "A": "(-5, -30)",
+        "B": "(5, -30)",
+        "C": "(-5, 30)",
+        "D": "(5, 30)"
+      },
+      "correct_option": "A",
+      "answer": "(-5, -30)",
+      "explanation": "Sum of zeroes = 3 + (-2) = 1 = -b/5 ⇒ b = -5. Product = 3·(-2) = -6 = c/5 ⇒ c = -30. Hence (b,c)=(-5,-30). Option A matches; other options have incorrect signs or values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "Construct the monic quadratic polynomial whose zeroes are -4 and 5.",
+      "options": {
+        "A": "x^2 - x - 20",
+        "B": "x^2 + x - 20",
+        "C": "x^2 - x + 20",
+        "D": "x^2 + x + 20"
+      },
+      "correct_option": "A",
+      "answer": "x^2 - x - 20",
+      "explanation": "For zeroes α and β, monic polynomial is x^2 - (α+β)x + αβ. Here α+β = -4+5 = 1, αβ = -20. So polynomial is x^2 - 1·x - 20 = x^2 - x - 20. Option A is correct; others have wrong sign for the linear or constant term.",
+      "difficulty": "hard"
+    }
+  ]
+}

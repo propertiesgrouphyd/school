@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "LU-00592-9",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Solve elementary coefficient problems involving zeroes",
+      "question": "For the cubic polynomial p(x)=x^3 - 6x^2 + kx - 8 = 0 with zeros α, β, γ, consider the following statements:\n\nI. α + β + γ = 6\nII. αβγ = 8\n\nWhich of the following correctly describes the truth of the statements?",
+      "options": {
+        "A": "Both I and II are true",
+        "B": "Only I is true",
+        "C": "Only II is true",
+        "D": "Neither I nor II is true"
+      },
+      "correct_option": "A",
+      "answer": "Both I and II are true",
+      "explanation": "By Vieta's formulas for a monic cubic x^3 + ax^2 + bx + c = 0, the sum of the zeros is -a and the product is -c. Here a = -6, so -a = 6, giving α+β+γ = 6 (Statement I). The constant term c = -8, so -c = 8, giving αβγ = 8 (Statement II). Hence both statements are true.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-00592-10",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Understand the basic relationships among cubic zeroes and coefficients",
+      "question": "If the cubic polynomial x^3 + px^2 + qx + r = 0 has zeros that are in arithmetic progression and the sum of the zeros is 9, what is the value of p?",
+      "options": {
+        "A": "-9",
+        "B": "9",
+        "C": "-3",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "answer": "-9",
+      "explanation": "Let the three zeros in arithmetic progression be a‑d, a, a+d. Their sum is 3a = 9, so a = 3. For a monic cubic, the sum of the zeros equals –p. Hence –p = 9, giving p = –9. The other options do not satisfy Vieta's relation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-00592-11",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Use sum and product relationships",
+      "question": "The zeros of the cubic polynomial x^3 - 6x^2 + mx - 6 = 0 are 1, 2, and 3. Find the value of m.",
+      "options": {
+        "A": "11",
+        "B": "10",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "11",
+      "explanation": "For a monic cubic x^3 + ax^2 + bx + c = 0, the coefficient b equals the sum of the pairwise products of the zeros: b = αβ + βγ + γα. With zeros 1, 2, 3, we have 1·2 + 2·3 + 3·1 = 2 + 6 + 3 = 11. Hence m = 11. Options B‑D give incorrect pairwise sums.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-00592-12",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Solve elementary coefficient problems involving zeroes",
+      "question": "A cubic polynomial x^3 + ax^2 + bx + c has zeros 2, -1, and k. If the constant term c equals -2k, what is the value of k?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "Vieta gives αβγ = -c. Here (2)(-1)(k) = -c = -(-2k) = 2k. Thus -2k = 2k, leading to 4k = 0 and k = 0. The other options do not satisfy the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-00592-13",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Understand the basic relationships among cubic zeroes and coefficients",
+      "question": "In a monic cubic polynomial x^3 + px^2 + qx + r = 0, which of the following correctly defines the relationship between the coefficients and the zeros α, β, γ?",
+      "options": {
+        "A": "α + β + γ = -p, αβ + βγ + γα = q, αβγ = -r",
+        "B": "α + β + γ = p, αβ + βγ + γα = -q, αβγ = r",
+        "C": "α + β + γ = -p, αβ + βγ + γα = -q, αβγ = r",
+        "D": "α + β + γ = p, αβ + βγ + γα = q, αβγ = -r"
+      },
+      "correct_option": "A",
+      "answer": "α + β + γ = -p, αβ + βγ + γα = q, αβγ = -r",
+      "explanation": "Vieta's formulas for a monic cubic state: sum of zeros = -coefficient of x^2 (‑p), sum of pairwise products = coefficient of x (q), and product of zeros = -constant term (‑r). Option A matches these relations; the other options mix up signs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "LU-00592-14",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Use sum and product relationships",
+      "question": "The cubic polynomial x^3 - 9x^2 + kx - 24 = 0 has zeros that are all positive integers. Find the value of k.",
+      "options": {
+        "A": "26",
+        "B": "24",
+        "C": "20",
+        "D": "22"
+      },
+      "correct_option": "A",
+      "answer": "26",
+      "explanation": "Let the positive integer zeros be a, b, c. From Vieta: a + b + c = 9 and abc = 24. The only triple of positive integers satisfying both is 2, 3, 4. Then k = sum of pairwise products = 2·3 + 3·4 + 4·2 = 6 + 12 + 8 = 26. Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "LU-00592-15",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Solve elementary coefficient problems involving zeroes",
+      "question": "Given the cubic polynomial x^3 + px^2 + qx + r = 0 whose zeros are -2, 1, and 3, what is the coefficient p?",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "-1",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "-2",
+      "explanation": "Sum of zeros = (-2) + 1 + 3 = 2. For a monic cubic, sum = -p, so -p = 2 ⇒ p = -2. The other options give incorrect signs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-00592-16",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Understand the basic relationships among cubic zeroes and coefficients",
+      "question": "A student wants a monic cubic polynomial whose zeros satisfy α + β + γ = 12 and αβγ = -48. Which of the following could be the coefficient of x^2 in the polynomial?",
+      "options": {
+        "A": "-12",
+        "B": "12",
+        "C": "-48",
+        "D": "48"
+      },
+      "correct_option": "A",
+      "answer": "-12",
+      "explanation": "For a monic cubic, the coefficient of x^2 is p where -p equals the sum of the zeros. Since α + β + γ = 12, we have -p = 12 ⇒ p = -12. Hence option A is correct; the other options do not satisfy Vieta's relation.",
+      "difficulty": "medium"
+    }
+  ]
+}
