@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "Two equations are given: 3x + 2y = 7 and 5x - 4y = 1. A student writes the formula for x as \\(x = \\frac{c_1 b_2 + c_2 b_1}{a_1 b_2 - a_2 b_1}\\). Which of the following statements correctly identifies the mistake in this step?",
+      "options": {
+        "A": "The numerator should use subtraction, not addition, between the two products.",
+        "B": "The denominator should be a sum, not a difference, of the products.",
+        "C": "Both numerator and denominator are written correctly; there is no mistake.",
+        "D": "The coefficients a₁ and a₂ have been interchanged in the denominator."
+      },
+      "correct_option": "A",
+      "answer": "The numerator should use subtraction, not addition, between the two products.",
+      "explanation": "In the cross‑multiplication method, x = (c₁b₂ – c₂b₁) / (a₁b₂ – a₂b₁). The student incorrectly used a plus sign in the numerator, which changes the value of x. The denominator is correctly a difference, so option A pinpoints the exact misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "Consider the equations 6x – 3y = 9 and –2x + 5y = –4. Which pair correctly lists the coefficients of x and y in the first equation?",
+      "options": {
+        "A": "(6, –3)",
+        "B": "(–3, 6)",
+        "C": "(9, –3)",
+        "D": "(6, 3)"
+      },
+      "correct_option": "A",
+      "answer": "(6, –3)",
+      "explanation": "In 6x – 3y = 9, the number multiplying x is 6 and the number multiplying y is –3. Hence the ordered pair of coefficients is (6, –3). The other options either swap the numbers or ignore the sign of the y‑coefficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "Student A solved the pair x + y = 4 and –x + y = 2 using the cross‑multiplication formula but wrote the denominator as a₁b₂ + a₂b₁. Student B used the correct denominator a₁b₂ – a₂b₁. Which ordered pair does Student B obtain?",
+      "options": {
+        "A": "(1, 3)",
+        "B": "(–1, –3)",
+        "C": "(3, 1)",
+        "D": "(–3, –1)"
+      },
+      "correct_option": "A",
+      "answer": "(1, 3)",
+      "explanation": "For the system x + y = 4 (a₁=1,b₁=1,c₁=4) and –x + y = 2 (a₂=–1,b₂=1,c₂=2): denominator = a₁b₂ – a₂b₁ = 1·1 – (–1)·1 = 2. Numerator for x = c₁b₂ – c₂b₁ = 4·1 – 2·1 = 2, so x = 2/2 = 1. Numerator for y = a₁c₂ – a₂c₁ = 1·2 – (–1)·4 = 6, so y = 6/2 = 3. Hence the correct ordered pair is (1, 3). Student A’s sign error would give a different (incorrect) result.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "The ordered pair (2, –1) is claimed to be the solution of the equations 3x + 4y = 2 and x – 2y = 4. Which verification step confirms whether this pair is indeed correct?",
+      "options": {
+        "A": "Substitute (2, –1) only into the first equation.",
+        "B": "Substitute (2, –1) only into the second equation.",
+        "C": "Substitute (2, –1) into both equations and check that both are satisfied.",
+        "D": "Compute the determinant a₁b₂ – a₂b₁ and see if it is non‑zero."
+      },
+      "correct_option": "C",
+      "answer": "Substitute (2, –1) into both equations and check that both are satisfied.",
+      "explanation": "A solution of a system must satisfy *both* equations. Substituting (2, –1) into 3x + 4y gives 3·2 + 4·(–1) = 6 – 4 = 2, which matches the first equation. Substituting into x – 2y gives 2 – 2·(–1) = 2 + 2 = 4, matching the second equation. Hence the pair is verified only by checking both equations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Apply the cross-multiplication method",
+      "question": "For the system a₁x + b₁y = c₁ and a₂x + b₂y = c₂, what is the formula for x obtained by the cross‑multiplication method?",
+      "options": {
+        "A": "x = (c₁b₂ – c₂b₁) / (a₁b₂ – a₂b₁)",
+        "B": "x = (a₁c₂ – a₂c₁) / (a₁b₂ – a₂b₁)",
+        "C": "x = (c₁a₂ – c₂a₁) / (b₁a₂ – b₂a₁)",
+        "D": "x = (b₁c₂ – b₂c₁) / (a₁b₂ + a₂b₁)"
+      },
+      "correct_option": "A",
+      "answer": "x = (c₁b₂ – c₂b₁) / (a₁b₂ – a₂b₁)",
+      "explanation": "The cross‑multiplication (Cramer's rule) expression for x uses the determinant of the constants and y‑coefficients in the numerator and the determinant of the x‑ and y‑coefficients in the denominator, giving option A. The other options mix up the positions of coefficients or use an incorrect sign.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Identify coefficients correctly",
+      "question": "In the linear equation 5x – 2y = 9, what are the coefficients of x and y respectively?",
+      "options": {
+        "A": "(5, –2)",
+        "B": "(–2, 5)",
+        "C": "(9, –2)",
+        "D": "(5, 2)"
+      },
+      "correct_option": "A",
+      "answer": "(5, –2)",
+      "explanation": "A coefficient is the number multiplying a variable. Here x is multiplied by 5 and y is multiplied by –2, so the ordered pair of coefficients is (5, –2). Option D ignores the negative sign, and the other options swap or replace the numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Handle signs carefully",
+      "question": "When applying the cross‑multiplication formula, how does a negative sign in c₂ affect the numerator for x?",
+      "options": {
+        "A": "It changes the sign of the term c₂b₁, turning it into a subtraction.",
+        "B": "It changes the denominator a₁b₂ – a₂b₁.",
+        "C": "It has no effect because only absolute values are used.",
+        "D": "It changes the sign of a₁ in the denominator."
+      },
+      "correct_option": "A",
+      "answer": "It changes the sign of the term c₂b₁, turning it into a subtraction.",
+      "explanation": "The numerator for x is c₁b₂ – c₂b₁. If c₂ is negative, the product c₂b₁ becomes negative, and subtracting a negative is equivalent to addition. Recognizing this sign change is essential; the denominator remains unchanged. Hence option A correctly describes the effect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00596",
+      "learning_point": "Verify the resulting ordered pair",
+      "question": "The ordered pair (2, –1) is proposed as the solution of the equations 4x + 3y = 5 and 2x – y = 5. Which statement is true after verification?",
+      "options": {
+        "A": "The pair satisfies both equations.",
+        "B": "The pair satisfies only the first equation.",
+        "C": "The pair satisfies only the second equation.",
+        "D": "The pair satisfies neither equation."
+      },
+      "correct_option": "A",
+      "answer": "The pair satisfies both equations.",
+      "explanation": "Substituting (2, –1): 4·2 + 3·(–1) = 8 – 3 = 5 (first equation satisfied). 2·2 – (–1) = 4 + 1 = 5 (second equation satisfied). Since both checks are true, the ordered pair is a valid solution, making option A correct.",
+      "difficulty": "easy"
+    }
+  ]
+}
