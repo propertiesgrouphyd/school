@@ -1,0 +1,78 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-00592-97",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Understand the basic relationships among cubic zeroes and coefficients",
+      "question": "For the cubic polynomial 2x³ − 3x² + 5x − 7 = 0 with roots α, β, γ, which of the following statements is false?",
+      "options": {
+        "A": "α + β + γ = 3/2",
+        "B": "αβ + βγ + γα = 5/2",
+        "C": "αβγ = ‑7/2",
+        "D": "αβγ = 7/2"
+      },
+      "correct_option": "C",
+      "answer": "αβγ = ‑7/2",
+      "explanation": "For a cubic ax³+bx²+cx+d=0, the relationships are: sum of roots = –b/a, sum of pairwise products = c/a, product = –d/a. Here a=2, b=‑3, c=5, d=‑7. Hence α+β+γ = –(‑3)/2 = 3/2 (true), αβ+βγ+γα = 5/2 (true), αβγ = –(‑7)/2 = 7/2 (true). Therefore the statement αβγ = –7/2 is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "LU-00592-98",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Use sum and product relationships",
+      "question": "If α, β, γ are the zeros of x³ − 6x² + 11x − 6 = 0, what is the value of 1/α + 1/β + 1/γ?",
+      "options": {
+        "A": "6",
+        "B": "11/6",
+        "C": "6/11",
+        "D": "1/6"
+      },
+      "correct_option": "B",
+      "answer": "11/6",
+      "explanation": "For a cubic with a=1, b=‑6, c=11, d=‑6, we have αβ+βγ+γα = c/a = 11 and αβγ = –d/a = 6. The sum of reciprocals is (αβ+βγ+γα)/(αβγ) = 11/6. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "LU-00592-99",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Solve elementary coefficient problems involving zeroes",
+      "question": "Let P(x)=x³+px²+qx+r have roots α, β, γ. Define Q(x)=2x³+6x²+mx+n whose roots are 2α, 2β, 2γ. Which statement correctly relates m and n to q and r?",
+      "options": {
+        "A": "m = 2q and n = 2r",
+        "B": "m = 4q and n = 8r",
+        "C": "m = 8q and n = 16r",
+        "D": "m = 8q and n = 8r"
+      },
+      "correct_option": "C",
+      "answer": "m = 8q and n = 16r",
+      "explanation": "If the roots are doubled, the new monic polynomial is (x³+2p x²+4q x+8r). Multiplying by the leading coefficient 2 gives Q(x)=2x³+4p x²+8q x+16r. Comparing with Q(x)=2x³+6x²+mx+n yields m=8q and n=16r. Hence option C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-00592-100",
+      "learning_unit_id": "LU-00592",
+      "learning_point": "Understand the basic relationships among cubic zeroes and coefficients",
+      "question": "The cubic equation x³ − 6x² + 11x − 6 = 0 has zeros α, β, γ. What is the value of α² + β² + γ²?",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "16",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "14",
+      "explanation": "For a cubic, (α+β+γ)² = α²+β²+γ² + 2(αβ+βγ+γα). Here α+β+γ = 6 and αβ+βγ+γα = 11. Thus α²+β²+γ² = 6² − 2·11 = 36 − 22 = 14. Option A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}
