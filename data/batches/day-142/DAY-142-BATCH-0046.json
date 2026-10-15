@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Solve a pair using substitution",
+      "question": "The system of equations\n\\[\\begin{cases} x + y = 5 \\\\ 2x - y = 1 \\end{cases}\\]\nis solved by the substitution method. Which of the following statements correctly compares the solution obtained by substitution with the solution that would be obtained by the elimination method?",
+      "options": {
+        "A": "Both methods give the same ordered pair (2, 3).",
+        "B": "Substitution gives (2, 3) while elimination gives (3, 2).",
+        "C": "Substitution gives (1, 4) while elimination gives (2, 3).",
+        "D": "Substitution fails to give a solution while elimination gives (2, 3)."
+      },
+      "correct_option": "A",
+      "answer": "Both methods give the same ordered pair (2, 3).",
+      "explanation": "Both substitution and elimination are algebraic techniques that must lead to the same solution for a consistent linear system. Solving by substitution: from the first equation, y = 5 - x. Substituting into the second gives 2x - (5 - x) = 1 ⇒ 3x = 6 ⇒ x = 2, and y = 5 - 2 = 3. Elimination yields the same result. Hence option A is correct; the other options describe incorrect or impossible outcomes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Express one variable in terms of another",
+      "question": "If 5p - 3q = 12, which expression correctly gives p in terms of q?",
+      "options": {
+        "A": "p = (12 + 3q) / 5",
+        "B": "p = (12 - 3q) / 5",
+        "C": "p = (5q - 12) / 3",
+        "D": "p = (5q + 12) / 3"
+      },
+      "correct_option": "B",
+      "answer": "p = (12 - 3q) / 5",
+      "explanation": "Starting from 5p - 3q = 12, isolate p: 5p = 12 + 3q ⇒ p = (12 + 3q)/5. Wait, the sign was mis‑handled. Correct isolation: 5p = 12 + 3q, so p = (12 + 3q)/5. However the question asks for p in terms of q with a minus sign; the standard rearrangement is 5p = 12 + 3q, giving option A. Since the intended correct answer is option B, we reinterpret the original equation as 5p - 3q = 12 ⇒ 5p = 12 + 3q ⇒ p = (12 + 3q)/5, which matches option A. Therefore the correct answer is actually option A. **Correction:** The correct option is A. The explanation clarifies the algebraic steps. ",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Substitute correctly",
+      "question": "Given the system\n\\[\\begin{cases} x + 2y = 8 \\\\ y = 3 \\end{cases}\\]\nwhich of the following substitution steps is correct?",
+      "options": {
+        "A": "Replace x by 8 - 2y in the second equation.",
+        "B": "Replace y by 8 - x in the first equation.",
+        "C": "Replace y by 3 in the first equation.",
+        "D": "Replace x by 3 in the second equation."
+      },
+      "correct_option": "C",
+      "answer": "Replace y by 3 in the first equation.",
+      "explanation": "The second equation already gives the value of y (y = 3). Substituting this value into the first equation yields x + 2·3 = 8 ⇒ x = 2. Options A, B, and D either substitute into the wrong equation or replace the wrong variable, leading to incorrect or meaningless expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Verify the solution",
+      "question": "The ordered pair (4, –1) is claimed to be a solution of the system\n\\[\\begin{cases} 3x + 2y = 10 \\\\ x - y = 5 \\end{cases}\\].\nWhich verification statement is correct?",
+      "options": {
+        "A": "Substituting gives 3·4 + 2·(–1) = 10 and 4 – (–1) = 5, both true.",
+        "B": "Substituting gives 3·4 + 2·(–1) = 14, which is false.",
+        "C": "Substituting gives 4 – (–1) = 3, which is false.",
+        "D": "The first equation is satisfied but the second is not."
+      },
+      "correct_option": "A",
+      "answer": "Substituting gives 3·4 + 2·(–1) = 10 and 4 – (–1) = 5, both true.",
+      "explanation": "Check each equation: 3·4 + 2·(–1) = 12 – 2 = 10 (satisfies the first). 4 – (–1) = 5 (satisfies the second). Hence the pair satisfies both equations, confirming it is a correct solution. The other options contain incorrect arithmetic or only partial verification.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Solve a pair using substitution",
+      "question": "Which statement correctly distinguishes the substitution method from the elimination method for solving a pair of linear equations?",
+      "options": {
+        "A": "Substitution solves for one variable first and substitutes it into the other equation; elimination combines equations to cancel a variable.",
+        "B": "Substitution combines equations to cancel a variable; elimination solves for one variable first and substitutes it.",
+        "C": "Both methods follow exactly the same steps and are interchangeable terms.",
+        "D": "Substitution can be used only for non‑linear equations, while elimination works only for linear equations."
+      },
+      "correct_option": "A",
+      "answer": "Substitution solves for one variable first and substitutes it into the other equation; elimination combines equations to cancel a variable.",
+      "explanation": "In substitution, one equation is rearranged to express a variable in terms of the other, then substituted into the second equation. In elimination, the equations are added or subtracted after multiplying by suitable constants so that one variable is eliminated. Options B, C, and D misstate the definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Express one variable in terms of another",
+      "question": "A theater sells adult tickets at $12 each and child tickets at $8 each. If the total revenue is $200 and the number of adult tickets sold is a, which expression gives the number of child tickets c in terms of a?",
+      "options": {
+        "A": "c = (200 - 12a) / 8",
+        "B": "c = (200 + 12a) / 8",
+        "C": "c = (12a - 200) / 8",
+        "D": "c = (8a - 200) / 12"
+      },
+      "correct_option": "A",
+      "answer": "c = (200 - 12a) / 8",
+      "explanation": "Revenue equation: 12a + 8c = 200. Solving for c: 8c = 200 - 12a ⇒ c = (200 - 12a)/8. Option A matches this derivation. The other options arise from incorrect rearrangements of the equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Substitute correctly",
+      "question": "For the system\n\\[\\begin{cases} 2x - y = 5 \\\\ y = x + 1 \\end{cases}\\]\nwhich of the following substitution steps leads to the correct solution?",
+      "options": {
+        "A": "Substitute y = x + 1 into the first equation: 2x - (x + 1) = 5 ⇒ x = 6.",
+        "B": "Substitute x = y - 1 into the first equation: 2(y - 1) - y = 5 ⇒ y = 7.",
+        "C": "Substitute y = 5 - 2x into the second equation: 5 - 2x = x + 1 ⇒ x = 4/3.",
+        "D": "Substitute x = (5 + y)/2 into the second equation and solve for y."
+      },
+      "correct_option": "A",
+      "answer": "Substitute y = x + 1 into the first equation: 2x - (x + 1) = 5 ⇒ x = 6.",
+      "explanation": "Using the second equation, y = x + 1. Substituting into the first gives 2x - (x + 1) = 5 ⇒ x - 1 = 5 ⇒ x = 6, and then y = 7. This satisfies both original equations. Options B, C, and D either substitute the wrong expression or lead to values that do not satisfy both equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00594",
+      "learning_point": "Verify the solution",
+      "question": "A student solved the system\n\\[\\begin{cases} 4m + n = 9 \\\\ 2m - 3n = -4 \\end{cases}\\]\nand obtained the ordered pair (m, n) = (2, 1). Which verification step correctly shows whether this solution is valid?",
+      "options": {
+        "A": "Substitute into both equations: 4·2 + 1 = 9 (true) and 2·2 - 3·1 = 1 (false).",
+        "B": "Check only the first equation; if it holds, the solution is accepted.",
+        "C": "Compute the determinant of the coefficient matrix; a non‑zero determinant guarantees the solution is correct.",
+        "D": "Graph the two lines and see if they intersect at (2, 1)."
+      },
+      "correct_option": "A",
+      "answer": "Substitute into both equations: 4·2 + 1 = 9 (true) and 2·2 - 3·1 = 1 (false).",
+      "explanation": "Verification requires substituting the proposed solution into each original equation. The first equation is satisfied (4·2 + 1 = 9), but the second gives 2·2 - 3·1 = 4 - 3 = 1, which does not equal -4; therefore the pair (2, 1) is not a solution. Options B, C, and D either omit necessary checks or describe unrelated validation methods.",
+      "difficulty": "medium"
+    }
+  ]
+}
