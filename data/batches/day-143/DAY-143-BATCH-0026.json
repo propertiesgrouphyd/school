@@ -1,0 +1,78 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97-001",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand consistent systems",
+      "question": "Which of the following statements is a common misconception about a consistent system of two linear equations in two variables?",
+      "options": {
+        "A": "A consistent system always has exactly one solution.",
+        "B": "A consistent system may have either one solution or infinitely many solutions.",
+        "C": "In a consistent system the two lines either intersect at a point or coincide.",
+        "D": "The determinant of the coefficient matrix can be zero or non‑zero for a consistent system."
+      },
+      "correct_option": "A",
+      "answer": "A consistent system always has exactly one solution.",
+      "explanation": "A consistent system is one that has at least one solution. It can have a single (unique) solution when the two lines intersect, or infinitely many solutions when the lines are coincident. Therefore, the belief that a consistent system *always* yields exactly one solution is a misconception. Options B, C and D correctly describe the possibilities for a consistent system.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98-001",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand inconsistent systems",
+      "question": "Given the pair of equations 2x + 3y = 5 and 4x + 6y = 12, what can be concluded about the system?",
+      "options": {
+        "A": "It is consistent and has a unique solution.",
+        "B": "It is consistent and has infinitely many solutions.",
+        "C": "It is inconsistent (no solution).",
+        "D": "It cannot be determined without further calculation."
+      },
+      "correct_option": "C",
+      "answer": "It is inconsistent (no solution).",
+      "explanation": "The second equation is exactly twice the first on the left‑hand side (4x + 6y = 2·(2x + 3y)), but the right‑hand side is 12, which is not twice 5. Hence the two lines are parallel and never meet, giving no common point. Therefore the system is inconsistent. Options A and B are false because the lines do not intersect, and D is unnecessary because the inconsistency is evident from the ratios.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99-001",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "Consider the following two systems of linear equations:\nSystem I: x + y = 2, 2x + 2y = 4\nSystem II: x - y = 1, 2x + y = 5\nWhich option correctly states which system has a unique solution?",
+      "options": {
+        "A": "System I has infinitely many solutions, System II has a unique solution.",
+        "B": "Both systems have infinitely many solutions.",
+        "C": "Both systems are inconsistent (no solution).",
+        "D": "System I has a unique solution, System II has infinitely many solutions."
+      },
+      "correct_option": "A",
+      "answer": "System I has infinitely many solutions, System II has a unique solution.",
+      "explanation": "In System I the second equation is just twice the first, so the two equations represent the same line; therefore there are infinitely many solutions. In System II the two equations are independent (their slopes are different), so the lines intersect at exactly one point, giving a unique solution. Hence option A correctly identifies the nature of each system. Options B, C and D mischaracterise at least one of the systems.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100-001",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "For the pair of equations ax + by = c and k·a x + k·b y = k·c (where k ≠ 0), which condition guarantees that the system has infinitely many solutions?",
+      "options": {
+        "A": "The determinant of the coefficient matrix is non‑zero.",
+        "B": "The determinant is zero and the ratios a:b:c are equal to k·a:k·b:k·c.",
+        "C": "The determinant is zero but the ratios a:b are not equal to the ratio of the constants.",
+        "D": "The determinant is non‑zero and the ratios of coefficients are equal."
+      },
+      "correct_option": "B",
+      "answer": "The determinant is zero and the ratios a:b:c are equal to k·a:k·b:k·c.",
+      "explanation": "When the second equation is a non‑zero multiple (k) of the first, the two equations represent the same line. This occurs precisely when the determinant (ad - bc) is zero (coefficients are proportional) and the constant terms are in the same proportion, i.e., a:b:c = k·a:k·b:k·c. Under these conditions the system has infinitely many solutions. Option A describes a unique solution, C describes an inconsistent system, and D is contradictory because a non‑zero determinant cannot coexist with proportional coefficients.",
+      "difficulty": "hard"
+    }
+  ]
+}
