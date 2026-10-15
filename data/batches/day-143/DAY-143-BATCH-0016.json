@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify no solution",
+      "question": "Which of the following pairs of linear equations in two variables has no solution?",
+      "options": {
+        "A": "2x + 3y = 6 ; 4x + 6y = 12",
+        "B": "x - y = 2 ; 2x - 2y = 5",
+        "C": "3x + 2y = 7 ; -3x - 2y = -7",
+        "D": "x + y = 3 ; 2x + 2y = 6"
+      },
+      "correct_option": "B",
+      "answer": "x - y = 2 ; 2x - 2y = 5",
+      "explanation": "For the pair in option B, the coefficients of x and y are proportional (the second equation is exactly twice the first), but the constants are not in the same ratio (2 : 5 ≠ 1 : 2). Hence the lines are parallel and never intersect, giving no solution. Options A, C and D represent the same line (infinitely many solutions).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Use coefficient relationships to classify a pair",
+      "question": "Given the pair of equations 5x - 3y = 10 and 10x - 6y = 20, which classification is correct?",
+      "options": {
+        "A": "Consistent with a unique solution",
+        "B": "Consistent with infinitely many solutions",
+        "C": "Inconsistent (no solution)",
+        "D": "Not a linear system"
+      },
+      "correct_option": "B",
+      "answer": "Consistent with infinitely many solutions",
+      "explanation": "The second equation is exactly twice the first (both sides multiplied by 2). Therefore the two equations represent the same straight line, giving infinitely many common points. Hence the system is consistent with infinitely many solutions. Options A and C are incorrect because the determinant is zero, and the equations are not distinct. Option D is irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand consistent systems",
+      "question": "Consider the following two systems:\nSystem I: 2x + y = 4 and 4x + 2y = 8.\nSystem II: x - 2y = 3 and 2x - 4y = 7.\nWhich statement correctly compares the consistency of the two systems?",
+      "options": {
+        "A": "Both systems are consistent with infinitely many solutions.",
+        "B": "System I is consistent with infinitely many solutions, while System II is inconsistent.",
+        "C": "System I is inconsistent, while System II is consistent with a unique solution.",
+        "D": "Both systems are inconsistent."
+      },
+      "correct_option": "B",
+      "answer": "System I is consistent with infinitely many solutions, while System II is inconsistent.",
+      "explanation": "In System I, the second equation is exactly twice the first, so both represent the same line → infinitely many solutions (consistent). In System II, the left‑hand sides are proportional (second is 2 × first) but the constants 3 and 7 are not in the same ratio (2 × 3 ≠ 7), so the lines are parallel → no common point, i.e., inconsistent. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand inconsistent systems",
+      "question": "In a pair of linear equations ax + by = c and k·(ax) + k·(by) = d, where k ≠ 0, the system will be inconsistent if:",
+      "options": {
+        "A": "c = d",
+        "B": "c ≠ d",
+        "C": "a = b",
+        "D": "k = 1"
+      },
+      "correct_option": "B",
+      "answer": "c ≠ d",
+      "explanation": "The second equation is k times the first on the left‑hand side. For the two equations to represent the same line, the constants must also be in the same ratio, i.e., d = k·c. If c ≠ d (or equivalently d ≠ k·c), the lines are parallel and never meet, making the system inconsistent. Options A, C, and D do not guarantee inconsistency.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "The system of equations 3x + 2y = 7 and x - y = 1 has how many solutions?",
+      "options": {
+        "A": "No solution",
+        "B": "Exactly one solution",
+        "C": "Infinitely many solutions",
+        "D": "Cannot be determined without further information"
+      },
+      "correct_option": "B",
+      "answer": "Exactly one solution",
+      "explanation": "The determinant of the coefficient matrix is (3)(-1) - (2)(1) = -3 - 2 = -5, which is non‑zero. Hence the lines intersect at a single point, giving a unique solution. Therefore option B is correct; the other options are false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "Which of the following pairs of equations represents a system with infinitely many solutions?",
+      "options": {
+        "A": "x + y = 2 ; 2x + 2y = 5",
+        "B": "4x - 2y = 6 ; -2x + y = -3",
+        "C": "x - y = 1 ; x + y = 3",
+        "D": "3x + 4y = 12 ; 6x + 8y = 24"
+      },
+      "correct_option": "D",
+      "answer": "3x + 4y = 12 ; 6x + 8y = 24",
+      "explanation": "In option D, the second equation is exactly twice the first, so both equations describe the same straight line, leading to infinitely many common points. Option A has different constant ratios, giving no solution. Option B also has different constant ratios (the second equation is -½ times the first on the left but the constant does not follow), resulting in no solution. Option C yields a unique intersection point.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify no solution",
+      "question": "A system of two linear equations is said to be inconsistent when:",
+      "options": {
+        "A": "The two equations represent the same line.",
+        "B": "The two equations represent parallel lines that never meet.",
+        "C": "The two equations intersect at exactly one point.",
+        "D": "The determinant of the coefficient matrix is non‑zero."
+      },
+      "correct_option": "B",
+      "answer": "The two equations represent parallel lines that never meet.",
+      "explanation": "Inconsistent systems correspond to parallel lines with no point of intersection, i.e., no solution. Option A describes a consistent system with infinitely many solutions. Option C describes a consistent system with a unique solution. Option D is another way of stating a unique solution (determinant non‑zero), not inconsistency.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Use coefficient relationships to classify a pair",
+      "question": "For the pair of equations 7x + 5y = 9 and 14x + 10y = k, which value of k makes the system inconsistent?",
+      "options": {
+        "A": "18",
+        "B": "9",
+        "C": "0",
+        "D": "20"
+      },
+      "correct_option": "D",
+      "answer": "20",
+      "explanation": "The second equation’s left‑hand side is exactly 2 × (7x + 5y). For the two equations to represent the same line, the constant term must also be doubled: 2 × 9 = 18. Any value of k different from 18 breaks the proportionality, producing parallel lines and thus an inconsistent system. Among the options, only D (k = 20) differs from 18, making the system inconsistent. Option A would give a consistent system with infinitely many solutions; options B and C also break the proportionality but are not the selected answer.",
+      "difficulty": "easy"
+    }
+  ]
+}

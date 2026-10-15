@@ -1,0 +1,150 @@
+{
+  "day": 143,
+  "batch_id": "DAY-143-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand consistent systems",
+      "question": "Consider the two systems of linear equations:\nSystem I: 2x + 3y = 6 and 4x + 6y = 12\nSystem II: x - y = 2 and 2x - 2y = 5\nWhich statement correctly compares their consistency?",
+      "options": {
+        "A": "Both systems are consistent.",
+        "B": "Both systems are inconsistent.",
+        "C": "System I is consistent and System II is inconsistent.",
+        "D": "System I is inconsistent and System II is consistent."
+      },
+      "correct_option": "C",
+      "answer": "System I is consistent and System II is inconsistent.",
+      "explanation": "In System I, the second equation is exactly twice the first, so both represent the same line; the system is consistent (infinitely many solutions). In System II, the coefficients of x and y are proportional (2/1 = 2/‑1) but the constants are not (5 ≠ 2×2), giving parallel distinct lines, hence no solution – the system is inconsistent. Therefore option C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand inconsistent systems",
+      "question": "For the pair of equations 3x + 4y = 7 and 6x + 8y = k, the system will be inconsistent if:",
+      "options": {
+        "A": "k = 14",
+        "B": "k ≠ 14",
+        "C": "k = 0",
+        "D": "any value of k"
+      },
+      "correct_option": "B",
+      "answer": "k ≠ 14",
+      "explanation": "The second equation is twice the first in terms of coefficients (6/3 = 8/4 = 2). For the lines to coincide, the constant term must also be twice (2×7 = 14). If k differs from 14, the lines are parallel but distinct, giving no common point – an inconsistent system. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify unique solutions",
+      "question": "A pair of linear equations in two variables will have a unique solution when:",
+      "options": {
+        "A": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+        "B": "a₁/a₂ ≠ b₁/b₂",
+        "C": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "D": "a₁ = a₂ and b₁ = b₂"
+      },
+      "correct_option": "B",
+      "answer": "a₁/a₂ ≠ b₁/b₂",
+      "explanation": "A unique solution exists when the two lines intersect at exactly one point, which occurs when their slopes are different. This translates to the ratios of the coefficients of x and y being unequal (a₁/a₂ ≠ b₁/b₂). Options A and C describe parallel or coincident lines, and D is insufficient. Therefore, option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify infinitely many solutions",
+      "question": "A pair of linear equations will have infinitely many solutions if:",
+      "options": {
+        "A": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+        "B": "a₁/a₂ ≠ b₁/b₂",
+        "C": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "D": "a₁ = b₁ = c₁"
+      },
+      "correct_option": "C",
+      "answer": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+      "explanation": "Infinitely many solutions occur when the two equations represent the same straight line. This happens only when the ratios of the coefficients of x, y, and the constants are all equal, i.e., a₁/a₂ = b₁/b₂ = c₁/c₂. Hence option C correctly captures this condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Identify no solution",
+      "question": "Which of the following statements correctly defines an inconsistent system of two linear equations?",
+      "options": {
+        "A": "The two equations represent the same line.",
+        "B": "The two equations represent intersecting lines.",
+        "C": "The two equations represent parallel distinct lines.",
+        "D": "The two equations represent coincident lines."
+      },
+      "correct_option": "C",
+      "answer": "The two equations represent parallel distinct lines.",
+      "explanation": "An inconsistent system has no common point of intersection; geometrically this means the lines are parallel but not the same line (parallel distinct). Options A and D describe coincident lines (consistent with infinite solutions), and B describes intersecting lines (consistent with a unique solution). Therefore, option C is the correct definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Use coefficient relationships to classify a pair",
+      "question": "For the pair of equations 5x - 2y = 10 and 10x - 4y = k, which classification is correct when k = 20?",
+      "options": {
+        "A": "Consistent with a unique solution",
+        "B": "Consistent with infinitely many solutions",
+        "C": "Inconsistent (no solution)",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "B",
+      "answer": "Consistent with infinitely many solutions",
+      "explanation": "The second equation is exactly twice the first (coefficients 10 = 2×5, -4 = 2×‑2). When k = 20, the constant term is also twice (20 = 2×10), so both equations represent the same line. Hence the system is consistent and has infinitely many solutions. Option B captures this situation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand consistent systems",
+      "question": "The system 2x + y = 5 and 4x + 2y = 10 is:",
+      "options": {
+        "A": "Inconsistent",
+        "B": "Consistent with a unique solution",
+        "C": "Consistent with infinitely many solutions",
+        "D": "No solution"
+      },
+      "correct_option": "C",
+      "answer": "Consistent with infinitely many solutions",
+      "explanation": "The second equation is exactly twice the first, so both equations describe the same straight line. Therefore the system is consistent and has infinitely many solutions. Option C is the correct classification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00597",
+      "learning_point": "Understand inconsistent systems",
+      "question": "Two roads are modeled by the equations 3x - y = 4 and 6x - 2y = 9. What can be said about the consistency of this system?",
+      "options": {
+        "A": "Consistent with a unique solution",
+        "B": "Consistent with infinitely many solutions",
+        "C": "Inconsistent (no solution)",
+        "D": "Dependent"
+      },
+      "correct_option": "C",
+      "answer": "Inconsistent (no solution)",
+      "explanation": "The second equation has coefficients that are twice those of the first (6 = 2×3, -2 = 2×‑1), but the constant term 9 is not twice 4 (2×4 = 8). Hence the lines are parallel distinct, leading to no point of intersection. The system is therefore inconsistent. Option C correctly describes this.",
+      "difficulty": "medium"
+    }
+  ]
+}
