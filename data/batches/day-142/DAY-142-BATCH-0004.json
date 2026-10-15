@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "If the zeroes of a quadratic polynomial are 3 and -4, which of the following could be the polynomial?",
+      "options": {
+        "A": "x^2 + x - 12",
+        "B": "x^2 - x - 12",
+        "C": "x^2 + 12x + 3",
+        "D": "x^2 - 12x + 3"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + x - 12",
+      "explanation": "A quadratic with zeroes α and β can be written as (x-α)(x-β). Here (x-3)(x+4)=x^2 + x - 12, which matches option A. The other options do not expand to the given zeroes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "A projectile's height h(t) in meters after t seconds is given by h(t)= -5t^2 + 20t + 15. At what times does the projectile hit the ground?",
+      "options": {
+        "A": "t = 2 + √7 seconds and t = 2 - √7 seconds",
+        "B": "t = 5 seconds and t = -3 seconds",
+        "C": "t = 3 seconds only",
+        "D": "t = 0 seconds"
+      },
+      "correct_option": "A",
+      "answer": "t = 2 + √7 seconds and t = 2 - √7 seconds",
+      "explanation": "Setting h(t)=0 gives -5t^2 +20t +15 =0 → t^2 -4t -3 =0. Solving, t = 2 ± √7. Both roots satisfy the quadratic; the negative root is not physically meaningful for time, but mathematically it is a zero. Option A lists the correct roots.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "For the quadratic equation ax^2 + bx + c = 0, which expression gives the sum of its zeroes?",
+      "options": {
+        "A": "b/a",
+        "B": "-b/a",
+        "C": "c/a",
+        "D": "-c/a"
+      },
+      "correct_option": "B",
+      "answer": "-b/a",
+      "explanation": "If the zeroes are α and β, then (x-α)(x-β)=x^2 -(α+β)x + αβ. Comparing with ax^2+bx+c=0 (after dividing by a) gives sum α+β = -b/a. Many students mistakenly write b/a; option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "The quadratic 3x^2 - 12x + p = 0 has zeroes α and β. If αβ = 4, what is the value of p?",
+      "options": {
+        "A": "p = 12",
+        "B": "p = 4",
+        "C": "p = -12",
+        "D": "p = 0"
+      },
+      "correct_option": "A",
+      "answer": "p = 12",
+      "explanation": "Product of zeroes αβ = c/a. Here c = p and a = 3, so αβ = p/3. Given αβ = 4, we have p/3 = 4 ⇒ p = 12. Option A satisfies this relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Find unknown coefficients using zeroes",
+      "question": "Two quadratic polynomials have the same zeroes 2 and -5. One is x^2 - 3x - 10, the other is 4x^2 - 12x - 40. Which statement about their coefficients is true?",
+      "options": {
+        "A": "Both have the same leading coefficient.",
+        "B": "The ratio of their constant terms equals the ratio of their leading coefficients.",
+        "C": "Their sums of coefficients are equal.",
+        "D": "The product of all coefficients is the same for both."
+      },
+      "correct_option": "B",
+      "answer": "The ratio of their constant terms equals the ratio of their leading coefficients.",
+      "explanation": "Both polynomials are scalar multiples: multiplying the first by 4 gives the second. Hence leading coefficients 1 and 4, constant terms -10 and -40. The ratio -10/ -40 = 1/4, same as 1/4 for the leading coefficients. Option B captures this relationship. Options A, C, D are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "Find the quadratic polynomial with leading coefficient 3 whose zeroes are -1 and 4.",
+      "options": {
+        "A": "3x^2 - 9x - 12",
+        "B": "3x^2 + 9x - 12",
+        "C": "x^2 - 3x - 4",
+        "D": "3x^2 - 3x + 12"
+      },
+      "correct_option": "A",
+      "answer": "3x^2 - 9x - 12",
+      "explanation": "Start with (x+1)(x-4)=x^2 -3x -4. Multiply by the leading coefficient 3: 3x^2 -9x -12. This matches option A. The other options either have wrong signs or omit the required leading coefficient.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "What are the zeroes of the quadratic polynomial x^2 - 6x + 9?",
+      "options": {
+        "A": "3 and 3",
+        "B": "-3 and -3",
+        "C": "3 and -3",
+        "D": "No real zeroes"
+      },
+      "correct_option": "A",
+      "answer": "3 and 3",
+      "explanation": "x^2 - 6x + 9 = (x - 3)^2, so the only zero is x = 3, occurring twice. Hence the zeroes are 3 and 3. Options B, C, D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "For the quadratic equation ax^2 + bx + c = 0, the sum of its zeroes is:",
+      "options": {
+        "A": "-b/a",
+        "B": "b/a",
+        "C": "-c/a",
+        "D": "c/a"
+      },
+      "correct_option": "A",
+      "answer": "-b/a",
+      "explanation": "If the zeroes are α and β, then α + β = -b/a. This follows from expanding (x-α)(x-β) and comparing coefficients. Option A correctly states the relationship.",
+      "difficulty": "easy"
+    }
+  ]
+}

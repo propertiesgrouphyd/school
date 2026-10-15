@@ -1,0 +1,150 @@
+{
+  "day": 142,
+  "batch_id": "DAY-142-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "Find the zeroes of the quadratic equation x^2 - 5x + 6 = 0.",
+      "options": {
+        "A": "2 and 3",
+        "B": "-2 and -3",
+        "C": "1 and 6",
+        "D": "5 and 1"
+      },
+      "correct_option": "A",
+      "answer": "2 and 3",
+      "explanation": "For x^2 -5x +6 =0, factorisation gives (x-2)(x-3)=0, so the roots are x=2 and x=3. Option A lists these correctly; the other options are incorrect factors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "If a quadratic polynomial is ax^2 + bx + c = 0, the sum of its zeroes is:",
+      "options": {
+        "A": "-b/a",
+        "B": "b/a",
+        "C": "-c/b",
+        "D": "c/a"
+      },
+      "correct_option": "A",
+      "answer": "-b/a",
+      "explanation": "For a quadratic ax^2+bx+c=0 with zeroes α and β, α+β = -b/a. Hence option A is correct; the other formulas correspond to different relationships (product, etc.).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "For the quadratic equation ax^2 + bx + c = 0, the product of its zeroes equals:",
+      "options": {
+        "A": "c/a",
+        "B": "-c/a",
+        "C": "b/a",
+        "D": "-b/a"
+      },
+      "correct_option": "A",
+      "answer": "c/a",
+      "explanation": "If the zeroes are α and β, then α·β = c/a. Option A states this relationship; the other options mix up sign or use the wrong coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Find unknown coefficients using zeroes",
+      "question": "A quadratic polynomial has zeroes 2 and -3 and its leading coefficient is 1. Which of the following is the polynomial?",
+      "options": {
+        "A": "x^2 + x - 6",
+        "B": "x^2 - x - 6",
+        "C": "x^2 + x + 6",
+        "D": "x^2 - x + 6"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + x - 6",
+      "explanation": "Sum of zeroes = 2 + (-3) = -1, product = -6. For a monic polynomial, f(x)=x^2 - (sum)x + product = x^2 - (-1)x + (-6)=x^2 + x -6, which is option A. The other options have incorrect signs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Construct a quadratic polynomial from given zeroes",
+      "question": "Zeroes of a quadratic are -2 and 5 and the leading coefficient is 3. Which polynomial represents it?",
+      "options": {
+        "A": "3x^2 - 9x - 30",
+        "B": "3x^2 + 9x - 30",
+        "C": "3x^2 - 9x + 30",
+        "D": "3x^2 + 9x + 30"
+      },
+      "correct_option": "A",
+      "answer": "3x^2 - 9x - 30",
+      "explanation": "Sum = -2 + 5 = 3, product = -10. Using a(x-α)(x-β) with a=3 gives 3[x^2 - (sum)x + product] = 3x^2 - 9x - 30, which is option A. Other options have sign errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Identify zeroes of a quadratic polynomial",
+      "question": "The height of a projectile is given by h(t)= -5t^2 + 20t + 15 metres. At what times t (in seconds) does the projectile hit the ground?",
+      "options": {
+        "A": "t = 2 \\pm \\sqrt{7}",
+        "B": "t = 2 \\pm \\sqrt{5}",
+        "C": "t = -2 \\pm \\sqrt{7}",
+        "D": "t = 1 \\pm \\sqrt{7}"
+      },
+      "correct_option": "A",
+      "answer": "t = 2 \\pm \\sqrt{7}",
+      "explanation": "Setting h(t)=0 gives -5t^2+20t+15=0 → t^2 -4t -3 =0. Solving, t = [4 \\pm \\sqrt{16+12}]/2 = 2 \\pm \\sqrt{7}. Hence option A is correct; the other options use wrong constants or signs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between sum of zeroes and coefficients",
+      "question": "For the quadratic 2x^2 + 3x - 5 = 0, a student claims that the sum of its zeroes is 3/2. Which statement best identifies the error?",
+      "options": {
+        "A": "The sign of the sum is incorrect",
+        "B": "The product of the zeroes was calculated instead of the sum",
+        "C": "The coefficient of x was used instead of the coefficient of x^2",
+        "D": "There is no error; the student's answer is correct"
+      },
+      "correct_option": "A",
+      "answer": "The sign of the sum is incorrect",
+      "explanation": "Sum of zeroes = -b/a = -3/2. The student gave +3/2, so the sign is wrong. Option A pinpoints this. The other options describe different mistakes that are not present.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-00591",
+      "learning_point": "Understand the relationship between product of zeroes and coefficients",
+      "question": "If the quadratic equation x^2 - 6x + k = 0 has a product of its zeroes equal to 9, what is the value of k?",
+      "options": {
+        "A": "9",
+        "B": "-9",
+        "C": "6",
+        "D": "-6"
+      },
+      "correct_option": "A",
+      "answer": "9",
+      "explanation": "Product of zeroes = c/a = k/1 = k. Given product = 9, so k = 9. Option A is correct; the other options are incorrect values.",
+      "difficulty": "medium"
+    }
+  ]
+}
