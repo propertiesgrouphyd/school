@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find the position of a given term",
+      "question": "In an arithmetic progression with first term a = 5 and common difference d = 10, which of the following statements correctly gives the positions of the terms 55 and 115?",
+      "options": {
+        "A": "55 is the 6th term, 115 is the 12th term.",
+        "B": "55 is the 5th term, 115 is the 11th term.",
+        "C": "55 is the 6th term, 115 is the 11th term.",
+        "D": "55 is the 5th term, 115 is the 12th term."
+      },
+      "correct_option": "A",
+      "answer": "55 is the 6th term, 115 is the 12th term.",
+      "explanation": "For an AP, a_n = a + (n‑1)d. Substituting a = 5 and d = 10 gives a_n = 5 + (n‑1)10 = 10n – 5. Setting a_n = 55: 10n – 5 = 55 ⇒ 10n = 60 ⇒ n = 6. Setting a_n = 115: 10n – 5 = 115 ⇒ 10n = 120 ⇒ n = 12. Hence 55 is the 6th term and 115 is the 12th term. Options B, C, and D give incorrect positions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Solve AP problems involving unknown parameters",
+      "question": "In an arithmetic progression the 3rd term is 20 and the 8th term is 45. What is the sum of the first 10 terms?",
+      "options": {
+        "A": "300",
+        "B": "325",
+        "C": "350",
+        "D": "375"
+      },
+      "correct_option": "B",
+      "answer": "325",
+      "explanation": "Let a be the first term and d the common difference. From the data: a + 2d = 20 ...(1) and a + 7d = 45 ...(2). Subtract (1) from (2): 5d = 25 ⇒ d = 5. Substitute back into (1): a + 2·5 = 20 ⇒ a = 10. The sum of the first 10 terms is S₁₀ = (10/2)[2a + (10‑1)d] = 5[20 + 9·5] = 5[20 + 45] = 5·65 = 325. Hence option B is correct; the other options result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "Which of the following steps is NOT used in deriving the nth‑term formula of an arithmetic progression?",
+      "options": {
+        "A": "Identify the common difference d.",
+        "B": "Write the nth term as a + (n‑1)d.",
+        "C": "Use the sum formula Sₙ = n/2[2a + (n‑1)d].",
+        "D": "Identify the first term a."
+      },
+      "correct_option": "C",
+      "answer": "Use the sum formula Sₙ = n/2[2a + (n‑1)d].",
+      "explanation": "Deriving aₙ = a + (n‑1)d requires recognizing the first term a, the constant difference d, and expressing the nth term as a plus (n‑1) increments of d. The sum formula Sₙ is a consequence of the nth‑term formula, not a step in its derivation. Therefore option C is not part of the derivation, while A, B, and D are essential.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Use a_n = a + (n − 1)d",
+      "question": "For an AP with first term a = 3 and common difference d = 4, what is the value of the 7th term a₇?",
+      "options": {
+        "A": "27",
+        "B": "31",
+        "C": "23",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "27",
+      "explanation": "Apply the formula aₙ = a + (n‑1)d. Here a = 3, d = 4, n = 7: a₇ = 3 + (7‑1)·4 = 3 + 6·4 = 3 + 24 = 27. The other options arise from mis‑calculating (n‑1) or using the wrong operation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find a specified term",
+      "question": "Which statement correctly defines the \"5th term\" of an arithmetic progression?",
+      "options": {
+        "A": "It is the term whose position is 5, calculated by a + 4d.",
+        "B": "It is the term whose value equals 5.",
+        "C": "It is the sum of the first five terms.",
+        "D": "It is the common difference of the progression."
+      },
+      "correct_option": "A",
+      "answer": "It is the term whose position is 5, calculated by a + 4d.",
+      "explanation": "In an AP, the nth term refers to the term occupying the nth position, not its numeric value. The 5th term is therefore a₅ = a + (5‑1)d = a + 4d. Options B, C, and D describe unrelated concepts (value, sum, and difference).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find the position of a given term",
+      "question": "In an AP where the first term is 2 and the common difference is 3, which term number is the term 23?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "answer": "8",
+      "explanation": "Use aₙ = a + (n‑1)d: 2 + (n‑1)·3 = 23 ⇒ (n‑1)·3 = 21 ⇒ n‑1 = 7 ⇒ n = 8. Hence the 23rd term is the 8th term. Options A, C, and D result from arithmetic mistakes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Solve AP problems involving unknown parameters",
+      "question": "The sum of the first 5 terms of an AP is 70 and the sum of the first 3 terms is 36. What is the value of the 4th term?",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "18",
+        "D": "20"
+      },
+      "correct_option": "B",
+      "answer": "16",
+      "explanation": "Let a be the first term and d the common difference. S₅ = (5/2)[2a + 4d] = 70 ⇒ 5(a + 2d) = 70 ⇒ a + 2d = 14. S₃ = (3/2)[2a + 2d] = 36 ⇒ 3(a + d) = 36 ⇒ a + d = 12. Subtracting: (a + 2d) – (a + d) = d = 2. Then a = 12 – d = 10. The 4th term is a + 3d = 10 + 3·2 = 16. Option B is correct; the other options arise from incorrect substitution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "A student observes that in an arithmetic progression each term is obtained by adding a constant difference d to the preceding term. Which reasoning correctly leads to the general expression for the nth term?",
+      "options": {
+        "A": "Starting from the first term a, after (n‑1) additions of d the nth term equals a + (n‑1)d.",
+        "B": "Apply the sum formula Sₙ = n/2[2a + (n‑1)d] and solve for aₙ.",
+        "C": "Treat the progression as geometric and use a·r^{n‑1}.",
+        "D": "Set up a quadratic equation based on the constant difference."
+      },
+      "correct_option": "A",
+      "answer": "Starting from the first term a, after (n‑1) additions of d the nth term equals a + (n‑1)d.",
+      "explanation": "Because the difference between consecutive terms is constant, moving from the first term to the nth term requires (n‑1) steps, each adding d. Hence aₙ = a + (n‑1)d. Options B, C, and D misuse other formulas or concepts that are not applicable to deriving the nth‑term of an AP.",
+      "difficulty": "medium"
+    }
+  ]
+}
