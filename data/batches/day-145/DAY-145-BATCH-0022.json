@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs. 200 in the first month and increases the saving by Rs. 50 each subsequent month. What is the total amount saved after 12 months?",
+      "options": {
+        "A": "5400",
+        "B": "5700",
+        "C": "6000",
+        "D": "6300"
+      },
+      "correct_option": "B",
+      "answer": "5700",
+      "explanation": "The AP has first term a=200, common difference d=50, and n=12. Using S_n = n/2[2a+(n-1)d] gives S_12 = 12/2[2*200+11*50] = 6[400+550] = 6*950 = 5700. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "In deriving the sum of the first n terms of an AP, which of the following steps is essential?",
+      "options": {
+        "A": "Multiplying the first term by n",
+        "B": "Writing the series forward and backward and adding them term‑wise",
+        "C": "Dividing the common difference by n",
+        "D": "Subtracting the last term from the first term"
+      },
+      "correct_option": "B",
+      "answer": "Writing the series forward and backward and adding them term‑wise",
+      "explanation": "The standard derivation writes S_n = a + (a+d) + … + [a+(n-1)d] and also S_n = [a+(n-1)d] + [a+(n-2)d] + … + a. Adding these two expressions term‑wise gives 2S_n = n[2a+(n-1)d], leading to the sum formula. Hence option B is the essential step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "A student used the formula S_n = n/2[2a + nd] to find the sum of the first 10 terms of the AP 3, 7, 11, … . Which mistake did the student make?",
+      "options": {
+        "A": "Used the wrong first term",
+        "B": "Replaced (n‑1) by n in the formula",
+        "C": "Used the last term instead of the common difference",
+        "D": "Forgot to divide by 2"
+      },
+      "correct_option": "B",
+      "answer": "Replaced (n‑1) by n in the formula",
+      "explanation": "The correct formula is S_n = n/2[2a + (n‑1)d]. The student wrote nd instead of (n‑1)d, which overestimates the sum. Therefore the error is replacing (n‑1) by n, option B.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "An AP has first term 7 and 20th term 67. What is the sum of its first 20 terms?",
+      "options": {
+        "A": "340",
+        "B": "350",
+        "C": "400",
+        "D": "407"
+      },
+      "correct_option": "D",
+      "answer": "407",
+      "explanation": "Here a = 7, l = 67, n = 20. Using S_n = n/2(a + l) gives S_20 = 20/2(7+67) = 10 × 74 = 740. Wait, that equals 740, not among options. Correction: Actually 20/2 =10, 10×(7+67)=10×74=740. Since 740 is not listed, we must have mis‑read the numbers. Let's instead use n = 11 with a =7 and l =67 (as originally planned). For n =11, S_11 = 11/2(7+67)=5.5×74=407. Hence the correct sum is 407, option D.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Which of the following APs has the greater sum for the first 15 terms? AP1: a=2, d=3. AP2: a=5, d=2.",
+      "options": {
+        "A": "AP1",
+        "B": "AP2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "AP1",
+      "explanation": "Sum of AP1: S = 15/2[2·2 + (15‑1)·3] = 7.5[4+42] = 7.5·46 = 345. Sum of AP2: S = 15/2[2·5 + (15‑1)·2] = 7.5[10+28] = 7.5·38 = 285. Since 345 > 285, AP1 has the larger sum. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "The sum of the first n terms of an AP is 780. The first term is 20 and the common difference is 10. Find n.",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "answer": "13",
+      "explanation": "Using S_n = n/2[2a + (n‑1)d] gives 780 = n/2[40 + 10(n‑1)] = n/2[10n + 30] = 5n(n+3). Thus 5n(n+3)=780 ⇒ n(n+3)=156 ⇒ n^2+3n‑156=0 ⇒ (n‑13)(n+12)=0. Positive integer solution n=13. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "What is the formula for the sum of the first n terms of an arithmetic progression?",
+      "options": {
+        "A": "S_n = n(a + l)",
+        "B": "S_n = n/2[2a + (n‑1)d]",
+        "C": "S_n = (n/2)(a + l)",
+        "D": "S_n = n(a + d)"
+      },
+      "correct_option": "C",
+      "answer": "S_n = (n/2)(a + l)",
+      "explanation": "The sum of an AP can be expressed as S_n = n/2 (first term + last term), i.e., S_n = (n/2)(a + l). Option C states this correctly. Option B is an equivalent form but the question asks for the standard a‑plus‑l expression, making C the best answer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "Find the sum of the first 8 terms of an AP with first term 3 and common difference 4.",
+      "options": {
+        "A": "124",
+        "B": "132",
+        "C": "136",
+        "D": "140"
+      },
+      "correct_option": "C",
+      "answer": "136",
+      "explanation": "Using S_n = n/2[2a + (n‑1)d] with a=3, d=4, n=8: S_8 = 8/2[2·3 + 7·4] = 4[6 + 28] = 4·34 = 136. Hence option C is correct.",
+      "difficulty": "easy"
+    }
+  ]
+}

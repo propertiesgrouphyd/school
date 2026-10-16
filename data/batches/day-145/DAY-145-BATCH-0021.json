@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "An arithmetic progression has first term a = 3 and common difference d = 2. What is the sum of its first 10 terms?",
+      "options": {
+        "A": "115",
+        "B": "120",
+        "C": "125",
+        "D": "130"
+      },
+      "correct_option": "B",
+      "answer": "120",
+      "explanation": "Using the correct formula S_n = n/2[2a+(n-1)d]: S_10 = 10/2[2*3+(10-1)*2] = 5[6+18] = 5*24 = 120. Option B is correct. Options A, C, D arise from common mistakes such as using n instead of (n-1) or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "An AP has first term a = 5, last term l = 45 and contains 9 terms. Find the sum of all its terms.",
+      "options": {
+        "A": "200",
+        "B": "225",
+        "C": "250",
+        "D": "275"
+      },
+      "correct_option": "B",
+      "answer": "225",
+      "explanation": "The sum formula using first and last terms is S_n = n/2(a+l). Here n=9, a=5, l=45, so S_9 = 9/2(5+45) = 9/2*50 = 9*25 = 225. Hence option B is correct; the other values result from incorrect arithmetic or using the wrong formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Consider two arithmetic progressions: AP1 with a=2, d=3 and AP2 with a=5, d=2. Which AP has the larger sum for the first 20 terms?",
+      "options": {
+        "A": "AP1 (a=2, d=3) has the larger sum",
+        "B": "AP2 (a=5, d=2) has the larger sum",
+        "C": "Both sums are equal",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "AP1 (a=2, d=3) has the larger sum",
+      "explanation": "Sum of AP1: S_20 = 20/2[2*2+(20-1)*3] =10[4+57]=10*61=610. Sum of AP2: S_20 =10[2*5+19*2]=10[10+38]=10*48=480. Since 610 > 480, AP1 has the larger sum, making option A correct. The other options ignore the computed values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs 100 in the first month and increases the saving by Rs 20 each subsequent month. How much total is saved in 12 months?",
+      "options": {
+        "A": "2520",
+        "B": "2600",
+        "C": "2400",
+        "D": "2700"
+      },
+      "correct_option": "A",
+      "answer": "2520",
+      "explanation": "The monthly savings form an AP with a=100, d=20, n=12. Sum S_12 = 12/2[2*100+(12-1)*20] =6[200+220]=6*420=2520. Option A is correct; the other numbers come from mis‑applying the formula or arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "Which of the following steps is part of the standard derivation of the arithmetic‑progression sum formula?",
+      "options": {
+        "A": "Multiply the first term by the number of terms.",
+        "B": "Write the series forward and backward, then add termwise.",
+        "C": "Divide the common difference by the number of terms.",
+        "D": "Subtract the last term from the first term."
+      },
+      "correct_option": "B",
+      "answer": "Write the series forward and backward, then add termwise.",
+      "explanation": "The classic derivation writes S_n = a + (a+d)+…+(a+(n-1)d) and also S_n = (a+(n-1)d)+…+a, then adds the two equations termwise to obtain 2S_n = n[2a+(n-1)d]. This is option B. The other options are not used in the derivation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "In the formula S_n = n/2[2a + (n−1)d], what do the symbols n, a, and d represent?",
+      "options": {
+        "A": "n = last term, a = number of terms, d = first term",
+        "B": "n = number of terms, a = first term, d = common difference",
+        "C": "n = common difference, a = sum, d = number of terms",
+        "D": "n = first term, a = last term, d = sum"
+      },
+      "correct_option": "B",
+      "answer": "n = number of terms, a = first term, d = common difference",
+      "explanation": "The standard notation for an AP is: n = total number of terms, a = first term, d = common difference. Hence option B correctly defines the symbols. The other options mix up the meanings.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "How does the formula S_n = n/2(a + l) differ from S_n = n/2[2a + (n‑1)d]?",
+      "options": {
+        "A": "The first formula can be used only when the common difference is zero.",
+        "B": "The first formula requires knowing the last term l, while the second uses the common difference d.",
+        "C": "Both formulas give different results for the same AP.",
+        "D": "The second formula is only for geometric progressions."
+      },
+      "correct_option": "B",
+      "answer": "The first formula requires knowing the last term l, while the second uses the common difference d.",
+      "explanation": "S_n = n/2(a + l) uses the first term a and the last term l, which is convenient when l is known. S_n = n/2[2a + (n‑1)d] uses the common difference d instead of l. Both give the same result for any AP, so option B is correct. Options A, C, D are false statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 5 terms of the AP: 7, 11, 15, …",
+      "options": {
+        "A": "65",
+        "B": "70",
+        "C": "75",
+        "D": "80"
+      },
+      "correct_option": "C",
+      "answer": "75",
+      "explanation": "Here a=7, d=4, n=5. Using S_n = n/2[2a+(n‑1)d]: S_5 = 5/2[2*7+4*4] = 2.5[14+16] = 2.5*30 = 75. Option C is correct; the other numbers arise from arithmetic slips.",
+      "difficulty": "easy"
+    }
+  ]
+}

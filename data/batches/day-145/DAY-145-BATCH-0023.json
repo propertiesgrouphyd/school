@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "Which of the following correctly expresses the sum of the first n terms of an arithmetic progression using the first term a and the last term l?",
+      "options": {
+        "A": "S_n = n/2 (a + l)",
+        "B": "S_n = n (a + l)",
+        "C": "S_n = n/2 [2a + (n‑1)d]",
+        "D": "S_n = n/2 (2l + (n‑1)d)"
+      },
+      "correct_option": "A",
+      "answer": "S_n = n/2 (a + l)",
+      "explanation": "The standard formula for the sum of the first n terms of an AP in terms of the first term a and the last term l is S_n = n/2 (a + l). Option A matches this exactly. Option B omits the division by 2, Option C uses the a‑d form, and Option D mixes l with the common difference incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 10 terms of the arithmetic progression whose first term is 3 and common difference is 2.",
+      "options": {
+        "A": "120",
+        "B": "115",
+        "C": "130",
+        "D": "100"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "Here a=3, d=2, n=10. The last term l = a+(n‑1)d = 3+9·2 = 21. Using S_n = n/2(a+l) gives S_10 = 10/2·(3+21)=5·24=120. Hence option A is correct; the other numbers result from common arithmetic mistakes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs 50 in the first month and increases the saving by Rs 20 each subsequent month. What is the total amount saved in the first 6 months?",
+      "options": {
+        "A": "Rs 600",
+        "B": "Rs 550",
+        "C": "Rs 650",
+        "D": "Rs 500"
+      },
+      "correct_option": "A",
+      "answer": "Rs 600",
+      "explanation": "The monthly savings form an AP: a=50, d=20, n=6. The sixth term l = 50+5·20 = 150. Sum S_6 = 6/2·(50+150)=3·200=600. Option A is correct; the other options arise from omitting the factor 1/2 or mis‑calculating the last term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "Which of the following sequences of steps correctly derives the formula S_n = n/2[2a + (n‑1)d] for an arithmetic progression?",
+      "options": {
+        "A": "Write the series forward, write it backward, add termwise to get 2S_n = n[2a + (n‑1)d] and divide by 2.",
+        "B": "Multiply the first term by n and add (n‑1)d.",
+        "C": "Square the sum of the first and last terms.",
+        "D": "Differentiate the general term with respect to n."
+      },
+      "correct_option": "A",
+      "answer": "Write the series forward, write it backward, add termwise to get 2S_n = n[2a + (n‑1)d] and divide by 2.",
+      "explanation": "The classic derivation: S_n = a + (a+d)+…+[a+(n‑1)d]; write it in reverse and add the two expressions termwise, giving 2S_n = n[2a+(n‑1)d]. Dividing by 2 yields S_n = n/2[2a+(n‑1)d]. Only option A follows this correct reasoning; the others are unrelated or incorrect procedures.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "A student writes the sum of the first n terms of an AP as S_n = n[2a + (n − 1)d]. Which statement correctly identifies the error?",
+      "options": {
+        "A": "The factor n should be n/2.",
+        "B": "The term (n − 1)d should be (n + 1)d.",
+        "C": "The first term a is missing.",
+        "D": "The formula should use a + l instead of 2a + (n − 1)d."
+      },
+      "correct_option": "A",
+      "answer": "The factor n should be n/2.",
+      "explanation": "The correct formula is S_n = n/2[2a + (n‑1)d]. The student's expression lacks the division by 2, which is the precise mistake highlighted in option A. The other options point to errors that are not present in the given expression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "If the sum of the first 7 terms of an arithmetic progression is 210 and the first term is 5, what is the seventh (last) term?",
+      "options": {
+        "A": "55",
+        "B": "50",
+        "C": "60",
+        "D": "45"
+      },
+      "correct_option": "A",
+      "answer": "55",
+      "explanation": "Using S_n = n/2(a + l): 210 = 7/2 (5 + l) ⇒ 210·2/7 = 5 + l ⇒ 60 = 5 + l ⇒ l = 55. Hence option A is correct. The other choices result from arithmetic slip‑ups in solving the equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Consider two arithmetic progressions each having 8 terms. AP 1 has first term 2 and common difference 3. AP 2 has first term 5 and common difference 2. Which AP has the greater sum of its 8 terms?",
+      "options": {
+        "A": "AP 1",
+        "B": "AP 2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "AP 1",
+      "explanation": "AP 1: l = 2+7·3 = 23, S = 8/2·(2+23)=4·25=100. AP 2: l = 5+7·2 = 19, S = 4·(5+19)=4·24=96. Therefore AP 1 has the larger sum, making option A correct. Options B, C, D are incorrect because the sums are calculable and not equal.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "The sum of the first 20 terms of an arithmetic progression is 500 and the sum of the first 10 terms is 210. What is the value of the 20th term?",
+      "options": {
+        "A": "32.6",
+        "B": "33",
+        "C": "31.5",
+        "D": "34"
+      },
+      "correct_option": "A",
+      "answer": "32.6",
+      "explanation": "Let a be the first term and d the common difference. From S_20 = 10[2a+19d] = 500 ⇒ 2a+19d = 50. From S_10 = 5[2a+9d] = 210 ⇒ 2a+9d = 42. Subtracting gives 10d = 8 ⇒ d = 0.8. Substituting back: 2a + 9·0.8 = 42 ⇒ 2a = 34.8 ⇒ a = 17.4. The 20th term = a + 19d = 17.4 + 19·0.8 = 32.6. Hence option A is correct; the other options are close but not exact.",
+      "difficulty": "hard"
+    }
+  ]
+}

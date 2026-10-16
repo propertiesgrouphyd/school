@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "Which of the following steps correctly derives the sum formula for an arithmetic progression with first term a, common difference d and n terms?",
+      "options": {
+        "A": "Write the series forward and backward, add termwise to obtain 2S_n = n[2a + (n‑1)d] and then divide by 2 to get S_n = n/2[2a + (n‑1)d].",
+        "B": "Multiply the first term a by the number of terms n and add the common difference d.",
+        "C": "Subtract the last term from the first term and multiply the result by n.",
+        "D": "Add the common difference d to the first term a and raise the sum to the power n."
+      },
+      "correct_option": "A",
+      "answer": "Write the series forward and backward, add termwise to obtain 2S_n = n[2a + (n‑1)d] and then divide by 2 to get S_n = n/2[2a + (n‑1)d].",
+      "explanation": "The standard derivation writes the AP forward and backward, adds the two expressions term‑by‑term, giving 2S_n = n[2a + (n‑1)d]. Dividing both sides by 2 yields the sum formula S_n = n/2[2a + (n‑1)d]. The other options do not follow the correct algebraic steps.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "An arithmetic progression has first term a = 3 and common difference d = 2. What is the sum of its first 5 terms using the formula S_n = n/2[2a + (n‑1)d]?",
+      "options": {
+        "A": "35",
+        "B": "30",
+        "C": "40",
+        "D": "45"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "Plugging the values into the formula: S_5 = 5/2[2·3 + (5‑1)·2] = 5/2[6 + 8] = 5/2·14 = 35. The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "Which of the following expressions correctly gives the sum of the first n terms of an arithmetic progression in terms of the first term a and the last term l?",
+      "options": {
+        "A": "S_n = n/2 (a + l)",
+        "B": "S_n = n (a + l)",
+        "C": "S_n = (a + l)/2",
+        "D": "S_n = n/2 (2a + (n‑1)l)"
+      },
+      "correct_option": "A",
+      "answer": "S_n = n/2 (a + l)",
+      "explanation": "When the first term a and the last term l are known, the sum is the average of a and l multiplied by the number of terms: S_n = n·(a + l)/2. Option B omits the division by 2, C gives only the average, and D mixes the two‑term formula with the wrong variable.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 10 terms of the arithmetic progression 2, 5, 8, …",
+      "options": {
+        "A": "155",
+        "B": "150",
+        "C": "160",
+        "D": "145"
+      },
+      "correct_option": "A",
+      "answer": "155",
+      "explanation": "Here a = 2, d = 3, n = 10. Using S_n = n/2[2a + (n‑1)d] gives S_10 = 10/2[4 + 9·3] = 5[4 + 27] = 5·31 = 155. The other numbers arise from mis‑calculating the bracket or forgetting the factor 1/2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person deposits Rs. 500 as the first term of an arithmetic progression and increases the deposit by Rs. 100 each month. What is the total amount deposited in the first 6 months?",
+      "options": {
+        "A": "Rs. 4,500",
+        "B": "Rs. 4,000",
+        "C": "Rs. 5,000",
+        "D": "Rs. 3,500"
+      },
+      "correct_option": "A",
+      "answer": "Rs. 4,500",
+      "explanation": "Here a = 500, d = 100, n = 6. Sum S_6 = 6/2[2·500 + (6‑1)·100] = 3[1000 + 500] = 3·1500 = 4500. Options B, C, D result from forgetting the factor 1/2 or using wrong values for d or n.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "A teacher asks students to derive the sum formula for an arithmetic progression. Which of the following steps is essential in the derivation?",
+      "options": {
+        "A": "Write the series forward and backward, then add the two expressions term‑by‑term.",
+        "B": "Multiply the first term by the number of terms.",
+        "C": "Subtract the common difference from the last term.",
+        "D": "Divide the first term by the number of terms."
+      },
+      "correct_option": "A",
+      "answer": "Write the series forward and backward, then add the two expressions term‑by‑term.",
+      "explanation": "The classic derivation aligns the original series with its reverse, adds them term‑wise, and obtains 2S_n = n[2a + (n‑1)d]. This step leads directly to the sum formula. The other options are unrelated to the derivation process.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "A student writes the sum of the first n terms of an AP as S_n = n[2a + (n‑1)d]. Which statement correctly identifies the error?",
+      "options": {
+        "A": "The student omitted the division by 2.",
+        "B": "The student used (n‑1)d instead of nd.",
+        "C": "The student used a instead of 2a.",
+        "D": "The student used n instead of (n‑1) in the bracket."
+      },
+      "correct_option": "A",
+      "answer": "The student omitted the division by 2.",
+      "explanation": "The correct formula is S_n = n/2[2a + (n‑1)d]. The student's expression lacks the factor 1/2, leading to a sum that is twice the true value. The other options point to different mistakes that are not present in the given expression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "If the sum of the first n terms of an AP is 200, the first term is 5 and the last term is 35, what is the value of n?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "Using S_n = n/2(a + l): 200 = n/2(5 + 35) = n/2·40 = 20n. Hence n = 200/20 = 10. Options A, C, D give incorrect values because they do not satisfy the equation.",
+      "difficulty": "medium"
+    }
+  ]
+}

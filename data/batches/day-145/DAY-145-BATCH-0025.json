@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Consider two arithmetic progressions: AP1 has first term 2, common difference 3 and 10 terms; AP2 has first term 5, common difference 2 and 12 terms. Which AP has the larger sum?",
+      "options": {
+        "A": "AP1",
+        "B": "AP2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined from the data"
+      },
+      "correct_option": "B",
+      "answer": "AP2",
+      "explanation": "Sum of AP1 = n/2[2a+(n-1)d] = 10/2[4+9*3] = 5*31 = 155. Sum of AP2 = 12/2[10+11*2] = 6*32 = 192. Since 192 > 155, AP2 has the larger sum. Options A, C and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs. 100 in the first month and increases the saving by Rs. 20 each subsequent month. What is the total amount saved in the first 6 months?",
+      "options": {
+        "A": "Rs. 800",
+        "B": "Rs. 900",
+        "C": "Rs. 1,000",
+        "D": "Rs. 1,100"
+      },
+      "correct_option": "B",
+      "answer": "Rs. 900",
+      "explanation": "Here a = 100, d = 20, n = 6. Using S_n = n/2[2a+(n-1)d] gives S_6 = 6/2[200+5*20] = 3[200+100] = 3*300 = 900. Hence option B is correct; the other amounts result from incorrect arithmetic.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "In deriving the sum formula S_n = n/2[2a+(n-1)d] for an arithmetic progression, which of the following is the correct first step?",
+      "options": {
+        "A": "Write the nth term as a+(n-1)d",
+        "B": "Multiply the first term by n",
+        "C": "Write the series forward and backward and add them termwise",
+        "D": "Divide the series by n"
+      },
+      "correct_option": "C",
+      "answer": "Write the series forward and backward and add them termwise",
+      "explanation": "The classic derivation writes the AP as a, a+d, …, a+(n-1)d and then writes it in reverse order. Adding the two rows termwise gives each column the same sum, leading to 2S_n = n[2a+(n-1)d]. Options A, B and D are not the initiating step of this derivation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "Find the sum of the first 15 terms of an AP whose first term a = 4 and common difference d = 5 using the formula S_n = n/2[2a+(n-1)d].",
+      "options": {
+        "A": "540",
+        "B": "585",
+        "C": "630",
+        "D": "675"
+      },
+      "correct_option": "B",
+      "answer": "585",
+      "explanation": "Plugging into the formula: S_15 = 15/2[2*4 + (15-1)*5] = 7.5[8 + 70] = 7.5*78 = 585. Therefore option B is correct; the other numbers arise from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "Which expression correctly gives the sum of the first n terms of an arithmetic progression when the first term a and the last term l are known?",
+      "options": {
+        "A": "S_n = n/2(a + l)",
+        "B": "S_n = n(a + l)",
+        "C": "S_n = (a + l)/2",
+        "D": "S_n = n^2(a + l)"
+      },
+      "correct_option": "A",
+      "answer": "S_n = n/2(a + l)",
+      "explanation": "When the first and last terms are known, the sum is the average of the two terms multiplied by the number of terms: S_n = n·(a+l)/2. Option A matches this; the other options misplace the factor of n or the division by 2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 8 terms of the arithmetic progression 3, 7, 11, …",
+      "options": {
+        "A": "124",
+        "B": "132",
+        "C": "136",
+        "D": "140"
+      },
+      "correct_option": "C",
+      "answer": "136",
+      "explanation": "Here a = 3, d = 4, n = 8. Using S_n = n/2[2a+(n-1)d] gives S_8 = 8/2[6+7*4] = 4[6+28] = 4*34 = 136. Hence option C is correct; the other choices result from miscalculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "The gaps between successive rungs of a ladder form an AP: the first gap is 10 cm and each subsequent gap is 2 cm larger than the previous one. What is the total height of the ladder up to the 12th rung?",
+      "options": {
+        "A": "240 cm",
+        "B": "252 cm",
+        "C": "264 cm",
+        "D": "276 cm"
+      },
+      "correct_option": "B",
+      "answer": "252 cm",
+      "explanation": "We need the sum of the first 12 gaps: a = 10 cm, d = 2 cm, n = 12. S_12 = 12/2[2*10 + (12-1)*2] = 6[20 + 22] = 6*42 = 252 cm. Option B is correct; the other values come from arithmetic slips.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "A student writes the first n terms of an arithmetic progression in forward order and directly beneath it writes the same terms in reverse order, then adds the two rows term‑wise. Which expression represents the sum obtained in each column?",
+      "options": {
+        "A": "2a + (n‑1)d",
+        "B": "a + l",
+        "C": "2a + (n+1)d",
+        "D": "a + (n‑1)d"
+      },
+      "correct_option": "A",
+      "answer": "2a + (n‑1)d",
+      "explanation": "The k‑th term from the start is a+(k‑1)d and the k‑th term from the end is a+(n‑k)d. Adding them gives a+(k‑1)d + a+(n‑k)d = 2a + (n‑1)d, which is constant for all columns. Hence option A is correct; option B is the average form, while C and D are incorrect algebraic results.",
+      "difficulty": "medium"
+    }
+  ]
+}
