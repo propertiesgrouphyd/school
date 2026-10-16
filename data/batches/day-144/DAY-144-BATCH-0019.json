@@ -1,0 +1,150 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify absence of real roots",
+      "question": "For the quadratic equation 2x^2 + 3x + 5 = 0, which statement about its roots is correct?",
+      "options": {
+        "A": "The equation has two distinct real roots.",
+        "B": "The equation has one repeated real root.",
+        "C": "The equation has no real roots.",
+        "D": "The equation has infinitely many real roots."
+      },
+      "correct_option": "C",
+      "answer": "The equation has no real roots.",
+      "explanation": "The discriminant D = b^2 - 4ac = 3^2 - 4·2·5 = 9 - 40 = -31, which is negative. A negative discriminant means the quadratic has no real roots; its roots are complex conjugates.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Apply discriminant conditions to parameter problems",
+      "question": "For what values of the parameter k does the equation x^2 - (k-2)x + (k+1) = 0 have real roots?",
+      "options": {
+        "A": "k < 0",
+        "B": "k ≤ 0 or k ≥ 8",
+        "C": "0 < k < 8",
+        "D": "All real values of k"
+      },
+      "correct_option": "B",
+      "answer": "k ≤ 0 or k ≥ 8",
+      "explanation": "The discriminant D = (k-2)^2 - 4·1·(k+1) = k^2 - 8k = k(k-8). Real roots require D ≥ 0, so k(k-8) ≥ 0, which holds when k ≤ 0 or k ≥ 8.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Define discriminant",
+      "question": "In the quadratic equation ax^2 + bx + c = 0, the expression b² − 4ac is called the:",
+      "options": {
+        "A": "Discriminant",
+        "B": "Determinant",
+        "C": "Coefficient",
+        "D": "Vertex"
+      },
+      "correct_option": "A",
+      "answer": "Discriminant",
+      "explanation": "The term b² − 4ac is defined as the discriminant of a quadratic equation. It determines the nature of the roots (real and distinct, real and equal, or non‑real). The other terms are unrelated to this expression.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Calculate the discriminant",
+      "question": "What is the discriminant of the quadratic equation 3x^2 - 12x + 7 = 0?",
+      "options": {
+        "A": "60",
+        "B": "48",
+        "C": "36",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "Here a = 3, b = -12, c = 7. D = b² - 4ac = (-12)² - 4·3·7 = 144 - 84 = 60. Hence the discriminant equals 60.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify two distinct real roots",
+      "question": "The equation x^2 - 5x + 6 = 0 has:",
+      "options": {
+        "A": "No real roots",
+        "B": "One repeated real root",
+        "C": "Two distinct real roots",
+        "D": "Complex conjugate roots"
+      },
+      "correct_option": "C",
+      "answer": "Two distinct real roots",
+      "explanation": "Discriminant D = (-5)² - 4·1·6 = 25 - 24 = 1 > 0, indicating two distinct real roots. Indeed, the equation factors as (x-2)(x-3)=0 giving roots 2 and 3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify equal real roots",
+      "question": "The quadratic equation x^2 - 4x + k = 0 has equal real roots. What is the value of k?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "Equal real roots occur when the discriminant is zero: D = (-4)² - 4·1·k = 16 - 4k = 0 ⇒ k = 4. Hence the equation becomes (x-2)² = 0, giving a repeated root at x = 2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify absence of real roots",
+      "question": "A student says: \"If the discriminant of a quadratic is negative, the equation still has two real roots.\" Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "The student is correct; the roots are real but negative.",
+        "B": "The equation has no real roots; the roots are complex conjugates.",
+        "C": "The equation has exactly one real root.",
+        "D": "A negative discriminant indicates the equation has infinitely many real solutions."
+      },
+      "correct_option": "B",
+      "answer": "The equation has no real roots; the roots are complex conjugates.",
+      "explanation": "A negative discriminant (b²‑4ac < 0) means the quadratic does not intersect the x‑axis, so it has no real solutions. The roots exist in the complex plane as a pair of conjugates. All other options misinterpret the meaning of a negative discriminant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Apply discriminant conditions to parameter problems",
+      "question": "Find all integer values of p for which the quadratic 2x^2 + (p‑3)x + (p+2) = 0 has no real roots.",
+      "options": {
+        "A": "p = -1",
+        "B": "p = 0, 1, 2, …, 14",
+        "C": "p = 15",
+        "D": "All integer values of p"
+      },
+      "correct_option": "B",
+      "answer": "p = 0, 1, 2, …, 14",
+      "explanation": "The discriminant D = (p‑3)² - 8(p+2) = p² - 14p - 7. For no real roots, D < 0. Solving p² - 14p - 7 < 0 gives -0.48 < p < 14.48. The integer values in this interval are 0 through 14 inclusive. Option B lists exactly these integers.",
+      "difficulty": "medium"
+    }
+  ]
+}
