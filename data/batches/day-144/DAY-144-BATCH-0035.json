@@ -1,0 +1,150 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Translate a word problem into a quadratic equation",
+      "question": "A rectangular garden has a length that is 5 m more than its width. If the area of the garden is 84 m², which quadratic equation correctly represents the width x (in metres)?",
+      "options": {
+        "A": "x^2 + 5x - 84 = 0",
+        "B": "x^2 - 5x - 84 = 0",
+        "C": "x^2 + 5x + 84 = 0",
+        "D": "x^2 - 5x + 84 = 0"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + 5x - 84 = 0",
+      "explanation": "The area is width × length = x(x+5)=84. Expanding gives x^2+5x-84=0, which is option A. The other options arise from incorrect sign placements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Solve the equation",
+      "question": "Solve the quadratic equation x^2 + 5x - 84 = 0. Which value of x can represent the width of the garden?",
+      "options": {
+        "A": "7",
+        "B": "-12",
+        "C": "12",
+        "D": "-7"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "Factoring gives (x+12)(x-7)=0, so x=7 or x=-12. A physical width cannot be negative, so the acceptable solution is x=7 m (option A).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Reject mathematically possible but contextually invalid roots",
+      "question": "In the garden problem, which root must be discarded because a length cannot be negative?",
+      "options": {
+        "A": "7",
+        "B": "-12",
+        "C": "0",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "-12",
+      "explanation": "The quadratic yields roots 7 and -12. While both satisfy the equation, a negative length is not meaningful in the real‑world context, so -12 must be rejected (option B).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Interpret the final answer",
+      "question": "If the width of the garden is 7 m, what is its length?",
+      "options": {
+        "A": "12 m",
+        "B": "2 m",
+        "C": "7 m",
+        "D": "5 m"
+      },
+      "correct_option": "A",
+      "answer": "12 m",
+      "explanation": "Length = width + 5 m, so 7 m + 5 m = 12 m. Option A gives the correct interpreted length.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Translate a word problem into a quadratic equation",
+      "question": "Two separate problems are given:\n1) A garden where length = width + 5 m and area = 84 m².\n2) A rectangular plot where length = width + 6 m and area = 42 m².\nWhich pair of equations correctly models problem 1 and problem 2 respectively?",
+      "options": {
+        "A": "(1) x^2 + 5x - 84 = 0 ; (2) x^2 + 6x - 42 = 0",
+        "B": "(1) x^2 - 5x - 84 = 0 ; (2) x^2 + 6x - 42 = 0",
+        "C": "(1) x^2 + 5x + 84 = 0 ; (2) x^2 - 6x - 42 = 0",
+        "D": "(1) x^2 - 5x + 84 = 0 ; (2) x^2 - 6x + 42 = 0"
+      },
+      "correct_option": "A",
+      "answer": "(1) x^2 + 5x - 84 = 0 ; (2) x^2 + 6x - 42 = 0",
+      "explanation": "For problem 1, width x gives x(x+5)=84 → x^2+5x-84=0. For problem 2, x(x+6)=42 → x^2+6x-42=0. Both are listed in option A; the other options have incorrect signs.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Solve the equation",
+      "question": "A projectile’s height after t seconds is h = -5t^2 + 40t + 20 metres. At what time does it hit the ground?",
+      "options": {
+        "A": "4 s",
+        "B": "8.47 s",
+        "C": "-0.47 s",
+        "D": "12 s"
+      },
+      "correct_option": "B",
+      "answer": "8.47 s",
+      "explanation": "Set h=0: -5t^2+40t+20=0 → t^2-8t-4=0. Solving gives t = 4 ± 2√5. The positive root is 4+2√5 ≈ 8.47 s, which is option B. The other values are either negative or do not satisfy the equation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Reject mathematically possible but contextually invalid roots",
+      "question": "When solving x^2 - 9 = 0 for a physical length, which root must be rejected?",
+      "options": {
+        "A": "3",
+        "B": "-3",
+        "C": "0",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "-3",
+      "explanation": "The equation gives x = ±3. A length cannot be negative, so the root -3 is invalid in the real‑world context. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Interpret the final answer",
+      "question": "If the solution to a quadratic model yields x = 15, what does this value represent in a problem where x denotes the number of books to be purchased?",
+      "options": {
+        "A": "The total cost of the books",
+        "B": "The number of books",
+        "C": "The discount percentage",
+        "D": "The weight of the books"
+      },
+      "correct_option": "B",
+      "answer": "The number of books",
+      "explanation": "The variable x was defined as the number of books. Therefore the solution x = 15 directly tells us that 15 books are to be purchased. The other options describe unrelated quantities.",
+      "difficulty": "easy"
+    }
+  ]
+}

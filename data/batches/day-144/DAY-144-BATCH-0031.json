@@ -1,0 +1,150 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Translate a word problem into a quadratic equation",
+      "question": "A rectangular field has a length that is 3 m more than its width. Its area is 70 square metres. Which of the following equations correctly represents this situation?",
+      "options": {
+        "A": "x^2 + 3x - 70 = 0",
+        "B": "x^2 - 3x - 70 = 0",
+        "C": "x^2 + 3x + 70 = 0",
+        "D": "x^2 - 3x + 70 = 0"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + 3x - 70 = 0",
+      "explanation": "Let the width be x metres. Then length = x+3 metres. Area = width × length gives x(x+3)=70, which simplifies to x^2+3x-70=0. Options B, C and D either change the sign of the linear term or the constant, so they do not represent the problem correctly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Solve the equation",
+      "question": "Solve the quadratic equation x^2 + 3x - 70 = 0 for x.",
+      "options": {
+        "A": "x = 7 or x = -10",
+        "B": "x = 10 or x = -7",
+        "C": "x = 5 or x = -14",
+        "D": "x = 14 or x = -5"
+      },
+      "correct_option": "A",
+      "answer": "x = 7 or x = -10",
+      "explanation": "Factoring gives (x+10)(x-7)=0, so the solutions are x = -10 and x = 7. Option A lists these roots correctly; the other options give incorrect factorisations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Reject mathematically possible but contextually invalid roots",
+      "question": "For the field problem, the equation x^2 + 3x - 70 = 0 yields two roots. Which statement is true regarding these roots?",
+      "options": {
+        "A": "Both roots can be used as dimensions of the field.",
+        "B": "The negative root must be rejected because a length cannot be negative.",
+        "C": "The positive root must be rejected because it makes the area too large.",
+        "D": "Both roots must be rejected because quadratic equations are not suitable for this problem."
+      },
+      "correct_option": "B",
+      "answer": "The negative root must be rejected because a length cannot be negative.",
+      "explanation": "The roots are x = 7 and x = -10. While both satisfy the equation mathematically, a negative length has no physical meaning, so the root -10 is discarded. Option B states this correctly; the other options are inaccurate.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Interpret the final answer",
+      "question": "After solving the equation for the field, what are the actual dimensions (width × length) of the rectangular field?",
+      "options": {
+        "A": "Width = 7 m, Length = 10 m",
+        "B": "Width = 10 m, Length = 13 m",
+        "C": "Width = 5 m, Length = 8 m",
+        "D": "Width = 14 m, Length = 17 m"
+      },
+      "correct_option": "A",
+      "answer": "Width = 7 m, Length = 10 m",
+      "explanation": "The acceptable root is x = 7 (width). Length = width + 3 = 10 m. Hence the field measures 7 m by 10 m. Options B‑D use incorrect roots or add the 3 m incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Translate a word problem into a quadratic equation",
+      "question": "A student writes the equation x^2 + 3 = 70 for the same field problem. Which error does this represent?",
+      "options": {
+        "A": "Forgot to multiply the width and length terms",
+        "B": "Omitted the linear term 3x that arises from (x)(x+3)",
+        "C": "Used addition instead of multiplication for area",
+        "D": "All of the above"
+      },
+      "correct_option": "B",
+      "answer": "Omitted the linear term 3x that arises from (x)(x+3)",
+      "explanation": "The correct translation is x(x+3)=70 → x^2+3x-70=0. The student's equation lacks the 3x term, so the specific error is omission of the linear term. Option B captures this; the other statements are either too broad or inaccurate.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Solve the equation",
+      "question": "Which factorisation correctly solves the equation x^2 + 3x - 70 = 0?",
+      "options": {
+        "A": "(x + 10)(x - 7)",
+        "B": "(x - 10)(x + 7)",
+        "C": "(x + 14)(x - 5)",
+        "D": "(x - 14)(x + 5)"
+      },
+      "correct_option": "A",
+      "answer": "(x + 10)(x - 7)",
+      "explanation": "Expanding (x + 10)(x - 7) gives x^2 + 3x - 70, matching the original equation. The other factorisations produce different constant terms or signs, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Reject mathematically possible but contextually invalid roots",
+      "question": "Problem A: The dimensions of a rectangular garden satisfy x^2 - 4x - 12 = 0. Problem B: The dimensions of a rectangular garden satisfy x^2 - 5x + 6 = 0. Which statement correctly compares the validity of the roots in the two problems?",
+      "options": {
+        "A": "In Problem A one root is negative and must be rejected; in Problem B both roots are positive and valid.",
+        "B": "In Problem A both roots are positive; in Problem B one root is negative and must be rejected.",
+        "C": "Both problems have a negative root that must be rejected.",
+        "D": "Neither problem has any root that needs to be rejected."
+      },
+      "correct_option": "A",
+      "answer": "In Problem A one root is negative and must be rejected; in Problem B both roots are positive and valid.",
+      "explanation": "Problem A factors to (x-6)(x+2)=0 giving roots 6 and -2; the negative root is not physically meaningful. Problem B factors to (x-2)(x-3)=0 giving roots 2 and 3, both positive and acceptable. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Interpret the final answer",
+      "question": "A rectangular field satisfies x^2 + 3x - 70 = 0, where x represents its width in metres. Which of the following statements is correct regarding the field's dimensions?",
+      "options": {
+        "A": "The field can have dimensions 7 m (width) by 10 m (length).",
+        "B": "The field can have dimensions -7 m by -4 m, which are physically meaningful.",
+        "C": "Both dimensions can be interchanged, giving two distinct fields.",
+        "D": "No real dimensions satisfy the given condition."
+      },
+      "correct_option": "A",
+      "answer": "The field can have dimensions 7 m (width) by 10 m (length).",
+      "explanation": "The acceptable root is x = 7 m; length = x + 3 = 10 m. Negative dimensions are not physical, and interchanging width and length would violate the given relation (length is 3 m more than width). Therefore, option A correctly interprets the solution.",
+      "difficulty": "hard"
+    }
+  ]
+}
