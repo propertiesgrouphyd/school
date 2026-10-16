@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0064",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following expressions correctly gives the area of a triangle whose vertices are \\((x_1,y_1)\\), \\((x_2,y_2)\\) and \\((x_3,y_3)\\)?",
+      "options": {
+        "A": "\\(\\frac{1}{2}\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+        "B": "\\(\\frac{1}{2}\\big[x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big]\\)",
+        "C": "\\(\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+        "D": "\\(\\frac{1}{2}\\big|x_1(y_2+y_3)+x_2(y_3+y_1)+x_3(y_1+y_2)\\big|\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{1}{2}\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+      "explanation": "The coordinate‑area formula for a triangle is \\(\\text{Area}=\\frac{1}{2}\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\). Option A matches this exactly. Option B omits the absolute value, which can give a negative result. Option C lacks the factor \\(\\frac{1}{2}\\). Option D uses addition instead of subtraction inside the parentheses, which is incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle whose vertices are \\((2,3)\\), \\((5,7)\\) and \\((8,3)\\).",
+      "options": {
+        "A": "12 square units",
+        "B": "9 square units",
+        "C": "15 square units",
+        "D": "6 square units"
+      },
+      "correct_option": "A",
+      "answer": "12 square units",
+      "explanation": "Using the coordinate‑area formula: \\(\\text{Area}=\\frac{1}{2}|2(7-3)+5(3-3)+8(3-7)| = \\frac{1}{2}|8+0-32| = \\frac{1}{2}\\times24 = 12\\). Hence the area is 12 square units. The other options result from arithmetic mistakes such as forgetting the absolute value or the factor \\(\\frac{1}{2}\\).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Three points \\(P, Q, R\\) are collinear if and only if:",
+      "options": {
+        "A": "The area of \\(\\triangle PQR\\) is zero.",
+        "B": "The slopes of \\(PQ\\) and \\(QR\\) are different.",
+        "C": "The sum of the x‑coordinates equals the sum of the y‑coordinates.",
+        "D": "The product of the coordinates of each point is the same."
+      },
+      "correct_option": "A",
+      "answer": "The area of \\(\\triangle PQR\\) is zero.",
+      "explanation": "When three points lie on a straight line, the triangle they would form collapses, giving an area of zero. This is a direct consequence of the coordinate‑area formula. Options B, C, and D are unrelated criteria and do not guarantee collinearity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Which of the following is NOT a typical application of the coordinate‑area formula for a triangle?",
+      "options": {
+        "A": "Finding the area of a triangle given its vertices.",
+        "B": "Testing whether three points are collinear.",
+        "C": "Determining the length of a side of a triangle.",
+        "D": "Calculating the area of a polygon by dividing it into triangles."
+      },
+      "correct_option": "C",
+      "answer": "Determining the length of a side of a triangle.",
+      "explanation": "The coordinate‑area formula gives area, not side lengths. Side lengths are obtained using the distance formula. Options A, B, and D all involve area calculations where the formula is useful, making C the correct choice as the non‑application.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Select the statement that correctly defines the coordinate‑area formula for a triangle.",
+      "options": {
+        "A": "Area = \\(\\frac{1}{2}\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\).",
+        "B": "Area = \\(\\frac{1}{2}\\big[x_1(y_2+y_3)+x_2(y_3+y_1)+x_3(y_1+y_2)\\big|\\).",
+        "C": "Area = \\(x_1y_2 + x_2y_3 + x_3y_1\\).",
+        "D": "Area = \\(\\frac{1}{2}(\\text{base})(\\text{height})\\) only when the triangle is right‑angled."
+      },
+      "correct_option": "A",
+      "answer": "Area = \\(\\frac{1}{2}\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\).",
+      "explanation": "Option A precisely states the coordinate‑area formula, including the absolute value and the factor \\(\\frac{1}{2}\\). Option B uses addition instead of subtraction, Option C omits the factor \\(\\frac{1}{2}\\) and absolute value, and Option D describes a special case that does not capture the general formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "What is the area of the triangle with vertices \\((0,0)\\), \\((4,0)\\) and \\((0,3)\\)?",
+      "options": {
+        "A": "6 square units",
+        "B": "12 square units",
+        "C": "7 square units",
+        "D": "5 square units"
+      },
+      "correct_option": "A",
+      "answer": "6 square units",
+      "explanation": "Using the formula: \\(\\text{Area}=\\frac{1}{2}|0(0-3)+4(3-0)+0(0-0)| = \\frac{1}{2}|0+12+0| = \\frac{1}{2}\\times12 = 6\\). Hence the area is 6 square units. The other options arise from forgetting the half factor or mis‑computing the determinant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Are the points \\((1,2)\\), \\((3,6)\\) and \\((5,10)\\) collinear?",
+      "options": {
+        "A": "Yes, they are collinear.",
+        "B": "No, they are not collinear.",
+        "C": "Cannot be determined without additional information.",
+        "D": "Only if they lie on the x‑axis."
+      },
+      "correct_option": "A",
+      "answer": "Yes, they are collinear.",
+      "explanation": "Compute the area: \\(\\frac{1}{2}|1(6-10)+3(10-2)+5(2-6)| = \\frac{1}{2}|-4+24-20| = \\frac{1}{2}\\times0 = 0\\). Zero area means the three points lie on a straight line, i.e., they are collinear. Options B‑D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Lines \\(x=0\\), \\(y=0\\) and \\(x+y=2\\) intersect to form a triangle. What is the area of this triangle?",
+      "options": {
+        "A": "2 square units",
+        "B": "1 square unit",
+        "C": "4 square units",
+        "D": "3 square units"
+      },
+      "correct_option": "A",
+      "answer": "2 square units",
+      "explanation": "The intersection points are: \\((0,0)\\) (x=0 & y=0), \\((0,2)\\) (x=0 & x+y=2), and \\((2,0)\\) (y=0 & x+y=2). Using the coordinate‑area formula: \\(\\text{Area}=\\frac{1}{2}|0(2-0)+0(0-0)+2(0-2)| = \\frac{1}{2}|0+0-4| = \\frac{1}{2}\\times4 = 2\\). Hence the area is 2 square units. The other options result from mis‑identifying the vertices or arithmetic errors.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0062",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following expressions correctly gives the area of a triangle whose vertices are \\((x_1,y_1), (x_2,y_2), (x_3,y_3)\\) in the coordinate plane?",
+      "options": {
+        "A": "\\(\\frac12\\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\right|\\)",
+        "B": "\\(\\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\right|\\)",
+        "C": "\\(\\frac12\\left[x_1y_2+x_2y_3+x_3y_1-x_2y_1-x_3y_2-x_1y_3\\right]\\)",
+        "D": "\\(\\frac12\\left[x_1y_2+x_2y_3+x_3y_1+x_2y_1+x_3y_2+x_1y_3\\right]\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac12\\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\right|\\)",
+      "explanation": "The standard coordinate‑area formula for a triangle is \\(\\text{Area}=\\frac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|\\). Option A matches this exactly. Option B omits the factor \\(\\frac12\\). Option C is algebraically equivalent to the correct formula but lacks the absolute value, which is needed to ensure a non‑negative area. Option D adds terms instead of subtracting, giving an incorrect expression.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle whose vertices are \\((0,0), (4,0)\\) and \\((0,3)\\).",
+      "options": {
+        "A": "6 square units",
+        "B": "12 square units",
+        "C": "5 square units",
+        "D": "7 square units"
+      },
+      "correct_option": "A",
+      "answer": "6 square units",
+      "explanation": "Using the coordinate‑area formula: \\(\\text{Area}=\\frac12|0(0-3)+4(3-0)+0(0-0)|=\\frac12|12|=6\\). This also matches the simple base‑height method: base = 4, height = 3, area = \\(\\frac12\\times4\\times3=6\\). The other options are incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "The points \\((1,2), (3,6), (5,10)\\) are given. Which statement is true regarding their collinearity?",
+      "options": {
+        "A": "They are collinear because the area computed by the coordinate formula is zero.",
+        "B": "They are not collinear because the slopes between successive points are different.",
+        "C": "They form a right‑angled triangle.",
+        "D": "They form an equilateral triangle."
+      },
+      "correct_option": "A",
+      "answer": "They are collinear because the area computed by the coordinate formula is zero.",
+      "explanation": "Applying the formula: \\(\\frac12|1(6-10)+3(10-2)+5(2-6)|=\\frac12|1(-4)+3(8)+5(-4)|=\\frac12| -4+24-20|=\\frac12|0|=0. Zero area indicates collinearity. Options B, C, D are false; the slopes are equal (4/2=2) confirming collinearity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "A line passes through the points \\((2,0)\\) and \\((0,5)\\). Find the area of the triangle formed by this line and the coordinate axes.",
+      "options": {
+        "A": "5 square units",
+        "B": "10 square units",
+        "C": "2.5 square units",
+        "D": "7.5 square units"
+      },
+      "correct_option": "A",
+      "answer": "5 square units",
+      "explanation": "The line meets the x‑axis at \\((2,0)\\) and the y‑axis at \\((0,5)\\). These three points form a right triangle with base 2 and height 5, so area = \\(\\frac12\\times2\\times5=5\\). The other options result from incorrect multiplication or forgetting the \\(\\frac12\\) factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following statements about the coordinate‑area formula for a triangle is **incorrect**?",
+      "options": {
+        "A": "The formula includes a factor of \\(\\frac12\\).",
+        "B": "The absolute value sign can be omitted because the expression is always positive.",
+        "C": "The formula works for any order of the three vertices.",
+        "D": "The formula gives zero area for collinear points."
+      },
+      "correct_option": "B",
+      "answer": "The absolute value sign can be omitted because the expression is always positive.",
+      "explanation": "The expression inside the absolute value can be positive or negative depending on the order of vertices; the absolute value ensures a non‑negative area. Hence statement B is false. Statements A, C, and D are correct properties of the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Given the vertices \\((1,1), (4,5), (7,2)\\), which of the following calculations correctly yields the area of the triangle?",
+      "options": {
+        "A": "\\(\\frac12|1(5-2)+4(2-1)+7(1-5)|\\)",
+        "B": "\\(\\frac12|1(2-5)+4(1-2)+7(5-1)|\\)",
+        "C": "\\(\\frac12|1(5+2)+4(2+1)+7(1+5)|\\)",
+        "D": "\\(\\frac12|1(5-2)-4(2-1)+7(1-5)|\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac12|1(5-2)+4(2-1)+7(1-5)|\\)",
+      "explanation": "The correct substitution into the formula \\(\\frac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|\\) gives option A. Option B swaps the order of subtraction, changing signs. Option C adds instead of subtracting, and option D mixes addition and subtraction incorrectly. Evaluating A gives \\(\\frac12|1\\cdot3+4\\cdot1+7\\cdot(-4)|=\\frac12|3+4-28|=\\frac12| -21|=10.5\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which set of points yields zero area (i.e., the points are collinear)?\\nSet A: \\((0,0), (2,2), (4,4)\\)\\nSet B: \\((0,0), (2,3), (4,5)\\)",
+      "options": {
+        "A": "Both Set A and Set B",
+        "B": "Only Set A",
+        "C": "Only Set B",
+        "D": "Neither set"
+      },
+      "correct_option": "B",
+      "answer": "Only Set A",
+      "explanation": "For Set A, the points lie on the line \\(y=x\\); applying the area formula gives zero. For Set B, the slopes \\(3/2\\) and \\(5/4\\) are different, so the area is non‑zero. Hence only Set A is collinear.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Find the area of the triangle formed by the lines \\(2x+y=6\\), \\(x-y=1\\) and the x‑axis.",
+      "options": {
+        "A": "\\(\\frac{4}{3}\\) square units",
+        "B": "\\(2\\) square units",
+        "C": "\\(\\frac{5}{2}\\) square units",
+        "D": "\\(3\\) square units"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{4}{3}\\) square units",
+      "explanation": "Intersection of the two lines: solving \\(2x+y=6\\) and \\(x-y=1\\) gives \\(x=7/3, y=4/3\\). Intersections with the x‑axis are \\((3,0)\\) from \\(2x+y=6\\) and \\((1,0)\\) from \\(x-y=1\\). The triangle vertices are \\((1,0), (3,0), (7/3,4/3)\\). Base = 2, height = 4/3, so area = \\(\\frac12\\times2\\times\\frac{4}{3}=\\frac{4}{3}\\). The other options result from arithmetic errors.",
+      "difficulty": "hard"
+    }
+  ]
+}

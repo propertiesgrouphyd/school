@@ -1,0 +1,78 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following expressions correctly gives the area of a triangle whose vertices are (x1, y1), (x2, y2) and (x3, y3)?",
+      "options": {
+        "A": "½ | x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2) |",
+        "B": "½ [ x1(y2 + y3) + x2(y3 + y1) + x3(y1 + y2) ]",
+        "C": " | x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2) |",
+        "D": "½ [ (x1 + x2 + x3)(y1 + y2 + y3) ]"
+      },
+      "correct_option": "A",
+      "answer": "½ | x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2) |",
+      "explanation": "The coordinate‑area formula for a triangle with vertices (x1, y1), (x2, y2), (x3, y3) is Area = ½ | x1(y2‑y3) + x2(y3‑y1) + x3(y1‑y2) |. Option A matches this exactly. Option B uses addition instead of subtraction, Option C omits the factor ½, and Option D is unrelated to the determinant method.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle whose vertices are (2, 3), (5, 7) and (8, 3).",
+      "options": {
+        "A": "12 square units",
+        "B": "9 square units",
+        "C": "15 square units",
+        "D": "6 square units"
+      },
+      "correct_option": "A",
+      "answer": "12 square units",
+      "explanation": "Using the formula Area = ½ | x1(y2‑y3) + x2(y3‑y1) + x3(y1‑y2) |:\nx1=2, y1=3; x2=5, y2=7; x3=8, y3=3.\nCompute: 2(7‑3)=8, 5(3‑3)=0, 8(3‑7)=‑32. Sum = 8+0‑32 = ‑24. Absolute value = 24. Area = ½ × 24 = 12. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Three points P(1, 2), Q(3, 6) and R(5, 10) are given. Which statement correctly uses the coordinate‑area method to decide whether they are collinear?",
+      "options": {
+        "A": "Compute the area with the determinant formula; if the area equals zero, the points are collinear.",
+        "B": "Compute the area; if the area is positive, the points are collinear.",
+        "C": "Compute the area; if the area equals one, the points are collinear.",
+        "D": "Compute the area; if the area is negative, the points are collinear."
+      },
+      "correct_option": "A",
+      "answer": "Compute the area with the determinant formula; if the area equals zero, the points are collinear.",
+      "explanation": "For any three points, the area given by the determinant formula is zero exactly when the points lie on a straight line. Substituting the coordinates gives an area of 0, confirming collinearity. Options B, C, and D misuse the sign or magnitude of the area.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Lines L1: 2x + y = 6 and L2: x − y = 1 intersect the x‑axis at points A and B respectively, and intersect each other at point C. What is the area of triangle ABC?",
+      "options": {
+        "A": "4⁄3 square units",
+        "B": "2 square units",
+        "C": "5⁄3 square units",
+        "D": "1 square unit"
+      },
+      "correct_option": "A",
+      "answer": "4⁄3 square units",
+      "explanation": "First find the intersection points:\n- L1 with x‑axis (y=0): 2x=6 ⇒ A(3,0).\n- L2 with x‑axis (y=0): x=1 ⇒ B(1,0).\n- Intersection C of L1 and L2: solving 2x+y=6 and y=x‑1 gives x=7/3, y=4/3 ⇒ C(7/3, 4/3).\nUsing the coordinate‑area formula for triangle ABC:\nArea = ½ | x_A(y_B‑y_C) + x_B(y_C‑y_A) + x_C(y_A‑y_B) |\n= ½ | 3(0‑4/3) + 1(4/3‑0) + (7/3)(0‑0) |\n= ½ | ‑4 + 4/3 | = ½ · 8/3 = 4/3.\nThus option A is correct; the other choices are incorrect calculations.",
+      "difficulty": "hard"
+    }
+  ]
+}

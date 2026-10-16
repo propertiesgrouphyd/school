@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0063",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "What is the coordinate‑area formula for a triangle with vertices \\((x_1,y_1), (x_2,y_2), (x_3,y_3)\\)?",
+      "options": {
+        "A": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+        "B": "\\(\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+        "C": "\\(\\frac12\\big[x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big]\\)",
+        "D": "\\(x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+      "explanation": "The area of a triangle formed by three points in the plane is given by \\(\\frac12\\) times the absolute value of the determinant \\(x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\). Options B and C miss the absolute value or the factor \\(\\frac12\\), and D omits both, so A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle whose vertices are \\((0,0), (4,0)\\) and \\((0,3)\\).",
+      "options": {
+        "A": "6 square units",
+        "B": "12 square units",
+        "C": "3 square units",
+        "D": "0 square units"
+      },
+      "correct_option": "A",
+      "answer": "6 square units",
+      "explanation": "Using the coordinate‑area formula: \\(\\frac12|0(0-3)+4(3-0)+0(0-0)|=\\frac12|12|=6\\). Hence the area is 6 square units. The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which of the following statements correctly describes how to test whether three points are collinear using the coordinate‑area formula?",
+      "options": {
+        "A": "The computed area equals zero",
+        "B": "The computed area is positive",
+        "C": "The sum of the x‑coordinates equals the sum of the y‑coordinates",
+        "D": "The product of the slopes of any two pairs of points equals –1"
+      },
+      "correct_option": "A",
+      "answer": "The computed area equals zero",
+      "explanation": "If the area obtained from the formula is zero, the three points lie on a straight line, i.e., they are collinear. Options B, C, and D are unrelated to the area test.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "What is the area of the triangle with vertices \\((2,1), (5,4)\\) and \\((2,4)\\)?",
+      "options": {
+        "A": "4.5 square units",
+        "B": "9 square units",
+        "C": "6 square units",
+        "D": "3 square units"
+      },
+      "correct_option": "A",
+      "answer": "4.5 square units",
+      "explanation": "Applying the formula: \\(\\frac12|2(4-4)+5(4-1)+2(1-4)|=\\frac12|0+15-6|=\\frac12\\times9=4.5\\). Hence option A is correct; the other numbers arise from forgetting the absolute value or the factor \\(\\frac12\\).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Using the coordinate‑area formula, find the area of the triangle whose vertices are \\((1,2), (3,8)\\) and \\((5,4)\\).",
+      "options": {
+        "A": "10 square units",
+        "B": "20 square units",
+        "C": "5 square units",
+        "D": "15 square units"
+      },
+      "correct_option": "A",
+      "answer": "10 square units",
+      "explanation": "Compute the determinant: \\(1(8-4)+3(4-2)+5(2-8)=4+6-30=-20\\). Area = \\(\\frac12| -20| =10\\). Thus option A is correct; the other options correspond to forgetting the half‑factor or the absolute value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "A farmer wants to fence a triangular field with vertices at \\((2,3), (8,3)\\) and \\((5,9)\\). What is the area of the field?",
+      "options": {
+        "A": "18 square units",
+        "B": "36 square units",
+        "C": "12 square units",
+        "D": "24 square units"
+      },
+      "correct_option": "A",
+      "answer": "18 square units",
+      "explanation": "Using the formula: \\(\\frac12|2(3-9)+8(9-3)+5(3-3)|=\\frac12| -12+48+0|=\\frac12\\times36=18\\). Hence the area is 18 square units. The other choices result from omitting the half factor or sign errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which of the following statements is a common misconception about using the coordinate‑area formula for collinearity?",
+      "options": {
+        "A": "If the computed area is zero, the points are collinear",
+        "B": "If the computed area is non‑zero, the points are collinear",
+        "C": "Points that share the same x‑coordinate are always collinear",
+        "D": "The formula cannot be used to test collinearity"
+      },
+      "correct_option": "C",
+      "answer": "Points that share the same x‑coordinate are always collinear",
+      "explanation": "Having the same x‑coordinate only means the points lie on a vertical line; they are collinear only if all three share that x‑value. The correct test is the zero‑area condition (A). Options B and D are false statements, but C is the typical misconception that any two points with equal x make the three collinear, which is not generally true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Which of the following triangles has the greatest area?\\nA) \\((5,0), (0,5), (-5,0)\\)\\nB) \\((5,0), (3,4), (-5,0)\\)\\nC) \\((5,0), (2,2), (-5,0)\\)\\nD) \\((5,0), (1,1), (-5,0)\\)",
+      "options": {
+        "A": "Triangle A",
+        "B": "Triangle B",
+        "C": "Triangle C",
+        "D": "Triangle D"
+      },
+      "correct_option": "A",
+      "answer": "Triangle A",
+      "explanation": "Compute areas:\\n- Triangle A: base 10 (from \\(5,0\\) to \\(-5,0\\)), height 5 (y‑coordinate of \\(0,5\\)), area = \\(\\frac12\\times10\\times5 = 25\\).\\n- Triangle B: area = \\(\\frac12|40| = 20\\).\\n- Triangle C: area = \\(\\frac12|20| = 10\\).\\n- Triangle D: area = \\(\\frac12|10| = 5\\). Hence Triangle A has the largest area. The other options are smaller due to reduced height or base.",
+      "difficulty": "medium"
+    }
+  ]
+}
