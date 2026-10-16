@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0054",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Consider the following two statements about the area of a triangle whose vertices are (x₁,y₁), (x₂,y₂) and (x₃,y₃):\n\nStatement A: Area = \\(\\frac{1}{2}\\big| x_{1}(y_{2}-y_{3}) + x_{2}(y_{3}-y_{1}) + x_{3}(y_{1}-y_{2}) \\big|\\).\nStatement B: Area = \\(\\big| x_{1}(y_{2}-y_{3}) + x_{2}(y_{3}-y_{1}) + x_{3}(y_{1}-y_{2}) \\big|\\).\n\nWhich of the following options correctly describes the validity of the statements?",
+      "options": {
+        "A": "Both Statement A and Statement B are correct.",
+        "B": "Only Statement A is correct.",
+        "C": "Only Statement B is correct.",
+        "D": "Neither Statement A nor Statement B is correct."
+      },
+      "correct_option": "B",
+      "answer": "Only Statement A is correct.",
+      "explanation": "The coordinate‑area formula for a triangle is \\(\\text{Area}=\\frac{1}{2}\\big| x_{1}(y_{2}-y_{3})+x_{2}(y_{3}-y_{1})+x_{3}(y_{1}-y_{2})\\big|\\). The factor \\(\\frac{1}{2}\\) is essential; omitting it (as in Statement B) gives twice the actual area. Hence only Statement A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle whose vertices are A(2, 3), B(5, 7) and C(8, 3).",
+      "options": {
+        "A": "6 square units",
+        "B": "12 square units",
+        "C": "15 square units",
+        "D": "18 square units"
+      },
+      "correct_option": "B",
+      "answer": "12 square units",
+      "explanation": "Using the coordinate‑area formula:\n\\(\\text{Area}=\\frac{1}{2}|2(7-3)+5(3-3)+8(3-7)| = \\frac{1}{2}|2\\times4+5\\times0+8\\times(-4)| = \\frac{1}{2}|8-32| = \\frac{1}{2}\\times24 = 12\\).\nThus the area is 12 square units. The other options result from arithmetic errors such as forgetting the ½ factor or sign mistakes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Three points P, Q and R are tested for collinearity using the coordinate‑area formula. Which statement is true?",
+      "options": {
+        "A": "If the computed area is zero, the points are collinear.",
+        "B": "If the computed area is non‑zero, the points are collinear.",
+        "C": "The area must be exactly 1 for the points to be collinear.",
+        "D": "Collinearity cannot be decided using the area formula."
+      },
+      "correct_option": "A",
+      "answer": "If the computed area is zero, the points are collinear.",
+      "explanation": "The area of a triangle formed by three points is zero precisely when the points lie on a straight line. Therefore a zero value indicates collinearity, while any non‑zero value indicates a genuine triangle. Options B, C and D contradict this principle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Which of the following is NOT an application of the coordinate‑area formula for a triangle?",
+      "options": {
+        "A": "Finding the area of a triangle whose vertices are given.",
+        "B": "Testing whether three points are collinear.",
+        "C": "Calculating the distance between two points.",
+        "D": "Checking if a point lies inside a triangle by comparing areas."
+      },
+      "correct_option": "C",
+      "answer": "Calculating the distance between two points.",
+      "explanation": "The coordinate‑area formula is used for area‑related problems: (A) directly gives the area, (B) a zero area indicates collinearity, and (D) the sum of areas of sub‑triangles equals the whole triangle’s area when a point lies inside. Distance between two points uses the distance formula, not the area formula, making option C the correct choice.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Select the correct definition of the coordinate‑area formula for a triangle and identify which option incorrectly describes it:",
+      "options": {
+        "A": "Area = \\(\\frac{1}{2}\\big| x_{1}(y_{2}-y_{3}) + x_{2}(y_{3}-y_{1}) + x_{3}(y_{1}-y_{2}) \\big|\\); this is the exact formula.",
+        "B": "Area = \\(\\big| x_{1}(y_{2}-y_{3}) + x_{2}(y_{3}-y_{1}) + x_{3}(y_{1}-y_{2}) \\big|\\); missing the ½ factor.",
+        "C": "Area = base \\times height; this is a general definition, not specific to coordinates.",
+        "D": "Area = \\(\\frac{1}{2}\\) × perimeter; this is the formula for the area of a circle, not a triangle."
+      },
+      "correct_option": "A",
+      "answer": "Area = \\(\\frac{1}{2}\\big| x_{1}(y_{2}-y_{3}) + x_{2}(y_{3}-y_{1}) + x_{3}(y_{1}-y_{2}) \\big|\\); this is the exact formula.",
+      "explanation": "Option A states the correct coordinate‑area formula. Option B omits the essential ½ factor, giving twice the true area. Option C describes the generic area concept but not the coordinate expression. Option D is unrelated to triangles. Hence A is the only correct definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle with vertices at (0, 0), (4, 0) and (0, 3).",
+      "options": {
+        "A": "5 square units",
+        "B": "6 square units",
+        "C": "7 square units",
+        "D": "12 square units"
+      },
+      "correct_option": "B",
+      "answer": "6 square units",
+      "explanation": "The triangle is right‑angled with base 4 (along the x‑axis) and height 3 (along the y‑axis). Area = ½ × base × height = ½ × 4 × 3 = 6 square units. Using the determinant form yields the same result. The other options arise from arithmetic mistakes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Points P(1, 2), Q(3, 6) and R(5, 10) are given. Are they collinear?",
+      "options": {
+        "A": "Yes, they are collinear.",
+        "B": "No, they are not collinear.",
+        "C": "Cannot be determined without additional points.",
+        "D": "They form a triangle of area 4 square units."
+      },
+      "correct_option": "A",
+      "answer": "Yes, they are collinear.",
+      "explanation": "Applying the coordinate‑area formula:\n\\(\\text{Area}=\\frac{1}{2}|1(6-10)+3(10-2)+5(2-6)| = \\frac{1}{2}|-4+24-20| = \\frac{1}{2}\\times0 = 0\\).\nZero area means the three points lie on a straight line, so they are collinear. Options B, C and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "In a coordinate plane, triangle ABC has vertices A(2, 1), B(6, 5) and C(2, 5). What is its area?",
+      "options": {
+        "A": "4 square units",
+        "B": "6 square units",
+        "C": "8 square units",
+        "D": "10 square units"
+      },
+      "correct_option": "C",
+      "answer": "8 square units",
+      "explanation": "Using the coordinate‑area formula:\n\\(\\text{Area}=\\frac{1}{2}|2(5-5)+6(5-1)+2(1-5)| = \\frac{1}{2}|0+24-8| = \\frac{1}{2}\\times16 = 8\\) square units. The calculation shows that the triangle’s area is 8. Options A, B, and D result from omitting the ½ factor or mis‑computing the determinant.",
+      "difficulty": "medium"
+    }
+  ]
+}

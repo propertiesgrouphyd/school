@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0055",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following expressions correctly gives the area of a triangle whose vertices are (x1, y1), (x2, y2) and (x3, y3)?",
+      "options": {
+        "A": "\\frac{1}{2}\\,\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|",
+        "B": "\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|",
+        "C": "\\frac{1}{2}\\,\\big[x_1(y_2+y_3)+x_2(y_3+y_1)+x_3(y_1+y_2)\\big]",
+        "D": "\\frac{1}{2}\\,\\big|x_1(y_2+y_3)+x_2(y_3+y_1)+x_3(y_1+y_2)\\big|"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{1}{2}\\,\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|",
+      "explanation": "The correct coordinate‑area formula includes the factor 1/2 and the absolute value to ensure a non‑negative area: Area = ½|x1(y2‑y3)+x2(y3‑y1)+x3(y1‑y2)|. Options B, C and D either miss the absolute value or use addition instead of subtraction, leading to incorrect results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "What is the area of the triangle with vertices A(2,3), B(5,7) and C(8,3)?",
+      "options": {
+        "A": "12",
+        "B": "9",
+        "C": "15",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Using the formula Area = ½|x1(y2‑y3)+x2(y3‑y1)+x3(y1‑y2)|, we get ½|2(7‑3)+5(3‑3)+8(3‑7)| = ½|8+0‑32| = ½·24 = 12 square units. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which of the following sets of three points are collinear?",
+      "options": {
+        "A": "(1,2), (3,6), (5,10)",
+        "B": "(0,0), (2,3), (4,5)",
+        "C": "(2,1), (4,5), (7,9)",
+        "D": "(1,1), (2,4), (3,8)"
+      },
+      "correct_option": "A",
+      "answer": "(1,2), (3,6), (5,10)",
+      "explanation": "For set A, the area computed by the determinant formula is zero, indicating collinearity (the slope between each pair is 2). Sets B, C and D give a non‑zero area, so they are not collinear.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Lines L1: y = x, L2: y = 2x + 3 and L3: x = 4 intersect to form a triangle. What is the area of this triangle?",
+      "options": {
+        "A": "24.5",
+        "B": "21",
+        "C": "28",
+        "D": "35"
+      },
+      "correct_option": "A",
+      "answer": "24.5",
+      "explanation": "Intersection points are P(4,4) from L1∩L3, Q(4,11) from L2∩L3 and R(‑3,‑3) from L1∩L2. Using the coordinate‑area formula gives Area = ½|4(11‑(‑3)) + 4((‑3)‑4) + (‑3)(4‑11)| = ½|56‑28+21| = ½·49 = 24.5 square units. The other options are common distractors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Select the correct expression for the area of a triangle with vertices (x1, y1), (x2, y2) and (x3, y3).",
+      "options": {
+        "A": "\\frac{1}{2}\\,\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|",
+        "B": "\\frac{1}{2}\\,\\big[x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big]",
+        "C": "\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|",
+        "D": "\\frac{1}{2}\\,\\big|x_1(y_2+y_3)+x_2(y_3+y_1)+x_3(y_1+y_2)\\big|"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{1}{2}\\,\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|",
+      "explanation": "The standard coordinate‑area formula includes the factor 1/2 and absolute value to ensure a positive area. Option B lacks the absolute value, C lacks the 1/2 factor, and D uses addition instead of subtraction, all of which are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Using the coordinate‑area formula, what is the area of the triangle with vertices O(0,0), A(4,0) and B(0,3)?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "3",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Plugging into the formula: Area = ½|0(0‑3) + 4(3‑0) + 0(0‑0)| = ½|0 + 12 + 0| = 6 square units. The other choices arise from forgetting the ½ factor or mis‑computing the determinant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which statement correctly describes how the coordinate‑area formula is used to test collinearity of three points?",
+      "options": {
+        "A": "If the computed area is zero, the points are collinear.",
+        "B": "If the computed area is positive, the points are collinear.",
+        "C": "If the absolute value of the determinant is non‑zero, the points are collinear.",
+        "D": "The formula cannot be used for collinearity testing."
+      },
+      "correct_option": "A",
+      "answer": "If the computed area is zero, the points are collinear.",
+      "explanation": "A zero area (determinant) means the three points lie on a single straight line, i.e., they are collinear. Positive area indicates a genuine triangle. Options B, C and D misstate the test.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Find the area of the triangle with vertices P(1,2), Q(4,6) and R(7,2).",
+      "options": {
+        "A": "12",
+        "B": "9",
+        "C": "15",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Applying the formula: Area = ½|1(6‑2) + 4(2‑2) + 7(2‑6)| = ½|4 + 0‑28| = ½·24 = 12 square units. The other options result from arithmetic slips such as omitting the absolute value or the ½ factor.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0051",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Understand internal division",
+      "question": "Which of the following statements correctly compares the coordinates of a point that divides a line segment joining (x1, y1) and (x2, y2) in the ratio m:n internally with the coordinates of a point that divides the same segment in the same ratio externally?",
+      "options": {
+        "A": "Internal division: ((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n)); External division: ((m·x2 – n·x1)/(m–n), (m·y2 – n·y1)/(m–n))",
+        "B": "Internal division: ((m·x1 + n·x2)/(m+n), (m·y1 + n·y2)/(m+n)); External division: ((m·x1 – n·x2)/(m–n), (m·y1 – n·y2)/(m–n))",
+        "C": "Internal division uses subtraction while external uses addition of the weighted coordinates",
+        "D": "Both internal and external division use the same formula ((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n))"
+      },
+      "correct_option": "A",
+      "answer": "Internal division: ((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n)); External division: ((m·x2 – n·x1)/(m–n), (m·y2 – n·y1)/(m–n))",
+      "explanation": "For internal division the point lies between the two given points, so the coordinates are weighted averages: ((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n)). For external division the point lies outside the segment, leading to subtraction in the numerator: ((m·x2 – n·x1)/(m–n), (m·y2 – n·y1)/(m–n)). Options B, C and D either swap the weights or misuse the operation, making them incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "State the section formula",
+      "question": "Which of the following is the correct section formula for a point that divides the line segment joining (x1, y1) and (x2, y2) in the ratio m:n internally?",
+      "options": {
+        "A": "((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n))",
+        "B": "((m·x1 + n·x2)/(m+n), (m·y1 + n·y2)/(m+n))",
+        "C": "((m·x2 – n·x1)/(m–n), (m·y2 – n·y1)/(m–n))",
+        "D": "((m·x1 – n·x2)/(m–n), (m·y1 – n·y2)/(m–n))"
+      },
+      "correct_option": "A",
+      "answer": "((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n))",
+      "explanation": "The internal section formula gives the coordinates as the weighted average of the end‑point coordinates, with the weight of each point proportional to the opposite segment length. Hence the correct expression is ((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n)). Options B, C and D either reverse the weights or use the external‑division form, which are not correct for internal division.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Find coordinates of a dividing point",
+      "question": "Point P divides the line segment joining A(2, 3) and B(8, 9) in the ratio 3:2 internally. What are the coordinates of P?",
+      "options": {
+        "A": "(5.6, 6.6)",
+        "B": "(6, 7)",
+        "C": "(4, 5)",
+        "D": "(7, 8)"
+      },
+      "correct_option": "A",
+      "answer": "(5.6, 6.6)",
+      "explanation": "Using the internal section formula: x = (3·8 + 2·2)/(3+2) = (24+4)/5 = 28/5 = 5.6; y = (3·9 + 2·3)/5 = (27+6)/5 = 33/5 = 6.6. Therefore P = (5.6, 6.6). The other options are results of incorrect arithmetic or using the wrong ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Solve ratio-based coordinate problems",
+      "question": "A point divides the segment joining (x1, y1) and (x2, y2) in the ratio 4:1 internally. Which of the following statements is always true?",
+      "options": {
+        "A": "The point is nearer to (x2, y2) than to (x1, y1).",
+        "B": "The point is exactly at the midpoint of the segment.",
+        "C": "The coordinates are the simple arithmetic mean of the endpoints.",
+        "D": "The ratio does not affect the coordinates of the dividing point."
+      },
+      "correct_option": "A",
+      "answer": "The point is nearer to (x2, y2) than to (x1, y1).",
+      "explanation": "In an internal division with ratio m:n, the coordinate is a weighted average where the weight of the second point is m. Since m (4) is larger than n (1), the resulting point lies closer to (x2, y2). Options B and C describe a 1:1 ratio, and D is false because the ratio directly determines the weighted average.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Understand internal division",
+      "question": "Which statement correctly defines internal division and distinguishes it from external division?",
+      "options": {
+        "A": "In internal division the point lies between the two given points and its coordinates are ((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n)); in external division the point lies outside the segment and its coordinates are ((m·x2 – n·x1)/(m–n), (m·y2 – n·y1)/(m–n)).",
+        "B": "Internal division uses subtraction in the numerator, while external division uses addition.",
+        "C": "Both internal and external division give the same coordinates; the only difference is the direction of measurement.",
+        "D": "Internal division always yields integer coordinates, whereas external division never does."
+      },
+      "correct_option": "A",
+      "answer": "In internal division the point lies between the two given points and its coordinates are ((m·x2 + n·x1)/(m+n), (m·y2 + n·y1)/(m+n)); in external division the point lies outside the segment and its coordinates are ((m·x2 – n·x1)/(m–n), (m·y2 – n·y1)/(m–n)).",
+      "explanation": "Internal division produces a point on the line segment, using a weighted average (addition) of the end‑point coordinates. External division places the point outside the segment, requiring subtraction in the numerator. Options B, C, and D misstate the formulas or properties, making them incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "State the section formula",
+      "question": "Find the coordinates of the point that divides the segment joining (-4, 2) and (6, -8) in the ratio 1:3 internally.",
+      "options": {
+        "A": "(-1.5, -0.5)",
+        "B": "(1, -2)",
+        "C": "(-2, 0)",
+        "D": "(0, -5)"
+      },
+      "correct_option": "A",
+      "answer": "(-1.5, -0.5)",
+      "explanation": "Using the internal section formula: x = (1·6 + 3·(-4))/(1+3) = (6‑12)/4 = -6/4 = -1.5; y = (1·(-8) + 3·2)/4 = (-8+6)/4 = -2/4 = -0.5. Hence the required point is (-1.5, -0.5). The other options arise from incorrect substitution or using the external formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Find coordinates of a dividing point",
+      "question": "Point R divides the line segment joining (1, 2) and (7, 14) in the ratio 2:5 internally. What are the coordinates of R?",
+      "options": {
+        "A": "(19/7, 38/7)",
+        "B": "(3, 8)",
+        "C": "(4, 10)",
+        "D": "(5, 12)"
+      },
+      "correct_option": "A",
+      "answer": "(19/7, 38/7)",
+      "explanation": "Apply the internal section formula: x = (2·7 + 5·1)/(2+5) = (14+5)/7 = 19/7 ≈ 2.714; y = (2·14 + 5·2)/7 = (28+10)/7 = 38/7 ≈ 5.428. Thus R = (19/7, 38/7). Options B, C, D result from using a wrong ratio or treating the division as a midpoint.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Solve ratio-based coordinate problems",
+      "question": "A rectangular garden has opposite corners at (0, 0) and (20, 10). A fountain is to be placed on the diagonal from the origin such that it divides the diagonal in the ratio 3:2 measured from the origin. What are the coordinates of the fountain?",
+      "options": {
+        "A": "(12, 6)",
+        "B": "(8, 4)",
+        "C": "(10, 5)",
+        "D": "(14, 7)"
+      },
+      "correct_option": "A",
+      "answer": "(12, 6)",
+      "explanation": "The diagonal joins (0, 0) and (20, 10). Using the internal section formula with ratio 3:2: x = (3·20 + 2·0)/(3+2) = 60/5 = 12; y = (3·10 + 2·0)/5 = 30/5 = 6. Hence the fountain is at (12, 6). The other options correspond to different ratios or miscalculations.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Understand internal division",
+      "question": "Which of the following statements about internal division of a line segment is incorrect?",
+      "options": {
+        "A": "The point that divides the segment internally always lies between the two endpoints.",
+        "B": "In the internal section formula, the coordinates are obtained by (mx2 + nx1)/(m+n) and (my2 + ny1)/(m+n).",
+        "C": "The ratio m:n used in internal division can be negative.",
+        "D": "The coordinates of the dividing point are weighted averages of the endpoint coordinates."
+      },
+      "correct_option": "C",
+      "answer": "The ratio m:n used in internal division can be negative.",
+      "explanation": "In internal division the ratio m:n must be positive; a negative ratio would place the point outside the segment, which corresponds to external division. Hence option C is the only incorrect statement. The other statements correctly describe internal division.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "State the section formula",
+      "question": "What is the section formula for the coordinates of a point that divides the line segment joining A(x1,y1) and B(x2,y2) internally in the ratio m:n?",
+      "options": {
+        "A": "((mx2 + nx1)/(m+n) , (my2 + ny1)/(m+n))",
+        "B": "((mx2 - nx1)/(m-n) , (my2 - ny1)/(m-n))",
+        "C": "((mx1 + nx2)/(m+n) , (my1 + ny2)/(m+n))",
+        "D": "((mx1 - nx2)/(m-n) , (my1 - ny2)/(m-n))"
+      },
+      "correct_option": "A",
+      "answer": "((mx2 + nx1)/(m+n) , (my2 + ny1)/(m+n))",
+      "explanation": "The internal section formula weights each endpoint by the opposite segment’s ratio and divides by the sum of the ratios, giving ((mx2 + nx1)/(m+n), (my2 + ny1)/(m+n)). Options B, C and D either use subtraction or swap the endpoints, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Find coordinates of a dividing point",
+      "question": "Points A(1,2) and B(7,8) are joined. Point P divides AB internally in the ratio 1:2 and point Q divides AB internally in the ratio 2:1. Which statement is true?",
+      "options": {
+        "A": "P is nearer to A than Q.",
+        "B": "Q is nearer to A than P.",
+        "C": "Both P and Q are equidistant from A.",
+        "D": "Neither P nor Q lies on segment AB."
+      },
+      "correct_option": "A",
+      "answer": "P is nearer to A than Q.",
+      "explanation": "For ratio 1:2, P is one‑third of the way from A to B, so it is closer to A. For ratio 2:1, Q is two‑thirds of the way from A to B, making it farther from A. Hence option A is correct; the other statements are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Solve ratio-based coordinate problems",
+      "question": "A point P divides the line segment joining A(2,3) and B(8,9) internally in the ratio m:n. If P has coordinates (5,6), what is the ratio m:n?",
+      "options": {
+        "A": "1:1",
+        "B": "2:1",
+        "C": "1:2",
+        "D": "3:2"
+      },
+      "correct_option": "A",
+      "answer": "1:1",
+      "explanation": "Using the internal section formula: 5 = (8m + 2n)/(m+n) and 6 = (9m + 3n)/(m+n). Solving either equation gives m = n, so the ratio is 1:1. Therefore option A is correct; the other ratios do not satisfy both coordinate equations.",
+      "difficulty": "hard"
+    }
+  ]
+}
