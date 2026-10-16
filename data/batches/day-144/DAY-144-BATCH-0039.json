@@ -1,0 +1,78 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Translate a word problem into a quadratic equation",
+      "question": "A rectangular garden is to be built such that its length is 5 metres more than its width. The required area of the garden is 84 square metres. Which quadratic equation correctly represents this situation?",
+      "options": {
+        "A": "x^2 + 5x - 84 = 0",
+        "B": "x^2 - 5x - 84 = 0",
+        "C": "x^2 + 5x + 84 = 0",
+        "D": "x^2 - 5x + 84 = 0"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + 5x - 84 = 0",
+      "explanation": "Let the width be x metres. Then length = x + 5 metres. Area = length × width gives x(x + 5) = 84 ⇒ x^2 + 5x - 84 = 0. Options B, C and D arise from sign errors in setting up the product or the constant term, which are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Solve the equation",
+      "question": "Solve the quadratic equation obtained for the garden problem: x^2 + 5x - 84 = 0. What is the feasible width of the garden (in metres)?",
+      "options": {
+        "A": "7",
+        "B": "-12",
+        "C": "12",
+        "D": "-7"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "Factoring gives (x + 12)(x - 7) = 0, so x = 7 or x = -12. Width cannot be negative, therefore the feasible width is 7 m. Option B is the other root but is not physically meaningful; options C and D are not solutions of the equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Reject mathematically possible but contextually invalid roots",
+      "question": "A ball is launched from a platform 20 m high. Its height after t seconds is given by h = -5t^2 + 30t + 20. When does the ball hit the ground? (Choose the root that must be rejected because it is not physically possible.)",
+      "options": {
+        "A": "3 + √13 seconds",
+        "B": "3 - √13 seconds",
+        "C": "Both roots are valid",
+        "D": "Neither root is valid"
+      },
+      "correct_option": "B",
+      "answer": "3 - √13 seconds",
+      "explanation": "Setting h = 0 gives -5t^2 + 30t + 20 = 0 ⇒ t^2 - 6t - 4 = 0. Solving, t = 3 ± √13. The value 3 - √13 ≈ -0.606 s is negative, which cannot represent a time after launch, so it must be rejected. The other root (3 + √13 ≈ 6.606 s) is the actual time of impact. Options C and D ignore the sign constraint.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Interpret the final answer",
+      "question": "A farmer has 100 m of fencing and wants to enclose a rectangular field of maximum possible area. The optimal dimensions are found to be 25 m by 25 m. What does the value 25 m represent in the context of the problem?",
+      "options": {
+        "A": "The length of the rectangle",
+        "B": "The width of the rectangle",
+        "C": "Both the length and the width, because the rectangle is a square",
+        "D": "The total perimeter of the rectangle"
+      },
+      "correct_option": "C",
+      "answer": "Both the length and the width, because the rectangle is a square",
+      "explanation": "For a given perimeter, the rectangle with maximum area is a square. With 100 m of fencing, each side of the square is 100 m ÷ 4 = 25 m. Hence 25 m is simultaneously the length and the width. Option A or B would be correct only if the rectangle were not a square, and option D is the total perimeter, not a side length.",
+      "difficulty": "hard"
+    }
+  ]
+}
