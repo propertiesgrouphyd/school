@@ -1,0 +1,78 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Define discriminant",
+      "question": "Which of the following statements about the discriminant of a quadratic equation \\(ax^{2}+bx+c=0\\) is NOT correct?",
+      "options": {
+        "A": "The discriminant is given by \\(b^{2}-4ac\\).",
+        "B": "If the discriminant is greater than zero, the equation has two distinct real roots.",
+        "C": "The discriminant determines the sum of the roots of the equation.",
+        "D": "If the discriminant equals zero, the equation has equal real roots."
+      },
+      "correct_option": "C",
+      "answer": "The discriminant determines the sum of the roots of the equation.",
+      "explanation": "Options A, B and D are true properties of the discriminant: it is calculated as \\(b^{2}-4ac\\), a positive value gives two distinct real roots, and a zero value gives equal (repeated) real roots. The discriminant does NOT give the sum of the roots; the sum is \\(-b/a\\). Hence option C is the incorrect statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Calculate the discriminant",
+      "question": "For the quadratic equation \\(3x^{2}-12x+7=0\\), what is the value of its discriminant?",
+      "options": {
+        "A": "60",
+        "B": "48",
+        "C": "36",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "The discriminant is calculated using \\(b^{2}-4ac\\). Here \\(a=3, b=-12, c=7\\). So \\((-12)^{2}-4\\times3\\times7 = 144-84 = 60\\). Therefore option A is correct; the other numbers result from incorrect arithmetic or omitted terms.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify two distinct real roots",
+      "question": "Consider the quadratic equations (i) \\(x^{2}-5x+6=0\\) and (ii) \\(2x^{2}+4x+2=0\\). Which statement correctly compares the nature of their roots?",
+      "options": {
+        "A": "Both equations have two distinct real roots.",
+        "B": "Equation (i) has two distinct real roots, while equation (ii) has equal real roots.",
+        "C": "Equation (i) has equal real roots, while equation (ii) has no real roots.",
+        "D": "Both equations have no real roots."
+      },
+      "correct_option": "B",
+      "answer": "Equation (i) has two distinct real roots, while equation (ii) has equal real roots.",
+      "explanation": "For (i): discriminant \\(= (-5)^{2}-4\\times1\\times6 = 25-24 = 1>0\\), giving two distinct real roots. For (ii): discriminant \\(= 4^{2}-4\\times2\\times2 = 16-16 = 0\\), giving equal (repeated) real roots. Hence option B accurately describes the comparison. Options A, C, and D are inconsistent with the calculated discriminants.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify equal real roots",
+      "question": "If the discriminant of the quadratic equation \\(4x^{2}+kx+9=0\\) is zero, what is the value of \\(k\\)?",
+      "options": {
+        "A": "\\(\\pm12\\)",
+        "B": "\\(\\pm6\\)",
+        "C": "\\(\\pm8\\)",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\pm12\\)",
+      "explanation": "A zero discriminant means \\(k^{2}-4\\times4\\times9=0\\). Simplifying: \\(k^{2}-144=0\\) → \\(k^{2}=144\\) → \\(k=\\pm12\\). Therefore option A is correct. Options B, C, and D correspond to incorrect values that would give non‑zero discriminants, leading to distinct or complex roots.",
+      "difficulty": "hard"
+    }
+  ]
+}

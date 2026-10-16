@@ -1,0 +1,150 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Translate a word problem into a quadratic equation",
+      "question": "A garden is to be fenced in the shape of a rectangle. Its length is 5 m more than its width. If the total area is 84 m², which quadratic equation correctly represents the width (x) of the garden?",
+      "options": {
+        "A": "x^2 + 5x - 84 = 0",
+        "B": "x^2 - 5x - 84 = 0",
+        "C": "x^2 + 5x + 84 = 0",
+        "D": "x^2 - 5x + 84 = 0"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + 5x - 84 = 0",
+      "explanation": "Let width = x metres, then length = x + 5 metres. Area = width × length gives x(x + 5) = 84, which expands to x^2 + 5x - 84 = 0. Option A matches this equation; the other options have incorrect signs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Solve the equation",
+      "question": "The height (in metres) of a ball thrown upward after t seconds is given by h = -5t^2 + 20t + 15. After how many seconds will the ball reach a height of 35 metres?",
+      "options": {
+        "A": "2 seconds",
+        "B": "4 seconds",
+        "C": "1 second",
+        "D": "No real time"
+      },
+      "correct_option": "A",
+      "answer": "2 seconds",
+      "explanation": "Set -5t^2 + 20t + 15 = 35 → -5t^2 + 20t - 20 = 0 → divide by -5: t^2 - 4t + 4 = 0 → (t - 2)^2 = 0 → t = 2. Hence the ball reaches 35 m after 2 seconds. The other options do not satisfy the equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Reject mathematically possible but contextually invalid roots",
+      "question": "A rectangular field has a length that is 2 m more than its width. Its area is 20 m². Which of the following values can be the width?",
+      "options": {
+        "A": "4 m",
+        "B": "-5 m",
+        "C": "Both 4 m and -5 m",
+        "D": "Neither 4 m nor -5 m"
+      },
+      "correct_option": "A",
+      "answer": "4 m",
+      "explanation": "Let width = x. Then (x)(x+2)=20 → x^2 + 2x - 20 = 0 → (x+5)(x-4)=0, giving x = 4 or x = -5. A negative width is not meaningful in the real world, so only 4 m is acceptable. Option A is correct; B is mathematically a root but contextually invalid.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Interpret the final answer",
+      "question": "The quadratic equation 2x^2 - 12x + 16 = 0 simplifies to (x-2)(x-4)=0, giving possible side lengths x = 2 m or x = 4 m for a square garden. What is the maximum possible area of the garden?",
+      "options": {
+        "A": "4 m²",
+        "B": "8 m²",
+        "C": "16 m²",
+        "D": "20 m²"
+      },
+      "correct_option": "C",
+      "answer": "16 m²",
+      "explanation": "Area of a square = side². For side 2 m, area = 4 m²; for side 4 m, area = 16 m². The maximum area corresponds to the larger side, 4 m, giving 16 m². Hence option C is correct; the other values correspond to the smaller side or are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Translate a word problem into a quadratic equation",
+      "question": "Problem 1: A rectangular plot has a length that is 3 m more than its width and an area of 70 m².\nProblem 2: A garden’s perimeter is 30 m and its length is twice its width.\nWhich quadratic equation correctly represents Problem 1?",
+      "options": {
+        "A": "x^2 + 3x - 70 = 0",
+        "B": "x^2 - 3x - 70 = 0",
+        "C": "x^2 - 5x + 30 = 0",
+        "D": "x^2 - 2x - 30 = 0"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + 3x - 70 = 0",
+      "explanation": "Let width = x. Then length = x + 3. Area: x(x + 3) = 70 → x^2 + 3x - 70 = 0, which is option A. Options B, C, and D arise from different relationships and do not match Problem 1.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Solve the equation",
+      "question": "The sum of the squares of two consecutive positive integers is 365. What are the integers?",
+      "options": {
+        "A": "13 and 14",
+        "B": "12 and 13",
+        "C": "14 and 15",
+        "D": "11 and 12"
+      },
+      "correct_option": "A",
+      "answer": "13 and 14",
+      "explanation": "Let the smaller integer be n. Then n^2 + (n+1)^2 = 365 → 2n^2 + 2n + 1 = 365 → n^2 + n - 182 = 0. Solving gives n = 13 (positive root). Hence the integers are 13 and 14. Option A is correct; the other pairs do not satisfy the equation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Reject mathematically possible but contextually invalid roots",
+      "question": "When solving a quadratic word problem, why might one of the algebraic roots be discarded?",
+      "options": {
+        "A": "Because it does not satisfy the conditions described in the problem",
+        "B": "Because the quadratic formula can only produce one root",
+        "C": "Because negative numbers are never allowed in mathematics",
+        "D": "Because the discriminant was negative"
+      },
+      "correct_option": "A",
+      "answer": "Because it does not satisfy the conditions described in the problem",
+      "explanation": "A root may be mathematically correct but may violate the real‑world constraints (e.g., negative length, time, or count). Hence it is rejected. Options B, C, and D are incorrect statements about the quadratic formula and discriminant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00603",
+      "learning_point": "Interpret the final answer",
+      "question": "If the solution of a quadratic equation that models the width of a rectangular garden is x = 5 m, what does this tell you about the garden?",
+      "options": {
+        "A": "The garden’s width is 5 m",
+        "B": "The garden’s length is 5 m",
+        "C": "The garden’s area is 5 m²",
+        "D": "The garden’s perimeter is 5 m"
+      },
+      "correct_option": "A",
+      "answer": "The garden’s width is 5 m",
+      "explanation": "The variable x was defined as the width. Therefore x = 5 m directly states that the width of the garden is 5 m. The other options refer to different quantities not represented by x.",
+      "difficulty": "easy"
+    }
+  ]
+}
