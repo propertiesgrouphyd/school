@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "State the distance formula",
+      "question": "Which of the following expressions correctly gives the distance between two points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) in the Cartesian plane?",
+      "options": {
+        "A": "√[(x2 - x1)² + (y2 - y1)²]",
+        "B": "(x2 - x1) + (y2 - y1)",
+        "C": "|x2 - x1| + |y2 - y1|",
+        "D": "√[(x2 + x1)² + (y2 + y1)²]"
+      },
+      "correct_option": "A",
+      "answer": "√[(x2 - x1)² + (y2 - y1)²]",
+      "explanation": "The distance formula is derived from the Pythagorean theorem. The horizontal difference is (x2‑x1) and the vertical difference is (y2‑y1); squaring and adding them gives the square of the distance, so the distance is the square root of that sum. Options B and C are linear sums, not squares, and D uses addition instead of subtraction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Calculate distance between two points",
+      "question": "Find the distance between the points \\((3, -2)\\) and \\((-1, 4)\\).",
+      "options": {
+        "A": "2√13",
+        "B": "√52",
+        "C": "7",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "2√13",
+      "explanation": "Δx = -1 - 3 = -4, Δy = 4 - (-2) = 6. Distance = √((-4)² + 6²) = √(16 + 36) = √52 = 2√13. Option B is numerically the same but the simplified form is 2√13, which is the standard answer. Options C and D are incorrect values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Handle positive and negative coordinates",
+      "question": "What is the distance between the points \\((-5, 2)\\) and \\((3, -6)\\)?",
+      "options": {
+        "A": "8√2",
+        "B": "√128",
+        "C": "16",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "8√2",
+      "explanation": "Δx = 3 - (-5) = 8, Δy = -6 - 2 = -8. Distance = √(8² + (-8)²) = √(64 + 64) = √128 = 8√2. Option B is the unsimplified form; the simplified radical is 8√2. Options C and D are not equal to the computed distance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Apply the formula to geometric problems",
+      "question": "In a right‑angled triangle with vertices A(0,0), B(6,0) and C(6,8), what is the length of the hypotenuse AC?",
+      "options": {
+        "A": "10",
+        "B": "14",
+        "C": "8",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "AC joins (0,0) and (6,8). Δx = 6, Δy = 8. Distance = √(6² + 8²) = √(36 + 64) = √100 = 10. The other options do not satisfy the Pythagorean relation for this triangle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "State the distance formula",
+      "question": "Which of the following statements correctly gives the distance between two points \\((x_1, y_1)\\) and \\((x_2, y_2)\\)?\n\nA) \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\)\n\nB) \\(|x_2 - x_1| + |y_2 - y_1|\\)\n\nC) Both A and B\n\nD) Neither A nor B",
+      "options": {
+        "A": "√[(x2 - x1)² + (y2 - y1)²]",
+        "B": "|x2 - x1| + |y2 - y1|",
+        "C": "Both A and B",
+        "D": "Neither A nor B"
+      },
+      "correct_option": "A",
+      "answer": "√[(x2 - x1)² + (y2 - y1)²]",
+      "explanation": "The correct distance formula is the square‑root of the sum of the squares of the coordinate differences (option A). Option B gives the Manhattan distance, not the Euclidean distance required by the textbook. Therefore only A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Calculate distance between two points",
+      "question": "If the distance between the points \\((2, 3)\\) and \\((2, k)\\) is 5 units, which of the following statements is true?",
+      "options": {
+        "A": "k = 8 only",
+        "B": "k = -2 only",
+        "C": "Both k = 8 and k = -2 are possible",
+        "D": "No value of k satisfies the condition"
+      },
+      "correct_option": "C",
+      "answer": "Both k = 8 and k = -2 are possible",
+      "explanation": "Since the x‑coordinates are the same, the distance equals |k – 3|. Setting |k – 3| = 5 gives k – 3 = 5 or k – 3 = -5, so k = 8 or k = -2. Both values satisfy the condition, making option C correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Handle positive and negative coordinates",
+      "question": "Compare the distances:\n\n1. Between \\((-4, -3)\\) and \\((2, 1)\\)\n2. Between \\((-4, -3)\\) and \\((-2, -1)\\)\n\nWhich statement is correct?",
+      "options": {
+        "A": "Distance 1 is greater than Distance 2",
+        "B": "Distance 2 is greater than Distance 1",
+        "C": "Both distances are equal",
+        "D": "Cannot be determined without calculation"
+      },
+      "correct_option": "A",
+      "answer": "Distance 1 is greater than Distance 2",
+      "explanation": "Distance 1: Δx = 6, Δy = 4 → √(36+16)=√52≈7.21. Distance 2: Δx = 2, Δy = 2 → √(4+4)=√8≈2.83. Hence the first distance is clearly larger. Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Apply the formula to geometric problems",
+      "question": "A rectangle has vertices at \\((1,2)\\), \\((1,7)\\), \\((6,7)\\) and \\((6,2)\\). What is the length of its diagonal?",
+      "options": {
+        "A": "5√2",
+        "B": "√50",
+        "C": "10",
+        "D": "7.07"
+      },
+      "correct_option": "A",
+      "answer": "5√2",
+      "explanation": "The diagonal joins (1,2) and (6,7). Δx = 5, Δy = 5. Distance = √(5² + 5²) = √(25+25) = √50 = 5√2. Option B is the same value unsimplified, but the standard simplified form is 5√2, making A the correct choice. Options C and D are incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}

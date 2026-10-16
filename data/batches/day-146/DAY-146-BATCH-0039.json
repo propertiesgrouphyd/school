@@ -1,0 +1,78 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "State the distance formula",
+      "question": "Which of the following expressions correctly gives the distance between the points (x₁, y₁) and (x₂, y₂)?",
+      "options": {
+        "A": "√[(x₂‑x₁)² + (y₂‑y₁)²]",
+        "B": "(x₂‑x₁)² + (y₂‑y₁)²",
+        "C": "√[(x₂+x₁)² + (y₂+y₁)²]",
+        "D": "|x₂‑x₁| + |y₂‑y₁|"
+      },
+      "correct_option": "A",
+      "answer": "√[(x₂‑x₁)² + (y₂‑y₁)²]",
+      "explanation": "The distance formula in the Cartesian plane is derived from the Pythagorean theorem and is √[(x₂‑x₁)² + (y₂‑y₁)²]. Option B omits the square root, C adds the coordinates instead of subtracting, and D adds absolute differences, which gives the Manhattan distance, not the Euclidean distance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Calculate distance between two points",
+      "question": "Find the distance between the points A(3, ‑2) and B(‑1, 4).",
+      "options": {
+        "A": "2√13",
+        "B": "7",
+        "C": "6",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "2√13",
+      "explanation": "Δx = (‑1)‑3 = ‑4, Δy = 4‑(‑2) = 6. Distance = √[(-4)² + 6²] = √[16+36] = √52 = 2√13. Options B, C, D are incorrect values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Handle positive and negative coordinates",
+      "question": "Consider the two pairs of points: Pair 1: (2, 3) and (‑2, ‑3); Pair 2: (5, ‑1) and (1, 3). Which statement is true about their distances?",
+      "options": {
+        "A": "The distance of Pair 1 is greater than that of Pair 2.",
+        "B": "The distance of Pair 2 is greater than that of Pair 1.",
+        "C": "Both pairs have equal distances.",
+        "D": "The distances cannot be compared without a calculator."
+      },
+      "correct_option": "A",
+      "answer": "The distance of Pair 1 is greater than that of Pair 2.",
+      "explanation": "Pair 1: Δx = ‑4, Δy = ‑6 → distance = √(16+36)=√52≈7.21. Pair 2: Δx = ‑4, Δy = 4 → distance = √(16+16)=√32≈5.66. Hence Pair 1 is farther. Options B, C, D are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00611",
+      "learning_point": "Apply the formula to geometric problems",
+      "question": "In a right‑angled triangle, the vertices are A(1, 2), B(7, 2) and C(1, 8). What is the length of the hypotenuse BC?",
+      "options": {
+        "A": "6√2",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "6√2",
+      "explanation": "AB is horizontal: length = |7‑1| = 6. AC is vertical: length = |8‑2| = 6. Thus ∠A is a right angle and BC is the hypotenuse. Using the distance formula, BC = √[(7‑1)² + (2‑8)²] = √[36+36] = √72 = 6√2. Options B, C, D are not equal to this value.",
+      "difficulty": "hard"
+    }
+  ]
+}
