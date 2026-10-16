@@ -1,0 +1,78 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Use a_n = a + (n − 1)d",
+      "question": "A student writes the 7th term of an arithmetic progression as a_7 = a + 7d. Which of the following statements is correct?",
+      "options": {
+        "A": "The correct formula is a_n = a + (n − 1)d, so a_7 = a + 6d.",
+        "B": "The formula a_n = a + nd is correct, therefore a_7 = a + 7d.",
+        "C": "The formula a_n = a + (n + 1)d should be used, giving a_7 = a + 8d.",
+        "D": "Both A and B are correct because the difference between them is negligible."
+      },
+      "correct_option": "A",
+      "answer": "The correct formula is a_n = a + (n − 1)d, so a_7 = a + 6d.",
+      "explanation": "In an arithmetic progression the nth term is given by a_n = a + (n‑1)d. For n = 7 this becomes a_7 = a + 6d. Option A states this correctly. Options B and C use incorrect formulas, and D is wrong because only one formula is valid.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find a specified term",
+      "question": "The first term of an AP is 5 and the common difference is 3. What is the 12th term?",
+      "options": {
+        "A": "38",
+        "B": "41",
+        "C": "35",
+        "D": "44"
+      },
+      "correct_option": "A",
+      "answer": "38",
+      "explanation": "Using a_n = a + (n‑1)d, a_12 = 5 + (12‑1)·3 = 5 + 33 = 38. Hence option A is correct. The other options result from arithmetic errors such as using n instead of n‑1 or mis‑multiplying the difference.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find the position of a given term",
+      "question": "In an AP, the 4th term is 20 and the 10th term is 44. Which position (n) corresponds to the term whose value is 56?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "answer": "13",
+      "explanation": "Let a be the first term and d the common difference. From a + 3d = 20 and a + 9d = 44, subtracting gives 6d = 24 → d = 4. Then a = 20 – 3·4 = 8. The general term is a_n = 8 + (n‑1)·4 = 4n + 4. Setting 4n + 4 = 56 gives 4n = 52 → n = 13. Therefore the term 56 is the 13th term, option B. Options A, C, D correspond to incorrect algebraic manipulation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Solve AP problems involving unknown parameters",
+      "question": "In an arithmetic progression, the sum of the first 5 terms is 70 and the sum of the first 9 terms is 210. What is the value of the 7th term?",
+      "options": {
+        "A": "32",
+        "B": "98/3",
+        "C": "35",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "98/3",
+      "explanation": "For an AP, S_n = n/2[2a + (n‑1)d].\n\nS_5 = 5/2[2a + 4d] = 70 ⇒ 5[2a + 4d] = 140 ⇒ 2a + 4d = 28 ⇒ a + 2d = 14 …(1)\nS_9 = 9/2[2a + 8d] = 210 ⇒ 9[2a + 8d] = 420 ⇒ 2a + 8d = 140/3 …(2)\nSubtract (1)×2 from (2): (2a + 8d) – (2a + 4d) = 140/3 – 28 ⇒ 4d = 56/3 ⇒ d = 14/3.\nFrom (1), a = 14 – 2d = 14 – 28/3 = 14/3.\nThe 7th term: a_7 = a + 6d = 14/3 + 6·(14/3) = 14/3 + 84/3 = 98/3.\nThus option B is correct. The other options arise from using wrong sums or forgetting the factor (n‑1).",
+      "difficulty": "hard"
+    }
+  ]
+}

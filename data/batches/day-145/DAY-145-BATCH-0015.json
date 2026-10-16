@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Consider two arithmetic progressions: AP1 has first term 2, common difference 3 and 10 terms; AP2 has first term 5, common difference 2 and 10 terms. Which AP has the larger sum?",
+      "options": {
+        "A": "AP1 has the larger sum",
+        "B": "AP2 has the larger sum",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "AP1 has the larger sum",
+      "explanation": "Sum of an AP: S = n/2[2a + (n-1)d]. For AP1: S = 10/2[2*2 + 9*3] = 5[4 + 27] = 5*31 = 155. For AP2: S = 10/2[2*5 + 9*2] = 5[10 + 18] = 5*28 = 140. Since 155 > 140, AP1's sum is larger. Options B, C, D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs 100 in the first month and increases the saving by Rs 20 each subsequent month. What is the total amount saved after 12 months?",
+      "options": {
+        "A": "Rs 2520",
+        "B": "Rs 2600",
+        "C": "Rs 2400",
+        "D": "Rs 2700"
+      },
+      "correct_option": "A",
+      "answer": "Rs 2520",
+      "explanation": "Here a = 100, d = 20, n = 12. Using S_n = n/2[2a + (n‑1)d]: S = 12/2[200 + 11·20] = 6[200 + 220] = 6·420 = 2520. Hence option A is correct; the other numbers result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "In the standard derivation of the sum of n terms of an arithmetic progression, which of the following steps is essential?",
+      "options": {
+        "A": "Writing the series forward and backward and then adding the two expressions term‑by‑term",
+        "B": "Multiplying each term by n",
+        "C": "Dividing the first term by the last term",
+        "D": "Taking the square root of the product of the first and last terms"
+      },
+      "correct_option": "A",
+      "answer": "Writing the series forward and backward and then adding the two expressions term‑by‑term",
+      "explanation": "The classic derivation writes the AP as S = a + (a+d) + … + l and also as S = l + (l‑d) + … + a, then adds them to get 2S = n(a + l). This step (option A) leads directly to S = n/2(a + l) and, after substituting l = a + (n‑1)d, to the usual formula. Options B, C, D are not part of the derivation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "Find the sum of the first 8 terms of an arithmetic progression whose first term a = 3 and common difference d = 5, using the formula S_n = n/2[2a + (n‑1)d].",
+      "options": {
+        "A": "164",
+        "B": "160",
+        "C": "168",
+        "D": "172"
+      },
+      "correct_option": "A",
+      "answer": "164",
+      "explanation": "Plugging into the formula: S_8 = 8/2[2·3 + (8‑1)·5] = 4[6 + 35] = 4·41 = 164. Hence option A is correct; the other options arise from mis‑calculating the bracket or the multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "When the last term l of an arithmetic progression is known, which formula correctly gives the sum of the first n terms?",
+      "options": {
+        "A": "S_n = n/2(a + l)",
+        "B": "S_n = n/2[2a + (n‑1)d]",
+        "C": "S_n = (a + l)/2",
+        "D": "S_n = n(a + l)"
+      },
+      "correct_option": "A",
+      "answer": "S_n = n/2(a + l)",
+      "explanation": "If the last term l is known, the sum can be written directly as S_n = n/2(a + l). Option B is the general formula using a and d, option C lacks the factor n, and option D omits the division by 2. Therefore, option A is the correct expression.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 15 terms of the arithmetic progression 4, 9, 14, … .",
+      "options": {
+        "A": "585",
+        "B": "600",
+        "C": "560",
+        "D": "590"
+      },
+      "correct_option": "A",
+      "answer": "585",
+      "explanation": "Here a = 4, d = 5, n = 15. Using S_n = n/2[2a + (n‑1)d]: S_15 = 15/2[8 + 14·5] = 7.5[8 + 70] = 7.5·78 = 585. The other options result from arithmetic slip‑ups.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A ladder has its first rung 10 cm above the ground and each successive rung is 2 cm higher than the previous one. What is the total vertical distance covered by the first 20 rungs?",
+      "options": {
+        "A": "580 cm",
+        "B": "600 cm",
+        "C": "560 cm",
+        "D": "590 cm"
+      },
+      "correct_option": "A",
+      "answer": "580 cm",
+      "explanation": "First term a = 10 cm, common difference d = 2 cm, n = 20. Sum S = 20/2[2·10 + (20‑1)·2] = 10[20 + 38] = 10·58 = 580 cm. Hence option A is correct; the other numbers are miscalculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "A student writes the first n terms of an arithmetic progression forward and then writes the same terms backward beneath it. Adding the two rows term‑wise gives 2S_n = n( first term + last term ). Which reasoning correctly leads to the standard sum formula S_n = n/2[2a + (n‑1)d]?",
+      "options": {
+        "A": "Recognizing that the last term equals a + (n‑1)d and substituting it into 2S_n = n(a + l)",
+        "B": "Assuming the series is geometric and using the geometric‑series formula",
+        "C": "Dividing each term by n before summing",
+        "D": "Ignoring the common difference and treating all terms as equal"
+      },
+      "correct_option": "A",
+      "answer": "Recognizing that the last term equals a + (n‑1)d and substituting it into 2S_n = n(a + l)",
+      "explanation": "From the forward‑backward addition we have 2S_n = n(a + l). Since the last term l = a + (n‑1)d, substituting gives 2S_n = n[ a + a + (n‑1)d ] = n[2a + (n‑1)d]. Dividing both sides by 2 yields S_n = n/2[2a + (n‑1)d], which is the required formula. Options B, C, D do not follow the correct derivation.",
+      "difficulty": "medium"
+    }
+  ]
+}

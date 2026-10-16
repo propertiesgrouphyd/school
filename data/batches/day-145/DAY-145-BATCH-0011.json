@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "Which of the following sequences of steps correctly derives the nth‑term formula \\(a_n = a + (n-1)d\\) for an arithmetic progression?",
+      "options": {
+        "A": "Assume the first term is a, the common difference is d, write the first n terms, add them, and divide by n.",
+        "B": "Write the first term as a, the second as a+d, the third as a+2d, …, the nth as a+(n-1)d; observe the pattern and state the general term a+(n-1)d.",
+        "C": "Use the sum formula \\(S_n = n/2[2a+(n-1)d]\\) and solve for a_n by differentiating with respect to n.",
+        "D": "Set a_n = a·d^{n-1} and replace d with the common difference."
+      },
+      "correct_option": "B",
+      "answer": "Write the first term as a, the second as a+d, the third as a+2d, …, the nth as a+(n-1)d; observe the pattern and state the general term a+(n-1)d.",
+      "explanation": "The nth term of an AP is obtained by observing that each successive term adds the common difference d. Starting from a, the terms are a, a+d, a+2d,…, a+(n-1)d, giving the formula a_n = a + (n-1)d. Options A, C and D describe unrelated methods or incorrect formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Use a_n = a + (n − 1)d",
+      "question": "In an arithmetic progression, which expression correctly gives the nth term?",
+      "options": {
+        "A": "a_n = a + n d",
+        "B": "a_n = a + (n - 1)d",
+        "C": "a_n = a d^{n-1}",
+        "D": "a_n = n(a + d)"
+      },
+      "correct_option": "B",
+      "answer": "a_n = a + (n - 1)d",
+      "explanation": "The standard nth‑term formula for an AP adds the common difference (n‑1) times to the first term. Option A adds the difference one extra time, C is a geometric‑progression formula, and D does not represent any standard progression formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find a specified term",
+      "question": "An AP has first term a = 3 and common difference d = 2. What is the value of the 10th term?",
+      "options": {
+        "A": "21",
+        "B": "22",
+        "C": "23",
+        "D": "24"
+      },
+      "correct_option": "C",
+      "answer": "23",
+      "explanation": "Using the formula a_n = a + (n-1)d, a_10 = 3 + (10-1)·2 = 3 + 18 = 21. Hence option A is correct. Options B, C, and D are larger because they add extra multiples of the common difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find the position of a given term",
+      "question": "In an AP with first term a = 5 and common difference d = 3, the term 23 appears at which position n?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "answer": "7",
+      "explanation": "Set a_n = 23: 5 + (n-1)·3 = 23 → (n-1)·3 = 18 → n-1 = 6 → n = 7. Therefore the 23rd term is the 7th term. Options A, B, and D give incorrect positions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Solve AP problems involving unknown parameters",
+      "question": "In an AP, the 4th term is 10 and the 9th term is 25. What is the common difference d?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "Let a be the first term. a_4 = a + 3d = 10 and a_9 = a + 8d = 25. Subtract: (a+8d) - (a+3d) = 5d = 15 → d = 3. Option B is correct; the other options do not satisfy the given conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "A student notices that in a certain AP the 3rd term is 7 and the 7th term is 19. Using this information, which of the following is the correct nth‑term formula for the progression?",
+      "options": {
+        "A": "a_n = 1 + 3n",
+        "B": "a_n = 2 + 3n",
+        "C": "a_n = 1 + 3(n-1)",
+        "D": "a_n = 2 + 3(n-1)"
+      },
+      "correct_option": "D",
+      "answer": "a_n = 2 + 3(n-1)",
+      "explanation": "Using the two given terms, we find d = 3 and a = 1, giving a_n = 1 + 3(n-1). Option C expresses this correctly; the other options either use wrong constants or omit the (n-1) factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Use a_n = a + (n − 1)d",
+      "question": "A student writes the nth‑term formula of an AP as \\(a_n = a + n d\\). Which statement best identifies the error?",
+      "options": {
+        "A": "The student omitted the first term a in the formula.",
+        "B": "The student added one extra common difference; the correct formula uses (n‑1)d.",
+        "C": "The student confused the formula with that of a geometric progression.",
+        "D": "The student used the correct formula; there is no error."
+      },
+      "correct_option": "B",
+      "answer": "The student added one extra common difference; the correct formula uses (n‑1)d.",
+      "explanation": "In an AP, each term after the first adds the common difference once per step, so the nth term is a + (n‑1)d. Writing a + n d adds the difference one extra time. Option B correctly points out this mistake; the other options describe unrelated issues.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find a specified term",
+      "question": "If an AP has first term a = 2 and common difference d = 5, what is the value of the 15th term?",
+      "options": {
+        "A": "71",
+        "B": "72",
+        "C": "73",
+        "D": "74"
+      },
+      "correct_option": "A",
+      "answer": "71",
+      "explanation": "Applying the formula a_n = a + (n-1)d: a_15 = 2 + (15-1)·5 = 2 + 14·5 = 2 + 70 = 72. Hence option B is correct. Options A, C, and D are off by one or more multiples of the common difference.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "Which of the following sequences of steps correctly derives the sum formula \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\) for an arithmetic progression?",
+      "options": {
+        "A": "Write \\(S = a + (a+d)+\\dots+(a+(n-1)d)\\). Write the same sum in reverse order and add term‑wise to obtain \\(2S = n[2a+(n-1)d]\\); hence \\(S = \\frac{n}{2}[2a+(n-1)d]\\).",
+        "B": "Assume the sum is \\(S = n\\times a\\) and then add \\(d\\) to the result.",
+        "C": "Use the formula for geometric series and replace the ratio by \\(1+d\\).",
+        "D": "Write \\(S = a + (a+d)+\\dots+(a+(n-1)d)\\) and multiply by \\(n\\) directly."
+      },
+      "correct_option": "A",
+      "answer": "Write \\(S = a + (a+d)+\\dots+(a+(n-1)d)\\). Write the same sum in reverse order and add term‑wise to obtain \\(2S = n[2a+(n-1)d]\\); hence \\(S = \\frac{n}{2}[2a+(n-1)d]\\).",
+      "explanation": "The correct derivation pairs the original series with its reverse, giving \\(2S = n[2a+(n-1)d]\\). Dividing by 2 yields the required formula. Options B, C and D either ignore the reverse‑addition step or misuse other series formulas, leading to incorrect results.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "An arithmetic progression has first term \\(a = 3\\), common difference \\(d = 2\\) and \\(n = 5\\) terms. What is the sum \\(S_5\\)?",
+      "options": {
+        "A": "35",
+        "B": "30",
+        "C": "40",
+        "D": "25"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "Using \\(S_n = \\frac{n}{2}[2a+(n-1)d]\\): \\(S_5 = \\frac{5}{2}[2\\times3 + (5-1)\\times2] = \\frac{5}{2}[6+8] = \\frac{5}{2}\\times14 = 35\\). The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "Which expression correctly gives the sum of the first \\(n\\) terms of an arithmetic progression when the first term \\(a\\) and the last term \\(l\\) are known?",
+      "options": {
+        "A": "\\(S_n = \\frac{n}{2}(a + l)\\)",
+        "B": "\\(S_n = n(a + l)\\)",
+        "C": "\\(S_n = \\frac{n}{2}[2a + (n-1)d]\\)",
+        "D": "\\(S_n = \\frac{n+1}{2}(a + l)\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(S_n = \\frac{n}{2}(a + l)\\)",
+      "explanation": "When the first and last terms are known, the sum is the average of the two terms multiplied by the number of terms, i.e., \\(S_n = \\frac{n}{2}(a + l)\\). Options B, C, and D either miss the division by 2 or use an incorrect factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 10 terms of the AP whose first term is 7 and common difference is 3.",
+      "options": {
+        "A": "205",
+        "B": "210",
+        "C": "200",
+        "D": "215"
+      },
+      "correct_option": "A",
+      "answer": "205",
+      "explanation": "Here \\(a = 7, d = 3, n = 10\\). \\(S_{10}=\\frac{10}{2}[2\\times7+(10-1)\\times3]=5[14+27]=5\\times41=205\\). The other numbers arise from mis‑calculating the bracket or the multiplier.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs 500 in the first month and increases the saving by Rs 100 each subsequent month. How much does he save in the first 6 months?",
+      "options": {
+        "A": "Rs 4500",
+        "B": "Rs 4200",
+        "C": "Rs 4800",
+        "D": "Rs 5000"
+      },
+      "correct_option": "A",
+      "answer": "Rs 4500",
+      "explanation": "The savings form an AP with \\(a = 500\\), \\(d = 100\\), \\(n = 6\\). \\(S_6 = \\frac{6}{2}[2\\times500 + (6-1)\\times100] = 3[1000+500] = 3\\times1500 = 4500\\). Options B, C, D result from using wrong values for \\(d\\) or \\(n\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "A staircase has its first step 10 cm high and each subsequent step is 2 cm higher than the previous one. To find the total height of the first \\(n\\) steps, which of the following procedures correctly derives the required sum formula?",
+      "options": {
+        "A": "Write the total height \\(H = 10 + 12 + \\dots + [10 + (n-1)\\times2]\\). Write the same series in reverse, add term‑wise, obtain \\(2H = n[20 + (n-1)\\times2]\\) and simplify to \\(H = \\frac{n}{2}[20 + 2(n-1)]\\).",
+        "B": "Assume the total height is \\(H = n\\times10\\) and then add \\(2\\) cm for each step without further calculation.",
+        "C": "Treat the heights as a geometric progression with ratio \\(1+2\\) and use the geometric‑series formula.",
+        "D": "Multiply the average of the first and last step heights by \\(n+1\\)."
+      },
+      "correct_option": "A",
+      "answer": "Write the total height \\(H = 10 + 12 + \\dots + [10 + (n-1)\\times2]\\). Write the same series in reverse, add term‑wise, obtain \\(2H = n[20 + (n-1)\\times2]\\) and simplify to \\(H = \\frac{n}{2}[20 + 2(n-1)]\\).",
+      "explanation": "The correct derivation mirrors the standard method for AP sums: pair the series with its reverse, giving \\(2H = n[2a + (n-1)d]\\). Substituting \\(a=10\\) and \\(d=2\\) yields the formula. Options B, C, and D misuse the concept, leading to incorrect results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "A student writes the sum of the first \\(n\\) terms of an AP as \\(S_n = \\frac{n}{2}[2a + nd]\\). Which statement best describes this expression?",
+      "options": {
+        "A": "It is a common mistake where \\(n\\) is used instead of \\(n-1\\) in the second term.",
+        "B": "It is the correct formula for the sum of an AP.",
+        "C": "It is the formula for the sum of a geometric progression.",
+        "D": "It is the formula for the sum when the last term is known."
+      },
+      "correct_option": "A",
+      "answer": "It is a common mistake where \\(n\\) is used instead of \\(n-1\\) in the second term.",
+      "explanation": "The correct AP sum formula uses \\((n-1)d\\). Replacing \\((n-1)\\) by \\(n\\) adds an extra \\(d\\) to the bracket, giving a larger value. Hence option A correctly identifies the misconception. Options B, C, and D are inaccurate.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "When the last term \\(l\\) of an arithmetic progression is known, which of the following reasons makes the formula \\(S_n = \\frac{n}{2}(a + l)\\) more convenient than \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\)?",
+      "options": {
+        "A": "It eliminates the need to find the common difference \\(d\\).",
+        "B": "It requires the value of \\(d\\) to be calculated first.",
+        "C": "It only works when \\(n\\) is an odd number.",
+        "D": "It gives a different numerical result than the other formula."
+      },
+      "correct_option": "A",
+      "answer": "It eliminates the need to find the common difference \\(d\\).",
+      "explanation": "If \\(l\\) is already known, the formula \\(S_n = \\frac{n}{2}(a + l)\\) directly uses the first and last terms, avoiding the extra step of computing \\(d\\). Options B and C are false, and D is incorrect because both formulas are algebraically equivalent when the appropriate values are substituted.",
+      "difficulty": "medium"
+    }
+  ]
+}
