@@ -1,0 +1,150 @@
+{
+  "day": 144,
+  "batch_id": "DAY-144-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify absence of real roots",
+      "question": "Consider the quadratic equation 3x^2 + 4x + 5 = 0. Which of the following statements about its roots is correct?",
+      "options": {
+        "A": "The equation has no real roots.",
+        "B": "The equation has exactly one real root (repeated).",
+        "C": "The equation has two distinct real roots.",
+        "D": "The equation has infinitely many real roots."
+      },
+      "correct_option": "A",
+      "answer": "The equation has no real roots.",
+      "explanation": "The discriminant D = b^2 - 4ac = 4^2 - 4*3*5 = 16 - 60 = -44, which is negative. A negative discriminant means the quadratic has no real (and two complex conjugate) roots. Hence option A is correct; the other options describe situations that occur only when D = 0 or D > 0.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Apply discriminant conditions to parameter problems",
+      "question": "For what values of the parameter k does the equation x^2 + 2kx + (k+3) = 0 have no real roots?",
+      "options": {
+        "A": "-2 < k < 2",
+        "B": "-1 < k < 3",
+        "C": "-1.3 < k < 2.3",
+        "D": "k > 5"
+      },
+      "correct_option": "C",
+      "answer": "-1.3 < k < 2.3",
+      "explanation": "The discriminant D = (2k)^2 - 4·1·(k+3) = 4k^2 - 4k - 12 = 4(k^2 - k - 3). For no real roots, D < 0 ⇒ k^2 - k - 3 < 0. Solving k^2 - k - 3 = 0 gives k = [1 ± √(1 + 12)]/2 = (1 ± √13)/2 ≈ -1.302, 2.302. Hence D < 0 when -1.302 < k < 2.302, which matches option C. The other intervals do not satisfy the inequality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Define discriminant",
+      "question": "Which of the following correctly defines the discriminant of a quadratic equation ax^2 + bx + c = 0?",
+      "options": {
+        "A": "b^2 - 4ac",
+        "B": "b^2 + 4ac",
+        "C": "2b - 4ac",
+        "D": "a^2 - 4bc"
+      },
+      "correct_option": "A",
+      "answer": "b^2 - 4ac",
+      "explanation": "The discriminant of a quadratic ax^2 + bx + c = 0 is given by D = b^2 - 4ac. This quantity determines the nature of the roots. Options B, C, and D are incorrect formulas and lead to wrong conclusions about the roots.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Calculate the discriminant",
+      "question": "Find the discriminant of the quadratic equation 5x^2 - 6x + 2 = 0.",
+      "options": {
+        "A": "-4",
+        "B": "0",
+        "C": "4",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "answer": "-4",
+      "explanation": "Here a = 5, b = -6, c = 2. D = b^2 - 4ac = (-6)^2 - 4·5·2 = 36 - 40 = -4. Therefore the discriminant is -4, which corresponds to option A. The other options are results of incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify two distinct real roots",
+      "question": "Which of the following quadratic equations has two distinct real roots?",
+      "options": {
+        "A": "x^2 + 4x + 4 = 0",
+        "B": "x^2 - 2x + 5 = 0",
+        "C": "2x^2 - 3x + 1 = 0",
+        "D": "x^2 + 2x + 1 = 0"
+      },
+      "correct_option": "C",
+      "answer": "2x^2 - 3x + 1 = 0",
+      "explanation": "Compute discriminants: A) D = 4^2 - 4·1·4 = 0 (equal roots). B) D = (-2)^2 - 4·1·5 = 4 - 20 = -16 (no real roots). C) D = (-3)^2 - 4·2·1 = 9 - 8 = 1 > 0 (two distinct real roots). D) D = 2^2 - 4·1·1 = 0 (equal roots). Hence only option C satisfies D > 0.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify equal real roots",
+      "question": "For the quadratic equation x^2 - 6x + k = 0 to have equal real roots, the value of k must be:",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "6",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "9",
+      "explanation": "Equal real roots occur when the discriminant is zero. D = (-6)^2 - 4·1·k = 36 - 4k = 0 ⇒ k = 9. Therefore option A is correct. The other values give D ≠ 0, leading to distinct or non‑real roots.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Identify absence of real roots",
+      "question": "The quadratic equation ax^2 + bx + c = 0 will have no real roots when:",
+      "options": {
+        "A": "b^2 - 4ac > 0",
+        "B": "b^2 - 4ac = 0",
+        "C": "b^2 - 4ac < 0",
+        "D": "b = 0"
+      },
+      "correct_option": "C",
+      "answer": "b^2 - 4ac < 0",
+      "explanation": "A negative discriminant (b^2 - 4ac < 0) indicates that the quadratic has two complex conjugate roots and no real roots. Option A corresponds to two distinct real roots, B to equal real roots, and D is unrelated to the discriminant condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00602",
+      "learning_point": "Apply discriminant conditions to parameter problems",
+      "question": "If the quadratic equation x^2 + (k-1)x + (k+2) = 0 is required to have real and distinct roots, which range of k satisfies this condition?",
+      "options": {
+        "A": "-1 < k < 7",
+        "B": "k < -1 or k > 7",
+        "C": "k = -1 or k = 7",
+        "D": "All real values of k"
+      },
+      "correct_option": "B",
+      "answer": "k < -1 or k > 7",
+      "explanation": "Discriminant D = (k-1)^2 - 4(k+2) = k^2 - 6k - 7. For real and distinct roots, D > 0. Solving k^2 - 6k - 7 > 0 gives roots k = -1 and k = 7; the quadratic opens upwards, so it is positive outside the interval (-1, 7). Hence k < -1 or k > 7, which is option B. Options A and C describe the opposite or boundary cases, and D is incorrect because values between -1 and 7 give D ≤ 0.",
+      "difficulty": "easy"
+    }
+  ]
+}
