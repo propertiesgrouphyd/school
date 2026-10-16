@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Understand internal division",
+      "question": "Point P divides the line segment AB internally in the ratio 2:3, where A is (2, 3) and B is (12, 15). Which of the following gives the correct coordinates of P?",
+      "options": {
+        "A": "(6, 7.8)",
+        "B": "(8, 9)",
+        "C": "(5, 6)",
+        "D": "(9, 12)"
+      },
+      "correct_option": "A",
+      "answer": "(6, 7.8)",
+      "explanation": "For internal division in the ratio m:n (AP:PB = m:n), the coordinates are ((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n)). Here m=2, n=3, A(2,3), B(12,15). So x = (3·2 + 2·12)/5 = (6+24)/5 = 30/5 = 6 and y = (3·3 + 2·15)/5 = (9+30)/5 = 39/5 = 7.8. Option A matches this. The other options arise from swapping m and n or using the external formula, which are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "State the section formula",
+      "question": "Which expression correctly represents the coordinates of a point P that divides the segment joining A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n?",
+      "options": {
+        "A": "((m·x₁ + n·x₂)/(m+n), (m·y₁ + n·y₂)/(m+n))",
+        "B": "((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n))",
+        "C": "((m·x₁ - n·x₂)/(m-n), (m·y₁ - n·y₂)/(m-n))",
+        "D": "((n·x₁ - m·x₂)/(m-n), (n·y₁ - m·y₂)/(m-n))"
+      },
+      "correct_option": "B",
+      "answer": "((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n))",
+      "explanation": "The internal section formula places the weight of the opposite endpoint with each coordinate: x = (n·x₁ + m·x₂)/(m+n) and y = (n·y₁ + m·y₂)/(m+n). Option B follows this rule. Option A swaps the weights, while C and D are forms of the external division formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Find coordinates of a dividing point",
+      "question": "Point P divides AB internally in the ratio 3:2 and point Q divides AB externally in the same ratio, where A(0, 0) and B(10, 0). Which statement is true?",
+      "options": {
+        "A": "P lies between A and B, while Q lies to the right of B on the same line.",
+        "B": "Both P and Q lie between A and B.",
+        "C": "P lies outside the segment AB, while Q lies between A and B.",
+        "D": "Both P and Q lie to the left of A on the same line."
+      },
+      "correct_option": "A",
+      "answer": "P lies between A and B, while Q lies to the right of B on the same line.",
+      "explanation": "For internal division (3:2), P's x‑coordinate = (2·0 + 3·10)/5 = 30/5 = 6, which is between 0 and 10. For external division, Q's x‑coordinate = (-2·0 + 3·10)/(3‑2) = 30/1 = 30, which is beyond B. Hence P is on the segment, Q is outside on the same line beyond B. The other options misplace the points.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Solve ratio-based coordinate problems",
+      "question": "A line segment joins A(1, 2) and B(7, 14). Find the coordinates of point R that divides AB internally in the ratio 4:1 and point S that divides AB externally in the same ratio. What is the sum of the x‑coordinates of R and S?",
+      "options": {
+        "A": "14.8",
+        "B": "15",
+        "C": "13.5",
+        "D": "12.8"
+      },
+      "correct_option": "A",
+      "answer": "14.8",
+      "explanation": "Internal point R: x = (1·1 + 4·7)/5 = 29/5 = 5.8. External point S: x = (-1·1 + 4·7)/(4‑1) = 27/3 = 9. Sum = 5.8 + 9 = 14.8. Option A matches this value. The other options arise from arithmetic errors or using the wrong formula.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Understand internal division",
+      "question": "In coordinate geometry, what does it mean for a point P to divide the line segment AB internally?",
+      "options": {
+        "A": "P lies on the line AB but outside the segment, with AP:PB equal to a given ratio.",
+        "B": "P lies on the line AB between A and B, and the distances AP and PB are in a specified ratio.",
+        "C": "P is the midpoint of AB regardless of any ratio.",
+        "D": "P divides the extension of AB beyond B in the given ratio."
+      },
+      "correct_option": "B",
+      "answer": "P lies on the line AB between A and B, and the distances AP and PB are in a specified ratio.",
+      "explanation": "Internal division means the point is located on the segment itself, not outside it. The segment is split into two parts whose lengths are in the given ratio. Options A and D describe external division, while C describes a special case (midpoint) not tied to a general ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "State the section formula",
+      "question": "The section formula for a point dividing the line segment joining (x₁, y₁) and (x₂, y₂) internally in the ratio m:n is:",
+      "options": {
+        "A": "((m·x₁ + n·x₂)/(m+n), (m·y₁ + n·y₂)/(m+n))",
+        "B": "((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n))",
+        "C": "((m·x₁ - n·x₂)/(m-n), (m·y₁ - n·y₂)/(m-n))",
+        "D": "((n·x₁ - m·x₂)/(m-n), (n·y₁ - m·y₂)/(m-n))"
+      },
+      "correct_option": "B",
+      "answer": "((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n))",
+      "explanation": "The internal section formula gives more weight to the opposite endpoint: the coordinate of the required point is ((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n)). Option B matches this expression. Options A, C, and D are incorrect variations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Find coordinates of a dividing point",
+      "question": "Which of the following gives the coordinates of a point that divides the segment joining (2, 3) and (8, 9) externally in the ratio 1:2?",
+      "options": {
+        "A": "(-4, -3)",
+        "B": "(4, 3)",
+        "C": "(6, 7)",
+        "D": "(10, 12)"
+      },
+      "correct_option": "A",
+      "answer": "(-4, -3)",
+      "explanation": "For external division in ratio m:n, coordinates are ((-n·x₁ + m·x₂)/(m‑n), (-n·y₁ + m·y₂)/(m‑n)). Here m=1, n=2, (x₁,y₁)=(2,3), (x₂,y₂)=(8,9). x = (-2·2 + 1·8)/(1‑2) = (‑4+8)/(‑1) = 4/‑1 = -4. y = (-2·3 + 1·9)/(‑1) = (‑6+9)/(‑1) = 3/‑1 = -3. Hence (-4, -3). The other options correspond to internal division or incorrect sign handling.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Solve ratio-based coordinate problems",
+      "question": "Point P divides the line segment joining A(0, 0) and B(10, 0) in the ratio 3:2 internally. What are the coordinates of P?",
+      "options": {
+        "A": "(6, 0)",
+        "B": "(4, 0)",
+        "C": "(5, 0)",
+        "D": "(7, 0)"
+      },
+      "correct_option": "A",
+      "answer": "(6, 0)",
+      "explanation": "Using the internal section formula: x = (2·0 + 3·10)/(3+2) = 30/5 = 6, y = (2·0 + 3·0)/5 = 0. Hence P is at (6, 0). Option A is correct; the other options arise from using the wrong ratio or swapping the weights.",
+      "difficulty": "easy"
+    }
+  ]
+}
