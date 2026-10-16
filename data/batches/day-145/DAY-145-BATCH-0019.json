@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "Which of the following steps correctly leads to the formula for the sum of the first n terms of an arithmetic progression?",
+      "options": {
+        "A": "Write S_n = a + (a+d) + (a+2d) + … + [a+(n-1)d] and multiply both sides by n.",
+        "B": "Write S_n = a + (a+d) + … + [a+(n-1)d]; then write the same series in reverse order and add termwise to get 2S_n = n[2a + (n-1)d].",
+        "C": "Write S_n = n/2[2a + (n-1)d] directly without derivation.",
+        "D": "Write S_n = n(a + l) where l is the last term."
+      },
+      "correct_option": "B",
+      "answer": "Write S_n = a + (a+d) + … + [a+(n-1)d]; then write the same series in reverse order and add termwise to get 2S_n = n[2a + (n-1)d].",
+      "explanation": "The correct derivation writes the series forward and backward, adds them termwise to obtain 2S_n = n[2a + (n-1)d], and then divides by 2 to get S_n = n/2[2a + (n-1)d]. Option B follows this process. Option A incorrectly multiplies by n. Option C skips the derivation. Option D uses a different formula that involves the last term, not the derivation step.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "For an AP with first term a = 5, common difference d = 3, and n = 8, what is S_n using the formula S_n = n/2[2a + (n−1)d]?",
+      "options": {
+        "A": "124",
+        "B": "112",
+        "C": "140",
+        "D": "96"
+      },
+      "correct_option": "A",
+      "answer": "124",
+      "explanation": "Plugging the values: 2a = 10, (n‑1)d = 7×3 = 21, so 2a + (n‑1)d = 31. n/2 = 8/2 = 4. Hence S_n = 4 × 31 = 124. Options B, C, and D result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "Which expression correctly represents the sum of the first n terms of an AP using the first term a and the last term l?",
+      "options": {
+        "A": "S_n = n/2[2a + (n-1)d]",
+        "B": "S_n = n(a + l)",
+        "C": "S_n = n/2(a + l)",
+        "D": "S_n = (a + l)/2"
+      },
+      "correct_option": "C",
+      "answer": "S_n = n/2(a + l)",
+      "explanation": "When the last term l is known, the sum is given by S_n = n/2 (a + l). Option C matches this formula. Option A is the version using a and d, Option B omits the division by 2, and Option D gives the average of just two terms, not the total sum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 15 terms of the AP: 4, 9, 14, …",
+      "options": {
+        "A": "585",
+        "B": "600",
+        "C": "540",
+        "D": "570"
+      },
+      "correct_option": "A",
+      "answer": "585",
+      "explanation": "Here a = 4, d = 5, n = 15. S_n = n/2[2a + (n‑1)d] = 15/2[8 + 14×5] = 7.5[8 + 70] = 7.5×78 = 585. The other options arise from mis‑calculating either n, d, or the bracketed term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person deposits $200 in a bank and then deposits $50 more each subsequent month. What is the total amount deposited after 6 months?",
+      "options": {
+        "A": "$1,800",
+        "B": "$1,950",
+        "C": "$2,100",
+        "D": "$2,250"
+      },
+      "correct_option": "B",
+      "answer": "$1,950",
+      "explanation": "The deposits form an AP with a = 200, d = 50, n = 6. S_n = n/2[2a + (n‑1)d] = 6/2[400 + 5×50] = 3[400 + 250] = 3×650 = 1,950. Options A, C, D result from using wrong n or d values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "A coach notes that the scores of his 12 athletes form an AP with first score 45 and common difference 3. To find the total score of all athletes, which reasoning correctly leads to the sum formula?",
+      "options": {
+        "A": "Multiply the average of the first and last scores by the number of athletes.",
+        "B": "Add the first score to the common difference repeatedly without using any formula.",
+        "C": "Use S_n = n/2[2a + (n‑1)d] after writing the series forward and backward and adding termwise.",
+        "D": "Assume the total is simply 12 times the first score."
+      },
+      "correct_option": "C",
+      "answer": "Use S_n = n/2[2a + (n‑1)d] after writing the series forward and backward and adding termwise.",
+      "explanation": "Writing the series forward (45, 48, …) and backward, then adding termwise gives 2S_n = n[2a + (n‑1)d]; dividing by 2 yields the sum formula. Option C describes this derivation. Option A gives a shortcut that works after the last term is known but does not show the derivation. Options B and D are incorrect methods.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "A student tries to find the sum of the first 10 terms of an AP with a = 2, d = 4 using S_n = n/2[2a + (n−1)d] but mistakenly writes the expression as S_n = n/2[2a + n d]. Which of the following statements is true about this mistake?",
+      "options": {
+        "A": "The student's result will be larger than the correct sum.",
+        "B": "The student's result will be smaller than the correct sum.",
+        "C": "The student's result will be the same as the correct sum.",
+        "D": "The formula used by the student is valid for geometric progressions."
+      },
+      "correct_option": "A",
+      "answer": "The student's result will be larger than the correct sum.",
+      "explanation": "Replacing (n‑1)d with n d adds an extra d = 4 to the bracket, making the whole bracket larger and thus the computed sum larger than the true value. Hence statement A is correct. B and C are false, and D is unrelated because the mistaken formula is not a geometric‑progression formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "Why is the formula S_n = n/2(a + l) often preferred when the last term of the AP is known?",
+      "options": {
+        "A": "Because it eliminates the need to calculate the common difference d.",
+        "B": "Because it gives a larger sum than the other formula.",
+        "C": "Because it only works for APs with an even number of terms.",
+        "D": "Because it requires knowing the number of terms twice."
+      },
+      "correct_option": "A",
+      "answer": "Because it eliminates the need to calculate the common difference d.",
+      "explanation": "When the last term l is already known, S_n = n/2(a + l) directly uses a and l, avoiding the extra step of finding d. Option A states this advantage. Option B is false; both formulas give the same sum. Option C is incorrect; the formula works for any n. Option D misrepresents the formula.",
+      "difficulty": "medium"
+    }
+  ]
+}

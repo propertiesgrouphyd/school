@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "Which of the following correctly states the formula for the sum of the first n terms of an arithmetic progression in terms of the first term a and the last term l?",
+      "options": {
+        "A": "S_n = n/2 (a + l)",
+        "B": "S_n = n (a + l)",
+        "C": "S_n = (n/2)(2a + (n-1)d)",
+        "D": "S_n = (a + l)/2"
+      },
+      "correct_option": "A",
+      "answer": "S_n = n/2 (a + l)",
+      "explanation": "The sum of the first n terms of an AP can be written as S_n = n/2 (first term + last term). Option A matches this formula exactly. Option B omits the division by 2, Option C is the alternative form using the common difference d, and Option D divides by 2 incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 15 terms of the AP whose first term is 3 and common difference is 2.",
+      "options": {
+        "A": "255",
+        "B": "240",
+        "C": "225",
+        "D": "210"
+      },
+      "correct_option": "A",
+      "answer": "255",
+      "explanation": "Last term l = a + (n‑1)d = 3 + 14·2 = 31. Using S_n = n/2 (a + l) gives S_15 = 15/2 (3 + 31) = 7.5·34 = 255. The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs. 500 in the first month and increases the saving by Rs. 100 each subsequent month. What is the total saving after 12 months?",
+      "options": {
+        "A": "12600",
+        "B": "12000",
+        "C": "13000",
+        "D": "11500"
+      },
+      "correct_option": "A",
+      "answer": "12600",
+      "explanation": "The savings form an AP with a = 500, d = 100, n = 12. Sum S_n = n/2[2a + (n‑1)d] = 12/2[1000 + 11·100] = 6·2100 = 12600. The other numbers arise from omitting the factor 2a or using wrong n.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "To derive the sum formula S_n = n/2(a + l) for an arithmetic progression, which of the following steps is essential?",
+      "options": {
+        "A": "Pair the first and last terms, the second and second‑last terms, etc., each pair summing to a + l.",
+        "B": "Apply the geometric‑series sum formula.",
+        "C": "Assume the common difference is zero.",
+        "D": "Multiply each term by n before adding."
+      },
+      "correct_option": "A",
+      "answer": "Pair the first and last terms, the second and second‑last terms, etc., each pair summing to a + l.",
+      "explanation": "The classic derivation pairs terms from opposite ends; each pair equals a + l, and there are n/2 such pairs, giving S_n = n/2(a + l). Options B, C, and D are unrelated to the AP sum derivation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "A student writes the formula as S_n = (n/2)(2a) + (n − 1)d. What is the error in this expression?",
+      "options": {
+        "A": "The brackets were omitted, causing the second term to be added after the division by 2.",
+        "B": "The value of n was substituted incorrectly.",
+        "C": "The first term a was replaced by the last term l.",
+        "D": "The formula for a geometric progression was used instead."
+      },
+      "correct_option": "A",
+      "answer": "The brackets were omitted, causing the second term to be added after the division by 2.",
+      "explanation": "The correct formula keeps the entire bracket multiplied by n/2. Writing S_n = (n/2)(2a) + (n‑1)d distributes the division incorrectly, giving a larger result. The other options describe unrelated mistakes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "If the sum of the first 6 terms of an AP is 210 and the first term is 5, what is the last term?",
+      "options": {
+        "A": "65",
+        "B": "70",
+        "C": "55",
+        "D": "60"
+      },
+      "correct_option": "A",
+      "answer": "65",
+      "explanation": "Using S_n = n/2(a + l): 210 = 6/2 (5 + l) → 210 = 3(5 + l) → 5 + l = 70 → l = 65. The other options result from arithmetic slip‑ups.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Consider two arithmetic progressions:\nAP1: a = 2, d = 3, n = 10\nAP2: a = 5, d = 2, n = 10\nWhich AP has the greater sum of its first 10 terms?",
+      "options": {
+        "A": "AP1",
+        "B": "AP2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "AP1",
+      "explanation": "AP1 last term = 2 + 9·3 = 29, sum = 10/2 (2 + 29) = 5·31 = 155.\nAP2 last term = 5 + 9·2 = 23, sum = 5·(5 + 23) = 5·28 = 140.\nThus AP1’s sum (155) is larger than AP2’s (140). Options B, C, D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A ladder has 20 rungs. The first rung is 5 cm above the ground and each successive rung is 3 cm higher than the previous one. After climbing the 12th rung, how many centimeters has the child ascended?",
+      "options": {
+        "A": "258 cm",
+        "B": "260 cm",
+        "C": "255 cm",
+        "D": "250 cm"
+      },
+      "correct_option": "A",
+      "answer": "258 cm",
+      "explanation": "The heights of the rungs form an AP with a = 5 cm, d = 3 cm, n = 12. Sum S_n = n/2[2a + (n‑1)d] = 12/2[10 + 11·3] = 6·43 = 258 cm. The other options arise from mis‑calculating the bracket or forgetting the factor 1/2.",
+      "difficulty": "hard"
+    }
+  ]
+}

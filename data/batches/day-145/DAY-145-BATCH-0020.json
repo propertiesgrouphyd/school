@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Consider two arithmetic progressions: AP1 has first term 3, common difference 2 and 10 terms; AP2 has first term 5, common difference 1 and 10 terms. Which AP has the larger sum?",
+      "options": {
+        "A": "AP1",
+        "B": "AP2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "A",
+      "answer": "AP1",
+      "explanation": "Sum of AP1 = n/2[2a+(n-1)d] = 10/2[2*3+9*2] = 5[6+18] = 120. Sum of AP2 = 10/2[2*5+9*1] = 5[10+9] = 5*19 = 95. Since 120 > 95, AP1 has the larger sum. Options B, C, D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves Rs 100 in the first month and increases the saving by Rs 20 each subsequent month. What is the total amount saved after 12 months?",
+      "options": {
+        "A": "Rs 2520",
+        "B": "Rs 2600",
+        "C": "Rs 2400",
+        "D": "Rs 2300"
+      },
+      "correct_option": "A",
+      "answer": "Rs 2520",
+      "explanation": "Here a = 100, d = 20, n = 12. Using S_n = n/2[2a+(n-1)d] gives S_12 = 12/2[200+11*20] = 6[200+220] = 6*420 = 2520. Hence option A is correct; the other values result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "Which of the following sequences of steps correctly derives the formula S_n = n/2[2a+(n-1)d] for an arithmetic progression?",
+      "options": {
+        "A": "Write the series forward and backward, add termwise to obtain 2S_n = n[2a+(n-1)d], then divide by 2.",
+        "B": "Multiply the first term by the number of terms and add the common difference once.",
+        "C": "Apply the geometric series sum formula to the AP.",
+        "D": "Subtract the last term from the first term and multiply by n."
+      },
+      "correct_option": "A",
+      "answer": "Write the series forward and backward, add termwise to obtain 2S_n = n[2a+(n-1)d], then divide by 2.",
+      "explanation": "The standard derivation: S_n = a + (a+d)+...+[a+(n-1)d]; write it in reverse and add: 2S_n = n[2a+(n-1)d]; dividing by 2 yields the required formula. Options B, C, D do not follow the correct reasoning.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "Find the sum of the first 15 terms of an AP whose first term is 4 and common difference is 3.",
+      "options": {
+        "A": "375",
+        "B": "360",
+        "C": "390",
+        "D": "405"
+      },
+      "correct_option": "A",
+      "answer": "375",
+      "explanation": "Using S_n = n/2[2a+(n-1)d] with n=15, a=4, d=3: S_15 = 15/2[8+14*3] = 7.5[8+42] = 7.5*50 = 375. Hence option A is correct; the other numbers arise from mis‑calculations of the bracket or the factor 1/2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "The formula S_n = n/2(a + l) is most convenient when which pair of quantities is known?",
+      "options": {
+        "A": "First term and common difference",
+        "B": "Number of terms and last term",
+        "C": "First term and number of terms",
+        "D": "Common difference and last term"
+      },
+      "correct_option": "B",
+      "answer": "Number of terms and last term",
+      "explanation": "The formula S_n = n/2(a + l) requires the first term a, the last term l, and the number of terms n. When a and l are known, the sum is directly computed. Option B provides n and l, which together with a (often known) make the formula handy. Options A, C, D do not give the last term directly, so the formula is less convenient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Find the sum of the first 8 terms of the AP: 5, 9, 13, ...",
+      "options": {
+        "A": "152",
+        "B": "160",
+        "C": "144",
+        "D": "148"
+      },
+      "correct_option": "A",
+      "answer": "152",
+      "explanation": "Here a=5, d=4, n=8. S_8 = 8/2[2*5+7*4] = 4[10+28] = 4*38 = 152. Therefore option A is correct; the other options result from arithmetic slip in the bracket or the multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "The gaps between successive rungs of a ladder form an AP. The first gap is 10 cm and each subsequent gap is 2 cm larger than the previous one. What is the total height of the ladder up to the 20th rung?",
+      "options": {
+        "A": "580 cm",
+        "B": "600 cm",
+        "C": "560 cm",
+        "D": "540 cm"
+      },
+      "correct_option": "A",
+      "answer": "580 cm",
+      "explanation": "We need the sum of the first 20 gaps: a=10, d=2, n=20. S_20 = 20/2[2*10+19*2] = 10[20+38] = 10*58 = 580 cm. Hence option A is correct; the other values come from mis‑applying the formula or using wrong n.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "A teacher writes the first n terms of an AP on the board and then writes the same terms in reverse order directly below. Adding the two rows term‑wise gives the same number in each column. Which expression represents this constant column sum?",
+      "options": {
+        "A": "2a + (n‑1)d",
+        "B": "a + l",
+        "C": "n[2a + (n‑1)d]",
+        "D": "(2a + (n‑1)d)/2"
+      },
+      "correct_option": "A",
+      "answer": "2a + (n‑1)d",
+      "explanation": "The first term of the top row is a and the corresponding term in the bottom row is the last term l = a+(n‑1)d. Their sum is a + [a+(n‑1)d] = 2a + (n‑1)d, which is the same for every column. Options B, C, D either omit the factor 2 or incorrectly scale the expression.",
+      "difficulty": "medium"
+    }
+  ]
+}

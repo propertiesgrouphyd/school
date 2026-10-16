@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "A person saves \\$100 in the first month and increases the saving by \\$20 each subsequent month. What is the total amount saved in the first 6 months?",
+      "options": {
+        "A": "800",
+        "B": "900",
+        "C": "1000",
+        "D": "1100"
+      },
+      "correct_option": "B",
+      "answer": "900",
+      "explanation": "The savings form an AP with first term a = 100, common difference d = 20 and n = 6. Using S_n = n/2[2a + (n-1)d] gives S_6 = 6/2[200 + 5·20] = 3[200 + 100] = 3·300 = 900. Hence option B is correct; the other options result from incorrect arithmetic or forgetting the factor 1/2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "In a competition, the scores of participants form an arithmetic progression with first score 15, last score 45 and total participants 7. Which expression correctly gives the total sum of scores?",
+      "options": {
+        "A": "n/2[2a + (n-1)d]",
+        "B": "n(a + l)",
+        "C": "n/2(a + l)",
+        "D": "(n-1)/2[2a + (n-1)d]"
+      },
+      "correct_option": "C",
+      "answer": "n/2(a + l)",
+      "explanation": "When the first term a, last term l and number of terms n are known, the sum of an AP is S_n = n/2(a + l). Substituting a = 15, l = 45, n = 7 gives S = 7/2(15+45) = 210. Option C reflects this formula; the other options either omit the division by 2 or misuse the terms.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "Which of the following is the correct formula for the sum of the first n terms of an arithmetic progression?",
+      "options": {
+        "A": "S_n = n[2a + (n-1)d]",
+        "B": "S_n = n/2[2a + (n-1)d]",
+        "C": "S_n = (2a + (n-1)d)/n",
+        "D": "S_n = n/2(a + l)"
+      },
+      "correct_option": "B",
+      "answer": "S_n = n/2[2a + (n-1)d]",
+      "explanation": "The standard sum formula is S_n = n/2[2a + (n-1)d]. Option A misses the division by 2, leading to a value twice as large. Option C incorrectly places the division. Option D is an alternative form using the last term l, but the question asks for the form with a and d, making B the correct choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2(a + l)",
+      "question": "If the first term of an AP is 5, the last term is 45 and there are 9 terms, what is the sum of the series?",
+      "options": {
+        "A": "200",
+        "B": "225",
+        "C": "250",
+        "D": "275"
+      },
+      "correct_option": "B",
+      "answer": "225",
+      "explanation": "Using S_n = n/2(a + l): S_9 = 9/2(5 + 45) = 9/2·50 = 4.5·50 = 225. Option B matches this calculation. The other options arise from arithmetic errors such as using n instead of n/2 or mis‑adding the terms.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Find sums of specified APs",
+      "question": "Consider two arithmetic progressions each having 10 terms. AP1 has first term 2 and common difference 3. AP2 has first term 5 and common difference 2. Which statement is true?",
+      "options": {
+        "A": "Sum of AP1 is greater than sum of AP2",
+        "B": "Sum of AP1 equals sum of AP2",
+        "C": "Sum of AP1 is less than sum of AP2",
+        "D": "The sums cannot be compared without knowing the last terms"
+      },
+      "correct_option": "A",
+      "answer": "Sum of AP1 is greater than sum of AP2",
+      "explanation": "Sum of AP1: S = 10/2[2·2 + (10-1)·3] = 5[4 + 27] = 5·31 = 155. Sum of AP2: S = 10/2[2·5 + (10-1)·2] = 5[10 + 18] = 5·28 = 140. Since 155 > 140, option A is correct. Options B and C are false, and D is unnecessary because the formula uses a and d directly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Solve word problems involving AP sums",
+      "question": "The distances between successive rungs of a ladder form an AP. The first rung is 30 cm above the ground and each subsequent rung is 5 cm higher than the previous one. What is the total height of the ladder up to the 15th rung?",
+      "options": {
+        "A": "975 cm",
+        "B": "1025 cm",
+        "C": "1125 cm",
+        "D": "1175 cm"
+      },
+      "correct_option": "A",
+      "answer": "975 cm",
+      "explanation": "Here a = 30 cm, d = 5 cm, n = 15. Using S_n = n/2[2a + (n‑1)d]: S_15 = 15/2[60 + 14·5] = 7.5[60 + 70] = 7.5·130 = 975 cm. Option A matches this result. The other options arise from mis‑calculating the bracket term or forgetting the factor 1/2, common errors in competitive exams.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Derive the sum formula",
+      "question": "Which of the following steps is part of the standard derivation of the sum formula for an arithmetic progression?",
+      "options": {
+        "A": "Adding the first term to the last term",
+        "B": "Multiplying the first term by the number of terms",
+        "C": "Dividing the common difference by the number of terms",
+        "D": "Subtracting the last term from the first term"
+      },
+      "correct_option": "A",
+      "answer": "Adding the first term to the last term",
+      "explanation": "In the classic derivation, the series is written forward and backward; corresponding terms (first with last, second with second‑last, etc.) are added, giving each pair a sum of a + l. This step is essential. Options B, C, and D do not appear in the derivation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00606",
+      "learning_point": "Use S_n = n/2[2a + (n − 1)d]",
+      "question": "For an AP with first term a = 4, common difference d = 6, and n = 5, what is S_5?",
+      "options": {
+        "A": "70",
+        "B": "80",
+        "C": "90",
+        "D": "100"
+      },
+      "correct_option": "B",
+      "answer": "80",
+      "explanation": "Apply S_n = n/2[2a + (n‑1)d]: S_5 = 5/2[8 + 4·6] = 2.5[8 + 24] = 2.5·32 = 80. Option B is correct. The other numbers result from arithmetic slips such as using n instead of n/2 or mis‑computing the bracket.",
+      "difficulty": "easy"
+    }
+  ]
+}
