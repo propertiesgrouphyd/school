@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find the position of a given term",
+      "question": "In an arithmetic progression the first term is 2 and the fifth term is 20. For the same progression, what is the position (n) of the term whose value is 56?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14"
+      },
+      "correct_option": "C",
+      "answer": "13",
+      "explanation": "First find the common difference: d = (20‑2)/(5‑1) = 18/4 = 4.5. The nth term formula is a_n = a + (n‑1)d. Set a_n = 56: 2 + (n‑1)·4.5 = 56 ⇒ (n‑1)·4.5 = 54 ⇒ n‑1 = 12 ⇒ n = 13. Hence option C is correct; the other options give incorrect positions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Solve AP problems involving unknown parameters",
+      "question": "In an AP, the sum of the first n terms is 150 and the sum of the first 2n terms is 340. What is the value of the nth term?",
+      "options": {
+        "A": "70",
+        "B": "80",
+        "C": "90",
+        "D": "100"
+      },
+      "correct_option": "B",
+      "answer": "80",
+      "explanation": "Let a be the first term and d the common difference. S_n = n/2[2a+(n‑1)d]=150 …(1) S_{2n}= n[2a+(2n‑1)d]=340 …(2). From (1): n(2a+(n‑1)d)=300. From (2): n(2a+(2n‑1)d)=340. Subtracting gives n·n·d =40 ⇒ d =40/n². Substituting into (1) and solving yields n=2, d=10, a=70. The nth term a_n = a+(n‑1)d = 70+10 = 80. Option B is correct; the other numbers do not satisfy both sum conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "Which of the following expressions correctly gives the nth term of an arithmetic progression?",
+      "options": {
+        "A": "a_n = a + nd",
+        "B": "a_n = a + (n - 1)d",
+        "C": "a_n = nd",
+        "D": "a_n = a - (n - 1)d"
+      },
+      "correct_option": "B",
+      "answer": "a_n = a + (n - 1)d",
+      "explanation": "The general term of an AP is obtained by adding the common difference d repeatedly (n‑1) times to the first term a, giving a_n = a + (n‑1)d. Option B matches this; the others are algebraically incorrect for an AP.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Use a_n = a + (n − 1)d",
+      "question": "If the first term a = 3 and the common difference d = 4, what is the 10th term a_{10}?",
+      "options": {
+        "A": "39",
+        "B": "40",
+        "C": "41",
+        "D": "42"
+      },
+      "correct_option": "A",
+      "answer": "39",
+      "explanation": "Using a_n = a + (n‑1)d, a_{10} = 3 + (10‑1)·4 = 3 + 36 = 39. Hence option A is correct; the other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find a specified term",
+      "question": "In an AP with first term 5 and common difference 2, what is the 7th term?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "18"
+      },
+      "correct_option": "C",
+      "answer": "17",
+      "explanation": "Apply a_n = a + (n‑1)d: a_7 = 5 + (7‑1)·2 = 5 + 12 = 17. Option C is correct; the other numbers come from mis‑counting the number of differences added.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find the position of a given term",
+      "question": "In the AP 2, 5, 8, 11, …, which term has the value 50?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "18"
+      },
+      "correct_option": "C",
+      "answer": "17",
+      "explanation": "Using n = ((term – a)/d) + 1, n = ((50 – 2)/3) + 1 = 48/3 + 1 = 16 + 1 = 17. Therefore the 17th term is 50. Options A, B, D give incorrect positions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Solve AP problems involving unknown parameters",
+      "question": "In an AP, the sum of the first five terms is 70 and the fourth term is 20. Find the first term.",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "2",
+      "explanation": "Let a be the first term and d the common difference. Fourth term: a+3d=20 …(1). Sum of first five terms: S_5 = 5/2[2a+4d]=70 ⇒ 2a+4d=28 ⇒ a+2d=14 …(2). Subtract (2) from (1): (a+3d)-(a+2d)=d=20‑14=6. Hence d=6. Substitute into (2): a+2·6=14 ⇒ a=2. Option A is correct; the other choices do not satisfy both conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "A staircase has steps whose heights form an AP. The first step is 10 cm high and each successive step is 2 cm taller than the previous one. Which formula correctly gives the height of the nth step?",
+      "options": {
+        "A": "a_n = 10 + 2n",
+        "B": "a_n = 10 + (n - 1)·2",
+        "C": "a_n = 2n - 10",
+        "D": "a_n = 10n + 2"
+      },
+      "correct_option": "B",
+      "answer": "a_n = 10 + (n - 1)·2",
+      "explanation": "The first term a = 10 and common difference d = 2. The nth term of an AP is a_n = a + (n‑1)d, giving a_n = 10 + (n‑1)·2. Option B matches this; the other options either add the difference incorrectly or multiply the first term.",
+      "difficulty": "medium"
+    }
+  ]
+}

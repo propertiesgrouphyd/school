@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "Which of the following steps correctly derives the nth‑term formula for an arithmetic progression?",
+      "options": {
+        "A": "Starting from the first term a and adding (n − 1) times the common difference d gives a_n = a + (n − 1)d.",
+        "B": "Starting from the first term a and adding n times the common difference d gives a_n = a + nd.",
+        "C": "Starting from the first term a and adding (n + 1) times the common difference d gives a_n = a + (n + 1)d.",
+        "D": "Starting from the first term a and subtracting (n − 1) times the common difference d gives a_n = a – (n − 1)d."
+      },
+      "correct_option": "A",
+      "answer": "Starting from the first term a and adding (n − 1) times the common difference d gives a_n = a + (n − 1)d.",
+      "explanation": "In an AP, each term after the first is obtained by adding the common difference d. After (n‑1) steps, the nth term is a + (n‑1)d. Options B, C, and D either add the wrong multiple of d or subtract it, leading to incorrect formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Use a_n = a + (n − 1)d",
+      "question": "In an arithmetic progression with first term a = 5 and common difference d = 3, what is the 10th term?",
+      "options": {
+        "A": "32",
+        "B": "35",
+        "C": "28",
+        "D": "30"
+      },
+      "correct_option": "A",
+      "answer": "32",
+      "explanation": "Using a_n = a + (n‑1)d, a_10 = 5 + (10‑1)·3 = 5 + 27 = 32. The other options result from incorrect arithmetic or using a wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find a specified term",
+      "question": "Which expression correctly gives the 7th term of an arithmetic progression?",
+      "options": {
+        "A": "a + 6d",
+        "B": "a + 7d",
+        "C": "a + 5d",
+        "D": "a – 6d"
+      },
+      "correct_option": "A",
+      "answer": "a + 6d",
+      "explanation": "The 7th term is obtained after 6 increments of the common difference: a_7 = a + (7‑1)d = a + 6d. Options B and C use the wrong multiplier, and D subtracts instead of adding.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find the position of a given term",
+      "question": "In an AP with first term a = 2 and common difference d = 4, the term 26 appears. What is its position n?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "Set a_n = 26: 2 + (n‑1)·4 = 26 → (n‑1)·4 = 24 → n‑1 = 6 → n = 7. The other choices correspond to incorrect algebraic manipulation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Solve AP problems involving unknown parameters",
+      "question": "In an arithmetic progression, the 3rd term is 10 and the 7th term is 22. Find the first term a and the common difference d.",
+      "options": {
+        "A": "a = 4, d = 3",
+        "B": "a = 5, d = 3",
+        "C": "a = 4, d = 2",
+        "D": "a = 2, d = 5"
+      },
+      "correct_option": "A",
+      "answer": "a = 4, d = 3",
+      "explanation": "From a + 2d = 10 and a + 6d = 22, subtracting gives 4d = 12 → d = 3. Substituting back: a = 10 – 2·3 = 4. Only option A satisfies both equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Derive the nth-term formula",
+      "question": "A farmer plants trees in a straight line such that each successive tree is 2 m farther from the start than the previous one. The first tree is 5 m from the start. Which formula gives the distance of the nth tree from the start?",
+      "options": {
+        "A": "Distance = 5 + (n − 1)·2",
+        "B": "Distance = 5 + n·2",
+        "C": "Distance = 5 + (n + 1)·2",
+        "D": "Distance = 5 – (n − 1)·2"
+      },
+      "correct_option": "A",
+      "answer": "Distance = 5 + (n − 1)·2",
+      "explanation": "The situation is an AP with a = 5 and d = 2, so the nth term (distance) is a + (n‑1)d = 5 + (n‑1)·2. Options B, C, and D misuse the multiplier or sign.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Use a_n = a + (n − 1)d",
+      "question": "A student writes the nth term of an AP as a_n = a + nd. Which statement about this formula is correct?",
+      "options": {
+        "A": "It overestimates every term by exactly d.",
+        "B": "It underestimates every term by exactly d.",
+        "C": "It is correct for all arithmetic progressions.",
+        "D": "It gives the same result as a + (n − 1)d."
+      },
+      "correct_option": "A",
+      "answer": "It overestimates every term by exactly d.",
+      "explanation": "The correct formula is a + (n‑1)d. Replacing (n‑1) with n adds an extra d, making each term larger by d. Hence the student's formula overestimates by d. Options B, C, and D are false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00605",
+      "learning_point": "Find a specified term",
+      "question": "If the 5th term of an AP is 20 and the common difference is 4, what is the 12th term?",
+      "options": {
+        "A": "48",
+        "B": "52",
+        "C": "44",
+        "D": "56"
+      },
+      "correct_option": "A",
+      "answer": "48",
+      "explanation": "First find the first term: a = a_5 – 4d = 20 – 4·4 = 4. Then a_12 = a + (12‑1)d = 4 + 11·4 = 4 + 44 = 48. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    }
+  ]
+}
