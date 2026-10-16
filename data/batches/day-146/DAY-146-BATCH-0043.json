@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Understand internal division",
+      "question": "Points A(2,3) and B(8,9) are joined. Find the coordinates of the point P that divides AB internally in the ratio 1:2.",
+      "options": {
+        "A": "(3,5)",
+        "B": "(4,5)",
+        "C": "(5,6)",
+        "D": "(6,7)"
+      },
+      "correct_option": "B",
+      "answer": "(4,5)",
+      "explanation": "Using the internal section formula, if P divides AB in the ratio m:n = 1:2, then P = ((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n)). Substituting A(2,3), B(8,9) gives ((2*2+1*8)/3, (2*3+1*9)/3) = (12/3,15/3) = (4,5). Hence option B is correct; the other options do not satisfy the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "State the section formula",
+      "question": "Which of the following expressions correctly gives the coordinates of a point that divides the line segment joining (x1, y1) and (x2, y2) internally in the ratio m:n?",
+      "options": {
+        "A": "((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n))",
+        "B": "((m·x1 + n·x2)/(m+n), (m·y1 + n·y2)/(m+n))",
+        "C": "((n·x1 - m·x2)/(m-n), (n·y1 - m·y2)/(m-n))",
+        "D": "((m·x1 - n·x2)/(m-n), (m·y1 - n·y2)/(m-n))"
+      },
+      "correct_option": "A",
+      "answer": "((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n))",
+      "explanation": "The internal section formula for a point dividing a segment in the ratio m:n is ((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n)). Option A matches this formula exactly; the other options either swap m and n or represent the external division formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Find coordinates of a dividing point",
+      "question": "Point R divides the segment AB internally in the ratio 2:3, where A(1,2) and B(7,8). Which of the following is NOT the correct coordinate of R?",
+      "options": {
+        "A": "(3.4, 4.4)",
+        "B": "(4, 5)",
+        "C": "(3.2, 4.2)",
+        "D": "(3.6, 4.6)"
+      },
+      "correct_option": "B",
+      "answer": "(4, 5)",
+      "explanation": "Using the internal section formula with m=2, n=3: R = ((3*1+2*7)/5, (3*2+2*8)/5) = (17/5, 22/5) = (3.4, 4.4). Option A is the correct coordinate. Options B, C, and D are incorrect; the question asks for the NOT correct coordinate, so B is the right choice. The other wrong options are also incorrect but only one is needed as the answer.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Solve ratio-based coordinate problems",
+      "question": "A line segment joins points C(−2, 5) and D(6, −3). If a point S divides CD internally in the ratio 3:1, what are the coordinates of S?",
+      "options": {
+        "A": "(4, -1)",
+        "B": "(2, 1)",
+        "C": "(5, -2)",
+        "D": "(3, 0)"
+      },
+      "correct_option": "A",
+      "answer": "(4, -1)",
+      "explanation": "For ratio m:n = 3:1, m=3, n=1. Using the internal section formula: S = ((n·xC + m·xD)/(m+n), (n·yC + m·yD)/(m+n)) = ((1*(-2)+3*6)/4, (1*5+3*(-3))/4) = ((-2+18)/4, (5-9)/4) = (16/4, -4/4) = (4, -1). Hence option A is correct; the other options do not satisfy the calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Understand internal division",
+      "question": "Which statement correctly distinguishes internal division from external division of a line segment?",
+      "options": {
+        "A": "In internal division the point lies between the two endpoints; in external division the point lies outside the segment.",
+        "B": "In internal division the ratio is always greater than 1; in external division the ratio is less than 1.",
+        "C": "Internal division uses the formula ((m·x1 + n·x2)/(m+n), ...); external division uses ((m·x1 - n·x2)/(m-n), ...).",
+        "D": "Both A and C are true."
+      },
+      "correct_option": "D",
+      "answer": "Both A and C are true.",
+      "explanation": "Statement A correctly describes the geometric position of the dividing point. Statement C correctly gives the algebraic formulas for internal (addition) and external (subtraction) division. Both statements are true, making option D the correct choice. Option B is false because the ratio can be any positive numbers for internal division.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "State the section formula",
+      "question": "In a competitive exam, a point T divides the segment joining P(−5, 12) and Q(7, −4) internally in the ratio 4:5. Which of the following gives the coordinates of T?",
+      "options": {
+        "A": "((5·(−5) + 4·7)/9 , (5·12 + 4·(−4))/9 )",
+        "B": "((4·(−5) + 5·7)/9 , (4·12 + 5·(−4))/9 )",
+        "C": "((5·(−5) − 4·7)/1 , (5·12 − 4·(−4))/1 )",
+        "D": "((4·(−5) − 5·7)/−1 , (4·12 − 5·(−4))/−1 )"
+      },
+      "correct_option": "A",
+      "answer": "((5·(−5) + 4·7)/9 , (5·12 + 4·(−4))/9 )",
+      "explanation": "For internal division with ratio m:n = 4:5, m=4, n=5. The internal section formula is ((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n)). Substituting (x1,y1)=P(−5,12) and (x2,y2)=Q(7,−4) gives ((5·(−5)+4·7)/9, (5·12+4·(−4))/9), which is option A. The other options either swap m and n or use the external division formula.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Find coordinates of a dividing point",
+      "question": "Find the coordinates of the point that divides the segment joining (0,0) and (10,10) internally in the ratio 1:1.",
+      "options": {
+        "A": "(5,5)",
+        "B": "(10,0)",
+        "C": "(0,10)",
+        "D": "(2,2)"
+      },
+      "correct_option": "A",
+      "answer": "(5,5)",
+      "explanation": "When the ratio is 1:1, the point is the midpoint. Using the section formula: ((1·0+1·10)/(1+1), (1·0+1·10)/(1+1)) = (10/2,10/2) = (5,5). Hence option A is correct; the other points are not midpoints of the given segment.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00612",
+      "learning_point": "Solve ratio-based coordinate problems",
+      "question": "If a point divides the segment joining (3,−2) and (9,4) in the ratio 2:1 internally, what are its coordinates?",
+      "options": {
+        "A": "(7,2)",
+        "B": "(6,1)",
+        "C": "(8,3)",
+        "D": "(5,0)"
+      },
+      "correct_option": "A",
+      "answer": "(7,2)",
+      "explanation": "Here m:n = 2:1, so m=2, n=1. Using the internal section formula: ((1·3+2·9)/(2+1), (1·(−2)+2·4)/(3)) = ((3+18)/3, (−2+8)/3) = (21/3,6/3) = (7,2). Therefore option A is correct; the other options result from incorrect calculations or swapping the ratio.",
+      "difficulty": "easy"
+    }
+  ]
+}
