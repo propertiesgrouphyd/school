@@ -1,0 +1,150 @@
+{
+  "day": 145,
+  "batch_id": "DAY-145-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Define similar figures",
+      "question": "Which of the following statements correctly defines similar figures?",
+      "options": {
+        "A": "Figures that have equal corresponding angles and proportional corresponding sides.",
+        "B": "Figures that have equal perimeters.",
+        "C": "Figures that are congruent.",
+        "D": "Figures that have the same area."
+      },
+      "correct_option": "A",
+      "answer": "Figures that have equal corresponding angles and proportional corresponding sides.",
+      "explanation": "Similar figures are those in which every pair of corresponding angles are equal and the lengths of corresponding sides are in the same ratio. Option A states exactly this. Options B, C and D describe different relationships (perimeter equality, congruence, equal area) which are not the definition of similarity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Identify corresponding vertices and sides",
+      "question": "Triangle ABC and triangle DEF have ∠A = 30°, ∠B = 70°, ∠C = 80° and ∠D = 30°, ∠E = 70°, ∠F = 80°. Which set correctly matches the corresponding vertices of the two similar triangles?",
+      "options": {
+        "A": "A ↔ D, B ↔ E, C ↔ F",
+        "B": "A ↔ E, B ↔ F, C ↔ D",
+        "C": "A ↔ F, B ↔ D, C ↔ E",
+        "D": "No correspondence can be established"
+      },
+      "correct_option": "A",
+      "answer": "A ↔ D, B ↔ E, C ↔ F",
+      "explanation": "Correspondence is established by matching equal angles. Since ∠A = ∠D, ∠B = ∠E and ∠C = ∠F, vertex A corresponds to D, B to E, and C to F. Hence option A is correct; the other pairings do not respect the angle equality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Understand AA similarity",
+      "question": "Statement: \"If two triangles have one equal angle and the ratios of the sides including that angle are equal, then the triangles are always similar.\" Is this statement correct?",
+      "options": {
+        "A": "Yes, it is always true.",
+        "B": "No, it is not sufficient for similarity.",
+        "C": "Yes, but only for right‑angled triangles.",
+        "D": "No, unless the third angle is also equal."
+      },
+      "correct_option": "B",
+      "answer": "No, it is not sufficient for similarity.",
+      "explanation": "AA similarity requires two equal angles. Having only one equal angle and proportional adjacent sides does not guarantee similarity; the second angle may differ. Therefore the statement is a misconception, making option B correct. Options A and C overstate the condition, while D mixes AA with a third‑angle requirement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Understand SSS similarity",
+      "question": "Triangle PQR has sides 3 cm, 4 cm, 5 cm. Triangle XYZ has sides 6 cm, 8 cm, 10 cm. Are the two triangles similar by the SSS criterion?",
+      "options": {
+        "A": "Yes, because the corresponding sides are in the ratio 1:2.",
+        "B": "No, because the triangles are not congruent.",
+        "C": "Yes, because both are right triangles.",
+        "D": "No, because the angles are different."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because the corresponding sides are in the ratio 1:2.",
+      "explanation": "For SSS similarity, all three pairs of corresponding sides must be proportional. 3:6 = 4:8 = 5:10 = 1:2, so the condition is satisfied and the triangles are similar. Option A states this correctly. Options B and D are irrelevant to similarity, and C, while true that both are right triangles, does not constitute the SSS reasoning required.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Understand SAS similarity",
+      "question": "Which of the following correctly states the SAS similarity criterion?",
+      "options": {
+        "A": "If two sides of one triangle are proportional to two sides of another triangle and the included angles are equal, the triangles are similar.",
+        "B": "If two sides are equal and the included angle is equal, the triangles are congruent.",
+        "C": "If only one side is proportional, the triangles are similar.",
+        "D": "If the included angles are supplementary, the triangles are similar."
+      },
+      "correct_option": "A",
+      "answer": "If two sides of one triangle are proportional to two sides of another triangle and the included angles are equal, the triangles are similar.",
+      "explanation": "SAS similarity requires proportionality of two corresponding sides together with equality of the angle between those sides. Option A captures this precisely. Option B describes congruence (SS), not similarity. Option C is insufficient, and option D confuses supplementary angles with equality.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Use similarity criteria in proofs",
+      "question": "Two triangles are found to have the ratios of two corresponding sides equal and the angle between those sides also equal. Which similarity criterion is being used to prove the triangles similar?",
+      "options": {
+        "A": "AA (Angle‑Angle)",
+        "B": "SSS (Side‑Side‑Side)",
+        "C": "SAS (Side‑Angle‑Side)",
+        "D": "RHS (Right angle‑Hypotenuse‑Side)"
+      },
+      "correct_option": "C",
+      "answer": "SAS (Side‑Angle‑Side)",
+      "explanation": "When two pairs of corresponding sides are in proportion and the included angle is equal, the SAS similarity criterion applies. Hence option C is correct. AA requires two equal angles, SSS needs three proportional sides, and RHS is a special case for right triangles, none of which match the given condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Define similar figures",
+      "question": "Two triangles are similar if they:",
+      "options": {
+        "A": "Have all corresponding angles equal and all corresponding sides in the same ratio.",
+        "B": "Have all corresponding sides equal.",
+        "C": "Have all corresponding angles supplementary.",
+        "D": "Have all corresponding sides parallel."
+      },
+      "correct_option": "A",
+      "answer": "Have all corresponding angles equal and all corresponding sides in the same ratio.",
+      "explanation": "Similarity of triangles is established when each pair of corresponding angles are equal and the lengths of corresponding sides are proportional. Option A states this definition. Options B, C, and D describe unrelated properties (congruence, supplementary angles, parallelism).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00607",
+      "learning_point": "Identify corresponding vertices and sides",
+      "question": "In similar triangles ΔPQR and ΔXYZ, if vertex P corresponds to X, which side of ΔXYZ corresponds to side QR of ΔPQR?",
+      "options": {
+        "A": "XY",
+        "B": "XZ",
+        "C": "YZ",
+        "D": "No side corresponds"
+      },
+      "correct_option": "C",
+      "answer": "YZ",
+      "explanation": "Side QR is opposite vertex P in ΔPQR. When P ↔ X, the side opposite X in ΔXYZ is YZ, so YZ corresponds to QR. Hence option C is correct. Options A and B are sides adjacent to X, not opposite, and option D is false.",
+      "difficulty": "easy"
+    }
+  ]
+}
