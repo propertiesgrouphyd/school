@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0056",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following gives the correct formula for the area of a triangle whose vertices are (x1,y1), (x2,y2) and (x3,y3)?",
+      "options": {
+        "A": "1/2|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|",
+        "B": "1/2|x1(y2+y3)+x2(y3+y1)+x3(y1+y2)|",
+        "C": "1/2|x1(y2-y3)-x2(y3-y1)+x3(y1-y2)|",
+        "D": "1/2|(x1-x2)(y2-y3)-(x2-x3)(y1-y2)|"
+      },
+      "correct_option": "A",
+      "answer": "1/2|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|",
+      "explanation": "The coordinate‑area formula for a triangle with vertices (x1,y1), (x2,y2), (x3,y3) is Area = ½ |x1(y2−y3)+x2(y3−y1)+x3(y1−y2)|. Option A matches this exactly; the other options have sign or term errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle whose vertices are A(2,3), B(5,7) and C(8,3).",
+      "options": {
+        "A": "12 square units",
+        "B": "9 square units",
+        "C": "15 square units",
+        "D": "6 square units"
+      },
+      "correct_option": "A",
+      "answer": "12 square units",
+      "explanation": "Using the formula Area = ½|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|, we get ½|2(7-3)+5(3-3)+8(3-7)| = ½|8+0-32| = ½|‑24| = 12. Hence the area is 12 square units.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "If the value obtained from the coordinate‑area formula for three points is zero, which conclusion is correct?",
+      "options": {
+        "A": "The three points are collinear.",
+        "B": "The three points form a right‑angled triangle.",
+        "C": "The three points are the vertices of an equilateral triangle.",
+        "D": "The three points lie on a circle."
+      },
+      "correct_option": "A",
+      "answer": "The three points are collinear.",
+      "explanation": "A zero area means the three points do not enclose any region, which occurs only when they lie on a single straight line, i.e., they are collinear. The other statements are unrelated to the area being zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Triangle ABC has vertices A(0,0), B(6,0) and C(p,8). If the area of the triangle is 24 square units, what can be said about the value of p?",
+      "options": {
+        "A": "p = 2",
+        "B": "p = 4",
+        "C": "p = 6",
+        "D": "The value of p cannot be determined from the given information."
+      },
+      "correct_option": "D",
+      "answer": "The value of p cannot be determined from the given information.",
+      "explanation": "With base AB on the x‑axis, the height of the triangle is the y‑coordinate of C, which is 8. Area = ½·base·height = ½·6·8 = 24, independent of the x‑coordinate p. Hence any real p satisfies the condition, so p cannot be uniquely determined.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following expressions is algebraically equivalent to the standard coordinate‑area formula for a triangle?",
+      "options": {
+        "A": "1/2|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|",
+        "B": "1/2|x1(y2+y3)+x2(y3+y1)+x3(y1+y2)|",
+        "C": "1/2|x1(y2-y3)-x2(y3-y1)+x3(y1-y2)|",
+        "D": "1/2|(x1-x2)(y2-y3)-(x2-x3)(y1-y2)|"
+      },
+      "correct_option": "A",
+      "answer": "1/2|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|",
+      "explanation": "Option A matches the standard formula. Options B, C, and D alter signs or combine terms incorrectly, making them not equivalent to the true area expression.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "In a competitive exam, a triangle has vertices P(‑2,5), Q(4,‑1) and R(k,7). If its area is 27 square units, what is the value of k?",
+      "options": {
+        "A": "5",
+        "B": "‑13",
+        "C": "Both 5 and ‑13",
+        "D": "None of these"
+      },
+      "correct_option": "C",
+      "answer": "Both 5 and ‑13",
+      "explanation": "Using the formula, ½|‑2(‑1‑7)+4(7‑5)+k(5‑(‑1))| = 27 ⇒ |24+6k| = 54 ⇒ 24+6k = 54 or ‑54. This gives k = 5 or k = ‑13. Hence both values satisfy the condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Three points are collinear if and only if the area of the triangle formed by them is ____.",
+      "options": {
+        "A": "zero",
+        "B": "positive",
+        "C": "negative",
+        "D": "one"
+      },
+      "correct_option": "A",
+      "answer": "zero",
+      "explanation": "When three points lie on a straight line, they do not enclose any region, so the computed area is zero. Any non‑zero area indicates the points are not collinear.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Which of the following situations can be solved using the coordinate‑area formula?",
+      "options": {
+        "A": "Finding the area of a triangle when the coordinates of its vertices are known.",
+        "B": "Finding the length of a side of a triangle.",
+        "C": "Finding the slope of a line.",
+        "D": "Solving a quadratic equation."
+      },
+      "correct_option": "A",
+      "answer": "Finding the area of a triangle when the coordinates of its vertices are known.",
+      "explanation": "The coordinate‑area formula directly gives the area of a triangle from its vertex coordinates. The other tasks require different formulas or methods.",
+      "difficulty": "easy"
+    }
+  ]
+}

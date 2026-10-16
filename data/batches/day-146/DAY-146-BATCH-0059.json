@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0059",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following expressions correctly gives the area of a triangle whose vertices are \\((x_1,y_1), (x_2,y_2), (x_3,y_3)\\)?",
+      "options": {
+        "A": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+        "B": "\\(\\frac12\\big|x_1(y_2+y_3)+x_2(y_3+y_1)+x_3(y_1+y_2)\\big|\\)",
+        "C": "\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|",
+        "D": "\\(\\frac12\\big[(x_1+y_1)+(x_2+y_2)+(x_3+y_3)\\big]\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+      "explanation": "The coordinate‑area formula for a triangle is \\(\\text{Area}=\\frac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|\\). Option A matches this formula exactly. Options B, C and D either miss the factor \\(\\frac12\\) or use incorrect operations, so they are wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle with vertices \\((2,3), (5,7), (8,3)\\).",
+      "options": {
+        "A": "12 square units",
+        "B": "9 square units",
+        "C": "15 square units",
+        "D": "6 square units"
+      },
+      "correct_option": "A",
+      "answer": "12 square units",
+      "explanation": "Using the coordinate‑area formula: \\(\\text{Area}=\\frac12|2(7-3)+5(3-3)+8(3-7)|=\\frac12|8+0-32|=\\frac12\\times24=12\\). Hence option A is correct; the other values result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Three points \\((x_1,y_1), (x_2,y_2), (x_3,y_3)\\) are collinear if and only if:",
+      "options": {
+        "A": "\\(x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)=0\\)",
+        "B": "\\(x_1+x_2+x_3 = y_1+y_2+y_3\\)",
+        "C": "The slopes \\(\\frac{y_2-y_1}{x_2-x_1}\\) and \\(\\frac{y_3-y_2}{x_3-x_2}\\) are unequal",
+        "D": "The product \\(x_1y_1x_2y_2x_3y_3 = 0\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)=0\\)",
+      "explanation": "The determinant expression \\(x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\) equals twice the signed area of the triangle. If the area is zero, the points are collinear, giving option A. The other statements are unrelated to collinearity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Which of the following is a valid application of the coordinate‑area formula?",
+      "options": {
+        "A": "Finding the area of a triangle when the coordinates of its vertices are known",
+        "B": "Calculating the length of a side of a triangle from its vertices",
+        "C": "Determining the midpoint of a line segment",
+        "D": "Deriving the equation of a circle passing through three points"
+      },
+      "correct_option": "A",
+      "answer": "Finding the area of a triangle when the coordinates of its vertices are known",
+      "explanation": "The coordinate‑area formula is specifically used to compute the area of a triangle from its vertex coordinates, which is described in option A. Options B, C and D involve different formulas (distance formula, midpoint formula, and circle equation).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Identify the expression that correctly defines the coordinate‑area formula for a triangle:",
+      "options": {
+        "A": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+        "B": "\\(\\frac12\\times\\text{base}\\times\\text{height}\\)",
+        "C": "\\(\\sqrt{s(s-a)(s-b)(s-c)}\\)",
+        "D": "\\((x_1+y_1)+(x_2+y_2)+(x_3+y_3)\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+      "explanation": "Option A is the exact coordinate‑area formula. Option B is the generic base‑height area formula, C is Heron's formula, and D is unrelated. Hence A is the correct definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "What is the area of the triangle with vertices \\((0,0), (4,0), (0,3)\\)?",
+      "options": {
+        "A": "6 square units",
+        "B": "12 square units",
+        "C": "5 square units",
+        "D": "7 square units"
+      },
+      "correct_option": "A",
+      "answer": "6 square units",
+      "explanation": "Using the formula: \\(\\frac12|0(0-3)+4(3-0)+0(0-0)|=\\frac12|0+12+0|=6\\). Therefore the area is 6 square units. The other options result from miscalculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Points A(1,2), B(3,6) and C(5,10) are given. Are they collinear?",
+      "options": {
+        "A": "Yes, they are collinear",
+        "B": "No, they are not collinear",
+        "C": "Cannot be determined without more information",
+        "D": "They are collinear only if they lie on the x‑axis"
+      },
+      "correct_option": "A",
+      "answer": "Yes, they are collinear",
+      "explanation": "Compute the determinant: \\(1(6-10)+3(10-2)+5(2-6)= -4+24-20=0\\). Zero area means the points are collinear, so option A is correct. The other options are incorrect statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "A farmer’s triangular field has vertices at \\((2,1), (6,5), (2,9)\\). What is the area of the field?",
+      "options": {
+        "A": "16 square units",
+        "B": "12 square units",
+        "C": "20 square units",
+        "D": "8 square units"
+      },
+      "correct_option": "A",
+      "answer": "16 square units",
+      "explanation": "Applying the coordinate‑area formula: \\(\\frac12|2(5-9)+6(9-1)+2(1-5)|=\\frac12|2(-4)+6(8)+2(-4)|=\\frac12|-8+48-8|=\\frac12\\times32=16\\). Hence the area is 16 square units. Other options arise from arithmetic errors.",
+      "difficulty": "medium"
+    }
+  ]
+}

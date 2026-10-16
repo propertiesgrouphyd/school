@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0058",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "What is the formula for the area of a triangle whose vertices are \\((x_1,y_1), (x_2,y_2), (x_3,y_3)\\)?",
+      "options": {
+        "A": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+        "B": "\\(\\frac12\\,(x_1+y_1+x_2+y_2+x_3+y_3)\\)",
+        "C": "\\(|x_1y_2+x_2y_3+x_3y_1|\\)",
+        "D": "\\(\\frac12\\big[(x_1-x_2)(y_2-y_3)-(x_2-x_3)(y_1-y_2)\\big]\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\)",
+      "explanation": "The coordinate‑area formula for a triangle with vertices \\((x_1,y_1), (x_2,y_2), (x_3,y_3)\\) is \\(\\text{Area}=\\frac12\\big|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\big|\\). Options B, C and D are incorrect forms that do not give the correct area.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "Find the area of the triangle whose vertices are \\((2,3), (5,7), (8,3)\\).",
+      "options": {
+        "A": "12 square units",
+        "B": "9 square units",
+        "C": "15 square units",
+        "D": "6 square units"
+      },
+      "correct_option": "A",
+      "answer": "12 square units",
+      "explanation": "Using the formula, \\(\\frac12|2(7-3)+5(3-3)+8(3-7)| = \\frac12|8+0-32| = \\frac12\\times24 = 12\\). Hence the area is 12 square units. The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which statement correctly describes the use of the coordinate‑area formula for testing collinearity of three points?",
+      "options": {
+        "A": "If the formula gives zero, the points are collinear.",
+        "B": "If the formula gives a non‑zero value, the points are collinear.",
+        "C": "The formula cannot be used to test collinearity.",
+        "D": "Points are collinear only when they all lie on the x‑axis."
+      },
+      "correct_option": "A",
+      "answer": "If the formula gives zero, the points are collinear.",
+      "explanation": "A zero area means the three points lie on a straight line, i.e., they are collinear. Option B reverses the condition, C is false because the formula is precisely for this test, and D is an unnecessary restriction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Lines \\(x=2\\) and \\(y=1\\) intersect the line joining \\((0,0)\\) and \\((4,6)\\) at points A, B and C respectively. What is the area of triangle \\(ABC\\)?",
+      "options": {
+        "A": "\\(\\frac{4}{3}\\) square units",
+        "B": "2 square units",
+        "C": "\\(\\frac{5}{3}\\) square units",
+        "D": "1 square unit"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{4}{3}\\) square units",
+      "explanation": "The line through \\((0,0)\\) and \\((4,6)\\) is \\(y=\\frac{3}{2}x\\). Intersection with \\(x=2\\) gives A\\((2,3)\\); with \\(y=1\\) gives B\\((\\frac{2}{3},1)\\); C is \\((2,1)\\). Using the determinant formula, area = \\(\\frac12|0+\\frac{8}{3}+4| = \\frac{4}{3}\\). Other options arise from mis‑calculations of the determinant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Using the coordinate‑area formula, find the area of the triangle with vertices \\((1,2), (4,6), (7,2)\\).",
+      "options": {
+        "A": "12 square units",
+        "B": "8 square units",
+        "C": "10 square units",
+        "D": "6 square units"
+      },
+      "correct_option": "A",
+      "answer": "12 square units",
+      "explanation": "Applying \\(\\frac12|1(6-2)+4(2-2)+7(2-6)| = \\frac12|4+0-28| = \\frac12\\times24 = 12\\). Hence the area is 12. The other choices correspond to forgetting the absolute value or halving incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "A farmer wants to fence a triangular field whose corners are at \\((3,4), (9,4)\\) and \\((6,10)\\). What is the area of the field?",
+      "options": {
+        "A": "18 square units",
+        "B": "12 square units",
+        "C": "24 square units",
+        "D": "15 square units"
+      },
+      "correct_option": "A",
+      "answer": "18 square units",
+      "explanation": "Using the formula: \\(\\frac12|3(4-10)+9(10-4)+6(4-4)| = \\frac12|-18+54+0| = \\frac12\\times36 = 18\\). The other options result from arithmetic slips in the determinant calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which of the following reflects a common misconception about using the coordinate‑area formula to test collinearity?",
+      "options": {
+        "A": "Believing that a non‑zero area guarantees the points are collinear.",
+        "B": "Believing that a zero area guarantees the points are collinear.",
+        "C": "Assuming the formula works only for points in the first quadrant.",
+        "D": "Assuming the computed area must be an integer."
+      },
+      "correct_option": "A",
+      "answer": "Believing that a non‑zero area guarantees the points are collinear.",
+      "explanation": "The correct use is: zero area ⇒ collinear; a non‑zero area ⇒ not collinear. Option A reverses this logic, which is a typical error. Option B is actually correct reasoning, while C and D are irrelevant restrictions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "Line \\(L_1: y=2x+1\\) meets the x‑axis at A. Line \\(L_2: y=-x+4\\) meets the x‑axis at B. The two lines intersect at C. What is the area of triangle \\(ABC\\)?",
+      "options": {
+        "A": "\\(\\frac{27}{4}\\) square units",
+        "B": "\\(\\frac{9}{2}\\) square units",
+        "C": "\\(\\frac{15}{2}\\) square units",
+        "D": "12 square units"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{27}{4}\\) square units",
+      "explanation": "A is at \\((-0.5,0)\\) from \\(0=2x+1\\). B is at \\((4,0)\\) from \\(0=-x+4\\). C is the intersection of the two lines: solving gives \\((1,3)\\). Using the determinant formula gives area \\(\\frac12|(-0.5)(0-3)+4(3-0)+1(0-0)| = \\frac12|1.5+12| = \\frac12\\times13.5 = 6.75 = \\frac{27}{4}\\). Other options stem from mis‑evaluating the determinant or forgetting the absolute value.",
+      "difficulty": "medium"
+    }
+  ]
+}

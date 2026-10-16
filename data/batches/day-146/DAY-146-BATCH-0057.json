@@ -1,0 +1,150 @@
+{
+  "day": 146,
+  "batch_id": "DAY-146-BATCH-0057",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following formulas correctly gives the area of a triangle whose vertices are (x1, y1), (x2, y2) and (x3, y3)?",
+      "options": {
+        "A": "\\frac12 \\big|x_1(y_2 + y_3) + x_2(y_3 + y_1) + x_3(y_1 + y_2)\\big|",
+        "B": "\\frac12 \\big|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\\big|",
+        "C": "\\big|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\\big|",
+        "D": "\\frac12 \\big(x_1y_2 + x_2y_3 + x_3y_1 - x_2y_1 - x_3y_2 - x_1y_3\\big)"
+      },
+      "correct_option": "B",
+      "answer": "\\frac12 \\big|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\\big|",
+      "explanation": "The coordinate‑area formula for a triangle with vertices (x1,y1), (x2,y2), (x3,y3) is ½ |x1(y2‑y3)+x2(y3‑y1)+x3(y1‑y2)|. Option B matches this expression exactly; the other options either miss the absolute value, use incorrect signs, or add terms that are not part of the formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "What is the area of the triangle with vertices A(2,3), B(5,7) and C(8,3)?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "15",
+        "D": "24"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "Using the formula: ½|2(7‑3)+5(3‑3)+8(3‑7)| = ½|2·4+5·0+8·(-4)| = ½|8‑32| = ½·24 = 12 square units. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Using the coordinate‑area formula, determine whether the points P(1,2), Q(3,6) and R(5,10) are collinear.",
+      "options": {
+        "A": "They are collinear",
+        "B": "They are not collinear",
+        "C": "Cannot be determined",
+        "D": "They form a right triangle"
+      },
+      "correct_option": "A",
+      "answer": "They are collinear",
+      "explanation": "Compute ½|1(6‑10)+3(10‑2)+5(2‑6)| = ½|1·(-4)+3·8+5·(-4)| = ½| -4+24‑20| = ½|0| = 0. An area of zero means the three points lie on a straight line, so they are collinear.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "A farmer wants to know the area of a triangular field whose corners are at (0,0), (6,0) and (6,8). Using the coordinate‑area formula, what is the area of the field?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "30",
+        "D": "36"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "Applying the formula: ½|0(0‑8)+6(8‑0)+6(0‑0)| = ½|0+48+0| = ½·48 = 24 square units. This matches the simple base‑height calculation (½·6·8).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "State the coordinate-area formula",
+      "question": "Which of the following statements about the coordinate‑area formula is FALSE?",
+      "options": {
+        "A": "The formula gives a positive value for the area regardless of the order of the vertices.",
+        "B": "The formula includes an absolute value sign to ensure the area is non‑negative.",
+        "C": "Changing the sequence of the three vertices can change the sign of the expression inside the absolute value.",
+        "D": "The formula can be used to find the area of any polygon by dividing it into triangles."
+      },
+      "correct_option": "D",
+      "answer": "The formula can be used to find the area of any polygon by dividing it into triangles.",
+      "explanation": "The coordinate‑area formula is specifically for a single triangle. While a polygon can be split into triangles, the formula itself does not directly give the area of a polygon without that extra step, making statement D false. The other statements correctly describe properties of the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Calculate area from three points",
+      "question": "To find the area of the triangle with vertices A(-1,2), B(3,-4) and C(5,6) using the coordinate‑area formula, which of the following calculations must be performed first?",
+      "options": {
+        "A": "Compute x₁(y₂ - y₃)",
+        "B": "Compute y₁(x₂ - x₃)",
+        "C": "Compute (x₁ + y₁)(x₂ + y₂)",
+        "D": "Compute the distances between each pair of points"
+      },
+      "correct_option": "A",
+      "answer": "Compute x₁(y₂ - y₃)",
+      "explanation": "The formula starts with the term x₁(y₂ - y₃). Evaluating this first simplifies the subsequent steps. Options B, C, and D are unrelated to the determinant‑based area calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Determine collinearity using area",
+      "question": "Which statement correctly compares the coordinate‑area method with the slope method for testing collinearity of three points?",
+      "options": {
+        "A": "Both methods always give the same numerical value for any three points.",
+        "B": "The area method can detect collinearity even when the slopes are undefined, whereas the slope method cannot.",
+        "C": "The slope method requires computing determinants, while the area method does not.",
+        "D": "The area method is less reliable than the slope method because it depends on the order of points."
+      },
+      "correct_option": "B",
+      "answer": "The area method can detect collinearity even when the slopes are undefined, whereas the slope method cannot.",
+      "explanation": "If two points share a vertical line, the slope is undefined, making the slope method inconvenient. The coordinate‑area formula uses only coordinates and yields zero area for collinear points regardless of verticality, so statement B is correct. The other statements are inaccurate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00613",
+      "learning_point": "Solve coordinate geometry applications",
+      "question": "In a coordinate plane, the lines L₁: x + y = 2, L₂: 2x – y = 3 and L₃: y = 4 intersect to form a triangle. What is the area of this triangle?",
+      "options": {
+        "A": "\\frac{121}{12}",
+        "B": "\\frac{25}{2}",
+        "C": "15",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{121}{12}",
+      "explanation": "First find the vertices: L₁∩L₂ → (5/3,1/3); L₁∩L₃ → (-2,4); L₂∩L₃ → (7/2,4). Using the formula ½|x₁(y₂‑y₃)+x₂(y₃‑y₁)+x₃(y₁‑y₂)| gives ½|0 – 22/3 – 77/6| = ½·121/6 = 121/12. Hence option A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}
