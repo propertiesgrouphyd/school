@@ -1,0 +1,78 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97-001",
+      "learning_unit_id": "LU-00625",
+      "learning_point": "Set volumes equal during recasting",
+      "question": "A solid cylinder of radius 3 cm and height 5 cm is melted and recast into a cube. What is the side length of the cube?",
+      "options": {
+        "A": "7.5 cm",
+        "B": "5.2 cm",
+        "C": "3 cm",
+        "D": "9 cm"
+      },
+      "correct_option": "B",
+      "answer": "5.2 cm",
+      "explanation": "When a solid is recast, its volume remains the same. Volume of the cylinder = πr²h = π·3²·5 = 45π cm³. Let the side of the cube be s; then s³ = 45π, so s = (45π)^{1/3} ≈ 5.2 cm. Options that use surface‑area equality (e.g., 7.5 cm) are incorrect because volume, not surface area, is conserved.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98-001",
+      "learning_unit_id": "LU-00625",
+      "learning_point": "Solve unknown-dimension problems",
+      "question": "A solid sphere of radius r cm is melted and recast into a right circular cone whose base radius is 6 cm and height is 12 cm. Find the value of r (correct to two decimal places).",
+      "options": {
+        "A": "3.00 cm",
+        "B": "4.76 cm",
+        "C": "6.00 cm",
+        "D": "8.00 cm"
+      },
+      "correct_option": "B",
+      "answer": "4.76 cm",
+      "explanation": "Volume is conserved. Volume of cone = (1/3)π·6²·12 = 144π cm³. Volume of sphere = (4/3)πr³. Equate: (4/3)πr³ = 144π ⇒ r³ = 108 ⇒ r = 108^{1/3} ≈ 4.76 cm. The other options arise from incorrect algebra or ignoring the factor 4/3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99-001",
+      "learning_unit_id": "LU-00625",
+      "learning_point": "Apply unit consistency",
+      "question": "A metal block has a volume of 0.02 m³. It is melted and recast into a solid sphere. What is the radius of the sphere in centimeters?",
+      "options": {
+        "A": "5 cm",
+        "B": "8.5 cm",
+        "C": "10.5 cm",
+        "D": "12 cm"
+      },
+      "correct_option": "C",
+      "answer": "10.5 cm",
+      "explanation": "First convert the volume to cm³: 0.02 m³ = 0.02 × (100 cm)³ = 0.02 × 1,000,000 cm³ = 20,000 cm³. For a sphere, (4/3)πr³ = 20,000 ⇒ r³ = 20,000·3/(4π) = 15,000/π ≈ 4,774 ⇒ r ≈ 10.5 cm. Options that ignore unit conversion give much smaller radii.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100-001",
+      "learning_unit_id": "LU-00625",
+      "learning_point": "Interpret practical recasting situations",
+      "question": "A cylindrical wooden log 1 m long has a radius of 10 cm. It is melted and recast into a solid sphere. Which statement is true?",
+      "options": {
+        "A": "The radius of the sphere will be greater than 10 cm.",
+        "B": "The radius of the sphere will be less than 10 cm.",
+        "C": "The radius of the sphere will be exactly 10 cm.",
+        "D": "The sphere will have the same surface area as the cylinder."
+      },
+      "correct_option": "A",
+      "answer": "The radius of the sphere will be greater than 10 cm.",
+      "explanation": "Volume of cylinder = πr²h = π·10²·100 = 10,000π cm³ (since 1 m = 100 cm). For a sphere, (4/3)πR³ = 10,000π ⇒ R³ = 7,500 ⇒ R ≈ 19.7 cm, which is greater than 10 cm. Surface area is not conserved, so option D is false, and options B and C contradict the calculated radius.",
+      "difficulty": "hard"
+    }
+  ]
+}
