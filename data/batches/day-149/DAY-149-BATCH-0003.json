@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "A sector of a circle has radius 10 cm and a central angle of 60°. What is the area of the sector?",
+      "options": {
+        "A": "(100π)/6 cm²",
+        "B": "(100π)/3 cm²",
+        "C": "10π cm²",
+        "D": "20π cm²"
+      },
+      "correct_option": "A",
+      "answer": "(100π)/6 cm²",
+      "explanation": "Area of a sector = (θ/360)·π·r². Substituting θ = 60°, r = 10 cm gives (60/360)·π·100 = (1/6)·100π = (100π)/6 cm². Option B uses 60/180 (double the correct factor), while C and D are unrelated values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand segment",
+      "question": "In a circle, a segment is formed by a chord and the arc it subtends. Which of the following statements is true about a circular segment?",
+      "options": {
+        "A": "Its area is always larger than the area of the corresponding sector.",
+        "B": "It consists of the region between the chord and the minor arc.",
+        "C": "It includes the centre of the circle.",
+        "D": "Its boundary is formed only by two radii."
+      },
+      "correct_option": "B",
+      "answer": "It consists of the region between the chord and the minor arc.",
+      "explanation": "A circular segment is the part of the circle bounded by a chord and the minor arc opposite the chord. It does not necessarily contain the centre (C) and its boundary is a chord plus an arc, not two radii (D). Its area can be smaller or larger than the sector depending on the angle, so A is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate segment area using sector and triangle areas",
+      "question": "A segment has radius 5 cm and a central angle of 120°. Which expression correctly gives its area (sector area minus triangle area)?",
+      "options": {
+        "A": "(π·5²·120/360) – (½·5·5·sin120°)",
+        "B": "(π·5²·120/360) + (½·5·5·sin120°)",
+        "C": "(π·5²·60/360) – (½·5·5·sin60°)",
+        "D": "(π·5²·120/360) – (½·5·5·cos120°)"
+      },
+      "correct_option": "A",
+      "answer": "(π·5²·120/360) – (½·5·5·sin120°)",
+      "explanation": "Sector area = (θ/360)·π·r² = (120/360)·π·25 = (π·5²·120/360). Triangle area formed by the two radii = ½·r²·sinθ = ½·25·sin120°. Subtracting gives option A. Option B adds instead of subtracting, C uses wrong angle, D uses cosine which is not the formula for the triangle area.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "Two circles each of radius 7 cm intersect such that the distance between their centres is 7 cm. What is the area that belongs to exactly one of the circles?",
+      "options": {
+        "A": "≈ 248 cm²",
+        "B": "≈ 200 cm²",
+        "C": "≈ 308 cm²",
+        "D": "≈ 60 cm²"
+      },
+      "correct_option": "A",
+      "answer": "≈ 248 cm²",
+      "explanation": "Total area of two circles = 2·π·7² = 98π ≈ 307.9 cm². Overlap (lens) area for equal circles with d = r is 2r²·cos⁻¹(d/2r) – (d/2)·√(4r²–d²). Here d/2r = 0.5, cos⁻¹(0.5)=π/3. Overlap = 2·49·π/3 – (7/2)·√(196–49) ≈ 102.6 – 42.4 = 60.2 cm². Area belonging to exactly one circle = 307.9 – 60.2 ≈ 247.7 cm², rounded to 248 cm². Options B, C, D are respectively too low, the total area, and the overlap only.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand sector",
+      "question": "Which of the following best defines a sector of a circle?",
+      "options": {
+        "A": "A region bounded by two radii and the included arc.",
+        "B": "A region bounded by a chord and the minor arc.",
+        "C": "The whole area inside the circle.",
+        "D": "A region formed by two intersecting chords."
+      },
+      "correct_option": "A",
+      "answer": "A region bounded by two radii and the included arc.",
+      "explanation": "A sector is the ‘pizza‑slice’ part of a circle, limited by two radii and the arc that lies between them. Option B describes a segment, C is the entire circle, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "Find the area of a sector whose radius is 8 cm and central angle is 45°.",
+      "options": {
+        "A": "8π cm²",
+        "B": "16π cm²",
+        "C": "4π cm²",
+        "D": "2π cm²"
+      },
+      "correct_option": "A",
+      "answer": "8π cm²",
+      "explanation": "Sector area = (θ/360)·π·r² = (45/360)·π·64 = (1/8)·64π = 8π cm². The other options correspond to different angle or radius values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand segment",
+      "question": "How does a circular segment differ from a sector?",
+      "options": {
+        "A": "A segment is bounded by a chord and an arc, while a sector is bounded by two radii and an arc.",
+        "B": "A segment includes the centre of the circle, whereas a sector does not.",
+        "C": "A segment is always larger in area than a sector with the same central angle.",
+        "D": "A segment is formed by two chords, while a sector is formed by a chord and a radius."
+      },
+      "correct_option": "A",
+      "answer": "A segment is bounded by a chord and an arc, while a sector is bounded by two radii and an arc.",
+      "explanation": "The key distinction is the boundary: a segment uses a straight chord plus the arc, whereas a sector uses two radii plus the arc. Options B, C, and D are incorrect statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate segment area using sector and triangle areas",
+      "question": "A circular segment has radius 6 cm and a central angle of 90°. What is its area?",
+      "options": {
+        "A": "9π - 18 cm²",
+        "B": "9π + 18 cm²",
+        "C": "18 - 9π cm²",
+        "D": "π cm²"
+      },
+      "correct_option": "A",
+      "answer": "9π - 18 cm²",
+      "explanation": "Sector area = (90/360)·π·6² = (1/4)·36π = 9π. Triangle area = ½·r²·sinθ = ½·36·sin90° = 18. Segment area = sector – triangle = 9π - 18 cm². The other options either add the triangle area or rearrange terms incorrectly.",
+      "difficulty": "easy"
+    }
+  ]
+}

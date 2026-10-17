@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "A circular garden has radius 10 cm. A sector of angle 60° is removed from the garden and a triangular flower bed of base 5 cm and height 8 cm is added. What is the total area of the garden after these changes? (Take π≈3.14)",
+      "options": {
+        "A": "282 cm²",
+        "B": "300 cm²",
+        "C": "260 cm²",
+        "D": "240 cm²"
+      },
+      "correct_option": "A",
+      "answer": "282 cm²",
+      "explanation": "Circle area = πr² = 3.14×10² = 314 cm². Sector area = (60/360)×πr² = (1/6)×314 ≈ 52.33 cm². Removing the sector leaves 314‑52.33 = 261.67 cm². Triangle area = ½×5×8 = 20 cm². Adding the triangle gives 261.67+20 ≈ 281.67 cm², which rounds to 282 cm². Hence option A is correct. The other options either ignore the sector removal or use incorrect proportions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand sector",
+      "question": "A circular flower bed in a park has radius 12 m. A 90° sector of this bed is fenced off for a seating area. What fraction of the total area of the flower bed does this sector represent?",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1/3",
+        "D": "1/6"
+      },
+      "correct_option": "B",
+      "answer": "1/4",
+      "explanation": "A sector’s area is proportional to its central angle. The sector angle is 90°, the whole circle is 360°. Fraction = 90/360 = 1/4. Option B is correct; the other fractions correspond to different angles.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "A circle has radius 7 cm and a central angle of 120°. What is the exact area of the sector? (Express your answer in terms of π)",
+      "options": {
+        "A": "49π/2",
+        "B": "49π/3",
+        "C": "7π",
+        "D": "49π"
+      },
+      "correct_option": "B",
+      "answer": "49π/3",
+      "explanation": "Sector area = (θ/360)·πr². Here θ=120°, r=7 cm. So area = (120/360)·π·7² = (1/3)·π·49 = 49π/3. Option B is correct. Option A uses 180° instead of 120°, option C omits the radius squared, and option D ignores the angle proportion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand segment",
+      "question": "In a circle of radius 10 cm, a chord subtends a central angle of 60°. What is the area of the segment (the region between the chord and the corresponding arc)? (Take π≈3.14 and √3≈1.732)",
+      "options": {
+        "A": "9.06 cm²",
+        "B": "15 cm²",
+        "C": "20 cm²",
+        "D": "5 cm²"
+      },
+      "correct_option": "A",
+      "answer": "9.06 cm²",
+      "explanation": "Sector area = (60/360)·π·10² = (1/6)·314 ≈ 52.33 cm². Triangle area formed by the two radii and the chord = ½·r²·sinθ = 0.5·100·sin60° = 50·(√3/2) ≈ 50·0.866 = 43.30 cm². Segment area = sector – triangle ≈ 52.33‑43.30 = 9.03 cm², rounded to 9.06 cm². Hence option A is correct. The other options result from forgetting to subtract the triangle or using wrong angle values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate segment area using sector and triangle areas",
+      "question": "Two chords are drawn in the same circle of radius 5 cm. Chord A subtends a central angle of 60° and chord B subtends 120°. Which segment has the larger area?",
+      "options": {
+        "A": "Segment subtended by 60°",
+        "B": "Segment subtended by 120°",
+        "C": "Both are equal",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "B",
+      "answer": "Segment subtended by 120°",
+      "explanation": "For a given radius, segment area = sector area – triangle area. Both chords have the same triangle area because sin60° = sin120°. However, the sector area for 120° (1/3 of the circle) is twice that for 60° (1/6 of the circle). Therefore the segment for 120° is larger. Option B is correct; the other options ignore the effect of the larger sector.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "A circular garden has radius 14 m. A 90° sector is removed to make a pathway, and a square of side 10 m is placed inside the remaining region. What is the total area of the garden after these modifications? (Take π≈3.14)",
+      "options": {
+        "A": "560 cm²",
+        "B": "562 cm²",
+        "C": "540 cm²",
+        "D": "580 cm²"
+      },
+      "correct_option": "B",
+      "answer": "562 cm²",
+      "explanation": "Circle area = π·14² = 3.14·196 = 615.44 m². Removed sector area = (90/360)·615.44 = 0.25·615.44 = 153.86 m². Remaining circular area = 615.44‑153.86 = 461.58 m². Adding the square (10 m ×10 m =100 m²) gives 461.58+100 = 561.58 m², which rounds to 562 m². Option B matches this value. The other options arise from mis‑calculating the sector proportion or forgetting to add the square.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand sector",
+      "question": "Which of the following best defines a sector of a circle?",
+      "options": {
+        "A": "A portion of a circle bounded by two radii and the included arc",
+        "B": "The region inside a circle",
+        "C": "A line segment joining two points on a circle",
+        "D": "The whole circle"
+      },
+      "correct_option": "A",
+      "answer": "A portion of a circle bounded by two radii and the included arc",
+      "explanation": "A sector is the ‘pie‑slice’ region formed by two radii and the arc between them. Option A states this precisely. Option B describes the entire disk, option C describes a chord, and option D describes the whole circle, none of which are sectors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "A sector of a circle has radius 5 cm and a central angle of 30°. What is its area? (Express answer in terms of π)",
+      "options": {
+        "A": "25π/12 cm²",
+        "B": "5π/6 cm²",
+        "C": "π/6 cm²",
+        "D": "25π/6 cm²"
+      },
+      "correct_option": "A",
+      "answer": "25π/12 cm²",
+      "explanation": "Sector area = (θ/360)·πr² = (30/360)·π·5² = (1/12)·π·25 = 25π/12 cm². Option A is correct. Option B mistakenly uses radius 1, option C omits the radius squared, and option D uses the wrong proportion (1/6 instead of 1/12).",
+      "difficulty": "easy"
+    }
+  ]
+}

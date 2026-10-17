@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand segment",
+      "question": "Which of the following statements correctly defines a segment of a circle?",
+      "options": {
+        "A": "A region bounded by two radii and the included arc",
+        "B": "A region bounded by a chord and the corresponding arc of the circle",
+        "C": "A region bounded by a diameter and the semicircle",
+        "D": "A region bounded by three radii and three arcs"
+      },
+      "correct_option": "B",
+      "answer": "A region bounded by a chord and the corresponding arc of the circle",
+      "explanation": "A segment (or circular segment) is the part of a circle cut off by a chord; it is bounded by that chord and the arc subtended by it. Option A describes a sector, C describes a semicircle, and D does not correspond to a standard part of a circle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate segment area using sector and triangle areas",
+      "question": "A circle has radius 10 cm. The central angle of a sector is 60°. What is the area of the segment formed by that sector? (Take π≈3.14)",
+      "options": {
+        "A": "9.06 cm²",
+        "B": "12.57 cm²",
+        "C": "15.71 cm²",
+        "D": "18.85 cm²"
+      },
+      "correct_option": "A",
+      "answer": "9.06 cm²",
+      "explanation": "Sector area = (θ/360)·πr² = (60/360)·3.14·100 = (1/6)·314 ≈ 52.33 cm². Triangle area = ½·r²·sinθ = 0.5·100·sin60° = 50·(√3/2) ≈ 43.30 cm². Segment area = sector – triangle ≈ 52.33 – 43.30 = 9.03 cm², rounded to 9.06 cm². The other options correspond to common mis‑calculations such as using the chord length instead of the triangle area.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "A circular lawn has radius 5 m. A sector of 120° is removed for a flower bed. What is the area of the remaining lawn that needs to be paved? (Use π≈3.14)",
+      "options": {
+        "A": "52.36 m²",
+        "B": "78.50 m²",
+        "C": "26.18 m²",
+        "D": "104.00 m²"
+      },
+      "correct_option": "A",
+      "answer": "52.36 m²",
+      "explanation": "Total area = πr² = 3.14·25 = 78.5 m². Removed sector area = (120/360)·π·25 = (1/3)·78.5 ≈ 26.17 m². Remaining area = 78.5 – 26.17 ≈ 52.33 m², rounded to 52.36 m². Options B and D are the total area or inflated values; C is only the sector area.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand sector",
+      "question": "A slice of pizza has a central angle of 45°. What fraction of the whole pizza does this slice represent?",
+      "options": {
+        "A": "1/4",
+        "B": "1/6",
+        "C": "1/8",
+        "D": "1/12"
+      },
+      "correct_option": "C",
+      "answer": "1/8",
+      "explanation": "Fraction = angle/360 = 45/360 = 1/8. The other fractions correspond to 90°, 60°, and 30° respectively.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "A sector of a circle has radius 8 cm and a central angle of 90°. What is its area? (Take π≈3.14)",
+      "options": {
+        "A": "16π cm²",
+        "B": "32π cm²",
+        "C": "64π cm²",
+        "D": "8π cm²"
+      },
+      "correct_option": "A",
+      "answer": "16π cm²",
+      "explanation": "Sector area = (θ/360)·πr² = (90/360)·π·64 = (1/4)·64π = 16π cm². Option B results from using the full circle area, C from forgetting the ¼ factor, and D from using radius instead of radius squared.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand segment",
+      "question": "If the length of a chord of a circle equals the radius of the circle, what is the measure of the central angle subtended by that chord?",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "correct_option": "C",
+      "answer": "60°",
+      "explanation": "For a chord of length c, c = 2r sin(θ/2). Setting c = r gives 2r sin(θ/2)=r → sin(θ/2)=½ → θ/2=30° → θ=60°. The other angles give different chord lengths.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate segment area using sector and triangle areas",
+      "question": "Which of the following expressions correctly gives the area of a circular segment with radius r and central angle θ (in radians)?",
+      "options": {
+        "A": "(θ/2π)·πr² – (1/2)r² sinθ",
+        "B": "(θ/2π)·πr² + (1/2)r² sinθ",
+        "C": "(θ/π)·πr² – r² sinθ",
+        "D": "(θ/2π)·πr² – r² sin(θ/2)"
+      },
+      "correct_option": "A",
+      "answer": "(θ/2π)·πr² – (1/2)r² sinθ",
+      "explanation": "Segment area = sector area – triangle area. Sector area = (θ/2π)·πr² = (θ/2)r². Triangle area = (1/2)r² sinθ. Hence expression A is correct. The other options either add the triangle area or misuse the angle conversion.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "A circular park has radius 20 m. A uniform walkway of width 5 m is built around it. What is the area of the walkway? (Use π≈3.14)",
+      "options": {
+        "A": "706.86 m²",
+        "B": "628.00 m²",
+        "C": "942.48 m²",
+        "D": "785.00 m²"
+      },
+      "correct_option": "A",
+      "answer": "706.86 m²",
+      "explanation": "Outer radius = 20 + 5 = 25 m. Walkway area = π(25² – 20²) = 3.14·(625 – 400) = 3.14·225 ≈ 706.86 m². Option B uses only the inner circle area, C uses a wrong subtraction, D corresponds to π·25² (the whole outer circle).",
+      "difficulty": "hard"
+    }
+  ]
+}
