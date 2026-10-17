@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "A frequency distribution has 12 class intervals with varying frequencies. Which method would give the quickest and most reliable mean for such a large grouped data set?",
+      "options": {
+        "A": "Direct method (using Σf·x)",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Graphical method using a histogram"
+      },
+      "correct_option": "B",
+      "answer": "Assumed mean method",
+      "explanation": "When the number of classes is large, calculating Σf·x for every class (direct method) is time‑consuming. The assumed mean method lets you choose a convenient class mark as a reference, compute small deviations, and then adjust the mean, greatly reducing arithmetic work. The step‑deviation method is similar but still requires an extra multiplication by the class width, making the assumed mean method slightly faster for quick exams.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "The grouped data for the ages of a class of students is given below:\n\nClass interval (years) | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 7\n\nUsing the direct method, what is the mean age?",
+      "options": {
+        "A": "24 years",
+        "B": "26 years",
+        "C": "28 years",
+        "D": "30 years"
+      },
+      "correct_option": "B",
+      "answer": "26 years",
+      "explanation": "First find the class marks: 15, 25, 35. Then Σf·x = 5·15 + 8·25 + 7·35 = 75 + 200 + 245 = 520. Total frequency N = 5+8+7 = 20. Mean = Σf·x / N = 520 / 20 = 26 years. Options A, C and D are obtained by incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "A grouped data set has the following frequencies:\n\nClass interval | Frequency\n20‑30 | 6\n30‑40 | 9\n40‑50 | 5\n\nUsing 35 as the assumed mean (class mark of 30‑40) and class width 10, a student computed Σf·d = -1 and then wrote the mean as 35 + (Σf·d)/N = 34.95. What is the correct mean?",
+      "options": {
+        "A": "34.95",
+        "B": "35.00",
+        "C": "34.50",
+        "D": "33.50"
+      },
+      "correct_option": "C",
+      "answer": "34.50",
+      "explanation": "The student omitted the multiplication by the class width. Correct formula: Mean = A + (Σf·d / N) × h, where A = 35, Σf·d = -1, N = 20, h = 10. Hence Mean = 35 + (-1/20)×10 = 35 - 0.5 = 34.5. Option A repeats the mistake, B ignores deviation, D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "For the following grouped data, find the mean using the step‑deviation method.\n\nClass interval | Frequency\n0‑10 | 4\n10‑20 | 6\n20‑30 | 5\n\nTake the assumed mean as the class mark of 10‑20 (i.e., 15) and class width = 10.",
+      "options": {
+        "A": "14.33",
+        "B": "15.00",
+        "C": "15.67",
+        "D": "16.33"
+      },
+      "correct_option": "C",
+      "answer": "15.67",
+      "explanation": "Class marks: 5, 15, 25. Deviations d = (x‑A)/h: for 5 → -1, for 15 → 0, for 25 → 1. Σf·d = 4·(-1) + 6·0 + 5·1 = -4 + 0 + 5 = 1. Total N = 15. Mean = A + (Σf·d / N) × h = 15 + (1/15)×10 = 15 + 0.666… = 15.67 (approx). Options A and D are obtained by adding/subtracting the wrong amount; B ignores the deviation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Which of the following statements about class marks in grouped data is correct?",
+      "options": {
+        "A": "The class mark is the sum of the lower and upper limits of the class.",
+        "B": "The class mark is the arithmetic mean of the lower and upper limits of the class.",
+        "C": "The class mark is always equal to the frequency of the class.",
+        "D": "The class mark must be an integer for all classes."
+      },
+      "correct_option": "B",
+      "answer": "The class mark is the arithmetic mean of the lower and upper limits of the class.",
+      "explanation": "A class mark (or midpoint) is calculated as (lower limit + upper limit) / 2, which is the arithmetic mean of the limits. Option A forgets the division by 2. Options C and D are unrelated to the definition of a class mark.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "In a competitive exam, a student is given a frequency distribution with 15 class intervals and asked to find the mean quickly. Which method should the student choose to minimise computation time while maintaining accuracy?",
+      "options": {
+        "A": "Direct method (calculate Σf·x for every class)",
+        "B": "Assumed mean method with a convenient class mark",
+        "C": "Step‑deviation method using the first class as reference",
+        "D": "Graphical estimation from a histogram"
+      },
+      "correct_option": "B",
+      "answer": "Assumed mean method with a convenient class mark",
+      "explanation": "With many classes, the direct method requires many multiplications. The assumed mean method lets the student pick a class mark close to the expected mean, compute small deviations, and then adjust, drastically reducing the number of large multiplications. The step‑deviation method is similar but still needs an extra multiplication by the class width, making the assumed mean method slightly faster. Graphical estimation is not precise enough for a competitive exam.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "Find the mean of the following grouped data using the direct method:\n\nClass interval | Frequency\n0‑10 | 3\n10‑20 | 5\n20‑30 | 2\n\n(Use class marks as mid‑points.)",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "correct_option": "B",
+      "answer": "14",
+      "explanation": "Class marks: 5, 15, 25. Σf·x = 3·5 + 5·15 + 2·25 = 15 + 75 + 50 = 140. Total frequency N = 10. Mean = 140 / 10 = 14. Options A, C, D result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "Why is the assumed mean method useful when calculating the mean of grouped data?",
+      "options": {
+        "A": "It eliminates the need to know the class width.",
+        "B": "It allows the use of a convenient reference value to simplify calculations.",
+        "C": "It provides the exact median of the data set.",
+        "D": "It converts the grouped data into ungrouped data."
+      },
+      "correct_option": "B",
+      "answer": "It allows the use of a convenient reference value to simplify calculations.",
+      "explanation": "The assumed mean method lets the student pick a class mark close to the expected mean, compute small deviations (d) for each class, and then adjust the assumed mean using Σf·d. This reduces the size of numbers involved, making arithmetic faster. It does not remove the need for class width (A), does not give the median (C), nor does it ungroup the data (D).",
+      "difficulty": "easy"
+    }
+  ]
+}

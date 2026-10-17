@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "A frequency distribution is given below:\n\nClass (in cm) | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 7\n\nUsing the assumed mean method with an assumed mean of 25 cm, what is the correct mean of the data?",
+      "options": {
+        "A": "26 cm",
+        "B": "25 cm",
+        "C": "27 cm",
+        "D": "24 cm"
+      },
+      "correct_option": "A",
+      "answer": "26 cm",
+      "explanation": "Class marks are 15, 25 and 35. Class width h = 10. Deviations d = (x‑a)/h are -1, 0, 1. Σf·d = 5(‑1)+8(0)+7(1)=2. Mean = a + (h·Σf·d)/N = 25 + (10·2)/20 = 25 + 1 = 26 cm. Option B (25 cm) results from forgetting to multiply Σf·d by the class width, a common mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "For the following grouped data, find the mean using the step‑deviation method.\n\nClass (in kg) | Frequency\n0‑5 | 4\n5‑10 | 6\n10‑15 | 5\n15‑20 | 5\n\nTake the assumed mean as the class mark of the 10‑15 kg class.",
+      "options": {
+        "A": "10.25 kg",
+        "B": "11.50 kg",
+        "C": "9.75 kg",
+        "D": "12.00 kg"
+      },
+      "correct_option": "A",
+      "answer": "10.25 kg",
+      "explanation": "Class width h = 5. Class marks: 2.5, 7.5, 12.5, 17.5. Assumed mean a = 12.5. Deviations d = (x‑a)/h are -2, -1, 0, 1. Σf·d = 4(‑2)+6(‑1)+5(0)+5(1)=‑8‑6+0+5=‑9. Mean = a + (h·Σf·d)/N = 12.5 + (5·‑9)/20 = 12.5 – 2.25 = 10.25 kg.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Which of the following statements correctly describes the role of class marks when calculating the mean of grouped data?",
+      "options": {
+        "A": "A class mark is the exact value of every observation in that class.",
+        "B": "A class mark is used as a representative value for all observations in its class.",
+        "C": "Class marks are only needed when the data are ungrouped.",
+        "D": "The mean can be found without using class marks if frequencies are known."
+      },
+      "correct_option": "B",
+      "answer": "A class mark is used as a representative value for all observations in its class.",
+      "explanation": "In grouped data the individual observations are unknown. The class mark (mid‑point of the class interval) approximates each observation in that class, allowing us to compute Σf·x. Option A is false because the class mark is not the exact value of each observation. Options C and D ignore the necessity of a representative value.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "A large data set is grouped into many classes with frequencies. Which method is generally the most efficient for finding the mean of such grouped data in a competitive exam?",
+      "options": {
+        "A": "Direct method (using Σf·x for every class)",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Median method"
+      },
+      "correct_option": "B",
+      "answer": "Assumed mean method",
+      "explanation": "When the number of classes is large, calculating Σf·x for every class (direct method) is time‑consuming. The assumed mean method reduces computation by using deviations from a convenient assumed mean, requiring fewer multiplications. The step‑deviation method is similar but involves an extra division step; the assumed mean method is usually preferred for speed in exams.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "Find the mean of the following grouped data using the direct method.\n\nClass (in units) | Frequency\n0‑10 | 3\n10‑20 | 7\n20‑30 | 5",
+      "options": {
+        "A": "16.33 units",
+        "B": "15.00 units",
+        "C": "17.00 units",
+        "D": "14.67 units"
+      },
+      "correct_option": "A",
+      "answer": "16.33 units",
+      "explanation": "Class marks: 5, 15, 25. Σf·x = 3·5 + 7·15 + 5·25 = 15 + 105 + 125 = 245. Total frequency N = 15. Mean = 245/15 = 16.333… ≈ 16.33 units. The other options arise from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "Which statement best describes the assumed mean method for finding the mean of grouped data?",
+      "options": {
+        "A": "It uses a guessed mean to simplify calculations.",
+        "B": "It requires the exact values of all observations.",
+        "C": "It ignores the class width of the data.",
+        "D": "It can be applied only to ungrouped data."
+      },
+      "correct_option": "A",
+      "answer": "It uses a guessed mean to simplify calculations.",
+      "explanation": "The assumed mean method selects a convenient value (often a class mark) as an assumed mean. Deviations from this value are used, reducing the size of numbers to be multiplied. Options B, C, and D misrepresent the method.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "In the step‑deviation method, the deviation of each class mark from the assumed mean is:",
+      "options": {
+        "A": "Taken directly without any modification.",
+        "B": "Divided by the class width.",
+        "C": "Multiplied by the class frequency only.",
+        "D": "Ignored because only frequencies matter."
+      },
+      "correct_option": "B",
+      "answer": "Divided by the class width.",
+      "explanation": "Step‑deviation (or coding) method computes d = (x‑a)/h, where h is the class width. This reduces large numbers and simplifies Σf·d. Option A describes the assumed mean method, while C and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "A school records the marks of 200 students in intervals of 10 points (0‑10, 10‑20, …, 90‑100). Why are class marks used when calculating the mean of these marks?",
+      "options": {
+        "A": "They give the exact score of each student.",
+        "B": "They provide a representative value for all scores in each interval.",
+        "C": "They are unnecessary because frequencies alone determine the mean.",
+        "D": "They represent the median of each interval."
+      },
+      "correct_option": "B",
+      "answer": "They provide a representative value for all scores in each interval.",
+      "explanation": "Since individual scores are not known, the midpoint (class mark) of each interval is taken as a typical value for all scores in that interval, enabling the calculation of Σf·x. Option A is false because the exact scores are unknown. Option C ignores the need for a value to multiply with frequency, and D confuses midpoint with median.",
+      "difficulty": "easy"
+    }
+  ]
+}

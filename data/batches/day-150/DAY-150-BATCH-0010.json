@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Which statement correctly describes the step‑deviation method for finding the mean of grouped data?",
+      "options": {
+        "A": "It uses the class width to express deviations from an assumed mean, reducing the size of numbers to be added.",
+        "B": "It directly multiplies frequencies by class marks without any assumed value.",
+        "C": "It ignores the frequencies of the classes while computing the mean.",
+        "D": "It actually yields the median rather than the mean."
+      },
+      "correct_option": "A",
+      "answer": "It uses the class width to express deviations from an assumed mean, reducing the size of numbers to be added.",
+      "explanation": "In the step‑deviation method an assumed mean (often a convenient class mark) is chosen. Each class mark is expressed as a deviation measured in units of the class width. Because the deviations are usually small fractions, the arithmetic becomes simpler while still being algebraically equivalent to the direct method. Options B, C and D describe other concepts or are false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "For the class interval 30–40 in a grouped data set, what is the class mark and why is it used in calculating the mean?",
+      "options": {
+        "A": "It is the midpoint (35) and represents all observations in that class for the mean calculation.",
+        "B": "It is the lower boundary (30) and is used to find the mode.",
+        "C": "It is the upper boundary (40) and determines the range of the data.",
+        "D": "It is the product of the class frequency and the class width."
+      },
+      "correct_option": "A",
+      "answer": "It is the midpoint (35) and represents all observations in that class for the mean calculation.",
+      "explanation": "The class mark, also called the midpoint, is obtained by averaging the lower and upper limits of a class. When the data within a class are assumed to be uniformly distributed, the class mark serves as a representative value for all observations in that class, allowing us to compute Σ f·x. Options B, C and D confuse class mark with other concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "A frequency distribution has many classes and large frequencies. Which method is most efficient for finding the mean?",
+      "options": {
+        "A": "Direct method (multiply each class mark by its frequency)",
+        "B": "Step‑deviation method (use deviations from an assumed mean)",
+        "C": "Median method (use the median class)",
+        "D": "Mode method (use the modal class)"
+      },
+      "correct_option": "B",
+      "answer": "Step‑deviation method (use deviations from an assumed mean)",
+      "explanation": "When the number of classes is large, the step‑deviation method reduces the size of numbers to be added because deviations are expressed in units of class width. This speeds up calculation while giving the same result as the direct method. The direct method involves larger numbers, and median or mode methods do not give the mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "Using the direct method, find the mean of the following grouped data:\n\nClass interval | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 10\n40‑50 | 7\n\n(Assume class width 10 and use class marks.)",
+      "options": {
+        "A": "30.5",
+        "B": "31.33",
+        "C": "32.0",
+        "D": "33.5"
+      },
+      "correct_option": "B",
+      "answer": "31.33",
+      "explanation": "Class marks: 15, 25, 35, 45. Σ f·x = 5·15 + 8·25 + 10·35 + 7·45 = 75 + 200 + 350 + 315 = 940. Total frequency N = 30. Mean = 940 ÷ 30 = 31.33 (rounded to two decimal places). Options A, C and D are results of incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "Which of the following statements reflects a common mistake when applying the assumed mean method for grouped data?",
+      "options": {
+        "A": "Dividing the sum of f·d by the class width before adding it to the assumed mean.",
+        "B": "Choosing the class mark of a convenient class as the assumed mean.",
+        "C": "Multiplying each frequency by its class mark after finding the deviations.",
+        "D": "Adding the class width to the assumed mean at the end of the calculation."
+      },
+      "correct_option": "A",
+      "answer": "Dividing the sum of f·d by the class width before adding it to the assumed mean.",
+      "explanation": "In the assumed mean method the formula is Mean = A + (Σ f·d)/N, where d = x – A (no division by class width). Dividing Σ f·d by the class width is a step belonging to the step‑deviation method, not the assumed mean method. Options B, C and D describe permissible steps or neutral actions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Why does the step‑deviation method always give the same mean as the direct method for grouped data?",
+      "options": {
+        "A": "Because it rewrites each class mark as the assumed mean plus a scaled deviation, and the scaling factor (class width) is later multiplied back, making the algebra identical to the direct calculation.",
+        "B": "Because it ignores the frequencies and therefore produces a constant value.",
+        "C": "Because it uses the median of the data instead of the class marks.",
+        "D": "Because it replaces each class mark with the lower class boundary."
+      },
+      "correct_option": "A",
+      "answer": "Because it rewrites each class mark as the assumed mean plus a scaled deviation, and the scaling factor (class width) is later multiplied back, making the algebra identical to the direct calculation.",
+      "explanation": "The step‑deviation method expresses each class mark x as A + h·u, where u is the deviation in units of class width h. Substituting into Σ f·x gives Σ f·A + h·Σ f·u = A·N + h·Σ f·u. Dividing by N and adding A yields the same result as Σ f·x/N. Options B, C and D are incorrect descriptions of the method.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Which statement best explains why class marks, rather than class boundaries, are used when computing the mean of grouped data?",
+      "options": {
+        "A": "Class marks represent the average value of observations within a class, assuming a uniform distribution, while boundaries are needed only for continuity corrections.",
+        "B": "Class boundaries give the exact values of all observations, making them unsuitable for averaging.",
+        "C": "Class marks are always whole numbers, whereas boundaries are fractional.",
+        "D": "Class boundaries change with each class, so they cannot be used in a single formula."
+      },
+      "correct_option": "A",
+      "answer": "Class marks represent the average value of observations within a class, assuming a uniform distribution, while boundaries are needed only for continuity corrections.",
+      "explanation": "When data are grouped, we assume that observations are uniformly spread across the interval; the midpoint (class mark) is therefore the best single representative for that class in mean calculations. Class boundaries are used when converting discrete data to continuous or for interpolation, not for the mean itself. Options B, C and D misstate the purpose of boundaries.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "In a competitive exam, a student is given a grouped frequency table with many classes and large frequencies. Which method is most likely to be recommended for quickly finding the mean?",
+      "options": {
+        "A": "Direct method (multiply each class mark by its frequency)",
+        "B": "Step‑deviation method (use deviations from a convenient assumed mean)",
+        "C": "Median method (use the median class only)",
+        "D": "Mode method (use the modal class only)"
+      },
+      "correct_option": "B",
+      "answer": "Step‑deviation method (use deviations from a convenient assumed mean)",
+      "explanation": "Competitive exams value speed and accuracy. The step‑deviation method reduces the magnitude of numbers to be added by working with small deviations, which is faster than handling large products in the direct method. The median and mode methods do not yield the mean. Hence option B is the recommended efficient technique.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "The following frequency distribution represents the marks obtained by students in a test.\n\nClass interval | Frequency\n10 – 20 | 5\n20 – 30 | 8\n30 – 40 | 7\n\nUsing the direct method, what is the mean of the data?",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "26",
+      "explanation": "First find the class marks: (10+20)/2 = 15, (20+30)/2 = 25, (30+40)/2 = 35. Then compute Σf·x = 5·15 + 8·25 + 7·35 = 75 + 200 + 245 = 520. Total frequency Σf = 5 + 8 + 7 = 20. Mean = Σf·x / Σf = 520 / 20 = 26. Options A, C and D give incorrect arithmetic; only B matches the correct calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "In the assumed mean method for grouped data, which of the following is the first step?",
+      "options": {
+        "A": "Calculate the exact mean using the direct method and then adjust.",
+        "B": "Choose a convenient assumed mean (a) close to the class marks.",
+        "C": "Multiply each frequency by the class width.",
+        "D": "Add all class marks together before considering frequencies."
+      },
+      "correct_option": "B",
+      "answer": "Choose a convenient assumed mean (a) close to the class marks.",
+      "explanation": "The assumed mean method starts by selecting an assumed mean (a) that simplifies calculations, usually a class mark near the centre of the data. Option B states this correctly. Option A describes the direct method, not the assumed mean method. Option C is unrelated, and Option D ignores frequencies, which are essential.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Which statement correctly describes the step‑deviation (coding) method for finding the mean of grouped data?",
+      "options": {
+        "A": "It uses the actual class marks in the numerator and the total frequency in the denominator.",
+        "B": "It replaces each class mark by its deviation from an assumed mean, divided by the class width, before multiplying by frequency.",
+        "C": "It requires the calculation of the median first and then adjusts it using the frequencies.",
+        "D": "It only works when all class frequencies are equal."
+      },
+      "correct_option": "B",
+      "answer": "It replaces each class mark by its deviation from an assumed mean, divided by the class width, before multiplying by frequency.",
+      "explanation": "The step‑deviation (or coding) method simplifies calculations by coding each class mark as d = (x – a)/h, where a is the assumed mean and h is the class width. These coded values are multiplied by frequencies and summed. Option B captures this process. Option A describes the direct method, Option C mixes up median, and Option D is false; the method works for any frequencies.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Why are class marks used when calculating the mean of grouped data?",
+      "options": {
+        "A": "They represent the exact values of all observations in a class.",
+        "B": "They provide a single representative value for each class, simplifying the calculation.",
+        "C": "They are the same as the lower limits of the classes, making arithmetic easier.",
+        "D": "They eliminate the need to know the class frequencies."
+      },
+      "correct_option": "B",
+      "answer": "They provide a single representative value for each class, simplifying the calculation.",
+      "explanation": "A class mark (mid‑point) approximates the average of all observations within that class, allowing us to treat each class as if all its data were concentrated at that point. This simplification is essential for computing the mean. Option A is incorrect because class marks are not exact values of each observation. Option C confuses class marks with lower limits, and Option D is false because frequencies are still required.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "A teacher has the following grouped data for 12 classes. Which method would be the most efficient to find the mean?\n\nClass interval | Frequency\n0‑10 | 2\n10‑20 | 3\n20‑30 | 5\n30‑40 | 7\n40‑50 | 6\n50‑60 | 4\n60‑70 | 3\n70‑80 | 2\n80‑90 | 1\n90‑100 | 1\n100‑110 | 1\n110‑120 | 1\n\nOptions:",
+      "options": {
+        "A": "Direct method (using class marks for every class).",
+        "B": "Assumed mean method with the first class mark as assumed mean.",
+        "C": "Step‑deviation (coding) method with a convenient assumed mean.",
+        "D": "Median method, then adjust to obtain the mean."
+      },
+      "correct_option": "C",
+      "answer": "Step‑deviation (coding) method with a convenient assumed mean.",
+      "explanation": "With many classes, the direct method involves many multiplications, increasing chances of error. The step‑deviation method reduces computation by coding deviations, especially when an assumed mean close to the centre is chosen. Option B is less efficient because using the first class mark leads to large coded values. Option D is unrelated to mean calculation. Hence, the step‑deviation method (C) is the most efficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "A survey records the ages of participants in the following grouped form:\n\nAge interval | Frequency\n0‑10 | 4\n10‑20 | 6\n20‑30 | 5\n30‑40 | 5\n\nUsing the direct method, what is the mean age of the participants?",
+      "options": {
+        "A": "20",
+        "B": "20.5",
+        "C": "21",
+        "D": "22"
+      },
+      "correct_option": "B",
+      "answer": "20.5",
+      "explanation": "First find class marks: 5, 15, 25, 35. Compute Σf·x = 4·5 + 6·15 + 5·25 + 5·35 = 20 + 90 + 125 + 175 = 410. Total frequency Σf = 4 + 6 + 5 + 5 = 20. Mean = 410 / 20 = 20.5. Option B matches this value; the other options are results of arithmetic mistakes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "Which of the following statements about the assumed mean method is **incorrect**?",
+      "options": {
+        "A": "The assumed mean should be a value close to the class marks to keep calculations simple.",
+        "B": "The method eliminates the need to multiply frequencies by class marks.",
+        "C": "After coding, the mean is obtained by adding the assumed mean to the product of class width and the average of the coded sums.",
+        "D": "Choosing a convenient assumed mean reduces the size of numbers handled during computation."
+      },
+      "correct_option": "B",
+      "answer": "The method eliminates the need to multiply frequencies by class marks.",
+      "explanation": "In the assumed mean method we still multiply each frequency by the coded deviation (d), not by the original class mark. The purpose is to simplify the multiplication, not to avoid it entirely. Hence statement B is false. Statements A, C, and D correctly describe the method.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "For the grouped data below, an assumed mean of 35 and class width of 10 are chosen. Using the step‑deviation method, the coded deviations (d) are calculated as shown.\n\nClass interval | Frequency | Class mark | d = (x‑a)/h\n20‑30 | 6 | 25 | -1\n30‑40 | 9 | 35 | 0\n40‑50 | 5 | 45 | 1\n\nWhat is the mean of the data?",
+      "options": {
+        "A": "34",
+        "B": "34.5",
+        "C": "35",
+        "D": "35.5"
+      },
+      "correct_option": "B",
+      "answer": "34.5",
+      "explanation": "First compute Σf·d = 6·(-1) + 9·0 + 5·1 = -6 + 0 + 5 = -1. Total frequency Σf = 6 + 9 + 5 = 20. Mean = a + h·(Σf·d / Σf) = 35 + 10·(-1/20) = 35 - 0.5 = 34.5. Option B is correct; the other options arise from forgetting the deviation term or sign errors.",
+      "difficulty": "medium"
+    }
+  ]
+}
