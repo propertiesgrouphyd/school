@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "The following grouped data represent the number of books read by students:\n\nClass Interval | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 12\n40‑50 | 7\n\nWhich class interval is the median class?",
+      "options": {
+        "A": "10‑20",
+        "B": "20‑30",
+        "C": "30‑40",
+        "D": "40‑50"
+      },
+      "correct_option": "C",
+      "answer": "30‑40",
+      "explanation": "Total frequency N = 5 + 8 + 12 + 7 = 32. The median position is N/2 = 16. Cumulative frequencies are 5, 13, 25, 32. The first cumulative frequency that reaches or exceeds 16 is 25, which belongs to the class 30‑40. A common mistake is to pick the class with the highest frequency (30‑40) without checking the cumulative total; here it happens to be correct, but the reasoning must be based on cumulative frequency.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "For the grouped data below, find the median using the appropriate formula.\n\nClass Interval | Frequency\n0‑10 | 4\n10‑20 | 6\n20‑30 | 10\n30‑40 | 5\n\nWhat is the median value?",
+      "options": {
+        "A": "21.0",
+        "B": "22.5",
+        "C": "23.0",
+        "D": "24.0"
+      },
+      "correct_option": "B",
+      "answer": "22.5",
+      "explanation": "Total N = 25, so N/2 = 12.5. Cumulative frequencies: 4, 10, 20, 25. The median class is 20‑30 (cumulative just before it = 10). Using the formula:\nMedian = L + [(N/2 – c.f.)/f] × h\nL = lower class boundary = 20, h = class width = 10, f = frequency of median class = 10, c.f. = 10.\nMedian = 20 + [(12.5 – 10)/10] × 10 = 20 + 2.5 = 22.5.\nThus option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "In the median formula for grouped data, the class interval is given as 15‑25. Which substitution of the lower class boundary (L) and class width (h) is correct?",
+      "options": {
+        "A": "L = 15, h = 10",
+        "B": "L = 14.5, h = 10",
+        "C": "L = 15, h = 9.5",
+        "D": "L = 14.5, h = 9.5"
+      },
+      "correct_option": "B",
+      "answer": "L = 14.5, h = 10",
+      "explanation": "When class intervals are expressed as whole numbers, the true class boundaries are half a unit lower and higher. Hence for 15‑25, the lower boundary is 14.5 and the upper boundary is 25.5, giving a class width h = 25.5 – 14.5 = 11? Wait, the width of the interval is 10 (25‑15). The width used in the median formula is the difference between the boundaries, which is also 10. Therefore L = 14.5 and h = 10. Options A, C and D use incorrect lower boundaries or widths.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "The following grouped data give the heights (in cm) of students in a class:\n\nClass Interval | Frequency\n40‑60 | 5\n60‑80 | 12\n80‑100 | 9\n\nThe median height is calculated to be approximately 73.3 cm. What does this median value represent?",
+      "options": {
+        "A": "73.3 cm is the most frequently occurring height.",
+        "B": "About 50 % of the students are shorter than 73.3 cm and 50 % are taller.",
+        "C": "73.3 cm is the average (mean) height of the class.",
+        "D": "73.3 cm is the range of the heights."
+      },
+      "correct_option": "B",
+      "answer": "About 50 % of the students are shorter than 73.3 cm and 50 % are taller.",
+      "explanation": "The median divides the ordered data set into two equal halves. Hence, approximately half of the observations lie below the median and half lie above it. It does not indicate the most frequent value (mode), the arithmetic mean, or the range. Therefore option B correctly interprets the median.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "For the grouped data below, what is the cumulative frequency up to and including the class 20‑30?\n\nClass Interval | Frequency\n0‑10 | 3\n10‑20 | 7\n20‑30 | 5",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "15",
+      "explanation": "Cumulative frequency is obtained by adding frequencies of all classes up to the required class. Here, 3 (0‑10) + 7 (10‑20) + 5 (20‑30) = 15. Options A, B, and D are incorrect sums.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "The following grouped data show the number of pages read by students:\n\nClass Interval | Frequency\n5‑15 | 4\n15‑25 | 6\n25‑35 | 9\n35‑45 | 5\n\nWhich class interval is the median class?",
+      "options": {
+        "A": "5‑15",
+        "B": "15‑25",
+        "C": "25‑35",
+        "D": "35‑45"
+      },
+      "correct_option": "C",
+      "answer": "25‑35",
+      "explanation": "Total N = 4 + 6 + 9 + 5 = 24, so N/2 = 12. Cumulative frequencies: 4, 10, 19, 24. The first cumulative frequency that reaches or exceeds 12 is 19, which belongs to the class 25‑35. Hence this is the median class.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Which of the following expressions correctly represents the formula for the median of grouped data?",
+      "options": {
+        "A": "Median = L + [(N/2 – c.f.) ÷ f] × h",
+        "B": "Median = L + [(N – c.f.) ÷ f] × h",
+        "C": "Median = L + [(N/2 + c.f.) ÷ f] × h",
+        "D": "Median = L – [(N/2 – c.f.) ÷ f] × h"
+      },
+      "correct_option": "A",
+      "answer": "Median = L + [(N/2 – c.f.) ÷ f] × h",
+      "explanation": "The standard median formula for grouped data is:\nMedian = L + [(N/2 – cumulative frequency of the class before the median class) / frequency of the median class] × class width.\nOption A matches this expression. Options B, C, and D alter the numerator or sign, leading to incorrect results.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "In a grouped data set, the median class is 30‑40 with a frequency of 8. The total number of observations N is 40. What lower class boundary (L) should be used in the median formula?",
+      "options": {
+        "A": "30",
+        "B": "30.5",
+        "C": "29.5",
+        "D": "31"
+      },
+      "correct_option": "C",
+      "answer": "29.5",
+      "explanation": "When class intervals are given as whole numbers, the true lower boundary is half a unit less than the lower limit. Hence for the interval 30‑40, L = 30 – 0.5 = 29.5. Using 30 or 30.5 would ignore the half‑unit adjustment, and 31 is unrelated.",
+      "difficulty": "easy"
+    }
+  ]
+}

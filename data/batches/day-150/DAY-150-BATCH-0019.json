@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "In a grouped frequency distribution, the frequencies for the classes are: 0‑10: 5, 10‑20: 8, 20‑30: 10. What is the cumulative frequency for the class 20‑30?",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "13",
+        "D": "21"
+      },
+      "correct_option": "C",
+      "answer": "13",
+      "explanation": "Cumulative frequency for a class is the sum of frequencies of that class and all preceding classes. Here, 5 (0‑10) + 8 (10‑20) = 13. Adding the frequency of 20‑30 (10) would give the cumulative up to the next class, but the question asks for the cumulative *up to* 20‑30, which is 13. Options A and B give only individual class frequencies, and D adds the 20‑30 frequency as well, which is not required.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "The grouped data for a class test are: 0‑10: 4, 10‑20: 6, 20‑30: 10, 30‑40: 5. Which class contains the median?",
+      "options": {
+        "A": "0‑10",
+        "B": "10‑20",
+        "C": "20‑30",
+        "D": "30‑40"
+      },
+      "correct_option": "C",
+      "answer": "20‑30",
+      "explanation": "Total observations N = 4 + 6 + 10 + 5 = 25. The median position is (N+1)/2 = 13th observation. Cumulative frequencies: 0‑10 = 4, 10‑20 = 10, 20‑30 = 20. The 13th observation lies in the 20‑30 class, so this is the median class. Options A and B end before the 13th observation, while D starts after it.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Which of the following formulas is used to find the median of grouped data?",
+      "options": {
+        "A": "Median = L + [(N/2 – cf_prev) / f] × h",
+        "B": "Median = (L + U) / 2",
+        "C": "Median = (cf + f) / 2",
+        "D": "Median = L + [(N – cf_prev) / f] × h"
+      },
+      "correct_option": "A",
+      "answer": "Median = L + [(N/2 – cf_prev) / f] × h",
+      "explanation": "The standard formula for the median of grouped data is Median = L + [(N/2 – cf_prev) / f] × h, where L is the lower boundary of the median class, cf_prev is the cumulative frequency before that class, f is the frequency of the median class, and h is the class width. Option B gives the formula for the midpoint of a class, C is unrelated, and D uses N instead of N/2, which would give a different measure.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "For the class interval 15‑25 in a continuous grouped data set, what is the lower class boundary (L) to be used in the median formula?",
+      "options": {
+        "A": "14.5",
+        "B": "15.0",
+        "C": "15.5",
+        "D": "16.0"
+      },
+      "correct_option": "A",
+      "answer": "14.5",
+      "explanation": "When data are continuous, class boundaries are obtained by subtracting 0.5 from the lower limit and adding 0.5 to the upper limit (assuming the data are recorded in whole numbers). Hence, the lower boundary of 15‑25 is 15 – 0.5 = 14.5. Options B, C, and D ignore the 0.5 adjustment.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "In a grouped data set of ages, the calculated median is 42 years. Which statement correctly interprets this result?",
+      "options": {
+        "A": "Most of the data lie above 42 years.",
+        "B": "Exactly half of the observations are below 42 years.",
+        "C": "The mean age is 42 years.",
+        "D": "The mode of the data is 42 years."
+      },
+      "correct_option": "B",
+      "answer": "Exactly half of the observations are below 42 years.",
+      "explanation": "The median is the value that separates the lower half from the upper half of a data set. Therefore, 50% of the observations are less than or equal to 42 years and the remaining 50% are greater than or equal to 42 years. Options A, C, and D describe other measures (mode, mean) or give an incorrect direction of the data.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "A survey records the number of books read by students in four class intervals: 0‑10: 3, 10‑20: 7, 20‑30: 12, 30‑40: 5. What is the cumulative frequency up to the interval 20‑30?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "22",
+        "D": "27"
+      },
+      "correct_option": "C",
+      "answer": "22",
+      "explanation": "Cumulative frequency up to a class is the sum of frequencies of that class and all preceding classes. Here, 3 (0‑10) + 7 (10‑20) + 12 (20‑30) = 22. Option A is only the first class, B is the second class alone, and D adds the next class as well.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "For the grouped data: 0‑10: 5, 10‑20: 9, 20‑30: 8, 30‑40: 4 (total N = 26). A student thinks the median class is the one where cumulative frequency first exceeds N/2 = 13. Which class actually contains the median?",
+      "options": {
+        "A": "0‑10",
+        "B": "10‑20",
+        "C": "20‑30",
+        "D": "30‑40"
+      },
+      "correct_option": "C",
+      "answer": "20‑30",
+      "explanation": "The correct median position is (N+1)/2 = 13.5, not N/2. Cumulative frequencies: 0‑10 = 5, 10‑20 = 14, 20‑30 = 22. The 13.5th observation lies in the 20‑30 class, so this is the median class. The student's method would also point to 20‑30 because cumulative exceeds 13, but the explanation clarifies the proper reasoning and avoids the common off‑by‑one error.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "In a grouped frequency distribution, the median class is 30‑40 with lower boundary L = 29.5, class width h = 10, frequency f = 7, and cumulative frequency before the class cf_prev = 18. The total number of observations N = 50. What is the median?",
+      "options": {
+        "A": "29.5",
+        "B": "34.5",
+        "C": "39.5",
+        "D": "44.5"
+      },
+      "correct_option": "C",
+      "answer": "39.5",
+      "explanation": "Using the formula Median = L + [(N/2 – cf_prev) / f] × h: N/2 = 25, so (25 – 18) = 7. Then (7 / 7) × 10 = 10. Adding to L gives 29.5 + 10 = 39.5. Option A is just the lower boundary, B would result from using half the class width, and D would require a larger fraction of the class width.",
+      "difficulty": "medium"
+    }
+  ]
+}

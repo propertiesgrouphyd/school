@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "Two students calculate the median of the same grouped data (class intervals 10‑20, 20‑30, 30‑40, 40‑50 with frequencies 5, 8, 12, 5). Student A uses the class limits directly as the lower limit L, while Student B first converts the limits to class boundaries (9.5‑20.5, 20.5‑30.5, 30.5‑40.5, 40.5‑50.5) and then applies the median formula. Which statement correctly describes the effect of substituting class boundaries correctly?",
+      "options": {
+        "A": "Both students obtain exactly the same median value.",
+        "B": "Student B’s median will be higher than Student A’s median.",
+        "C": "Student A’s median will be higher than Student B’s median.",
+        "D": "Neither method can be used for grouped data."
+      },
+      "correct_option": "B",
+      "answer": "Student B’s median will be higher than Student A’s median.",
+      "explanation": "Using class boundaries shifts the lower limit of the median class from 30 to 30.5 while the class width remains 10. The median formula L + [(N/2 – cf_prev)/f]·h therefore yields a larger value when the correct boundaries are used. Hence Student B, who uses boundaries, obtains a higher median (32.17) than Student A (31.67). Options A, C and D are incorrect because the two methods give different results, Student B’s result is the higher one, and the formula is valid for grouped data.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "In a class of 40 students, the marks are grouped and the median of the grouped data is found to be 68. Which of the following statements correctly interprets this median?",
+      "options": {
+        "A": "At least half of the students scored more than 68 marks.",
+        "B": "Exactly half of the students scored more than 68 marks.",
+        "C": "Half of the total frequency lies below 68 and the other half lies above 68.",
+        "D": "68 is the mean (average) of the marks."
+      },
+      "correct_option": "C",
+      "answer": "Half of the total frequency lies below 68 and the other half lies above 68.",
+      "explanation": "The median of grouped data is the value that divides the total frequency into two equal parts. Therefore, 50 % of the cumulative frequency is below the median and 50 % is above it. Option C states this definition precisely. Option A is too strong (\"at least half\"), Option B is false because the median does not guarantee exactly half the individual scores are above it, and Option D confuses median with mean.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "For the grouped data below, what is the cumulative frequency up to the class 20‑30?\nClass intervals: 0‑10 | 10‑20 | 20‑30\nFrequencies: 4 | 7 | 9",
+      "options": {
+        "A": "11",
+        "B": "20",
+        "C": "16",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "20",
+      "explanation": "Cumulative frequency is obtained by adding frequencies of all classes up to the required class. 4 + 7 + 9 = 20. Hence option B is correct. The other options represent partial sums or a single class frequency.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "The following grouped data represent the number of books read by students.\nClass intervals: 0‑5 | 5‑10 | 10‑15 | 15‑20\nFrequencies: 3 | 7 | 12 | 5\nWhich class is the median class?",
+      "options": {
+        "A": "0‑5",
+        "B": "5‑10",
+        "C": "10‑15",
+        "D": "15‑20"
+      },
+      "correct_option": "C",
+      "answer": "10‑15",
+      "explanation": "Total frequency N = 3 + 7 + 12 + 5 = 27. Half of N is 13.5. Cumulative frequencies are 3, 10, 22, 27. The first cumulative frequency that exceeds 13.5 is 22, which belongs to the class 10‑15. Therefore, 10‑15 is the median class. Options A, B and D are incorrect because their cumulative frequencies are below N/2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Which of the following expressions correctly represents the formula for the median of grouped data?",
+      "options": {
+        "A": "L + [(N/2 – cf_prev) / f] × h",
+        "B": "L + [(N – cf_prev) / f] × h",
+        "C": "L + [(N/2 + cf_prev) / f] × h",
+        "D": "L + [cf_prev / f] × h"
+      },
+      "correct_option": "A",
+      "answer": "L + [(N/2 – cf_prev) / f] × h",
+      "explanation": "The standard formula for the median of grouped data is:\nMedian = L + [(N/2 – cf_prev) / f] × h,\nwhere L = lower class boundary of the median class, N = total frequency, cf_prev = cumulative frequency before the median class, f = frequency of the median class, and h = class width. Option A matches this formula exactly. The other options either omit the N/2 term or use incorrect operations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "A grouped frequency distribution has the class 20‑30 with frequency 15. The class boundaries are 19.5 and 30.5, the total frequency N = 50 and the cumulative frequency before this class is 22. Using the correct class boundaries, what is the median of the data?",
+      "options": {
+        "A": "21.7",
+        "B": "22.3",
+        "C": "20.5",
+        "D": "23.0"
+      },
+      "correct_option": "A",
+      "answer": "21.7",
+      "explanation": "First compute N/2 = 25. Apply the median formula:\nL = 19.5 (lower boundary), h = 30.5 – 19.5 = 11,\ncf_prev = 22, f = 15.\nMedian = 19.5 + [(25 – 22) / 15] × 11 = 19.5 + (3/15) × 11 = 19.5 + 0.2 × 11 = 19.5 + 2.2 = 21.7.\nThus option A is correct. The other options arise from using wrong limits or forgetting to convert to boundaries.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "In a company, the salaries of employees are grouped and the median salary is found to be Rs 45,000. Which interpretation is correct?",
+      "options": {
+        "A": "Rs 45,000 is the average (mean) salary of all employees.",
+        "B": "Rs 45,000 is the most frequently occurring salary.",
+        "C": "50 % of the employees earn less than Rs 45,000 and 50 % earn more than Rs 45,000.",
+        "D": "No employee actually earns Rs 45,000."
+      },
+      "correct_option": "C",
+      "answer": "50 % of the employees earn less than Rs 45,000 and 50 % earn more than Rs 45,000.",
+      "explanation": "The median divides the data into two equal halves. Therefore, half of the total cumulative frequency lies below the median value and the other half lies above it. Option C states this property. Option A confuses median with mean, Option B confuses it with mode, and Option D is not necessarily true; the median can coincide with an actual salary.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "A survey records the ages of participants in the following grouped form:\n0‑10 years: 5 people\n10‑20 years: 12 people\n20‑30 years: 9 people\n30‑40 years: 4 people\nWhat is the cumulative frequency up to the class 20‑30 years?",
+      "options": {
+        "A": "21",
+        "B": "26",
+        "C": "17",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "26",
+      "explanation": "Cumulative frequency up to a class is the sum of frequencies of all preceding classes including the class itself. 5 + 12 + 9 = 26. Hence option B is correct. Option A omits the 0‑10 class, Option C adds only two classes, and Option D is just the frequency of the 10‑20 class.",
+      "difficulty": "medium"
+    }
+  ]
+}
