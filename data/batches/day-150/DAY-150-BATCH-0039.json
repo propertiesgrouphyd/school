@@ -1,0 +1,78 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Identify the modal class",
+      "question": "The following grouped data represent the scores of 40 students in a test.\n\nClass interval | Frequency\n10‑20          | 7\n20‑30          | 15\n30‑40          | 9\n40‑50          | 4\n\nWhich class interval is the modal class?",
+      "options": {
+        "A": "10‑20",
+        "B": "20‑30",
+        "C": "30‑40",
+        "D": "40‑50"
+      },
+      "correct_option": "B",
+      "answer": "20‑30",
+      "explanation": "The modal class is the class interval that contains the highest frequency. In the table, the frequencies are 7, 15, 9, and 4. The largest frequency is 15, which belongs to the interval 20‑30. Therefore, 20‑30 is the modal class. Options A, C, and D have lower frequencies and cannot be modal.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Use the grouped-data mode formula",
+      "question": "For the grouped data below, calculate the mode using the formula\nMode = L + [(f₁‑f₀) / (2f₁‑f₀‑f₂)] × h\n\nClass interval | Frequency\n10‑20          | 5\n20‑30          | 12\n30‑40          | 8\n40‑50          | 3\n\nWhat is the mode (rounded to one decimal place)?",
+      "options": {
+        "A": "26.4",
+        "B": "24.5",
+        "C": "27.0",
+        "D": "25.0"
+      },
+      "correct_option": "A",
+      "answer": "26.4",
+      "explanation": "First identify the modal class: it is 20‑30 (frequency 12). Here L = 20 (lower limit), h = 10 (class width), f₁ = 12, f₀ = 5 (frequency of preceding class), f₂ = 8 (frequency of succeeding class).\nMode = 20 + [(12‑5) / (2×12‑5‑8)] × 10 = 20 + [7 / (24‑13)] × 10 = 20 + (7/11)×10 ≈ 20 + 6.3636 = 26.3636 ≈ 26.4.\nThus option A is correct. The other options result from incorrect substitution or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Interpret frequencies correctly",
+      "question": "Consider the two grouped data sets below.\n\nData Set A:\nClass interval | Frequency\n0‑10           | 4\n10‑20          | 9\n20‑30          | 9\n30‑40          | 2\n\nData Set B:\nClass interval | Frequency\n0‑10           | 5\n10‑20          | 7\n20‑30          | 6\n30‑40          | 8\n\nWhich statement is true?",
+      "options": {
+        "A": "Both data sets have a unique modal class.",
+        "B": "Data Set A has two modal classes while Data Set B has a unique modal class.",
+        "C": "Data Set A has a unique modal class while Data Set B has two modal classes.",
+        "D": "Neither data set has a modal class."
+      },
+      "correct_option": "B",
+      "answer": "Data Set A has two modal classes while Data Set B has a unique modal class.",
+      "explanation": "In Data Set A, the highest frequency (9) occurs in two intervals: 10‑20 and 20‑30, so there are two modal classes. In Data Set B, the highest frequency is 8, occurring only in the interval 30‑40, giving a single modal class. Therefore option B correctly describes the situation. Options A, C, and D misinterpret the frequency distribution.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Apply the empirical relationship among mean, median and mode",
+      "question": "For a certain grouped data set, the mean is 50 and the median is 48. Using the empirical relationship Mode ≈ 3·Median – 2·Mean, which of the following could be the mode (rounded to the nearest integer)?",
+      "options": {
+        "A": "44",
+        "B": "46",
+        "C": "48",
+        "D": "50"
+      },
+      "correct_option": "A",
+      "answer": "44",
+      "explanation": "The empirical relationship is Mode ≈ 3·Median – 2·Mean.\nSubstituting the given values: Mode ≈ 3×48 – 2×50 = 144 – 100 = 44.\nThus the mode is approximately 44, which matches option A. Options B, C, and D result from incorrect application of the formula or ignoring the relationship.",
+      "difficulty": "hard"
+    }
+  ]
+}
