@@ -1,0 +1,78 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "The following table shows the distribution of marks obtained by 50 students in a test.\n\nClass Interval | Frequency\n0 – 10          | 5\n10 – 20         | 12\n20 – 30         | 18\n30 – 40         | 9\n40 – 50         | 6\n\nWhich class interval contains the median of the data?",
+      "options": {
+        "A": "0 – 10",
+        "B": "10 – 20",
+        "C": "20 – 30",
+        "D": "30 – 40"
+      },
+      "correct_option": "C",
+      "answer": "20 – 30",
+      "explanation": "Total number of observations N = 5+12+18+9+6 = 50. The median position for grouped data is N/2 = 25. Cumulative frequencies are: 0‑10 → 5, 10‑20 → 17, 20‑30 → 35. The first class whose cumulative frequency is ≥ 25 is the 20‑30 class. Hence the median class is 20‑30. Options A and B have cumulative frequencies less than 25, while D exceeds the median position but is not the first class to do so.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Using the same data as in the previous question, calculate the median value. (Take the class width as 10.)",
+      "options": {
+        "A": "22.5",
+        "B": "24.4",
+        "C": "26.7",
+        "D": "28.0"
+      },
+      "correct_option": "B",
+      "answer": "24.4",
+      "explanation": "Median class = 20‑30. Lower class boundary L = 19.5 (or 20 if boundaries are not adjusted; using 20 gives the same result to one decimal place). Cumulative frequency before the median class, cfₚ = 17. Frequency of median class, f = 18. N/2 = 25.\n\nMedian = L + [(N/2 – cfₚ)/f] × h = 20 + [(25‑17)/18] × 10 = 20 + (8/18)×10 ≈ 20 + 4.44 = 24.44 ≈ 24.4.\n\nOption B matches this calculation. The other options result from incorrect substitution of N/2, wrong class width, or using an incorrect cumulative frequency.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "When applying the grouped‑data median formula to the class interval 20 – 30 (frequency = 18), which choice uses the correct lower class boundary?",
+      "options": {
+        "A": "L = 20",
+        "B": "L = 19.5",
+        "C": "L = 20.5",
+        "D": "L = 19.0"
+      },
+      "correct_option": "B",
+      "answer": "L = 19.5",
+      "explanation": "For continuous grouped data, class boundaries are obtained by subtracting 0.5 from the lower limit and adding 0.5 to the upper limit (assuming the data are recorded to the nearest integer). Hence the class 20‑30 actually spans 19.5 to 30.5, making the lower boundary L = 19.5. Option A uses the lower limit instead of the boundary, C and D are unrelated values. Using the correct boundary is essential for an accurate median calculation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "In a town, the median monthly household income is reported as $45,000. Which of the following statements is the best interpretation of this figure?",
+      "options": {
+        "A": "Exactly half of the households earn $45,000.",
+        "B": "More than half of the households earn less than $45,000.",
+        "C": "Half of the households earn less than $45,000 and the other half earn more than $45,000.",
+        "D": "The average (mean) household income is $45,000."
+      },
+      "correct_option": "C",
+      "answer": "Half of the households earn less than $45,000 and the other half earn more than $45,000.",
+      "explanation": "The median is the value that separates the lower 50 % of the data from the upper 50 %. Therefore, when the median income is $45,000, exactly half of the households have an income below $45,000 and the other half have an income above $45,000. Option A is incorrect because the median does not mean that half earn *exactly* that amount. Option B misstates the proportion, and option D confuses median with mean.",
+      "difficulty": "hard"
+    }
+  ]
+}
