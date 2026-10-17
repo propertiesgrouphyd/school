@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "A solid is formed by attaching a right circular cylinder of radius 3 cm and height 10 cm to one face of a cube of side 6 cm. The cylinder’s base exactly coincides with the cube face. What is the total surface area of the composite solid?",
+      "options": {
+        "A": "180 + 78π cm²",
+        "B": "216 + 78π cm²",
+        "C": "180 + 60π cm²",
+        "D": "216 + 60π cm²"
+      },
+      "correct_option": "A",
+      "answer": "180 + 78π cm²",
+      "explanation": "Cube SA = 6×6² = 216 cm². One face (36 cm²) is hidden, so exposed cube area = 216‑36 = 180 cm². Cylinder curved SA = 2πrh = 2π·3·10 = 60π. Only the top base is exposed (πr² = 9π). Total SA = 180 + 60π + 9π = 180 + 78π cm². Options B, C, D either forget to subtract the hidden face or omit the top base, leading to over‑ or under‑counting.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "A solid consists of a right circular cylinder of radius 5 cm and height 12 cm with a hemisphere of the same radius placed on top of it. What is the volume of the composite solid?",
+      "options": {
+        "A": "(1150/3)π cm³",
+        "B": "350π cm³",
+        "C": "300π cm³",
+        "D": "(1250/3)π cm³"
+      },
+      "correct_option": "A",
+      "answer": "(1150/3)π cm³",
+      "explanation": "Cylinder volume = πr²h = π·25·12 = 300π cm³. Hemisphere volume = (2/3)πr³ = (2/3)π·125 = (250/3)π cm³. Adding gives 300π + (250/3)π = (900/3 + 250/3)π = (1150/3)π cm³. The other options miss either the hemisphere part or use incorrect coefficients.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "Two composite solids are formed as follows:\n(i) A cube of side 8 cm with a square pyramid (base 8 cm, height 6 cm) attached to one face.\n(ii) The same cube with a right circular cone (base radius 4 cm, height 6 cm) attached to one face (base coincides with the cube face).\nWhich statement correctly compares their total exposed surface areas?",
+      "options": {
+        "A": "Solid (i) has a larger exposed surface area than solid (ii).",
+        "B": "Solid (ii) has a larger exposed surface area than solid (i).",
+        "C": "Both solids have the same exposed surface area.",
+        "D": "The exposed surface areas cannot be compared with the given information."
+      },
+      "correct_option": "A",
+      "answer": "Solid (i) has a larger exposed surface area than solid (ii).",
+      "explanation": "For solid (i): Cube SA = 6·64 = 384 cm². Subtract the hidden face (64 cm²) → 320 cm². Pyramid lateral area = ½·perimeter·slant = ½·32·√(4²+6²)=16·√52≈115.4 cm². Total = 320 + 115.4 ≈ 435.4 cm².\nFor solid (ii): Cube exposed area = 320 cm² (same subtraction). Cone lateral area = πrl = π·4·√(4²+6²)=4π·√52≈90.5 cm². Total ≈ 410.5 cm². Hence solid (i) is larger. Options B‑D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A water tank is made by joining a rectangular cuboid of dimensions 10 m × 8 m × 6 m with a hemispherical dome of radius 4 m on top of the 10 m × 8 m face. The bottom of the cuboid rests on the ground and the face on which the dome sits is not painted. What is the total surface area that needs painting?",
+      "options": {
+        "A": "216 + 32π m²",
+        "B": "296 + 32π m²",
+        "C": "216 + 16π m²",
+        "D": "296 + 16π m²"
+      },
+      "correct_option": "A",
+      "answer": "216 + 32π m²",
+      "explanation": "Cuboid total SA = 2(lw+lh+wh) = 2(80+60+48)=376 m². The bottom (80 m²) and the top face (80 m²) are not painted, leaving 376‑160 = 216 m² of exposed cuboid surface. The dome is a hemisphere; its curved area = 2πr² = 2π·16 = 32π m². Adding gives 216 + 32π m². Options B‑D either add the hidden faces or use half the dome area, which is incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Identify component solids",
+      "question": "A solid is formed by attaching a right circular cone of radius 3 cm and height 4 cm to one face of a rectangular prism of dimensions 6 cm × 4 cm × 3 cm. Which list correctly identifies the component solids of this composite shape?",
+      "options": {
+        "A": "Cone and rectangular prism",
+        "B": "Cylinder and cube",
+        "C": "Sphere and triangular prism",
+        "D": "Pyramid and cuboid"
+      },
+      "correct_option": "A",
+      "answer": "Cone and rectangular prism",
+      "explanation": "The description mentions a right circular cone and a rectangular prism (also called a cuboid). Hence the components are a cone and a rectangular prism. The other options name different solids that are not present.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "A composite solid consists of a cube of side 6 cm with a square‑based pyramid (base side 6 cm, height 5 cm) attached to its top face. What is the total exposed surface area?",
+      "options": {
+        "A": "250 cm²",
+        "B": "216 cm²",
+        "C": "300 cm²",
+        "D": "186 cm²"
+      },
+      "correct_option": "A",
+      "answer": "250 cm²",
+      "explanation": "Cube SA = 6·36 = 216 cm². The top face (36 cm²) is hidden, leaving 180 cm². Pyramid slant height = √(3²+5²)=√34≈5.83 cm. Lateral area = ½·perimeter·slant = ½·24·5.83 = 12·5.83≈69.96 cm². Total exposed SA = 180 + 69.96 ≈ 250 cm². Options B‑D miss either the hidden face subtraction or the pyramid’s lateral area.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "A solid is formed by placing a cone (radius 2 cm, height 5 cm) on top of a cylinder (same base radius 2 cm, height 10 cm). What is the volume of the resulting composite solid?",
+      "options": {
+        "A": "(140/3)π cm³",
+        "B": "45π cm³",
+        "C": "50π cm³",
+        "D": "(130/3)π cm³"
+      },
+      "correct_option": "A",
+      "answer": "(140/3)π cm³",
+      "explanation": "Cylinder volume = πr²h = π·4·10 = 40π cm³. Cone volume = (1/3)πr²h = (1/3)π·4·5 = (20/3)π cm³. Adding gives 40π + (20/3)π = (120/3 + 20/3)π = (140/3)π cm³. The other options either omit one part or use wrong coefficients.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "A square‑based right pyramid (base side 10 cm, slant height 13 cm) is fixed on one face of a cube of side 10 cm. What is the total exposed surface area of the composite solid?",
+      "options": {
+        "A": "760 cm²",
+        "B": "660 cm²",
+        "C": "860 cm²",
+        "D": "560 cm²"
+      },
+      "correct_option": "A",
+      "answer": "760 cm²",
+      "explanation": "Cube SA = 6·100 = 600 cm². One face (100 cm²) is hidden, leaving 500 cm². Pyramid lateral area = ½·perimeter·slant = ½·40·13 = 20·13 = 260 cm². Total exposed SA = 500 + 260 = 760 cm². Options B‑D either forget to subtract the hidden face or mis‑calculate the lateral area.",
+      "difficulty": "easy"
+    }
+  ]
+}

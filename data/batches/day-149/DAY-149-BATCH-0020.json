@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "Two composite solids are formed as follows:\n1) A right circular cylinder of radius 3 cm and height 10 cm with a cone of the same base radius and height 5 cm attached on its top face.\n2) A right circular cylinder of radius 3 cm and height 10 cm with a hemisphere of radius 3 cm attached on its top face.\nBoth solids rest on a horizontal plane. Which solid has the larger exposed surface area (excluding the common face between the parts)?",
+      "options": {
+        "A": "Both solids have the same exposed surface area.",
+        "B": "The solid with the cone has the larger exposed surface area.",
+        "C": "The solid with the hemisphere has the larger exposed surface area.",
+        "D": "The information given is insufficient to compare the areas."
+      },
+      "correct_option": "C",
+      "answer": "The solid with the hemisphere has the larger exposed surface area.",
+      "explanation": "For the cylinder‑cone solid, exposed area = lateral area of cylinder (2πrh = 60π) + lateral area of cone (πrl = 3π√34 ≈ 17.49π) + bottom of cylinder (πr² = 9π) = 86.49π cm². For the cylinder‑hemisphere solid, exposed area = lateral area of cylinder (60π) + bottom of cylinder (9π) + curved area of hemisphere (2πr² = 18π) = 87π cm². Since 87π > 86.49π, the hemisphere solid has the greater exposed area. Hidden faces (the common circular face) are not counted in either case.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A composite solid is made by joining a cube of side 4 cm and a right circular cylinder of radius 4 cm and height 8 cm on one face of the cube. Find the total surface area of the composite solid, excluding the area of the common face.",
+      "options": {
+        "A": "80 + 64π cm²",
+        "B": "80 + 80π cm²",
+        "C": "96 + 64π cm²",
+        "D": "96 + 80π cm²"
+      },
+      "correct_option": "B",
+      "answer": "80 + 80π cm²",
+      "explanation": "Cube surface area = 6×4² = 96 cm². The face attached to the cylinder (area 4² = 16 cm²) is hidden, so exposed cube area = 96 − 16 = 80 cm². Cylinder lateral area = 2πrh = 2π×4×8 = 64π cm². The top of the cylinder is exposed (πr² = 16π cm²) while the bottom is hidden. Total exposed area = 80 + 64π + 16π = 80 + 80π cm².",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Identify component solids",
+      "question": "A solid consists of a rectangular prism of dimensions 6 cm × 4 cm × 3 cm with a right circular cone of base radius 2 cm and height 5 cm placed on one of its 6 cm × 4 cm faces. Which pair of standard solids makes up this composite solid?",
+      "options": {
+        "A": "Rectangular prism and right circular cone",
+        "B": "Cube and right circular cylinder",
+        "C": "Triangular prism and square pyramid",
+        "D": "Cylinder and hemisphere"
+      },
+      "correct_option": "A",
+      "answer": "Rectangular prism and right circular cone",
+      "explanation": "The description mentions a rectangular prism (a box) and a right circular cone attached to one of its faces. No other standard solid is involved, so the correct identification is a rectangular prism together with a right circular cone.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "To find the total exposed surface area of a solid formed by joining a cylinder and a cone that share a common circular base, which of the following procedures is correct?",
+      "options": {
+        "A": "Add the total surface areas of the cylinder and the cone, then subtract twice the area of the common base.",
+        "B": "Add the lateral surface area of the cylinder, the lateral surface area of the cone, and the base area of the cylinder (if it is exposed); do not include the common base area.",
+        "C": "Add the total surface areas of both solids and then add the area of the common base.",
+        "D": "Only the lateral surface areas of the two solids need to be added; bases are never counted."
+      },
+      "correct_option": "B",
+      "answer": "Add the lateral surface area of the cylinder, the lateral surface area of the cone, and the base area of the cylinder (if it is exposed); do not include the common base area.",
+      "explanation": "When two solids share a face, that face becomes internal and must be excluded from the exposed surface area. Therefore we keep the lateral areas of both solids and any outer bases (e.g., the bottom of the cylinder). Option B correctly describes this method. Option A subtracts the common base twice, which would remove an area that should remain (the outer base). Options C and D are incorrect for similar reasons.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "Which statement correctly distinguishes how volume is calculated for a composite solid compared to its surface area?",
+      "options": {
+        "A": "Volume is found by adding the volumes of the component solids, while surface area requires adding all individual surface areas and then subtracting the area of the hidden faces.",
+        "B": "Both volume and surface area are obtained by simply adding the individual measurements of the component solids without any adjustments.",
+        "C": "Volume needs the hidden faces to be subtracted, whereas surface area is the sum of the component volumes.",
+        "D": "Surface area is always larger than volume, so only surface area needs adjustment."
+      },
+      "correct_option": "A",
+      "answer": "Volume is found by adding the volumes of the component solids, while surface area requires adding all individual surface areas and then subtracting the area of the hidden faces.",
+      "explanation": "For composite solids, the total volume is the algebraic sum of the volumes of each part because interior faces do not affect the occupied space. Surface area, however, counts only the exterior faces; any common (hidden) face between parts must be removed from the total. Option A captures this distinction. Options B, C, and D are conceptually incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "A water tank is made by attaching a hemisphere of radius 5 m on top of a right circular cylinder of radius 5 m and height 10 m. The bottom of the cylinder rests on the ground and is not exposed. What is the total exposed surface area of the tank?",
+      "options": {
+        "A": "150π m²",
+        "B": "200π m²",
+        "C": "125π m²",
+        "D": "100π m²"
+      },
+      "correct_option": "A",
+      "answer": "150π m²",
+      "explanation": "Exposed area = lateral area of cylinder + curved area of hemisphere. Cylinder lateral = 2πrh = 2π×5×10 = 100π m². Hemisphere curved area = 2πr² = 2π×25 = 50π m². The top of the cylinder is hidden by the hemisphere, and the bottom rests on the ground, so they are not counted. Total = 100π + 50π = 150π m².",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A solid is formed by joining a square pyramid of base side 6 cm and height 8 cm to a cube of side 6 cm at the base of the pyramid. Find the total surface area of the composite solid (the base of the pyramid is hidden).",
+      "options": {
+        "A": "180 + 12√73 cm²",
+        "B": "216 + 12√73 cm²",
+        "C": "180 + 6√73 cm²",
+        "D": "216 + 6√73 cm²"
+      },
+      "correct_option": "A",
+      "answer": "180 + 12√73 cm²",
+      "explanation": "Cube surface area = 6×6² = 216 cm². The face where the pyramid is attached (6×6 = 36 cm²) becomes hidden, leaving 216 − 36 = 180 cm² of exposed cube area. For the pyramid, slant height l = √[(6/2)² + 8²] = √(9 + 64) = √73. Each triangular face area = ½×base×slant = ½×6×√73 = 3√73 cm². Four faces give 12√73 cm². Adding gives 180 + 12√73 cm².",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Identify component solids",
+      "question": "A playground equipment piece consists of a rectangular block measuring 10 cm × 5 cm × 4 cm. A half‑cylinder of radius 5 cm and length 10 cm is attached along the 10 cm edge of the block, sharing the rectangular face of size 10 cm × 4 cm. Which two standard solids constitute this composite object?",
+      "options": {
+        "A": "Rectangular prism and half‑cylinder",
+        "B": "Cube and full cylinder",
+        "C": "Triangular prism and hemisphere",
+        "D": "Square pyramid and cone"
+      },
+      "correct_option": "A",
+      "answer": "Rectangular prism and half‑cylinder",
+      "explanation": "The description mentions a rectangular block, which is a rectangular prism, and a half‑cylinder attached to it. No other standard solid (cube, full cylinder, etc.) matches the given dimensions. Hence the composite solid is made of a rectangular prism and a half‑cylinder.",
+      "difficulty": "medium"
+    }
+  ]
+}
