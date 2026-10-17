@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "DAY150-MCQ33",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Identify events",
+      "question": "Which of the following statements correctly defines an event in probability?",
+      "options": {
+        "A": "A subset of the sample space consisting of outcomes that satisfy a given condition",
+        "B": "The set of all possible outcomes of an experiment",
+        "C": "A single outcome that cannot be broken down further",
+        "D": "The numerical measure of how likely an outcome is to occur"
+      },
+      "correct_option": "A",
+      "answer": "A subset of the sample space consisting of outcomes that satisfy a given condition",
+      "explanation": "In probability, an event is any collection (subset) of outcomes from the sample space that meets a specified condition. Option B describes the sample space itself, C describes an individual outcome, and D describes probability, not the event.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "DAY150-MCQ34",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Calculate probability for equally likely outcomes",
+      "question": "A fair six‑sided die is rolled once. What is the probability of obtaining an even number?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/6",
+        "D": "2/3"
+      },
+      "correct_option": "A",
+      "answer": "1/2",
+      "explanation": "The even numbers on a die are 2, 4, and 6 – three favorable outcomes. With six equally likely outcomes, probability = 3/6 = 1/2. The other fractions correspond to different counts of favorable outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "DAY150-MCQ35",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Understand probability values from 0 to 1",
+      "question": "Which of the following statements about probability values is correct?",
+      "options": {
+        "A": "Probability can be negative for rare events",
+        "B": "The probability of a certain event is 1",
+        "C": "The probability of an impossible event is greater than 0",
+        "D": "Probability values may exceed 1 for highly likely events"
+      },
+      "correct_option": "B",
+      "answer": "The probability of a certain event is 1",
+      "explanation": "Probability is defined on the closed interval [0,1]. A certain event always occurs, so its probability is 1. Options A, C, and D contradict the fundamental definition of probability.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "DAY150-MCQ36",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Identify impossible and certain events",
+      "question": "A fair coin is tossed once. Which of the following events is certain to occur?",
+      "options": {
+        "A": "The coin lands heads",
+        "B": "The coin lands tails",
+        "C": "The coin lands either heads or tails",
+        "D": "The coin lands on its edge"
+      },
+      "correct_option": "C",
+      "answer": "The coin lands either heads or tails",
+      "explanation": "When a fair coin is tossed, the only possible outcomes are heads or tails, so the event \"either heads or tails\" is certain (probability = 1). Options A and B are each only 0.5 likely, and D is practically impossible.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "DAY150-MCQ37",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Define probability",
+      "question": "Which statement correctly defines the probability of an event A?",
+      "options": {
+        "A": "The ratio of the number of favorable outcomes to the total number of equally likely outcomes",
+        "B": "The ratio of the number of unfavorable outcomes to the total number of outcomes",
+        "C": "The total number of ways the event can occur, without reference to the sample space",
+        "D": "A percentage that must always be expressed as a value greater than 0"
+      },
+      "correct_option": "A",
+      "answer": "The ratio of the number of favorable outcomes to the total number of equally likely outcomes",
+      "explanation": "Probability is defined as favorable outcomes divided by total equally likely outcomes. Option B describes the complement incorrectly, C omits the denominator, and D misstates the range (probability can be 0).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "DAY150-MCQ38",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Identify sample space",
+      "question": "What is the sample space when a single standard die is rolled once?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{2, 4, 6}",
+        "C": "{1, 3, 5}",
+        "D": "{1, 2, 3, 4, 5}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "The sample space includes every possible outcome of the experiment. For a six‑sided die, all six faces (1 through 6) are possible. Options B and C list only subsets, and D omits the outcome 6.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "DAY150-MCQ39",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Identify events",
+      "question": "In the experiment of tossing two fair coins, which pair correctly matches an outcome with the event it belongs to?",
+      "options": {
+        "A": "Outcome: HH — Event: \"Exactly one head\"",
+        "B": "Outcome: HT — Event: \"Both coins show the same face\"",
+        "C": "Outcome: TH — Event: \"Exactly one head\"",
+        "D": "Outcome: TT — Event: \"At least one head\""
+      },
+      "correct_option": "C",
+      "answer": "Outcome: TH — Event: \"Exactly one head\"",
+      "explanation": "The outcome TH indeed has exactly one head, so it belongs to that event. In option A, HH has two heads; option B, HT has different faces; option D, TT has no heads. Hence only C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "DAY150-MCQ40",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Calculate probability for equally likely outcomes",
+      "question": "A bag contains 3 red, 2 blue, and 5 green balls. One ball is drawn at random. What is the probability that the ball drawn is either red or green?",
+      "options": {
+        "A": "4/5",
+        "B": "3/10",
+        "C": "1/2",
+        "D": "1/5"
+      },
+      "correct_option": "A",
+      "answer": "4/5",
+      "explanation": "Total balls = 3 + 2 + 5 = 10. Favorable balls (red or green) = 3 + 5 = 8. Probability = 8/10 = 4/5. The other options correspond to incorrect counts of favorable outcomes.",
+      "difficulty": "hard"
+    }
+  ]
+}
