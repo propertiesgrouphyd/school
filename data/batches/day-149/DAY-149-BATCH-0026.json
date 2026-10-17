@@ -1,0 +1,78 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "A solid is formed by joining a right circular cylinder of radius 3 cm and height 10 cm to a cone of the same base radius 3 cm and height 5 cm at their circular faces. What is the total surface area of the composite solid?",
+      "options": {
+        "A": "271.8 cm^2",
+        "B": "300 cm^2",
+        "C": "240 cm^2",
+        "D": "210 cm^2"
+      },
+      "correct_option": "A",
+      "answer": "271.8 cm^2",
+      "explanation": "The cylinder’s curved area = 2πrh = 2π·3·10 = 60π. Its bottom base (the face not attached) = πr^2 = 9π. The cone’s lateral area = πrl where l = √(r^2+h^2) = √(9+25)=√34, so lateral area = 3π√34. The common circular face is internal and must not be counted. Total SA = 60π + 9π + 3π√34 = 69π + 3π√34 ≈ 271.8 cm^2. A common mistake is to add the area of the common face twice, which would give a larger value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "A solid consists of a right circular cylinder of radius 4 cm and height 6 cm with a hemisphere of the same radius placed on top of it. What is the total volume of the solid?",
+      "options": {
+        "A": "435 cm^3",
+        "B": "400 cm^3",
+        "C": "452 cm^3",
+        "D": "380 cm^3"
+      },
+      "correct_option": "A",
+      "answer": "435 cm^3",
+      "explanation": "Volume of cylinder = πr^2h = π·4^2·6 = 96π cm^3. Volume of hemisphere = (2/3)πr^3 = (2/3)π·4^3 = (128/3)π cm^3. Total volume = 96π + (128/3)π = (416/3)π ≈ 138.667π ≈ 435 cm^3. The calculation adds the two separate volumes; no part is overlapped, so no subtraction is needed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "A cube of side 2 cm is attached to a rectangular prism of dimensions 2 cm × 2 cm × 4 cm by one of their 2 cm × 2 cm faces. Which statement correctly gives the method to find the exposed surface area of the resulting solid?",
+      "options": {
+        "A": "Add the surface areas of the cube and the prism, then subtract twice the area of the common face.",
+        "B": "Add the surface areas of the cube and the prism, then subtract the area of the common face only once.",
+        "C": "Add the surface areas of the cube and the prism without any subtraction.",
+        "D": "Subtract the area of the common face from the larger solid only."
+      },
+      "correct_option": "A",
+      "answer": "Add the surface areas of the cube and the prism, then subtract twice the area of the common face.",
+      "explanation": "The cube’s surface area = 6·2^2 = 24 cm^2. The prism’s surface area = 2(ab+bc+ac) = 2(2·2 + 2·4 + 2·4) = 40 cm^2. The two solids share a 2 cm × 2 cm face (area 4 cm^2) that becomes internal; it is counted in both individual surface areas, so it must be removed twice. Exposed area = 24 + 40 – 2·4 = 56 cm^2. Options B, C, and D either subtract insufficient area or ignore the hidden face, leading to an over‑count.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A closed water tank consists of a cylindrical body of radius 5 m and length 20 m, with a hemispherical dome on each end. The tank rests on the ground, so the bottom circular face of the cylinder is not painted. What is the total external surface area that needs to be painted?",
+      "options": {
+        "A": "942 m^2",
+        "B": "1000 m^2",
+        "C": "850 m^2",
+        "D": "1100 m^2"
+      },
+      "correct_option": "A",
+      "answer": "942 m^2",
+      "explanation": "Cylinder curved area = 2πrh = 2π·5·20 = 200π m^2. Two hemispherical ends together form a sphere of radius 5 m, whose surface area = 4πr^2 = 4π·25 = 100π m^2. The bottom circular face (area πr^2 = 25π) is on the ground and is not painted. Total painted area = 200π + 100π = 300π ≈ 942 m^2. Options B‑D either ignore the hemispherical contribution or incorrectly include the unpainted base.",
+      "difficulty": "hard"
+    }
+  ]
+}
