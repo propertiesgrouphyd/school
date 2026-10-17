@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "A figure is formed by attaching a rectangle of length 10 cm and breadth 5 cm to a sector of a circle of radius 10 cm having a central angle of 60°. What is the total area of the figure (in cm²)?",
+      "options": {
+        "A": "100",
+        "B": "102.36",
+        "C": "112.36",
+        "D": "150"
+      },
+      "correct_option": "B",
+      "answer": "102.36",
+      "explanation": "Sector area = (θ/360)·πr² = (60/360)·π·10² = (1/6)·100π ≈ 52.36 cm². Rectangle area = 10·5 = 50 cm². Total area = 52.36 + 50 = 102.36 cm². Options A, C and D are either missing the sector contribution or over‑estimate the area.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand sector",
+      "question": "Which of the following scenarios correctly describes a sector of a circle?",
+      "options": {
+        "A": "The region bounded by two radii and the included arc.",
+        "B": "The region bounded by a chord and the minor arc of the circle.",
+        "C": "The region bounded by a diameter and a semicircle.",
+        "D": "The region bounded by three radii meeting at the centre."
+      },
+      "correct_option": "A",
+      "answer": "The region bounded by two radii and the included arc.",
+      "explanation": "A sector is precisely the part of a circle enclosed by two radii and the arc between them. Option B describes a segment, C describes a semicircle, and D is not a standard part of a circle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "A sector has radius 7 cm and a central angle of 90°. Which expression gives its correct area?",
+      "options": {
+        "A": "(π × 7²) × (90/360)",
+        "B": "(π × 7²) × 90",
+        "C": "(π × 7) × (90/360)",
+        "D": "(π × 7) × 90"
+      },
+      "correct_option": "A",
+      "answer": "(π × 7²) × (90/360)",
+      "explanation": "Sector area formula is (θ/360)·πr². Substituting r = 7 cm and θ = 90° gives (90/360)·π·7². Options B, C and D misuse the formula by either omitting the division by 360 or using r instead of r².",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand segment",
+      "question": "Which statement correctly relates the area of a circular segment to the area of its corresponding sector?",
+      "options": {
+        "A": "The segment area is always larger than the sector area.",
+        "B": "The segment area equals the sector area minus the area of the triangle formed by the two radii and the chord.",
+        "C": "The segment area equals the sector area plus the triangle area.",
+        "D": "The segment area is independent of the length of the chord."
+      },
+      "correct_option": "B",
+      "answer": "The segment area equals the sector area minus the area of the triangle formed by the two radii and the chord.",
+      "explanation": "A segment is the part of a sector that lies outside the triangle formed by the two radii and the chord. Hence, segment area = sector area – triangle area. Options A, C and D are false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate segment area using sector and triangle areas",
+      "question": "For a circle of radius 5 cm, a sector with central angle 120° is drawn. Which of the following expressions correctly gives the area of the corresponding segment?",
+      "options": {
+        "A": "(120/360)·π·5² + ½·5²·sin120°",
+        "B": "(120/360)·π·5² – ½·5²·sin120°",
+        "C": "(120/360)·π·5² – ½·5·sin120°",
+        "D": "(120/360)·π·5²"
+      },
+      "correct_option": "B",
+      "answer": "(120/360)·π·5² – ½·5²·sin120°",
+      "explanation": "Segment area = sector area – triangle area. Sector area = (120/360)·π·5² = (1/3)·25π. Triangle area = ½·r²·sinθ = ½·25·sin120°. Option B reflects this subtraction. Option A adds the triangle, C uses wrong triangle formula, D omits the triangle entirely.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "A circular disc of radius 6 cm has a 90° sector removed. The removed sector is replaced by an equilateral triangle whose side equals the chord of that sector. What is the area of the resulting figure (in cm², correct to one decimal place)?",
+      "options": {
+        "A": "115.9",
+        "B": "120.0",
+        "C": "100.5",
+        "D": "130.2"
+      },
+      "correct_option": "A",
+      "answer": "115.9",
+      "explanation": "Full circle area = π·6² = 36π. Removed sector area = (90/360)·36π = 9π. Chord length = 2·6·sin45° = 6√2. Equilateral triangle side = 6√2, area = (√3/4)·(6√2)² = (√3/4)·72 = 18√3. Resulting area = 36π – 9π + 18√3 = 27π + 18√3 ≈ 84.823 + 31.176 = 115.999 ≈ 115.9 cm². Options B‑D are farther from the correct value.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand sector",
+      "question": "A sector of a circle is:",
+      "options": {
+        "A": "The region enclosed by two radii and the arc between them.",
+        "B": "The region enclosed by a chord and the minor arc.",
+        "C": "A half‑circle cut by a diameter.",
+        "D": "The region enclosed by three radii meeting at the centre."
+      },
+      "correct_option": "A",
+      "answer": "The region enclosed by two radii and the arc between them.",
+      "explanation": "By definition, a sector is bounded by two radii and the intercepted arc. Option B describes a segment, C describes a semicircle, and D is not a standard term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "Find the area of a sector of radius 5 cm and central angle 30° (in cm², correct to two decimal places).",
+      "options": {
+        "A": "6.54",
+        "B": "7.85",
+        "C": "10.47",
+        "D": "12.57"
+      },
+      "correct_option": "A",
+      "answer": "6.54",
+      "explanation": "Sector area = (θ/360)·πr² = (30/360)·π·5² = (1/12)·25π = 25π/12 ≈ 6.544 cm², which rounds to 6.54 cm². The other options correspond to larger angles or incorrect formulas.",
+      "difficulty": "easy"
+    }
+  ]
+}
