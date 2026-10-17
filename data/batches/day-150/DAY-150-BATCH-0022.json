@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "A class of 50 students is grouped into the intervals 10‑20, 20‑30, 30‑40, 40‑50 and 50‑60 cm with frequencies 5, 12, 18, 9 and 6 respectively. The median calculated from the grouped data is approximately 34.4 cm. What does this median value represent?",
+      "options": {
+        "A": "Half of the students have heights less than or equal to 34.4 cm.",
+        "B": "The most frequently occurring height interval.",
+        "C": "The average (mean) height of all students.",
+        "D": "The range of the heights in the class."
+      },
+      "correct_option": "A",
+      "answer": "Half of the students have heights less than or equal to 34.4 cm.",
+      "explanation": "In grouped data the median is the value that separates the lower 50% from the upper 50% of the observations. Hence about half of the 50 students (i.e., 25 students) have heights ≤ 34.4 cm. Option B describes the mode, C describes the mean, and D describes the range, none of which are indicated by the median.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "Using the same data as above (frequencies 5, 12, 18, 9, 6 for the intervals 10‑20, 20‑30, 30‑40, 40‑50, 50‑60 cm), what is the cumulative frequency up to and including the 30‑40 cm interval?",
+      "options": {
+        "A": "35",
+        "B": "30",
+        "C": "44",
+        "D": "50"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "Cumulative frequency is obtained by adding frequencies successively: 5 (10‑20) + 12 (20‑30) = 17; 17 + 18 (30‑40) = 35. Therefore the cumulative frequency up to the 30‑40 cm class is 35. The other options correspond to incorrect partial sums.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "From the same grouped data (total N = 50), which class interval contains the median?",
+      "options": {
+        "A": "20‑30 cm",
+        "B": "30‑40 cm",
+        "C": "40‑50 cm",
+        "D": "50‑60 cm"
+      },
+      "correct_option": "B",
+      "answer": "30‑40 cm",
+      "explanation": "The median position is N/2 = 25. Cumulative frequencies are 5, 17, 35, 44, 50. The first cumulative frequency that exceeds 25 is 35, which belongs to the 30‑40 cm interval; therefore this is the median class. Options A, C and D are incorrect because their cumulative frequencies are either below or well above the median position.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Using the data above, compute the median value with the grouped‑data formula. (Take class width = 10 cm and lower class boundary of the median class as 30 cm.)",
+      "options": {
+        "A": "34.44 cm",
+        "B": "32.50 cm",
+        "C": "36.00 cm",
+        "D": "30.00 cm"
+      },
+      "correct_option": "A",
+      "answer": "34.44 cm",
+      "explanation": "Median = L + [(N/2 – cf_prev)/f] × h where L = 30, N/2 = 25, cf_prev = 17 (cumulative before median class), f = 18, h = 10. Calculation: 30 + [(25‑17)/18]×10 = 30 + (8/18)×10 = 30 + 4.44 ≈ 34.44 cm. The other options arise from using wrong values for L, cf_prev, or h.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "When applying the grouped‑data median formula, which of the following choices correctly gives the lower class boundary (L) for the median class 30‑40 cm?",
+      "options": {
+        "A": "30",
+        "B": "29.5",
+        "C": "31",
+        "D": "28.5"
+      },
+      "correct_option": "B",
+      "answer": "29.5",
+      "explanation": "In continuous grouped data the class boundaries are obtained by subtracting 0.5 from the lower limit and adding 0.5 to the upper limit (assuming unit class width). Hence the lower boundary of the 30‑40 cm class is 29.5 cm. Using 30 (option A) ignores the continuity correction, while 31 and 28.5 are unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "In a competitive exam, the following grouped data is given: total N = 50, median = 34.44 cm (computed as above). Which statement about this median is correct?",
+      "options": {
+        "A": "At least 25 students have heights ≤ 34.44 cm.",
+        "B": "Exactly 25 students have heights < 34.44 cm.",
+        "C": "The median class has the smallest frequency among all classes.",
+        "D": "The median value is equal to the arithmetic mean of the data."
+      },
+      "correct_option": "A",
+      "answer": "At least 25 students have heights ≤ 34.44 cm.",
+      "explanation": "By definition, the median separates the lower half from the upper half; therefore at least half (25 out of 50) of the observations are less than or equal to the median. Option B is too restrictive (exactly), C confuses median with mode, and D confuses median with mean.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "A small grouped data set has frequencies 4, 7, and 5 for three consecutive classes. What is the cumulative frequency up to the second class?",
+      "options": {
+        "A": "11",
+        "B": "7",
+        "C": "12",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "11",
+      "explanation": "Cumulative frequency up to the second class = frequency of first class + frequency of second class = 4 + 7 = 11. The other options either omit the first class or add an extra value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "Consider grouped data with total N = 20 and class frequencies: 0‑10 cm: 3, 10‑20 cm: 8, 20‑30 cm: 5, 30‑40 cm: 4. Which class interval contains the median?",
+      "options": {
+        "A": "0‑10 cm",
+        "B": "10‑20 cm",
+        "C": "20‑30 cm",
+        "D": "30‑40 cm"
+      },
+      "correct_option": "B",
+      "answer": "10‑20 cm",
+      "explanation": "Median position = N/2 = 10. Cumulative frequencies: 3 (0‑10), 11 (10‑20), 16 (20‑30), 20 (30‑40). The first cumulative frequency that reaches or exceeds 10 is 11, belonging to the 10‑20 cm class. Hence this is the median class. The other intervals either fall before or after the median position.",
+      "difficulty": "easy"
+    }
+  ]
+}

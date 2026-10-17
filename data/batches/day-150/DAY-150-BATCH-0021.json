@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "A frequency distribution for the number of books read by students is given below. Identify the median class.\n\nClass interval | Frequency\n0‑10 | 5\n10‑20 | 12\n20‑30 | 8\n30‑40 | 5\n\nWhich class contains the median?",
+      "options": {
+        "A": "0‑10",
+        "B": "10‑20",
+        "C": "20‑30",
+        "D": "30‑40"
+      },
+      "correct_option": "B",
+      "answer": "10‑20",
+      "explanation": "The total number of observations N = 5+12+8+5 = 30. The median position is N/2 = 15. The cumulative frequencies are 5, 17, 25, 30. The first cumulative frequency that reaches or exceeds 15 is 17, which belongs to the class 10‑20. Hence the median class is 10‑20. Option B is correct; the other classes either fall before or after the median position.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Using the same data as above, calculate the median of the grouped data using the appropriate formula.\n\nClass interval | Frequency\n0‑10 | 5\n10‑20 | 12\n20‑30 | 8\n30‑40 | 5",
+      "options": {
+        "A": "12.5",
+        "B": "15.0",
+        "C": "18.3",
+        "D": "22.5"
+      },
+      "correct_option": "C",
+      "answer": "18.3",
+      "explanation": "Total N = 30, so N/2 = 15. The median class is 10‑20 (cumulative frequency just before it = 5, frequency of the class = 12, class width h = 10). Applying the formula:\nMedian = L + [(N/2 – cf_prev)/f] × h = 10 + [(15‑5)/12] × 10 = 10 + (10/12)×10 ≈ 10 + 8.33 = 18.33.\nRounded to one decimal place, the median is 18.3, which matches option C.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "In the above distribution, if the class boundaries are taken as 0‑9.9, 9.9‑19.9, 19.9‑29.9, 29.9‑39.9, which of the following median values is obtained after substituting the correct boundaries in the median formula?",
+      "options": {
+        "A": "18.0",
+        "B": "18.33",
+        "C": "18.5",
+        "D": "19.0"
+      },
+      "correct_option": "B",
+      "answer": "18.33",
+      "explanation": "Using the correct lower boundary L = 9.9 for the median class (9.9‑19.9), cf_prev = 5, f = 12, h = 10, and N/2 = 15, the formula gives:\nMedian = 9.9 + [(15‑5)/12]×10 = 9.9 + 8.33 = 18.23 ≈ 18.33.\nOption B reflects the value obtained when the true class boundaries are used. Options A, C, and D arise from using the class limits (0‑10, etc.) or rounding incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "If the median of the grouped data on books read is found to be 18.33, what does this tell you about the data set?",
+      "options": {
+        "A": "More than half of the students read fewer than 18.33 books.",
+        "B": "Exactly half of the students read 18.33 books.",
+        "C": "The median lies in the class interval 10‑20.",
+        "D": "Both statements A and C are true."
+      },
+      "correct_option": "D",
+      "answer": "Both statements A and C are true.",
+      "explanation": "The median being 18.33 means that at least 50 % of the observations are below this value and at least 50 % are above it, so statement A is essentially correct (it is at least half, not necessarily more than half). Because 18.33 falls within the class 10‑20, statement C is also correct. Therefore, option D, which combines both true statements, is the best interpretation. Option B is incorrect because the median does not imply that exactly half of the observations equal the median value.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "Given the frequencies 5, 12, 8, 5 for the classes 0‑10, 10‑20, 20‑30, 30‑40 respectively, what is the cumulative frequency just before the class 20‑30?",
+      "options": {
+        "A": "5",
+        "B": "12",
+        "C": "17",
+        "D": "25"
+      },
+      "correct_option": "C",
+      "answer": "17",
+      "explanation": "Cumulative frequency before a class is the sum of frequencies of all preceding classes. Here, the classes before 20‑30 are 0‑10 (5) and 10‑20 (12). Adding them gives 5 + 12 = 17. Hence option C is correct. The other options represent either a single preceding frequency or the cumulative after including the 20‑30 class.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "In a grouped frequency table with total observations N = 30 and class frequencies 5, 12, 8, 5, which class contains the median?",
+      "options": {
+        "A": "0‑10",
+        "B": "10‑20",
+        "C": "20‑30",
+        "D": "30‑40"
+      },
+      "correct_option": "B",
+      "answer": "10‑20",
+      "explanation": "The median position is N/2 = 15. Cumulative frequencies are 5, 17, 25, 30. The first cumulative frequency that reaches or exceeds 15 is 17, belonging to the class 10‑20. Therefore, the median class is 10‑20 (option B). The other classes lie either before or after the median position.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Which of the following expressions correctly represents the formula for the median of grouped data?",
+      "options": {
+        "A": "L + [(N/2 – cf_prev) / f] × h",
+        "B": "L + [(N – cf_prev) / f] × h",
+        "C": "L + [(N/2 + cf_prev) / f] × h",
+        "D": "L + [(N/2) / f] × h"
+      },
+      "correct_option": "A",
+      "answer": "L + [(N/2 – cf_prev) / f] × h",
+      "explanation": "The standard median formula for grouped data is:\nMedian = L + [(N/2 – cf_prev) / f] × h,\nwhere L is the lower boundary of the median class, cf_prev is the cumulative frequency before that class, f is the frequency of the median class, h is the class width, and N is the total number of observations. Option A matches this expression exactly; the other options alter the numerator incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "For the distribution with class intervals 0‑10, 10‑20, 20‑30 and frequencies 4, 6, 5 respectively, find the median after correctly using class boundaries 0‑9.9, 9.9‑19.9, 19.9‑29.9.",
+      "options": {
+        "A": "14.5",
+        "B": "15.7",
+        "C": "16.2",
+        "D": "17.0"
+      },
+      "correct_option": "B",
+      "answer": "15.7",
+      "explanation": "Total observations N = 4 + 6 + 5 = 15, so N/2 = 7.5. Cumulative frequencies: 4 (first class), 10 (second class). The median class is the second class (9.9‑19.9) because 7.5 ≤ 10. Using the formula:\nL = 9.9, cf_prev = 4, f = 6, h = 10.\nMedian = 9.9 + [(7.5 – 4) / 6] × 10 = 9.9 + (3.5/6) × 10 ≈ 9.9 + 5.83 = 15.73 ≈ 15.7.\nThus option B is correct. The other options result from using wrong boundaries or arithmetic errors.",
+      "difficulty": "easy"
+    }
+  ]
+}

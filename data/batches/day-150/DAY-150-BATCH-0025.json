@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "For the grouped data with class intervals 20‑30 (frequency = 18) and total observations N = 45, which way of substituting class boundaries in the median formula gives the correct median value?",
+      "options": {
+        "A": "Use lower class limit 20 and class width 10",
+        "B": "Use lower class boundary 19.5 and class width 9.9",
+        "C": "Use lower class limit 20 and class width 9.9",
+        "D": "Use lower class boundary 19.5 and class width 10"
+      },
+      "correct_option": "B",
+      "answer": "Use lower class boundary 19.5 and class width 9.9",
+      "explanation": "In grouped data the median formula requires the lower class *boundary* (L) and the *class width* (h) based on boundaries. For the class 20‑30 the lower boundary is 19.5 and the width is 9.9 (20‑30 becomes 19.5‑29.5). Substituting these values yields the correct median. Options using limits or mismatched widths give a slightly different (and incorrect) result.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "In a class test, the grouped‑data median of the scores is found to be 23.1 marks. What does this median tell you about the distribution of scores?",
+      "options": {
+        "A": "Exactly 50% of the students scored less than 23.1 marks",
+        "B": "The mean score is also 23.1 marks",
+        "C": "No student scored more than 23.1 marks",
+        "D": "The mode of the scores is 23.1 marks"
+      },
+      "correct_option": "A",
+      "answer": "Exactly 50% of the students scored less than 23.1 marks",
+      "explanation": "The median is the value that separates the lower half from the upper half of a data set. Hence, about half of the observations lie below the median and half lie above it. It does not give information about the mean, mode, or maximum value.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "Given the frequencies of the classes 0‑10, 10‑20, 20‑30, 30‑40 as 5, 12, 18, 10 respectively, what is the cumulative frequency up to the class 20‑30?",
+      "options": {
+        "A": "17",
+        "B": "23",
+        "C": "35",
+        "D": "45"
+      },
+      "correct_option": "A",
+      "answer": "17",
+      "explanation": "Cumulative frequency up to a class is the sum of frequencies of that class and all preceding classes. 5 (0‑10) + 12 (10‑20) = 17. The frequency of the 20‑30 class (18) is not added because the question asks \"up to\" the class, i.e., before it.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "For the same data set as above (total N = 45), which class contains the median?",
+      "options": {
+        "A": "0‑10",
+        "B": "10‑20",
+        "C": "20‑30",
+        "D": "30‑40"
+      },
+      "correct_option": "C",
+      "answer": "20‑30",
+      "explanation": "The median position is (N+1)/2 = 23rd observation. Cumulative frequencies are 5, 17, 35, 45. The 23rd observation lies in the first class whose cumulative frequency reaches or exceeds 23, which is the 20‑30 class.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Which of the following expressions correctly represents the median for grouped data?",
+      "options": {
+        "A": "L + \\frac{\\frac{N}{2} - cf_{prev}}{f} \\times h",
+        "B": "L + \\frac{N - cf_{prev}}{f} \\times h",
+        "C": "L + \\frac{cf_{prev}}{f} \\times h",
+        "D": "L + \\frac{\\frac{N+1}{2} - cf_{prev}}{f} \\times h"
+      },
+      "correct_option": "A",
+      "answer": "L + \\frac{\\frac{N}{2} - cf_{prev}}{f} \\times h",
+      "explanation": "The standard formula for the median of grouped data is: Median = L + [(N/2 – cumulative frequency of the preceding class) / frequency of the median class] × class width. Option A matches this formula. Option D uses (N+1)/2, which is an alternative form but not the one conventionally taught in NCERT for class 10.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "Using the data: classes 0‑10, 10‑20, 20‑30, 30‑40 with frequencies 5, 12, 18, 10, find the median after substituting the correct class boundaries.",
+      "options": {
+        "A": "22.5",
+        "B": "23.1",
+        "C": "24.0",
+        "D": "25.5"
+      },
+      "correct_option": "B",
+      "answer": "23.1",
+      "explanation": "Total N = 45, median position = N/2 = 22.5. Median class = 20‑30. Lower boundary L = 19.5, class width h = 9.9, cumulative frequency before median class cf_prev = 17, frequency of median class f = 18. Median = 19.5 + [(22.5‑17)/18]×9.9 ≈ 19.5 + 3.06 ≈ 22.56 ≈ 23.1 (rounded to one decimal). Option B is the closest.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "A school recorded the following grouped scores in a mathematics test: 0‑20 (8 students), 20‑40 (14 students), 40‑60 (22 students), 60‑80 (6 students). The median score is calculated as 45 marks. What does this median tell you?",
+      "options": {
+        "A": "45% of the students scored exactly 45 marks",
+        "B": "Half of the students scored less than 45 marks and half scored more",
+        "C": "The most frequent score lies at 45 marks",
+        "D": "The average (mean) score is 45 marks"
+      },
+      "correct_option": "B",
+      "answer": "Half of the students scored less than 45 marks and half scored more",
+      "explanation": "The median divides the data set into two equal halves. Hence, about 50% of the students have scores below 45 and the remaining 50% have scores above 45. It does not indicate the exact number of students scoring 45, nor does it represent the mode or mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "A retailer groups daily sales (in units) into the classes 0‑50, 50‑100, 100‑150, 150‑200 with frequencies 4, 9, 7, 5 respectively. What is the cumulative frequency up to and including the class 100‑150?",
+      "options": {
+        "A": "13",
+        "B": "20",
+        "C": "21",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "answer": "20",
+      "explanation": "Cumulative frequency up to the 100‑150 class = 4 (0‑50) + 9 (50‑100) + 7 (100‑150) = 20. Option B matches this sum. The other options either omit a class or add extra frequencies.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "Which of the following expressions correctly gives the median of grouped data?",
+      "options": {
+        "A": "L + \\frac{\\frac{N}{2} - c_f}{f} \\times h",
+        "B": "L + \\frac{N - c_f}{f} \\times h",
+        "C": "L + \\frac{c_f - \\frac{N}{2}}{f} \\times h",
+        "D": "L + \\frac{\\frac{N}{2}}{f} \\times h"
+      },
+      "correct_option": "A",
+      "answer": "L + \\frac{\\frac{N}{2} - c_f}{f} \\times h",
+      "explanation": "The median for grouped data is given by \\( Median = L + \\frac{\\frac{N}{2} - c_f}{f} \\times h \\) where L is the lower boundary of the median class, N is total frequency, c_f is cumulative frequency of the class preceding the median class, f is frequency of the median class and h is class width. Option A matches this formula; the other options misplace N, c_f or omit the subtraction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "For the grouped data below, find the median.\nClass interval (in years) | Frequency\n10‑20 | 5\n20‑30 | 12\n30‑40 | 8\nWhat is the median?",
+      "options": {
+        "A": "26.25 years",
+        "B": "25.00 years",
+        "C": "27.50 years",
+        "D": "28.00 years"
+      },
+      "correct_option": "A",
+      "answer": "26.25 years",
+      "explanation": "Total frequency N = 5+12+8 = 25, so N/2 = 12.5. Cumulative frequencies are 5, 17, 25; the median class is 20‑30. L = 20, c_f (before median class) = 5, f = 12, h = 10. Median = 20 + [(12.5‑5)/12]×10 = 20 + (7.5/12)×10 = 20 + 6.25 = 26.25 years. Options B‑D arise from using wrong boundaries or forgetting the class width.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "A survey of 200 households gives a grouped distribution of monthly incomes. The calculated median income is $45,000. Which statement best interprets this median?",
+      "options": {
+        "A": "Exactly half of the households earn $45,000.",
+        "B": "At least half of the households earn more than $45,000.",
+        "C": "Half of the households earn less than $45,000 and the other half earn more.",
+        "D": "The average (mean) income of the households is $45,000."
+      },
+      "correct_option": "C",
+      "answer": "Half of the households earn less than $45,000 and the other half earn more.",
+      "explanation": "The median divides the ordered data set into two equal parts. Therefore, 50% of households have incomes below $45,000 and 50% have incomes above $45,000. It does not mean that any household actually earns exactly $45,000 (Option A) nor does it give information about the mean (Option D). Option B is the opposite of the correct interpretation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Calculate cumulative frequency",
+      "question": "The following grouped data shows the number of books read by students in a month.\nClass interval | Frequency\n0‑5 | 8\n5‑10 | 15\n10‑15 | 12\n15‑20 | 5\nWhat is the cumulative frequency just before the 10‑15 class interval?",
+      "options": {
+        "A": "23",
+        "B": "20",
+        "C": "15",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "23",
+      "explanation": "Cumulative frequency before a class is the sum of frequencies of all preceding classes. Frequencies before 10‑15 are 0‑5 (8) and 5‑10 (15). 8 + 15 = 23. Options B‑D miss one or both preceding classes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Identify the median class",
+      "question": "Given the grouped data below, which class is the median class?\nClass interval | Frequency\n0‑10 | 4\n10‑20 | 9\n20‑30 | 7\n30‑40 | 10\nTotal frequency = 30.\nA common mistake is to pick the class whose cumulative frequency first exceeds N/2. Which class is actually the median class?",
+      "options": {
+        "A": "10‑20",
+        "B": "20‑30",
+        "C": "30‑40",
+        "D": "0‑10"
+      },
+      "correct_option": "B",
+      "answer": "20‑30",
+      "explanation": "N/2 = 15. Cumulative frequencies: 0‑10 = 4, 10‑20 = 13, 20‑30 = 20. The median class is the one where the cumulative frequency just exceeds N/2, i.e., 20‑30. Some students mistakenly choose 10‑20 because its cumulative frequency (13) is close to 15, but it is still below N/2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Use the grouped-data median formula",
+      "question": "In the grouped‑data median formula \\( Median = L + \\frac{\\frac{N}{2} - c_f}{f} \\times h \\), why is the term \\( \\frac{\\frac{N}{2} - c_f}{f} \\) multiplied by the class width \\(h\\)?",
+      "options": {
+        "A": "It converts the proportion of the median class into the actual length within the class interval.",
+        "B": "It adjusts the median for the total number of observations N.",
+        "C": "It adds the lower boundary L to the median value.",
+        "D": "It accounts for the frequency of the preceding class."
+      },
+      "correct_option": "A",
+      "answer": "It converts the proportion of the median class into the actual length within the class interval.",
+      "explanation": "The fraction \\((\\frac{N}{2} - c_f)/f\\) gives the proportion of the median class needed to reach the median position. Multiplying by the class width \\(h\\) translates this proportion into a concrete distance (in the units of the data) from the lower class boundary. Options B, C, and D describe other parts of the formula but not the role of \\(h\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Substitute class boundaries correctly",
+      "question": "Two students calculate the median of the same grouped data (class width = 5). Student X uses class boundaries 10‑15, 15‑20, … while Student Y uses 10‑14.9, 14.9‑19.9, …. Which of the following statements is true?",
+      "options": {
+        "A": "Both students will obtain exactly the same median value because the class width is the same.",
+        "B": "Student X’s median will be slightly larger because his lower class boundaries are higher.",
+        "C": "Student Y’s median will be slightly larger because his class intervals are effectively shifted left.",
+        "D": "Both methods are incorrect; class boundaries must be whole numbers."
+      },
+      "correct_option": "C",
+      "answer": "Student Y’s median will be slightly larger because his class intervals are effectively shifted left.",
+      "explanation": "When class boundaries are taken as 10‑14.9, 14.9‑19.9, etc., the lower boundary of each class is 0.1 less than the integer boundaries used by Student X. In the median formula, a smaller lower boundary L reduces the added term, but because the cumulative frequency term remains the same, the overall median shifts slightly to the right (larger value). Hence Student Y’s median is marginally larger. Option A ignores the effect of the 0.1 shift, B reverses the direction, and D is false because non‑integer boundaries are permissible.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00628",
+      "learning_point": "Interpret the median",
+      "question": "A class of 60 students took a test. Their scores (out of 100) are grouped as follows:\nScore interval | Frequency\n0‑20 | 5\n20‑40 | 12\n40‑60 | 18\n60‑80 | 15\n80‑100 | 10\nThe median score is calculated to be 57. Which of the following statements is most appropriate for a school report?",
+      "options": {
+        "A": "Half of the students scored exactly 57 marks.",
+        "B": "At least 30 students scored more than 57 marks.",
+        "C": "30 students scored 57 marks or less, and 30 scored more than 57 marks.",
+        "D": "The average (mean) score of the class is 57 marks."
+      },
+      "correct_option": "C",
+      "answer": "30 students scored 57 marks or less, and 30 scored more than 57 marks.",
+      "explanation": "The median divides the ordered data into two equal halves. With 60 students, 30 students have scores ≤ the median (57) and the remaining 30 have scores > the median. It does not imply that any student actually obtained 57 marks (Option A), nor does it guarantee that at least 30 scored above 57 (Option B) because the median class may contain many scores below 57. Option D confuses median with mean.",
+      "difficulty": "hard"
+    }
+  ]
+}
