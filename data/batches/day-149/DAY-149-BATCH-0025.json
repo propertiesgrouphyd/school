@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "Two composite solids are formed as follows:\n\nSolid A: a cube of side 4 cm with a square pyramid (base 4 cm, height 6 cm) placed on one face.\nSolid B: a cube of side 6 cm with an identical square pyramid (base 6 cm, height 6 cm) placed on one face.\n\nWhen calculating total exposed surface area, the face of each cube that contacts the pyramid is hidden. Which solid has the larger exposed surface area?",
+      "options": {
+        "A": "Solid A",
+        "B": "Solid B",
+        "C": "Both have equal exposed area",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "B",
+      "answer": "Solid B",
+      "explanation": "For each solid, exposed area = (5 × side²) + lateral area of the pyramid. \nFor side = 4 cm, slant height = √((2)²+6²)=√40≈6.32 cm, so exposed ≈ 5·16 + 2·4·6.32 ≈ 130.6 cm². \nFor side = 6 cm, slant height = √((3)²+6²)=√45≈6.71 cm, so exposed ≈ 5·36 + 2·6·6.71 ≈ 260.5 cm². \nThus Solid B has the greater exposed surface area. The hidden face (the common base) is not counted in either case.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A solid is formed by joining a right circular cylinder of radius 5 cm and height 12 cm to a cone of the same base radius 5 cm and height 8 cm at their circular faces. Find the total surface area of the composite solid, excluding the common circular face.",
+      "options": {
+        "A": "145π + 5π√89 cm²",
+        "B": "120π + 5π√89 cm²",
+        "C": "145π cm²",
+        "D": "120π cm²"
+      },
+      "correct_option": "A",
+      "answer": "145π + 5π√89 cm²",
+      "explanation": "Cylinder curved area = 2πrh = 2π·5·12 = 120π. One circular base of the cylinder remains exposed = πr² = 25π. \nCone curved area = πr l where l = √(r²+h²)=√(5²+8²)=√89, so curved area = 5π√89. The cone’s base is hidden. \nTotal exposed area = 120π + 25π + 5π√89 = 145π + 5π√89 cm². Option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Identify component solids",
+      "question": "A composite solid consists of a solid that looks like a rectangular box with a half‑sphere attached to one of its larger faces. Which pair correctly identifies the component solids of this composite shape?",
+      "options": {
+        "A": "Cube and cone",
+        "B": "Hemisphere and rectangular prism",
+        "C": "Cylinder and pyramid",
+        "D": "Sphere and tetrahedron"
+      },
+      "correct_option": "B",
+      "answer": "Hemisphere and rectangular prism",
+      "explanation": "The description matches a rectangular prism (the box) and a hemisphere (the half‑sphere) joined together. The other options describe different shapes that do not fit the given figure.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "A cube of side 3 cm has a square pyramid of base 3 cm and height 4 cm placed on one face. Find the total exposed surface area of the composite solid (the face of the cube that contacts the pyramid is hidden).",
+      "options": {
+        "A": "70.6 cm²",
+        "B": "66.0 cm²",
+        "C": "78.0 cm²",
+        "D": "54.0 cm²"
+      },
+      "correct_option": "A",
+      "answer": "70.6 cm²",
+      "explanation": "Exposed area of cube = 5 × 3² = 45 cm². \nPyramid slant height l = √((3/2)²+4²)=√(2.25+16)=√18.25≈4.272 cm. \nLateral area = 2 × base × l = 2·3·4.272≈25.632 cm². \nTotal exposed = 45 + 25.632≈70.6 cm². Option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "The volume of a composite solid is obtained by:",
+      "options": {
+        "A": "Adding the volumes of its individual component solids",
+        "B": "Adding the surface areas of its component solids",
+        "C": "Subtracting the overlapping volume from the sum of component volumes",
+        "D": "Multiplying the dimensions of the bounding box"
+      },
+      "correct_option": "A",
+      "answer": "Adding the volumes of its individual component solids",
+      "explanation": "For composite solids that do not overlap, the total volume equals the sum of the volumes of each constituent solid. Surface area is not added for volume, and overlapping is not considered in the standard NCERT problems for class 10.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "Two identical cubes each of side 2 cm are joined face to face. What is the total exposed surface area of the resulting solid?",
+      "options": {
+        "A": "40 cm²",
+        "B": "44 cm²",
+        "C": "48 cm²",
+        "D": "52 cm²"
+      },
+      "correct_option": "A",
+      "answer": "40 cm²",
+      "explanation": "Surface area of one cube = 6·2² = 24 cm². Two cubes give 48 cm². The joined face (area 2² = 4 cm²) becomes hidden for each cube, so 2 × 4 = 8 cm² must be subtracted. 48 − 8 = 40 cm². Option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A water tank consists of a right circular cylinder of radius 3 m and height 5 m with a hemispherical dome of the same radius placed on top. Ignoring the base of the cylinder, find the total exterior surface area of the tank.",
+      "options": {
+        "A": "48π m²",
+        "B": "30π m²",
+        "C": "18π m²",
+        "D": "60π m²"
+      },
+      "correct_option": "A",
+      "answer": "48π m²",
+      "explanation": "Cylinder curved area = 2πrh = 2π·3·5 = 30π m². Hemisphere curved area = 2πr² = 2π·9 = 18π m². Adding gives 48π m². The base of the cylinder is not counted, and the circular joint between cylinder and hemisphere is hidden. Option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Identify component solids",
+      "question": "A toy consists of a cone of height 6 cm and base radius 2 cm placed on top of a cylinder of radius 2 cm and height 8 cm. Which component solids make up this toy?",
+      "options": {
+        "A": "Cone and cylinder",
+        "B": "Sphere and rectangular prism",
+        "C": "Pyramid and cube",
+        "D": "Hemisphere and cone"
+      },
+      "correct_option": "A",
+      "answer": "Cone and cylinder",
+      "explanation": "The description explicitly mentions a cone and a cylinder as the two parts of the toy. The other options list shapes that are not present in the description.",
+      "difficulty": "medium"
+    }
+  ]
+}

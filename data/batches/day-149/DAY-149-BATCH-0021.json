@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "A right circular cylinder of radius 3 cm and height 10 cm is attached to the base of a right circular cone of the same radius and height 5 cm. What is the total exposed surface area of the combined solid?",
+      "options": {
+        "A": "Approximately 272 cm²",
+        "B": "Approximately 328 cm²",
+        "C": "Approximately 189 cm²",
+        "D": "Approximately 245 cm²"
+      },
+      "correct_option": "A",
+      "answer": "Approximately 272 cm²",
+      "explanation": "The hidden face is the common circular base of radius 3 cm. Exposed area = cylinder curved (2πrh = 60π) + cylinder bottom (πr² = 9π) + cone curved (πrl, l = √(r²+h²) = √34, so π·3·√34 = 3π√34). Total = 60π + 9π + 3π√34 ≈ 271.7 cm² ≈ 272 cm². Options B, C, D either add the hidden area or omit parts, showing the common misconception of counting hidden surfaces.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "A rectangular prism measures 8 cm × 6 cm × 10 cm. A hemisphere of radius 3 cm is placed on the top face (8 cm × 6 cm). What is the total volume of the resulting solid?",
+      "options": {
+        "A": "Approximately 536.5 cm³",
+        "B": "480 cm³",
+        "C": "560 cm³",
+        "D": "600 cm³"
+      },
+      "correct_option": "A",
+      "answer": "Approximately 536.5 cm³",
+      "explanation": "Volume = volume of prism + volume of hemisphere. Prism: 8×6×10 = 480 cm³. Hemisphere: (2/3)πr³ = (2/3)π·27 = 18π ≈ 56.55 cm³. Total ≈ 480 + 56.55 = 536.55 cm³ ≈ 536.5 cm³. The other options ignore one part or over‑estimate.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "Solid A: a cube of side 4 cm with a square pyramid (base 4 cm × 4 cm, height 6 cm) attached on its top face. Solid B: a cube of side 4 cm with a rectangular prism (4 cm × 4 cm × 6 cm) attached on its top face. Which solid has the larger total exposed surface area?",
+      "options": {
+        "A": "Solid A",
+        "B": "Solid B",
+        "C": "Both have the same exposed area",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "B",
+      "answer": "Solid B",
+      "explanation": "For both solids the top face of the cube (16 cm²) is hidden. \nSolid A: Exposed area = 5 cube faces (5×16 = 80) + pyramid lateral area. Lateral area = (1/2)·perimeter·slant height = 8·6.3249 ≈ 50.6 cm². Total ≈ 130.6 cm².\nSolid B: Prism total SA = 2(ab+bc+ac) = 128 cm²; hidden face = 16 cm², so exposed prism area = 112 cm². Adding the 5 cube faces (80 cm²) gives ≈ 192 cm², which is larger. Hence Solid B has the greater exposed area. The comparison tests the ability to exclude hidden faces correctly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A water tank consists of a right circular cylinder of radius 5 m and height 12 m, closed at the bottom and topped with a hemispherical dome. What is the total external surface area that needs to be painted (excluding the base of the cylinder)?",
+      "options": {
+        "A": "Approximately 534 m²",
+        "B": "600 m²",
+        "C": "450 m²",
+        "D": "500 m²"
+      },
+      "correct_option": "A",
+      "answer": "Approximately 534 m²",
+      "explanation": "Painted area = curved surface of cylinder + curved surface of hemisphere. Cylinder curved area = 2πrh = 2π·5·12 = 120π. Hemisphere curved area = 2πr² = 2π·25 = 50π. Total = 170π ≈ 534.07 m² ≈ 534 m². Options B‑D either add the base or use wrong formulas.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Identify component solids",
+      "question": "A solid is formed by joining a right circular cone (base radius 4 cm, height 9 cm) to the top of a right circular cylinder (radius 4 cm, height 12 cm). Which component solids constitute this composite solid?",
+      "options": {
+        "A": "Cylinder only",
+        "B": "Cone only",
+        "C": "Cylinder and cone",
+        "D": "Sphere and cone"
+      },
+      "correct_option": "C",
+      "answer": "Cylinder and cone",
+      "explanation": "The description mentions a cylinder and a cone attached together; no other solid is involved. Hence the components are a cylinder and a cone. Options A and B list only one component, and D mentions a sphere which is not present.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "A cube of side 6 cm has a square pyramid (base 6 cm × 6 cm, height 5 cm) attached to its top face. What is the total exposed surface area of the resulting solid?",
+      "options": {
+        "A": "250 cm²",
+        "B": "216 cm²",
+        "C": "300 cm²",
+        "D": "180 cm²"
+      },
+      "correct_option": "A",
+      "answer": "250 cm²",
+      "explanation": "Exposed cube faces = 5 × 6² = 5 × 36 = 180 cm² (top face is hidden). Pyramid lateral area = (1/2)·perimeter·slant height. Perimeter = 4·6 = 24 cm. Slant height = √[(3)² + 5²] = √34 ≈ 5.830 cm. Lateral area = 0.5·24·5.830 = 12·5.830 ≈ 69.96 cm². Total exposed area ≈ 180 + 69.96 ≈ 249.96 ≈ 250 cm². The other options miss either the pyramid area or the hidden face.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "Which statement correctly defines the volume of a composite solid?",
+      "options": {
+        "A": "It is the sum of the volumes of the individual solids minus the volume of any overlapping region.",
+        "B": "It is the sum of the surface areas of the individual solids.",
+        "C": "It is the product of the lengths of its three dimensions.",
+        "D": "It is equal only to the volume of the larger component solid."
+      },
+      "correct_option": "A",
+      "answer": "It is the sum of the volumes of the individual solids minus the volume of any overlapping region.",
+      "explanation": "The volume of a composite solid is obtained by adding the volumes of all constituent solids and subtracting any part that is counted twice because of overlap. Option B confuses volume with surface area, C describes a rectangular prism only, and D ignores the contribution of the smaller solid.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "A rectangular block of dimensions 6 cm × 6 cm × 4 cm has a hemisphere of radius 3 cm attached to one of its 6 cm × 6 cm faces. What is the total exposed surface area of the combined solid?",
+      "options": {
+        "A": "189 cm²",
+        "B": "168 cm²",
+        "C": "225 cm²",
+        "D": "150 cm²"
+      },
+      "correct_option": "A",
+      "answer": "189 cm²",
+      "explanation": "Block total SA = 2(ab+bc+ac) = 2(36+24+24) = 168 cm². The face where the hemisphere is attached (area 36 cm²) is hidden, so exposed block area = 168 – 36 = 132 cm². Hemisphere curved area = 2πr² = 2π·9 = 18π ≈ 56.55 cm². Total exposed area ≈ 132 + 56.55 ≈ 188.55 cm² ≈ 189 cm². Options B, C, D either ignore the hidden face or the hemisphere’s curved area.",
+      "difficulty": "easy"
+    }
+  ]
+}

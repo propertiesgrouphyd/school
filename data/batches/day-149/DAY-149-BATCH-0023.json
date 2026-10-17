@@ -1,0 +1,150 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "Which of the following best defines the volume of a composite solid?",
+      "options": {
+        "A": "The sum of the volumes of all individual component solids after removing any overlapping parts.",
+        "B": "The product of the base area and height of the largest component solid.",
+        "C": "Only the volume of the region common to all component solids.",
+        "D": "The volume of the smallest component solid only."
+      },
+      "correct_option": "A",
+      "answer": "The sum of the volumes of all individual component solids after removing any overlapping parts.",
+      "explanation": "A composite solid is formed by joining two or more standard solids. Its total volume is obtained by adding the volumes of each component and subtracting any part that is counted twice because of overlap. Options B, C, and D describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "A cylinder of radius 3 cm and height 10 cm is placed on top of a cube of side 6 cm. What is the total exposed surface area of the composite solid (ignore the area of contact between the cylinder and the cube)?",
+      "options": {
+        "A": "396.8 cm²",
+        "B": "420 cm²",
+        "C": "360 cm²",
+        "D": "450 cm²"
+      },
+      "correct_option": "A",
+      "answer": "396.8 cm²",
+      "explanation": "Exposed area = 5 faces of cube (5 × 36 = 180 cm²) + curved surface of cylinder (2πrh = 2π·3·10 = 60π ≈ 188.5 cm²) + top face of cylinder (πr² = 9π ≈ 28.3 cm²). Total ≈ 180 + 188.5 + 28.3 = 396.8 cm². The top face of the cube is hidden and must not be counted.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A water tank consists of a rectangular box 10 m long, 5 m wide and 2 m high, topped by a hemispherical dome of radius 2.5 m. What is the total volume of the tank?",
+      "options": {
+        "A": "132.7 m³",
+        "B": "115.0 m³",
+        "C": "150.0 m³",
+        "D": "100.0 m³"
+      },
+      "correct_option": "A",
+      "answer": "132.7 m³",
+      "explanation": "Volume of box = 10 × 5 × 2 = 100 m³. Volume of hemisphere = (2/3)πr³ = (2/3)π(2.5)³ = (2/3)π·15.625 ≈ 10.4167π ≈ 32.73 m³. Total volume ≈ 100 + 32.73 = 132.73 m³, rounded to 132.7 m³. Other options ignore one of the parts or use incorrect formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Identify component solids",
+      "question": "A solid is formed by joining a cone of base radius 4 cm and height 9 cm to a cylinder of radius 4 cm and height 6 cm at their common circular face. Which component solids are present in this composite solid?",
+      "options": {
+        "A": "Cone only",
+        "B": "Cylinder only",
+        "C": "Cone and Cylinder",
+        "D": "Sphere and Cylinder"
+      },
+      "correct_option": "C",
+      "answer": "Cone and Cylinder",
+      "explanation": "The description explicitly mentions a cone and a cylinder sharing a circular base. No sphere is involved, and both shapes are present, making option C correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate total surface area appropriately",
+      "question": "For the composite solid of a cube (side 6 cm) with a cylinder (radius 3 cm, height 10 cm) on top, a student adds the top face area of the cube (36 cm²) to the total exposed area and obtains 432.8 cm². Which statement is correct?",
+      "options": {
+        "A": "The student's answer is correct because all faces of the cube must be counted.",
+        "B": "The student's answer is incorrect because the top face of the cube is hidden by the cylinder.",
+        "C": "The student's answer is incorrect because the curved surface of the cylinder should be excluded.",
+        "D": "The student's answer is correct because hidden surfaces are counted twice."
+      },
+      "correct_option": "B",
+      "answer": "The student's answer is incorrect because the top face of the cube is hidden by the cylinder.",
+      "explanation": "When two solids are joined, the common face becomes internal and must not be counted in the exposed surface area. Adding the cube's top face (36 cm²) double‑counts that hidden area, leading to an over‑estimate. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Calculate volume of composite solids",
+      "question": "A small cube of side 2 cm is attached externally to a larger cube of side 5 cm, sharing one whole face. What is the volume of the resulting composite solid?",
+      "options": {
+        "A": "125 cm³",
+        "B": "133 cm³",
+        "C": "141 cm³",
+        "D": "149 cm³"
+      },
+      "correct_option": "B",
+      "answer": "133 cm³",
+      "explanation": "Volume of large cube = 5³ = 125 cm³. Volume of small cube = 2³ = 8 cm³. Since the small cube is attached externally, there is no overlap; total volume = 125 + 8 = 133 cm³. Options A, C, and D either ignore the added cube or assume incorrect overlap.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Avoid counting hidden surfaces when finding exposed area",
+      "question": "Two methods are used to find the exposed surface area of the cube‑cylinder composite solid described earlier. Method 1 adds the surface areas of the cube and cylinder and then subtracts twice the area of their common face. Method 2 directly adds the areas of all exposed faces. Which statement is true?",
+      "options": {
+        "A": "Both methods give the same correct result.",
+        "B": "Method 1 overestimates the area because it subtracts the common face only once.",
+        "C": "Method 2 underestimates the area because it omits the curved surface of the cylinder.",
+        "D": "Neither method works for this type of composite solid."
+      },
+      "correct_option": "A",
+      "answer": "Both methods give the same correct result.",
+      "explanation": "Method 1: (Surface area of cube + surface area of cylinder) – 2 × area of common face correctly removes the hidden interface from both solids. Method 2 directly sums only the faces that are visible, which yields the same total. Hence both approaches are valid and give identical results. Options B, C, and D describe errors that do not occur when the methods are applied correctly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00624",
+      "learning_point": "Solve practical application problems",
+      "question": "A solid consists of a right circular cone (base radius 3 cm, height 4 cm) placed upside down on top of a right circular cylinder (radius 3 cm, height 6 cm). The cone’s base coincides with the top face of the cylinder. Find the total surface area of the composite solid, excluding the common circular face. Express your answer in terms of π.",
+      "options": {
+        "A": "60π cm²",
+        "B": "72π cm²",
+        "C": "84π cm²",
+        "D": "96π cm²"
+      },
+      "correct_option": "A",
+      "answer": "60π cm²",
+      "explanation": "Cylinder curved surface = 2πrh = 2π·3·6 = 36π. Cylinder bottom face (exposed) = πr² = 9π. Cone slant height l = √(r²+h²) = √(3²+4²) = 5 cm. Cone curved surface = πrl = π·3·5 = 15π. The common circular face is hidden, so it is not counted. Total exposed area = 36π + 9π + 15π = 60π cm². Options B‑D are larger and result from adding the hidden face or mis‑calculating the slant height.",
+      "difficulty": "hard"
+    }
+  ]
+}
