@@ -1,0 +1,78 @@
+{
+  "day": 148,
+  "batch_id": "DAY-148-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00618",
+      "learning_point": "Construct suitable right triangles",
+      "question": "A pole of unknown height stands on level ground. From a point 30 m away from the base, the angle of elevation to the top of the pole is 45°. Which of the following correctly describes the right triangle that should be constructed to find the height of the pole?",
+      "options": {
+        "A": "A right triangle with the 30 m side opposite the 45° angle at the pole.",
+        "B": "A right triangle with the 30 m side as the base and the 45° angle at the observation point.",
+        "C": "A right triangle where the pole’s height is the hypotenuse.",
+        "D": "A right triangle with the 45° angle located at the ground level."
+      },
+      "correct_option": "B",
+      "answer": "A right triangle with the 30 m side as the base and the 45° angle at the observation point.",
+      "explanation": "The angle of elevation is measured at the observer’s eye. Therefore the 45° angle belongs at the observation point, the side adjacent to that angle is the horizontal distance (30 m), and the side opposite the angle is the unknown height. Option B correctly represents this configuration. Options A, C and D place the angle or side incorrectly, leading to wrong calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00618",
+      "learning_point": "Select an appropriate trigonometric ratio",
+      "question": "In the situation described above (30 m distance, 45° angle of elevation), which trigonometric ratio should be used to calculate the pole’s height?",
+      "options": {
+        "A": "sin 45°",
+        "B": "cos 45°",
+        "C": "tan 45°",
+        "D": "cot 45°"
+      },
+      "correct_option": "C",
+      "answer": "tan 45°",
+      "explanation": "For a right triangle, the tangent of an angle equals the opposite side (height) divided by the adjacent side (horizontal distance). Hence height = 30 m × tan 45°. Using sin or cos would involve the hypotenuse, which is not known, and cot is the reciprocal of tan, giving the inverse relationship. Therefore tan 45° is the appropriate ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00618",
+      "learning_point": "Calculate unknown heights",
+      "question": "Two towers, A and B, stand on level ground. From a point P, the angle of elevation to the top of tower A is 30° and the distance from P to the base of A is 50 m. The angle of elevation to the top of tower B is 60° and the distance from P to the base of B is 30 m. Which tower is taller and by approximately how many metres?",
+      "options": {
+        "A": "Tower A is taller by about 23 m.",
+        "B": "Tower B is taller by about 23 m.",
+        "C": "Tower A is taller by about 5 m.",
+        "D": "Tower B is taller by about 5 m."
+      },
+      "correct_option": "B",
+      "answer": "Tower B is taller by about 23 m.",
+      "explanation": "Height of A = 50 × tan30° = 50 × (1/√3) ≈ 28.9 m. Height of B = 30 × tan60° = 30 × √3 ≈ 51.96 m. The difference = 51.96 − 28.9 ≈ 23 m, so tower B is taller by roughly 23 m. Options A, C, and D give incorrect tower identification or magnitude.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00618",
+      "learning_point": "Interpret answers in context",
+      "question": "A lighthouse is situated on a cliff 80 m above sea level. From a ship at sea, the angle of elevation to the top of the lighthouse is 20°. What is the horizontal distance of the ship from the base of the cliff? (Round to the nearest metre.)",
+      "options": {
+        "A": "220 m",
+        "B": "230 m",
+        "C": "240 m",
+        "D": "250 m"
+      },
+      "correct_option": "A",
+      "answer": "220 m",
+      "explanation": "tan 20° = opposite/adjacent = 80 / d ⇒ d = 80 / tan 20°. tan 20° ≈ 0.36397, so d ≈ 80 / 0.36397 ≈ 219.9 m, which rounds to 220 m. Option A matches this calculation. The other options are farther from the correct value and would lead to an incorrect interpretation of the ship’s position.",
+      "difficulty": "hard"
+    }
+  ]
+}
