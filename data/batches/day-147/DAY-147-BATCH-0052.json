@@ -1,0 +1,78 @@
+{
+  "day": 147,
+  "batch_id": "DAY-147-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "State fundamental trigonometric identities",
+      "question": "Which of the following statements is NOT a fundamental trigonometric identity?",
+      "options": {
+        "A": "sin²θ + cos²θ = 1",
+        "B": "1 + tan²θ = sec²θ",
+        "C": "1 + cot²θ = cosec²θ",
+        "D": "sinθ + cosθ = 1"
+      },
+      "correct_option": "D",
+      "answer": "sinθ + cosθ = 1",
+      "explanation": "The three identities in options A, B and C are the basic (fundamental) trigonometric identities derived from the Pythagorean theorem. Option D, sinθ + cosθ = 1, is not generally true for any angle; it holds only for specific angles (e.g., θ = 0°) and therefore is not a fundamental identity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Use sin²A + cos²A = 1",
+      "question": "If sin A = 3/5 for an acute angle A, what is the value of cos A?",
+      "options": {
+        "A": "4/5",
+        "B": "3/5",
+        "C": "5/3",
+        "D": "√34/5"
+      },
+      "correct_option": "A",
+      "answer": "4/5",
+      "explanation": "For any angle, sin²A + cos²A = 1. Substituting sin A = 3/5 gives (3/5)² + cos²A = 1 → 9/25 + cos²A = 1 → cos²A = 16/25 → cos A = 4/5 (positive because the angle is acute). The other options do not satisfy the identity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Use relationships involving tan and sec",
+      "question": "For any acute angle θ (0° < θ < 90°), which statement is always true?",
+      "options": {
+        "A": "tan θ < sec θ",
+        "B": "tan θ > sec θ",
+        "C": "tan θ = sec θ",
+        "D": "tan θ ≤ 1"
+      },
+      "correct_option": "A",
+      "answer": "tan θ < sec θ",
+      "explanation": "sec θ = 1/cos θ and tan θ = sin θ/cos θ. Since 0 < sin θ ≤ 1 for acute angles, tan θ = sin θ·sec θ ≤ sec θ, with equality only at θ = 0°, which is not acute. Hence tan θ is always strictly less than sec θ. Options B and C are false, and D is false because tan θ can exceed 1 (e.g., θ = 60°).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Use relationships involving cot and cosec",
+      "question": "If cot θ = 3/4 for an acute angle θ, what is the value of cosec θ?",
+      "options": {
+        "A": "3/5",
+        "B": "5/4",
+        "C": "4/3",
+        "D": "√25/4"
+      },
+      "correct_option": "B",
+      "answer": "5/4",
+      "explanation": "The identity 1 + cot²θ = cosec²θ holds for any angle. Substituting cot θ = 3/4 gives 1 + (3/4)² = 1 + 9/16 = 25/16. Hence cosec²θ = 25/16, so cosec θ = √(25/16) = 5/4 (positive for an acute angle). Options A, C and D do not satisfy the identity.",
+      "difficulty": "hard"
+    }
+  ]
+}
