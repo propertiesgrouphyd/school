@@ -1,0 +1,150 @@
+{
+  "day": 147,
+  "batch_id": "DAY-147-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "State fundamental trigonometric identities",
+      "question": "Which of the following is a fundamental trigonometric identity?",
+      "options": {
+        "A": "sin²A + cos²A = 1",
+        "B": "sinA + cosA = 1",
+        "C": "tanA - secA = 0",
+        "D": "cotA + cosecA = 2"
+      },
+      "correct_option": "A",
+      "answer": "sin²A + cos²A = 1",
+      "explanation": "The Pythagorean identity sin²A + cos²A = 1 holds for every angle A and is one of the basic trigonometric identities. Options B, C and D are not generally true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Use sin²A + cos²A = 1",
+      "question": "In a right‑angled triangle, if sin A = 3/5, what is the value of cos A? Use the identity sin²A + cos²A = 1.",
+      "options": {
+        "A": "4/5",
+        "B": "3/5",
+        "C": "5/3",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "4/5",
+      "explanation": "sin²A = (3/5)² = 9/25. Using sin²A + cos²A = 1 gives cos²A = 1 – 9/25 = 16/25, so cos A = 4/5 (positive for an acute angle). The other options do not satisfy the identity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Use relationships involving tan and sec",
+      "question": "A student claims that if tan A = 2, then sec A must also be 2 because they are related. Which statement is correct?",
+      "options": {
+        "A": "The claim is true because tan A = sec A for all angles.",
+        "B": "The claim is false; sec²A = 1 + tan²A, so sec A = √5.",
+        "C": "The claim is true only when A = 45°.",
+        "D": "The claim is false because tan A and sec A are unrelated."
+      },
+      "correct_option": "B",
+      "answer": "The claim is false; sec²A = 1 + tan²A, so sec A = √5.",
+      "explanation": "The correct relationship is sec²A = 1 + tan²A. If tan A = 2, then sec²A = 1 + 4 = 5, giving sec A = √5. Options A and C are incorrect statements, and D ignores the existing identity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Use relationships involving cot and cosec",
+      "question": "Given that cot A = 1/3 and A is an acute angle, find the value of cosec A.",
+      "options": {
+        "A": "√10/3",
+        "B": "√10",
+        "C": "√10/2",
+        "D": "√10/5"
+      },
+      "correct_option": "A",
+      "answer": "√10/3",
+      "explanation": "cot A = cos A / sin A = 1/3 ⇒ cos A = (1/3) sin A. Using sin²A + cos²A = 1: sin²A + (sin A/3)² = 1 ⇒ sin²A(1 + 1/9) = 1 ⇒ sin²A = 9/10 ⇒ sin A = 3/√10. Hence cosec A = 1/sin A = √10/3. The other options do not match this calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Verify simple identities",
+      "question": "Which of the following statements correctly verifies a simple trigonometric identity?",
+      "options": {
+        "A": "1 - sin²A = cos²A",
+        "B": "1 + cos²A = sin²A",
+        "C": "tan²A - sec²A = -1",
+        "D": "cot²A + cosec²A = 0"
+      },
+      "correct_option": "A",
+      "answer": "1 - sin²A = cos²A",
+      "explanation": "From the Pythagorean identity sin²A + cos²A = 1, rearranging gives 1 - sin²A = cos²A, which is true. Options B, C, and D are false; for example, tan²A + 1 = sec²A, not tan²A - sec²A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Simplify the expression: (sin A / cos A) + (cos A / sin A).",
+      "options": {
+        "A": "sec A + cosec A",
+        "B": "tan A + cot A",
+        "C": "(sin²A + cos²A) / (sin A cos A)",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "answer": "(sin²A + cos²A) / (sin A cos A)",
+      "explanation": "sin A / cos A = tan A and cos A / sin A = cot A, so the sum is tan A + cot A = (sin²A + cos²A) / (sin A cos A). Using sin²A + cos²A = 1, the expression further reduces to 1/(sin A cos A) = sec A·cosec A, which matches option C. Options A and D are not equivalent, and B is an intermediate form, not the fully simplified result requested.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "State fundamental trigonometric identities",
+      "question": "Select the correct fundamental trigonometric identity from the list below.",
+      "options": {
+        "A": "sin A = cos (90°‑A)",
+        "B": "sin²A + cos²A = 1",
+        "C": "tan A = sin A / cos A",
+        "D": "All of the above"
+      },
+      "correct_option": "B",
+      "answer": "sin²A + cos²A = 1",
+      "explanation": "While options A and C are also true statements, the question asks for a fundamental identity; the Pythagorean identity sin²A + cos²A = 1 is the primary fundamental identity taught in class 10. Hence option B is the best answer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00617",
+      "learning_point": "Use sin²A + cos²A = 1",
+      "question": "True or false: For any angle A, sin²A + cos²A always equals 1.",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "True only for acute angles",
+        "D": "False unless A is 0°"
+      },
+      "correct_option": "A",
+      "answer": "True",
+      "explanation": "The Pythagorean identity sin²A + cos²A = 1 holds for all real angles, not just acute angles. Therefore option A is correct; the other options incorrectly limit the validity of the identity.",
+      "difficulty": "easy"
+    }
+  ]
+}
