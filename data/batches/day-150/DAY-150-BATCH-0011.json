@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "The following frequency distribution is given:\n\nClass interval | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 7\n\nUsing the direct method, what is the mean of the data?",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "26",
+      "explanation": "First find the class marks: (10+20)/2 = 15, (20+30)/2 = 25, (30+40)/2 = 35. Then compute Σf·x = 5·15 + 8·25 + 7·35 = 75 + 200 + 245 = 520. Total frequency Σf = 5 + 8 + 7 = 20. Mean = Σf·x / Σf = 520 / 20 = 26. Hence option B is correct. The other options arise from arithmetic errors such as using wrong class marks or forgetting to add all products.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "For the grouped data below, an assumed mean of 25 is chosen (the class mark of the 20‑30 interval). Using the assumed mean method, find the mean.\n\nClass interval | Frequency\n0‑10 | 4\n10‑20 | 6\n20‑30 | 5\n30‑40 | 5\n\nClass width = 10.",
+      "options": {
+        "A": "18.5",
+        "B": "20.5",
+        "C": "22.5",
+        "D": "24.5"
+      },
+      "correct_option": "B",
+      "answer": "20.5",
+      "explanation": "Class marks are 5, 15, 25, 35. Deviations in steps of the class width (h = 10) are: (5‑25)/10 = -2, (15‑25)/10 = -1, (25‑25)/10 = 0, (35‑25)/10 = 1. Multiply by frequencies: 4·(-2) = -8, 6·(-1) = -6, 5·0 = 0, 5·1 = 5. Σf·d = -9, Σf = 20. Mean = A + (Σf·d / Σf)·h = 25 + (-9/20)·10 = 25 – 4.5 = 20.5. Therefore option B is correct. The other options result from omitting the factor h or using an incorrect assumed mean.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Which statement correctly describes the step‑deviation method for finding the mean of grouped data?",
+      "options": {
+        "A": "It uses the class marks directly without any assumed value.",
+        "B": "It first chooses an assumed mean and then works with deviations measured in steps of the class width.",
+        "C": "It gives the exact mean only for ungrouped data.",
+        "D": "It requires the frequencies to be converted into probabilities before calculation."
+      },
+      "correct_option": "B",
+      "answer": "It first chooses an assumed mean and then works with deviations measured in steps of the class width.",
+      "explanation": "In the step‑deviation (or assumed mean) method, we select a convenient assumed mean (usually the class mark of a central class). Deviations are expressed as (class mark – assumed mean)/class width, which simplifies calculations. Option A is false because the method relies on an assumed mean. Option C is unrelated; the method is for grouped data. Option D is unnecessary; frequencies are used directly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "In a frequency distribution, the class interval 30‑40 has a frequency of 12. What is the class mark for this interval?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "40",
+        "D": "45"
+      },
+      "correct_option": "B",
+      "answer": "35",
+      "explanation": "The class mark is the midpoint of the interval: (lower limit + upper limit)/2 = (30 + 40)/2 = 35. This value represents the typical data point for that class and is used in mean calculations. Options A and C are the limits, not the midpoint, and D is outside the interval.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "A large data set is grouped into many classes, each having the same class width. Which method is generally the most efficient for finding the mean?",
+      "options": {
+        "A": "Direct method (using Σf·x)",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Graphical method"
+      },
+      "correct_option": "C",
+      "answer": "Step‑deviation method",
+      "explanation": "When class width is constant and the number of classes is large, the step‑deviation method reduces large multiplications because deviations are expressed in small integer steps. The direct method would involve many large products, and the assumed mean method is similar but usually requires more intermediate calculations. The graphical method does not yield a numerical mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "A school recorded the scores of students in a test and grouped them as follows:\n\nScore interval | Frequency\n0‑20 | 3\n20‑40 | 7\n40‑60 | 10\n60‑80 | 5\n\nUsing the direct method, what is the mean score of the students?",
+      "options": {
+        "A": "38.4",
+        "B": "43.6",
+        "C": "48.2",
+        "D": "53.0"
+      },
+      "correct_option": "B",
+      "answer": "43.6",
+      "explanation": "Class marks: (0+20)/2 = 10, (20+40)/2 = 30, (40+60)/2 = 50, (60+80)/2 = 70.\nΣf·x = 3·10 + 7·30 + 10·50 + 5·70 = 30 + 210 + 500 + 350 = 1090.\nTotal frequency Σf = 3 + 7 + 10 + 5 = 25.\nMean = 1090 / 25 = 43.6. Hence option B is correct. The other options arise from mis‑adding the products or using wrong class marks.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "When applying the assumed mean method, which of the following is a common mistake that leads to an incorrect mean?",
+      "options": {
+        "A": "Forgetting to multiply the deviation by the class width before summing.",
+        "B": "Using the class mark instead of the assumed mean as the reference value.",
+        "C": "Adding the frequencies instead of multiplying them with the deviations.",
+        "D": "Dividing the total Σf·d by the total frequency twice."
+      },
+      "correct_option": "A",
+      "answer": "Forgetting to multiply the deviation by the class width before summing.",
+      "explanation": "In the assumed mean (step‑deviation) method, deviations are first expressed in steps of the class width (d = (x‑A)/h). The term Σf·d must be multiplied by the class width h when converting back to the actual mean. Omitting this multiplication gives a smaller (or larger) mean. Options B, C, and D describe errors that are not typical for this method.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Given the grouped data below, an assumed mean of 25 (the class mark of the 20‑30 interval) is chosen. Class width = 10.\n\nClass interval | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 7\n\nUsing the step‑deviation method, which of the following is the correct mean?",
+      "options": {
+        "A": "22",
+        "B": "24",
+        "C": "26",
+        "D": "28"
+      },
+      "correct_option": "C",
+      "answer": "26",
+      "explanation": "Class marks: 15, 25, 35. Deviations in steps: (15‑25)/10 = -1, (25‑25)/10 = 0, (35‑25)/10 = 1.\nΣf·d = 5·(-1) + 8·0 + 7·1 = -5 + 0 + 7 = 2.\nTotal frequency Σf = 5 + 8 + 7 = 20.\nMean = A + (Σf·d / Σf)·h = 25 + (2/20)·10 = 25 + 1 = 26.\nThus option C is correct. Options A, B, and D result from arithmetic mistakes such as using wrong deviations or forgetting to multiply by the class width.",
+      "difficulty": "medium"
+    }
+  ]
+}

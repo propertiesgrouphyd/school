@@ -1,0 +1,78 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97-001",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "The following frequency distribution shows the number of students scoring in each class interval in a test. Using the assumed mean method, find the mean score. (Class intervals: 10–20, 20–30, 30–40, 40–50; Frequencies: 5, 8, 12, 5).",
+      "options": {
+        "A": "33.0",
+        "B": "34.6",
+        "C": "35.0",
+        "D": "22.0"
+      },
+      "correct_option": "B",
+      "answer": "34.6",
+      "explanation": "First find the class marks: 15, 25, 35, 45. Choose an assumed mean a = 35 (class mark of 30–40) and class width h = 10. Compute step deviations d = (x - a)/h: -2, -1, 0, 1. Then Σf·d = 5(-2) + 8(-1) + 12(0) + 5(1) = -13. Total frequency Σf = 30. Mean = a + (Σf·d)/Σf = 35 + (-13)/30 = 34.566…, which rounds to 34.6. Option B is correct. The other options arise from common mistakes such as forgetting to divide by Σf or using the wrong assumed mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98-001",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Given the grouped data: 0–10 (f=4), 10–20 (f=6), 20–30 (f=10), 30–40 (f=5). Using the step‑deviation method, what is the mean of the data?",
+      "options": {
+        "A": "24.6",
+        "B": "25.0",
+        "C": "23.5",
+        "D": "26.0"
+      },
+      "correct_option": "A",
+      "answer": "24.6",
+      "explanation": "Class marks are 5, 15, 25, 35; class width h = 10. Take assumed mean a = 25 (mid‑point of 20–30). Step deviations d = (x‑a)/h give -2, -1, 0, 1. Σf·d = 4(-2) + 6(-1) + 10(0) + 5(1) = -9. Σf = 25. Mean = a + (Σf·d)/Σf = 25 + (-9)/25 = 24.64 ≈ 24.6. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99-001",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Which statement best describes the role of class marks when calculating the mean of grouped data?",
+      "options": {
+        "A": "Class marks are the lower limits of each class and are used as the exact data values.",
+        "B": "Class marks are the mid‑points of each class interval and serve as representative values for all observations in that class.",
+        "C": "Class marks are the frequencies of each class and are added to obtain the total number of observations.",
+        "D": "Class marks are the upper limits of each class and are used to compute the range only."
+      },
+      "correct_option": "B",
+      "answer": "Class marks are the mid‑points of each class interval and serve as representative values for all observations in that class.",
+      "explanation": "In grouped data, the exact values of individual observations are unknown. The class mark (mid‑point) is taken as a single representative value for every observation in that class, allowing us to compute the mean, variance, etc. Options A, C, and D describe unrelated concepts (lower limits, frequencies, upper limits) and are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100-001",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "A teacher has a frequency distribution with 15 class intervals and wants to compute the mean quickly for a competitive exam. Which method should the teacher choose to minimise calculations?",
+      "options": {
+        "A": "Direct method (multiply each class mark by its frequency and divide by total frequency)",
+        "B": "Assumed mean method (choose an assumed mean close to the data and use deviations)",
+        "C": "Median method (use the median formula for grouped data)",
+        "D": "Mode method (use the modal class formula)"
+      },
+      "correct_option": "B",
+      "answer": "Assumed mean method (choose an assumed mean close to the data and use deviations)",
+      "explanation": "When the number of classes is large, the direct method requires many multiplications. The assumed mean (or step‑deviation) method reduces computation because only small deviations from a convenient assumed mean are handled, and the final division is by the total frequency only once. The median and mode formulas give only the median or mode, not the mean, so they are not suitable for this task.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Which statement correctly compares the use of class marks when finding the mean of grouped data?",
+      "options": {
+        "A": "Class marks are the lower limits of each class and are used as the data values for computing the mean.",
+        "B": "Class marks are the mid‑points of each class interval and serve as representative values for calculating the mean.",
+        "C": "Class marks are the upper limits of each class and replace the frequencies in the mean formula.",
+        "D": "Class marks are arbitrary numbers chosen by the examiner and do not affect the mean."
+      },
+      "correct_option": "B",
+      "answer": "Class marks are the mid‑points of each class interval and serve as representative values for calculating the mean.",
+      "explanation": "In grouped data, the class mark (or class midpoint) is calculated as (lower limit + upper limit)/2. It represents a typical value for all observations in that class, allowing us to treat the whole class as a single data point when computing the mean. Options A and C misuse limits, while D is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "A frequency distribution for the ages of 50 students is given below. Which method will give the mean with the least amount of computation?\n\nClass Interval | Frequency\n10‑20 | 8\n20‑30 | 22\n30‑40 | 15\n40‑50 | 5",
+      "options": {
+        "A": "Direct method (using class marks directly)",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Graphical method using a histogram"
+      },
+      "correct_option": "B",
+      "answer": "Assumed mean method",
+      "explanation": "The assumed mean method lets us choose a convenient class mark (e.g., 30) and work with small deviations, reducing large multiplications. The direct method requires multiplying each class mark by its frequency, and the step‑deviation method, while also simplifying, still needs an extra division by the class width. The graphical method does not yield a numerical mean.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "Find the mean of the following grouped data using the direct method.\n\nClass Interval | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 7",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "26",
+      "explanation": "First find class marks: 15, 25, 35. Multiply by frequencies: 5×15=75, 8×25=200, 7×35=245. Σf·x = 520, Σf = 20. Mean = Σf·x / Σf = 520/20 = 26. Options A, C, D are incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "Using the same data as in the previous question, compute the mean by the assumed mean method with an assumed mean of 30.",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "26",
+      "explanation": "Class marks: 15, 25, 35; class width h = 10. Deviations u = (x‑a)/h where a = 30: u = -1.5, -0.5, 0.5. Σf·u = 5(‑1.5)+8(‑0.5)+7(0.5)=‑7.5‑4+3.5=‑8. Mean = a + h·(Σf·u)/N = 30 + 10(‑8/20) = 30‑4 = 26. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Which of the following correctly defines the step‑deviation method for finding the mean of grouped data?",
+      "options": {
+        "A": "It uses the actual class marks in the numerator and the total frequency in the denominator.",
+        "B": "It expresses each deviation as a multiple of the class width (steps) to simplify calculations, then converts back to the actual mean.",
+        "C": "It replaces frequencies with cumulative frequencies before computing the mean.",
+        "D": "It averages the lower limits of each class interval directly."
+      },
+      "correct_option": "B",
+      "answer": "It expresses each deviation as a multiple of the class width (steps) to simplify calculations, then converts back to the actual mean.",
+      "explanation": "The step‑deviation (or assumed mean) method works with \"steps\" = (class mark – assumed mean)/class width, which are usually small integers or fractions, making multiplication easier. Option A describes the direct method, C is unrelated, and D is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "A researcher groups the test scores of 100 students into intervals and wants to compute the overall average. Why are class marks essential in this calculation?",
+      "options": {
+        "A": "They give the exact highest score in each interval.",
+        "B": "They provide a single representative value for each interval, allowing the interval to be treated as a single data point.",
+        "C": "They eliminate the need to know the frequencies of the intervals.",
+        "D": "They are used only for drawing histograms, not for calculating means."
+      },
+      "correct_option": "B",
+      "answer": "They provide a single representative value for each interval, allowing the interval to be treated as a single data point.",
+      "explanation": "Class marks (mid‑points) summarize all observations within a class by a single value, which is then multiplied by the class frequency to contribute to the total Σf·x. This makes it possible to compute the mean from grouped data. Options A, C, and D misstate the purpose of class marks.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "Consider the following frequency distribution of daily rainfall (in mm):\n\nClass (mm) | Frequency\n0‑10 | 12\n10‑20 | 18\n20‑30 | 15\n30‑40 | 5\nWhich method would require the least arithmetic work to find the mean?",
+      "options": {
+        "A": "Direct method using class marks",
+        "B": "Assumed mean method with an assumed mean of 25 mm",
+        "C": "Step‑deviation method using class width of 10 mm",
+        "D": "Cumulative frequency method"
+      },
+      "correct_option": "B",
+      "answer": "Assumed mean method with an assumed mean of 25 mm",
+      "explanation": "Choosing an assumed mean close to the centre (25 mm) makes the deviations small, so the products f·u are easy to compute. The direct method needs larger multiplications, the step‑deviation method still requires division by the class width, and the cumulative frequency method does not give a mean directly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "A school records the number of books read by its students in the following intervals:\n\nBooks read | Frequency\n0‑5 | 6\n5‑10 | 14\n10‑15 | 10\n15‑20 | 4\nUsing the direct method, what is the mean number of books read?",
+      "options": {
+        "A": "8.5",
+        "B": "9.2",
+        "C": "10.0",
+        "D": "11.3"
+      },
+      "correct_option": "B",
+      "answer": "9.2",
+      "explanation": "Class marks: 2.5, 7.5, 12.5, 17.5. Multiply by frequencies: 6×2.5=15, 14×7.5=105, 10×12.5=125, 4×17.5=70. Σf·x = 315. Total frequency = 34. Mean = 315/34 ≈ 9.26, which rounds to 9.2 (option B). The other options result from incorrect calculations.",
+      "difficulty": "medium"
+    }
+  ]
+}
