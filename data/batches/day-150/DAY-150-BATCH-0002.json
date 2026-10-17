@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-150-9",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Two groups of data are given in frequency tables. Table A: 10‑20 (5), 20‑30 (15), 30‑40 (10). Table B: 10‑20 (10), 20‑30 (10), 30‑40 (10). Using class marks as representatives, which table has the larger mean?",
+      "options": {
+        "A": "Table A",
+        "B": "Table B",
+        "C": "Both have the same mean",
+        "D": "It cannot be determined without raw data"
+      },
+      "correct_option": "A",
+      "answer": "Table A",
+      "explanation": "Class marks are 15, 25 and 35. Mean of Table A = (5×15 + 15×25 + 10×35) / 30 = 800/30 ≈ 26.67. Mean of Table B = (10×15 + 10×25 + 10×35) / 30 = 750/30 = 25. Hence Table A has the larger mean. Options B, C and D are incorrect because the calculation shows a clear difference.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-150-10",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "For a grouped data set with many class intervals, which method is generally the most efficient for finding the mean?",
+      "options": {
+        "A": "Direct method (using all class marks)",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Graphical method"
+      },
+      "correct_option": "B",
+      "answer": "Assumed mean method",
+      "explanation": "When the number of classes is large, the assumed mean method reduces the amount of multiplication because it works with small deviations from a convenient assumed mean. The direct method requires multiplying each class mark, and the step‑deviation method still needs a similar amount of work. The graphical method does not give a numerical mean directly. Therefore, option B is the most efficient.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-150-11",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "For the grouped data: 0‑10 (3), 10‑20 (7), 20‑30 (5), find the mean using the direct method.",
+      "options": {
+        "A": "16.33",
+        "B": "15.00",
+        "C": "17.00",
+        "D": "18.00"
+      },
+      "correct_option": "A",
+      "answer": "16.33",
+      "explanation": "Class marks are 5, 15 and 25. Σf·x = 3×5 + 7×15 + 5×25 = 15 + 105 + 125 = 245. Total frequency N = 15. Mean = 245 / 15 = 16.33 (rounded to two decimal places). Options B, C and D are incorrect because they do not match the calculated value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-150-12",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "Using the assumed mean method with assumed mean = 25, find the mean of the grouped data: 10‑20 (4), 20‑30 (6), 30‑40 (5). (Class width = 10)",
+      "options": {
+        "A": "25.67",
+        "B": "24.33",
+        "C": "26.00",
+        "D": "23.50"
+      },
+      "correct_option": "A",
+      "answer": "25.67",
+      "explanation": "Class marks: 15, 25, 35. Deviations d = (x‑A)/h where A = 25, h = 10.\nFor 15: d = (15‑25)/10 = –1, f·d = –4.\nFor 25: d = 0, f·d = 0.\nFor 35: d = (35‑25)/10 = 1, f·d = 5.\nΣf·d = 1. Mean = A + h·(Σf·d)/N = 25 + 10·(1/15) = 25 + 0.6667 ≈ 25.67. Options B, C and D are not equal to this value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-150-13",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Which statement correctly describes the step‑deviation method for finding the mean of grouped data?",
+      "options": {
+        "A": "It uses the class marks directly in the numerator.",
+        "B": "It employs an assumed mean and the class width to simplify calculations.",
+        "C": "It requires the original ungrouped raw data.",
+        "D": "It is a technique used to find the median, not the mean."
+      },
+      "correct_option": "B",
+      "answer": "It employs an assumed mean and the class width to simplify calculations.",
+      "explanation": "The step‑deviation (or assumed mean) method replaces each class mark by its deviation from a convenient assumed mean, divided by the class width, which reduces the size of numbers to be handled. Option A describes the direct method, C is unrelated, and D is incorrect because the method is for the mean.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-150-14",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "A teacher wants to estimate the average test score of a class using grouped data. Which value should be taken as the representative of each class interval?",
+      "options": {
+        "A": "Lower limit of the interval",
+        "B": "Upper limit of the interval",
+        "C": "Class mark (mid‑point)",
+        "D": "Frequency of the interval"
+      },
+      "correct_option": "C",
+      "answer": "Class mark (mid‑point)",
+      "explanation": "The class mark (mid‑point) is the standard representative value for each interval when calculating the mean of grouped data because it assumes the data are uniformly distributed within the interval. Limits or frequencies alone cannot serve as the data value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-150-15",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "For the following grouped data with many classes, which method would you choose to compute the mean most efficiently?\n\nClass intervals (width = 5): 0‑5 (8), 5‑10 (12), 10‑15 (15), 15‑20 (10), 20‑25 (5), 25‑30 (3).",
+      "options": {
+        "A": "Direct method",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Graphical method"
+      },
+      "correct_option": "C",
+      "answer": "Step‑deviation method",
+      "explanation": "When the class width is constant and the number of classes is relatively large, the step‑deviation method (a form of the assumed mean method that uses class width as a step) minimizes large multiplications, making calculations quicker than the direct method. The graphical method does not yield a numerical mean directly. Hence, option C is the most efficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-150-16",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "A survey records ages of participants in the following grouped form: 0‑10 (2), 10‑20 (5), 20‑30 (3), 30‑40 (4). Using the direct method, what is the mean age (rounded to two decimal places)?",
+      "options": {
+        "A": "21.43",
+        "B": "22.00",
+        "C": "20.00",
+        "D": "19.50"
+      },
+      "correct_option": "A",
+      "answer": "21.43",
+      "explanation": "Class marks: 5, 15, 25, 35.\nΣf·x = 2×5 + 5×15 + 3×25 + 4×35 = 10 + 75 + 75 + 140 = 300.\nTotal frequency N = 2 + 5 + 3 + 4 = 14.\nMean = 300 / 14 = 21.4286 ≈ 21.43. Options B, C and D are not equal to the calculated mean.",
+      "difficulty": "medium"
+    }
+  ]
+}

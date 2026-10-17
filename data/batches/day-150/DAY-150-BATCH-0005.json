@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Which of the following statements correctly defines the step‑deviation method for finding the mean of grouped data?",
+      "options": {
+        "A": "Assume a convenient class mark as the assumed mean, compute deviations u = (class mark – assumed mean)/class width, then mean = assumed mean + class width × (Σf·u)/(Σf).",
+        "B": "Add all the class boundaries and divide by the number of classes.",
+        "C": "Multiply each frequency by the lower class limit and sum the products.",
+        "D": "Use the median formula directly on the grouped data."
+      },
+      "correct_option": "A",
+      "answer": "Assume a convenient class mark as the assumed mean, compute deviations u = (class mark – assumed mean)/class width, then mean = assumed mean + class width × (Σf·u)/(Σf).",
+      "explanation": "The step‑deviation (or assumed mean) method chooses a convenient class mark as an assumed mean, calculates the scaled deviations u = (x – assumed mean)/class width, and then finds the actual mean by adding the assumed mean to the class width multiplied by Σf·u/Σf. Options B, C and D describe unrelated or incorrect procedures.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "A set of test scores is grouped as 0–10, 10–20, 20–30, 30–40 with frequencies 4, 6, 5, 5. To calculate the mean, which representative value is taken for each class?",
+      "options": {
+        "A": "Lower class limit",
+        "B": "Upper class limit",
+        "C": "Class mark (mid‑point)",
+        "D": "Class width"
+      },
+      "correct_option": "C",
+      "answer": "Class mark (mid‑point)",
+      "explanation": "The class mark, the midpoint of a class interval, is used as the representative value for that class when computing the mean of grouped data. Using lower or upper limits would bias the result, and class width is not a representative value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "For the grouped data below, which method is most efficient for finding the mean?\n\nClass interval | Frequency\n10–20          | 5\n20–30          | 12\n30–40          | 8",
+      "options": {
+        "A": "Direct method (using Σf·x / Σf)",
+        "B": "Step‑deviation method",
+        "C": "Assumed mean method",
+        "D": "Grouped median method"
+      },
+      "correct_option": "B",
+      "answer": "Step‑deviation method",
+      "explanation": "When class intervals are wide, the step‑deviation method reduces large multiplications by working with scaled deviations, making calculations quicker than the direct method. The assumed mean method is similar but usually requires an extra step of choosing an assumed mean, while the median method does not give the mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "Given the grouped data:\n\nClass interval | Frequency\n10–20          | 5\n20–30          | 8\n30–40          | 7\n\nUsing the direct method (mean = Σf·x / Σf, where x is the class mark), what is the mean?",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "26",
+      "explanation": "Class marks are 15, 25, 35. Σf·x = 5·15 + 8·25 + 7·35 = 75 + 200 + 245 = 520. Σf = 5 + 8 + 7 = 20. Mean = 520 / 20 = 26. Hence option B is correct; the other numbers result from incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "Which of the following statements about the assumed‑mean (step‑deviation) method is FALSE?",
+      "options": {
+        "A": "In the assumed‑mean method, any convenient value can be taken as the assumed mean.",
+        "B": "The assumed mean must be the exact mean of the data.",
+        "C": "Deviations are calculated as (class mark – assumed mean) divided by the class width.",
+        "D": "The final mean is obtained by adding the assumed mean to the class width times Σf·u / Σf."
+      },
+      "correct_option": "B",
+      "answer": "The assumed mean must be the exact mean of the data.",
+      "explanation": "The assumed mean is chosen for convenience; it does not need to be the true mean. Options A, C, and D correctly describe the method, while B is a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Why does the step‑deviation method often reduce the amount of computation when the class width is large?",
+      "options": {
+        "A": "It eliminates the need to multiply large class marks by frequencies.",
+        "B": "It converts all numbers to fractions less than 1, simplifying addition.",
+        "C": "It uses the median instead of the mean.",
+        "D": "It avoids using frequencies altogether."
+      },
+      "correct_option": "A",
+      "answer": "It eliminates the need to multiply large class marks by frequencies.",
+      "explanation": "By working with scaled deviations (u = (x – assumed mean)/class width), the numbers involved are much smaller, so the products f·u are easier to compute. Options B, C, and D describe unrelated or incorrect ideas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Which statement correctly compares the use of class marks with the use of class boundaries in calculating the mean of grouped data?",
+      "options": {
+        "A": "Using class marks gives the same mean as using exact data values, while class boundaries give a biased mean.",
+        "B": "Class marks are mid‑points of each class and provide a reasonable estimate of the data’s central tendency; class boundaries are used only for constructing histograms.",
+        "C": "Class boundaries must be used for mean calculation because they account for continuity; class marks cannot be used.",
+        "D": "Both give identical results for any grouped data."
+      },
+      "correct_option": "B",
+      "answer": "Class marks are mid‑points of each class and provide a reasonable estimate of the data’s central tendency; class boundaries are used only for constructing histograms.",
+      "explanation": "Class marks (mid‑points) are the standard representatives for each class when computing the mean. Class boundaries are primarily for drawing continuous histograms and are not used in the mean formula. Hence option B is correct; the other options misstate the roles.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "In a competitive exam, the following grouped data is given (class width = 5):\n\nClass interval | Frequency\n15–20          | 4\n20–25          | 9\n25–30          | 7\n30–35          | 5\n\nWhich method will most quickly yield the mean?",
+      "options": {
+        "A": "Direct method (Σf·x / Σf)",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Grouped median method"
+      },
+      "correct_option": "C",
+      "answer": "Step‑deviation method",
+      "explanation": "With a uniform class width of 5, the step‑deviation method allows the use of a convenient assumed mean (e.g., 25) and works with small deviations, minimizing large multiplications and speeding up calculation—crucial in timed exams. The direct method requires larger products, and the median method does not give the mean.",
+      "difficulty": "hard"
+    }
+  ]
+}

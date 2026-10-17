@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "A frequency distribution has the following classes and frequencies: 10–20 (5), 20–30 (8), 30–40 (7). Using the assumed mean method with the class 20–30 as the assumed class, a student forgets to multiply the final deviation sum by the class width. What mean will the student obtain?",
+      "options": {
+        "A": "26",
+        "B": "25.1",
+        "C": "24",
+        "D": "27"
+      },
+      "correct_option": "B",
+      "answer": "25.1",
+      "explanation": "The assumed mean method uses: Mean = A + (Σf·u / Σf)·h, where A is the assumed class mark (25), u = (class mark – A)/h, and h = class width (10). Correct calculation gives Σf·u = 2, Σf = 20, so Mean = 25 + (2/20)·10 = 26. If the student omits the multiplication by h, they compute 25 + (2/20) = 25.1. Hence the mistaken mean is 25.1, which is option B. The other options do not correspond to either the correct or the mistaken calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "Find the mean of the following grouped data using the step‑deviation method: 0–10 (4), 10–20 (6), 20–30 (10), 30–40 (5).",
+      "options": {
+        "A": "21.4",
+        "B": "22",
+        "C": "20",
+        "D": "23.5"
+      },
+      "correct_option": "A",
+      "answer": "21.4",
+      "explanation": "Class width h = 10. Choose an assumed mean A as the class mark of 20–30, i.e., 25. Class marks: 5, 15, 25, 35. Compute u = (x‑A)/h: -2, -1, 0, 1. Σf·u = 4(‑2)+6(‑1)+10·0+5·1 = –8‑6+0+5 = –9. Σf = 25. Mean = A + (Σf·u/Σf)·h = 25 + (‑9/25)·10 = 25 – 3.6 = 21.4. Option A is correct; the other numbers arise from arithmetic errors or using a different assumed mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "Which of the following statements correctly describes the role of class marks in calculating the mean of grouped data?",
+      "options": {
+        "A": "Class marks are the lower limits of each class.",
+        "B": "Class marks are the average of lower and upper limits and serve as representative values for each class.",
+        "C": "Class marks are the frequencies of the classes.",
+        "D": "Class marks are the cumulative frequencies of the classes."
+      },
+      "correct_option": "B",
+      "answer": "Class marks are the average of lower and upper limits and serve as representative values for each class.",
+      "explanation": "In grouped data, the class mark (midpoint) = (lower limit + upper limit)/2. It is taken as the assumed value of every observation in that class when computing the mean. Therefore option B accurately describes its role. Options A, C, and D describe unrelated quantities.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Select an efficient calculation method",
+      "question": "For a large frequency distribution with many classes, which method is generally the most efficient for finding the mean?",
+      "options": {
+        "A": "Direct method",
+        "B": "Assumed mean method",
+        "C": "Step‑deviation method",
+        "D": "Graphical method"
+      },
+      "correct_option": "C",
+      "answer": "Step‑deviation method",
+      "explanation": "Both the assumed mean and step‑deviation methods reduce computation, but the step‑deviation method explicitly uses deviations divided by the class width, minimizing large multiplications and making it especially efficient for many classes. The direct method requires multiplying each class mark by its frequency, which is time‑consuming. The graphical method does not yield a numerical mean directly. Hence option C is the best choice.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using direct method",
+      "question": "Using the direct method, find the mean of the following grouped data: 5–15 (3), 15–25 (7), 25–35 (5), 35–45 (5).",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "28",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "26",
+      "explanation": "Class marks: (5+15)/2=10, (15+25)/2=20, (25+35)/2=30, (35+45)/2=40. Σf·x = 3·10 + 7·20 + 5·30 + 5·40 = 30 + 140 + 150 + 200 = 520. Σf = 3+7+5+5 = 20. Mean = Σf·x / Σf = 520/20 = 26. Option B matches this result. The other options arise from mis‑adding or mis‑dividing.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using assumed mean method",
+      "question": "In the assumed mean method for grouped data, what is the first step after listing the classes?",
+      "options": {
+        "A": "Find the class marks",
+        "B": "Choose an assumed mean (a convenient class mark)",
+        "C": "Compute the frequencies",
+        "D": "Plot a histogram"
+      },
+      "correct_option": "B",
+      "answer": "Choose an assumed mean (a convenient class mark)",
+      "explanation": "The assumed mean method begins by selecting an assumed mean, usually the class mark of a convenient class, to simplify calculations of deviations. Finding class marks and frequencies comes later, and plotting a histogram is unrelated to the numerical computation of the mean.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Calculate mean using step-deviation method",
+      "question": "How does the step‑deviation method differ from the direct method when calculating the mean of grouped data?",
+      "options": {
+        "A": "It uses the class marks directly without any scaling",
+        "B": "It multiplies each frequency by the class width before summing",
+        "C": "It works with deviations of class marks from an assumed mean divided by the class width",
+        "D": "It requires constructing a cumulative frequency polygon"
+      },
+      "correct_option": "C",
+      "answer": "It works with deviations of class marks from an assumed mean divided by the class width",
+      "explanation": "The step‑deviation method computes u = (class mark – assumed mean)/class width, then uses Σf·u to find the mean, reducing large multiplications. The direct method simply multiplies each class mark by its frequency. Options A, B, and D describe other procedures that are not characteristic of the step‑deviation method.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00627",
+      "learning_point": "Understand the role of class marks",
+      "question": "When calculating the mean of grouped data, which value is taken as the representative for each class?",
+      "options": {
+        "A": "Lower class limit",
+        "B": "Upper class limit",
+        "C": "Class mark (midpoint)",
+        "D": "Cumulative frequency"
+      },
+      "correct_option": "C",
+      "answer": "Class mark (midpoint)",
+      "explanation": "The class mark, the midpoint of the lower and upper limits, represents all observations in that class for the purpose of computing the mean. Lower or upper limits alone would bias the result, and cumulative frequency is used for median or quartiles, not for the mean.",
+      "difficulty": "easy"
+    }
+  ]
+}
