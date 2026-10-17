@@ -1,0 +1,150 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Identify the modal class",
+      "question": "The following grouped data represent the ages (in years) of a class of students. Identify the modal class.\n\nClass Interval | Frequency\n10‑20          | 5\n20‑30          | 12\n30‑40          | 8\n40‑50          | 3",
+      "options": {
+        "A": "10‑20",
+        "B": "20‑30",
+        "C": "30‑40",
+        "D": "40‑50"
+      },
+      "correct_option": "B",
+      "answer": "20‑30",
+      "explanation": "The modal class is the class interval that contains the highest frequency. In the table, the interval 20‑30 has the greatest frequency (12), so it is the modal class.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Use the grouped-data mode formula",
+      "question": "A school recorded the marks obtained by students in the following grouped form. Using the grouped‑data mode formula, find the mode of the marks (to two decimal places).\n\nMarks Interval | Frequency\n0‑10           | 2\n10‑20          | 5\n20‑30          | 9\n30‑40          | 14\n40‑50          | 7",
+      "options": {
+        "A": "32.50",
+        "B": "34.17",
+        "C": "36.00",
+        "D": "38.20"
+      },
+      "correct_option": "B",
+      "answer": "34.17",
+      "explanation": "First identify the modal class: 30‑40 (frequency 14). L = 30, h = 10, f1 = 14, f0 = 9 (previous class), f2 = 7 (next class).\nMode = L + [(f1‑f0) / (2f1‑f0‑f2)] × h = 30 + [(14‑9) / (28‑9‑7)] × 10 = 30 + (5/12) × 10 = 30 + 4.1667 ≈ 34.17.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Interpret frequencies correctly",
+      "question": "Which of the following statements correctly interprets the frequencies in a grouped data set when determining the mode?",
+      "options": {
+        "A": "The midpoint of the class with the highest frequency is always the exact mode.",
+        "B": "The class with the highest frequency is the modal class, and the mode is estimated using the neighboring frequencies.",
+        "C": "All classes with equal frequencies are modal classes, and any of their midpoints can be taken as the mode.",
+        "D": "The frequency values themselves are the modes."
+      },
+      "correct_option": "B",
+      "answer": "The class with the highest frequency is the modal class, and the mode is estimated using the neighboring frequencies.",
+      "explanation": "The modal class is the class interval having the greatest frequency. The mode is not simply the midpoint; it is estimated with the formula that uses the frequencies of the modal class and its adjacent classes. Options A, C, and D misinterpret the role of frequencies.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Apply the empirical relationship among mean, median and mode",
+      "question": "For a certain grouped data set, the mean is 45 and the median is 48. Using the empirical relationship among mean, median, and mode, estimate the mode.",
+      "options": {
+        "A": "42",
+        "B": "48",
+        "C": "54",
+        "D": "60"
+      },
+      "correct_option": "C",
+      "answer": "54",
+      "explanation": "For moderately skewed distributions, the empirical relationship is Mode ≈ 3·Median – 2·Mean. Substituting the given values: Mode ≈ 3×48 – 2×45 = 144 – 90 = 54.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Identify the modal class",
+      "question": "Data Set A and Data Set B are given below. Which data set has its modal class as the interval 20‑30?",
+      "options": {
+        "A": "Data Set A only",
+        "B": "Data Set B only",
+        "C": "Both data sets",
+        "D": "Neither data set"
+      },
+      "correct_option": "B",
+      "answer": "Data Set B only",
+      "explanation": "Data Set A frequencies: 0‑10 (3), 10‑20 (7), 20‑30 (5) – highest frequency is 7 in 10‑20, so modal class is 10‑20. Data Set B frequencies: 0‑10 (4), 10‑20 (6), 20‑30 (9) – highest frequency is 9 in 20‑30, making it the modal class. Hence only Data Set B has 20‑30 as its modal class.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Use the grouped-data mode formula",
+      "question": "The following grouped data show the distribution of scores in a competitive exam. Using the grouped‑data mode formula, calculate the mode (rounded to two decimal places).",
+      "options": {
+        "A": "72.50",
+        "B": "74.00",
+        "C": "76.15",
+        "D": "78.30"
+      },
+      "correct_option": "C",
+      "answer": "76.15",
+      "explanation": "Modal class: 70‑80 (frequency 20). L = 70, h = 10, f1 = 20, f0 = 12 (previous class), f2 = 15 (next class).\nMode = 70 + [(20‑12) / (2·20‑12‑15)] × 10 = 70 + (8 / (40‑27)) × 10 = 70 + (8/13) × 10 ≈ 70 + 6.1538 = 76.15.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Interpret frequencies correctly",
+      "question": "In a grouped frequency distribution, what does the term 'frequency' of a class interval represent?",
+      "options": {
+        "A": "The total number of observations in the entire data set.",
+        "B": "The number of observations that fall within that specific class interval.",
+        "C": "The midpoint value of the class interval.",
+        "D": "The range of values covered by the class interval."
+      },
+      "correct_option": "B",
+      "answer": "The number of observations that fall within that specific class interval.",
+      "explanation": "Frequency indicates how many data points lie inside a particular class interval. It is not the total count (A), nor the midpoint (C), nor the range (D).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00629",
+      "learning_point": "Apply the empirical relationship among mean, median and mode",
+      "question": "Which of the following equations correctly represents the empirical relationship among mean (μ), median (M), and mode (Mo) for a moderately skewed distribution?",
+      "options": {
+        "A": "Mo = 3M – 2μ",
+        "B": "μ = 3Mo – 2M",
+        "C": "M = (μ + Mo)/2",
+        "D": "Mo = (μ + 2M)/3"
+      },
+      "correct_option": "A",
+      "answer": "Mo = 3M – 2μ",
+      "explanation": "The commonly used empirical formula for moderately skewed data is Mode ≈ 3·Median – 2·Mean, i.e., Mo = 3M – 2μ. The other options rearrange the terms incorrectly.",
+      "difficulty": "easy"
+    }
+  ]
+}
