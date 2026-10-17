@@ -1,0 +1,78 @@
+{
+  "day": 149,
+  "batch_id": "DAY-149-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate sector area",
+      "question": "The radius of a circle is 7 cm. What is the area of the sector subtended by a central angle of 60°?",
+      "options": {
+        "A": "\\(\\frac{49\\pi}{6}\\) cm²",
+        "B": "\\(\\frac{77\\pi}{6}\\) cm²",
+        "C": "\\(\\frac{49\\pi}{3}\\) cm²",
+        "D": "\\(\\frac{98\\pi}{3}\\) cm²"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{49\\pi}{6}\\) cm²",
+      "explanation": "Sector area = (θ/360)·πr². Here θ=60°, r=7 cm, so area = (60/360)·π·7² = (1/6)·49π = 49π/6 cm² (option A). Option D results from mistakenly using the diameter (14 cm) instead of the radius, a common misconception. The other options are incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Understand segment",
+      "question": "In a circle of radius 5 cm, a chord AB subtends a central angle of 120°. The region bounded by chord AB and the minor arc AB is called a segment. Which statement is true?",
+      "options": {
+        "A": "The area of the segment is larger than the area of the corresponding sector.",
+        "B": "The area of the segment equals the area of the sector minus the area of the triangle formed by the two radii and the chord.",
+        "C": "The segment area is independent of the radius of the circle.",
+        "D": "The segment area is given by \\((\\pi r^{2}\\,\\theta)/180\\)."
+      },
+      "correct_option": "B",
+      "answer": "The area of the segment equals the area of the sector minus the area of the triangle formed by the two radii and the chord.",
+      "explanation": "A segment is the part of a circle cut off by a chord. Its area is obtained by subtracting the area of the isosceles triangle (formed by the two radii and the chord) from the sector area. Hence statement B is correct. Statement A is false because the triangle occupies part of the sector, making the segment smaller. Statement C ignores the dependence on radius, and statement D uses an incorrect formula (the correct sector formula uses 360 in the denominator for degrees).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Calculate segment area using sector and triangle areas",
+      "question": "A segment of a circle of radius 10 cm is subtended by a central angle of 90°. Method I finds the segment area by (sector area) − (triangle area). Method II approximates the segment area as half the area of the whole circle. Which comparison is correct?",
+      "options": {
+        "A": "Method I gives the exact segment area, while Method II overestimates it.",
+        "B": "Method I underestimates the segment area, while Method II gives the exact value.",
+        "C": "Both methods give the same numerical result.",
+        "D": "Method I is an approximation, whereas Method II is exact."
+      },
+      "correct_option": "A",
+      "answer": "Method I gives the exact segment area, while Method II overestimates it.",
+      "explanation": "Method I is the standard exact procedure: sector area = (90/360)·π·10² = 25π, triangle area = (1/2)·10·10·sin90° = 50, so segment = 25π − 50 ≈ 28.54 cm². Method II (½·π·10² = 50π ≈ 157.08 cm²) is far larger, thus an over‑estimate. Therefore option A is correct. The other options mischaracterize the accuracy of the methods.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00623",
+      "learning_point": "Solve composite circular-area problems",
+      "question": "A circular garden has radius 14 m. A uniform path of width 2 m surrounds the garden. Inside the garden there is a circular pond of radius 6 m. What is the area (in square metres) covered by the path but not by the pond?",
+      "options": {
+        "A": "\\(60\\pi\\)",
+        "B": "\\(68\\pi\\)",
+        "C": "\\(72\\pi\\)",
+        "D": "\\(80\\pi\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(60\\pi\\)",
+      "explanation": "The path occupies the annular region between radii 14 m and 16 m (14 + 2). Its area = π(16² − 14²) = π(256 − 196) = 60π m². The pond lies entirely inside the garden and does not intersect the path, so no subtraction is needed. Hence the required area is 60π m² (option A). Options B‑D result from arithmetic errors such as using wrong radii or adding the pond area incorrectly.",
+      "difficulty": "hard"
+    }
+  ]
+}
