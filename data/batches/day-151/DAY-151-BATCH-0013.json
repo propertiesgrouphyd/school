@@ -1,0 +1,78 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Understand complementary events",
+      "question": "If the probability of an event E occurring is 0.7, which of the following statements reflects a common misconception about its complement?",
+      "options": {
+        "A": "The probability of not E is 0.3.",
+        "B": "The probability of not E is 0.7.",
+        "C": "P(E) + P(not E) = 1.",
+        "D": "P(not E) = 1 - P(E)."
+      },
+      "correct_option": "B",
+      "answer": "The probability of not E is 0.7.",
+      "explanation": "The complement of an event E has probability P(not E) = 1 - P(E). With P(E) = 0.7, the correct complement probability is 1 - 0.7 = 0.3. Stating that the probability of not E is 0.7 is a misconception. Options A, C and D correctly describe the complement relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Use P(not E) = 1 − P(E)",
+      "question": "A bag contains 5 red and 3 blue marbles. One marble is drawn at random. Let E be the event \"a red marble is drawn\". What is the probability that a blue marble is drawn?",
+      "options": {
+        "A": "5/8",
+        "B": "3/8",
+        "C": "1/2",
+        "D": "1/4"
+      },
+      "correct_option": "B",
+      "answer": "3/8",
+      "explanation": "P(E) = 5/8 because there are 5 favorable red marbles out of 8 total. The probability of the complement (drawing a blue marble) is P(not E) = 1 - P(E) = 1 - 5/8 = 3/8. Hence option B is correct; the other options either give P(E) or unrelated fractions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Calculate complementary probabilities",
+      "question": "Two fair dice are rolled. Let A be the event that the sum of the dice is 7, and let B be the event that the sum is not 7. Which statement correctly compares P(A) and P(B)?",
+      "options": {
+        "A": "P(A) = P(B)",
+        "B": "P(A) > P(B)",
+        "C": "P(A) < P(B)",
+        "D": "P(A) + P(B) = 1/2"
+      },
+      "correct_option": "C",
+      "answer": "P(A) < P(B)",
+      "explanation": "The sum 7 can occur in 6 ways out of 36 possible outcomes, so P(A) = 6/36 = 1/6. The complement event B has probability P(B) = 1 - 1/6 = 5/6, which is greater than P(A). Therefore option C is correct. Options A and B are false, and option D is incorrect because the probabilities sum to 1, not 1/2.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Apply complement methods to word problems",
+      "question": "A box contains 10 balls numbered 1 to 10. Two balls are drawn without replacement. What is the probability that at least one of the drawn balls is a multiple of 5?",
+      "options": {
+        "A": "17/45",
+        "B": "28/45",
+        "C": "2/9",
+        "D": "1/5"
+      },
+      "correct_option": "A",
+      "answer": "17/45",
+      "explanation": "Multiples of 5 among the balls are 5 and 10 (2 balls). First find the complement: probability that neither drawn ball is a multiple of 5. Choose 2 balls from the remaining 8: C(8,2)=28 ways. Total ways to choose any 2 balls: C(10,2)=45. Complement probability = 28/45. Desired probability = 1 - 28/45 = 17/45, which is option A. Options B, C, and D do not represent the correct complement calculation.",
+      "difficulty": "hard"
+    }
+  ]
+}

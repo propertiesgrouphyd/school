@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Understand complementary events",
+      "question": "Which of the following statements correctly describes the relationship between an event E and its complement E'?",
+      "options": {
+        "A": "P(E) is always greater than P(E')",
+        "B": "P(E) equals P(E') only when P(E) = 0.5",
+        "C": "P(E) + P(E') = 2",
+        "D": "P(E) + P(E') = 1"
+      },
+      "correct_option": "D",
+      "answer": "P(E) + P(E') = 1",
+      "explanation": "By definition, the complement E' consists of all outcomes not in E. Therefore the probabilities of E and its complement must add up to the total certainty, which is 1. Options A and B are not universally true, and option C is incorrect because probabilities cannot sum to 2.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Use P(not E) = 1 − P(E)",
+      "question": "A bag contains 5 red, 3 blue and 2 green balls. One ball is drawn at random. What is the probability that the ball drawn is not red?",
+      "options": {
+        "A": "1/2",
+        "B": "3/5",
+        "C": "1/5",
+        "D": "2/5"
+      },
+      "correct_option": "A",
+      "answer": "1/2",
+      "explanation": "Total balls = 10. P(red) = 5/10 = 1/2. Using the complement rule, P(not red) = 1 – 1/2 = 1/2. Hence option A is correct; the other fractions do not represent the complement of 1/2.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Calculate complementary probabilities",
+      "question": "If the probability of getting a head when a fair coin is tossed is 0.5, what is the probability of not getting a head?",
+      "options": {
+        "A": "0.5",
+        "B": "0.25",
+        "C": "0.75",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "0.5",
+      "explanation": "For any event, P(not E) = 1 – P(E). Here P(head) = 0.5, so P(not head) = 1 – 0.5 = 0.5. Option A matches this value; the others are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Apply complement methods to word problems",
+      "question": "A student attempts a 20‑question multiple‑choice test. The probability of answering any single question correctly is 0.8. What is the probability that the student answers at least one question incorrectly?",
+      "options": {
+        "A": "0.8",
+        "B": "0.2",
+        "C": "1 − (0.8)^{20}",
+        "D": "(0.2)^{20}"
+      },
+      "correct_option": "C",
+      "answer": "1 − (0.8)^{20}",
+      "explanation": "The event \"all 20 answers are correct\" has probability (0.8)^{20}. The complement, \"at least one answer is incorrect\", is 1 − (0.8)^{20}. Option C expresses this correctly; options A and B ignore the multiple questions, and D is the probability that all 20 are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Understand complementary events",
+      "question": "Which statement best defines the complement of an event E in probability?",
+      "options": {
+        "A": "The set of outcomes that are also in E",
+        "B": "The set of outcomes that are not in E",
+        "C": "The set of outcomes that are equally likely as those in E",
+        "D": "The set of outcomes that occur after E happens"
+      },
+      "correct_option": "B",
+      "answer": "The set of outcomes that are not in E",
+      "explanation": "The complement of E, denoted E', consists of all outcomes in the sample space that do not belong to E. Hence option B is correct. Option A describes E itself, while C and D are unrelated to the definition of a complement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Use P(not E) = 1 − P(E)",
+      "question": "A fair six‑sided die is rolled once. What is the probability of not obtaining a 6?",
+      "options": {
+        "A": "5/6",
+        "B": "1/6",
+        "C": "4/6",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "5/6",
+      "explanation": "P(6) = 1/6. Using the complement rule, P(not 6) = 1 – 1/6 = 5/6. Option A matches this value; the other options are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Calculate complementary probabilities",
+      "question": "In a class of 30 students, 18 like mathematics. If a student is selected at random, what is the probability that the selected student does NOT like mathematics?",
+      "options": {
+        "A": "2/5",
+        "B": "3/5",
+        "C": "1/2",
+        "D": "3/4"
+      },
+      "correct_option": "A",
+      "answer": "2/5",
+      "explanation": "Students not liking mathematics = 30 – 18 = 12. Probability = 12/30 = 2/5. Option A is correct; the other fractions correspond to different counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Apply complement methods to word problems",
+      "question": "A bag contains 4 white and 6 black balls. Two balls are drawn successively without replacement. What is the probability that at least one white ball is drawn?",
+      "options": {
+        "A": "1/3",
+        "B": "2/3",
+        "C": "1/2",
+        "D": "5/9"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "First find the complement: probability both balls are black = (6/10) × (5/9) = 30/90 = 1/3. Therefore, probability of at least one white = 1 – 1/3 = 2/3. Option B is correct; the other options do not represent the complement calculation.",
+      "difficulty": "medium"
+    }
+  ]
+}

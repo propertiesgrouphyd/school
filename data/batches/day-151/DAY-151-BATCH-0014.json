@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-00632-MCQ-001",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "When a fair coin is tossed once, which of the following lists correctly represents all possible outcomes?",
+      "options": {
+        "A": "Heads, Tails",
+        "B": "Heads only",
+        "C": "Tails, Edge",
+        "D": "Heads, Tails, Edge"
+      },
+      "correct_option": "A",
+      "answer": "Heads, Tails",
+      "explanation": "A single toss of a fair coin has exactly two elementary outcomes: it can land showing Heads or Tails. The edge outcome is theoretically possible but is ignored in standard probability problems because its probability is negligible. Therefore option A lists the correct sample space.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-00632-MCQ-002",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "When a standard six‑sided die is rolled once, which set correctly describes the sample space of possible outcomes?",
+      "options": {
+        "A": "1, 2, 3, 4, 5, 6",
+        "B": "0, 1, 2, 3, 4, 5, 6",
+        "C": "1, 2, 3, 4, 5",
+        "D": "2, 3, 4, 5, 6, 7"
+      },
+      "correct_option": "A",
+      "answer": "1, 2, 3, 4, 5, 6",
+      "explanation": "A standard die has faces numbered 1 through 6. When rolled, any one of these six numbers can appear, giving the sample space {1,2,3,4,5,6}. The other options include numbers that are not on the die or omit possible numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-00632-MCQ-003",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "A standard deck has 52 cards. Which description correctly gives the total number of equally likely elementary outcomes when one card is drawn?",
+      "options": {
+        "A": "52 different cards (13 ranks × 4 suits)",
+        "B": "13 different cards (ranks only)",
+        "C": "4 different cards (suits only)",
+        "D": "26 different cards (red vs black)"
+      },
+      "correct_option": "A",
+      "answer": "52 different cards (13 ranks × 4 suits)",
+      "explanation": "Each card in a 52‑card deck is unique, defined by its rank (Ace through King) and its suit (Hearts, Diamonds, Clubs, Spades). Hence there are 13 × 4 = 52 equally likely elementary outcomes when a single card is drawn. The other options count only part of the information.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-00632-MCQ-004",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "One card is drawn at random from a full deck. What is the probability that the card is a King?",
+      "options": {
+        "A": "4/52 = 1/13",
+        "B": "4/52 = 1/12",
+        "C": "3/52",
+        "D": "1/52"
+      },
+      "correct_option": "A",
+      "answer": "4/52 = 1/13",
+      "explanation": "There are 4 Kings in a 52‑card deck. Probability = favorable outcomes / total outcomes = 4/52, which simplifies to 1/13. Options B, C, and D give incorrect counts or simplifications.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-00632-MCQ-005",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A card is drawn at random from a standard 52‑card deck. What is the probability that the card is either a red card or a King?",
+      "options": {
+        "A": "7/13",
+        "B": "15/26",
+        "C": "11/26",
+        "D": "4/52"
+      },
+      "correct_option": "A",
+      "answer": "7/13",
+      "explanation": "Red cards = 26. Kings = 4, of which 2 are red. Using the addition rule: P(red ∪ King) = P(red) + P(King) – P(red ∩ King) = 26/52 + 4/52 – 2/52 = 28/52 = 7/13. Option A matches this value; the other options arise from incorrect addition or omission of the overlap.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-00632-MCQ-006",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student claims that the probability of getting a sum of 7 when two dice are rolled is 5/12. Is this claim correct?",
+      "options": {
+        "A": "Yes, because 5/12 = 30/72 and there are 6 favorable outcomes out of 36.",
+        "B": "No, because the correct probability is 6/36 = 1/6.",
+        "C": "No, because probabilities cannot exceed 1/2 for two dice.",
+        "D": "Yes, because 5/12 simplifies to 1/2 which is plausible."
+      },
+      "correct_option": "B",
+      "answer": "No, because the correct probability is 6/36 = 1/6.",
+      "explanation": "When two dice are rolled, there are 6 × 6 = 36 equally likely ordered outcomes. The pairs that sum to 7 are (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) – six outcomes. Hence probability = 6/36 = 1/6, not 5/12. Option B states the correct reasoning; the other options contain incorrect calculations or irrelevant statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-00632-MCQ-007",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "A student argues that when a coin is tossed once, the possible outcomes are Heads, Tails, and the coin landing on its edge. Which statement best addresses this misconception?",
+      "options": {
+        "A": "The edge outcome is possible and must be included.",
+        "B": "For ideal probability problems, only Heads and Tails are considered as equally likely outcomes.",
+        "C": "The edge outcome is more likely than Heads.",
+        "D": "The sample space should contain only Heads."
+      },
+      "correct_option": "B",
+      "answer": "For ideal probability problems, only Heads and Tails are considered as equally likely outcomes.",
+      "explanation": "In standard elementary probability, the coin is assumed to be fair and the chance of it landing on its edge is negligible, so the sample space is {Heads, Tails}. Option B correctly reflects this convention; the other options either overstate the edge outcome or ignore Tails.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-00632-MCQ-008",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "If two distinguishable dice are rolled, how many distinct ordered outcomes are possible?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "36",
+        "D": "72"
+      },
+      "correct_option": "C",
+      "answer": "36",
+      "explanation": "Each die has 6 faces. Because the dice are distinguishable (e.g., one red, one blue), the outcome (2 on the first die, 5 on the second) is different from (5 on the first, 2 on the second). Hence total ordered outcomes = 6 × 6 = 36. Options A and B underestimate, while D double‑counts each ordered pair.",
+      "difficulty": "medium"
+    }
+  ]
+}
