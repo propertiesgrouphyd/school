@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-0017",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A fair coin is tossed twice. What is the probability of getting at least one head?",
+      "options": {
+        "A": "1/2",
+        "B": "3/4",
+        "C": "1",
+        "D": "1/4"
+      },
+      "correct_option": "B",
+      "answer": "3/4",
+      "explanation": "The only outcome with no head is TT (tail‑tail). Its probability is (1/2)*(1/2)=1/4. Hence, probability of at least one head = 1 - 1/4 = 3/4. Many students mistakenly add the individual probabilities (1/2 + 1/2) and obtain 1, which is incorrect because the events are not mutually exclusive.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-0018",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A bag contains 3 red and 2 blue balls. A ball is drawn at random. Someone claims the probability of drawing a red ball is 5/4. Is this probability valid?",
+      "options": {
+        "A": "Yes, because it is between 0 and 1",
+        "B": "No, because it exceeds 1",
+        "C": "No, because it is negative",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "B",
+      "answer": "No, because it exceeds 1",
+      "explanation": "A probability must lie in the interval [0,1]. The value 5/4 equals 1.25, which is greater than 1, so the claimed probability is impossible and therefore invalid.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-0019",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "Consider Experiment A: tossing a fair coin three times. Experiment B: tossing two fair coins simultaneously. Which statement correctly compares the number of possible outcomes?",
+      "options": {
+        "A": "Experiment A has 8 outcomes; Experiment B has 4",
+        "B": "Experiment A has 4 outcomes; Experiment B has 8",
+        "C": "Both experiments have 8 outcomes",
+        "D": "Both experiments have 4 outcomes"
+      },
+      "correct_option": "A",
+      "answer": "Experiment A has 8 outcomes; Experiment B has 4",
+      "explanation": "Each coin toss has 2 possible results. For three successive tosses, the sample space size is 2³ = 8. Tossing two coins at the same time yields 2² = 4 ordered pairs. Hence, Experiment A has 8 outcomes and Experiment B has 4.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-0020",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "When two standard dice are rolled, which of the following ordered pairs cannot occur as an outcome?",
+      "options": {
+        "A": "(1,6)",
+        "B": "(3,4)",
+        "C": "(7,2)",
+        "D": "(5,5)"
+      },
+      "correct_option": "C",
+      "answer": "(7,2)",
+      "explanation": "Each die shows a number from 1 to 6. Therefore any ordered pair must have both components in that range. The pair (7,2) contains a 7, which is impossible, making it the only invalid outcome among the choices.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-0021",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "How many total possible outcomes are there when a single card is drawn at random from a standard 52‑card deck?",
+      "options": {
+        "A": "52",
+        "B": "48",
+        "C": "54",
+        "D": "56"
+      },
+      "correct_option": "A",
+      "answer": "52",
+      "explanation": "A standard deck consists of 13 ranks in each of 4 suits, giving 13 × 4 = 52 distinct cards. Each card represents a unique outcome when one card is drawn.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-0022",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing a king from a standard 52‑card deck?",
+      "options": {
+        "A": "1/13",
+        "B": "4/52",
+        "C": "1/4",
+        "D": "1/52"
+      },
+      "correct_option": "A",
+      "answer": "1/13",
+      "explanation": "There are 4 kings in a deck of 52 cards. Probability = 4/52 = 1/13. Option B is numerically the same but the answer is required to match the text of the selected option, which is 1/13.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-0023",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "In probability terminology, the event ‘A or B’ includes which of the following outcomes?",
+      "options": {
+        "A": "Only the outcomes that are in A",
+        "B": "Only the outcomes that are in B",
+        "C": "All outcomes that are in A, in B, or in both A and B",
+        "D": "Only the outcomes that are in both A and B"
+      },
+      "correct_option": "C",
+      "answer": "All outcomes that are in A, in B, or in both A and B",
+      "explanation": "The word ‘or’ corresponds to the union of two events. The union contains every outcome that belongs to A, to B, or to both. Option C correctly describes this; the other options describe subsets of the union or the intersection.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-0024",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A spinner is divided into 5 equal sectors. If the probability of landing on a red sector is given as 0.3, is this a valid probability?",
+      "options": {
+        "A": "Yes, because 0.3 is between 0 and 1",
+        "B": "No, because probabilities must be multiples of 0.2",
+        "C": "No, because the probability should be 0.2",
+        "D": "Cannot be determined without knowing the number of red sectors"
+      },
+      "correct_option": "A",
+      "answer": "Yes, because 0.3 is between 0 and 1",
+      "explanation": "A probability value must lie in the closed interval [0,1]. The number 0.3 satisfies this condition, so the stated probability is mathematically valid regardless of how many sectors are red.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "Consider two experiments: (i) tossing a fair coin once, (ii) tossing a fair coin twice. Which statement correctly compares the number of possible outcomes in the two experiments?",
+      "options": {
+        "A": "Both experiments have the same number of outcomes.",
+        "B": "Experiment (i) has more outcomes than experiment (ii).",
+        "C": "Experiment (ii) has twice as many outcomes as experiment (i).",
+        "D": "Experiment (ii) has four times as many outcomes as experiment (i)."
+      },
+      "correct_option": "C",
+      "answer": "Experiment (ii) has twice as many outcomes as experiment (i).",
+      "explanation": "A single toss of a fair coin has 2 possible outcomes: H or T. Tossing the coin twice yields ordered pairs, giving 2 × 2 = 4 outcomes (HH, HT, TH, TT). Thus the second experiment has twice as many outcomes as the first.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "A standard six‑faced die is rolled twice. How many distinct ordered outcomes are possible?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "30",
+        "D": "36"
+      },
+      "correct_option": "D",
+      "answer": "36",
+      "explanation": "Each roll can show any of the numbers 1 to 6, giving 6 possibilities per roll. For two independent rolls the ordered pairs are 6 × 6 = 36 distinct outcomes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "In a standard deck of 52 playing cards, what is the total number of possible single‑card outcomes when one card is drawn at random?",
+      "options": {
+        "A": "13",
+        "B": "26",
+        "C": "52",
+        "D": "104"
+      },
+      "correct_option": "C",
+      "answer": "52",
+      "explanation": "A standard deck contains 52 distinct cards (13 ranks in each of 4 suits). Drawing one card can result in any one of these 52 cards, so the sample space size is 52.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing a heart from a well‑shuffled standard 52‑card deck?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "1/13",
+        "D": "3/13"
+      },
+      "correct_option": "A",
+      "answer": "1/4",
+      "explanation": "There are 13 hearts in a 52‑card deck. Probability = favorable outcomes / total outcomes = 13/52 = 1/4.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "When one card is drawn from a standard deck, what is the probability of getting a red card or a king?",
+      "options": {
+        "A": "1/2",
+        "B": "7/13",
+        "C": "3/13",
+        "D": "9/52"
+      },
+      "correct_option": "B",
+      "answer": "7/13",
+      "explanation": "Red cards = 26. Kings = 4. Red kings (overlap) = 2. Using the addition rule: (26 + 4 – 2) / 52 = 28/52 = 7/13. The other options ignore the overlap or mis‑calculate the total.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student calculates the probability of getting a sum of 7 when two dice are rolled as 9/6. Which of the following statements is correct about this calculation?",
+      "options": {
+        "A": "The probability is correct because 9/6 > 1 is allowed.",
+        "B": "The probability is invalid because it exceeds 1.",
+        "C": "The probability is valid because sums can have probabilities greater than 1.",
+        "D": "The probability is invalid because the denominator should be 36."
+      },
+      "correct_option": "B",
+      "answer": "The probability is invalid because it exceeds 1.",
+      "explanation": "A probability must lie between 0 and 1 inclusive. The value 9/6 = 1.5 is greater than 1, so the calculation is impossible. The correct probability for a sum of 7 is 6/36 = 1/6.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "A fair coin is tossed three times. Which of the following lists correctly represents all possible outcomes?",
+      "options": {
+        "A": "HHH, HHT, HTH, HTT, THH, THT, TTH, TTT",
+        "B": "HHH, HHT, HTH, HTT",
+        "C": "H, T",
+        "D": "HH, HT, TH, TT"
+      },
+      "correct_option": "A",
+      "answer": "HHH, HHT, HTH, HTT, THH, THT, TTH, TTT",
+      "explanation": "Each toss has two possibilities (H or T). For three independent tosses the total outcomes are 2³ = 8, listed in option A. The other options list fewer outcomes, corresponding to fewer tosses.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "A die is rolled twice. Which of the following could be the outcome of the experiment?",
+      "options": {
+        "A": "(2,5)",
+        "B": "(7,1)",
+        "C": "(0,3)",
+        "D": "(3)"
+      },
+      "correct_option": "A",
+      "answer": "(2,5)",
+      "explanation": "Each roll can show any integer from 1 to 6. An ordered pair like (2,5) is a valid outcome of two rolls. Options B and C contain numbers outside the 1‑6 range, and D lists only one number, not two rolls.",
+      "difficulty": "medium"
+    }
+  ]
+}

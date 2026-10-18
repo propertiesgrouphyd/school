@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "Which of the following correctly describes the sample space when a single card is drawn from a standard deck of 52 playing cards?",
+      "options": {
+        "A": "52 equally likely outcomes, each representing a distinct card",
+        "B": "13 outcomes representing only the ranks",
+        "C": "4 outcomes representing only the suits",
+        "D": "26 outcomes representing red and black cards"
+      },
+      "correct_option": "A",
+      "answer": "52 equally likely outcomes, each representing a distinct card",
+      "explanation": "A standard deck has 52 distinct cards; each card is an equally likely elementary outcome, giving a sample space of 52 outcomes. Options B, C and D describe reduced or aggregated spaces, not the full elementary sample space.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing a heart from a standard deck of 52 cards?",
+      "options": {
+        "A": "1/4",
+        "B": "1/13",
+        "C": "1/2",
+        "D": "3/13"
+      },
+      "correct_option": "A",
+      "answer": "1/4",
+      "explanation": "There are 13 hearts in a 52‑card deck. Probability = favorable/total = 13/52 = 1/4. The other fractions correspond to different counts (e.g., 1/13 would be one specific heart).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A card is drawn at random from a standard deck. What is the probability that the card is either a king or a spade?",
+      "options": {
+        "A": "4/13",
+        "B": "1/4",
+        "C": "5/13",
+        "D": "3/13"
+      },
+      "correct_option": "A",
+      "answer": "4/13",
+      "explanation": "Kings = 4, Spades = 13. The king of spades is counted twice, so total favorable = 4 + 13 – 1 = 16. Probability = 16/52 = 4/13. The other options arise from incorrect counting of the overlap or ignoring it.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student claims that the probability of getting a face card (Jack, Queen, King) when a card is drawn from a deck is 0.75. Is this claim valid?",
+      "options": {
+        "A": "Yes, because there are 12 face cards out of 52 giving 0.75",
+        "B": "No, because probability must be between 0 and 1 and 0.75 is within range but the calculation is wrong",
+        "C": "No, because the actual probability is 12/52 = 3/13 ≈ 0.23, not 0.75",
+        "D": "Yes, because any probability above 0.5 is considered likely"
+      },
+      "correct_option": "C",
+      "answer": "No, because the actual probability is 12/52 = 3/13 ≈ 0.23, not 0.75",
+      "explanation": "A deck has 12 face cards. The correct probability is 12/52 = 3/13 ≈ 0.23. The student's value 0.75 is far too high, so the claim is invalid. Options A and D are factually incorrect; B is vague and does not give the correct value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "When a fair coin is tossed twice, which of the following lists all possible outcomes?",
+      "options": {
+        "A": "H, T, HH, TT",
+        "B": "HH, HT, TH, TT",
+        "C": "H, T, HT, TH",
+        "D": "HH, HT, TH"
+      },
+      "correct_option": "B",
+      "answer": "HH, HT, TH, TT",
+      "explanation": "Each toss has two possibilities, so two tosses give 2×2 = 4 ordered outcomes: HH, HT, TH, TT. Option B lists all four. The other options miss outcomes or mix single‑toss results with double‑toss results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "A single six‑sided die is rolled twice. How many distinct ordered outcomes are possible?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "36",
+        "D": "72"
+      },
+      "correct_option": "C",
+      "answer": "36",
+      "explanation": "Each roll has 6 possibilities. For two independent rolls, total ordered pairs = 6 × 6 = 36. Options A and B underestimate, D would be if order mattered and each outcome were counted twice, which is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "Compare the sample space when (i) one card is drawn from a 52‑card deck, and (ii) two cards are drawn simultaneously without replacement. Which statement is correct?",
+      "options": {
+        "A": "Both sample spaces have 52 outcomes.",
+        "B": "First has 52 outcomes; second has 1326 equally likely outcomes.",
+        "C": "First has 52 outcomes; second also has 52 outcomes because order doesn’t matter.",
+        "D": "Both have 1326 outcomes."
+      },
+      "correct_option": "B",
+      "answer": "First has 52 outcomes; second has 1326 equally likely outcomes.",
+      "explanation": "One‑card draw: 52 elementary outcomes. Two‑card draw without replacement: number of unordered pairs = C(52,2) = 1326, each equally likely. Option B captures this. Options A and C incorrectly equate the sizes; D incorrectly states both have 1326.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "In a competitive exam, a question asks: From a standard deck, two cards are drawn one after the other without replacement. What is the probability that both cards are aces?",
+      "options": {
+        "A": "(4/52)*(3/51) = 1/221",
+        "B": "(4/52)*(4/51) = 1/165",
+        "C": "(4/52)*(3/52) = 3/676",
+        "D": "(4/52)*(3/51) = 12/2652 = 1/221"
+      },
+      "correct_option": "A",
+      "answer": "(4/52)*(3/51) = 1/221",
+      "explanation": "First draw: 4 aces out of 52. After drawing an ace, 3 aces remain among 51 cards. Probability = (4/52)*(3/51) = 12/2652 = 1/221. Option D repeats the same expression but the answer text differs; option A presents the simplified fraction, making it the correct choice. Options B and C use incorrect counts.",
+      "difficulty": "hard"
+    }
+  ]
+}

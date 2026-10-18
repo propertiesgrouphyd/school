@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "A fair coin is tossed twice. Which of the following lists correctly represents all possible outcomes?",
+      "options": {
+        "A": "HH, HT, TH, TT",
+        "B": "H, T",
+        "C": "HH, TT",
+        "D": "HT, TH"
+      },
+      "correct_option": "A",
+      "answer": "HH, HT, TH, TT",
+      "explanation": "When a coin is tossed twice, each toss has two possible results (H or T). The ordered pairs are HH, HT, TH, TT, giving four equally likely outcomes. Option A lists all four correctly; the other options omit or combine outcomes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "A standard six‑sided die is rolled three times. How many distinct ordered outcomes are possible?",
+      "options": {
+        "A": "6",
+        "B": "18",
+        "C": "36",
+        "D": "216"
+      },
+      "correct_option": "D",
+      "answer": "216",
+      "explanation": "Each roll has 6 possible results. For three independent rolls the total ordered outcomes are 6×6×6 = 216. Options A‑C give lower counts and are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "Which of the following statements about the sample space when a single card is drawn from a standard 52‑card deck is correct?",
+      "options": {
+        "A": "The sample space has 13 outcomes because there are 13 ranks.",
+        "B": "The sample space has 4 outcomes because there are 4 suits.",
+        "C": "The sample space has 52 outcomes, each representing a distinct card.",
+        "D": "The sample space has 26 outcomes, one for each color."
+      },
+      "correct_option": "C",
+      "answer": "The sample space has 52 outcomes, each representing a distinct card.",
+      "explanation": "A sample space lists every possible elementary outcome. Drawing one card can result in any of the 52 distinct cards, so the correct sample space contains 52 outcomes. Options A, B, and D mistakenly group cards by rank, suit, or color, reducing the true count.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing a heart from a standard deck of 52 cards?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "1/13",
+        "D": "3/13"
+      },
+      "correct_option": "A",
+      "answer": "1/4",
+      "explanation": "A standard deck has 13 hearts out of 52 cards. Probability = favorable/total = 13/52 = 1/4. The other fractions correspond to different counts and are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A die is rolled once and a fair coin is tossed once. What is the probability that the die shows a number less than 3 and the coin shows tails?",
+      "options": {
+        "A": "1/12",
+        "B": "1/6",
+        "C": "1/4",
+        "D": "1/3"
+      },
+      "correct_option": "B",
+      "answer": "1/6",
+      "explanation": "Numbers less than 3 on a die are {1,2} → 2/6 = 1/3. Tail on a coin → 1/2. Since the events are independent, multiply: (1/3)*(1/2)=1/6. Option B matches this product; the others are results of incorrect multiplication or omission of independence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student calculates the probability of drawing a king or a red card from a standard deck as 40/52. Is this probability valid?",
+      "options": {
+        "A": "Yes, because it is less than 1.",
+        "B": "No, because the correct probability is 28/52.",
+        "C": "No, because the probability exceeds 1.",
+        "D": "Yes, because it equals 10/13 which is valid."
+      },
+      "correct_option": "B",
+      "answer": "No, because the correct probability is 28/52.",
+      "explanation": "Kings = 4, red cards = 26, overlap (red kings) = 2. Using inclusion‑exclusion: 4 + 26 – 2 = 28 favorable cards. Probability = 28/52 = 7/13 ≈ 0.538. The student's 40/52 ≈ 0.769 is too high, so the calculation is invalid. Option B states the correct reason.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "When a single fair coin is tossed once, the set of possible outcomes is:",
+      "options": {
+        "A": "{H, T}",
+        "B": "{Head}",
+        "C": "{Tail}",
+        "D": "{0,1}"
+      },
+      "correct_option": "A",
+      "answer": "{H, T}",
+      "explanation": "A single toss can result in either Head (H) or Tail (T). Hence the sample space is {H, T}. Options B and C list only one outcome, and D uses unrelated symbols.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "When a standard die is rolled once, which of the following correctly lists all possible outcomes?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{0, 1, 2, 3, 4, 5}",
+        "C": "Only even numbers",
+        "D": "{1, 2, 3, 4, 5}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "A six‑sided die shows one of the numbers 1 through 6 on each roll, giving the set {1,2,3,4,5,6}. Options B, C, and D omit or replace valid faces, so they are incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}
