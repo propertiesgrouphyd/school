@@ -1,0 +1,78 @@
+{
+  "day": 150,
+  "batch_id": "DAY-150-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Define probability",
+      "question": "Which of the following statements correctly defines the probability of an event?",
+      "options": {
+        "A": "Probability of an event is the ratio of the number of favorable outcomes to the total number of possible outcomes, when all outcomes are equally likely.",
+        "B": "Probability of an event is the number of favorable outcomes only.",
+        "C": "Probability of an event is always expressed as a percentage greater than 100.",
+        "D": "Probability of an event is the sum of the numbers of favorable and unfavorable outcomes."
+      },
+      "correct_option": "A",
+      "answer": "Probability of an event is the ratio of the number of favorable outcomes to the total number of possible outcomes, when all outcomes are equally likely.",
+      "explanation": "The formal definition of probability for a classical experiment is the number of favorable outcomes divided by the total number of equally likely outcomes. Option A states this precisely. Option B ignores the total outcomes, Option C is false because probabilities lie between 0 and 1 (or 0% to 100%), and Option D confuses counting with ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Identify sample space",
+      "question": "A fair six‑sided die is rolled once. Which set correctly represents the sample space for this experiment?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{2, 4, 6}",
+        "C": "{1, 2, 3, 4, 5}",
+        "D": "{0, 1, 2, 3, 4, 5, 6}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "The sample space lists every possible outcome of the experiment. For a single roll of a fair die the outcomes are the numbers 1 through 6, giving set A. Option B omits odd numbers, C misses 6, and D includes an impossible outcome (0).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Identify events",
+      "question": "Two fair dice are thrown simultaneously. The sample space consists of ordered pairs (i, j) where i and j are numbers from 1 to 6. Which of the following describes a valid event?",
+      "options": {
+        "A": "The sum of the two numbers is 7.",
+        "B": "The first die shows a prime number greater than 5.",
+        "C": "Both dice show the same colour.",
+        "D": "The product of the two numbers is 0."
+      },
+      "correct_option": "A",
+      "answer": "The sum of the two numbers is 7.",
+      "explanation": "An event is any subset of the sample space. \"Sum equals 7\" corresponds to the set {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} and is therefore a valid event. Option B is impossible because the only prime >5 is 7, which a die cannot show. Option C refers to colour, which is not a property of dice in this context. Option D is impossible because dice cannot show 0, so the product can never be 0.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00630",
+      "learning_point": "Calculate probability for equally likely outcomes",
+      "question": "A bag contains 3 red, 2 blue, and 5 green balls. One ball is drawn at random. What is the probability of drawing a blue ball?",
+      "options": {
+        "A": "1/5",
+        "B": "2/5",
+        "C": "1/2",
+        "D": "3/10"
+      },
+      "correct_option": "A",
+      "answer": "1/5",
+      "explanation": "Total balls = 3 + 2 + 5 = 10. Favorable outcomes (blue balls) = 2. Probability = favorable/total = 2/10 = 1/5. Option A matches this value. Option B (2/5) would be correct if there were 4 blue balls, C (1/2) is too large, and D (3/10) does not correspond to any correct count.",
+      "difficulty": "hard"
+    }
+  ]
+}
