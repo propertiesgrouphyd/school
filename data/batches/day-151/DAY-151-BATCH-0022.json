@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A fair die is rolled once and a fair coin is tossed once. What is the probability that the die shows an even number and the coin shows heads?",
+      "options": {
+        "A": "1/4",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "1/6"
+      },
+      "correct_option": "A",
+      "answer": "1/4",
+      "explanation": "The die shows an even number (2, 4, or 6) with probability 3/6 = 1/2. The coin shows heads with probability 1/2. Since the two experiments are independent, multiply the probabilities: (1/2) × (1/2) = 1/4. Options B, C, and D result from incorrect multiplication or omission of independence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student calculates the probability of obtaining a number greater than 4 when a standard die is rolled as 5/6. Is this probability valid?",
+      "options": {
+        "A": "Yes, because 5/6 is between 0 and 1.",
+        "B": "No, because a probability cannot exceed 1/2.",
+        "C": "No, because there are only two numbers greater than 4 on a die.",
+        "D": "Yes, because there are five favorable outcomes."
+      },
+      "correct_option": "C",
+      "answer": "No, because there are only two numbers greater than 4 on a die.",
+      "explanation": "Numbers greater than 4 on a die are 5 and 6, giving 2 favorable outcomes out of 6. The correct probability is 2/6 = 1/3. The student's value 5/6 exceeds the true probability, so it is invalid. Option C correctly identifies the mistake; A and D incorrectly accept the value, and B gives an unrelated bound.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "When a fair coin is tossed twice, which of the following lists contains all possible outcomes?",
+      "options": {
+        "A": "{HH, HT, TH, TT}",
+        "B": "{H, T}",
+        "C": "{HH, TT}",
+        "D": "{HT, TH}"
+      },
+      "correct_option": "A",
+      "answer": "{HH, HT, TH, TT}",
+      "explanation": "Each toss has two possibilities, so two tosses give 2 × 2 = 4 ordered outcomes: HH, HT, TH, TT. Options B, C, and D omit some outcomes, reflecting common misconceptions that the order or number of tosses does not matter.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "A single fair die is rolled. Which statement correctly describes its sample space?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{0, 1, 2, 3, 4, 5, 6}",
+        "C": "{1, 2, 3, 4, 5}",
+        "D": "{2, 4, 6}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "A standard die has six faces numbered 1 through 6, so the complete set of equally likely outcomes is {1,2,3,4,5,6}. Option B incorrectly includes 0, C omits 6, and D lists only even numbers, which are a subset, not the full sample space.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "Consider two experiments: (i) drawing one card from a standard 52‑card deck, (ii) drawing two cards successively without replacement. Which statement correctly compares their sample spaces?",
+      "options": {
+        "A": "Experiment (i) has 52 equally likely outcomes; experiment (ii) has 52 × 51 = 2652 equally likely ordered outcomes.",
+        "B": "Both experiments have 52 outcomes.",
+        "C": "Experiment (ii) has 52 outcomes because order does not matter.",
+        "D": "Experiment (i) has 52 outcomes; experiment (ii) has 1326 outcomes because order is ignored."
+      },
+      "correct_option": "A",
+      "answer": "Experiment (i) has 52 equally likely outcomes; experiment (ii) has 52 × 51 = 2652 equally likely ordered outcomes.",
+      "explanation": "When one card is drawn, each of the 52 cards is a distinct outcome. For two successive draws without replacement, the first draw has 52 possibilities and the second has 51, giving 52 × 51 = 2652 ordered pairs. Options B, C, and D either ignore ordering or give incorrect counts.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "From a standard deck of 52 cards, what is the probability of drawing a king or a heart?",
+      "options": {
+        "A": "4/52 = 1/13",
+        "B": "13/52 = 1/4",
+        "C": "16/52 = 4/13",
+        "D": "17/52"
+      },
+      "correct_option": "C",
+      "answer": "16/52 = 4/13",
+      "explanation": "There are 4 kings and 13 hearts. The king of hearts is counted twice, so subtract one overlap: 4 + 13 – 1 = 16 favorable cards. Probability = 16/52 = 4/13. Options A and B ignore the overlap, D uses an incorrect count.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A coin is tossed once and a die is rolled once. What is the probability of getting a tail on the coin or a number less than 3 on the die?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "5/6",
+        "D": "1/3"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "P(tail) = 1/2, P(number < 3) = 2/6 = 1/3, P(both) = (1/2)*(1/3) = 1/6. Using the addition rule: P(tail or <3) = 1/2 + 1/3 – 1/6 = 3/6 + 2/6 – 1/6 = 4/6 = 2/3. Options A, C, and D result from omitting the intersection or miscalculating.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student claims that the probability of getting a six when a die is rolled is 0.8. Is this claim correct?",
+      "options": {
+        "A": "Yes, because 0.8 is between 0 and 1.",
+        "B": "No, because probability must be a fraction with denominator 6.",
+        "C": "No, because the correct probability is 1/6 ≈ 0.1667.",
+        "D": "Yes, because six is the most likely outcome."
+      },
+      "correct_option": "C",
+      "answer": "No, because the correct probability is 1/6 ≈ 0.1667.",
+      "explanation": "A fair die has six equally likely faces, so the chance of a six is 1 favorable outcome out of 6, i.e., 1/6 ≈ 0.1667. The value 0.8 is far outside the true probability, making the claim incorrect. Option B is misleading about the form of a probability, while A and D incorrectly accept the claim.",
+      "difficulty": "easy"
+    }
+  ]
+}

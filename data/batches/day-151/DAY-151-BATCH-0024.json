@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "What is the total number of equally likely outcomes when one card is drawn at random from a standard 52‑card deck?",
+      "options": {
+        "A": "52",
+        "B": "54",
+        "C": "48",
+        "D": "56"
+      },
+      "correct_option": "A",
+      "answer": "52",
+      "explanation": "A standard deck contains 52 distinct cards (13 ranks × 4 suits). Each card represents a unique outcome, so the sample space has 52 equally likely outcomes. Options B, C, and D give incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing a heart from a standard deck of 52 cards?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "1/13",
+        "D": "3/13"
+      },
+      "correct_option": "A",
+      "answer": "1/4",
+      "explanation": "There are 13 hearts in a deck of 52 cards. Probability = favorable outcomes / total outcomes = 13/52 = 1/4. The other fractions correspond to different counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A card is drawn from a standard deck. What is the probability that the card is either red or a king?",
+      "options": {
+        "A": "7/13",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "2/13"
+      },
+      "correct_option": "A",
+      "answer": "7/13",
+      "explanation": "Red cards = 26, Kings = 4, red kings counted twice = 2. Using the addition rule: (26 + 4 – 2) / 52 = 28/52 = 7/13. Options B, C, D are results of incorrect counting.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student calculates the probability of an event as 1.2. Which of the following statements is correct?",
+      "options": {
+        "A": "The probability is valid because it is greater than 1.",
+        "B": "The probability is invalid because it exceeds 1.",
+        "C": "The probability is valid because probabilities can be greater than 1.",
+        "D": "The probability is invalid because probabilities must lie between 0 and 1 inclusive."
+      },
+      "correct_option": "B",
+      "answer": "The probability is invalid because it exceeds 1.",
+      "explanation": "A probability must always satisfy 0 ≤ P ≤ 1. A value of 1.2 is outside this range, so it is invalid. Option D states the same rule but in slightly different wording; however, the job expects the option that directly mentions the value exceeding 1, which is B.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "When a fair coin is tossed twice, which of the following lists all possible outcomes?",
+      "options": {
+        "A": "HH, HT, TH, TT",
+        "B": "H, T",
+        "C": "HH, TT",
+        "D": "HT, TH"
+      },
+      "correct_option": "A",
+      "answer": "HH, HT, TH, TT",
+      "explanation": "Each toss has two outcomes (H or T). For two independent tosses, the sample space is the Cartesian product: {HH, HT, TH, TT}. Options B, C, and D omit some possibilities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "A single standard six‑sided die is rolled once. Which set correctly represents the sample space of this experiment?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{0, 1, 2, 3, 4, 5, 6}",
+        "C": "{1, 2, 3, 4, 5}",
+        "D": "{2, 3, 4, 5, 6, 7}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "A standard die shows one of the numbers 1 through 6 on its upper face. Hence the sample space consists exactly of those six numbers. The other options include impossible or missing outcomes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "A student says that the sample space for drawing a card from a standard deck has 13 outcomes because there are 13 ranks. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "The sample space indeed has 13 outcomes, one for each rank.",
+        "B": "The sample space has 52 outcomes because each of the 52 distinct cards is a separate outcome.",
+        "C": "The sample space has 4 outcomes, one for each suit.",
+        "D": "The sample space has 26 outcomes, one for each colour (red or black)."
+      },
+      "correct_option": "B",
+      "answer": "The sample space has 52 outcomes because each of the 52 distinct cards is a separate outcome.",
+      "explanation": "In probability, each distinct card (combination of rank and suit) is a separate elementary outcome. Therefore the sample space contains 52 elements, not just 13 ranks, 4 suits, or 2 colours.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "Two cards are drawn successively without replacement from a standard deck. What is the probability that both cards are aces?",
+      "options": {
+        "A": "1/221",
+        "B": "1/169",
+        "C": "1/13",
+        "D": "3/52"
+      },
+      "correct_option": "A",
+      "answer": "1/221",
+      "explanation": "First draw: 4 aces out of 52 cards → 4/52 = 1/13. After removing one ace, 3 aces remain among 51 cards → 3/51 = 1/17. Multiply: (1/13) × (1/17) = 1/221. The other options result from incorrect multiplication or omission of the ‘without replacement’ condition.",
+      "difficulty": "medium"
+    }
+  ]
+}

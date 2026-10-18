@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "Which of the following combined events has the greater probability?",
+      "options": {
+        "A": "Drawing a single card that is either a King or a Queen from a standard 52‑card deck.",
+        "B": "Drawing two cards without replacement such that one is a King and the other is a Queen.",
+        "C": "Drawing three cards without replacement that are all face cards (Jack, Queen, King).",
+        "D": "Drawing a single card that is a red Ace."
+      },
+      "correct_option": "A",
+      "answer": "Drawing a single card that is either a King or a Queen from a standard 52‑card deck.",
+      "explanation": "Probability of event A = (4 Kings + 4 Queens)/52 = 8/52 = 2/13 ≈ 0.154. Event B requires a King and a Queen in any order: 2×(4/52)*(4/51)=32/2652≈0.012. Event C = (12/52)*(11/51)*(10/50)≈0.048. Event D = 2 red Aces/52 = 2/52≈0.038. Hence event A has the highest probability.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student calculates the following probabilities for different experiments. Which one is a valid probability?",
+      "options": {
+        "A": "0.85",
+        "B": "1.20",
+        "C": "-0.10",
+        "D": "1.45"
+      },
+      "correct_option": "A",
+      "answer": "0.85",
+      "explanation": "A probability must lie between 0 and 1 inclusive. 0.85 satisfies this condition, whereas 1.20, -0.10 and 1.45 are outside the permissible range, making them invalid.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "When a fair coin is tossed twice, which list contains all possible outcomes?",
+      "options": {
+        "A": "HH, HT, TH, TT",
+        "B": "HH, HT, TH",
+        "C": "H, T",
+        "D": "HH, TT"
+      },
+      "correct_option": "A",
+      "answer": "HH, HT, TH, TT",
+      "explanation": "Each toss has two outcomes (H or T). For two independent tosses, the sample space is the Cartesian product: {H,T}×{H,T} = {HH, HT, TH, TT}. The other options omit one or more outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "What is the correct sample space when a single fair six‑sided die is rolled?",
+      "options": {
+        "A": "{1,2,3,4,5,6}",
+        "B": "{0,1,2,3,4,5,6}",
+        "C": "{1,2,3,4,5}",
+        "D": "{2,4,6}"
+      },
+      "correct_option": "A",
+      "answer": "{1,2,3,4,5,6}",
+      "explanation": "A standard die has six faces numbered 1 through 6, so each of these numbers is a possible outcome. Options B, C, and D either add an impossible outcome, omit a possible one, or restrict to even numbers only.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "The sample space for drawing one card from a standard 52‑card deck is best described as:",
+      "options": {
+        "A": "The set of all 52 distinct cards (each card identified by its rank and suit).",
+        "B": "The set {Hearts, Diamonds, Clubs, Spades}.",
+        "C": "The set {Ace, 2, …, King}.",
+        "D": "The set of all possible pairs of cards."
+      },
+      "correct_option": "A",
+      "answer": "The set of all 52 distinct cards (each card identified by its rank and suit).",
+      "explanation": "When a single card is drawn, each of the 52 unique cards (e.g., Ace of Hearts, 7 of Clubs) is a distinct elementary outcome. Options B and C describe only partial attributes (suit or rank) and D refers to drawing two cards, not one.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing a heart from a standard deck of 52 cards?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "1/13",
+        "D": "3/13"
+      },
+      "correct_option": "A",
+      "answer": "1/4",
+      "explanation": "A standard deck has 13 hearts out of 52 cards. Probability = 13/52 = 1/4. The other fractions correspond to different counts: 1/2 would be 26 cards, 1/13 would be 4 cards, and 3/13 would be 12 cards.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A single card is drawn from a well‑shuffled deck. What is the probability that the card is either an Ace or a King?",
+      "options": {
+        "A": "2/13",
+        "B": "1/13",
+        "C": "4/13",
+        "D": "1/4"
+      },
+      "correct_option": "A",
+      "answer": "2/13",
+      "explanation": "There are 4 Aces and 4 Kings, total 8 favorable cards. Probability = 8/52 = 2/13. Option B would be 4/52, C would be 8/52 expressed incorrectly, and D equals 13/52, which is the probability of drawing any heart, not Ace/King.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student claims that the probability of obtaining at least one six when two dice are rolled is 5/6. Is this claim correct?",
+      "options": {
+        "A": "Yes, because the probability cannot exceed 1 and 5/6 is less than 1.",
+        "B": "No, because the correct probability is 11/36, which is much smaller than 5/6.",
+        "C": "Yes, because there are 30 favorable outcomes out of 36 possible outcomes.",
+        "D": "No, because any probability involving two dice must be less than 0.5."
+      },
+      "correct_option": "B",
+      "answer": "No, because the correct probability is 11/36, which is much smaller than 5/6.",
+      "explanation": "The probability of at least one six = 1 – probability of no sixes = 1 – (5/6)*(5/6) = 1 – 25/36 = 11/36 ≈ 0.306. The student's value 5/6 ≈ 0.833 is far too high, so the claim is incorrect. Options A and C misinterpret the counting, and D gives an arbitrary bound that is not a rule.",
+      "difficulty": "medium"
+    }
+  ]
+}

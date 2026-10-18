@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "A standard deck contains 52 distinct cards. When one card is drawn at random, how many possible outcomes are there in the sample space?",
+      "options": {
+        "A": "52",
+        "B": "13",
+        "C": "4",
+        "D": "26"
+      },
+      "correct_option": "A",
+      "answer": "52",
+      "explanation": "The sample space lists every single outcome that can occur. Drawing one card from a full deck can result in any of the 52 individual cards, so the sample space has 52 elements. Options B, C and D correspond to the number of suits, ranks, or half the deck, which are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing a heart from a well‑shuffled standard 52‑card deck?",
+      "options": {
+        "A": "1/4",
+        "B": "1/13",
+        "C": "1/2",
+        "D": "3/13"
+      },
+      "correct_option": "A",
+      "answer": "1/4",
+      "explanation": "A standard deck has 4 suits with 13 cards each. The number of hearts is 13. Probability = favorable outcomes / total outcomes = 13/52 = 1/4. The other fractions arise from confusing the number of ranks (1/13) or counting two suits (1/2) or mixing hearts with another suit (3/13).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of combined simple conditions",
+      "question": "A card is drawn from a standard deck. Find the probability that the card is either red or a king.",
+      "options": {
+        "A": "1/2",
+        "B": "4/13",
+        "C": "7/13",
+        "D": "3/13"
+      },
+      "correct_option": "C",
+      "answer": "7/13",
+      "explanation": "Red cards = 26. Kings = 4. Red kings are counted twice, so subtract the overlap (2). Favorable = 26 + 4 – 2 = 28. Probability = 28/52 = 7/13. Option A (1/2) ignores the kings that are black, B (4/13) counts only kings, D (3/13) is unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Check whether calculated probability is valid",
+      "question": "A student computes the probability of an event as 1.2. According to the axioms of probability, is this value acceptable?",
+      "options": {
+        "A": "Yes, because probabilities can be greater than 1",
+        "B": "No, because probabilities cannot exceed 1",
+        "C": "Yes, because the event is certain",
+        "D": "No, because probabilities cannot be negative"
+      },
+      "correct_option": "B",
+      "answer": "No, because probabilities cannot exceed 1",
+      "explanation": "A probability must lie between 0 and 1 inclusive. A value of 1.2 is greater than the maximum possible probability of 1, so it is invalid. Option D mentions negativity, which is another violation but not the case here.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for coin experiments",
+      "question": "When a fair coin is tossed twice, which of the following is NOT a possible outcome?",
+      "options": {
+        "A": "HH",
+        "B": "HT",
+        "C": "TH",
+        "D": "H"
+      },
+      "correct_option": "D",
+      "answer": "H",
+      "explanation": "Each toss yields either H or T, so two tosses produce ordered pairs: HH, HT, TH, TT. A single symbol 'H' does not represent the result of two tosses, making it impossible. The other three are the valid outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Identify outcomes for dice experiments",
+      "question": "A single fair die is rolled once. Which of the following results cannot occur?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "D",
+      "answer": "7",
+      "explanation": "A standard die has faces numbered 1 through 6. Therefore 1, 2, and 6 are possible outcomes, while 7 is not.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Understand standard playing-card sample spaces",
+      "question": "In the context of drawing one card from a standard deck, which statement correctly defines the sample space?",
+      "options": {
+        "A": "The set of all possible outcomes when a single card is drawn.",
+        "B": "The set of only favorable outcomes for a particular event.",
+        "C": "The set of outcomes when two cards are drawn simultaneously.",
+        "D": "The set of outcomes when a die is rolled."
+      },
+      "correct_option": "A",
+      "answer": "The set of all possible outcomes when a single card is drawn.",
+      "explanation": "The sample space comprises every outcome that can possibly occur—in this case, each of the 52 distinct cards. Option B describes an event, not the whole sample space. Options C and D refer to different experiments.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00632",
+      "learning_point": "Calculate probabilities of simple card events",
+      "question": "What is the probability of drawing either an ace or a queen from a standard 52‑card deck in a single draw?",
+      "options": {
+        "A": "1/13",
+        "B": "2/13",
+        "C": "3/13",
+        "D": "4/13"
+      },
+      "correct_option": "B",
+      "answer": "2/13",
+      "explanation": "There are 4 aces and 4 queens, with no overlap. Total favorable cards = 8. Probability = 8/52 = 2/13. Option A would be the probability of drawing a single rank, C and D are larger than the correct value.",
+      "difficulty": "easy"
+    }
+  ]
+}
