@@ -1,0 +1,150 @@
+{
+  "day": 151,
+  "batch_id": "DAY-151-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Understand complementary events",
+      "question": "Which of the following statements correctly describes the relationship between an event E and its complement \\(\\text{not }E\\) in probability?",
+      "options": {
+        "A": "P(E) + P(not E) = 1",
+        "B": "P(E) = P(not E)",
+        "C": "P(E) × P(not E) = 0",
+        "D": "P(E) and P(not E) are unrelated"
+      },
+      "correct_option": "A",
+      "answer": "P(E) + P(not E) = 1",
+      "explanation": "For any event E, the event and its complement together cover the entire sample space and are mutually exclusive. Therefore their probabilities add up to 1. Option B is false unless P(E)=0.5, C is false because the product is not necessarily zero, and D is incorrect because they are directly related.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Use P(not E) = 1 − P(E)",
+      "question": "If the probability of drawing a red marble from a bag is 0.35, what is the probability of not drawing a red marble?",
+      "options": {
+        "A": "0.35",
+        "B": "0.65",
+        "C": "0.70",
+        "D": "0.15"
+      },
+      "correct_option": "B",
+      "answer": "0.65",
+      "explanation": "Using the complement rule, P(not E) = 1 − P(E) = 1 − 0.35 = 0.65. Option A repeats the given probability, C and D are unrelated to the complement calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Calculate complementary probabilities",
+      "question": "Which expression gives the probability of the complement of event A?",
+      "options": {
+        "A": "1 – P(A)",
+        "B": "P(A) – 1",
+        "C": "P(A) / 2",
+        "D": "2 × P(A)"
+      },
+      "correct_option": "A",
+      "answer": "1 – P(A)",
+      "explanation": "The complement of an event A has probability 1 minus the probability of A. Options B, C, and D do not represent the complement rule and can even produce values outside the 0‑1 range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Apply complement methods to word problems",
+      "question": "A fair die is rolled once. What is the probability of not getting a 4?",
+      "options": {
+        "A": "1/6",
+        "B": "5/6",
+        "C": "1/3",
+        "D": "2/3"
+      },
+      "correct_option": "B",
+      "answer": "5/6",
+      "explanation": "The probability of getting a 4 is 1/6. Using the complement, P(not 4) = 1 – 1/6 = 5/6. Options A, C, and D are probabilities of other specific outcomes, not the complement of 4.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Understand complementary events",
+      "question": "In a class of 40 students, 12 play cricket. What is the probability that a randomly selected student does NOT play cricket?",
+      "options": {
+        "A": "12/40",
+        "B": "28/40",
+        "C": "1/3",
+        "D": "3/5"
+      },
+      "correct_option": "B",
+      "answer": "28/40",
+      "explanation": "Students who do not play cricket = 40 – 12 = 28. Hence, P(not cricket) = 28/40 = 7/10. Option A is the probability of playing cricket, while C and D are unrelated fractions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Use P(not E) = 1 − P(E)",
+      "question": "A bag contains 8 blue, 5 red, and 7 green balls. One ball is drawn at random. What is the probability that the ball drawn is NOT green?",
+      "options": {
+        "A": "13/20",
+        "B": "7/20",
+        "C": "5/20",
+        "D": "8/20"
+      },
+      "correct_option": "A",
+      "answer": "13/20",
+      "explanation": "Total balls = 8 + 5 + 7 = 20. Probability of drawing a green ball = 7/20. Complement gives P(not green) = 1 – 7/20 = 13/20. Options B, C, and D represent probabilities of specific colors, not the complement of green.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Calculate complementary probabilities",
+      "question": "A student calculates P(not A) = 1 – P(A) = 1 – 0.6 = 0.4, then adds P(A) + P(not A) = 1.0 and claims the total probability of all outcomes is 2.0. What is wrong with this reasoning?",
+      "options": {
+        "A": "The complement formula was applied incorrectly.",
+        "B": "Probabilities of mutually exclusive complementary events must sum to 1, not 2.",
+        "C": "Event A and not A are not mutually exclusive.",
+        "D": "There is no error; the calculation is correct."
+      },
+      "correct_option": "B",
+      "answer": "Probabilities of mutually exclusive complementary events must sum to 1, not 2.",
+      "explanation": "The complement rule gives P(A) + P(not A) = 1. The student mistakenly interpreted this sum as the probability of \"all outcomes\" being 2, which exceeds the maximum possible probability of 1. Options A and C describe different errors, while D is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-00631",
+      "learning_point": "Apply complement methods to word problems",
+      "question": "In a lottery, 4 tickets are drawn sequentially without replacement from 100 tickets. What is the probability that a particular ticket is NOT drawn in any of the four draws?",
+      "options": {
+        "A": "96/100",
+        "B": "96/99",
+        "C": "96/98",
+        "D": "96/97"
+      },
+      "correct_option": "A",
+      "answer": "96/100",
+      "explanation": "The probability the specific ticket survives the first draw is 99/100, the second draw 98/99, the third 97/98, and the fourth 96/97. Multiplying gives (99/100)*(98/99)*(97/98)*(96/97) = 96/100 = 24/25. Option A matches this result; the other fractions correspond to intermediate steps, not the final complement probability.",
+      "difficulty": "medium"
+    }
+  ]
+}
