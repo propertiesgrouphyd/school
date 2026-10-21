@@ -1,0 +1,78 @@
+{
+  "day": 163,
+  "batch_id": "DAY-163-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00681",
+      "learning_point": "Use the mirror formula",
+      "question": "A concave mirror has a focal length of 15 cm. An object is placed 30 cm in front of the mirror. Many students incorrectly think the image will form at 45 cm. Using the mirror formula with the Cartesian sign convention, what is the correct image distance from the mirror?",
+      "options": {
+        "A": "45 cm",
+        "B": "20 cm",
+        "C": "30 cm",
+        "D": "10 cm"
+      },
+      "correct_option": "C",
+      "answer": "30 cm",
+      "explanation": "For a concave mirror, f = -15 cm and u = -30 cm (object in front). Mirror formula: 1/f = 1/v + 1/u → -1/15 = 1/v - 1/30 → 1/v = -1/15 + 1/30 = -1/30. Hence v = -30 cm, meaning the image is 30 cm in front of the mirror (real image). Option C is correct. The other options arise from forgetting the sign convention or adding distances incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00681",
+      "learning_point": "Apply Cartesian sign convention",
+      "question": "A convex mirror has a focal length of +20 cm. An object is placed 40 cm in front of the mirror. According to the Cartesian sign convention, what are the signs of the object distance (u), image distance (v), and focal length (f)?",
+      "options": {
+        "A": "u = -40 cm, v = -20 cm, f = +20 cm",
+        "B": "u = -40 cm, v = +20 cm, f = +20 cm",
+        "C": "u = +40 cm, v = -20 cm, f = -20 cm",
+        "D": "u = +40 cm, v = +20 cm, f = -20 cm"
+      },
+      "correct_option": "B",
+      "answer": "u = -40 cm, v = +20 cm, f = +20 cm",
+      "explanation": "In the Cartesian sign convention, distances measured against the direction of incident light are negative. The object is in front of the mirror, so u = -40 cm. For a convex mirror, the focal length is positive, f = +20 cm. Solving 1/f = 1/v + 1/u gives v = +20 cm, indicating a virtual image behind the mirror. Hence option B is correct. Options A and C use wrong signs for v or f, and D gives a positive object distance, which is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00681",
+      "learning_point": "Calculate image position",
+      "question": "A concave mirror of focal length 12 cm forms an image of an object placed 6 cm from the mirror. Another identical concave mirror forms an image of an object placed 24 cm from the mirror. Which statement correctly compares the magnitudes of the two image distances?",
+      "options": {
+        "A": "The image distance in the first case is larger than in the second case.",
+        "B": "The image distances in both cases are equal.",
+        "C": "The image distance in the first case is smaller than in the second case.",
+        "D": "Both images are formed exactly at the focal point."
+      },
+      "correct_option": "C",
+      "answer": "The image distance in the first case is smaller than in the second case.",
+      "explanation": "Using 1/f = 1/v + 1/u (with f = -12 cm):\n- For u = -6 cm: 1/v = -1/12 + 1/6 = 1/12 → v = +12 cm (virtual image, magnitude 12 cm).\n- For u = -24 cm: 1/v = -1/12 + 1/24 = -1/24 → v = -24 cm (real image, magnitude 24 cm).\nThus the image formed when the object is farther away (24 cm) is at a larger distance (24 cm) than when the object is close (6 cm, image at 12 cm). Option C correctly states that the first image distance is smaller. The other options misinterpret the calculations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00681",
+      "learning_point": "Calculate magnification",
+      "question": "A concave mirror has a focal length of 10 cm. An object is placed 15 cm in front of the mirror. What is the magnification of the image and what is the nature of the image?",
+      "options": {
+        "A": "Magnification = -0.5, image virtual and upright",
+        "B": "Magnification = -2, image real and inverted",
+        "C": "Magnification = +0.5, image virtual and upright",
+        "D": "Magnification = +2, image virtual and upright"
+      },
+      "correct_option": "B",
+      "answer": "Magnification = -2, image real and inverted",
+      "explanation": "Using the sign convention: f = -10 cm, u = -15 cm.\nMirror formula: 1/v = 1/f - 1/u = -1/10 + 1/15 = (-3 + 2)/30 = -1/30 → v = -30 cm (real image on the same side as the object). Magnification m = -v/u = -(-30)/(-15) = -2. The negative magnification indicates an inverted image, and the magnitude >1 shows the image is larger than the object. Therefore, the image is real, inverted, and magnified by a factor of 2, matching option B. The other options either give the wrong sign, magnitude, or describe a virtual upright image, which does not occur for this arrangement.",
+      "difficulty": "hard"
+    }
+  ]
+}
