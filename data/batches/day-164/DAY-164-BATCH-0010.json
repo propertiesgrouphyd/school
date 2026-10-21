@@ -1,0 +1,150 @@
+{
+  "day": 164,
+  "batch_id": "DAY-164-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Use the lens formula",
+      "question": "Which of the following correctly expresses the lens formula relating object distance (u), image distance (v), and focal length (f) for a thin lens?",
+      "options": {
+        "A": "1/f = 1/v + 1/u",
+        "B": "1/f = 1/v - 1/u",
+        "C": "f = v + u",
+        "D": "1/f = u - v"
+      },
+      "correct_option": "A",
+      "answer": "1/f = 1/v + 1/u",
+      "explanation": "The lens formula for a thin lens, using the Cartesian sign convention, is 1/f = 1/v + 1/u, where f is the focal length, u is the object distance (negative if the object is on the incident side) and v is the image distance (positive for real images). Options B, C, and D are incorrect forms of the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Apply Cartesian sign convention",
+      "question": "An object is placed 30 cm in front of a convex lens of focal length +15 cm. Using the Cartesian sign convention, what is the image distance?",
+      "options": {
+        "A": "-30 cm",
+        "B": "+30 cm",
+        "C": "+45 cm",
+        "D": "-15 cm"
+      },
+      "correct_option": "B",
+      "answer": "+30 cm",
+      "explanation": "With the Cartesian sign convention, object distance u = -30 cm (object on the incident side) and focal length f = +15 cm. Using 1/f = 1/v + 1/u, we get 1/v = 1/15 - 1/30 = 1/30, so v = +30 cm. Positive v indicates a real image on the opposite side. The other options misuse signs or give incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Calculate magnification",
+      "question": "A convex lens of focal length 10 cm forms an image of an object placed 15 cm from the lens. What is the linear magnification of the image?",
+      "options": {
+        "A": "-0.4",
+        "B": "0.4",
+        "C": "-1.5",
+        "D": "1.5"
+      },
+      "correct_option": "A",
+      "answer": "-0.4",
+      "explanation": "Using the sign convention, u = -15 cm, f = +10 cm. From 1/v = 1/f - 1/u, we get v = +6 cm. Magnification m = v/u = 6/(-15) = -0.4. The negative sign shows the image is inverted. Options B, C, and D either miss the sign or give wrong magnitude.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Define power of a lens",
+      "question": "A thin lens has a focal length of 0.20 m. What is the optical power of this lens?",
+      "options": {
+        "A": "0.2 dioptres",
+        "B": "5 dioptres",
+        "C": "-5 dioptres",
+        "D": "2 dioptres"
+      },
+      "correct_option": "B",
+      "answer": "5 dioptres",
+      "explanation": "Power P (in dioptres) is defined as the reciprocal of the focal length in metres: P = 1/f. Here f = 0.20 m, so P = 1/0.20 = 5 D. Option A uses the focal length value directly, C gives a negative sign (which would correspond to a diverging lens), and D is an incorrect calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Calculate power in dioptres",
+      "question": "A lens has a focal length of 25 cm. What is its power in dioptres?",
+      "options": {
+        "A": "0.04 dioptres",
+        "B": "4 dioptres",
+        "C": "25 dioptres",
+        "D": "-4 dioptres"
+      },
+      "correct_option": "B",
+      "answer": "4 dioptres",
+      "explanation": "First convert the focal length to metres: 25 cm = 0.25 m. Power P = 1/f = 1/0.25 = 4 D. Option A mistakenly uses the focal length value as if it were power, C treats the focal length in cm as dioptres, and D would be the power of a diverging lens, which is not the case here.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Understand combination of lens powers at the required level",
+      "question": "Two thin lenses, one with power +3 D and the other with power +2 D, are placed in contact. What is the resultant power of the combination?",
+      "options": {
+        "A": "+1 D",
+        "B": "+5 D",
+        "C": "+6 D",
+        "D": "-5 D"
+      },
+      "correct_option": "B",
+      "answer": "+5 D",
+      "explanation": "When thin lenses are in contact, their powers add algebraically: P_total = P1 + P2 = (+3) + (+2) = +5 D. Option A underestimates, C adds an extra dioptre, and D gives a negative sign which would correspond to a diverging combination, not applicable here.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Use the lens formula",
+      "question": "A convex lens of focal length +20 cm forms an image of an object placed 40 cm from the lens. A concave lens of focal length –20 cm is used with the same object distance. Which statement is true?",
+      "options": {
+        "A": "Both lenses produce images on opposite sides of the lens.",
+        "B": "The convex lens forms a real image at about 13.3 cm on the opposite side, while the concave lens forms a virtual image 40 cm on the same side as the object.",
+        "C": "The concave lens forms a real image on the opposite side of the lens.",
+        "D": "Both lenses produce images at the same distance from the lens."
+      },
+      "correct_option": "B",
+      "answer": "The convex lens forms a real image at about 13.3 cm on the opposite side, while the concave lens forms a virtual image 40 cm on the same side as the object.",
+      "explanation": "Using 1/f = 1/v + 1/u with Cartesian signs: For the convex lens (f = +20 cm, u = -40 cm) → v ≈ +13.3 cm (real, opposite side). For the concave lens (f = –20 cm, u = -40 cm) → v = -40 cm (virtual, same side as object). Hence option B correctly describes both cases. Options A, C, and D contradict the sign‑convention calculations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00684",
+      "learning_point": "Apply Cartesian sign convention",
+      "question": "An object is placed 12 cm in front of a thin convex lens of focal length 8 cm. Using the Cartesian sign convention, what is the nature and position of the image formed?",
+      "options": {
+        "A": "Real, inverted, 4.8 cm behind the lens",
+        "B": "Virtual, upright, 4.8 cm in front of the lens",
+        "C": "Real, upright, 12 cm behind the lens",
+        "D": "Virtual, inverted, 8 cm in front of the lens"
+      },
+      "correct_option": "A",
+      "answer": "Real, inverted, 4.8 cm behind the lens",
+      "explanation": "With u = -12 cm and f = +8 cm, 1/v = 1/f - 1/u = 1/8 + 1/12 = 5/24, giving v = 24/5 = 4.8 cm (positive). Positive v indicates a real image on the opposite side of the lens, and the negative magnification (m = v/u = -0.4) shows the image is inverted. Therefore option A is correct. The other options misinterpret sign conventions or give wrong distances.",
+      "difficulty": "hard"
+    }
+  ]
+}
