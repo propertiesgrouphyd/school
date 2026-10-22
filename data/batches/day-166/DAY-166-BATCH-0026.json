@@ -1,0 +1,78 @@
+{
+  "day": 166,
+  "batch_id": "DAY-166-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00694",
+      "learning_point": "Understand Joule heating",
+      "question": "A common misconception is that the heat produced in a resistor depends only on the voltage applied across it. Which of the following statements correctly describes the factor that determines the heating effect (Joule heating) in a conductor?",
+      "options": {
+        "A": "Heat is directly proportional to the voltage alone.",
+        "B": "Heat is directly proportional to the square of the current flowing through the conductor.",
+        "C": "Heat is independent of the current and depends only on the material.",
+        "D": "Heat is proportional to the resistance only."
+      },
+      "correct_option": "B",
+      "answer": "Heat is directly proportional to the square of the current flowing through the conductor.",
+      "explanation": "Joule heating is given by H = I²Rt, showing that the heat produced is proportional to the square of the current (I), the resistance (R) and the time (t). Voltage alone does not determine the heating; it influences current according to Ohm's law, but the direct relationship is with I². Therefore option B is correct, while the other options misstate the dependence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00694",
+      "learning_point": "Use H = I²Rt",
+      "question": "A resistor of 5 Ω carries a current of 2 A for 3 seconds. Using H = I²Rt, what amount of heat (in joules) is produced in the resistor?",
+      "options": {
+        "A": "30 J",
+        "B": "60 J",
+        "C": "90 J",
+        "D": "120 J"
+      },
+      "correct_option": "B",
+      "answer": "60 J",
+      "explanation": "First compute I² = (2 A)² = 4 A². Multiply by resistance: 4 × 5 Ω = 20. Multiply by time: 20 × 3 s = 60 J. Hence the heat produced is 60 joules, making option B correct. The other options result from incorrect multiplication or omission of a factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00694",
+      "learning_point": "Relate heating to electrical power",
+      "question": "Two electrical devices, A and B, are connected to the same 240 V supply. Device A has a resistance of 30 Ω, while Device B has a resistance of 60 Ω. Which device dissipates more heat (i.e., converts more electrical energy into heat) in a given time?",
+      "options": {
+        "A": "Device A",
+        "B": "Device B",
+        "C": "Both dissipate the same amount of heat",
+        "D": "Cannot be determined without knowing the current"
+      },
+      "correct_option": "A",
+      "answer": "Device A",
+      "explanation": "Power dissipated as heat is P = V²/R. For Device A: P = 240² / 30 = 1920 W. For Device B: P = 240² / 60 = 960 W. Since Device A has the lower resistance, it draws more current and therefore converts more electrical energy into heat. Option A is correct; the other options ignore the V²/R relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00694",
+      "learning_point": "Explain applications such as heaters and fuses",
+      "question": "Which of the following statements correctly explains why a fuse protects an electrical circuit?",
+      "options": {
+        "A": "The fuse material has a high resistance, so it always remains cool.",
+        "B": "When excessive current flows, the fuse heats up rapidly due to Joule heating and melts, breaking the circuit.",
+        "C": "The fuse converts excess voltage into light, indicating a fault.",
+        "D": "The fuse stores electrical energy and releases it slowly to prevent spikes."
+      },
+      "correct_option": "B",
+      "answer": "When excessive current flows, the fuse heats up rapidly due to Joule heating and melts, breaking the circuit.",
+      "explanation": "A fuse is designed with a low‑melting‑point metal strip. Under normal current, the heating (I²R) is insufficient to melt it. If the current exceeds the safe limit, the I²R heating becomes large, the strip melts, and the circuit is opened, providing protection. Option B captures this mechanism. Options A, C, and D describe incorrect or unrelated behaviours.",
+      "difficulty": "hard"
+    }
+  ]
+}
