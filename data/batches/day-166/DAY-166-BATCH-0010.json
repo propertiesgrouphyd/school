@@ -1,0 +1,150 @@
+{
+  "day": 166,
+  "batch_id": "DAY-166-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Compare current and potential difference in series and parallel circuits",
+      "question": "Which of the following statements correctly describes the current and potential difference across resistors in series and parallel circuits?",
+      "options": {
+        "A": "In series, the current is the same and the potential difference is the same across each resistor; in parallel, the current is the same and the potential difference is the same across each resistor.",
+        "B": "In series, the current is the same and the potential difference is different across each resistor; in parallel, the current is different and the potential difference is the same across each resistor.",
+        "C": "In series, the current is different and the potential difference is the same across each resistor; in parallel, the current is the same and the potential difference is different across each resistor.",
+        "D": "In series, both current and potential difference are different across each resistor; in parallel, both are different across each resistor."
+      },
+      "correct_option": "B",
+      "answer": "In series, the current is the same and the potential difference is different across each resistor; in parallel, the current is different and the potential difference is the same across each resistor.",
+      "explanation": "In a series circuit the same current flows through all components, while the voltage divides among them according to their resistances, so the potential difference across each resistor can be different. In a parallel circuit each branch experiences the full source voltage, so the potential difference is the same across each resistor, but the currents divide inversely with resistance, making the currents different. Option B states exactly this.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Solve mixed resistor problems",
+      "question": "A circuit consists of a 2 Ω resistor in series with a parallel combination of a 3 Ω and a 6 Ω resistor. What is the equivalent resistance of the whole circuit?",
+      "options": {
+        "A": "5 Ω",
+        "B": "4 Ω",
+        "C": "3 Ω",
+        "D": "2 Ω"
+      },
+      "correct_option": "B",
+      "answer": "4 Ω",
+      "explanation": "First find the parallel resistance of 3 Ω and 6 Ω: 1/Rp = 1/3 + 1/6 = 0.5, so Rp = 2 Ω. This parallel combination is in series with the 2 Ω resistor, giving a total R = 2 Ω + 2 Ω = 4 Ω. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "A small lamp (12 V, 6 Ω) and a fan (12 V, 12 Ω) are to be connected to a 12 V battery. Which type of connection will ensure that each device receives its rated voltage?",
+      "options": {
+        "A": "Series connection",
+        "B": "Parallel connection",
+        "C": "Neither; a voltage regulator is required",
+        "D": "Both series and parallel will work equally well"
+      },
+      "correct_option": "B",
+      "answer": "Parallel connection",
+      "explanation": "In a parallel connection each branch is directly across the battery, so both the lamp and the fan experience the full 12 V. In a series connection the voltage would divide between the two resistors, and neither device would get its rated voltage. Therefore the correct choice is parallel.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in series",
+      "question": "Three resistors of 4 Ω, 5 Ω and 10 Ω are connected end‑to‑end in a single line. What is the equivalent resistance of this series arrangement?",
+      "options": {
+        "A": "19 Ω",
+        "B": "9 Ω",
+        "C": "20 Ω",
+        "D": "15 Ω"
+      },
+      "correct_option": "A",
+      "answer": "19 Ω",
+      "explanation": "For resistors in series, the equivalent resistance is the sum: R_eq = 4 Ω + 5 Ω + 10 Ω = 19 Ω. Option A matches this value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Two resistors of 4 Ω and 6 Ω are connected in parallel. Which of the following statements is correct?",
+      "options": {
+        "A": "The equivalent resistance is 10 Ω.",
+        "B": "The equivalent resistance is 2 Ω.",
+        "C": "The equivalent resistance is 2.4 Ω.",
+        "D": "The equivalent resistance is 24 Ω."
+      },
+      "correct_option": "C",
+      "answer": "The equivalent resistance is 2.4 Ω.",
+      "explanation": "For parallel resistors, 1/R_eq = 1/4 + 1/6 = (3+2)/12 = 5/12, so R_eq = 12/5 = 2.4 Ω. Many students mistakenly add resistances; option C gives the correct calculated value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Compare current and potential difference in series and parallel circuits",
+      "question": "A 12 V battery is connected to two separate circuits. Circuit 1 has two equal resistors in series; Circuit 2 has the same two resistors in parallel. Which circuit draws the greater total current from the battery?",
+      "options": {
+        "A": "Circuit 1 (series)",
+        "B": "Circuit 2 (parallel)",
+        "C": "Both draw the same current",
+        "D": "It cannot be determined without knowing the resistor values"
+      },
+      "correct_option": "B",
+      "answer": "Circuit 2 (parallel)",
+      "explanation": "In series the total resistance is twice a single resistor (R_total = 2R), so the current is I_series = V/(2R). In parallel the total resistance is R/2, giving I_parallel = V/(R/2) = 2V/R, which is twice the series current. Hence the parallel circuit draws more current. Option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Solve mixed resistor problems",
+      "question": "In a circuit, a 5 Ω resistor is in series with a combination where a 10 Ω resistor is in parallel with a series pair of 15 Ω and 20 Ω resistors. What is the equivalent resistance of the whole circuit (rounded to two decimal places)?",
+      "options": {
+        "A": "12.8 Ω",
+        "B": "13.5 Ω",
+        "C": "11.5 Ω",
+        "D": "10 Ω"
+      },
+      "correct_option": "A",
+      "answer": "12.8 Ω",
+      "explanation": "First, the series pair: 15 Ω + 20 Ω = 35 Ω. Parallel of 10 Ω with 35 Ω: 1/Rp = 1/10 + 1/35 = (3.5 + 1)/35 = 4.5/35, so Rp = 35/4.5 ≈ 7.78 Ω. Adding the series 5 Ω gives R_eq ≈ 5 Ω + 7.78 Ω = 12.78 Ω, which rounds to 12.8 Ω. Option A matches this result.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "A 9 V battery is connected to a network where a 3 Ω resistor and a 6 Ω resistor are in parallel, and this parallel combination is in series with a 9 Ω resistor. What is the current flowing through the 9 Ω resistor? (Answer in amperes, correct to three decimal places)",
+      "options": {
+        "A": "0.5 A",
+        "B": "0.75 A",
+        "C": "0.818 A",
+        "D": "1 A"
+      },
+      "correct_option": "C",
+      "answer": "0.818 A",
+      "explanation": "Parallel of 3 Ω and 6 Ω: 1/Rp = 1/3 + 1/6 = 0.5, so Rp = 2 Ω. Total resistance = Rp + 9 Ω = 2 Ω + 9 Ω = 11 Ω. Total current from the battery I = V/R = 9 V / 11 Ω = 0.818 A. The same current flows through the series 9 Ω resistor, so the answer is 0.818 A (option C).",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 166,
+  "batch_id": "DAY-166-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "In a circuit, three resistors R1 = 2 Ω, R2 = 3 Ω and R3 = 5 Ω are connected as follows: R1 and R2 are in series, and this series combination is in parallel with R3. What is the equivalent resistance of the whole circuit?",
+      "options": {
+        "A": "2.5 Ω",
+        "B": "3 Ω",
+        "C": "4 Ω",
+        "D": "5 Ω"
+      },
+      "correct_option": "A",
+      "answer": "2.5 Ω",
+      "explanation": "First find the resistance of the series part: R1 + R2 = 2 Ω + 3 Ω = 5 Ω. This 5 Ω is in parallel with R3 = 5 Ω. For two resistors in parallel, Req = (R_a × R_b) / (R_a + R_b) = (5 × 5) / (5 + 5) = 25 / 10 = 2.5 Ω. Hence option A is correct. The other options result from incorrect addition or forgetting the parallel formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in series",
+      "question": "A flashlight uses three identical resistors of 4 Ω each connected in series. What is the total (equivalent) resistance of the circuit?",
+      "options": {
+        "A": "8 Ω",
+        "B": "12 Ω",
+        "C": "4 Ω",
+        "D": "16 Ω"
+      },
+      "correct_option": "B",
+      "answer": "12 Ω",
+      "explanation": "In a series connection, resistances add directly: R_eq = R1 + R2 + R3 = 4 Ω + 4 Ω + 4 Ω = 12 Ω. Option B gives this value. Options A and D are results of adding only two resistors or squaring, while option C ignores the series addition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Two resistors, each of 6 Ω, are connected in parallel. Many students think the equivalent resistance is 12 Ω. What is the correct equivalent resistance?",
+      "options": {
+        "A": "12 Ω",
+        "B": "3 Ω",
+        "C": "6 Ω",
+        "D": "0 Ω"
+      },
+      "correct_option": "B",
+      "answer": "3 Ω",
+      "explanation": "For parallel resistors, 1/R_eq = 1/R1 + 1/R2. Here, 1/R_eq = 1/6 + 1/6 = 2/6 = 1/3, so R_eq = 3 Ω. The common mistake is to add the resistances, which would give 12 Ω (option A). Option C is the value of each individual resistor, and option D would correspond to a short circuit, which is not the case.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Compare current and potential difference in series and parallel circuits",
+      "question": "Two circuits are powered by identical 12 V batteries. Circuit A has two 3 Ω resistors in series. Circuit B has two 3 Ω resistors in parallel. Which statement is true?",
+      "options": {
+        "A": "The current through each resistor is the same in both circuits.",
+        "B": "The potential difference across each resistor is larger in the series circuit.",
+        "C": "The total current drawn from the battery is larger in the parallel circuit.",
+        "D": "The total resistance is larger in the parallel circuit."
+      },
+      "correct_option": "C",
+      "answer": "The total current drawn from the battery is larger in the parallel circuit.",
+      "explanation": "In series, total resistance = 3 Ω + 3 Ω = 6 Ω, so I = 12 V / 6 Ω = 2 A. In parallel, total resistance = (3 × 3) / (3 + 3) = 9/6 = 1.5 Ω, so I = 12 V / 1.5 Ω = 8 A. Hence the parallel circuit draws a larger current, making option C correct. Option A is false because the current differs between the two circuits. Option B is misleading; each resistor in series has 6 V, while in parallel each has the full 12 V. Option D is opposite to the actual situation; parallel resistance is smaller.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Solve mixed resistor problems",
+      "question": "Three resistors have values R1 = 2 Ω, R2 = 4 Ω and R3 = 6 Ω. R1 and R2 are connected in parallel, and this combination is connected in series with R3. What is the equivalent resistance of the whole network?",
+      "options": {
+        "A": "7.33 Ω",
+        "B": "8 Ω",
+        "C": "6 Ω",
+        "D": "5 Ω"
+      },
+      "correct_option": "A",
+      "answer": "7.33 Ω",
+      "explanation": "First find the parallel part: R_parallel = (R1 × R2) / (R1 + R2) = (2 × 4) / (2 + 4) = 8 / 6 = 1.333 Ω (≈ 4/3 Ω). Adding R3 in series gives R_eq = 1.333 Ω + 6 Ω = 7.333 Ω. Option A matches this value. The other options arise from neglecting the parallel reduction or rounding incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "A 12 V battery is connected to a network of four resistors: R1 = 2 Ω, R2 = 2 Ω, R3 = 4 Ω, R4 = 4 Ω. R1 and R2 are in series; this series combination is in parallel with R3; the resulting combination is in series with R4. What is the current supplied by the battery?",
+      "options": {
+        "A": "1 A",
+        "B": "2 A",
+        "C": "3 A",
+        "D": "4 A"
+      },
+      "correct_option": "B",
+      "answer": "2 A",
+      "explanation": "Calculate step‑by‑step: R1 + R2 = 2 Ω + 2 Ω = 4 Ω. This 4 Ω is in parallel with R3 = 4 Ω, giving R_parallel = (4 × 4) / (4 + 4) = 16 / 8 = 2 Ω. Adding R4 in series: R_total = 2 Ω + 4 Ω = 6 Ω. Using Ohm’s law, I = V / R = 12 V / 6 Ω = 2 A. Hence option B is correct. The other options correspond to using incorrect total resistance values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in series",
+      "question": "Two resistors of 5 Ω and 10 Ω are connected in series. What is their equivalent resistance?",
+      "options": {
+        "A": "5 Ω",
+        "B": "10 Ω",
+        "C": "15 Ω",
+        "D": "20 Ω"
+      },
+      "correct_option": "C",
+      "answer": "15 Ω",
+      "explanation": "In a series connection, resistances add directly: R_eq = 5 Ω + 10 Ω = 15 Ω. Option C gives this sum. Options A and B are the individual resistances, and option D would be the sum of three resistors, not applicable here.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Two resistors of 6 Ω and 3 Ω are connected in parallel. What is the equivalent resistance of the combination?",
+      "options": {
+        "A": "2 Ω",
+        "B": "3 Ω",
+        "C": "4 Ω",
+        "D": "6 Ω"
+      },
+      "correct_option": "A",
+      "answer": "2 Ω",
+      "explanation": "For parallel resistors, 1/R_eq = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, so R_eq = 2 Ω. Option A matches this result. Option B is the larger resistor value, option C is a common mis‑calculation, and option D is the value of the larger resistor, not the equivalent.",
+      "difficulty": "easy"
+    }
+  ]
+}
