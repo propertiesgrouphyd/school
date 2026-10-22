@@ -1,0 +1,150 @@
+{
+  "day": 166,
+  "batch_id": "DAY-166-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "In the circuit shown, a 2 Ω resistor is connected in series with a parallel combination of a 4 Ω resistor and a 6 Ω resistor. What is the equivalent resistance of the whole circuit?",
+      "options": {
+        "A": "4.4 Ω",
+        "B": "5.2 Ω",
+        "C": "3.6 Ω",
+        "D": "2.8 Ω"
+      },
+      "correct_option": "A",
+      "answer": "4.4 Ω",
+      "explanation": "First find the resistance of the parallel part: 1/Rp = 1/4 + 1/6 = 5/12, so Rp = 12/5 = 2.4 Ω. This is in series with the 2 Ω resistor, giving Req = 2 Ω + 2.4 Ω = 4.4 Ω. Options B, C and D result from incorrect arithmetic or forgetting to add the series resistor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in series",
+      "question": "Three resistors of 5 Ω, 10 Ω and 15 Ω are connected end‑to‑end in a single line. What is the equivalent resistance of this series arrangement?",
+      "options": {
+        "A": "30 Ω",
+        "B": "20 Ω",
+        "C": "25 Ω",
+        "D": "35 Ω"
+      },
+      "correct_option": "A",
+      "answer": "30 Ω",
+      "explanation": "In a series circuit, resistances add directly: Req = 5 Ω + 10 Ω + 15 Ω = 30 Ω. The other options arise from omitting one resistor or adding incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Three identical 12 Ω resistors are connected in parallel. What is the equivalent resistance of the combination?",
+      "options": {
+        "A": "4 Ω",
+        "B": "12 Ω",
+        "C": "36 Ω",
+        "D": "24 Ω"
+      },
+      "correct_option": "A",
+      "answer": "4 Ω",
+      "explanation": "For parallel resistors, 1/Req = 1/12 + 1/12 + 1/12 = 3/12 = 1/4, so Req = 4 Ω. Many students mistakenly add the resistances (giving 36 Ω) instead of using the reciprocal rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Compare current and potential difference in series and parallel circuits",
+      "question": "Two circuits are powered by identical batteries. Circuit A has three resistors connected in series, while Circuit B has the same three resistors connected in parallel. Which statement is correct?",
+      "options": {
+        "A": "In Circuit A each resistor carries the same current, whereas in Circuit B each resistor has the same potential difference.",
+        "B": "In Circuit A each resistor has the same potential difference, whereas in Circuit B each resistor carries the same current.",
+        "C": "Both circuits have the same current through each resistor.",
+        "D": "Neither series nor parallel connections guarantee equal current or equal potential difference across the resistors."
+      },
+      "correct_option": "A",
+      "answer": "In Circuit A each resistor carries the same current, whereas in Circuit B each resistor has the same potential difference.",
+      "explanation": "In a series connection the same current flows through all components, while the voltage divides among them. In a parallel connection each branch experiences the full battery voltage, so the potential difference across each resistor is the same, but currents differ according to their resistances. Options B, C and D contradict these fundamental facts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Solve mixed resistor problems",
+      "question": "A circuit consists of a 3 Ω resistor in series with a parallel network. The parallel network contains a 6 Ω resistor in one branch and, in the other branch, a series pair of 2 Ω and 4 Ω resistors. What is the equivalent resistance of the whole circuit?",
+      "options": {
+        "A": "6 Ω",
+        "B": "5 Ω",
+        "C": "7 Ω",
+        "D": "9 Ω"
+      },
+      "correct_option": "A",
+      "answer": "6 Ω",
+      "explanation": "First, the series pair 2 Ω + 4 Ω = 6 Ω. The parallel part now has two 6 Ω resistors, so its equivalent resistance is (6×6)/(6+6) = 3 Ω. Adding the series 3 Ω resistor gives total Req = 3 Ω + 3 Ω = 6 Ω. The other options result from mis‑adding or mis‑calculating the parallel combination.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "A 12 V battery is connected across three parallel branches. Branch 1 contains a single 2 Ω resistor. Branch 2 contains two resistors of 3 Ω and 6 Ω in series. Branch 3 contains a single 4 Ω resistor. What is the total current supplied by the battery?",
+      "options": {
+        "A": "10.33 A",
+        "B": "8.0 A",
+        "C": "12.0 A",
+        "D": "6.5 A"
+      },
+      "correct_option": "A",
+      "answer": "10.33 A",
+      "explanation": "Calculate the resistance of each branch: R1 = 2 Ω, R2 = 3 Ω + 6 Ω = 9 Ω, R3 = 4 Ω. The combined conductance is 1/2 + 1/9 + 1/4 = 31/36 S, so the equivalent resistance Req = 36/31 Ω ≈ 1.161 Ω. Total current I = V/Req = 12 V ÷ 1.161 Ω ≈ 10.33 A. Options B, C and D arise from ignoring one branch or using incorrect formulas.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in series",
+      "question": "Two resistors, 8 Ω and 7 Ω, are connected in series. What is their equivalent resistance?",
+      "options": {
+        "A": "15 Ω",
+        "B": "1 Ω",
+        "C": "56 Ω",
+        "D": "0.875 Ω"
+      },
+      "correct_option": "A",
+      "answer": "15 Ω",
+      "explanation": "In series, resistances add directly: 8 Ω + 7 Ω = 15 Ω. The other options are results of division or multiplication, which do not apply to series combinations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Two resistors, 10 Ω and 20 Ω, are connected in parallel. What is the equivalent resistance of the combination?",
+      "options": {
+        "A": "6.67 Ω",
+        "B": "10 Ω",
+        "C": "30 Ω",
+        "D": "20 Ω"
+      },
+      "correct_option": "A",
+      "answer": "6.67 Ω",
+      "explanation": "For parallel resistors, 1/Req = 1/10 + 1/20 = 3/20, so Req = 20/3 ≈ 6.67 Ω. Options B, C and D correspond to using the wrong rule (e.g., taking the larger resistance or adding them).",
+      "difficulty": "easy"
+    }
+  ]
+}
