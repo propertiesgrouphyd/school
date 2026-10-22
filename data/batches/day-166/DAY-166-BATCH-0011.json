@@ -1,0 +1,150 @@
+{
+  "day": 166,
+  "batch_id": "DAY-166-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in series",
+      "question": "Three resistors of 2 Ω, 5 Ω and 10 Ω are connected in series. What is the equivalent resistance of the combination?",
+      "options": {
+        "A": "17 Ω",
+        "B": "7 Ω",
+        "C": "5 Ω",
+        "D": "20 Ω"
+      },
+      "correct_option": "A",
+      "answer": "17 Ω",
+      "explanation": "In a series connection, resistances add directly: R_eq = 2 Ω + 5 Ω + 10 Ω = 17 Ω. The other options result from incorrect addition or omission of a resistor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Two resistors of 6 Ω and 12 Ω are connected in parallel. What is the equivalent resistance of the combination?",
+      "options": {
+        "A": "4 Ω",
+        "B": "8 Ω",
+        "C": "3 Ω",
+        "D": "18 Ω"
+      },
+      "correct_option": "A",
+      "answer": "4 Ω",
+      "explanation": "For parallel resistors, 1/R_eq = 1/6 + 1/12 = 0.1667 + 0.0833 = 0.25, so R_eq = 1/0.25 = 4 Ω. The other values arise from adding resistances or using wrong formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Compare current and potential difference in series and parallel circuits",
+      "question": "In a series circuit the same current flows through each resistor, while in a parallel circuit the potential difference across each branch is the same. Which statement correctly describes this difference?",
+      "options": {
+        "A": "Current is the same in series, voltage is the same in parallel.",
+        "B": "Voltage is the same in series, current is the same in parallel.",
+        "C": "Both current and voltage are the same in series.",
+        "D": "Both current and voltage are the same in parallel."
+      },
+      "correct_option": "A",
+      "answer": "Current is the same in series, voltage is the same in parallel.",
+      "explanation": "Series circuits share a single path, so the current is identical through all components, but the voltage divides. Parallel circuits provide multiple paths, so each branch experiences the full source voltage, while the total current splits. Options B, C, and D misstate these relationships.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Solve mixed resistor problems",
+      "question": "Resistors R1 = 4 Ω and R2 = 6 Ω are connected in series, and this series combination is connected in parallel with R3 = 3 Ω. What is the equivalent resistance of the whole network?",
+      "options": {
+        "A": "2.3 Ω",
+        "B": "3 Ω",
+        "C": "5 Ω",
+        "D": "7 Ω"
+      },
+      "correct_option": "A",
+      "answer": "2.3 Ω",
+      "explanation": "First, series resistance: R_series = 4 Ω + 6 Ω = 10 Ω. Then parallel with 3 Ω: 1/R_eq = 1/10 + 1/3 = 0.1 + 0.3333 = 0.4333, so R_eq ≈ 2.31 Ω, rounded to 2.3 Ω. The other options ignore either the series step or use incorrect parallel calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "A household lighting circuit has three identical 60 W bulbs connected in parallel to a 240 V supply. What is the total current drawn from the supply?",
+      "options": {
+        "A": "0.75 A",
+        "B": "0.50 A",
+        "C": "1.00 A",
+        "D": "1.50 A"
+      },
+      "correct_option": "A",
+      "answer": "0.75 A",
+      "explanation": "Resistance of each bulb: R = V²/P = 240²/60 = 960 Ω. Current through one bulb: I = V/R = 240/960 = 0.25 A. Three bulbs in parallel draw I_total = 3 × 0.25 A = 0.75 A. Options B, C, D result from incorrect multiplication or omission of parallel effect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in series",
+      "question": "A 24 V battery supplies a series circuit containing three resistors: R1 = 2 Ω, R2 = ?, and R3 = 4 Ω. The measured current in the circuit is 2 A. What is the value of R2?",
+      "options": {
+        "A": "6 Ω",
+        "B": "8 Ω",
+        "C": "4 Ω",
+        "D": "2 Ω"
+      },
+      "correct_option": "A",
+      "answer": "6 Ω",
+      "explanation": "Total resistance from Ohm’s law: R_total = V/I = 24 V / 2 A = 12 Ω. Sum of known resistances: 2 Ω + 4 Ω = 6 Ω. Therefore R2 = 12 Ω – 6 Ω = 6 Ω. The other options arise from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Two resistors of 10 Ω each are connected in parallel. A student adds the resistances and says the equivalent resistance is 20 Ω. What is the correct equivalent resistance?",
+      "options": {
+        "A": "5 Ω",
+        "B": "20 Ω",
+        "C": "10 Ω",
+        "D": "0 Ω"
+      },
+      "correct_option": "A",
+      "answer": "5 Ω",
+      "explanation": "For equal resistors in parallel, R_eq = R/2 = 10 Ω / 2 = 5 Ω. Adding resistances applies only to series connections. Option B repeats the student's mistake, C ignores the parallel effect, and D is physically impossible.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Compare current and potential difference in series and parallel circuits",
+      "question": "In a parallel circuit, the total current supplied by the source is 3 A and there are two branches with equal resistance. What is the current through each branch and how does the potential difference across each branch compare to the source voltage?",
+      "options": {
+        "A": "Each branch carries 1.5 A, and the potential difference across each branch equals the source voltage.",
+        "B": "Each branch carries 3 A, and the potential difference across each branch is half the source voltage.",
+        "C": "Each branch carries 1.5 A, and the potential difference across each branch is half the source voltage.",
+        "D": "Each branch carries 3 A, and the potential difference across each branch equals the source voltage."
+      },
+      "correct_option": "A",
+      "answer": "Each branch carries 1.5 A, and the potential difference across each branch equals the source voltage.",
+      "explanation": "In parallel, voltage across each branch is the same as the source voltage. With equal resistances, the total current splits equally: 3 A ÷ 2 = 1.5 A per branch. Options B and D give wrong current values, and C incorrectly states the voltage is halved.",
+      "difficulty": "medium"
+    }
+  ]
+}

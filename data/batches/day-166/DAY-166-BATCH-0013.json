@@ -1,0 +1,78 @@
+{
+  "day": 166,
+  "batch_id": "DAY-166-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Calculate equivalent resistance in parallel",
+      "question": "Three resistors of 6 Ω, 12 Ω and 24 Ω are connected in parallel across a battery. What is the equivalent resistance of the combination?",
+      "options": {
+        "A": "42 Ω",
+        "B": "3.43 Ω",
+        "C": "6 Ω",
+        "D": "12 Ω"
+      },
+      "correct_option": "B",
+      "answer": "3.43 Ω",
+      "explanation": "For resistors in parallel, 1/R_eq = 1/R1 + 1/R2 + 1/R3. Hence 1/R_eq = 1/6 + 1/12 + 1/24 = (4+2+1)/24 = 7/24, so R_eq = 24/7 ≈ 3.43 Ω. Option A is the common mistake of simply adding the resistances, which applies only to series connections.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Compare current and potential difference in series and parallel circuits",
+      "question": "Which of the following statements correctly describes the behavior of current and potential difference in series and parallel circuits?",
+      "options": {
+        "A": "In series, the current is the same through each resistor and the potential difference is also the same across each resistor.",
+        "B": "In parallel, the potential difference is the same across each resistor and the current is the same through each resistor.",
+        "C": "In series, the current is the same through each resistor but the potential difference across each resistor may differ.",
+        "D": "In parallel, the current is the same through each resistor but the potential difference across each resistor may differ."
+      },
+      "correct_option": "C",
+      "answer": "In series, the current is the same through each resistor but the potential difference across each resistor may differ.",
+      "explanation": "In a series circuit the same current flows through all components, while the voltage drop across each resistor depends on its resistance (V = IR). In a parallel circuit the voltage across each branch is equal to the source voltage, and the currents divide inversely to the resistances. Therefore option C correctly captures the series behavior; options A and B incorrectly mix the two cases, and D reverses the parallel behavior.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Solve mixed resistor problems",
+      "question": "Circuit A consists of two 6 Ω resistors connected in series. Circuit B consists of two 6 Ω resistors connected in parallel. Which circuit has the greater equivalent resistance?",
+      "options": {
+        "A": "Circuit A",
+        "B": "Circuit B",
+        "C": "Both have the same equivalent resistance",
+        "D": "It cannot be determined without the supply voltage"
+      },
+      "correct_option": "A",
+      "answer": "Circuit A",
+      "explanation": "For series connection, resistances add: R_eq(series) = 6 Ω + 6 Ω = 12 Ω. For parallel connection, 1/R_eq = 1/6 + 1/6 = 2/6, so R_eq(parallel) = 3 Ω. Hence Circuit A (12 Ω) has a larger equivalent resistance than Circuit B (3 Ω). Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00693",
+      "learning_point": "Apply network principles to practical circuits",
+      "question": "A 12 V battery is connected to a circuit where a 2 Ω resistor is in series with a parallel combination of a 4 Ω and a 6 Ω resistor. What is the current supplied by the battery?",
+      "options": {
+        "A": "2.73 A",
+        "B": "3.00 A",
+        "C": "2.00 A",
+        "D": "1.50 A"
+      },
+      "correct_option": "A",
+      "answer": "2.73 A",
+      "explanation": "First find the equivalent resistance of the parallel part: 1/R_p = 1/4 + 1/6 = (3+2)/12 = 5/12, so R_p = 12/5 = 2.4 Ω. The total resistance is R_total = 2 Ω + 2.4 Ω = 4.4 Ω. Using Ohm's law, I = V / R = 12 V / 4.4 Ω ≈ 2.727 A, which rounds to 2.73 A. The other options result from incorrect arithmetic or neglecting the parallel reduction.",
+      "difficulty": "hard"
+    }
+  ]
+}
