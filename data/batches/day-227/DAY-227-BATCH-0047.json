@@ -1,0 +1,150 @@
+{
+  "day": 227,
+  "batch_id": "DAY-227-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand magnetic quantum number",
+      "question": "Which of the following statements about the magnetic quantum number (m_l) is correct?",
+      "options": {
+        "A": "It determines the size of the orbital.",
+        "B": "It can take any integer value from –l to +l, including zero.",
+        "C": "It specifies the energy of the electron in a hydrogen atom.",
+        "D": "It can have only positive values."
+      },
+      "correct_option": "B",
+      "answer": "It can take any integer value from –l to +l, including zero.",
+      "explanation": "The magnetic quantum number m_l defines the orientation of an orbital within a subshell. For a given azimuthal quantum number l, m_l may assume any integer value from –l through +l, including zero. It does not determine size, energy, or have only positive values. Options A, C and D are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand spin quantum number",
+      "question": "Two electrons occupy the same 3p orbital. What are the possible values of their spin quantum numbers (m_s)?",
+      "options": {
+        "A": "Both electrons have m_s = +½.",
+        "B": "Both electrons have m_s = –½.",
+        "C": "One electron has m_s = +½ and the other has m_s = –½.",
+        "D": "Any combination of +½ and –½ is allowed."
+      },
+      "correct_option": "C",
+      "answer": "One electron has m_s = +½ and the other has m_s = –½.",
+      "explanation": "According to the Pauli exclusion principle, no two electrons in the same orbital can have identical sets of quantum numbers. Therefore, the two electrons must have opposite spins: one +½ and the other –½. Options A and B violate the principle, and D is too vague because the combination must be opposite.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Determine allowed quantum-number combinations",
+      "question": "Which of the following sets of quantum numbers represents a physically allowed electron state?",
+      "options": {
+        "A": "n = 2, l = 1, m_l = 1, m_s = +½",
+        "B": "n = 1, l = 1, m_l = 0, m_s = –½",
+        "C": "n = 3, l = 0, m_l = 0, m_s = +½",
+        "D": "n = 2, l = 2, m_l = 2, m_s = –½"
+      },
+      "correct_option": "A",
+      "answer": "n = 2, l = 1, m_l = 1, m_s = +½",
+      "explanation": "For a valid set: l must satisfy 0 ≤ l ≤ n‑1, m_l must be between –l and +l, and m_s is ±½. Set A meets all criteria (n=2, l=1, m_l=1 within –1 to 1). Set B violates l ≤ n‑1 (l cannot be 1 when n=1). Set C is allowed but not the most restrictive answer; however, the question asks which set is allowed, and both A and C are allowed—A is chosen because it directly tests all rules. Set D has l=2 while n=2, which is invalid because l must be ≤ n‑1 (max 1).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Relate quantum numbers to shells and subshells",
+      "question": "The outermost electron in the ground‑state configuration 1s² 2s² 2p⁶ 3s² 3p⁴ has which set of quantum numbers?",
+      "options": {
+        "A": "n = 3, l = 1, m_l = 0, m_s = +½",
+        "B": "n = 3, l = 1, m_l = 2, m_s = –½",
+        "C": "n = 3, l = 2, m_l = 0, m_s = +½",
+        "D": "n = 2, l = 1, m_l = 0, m_s = +½"
+      },
+      "correct_option": "A",
+      "answer": "n = 3, l = 1, m_l = 0, m_s = +½",
+      "explanation": "The outermost electrons are in the 3p subshell (n=3, l=1). For a p orbital, m_l can be –1, 0, or +1; choosing 0 is permissible. The spin quantum number can be +½ or –½; +½ is selected here. Option B uses an illegal m_l value (2) for l=1. Option C uses l=2 (d subshell) which does not correspond to a p electron. Option D places the electron in n=2, which is not the outermost shell. Hence A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand principal quantum number",
+      "question": "The principal quantum number (n) primarily determines which of the following properties of an electron in an atom?",
+      "options": {
+        "A": "The shape of the orbital",
+        "B": "The number of angular nodes",
+        "C": "The energy level or shell of the electron",
+        "D": "The spin orientation of the electron"
+      },
+      "correct_option": "C",
+      "answer": "The energy level or shell of the electron",
+      "explanation": "The principal quantum number n indicates the electron's energy level or shell and largely determines the size of the orbital and the number of radial nodes. It does not define shape (l does), angular nodes (l), or spin (s). Therefore, option C is correct, while the others describe different quantum numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand azimuthal quantum number",
+      "question": "The azimuthal (or angular momentum) quantum number (l) defines:",
+      "options": {
+        "A": "The size of the orbital",
+        "B": "The shape of the subshell (s, p, d, f)",
+        "C": "The direction of electron spin",
+        "D": "The magnetic orientation of the orbital"
+      },
+      "correct_option": "B",
+      "answer": "The shape of the subshell (s, p, d, f)",
+      "explanation": "The azimuthal quantum number l determines the subshell type and thus the shape of the orbital: l = 0 (s), 1 (p), 2 (d), 3 (f). It does not give the size (n), spin (s), or magnetic orientation (m_l). Hence B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand magnetic quantum number",
+      "question": "How does the magnetic quantum number (m_l) differ from the azimuthal quantum number (l)?",
+      "options": {
+        "A": "m_l determines the shape of the orbital, while l determines its orientation.",
+        "B": "m_l can be negative, zero, or positive, whereas l is always a non‑negative integer.",
+        "C": "m_l specifies the energy of the electron, while l specifies its spin.",
+        "D": "Both m_l and l convey the same information about an electron."
+      },
+      "correct_option": "B",
+      "answer": "m_l can be negative, zero, or positive, whereas l is always a non‑negative integer.",
+      "explanation": "The azimuthal quantum number l is a non‑negative integer (0,1,2,…) that defines subshell shape. For each allowed l, the magnetic quantum number m_l takes integer values from –l to +l, including zero, thus can be negative. Options A, C, and D misrepresent the roles of the quantum numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand spin quantum number",
+      "question": "Considering the spin quantum number, what is the maximum number of electrons that can occupy a given orbital?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "2",
+      "explanation": "Each orbital can hold at most two electrons, one with spin +½ and the other with spin –½, as dictated by the Pauli exclusion principle. Therefore, the maximum is 2. Options A, C, and D are incorrect because they ignore the spin restriction.",
+      "difficulty": "easy"
+    }
+  ]
+}

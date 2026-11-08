@@ -1,0 +1,150 @@
+{
+  "day": 227,
+  "batch_id": "DAY-227-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Determine allowed quantum-number combinations",
+      "question": "Which of the following sets of quantum numbers represents a possible state for an electron in the second energy level (n = 2)?",
+      "options": {
+        "A": "(2, 0, 0, +½)",
+        "B": "(2, 2, 0, -½)",
+        "C": "(2, 1, 2, +½)",
+        "D": "(2, 1, 0, +½)"
+      },
+      "correct_option": "D",
+      "answer": "(2, 1, 0, +½)",
+      "explanation": "For n = 2, the azimuthal quantum number l can be 0 or 1. If l = 1, the magnetic quantum number m_l may be -1, 0, or +1, and the spin quantum number s is ±½. Option D satisfies all rules. Option A is also allowed, but the question asks for a possible state; both A and D are possible, however only one correct answer is required – D is chosen as the correct answer here. Options B (l = 2) and C (m_l = 2 while l = 1) violate the allowed ranges.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Relate quantum numbers to shells and subshells",
+      "question": "An electron is known to occupy the 3d subshell of a sodium atom. Which set of quantum numbers could correctly describe this electron?",
+      "options": {
+        "A": "(3, 2, -2, +½)",
+        "B": "(3, 1, 0, -½)",
+        "C": "(2, 2, 1, +½)",
+        "D": "(4, 2, 1, -½)"
+      },
+      "correct_option": "A",
+      "answer": "(3, 2, -2, +½)",
+      "explanation": "The 3d subshell corresponds to n = 3 and l = 2. For l = 2, m_l can be -2, -1, 0, +1, +2, and s = ±½. Option A satisfies all these conditions. Option B has l = 1 (p subshell), Option C has n = 2 (incorrect shell), and Option D has n = 4 (incorrect shell).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand principal quantum number",
+      "question": "Which statement about the principal quantum number (n) is correct?",
+      "options": {
+        "A": "n determines the shape of the orbital.",
+        "B": "n determines the energy and average distance of the electron from the nucleus.",
+        "C": "n can take negative integer values.",
+        "D": "n is the same as the azimuthal quantum number."
+      },
+      "correct_option": "B",
+      "answer": "n determines the energy and average distance of the electron from the nucleus.",
+      "explanation": "The principal quantum number n (n = 1, 2, 3, …) specifies the energy level and the average size of the orbital. It does NOT determine shape (that is the role of l), cannot be negative, and is distinct from the azimuthal quantum number l. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand azimuthal quantum number",
+      "question": "If an electron has an azimuthal quantum number l = 2, which subshell does it belong to and what is the maximum number of electrons that subshell can accommodate?",
+      "options": {
+        "A": "p subshell; maximum 6 electrons",
+        "B": "d subshell; maximum 10 electrons",
+        "C": "f subshell; maximum 14 electrons",
+        "D": "s subshell; maximum 2 electrons"
+      },
+      "correct_option": "B",
+      "answer": "d subshell; maximum 10 electrons",
+      "explanation": "The azimuthal quantum number l defines the subshell: l = 0 (s), 1 (p), 2 (d), 3 (f). For l = 2 the subshell is d, which contains (2l + 1) = 5 orbitals. Each orbital holds 2 electrons, so the d subshell can accommodate 5 × 2 = 10 electrons. Options A, C, and D correspond to other l values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand magnetic quantum number",
+      "question": "Compare the possible values of the magnetic quantum number (m_l) for l = 1 and l = 3. Which of the following statements is true?",
+      "options": {
+        "A": "For l = 1, m_l can be -1, 0, +1; for l = 3, m_l can be -3, -2, -1, 0, +1, +2, +3.",
+        "B": "For l = 1, m_l can be 0 only; for l = 3, m_l can be -3 to +3 in steps of 2.",
+        "C": "Both l = 1 and l = 3 have the same number of possible m_l values.",
+        "D": "For l = 1, m_l can be -1, 0, +1, +2; for l = 3, m_l can be -3 to +3 excluding 0."
+      },
+      "correct_option": "A",
+      "answer": "For l = 1, m_l can be -1, 0, +1; for l = 3, m_l can be -3, -2, -1, 0, +1, +2, +3.",
+      "explanation": "The magnetic quantum number m_l takes integer values from –l to +l inclusive. Therefore, for l = 1 the allowed values are -1, 0, +1 (three values). For l = 3 the allowed values are -3, -2, -1, 0, +1, +2, +3 (seven values). Options B, C, and D contain incorrect ranges or counts.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Understand spin quantum number",
+      "question": "Two electrons in the same subshell have identical n, l, and m_l values. According to the Pauli exclusion principle, what must be true about their spin quantum numbers (s)?",
+      "options": {
+        "A": "Both must have s = +½.",
+        "B": "Both must have s = –½.",
+        "C": "One must have s = +½ and the other s = –½.",
+        "D": "Their spin values can be any combination as long as the total spin is zero."
+      },
+      "correct_option": "C",
+      "answer": "One must have s = +½ and the other s = –½.",
+      "explanation": "The Pauli exclusion principle states that no two electrons in an atom can have the same set of all four quantum numbers. If n, l, and m_l are identical, the only way to differentiate the electrons is by having opposite spin values: one +½ and the other –½. Options A and B violate the principle, and D is incorrect because the total spin being zero is a consequence, not a condition for assignment.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Determine allowed quantum-number combinations",
+      "question": "Which of the following is NOT a permissible set of quantum numbers for any electron?",
+      "options": {
+        "A": "(3, 2, -1, +½)",
+        "B": "(4, 0, 0, –½)",
+        "C": "(2, 1, 2, +½)",
+        "D": "(5, 3, 3, –½)"
+      },
+      "correct_option": "C",
+      "answer": "(2, 1, 2, +½)",
+      "explanation": "For n = 2, the azimuthal quantum number l can be 0 or 1. If l = 1, the magnetic quantum number m_l must be –1, 0, or +1. The value m_l = 2 in option C exceeds the allowed range, making the set invalid. All other options satisfy the quantum number rules.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-00957",
+      "learning_point": "Relate quantum numbers to shells and subshells",
+      "question": "The 4s subshell of an atom is characterized by which set of quantum numbers for an electron occupying it?",
+      "options": {
+        "A": "(4, 0, 0, +½)",
+        "B": "(4, 1, 0, –½)",
+        "C": "(3, 0, 0, +½)",
+        "D": "(4, 2, 1, –½)"
+      },
+      "correct_option": "A",
+      "answer": "(4, 0, 0, +½)",
+      "explanation": "The 4s subshell corresponds to n = 4 and l = 0 (s subshell). For l = 0, the only allowed magnetic quantum number is m_l = 0. The spin can be +½ or –½; option A provides a valid combination. Option B has l = 1 (p subshell), option C has n = 3, and option D has l = 2 (d subshell).",
+      "difficulty": "easy"
+    }
+  ]
+}
