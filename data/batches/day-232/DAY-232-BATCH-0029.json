@@ -1,0 +1,150 @@
+{
+  "day": 232,
+  "batch_id": "DAY-232-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Use ΔU = q + w",
+      "question": "A system absorbs 500 J of heat from the surroundings and does 200 J of work on the surroundings. What is the change in internal energy (ΔU) of the system?",
+      "options": {
+        "A": "+300 J",
+        "B": "-300 J",
+        "C": "+700 J",
+        "D": "-700 J"
+      },
+      "correct_option": "A",
+      "answer": "+300 J",
+      "explanation": "According to the first law, ΔU = q + w. Heat absorbed by the system is taken as positive, so q = +500 J. Work done by the system on the surroundings is taken as negative, so w = -200 J. Therefore ΔU = 500 + (-200) = +300 J. The other options either use the wrong sign for work or add the quantities incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Apply sign conventions",
+      "question": "In a chemical reaction occurring at constant volume, the system releases 250 J of heat to the surroundings and no work is done. According to the sign convention used in thermodynamics, what are the signs of q and w, and what is ΔU?",
+      "options": {
+        "A": "q = –250 J, w = 0, ΔU = –250 J",
+        "B": "q = +250 J, w = 0, ΔU = +250 J",
+        "C": "q = –250 J, w = –250 J, ΔU = –500 J",
+        "D": "q = 0, w = –250 J, ΔU = –250 J"
+      },
+      "correct_option": "A",
+      "answer": "q = –250 J, w = 0, ΔU = –250 J",
+      "explanation": "Heat released by the system is taken as negative, so q = –250 J. No work is performed, therefore w = 0. Using ΔU = q + w gives ΔU = –250 J + 0 = –250 J. Options B, C, and D assign incorrect signs to q or w.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Calculate work and heat",
+      "question": "Two processes A and B both involve an ideal gas expanding isothermally from 1 L to 2 L. In process A the expansion is against a constant external pressure of 1 atm. In process B the expansion is reversible. Which statement correctly compares the magnitude of work done on the system (|w|) and the heat exchanged (q) for the two processes?",
+      "options": {
+        "A": "|w_A| > |w_B| and q_A > q_B",
+        "B": "|w_A| = |w_B| and q_A = q_B",
+        "C": "|w_A| < |w_B| and q_A < q_B",
+        "D": "|w_A| > |w_B| but q_A = q_B"
+      },
+      "correct_option": "C",
+      "answer": "|w_A| < |w_B| and q_A < q_B",
+      "explanation": "For isothermal expansion of an ideal gas, ΔU = 0, so q = –w. A reversible expansion does the maximum (most negative) work, therefore |w_B| > |w_A|. Because q = –w, the heat absorbed follows the same ordering: q_B > q_A, meaning q_A is less than q_B. Option C captures both correct inequalities. The other options either reverse the inequality or claim equality, which is not true for constant‑pressure versus reversible paths.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Solve thermodynamic numerical problems",
+      "question": "A 2.0 mol sample of an ideal gas at 300 K expands isothermally and reversibly until the pressure drops from 1.0 atm to 0.2 atm. Calculate the heat absorbed by the gas during this process. (R = 8.314 J·mol⁻¹·K⁻¹)",
+      "options": {
+        "A": "8.0 kJ",
+        "B": "10.5 kJ",
+        "C": "12.3 kJ",
+        "D": "14.7 kJ"
+      },
+      "correct_option": "A",
+      "answer": "8.0 kJ",
+      "explanation": "For a reversible isothermal expansion, ΔU = 0, so q = –w = nRT ln(P_i/P_f). n = 2.0 mol, R = 8.314 J·mol⁻¹·K⁻¹, T = 300 K.\n\nnRT = 2 × 8.314 × 300 = 4988 J.\n\nln(P_i/P_f) = ln(1.0/0.2) = ln 5 = 1.609.\n\nq = 4988 × 1.609 ≈ 8025 J ≈ 8.0 kJ. The other options correspond to larger values of n or incorrect use of the formula.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "State first law",
+      "question": "Which of the following statements correctly expresses the first law of thermodynamics for a closed system?",
+      "options": {
+        "A": "ΔU = q – w",
+        "B": "ΔU = q + w",
+        "C": "ΔU = q",
+        "D": "ΔU = w"
+      },
+      "correct_option": "B",
+      "answer": "ΔU = q + w",
+      "explanation": "The first law states that the change in internal energy (ΔU) of a closed system equals the heat exchanged with the surroundings (q) plus the work done on the system (w). Option B reflects this relationship. Option A uses an opposite sign convention, while C and D omit one of the terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Use ΔU = q + w",
+      "question": "If a system does 150 J of work on the surroundings and no heat is exchanged, what is the change in internal energy of the system?",
+      "options": {
+        "A": "–150 J",
+        "B": "+150 J",
+        "C": "0 J",
+        "D": "–300 J"
+      },
+      "correct_option": "A",
+      "answer": "–150 J",
+      "explanation": "Here q = 0 (no heat) and w = –150 J (work done by the system is taken as negative). Using ΔU = q + w gives ΔU = 0 + (–150) = –150 J. The other options either ignore the sign of work or add heat incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Apply sign conventions",
+      "question": "In thermodynamics, which sign convention correctly describes heat absorbed by the system and work done by the system?",
+      "options": {
+        "A": "Both q and w are positive",
+        "B": "q positive, w negative",
+        "C": "q negative, w positive",
+        "D": "Both q and w are negative"
+      },
+      "correct_option": "B",
+      "answer": "q positive, w negative",
+      "explanation": "The standard convention takes heat absorbed by the system as positive (q > 0) and work done by the system on the surroundings as negative (w < 0). Option B matches this convention. Options A, C, and D assign incorrect signs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Calculate work and heat",
+      "question": "A gas expands against a constant external pressure of 0.5 atm from a volume of 1.0 L to 3.0 L. Calculate the work done by the system in joules. (1 atm·L = 101.3 J)",
+      "options": {
+        "A": "–202.6 J",
+        "B": "–101.3 J",
+        "C": "–404.5 J",
+        "D": "–303.9 J"
+      },
+      "correct_option": "B",
+      "answer": "–101.3 J",
+      "explanation": "Work done by the system: w = –P_ext ΔV = –0.5 atm × (3.0 L – 1.0 L) = –1.0 atm·L. Converting to joules: –1.0 atm·L × 101.3 J/atm·L = –101.3 J. Option B is the correct value. The other options correspond to incorrect ΔV or missing the factor of 0.5 atm.",
+      "difficulty": "easy"
+    }
+  ]
+}
