@@ -1,0 +1,78 @@
+{
+  "day": 232,
+  "batch_id": "DAY-232-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-00976",
+      "learning_point": "Define state function",
+      "question": "Which of the following statements correctly defines a state function?",
+      "options": {
+        "A": "It depends only on the initial and final states of a system, not on the path taken between them.",
+        "B": "It depends on the specific process or path followed between two states.",
+        "C": "It is identical to the amount of heat transferred in a process.",
+        "D": "It is identical to the amount of work done in a process."
+      },
+      "correct_option": "A",
+      "answer": "It depends only on the initial and final states of a system, not on the path taken between them.",
+      "explanation": "A state function is a property whose value is determined solely by the state of the system (e.g., temperature, pressure, internal energy). It is independent of how the system arrived at that state. Options B, C, and D describe path‑dependent quantities or confuse state functions with heat or work, which are path functions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-00976",
+      "learning_point": "Define path function",
+      "question": "Why is heat considered a path function rather than a state function?",
+      "options": {
+        "A": "Because the amount of heat transferred depends on the specific process taken between the initial and final states.",
+        "B": "Because heat is a property that remains unchanged regardless of the process.",
+        "C": "Because heat is an intrinsic property of the system at any given state.",
+        "D": "Because heat is always zero for any cyclic process."
+      },
+      "correct_option": "A",
+      "answer": "Because the amount of heat transferred depends on the specific process taken between the initial and final states.",
+      "explanation": "Heat (q) is a path function because its value varies with the way a system is taken from one state to another; different routes can involve different amounts of heat even if the initial and final states are the same. Options B and C incorrectly treat heat as a state property, and D is false—heat can be non‑zero in a cycle, though the net change in internal energy is zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-00976",
+      "learning_point": "Identify internal energy as a state function",
+      "question": "Which of the following best illustrates that internal energy (U) is a state function?",
+      "options": {
+        "A": "The change in internal energy of a gas depends only on its initial and final temperatures, irrespective of how the gas was heated or expanded.",
+        "B": "The amount of heat transferred to the gas depends on whether the heating is done at constant volume or constant pressure.",
+        "C": "The work done by the gas during expansion varies with the speed of the piston.",
+        "D": "The enthalpy of the gas changes only when the pressure changes."
+      },
+      "correct_option": "A",
+      "answer": "The change in internal energy of a gas depends only on its initial and final temperatures, irrespective of how the gas was heated or expanded.",
+      "explanation": "Internal energy is a state function; its change (ΔU) is determined solely by the initial and final states (e.g., temperature for an ideal gas). Options B and C describe path‑dependent quantities (heat and work), while D confuses enthalpy with pressure dependence, not directly showing the state‑function nature of U.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00976",
+      "learning_point": "Understand heat and work as path functions",
+      "question": "In a cyclic process, a system returns to its initial state. Which statement about the net heat (q) and net work (w) for the entire cycle is correct?",
+      "options": {
+        "A": "The net heat absorbed by the system equals the net work done by the system.",
+        "B": "The net heat absorbed is zero while the net work done is non‑zero.",
+        "C": "Both the net heat and the net work for the cycle are zero.",
+        "D": "The net heat absorbed equals the negative of the net work done by the system."
+      },
+      "correct_option": "A",
+      "answer": "The net heat absorbed by the system equals the net work done by the system.",
+      "explanation": "For a cyclic process, the change in internal energy ΔU is zero (the system returns to its original state). From the first law, ΔU = q - w (where w is work done by the system), so q = w. Hence the total heat absorbed equals the total work done. Option B is false because work can be non‑zero; Option C would imply both are zero, which is not required; Option D misrepresents the sign convention.",
+      "difficulty": "hard"
+    }
+  ]
+}
