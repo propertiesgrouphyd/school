@@ -1,0 +1,78 @@
+{
+  "day": 232,
+  "batch_id": "DAY-232-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Use ΔU = q + w",
+      "question": "A student writes the first law of thermodynamics as ΔU = q – w for a system that absorbs heat and does work on the surroundings. Which of the following statements correctly corrects this expression?",
+      "options": {
+        "A": "ΔU = q + w",
+        "B": "ΔU = w – q",
+        "C": "ΔU = –(q + w)",
+        "D": "ΔU = q – w is correct for all processes"
+      },
+      "correct_option": "A",
+      "answer": "ΔU = q + w",
+      "explanation": "The first law states that the change in internal energy of a system equals the heat transferred to the system plus the work done on the system: ΔU = q + w. The sign of work is positive when work is done on the system and negative when the system does work on the surroundings. Therefore option A is the correct representation; the other options either reverse the sign or incorrectly claim the original expression is always right.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Apply sign conventions",
+      "question": "In a constant‑volume calorimeter a reaction releases 500 J of heat to the surroundings. No volume change occurs. What are the signs of q (heat) and w (work) for the system?",
+      "options": {
+        "A": "q = –500 J, w = 0",
+        "B": "q = +500 J, w = 0",
+        "C": "q = –500 J, w = +500 J",
+        "D": "q = 0, w = –500 J"
+      },
+      "correct_option": "A",
+      "answer": "q = –500 J, w = 0",
+      "explanation": "By convention, heat released by the system is taken as negative, so q = –500 J. At constant volume the system does no work, therefore w = 0. Option A correctly reflects these sign conventions; the other options assign incorrect signs or non‑existent work.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Calculate work and heat",
+      "question": "One mole of an ideal gas expands isothermally at 298 K from 1 L to 2 L. Compare the work done (w) in the two cases: (i) expansion against a constant external pressure of 1 atm, and (ii) reversible (quasi‑static) expansion. Which statement is correct?",
+      "options": {
+        "A": "The reversible work is greater (more negative) than the constant‑pressure work.",
+        "B": "Both works are equal because the temperature is constant.",
+        "C": "The reversible work is less (less negative) than the constant‑pressure work.",
+        "D": "Both processes do zero work because the temperature does not change."
+      },
+      "correct_option": "C",
+      "answer": "The reversible work is less (less negative) than the constant‑pressure work.",
+      "explanation": "For the constant‑pressure case, w = –P_ext ΔV = –1 atm × (2 L – 1 L) = –1 L·atm ≈ –101 J. For a reversible isothermal expansion, w = –nRT ln(V₂/V₁) = –(1 mol)(0.0821 L·atm K⁻¹)(298 K) ln 2 ≈ –17.3 L·atm ≈ –1750 J, which is a larger magnitude (more negative). Since the question asks which work is less (i.e., numerically smaller negative value), the constant‑pressure work (–101 J) is less negative than the reversible work (–1750 J). Therefore the reversible work is more negative, making option C correct. Options A and B misinterpret the comparison, and D is false because work is done during volume change.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Solve thermodynamic numerical problems",
+      "question": "During a chemical reaction, 2500 J of heat is absorbed by the system and the system does 800 J of work on the surroundings. What is the change in internal energy (ΔU) of the system?",
+      "options": {
+        "A": "ΔU = +3300 J",
+        "B": "ΔU = +1700 J",
+        "C": "ΔU = –3300 J",
+        "D": "ΔU = –1700 J"
+      },
+      "correct_option": "B",
+      "answer": "ΔU = +1700 J",
+      "explanation": "Using the first law, ΔU = q + w. Heat absorbed by the system is positive: q = +2500 J. Work done by the system on the surroundings is negative: w = –800 J. Therefore ΔU = 2500 J + (–800 J) = +1700 J. Option B matches this calculation. Options A and C ignore the sign of work, while D incorrectly assigns a negative sign to the net result.",
+      "difficulty": "hard"
+    }
+  ]
+}

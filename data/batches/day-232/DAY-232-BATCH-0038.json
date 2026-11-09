@@ -1,0 +1,150 @@
+{
+  "day": 232,
+  "batch_id": "DAY-232-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Calculate work and heat",
+      "question": "Two processes start from the same initial state (1 mol ideal gas at 300 K, 1 atm, 1 L). Process A: isothermal expansion to 2 L against an external pressure of 1 atm. Process B: adiabatic expansion to the same final volume of 2 L. Which process results in a larger magnitude of work done by the system?",
+      "options": {
+        "A": "Process A (isothermal expansion)",
+        "B": "Process B (adiabatic expansion)",
+        "C": "Both processes do equal work",
+        "D": "It cannot be determined without more data"
+      },
+      "correct_option": "A",
+      "answer": "Process A (isothermal expansion)",
+      "explanation": "For 1 mol ideal gas, isothermal work w = -nRT ln(V2/V1) = - (1)(8.314)(300) ln2 ≈ -1.73 kJ. For adiabatic expansion, w = (P1V1‑P2V2)/(γ‑1) ≈ -0.06 kJ. The magnitude of work in the isothermal case is therefore much larger. Hence option A is correct; the other options underestimate or ignore the calculated values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Solve thermodynamic numerical problems",
+      "question": "In a constant‑volume calorimeter, 0.5 mol of a gas reacts and releases 12 kJ of heat to the surroundings. During the reaction the system does 2 kJ of work on the surroundings. What is the change in internal energy (ΔU) of the system?",
+      "options": {
+        "A": "-14 kJ",
+        "B": "-10 kJ",
+        "C": "-8 kJ",
+        "D": "+14 kJ"
+      },
+      "correct_option": "A",
+      "answer": "-14 kJ",
+      "explanation": "Using the first law ΔU = q + w. Heat released means q = –12 kJ. Work done by the system is w = –2 kJ. Therefore ΔU = –12 kJ + (–2 kJ) = –14 kJ. Options B, C and D result from incorrect sign handling.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "State first law",
+      "question": "Which of the following statements correctly expresses the first law of thermodynamics?",
+      "options": {
+        "A": "The change in internal energy of a system equals the heat absorbed by the system plus the work done on the system.",
+        "B": "The change in internal energy of a system equals the heat released by the system minus the work done by the system.",
+        "C": "The change in internal energy of a system is always zero for any cyclic process.",
+        "D": "The change in internal energy of a system equals the work done by the system only."
+      },
+      "correct_option": "A",
+      "answer": "The change in internal energy of a system equals the heat absorbed by the system plus the work done on the system.",
+      "explanation": "The first law states ΔU = q + w, where q is heat added to the system and w is work done on the system. Option A matches this definition; the other options misrepresent signs or omit terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Use ΔU = q + w",
+      "question": "Which mathematical expression correctly represents the first law of thermodynamics for a closed system?",
+      "options": {
+        "A": "ΔU = q – w",
+        "B": "ΔU = q + w",
+        "C": "ΔU = w – q",
+        "D": "ΔU = q"
+      },
+      "correct_option": "B",
+      "answer": "ΔU = q + w",
+      "explanation": "The first law for a closed system is ΔU = q + w, where q is heat transferred to the system and w is work done on the system. Options A, C, and D use incorrect sign conventions or omit the work term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Apply sign conventions",
+      "question": "According to the sign convention used in chemistry thermodynamics, which of the following is correct?",
+      "options": {
+        "A": "Work done by the system is negative, and heat absorbed by the system is positive.",
+        "B": "Work done by the system is positive, and heat absorbed by the system is negative.",
+        "C": "Both work done by the system and heat absorbed by the system are taken as positive.",
+        "D": "Both work done by the system and heat absorbed by the system are taken as negative."
+      },
+      "correct_option": "A",
+      "answer": "Work done by the system is negative, and heat absorbed by the system is positive.",
+      "explanation": "In the chemistry sign convention, q is positive when heat enters the system, and w is positive when work is done on the system. Therefore, work done by the system (expansion) is assigned a negative sign, while heat absorbed is positive. Options B‑D contradict this convention.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Calculate work and heat",
+      "question": "One mole of an ideal gas expands isothermally at 298 K from 10 L to 20 L against a constant external pressure of 1 atm. What is the work done by the gas (in kJ)?",
+      "options": {
+        "A": "-1.01 kJ",
+        "B": "+1.01 kJ",
+        "C": "-0.50 kJ",
+        "D": "0 kJ"
+      },
+      "correct_option": "A",
+      "answer": "-1.01 kJ",
+      "explanation": "Work w = -PΔV = - (1 atm) × (20 L – 10 L) = -10 L·atm. Converting: 1 L·atm = 0.1013 kJ, so w = -10 × 0.1013 kJ ≈ -1.01 kJ. The negative sign indicates work done by the system. Options B, C, and D are inconsistent with the calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "Solve thermodynamic numerical problems",
+      "question": "A sample of 1 mol ideal gas at 300 K expands reversibly and isothermally to double its initial volume. What amount of heat is absorbed by the gas during this process? (Use R = 8.314 J mol⁻¹ K⁻¹)",
+      "options": {
+        "A": "1.73 kJ",
+        "B": "-1.73 kJ",
+        "C": "0 kJ",
+        "D": "3.46 kJ"
+      },
+      "correct_option": "A",
+      "answer": "1.73 kJ",
+      "explanation": "For an isothermal reversible expansion, ΔU = 0, so q = -w. Work w = -nRT ln(V2/V1) = - (1)(8.314)(300) ln2 ≈ -1730 J. Hence q = +1730 J = 1.73 kJ absorbed. Option B has the wrong sign, C ignores heat exchange, and D doubles the correct value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-00978",
+      "learning_point": "State first law",
+      "question": "A system absorbs 5 kJ of heat from the surroundings and does 3 kJ of work on the surroundings. What is the change in internal energy (ΔU) of the system?",
+      "options": {
+        "A": "+2 kJ",
+        "B": "-2 kJ",
+        "C": "+8 kJ",
+        "D": "-8 kJ"
+      },
+      "correct_option": "A",
+      "answer": "+2 kJ",
+      "explanation": "Applying ΔU = q + w, where q = +5 kJ (heat absorbed) and w = –3 kJ (work done by the system). Thus ΔU = 5 kJ + (‑3 kJ) = +2 kJ. Options B, C, and D arise from sign errors.",
+      "difficulty": "medium"
+    }
+  ]
+}
