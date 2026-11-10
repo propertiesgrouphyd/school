@@ -1,0 +1,78 @@
+{
+  "day": 235,
+  "batch_id": "DAY-235-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00991",
+      "learning_point": "Write Ksp expressions",
+      "question": "For the sparingly soluble salt silver chloride (AgCl), which of the following correctly represents its solubility product expression?",
+      "options": {
+        "A": "Ksp = [Ag⁺][Cl⁻]",
+        "B": "Ksp = [AgCl]",
+        "C": "Ksp = [Ag⁺]²[Cl⁻]²",
+        "D": "Ksp = 1 / ([Ag⁺][Cl⁻])"
+      },
+      "correct_option": "A",
+      "answer": "Ksp = [Ag⁺][Cl⁻]",
+      "explanation": "The solubility product (Ksp) is written using the concentrations of the dissolved ions only. For AgCl ⇌ Ag⁺ + Cl⁻, Ksp = [Ag⁺][Cl⁻]. Options B and C incorrectly include the solid or raise concentrations to wrong powers, and D is the reciprocal of the correct expression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00991",
+      "learning_point": "Relate solubility and Ksp",
+      "question": "The Ksp of CaF₂ at 25 °C is 3.9 × 10⁻¹¹. For the dissolution CaF₂(s) ⇌ Ca²⁺ + 2F⁻, what is the molar solubility (s) of CaF₂ in pure water?",
+      "options": {
+        "A": "2.1 × 10⁻⁴ M",
+        "B": "3.9 × 10⁻¹¹ M",
+        "C": "2.0 × 10⁻⁶ M",
+        "D": "1.0 × 10⁻² M"
+      },
+      "correct_option": "A",
+      "answer": "2.1 × 10⁻⁴ M",
+      "explanation": "Let s be the solubility of CaF₂. At equilibrium, [Ca²⁺] = s and [F⁻] = 2s. Ksp = s·(2s)² = 4s³. Solving for s gives s = (Ksp/4)¹ᐟ³ = (3.9 × 10⁻¹¹ / 4)¹ᐟ³ ≈ 2.1 × 10⁻⁴ M. The other options either ignore the stoichiometry or are orders of magnitude off.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00991",
+      "learning_point": "Predict precipitation using ionic product",
+      "question": "A solution contains 0.010 M Ba²⁺ and 0.020 M SO₄²⁻. The Ksp of BaSO₄ is 1.1 × 10⁻¹⁰. Which statement is correct regarding precipitation?",
+      "options": {
+        "A": "No precipitation will occur because the ionic product (2.0 × 10⁻⁴) is less than Ksp.",
+        "B": "Precipitation will occur because the ionic product (2.0 × 10⁻⁴) exceeds Ksp.",
+        "C": "The solution is saturated; no net change will happen.",
+        "D": "Adding more Ba²⁺ will dissolve any BaSO₄ that might have formed."
+      },
+      "correct_option": "B",
+      "answer": "Precipitation will occur because the ionic product (2.0 × 10⁻⁴) exceeds Ksp.",
+      "explanation": "Ionic product (IP) = [Ba²⁺][SO₄²⁻] = (0.010)(0.020) = 2.0 × 10⁻⁴. Since IP > Ksp (1.1 × 10⁻¹⁰), the solution is supersaturated and BaSO₄ will precipitate. Option A reverses the inequality, C is false because the solution is not at equilibrium, and D is opposite to the common‑ion effect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00991",
+      "learning_point": "Understand common-ion effect",
+      "question": "When solid NaCl is added to a saturated solution of AgCl, the solubility of AgCl decreases. Which explanation best describes this observation?",
+      "options": {
+        "A": "The added Cl⁻ ion is a common ion that shifts the dissolution equilibrium of AgCl to the left, reducing its solubility.",
+        "B": "Cl⁻ from NaCl forms a soluble complex with Ag⁺, increasing the solubility of AgCl.",
+        "C": "Na⁺ ions increase the ionic strength, lowering activity coefficients and thereby increasing AgCl solubility.",
+        "D": "The common‑ion effect does not apply; the temperature rise caused by dissolving NaCl reduces solubility."
+      },
+      "correct_option": "A",
+      "answer": "The added Cl⁻ ion is a common ion that shifts the dissolution equilibrium of AgCl to the left, reducing its solubility.",
+      "explanation": "AgCl ⇌ Ag⁺ + Cl⁻. Adding NaCl raises [Cl⁻], a common ion, which according to Le Chatelier's principle shifts the equilibrium toward the solid side, decreasing AgCl solubility. Options B and C describe opposite effects, and D incorrectly attributes the change to temperature.",
+      "difficulty": "hard"
+    }
+  ]
+}
