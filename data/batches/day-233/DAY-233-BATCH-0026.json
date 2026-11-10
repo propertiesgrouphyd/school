@@ -1,0 +1,78 @@
+{
+  "day": 233,
+  "batch_id": "DAY-233-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00982",
+      "learning_point": "Understand entropy qualitatively",
+      "question": "Which of the following statements about entropy is NOT correct?",
+      "options": {
+        "A": "Entropy is a measure of the dispersal of energy in a system.",
+        "B": "Entropy always increases in an isolated system.",
+        "C": "Entropy is directly proportional to temperature.",
+        "D": "Entropy can be related to the number of microscopic arrangements of the system."
+      },
+      "correct_option": "C",
+      "answer": "Entropy is directly proportional to temperature.",
+      "explanation": "Option C is a common misconception. Entropy is a measure of energy dispersal and the number of possible microscopic configurations, not a direct proportionality to temperature. While temperature influences entropy, the relationship is not linear. Options A, B, and D correctly describe qualitative aspects of entropy: it measures energy spread, increases in isolated systems (second law), and is linked to the number of microstates.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00982",
+      "learning_point": "Understand entropy change",
+      "question": "Two moles of an ideal gas expand isothermally at 300 K from 1 L to 10 L. What is the sign of the entropy change of the gas?",
+      "options": {
+        "A": "Positive (increase)",
+        "B": "Negative (decrease)",
+        "C": "Zero",
+        "D": "Cannot be determined without heat capacity data"
+      },
+      "correct_option": "A",
+      "answer": "Positive (increase)",
+      "explanation": "For an isothermal expansion of an ideal gas, ΔS = nR ln(V₂/V₁). Here n = 2 mol, R = 8.314 J mol⁻¹ K⁻¹, V₂/V₁ = 10. ln(10) > 0, so ΔS is positive. Therefore the entropy of the gas increases. Options B and C are incorrect because expansion increases disorder, and D is unnecessary because the formula does not require heat‑capacity data for an isothermal process.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00982",
+      "learning_point": "Relate entropy to disorder at the required level",
+      "question": "Which of the following processes results in the greatest increase in entropy of the surroundings and system combined?",
+      "options": {
+        "A": "Melting of ice at 0 °C",
+        "B": "Freezing of water at 0 °C",
+        "C": "Condensation of steam at 100 °C",
+        "D": "Sublimation of solid CO₂ (dry ice) at –78 °C"
+      },
+      "correct_option": "D",
+      "answer": "Sublimation of solid CO₂ (dry ice) at –78 °C",
+      "explanation": "Sublimation converts a solid directly to a gas, producing a large increase in the number of accessible microstates, i.e., a large rise in disorder. Melting (solid→liquid) also increases entropy but less than solid→gas. Freezing and condensation decrease entropy. Hence option D gives the greatest overall entropy increase. Options A, B, and C either increase entropy modestly (A) or decrease it (B, C).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00982",
+      "learning_point": "Understand spontaneity concept",
+      "question": "At 298 K, which of the following reactions is NOT spontaneous? (ΔH in kJ mol⁻¹, ΔS in J mol⁻¹ K⁻¹)",
+      "options": {
+        "A": "ΔH = +20, ΔS = +80",
+        "B": "ΔH = –10, ΔS = –30",
+        "C": "ΔH = +5, ΔS = –10",
+        "D": "ΔH = –40, ΔS = +50"
+      },
+      "correct_option": "C",
+      "answer": "ΔH = +5, ΔS = –10",
+      "explanation": "Spontaneity is determined by ΔG = ΔH – TΔS. For each option at 298 K:\nA: ΔG = 20 000 – 298×80 = –3 840 J (negative, spontaneous)\nB: ΔG = –10 000 – 298×(–30) = –1 060 J (negative, spontaneous)\nC: ΔG = 5 000 – 298×(–10) = 7 980 J (positive, non‑spontaneous)\nD: ΔG = –40 000 – 298×50 = –54 900 J (negative, spontaneous)\nOnly option C yields a positive ΔG, indicating the process is not spontaneous under standard conditions. The other options are spontaneous because their ΔG values are negative.",
+      "difficulty": "hard"
+    }
+  ]
+}
