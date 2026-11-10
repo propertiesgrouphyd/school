@@ -1,0 +1,78 @@
+{
+  "day": 233,
+  "batch_id": "DAY-233-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-00981",
+      "learning_point": "State Hess's law",
+      "question": "Which of the following statements correctly reflects Hess's law?",
+      "options": {
+        "A": "The enthalpy change of a reaction depends on the number of steps taken.",
+        "B": "The total enthalpy change of a reaction is independent of the pathway taken.",
+        "C": "Enthalpy change varies with the pressure of the system.",
+        "D": "Enthalpy change varies with the concentration of reactants."
+      },
+      "correct_option": "B",
+      "answer": "The total enthalpy change of a reaction is independent of the pathway taken.",
+      "explanation": "Hess's law states that enthalpy is a state function; therefore, the overall enthalpy change for a reaction depends only on the initial and final states, not on the route taken. Option B expresses this correctly, while the other options introduce dependencies that do not exist.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-00981",
+      "learning_point": "Construct thermochemical cycles",
+      "question": "Given ΔH for A → B is –100 kJ and ΔH for B → C is +40 kJ, what is ΔH for the overall reaction A → C as obtained from a thermochemical cycle?",
+      "options": {
+        "A": "–60 kJ",
+        "B": "–140 kJ",
+        "C": "+140 kJ",
+        "D": "+60 kJ"
+      },
+      "correct_option": "A",
+      "answer": "–60 kJ",
+      "explanation": "A thermochemical cycle adds the enthalpy changes of consecutive steps. ΔH(A→C) = ΔH(A→B) + ΔH(B→C) = (–100) + (+40) = –60 kJ. Hence option A is correct; the other values result from incorrect arithmetic or sign handling.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-00981",
+      "learning_point": "Calculate unknown enthalpy changes",
+      "question": "Using the following data: (1) C(s) + O₂(g) → CO₂(g) ΔH = –393.5 kJ; (2) CO(g) + ½ O₂(g) → CO₂(g) ΔH = –283.0 kJ. What is the enthalpy change for C(s) + O₂(g) → CO(g)?",
+      "options": {
+        "A": "–110.5 kJ",
+        "B": "–176.5 kJ",
+        "C": "–283.0 kJ",
+        "D": "–393.5 kJ"
+      },
+      "correct_option": "A",
+      "answer": "–110.5 kJ",
+      "explanation": "Apply Hess's law: ΔH(C→CO) = ΔH(C→CO₂) – ΔH(CO→CO₂) = –393.5 kJ – (–283.0 kJ) = –110.5 kJ. Option A matches this calculation; the other options ignore the subtraction or use the given values directly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-00981",
+      "learning_point": "Solve Hess-law numerical problems",
+      "question": "Given: (i) C(s) + O₂(g) → CO₂(g) ΔH = –393.5 kJ; (ii) H₂(g) + ½ O₂(g) → H₂O(l) ΔH = –286.0 kJ; (iii) CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(l) ΔH = –890.8 kJ. Using Hess’s law, calculate the standard enthalpy of formation of CH₄(g) from its elements (C(s) + 2 H₂(g) → CH₄(g)).",
+      "options": {
+        "A": "+74.7 kJ",
+        "B": "–74.7 kJ",
+        "C": "+89.0 kJ",
+        "D": "–89.0 kJ"
+      },
+      "correct_option": "A",
+      "answer": "+74.7 kJ",
+      "explanation": "Rearrange the combustion equation: ΔH_f(CH₄) = ΔH_combustion – [ΔH_f(CO₂) + 2·ΔH_f(H₂O)]. Substituting the values: ΔH_f(CH₄) = –890.8 kJ – [–393.5 kJ + 2(–286.0 kJ)] = –890.8 kJ – (–965.5 kJ) = +74.7 kJ. Thus the formation of methane is endothermic by 74.7 kJ, making option A correct. The other options arise from sign errors or omitting the factor of 2 for water.",
+      "difficulty": "hard"
+    }
+  ]
+}
