@@ -1,0 +1,150 @@
+{
+  "day": 241,
+  "batch_id": "DAY-241-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Define gas constant",
+      "question": "Which of the following statements about the gas constant R is correct?",
+      "options": {
+        "A": "R is 22.4 L·atm·mol⁻¹ for all gases at STP.",
+        "B": "R is a universal constant; its numerical value depends on the units chosen, e.g., 0.0821 L·atm·mol⁻¹ or 8.314 J·mol⁻¹·K⁻¹.",
+        "C": "R varies from gas to gas because it depends on molecular weight.",
+        "D": "R is only applicable to ideal gases at 0°C."
+      },
+      "correct_option": "B",
+      "answer": "R is a universal constant; its numerical value depends on the units chosen, e.g., 0.0821 L·atm·mol⁻¹ or 8.314 J·mol⁻¹·K⁻¹.",
+      "explanation": "The gas constant R is universal; it does not change with the type of gas. Its numerical value changes only when different unit systems are used (0.0821 L·atm·mol⁻¹, 8.314 J·mol⁻¹·K⁻¹, etc.). Options A, C and D are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Convert units consistently",
+      "question": "A sample of gas is measured at P = 750 mmHg and V = 500 mL at 27°C. To use the ideal gas equation with R = 0.0821 L·atm·mol⁻¹, which conversions must be performed?",
+      "options": {
+        "A": "Convert pressure to atm and volume to liters, keep temperature in °C.",
+        "B": "Convert pressure to atm, volume to liters, and temperature to Kelvin.",
+        "C": "Convert only temperature to Kelvin; pressure and volume units are already suitable.",
+        "D": "Convert pressure to pascals and volume to cubic meters, keep temperature in Kelvin."
+      },
+      "correct_option": "B",
+      "answer": "Convert pressure to atm, volume to liters, and temperature to Kelvin.",
+      "explanation": "R = 0.0821 L·atm·mol⁻¹ requires pressure in atm, volume in liters, and temperature in Kelvin. Using mmHg, milliliters, or Celsius would give an incorrect result. Option B lists all necessary conversions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Calculate unknown gas variables",
+      "question": "Scenario 1: 2.0 mol of an ideal gas at 300 K occupies 44.8 L. Scenario 2: 1.0 mol of the same gas at 300 K occupies 22.4 L. Which statement about the pressures in the two scenarios is true?",
+      "options": {
+        "A": "Scenario 1 has higher pressure.",
+        "B": "Scenario 2 has higher pressure.",
+        "C": "Both scenarios have the same pressure.",
+        "D": "Pressure cannot be compared without knowing the gas type."
+      },
+      "correct_option": "C",
+      "answer": "Both scenarios have the same pressure.",
+      "explanation": "Using PV = nRT with R = 0.0821 L·atm·mol⁻¹ and T = 300 K:\nScenario 1: P = (2 × 0.0821 × 300) / 44.8 ≈ 1.10 atm.\nScenario 2: P = (1 × 0.0821 × 300) / 22.4 ≈ 1.10 atm.\nBoth give the same pressure, so option C is correct. Options A and B ignore the proportional relationship, and D is irrelevant because the ideal gas law applies to any ideal gas.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Apply equation to mixtures at the required level",
+      "question": "A mixture contains 2 mol O₂ and 3 mol N₂ in a rigid container at a total pressure of 1.0 atm and temperature 298 K. Using the ideal gas equation, what is the total volume occupied by the mixture?",
+      "options": {
+        "A": "122 L",
+        "B": "24.5 L",
+        "C": "61 L",
+        "D": "5 L"
+      },
+      "correct_option": "A",
+      "answer": "122 L",
+      "explanation": "Total moles n = 2 + 3 = 5 mol. Using PV = nRT with P = 1.0 atm, R = 0.0821 L·atm·mol⁻¹, T = 298 K:\nV = nRT / P = 5 × 0.0821 × 298 ≈ 122.4 L, rounded to 122 L. Options B, C, and D result from using incorrect n or forgetting the factor of 5.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Use PV = nRT",
+      "question": "Which of the following equations correctly represents the ideal gas law?",
+      "options": {
+        "A": "PV = nRT",
+        "B": "P/V = nRT",
+        "C": "PV = n/R T",
+        "D": "P + V = nRT"
+      },
+      "correct_option": "A",
+      "answer": "PV = nRT",
+      "explanation": "The ideal gas law is expressed as PV = nRT, where P is pressure, V is volume, n is number of moles, R is the gas constant, and T is temperature in Kelvin. All other options are algebraically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Define gas constant",
+      "question": "What is the gas constant R in the ideal gas equation?",
+      "options": {
+        "A": "A variable that changes with each gas.",
+        "B": "A universal constant that relates pressure, volume, temperature and amount of gas; its value depends on the units used.",
+        "C": "The pressure exerted by one mole of gas at STP.",
+        "D": "The volume occupied by one mole of gas at 0°C."
+      },
+      "correct_option": "B",
+      "answer": "A universal constant that relates pressure, volume, temperature and amount of gas; its value depends on the units used.",
+      "explanation": "R is a universal constant. Its numerical value varies with the unit system (e.g., 0.0821 L·atm·mol⁻¹ or 8.314 J·mol⁻¹·K⁻¹). It does not depend on the type of gas, contrary to option A, and options C and D describe other gas properties.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Convert units consistently",
+      "question": "Which pair of units is consistent for using the gas constant R = 0.0821 L·atm·mol⁻¹ in the equation PV = nRT?",
+      "options": {
+        "A": "Pressure in pascals, volume in cubic meters.",
+        "B": "Pressure in atm, volume in liters.",
+        "C": "Pressure in mmHg, volume in milliliters.",
+        "D": "Pressure in bar, volume in milliliters."
+      },
+      "correct_option": "B",
+      "answer": "Pressure in atm, volume in liters.",
+      "explanation": "R = 0.0821 L·atm·mol⁻¹ requires pressure in atmospheres and volume in liters. Options A, C, and D use unit systems that are not compatible with this value of R, leading to incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Calculate unknown gas variables",
+      "question": "A 0.5 mol sample of an ideal gas is kept at 2.0 atm and 300 K. What volume does the gas occupy? (Use R = 0.0821 L·atm·mol⁻¹)",
+      "options": {
+        "A": "6.2 L",
+        "B": "12.4 L",
+        "C": "3.1 L",
+        "D": "24.8 L"
+      },
+      "correct_option": "A",
+      "answer": "6.2 L",
+      "explanation": "V = nRT / P = (0.5 mol × 0.0821 L·atm·mol⁻¹·K⁻¹ × 300 K) / 2.0 atm = 6.16 L ≈ 6.2 L. Options B, C, and D result from arithmetic errors or using wrong values for R or P.",
+      "difficulty": "easy"
+    }
+  ]
+}

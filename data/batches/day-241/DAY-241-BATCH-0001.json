@@ -1,0 +1,150 @@
+{
+  "day": 241,
+  "batch_id": "DAY-241-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Use PV = nRT",
+      "question": "Which of the following equations correctly expresses the relationship among pressure (P), volume (V), amount of gas in moles (n), temperature (T) and the gas constant (R) for an ideal gas?",
+      "options": {
+        "A": "PV = nRT",
+        "B": "P/V = nRT",
+        "C": "PV = n/T",
+        "D": "P = nR/T"
+      },
+      "correct_option": "A",
+      "answer": "PV = nRT",
+      "explanation": "The ideal gas law is PV = nRT, where P is pressure, V is volume, n is number of moles, T is temperature in kelvin and R is the universal gas constant. The other options rearrange the terms incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Define gas constant",
+      "question": "What is the numerical value and unit of the universal gas constant R in the SI system?",
+      "options": {
+        "A": "0.0821 L·atm·mol⁻¹·K⁻¹",
+        "B": "8.314 J·mol⁻¹·K⁻¹",
+        "C": "22.4 L·mol⁻¹",
+        "D": "1.00 atm·L·mol⁻¹·K⁻¹"
+      },
+      "correct_option": "B",
+      "answer": "8.314 J·mol⁻¹·K⁻¹",
+      "explanation": "In SI units the gas constant R = 8.314 joule per mole per kelvin (J·mol⁻¹·K⁻¹). Option A is the value of R when pressure is expressed in atm and volume in litres, not SI.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Convert units consistently",
+      "question": "A sample of gas has pressure 1.2 atm. Before using PV = nRT in SI units, what should the pressure be expressed as?",
+      "options": {
+        "A": "1.2 Pa",
+        "B": "1.2 × 10⁵ Pa",
+        "C": "1.2 × 10⁶ Pa",
+        "D": "0.012 atm"
+      },
+      "correct_option": "B",
+      "answer": "1.2 × 10⁵ Pa",
+      "explanation": "1 atm = 1.013 × 10⁵ Pa. Therefore 1.2 atm ≈ 1.2 × 1.013 × 10⁵ Pa ≈ 1.2 × 10⁵ Pa. Converting to pascals is necessary for the SI form of the ideal gas equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Calculate unknown gas variables",
+      "question": "Two and a half moles of an ideal gas occupy 55.0 L at 300 K. What is the pressure of the gas?",
+      "options": {
+        "A": "0.55 atm",
+        "B": "1.12 atm",
+        "C": "2.25 atm",
+        "D": "3.00 atm"
+      },
+      "correct_option": "B",
+      "answer": "1.12 atm",
+      "explanation": "Using PV = nRT with R = 0.0821 L·atm·mol⁻¹·K⁻¹: P = (nRT)/V = (2.5 × 0.0821 × 300) / 55.0 = 61.575 / 55.0 ≈ 1.12 atm. The other options result from incorrect arithmetic or omission of the gas constant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Apply equation to mixtures at the required level",
+      "question": "A mixture contains 1.0 mol O₂ and 2.0 mol N₂ confined in a 10.0 L container at 298 K. What is the total pressure of the mixture?",
+      "options": {
+        "A": "0.73 atm",
+        "B": "2.44 atm",
+        "C": "7.34 atm",
+        "D": "24.5 atm"
+      },
+      "correct_option": "C",
+      "answer": "7.34 atm",
+      "explanation": "Total moles n = 1.0 + 2.0 = 3.0 mol. Using R = 0.0821 L·atm·mol⁻¹·K⁻¹, P = nRT/V = (3.0 × 0.0821 × 298) / 10.0 = 73.43 / 10 ≈ 7.34 atm. The other options correspond to using wrong total moles or forgetting to divide by volume.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Use PV = nRT",
+      "question": "A 5.0 L container holds 0.50 mol of an ideal gas at 300 K. If the temperature is raised to 450 K while the volume remains constant, what is the new pressure?",
+      "options": {
+        "A": "1.65 atm",
+        "B": "2.46 atm",
+        "C": "3.69 atm",
+        "D": "4.92 atm"
+      },
+      "correct_option": "C",
+      "answer": "3.69 atm",
+      "explanation": "Initial pressure P₁ = nRT/V = (0.50 × 0.0821 × 300) / 5.0 = 2.46 atm. With constant volume, pressure is directly proportional to temperature: P₂ = P₁ × (T₂/T₁) = 2.46 × (450/300) = 2.46 × 1.5 = 3.69 atm. Options A and B use incorrect proportionality; D is too high.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Define gas constant",
+      "question": "Which statement about the gas constant R is correct?",
+      "options": {
+        "A": "R has different numerical values for different gases.",
+        "B": "R is the same for all ideal gases.",
+        "C": "R varies with temperature.",
+        "D": "R is only applicable to monatomic gases."
+      },
+      "correct_option": "B",
+      "answer": "R is the same for all ideal gases.",
+      "explanation": "The universal gas constant R (8.314 J·mol⁻¹·K⁻¹) is a constant for all ideal gases. It does not change with the type of gas, temperature, or molecular composition. Options A, C, and D reflect common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Convert units consistently",
+      "question": "Why must pressure be converted to pascals (Pa) when using the SI form of PV = nRT?",
+      "options": {
+        "A": "Because the value of R is defined for pressure in Pa.",
+        "B": "Because atm is not a unit of pressure.",
+        "C": "Because volume must be in liters.",
+        "D": "Because temperature must be in Celsius."
+      },
+      "correct_option": "A",
+      "answer": "Because the value of R is defined for pressure in Pa.",
+      "explanation": "In the SI version of the ideal gas equation, R = 8.314 J·mol⁻¹·K⁻¹, which incorporates pressure in pascals and volume in cubic metres. Using any other pressure unit would make the numerical value of R inconsistent, leading to incorrect results. Options B, C, and D are incorrect statements.",
+      "difficulty": "medium"
+    }
+  ]
+}

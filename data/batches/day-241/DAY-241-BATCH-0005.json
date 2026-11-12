@@ -1,0 +1,150 @@
+{
+  "day": 241,
+  "batch_id": "DAY-241-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Convert units consistently",
+      "question": "Which of the following statements correctly describes the requirement for unit conversion when using the ideal gas equation PV = nRT?",
+      "options": {
+        "A": "Use pressure in atm, volume in liters, n in moles, and R = 0.0821 L·atm·mol⁻¹·K⁻¹.",
+        "B": "Use pressure in Pa, volume in cubic meters, n in moles, and R = 8.314 J·mol⁻¹·K⁻¹.",
+        "C": "Use pressure in mmHg, volume in milliliters, n in moles, and R = 62.36 L·mmHg·mol⁻¹·K⁻¹.",
+        "D": "Use pressure in atm, volume in liters, n in grams, and R = 0.0821 L·atm·mol⁻¹·K⁻¹."
+      },
+      "correct_option": "A",
+      "answer": "Use pressure in atm, volume in liters, n in moles, and R = 0.0821 L·atm·mol⁻¹·K⁻¹.",
+      "explanation": "When using PV = nRT, the units of pressure, volume, and the gas constant must be consistent. The common chemistry unit set is pressure in atm, volume in liters, amount in moles, and R = 0.0821 L·atm·mol⁻¹·K⁻¹. Option A follows this set, making it correct. The other options mix incompatible units or use n in grams, which is not allowed.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Calculate unknown gas variables",
+      "question": "A 2.00 mol sample of an ideal gas is kept at 300 K and occupies a volume of 48.0 L. What is the pressure of the gas in atm?",
+      "options": {
+        "A": "0.50 atm",
+        "B": "1.03 atm",
+        "C": "2.00 atm",
+        "D": "4.00 atm"
+      },
+      "correct_option": "B",
+      "answer": "1.03 atm",
+      "explanation": "Using PV = nRT with R = 0.0821 L·atm·mol⁻¹·K⁻¹: P = nRT/V = (2.00 × 0.0821 × 300)/48.0 = 49.26/48.0 ≈ 1.03 atm. Option B matches this calculation. The other values result from incorrect arithmetic or omitted constants.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Apply equation to mixtures at the required level",
+      "question": "A mixture contains 1.0 mol of O₂ and 2.0 mol of N₂ confined in a 10.0 L container at 273 K. Assuming ideal behavior, what is the total pressure of the mixture in atm?",
+      "options": {
+        "A": "3.36 atm",
+        "B": "6.73 atm",
+        "C": "9.09 atm",
+        "D": "12.0 atm"
+      },
+      "correct_option": "B",
+      "answer": "6.73 atm",
+      "explanation": "Total moles n = 1.0 + 2.0 = 3.0 mol. Using PV = nRT with R = 0.0821 L·atm·mol⁻¹·K⁻¹: P = nRT/V = (3.0 × 0.0821 × 273)/10.0 = 67.24/10.0 ≈ 6.73 atm. Option B is correct. Other options correspond to using wrong values for n, T, or V.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Use PV = nRT",
+      "question": "A 0.500 mol sample of an ideal gas is compressed from 5.0 L to a new volume at constant temperature of 298 K. If the final pressure is 2.0 atm, what is the final volume?",
+      "options": {
+        "A": "2.5 L",
+        "B": "3.0 L",
+        "C": "6.1 L",
+        "D": "10.0 L"
+      },
+      "correct_option": "C",
+      "answer": "6.1 L",
+      "explanation": "First find the initial pressure using PV = nRT: P₁ = (nRT)/V₁ = (0.500 × 0.0821 × 298)/5.0 ≈ 2.45 atm. With temperature constant, P₁V₁ = P₂V₂ ⇒ V₂ = (P₁V₁)/P₂ = (2.45 × 5.0)/2.0 ≈ 6.12 L, rounded to 6.1 L. Option C matches. The other options ignore the initial pressure or misuse the relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Define gas constant",
+      "question": "Which statement about the gas constant R is correct?",
+      "options": {
+        "A": "R has the same numerical value (0.0821) in all unit systems.",
+        "B": "R changes its numerical value depending on the units used for pressure and volume.",
+        "C": "R is only applicable to ideal gases at standard temperature and pressure.",
+        "D": "R represents the mass of one mole of gas."
+      },
+      "correct_option": "B",
+      "answer": "R changes its numerical value depending on the units used for pressure and volume.",
+      "explanation": "The gas constant R is a constant in the ideal gas law, but its numerical value depends on the chosen units. For example, R = 0.0821 L·atm·mol⁻¹·K⁻¹ or R = 8.314 J·mol⁻¹·K⁻¹. Option B captures this. Option A is false because the value changes with unit system. Option C is false; R applies to any ideal gas conditions. Option D confuses R with molar mass.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Convert units consistently",
+      "question": "A student calculates the pressure of a gas using PV = nRT with P in atm, V in mL, n in moles, and R = 0.0821 L·atm·mol⁻¹·K⁻¹. Which step is the most appropriate correction?",
+      "options": {
+        "A": "Convert volume from mL to L before using the equation.",
+        "B": "Convert pressure from atm to Pa before using the equation.",
+        "C": "Change R to 8.314 J·mol⁻¹·K⁻¹ without altering other units.",
+        "D": "No correction needed because the units are already consistent."
+      },
+      "correct_option": "A",
+      "answer": "Convert volume from mL to L before using the equation.",
+      "explanation": "The gas constant 0.0821 L·atm·mol⁻¹·K⁻¹ requires volume in liters. Therefore the volume must be converted from milliliters to liters (1 L = 1000 mL). Option A is the correct correction. Changing pressure units without adjusting R (option B) or changing R alone (option C) would still leave mismatched units. Option D is incorrect because the units are inconsistent.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Calculate unknown gas variables",
+      "question": "Two students calculate the pressure of 1.5 mol of gas at 350 K occupying 30.0 L. Student A uses R = 0.0821 L·atm·mol⁻¹·K⁻¹ and obtains P_A. Student B mistakenly uses R = 8.314 J·mol⁻¹·K⁻¹ while keeping pressure in atm and volume in liters. Which of the following statements is true?",
+      "options": {
+        "A": "P_A and Student B's result are numerically equal.",
+        "B": "Student B's result is larger by a factor of about 100.",
+        "C": "Student B's result is smaller by a factor of about 100.",
+        "D": "Student B's result is larger by a factor of about 0.01."
+      },
+      "correct_option": "B",
+      "answer": "Student B's result is larger by a factor of about 100.",
+      "explanation": "Correct calculation with R = 0.0821 gives P_A = (1.5×0.0821×350)/30 ≈ 1.44 atm. Using R = 8.314 (which is ≈101.3 times larger than 0.0821) while keeping the same units yields a pressure about 101 times larger, i.e., ~145 atm. Hence Student B's result is larger by roughly a factor of 100. Option B states this. Options A, C, and D are inconsistent with the magnitude difference.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Apply equation to mixtures at the required level",
+      "question": "A 5.00 L container at 298 K contains a mixture of three ideal gases: 0.20 mol of H₂, 0.30 mol of O₂, and an unknown amount of He. The total pressure measured is 3.00 atm. Using the ideal gas equation, calculate the number of moles of He present in the container.",
+      "options": {
+        "A": "0.05 mol",
+        "B": "0.11 mol",
+        "C": "0.20 mol",
+        "D": "0.30 mol"
+      },
+      "correct_option": "B",
+      "answer": "0.11 mol",
+      "explanation": "First find total moles from the measured pressure: n_total = PV/(RT) = (3.00 atm × 5.00 L)/(0.0821 L·atm·mol⁻¹·K⁻¹ × 298 K) = 15.0/(24.4738) ≈ 0.613 mol. Known moles of H₂ and O₂ sum to 0.20 + 0.30 = 0.50 mol. Therefore moles of He = 0.613 – 0.50 ≈ 0.113 mol, which rounds to 0.11 mol. Option B is correct. The other options do not match this calculation.",
+      "difficulty": "hard"
+    }
+  ]
+}
