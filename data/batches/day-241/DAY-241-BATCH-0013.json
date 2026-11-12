@@ -1,0 +1,78 @@
+{
+  "day": 241,
+  "batch_id": "DAY-241-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Define gas constant",
+      "question": "Which of the following statements about the gas constant (R) in the ideal gas equation is correct?",
+      "options": {
+        "A": "R has the same numerical value for all ideal gases but its units depend on the pressure and volume units used.",
+        "B": "R varies from one gas to another because it depends on the molecular weight of the gas.",
+        "C": "R equals the product of Avogadro's number and Boltzmann constant only at absolute zero temperature.",
+        "D": "R is a variable that changes with temperature."
+      },
+      "correct_option": "A",
+      "answer": "R has the same numerical value for all ideal gases but its units depend on the pressure and volume units used.",
+      "explanation": "The gas constant R is a universal constant for all ideal gases. Its numerical value (e.g., 0.0821 L·atm·K⁻¹·mol⁻¹ or 8.314 J·mol⁻¹·K⁻¹) is the same for every ideal gas; only the units change when we use different pressure‑volume units. Options B, C, and D describe misconceptions: R does not depend on molecular weight, it is not limited to absolute zero, and it does not vary with temperature.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Convert units consistently",
+      "question": "A sample of an ideal gas has a pressure of 1 atm, a volume of 500 mL, temperature of 298 K, and contains 0.020 mol of gas. Which conversion must be performed before using the ideal gas equation with R = 0.0821 L·atm·K⁻¹·mol⁻¹?",
+      "options": {
+        "A": "Convert the volume from milliliters to liters.",
+        "B": "Convert the pressure from atm to pascals.",
+        "C": "Convert the temperature from kelvin to Celsius.",
+        "D": "No conversion is needed; the values are already compatible."
+      },
+      "correct_option": "A",
+      "answer": "Convert the volume from milliliters to liters.",
+      "explanation": "When using R = 0.0821 L·atm·K⁻¹·mol⁻¹, pressure must be in atm, temperature in kelvin, amount in moles, and volume in liters. The given volume is 500 mL, which must be converted to 0.500 L. Converting pressure to pascals or temperature to Celsius would make the units incompatible with this value of R, and the values are not already in the required units, so option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Calculate unknown gas variables",
+      "question": "Sample A contains 2.00 g of N₂ placed in a 5.00 L container at 27°C. Sample B contains 4.00 g of N₂ placed in a 10.00 L container at the same temperature. Which statement about the pressures of the two samples is true?",
+      "options": {
+        "A": "Both samples exert the same pressure.",
+        "B": "The pressure of Sample A is twice that of Sample B.",
+        "C": "The pressure of Sample B is twice that of Sample A.",
+        "D": "The pressures cannot be compared without knowing the exact value of R."
+      },
+      "correct_option": "A",
+      "answer": "Both samples exert the same pressure.",
+      "explanation": "For an ideal gas, P = nRT/V. At the same temperature, the ratio n/V determines the pressure. Sample A: n = 2.00 g / 28.0 g·mol⁻¹ = 0.0714 mol, V = 5.00 L, so n/V = 0.01428 mol·L⁻¹. Sample B: n = 4.00 g / 28.0 g·mol⁻¹ = 0.1429 mol, V = 10.00 L, giving n/V = 0.01429 mol·L⁻¹, essentially the same. Hence both pressures are equal. Options B and C are incorrect because the n/V ratios are identical, and option D is irrelevant because R cancels out when comparing identical conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01016",
+      "learning_point": "Apply equation to mixtures at the required level",
+      "question": "A mixture contains 2.0 mol of H₂ and 3.0 mol of He confined in a 10.0 L container at 298 K. What is the total pressure exerted by the gas mixture? (Use R = 0.0821 L·atm·K⁻¹·mol⁻¹)",
+      "options": {
+        "A": "12.2 atm",
+        "B": "6.1 atm",
+        "C": "24.5 atm",
+        "D": "3.05 atm"
+      },
+      "correct_option": "A",
+      "answer": "12.2 atm",
+      "explanation": "First find the total moles: n_total = 2.0 + 3.0 = 5.0 mol. Using PV = nRT, P = nRT / V = (5.0 mol × 0.0821 L·atm·K⁻¹·mol⁻¹ × 298 K) / 10.0 L = (5.0 × 24.45) / 10 = 122.25 / 10 = 12.225 atm, which rounds to 12.2 atm. Option A matches this value. Options B, C, and D result from incorrect arithmetic or forgetting to sum the moles.",
+      "difficulty": "hard"
+    }
+  ]
+}
