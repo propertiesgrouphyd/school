@@ -1,0 +1,150 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate number of particles per unit cell",
+      "question": "In a face‑centered cubic (FCC) crystal structure, how many atoms are effectively present in one unit cell?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "An FCC unit cell has 8 corner atoms each contributing 1/8 (total 1) and 6 face atoms each contributing 1/2 (total 3). Adding them gives 1 + 3 = 4 atoms per unit cell. Options A, C, D are incorrect counts for FCC.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Relate edge length to atomic radius",
+      "question": "For a body‑centered cubic (BCC) lattice, which equation correctly relates the edge length (a) to the atomic radius (r)?",
+      "options": {
+        "A": "a = 2r",
+        "B": "a = 4r/√3",
+        "C": "a = √2 r",
+        "D": "a = √3 r"
+      },
+      "correct_option": "B",
+      "answer": "a = 4r/√3",
+      "explanation": "In BCC, the body diagonal passes through two radii of the corner atoms and the central atom, giving 4r = √3 a, so a = 4r/√3. Option A is for simple cubic, C for FCC, D is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate unit-cell mass",
+      "question": "The mass of a NaCl unit cell (which contains 4 Na⁺ and 4 Cl⁻ ions) is calculated by which of the following expressions?",
+      "options": {
+        "A": "(4 M_Na + 4 M_Cl)/N_A",
+        "B": "(2 M_Na + 2 M_Cl)/N_A",
+        "C": "(6 M_Na + 6 M_Cl)/N_A",
+        "D": "(8 M_Na + 8 M_Cl)/N_A"
+      },
+      "correct_option": "A",
+      "answer": "(4 M_Na + 4 M_Cl)/N_A",
+      "explanation": "NaCl adopts the FCC arrangement of ions, giving 4 formula units per cell. The mass is therefore (4 M_Na + 4 M_Cl) divided by Avogadro's number N_A. Options B, C, D use incorrect numbers of ions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate crystal density",
+      "question": "The edge length of a NaCl crystal is 4.0 × 10⁻⁸ cm. Given that each unit cell contains 4 NaCl formula units and the molar mass of NaCl is 58.44 g mol⁻¹, what is the density of the crystal (in g cm⁻³)?",
+      "options": {
+        "A": "6.0",
+        "B": "2.2",
+        "C": "4.5",
+        "D": "8.0"
+      },
+      "correct_option": "A",
+      "answer": "6.0",
+      "explanation": "Mass of unit cell = (4 × 58.44 g mol⁻¹)/N_A = 3.88 × 10⁻²² g. Volume = a³ = (4.0 × 10⁻⁸ cm)³ = 6.4 × 10⁻²³ cm³. Density = mass/volume ≈ 6.07 g cm⁻³, rounded to 6.0 g cm⁻³. Other options are far from the calculated value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Solve numerical problems",
+      "question": "A metal crystallizes in a face‑centered cubic structure. Its atomic radius is 0.124 nm and its molar mass is 63.5 g mol⁻¹. What is the density of the metal?",
+      "options": {
+        "A": "8.9 g cm⁻³",
+        "B": "9.9 g cm⁻³",
+        "C": "10.9 g cm⁻³",
+        "D": "11.9 g cm⁻³"
+      },
+      "correct_option": "B",
+      "answer": "9.9 g cm⁻³",
+      "explanation": "For FCC, a = 2√2 r = 2 × 1.414 × 0.124 nm = 0.350 nm = 3.5 × 10⁻⁸ cm. Mass per cell = (4 × 63.5 g mol⁻¹)/N_A = 4.22 × 10⁻²² g. Volume = a³ = (3.5 × 10⁻⁸ cm)³ = 4.29 × 10⁻²³ cm³. Density = 4.22 × 10⁻²² g / 4.29 × 10⁻²³ cm³ ≈ 9.85 g cm⁻³, which matches option B. Other options differ significantly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate number of particles per unit cell",
+      "question": "A diffraction study shows that each corner atom contributes 1/8 to the unit cell and each face‑center atom contributes 1/2. Based on this information, how many atoms are present per unit cell?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "Eight corners × 1/8 = 1 atom and six faces × 1/2 = 3 atoms; total = 1 + 3 = 4 atoms per unit cell, characteristic of an FCC lattice. Options A, C, D are incorrect counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Relate edge length to atomic radius",
+      "question": "In a simple cubic lattice, the edge length a is equal to the atomic radius r. Is this statement true or false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Both true and false, depending on the element",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "For a simple cubic lattice, atoms touch along the edge, so a = 2r, not a = r. Therefore the statement is false. Option A is incorrect, C is irrelevant, D is unnecessary because the relationship is fixed for simple cubic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate unit-cell mass",
+      "question": "A unit cell contains two iron atoms, each having an atomic mass of 55.85 u. What is the mass of this unit cell in grams? (Use N_A = 6.022 × 10²³ mol⁻¹)",
+      "options": {
+        "A": "1.85 × 10⁻²² g",
+        "B": "1.85 × 10⁻²³ g",
+        "C": "1.85 × 10⁻²¹ g",
+        "D": "1.85 × 10⁻²⁰ g"
+      },
+      "correct_option": "A",
+      "answer": "1.85 × 10⁻²² g",
+      "explanation": "Mass = (2 × 55.85 g mol⁻¹)/N_A = 111.7 g mol⁻¹ / 6.022 × 10²³ mol⁻¹ ≈ 1.86 × 10⁻²² g, matching option A. Options B, C, D are off by factors of 10.",
+      "difficulty": "medium"
+    }
+  ]
+}

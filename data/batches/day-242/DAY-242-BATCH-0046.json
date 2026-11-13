@@ -1,0 +1,150 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate crystal density",
+      "question": "Two ionic solids have the following cubic unit‑cell data:\\n\\n- NaCl: edge length a = 5.64 Å, Z = 4, molar mass = 58.44 g·mol⁻¹\\n- CsCl: edge length a = 4.12 Å, Z = 1, molar mass = 132.91 g·mol⁻¹\\n\\nUsing ρ = (Z·M)/(N_A·a³), which crystal possesses the higher density?",
+      "options": {
+        "A": "NaCl",
+        "B": "CsCl",
+        "C": "Both have the same density",
+        "D": "Cannot be determined from the data"
+      },
+      "correct_option": "B",
+      "answer": "CsCl",
+      "explanation": "For NaCl: a = 5.64×10⁻⁸ cm, a³ = 1.79×10⁻²² cm³. ρ = (4×58.44)/(6.022×10²³×1.79×10⁻²²) ≈ 2.17 g·cm⁻³.\\nFor CsCl: a = 4.12×10⁻⁸ cm, a³ = 7.00×10⁻²³ cm³. ρ = (1×132.91)/(6.022×10²³×7.00×10⁻²³) ≈ 3.15 g·cm⁻³. Since 3.15 > 2.17, CsCl is denser.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Solve numerical problems",
+      "question": "Zinc sulfide (ZnS) crystallises in the zinc‑blende structure. Its cubic unit‑cell edge is 5.406 Å and Z = 4. The molar mass of ZnS is 65.38 g·mol⁻¹. What is the crystal density (in g·cm⁻³)?",
+      "options": {
+        "A": "2.75",
+        "B": "3.10",
+        "C": "2.30",
+        "D": "1.95"
+      },
+      "correct_option": "A",
+      "answer": "2.75",
+      "explanation": "Convert a to cm: 5.406 Å = 5.406×10⁻⁸ cm. a³ = 1.58×10⁻²² cm³. ρ = (Z·M)/(N_A·a³) = (4×65.38)/(6.022×10²³×1.58×10⁻²²) ≈ 2.75 g·cm⁻³. The other options result from incorrect arithmetic or forgetting to divide by N_A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate number of particles per unit cell",
+      "question": "How many atoms are contained in one unit cell of a face‑centered cubic (FCC) lattice?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "In an FCC cell there are 8 corner atoms (each contributes 1/8) and 6 face atoms (each contributes 1/2). Total = 8×1/8 + 6×1/2 = 1 + 3 = 4 atoms per unit cell.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Relate edge length to atomic radius",
+      "question": "For a crystal that adopts the face‑centered cubic (FCC) structure, the relationship between the edge length a and the atomic radius r is:",
+      "options": {
+        "A": "a = 2r",
+        "B": "a = √2 r",
+        "C": "a = 2√2 r",
+        "D": "a = 4r"
+      },
+      "correct_option": "C",
+      "answer": "a = 2√2 r",
+      "explanation": "In FCC, atoms touch along the face diagonal. The face diagonal equals 4r and also equals √2 a, giving √2 a = 4r → a = 2√2 r. The other relations correspond to different lattice types.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate unit-cell mass",
+      "question": "The mass of a unit cell is obtained by which of the following expressions?",
+      "options": {
+        "A": "(Z × M) / N_A",
+        "B": "(Z × M) × N_A",
+        "C": "Z × M",
+        "D": "M / N_A"
+      },
+      "correct_option": "A",
+      "answer": "(Z × M) / N_A",
+      "explanation": "Unit‑cell mass = number of formula units in the cell (Z) multiplied by molar mass (M), divided by Avogadro's number (N_A). Multiplying by N_A or omitting division would give a mass many orders of magnitude too large.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate crystal density",
+      "question": "A cubic unit cell has edge length a = 4.00 Å, contains Z = 2 formula units, and the molar mass of the constituent is 58.44 g·mol⁻¹. What is the crystal density (in g·cm⁻³)?",
+      "options": {
+        "A": "3.03",
+        "B": "2.50",
+        "C": "4.00",
+        "D": "1.80"
+      },
+      "correct_option": "A",
+      "answer": "3.03",
+      "explanation": "a = 4.00×10⁻⁸ cm → a³ = 6.40×10⁻²³ cm³. ρ = (Z·M)/(N_A·a³) = (2×58.44)/(6.022×10²³×6.40×10⁻²³) ≈ 3.03 g·cm⁻³. The other numbers arise from using incorrect Z or forgetting to convert Å to cm.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Solve numerical problems",
+      "question": "Potassium chloride (KCl) crystallises in the face‑centered cubic structure with a = 6.29 Å. For KCl, Z = 4 and the molar mass is 74.55 g·mol⁻¹. Calculate its crystal density (g·cm⁻³).",
+      "options": {
+        "A": "2.00",
+        "B": "2.50",
+        "C": "1.50",
+        "D": "3.00"
+      },
+      "correct_option": "A",
+      "answer": "2.00",
+      "explanation": "Convert a: 6.29 Å = 6.29×10⁻⁸ cm; a³ = 2.49×10⁻²² cm³. ρ = (4×74.55)/(6.022×10²³×2.49×10⁻²²) ≈ 1.99 ≈ 2.00 g·cm⁻³. The other options result from arithmetic errors or using wrong Z.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate number of particles per unit cell",
+      "question": "In a crystal, each corner atom contributes 1/8 to the unit cell and each face‑center atom contributes 1/2. If the unit cell contains 8 corner atoms and 6 face atoms, how many atoms are effectively present in one unit cell?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "Contribution from corners: 8 × 1/8 = 1 atom. Contribution from faces: 6 × 1/2 = 3 atoms. Total = 1 + 3 = 4 atoms per unit cell. The other numbers ignore the fractional contributions.",
+      "difficulty": "medium"
+    }
+  ]
+}

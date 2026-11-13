@@ -1,0 +1,150 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Relate edge length to atomic radius",
+      "question": "In a face‑centered cubic (FCC) crystal, which of the following correctly relates the edge length (a) of the unit cell to the atomic radius (r)?",
+      "options": {
+        "A": "a = 2r",
+        "B": "a = √2 r",
+        "C": "a = 2√2 r",
+        "D": "a = 4r/√3"
+      },
+      "correct_option": "C",
+      "answer": "a = 2√2 r",
+      "explanation": "For an FCC lattice, atoms touch along the face diagonal. The face diagonal length is √2 a and equals 4r (four radii). Hence a = 4r/√2 = 2√2 r. Options A, B and D correspond to simple cubic, a wrong diagonal relation, and BCC respectively, which are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate unit-cell mass",
+      "question": "A unit cell of a metal has a face‑centered cubic arrangement. If the atomic mass of the metal is 55.85 g mol⁻¹ and the unit cell contains 4 atoms, what is the mass of one unit cell? (Use Nₐ = 6.022 × 10²³ mol⁻¹.)",
+      "options": {
+        "A": "1.86 × 10⁻²² g",
+        "B": "3.71 × 10⁻²² g",
+        "C": "7.42 × 10⁻²² g",
+        "D": "1.55 × 10⁻²¹ g"
+      },
+      "correct_option": "B",
+      "answer": "3.71 × 10⁻²² g",
+      "explanation": "Mass of one unit cell = (number of atoms × atomic mass) / Nₐ = (4 × 55.85 g mol⁻¹) / (6.022 × 10²³) = 223.4 / 6.022 × 10²³ g ≈ 3.71 × 10⁻²² g. The other options are obtained by using wrong atom counts or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate crystal density",
+      "question": "Given two ionic solids, NaCl and KCl, both crystallize in the same face‑centered cubic structure. The edge length of NaCl unit cell is 5.64 Å and that of KCl is 6.29 Å. Their molar masses are 58.44 g mol⁻¹ (NaCl) and 74.55 g mol⁻¹ (KCl). Which crystal has the higher density?",
+      "options": {
+        "A": "NaCl",
+        "B": "KCl",
+        "C": "Both have the same density",
+        "D": "Cannot be determined without the number of formula units per cell"
+      },
+      "correct_option": "A",
+      "answer": "NaCl",
+      "explanation": "Density ρ = (Z M) / (Nₐ a³). For FCC, Z = 4. NaCl: a³ = (5.64 × 10⁻⁸ cm)³ = 1.79 × 10⁻²² cm³, ρ ≈ (4 × 58.44) / (6.022 × 10²³ × 1.79 × 10⁻²²) ≈ 2.17 g cm⁻³. KCl: a³ = (6.29 × 10⁻⁸)³ = 2.49 × 10⁻²² cm³, ρ ≈ 1.99 g cm⁻³. Hence NaCl is denser. Option D is irrelevant because Z is known for FCC.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Solve numerical problems",
+      "question": "A metal crystallizes in a body‑centered cubic (BCC) lattice. Its atomic radius is 0.124 nm and its atomic mass is 55.85 g mol⁻¹. Calculate the density of the metal. (Take Nₐ = 6.022 × 10²³ mol⁻¹.)",
+      "options": {
+        "A": "5.6 g cm⁻³",
+        "B": "7.9 g cm⁻³",
+        "C": "10.2 g cm⁻³",
+        "D": "12.4 g cm⁻³"
+      },
+      "correct_option": "B",
+      "answer": "7.9 g cm⁻³",
+      "explanation": "For BCC, a = 4r/√3 = 4 × 0.124 nm / 1.732 = 0.2866 nm = 2.866 × 10⁻⁸ cm. Volume = a³ = 2.35 × 10⁻²³ cm³. Mass per cell = (2 × 55.85 g mol⁻¹) / Nₐ = 1.86 × 10⁻²² g. Density = mass/volume = 1.86 × 10⁻²² g / 2.35 × 10⁻²³ cm³ ≈ 7.9 g cm⁻³. Other options arise from using wrong formulas for a or forgetting the two atoms per BCC cell.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate number of particles per unit cell",
+      "question": "Which of the following crystal structures contains exactly two atoms per unit cell?",
+      "options": {
+        "A": "Simple cubic",
+        "B": "Body‑centered cubic",
+        "C": "Face‑centered cubic",
+        "D": "Hexagonal close packed"
+      },
+      "correct_option": "B",
+      "answer": "Body‑centered cubic",
+      "explanation": "In a BCC lattice, one atom is at each corner (contributing 1 × 1/8 = 1 atom) and one atom at the body centre, giving a total of 2 atoms per unit cell. Simple cubic has 1 atom, FCC has 4, and HCP has 2 atoms but the question specifies a crystal structure, and the standard answer for “exactly two atoms per unit cell” in cubic systems is BCC.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Relate edge length to atomic radius",
+      "question": "In a simple cubic lattice, the edge length a is related to the atomic radius r by which expression?",
+      "options": {
+        "A": "a = 2r",
+        "B": "a = √2 r",
+        "C": "a = √3 r",
+        "D": "a = 4r/√3"
+      },
+      "correct_option": "A",
+      "answer": "a = 2r",
+      "explanation": "In a simple cubic structure, atoms touch along the edge of the cube. Hence the edge length equals the diameter of an atom: a = 2r. Options B and C correspond to diagonal relations in FCC and BCC, while D is the BCC edge‑length formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate unit-cell mass",
+      "question": "The term \"unit‑cell mass\" refers to:",
+      "options": {
+        "A": "Mass of one mole of the substance",
+        "B": "Mass of a single atom",
+        "C": "Mass contained in one crystallographic unit cell",
+        "D": "Mass of the entire crystal sample"
+      },
+      "correct_option": "C",
+      "answer": "Mass contained in one crystallographic unit cell",
+      "explanation": "Unit‑cell mass is the total mass of all atoms that belong to a single unit cell. It is distinct from molar mass (A), atomic mass (B), and the macroscopic mass of a bulk crystal (D).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate crystal density",
+      "question": "A compound crystallizes in a face‑centered cubic lattice with edge length 4.00 Å. Each unit cell contains 4 formula units, and the molar mass of the compound is 180.0 g mol⁻¹. What is its density? (Nₐ = 6.022 × 10²³ mol⁻¹.)",
+      "options": {
+        "A": "5.2 g cm⁻³",
+        "B": "9.3 g cm⁻³",
+        "C": "18.7 g cm⁻³",
+        "D": "27.5 g cm⁻³"
+      },
+      "correct_option": "C",
+      "answer": "18.7 g cm⁻³",
+      "explanation": "Convert edge length: a = 4.00 Å = 4 × 10⁻⁸ cm. Volume = a³ = (4 × 10⁻⁸)³ = 6.4 × 10⁻²³ cm³. Mass per cell = (Z M)/Nₐ = (4 × 180.0)/6.022 × 10²³ = 720/6.022 × 10²³ g ≈ 1.195 × 10⁻²¹ g. Density = mass/volume = 1.195 × 10⁻²¹ g / 6.4 × 10⁻²³ cm³ ≈ 18.7 g cm⁻³. The other options arise from arithmetic mistakes or using wrong Z values.",
+      "difficulty": "easy"
+    }
+  ]
+}
