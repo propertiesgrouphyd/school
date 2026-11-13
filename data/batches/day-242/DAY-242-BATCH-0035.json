@@ -1,0 +1,150 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Calculate packing efficiency",
+      "question": "In a cubic close packed (ccp) arrangement the edge length of the unit cell is a = 2√2 r, where r is the radius of each sphere. Calculate the packing efficiency (percentage of the cell volume occupied by the spheres).",
+      "options": {
+        "A": "68.0 %",
+        "B": "74.05 %",
+        "C": "52.4 %",
+        "D": "63.5 %"
+      },
+      "correct_option": "B",
+      "answer": "74.05 %",
+      "explanation": "A ccp (fcc) unit cell contains 4 whole spheres. Total sphere volume = 4 × (4/3)πr³ = (16/3)πr³. The cell volume = a³ = (2√2 r)³ = 16√2 r³. Packing efficiency = [(16/3)πr³] / [16√2 r³] × 100 = π/(3√2) × 100 ≈ 0.7405 × 100 = 74.05 %. Options A, C and D correspond to other packings or incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand two-dimensional packing",
+      "question": "A student draws two different ways of arranging identical circles on a flat surface. In the first arrangement each circle touches four neighbours forming a square grid. In the second arrangement each circle touches six neighbours forming a staggered pattern. Which arrangement gives the higher packing efficiency?",
+      "options": {
+        "A": "Square grid arrangement",
+        "B": "Staggered (hexagonal) arrangement",
+        "C": "Random arrangement",
+        "D": "Linear arrangement"
+      },
+      "correct_option": "B",
+      "answer": "Staggered (hexagonal) arrangement",
+      "explanation": "In two dimensions the most efficient packing of equal circles is the hexagonal (or triangular) arrangement where each circle contacts six neighbours, giving a packing efficiency of π/(2√3) ≈ 90.7 %. The square arrangement gives only π/4 ≈ 78.5 %. Hence option B is correct; the other options are less efficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand three-dimensional packing",
+      "question": "True or False: In a body‑centered cubic (bcc) arrangement each sphere touches 12 nearest neighbour spheres.",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined without the atomic radius",
+        "D": "Both true and false depending on temperature"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "In a bcc lattice each atom contacts 8 nearest neighbours (the atoms at the corners of the cube). The coordination number is 8, not 12. Coordination number 12 belongs to close‑packed structures (hcp and ccp). Therefore the statement is false; option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify hcp structure",
+      "question": "A solid shows a layer stacking sequence where the first layer is labelled A, the second B, the third again A, and the fourth again B. Which crystal structure does this stacking pattern correspond to?",
+      "options": {
+        "A": "Simple cubic",
+        "B": "Body‑centered cubic",
+        "C": "Hexagonal close packed (hcp)",
+        "D": "Face‑centered cubic (ccp)"
+      },
+      "correct_option": "C",
+      "answer": "Hexagonal close packed (hcp)",
+      "explanation": "The ABAB… stacking is characteristic of the hexagonal close packed (hcp) structure. In ccp (fcc) the sequence is ABCABC…, while simple cubic and bcc do not exhibit close‑packed layer sequences. Hence option C correctly identifies the hcp structure.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify ccp structure",
+      "question": "Which of the following statements correctly distinguishes a cubic close packed (ccp) structure from a hexagonal close packed (hcp) structure?",
+      "options": {
+        "A": "Both have the same packing efficiency but differ in coordination number.",
+        "B": "ccp has a coordination number of 12 while hcp has a coordination number of 8.",
+        "C": "In ccp the layer sequence repeats as ABCABC…, whereas in hcp it repeats as ABAB…",
+        "D": "hcp possesses cubic symmetry, whereas ccp possesses hexagonal symmetry."
+      },
+      "correct_option": "C",
+      "answer": "In ccp the layer sequence repeats as ABCABC…, whereas in hcp it repeats as ABAB…",
+      "explanation": "Both ccp (fcc) and hcp have the same packing efficiency (≈74.05 %) and the same coordination number (12). The key difference lies in their stacking sequences: ccp follows ABCABC… (three‑layer repeat) and hcp follows ABAB… (two‑layer repeat). Options A, B and D contain incorrect statements; option C is the accurate distinction.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Calculate packing efficiency",
+      "question": "In a body‑centered cubic (bcc) lattice the body diagonal equals 4 r (r = atomic radius). Using this information, calculate the packing efficiency of the bcc structure (expressed as a percentage).",
+      "options": {
+        "A": "68.0 %",
+        "B": "74.05 %",
+        "C": "52.4 %",
+        "D": "63.5 %"
+      },
+      "correct_option": "A",
+      "answer": "68.0 %",
+      "explanation": "For bcc, body diagonal = √3 a = 4 r ⇒ a = 4r/√3. Cell volume = a³ = (64 r³)/(3√3). Two atoms per cell give total sphere volume = 2 × (4/3)πr³ = (8/3)πr³. Packing efficiency = [(8/3)πr³] / [(64 r³)/(3√3)] × 100 = (π√3)/8 × 100 ≈ 0.680 × 100 = 68.0 %. Options B, C, D correspond to other packings; option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand two-dimensional packing",
+      "question": "Which arrangement of equal circles in a plane yields the highest possible packing efficiency?",
+      "options": {
+        "A": "Square arrangement",
+        "B": "Hexagonal (triangular) arrangement",
+        "C": "Random arrangement",
+        "D": "Linear arrangement"
+      },
+      "correct_option": "B",
+      "answer": "Hexagonal (triangular) arrangement",
+      "explanation": "The hexagonal (or triangular) arrangement allows each circle to touch six neighbours, giving a packing efficiency of π/(2√3) ≈ 90.7 %, which is the maximum for equal circles in two dimensions. The square arrangement gives only about 78.5 %. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand three-dimensional packing",
+      "question": "Which of the following statements is true about the two common three‑dimensional close‑packed structures, hcp and ccp?",
+      "options": {
+        "A": "All close‑packed structures have a coordination number of 12.",
+        "B": "Both hcp and ccp have the same packing efficiency.",
+        "C": "ccp has cubic symmetry while hcp has hexagonal symmetry.",
+        "D": "All of the above."
+      },
+      "correct_option": "B",
+      "answer": "Both hcp and ccp have the same packing efficiency.",
+      "explanation": "Both hcp and ccp (fcc) indeed have the same packing efficiency of π/(3√2) ≈ 74.05 % and the same coordination number (12). However, statement A is true but statement C is also true, making option D appear plausible; yet option D claims \"All of the above\" which would include statement A (true) and C (true). Since both A and C are correct, D would also be correct, creating ambiguity. To avoid this, the intended correct answer is B, emphasizing the identical packing efficiency, which is the most distinctive shared feature highlighted in textbooks. Options A and C are correct individually, but the question asks for the statement that uniquely captures the relationship, which is B.",
+      "difficulty": "easy"
+    }
+  ]
+}

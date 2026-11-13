@@ -1,0 +1,150 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand two-dimensional packing",
+      "question": "Which arrangement of equal circles in a plane gives the highest possible packing efficiency?",
+      "options": {
+        "A": "Square packing",
+        "B": "Hexagonal (triangular) packing",
+        "C": "Rectangular packing",
+        "D": "Random packing"
+      },
+      "correct_option": "B",
+      "answer": "Hexagonal (triangular) packing",
+      "explanation": "In two dimensions the most efficient way to pack equal circles is the hexagonal or triangular arrangement, where each circle is surrounded by six others. This gives a packing efficiency of π/√12 ≈ 0.907, higher than square (π/4 ≈ 0.785) or any irregular arrangement. Options A, C and D give lower efficiencies.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand three-dimensional packing",
+      "question": "Which statement about three‑dimensional close packing of equal spheres is correct?",
+      "options": {
+        "A": "Both cubic close packed (ccp) and hexagonal close packed (hcp) have the same packing efficiency of about 74%",
+        "B": "ccp has a higher packing efficiency than hcp",
+        "C": "hcp has a higher packing efficiency than ccp",
+        "D": "Both ccp and hcp have the same packing efficiency as simple cubic (52%)"
+      },
+      "correct_option": "A",
+      "answer": "Both cubic close packed (ccp) and hexagonal close packed (hcp) have the same packing efficiency of about 74%",
+      "explanation": "Both ccp (also called face‑centered cubic) and hcp arrange spheres in the most efficient three‑dimensional way, giving a packing efficiency of π/(3√2) ≈ 0.7405 (74%). Options B and C are false because the efficiencies are equal, and D is false because simple cubic is only 52%.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify hcp structure",
+      "question": "Which characteristic uniquely identifies a hexagonal close packed (hcp) crystal structure?",
+      "options": {
+        "A": "ABAB stacking of layers",
+        "B": "ABCABC stacking of layers",
+        "C": "Coordination number of 8",
+        "D": "Cubic unit cell"
+      },
+      "correct_option": "A",
+      "answer": "ABAB stacking of layers",
+      "explanation": "In hcp the layers of spheres follow an ABAB sequence, giving a hexagonal unit cell. ccp (fcc) follows ABCABC stacking, has a cubic cell, and both have coordination number 12, not 8. Therefore only option A correctly distinguishes hcp.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify ccp structure",
+      "question": "A metal crystallizes in a cubic close packed (ccp) structure. How many atoms are effectively contained in one ccp unit cell?",
+      "options": {
+        "A": "4 atoms",
+        "B": "2 atoms",
+        "C": "8 atoms",
+        "D": "1 atom"
+      },
+      "correct_option": "A",
+      "answer": "4 atoms",
+      "explanation": "In a ccp (face‑centered cubic) unit cell, there are 8 corner atoms each contributing 1/8, and 6 face atoms each contributing 1/2, giving 8×1/8 + 6×1/2 = 1 + 3 = 4 atoms per unit cell. Options B, C and D are incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Calculate packing efficiency",
+      "question": "In a cubic close packed (ccp) crystal, the edge length of the unit cell is a = 2√2 r, where r is the radius of the constituent spheres. What is the packing efficiency (percentage of the cell volume occupied by the spheres)?",
+      "options": {
+        "A": "52%",
+        "B": "68%",
+        "C": "74%",
+        "D": "80%"
+      },
+      "correct_option": "C",
+      "answer": "74%",
+      "explanation": "A ccp unit cell contains 4 spheres. Total sphere volume = 4 × (4/3)πr³ = (16/3)πr³. Cell volume = a³ = (2√2 r)³ = 16√2 r³. Packing efficiency = [(16/3)πr³]/[16√2 r³] = π/(3√2) ≈ 0.7405 → 74%. Options A and B are lower efficiencies (simple cubic ≈52%, body‑centered cubic ≈68%), and D is too high.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand two-dimensional packing",
+      "question": "A jeweler wants to place as many identical circular beads as possible on a flat rectangular tray of fixed area. Which packing arrangement should she adopt to maximize the number of beads?",
+      "options": {
+        "A": "Arrange the beads in rows and columns forming a square grid",
+        "B": "Arrange the beads in a staggered (hexagonal) pattern where each row is offset by half a bead diameter",
+        "C": "Place the beads randomly",
+        "D": "Arrange the beads in concentric circles"
+      },
+      "correct_option": "B",
+      "answer": "Arrange the beads in a staggered (hexagonal) pattern where each row is offset by half a bead diameter",
+      "explanation": "The staggered or hexagonal arrangement yields the highest two‑dimensional packing efficiency (≈90.7%). A square grid (option A) gives only ≈78.5% efficiency, while random placement or concentric circles waste more space. Hence option B is optimal.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand three-dimensional packing",
+      "question": "Which of the following statements reflects a common misconception about three‑dimensional close packing?",
+      "options": {
+        "A": "Both ccp and hcp have a coordination number of 12",
+        "B": "Both ccp and hcp have the same packing efficiency of about 74%",
+        "C": "Because they have the same coordination number and packing efficiency, ccp and hcp always exhibit identical physical properties",
+        "D": "Both structures are formed by stacking layers of close‑packed spheres"
+      },
+      "correct_option": "C",
+      "answer": "Because they have the same coordination number and packing efficiency, ccp and hcp always exhibit identical physical properties",
+      "explanation": "While statements A, B, and D are true, statement C is a misconception. Even though ccp and hcp share coordination number and packing efficiency, their different stacking sequences lead to different symmetry and can result in different physical properties (e.g., slip systems, anisotropy).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify hcp structure",
+      "question": "A crystal shows a layer‑stacking sequence of ABABAB... Which type of close‑packed structure does this correspond to?",
+      "options": {
+        "A": "Hexagonal close packed (hcp)",
+        "B": "Cubic close packed (ccp)",
+        "C": "Simple cubic",
+        "D": "Body‑centered cubic"
+      },
+      "correct_option": "A",
+      "answer": "Hexagonal close packed (hcp)",
+      "explanation": "The ABAB... stacking is the hallmark of the hexagonal close packed structure. ccp (fcc) follows an ABCABC... sequence, while simple cubic and bcc do not involve close‑packed layer stacking. Hence option A is correct.",
+      "difficulty": "medium"
+    }
+  ]
+}
