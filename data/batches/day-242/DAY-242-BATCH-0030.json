@@ -1,0 +1,150 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "LU-01023-MCQ-25",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Calculate packing efficiency",
+      "question": "In a face‑centered cubic (ccp) crystal, each unit cell contains 4 atoms. If the atomic radius of the constituent atom is 0.124 nm, what is the packing efficiency of the structure?",
+      "options": {
+        "A": "68 %",
+        "B": "74 %",
+        "C": "52 %",
+        "D": "60 %"
+      },
+      "correct_option": "B",
+      "answer": "74 %",
+      "explanation": "For ccp, atoms per unit cell = 4. Volume occupied = 4 × (4/3)πr³ = (16/3)πr³. Edge length a = 2√2 r, so cell volume = a³ = (2√2 r)³ = 16√2 r³. Packing efficiency = [(16/3)πr³] / [16√2 r³] × 100 = (π / 3√2) × 100 ≈ 0.7405 × 100 ≈ 74 %. Options A, C and D give lower values, so B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01023-MCQ-26",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand two-dimensional packing",
+      "question": "A student draws circles of equal radius on a flat sheet to obtain the most efficient arrangement. Which of the following patterns gives the highest two‑dimensional packing efficiency?",
+      "options": {
+        "A": "Square (grid) packing",
+        "B": "Hexagonal (triangular) packing",
+        "C": "Rectangular packing",
+        "D": "Random packing"
+      },
+      "correct_option": "B",
+      "answer": "Hexagonal (triangular) packing",
+      "explanation": "In two dimensions the densest arrangement of equal circles is the hexagonal (or triangular) packing, where each circle is surrounded by six others. Its packing efficiency is π/(2√3) ≈ 0.907 (90.7 %). Square, rectangular and random packings give lower efficiencies, so option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01023-MCQ-27",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand three-dimensional packing",
+      "question": "Statement: “In a body‑centered cubic (bcc) lattice each atom touches its nearest neighbours along the body diagonal, therefore the packing efficiency of bcc is higher than that of the face‑centered cubic (ccp) lattice.” Which response is correct?",
+      "options": {
+        "A": "The statement is true; bcc has higher packing efficiency than ccp.",
+        "B": "The statement is false; bcc has lower packing efficiency than ccp.",
+        "C": "The statement is true; both bcc and ccp have the same packing efficiency.",
+        "D": "The statement is false; bcc and ccp have identical coordination numbers."
+      },
+      "correct_option": "B",
+      "answer": "The statement is false; bcc has lower packing efficiency than ccp.",
+      "explanation": "In bcc each atom touches neighbours only along the body diagonal, giving a packing efficiency of (√3 π)/8 ≈ 68 %. In ccp (fcc) the efficiency is (π)/(3√2) ≈ 74 %. Hence bcc is less efficient, making option B correct. Options A and C incorrectly claim bcc is more or equally efficient, and D confuses coordination number (bcc = 8, ccp = 12).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01023-MCQ-28",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify hcp structure",
+      "question": "Which of the following statements correctly describes a characteristic of the hexagonal close‑packed (hcp) structure?",
+      "options": {
+        "A": "The unit cell contains exactly two atoms.",
+        "B": "The lattice parameter a is equal to twice the atomic radius (a = 2r).",
+        "C": "Its packing efficiency is about 74 %.",
+        "D": "All of the above."
+      },
+      "correct_option": "C",
+      "answer": "Its packing efficiency is about 74 %.",
+      "explanation": "Both hcp and ccp (fcc) have the same highest possible packing efficiency of ≈74 % because the atoms are arranged in the most efficient way. The hcp unit cell actually contains 2 atoms, but the relation a = 2r is not generally true; a depends on the c/a ratio. Therefore only statement C is universally correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "LU-01023-MCQ-29",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify ccp structure",
+      "question": "Which description corresponds to a cubic close‑packed (ccp) lattice?",
+      "options": {
+        "A": "Layers of atoms are stacked in an ABCABC… sequence.",
+        "B": "Layers of atoms are stacked in an ABAB… sequence.",
+        "C": "Atoms are positioned only at the corners of a cube.",
+        "D": "Atoms are positioned at the corners and the centre of the cube."
+      },
+      "correct_option": "A",
+      "answer": "Layers of atoms are stacked in an ABCABC… sequence.",
+      "explanation": "The ccp (also called fcc) structure follows an ABCABC… stacking of close‑packed layers, giving each atom 12 nearest neighbours. ABAB… stacking corresponds to hcp, while options C and D describe simple cubic and body‑centered cubic respectively. Hence option A correctly identifies ccp.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01023-MCQ-30",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Calculate packing efficiency",
+      "question": "In a hexagonal close‑packed (hcp) crystal the atomic radius is 0.150 nm. What is the percentage of the unit cell volume that is actually occupied by atoms?",
+      "options": {
+        "A": "68 %",
+        "B": "74 %",
+        "C": "79 %",
+        "D": "82 %"
+      },
+      "correct_option": "B",
+      "answer": "74 %",
+      "explanation": "Both hcp and ccp give the maximum possible packing efficiency for equal spheres, which is (π)/(3√2) ≈ 0.7405 or 74 %. The value does not depend on the actual radius; it is a geometric constant. Therefore option B is correct. The other percentages correspond to less efficient packings (bcc ≈68 %, etc.).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01023-MCQ-31",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand two-dimensional packing",
+      "question": "Two‑dimensional close packing of identical spheres refers to:",
+      "options": {
+        "A": "The arrangement of spheres in a plane that yields the maximum possible density.",
+        "B": "The arrangement of spheres in three dimensions with the highest density.",
+        "C": "A random placement of spheres on a flat surface.",
+        "D": "Stacking of spheres in a single straight line."
+      },
+      "correct_option": "A",
+      "answer": "The arrangement of spheres in a plane that yields the maximum possible density.",
+      "explanation": "In two dimensions the densest arrangement is the hexagonal (triangular) packing where each sphere contacts six neighbours, giving a packing efficiency of about 90.7 %. Options B, C and D describe other situations that are not two‑dimensional close packing.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01023-MCQ-32",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand three-dimensional packing",
+      "question": "Which of the following statements about three‑dimensional close‑packed structures is correct?",
+      "options": {
+        "A": "A ccp lattice has a coordination number of 8.",
+        "B": "An hcp lattice has a coordination number of 12.",
+        "C": "A bcc lattice possesses the highest packing efficiency among all cubic lattices.",
+        "D": "A simple cubic lattice has a coordination number of 12."
+      },
+      "correct_option": "B",
+      "answer": "An hcp lattice has a coordination number of 12.",
+      "explanation": "Both hcp and ccp (fcc) structures have a coordination number of 12, meaning each atom touches 12 neighbours. Option A is false because ccp has CN = 12, not 8. Option C is false; bcc has a packing efficiency of about 68 %, lower than ccp/hcp. Option D is false; simple cubic has CN = 6. Hence B is the only correct statement.",
+      "difficulty": "easy"
+    }
+  ]
+}
