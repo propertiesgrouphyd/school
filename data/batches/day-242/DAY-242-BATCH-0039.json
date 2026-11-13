@@ -1,0 +1,78 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Understand three-dimensional packing",
+      "question": "Which of the following statements about three‑dimensional close packing of identical spheres is a common misconception?",
+      "options": {
+        "A": "In a hexagonal close‑packed (hcp) arrangement each sphere is in contact with 12 nearest neighbours.",
+        "B": "The maximum packing efficiency achievable by any regular arrangement of spheres is about 74%.",
+        "C": "In a simple cubic arrangement, spheres fill the entire volume of the crystal.",
+        "D": "Both hcp and cubic close‑packed (ccp) structures have the same packing efficiency."
+      },
+      "correct_option": "C",
+      "answer": "In a simple cubic arrangement, spheres fill the entire volume of the crystal.",
+      "explanation": "Option C is the misconception. In a simple cubic lattice each sphere touches only six neighbours and the packing efficiency is only 52%, far from filling the whole volume. Options A and B are true statements, and D is also true because hcp and ccp (fcc) both have the same maximum efficiency (~74%).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify hcp structure",
+      "question": "Which statement correctly identifies the hexagonal close‑packed (hcp) structure?",
+      "options": {
+        "A": "Atoms are arranged in layers following an ABAB… stacking sequence.",
+        "B": "Atoms are arranged in layers following an ABCABC… stacking sequence.",
+        "C": "Each atom has eight nearest neighbours.",
+        "D": "The unit cell of the structure is cubic."
+      },
+      "correct_option": "A",
+      "answer": "Atoms are arranged in layers following an ABAB… stacking sequence.",
+      "explanation": "In hcp the layers repeat in an ABAB pattern, giving each atom 12 nearest neighbours. The ABCABC pattern belongs to cubic close‑packed (fcc). hcp has a hexagonal, not cubic, unit cell, and the coordination number is 12, not 8. Hence only option A correctly describes hcp.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Identify ccp structure",
+      "question": "Which of the following statements correctly distinguishes the cubic close‑packed (ccp) structure from the hexagonal close‑packed (hcp) structure?",
+      "options": {
+        "A": "ccp has an ABAB stacking sequence while hcp has an ABCABC sequence.",
+        "B": "ccp has a cubic unit cell whereas hcp has a hexagonal unit cell.",
+        "C": "ccp has a coordination number of 8 while hcp has 12.",
+        "D": "The packing efficiency of ccp is lower than that of hcp."
+      },
+      "correct_option": "B",
+      "answer": "ccp has a cubic unit cell whereas hcp has a hexagonal unit cell.",
+      "explanation": "Both ccp (also called fcc) and hcp achieve the same maximum packing efficiency (~74%) and both have a coordination number of 12, so options C and D are false. The stacking sequence of ccp is ABCABC, not ABAB, making option A incorrect. The correct distinction is that ccp crystallises in a cubic unit cell while hcp crystallises in a hexagonal unit cell, which is option B.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01023",
+      "learning_point": "Calculate packing efficiency",
+      "question": "In a cubic close‑packed (ccp) unit cell the edge length a equals 2√2 r, where r is the atomic radius. Using this information, what is the packing efficiency of the ccp structure (to the nearest whole percent)?",
+      "options": {
+        "A": "52%",
+        "B": "68%",
+        "C": "74%",
+        "D": "82%"
+      },
+      "correct_option": "C",
+      "answer": "74%",
+      "explanation": "A ccp unit cell contains 4 atoms. Total volume of atoms = 4 × (4/3)πr³ = (16/3)πr³. Edge length a = 2√2 r, so cell volume = a³ = (2√2 r)³ = 16√2 r³. Packing efficiency = [(16/3)πr³] / [16√2 r³] × 100 = (π / (3√2)) × 100 ≈ 0.7405 × 100 ≈ 74%. Hence option C is correct. The other percentages correspond to simple cubic (≈52%) and other incorrect calculations.",
+      "difficulty": "hard"
+    }
+  ]
+}
