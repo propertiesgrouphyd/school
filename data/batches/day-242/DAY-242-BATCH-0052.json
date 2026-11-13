@@ -1,0 +1,78 @@
+{
+  "day": 242,
+  "batch_id": "DAY-242-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Relate edge length to atomic radius",
+      "question": "In a face‑centered cubic (FCC) crystal, the edge length (a) is related to the atomic radius (r) as:",
+      "options": {
+        "A": "a = 2r",
+        "B": "a = √2 r",
+        "C": "a = 2√2 r",
+        "D": "a = 4r/√3"
+      },
+      "correct_option": "C",
+      "answer": "a = 2√2 r",
+      "explanation": "In an FCC lattice the atoms touch along the face diagonal. The face diagonal length is √2 a and it equals 4r (four radii). Hence √2 a = 4r → a = 4r/√2 = 2√2 r. Option A (a = 2r) is true only for a simple cubic lattice, and option D is the relation for a BCC lattice. Therefore option C is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate unit-cell mass",
+      "question": "A NaCl crystal has a face‑centered cubic unit cell containing 4 NaCl formula units. Given atomic masses Na = 22.99 g mol⁻¹ and Cl = 35.45 g mol⁻¹, what is the mass of one unit cell?",
+      "options": {
+        "A": "3.9 × 10⁻²² g",
+        "B": "2.3 × 10⁻²² g",
+        "C": "5.8 × 10⁻²² g",
+        "D": "1.2 × 10⁻²¹ g"
+      },
+      "correct_option": "A",
+      "answer": "3.9 × 10⁻²² g",
+      "explanation": "Mass of one NaCl formula unit = 22.99 + 35.45 = 58.44 g mol⁻¹. Four such units give 4 × 58.44 = 233.76 g mol⁻¹. Converting to grams per unit cell: 233.76 g mol⁻¹ ÷ 6.022 × 10²³ mol⁻¹ = 3.88 × 10⁻²² g, which rounds to 3.9 × 10⁻²² g (option A). The other options correspond to incorrect multiplication or division factors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Calculate crystal density",
+      "question": "Both NaCl (FCC) and CsCl (BCC) crystals have the same edge length a = 400 pm. Which statement about their densities is correct?",
+      "options": {
+        "A": "NaCl has a higher density than CsCl",
+        "B": "CsCl has a higher density than NaCl",
+        "C": "Both have the same density",
+        "D": "Density cannot be compared without knowing the temperature"
+      },
+      "correct_option": "A",
+      "answer": "NaCl has a higher density than CsCl",
+      "explanation": "Density ρ = (Z M) / (N_A a³). For NaCl (FCC) Z = 4 formula units; M = 58.5 g mol⁻¹ → ZM = 234 g mol⁻¹. For CsCl (BCC) Z = 1 formula unit; M = 168.5 g mol⁻¹ → ZM = 168.5 g mol⁻¹. With identical a, the larger ZM for NaCl gives a larger ρ. Numerical calculation gives ρ(NaCl) ≈ 6.1 g cm⁻³ and ρ(CsCl) ≈ 4.4 g cm⁻³, so option A is correct. Options B and C contradict the calculation, and density is independent of temperature for this comparison.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01024",
+      "learning_point": "Solve numerical problems",
+      "question": "Iron crystallizes in a body‑centered cubic (BCC) structure. Its atomic radius is 0.124 nm and atomic mass is 55.85 g mol⁻¹. What is the crystal density of iron? (N_A = 6.022 × 10²³ mol⁻¹)",
+      "options": {
+        "A": "7.9 g cm⁻³",
+        "B": "5.5 g cm⁻³",
+        "C": "8.9 g cm⁻³",
+        "D": "6.3 g cm⁻³"
+      },
+      "correct_option": "A",
+      "answer": "7.9 g cm⁻³",
+      "explanation": "For BCC, a = 4r/√3 = 4 × 0.124 nm / 1.732 = 0.2866 nm = 2.866 × 10⁻⁸ cm. Volume of the cell = a³ = (2.866 × 10⁻⁸)³ = 2.35 × 10⁻²³ cm³. Z = 2 atoms per cell. Density ρ = (Z M) / (N_A V) = (2 × 55.85 g mol⁻¹) / (6.022 × 10²³ mol⁻¹ × 2.35 × 10⁻²³ cm³) ≈ 111.7 / 14.16 ≈ 7.9 g cm⁻³. Hence option A is correct; the other values arise from using wrong lattice relations or arithmetic errors.",
+      "difficulty": "hard"
+    }
+  ]
+}
