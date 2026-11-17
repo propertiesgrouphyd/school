@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "Given sets A = {1,2,3} and B = {a,b,c}, the relation R = {(1,a),(2,b),(2,c),(3,b)}. What is the range of R?",
+      "options": {
+        "A": "{a,b,c}",
+        "B": "{a,b}",
+        "C": "{1,2,3}",
+        "D": "{a,c}"
+      },
+      "correct_option": "B",
+      "answer": "{a,b}",
+      "explanation": "The range consists of all second elements that appear in the ordered pairs of R. In R the second elements are a, b, c, and b. The distinct values are a and b, so the range is {a,b}. Options A includes c which never appears as a second element, C is the domain, and D omits b.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "Let X = {-2,-1,0,1,2} and Y = {0,1,2,3,4}. Define the relation R = {(x, x^2) | x ∈ X}. What is the codomain of this relation?",
+      "options": {
+        "A": "{0,1,2,3,4}",
+        "B": "{0,1,4}",
+        "C": "{0,1,2,3,4,5}",
+        "D": "{0,1,2,3}"
+      },
+      "correct_option": "A",
+      "answer": "{0,1,2,3,4}",
+      "explanation": "The codomain is the set of all possible second components that the relation could map to, i.e., the set Y from which the second elements are taken. Here Y = {0,1,2,3,4}. Option B is the actual range, not the codomain. Options C and D are incorrect sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Which of the following statements correctly defines a relation from set A to set B?",
+      "options": {
+        "A": "A relation is a set of ordered pairs where the first element belongs to A and the second belongs to B.",
+        "B": "A relation is a function that assigns each element of A to exactly one element of B.",
+        "C": "A relation is the Cartesian product A×B.",
+        "D": "A relation is a subset of B×A."
+      },
+      "correct_option": "A",
+      "answer": "A relation is a set of ordered pairs where the first element belongs to A and the second belongs to B.",
+      "explanation": "A relation from A to B is any subset of the Cartesian product A×B, meaning it consists of ordered pairs (a,b) with a∈A and b∈B. Option B describes a function, a special type of relation. Option C describes the full Cartesian product, not a subset. Option D reverses the order of the pair.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "The relation R connects students to the subjects they study: S1 studies Math and Physics, S2 studies Physics. Which set of ordered pairs correctly represents R?",
+      "options": {
+        "A": "{(Math, S1), (Physics, S2), (Physics, S1)}",
+        "B": "{(S1, Math), (S2, Physics), (S1, Physics)}",
+        "C": "{(S1, Math), (S2, Math), (S1, Physics)}",
+        "D": "{(S2, Physics), (S1, Physics)}"
+      },
+      "correct_option": "B",
+      "answer": "{(S1, Math), (S2, Physics), (S1, Physics)}",
+      "explanation": "In an ordered pair (student, subject), the first component must be the student. Option B lists exactly those pairs. Option A swaps the order, making subjects first. Option C incorrectly includes (S2, Math) which is not studied by S2. Option D omits the pair (S1, Math).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations using diagrams",
+      "question": "Relation R from X = {1,2,3} to Y = {a,b} is defined by R = {(1,a),(2,b),(3,a)}. Which diagram correctly represents R?",
+      "options": {
+        "A": "Diagram A: arrows from 1→a, 2→b, 3→a",
+        "B": "Diagram B: arrows from 1→b, 2→a, 3→b",
+        "C": "Both diagrams A and B",
+        "D": "Neither diagram A nor B"
+      },
+      "correct_option": "A",
+      "answer": "Diagram A: arrows from 1→a, 2→b, 3→a",
+      "explanation": "Diagram A shows exactly the ordered pairs in R. Diagram B shows different pairs, so it is incorrect. Therefore only Diagram A correctly represents the relation. Options C and D are therefore wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine domain of a relation",
+      "question": "Consider the relation R = {(x, x^2) | x ∈ {-1,0,1,2}}. What is the domain of R?",
+      "options": {
+        "A": "{-1,0,1,2}",
+        "B": "{0,1,4,9}",
+        "C": "{-1,1,2}",
+        "D": "{0,1}"
+      },
+      "correct_option": "A",
+      "answer": "{-1,0,1,2}",
+      "explanation": "The domain consists of all first components of the ordered pairs in R. Since the relation is defined for each x in the set {-1,0,1,2}, the domain is exactly that set. Option B is the range, while C and D omit elements of the domain.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "For the relation R = {(a,1),(b,2),(c,2),(d,3)}, what is the range?",
+      "options": {
+        "A": "{a,b,c,d}",
+        "B": "{1,2,3}",
+        "C": "{a,1,b,2}",
+        "D": "{2,3}"
+      },
+      "correct_option": "B",
+      "answer": "{1,2,3}",
+      "explanation": "The range is the set of all second elements that appear in the ordered pairs. Here the second elements are 1, 2, 2, and 3, giving the distinct set {1,2,3}. Option A is the domain, C mixes elements, D omits 1.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "Let P = {x,y} and Q = {1,2,3}. Relation R = {(x,1),(y,2)}. What is the codomain of R?",
+      "options": {
+        "A": "{1,2}",
+        "B": "{1,2,3}",
+        "C": "{x,y}",
+        "D": "{1}"
+      },
+      "correct_option": "B",
+      "answer": "{1,2,3}",
+      "explanation": "The codomain is the set Q from which the second components are drawn, regardless of whether every element of Q appears in the relation. Hence the codomain is {1,2,3}. Option A is the actual range, C is the domain, and D is incomplete.",
+      "difficulty": "easy"
+    }
+  ]
+}

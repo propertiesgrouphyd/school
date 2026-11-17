@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Which of the following statements correctly defines a relation from set A to set B?",
+      "options": {
+        "A": "A relation from A to B is a subset of the Cartesian product A × B.",
+        "B": "A relation from A to B is the set of all possible ordered pairs (a, b) where a∈A and b∈B.",
+        "C": "A relation from A to B is a function that assigns each element of A to exactly one element of B.",
+        "D": "A relation from A to B is the union of sets A and B."
+      },
+      "correct_option": "A",
+      "answer": "A relation from A to B is a subset of the Cartesian product A × B.",
+      "explanation": "By definition, a relation from set A to set B is any subset of the Cartesian product A×B. Option B describes the entire Cartesian product, not a subset. Option C describes a function, which is a special type of relation. Option D is unrelated. Hence, option A is the correct definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "Let A = {1,2} and B = {x,y}. Which set of ordered pairs correctly represents the relation R that pairs each element of A with the element of B having the same position in the listing?",
+      "options": {
+        "A": "{(1,x), (2,y)}",
+        "B": "{(1,y), (2,x)}",
+        "C": "{(1,1), (2,2)}",
+        "D": "{(x,1), (y,2)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,x), (2,y)}",
+      "explanation": "The relation pairs the first element of A with the first element of B and the second element of A with the second element of B, giving the ordered pairs (1,x) and (2,y). The other options either swap the pairings or use incorrect elements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations using diagrams",
+      "question": "In the mapping diagram, set X = {a,b,c} is on the left and set Y = {1,2,3,4} on the right. Lines are drawn from a to 1 and 3, from b to 2, and from c to 3 and 4. Which of the following ordered‑pair sets correctly represents this relation?",
+      "options": {
+        "A": "{(a,1), (a,3), (b,2), (c,3), (c,4)}",
+        "B": "{(a,2), (b,1), (c,4)}",
+        "C": "{(a,1), (b,2), (c,3)}",
+        "D": "{(a,4), (b,3), (c,1)}"
+      },
+      "correct_option": "A",
+      "answer": "{(a,1), (a,3), (b,2), (c,3), (c,4)}",
+      "explanation": "Each line in the diagram corresponds to an ordered pair. a is linked to 1 and 3, b to 2, and c to 3 and 4, giving exactly the pairs listed in option A. The other options miss some connections or include pairs not shown.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine domain of a relation",
+      "question": "Given the relation R = {(p,2), (q,5), (r,7), (p,8)} between sets P and Q, what is the domain of R?",
+      "options": {
+        "A": "{p, q, r}",
+        "B": "{2, 5, 7, 8}",
+        "C": "{p, q, r, 2, 5, 7, 8}",
+        "D": "{2, 8}"
+      },
+      "correct_option": "A",
+      "answer": "{p, q, r}",
+      "explanation": "The domain consists of all first components of the ordered pairs in the relation. Here the first components are p, q, and r (p appears twice but is listed once). Option B lists the second components (the range). Options C and D are incorrect mixtures.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "For the relation S = {(1,2), (2,2), (3,4)} between sets X and Y, which of the following is the correct range?",
+      "options": {
+        "A": "{2, 4}",
+        "B": "{1, 2, 3, 4}",
+        "C": "{1, 2, 3}",
+        "D": "{2}"
+      },
+      "correct_option": "A",
+      "answer": "{2, 4}",
+      "explanation": "The range is the set of all second components of the ordered pairs: 2 (appears twice) and 4. Hence the range is {2,4}. Option B incorrectly includes the first components, C omits 4, and D omits 4 as well.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "Let A = {1,2,3} and B = {x,y,z}. Relation R = {(1,x), (2,y)} is defined from A to B. Which of the following sets can serve as the codomain of R?",
+      "options": {
+        "A": "{x, y, z}",
+        "B": "{x, y}",
+        "C": "{x, z}",
+        "D": "{w}"
+      },
+      "correct_option": "A",
+      "answer": "{x, y, z}",
+      "explanation": "The codomain must be a set that contains every second component that appears in the relation. The set B = {x, y, z} certainly contains x and y, so it can be taken as the codomain. Option B lacks z, which is part of the original set B and therefore cannot be the codomain as defined in the problem. Option C misses y, and option D does not contain any element of the relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Which statement correctly distinguishes a relation from a function?",
+      "options": {
+        "A": "Every function is a relation, but a relation need not assign exactly one output to each input.",
+        "B": "Every relation is a function, but a function may have multiple outputs for a single input.",
+        "C": "A relation requires each element of the first set to be paired with all elements of the second set, whereas a function pairs each element with exactly one.",
+        "D": "Functions and relations are unrelated concepts; a function maps numbers while a relation maps sets."
+      },
+      "correct_option": "A",
+      "answer": "Every function is a relation, but a relation need not assign exactly one output to each input.",
+      "explanation": "A function is a special type of relation that satisfies the condition of assigning exactly one output to each input. General relations have no such restriction, so they may associate an input with multiple outputs or none. Options B, C, and D misstate these definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "Let A = {1,2,3} and B = {a,b,c,d}. Define relation R on A×B such that (x,y) ∈ R iff x is even and y is a vowel (consider only 'a' as a vowel present in B). Which ordered pairs belong to R?",
+      "options": {
+        "A": "{(2,a)}",
+        "B": "{(2,a), (2,b)}",
+        "C": "{(1,a), (2,a), (3,a)}",
+        "D": "{(2,c), (2,d)}"
+      },
+      "correct_option": "A",
+      "answer": "{(2,a)}",
+      "explanation": "The condition requires the first component to be even, so only x = 2 qualifies. Among the elements of B, only 'a' is a vowel. Therefore the only ordered pair satisfying both conditions is (2,a). All other options either include non‑vowel letters or even numbers that do not meet the vowel condition.",
+      "difficulty": "hard"
+    }
+  ]
+}
