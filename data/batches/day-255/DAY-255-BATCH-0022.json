@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a class of 120 students, 70 study Mathematics, 55 study Physics and 40 study both Mathematics and Physics. Using a Venn diagram, how many students study neither Mathematics nor Physics?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "40",
+        "D": "45"
+      },
+      "correct_option": "B",
+      "answer": "35",
+      "explanation": "The number studying at least one of the subjects is |M ∪ P| = |M| + |P| – |M ∩ P| = 70 + 55 – 40 = 85. Students studying neither = total – union = 120 – 85 = 35. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent sets using Venn diagrams",
+      "question": "A survey of 100 people shows that 45 like tea, 30 like coffee and 20 like both tea and coffee. In the Venn diagram representing the sets Tea and Coffee, how many people are represented in the region that corresponds to \"only tea\"?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "correct_option": "C",
+      "answer": "25",
+      "explanation": "Only tea = total tea – both = 45 – 20 = 25. Therefore the region exclusive to Tea contains 25 people, which is option C.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "In a two‑set Venn diagram, region I (only in set A) contains 10 elements, region II (in both A and B) contains 5 elements, region III (only in set B) contains 8 elements and region IV (outside both sets) contains 12 elements. How many elements are in set A?",
+      "options": {
+        "A": "15",
+        "B": "23",
+        "C": "33",
+        "D": "35"
+      },
+      "correct_option": "A",
+      "answer": "15",
+      "explanation": "Set A consists of elements in region I and region II. So |A| = 10 + 5 = 15. The other numbers are irrelevant for this calculation. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent union and intersection",
+      "question": "The set expression (A ∪ B) ∩ C consists of elements that are:",
+      "options": {
+        "A": "Only in A",
+        "B": "Only in B",
+        "C": "In C and also in at least one of A or B",
+        "D": "In all three sets A, B and C"
+      },
+      "correct_option": "C",
+      "answer": "In C and also in at least one of A or B",
+      "explanation": "(A ∪ B) contains all elements that are in A or B or both. Intersecting this with C keeps only those elements that are also in C. Therefore the resulting set contains elements that are in C and also in A or B (or both). Option C captures this precisely.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent complements",
+      "question": "Which of the following statements about complements is always true for any sets A and B within a universal set U?",
+      "options": {
+        "A": "The complement of A is larger than the complement of (A ∩ B).",
+        "B": "The complement of A is a subset of the complement of (A ∩ B).",
+        "C": "The complement of A equals the complement of (A ∩ B) only when B = U.",
+        "D": "The complement of A is always equal to the complement of (A ∩ B)."
+      },
+      "correct_option": "B",
+      "answer": "The complement of A is a subset of the complement of (A ∩ B).",
+      "explanation": "Using De Morgan’s law, (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ. Since Aᶜ is one of the sets in this union, Aᶜ ⊆ Aᶜ ∪ Bᶜ. Therefore the complement of A is always a subset of the complement of (A ∩ B). Option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a group of 200 students, 120 study History, 100 study Geography, and 80 study Economics. 60 study both History and Geography, 50 study both History and Economics, 40 study both Geography and Economics, and 30 study all three subjects. How many students study none of these subjects?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "40"
+      },
+      "correct_option": "B",
+      "answer": "20",
+      "explanation": "Using the principle of inclusion–exclusion for three sets: |H ∪ G ∪ E| = |H| + |G| + |E| – |H∩G| – |H∩E| – |G∩E| + |H∩G∩E| = 120 + 100 + 80 – 60 – 50 – 40 + 30 = 180. Students studying none = total – union = 200 – 180 = 20. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent sets using Venn diagrams",
+      "question": "In a Venn diagram, what does a single circle typically represent?",
+      "options": {
+        "A": "A set",
+        "B": "A subset of a set",
+        "C": "An individual element",
+        "D": "The universal set"
+      },
+      "correct_option": "A",
+      "answer": "A set",
+      "explanation": "Each circle in a Venn diagram is used to depict a set, showing all its elements and how it relates to other sets. Therefore the correct answer is option A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "In a two‑set Venn diagram, the region that lies outside both circles represents:",
+      "options": {
+        "A": "Elements belonging to both sets",
+        "B": "Elements belonging to at least one of the sets",
+        "C": "Elements belonging to none of the sets",
+        "D": "Elements belonging to exactly one set"
+      },
+      "correct_option": "C",
+      "answer": "Elements belonging to none of the sets",
+      "explanation": "The area outside both circles corresponds to elements that are not in either of the two sets; they belong to none of the sets. Hence option C is correct.",
+      "difficulty": "easy"
+    }
+  ]
+}
