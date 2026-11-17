@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which of the following statements correctly describes two disjoint sets?",
+      "options": {
+        "A": "They have at least one common element.",
+        "B": "Their union is the empty set.",
+        "C": "Their intersection is the empty set.",
+        "D": "One set is a subset of the other."
+      },
+      "correct_option": "C",
+      "answer": "Their intersection is the empty set.",
+      "explanation": "Two sets are called disjoint when they share no common elements. Hence their intersection contains no element, i.e., it is the empty set. Option C states exactly this. Option A is opposite, Option B would imply both sets are empty, and Option D does not guarantee emptiness of intersection.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "Let A = {1, 2, 3} and B = {3, 4, 5}. What is (A ∪ B) \\ (A ∩ B)?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5}",
+        "B": "{3}",
+        "C": "{1, 2, 4, 5}",
+        "D": "{1, 2, 3}"
+      },
+      "correct_option": "C",
+      "answer": "{1, 2, 4, 5}",
+      "explanation": "First find the union: A ∪ B = {1,2,3,4,5}. The intersection is A ∩ B = {3}. Removing the intersection from the union gives {1,2,4,5}. Option C matches this result. The other options either include the element 3 or miss some required elements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "The union of two sets A and B is defined as:",
+      "options": {
+        "A": "The set of elements that belong to both A and B.",
+        "B": "The set of elements that belong to A but not to B.",
+        "C": "The set of all elements that belong to A, or B, or both.",
+        "D": "The empty set if A and B have no common elements."
+      },
+      "correct_option": "C",
+      "answer": "The set of all elements that belong to A, or B, or both.",
+      "explanation": "Union collects every element that appears in at least one of the sets. Option C captures this definition precisely. Option A describes intersection, B describes set difference, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "If A = {2, 4, 6, 8} and B = {3, 6, 9}, what is A ∩ B?",
+      "options": {
+        "A": "{2, 4, 6, 8}",
+        "B": "{3, 6, 9}",
+        "C": "{6}",
+        "D": "{}"
+      },
+      "correct_option": "C",
+      "answer": "{6}",
+      "explanation": "Intersection contains only the elements common to both sets. The only common element of A and B is 6, so A ∩ B = {6}. Option C is correct; the other options list all elements of one set or the empty set.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Given A = {1, 2, 3, 5} and B = {3, 4, 5, 6}, what is A ∪ B?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{1, 2, 3, 5}",
+        "C": "{3, 4, 5, 6}",
+        "D": "{1, 2, 4, 6}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "The union includes every distinct element from both sets. Combining A and B we obtain {1,2,3,4,5,6}. Option A lists exactly these elements. Options B and C miss elements from the other set, and D omits several elements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "In a school, the set of students who play cricket is C = {A, B, C, D, E} and the set of students who play basketball is Bk = {C, D, F, G}. Which set represents students who play both sports?",
+      "options": {
+        "A": "{A, B, E}",
+        "B": "{C, D}",
+        "C": "{F, G}",
+        "D": "{A, B, C, D, E, F, G}"
+      },
+      "correct_option": "B",
+      "answer": "{C, D}",
+      "explanation": "Intersection consists of elements common to both sets. The common students are C and D. Hence the correct set is {C, D}. Option B reflects this. The other options either list non‑common members or all members.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which of the following statements about disjoint sets is FALSE?",
+      "options": {
+        "A": "Two disjoint sets have no common elements.",
+        "B": "The intersection of disjoint sets is the empty set.",
+        "C": "Disjoint sets must have equal cardinalities.",
+        "D": "The union of disjoint sets contains all elements from both sets."
+      },
+      "correct_option": "C",
+      "answer": "Disjoint sets must have equal cardinalities.",
+      "explanation": "Disjointness only concerns the absence of common elements; it says nothing about the number of elements in each set. Sets can be disjoint with different sizes, so statement C is false. Statements A, B, and D correctly describe properties of disjoint sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "Let the universal set U = {1,2,3,4,5,6,7,8,9,10}, A = {2,4,6,8,10} and B = {1,2,3,4,5}. Find (A ∪ B) ∩ (U \\ (A ∩ B)).",
+      "options": {
+        "A": "{1,3,5,6,8,10}",
+        "B": "{2,4}",
+        "C": "{1,2,3,4,5,6,8,10}",
+        "D": "{7,9}"
+      },
+      "correct_option": "A",
+      "answer": "{1,3,5,6,8,10}",
+      "explanation": "First compute A ∪ B = {1,2,3,4,5,6,8,10}. Next, A ∩ B = {2,4}. Complement of this intersection in U is U \\ {2,4} = {1,3,5,6,7,8,9,10}. Intersecting the two results gives {1,3,5,6,8,10}. Option A matches this set. The other options correspond to intermediate or unrelated results.",
+      "difficulty": "medium"
+    }
+  ]
+}

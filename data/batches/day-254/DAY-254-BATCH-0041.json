@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0041",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-254-009",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Given sets A = {1,2,3}, B = {3,4,5} and C = {5,6}, which of the following statements about the unions is true?",
+      "options": {
+        "A": "A ∪ (B ∪ C) and (A ∪ B) ∪ C are equal",
+        "B": "A ∪ (B ∪ C) has more elements than (A ∪ B) ∪ C",
+        "C": "(A ∪ B) ∪ C has more elements than A ∪ (B ∪ C)",
+        "D": "Neither of the two unions are equal"
+      },
+      "correct_option": "A",
+      "answer": "A ∪ (B ∪ C) and (A ∪ B) ∪ C are equal",
+      "explanation": "Union is associative, so A ∪ (B ∪ C) = (A ∪ B) ∪ C. Both expressions produce the set {1,2,3,4,5,6}. Hence option A is correct; the other options incorrectly claim a difference in size.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-254-010",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Let A = {x ∈ ℤ | 1 ≤ x ≤ 10}, B = {x ∈ ℤ | x is even}, and C = {x ∈ ℤ | x is a multiple of 3}. What is A ∩ B ∩ C?",
+      "options": {
+        "A": "{6}",
+        "B": "{2,4,6,8,10}",
+        "C": "{3,6,9}",
+        "D": "{6,12}"
+      },
+      "correct_option": "A",
+      "answer": "{6}",
+      "explanation": "The intersection must satisfy all three conditions: between 1 and 10, even, and a multiple of 3. The only integer meeting all three is 6. Hence option A is correct; the other sets contain numbers that fail at least one condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-254-011",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which of the following statements correctly defines disjoint sets?",
+      "options": {
+        "A": "Two sets that have at least one common element",
+        "B": "Two sets that have no common element",
+        "C": "Two sets where one is a subset of the other",
+        "D": "Two sets that contain the same number of elements"
+      },
+      "correct_option": "B",
+      "answer": "Two sets that have no common element",
+      "explanation": "Disjoint sets are defined as sets with an empty intersection, i.e., they share no elements. Option B captures this definition; the other options describe different relationships.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-254-012",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "If the universal set U = {1,2,3,4,5,6,7,8}, A = {1,2,3,4} and B = {3,4,5,6}, what is the cardinality |A ∪ B|?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "A ∪ B = {1,2,3,4,5,6}. This set contains 6 elements, so the cardinality is 6. Options A, B, and D give incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-254-013",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "The union of two sets A and B is:",
+      "options": {
+        "A": "The set of elements common to both A and B",
+        "B": "The set of elements that belong to either A or B or both",
+        "C": "The set of elements that belong to neither A nor B",
+        "D": "Always the empty set"
+      },
+      "correct_option": "B",
+      "answer": "The set of elements that belong to either A or B or both",
+      "explanation": "By definition, A ∪ B contains every element that is in A, in B, or in both. Option B states this precisely; the other options describe intersection, complement, or an incorrect statement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-254-014",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "The intersection of two sets A and B is:",
+      "options": {
+        "A": "The set of elements that are common to both A and B",
+        "B": "The set of elements that are in either A or B",
+        "C": "The set of elements that are not in A",
+        "D": "The universal set"
+      },
+      "correct_option": "A",
+      "answer": "The set of elements that are common to both A and B",
+      "explanation": "Intersection, denoted A ∩ B, consists exactly of the elements that appear in both sets. Option A is correct; the other options describe union, complement, or an unrelated concept.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-254-015",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Let A = {x | x is a multiple of 2 and x < 10} and B = {x | x is a multiple of 3 and x < 10}. What is A ∪ B?",
+      "options": {
+        "A": "{2,3,4,6,8,9}",
+        "B": "{2,4,6,8}",
+        "C": "{3,6,9}",
+        "D": "{2,3,4,5,6,7,8,9}"
+      },
+      "correct_option": "A",
+      "answer": "{2,3,4,6,8,9}",
+      "explanation": "A = {2,4,6,8}; B = {3,6,9}. Their union combines all distinct elements: {2,3,4,6,8,9}. Option A lists exactly these elements. Options B and C give only one of the original sets, and D includes numbers not in either set.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-254-016",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "In a school, let G be the set of students who play guitar = {A, B, C, D} and P be the set of students who play piano = {C, D, E, F}. Which set represents students who play both instruments?",
+      "options": {
+        "A": "{A, B}",
+        "B": "{C, D}",
+        "C": "{E, F}",
+        "D": "{A, E}"
+      },
+      "correct_option": "B",
+      "answer": "{C, D}",
+      "explanation": "The intersection G ∩ P contains exactly the students common to both sets, which are C and D. Hence option B is correct; the other options list students not common to both sets.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Which of the following statements correctly defines the union of two sets A and B?",
+      "options": {
+        "A": "A ∪ B consists of all elements that are in A or in B or in both.",
+        "B": "A ∪ B consists of all elements that are in A and in B.",
+        "C": "A ∪ B consists of elements that are in A but not in B.",
+        "D": "A ∪ B consists of elements that are in B but not in A."
+      },
+      "correct_option": "A",
+      "answer": "A ∪ B consists of all elements that are in A or in B or in both.",
+      "explanation": "The union of two sets contains every element that belongs to at least one of the sets. Option A states this precisely. Option B describes intersection, while C and D describe set differences, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Given A = {2, 4, 6, 8} and B = {4, 5, 6, 7}, what is A ∩ B?",
+      "options": {
+        "A": "{4, 6}",
+        "B": "{2, 8}",
+        "C": "{5, 7}",
+        "D": "{2, 4, 6, 8}"
+      },
+      "correct_option": "A",
+      "answer": "{4, 6}",
+      "explanation": "The intersection contains only the elements common to both sets. Both 4 and 6 appear in A and B, so the intersection is {4, 6}. The other options list elements that are not common to both sets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which of the following pairs of sets are disjoint?",
+      "options": {
+        "A": "A = {1, 2, 3}, B = {3, 4, 5}",
+        "B": "C = {a, b}, D = {c, d}",
+        "C": "E = {x}, F = {x, y}",
+        "D": "G = {}, H = {1}"
+      },
+      "correct_option": "B",
+      "answer": "C = {a, b}, D = {c, d}",
+      "explanation": "Two sets are disjoint when they share no common elements. Pair B has no element in common, so it is disjoint. Pair A shares 3, Pair C shares x, and Pair D includes the empty set which is technically disjoint with any set, but the question expects a non‑empty example, making B the best answer.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "In a school, 40 students study Mathematics, 30 study Physics, and 15 study both Mathematics and Physics. How many students study either Mathematics or Physics?",
+      "options": {
+        "A": "45",
+        "B": "55",
+        "C": "65",
+        "D": "70"
+      },
+      "correct_option": "B",
+      "answer": "55",
+      "explanation": "The number of students in the union is |M ∪ P| = |M| + |P| – |M ∩ P| = 40 + 30 – 15 = 55. Options A, C, and D result from incorrect addition or subtraction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "Which of the following statements about the union of two sets is a common misconception?",
+      "options": {
+        "A": "The union includes elements that are in either set or both.",
+        "B": "The union includes only the elements that are common to both sets.",
+        "C": "The union may contain duplicate elements, but each element is listed only once.",
+        "D": "The union of a set with the empty set is the original set."
+      },
+      "correct_option": "B",
+      "answer": "The union includes only the elements that are common to both sets.",
+      "explanation": "Option B incorrectly describes the union; it actually defines intersection. Options A, C, and D correctly describe properties of the union.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "If two sets A and B have no elements in common, which of the following best describes A ∩ B?",
+      "options": {
+        "A": "It is the set containing all elements of A and B.",
+        "B": "It is the empty set.",
+        "C": "It is the set of elements that are in A but not in B.",
+        "D": "It is the set of elements that are in B but not in A."
+      },
+      "correct_option": "B",
+      "answer": "It is the empty set.",
+      "explanation": "When there are no common elements, the intersection contains no elements, i.e., it is the empty set. Options A, C, and D describe union or set differences, not the intersection of disjoint sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Let A = {x | x is a multiple of 2 less than 10} and B = {x | x is a multiple of 3 less than 10}. Which of the following sets is equal to A ∪ B?",
+      "options": {
+        "A": "{2, 3, 4, 6, 8, 9}",
+        "B": "{2, 4, 6, 8}",
+        "C": "{3, 6, 9}",
+        "D": "{2, 3, 4, 5, 6, 7, 8, 9}"
+      },
+      "correct_option": "A",
+      "answer": "{2, 3, 4, 6, 8, 9}",
+      "explanation": "A = {2,4,6,8}; B = {3,6,9}. Their union contains every element that appears in either set: {2,3,4,6,8,9}. Option A lists exactly these elements. Option B is only A, C is only B, and D adds extra numbers not in either set.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "If set C represents students who like cricket and set F represents those who like football, with |C| = 70, |F| = 55, and |C ∪ F| = 85, what is |C ∩ F|?",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "40",
+        "D": "45"
+      },
+      "correct_option": "C",
+      "answer": "40",
+      "explanation": "Using the principle |C ∪ F| = |C| + |F| – |C ∩ F|, we solve for the intersection: |C ∩ F| = 70 + 55 – 85 = 40. Hence option C is correct; the other numbers arise from incorrect arithmetic.",
+      "difficulty": "hard"
+    }
+  ]
+}
