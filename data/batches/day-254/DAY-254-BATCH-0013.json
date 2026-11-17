@@ -1,0 +1,78 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01077",
+      "learning_point": "Use set-builder form",
+      "question": "Which of the following correctly represents the set of all integers greater than 5 and less than 10 using set‑builder notation?",
+      "options": {
+        "A": "{x | 5 < x < 10, x ∈ Z}",
+        "B": "{x : x > 5 and x < 10}",
+        "C": "{x | x ∈ Z, 5 ≤ x ≤ 10}",
+        "D": "{x | x = 6,7,8,9}"
+      },
+      "correct_option": "A",
+      "answer": "{x | 5 < x < 10, x ∈ Z}",
+      "explanation": "In set‑builder notation we must specify the variable, its domain and the condition it satisfies. Option A states that x is an integer (x ∈ Z) and satisfies the strict inequalities 5 < x < 10, which yields exactly the integers 6,7,8,9. Option B omits the domain, so it is incomplete. Option C includes the endpoints 5 and 10, which are not part of the required set. Option D lists the elements in roster form, not set‑builder form. Hence A is the only correct representation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01077",
+      "learning_point": "Convert between representation forms",
+      "question": "The set B = {2, 4, 6, 8, 10} is given in roster form. Which of the following set‑builder expressions is equivalent to B?",
+      "options": {
+        "A": "{x | x ∈ N, x is even and 2 ≤ x ≤ 10}",
+        "B": "{x | x ∈ N, x is odd and 2 ≤ x ≤ 10}",
+        "C": "{x | x ∈ Z, x = 2k, k ∈ N, k < 5}",
+        "D": "{x | x ∈ N, x = 2k + 1, k ∈ N}"
+      },
+      "correct_option": "A",
+      "answer": "{x | x ∈ N, x is even and 2 ≤ x ≤ 10}",
+      "explanation": "Option A precisely captures the roster set: x is a natural number, it is even, and it lies between 2 and 10 inclusive, giving {2,4,6,8,10}. Option B describes odd numbers, which is wrong. Option C generates {2,4,6,8} because k < 5 excludes k = 5, so 10 is missing. Option D describes all odd natural numbers. Therefore only A correctly converts the roster form to set‑builder form.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01077",
+      "learning_point": "Represent finite and infinite sets",
+      "question": "Which statement correctly distinguishes between a finite set and an infinite set in terms of their possible representations?",
+      "options": {
+        "A": "A finite set can be listed completely using roster notation, whereas an infinite set cannot be listed completely; it must be described using set‑builder notation.",
+        "B": "Both finite and infinite sets can always be represented using roster notation.",
+        "C": "Infinite sets can be represented using roster notation if they have a repeating pattern.",
+        "D": "Finite sets must be described using set‑builder notation."
+      },
+      "correct_option": "A",
+      "answer": "A finite set can be listed completely using roster notation, whereas an infinite set cannot be listed completely; it must be described using set‑builder notation.",
+      "explanation": "A finite set contains a limited number of elements, so we can enumerate them explicitly in roster form (e.g., {1,2,3}). An infinite set has unbounded elements; writing all of them in roster form is impossible, so we use set‑builder notation to describe the rule that generates the elements (e.g., {x | x ∈ N}). Options B, C, and D are false because roster notation cannot capture all elements of an infinite set, and finite sets are not required to use set‑builder notation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01077",
+      "learning_point": "Represent sets using suitable descriptions",
+      "question": "Let S be the set of all natural numbers that are multiples of 4 but not multiples of 6. Which set‑builder expression correctly describes S?",
+      "options": {
+        "A": "{x | x ∈ N, x ≡ 0 (mod 4) and x ≢ 0 (mod 6)}",
+        "B": "{x | x ∈ N, x ≡ 0 (mod 12)}",
+        "C": "{x | x ∈ N, x ≡ 4 (mod 6)}",
+        "D": "{x | x ∈ N, x is a multiple of 2 but not of 3}"
+      },
+      "correct_option": "A",
+      "answer": "{x | x ∈ N, x ≡ 0 (mod 4) and x ≢ 0 (mod 6)}",
+      "explanation": "The required set consists of natural numbers divisible by 4 (x ≡ 0 mod 4) while simultaneously not divisible by 6 (x ≢ 0 mod 6). Option A states exactly this condition. Option B describes numbers divisible by both 4 and 6, i.e., multiples of 12, which are excluded from S. Option C gives numbers that leave remainder 4 when divided by 6, which does not guarantee divisibility by 4. Option D describes even numbers not divisible by 3; while every element of S satisfies this, the description also includes numbers like 2, 10, 14, etc., which are not multiples of 4. Hence only A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}
