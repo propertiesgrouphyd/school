@@ -1,0 +1,78 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "In a Venn diagram of two sets A and B, which region correctly represents the elements that belong to set A only (i.e., not to B)?",
+      "options": {
+        "A": "Region common to both A and B (the overlapping part)",
+        "B": "Region that lies only in set A (outside the overlap with B)",
+        "C": "Region that lies only in set B (outside the overlap with A)",
+        "D": "Region outside both A and B (outside the circles)"
+      },
+      "correct_option": "B",
+      "answer": "Region that lies only in set A (outside the overlap with B)",
+      "explanation": "The part of set A that does not intersect set B is the portion of circle A that lies outside the overlapping area. Option B describes this region. Option A is the intersection, Option C belongs to B only, and Option D is the complement of A∪B, not A alone.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent union and intersection",
+      "question": "In a Venn diagram with two circles C (cricket players) and F (football players), which region represents the union C ∪ F (students who play cricket or football or both)?",
+      "options": {
+        "A": "Only the part of C that does not overlap with F",
+        "B": "Only the part of F that does not overlap with C",
+        "C": "Only the overlapping part of C and F",
+        "D": "All parts of both circles C and F, including the overlapping part"
+      },
+      "correct_option": "D",
+      "answer": "All parts of both circles C and F, including the overlapping part",
+      "explanation": "The union of two sets includes every element that is in either set or in both. Hence the entire area covered by both circles, including the overlap, represents C ∪ F. Options A and B give only the exclusive parts, and C gives only the intersection, not the full union.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent complements",
+      "question": "In a Venn diagram with sets A and B drawn inside a universal set U, which region correctly represents the complement of (A ∪ B)?",
+      "options": {
+        "A": "The area inside set A only",
+        "B": "The area inside set B only",
+        "C": "The area outside both A and B but still inside U",
+        "D": "The area inside the intersection of A and B"
+      },
+      "correct_option": "C",
+      "answer": "The area outside both A and B but still inside U",
+      "explanation": "The complement of (A ∪ B) consists of all elements that are in the universal set U but not in A or B. This is the region outside both circles while remaining inside U. Options A and B are parts of A or B, and D is the intersection, none of which are the complement of the union.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a class of 100 students, 60 study Mathematics, 45 study Physics, and 30 study both subjects. Using a Venn diagram, how many students study neither Mathematics nor Physics?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "40",
+        "D": "55"
+      },
+      "correct_option": "A",
+      "answer": "25",
+      "explanation": "Number studying at least one of the subjects = |M| + |P| – |M∩P| = 60 + 45 – 30 = 75. Students studying neither = total – 75 = 100 – 75 = 25. Hence option A is correct; the other numbers do not match the calculation.",
+      "difficulty": "hard"
+    }
+  ]
+}

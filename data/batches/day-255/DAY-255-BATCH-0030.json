@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-025",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "Let the universal set be U = {1,2,3,4,5}. Let A = {1,2,3} and B = {3,4}. Verify the set identity (A ∪ B) ∩ (A ∪ B') = A. Which set is obtained on the left‑hand side?",
+      "options": {
+        "A": "{1,2,3}",
+        "B": "{1,2,3,4}",
+        "C": "{3,4}",
+        "D": "∅"
+      },
+      "correct_option": "A",
+      "answer": "{1,2,3}",
+      "explanation": "First find the complement of B: B' = U\\B = {1,2,5}. Then A ∪ B = {1,2,3,4} and A ∪ B' = {1,2,3,5}. Their intersection is {1,2,3}, which is exactly A, confirming the identity. Options B, C and D do not match the computed intersection, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-026",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand commutative laws",
+      "question": "If for two sets A and B we have A ∩ B = {2,5}, what is B ∩ A?",
+      "options": {
+        "A": "{2,5}",
+        "B": "{2,5,7}",
+        "C": "{2}",
+        "D": "∅"
+      },
+      "correct_option": "A",
+      "answer": "{2,5}",
+      "explanation": "The commutative law for intersection states that A ∩ B = B ∩ A for any sets A and B. Hence B ∩ A is the same set {2,5}. Options B, C and D either add extra elements, omit elements, or give the empty set, which contradict the law.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-027",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand associative laws",
+      "question": "Consider three sets A, B, C. Is the equality (A ∪ B) ∪ C = A ∪ (B ∪ C) always true?",
+      "options": {
+        "A": "Yes, because union is associative.",
+        "B": "No, it holds only when C is empty.",
+        "C": "Yes, but only for finite sets.",
+        "D": "No, it is false in general."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because union is associative.",
+      "explanation": "The associative law for union guarantees that the way in which sets are grouped does not affect the result: (A ∪ B) ∪ C = A ∪ (B ∪ C) for all sets A, B, C. Options B, C and D incorrectly claim restrictions or falsity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-028",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand distributive laws",
+      "question": "Which of the following expressions correctly represents the distributive law of union over intersection?",
+      "options": {
+        "A": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+        "B": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+        "C": "A ∪ (B ∪ C) = (A ∪ B) ∪ C",
+        "D": "A ∩ (B ∩ C) = (A ∩ B) ∩ C"
+      },
+      "correct_option": "A",
+      "answer": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+      "explanation": "The distributive law states that union distributes over intersection: A ∪ (B ∩ C) equals (A ∪ B) ∩ (A ∪ C). Option B is the distributive law of intersection over union, while C and D are merely associative forms, not distributive laws.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-029",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "According to De Morgan’s laws, the complement of (A ∪ B) is equal to:",
+      "options": {
+        "A": "A' ∩ B'",
+        "B": "A' ∪ B'",
+        "C": "(A ∩ B)'",
+        "D": "A ∪ B'"
+      },
+      "correct_option": "A",
+      "answer": "A' ∩ B'",
+      "explanation": "De Morgan’s first law states (A ∪ B)' = A' ∩ B'. Option B gives the complement of intersection, option C is another way of writing (A ∩ B)' which equals A' ∪ B', and option D is unrelated. Hence only A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-030",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "The identity (A ∩ B') ∪ (A' ∩ B) = (A ∪ B) ∩ (A' ∪ B') holds for any sets A and B. Which of the following sets is equal to both sides of the identity?",
+      "options": {
+        "A": "(A ∩ B') ∪ (A' ∩ B)",
+        "B": "(A ∪ B) ∩ (A' ∪ B')",
+        "C": "A Δ B (the symmetric difference of A and B)",
+        "D": "A ∩ B"
+      },
+      "correct_option": "C",
+      "answer": "A Δ B (the symmetric difference of A and B)",
+      "explanation": "Both expressions define the symmetric difference, the set of elements belonging to exactly one of A or B. Hence they are equal to A Δ B. Options A and B are the two forms of the identity itself, not a new name, while D represents the intersection, which is a different set.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-031",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand commutative laws",
+      "question": "Which statement correctly describes the commutative law for set union?",
+      "options": {
+        "A": "A ∪ B = B ∪ A",
+        "B": "A ∪ B = A ∩ B",
+        "C": "A ∪ (B ∪ C) = (A ∪ B) ∪ C",
+        "D": "(A ∪ B)' = A' ∩ B'"
+      },
+      "correct_option": "A",
+      "answer": "A ∪ B = B ∪ A",
+      "explanation": "The commutative law for union states that the order of the operands does not affect the result: A ∪ B equals B ∪ A. Option B confuses union with intersection, C is the associative law, and D is De Morgan’s law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-032",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand associative laws",
+      "question": "What does the associative law for set intersection state?",
+      "options": {
+        "A": "(A ∩ B) ∩ C = A ∩ (B ∩ C)",
+        "B": "(A ∩ B) ∪ C = A ∩ (B ∪ C)",
+        "C": "A ∩ B = B ∩ A",
+        "D": "(A ∩ B)' = A' ∪ B'"
+      },
+      "correct_option": "A",
+      "answer": "(A ∩ B) ∩ C = A ∩ (B ∩ C)",
+      "explanation": "The associative law for intersection allows regrouping without changing the result: (A ∩ B) ∩ C equals A ∩ (B ∩ C). Option B mixes intersection and union, C is the commutative law, and D is De Morgan’s law for intersection.",
+      "difficulty": "easy"
+    }
+  ]
+}

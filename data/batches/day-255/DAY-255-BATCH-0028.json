@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-255-009",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "Consider the two statements:\n1) (A ∪ B)' = A' ∩ B'\n2) (A ∩ B)' = A' ∪ B'\nWhich of the following correctly describes their truth values?",
+      "options": {
+        "A": "Both statements are true.",
+        "B": "Statement 1 is true and statement 2 is false.",
+        "C": "Statement 1 is false and statement 2 is true.",
+        "D": "Both statements are false."
+      },
+      "correct_option": "A",
+      "answer": "Both statements are true.",
+      "explanation": "Both statements are the two De Morgan laws. For any sets A and B, the complement of a union equals the intersection of the complements, and the complement of an intersection equals the union of the complements. Hence both statements are universally true.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-255-010",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "Let the universal set U = {1,2,3,4,5,6}, A = {1,2,3} and B = {3,4,5}. Verify the identity (A ∪ B)' = A' ∩ B'. Which set is the correct result of both sides?",
+      "options": {
+        "A": "{6}",
+        "B": "{1,2}",
+        "C": "{3,4,5}",
+        "D": "{1,2,3,4,5}"
+      },
+      "correct_option": "A",
+      "answer": "{6}",
+      "explanation": "A ∪ B = {1,2,3,4,5}; its complement in U is {6}. A' = {4,5,6} and B' = {1,2,6}; their intersection is {6}. Both sides give the same set {6}, confirming the identity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-255-011",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand commutative laws",
+      "question": "Which of the following expresses the commutative law for the union of sets?",
+      "options": {
+        "A": "A ∪ B = B ∪ A",
+        "B": "A ∪ (B ∪ C) = (A ∪ B) ∪ C",
+        "C": "(A ∩ B) ∪ C = A ∩ (B ∪ C)",
+        "D": "A ∩ (B ∩ C) = (A ∩ B) ∩ C"
+      },
+      "correct_option": "A",
+      "answer": "A ∪ B = B ∪ A",
+      "explanation": "The commutative law states that the order of the operation does not affect the result. For union, swapping the sets leaves the union unchanged: A ∪ B equals B ∪ A. Options B and D are associative laws, and C is not a standard identity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-255-012",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand associative laws",
+      "question": "The associative law for intersection of sets is correctly written as:",
+      "options": {
+        "A": "(A ∩ B) ∩ C = A ∩ (B ∩ C)",
+        "B": "A ∩ B = B ∩ A",
+        "C": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+        "D": "(A ∪ B) ∪ C = A ∪ (B ∪ C)"
+      },
+      "correct_option": "A",
+      "answer": "(A ∩ B) ∩ C = A ∩ (B ∩ C)",
+      "explanation": "The associative law allows us to regroup without changing the result. For intersection, grouping the three sets in any way yields the same set. Option B is the commutative law, C is a distributive law, and D is the associative law for union.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-255-013",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand distributive laws",
+      "question": "Which of the following statements is the distributive law of intersection over union?",
+      "options": {
+        "A": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+        "B": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+        "C": "A ∩ (B ∩ C) = (A ∩ B) ∩ (A ∩ C)",
+        "D": "A ∪ (B ∪ C) = (A ∪ B) ∪ C"
+      },
+      "correct_option": "A",
+      "answer": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+      "explanation": "The distributive law of intersection over union states that intersecting a set A with the union of B and C is equivalent to the union of the separate intersections: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C). Option B is the distributive law of union over intersection, C is a trivial restatement, and D is the associative law for union.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-255-014",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "Let the universal set U = {1,2,3,4,5}, A = {1,2} and B = {2,3,4}. Find (A ∪ B)'.",
+      "options": {
+        "A": "{5}",
+        "B": "{1,3,4,5}",
+        "C": "{2}",
+        "D": "∅"
+      },
+      "correct_option": "A",
+      "answer": "{5}",
+      "explanation": "First compute A ∪ B = {1,2,3,4}. The complement relative to U is the element(s) not in this union, which is {5}. This uses the definition of complement, a component of De Morgan's laws.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-255-015",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "For sets X = {a,b,c} and Y = {b,c,d} (with universal set U = {a,b,c,d}), which of the following shows that the identity (X ∪ Y) ∩ (X ∪ Y') = X holds?",
+      "options": {
+        "A": "Both sides equal {a,b,c}",
+        "B": "Both sides equal {a,b,c,d}",
+        "C": "Both sides equal {b,c,d}",
+        "D": "Both sides equal {a}"
+      },
+      "correct_option": "A",
+      "answer": "Both sides equal {a,b,c}",
+      "explanation": "Y' = U \\ Y = {a}. Then X ∪ Y = {a,b,c,d} and X ∪ Y' = {a,b,c}. Their intersection is {a,b,c}, which is exactly X. Hence the identity is verified algebraically; a Venn diagram would show the same overlap.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-255-016",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand commutative laws",
+      "question": "In a school survey, set A denotes students who play cricket and set B denotes students who play football. Which statement correctly applies the commutative law to these sets?",
+      "options": {
+        "A": "A ∪ B = B ∪ A",
+        "B": "A ∩ (B ∪ C) = (A ∩ B) ∪ C",
+        "C": "A ∪ (B ∩ C) = (A ∪ B) ∩ C",
+        "D": "A ∩ B = B ∪ A"
+      },
+      "correct_option": "A",
+      "answer": "A ∪ B = B ∪ A",
+      "explanation": "The commutative law for union states that the order of the sets does not affect the resulting set of students who play either sport. Hence A ∪ B equals B ∪ A. Options B and C involve three sets and are not commutative laws; D mixes union and intersection incorrectly.",
+      "difficulty": "medium"
+    }
+  ]
+}
