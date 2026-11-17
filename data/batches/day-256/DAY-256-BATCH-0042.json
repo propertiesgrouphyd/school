@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-256-17",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Consider the function f(x)=5. Which statement about this function is false?",
+      "options": {
+        "A": "Its domain is all real numbers.",
+        "B": "Its range is the single value {5}.",
+        "C": "It is not a function because it assigns the same output to different inputs.",
+        "D": "Its graph is a horizontal line y = 5."
+      },
+      "correct_option": "C",
+      "answer": "It is not a function because it assigns the same output to different inputs.",
+      "explanation": "A constant function assigns the same output to every input, which satisfies the definition of a function. Its domain is all real numbers (A) and its range is the single value {5} (B). Its graph is a horizontal line y=5 (D). The statement in option C is false because having the same output for different inputs does not violate the definition of a function; the function is still well‑defined.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-256-18",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "Let f(x)=x (the identity function) and g(x)=2x. What is f(g(3))?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "First compute g(3)=2·3=6. The identity function returns its argument unchanged, so f(g(3))=f(6)=6. Hence option B is correct; the other numbers arise from incorrect compositions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-256-19",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Which polynomial has the same end‑behavior as f(x)= -2x^3 + 4?",
+      "options": {
+        "A": "3x^3 - 5",
+        "B": "-x^4 + 2",
+        "C": "-4x^3 + x",
+        "D": "2x^2 - 1"
+      },
+      "correct_option": "C",
+      "answer": "-4x^3 + x",
+      "explanation": "End‑behavior depends on the highest‑degree term. f(x) has odd degree (3) with a negative leading coefficient, so as x→∞, f(x)→-∞ and as x→-∞, f(x)→∞. Among the choices, only option C has an odd degree (3) with a negative leading coefficient, giving the same end‑behavior. Options A (positive leading coefficient) and B (even degree) differ, and D is quadratic.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-256-20",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "For the rational function f(x)= (x+2)/(x^2-4), the function is undefined at which of the following?",
+      "options": {
+        "A": "x = 2",
+        "B": "x = -2",
+        "C": "x = 2 or x = -2",
+        "D": "No real value makes it undefined"
+      },
+      "correct_option": "C",
+      "answer": "x = 2 or x = -2",
+      "explanation": "The denominator x^2-4 factors to (x-2)(x+2). The function is undefined when the denominator equals zero, i.e., at x=2 and x=-2. Therefore option C is correct; options A and B list only one of the two points, and D is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-256-21",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand modulus function",
+      "question": "The modulus (absolute value) function |x| is defined as:",
+      "options": {
+        "A": "x if x>0, and -x if x≤0",
+        "B": "x^2",
+        "C": "√x",
+        "D": "-x for all x"
+      },
+      "correct_option": "A",
+      "answer": "x if x>0, and -x if x≤0",
+      "explanation": "By definition, |x| equals x when x is non‑negative and equals -x when x is negative (which also gives 0 when x=0). Option A captures this definition. Options B and C describe unrelated functions, and D is incorrect because it would make |x| negative for positive x.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-256-22",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand signum function",
+      "question": "The signum function sgn(x) is defined by which of the following?",
+      "options": {
+        "A": "sgn(x)=1 if x>0, 0 if x=0, -1 if x<0",
+        "B": "sgn(x)=x/|x| for x≠0, and 0 for x=0",
+        "C": "Both A and B are correct",
+        "D": "None of the above"
+      },
+      "correct_option": "C",
+      "answer": "Both A and B are correct",
+      "explanation": "Both definitions are equivalent: the piecewise description in A and the ratio x/|x| (with the convention that sgn(0)=0) in B describe the same signum function. Hence option C is correct; A and B are individually correct, and D is false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-256-23",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand greatest integer function",
+      "question": "The greatest integer function [x] (also called the floor function) satisfies which property?",
+      "options": {
+        "A": "It gives the smallest integer greater than or equal to x.",
+        "B": "It gives the greatest integer less than or equal to x.",
+        "C": "It equals the fractional part of x.",
+        "D": "It is defined only when x is an integer."
+      },
+      "correct_option": "B",
+      "answer": "It gives the greatest integer less than or equal to x.",
+      "explanation": "By definition, [x] = floor(x) is the largest integer that does not exceed x, which is described by option B. Option A describes the ceiling function, C describes the fractional part, and D is incorrect because the floor function is defined for all real numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-256-24",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand exponential and logarithmic functions at the introductory level",
+      "question": "If y = 2^x and y = 8, what is the value of x?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "Since 2^3 = 8, the exponent x must be 3. Therefore option B is correct; the other options correspond to 2^2=4, 2^4=16, and 2^5=32, which do not equal 8.",
+      "difficulty": "easy"
+    }
+  ]
+}

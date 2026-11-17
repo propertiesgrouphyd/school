@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Which of the following best defines a constant function?",
+      "options": {
+        "A": "f(x)=x+2",
+        "B": "f(x)=5",
+        "C": "f(x)=x^2",
+        "D": "f(x)=\\sin x"
+      },
+      "correct_option": "B",
+      "answer": "f(x)=5",
+      "explanation": "A constant function has the same output for every input, i.e., its value does not depend on x. Option B, f(x)=5, gives the same value 5 for all x, whereas the other options change with x.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "If f(x)=x, what is the value of f(-7)?",
+      "options": {
+        "A": "-7",
+        "B": "7",
+        "C": "0",
+        "D": "undefined"
+      },
+      "correct_option": "A",
+      "answer": "-7",
+      "explanation": "An identity function returns the input itself. Substituting x = -7 gives f(-7) = -7. The other options are incorrect because they change the sign or give a value unrelated to the input.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Which of the following is a polynomial function of degree 3?",
+      "options": {
+        "A": "f(x)=x^3+2x+1",
+        "B": "f(x)=2^x",
+        "C": "f(x)=|x|",
+        "D": "f(x)=\\frac{1}{x-1}"
+      },
+      "correct_option": "A",
+      "answer": "f(x)=x^3+2x+1",
+      "explanation": "A polynomial function is an expression involving non‑negative integer powers of x. Option A has the highest power x^3, making it a degree‑3 polynomial. Options B, C, and D are not polynomials (exponential, absolute value, and rational respectively).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "Consider the function f(x)=\\frac{x^2-4}{x-2}, defined for x\\neq2. Which simplified expression correctly describes f(x) and what type of function is it?",
+      "options": {
+        "A": "f(x)=2, a constant function",
+        "B": "f(x)=x+2, a linear function",
+        "C": "f(x)=x^2-2x+? (quadratic)",
+        "D": "f(x)=\\frac{1}{x-2}, a reciprocal function"
+      },
+      "correct_option": "B",
+      "answer": "f(x)=x+2, a linear function",
+      "explanation": "For x\\neq2, (x^2-4) factors to (x-2)(x+2); cancelling (x-2) gives f(x)=x+2, which is a linear (degree‑1) function. Option A is incorrect because the function is not constant, C is algebraically wrong, and D does not represent the simplified form.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand modulus function",
+      "question": "Which statement about the absolute value |x| is true for every real number x?",
+      "options": {
+        "A": "|x| = x for all x",
+        "B": "|x| = -x for all x",
+        "C": "|x| \\ge 0",
+        "D": "|x| can be negative"
+      },
+      "correct_option": "C",
+      "answer": "|x| \\ge 0",
+      "explanation": "The absolute value of any real number is its distance from zero, which is never negative; thus |x| is always greater than or equal to zero. Option A holds only for x\\ge0, B only for x\\le0, and D is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand signum function",
+      "question": "The signum function sgn(x) is defined as sgn(x)=1 if x>0, 0 if x=0, and -1 if x<0. What is sgn(-5)?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "undefined"
+      },
+      "correct_option": "C",
+      "answer": "-1",
+      "explanation": "Since -5 is less than zero, the signum function assigns the value -1. Options A and B correspond to positive and zero inputs, while D is incorrect because the function is defined for all real x.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand greatest integer function",
+      "question": "For any real number x, which of the following relations is always true?",
+      "options": {
+        "A": "\\lfloor x \\rfloor \\le x < \\lceil x \\rceil",
+        "B": "\\lceil x \\rceil \\le x < \\lfloor x \\rfloor",
+        "C": "\\lfloor x \\rfloor = \\lceil x \\rceil",
+        "D": "\\lfloor x \\rfloor > \\lceil x \\rceil"
+      },
+      "correct_option": "A",
+      "answer": "\\lfloor x \\rfloor \\le x < \\lceil x \\rceil",
+      "explanation": "The greatest integer (floor) of x is the largest integer not exceeding x, while the ceiling is the smallest integer not less than x. Therefore the floor is always ≤ x and x is always < ceiling, making statement A universally true. B, C, and D are false in general.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand exponential and logarithmic functions at the introductory level",
+      "question": "If 2^{x}=8, what is the value of \\log_{2}8?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "2^{x}=8 implies x=3 because 2^{3}=8. By definition, \\log_{2}8 is the exponent to which 2 must be raised to obtain 8, which is 3. Options A, C, and D correspond to incorrect exponents.",
+      "difficulty": "hard"
+    }
+  ]
+}
