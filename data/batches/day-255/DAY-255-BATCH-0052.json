@@ -1,0 +1,78 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-255-97",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following statements correctly defines an ordered pair?",
+      "options": {
+        "A": "An ordered pair (a,b) consists of two elements a and b where the order does not matter.",
+        "B": "An ordered pair (a,b) consists of two elements a and b where the first element is a and the second is b, and (a,b) = (b,a) only if a = b.",
+        "C": "An ordered pair (a,b) consists of two elements a and b where the order matters; (a,b) is equal to (c,d) iff a = c and b = d.",
+        "D": "An ordered pair is a set containing a and b."
+      },
+      "correct_option": "C",
+      "answer": "An ordered pair (a,b) consists of two elements a and b where the order matters; (a,b) is equal to (c,d) iff a = c and b = d.",
+      "explanation": "By definition, an ordered pair records elements in a specific sequence. Two ordered pairs (a,b) and (c,d) are equal only when the first components are equal (a=c) and the second components are equal (b=d). Options A and D ignore order, and B adds an unnecessary condition. Hence option C is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-255-98",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "If (3, x) = (3, 5), what is the value of x?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "Any real number",
+        "D": "Undefined"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "Two ordered pairs are equal only when their corresponding components are equal. The first components are both 3, so equality forces the second components to be equal: x = 5. Therefore option B is correct. Options A, C, and D do not satisfy the equality condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-255-99",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Which of the following best describes the Cartesian product A × B of two sets A and B?",
+      "options": {
+        "A": "The set of all unordered pairs {a,b} where a∈A and b∈B.",
+        "B": "The set of all ordered pairs (a,b) where a∈A and b∈B.",
+        "C": "The set of all elements that are common to both A and B.",
+        "D": "The set of all subsets of A∪B."
+      },
+      "correct_option": "B",
+      "answer": "The set of all ordered pairs (a,b) where a∈A and b∈B.",
+      "explanation": "The Cartesian product A × B is defined as { (a,b) | a ∈ A and b ∈ B }. It consists of ordered pairs, preserving the order of the first and second components. Option A describes unordered pairs, C describes intersection, and D describes the power set of the union. Hence B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-255-100",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Let A = {1, 2} and B = {x, y, z}. Which of the following is the Cartesian product A × B?",
+      "options": {
+        "A": "{(1,x), (1,y), (1,z), (2,x), (2,y), (2,z)}",
+        "B": "{(x,1), (y,1), (z,1), (x,2), (y,2), (z,2)}",
+        "C": "{(1,1), (2,2)}",
+        "D": "{(1,x), (2,y)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,x), (1,y), (1,z), (2,x), (2,y), (2,z)}",
+      "explanation": "A × B contains every ordered pair whose first element comes from A and second from B. Pairing 1 with each element of B gives (1,x), (1,y), (1,z); pairing 2 gives (2,x), (2,y), (2,z). Option A lists exactly these six pairs. Option B reverses the order, C lists unrelated pairs, and D omits many required pairs. Therefore A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

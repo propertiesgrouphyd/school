@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0051",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "Let A = {1,2,3} and B = {x,y}. Let C = {a,b,c,d}. Which of the following statements about the cardinalities of A×B and B×C is true?",
+      "options": {
+        "A": "|A×B| = |B×C|",
+        "B": "|A×B| > |B×C|",
+        "C": "|A×B| < |B×C|",
+        "D": "Cannot be determined from the given information"
+      },
+      "correct_option": "C",
+      "answer": "|A×B| < |B×C|",
+      "explanation": "The cardinality of a Cartesian product equals the product of the cardinalities of the two sets. |A| = 3, |B| = 2, so |A×B| = 3×2 = 6. |C| = 4, so |B×C| = 2×4 = 8. Hence 6 < 8, making statement C correct. The other options are false because the cardinalities are not equal, A×B is not larger, and we can determine the sizes directly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "In the xy‑plane, the set D = { (x, y) | x ∈ {1,2}, y ∈ {3,4,5} } is plotted. How many points will appear and which description best matches the geometric arrangement?",
+      "options": {
+        "A": "5 points forming a straight line",
+        "B": "6 points forming a rectangle",
+        "C": "6 points forming a grid of two columns",
+        "D": "5 points forming a diagonal"
+      },
+      "correct_option": "C",
+      "answer": "6 points forming a grid of two columns",
+      "explanation": "The Cartesian product has |{1,2}| × |{3,4,5}| = 2 × 3 = 6 ordered pairs. Plotting them gives points (1,3), (1,4), (1,5) in the first column and (2,3), (2,4), (2,5) in the second column – a 2‑by‑3 grid. Option C correctly describes both the number and the shape. Options A, B, and D misstate either the count or the geometric pattern.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following correctly defines an ordered pair?",
+      "options": {
+        "A": "A set of two elements where order does not matter",
+        "B": "A tuple (a, b) where the first element is distinguished from the second",
+        "C": "A collection of elements with repetition allowed",
+        "D": "A pair of numbers that are always equal"
+      },
+      "correct_option": "B",
+      "answer": "A tuple (a, b) where the first element is distinguished from the second",
+      "explanation": "An ordered pair is written as (a, b); the position of each component matters, so (a, b) ≠ (b, a) unless a = b. Option B captures this definition. Option A describes an unordered set, C is vague, and D is incorrect because the components need not be equal.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "If (3, 5) = (x, y), which of the following must be true?",
+      "options": {
+        "A": "x = 5 and y = 3",
+        "B": "x = 3 and y = 5",
+        "C": "x + y = 8",
+        "D": "x - y = -2"
+      },
+      "correct_option": "B",
+      "answer": "x = 3 and y = 5",
+      "explanation": "Two ordered pairs are equal only when their corresponding components are equal: the first components must match and the second components must match. Hence x must equal 3 and y must equal 5. Options A swaps the components, while C and D are consequences of the numbers but are not required for equality.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "The Cartesian product of sets A and B, denoted A×B, is:",
+      "options": {
+        "A": "The set of all unordered pairs {a, b} with a ∈ A, b ∈ B",
+        "B": "The set of all ordered pairs (a, b) with a ∈ A, b ∈ B",
+        "C": "The union of A and B",
+        "D": "The intersection of A and B"
+      },
+      "correct_option": "B",
+      "answer": "The set of all ordered pairs (a, b) with a ∈ A, b ∈ B",
+      "explanation": "By definition, A×B = { (a, b) | a ∈ A and b ∈ B }. The order matters, distinguishing it from an unordered pair or set operations like union or intersection. Therefore option B is correct; the others describe different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Let A = {0, 1} and B = {2, 3, 4}. What is A×B?",
+      "options": {
+        "A": "{(0,2), (0,3), (0,4), (1,2), (1,3), (1,4)}",
+        "B": "{(2,0), (3,0), (4,0), (2,1), (3,1), (4,1)}",
+        "C": "{(0,2), (1,3), (0,4)}",
+        "D": "{(2,0), (3,1)}"
+      },
+      "correct_option": "A",
+      "answer": "{(0,2), (0,3), (0,4), (1,2), (1,3), (1,4)}",
+      "explanation": "A×B consists of every ordered pair where the first component comes from A and the second from B. With |A| = 2 and |B| = 3, there are 2×3 = 6 pairs, listed in option A. Option B reverses the order, C omits several pairs, and D is far incomplete.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If X = {a, b, c, d} and Y = {p, q}, what is the cardinality of X×Y?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "The cardinality of a Cartesian product equals the product of the cardinalities of the individual sets. |X| = 4, |Y| = 2, so |X×Y| = 4 × 2 = 8. Hence option C is correct; the other numbers are unrelated to the product rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "A teacher wants to represent the set Z = { (i, j) | i ∈ {1,2,3}, j ∈ {1,2} } on a grid. How many points will appear and what shape will they form?",
+      "options": {
+        "A": "5 points forming an L shape",
+        "B": "6 points forming a 3×2 rectangular grid",
+        "C": "6 points forming a diagonal line",
+        "D": "4 points forming a square"
+      },
+      "correct_option": "B",
+      "answer": "6 points forming a 3×2 rectangular grid",
+      "explanation": "The set Z has |{1,2,3}| = 3 choices for i and |{1,2}| = 2 choices for j, giving 3×2 = 6 ordered pairs. Plotted on the xy‑plane they occupy three columns (i = 1,2,3) and two rows (j = 1,2), forming a 3‑by‑2 rectangular array of points. Option B correctly states both the count and the geometric arrangement; the other options misstate either the number or the shape.",
+      "difficulty": "medium"
+    }
+  ]
+}
