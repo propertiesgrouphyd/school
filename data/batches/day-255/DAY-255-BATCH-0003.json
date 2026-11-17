@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-255-17",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Let U = {1,2,3,4,5,6,7}. If A = {1,2,3,5} and B = {3,4,5,6}, what is the set A − B?",
+      "options": {
+        "A": "{1,2}",
+        "B": "{3,5}",
+        "C": "{1,2,3,5}",
+        "D": "{1,2,3,4,5,6,7}"
+      },
+      "correct_option": "A",
+      "answer": "{1,2}",
+      "explanation": "A − B consists of elements that belong to A but not to B. From A = {1,2,3,5}, removing the elements that are also in B ({3,5}) leaves {1,2}. The other options either include elements of B or all elements of U.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-255-18",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "In set theory, the complement of a set A (denoted A') with respect to a universal set U is:",
+      "options": {
+        "A": "All elements that belong to both A and U",
+        "B": "All elements of U that are not in A",
+        "C": "All elements that are in A but not in U",
+        "D": "The empty set"
+      },
+      "correct_option": "B",
+      "answer": "All elements of U that are not in A",
+      "explanation": "The complement A' contains precisely those elements of the universal set U that are absent from A. Option B states this definition. Option A describes intersection, C is impossible because A is already a subset of U, and D is only true when A = U.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-255-19",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "Let U = {1,2,3,4,5,6,7,8,9,10}. Set A = {1,2,3,4} and set B = {1,2,3,4,5,6,7,8,9}. Which statement correctly compares their complements?",
+      "options": {
+        "A": "Complement of A has 6 elements, complement of B has 1 element",
+        "B": "Complement of A has 4 elements, complement of B has 2 elements",
+        "C": "Both complements have the same number of elements",
+        "D": "Complement of A has 1 element, complement of B has 6 elements"
+      },
+      "correct_option": "A",
+      "answer": "Complement of A has 6 elements, complement of B has 1 element",
+      "explanation": "A' = U \\ A = {5,6,7,8,9,10} → 6 elements. B' = U \\ B = {10} → 1 element. Option A states these counts correctly. The other options give incorrect cardinalities.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-255-20",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Which of the following expressions is equivalent to (A − B) ∪ (B − A)?",
+      "options": {
+        "A": "(A ∪ B) − (A ∩ B)",
+        "B": "(A ∩ B)′",
+        "C": "A′ ∪ B′",
+        "D": "(A ∪ B)′"
+      },
+      "correct_option": "A",
+      "answer": "(A ∪ B) − (A ∩ B)",
+      "explanation": "(A − B) ∪ (B − A) is the symmetric difference of A and B, which equals the union of A and B minus their intersection. Option A expresses exactly that. Options B, C, and D represent different operations (complement of intersection, union of complements, complement of union).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-255-21",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "The set difference A − B consists of:",
+      "options": {
+        "A": "Elements that are in both A and B",
+        "B": "Elements that are in A but not in B",
+        "C": "Elements that are in B but not in A",
+        "D": "All elements of the universal set"
+      },
+      "correct_option": "B",
+      "answer": "Elements that are in A but not in B",
+      "explanation": "By definition, A − B = {x | x ∈ A and x ∉ B}. Hence it contains exactly those elements belonging to A while excluding any that also belong to B. Option B captures this definition; the other options describe intersection, reverse difference, or the universal set.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-255-22",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Given U = {a,b,c,d}, A = {a,b,c} and B = {c,d}, what is A − B?",
+      "options": {
+        "A": "{a,b}",
+        "B": "{c,d}",
+        "C": "{a,b,c,d}",
+        "D": "{b,c}"
+      },
+      "correct_option": "A",
+      "answer": "{a,b}",
+      "explanation": "A − B removes any element of B from A. Since B contains c (which is also in A) and d (not in A), we delete c from A, leaving {a,b}. Option A is correct; the others either retain c or add elements not in A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-255-23",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "Which statement correctly distinguishes the complement of a set A from the difference A − B?",
+      "options": {
+        "A": "Complement of A is taken with respect to a universal set, while A − B removes elements of B from A",
+        "B": "Both operations produce the same set",
+        "C": "Complement of A removes elements of B from A",
+        "D": "Difference A − B is taken with respect to the universal set"
+      },
+      "correct_option": "A",
+      "answer": "Complement of A is taken with respect to a universal set, while A − B removes elements of B from A",
+      "explanation": "The complement A' = U \\ A depends on the universal set U. The difference A − B = {x ∈ A | x ∉ B} depends on another specific set B. Hence option A correctly highlights the distinction. Options B, C, and D conflate the two concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-255-24",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "If the universal set U = {1,2,3,4,5} and C = {2,4}, what is the complement of C?",
+      "options": {
+        "A": "{1,3,5}",
+        "B": "{2,4}",
+        "C": "{1,2,3,4,5}",
+        "D": "{}"
+      },
+      "correct_option": "A",
+      "answer": "{1,3,5}",
+      "explanation": "The complement C' consists of all elements of U that are not in C. Removing 2 and 4 from U leaves {1,3,5}. Option A matches this set; the other options either repeat C, give the whole universal set, or the empty set.",
+      "difficulty": "easy"
+    }
+  ]
+}

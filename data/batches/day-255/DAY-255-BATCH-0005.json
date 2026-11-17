@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-255-33",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "In set theory, what is the complement of a set A with respect to a universal set U?",
+      "options": {
+        "A": "The set of elements that belong to both A and U",
+        "B": "The set of elements that belong to U but not to A",
+        "C": "The set of elements that belong to A but not to U",
+        "D": "The empty set"
+      },
+      "correct_option": "B",
+      "answer": "The set of elements that belong to U but not to A",
+      "explanation": "The complement of A (denoted A') consists of all elements in the universal set U that are not in A. Option B states exactly this. Option A describes the intersection, C is impossible because A is a subset of U, and D is only true when A = U.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-255-34",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "Let the universal set be U = {1, 2, 3, 4, 5, 6} and A = {2, 4, 6}. What is the complement of A?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{2, 4, 6}",
+        "C": "{1, 3, 5}",
+        "D": "{1, 2, 3, 4, 5}"
+      },
+      "correct_option": "C",
+      "answer": "{1, 3, 5}",
+      "explanation": "The complement A' contains all elements of U that are not in A. Removing 2, 4, 6 from U leaves {1, 3, 5}. Options A and D are too large, B is the original set, so C is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-255-35",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "For any two subsets A and B of a universal set U, which of the following identities is always true?",
+      "options": {
+        "A": "(A ∪ B)' = A' ∪ B'",
+        "B": "(A ∩ B)' = A' ∪ B'",
+        "C": "(A ∪ B)' = A' ∩ B'",
+        "D": "(A ∩ B)' = A' ∩ B'"
+      },
+      "correct_option": "C",
+      "answer": "(A ∪ B)' = A' ∩ B'",
+      "explanation": "De Morgan’s law states that the complement of a union equals the intersection of the complements, i.e., (A ∪ B)' = A' ∩ B'. Option C matches this law. Option A is the opposite of De Morgan, B is correct for intersection, and D is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-255-36",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "In a school, let S be the set of all students and P be the set of students who play the piano. What does the set expression S – P represent?",
+      "options": {
+        "A": "Students who play the piano",
+        "B": "Students who do not play the piano",
+        "C": "All students in the school",
+        "D": "No students"
+      },
+      "correct_option": "B",
+      "answer": "Students who do not play the piano",
+      "explanation": "The difference S – P consists of elements that are in S but not in P. Hence it represents students who are in the school but are not piano players. Option B is correct; A describes P, C is S, and D is empty set.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-255-37",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "If A = {1, 2, 3, 4} and B = {3, 5}, what is the set A − B?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5}",
+        "B": "{1, 2, 4}",
+        "C": "{3, 5}",
+        "D": "{1, 2, 3, 4}"
+      },
+      "correct_option": "B",
+      "answer": "{1, 2, 4}",
+      "explanation": "A − B contains elements that are in A but not in B. Removing 3 (the only common element) from A leaves {1, 2, 4}. Option A incorrectly adds elements, C is B itself, and D is the original set A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-255-38",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "The universal set is U = {a, b, c, d}. If the complement of a set X is {a, c}, which of the following could be X?",
+      "options": {
+        "A": "{b, d}",
+        "B": "{a, c}",
+        "C": "{a, b, c, d}",
+        "D": "{}"
+      },
+      "correct_option": "A",
+      "answer": "{b, d}",
+      "explanation": "The complement X' = {a, c} means X consists of the elements of U that are not in X', i.e., {b, d}. Option A matches this. Option B is the complement itself, C would have an empty complement, and D would have complement U.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-255-39",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "Let U = {1,2,3,4,5,6,7,8}, A = {1,2,3}, and B = {5,6}. Which statement about complements is true?",
+      "options": {
+        "A": "(A ∪ B)' = A' ∩ B'",
+        "B": "(A ∩ B)' = A' ∪ B'",
+        "C": "(A ∪ B)' = A' ∪ B'",
+        "D": "(A ∩ B)' = A' ∩ B'"
+      },
+      "correct_option": "A",
+      "answer": "(A ∪ B)' = A' ∩ B'",
+      "explanation": "De Morgan’s law gives (A ∪ B)' = A' ∩ B', which is option A. Option B is also a De Morgan identity but it concerns intersection, not the one asked. Options C and D are incorrect forms of the law.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-255-40",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Simplify the expression (A ∪ (B ∩ A')) ∪ (A ∩ B') using set identities.",
+      "options": {
+        "A": "A ∪ B",
+        "B": "A",
+        "C": "B",
+        "D": "U"
+      },
+      "correct_option": "A",
+      "answer": "A ∪ B",
+      "explanation": "First, B ∩ A' = B \\ A. Then A ∪ (B ∩ A') = (A ∪ B) ∩ (A ∪ A') = (A ∪ B) ∩ U = A ∪ B. Adding (A ∩ B') does not change the union because A ∩ B' ⊆ A ∪ B. Hence the whole expression simplifies to A ∪ B, which is option A. The other options are too restrictive or overly broad.",
+      "difficulty": "hard"
+    }
+  ]
+}

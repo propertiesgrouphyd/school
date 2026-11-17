@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-255-1",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "What is the definition of the difference of two sets A and B?",
+      "options": {
+        "A": "The set of elements that belong to A but not to B",
+        "B": "The set of elements that belong to both A and B",
+        "C": "The set of elements that belong to either A or B or both",
+        "D": "The set of elements that belong to neither A nor B"
+      },
+      "correct_option": "A",
+      "answer": "The set of elements that belong to A but not to B",
+      "explanation": "The difference A\\B consists exactly of those elements that are in A and are not in B. Option B describes intersection, C describes union, and D describes the complement of the union, not the set difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-255-2",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Let A = {1,2,3,4} and B = {3,5}. What is A \\ B?",
+      "options": {
+        "A": "{1,2,4}",
+        "B": "{3,5}",
+        "C": "{1,2,3,4,5}",
+        "D": "\\{\\}"
+      },
+      "correct_option": "A",
+      "answer": "{1,2,4}",
+      "explanation": "A \\ B contains elements of A that are not in B. Removing 3 (which is in B) from A leaves {1,2,4}. The other options either include elements of B or list all elements or the empty set incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-255-3",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "In the context of a universal set U, how is the complement of a set A defined?",
+      "options": {
+        "A": "All elements of U that are not in A",
+        "B": "All elements that are common to A and its complement",
+        "C": "All elements that belong to both A and U",
+        "D": "All elements that belong to A only"
+      },
+      "correct_option": "A",
+      "answer": "All elements of U that are not in A",
+      "explanation": "The complement A' (or A^c) consists of every element of the universal set U that does not belong to A. Option B describes an impossible intersection, C is just A itself, and D repeats the definition of A, not its complement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-255-4",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "If the universal set U = {a,b,c,d,e} and A = {b,d}, what is the complement of A?",
+      "options": {
+        "A": "{a,c,e}",
+        "B": "{b,d}",
+        "C": "{a,b,c,d,e}",
+        "D": "\\{\\}"
+      },
+      "correct_option": "A",
+      "answer": "{a,c,e}",
+      "explanation": "The complement of A consists of all elements in U that are not in A. Removing b and d from U leaves {a,c,e}. Options B is A itself, C is the universal set, and D is the empty set, none of which are correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-255-5",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Given A = {1,2,3} and B = {3,4}, simplify the expression (A \\ B) ∪ (A ∩ B) using set identities.",
+      "options": {
+        "A": "{1,2,3}",
+        "B": "{1,2}",
+        "C": "{3,4}",
+        "D": "\\{\\}"
+      },
+      "correct_option": "A",
+      "answer": "{1,2,3}",
+      "explanation": "By the identity (A \\ B) ∪ (A ∩ B) = A, the expression simplifies directly to A, which is {1,2,3}. Option B omits the element 3, C is unrelated, and D is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-255-6",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "In a school, 30 students play cricket and 12 of them also play football. Which set describes the students who play cricket but not football?",
+      "options": {
+        "A": "Students who play cricket only",
+        "B": "Students who play football only",
+        "C": "Students who play both cricket and football",
+        "D": "Students who play neither sport"
+      },
+      "correct_option": "A",
+      "answer": "Students who play cricket only",
+      "explanation": "The difference of the set of cricket players and the set of football players gives the cricket‑only players. Option B describes the opposite difference, C is the intersection, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-255-7",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Let A = {x, y, z} and B = {y}. Which of the following correctly represents A \\ B?",
+      "options": {
+        "A": "{y}",
+        "B": "{x, z}",
+        "C": "{x, y, z}",
+        "D": "\\{\\}"
+      },
+      "correct_option": "B",
+      "answer": "{x, z}",
+      "explanation": "A \\ B contains elements of A that are not in B, so we remove y, leaving {x, z}. Option A mistakenly gives B itself, C is the original set A, and D would be correct only if B contained all elements of A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-255-8",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "If the universal set U = {1,2,3,4,5,6} and C = {2,4,6}, which statement about the complement of C is true?",
+      "options": {
+        "A": "It contains only odd numbers",
+        "B": "It contains the elements of U that are not in C",
+        "C": "It is equal to C",
+        "D": "It is the empty set"
+      },
+      "correct_option": "B",
+      "answer": "It contains the elements of U that are not in C",
+      "explanation": "The complement of C consists of all elements of U that are not members of C, i.e., {1,3,5}. Option A is true in this particular case but is not the definition; the definition is given in B. Options C and D are incorrect by definition.",
+      "difficulty": "medium"
+    }
+  ]
+}
