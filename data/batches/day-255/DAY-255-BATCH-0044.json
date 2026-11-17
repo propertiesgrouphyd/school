@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Which of the following statements correctly defines the Cartesian product of two sets A and B?",
+      "options": {
+        "A": "The set of all ordered pairs (a, b) where a belongs to A and b belongs to B.",
+        "B": "The set of all unordered pairs {a, b} where a belongs to A and b belongs to B.",
+        "C": "The set of all elements that are common to both A and B.",
+        "D": "The set of all subsets of A ∪ B."
+      },
+      "correct_option": "A",
+      "answer": "The set of all ordered pairs (a, b) where a belongs to A and b belongs to B.",
+      "explanation": "The Cartesian product A×B is defined as {(a,b) | a∈A and b∈B}. It consists of ordered pairs, so the order matters. Option B describes unordered pairs, which is not the Cartesian product. Option C describes the intersection, and Option D describes the power set of the union. Hence, option A is the correct definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Let A = {1, 2} and B = {x, y}. Which of the following is the Cartesian product A \\u00d7 B?",
+      "options": {
+        "A": "{(1, x), (1, y), (2, x), (2, y)}",
+        "B": "{(x, 1), (y, 1), (x, 2), (y, 2)}",
+        "C": "{1, 2, x, y}",
+        "D": "{(1, 2), (x, y)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1, x), (1, y), (2, x), (2, y)}",
+      "explanation": "A \\u00d7 B consists of all ordered pairs with the first component from A and the second from B. Thus we pair each element of A with each element of B, giving (1,x), (1,y), (2,x), (2,y). Option B reverses the order, which is B \\u00d7 A. Options C and D are not sets of ordered pairs. Hence A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If set X has 3 elements and set Y has 5 elements, what is the cardinality of the Cartesian product X \\u00d7 Y?",
+      "options": {
+        "A": "8",
+        "B": "15",
+        "C": "5",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "answer": "15",
+      "explanation": "The cardinality of a Cartesian product equals the product of the cardinalities of the individual sets: |X\\u00d7Y| = |X| \\u00d7 |Y| = 3 \\u00d7 5 = 15. Therefore option B is correct; the other numbers do not represent this product.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Set M = {0,1,2} represents possible x-coordinates and set N = {0,1} represents possible y-coordinates. Which of the following best describes the geometric representation of M \\u00d7 N on the coordinate plane?",
+      "options": {
+        "A": "Three points lying on the x-axis.",
+        "B": "Six points forming a rectangular grid with x-coordinates 0,1,2 and y-coordinates 0,1.",
+        "C": "A single line segment from (0,0) to (2,1).",
+        "D": "All points inside the triangle with vertices (0,0), (2,0), (0,1)."
+      },
+      "correct_option": "B",
+      "answer": "Six points forming a rectangular grid with x-coordinates 0,1,2 and y-coordinates 0,1.",
+      "explanation": "M \\u00d7 N consists of all ordered pairs (x,y) where x\\u2208M and y\\u2208N. Plotting these gives points (0,0),(0,1),(1,0),(1,1),(2,0),(2,1) – a 3\\u00d71 rectangular grid. Option A omits the y-coordinate variation, C describes a line, and D describes an area, none of which match the discrete set of points. Hence B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following statements correctly describes an ordered pair (a, b)?",
+      "options": {
+        "A": "It is a set containing a and b, where the order does not matter.",
+        "B": "It is a pair of elements where (a, b) = (b, a) for all a, b.",
+        "C": "It is a pair of elements where the first component a is distinguished from the second component b, so (a, b) \\u2260 (b, a) unless a = b.",
+        "D": "It is a collection of all possible combinations of a and b."
+      },
+      "correct_option": "C",
+      "answer": "It is a pair of elements where the first component a is distinguished from the second component b, so (a, b) \\u2260 (b, a) unless a = b.",
+      "explanation": "An ordered pair records elements in a specific sequence; (a,b) equals (b,a) only when a=b. Option A describes an unordered set, B states a false equality, and D is vague. Therefore C accurately defines an ordered pair.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "Given two ordered pairs (p, q) and (r, s), which condition must be satisfied for them to be equal?",
+      "options": {
+        "A": "p = s and q = r",
+        "B": "p = r and q = s",
+        "C": "p + q = r + s",
+        "D": "p - q = r - s"
+      },
+      "correct_option": "B",
+      "answer": "p = r and q = s",
+      "explanation": "Two ordered pairs are equal exactly when their corresponding components are equal: the first components match and the second components match. Option B states this condition. Options A, C, and D involve unrelated relationships and do not guarantee equality of ordered pairs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Consider the following two statements about two sets A and B:\n\n1) The Cartesian product A \\u00d7 B is the set of all ordered pairs (a, b) with a \\u2208 A and b \\u2208 B.\n2) The cross product A \\u00d7 B is the set of all unordered pairs {a, b} with a \\u2208 A and b \\u2208 B.\n\nWhich statement is correct?",
+      "options": {
+        "A": "Both statements are correct.",
+        "B": "Only statement 1 is correct.",
+        "C": "Only statement 2 is correct.",
+        "D": "Neither statement is correct."
+      },
+      "correct_option": "B",
+      "answer": "Only statement 1 is correct.",
+      "explanation": "Statement 1 correctly defines the Cartesian (or cross) product as a set of ordered pairs. Statement 2 incorrectly describes the pairs as unordered; unordered pairs are not part of the Cartesian product definition. Hence only statement 1 is correct, making option B the right choice.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "In a competitive exam, you are given sets P = {1, 2, 3} and Q = {a, b}. Which of the following lists correctly enumerates the Cartesian product P \\u00d7 Q?",
+      "options": {
+        "A": "{(1, a), (2, a), (3, a), (1, b), (2, b), (3, b)}",
+        "B": "{(a, 1), (a, 2), (a, 3), (b, 1), (b, 2), (b, 3)}",
+        "C": "{(1, a), (2, b), (3, a), (1, b), (2, a), (3, b)}",
+        "D": "{(1, a), (2, b), (3, c)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1, a), (2, a), (3, a), (1, b), (2, b), (3, b)}",
+      "explanation": "P \\u00d7 Q consists of all ordered pairs with the first element from P and the second from Q. Listing them in any order yields the six pairs shown in option A. Option B swaps the order of components (Q \\u00d7 P). Option C mixes the pairing incorrectly, and option D includes an element c not in Q. Thus A is the correct enumeration.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "Set A has 3 elements and set B has 4 elements. What is the cardinality of the Cartesian product A×B?",
+      "options": {
+        "A": "7",
+        "B": "12",
+        "C": "9",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "The cardinality of A×B equals |A|·|B|. Here |A|=3 and |B|=4, so |A×B|=3×4=12. Hence option B is correct; the other numbers do not represent the product of the set sizes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Which description correctly represents the Cartesian product A×B on the coordinate plane?",
+      "options": {
+        "A": "A set of points where the first coordinate is taken from A and the second coordinate from B",
+        "B": "A single straight line joining the elements of A and B",
+        "C": "A circle that contains all elements of A and B",
+        "D": "A set of ordered triples"
+      },
+      "correct_option": "A",
+      "answer": "A set of points where the first coordinate is taken from A and the second coordinate from B",
+      "explanation": "In the plane, each ordered pair (a,b) with a∈A and b∈B is plotted as a point whose x‑coordinate is a and y‑coordinate is b. Thus the product appears as a collection of such points, not as a line, circle, or triple.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "An ordered pair (a,b) is defined as which of the following sets?",
+      "options": {
+        "A": "{a,b}",
+        "B": "{{a},{a,b}}",
+        "C": "(a,b) is the same as (b,a)",
+        "D": "a+b"
+      },
+      "correct_option": "B",
+      "answer": "{{a},{a,b}}",
+      "explanation": "By Kuratowski's definition, (a,b) = {{a},{a,b}}. This construction ensures that order matters, distinguishing (a,b) from (b,a). Option A ignores order, C is false, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "Consider the ordered pairs (2,5), (2,5) and (5,2). Which statement is true?",
+      "options": {
+        "A": "All three ordered pairs are equal",
+        "B": "The first two ordered pairs are equal but not the third",
+        "C": "The first and third ordered pairs are equal",
+        "D": "None of the ordered pairs are equal"
+      },
+      "correct_option": "B",
+      "answer": "The first two ordered pairs are equal but not the third",
+      "explanation": "Two ordered pairs are equal only when both their first and second components match respectively. (2,5) = (2,5) is true, but (2,5) ≠ (5,2) because the components are swapped. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "If A = {1,2} and B = {x,y,z}, which set is the Cartesian product A×B?",
+      "options": {
+        "A": "{(1,x),(1,y),(1,z),(2,x),(2,y),(2,z)}",
+        "B": "{(x,1),(y,1),(z,1),(x,2),(y,2),(z,2)}",
+        "C": "{(1,2),(x,y),(z,1)}",
+        "D": "{(1,x,y),(2,z)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,x),(1,y),(1,z),(2,x),(2,y),(2,z)}",
+      "explanation": "A×B consists of all ordered pairs where the first element comes from A and the second from B. Option A lists exactly those six pairs; the others either reverse the order or include invalid elements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "A school club has 3 presidents (P1,P2,P3) and 2 secretaries (S1,S2). How many ordered pairs (president, secretary) can be formed?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "Each president can be paired with each secretary. Number of pairs = 3 × 2 = 6, which corresponds to option B. The other numbers do not reflect the product of the two counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "Set X contains 5 elements and set Y is empty. What is the cardinality of X×Y?",
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "5!",
+        "D": "Undefined"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "If either set is empty, the Cartesian product contains no ordered pairs, so its cardinality is 0. Options B, C, and D are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Which diagram correctly represents the Cartesian product of A = {1,2} and B = {a,b} on the coordinate plane?",
+      "options": {
+        "A": "Points (1,a),(1,b),(2,a),(2,b)",
+        "B": "Points (a,1),(b,1),(a,2),(b,2)",
+        "C": "Points (1,1),(2,2)",
+        "D": "A line joining (1,a) to (2,b)"
+      },
+      "correct_option": "A",
+      "answer": "Points (1,a),(1,b),(2,a),(2,b)",
+      "explanation": "In A×B the first coordinate comes from A and the second from B, giving the four points listed in option A. Option B swaps the order, C omits many points, and D misrepresents the set as a line.",
+      "difficulty": "medium"
+    }
+  ]
+}

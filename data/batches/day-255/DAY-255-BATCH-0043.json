@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-025",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following correctly represents the ordered pair of the elements a = 5 and b = 8?",
+      "options": {
+        "A": "(5, 8)",
+        "B": "[5, 8]",
+        "C": "{5, 8}",
+        "D": "(8, 5)"
+      },
+      "correct_option": "A",
+      "answer": "(5, 8)",
+      "explanation": "An ordered pair is written in parentheses with the first component listed first and the second component listed second. Thus (5, 8) correctly records a = 5 as the first element and b = 8 as the second. Option B uses brackets, C uses a set (order ignored), and D reverses the order, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-026",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "If (3, 7) = (a, b), what are the values of a and b?",
+      "options": {
+        "A": "a = 3, b = 7",
+        "B": "a = 7, b = 3",
+        "C": "a = 3, b = 3",
+        "D": "a = 7, b = 7"
+      },
+      "correct_option": "A",
+      "answer": "a = 3, b = 7",
+      "explanation": "Two ordered pairs are equal only when their corresponding components are equal: first with first and second with second. Therefore a must equal 3 and b must equal 7. Options B, C, and D violate this condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-027",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Which of the following statements about the Cartesian product A × B is FALSE?",
+      "options": {
+        "A": "If A = {1,2} and B = {x,y}, then A × B = {(1,x),(1,y),(2,x),(2,y)}.",
+        "B": "In A × B, the first element of each ordered pair comes from set B and the second from set A.",
+        "C": "The cardinality of A × B equals |A|·|B|.",
+        "D": "Each element of A × B is an ordered pair."
+      },
+      "correct_option": "B",
+      "answer": "In A × B, the first element of each ordered pair comes from set B and the second from set A.",
+      "explanation": "By definition, A × B consists of ordered pairs (a, b) where the first component a is taken from A and the second component b from B. Statement B reverses this order, making it false. Statements A, C, and D correctly describe the Cartesian product.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-028",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Given sets X = {0, 1} and Y = {a, b, c}, what is X × Y?",
+      "options": {
+        "A": "{(0, a), (0, b), (0, c), (1, a), (1, b), (1, c)}",
+        "B": "{(a, 0), (b, 0), (c, 0), (a, 1), (b, 1), (c, 1)}",
+        "C": "{0, 1, a, b, c}",
+        "D": "{(0, 1), (a, b), (c, 0)}"
+      },
+      "correct_option": "A",
+      "answer": "{(0, a), (0, b), (0, c), (1, a), (1, b), (1, c)}",
+      "explanation": "The Cartesian product X × Y consists of all ordered pairs where the first component is from X and the second from Y. Pairing each element of X with each element of Y yields the six pairs listed in option A. Options B swaps the order, C is just a union, and D does not follow the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-029",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "Let A = {1,2,3,4} and B = {x,y}. Let C = {p,q} and D = {α,β,γ}. Which statement about the cardinalities of the Cartesian products is correct?",
+      "options": {
+        "A": "|A × B| = |C × D|",
+        "B": "|A × B| > |C × D|",
+        "C": "|A × B| < |C × D|",
+        "D": "The cardinalities cannot be compared without more information."
+      },
+      "correct_option": "B",
+      "answer": "|A × B| > |C × D|",
+      "explanation": "Cardinality of a Cartesian product equals the product of the cardinalities of the individual sets. |A| = 4, |B| = 2, so |A × B| = 8. |C| = 2, |D| = 3, so |C × D| = 6. Hence 8 > 6, making option B correct. Options A and C are false, and D is unnecessary because we have enough data.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-030",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "In the xy‑plane, the set S = { (x, y) | x ∈ {1,2}, y ∈ {3,4,5} } is plotted. How many points appear and which geometric description best fits the plot?",
+      "options": {
+        "A": "Six points forming a rectangle",
+        "B": "Six points forming two vertical line segments",
+        "C": "Six points forming a horizontal line segment",
+        "D": "Six points scattered randomly"
+      },
+      "correct_option": "A",
+      "answer": "Six points forming a rectangle",
+      "explanation": "The set S contains all ordered pairs with x = 1 or 2 and y = 3, 4, or 5, giving the six points (1,3),(1,4),(1,5),(2,3),(2,4),(2,5). Plotted on the coordinate plane they occupy the corners of a 2 × 3 rectangular grid. Hence option A correctly describes the arrangement. Options B and C describe different shapes, and D ignores the regular pattern.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-031",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "An ordered pair (a, b) is best defined as:",
+      "options": {
+        "A": "A set containing the elements a and b",
+        "B": "A pair where the order of the elements does not matter",
+        "C": "A 2‑tuple where the first component is a and the second component is b",
+        "D": "A sequence of any length that includes a and b"
+      },
+      "correct_option": "C",
+      "answer": "A 2‑tuple where the first component is a and the second component is b",
+      "explanation": "By definition, an ordered pair records two elements in a specific order; it is a 2‑tuple (a, b) with a as the first component and b as the second. Option A describes a set (order ignored), B contradicts the notion of order, and D is too vague.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-032",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "Two ordered pairs (p, q) and (r, s) are equal if and only if:",
+      "options": {
+        "A": "p = s and q = r",
+        "B": "p = r and q = s",
+        "C": "p = q and r = s",
+        "D": "p + q = r + s"
+      },
+      "correct_option": "B",
+      "answer": "p = r and q = s",
+      "explanation": "Equality of ordered pairs requires equality of corresponding components: the first components must be equal and the second components must be equal. Hence (p, q) = (r, s) ⇔ p = r and q = s. Options A swaps components, C imposes unrelated equalities, and D uses a sum condition, none of which guarantee equality of ordered pairs.",
+      "difficulty": "easy"
+    }
+  ]
+}

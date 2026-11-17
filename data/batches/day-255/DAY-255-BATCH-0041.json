@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0041",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Which of the following statements correctly defines the Cartesian product of two sets A and B?",
+      "options": {
+        "A": "The set of all unordered pairs {a, b} where a ∈ A and b ∈ B.",
+        "B": "The set of all ordered pairs (a, b) where a ∈ A and b ∈ B.",
+        "C": "The set of all sums a + b where a ∈ A and b ∈ B.",
+        "D": "The set of all subsets of A ∪ B."
+      },
+      "correct_option": "B",
+      "answer": "The set of all ordered pairs (a, b) where a ∈ A and b ∈ B.",
+      "explanation": "The Cartesian product A × B is defined as the collection of every possible ordered pair (a, b) with a taken from A and b taken from B. Option B states exactly this. Option A ignores order, option C describes sums, and option D describes subsets, none of which match the definition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Let A = {1, 2, 3} and B = {x, y}. Which set correctly lists the Cartesian product A × B?",
+      "options": {
+        "A": "{(1, x), (1, y), (2, x), (2, y)}",
+        "B": "{(1, x), (1, y), (2, x), (2, y), (3, x), (3, y)}",
+        "C": "{(x, 1), (y, 1), (x, 2), (y, 2), (x, 3), (y, 3)}",
+        "D": "{(1, 1), (2, 2), (3, 3)}"
+      },
+      "correct_option": "B",
+      "answer": "{(1, x), (1, y), (2, x), (2, y), (3, x), (3, y)}",
+      "explanation": "A × B contains every ordered pair whose first component comes from A and second from B. With three elements in A and two in B, there are 3 × 2 = 6 pairs, exactly those listed in option B. Option A omits the pairs with 3, option C reverses the order, and option D lists unrelated pairs.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If |A| = 4 and |B| = 5, what is the cardinality of the Cartesian product A × B?",
+      "options": {
+        "A": "9",
+        "B": "20",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "20",
+      "explanation": "The cardinality of A × B equals the product of the cardinalities: |A|·|B| = 4 × 5 = 20. Hence option B is correct. The other numbers are unrelated to the product rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Sets A = {1, 2} (plotted on the x‑axis) and B = {a, b} (plotted on the y‑axis). Which diagram correctly represents the Cartesian product A × B?",
+      "options": {
+        "A": "Two points on the line y = x.",
+        "B": "Four points forming the vertices of a rectangle at (1, a), (1, b), (2, a), (2, b).",
+        "C": "A single point at (1, a).",
+        "D": "An empty set of points."
+      },
+      "correct_option": "B",
+      "answer": "Four points forming the vertices of a rectangle at (1, a), (1, b), (2, a), (2, b).",
+      "explanation": "Each ordered pair (x, y) with x from A and y from B appears as a point in the plane. With two choices for x and two for y, we obtain four points that occupy the corners of a rectangle, as described in option B. The other options do not capture all ordered pairs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which statement correctly defines an ordered pair?",
+      "options": {
+        "A": "A set containing two elements without regard to order.",
+        "B": "A sequence of two elements where the order matters, written as (a, b).",
+        "C": "The product of two sets.",
+        "D": "A subset of a larger set."
+      },
+      "correct_option": "B",
+      "answer": "A sequence of two elements where the order matters, written as (a, b).",
+      "explanation": "An ordered pair is a pair of objects where the first and second positions are distinguished; it is denoted (a, b). Option B captures this definition. Option A describes an unordered set, while C and D refer to different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "Consider the ordered pairs (3, 5) and (5, 3). Which of the following statements is true?",
+      "options": {
+        "A": "(3, 5) = (5, 3)",
+        "B": "(3, 5) ≠ (5, 3)",
+        "C": "(3, 5) = (3, 5)",
+        "D": "Both statements B and C are true."
+      },
+      "correct_option": "D",
+      "answer": "Both statements B and C are true.",
+      "explanation": "Equality of ordered pairs requires equality of the first components and of the second components in the same order. Hence (3, 5) is not equal to (5, 3) (statement B true) but is equal to itself (statement C true). Therefore option D, which combines both true statements, is correct. Options A is false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Let X = {a, b} and Y = {1, 2}. Which of the following sets is the Cartesian product X × Y?",
+      "options": {
+        "A": "{(a, 1), (b, 2)}",
+        "B": "{(a, 1), (a, 2), (b, 1), (b, 2)}",
+        "C": "{a, b, 1, 2}",
+        "D": "{(1, a), (2, b)}"
+      },
+      "correct_option": "B",
+      "answer": "{(a, 1), (a, 2), (b, 1), (b, 2)}",
+      "explanation": "The Cartesian product X × Y consists of all ordered pairs with the first element from X and the second from Y. With two elements in each set, we obtain four pairs listed in option B. Options A and D miss some pairs and reverse order, while C is just a union of elements, not ordered pairs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Three teachers T₁, T₂, T₃ are to be assigned to two subjects {Math, Science}. Which set correctly represents all possible assignments as ordered pairs (teacher, subject)?",
+      "options": {
+        "A": "{(T₁, Math), (T₂, Science)}",
+        "B": "{(T₁, Math), (T₁, Science), (T₂, Math), (T₂, Science), (T₃, Math), (T₃, Science)}",
+        "C": "{(Math, T₁), (Science, T₂), (Math, T₃)}",
+        "D": "∅"
+      },
+      "correct_option": "B",
+      "answer": "{(T₁, Math), (T₁, Science), (T₂, Math), (T₂, Science), (T₃, Math), (T₃, Science)}",
+      "explanation": "The Cartesian product of the set of teachers {T₁, T₂, T₃} with the set of subjects {Math, Science} yields every possible ordered pair (teacher, subject). This results in six pairs, exactly those listed in option B. Option A lists only two assignments, option C reverses the order, and option D is empty.",
+      "difficulty": "medium"
+    }
+  ]
+}

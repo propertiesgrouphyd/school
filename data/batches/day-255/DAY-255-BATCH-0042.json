@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If set A = {1, 2, 3} and set B = {x, y}, what is the cardinality of the Cartesian product A × B?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "9",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "The cardinality of a Cartesian product equals the product of the cardinalities of the individual sets: |A × B| = |A|·|B| = 3·2 = 6. Option A reflects the mistaken idea of adding the sizes, while C and D are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Let A = {1, 2} be a set of x‑coordinates and B = {3, 4} a set of y‑coordinates. Which set of points correctly represents the Cartesian product A × B on the coordinate plane?",
+      "options": {
+        "A": "{(1,3), (2,4)}",
+        "B": "{(1,3), (1,4), (2,3)}",
+        "C": "{(1,3), (1,4), (2,3), (2,4)}",
+        "D": "{(3,1), (4,2)}"
+      },
+      "correct_option": "C",
+      "answer": "{(1,3), (1,4), (2,3), (2,4)}",
+      "explanation": "A × B consists of all ordered pairs (a, b) with a from A and b from B. Hence we obtain (1,3), (1,4), (2,3) and (2,4). Option C lists exactly these four points. Options A and B miss some points, and D swaps the coordinates, representing B × A instead of A × B.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following statements correctly distinguishes an ordered pair from a set?",
+      "options": {
+        "A": "In an ordered pair (a, b) the order of the elements does not matter.",
+        "B": "An ordered pair (a, b) is the same as the set {a, b}.",
+        "C": "In an ordered pair (a, b), (a, b) = (b, a) only when a = b.",
+        "D": "An ordered pair cannot have equal components, i.e., (a, a) is not allowed."
+      },
+      "correct_option": "C",
+      "answer": "In an ordered pair (a, b), (a, b) = (b, a) only when a = b.",
+      "explanation": "Ordered pairs are ordered; (a, b) equals (b, a) only if the two components are identical. Options A and B ignore the importance of order, while D is false because (a, a) is a perfectly valid ordered pair.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "If (2, 3) = (x, y) where x and y are integers, which statement must be true?",
+      "options": {
+        "A": "x = 2 and y = 3",
+        "B": "x = 3 and y = 2",
+        "C": "x + y = 5",
+        "D": "x \\* y = 6"
+      },
+      "correct_option": "A",
+      "answer": "x = 2 and y = 3",
+      "explanation": "Two ordered pairs are equal exactly when their first components are equal and their second components are equal. Hence x must equal 2 and y must equal 3. Options B, C, and D are not sufficient for equality; they are merely coincidental relationships that may hold for other pairs.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "The Cartesian product of two sets A and B, denoted A × B, is defined as:",
+      "options": {
+        "A": "The set of all unordered pairs {a, b} with a ∈ A and b ∈ B",
+        "B": "The set of all ordered pairs (a, b) with a ∈ A and b ∈ B",
+        "C": "The set of all elements common to both A and B",
+        "D": "The set of all subsets of A ∪ B"
+      },
+      "correct_option": "B",
+      "answer": "The set of all ordered pairs (a, b) with a ∈ A and b ∈ B",
+      "explanation": "By definition, A × B = {(a, b) | a ∈ A, b ∈ B}. The order matters, distinguishing it from unordered pairs or intersections. Options A, C, and D describe different set operations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Given A = {0, 1} and B = {a, b, c}, which of the following sets is A × B?",
+      "options": {
+        "A": "{(0, a), (0, b), (0, c), (1, a), (1, b), (1, c)}",
+        "B": "{(a, 0), (b, 0), (c, 0), (a, 1), (b, 1), (c, 1)}",
+        "C": "{(0, 0), (1, 1)}",
+        "D": "{(0, a), (1, b)}"
+      },
+      "correct_option": "A",
+      "answer": "{(0, a), (0, b), (0, c), (1, a), (1, b), (1, c)}",
+      "explanation": "A × B consists of every ordered pair where the first component comes from A and the second from B. This yields six pairs listed in option A. Option B swaps the order (B × A), C lists unrelated pairs, and D is incomplete.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If |A| = m and |B| = n, what is the cardinality of the Cartesian product A × B?",
+      "options": {
+        "A": "m + n",
+        "B": "m n",
+        "C": "m - n",
+        "D": "max(m, n)"
+      },
+      "correct_option": "B",
+      "answer": "m n",
+      "explanation": "The number of ordered pairs in A × B equals the product of the numbers of elements in the two sets: |A × B| = |A|·|B| = m·n. Options A, C, and D represent other operations that do not give the correct count.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Let A = {‑1, 0, 1} and B = {2, 3}. Which set of points correctly represents A × B on the coordinate plane?",
+      "options": {
+        "A": "{(-1,2), (-1,3), (0,2), (0,3), (1,2), (1,3)}",
+        "B": "{(2,-1), (3,-1), (2,0), (3,0), (2,1), (3,1)}",
+        "C": "{(-1,2), (0,3), (1,2)}",
+        "D": "{(-1,2), (-1,3)}"
+      },
+      "correct_option": "A",
+      "answer": "{(-1,2), (-1,3), (0,2), (0,3), (1,2), (1,3)}",
+      "explanation": "A × B contains every ordered pair (a, b) with a from A and b from B, giving six points listed in option A. Option B swaps the coordinates (B × A), while C and D are incomplete subsets.",
+      "difficulty": "easy"
+    }
+  ]
+}
