@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "Consider the set A = {1, 2, 3, 4}. Using the number‑of‑subsets result, how many subsets does A have?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 4, so 2^4 = 16. The other numbers correspond to incorrect powers of 2 or unrelated counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "A set S = {a, b, c}. Which of the following collections correctly represents the power set of S?",
+      "options": {
+        "A": "{∅, {a}, {b}, {c}}",
+        "B": "{∅, {a}, {b}, {c}, {a,b}, {a,c}, {b,c}, {a,b,c}}",
+        "C": "{∅, {a,b,c}}",
+        "D": "{{a}, {b}, {c}}"
+      },
+      "correct_option": "B",
+      "answer": "{∅, {a}, {b}, {c}, {a,b}, {a,c}, {b,c}, {a,b,c}}",
+      "explanation": "The power set contains every possible subset of S. With three elements there are 2^3 = 8 subsets, listed in option B. The other options miss some subsets or include only a few.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which statement is NOT a correct definition of a subset?",
+      "options": {
+        "A": "Set A is a subset of set B if every element of A is also an element of B.",
+        "B": "Set A is a subset of set B if A and B have at least one element in common.",
+        "C": "The empty set is a subset of every set.",
+        "D": "A set is a subset of itself."
+      },
+      "correct_option": "B",
+      "answer": "Set A is a subset of set B if A and B have at least one element in common.",
+      "explanation": "A subset requires that *all* elements of A belong to B, not merely one common element. Options A, C, and D are true statements about subsets; option B is the misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Which of the following statements correctly describes a proper subset?",
+      "options": {
+        "A": "Set A is a proper subset of set B if A ⊆ B and A ≠ B.",
+        "B": "Set A is a proper subset of set B if A ⊆ B, including the case A = B.",
+        "C": "Set A is a proper subset of set B if A contains at least one element not in B.",
+        "D": "Set A is a proper subset of set B if B ⊆ A."
+      },
+      "correct_option": "A",
+      "answer": "Set A is a proper subset of set B if A ⊆ B and A ≠ B.",
+      "explanation": "A proper subset must be contained in the other set and must be strictly smaller; equality is not allowed. Options B, C, and D misstate the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let X = {0, 2, 4, 6} and Y = {0, 2, 4, 6, 8}. Which relationship is true?",
+      "options": {
+        "A": "X is a proper subset of Y.",
+        "B": "Y is a proper subset of X.",
+        "C": "X and Y are equal sets.",
+        "D": "Neither set is a subset of the other."
+      },
+      "correct_option": "A",
+      "answer": "X is a proper subset of Y.",
+      "explanation": "Every element of X appears in Y and X ≠ Y, so X ⊂ Y. Y contains an element (8) not in X, so Y is not a subset of X. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many subsets of the set {1, 2, 3, 4} contain exactly two elements?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "The number of 2‑element subsets of a 4‑element set is given by the combination C(4,2) = 4!/(2!2!) = 6. The other numbers correspond to different counts.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "A set contains 5 distinct elements. Using the number‑of‑subsets formula, how many subsets does it have?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "32",
+        "D": "64"
+      },
+      "correct_option": "C",
+      "answer": "32",
+      "explanation": "Number of subsets = 2^n. With n = 5, 2^5 = 32. Options A and B are far too small; D corresponds to n = 6.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "The power set of a set S is:",
+      "options": {
+        "A": "The set of all subsets of S.",
+        "B": "The set of all proper subsets of S.",
+        "C": "The set of all supersets of S.",
+        "D": "The set containing only S and the empty set."
+      },
+      "correct_option": "A",
+      "answer": "The set of all subsets of S.",
+      "explanation": "By definition, the power set includes every possible subset of S, including the empty set and S itself. Options B, C, and D describe different collections.",
+      "difficulty": "easy"
+    }
+  ]
+}

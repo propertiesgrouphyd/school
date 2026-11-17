@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let A = {1, 2, 3, 4} and B = {2, 3, 5}. Which of the following statements is true?",
+      "options": {
+        "A": "B is a subset of A.",
+        "B": "B is not a subset of A.",
+        "C": "B is a subset of A only if the element 5 is ignored.",
+        "D": "It cannot be determined without more information."
+      },
+      "correct_option": "B",
+      "answer": "B is not a subset of A.",
+      "explanation": "For B to be a subset of A, every element of B must belong to A. While 2 and 3 are in A, the element 5 is not, so B is not a subset of A. Option B correctly states this. Options A and C are misconceptions, and D is irrelevant because we have complete information.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many distinct subsets does the set S = {a, b, c} have?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 3, so the number of subsets is 2^3 = 8. Therefore option C is correct. Options A, B, and D are results of incorrect counting.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "Set X contains 4 distinct elements and set Y contains 5 distinct elements. Which set has a greater number of subsets?",
+      "options": {
+        "A": "Set X",
+        "B": "Set Y",
+        "C": "Both have the same number of subsets",
+        "D": "Cannot be determined without knowing the actual elements"
+      },
+      "correct_option": "B",
+      "answer": "Set Y",
+      "explanation": "A set with n elements has 2^n subsets. Set X: 2^4 = 16 subsets. Set Y: 2^5 = 32 subsets. Since 32 > 16, Set Y has more subsets. Hence option B is correct. Options A and C ignore the exponent rule, and D is unnecessary because the count depends only on the number of elements, not their identity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "Which of the following collections is the power set of the set {x, y}?",
+      "options": {
+        "A": "{{x}, {y}}",
+        "B": "{{x, y}, {x}, {y}}",
+        "C": "{{}, {x}, {y}, {x, y}}",
+        "D": "{{x}, {y}, {x, y}}"
+      },
+      "correct_option": "C",
+      "answer": "{{}, {x}, {y}, {x, y}}",
+      "explanation": "The power set of a set includes all possible subsets, including the empty set and the set itself. For {x, y}, the subsets are: {}, {x}, {y}, and {x, y}. Option C lists exactly these four subsets. Options A, B, and D miss either the empty set or the whole set, so they are incomplete.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which of the following best defines a subset?",
+      "options": {
+        "A": "A set that contains at least one element of another set.",
+        "B": "A set in which every element is also an element of another set.",
+        "C": "A set that shares at least one common element with another set.",
+        "D": "A set that has more elements than another set."
+      },
+      "correct_option": "B",
+      "answer": "A set in which every element is also an element of another set.",
+      "explanation": "By definition, set A is a subset of set B if every element of A belongs to B. Option B captures this definition precisely. Options A and C describe partial overlap, not the full subset condition, and D describes a size comparison, not subset relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "A set A is called a proper subset of set B if:",
+      "options": {
+        "A": "A and B have exactly the same elements.",
+        "B": "Every element of A is in B and A ≠ B.",
+        "C": "A contains at least one element that is not in B.",
+        "D": "A is empty and B is non‑empty."
+      },
+      "correct_option": "B",
+      "answer": "Every element of A is in B and A ≠ B.",
+      "explanation": "A proper subset requires all elements of A to be in B, and additionally A must not be equal to B. Option B states both conditions. Option A describes an equal set, not a proper subset. Option C describes a superset relation, and D is a special case of a proper subset but does not capture the general definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "If every element of set P also belongs to set Q, the relationship between P and Q is called:",
+      "options": {
+        "A": "Subset",
+        "B": "Superset",
+        "C": "Intersection",
+        "D": "Union"
+      },
+      "correct_option": "A",
+      "answer": "Subset",
+      "explanation": "When all elements of P are contained in Q, P is a subset of Q. Option A correctly names this relationship. Option B is the reverse (Q is a superset of P). Options C and D refer to different set operations, not to the subset relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "List all subsets of the set {1, 2}. Which of the following options correctly lists them?",
+      "options": {
+        "A": "{{1}, {2}}",
+        "B": "{{}, {1}, {2}, {1, 2}}",
+        "C": "{{1, 2}}",
+        "D": "{{}, {1, 2}}"
+      },
+      "correct_option": "B",
+      "answer": "{{}, {1}, {2}, {1, 2}}",
+      "explanation": "A set with two elements has 2^2 = 4 subsets: the empty set {}, the singletons {1} and {2}, and the set itself {1,2}. Option B lists exactly these four subsets. Options A, C, and D miss some subsets, so they are incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

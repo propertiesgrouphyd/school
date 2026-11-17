@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Consider the following two statements about sets A and B. Statement I: Every element of A is also an element of B. Statement II: A contains at least one element that is not in B. Which statement correctly defines the term 'subset'?",
+      "options": {
+        "A": "Statement I only",
+        "B": "Statement II only",
+        "C": "Both Statement I and Statement II",
+        "D": "Neither statement"
+      },
+      "correct_option": "A",
+      "answer": "Statement I only",
+      "explanation": "A set A is a subset of B precisely when every element of A belongs to B (Statement I). The existence of an element of A not in B (Statement II) would contradict the definition. Hence only Statement I defines a subset.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "If A and B are sets such that A ⊂ B, which of the following must be true?",
+      "options": {
+        "A": "A and B have exactly the same elements",
+        "B": "Every element of A is in B and A ≠ B",
+        "C": "Every element of B is in A",
+        "D": "A is the empty set"
+      },
+      "correct_option": "B",
+      "answer": "Every element of A is in B and A ≠ B",
+      "explanation": "A proper subset A of B means all elements of A are contained in B and at least one element of B is not in A, i.e., A ≠ B. Option B captures this definition. Option A describes equality, not a proper subset. Option C reverses the inclusion, and Option D is not necessary for a proper subset.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let X = {2, 4, 6} and Y = {1, 2, 3, 4, 5, 6, 7}. Is X a subset of Y?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Only if X is the empty set",
+        "D": "Cannot be determined from the given information"
+      },
+      "correct_option": "A",
+      "answer": "Yes",
+      "explanation": "Every element of X (2, 4, 6) appears in Y, so X ⊆ Y. Hence the correct answer is Yes. The other options are incorrect because the subset condition is satisfied.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many subsets does the set S = {a, b, c} have?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "8",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 3, so 2^3 = 8 subsets. Options A, C, and D give incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "A set has 4 distinct elements. How many proper subsets does it have?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "15",
+        "D": "16"
+      },
+      "correct_option": "C",
+      "answer": "15",
+      "explanation": "Total subsets of a set with 4 elements = 2^4 = 16. Proper subsets exclude the set itself, so 16 − 1 = 15. Option C is correct; the others miscount either total or proper subsets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "What is the power set of T = {0, 1}?",
+      "options": {
+        "A": "{{0}, {1}}",
+        "B": "{{0, 1}}",
+        "C": "{∅, {0}, {1}, {0, 1}}",
+        "D": "{∅, {0, 1}}"
+      },
+      "correct_option": "C",
+      "answer": "{∅, {0}, {1}, {0, 1}}",
+      "explanation": "The power set includes all subsets, including the empty set and the set itself. For T = {0,1} the subsets are ∅, {0}, {1}, and {0,1}, giving option C.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which of the following statements correctly defines a subset using the example A = {1, 2} and B = {1, 2, 3, 4}?",
+      "options": {
+        "A": "All elements of B are in A",
+        "B": "All elements of A are in B",
+        "C": "A and B have no common elements",
+        "D": "B is a subset of A"
+      },
+      "correct_option": "B",
+      "answer": "All elements of A are in B",
+      "explanation": "A is a subset of B because each element of A (1 and 2) appears in B. Option B states this correctly. Options A and D reverse the inclusion, and C is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "In a class, the set of students who play basketball is {R, S, T, U}. The set of students who play both basketball and chess is {R, S}. Which relationship best describes the second set with respect to the first?",
+      "options": {
+        "A": "It is a superset",
+        "B": "It is a proper subset",
+        "C": "It is equal to the first set",
+        "D": "It is unrelated"
+      },
+      "correct_option": "B",
+      "answer": "It is a proper subset",
+      "explanation": "All members of the second set ({R, S}) are also members of the first set, and the second set does not contain all members of the first set, making it a proper subset. Hence option B is correct; the other options mischaracterize the relationship.",
+      "difficulty": "medium"
+    }
+  ]
+}

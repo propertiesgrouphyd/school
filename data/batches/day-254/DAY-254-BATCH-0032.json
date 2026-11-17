@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "If a set contains 4 distinct elements, how many subsets does it have?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "A set with n elements has 2^n subsets. Here n=4, so 2^4=16 subsets. Options A (8) and B (12) are too small, D (20) is too large.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "What is the power set of a set S?",
+      "options": {
+        "A": "The set of all subsets of S, including the empty set and S itself",
+        "B": "The set of all proper subsets of S, excluding S itself",
+        "C": "The set of all supersets of S",
+        "D": "The set containing only the elements of S"
+      },
+      "correct_option": "A",
+      "answer": "The set of all subsets of S, including the empty set and S itself",
+      "explanation": "By definition, the power set of S, denoted P(S), consists of every possible subset of S, which includes the empty set and S itself. Options B, C, and D describe different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which statement correctly defines a subset?",
+      "options": {
+        "A": "Every element of set A is also an element of set B",
+        "B": "Set A contains at least one element of set B",
+        "C": "Sets A and B have no common elements",
+        "D": "Set A has more elements than set B"
+      },
+      "correct_option": "A",
+      "answer": "Every element of set A is also an element of set B",
+      "explanation": "A is a subset of B (A⊆B) precisely when each element of A belongs to B. Options B, C, and D are incorrect descriptions of subsets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Let A = {1,2,3} and B = {1,2,3,4}. Which of the following statements is true?",
+      "options": {
+        "A": "A is a proper subset of B",
+        "B": "B is a proper subset of A",
+        "C": "A and B are equal",
+        "D": "A is not a subset of B"
+      },
+      "correct_option": "A",
+      "answer": "A is a proper subset of B",
+      "explanation": "A is contained in B and A ≠ B, satisfying the definition of a proper subset (A⊂B). Options B and C are false, and D contradicts the subset relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let S = {a, e, i, o, u} (the English vowels) and T = {a, e, i, o, u, y}. Is S a subset of T?",
+      "options": {
+        "A": "Yes, because every element of S is in T",
+        "B": "No, because T contains an extra element y",
+        "C": "Cannot be determined from the given information",
+        "D": "Only if y is also a vowel"
+      },
+      "correct_option": "A",
+      "answer": "Yes, because every element of S is in T",
+      "explanation": "All elements of S (a, e, i, o, u) appear in T, so S⊆T. The presence of extra elements in T does not affect the subset relation. Options B, C, D misunderstand the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "Consider the set P = {2,4,6}. Which of the following is NOT a subset of P?",
+      "options": {
+        "A": "{2,4}",
+        "B": "{} (the empty set)",
+        "C": "{2,4,6,8}",
+        "D": "{6}"
+      },
+      "correct_option": "C",
+      "answer": "{2,4,6,8}",
+      "explanation": "A subset must contain only elements from the original set. {2,4,6,8} includes 8, which is not in P, so it is not a subset. All other options consist solely of elements from P (or none, in the case of the empty set).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "Which of the following statements about the number of subsets of a finite set is FALSE?",
+      "options": {
+        "A": "A set with 3 elements has 8 subsets",
+        "B": "A set with 2 elements has 4 subsets",
+        "C": "A set with 5 elements has 25 subsets",
+        "D": "The empty set has exactly 1 subset"
+      },
+      "correct_option": "C",
+      "answer": "A set with 5 elements has 25 subsets",
+      "explanation": "The correct formula is 2^n. For n=5, the number of subsets is 2^5 = 32, not 25. Options A (2^3=8), B (2^2=4), and D (2^0=1) are true. Hence C is the false statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "If A = {1,2}, how many elements are there in the power set P(A)?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "A set with 2 elements has 2^2 = 4 subsets, which constitute the power set: {}, {1}, {2}, {1,2}. Therefore the power set contains 4 elements. Options A, B, and D are incorrect counts.",
+      "difficulty": "medium"
+    }
+  ]
+}
