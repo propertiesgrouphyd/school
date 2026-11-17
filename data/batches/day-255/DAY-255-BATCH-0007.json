@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "Let the universal set U = {1,2,3,4,5,6}, and subsets A = {1,2,3} and B = {2,4}. Compare the two sets (A ∪ B)' and A' ∩ B'. Which statement is true?",
+      "options": {
+        "A": "(A ∪ B)' and A' ∩ B' are equal.",
+        "B": "(A ∪ B)' is a proper subset of A' ∩ B'.",
+        "C": "A' ∩ B' is a proper subset of (A ∪ B)'.",
+        "D": "(A ∪ B)' and A' ∩ B' are not comparable."
+      },
+      "correct_option": "A",
+      "answer": "(A ∪ B)' and A' ∩ B' are equal.",
+      "explanation": "By De Morgan’s law, the complement of a union equals the intersection of the complements: (A ∪ B)' = A' ∩ B'. Hence the two sets are exactly the same. Options B, C, and D contradict this fundamental identity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Simplify the expression (A ∩ B) ∪ (A ∩ B') ∪ (A' ∩ B) using set identities.",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "A ∪ B",
+        "D": "U (the universal set)"
+      },
+      "correct_option": "C",
+      "answer": "A ∪ B",
+      "explanation": "First, (A ∩ B) ∪ (A ∩ B') = A ∩ (B ∪ B') = A ∩ U = A. Then A ∪ (A' ∩ B) = (A ∪ A') ∩ (A ∪ B) = U ∩ (A ∪ B) = A ∪ B. Thus the whole expression reduces to A ∪ B. Options A, B, and D are incorrect results of incomplete simplification.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "What is the definition of the difference of two sets A and B (denoted A − B)?",
+      "options": {
+        "A": "The set of elements that belong to A but not to B.",
+        "B": "The set of elements that belong to B but not to A.",
+        "C": "The union of A and B.",
+        "D": "The intersection of A and B."
+      },
+      "correct_option": "A",
+      "answer": "The set of elements that belong to A but not to B.",
+      "explanation": "A − B consists precisely of those elements that are members of A while being absent from B. Option B describes B − A, while C and D describe union and intersection respectively, not difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Given A = {1, 2, 3, 4} and B = {3, 5}, what is A − B?",
+      "options": {
+        "A": "{1, 2, 3, 4}",
+        "B": "{3, 5}",
+        "C": "{1, 2, 4}",
+        "D": "{5}"
+      },
+      "correct_option": "C",
+      "answer": "{1, 2, 4}",
+      "explanation": "A − B removes any element of A that also appears in B. The element 3 is common to both sets, so it is excluded, leaving {1,2,4}. Options A and B are unchanged sets, and D contains an element not in A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "Which statement correctly defines the complement of a set A with respect to a universal set U?",
+      "options": {
+        "A": "All elements that are in U but not in A.",
+        "B": "All elements that are in A but not in U.",
+        "C": "All elements that are common to both A and U.",
+        "D": "All elements that are in A or in U."
+      },
+      "correct_option": "A",
+      "answer": "All elements that are in U but not in A.",
+      "explanation": "The complement A' (or U \\ A) consists of every element of the universal set that does not belong to A. Option B reverses the relationship, C describes the intersection, and D describes the union.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "If the universal set U = {a, b, c, d, e} and A = {b, d}, what is the complement of A?",
+      "options": {
+        "A": "{a, c, e}",
+        "B": "{b, d}",
+        "C": "{a, b, c, d, e}",
+        "D": "∅ (empty set)"
+      },
+      "correct_option": "A",
+      "answer": "{a, c, e}",
+      "explanation": "The complement consists of all elements of U that are not in A. Removing b and d from U leaves {a, c, e}. The other options either repeat A, give the whole universal set, or the empty set, which are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Using set identities, simplify (A ∪ B) ∩ (A ∪ B'). What does the expression equal?",
+      "options": {
+        "A": "B",
+        "B": "A",
+        "C": "U (the universal set)",
+        "D": "∅ (empty set)"
+      },
+      "correct_option": "B",
+      "answer": "A",
+      "explanation": "Apply the distributive law: (A ∪ B) ∩ (A ∪ B') = A ∪ (B ∩ B') = A ∪ ∅ = A. Hence the expression reduces to A. Options A, C, and D do not follow from the identity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "In a school, let S be the set of students who play soccer and T be the set of students who play basketball. What does the set S − T represent?",
+      "options": {
+        "A": "Students who play both soccer and basketball.",
+        "B": "Students who play soccer but not basketball.",
+        "C": "Students who play basketball but not soccer.",
+        "D": "Students who play neither soccer nor basketball."
+      },
+      "correct_option": "B",
+      "answer": "Students who play soccer but not basketball.",
+      "explanation": "S − T contains exactly those elements that are in S and not in T, i.e., students who play soccer and do not play basketball. Option A describes the intersection, C describes T − S, and D describes the complement of S ∪ T.",
+      "difficulty": "medium"
+    }
+  ]
+}

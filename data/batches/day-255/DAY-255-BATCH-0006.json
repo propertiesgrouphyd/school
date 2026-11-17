@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "What is the definition of the difference of two sets A and B?",
+      "options": {
+        "A": "A ∪ B",
+        "B": "A ∩ B",
+        "C": "A \\ B = {x | x∈A and x∉B}",
+        "D": "Complement of A"
+      },
+      "correct_option": "C",
+      "answer": "A \\ B = {x | x∈A and x∉B}",
+      "explanation": "The difference A \\ B consists of all elements that belong to A but do not belong to B. Option C states exactly this. Option A is union, B is intersection, and D describes complement, not set difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Let A = {1,2,3,4} and B = {3,5}. What is A − B?",
+      "options": {
+        "A": "{1,2,3,4}",
+        "B": "{1,2,4}",
+        "C": "{3,5}",
+        "D": "{5}"
+      },
+      "correct_option": "B",
+      "answer": "{1,2,4}",
+      "explanation": "A − B contains elements of A that are not in B. Removing 3 (which is common) leaves {1,2,4}. Option B is correct; the other options either keep the removed element or list unrelated elements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "In a universal set U, the complement of a set A is defined as:",
+      "options": {
+        "A": "All elements that belong to both A and U",
+        "B": "All elements of U that are not in A",
+        "C": "All elements that are in A but not in U",
+        "D": "Intersection of A with U"
+      },
+      "correct_option": "B",
+      "answer": "All elements of U that are not in A",
+      "explanation": "The complement of A (denoted A') consists of every element in the universal set U that does not belong to A. Option B captures this definition. Options A and D describe intersections, while C is logically impossible because A is already a subset of U.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "If the universal set U = {a,b,c,d,e} and A = {b,d}, what is the complement of A?",
+      "options": {
+        "A": "{a,c,e}",
+        "B": "{b,d}",
+        "C": "{a,b,c,d,e}",
+        "D": "{}"
+      },
+      "correct_option": "A",
+      "answer": "{a,c,e}",
+      "explanation": "The complement consists of all elements of U that are not in A. Removing b and d from U leaves {a,c,e}. Hence option A is correct; B is the original set, C is the whole universal set, and D is the empty set.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Which of the following set identities holds for any sets A and B?",
+      "options": {
+        "A": "(A \\ B) ∪ (A ∩ B) = A",
+        "B": "(A ∪ B) \\ A = B",
+        "C": "(A ∩ B) \\ B = A",
+        "D": "(A \\ B) ∩ B = A"
+      },
+      "correct_option": "A",
+      "answer": "(A \\ B) ∪ (A ∩ B) = A",
+      "explanation": "Every element of A is either in B or not in B. Thus A splits into two disjoint parts: A \\ B and A ∩ B. Their union reconstructs A, making identity A true. The other options are false in general; for example, (A ∪ B) \\ A equals B \\ A, not B.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "In a school, 120 students are in class X. 45 of them are also members of the debate club. Which set represents students who are in class X but not in the debate club?",
+      "options": {
+        "A": "Students in debate club",
+        "B": "Students in class X ∪ debate club",
+        "C": "Students in class X \\ debate club",
+        "D": "Students in class X ∩ debate club"
+      },
+      "correct_option": "C",
+      "answer": "Students in class X \\ debate club",
+      "explanation": "The required set contains elements of class X that are not in the debate club, which is precisely the set difference X \\ debate club. Option C states this. Option A is the opposite set, B is the union, and D is the intersection (students belonging to both).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Let A = {1,2,3} and B = {3,4}. Which set is A − B?",
+      "options": {
+        "A": "{1,2,3,4}",
+        "B": "{4}",
+        "C": "{1,2}",
+        "D": "{3}"
+      },
+      "correct_option": "C",
+      "answer": "{1,2}",
+      "explanation": "A − B contains elements that are in A but not in B. Removing the common element 3 leaves {1,2}. Option C is correct. A common mistake is to think A − B equals B − A, which would give {4}; that is option B. Option A is the union, and D is just the intersection.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "If the universal set U = {1,2,3,4,5,6} and C = {2,4,6}, which statement correctly describes the complement of C?",
+      "options": {
+        "A": "{1,3,5}",
+        "B": "{2,4,6}",
+        "C": "{1,2,3,4,5,6}",
+        "D": "∅"
+      },
+      "correct_option": "A",
+      "answer": "{1,3,5}",
+      "explanation": "The complement of C consists of all elements of U not in C. Removing 2,4,6 leaves {1,3,5}. Hence option A is correct. Option B repeats C itself, C is the universal set, and D would be the complement only if C were the whole universal set.",
+      "difficulty": "medium"
+    }
+  ]
+}

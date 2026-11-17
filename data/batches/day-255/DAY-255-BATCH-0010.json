@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "In set theory, the complement of a set A (denoted A') with respect to a universal set U is:",
+      "options": {
+        "A": "All elements that belong to both A and U",
+        "B": "All elements of U that are not in A",
+        "C": "All elements that belong to A but not to U",
+        "D": "All elements that belong to either A or U"
+      },
+      "correct_option": "B",
+      "answer": "All elements of U that are not in A",
+      "explanation": "The complement A' consists of every element in the universal set U that is not a member of A. Option B states exactly this. Option A describes the intersection, C is impossible because A is always a subset of U, and D describes the union.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "Let the universal set be U = {1,2,3,4,5,6} and A = {2,4,6}. What is the complement of A?",
+      "options": {
+        "A": "{1,2,3,4,5,6}",
+        "B": "{2,4,6}",
+        "C": "{1,3,5}",
+        "D": "{1,2,3,4,5}"
+      },
+      "correct_option": "C",
+      "answer": "{1,3,5}",
+      "explanation": "The complement A' contains all elements of U that are not in A. Removing 2,4,6 from U leaves {1,3,5}. Hence option C is correct. Options A and D are too large, and B is just the set A itself.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Which of the following set identities is always true for any two sets A and B?",
+      "options": {
+        "A": "(A ∪ B)' = A' ∪ B'",
+        "B": "(A ∩ B)' = A' ∪ B'",
+        "C": "(A ∪ B)' = A' ∩ B'",
+        "D": "(A ∩ B)' = A' ∩ B'"
+      },
+      "correct_option": "C",
+      "answer": "(A ∪ B)' = A' ∩ B'",
+      "explanation": "De Morgan’s law states that the complement of a union equals the intersection of the complements: (A ∪ B)' = A' ∩ B'. Option C expresses this correctly. Option A is the opposite of De Morgan’s law, B is correct for intersection, and D is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "If A is the set of students who play cricket and B is the set of students who play football, what does the set difference A − B represent?",
+      "options": {
+        "A": "Students who play both cricket and football",
+        "B": "Students who play cricket or football but not both",
+        "C": "Students who play cricket but do not play football",
+        "D": "Students who play football but do not play cricket"
+      },
+      "correct_option": "C",
+      "answer": "Students who play cricket but do not play football",
+      "explanation": "A − B contains all elements that are in A and not in B. Hence it represents students who play cricket only. Option C captures this. Option A is the intersection, B is the symmetric difference, and D describes B − A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Given A = {1,2,3,4} and B = {3,4,5}, what is A − B?",
+      "options": {
+        "A": "{3,4}",
+        "B": "{5}",
+        "C": "{1,2}",
+        "D": "{1,2,5}"
+      },
+      "correct_option": "C",
+      "answer": "{1,2}",
+      "explanation": "A − B consists of elements that are in A but not in B. Removing 3 and 4 from A leaves {1,2}. Option C is correct. Option A mistakenly gives the intersection, B is an element only in B, and D adds an element not in A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "If the universal set U = {a, b, c, d} and A = {b, d}, which statement correctly describes the complement of A?",
+      "options": {
+        "A": "A' = {a, b, c, d}",
+        "B": "A' = {b, d}",
+        "C": "A' = {a, c}",
+        "D": "A' = {a, b, c}"
+      },
+      "correct_option": "C",
+      "answer": "A' = {a, c}",
+      "explanation": "The complement contains all elements of U that are not in A. Removing b and d from U leaves {a, c}. Hence option C is correct. Option A is the whole universal set, B repeats A, and D incorrectly includes b.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "Let U = {1,2,3,4,5,6,7,8}. Set A = {1,2,3} and set B = {5,6,7,8}. Which of the following statements is true?",
+      "options": {
+        "A": "The complement of A has fewer elements than the complement of B.",
+        "B": "The complement of A and the complement of B have the same number of elements.",
+        "C": "The complement of A has more elements than the complement of B.",
+        "D": "Both complements are empty sets."
+      },
+      "correct_option": "C",
+      "answer": "The complement of A has more elements than the complement of B.",
+      "explanation": "A' = {4,5,6,7,8} (5 elements). B' = {1,2,3,4} (4 elements). Therefore A' is larger, making option C correct. Options A and B are false, and D is impossible because neither A nor B equals U.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Which of the following expressions is equivalent to (A ∪ B ∪ C)' ?",
+      "options": {
+        "A": "A' ∪ B' ∪ C'",
+        "B": "A' ∩ B' ∩ C'",
+        "C": "(A' ∩ B') ∪ C'",
+        "D": "(A ∪ B)' ∩ C'"
+      },
+      "correct_option": "B",
+      "answer": "A' ∩ B' ∩ C'",
+      "explanation": "By extending De Morgan’s law to three sets, the complement of a union equals the intersection of the complements: (A ∪ B ∪ C)' = A' ∩ B' ∩ C'. Option B states this correctly. Option A is the opposite, C and D are not equivalent to the original expression.",
+      "difficulty": "hard"
+    }
+  ]
+}
