@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Consider the two functions defined below:\n\n1. f : {1,2,3} → {a,b,c} with f(1)=a, f(2)=b, f(3)=c.\n2. g : {1,2,3,4} → {a,b,c} with g(1)=a, g(2)=b, g(3)=a, g(4)=c.\n\nWhich of the following statements about onto (surjective) functions is correct?",
+      "options": {
+        "A": "Both f and g are onto functions.",
+        "B": "Only f is onto; g is not onto because element ‘a’ has two pre‑images.",
+        "C": "Only g is onto; f is not onto because its domain has fewer elements than the codomain.",
+        "D": "Neither f nor g is onto because the codomain contains an element that is not mapped."
+      },
+      "correct_option": "A",
+      "answer": "Both f and g are onto functions.",
+      "explanation": "A function is onto (surjective) if every element of the codomain is the image of at least one element of the domain. In f, a, b, and c each have a pre‑image (1,2,3 respectively). In g, a, b, and c also appear as images (a from 1 and 3, b from 2, c from 4). Hence both functions satisfy the onto condition. Options B, C, and D are incorrect because they misinterpret the definition of onto.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following functions is bijective (both one‑one and onto)?\n\nA) h : {1,2,3,4} → {a,b,c} defined by h(1)=a, h(2)=b, h(3)=c, h(4)=c.\nB) p : ℝ → ℝ defined by p(x)=2x+5.\nC) q : {a,b,c} → {1,2,3,4} defined by q(a)=1, q(b)=2, q(c)=3.\nD) r : {0,1,2} → {0,1,2} defined by r(x)=x² (mod 3).",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correct_option": "B",
+      "answer": "Option B",
+      "explanation": "A bijective function must be both one‑one (injective) and onto (surjective).\n\n- Option A is not one‑one because both 3 and 4 map to c, and it is not onto because element ‘b’ of the codomain has no pre‑image.\n- Option B, p(x)=2x+5, is a linear function with non‑zero slope; it is strictly increasing, hence one‑one, and its range is all real numbers, so it is onto ℝ.\n- Option C is not onto because the codomain has four elements while the domain has only three, leaving 4 without a pre‑image.\n- Option D maps 0→0, 1→1, 2→1 (since 2²=4≡1 mod 3); thus it is not one‑one and also not onto (2 has no pre‑image).\nTherefore, only Option B is bijective.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A function f : A → B is called one‑one (injective) if:",
+      "options": {
+        "A": "Every element of B is the image of at least one element of A.",
+        "B": "No two distinct elements of A have the same image in B.",
+        "C": "The domain A and codomain B contain the same number of elements.",
+        "D": "Each element of A maps to a unique element of B and every element of B is used."
+      },
+      "correct_option": "B",
+      "answer": "No two distinct elements of A have the same image in B.",
+      "explanation": "Injectivity means that if f(x₁)=f(x₂) then x₁=x₂; equivalently, distinct elements of the domain cannot share the same image. Option A describes onto (surjective) functions. Option C is a necessary condition for a bijection when the sets are finite but not the definition of one‑one. Option D mixes both injective and surjective requirements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "Which description correctly characterises a many‑one function?",
+      "options": {
+        "A": "Each element of the codomain is the image of exactly one element of the domain.",
+        "B": "Two or more distinct elements of the domain may map to the same element of the codomain.",
+        "C": "Every element of the domain maps to a distinct element of the codomain, and every codomain element is used.",
+        "D": "The function is both one‑one and onto."
+      },
+      "correct_option": "B",
+      "answer": "Two or more distinct elements of the domain may map to the same element of the codomain.",
+      "explanation": "A many‑one function allows multiple domain elements to share the same image; this is the opposite of a one‑one (injective) function. Option A describes a one‑one onto (bijective) situation. Option C describes a bijection for finite sets. Option D incorrectly combines properties that are mutually exclusive with many‑one.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "An 'into' function differs from an 'onto' function in that:",
+      "options": {
+        "A": "An into function maps every element of the domain to a distinct element of the codomain.",
+        "B": "In an into function, at least one element of the codomain is not the image of any element of the domain.",
+        "C": "An into function is always one‑one but never onto.",
+        "D": "Into functions exist only when the domain and codomain have the same cardinality."
+      },
+      "correct_option": "B",
+      "answer": "In an into function, at least one element of the codomain is not the image of any element of the domain.",
+      "explanation": "By definition, an into function (also called non‑surjective) does not cover the entire codomain; some codomain elements have no pre‑image. Option A describes injectivity, not the into property. Option C is false because an into function may be many‑one as well. Option D is incorrect; into functions can occur with any sizes of domain and codomain.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "A school has 5 clubs (C₁,…,C₅) and 5 students (S₁,…,S₅). Each student is assigned to exactly one club, and every club gets at least one student. Which type of function best models this assignment?",
+      "options": {
+        "A": "One‑one function",
+        "B": "Onto function",
+        "C": "Into function",
+        "D": "Many‑one function"
+      },
+      "correct_option": "B",
+      "answer": "Onto function",
+      "explanation": "The assignment maps each student (domain) to a club (codomain). The condition that every club receives at least one student means every element of the codomain is hit, satisfying the definition of an onto (surjective) function. The function need not be one‑one because multiple students can belong to the same club, so option A is not required. Option C is the opposite of the given condition, and option D describes the possibility of many students per club but does not guarantee that all clubs are used.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Let h : {1,2,3,4} → {a,b,c,d} be defined by h(1)=a, h(2)=b, h(3)=c, h(4)=d. Which statement is true?",
+      "options": {
+        "A": "h is one‑one but not onto.",
+        "B": "h is onto but not one‑one.",
+        "C": "h is bijective.",
+        "D": "h is neither one‑one nor onto."
+      },
+      "correct_option": "C",
+      "answer": "h is bijective.",
+      "explanation": "Each element of the domain maps to a distinct element of the codomain, so h is one‑one. Since the codomain also has exactly four elements and each appears as an image, h is onto. Being both one‑one and onto, h is bijective. Options A, B, and D contradict these observations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A library assigns a unique accession number to each new book. No two different books ever receive the same number, but some numbers may remain unused if a book is withdrawn. Which property does this assignment satisfy?",
+      "options": {
+        "A": "It is an onto function from books to accession numbers.",
+        "B": "It is a one‑one function from books to accession numbers.",
+        "C": "It is both onto and one‑one.",
+        "D": "It is an into function that is also many‑one."
+      },
+      "correct_option": "B",
+      "answer": "It is a one‑one function from books to accession numbers.",
+      "explanation": "The rule that no two books share the same accession number defines an injective (one‑one) mapping. Because some accession numbers may be unused, the function is not necessarily onto; therefore option A and C are incorrect. Option D incorrectly labels the function as many‑one, which contradicts the uniqueness condition.",
+      "difficulty": "medium"
+    }
+  ]
+}

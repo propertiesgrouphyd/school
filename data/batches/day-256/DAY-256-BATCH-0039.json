@@ -1,0 +1,78 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "Which of the following statements is NOT a property of a many‑one function f:A\\rightarrow B?",
+      "options": {
+        "A": "At least two distinct elements of A have the same image in B.",
+        "B": "No two distinct elements of A have the same image in B.",
+        "C": "Some elements of B may have no pre‑image in A.",
+        "D": "The function may also be onto."
+      },
+      "correct_option": "B",
+      "answer": "No two distinct elements of A have the same image in B.",
+      "explanation": "A many‑one function allows two or more different domain elements to map to the same codomain element, so statement B (which says the opposite) is false. Statements A, C and D can all be true for a many‑one function. Hence B is the only incorrect property.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "Let A={1,2,3} and B={a,b,c,d}. Define f:A\\rightarrow B by f(1)=a, f(2)=b, f(3)=c. Which statement is correct?",
+      "options": {
+        "A": "f is onto B",
+        "B": "f is into B",
+        "C": "f is bijective",
+        "D": "f is not a function"
+      },
+      "correct_option": "B",
+      "answer": "f is into B",
+      "explanation": "An into function does not cover every element of the codomain. Since element d in B has no pre‑image, f is not onto; it is a valid function and is into. Therefore option B is correct, while A and C are false and D is incorrect because the mapping satisfies the definition of a function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Let f:{1,2,3}\\rightarrow{a,b,c} be defined by f(1)=a, f(2)=b, f(3)=c and let g:{1,2,3}\\rightarrow{a,b,c} be defined by g(1)=a, g(2)=a, g(3)=b. Which statement correctly compares the two functions with respect to being onto?",
+      "options": {
+        "A": "Both f and g are onto",
+        "B": "f is onto but g is not onto",
+        "C": "g is onto but f is not onto",
+        "D": "Neither f nor g is onto"
+      },
+      "correct_option": "B",
+      "answer": "f is onto but g is not onto",
+      "explanation": "A function is onto (surjective) if every element of the codomain has at least one pre‑image. In f, each of a, b, c is hit, so f is onto. In g, element c has no pre‑image, so g is not onto. Hence option B correctly describes the situation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following functions f:\\mathbb{R}\\rightarrow\\mathbb{R} is bijective?",
+      "options": {
+        "A": "f(x)=x^{2}",
+        "B": "f(x)=e^{x}",
+        "C": "f(x)=x^{3}",
+        "D": "f(x)=\\sin x"
+      },
+      "correct_option": "C",
+      "answer": "f(x)=x^{3}",
+      "explanation": "A bijective function must be both one‑to‑one and onto. f(x)=x^{3} is strictly increasing over all real numbers, giving a unique output for each input (one‑to‑one) and covering every real number (onto). f(x)=x^{2} is not one‑to‑one, e^{x} is not onto \\mathbb{R} (its range is (0,\\infty)), and \\sin x is not one‑to‑one nor onto \\mathbb{R}. Thus option C is the only bijective function.",
+      "difficulty": "hard"
+    }
+  ]
+}

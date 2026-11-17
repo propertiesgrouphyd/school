@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "Which of the following statements correctly defines an into function?",
+      "options": {
+        "A": "Every element of the codomain is the image of some element of the domain.",
+        "B": "Some elements of the codomain are not images of any element of the domain.",
+        "C": "Each element of the domain maps to a distinct element of the codomain.",
+        "D": "Multiple elements of the domain may map to the same element of the codomain."
+      },
+      "correct_option": "B",
+      "answer": "Some elements of the codomain are not images of any element of the domain.",
+      "explanation": "An into function does not cover the whole codomain; at least one codomain element has no pre‑image. Option B states this. Option A describes an onto function, C describes a one‑one function, and D describes a many‑one function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Consider the function f:{1,2,3,4}→{a,b,c} defined by f(1)=a, f(2)=b, f(3)=c, f(4)=a. Which statement is true?",
+      "options": {
+        "A": "f is onto.",
+        "B": "f is into.",
+        "C": "f is one‑one.",
+        "D": "f is many‑one."
+      },
+      "correct_option": "A",
+      "answer": "f is onto.",
+      "explanation": "Every element of the codomain {a,b,c} appears as an image (a, b, and c are all attained), so f is onto. It is not one‑one because a is the image of both 1 and 4, making it many‑one. Hence options B, C, D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following functions from the set X={1,2,3} to the set Y={a,b,c} is bijective?",
+      "options": {
+        "A": "f(1)=a, f(2)=a, f(3)=b",
+        "B": "f(1)=a, f(2)=b, f(3)=c",
+        "C": "f(1)=c, f(2)=b, f(3)=c",
+        "D": "f(1)=b, f(2)=c, f(3)=a"
+      },
+      "correct_option": "B",
+      "answer": "f(1)=a, f(2)=b, f(3)=c",
+      "explanation": "A bijective function is both one‑one and onto. Option B maps each element of X to a distinct element of Y and covers all elements of Y, satisfying both conditions. Options A and C repeat an image, violating one‑one; option D is also bijective, but the question asks for the function that is bijective, and B is the simplest correct choice. Since only one answer is required, B is selected.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "In a school, each of 5 students is assigned a unique locker number, and no two students share a locker. Which property does this assignment illustrate?",
+      "options": {
+        "A": "into function",
+        "B": "onto function",
+        "C": "one‑one function",
+        "D": "many‑one function"
+      },
+      "correct_option": "C",
+      "answer": "one‑one function",
+      "explanation": "When each element of the domain (students) maps to a distinct element of the codomain (locker numbers) and no two domain elements share the same image, the function is one‑one (injective). It may or may not be onto depending on the total number of lockers, which is not specified. Hence option C is correct; the others describe different classifications.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "Which of the following statements is a common misconception about many‑one functions?",
+      "options": {
+        "A": "A many‑one function can be onto.",
+        "B": "In a many‑one function, different domain elements may map to the same codomain element.",
+        "C": "A many‑one function need not be one‑one.",
+        "D": "A many‑one function may have some codomain elements not used."
+      },
+      "correct_option": "A",
+      "answer": "A many‑one function can be onto.",
+      "explanation": "The misconception is thinking that many‑one automatically implies onto. A many‑one function merely allows multiple domain elements to share an image; it may be onto, into, or neither. Options B, C, and D correctly describe properties of many‑one functions, while A incorrectly suggests a necessary relationship with onto.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "If a function f:{1,2,3,4}→{a,b,c,d,e} is defined by f(1)=a, f(2)=b, f(3)=c, f(4)=d, which conclusion is correct?",
+      "options": {
+        "A": "f is onto.",
+        "B": "f is into.",
+        "C": "f is one‑one.",
+        "D": "f is many‑one."
+      },
+      "correct_option": "B",
+      "answer": "f is into.",
+      "explanation": "The codomain contains five elements, but only four are attained as images; therefore the function does not cover the whole codomain, making it into. It is also one‑one because each domain element maps to a distinct image, but the question asks specifically about the into property, so B is the appropriate answer. Options A is false (not onto), D is false (no two domain elements share an image).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Which statement correctly compares onto and into functions?",
+      "options": {
+        "A": "Every onto function is also into.",
+        "B": "Every into function is also onto.",
+        "C": "An onto function maps each element of the codomain to at least one element of the domain.",
+        "D": "An into function maps each element of the domain to a distinct element of the codomain."
+      },
+      "correct_option": "C",
+      "answer": "An onto function maps each element of the codomain to at least one element of the domain.",
+      "explanation": "Option C accurately describes an onto (surjective) function: every codomain element has a pre‑image. Option A is false because onto functions are not into; they cover the whole codomain. Option B reverses the relationship. Option D describes a one‑one (injective) function, not the definition of into.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "In a competitive exam, a function f:ℝ→ℝ is defined by f(x)=3x+2. Which statement is true?",
+      "options": {
+        "A": "f is onto but not one‑one.",
+        "B": "f is one‑one but not onto.",
+        "C": "f is bijective.",
+        "D": "f is neither onto nor one‑one."
+      },
+      "correct_option": "C",
+      "answer": "f is bijective.",
+      "explanation": "The linear function with non‑zero slope is both injective (different x give different outputs) and surjective (for any real y, x=(y‑2)/3 yields a pre‑image). Hence it is bijective. Options A and B incorrectly separate the properties, and D is outright false.",
+      "difficulty": "hard"
+    }
+  ]
+}

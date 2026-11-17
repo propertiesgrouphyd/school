@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-256-001",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Which of the following expressions defines a constant function on \\(\\mathbb{R}\\)?",
+      "options": {
+        "A": "f(x)=5",
+        "B": "f(x)=x+2",
+        "C": "f(x)=x^{2}",
+        "D": "f(x)=\\sin x"
+      },
+      "correct_option": "A",
+      "answer": "f(x)=5",
+      "explanation": "A constant function gives the same output for every input. In option A, f(x)=5 returns 5 for any x, satisfying the definition. Options B, C, and D all depend on x, so they are not constant functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-256-002",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "The identity function \\(f:\\mathbb{R}\\to\\mathbb{R}\\) is given by which formula?",
+      "options": {
+        "A": "f(x)=x",
+        "B": "f(x)=|x|",
+        "C": "f(x)=x^{2}",
+        "D": "f(x)=0"
+      },
+      "correct_option": "A",
+      "answer": "f(x)=x",
+      "explanation": "The identity function maps each real number to itself, i.e., f(x)=x. The other options modify the input (absolute value, squaring, or mapping everything to zero), so they are not identity functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-256-003",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Which of the following is a polynomial function?",
+      "options": {
+        "A": "f(x)=3x^{3}-2x+1",
+        "B": "f(x)=2^{x}",
+        "C": "f(x)=\\frac{1}{x}",
+        "D": "f(x)=\\sqrt{x}"
+      },
+      "correct_option": "A",
+      "answer": "f(x)=3x^{3}-2x+1",
+      "explanation": "A polynomial is a sum of non‑negative integer powers of x with real coefficients. Option A meets this definition. Options B (exponential), C (reciprocal), and D (radical) are not polynomials.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-256-004",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "Select the rational function among the following expressions.",
+      "options": {
+        "A": "f(x)=\\frac{x^{2}+1}{x-3}",
+        "B": "f(x)=x^{3}+2",
+        "C": "f(x)=|x|",
+        "D": "f(x)=e^{x}"
+      },
+      "correct_option": "A",
+      "answer": "f(x)=\\frac{x^{2}+1}{x-3}",
+      "explanation": "A rational function is the ratio of two polynomials. Option A is a quotient of polynomials, while B is a polynomial, C is an absolute‑value function, and D is exponential, none of which are rational functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-256-005",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand modulus function",
+      "question": "If \\(f(x)=|x-2|\\), what is the value of \\(f(5)\\)?",
+      "options": {
+        "A": "3",
+        "B": "-3",
+        "C": "7",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "3",
+      "explanation": "Substituting x=5 gives \\(|5-2|=|3|=3\\). The modulus (absolute value) always yields a non‑negative result, so the correct answer is 3. The other options are either negative or unrelated values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-256-006",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand signum function",
+      "question": "The signum function \\(\\operatorname{sgn}(x)\\) is defined as \\(\\operatorname{sgn}(x)=1\\) if \\(x>0\\), \\(0\\) if \\(x=0\\), and \\(-1\\) if \\(x<0\\). What is \\(\\operatorname{sgn}(-7)\\)?",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "undefined"
+      },
+      "correct_option": "A",
+      "answer": "-1",
+      "explanation": "Since -7 is less than 0, the signum function returns -1. Options B and C correspond to x=0 and x>0 respectively, and D is incorrect because the function is defined for all real numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-256-007",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand greatest integer function",
+      "question": "For the greatest integer (floor) function \\([x]\\), what is \\([\\,-2.3\\,]\\)?",
+      "options": {
+        "A": "-2",
+        "B": "-3",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "answer": "-3",
+      "explanation": "The greatest integer function gives the largest integer less than or equal to the argument. For -2.3, the integers less than or equal are ..., -4, -3; the greatest among them is -3. Option A is a common mistake (thinking of truncation toward zero). Options C and D are positive and irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-256-008",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand exponential and logarithmic functions at the introductory level",
+      "question": "If \\(\\log_{10} 1000 = y\\), what is the value of \\(y\\)?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "\\(10^{y}=1000\\). Since \\(10^{3}=1000\\), y=3. Option A would correspond to \\(10^{2}=100\\), C to \\(10^{1}=10\\), and D to \\(10^{0}=1\\). Hence the correct answer is 3.",
+      "difficulty": "medium"
+    }
+  ]
+}
