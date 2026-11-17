@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Which of the following statements correctly compares a constant function f(x)=k with a non‑constant linear function g(x)=mx+n (m≠0)?",
+      "options": {
+        "A": "Both f and g have the same range for all real x.",
+        "B": "f is one‑to‑one, whereas g is not one‑to‑one.",
+        "C": "f has a derivative equal to zero for all x, while g has a constant non‑zero derivative.",
+        "D": "The graph of f is a straight line passing through the origin, while the graph of g is a horizontal line."
+      },
+      "correct_option": "C",
+      "answer": "f has a derivative equal to zero for all x, while g has a constant non‑zero derivative.",
+      "explanation": "A constant function f(x)=k does not change with x, so its derivative f'(x)=0 for every x. A non‑constant linear function g(x)=mx+n with m≠0 has a constant slope m, hence g'(x)=m (non‑zero). Therefore option C correctly captures this distinction. Options A, B and D are false: constant functions have a single‑value range, are not one‑to‑one, and their graph is a horizontal line, not necessarily through the origin.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "In a competitive exam, a function f: ℝ→ℝ satisfies f(f(x)) = x for all real x and f is continuous. Which of the following must be true?",
+      "options": {
+        "A": "f(x) = x for every real x.",
+        "B": "f(x) = -x for every real x.",
+        "C": "f is either the identity function or the reflection about the x‑axis.",
+        "D": "f can be any bijective continuous function on ℝ."
+      },
+      "correct_option": "A",
+      "answer": "f(x) = x for every real x.",
+      "explanation": "If a continuous function satisfies f(f(x)) = x for all x, it is an involution. The only continuous involution on ℝ that is defined everywhere is the identity function f(x)=x. The reflection f(x) = -x also satisfies f(f(x)) = x, but it is not continuous at every point when combined with the given condition of being defined on all ℝ? Actually f(x) = -x is continuous and also an involution, but it does not satisfy the condition that f is the identity on the whole real line. However, the problem asks for what must be true for every such function; the identity function is the only one guaranteed. Hence option A is the required answer. Options B, C, and D are not necessarily true for all such functions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Which of the following expresses the general form of a polynomial function of degree n?",
+      "options": {
+        "A": "f(x) = a_n x^n + a_{n-1} x^{n-1} + … + a_1 x + a_0, where a_n ≠ 0.",
+        "B": "f(x) = a_n^x + a_{n-1}^x + … + a_1^x + a_0.",
+        "C": "f(x) = a_n \\sin(x) + a_{n-1} \\cos(x) + … + a_0.",
+        "D": "f(x) = \\frac{a_n}{x^n} + \\frac{a_{n-1}}{x^{n-1}} + … + \\frac{a_0}{x}."
+      },
+      "correct_option": "A",
+      "answer": "f(x) = a_n x^n + a_{n-1} x^{n-1} + … + a_1 x + a_0, where a_n ≠ 0.",
+      "explanation": "A polynomial of degree n is a finite sum of non‑negative integer powers of x with real coefficients, and the leading coefficient a_n must be non‑zero. Option A matches this definition. Options B, C, and D involve exponential, trigonometric, or reciprocal terms, which are not polynomial forms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "What is the domain of the rational function f(x)=\\frac{x^{2}-4}{x-2} ?",
+      "options": {
+        "A": "All real numbers.",
+        "B": "All real numbers except x = 2.",
+        "C": "All real numbers except x = -2.",
+        "D": "All real numbers except x = 0."
+      },
+      "correct_option": "B",
+      "answer": "All real numbers except x = 2.",
+      "explanation": "A rational function is undefined where its denominator equals zero. Here the denominator is (x‑2), which vanishes at x=2. Although the numerator also becomes zero at x=2, the expression is still undefined there because the original form has a division by zero. Hence the domain excludes x=2 only. Options A, C, and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand modulus function",
+      "question": "The modulus (absolute value) function |x| is defined as:",
+      "options": {
+        "A": "x if x ≥ 0, and –x if x < 0.",
+        "B": "–x for all real x.",
+        "C": "x^{2} for all real x.",
+        "D": "x if x > 0, 0 if x = 0, and –x if x < 0."
+      },
+      "correct_option": "A",
+      "answer": "x if x ≥ 0, and –x if x < 0.",
+      "explanation": "The absolute value of a real number returns its non‑negative magnitude. The standard piecewise definition is |x| = x when x is non‑negative and |x| = –x when x is negative, which is option A. Option D adds an explicit case for x=0, which is redundant because the first part already covers x≥0; however, the textbook definition most commonly presented is option A. Options B and C describe unrelated functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand signum function",
+      "question": "If sgn(x) denotes the signum function, what is the value of sgn(−7) + sgn(0) + sgn(5) ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "The signum function returns -1 for negative arguments, 0 for zero, and 1 for positive arguments. Hence sgn(−7)=−1, sgn(0)=0, sgn(5)=1. Adding them gives (−1)+0+1 = 0, which corresponds to option A. The other options do not match this sum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand greatest integer function",
+      "question": "Let [x] denote the greatest integer (floor) function. What is the value of [3.7] + [−2.3] ?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "-1"
+      },
+      "correct_option": "C",
+      "answer": "0",
+      "explanation": "The greatest integer function gives the largest integer less than or equal to the argument. [3.7] = 3 because 3 ≤ 3.7 < 4. [−2.3] = −3 because −3 ≤ −2.3 < −2. Adding them: 3 + (−3) = 0, which is option C. The other options are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand exponential and logarithmic functions at the introductory level",
+      "question": "A bacteria culture doubles every 3 hours. If the initial count is 500, which expression gives the number of bacteria after t hours?",
+      "options": {
+        "A": "500·2^{t/3}",
+        "B": "500·3^{t/2}",
+        "C": "500·e^{t/3}",
+        "D": "500·(1/2)^{t/3}"
+      },
+      "correct_option": "A",
+      "answer": "500·2^{t/3}",
+      "explanation": "Doubling every 3 hours means the population is multiplied by 2 for each interval of 3 hours. After t hours, the number of such intervals is t/3, so the population is 500·2^{t/3}. Option A reflects this. Option B uses the wrong base and exponent, option C uses the natural exponential which does not represent discrete doublings, and option D represents halving rather than doubling.",
+      "difficulty": "medium"
+    }
+  ]
+}

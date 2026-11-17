@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Which of the following describes a constant function?",
+      "options": {
+        "A": "f(x) = 5 for all real x",
+        "B": "f(x) = x + 2",
+        "C": "f(x) = x^2",
+        "D": "f(x) = |x|"
+      },
+      "correct_option": "A",
+      "answer": "f(x) = 5 for all real x",
+      "explanation": "A constant function has the same output for every input; its formula does not involve the variable. Option A gives a fixed value 5 for any x, which matches the definition. Options B, C, and D change with x, so they are not constant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "If f(x) = 2x + 3 and g(x) = x (the identity function), what is (f \\u2218 g)(x)?",
+      "options": {
+        "A": "2x + 3",
+        "B": "x",
+        "C": "2x",
+        "D": "2x + 5"
+      },
+      "correct_option": "A",
+      "answer": "2x + 3",
+      "explanation": "The identity function leaves its argument unchanged: g(x) = x. Therefore (f \\u2218 g)(x) = f(g(x)) = f(x) = 2x + 3. The other options either ignore the constant term or modify the expression incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Consider the function f(x) = 4x^3 - 2x^2 + 7. Which statement is true about f?",
+      "options": {
+        "A": "It is a polynomial function of degree 3.",
+        "B": "It is a rational function.",
+        "C": "It is a constant function.",
+        "D": "It is not defined for x = 0."
+      },
+      "correct_option": "A",
+      "answer": "It is a polynomial function of degree 3.",
+      "explanation": "A polynomial function is a sum of non‑negative integer powers of x with real coefficients. f(x) = 4x^3 - 2x^2 + 7 meets this definition, and the highest power is 3, so its degree is 3. It is not rational (no denominator), not constant, and it is defined for all real x, including 0.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "A rational function is given by R(x) = (5x + 10) / (x - 2). Which statement about its domain is correct?",
+      "options": {
+        "A": "All real numbers except x = 2.",
+        "B": "All real numbers except x = 0.",
+        "C": "All real numbers.",
+        "D": "All real numbers except x = 5."
+      },
+      "correct_option": "A",
+      "answer": "All real numbers except x = 2.",
+      "explanation": "A rational function is undefined where its denominator equals zero. Here the denominator x - 2 = 0 when x = 2, so the domain excludes x = 2 only. The other values do not make the denominator zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand modulus function",
+      "question": "Which of the following statements about the modulus (absolute value) function |x| is incorrect?",
+      "options": {
+        "A": "|x| \\u2265 0 for all real x.",
+        "B": "|x| = x when x \\u2265 0.",
+        "C": "|x| = -x when x < 0.",
+        "D": "|x| = x for all real x."
+      },
+      "correct_option": "D",
+      "answer": "|x| = x for all real x.",
+      "explanation": "The absolute value equals x only when x is non‑negative; for negative x, |x| = -x. Therefore statement D is false. Statements A, B, and C correctly describe properties of the modulus function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand signum function",
+      "question": "The signum function sgn(x) is defined as -1 for x < 0, 0 for x = 0, and 1 for x > 0. What is sgn(-3) + sgn(0) + sgn(4)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "sgn(-3) = -1 (since -3 < 0), sgn(0) = 0, sgn(4) = 1 (since 4 > 0). Adding them gives -1 + 0 + 1 = 0. The other options do not match this sum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand greatest integer function",
+      "question": "Let \\u230a x \\u230b denote the greatest integer \\u2264 x (the floor function). Which statement is always true for any real number x?",
+      "options": {
+        "A": "\\u230a x \\u230b \\u2264 x < \\u230a x \\u230b + 1.",
+        "B": "\\u230a x \\u230b = x.",
+        "C": "\\u230a x \\u230b \\u2265 x.",
+        "D": "\\u230a x \\u230b + 1 \\u2264 x."
+      },
+      "correct_option": "A",
+      "answer": "\\u230a x \\u230b \\u2264 x < \\u230a x \\u230b + 1.",
+      "explanation": "By definition, the floor of x is the greatest integer not exceeding x, so it satisfies \\u230a x \\u230b \\u2264 x. Moreover, the next integer \\u230a x \\u230b + 1 is strictly greater than x. Hence the inequality in option A holds for all real x. Options B, C, and D are false in general.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand exponential and logarithmic functions at the introductory level",
+      "question": "If \\u211b_2 8 = 3, which of the following equals 2^{\\u211b_2 5}?",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "10",
+        "D": "25"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "The expression 2^{\\u211b_2 5} uses the property a^{\\u211b_a b} = b. Since the base of the logarithm and the exponent are the same (2), the result is simply 5. Therefore option A is correct; the other numbers are unrelated to this identity.",
+      "difficulty": "hard"
+    }
+  ]
+}

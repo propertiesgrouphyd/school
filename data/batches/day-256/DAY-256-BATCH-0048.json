@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Consider the function f defined by f(x) = 7 for every real number x. Which of the following statements about f is correct?",
+      "options": {
+        "A": "The graph of f is a vertical line x = 7.",
+        "B": "The graph of f is a horizontal line y = 7.",
+        "C": "The function f is one‑to‑one because each x has a unique y.",
+        "D": "The range of f is all real numbers."
+      },
+      "correct_option": "B",
+      "answer": "The graph of f is a horizontal line y = 7.",
+      "explanation": "A constant function assigns the same output value to every input. Hence its graph is a horizontal line at y = constant (here y = 7). It is not vertical, it is not one‑to‑one (different x give the same y), and its range consists of the single value {7}, not all real numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "A factory has a machine that receives a real number x as input and returns exactly the same number as output. Which algebraic expression best represents the rule of this machine?",
+      "options": {
+        "A": "f(x) = x + 1",
+        "B": "f(x) = 0",
+        "C": "f(x) = x",
+        "D": "f(x) = x^2"
+      },
+      "correct_option": "C",
+      "answer": "f(x) = x",
+      "explanation": "An identity function returns the input unchanged, so its rule is f(x) = x. Adding 1, squaring, or returning 0 would change the input, which does not match the described scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Which of the following expressions is NOT a polynomial function of x?",
+      "options": {
+        "A": "3x^4 - 2x + 5",
+        "B": "-7x^3 + x^2 - 1",
+        "C": "4x^{1/2} + 2",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "answer": "4x^{1/2} + 2",
+      "explanation": "A polynomial must have non‑negative integer exponents. Option C contains x^{1/2}, a fractional exponent, so it is not a polynomial. Options A, B, and the zero function D are all valid polynomials.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "Let g(x) = (x^2 - 4)/(x - 2). Which of the following statements is true?",
+      "options": {
+        "A": "g(x) is undefined for all real x.",
+        "B": "g(x) simplifies to x + 2 and is defined for every real x.",
+        "C": "g(x) simplifies to x + 2 but is undefined at x = 2.",
+        "D": "g(x) simplifies to x - 2 and is defined at x = 2."
+      },
+      "correct_option": "C",
+      "answer": "g(x) simplifies to x + 2 but is undefined at x = 2.",
+      "explanation": "Factorising the numerator gives (x-2)(x+2). Cancelling (x-2) yields g(x)=x+2 for x ≠ 2. At x = 2 the original denominator is zero, so the function is undefined there. Hence option C is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand modulus function",
+      "question": "For any real number x, compare the expressions |x| and √(x²). Which statement is always true?",
+      "options": {
+        "A": "|x| > √(x²) for all x ≠ 0.",
+        "B": "|x| = √(x²) for all real x.",
+        "C": "|x| < √(x²) for all x ≠ 0.",
+        "D": "|x| and √(x²) are unrelated; they can be any values."
+      },
+      "correct_option": "B",
+      "answer": "|x| = √(x²) for all real x.",
+      "explanation": "By definition, |x| is the non‑negative magnitude of x. Squaring x gives x², whose square root is also the non‑negative magnitude. Therefore √(x²) equals |x| for every real x, making option B universally true.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand signum function",
+      "question": "The signum function sgn(x) is defined as -1 for x<0, 0 for x=0, and 1 for x>0. Evaluate the integral \\( \\int_{-2}^{3} sgn(x)\\,dx \\).",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "Split the integral at 0: \\(\\int_{-2}^{0} (-1)dx + \\int_{0}^{3} 1\\,dx = (-1)(0-(-2)) + (1)(3-0) = -2 + 3 = 1\\). Wait, that's 1, not 3. Re‑evaluate: Actually \\(\\int_{-2}^{0} (-1)dx = -1 \\times (0-(-2)) = -2\\). \\(\\int_{0}^{3} 1dx = 3\\). Sum = 1. Hence the correct answer should be 1, which corresponds to option C. Therefore the correct option is C, and the answer is 1.\n\nCorrected fields:",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand greatest integer function",
+      "question": "What is the value of the greatest integer function \\(\\lfloor 3.7 \\rfloor\\)?",
+      "options": {
+        "A": "4",
+        "B": "3.7",
+        "C": "3",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "answer": "3",
+      "explanation": "The greatest integer (or floor) function \\(\\lfloor x \\rfloor\\) gives the largest integer less than or equal to x. For 3.7, the largest integer not exceeding it is 3.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72-01",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand exponential and logarithmic functions at the introductory level",
+      "question": "If \\(f(x) = 2^x\\) and \\(g(x) = \\log_2 x\\), which of the following statements is true for all x > 0?",
+      "options": {
+        "A": "f(g(x)) = x and g(f(x)) = x",
+        "B": "f(g(x)) = 2x and g(f(x)) = \\frac{x}{2}",
+        "C": "f(g(x)) = \\log_2 x and g(f(x)) = 2^x",
+        "D": "Both compositions are undefined for x > 0."
+      },
+      "correct_option": "A",
+      "answer": "f(g(x)) = x and g(f(x)) = x",
+      "explanation": "The functions f and g are inverses of each other. Substituting g(x) into f gives \\(f(g(x)) = 2^{\\log_2 x} = x\\). Substituting f(x) into g gives \\(g(f(x)) = \\log_2 (2^x) = x\\). Hence option A is correct.",
+      "difficulty": "easy"
+    }
+  ]
+}

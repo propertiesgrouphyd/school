@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Consider the function f(x)=7 for all real x. Which statement about its graph is correct?",
+      "options": {
+        "A": "The graph is a horizontal line passing through (0,7).",
+        "B": "The function has a slope of 7.",
+        "C": "The function is one-to-one.",
+        "D": "The range of the function is all real numbers."
+      },
+      "correct_option": "A",
+      "answer": "The graph is a horizontal line passing through (0,7).",
+      "explanation": "A constant function y=7 has the same output for every x, so its graph is a horizontal line at y=7, which passes through (0,7). Its slope is 0 (not 7), it is not one-to-one because many x give the same y, and its range is the single value {7}, not all real numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "Let h(x)=x for every real x. Which of the following is always true for any real number a?",
+      "options": {
+        "A": "h(a)=a",
+        "B": "h(a)=a^{2}",
+        "C": "h(a)=0",
+        "D": "h(a)=1"
+      },
+      "correct_option": "A",
+      "answer": "h(a)=a",
+      "explanation": "The identity function returns its input unchanged, so for any real a, h(a)=a. The other options describe different functions and are not true for the identity function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Consider the polynomials P(x)=2x^{3}-x+4 and Q(x)=-5x^{3}+3x^{2}-2. Which statement correctly describes their end behavior as x\\to\\infty?",
+      "options": {
+        "A": "Both P(x) and Q(x) tend to +\\infty.",
+        "B": "P(x) tends to +\\infty while Q(x) tends to -\\infty.",
+        "C": "Both P(x) and Q(x) tend to -\\infty.",
+        "D": "P(x) tends to -\\infty while Q(x) tends to +\\infty."
+      },
+      "correct_option": "B",
+      "answer": "P(x) tends to +\\infty while Q(x) tends to -\\infty.",
+      "explanation": "The leading term determines end behavior. P(x) has leading term 2x^{3} (positive coefficient) so P(x)\\to+\\infty as x\\to\\infty. Q(x) has leading term -5x^{3} (negative coefficient) so Q(x)\\to-\\infty as x\\to\\infty. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "For the rational function R(x)=\\frac{x^{2}-4}{x^{2}-x-6}, which statement is correct?",
+      "options": {
+        "A": "The function has a vertical asymptote at x=3.",
+        "B": "The function is undefined at x=2.",
+        "C": "The function has a hole at x=2.",
+        "D": "The function has a horizontal asymptote y=2."
+      },
+      "correct_option": "A",
+      "answer": "The function has a vertical asymptote at x=3.",
+      "explanation": "Factorising gives R(x)=\\frac{(x-2)(x+2)}{(x-3)(x+2)}. The factor (x+2) cancels, leaving a hole at x=-2. The denominator still has (x-3), so x=3 is a vertical asymptote. The function is defined at x=2 (value 0). Degrees of numerator and denominator are equal, giving a horizontal asymptote y=1, not y=2. Thus only option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand modulus function",
+      "question": "The modulus (absolute value) function |x| is defined as:",
+      "options": {
+        "A": "x if x\\ge 0, and -x if x<0",
+        "B": "x^{2}",
+        "C": "\\sqrt{x}",
+        "D": "-x for all x"
+      },
+      "correct_option": "A",
+      "answer": "x if x\\ge 0, and -x if x<0",
+      "explanation": "By definition, |x| equals x when x is non‑negative and equals -x when x is negative, ensuring the result is always non‑negative. The other options describe different functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand signum function",
+      "question": "The signum function sgn(x) equals:",
+      "options": {
+        "A": "1 if x>0, 0 if x=0, -1 if x<0",
+        "B": "x^{2}",
+        "C": "x/|x| for all x",
+        "D": "-1 for all x"
+      },
+      "correct_option": "A",
+      "answer": "1 if x>0, 0 if x=0, -1 if x<0",
+      "explanation": "The signum function returns the sign of its argument: 1 for positive numbers, -1 for negative numbers, and 0 at x=0. Option C is incorrect because x/|x| is undefined at x=0, so it does not give the required 0 value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand greatest integer function",
+      "question": "The greatest integer function \\lfloor x \\rfloor is defined as:",
+      "options": {
+        "A": "The smallest integer greater than or equal to x",
+        "B": "The greatest integer less than or equal to x",
+        "C": "The integer part of x obtained by truncating the decimal part towards zero",
+        "D": "Both B and C are correct"
+      },
+      "correct_option": "B",
+      "answer": "The greatest integer less than or equal to x",
+      "explanation": "\\lfloor x \\rfloor gives the largest integer that does not exceed x. Option A describes the ceiling function. Option C fails for negative numbers (e.g., \\lfloor -2.3 \\rfloor = -3, not -2), so only B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand exponential and logarithmic functions at the introductory level",
+      "question": "If y = 2^{x} and y = 8, what is the value of x?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "2^{3}=8, so x=3. The other options give 2^{2}=4, 2^{4}=16, and 2^{6}=64, which are not equal to 8.",
+      "difficulty": "easy"
+    }
+  ]
+}
