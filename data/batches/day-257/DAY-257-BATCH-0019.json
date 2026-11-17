@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand trigonometric functions for general angles",
+      "question": "According to the unit‑circle definition, which statement correctly describes the value of sin θ for any real angle θ?",
+      "options": {
+        "A": "It equals the x‑coordinate of the point where the terminal side of θ meets the unit circle.",
+        "B": "It equals the y‑coordinate of the point where the terminal side of θ meets the unit circle.",
+        "C": "It equals the radius of the unit circle.",
+        "D": "It equals the measure of θ in radians."
+      },
+      "correct_option": "B",
+      "answer": "It equals the y‑coordinate of the point where the terminal side of θ meets the unit circle.",
+      "explanation": "In the unit‑circle definition, a point P(x, y) on the circle corresponds to angle θ measured from the positive x‑axis. By definition, sin θ = y, the vertical coordinate, while cos θ = x. Hence option B is correct; the other options describe cos θ, the radius (always 1), or a misinterpretation of the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Determine signs in different quadrants",
+      "question": "In which quadrants is the cosine of an angle positive when the angle is measured from the positive x‑axis?",
+      "options": {
+        "A": "Quadrant I only",
+        "B": "Quadrant I and Quadrant IV",
+        "C": "Quadrant II and Quadrant III",
+        "D": "Quadrant III only"
+      },
+      "correct_option": "B",
+      "answer": "Quadrant I and Quadrant IV",
+      "explanation": "Cosine corresponds to the x‑coordinate on the unit circle. The x‑coordinate is positive in Quadrant I (both x and y positive) and Quadrant IV (x positive, y negative). It is negative in Quadrants II and III. Therefore option B is correct; the other options miss one of the positive‑cosine quadrants.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand periodicity",
+      "question": "The sine function has a period of 2π. Which of the following statements correctly reflects this periodicity?",
+      "options": {
+        "A": "sin(θ + 2π) = sin θ for every real θ.",
+        "B": "sin(θ + π) = sin θ for every real θ.",
+        "C": "sin(θ + π) = –sin θ for every real θ.",
+        "D": "sin(θ + π/2) = sin θ for every real θ."
+      },
+      "correct_option": "A",
+      "answer": "sin(θ + 2π) = sin θ for every real θ.",
+      "explanation": "A period of 2π means that adding 2π radians (a full rotation) leaves the sine value unchanged, giving statement A. Adding π changes the sign of sine (statement C) and does not keep it unchanged (statement B). Adding π/2 shifts the function, so statement D is false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Use standard-angle values",
+      "question": "What is the exact value of cos 150°?",
+      "options": {
+        "A": "-√3/2",
+        "B": "-1/2",
+        "C": "√3/2",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "answer": "-√3/2",
+      "explanation": "150° = 180° – 30°. Cosine of (180° – α) equals –cos α. Since cos 30° = √3/2, cos 150° = –√3/2. Option A matches this value; the other options correspond to different angles.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Relate coordinates on the unit circle to trigonometric ratios",
+      "question": "The point P(‑1/2, √3/2) lies on the unit circle. Which trigonometric ratio of the corresponding angle θ equals √3/2?",
+      "options": {
+        "A": "sin θ",
+        "B": "cos θ",
+        "C": "tan θ",
+        "D": "cot θ"
+      },
+      "correct_option": "A",
+      "answer": "sin θ",
+      "explanation": "For a point (x, y) on the unit circle, cos θ = x and sin θ = y. Here y = √3/2, so sin θ = √3/2. Hence option A is correct. Cos θ would be –1/2, and tan θ = sin θ / cos θ = –√3, not √3/2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand trigonometric functions for general angles",
+      "question": "An angle θ is measured 45° clockwise from the positive x‑axis. What is sin θ?",
+      "options": {
+        "A": "√2/2",
+        "B": "-√2/2",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "answer": "-√2/2",
+      "explanation": "Clockwise measurement corresponds to a negative angle: θ = –45° (or 315°). The sine of –45° is –sin 45° = –√2/2. Option B gives this value; the other options are for different angles.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Determine signs in different quadrants",
+      "question": "A student claims that tan θ is negative in Quadrant I because both sin θ and cos θ are positive there. Is this claim correct?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "It depends on the specific angle",
+        "D": "Not enough information"
+      },
+      "correct_option": "B",
+      "answer": "No",
+      "explanation": "In Quadrant I, sin θ > 0 and cos θ > 0, so tan θ = sin θ / cos θ is positive, not negative. The student's reasoning reverses the sign rule. Therefore the claim is incorrect, making option B the right answer.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand periodicity",
+      "question": "If sin θ = 0.6, which of the following could be the value of sin(θ + 2π)?",
+      "options": {
+        "A": "0.6",
+        "B": "-0.6",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "0.6",
+      "explanation": "Because sine has a period of 2π, adding 2π to the angle does not change its value: sin(θ + 2π) = sin θ = 0.6. Hence option A is correct; the other options represent different values that would arise from different transformations.",
+      "difficulty": "medium"
+    }
+  ]
+}

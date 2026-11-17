@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand periodicity",
+      "question": "Which of the following statements correctly defines the periodicity of the trigonometric functions sine and cosine?",
+      "options": {
+        "A": "A function f is periodic if there exists a positive number P such that f(θ+P)=f(θ) for all θ; for sine and cosine the smallest positive P is 2π.",
+        "B": "A function is periodic only when its graph repeats after a shift of π radians.",
+        "C": "Periodicity means the function attains the same value only at integer multiples of 90°.",
+        "D": "Sine and cosine are not periodic because their values keep changing continuously."
+      },
+      "correct_option": "A",
+      "answer": "A function f is periodic if there exists a positive number P such that f(θ+P)=f(θ) for all θ; for sine and cosine the smallest positive P is 2π.",
+      "explanation": "The definition of a periodic function requires a positive period P with f(θ+P)=f(θ) for every θ. For sin θ and cos θ the fundamental period is 2π radians. Options B and C give incorrect values for the period, and D contradicts the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Use standard-angle values",
+      "question": "Using the unit‑circle definition, what is the value of sin 150°?",
+      "options": {
+        "A": "1/2",
+        "B": "√3/2",
+        "C": "-1/2",
+        "D": "-√3/2"
+      },
+      "correct_option": "A",
+      "answer": "1/2",
+      "explanation": "150° lies in Quadrant II where sine is positive. Its reference angle is 30°, and sin 30° = 1/2. Hence sin 150° = 1/2. Options B, C, D are values for other standard angles or have the wrong sign.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Relate coordinates on the unit circle to trigonometric ratios",
+      "question": "A point on the unit circle corresponding to an angle θ has coordinates (x, y). Which expression equals tan θ?",
+      "options": {
+        "A": "y/x",
+        "B": "x/y",
+        "C": "x",
+        "D": "y"
+      },
+      "correct_option": "A",
+      "answer": "y/x",
+      "explanation": "On the unit circle, x = cos θ and y = sin θ. Therefore tan θ = sin θ / cos θ = y / x. Options B, C, D do not represent the tangent ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand trigonometric functions for general angles",
+      "question": "An angle is measured clockwise from the positive x‑axis as –45°. What is the value of cos(–45°) using the unit‑circle definition?",
+      "options": {
+        "A": "√2/2",
+        "B": "-√2/2",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "√2/2",
+      "explanation": "A negative angle of –45° corresponds to a 45° rotation in the clockwise direction, placing the terminal side in Quadrant IV where cosine is positive. cos 45° = √2/2, so cos(–45°) = √2/2. The other options give incorrect signs or values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Determine signs in different quadrants",
+      "question": "Which of the following statements is FALSE about the signs of sine and cosine for angles in Quadrant II?",
+      "options": {
+        "A": "sin θ is positive",
+        "B": "cos θ is negative",
+        "C": "tan θ is positive",
+        "D": "Both sin θ and cos θ are negative"
+      },
+      "correct_option": "D",
+      "answer": "Both sin θ and cos θ are negative",
+      "explanation": "In Quadrant II, sine is positive and cosine is negative, making tangent (sin/cos) negative divided by negative = positive. Therefore statement D is false. Statements A, B, and C correctly describe the signs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand periodicity",
+      "question": "If sin θ = 0.6, which of the following could be the value of sin(θ + π)?",
+      "options": {
+        "A": "-0.6",
+        "B": "0.6",
+        "C": "1.2",
+        "D": "-1.2"
+      },
+      "correct_option": "A",
+      "answer": "-0.6",
+      "explanation": "Using the identity sin(θ+π) = –sin θ, the value becomes –0.6. Option B repeats the original value, while C and D exceed the range [‑1, 1] for sine, making them impossible.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Use standard-angle values",
+      "question": "Which equality correctly relates the standard‑angle values of sin 75° and cos 15°?",
+      "options": {
+        "A": "sin 75° = cos 15°",
+        "B": "sin 75° = sin 15°",
+        "C": "sin 75° = √2/2",
+        "D": "sin 75° = √3/2"
+      },
+      "correct_option": "A",
+      "answer": "sin 75° = cos 15°",
+      "explanation": "75° and 15° are complementary (their sum is 90°). For complementary angles, sin α = cos (90° – α). Hence sin 75° = cos 15°. The other options are either unrelated or give incorrect numerical values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Relate coordinates on the unit circle to trigonometric ratios",
+      "question": "A point P on the unit circle corresponds to angle θ and has coordinates (‑3/5, 4/5). What is the value of sec θ?",
+      "options": {
+        "A": "-5/3",
+        "B": "5/3",
+        "C": "-5/4",
+        "D": "5/4"
+      },
+      "correct_option": "A",
+      "answer": "-5/3",
+      "explanation": "On the unit circle, x = cos θ = –3/5. The secant is the reciprocal of cosine: sec θ = 1/cos θ = –5/3. Option B gives the magnitude without sign, while C and D use the y‑coordinate incorrectly.",
+      "difficulty": "hard"
+    }
+  ]
+}
