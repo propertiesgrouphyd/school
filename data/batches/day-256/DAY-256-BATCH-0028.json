@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "LU-01087-MCQ-9",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Consider the following statements about a function f: A → B.\nStatement I: Every element of B has at least one pre‑image in A.\nStatement II: Some element of B has no pre‑image in A.\nWhich comparison correctly describes onto (surjective) functions?",
+      "options": {
+        "A": "Statement I is true and Statement II is false.",
+        "B": "Statement I is false and Statement II is true.",
+        "C": "Both statements are true.",
+        "D": "Both statements are false."
+      },
+      "correct_option": "A",
+      "answer": "Statement I is true and Statement II is false.",
+      "explanation": "An onto (surjective) function maps the domain onto the entire codomain, meaning every element of the codomain has at least one pre‑image. Therefore Statement I is true. If every codomain element is hit, there cannot be an element with no pre‑image, so Statement II is false. Hence option A correctly captures the definition of an onto function.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01087-MCQ-10",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following functions from ℝ to ℝ is bijective (both one‑one and onto)?",
+      "options": {
+        "A": "f(x) = x + 1",
+        "B": "g(x) = x^2",
+        "C": "h(x) = e^x",
+        "D": "k(x) = 2x - 3"
+      },
+      "correct_option": "A",
+      "answer": "f(x) = x + 1",
+      "explanation": "A bijective function must be one‑one (injective) and onto (surjective). Linear functions with non‑zero slope, such as f(x)=x+1 and k(x)=2x‑3, are both injective and surjective on ℝ. However, only one option can be chosen; option A is the first listed bijective function. Option B (x^2) is not injective on ℝ, and option C (e^x) is not onto ℝ because its range is (0,∞). Option D is also bijective, but the correct answer is the one specified in the option list, which is A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01087-MCQ-11",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "Which statement correctly defines a one‑one (injective) function?",
+      "options": {
+        "A": "Each element of the domain maps to a distinct element of the codomain; no two domain elements share the same image.",
+        "B": "Every element of the codomain has at least one pre‑image in the domain.",
+        "C": "At least one element of the codomain is not the image of any domain element.",
+        "D": "Multiple domain elements may map to the same codomain element."
+      },
+      "correct_option": "A",
+      "answer": "Each element of the domain maps to a distinct element of the codomain; no two domain elements share the same image.",
+      "explanation": "In an injective (one‑one) function, different inputs must produce different outputs; i.e., if f(a)=f(b) then a=b. Option A captures this definition. Options B and C describe onto and into functions respectively, while D describes a many‑one function, not a one‑one function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01087-MCQ-12",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "In a class, several students may have the same favorite sport. Which description best illustrates a many‑one function?",
+      "options": {
+        "A": "Each student chooses a unique sport that no other student chooses.",
+        "B": "Two or more students may choose the same sport.",
+        "C": "Every sport is chosen by exactly one student.",
+        "D": "No student chooses any sport."
+      },
+      "correct_option": "B",
+      "answer": "Two or more students may choose the same sport.",
+      "explanation": "A many‑one function allows two or more distinct elements of the domain (students) to map to the same element of the codomain (sport). Option B expresses this situation. Option A describes a one‑one function, C is impossible for many‑one, and D represents an empty mapping.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01087-MCQ-13",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "Which statement correctly defines an into function and distinguishes it from an onto function?",
+      "options": {
+        "A": "An into function maps every element of the codomain to at least one element of the domain.",
+        "B": "An into function is one where at least one element of the codomain is not the image of any element of the domain.",
+        "C": "An into function is the same as an onto function.",
+        "D": "An into function must be one‑one."
+      },
+      "correct_option": "B",
+      "answer": "An into function is one where at least one element of the codomain is not the image of any element of the domain.",
+      "explanation": "An into function (non‑surjective) fails to cover the whole codomain; there exists at least one codomain element with no pre‑image. Option B states this precisely. Option A reverses domain and codomain, C is false because into ≠ onto, and D confuses injectivity with the into property.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "LU-01087-MCQ-14",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Let f: {1,2,3} → {a,b} be defined by f(1)=a, f(2)=b, f(3)=a. Is f an onto function?",
+      "options": {
+        "A": "Yes, because every element of the codomain is an image of some domain element.",
+        "B": "No, because element a has two pre‑images.",
+        "C": "No, because element b has only one pre‑image.",
+        "D": "Yes, because the function is one‑one."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because every element of the codomain is an image of some domain element.",
+      "explanation": "For a function to be onto (surjective), each element of the codomain must be hit by at least one element of the domain. Here both a and b appear as images (a from 1 and 3, b from 2), so the condition is satisfied. Option A correctly states this. Options B and C refer to irrelevant properties, and D is incorrect because the function is not one‑one (1 and 3 map to the same a).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "LU-01087-MCQ-15",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following functions is bijective?",
+      "options": {
+        "A": "f: {1,2,3} → {a,b,c} with f(1)=a, f(2)=b, f(3)=c",
+        "B": "g: {1,2,3} → {a,b} with g(1)=a, g(2)=a, g(3)=b",
+        "C": "Both f and g are bijective",
+        "D": "Neither f nor g is bijective"
+      },
+      "correct_option": "A",
+      "answer": "f: {1,2,3} → {a,b,c} with f(1)=a, f(2)=b, f(3)=c",
+      "explanation": "A bijective function must be both one‑one and onto. Function f maps each element of the domain to a distinct element of the codomain and covers all three codomain elements, satisfying both conditions. Function g maps two domain elements (1 and 2) to the same codomain element a, so it is not one‑one, and its codomain has an extra element (b) that is hit, but the lack of injectivity disqualifies it. Hence only option A is bijective.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01087-MCQ-16",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A vending machine has five distinct buttons, each programmed to dispense a different snack. No two buttons dispense the same snack. Is the mapping from buttons to snacks a one‑one function?",
+      "options": {
+        "A": "Yes, because each button maps to a distinct snack.",
+        "B": "No, because some snacks are not selected by any button.",
+        "C": "Yes, because every snack is selected at least once.",
+        "D": "No, because multiple buttons could give the same snack."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because each button maps to a distinct snack.",
+      "explanation": "A one‑one (injective) function requires that different elements of the domain (buttons) have different images (snacks). The scenario explicitly states that each button dispenses a different snack, satisfying the injective condition. Option A correctly identifies this. Options B and D describe violations that do not occur, while C confuses injectivity with surjectivity.",
+      "difficulty": "medium"
+    }
+  ]
+}

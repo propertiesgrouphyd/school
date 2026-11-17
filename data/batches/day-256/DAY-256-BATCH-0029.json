@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-256-17",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "Which of the following statements about a many‑one function f : A → B is incorrect?",
+      "options": {
+        "A": "Different elements of A may have the same image in B.",
+        "B": "Every element of A has exactly one image in B.",
+        "C": "No two distinct elements of A can have the same image in B.",
+        "D": "The function can be onto or into."
+      },
+      "correct_option": "C",
+      "answer": "No two distinct elements of A can have the same image in B.",
+      "explanation": "In a many‑one function, it is allowed that two or more distinct elements of the domain map to the same element of the codomain. Statement C describes a one‑one (injective) function, not a many‑one function, so it is the incorrect statement. Options A and B correctly describe properties of any function, and D is true because a many‑one function may be onto or into depending on the codomain.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-256-18",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "Let f: A → B where A = {1,2,3} and B = {a,b,c,d}. If f(1)=a, f(2)=b, f(3)=c, which statement is true?",
+      "options": {
+        "A": "f is onto.",
+        "B": "f is into.",
+        "C": "f is one‑one but not into.",
+        "D": "f is many‑one and onto."
+      },
+      "correct_option": "B",
+      "answer": "f is into.",
+      "explanation": "An into function is one whose image does not cover the whole codomain. Here element d of B is never used as an image, so the function is not onto; it is into. The function is also one‑one, but the key property asked is that it is into, making option B correct. Options A and D are false because d is unmapped, and option C incorrectly claims that being one‑one excludes being into.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-256-19",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Consider the functions f: ℝ → ℝ defined by f(x)=x² and g: ℝ → ℝ defined by g(x)=x³. Which comparison is correct?",
+      "options": {
+        "A": "Both f and g are onto.",
+        "B": "f is onto but g is not.",
+        "C": "g is onto but f is not.",
+        "D": "Neither f nor g is onto."
+      },
+      "correct_option": "C",
+      "answer": "g is onto but f is not.",
+      "explanation": "A function is onto (surjective) if every element of the codomain has a pre‑image. g(x)=x³ can produce any real number, so it is onto ℝ. f(x)=x² only yields non‑negative values, leaving negative numbers without pre‑images; therefore f is not onto. Hence option C correctly compares the two functions. Options A, B, and D are inaccurate based on this reasoning.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-256-20",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following functions from A = {1,2,3} to B = {a,b,c} is bijective?",
+      "options": {
+        "A": "f(1)=a, f(2)=a, f(3)=b",
+        "B": "f(1)=a, f(2)=b, f(3)=c",
+        "C": "f(1)=b, f(2)=b, f(3)=c",
+        "D": "f(1)=c, f(2)=c, f(3)=c"
+      },
+      "correct_option": "B",
+      "answer": "f(1)=a, f(2)=b, f(3)=c",
+      "explanation": "A bijective function is both one‑one (injective) and onto (surjective). Option B maps each element of A to a distinct element of B and covers all elements of B, satisfying both conditions. Options A, C, and D fail injectivity (they map multiple domain elements to the same codomain element) and also fail surjectivity, so they are not bijective.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-256-21",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A function f: A → B is called one‑one (injective) if:",
+      "options": {
+        "A": "Every element of B is the image of at least one element of A.",
+        "B": "No two distinct elements of A have the same image in B.",
+        "C": "Every element of A maps to a distinct element of B and some elements of B may be unmapped.",
+        "D": "The function is both onto and many‑one."
+      },
+      "correct_option": "B",
+      "answer": "No two distinct elements of A have the same image in B.",
+      "explanation": "Injectivity means that each element of the domain maps to a unique element of the codomain; i.e., distinct domain elements cannot share the same image. Option B states exactly this. Option A describes surjectivity, option C mixes injectivity with a statement about being into, and option D is contradictory.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-256-22",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "In a many‑one function f: A → B, which statement must be true?",
+      "options": {
+        "A": "Each element of A maps to a unique element of B.",
+        "B": "At least two distinct elements of A have the same image in B.",
+        "C": "Every element of B is an image of exactly one element of A.",
+        "D": "The function is necessarily onto."
+      },
+      "correct_option": "B",
+      "answer": "At least two distinct elements of A have the same image in B.",
+      "explanation": "A many‑one function allows (and often requires) two or more distinct domain elements to share the same codomain element. Hence statement B is mandatory. Statement A describes a one‑one function, C describes a bijective (one‑one and onto) situation, and D is not required; a many‑one function can be onto or into.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-256-23",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "An 'into' function f: A → B is best described as:",
+      "options": {
+        "A": "A function where every element of B is the image of some element of A.",
+        "B": "A function where at least one element of B is not an image of any element of A.",
+        "C": "A function that is both one‑one and onto.",
+        "D": "A function where each element of A maps to multiple elements of B."
+      },
+      "correct_option": "B",
+      "answer": "A function where at least one element of B is not an image of any element of A.",
+      "explanation": "An into function is not onto; therefore at least one codomain element remains unmapped. Option B captures this definition. Option A defines an onto function, C combines injectivity and surjectivity (bijective), and D describes a relation, not a function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-256-24",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "A teacher assigns each of the 5 students a distinct locker numbered 1 to 5. The assignment function from the set of students to lockers is:",
+      "options": {
+        "A": "Into, because some lockers may remain empty.",
+        "B": "Onto, because every locker is assigned to a student.",
+        "C": "Many‑one, because two students can share a locker.",
+        "D": "Not a function, because a student can have more than one locker."
+      },
+      "correct_option": "B",
+      "answer": "Onto, because every locker is assigned to a student.",
+      "explanation": "Since each of the five lockers is given to exactly one student, every element of the codomain (lockers) has a pre‑image, satisfying the definition of an onto (surjective) function. Option A is false because no locker is left empty, C is false because the assignment is one‑to‑one, and D is false because each student receives exactly one locker, satisfying the definition of a function.",
+      "difficulty": "easy"
+    }
+  ]
+}

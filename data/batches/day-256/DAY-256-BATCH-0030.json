@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following functions f: {1,2,3} \\rightarrow {a,b,c} is bijective?",
+      "options": {
+        "A": "f(1)=a, f(2)=b, f(3)=c",
+        "B": "f(1)=a, f(2)=a, f(3)=b",
+        "C": "f(1)=a, f(2)=b, f(3)=b",
+        "D": "f(1)=c, f(2)=c, f(3)=c"
+      },
+      "correct_option": "A",
+      "answer": "f(1)=a, f(2)=b, f(3)=c",
+      "explanation": "A bijective function is both one‑one (injective) and onto (surjective). Option A maps each element of the domain to a distinct element of the codomain and covers all three codomain elements, satisfying both conditions. The other options either repeat codomain values (not one‑one) or miss codomain elements (not onto).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "In a library, each book is assigned a unique accession number, and each accession number is assigned to exactly one book. Which description best represents a one‑one function?",
+      "options": {
+        "A": "Two different books have the same accession number",
+        "B": "One book has two different accession numbers",
+        "C": "Each book has a distinct accession number and no two books share the same number",
+        "D": "Some accession numbers are not used for any book"
+      },
+      "correct_option": "C",
+      "answer": "Each book has a distinct accession number and no two books share the same number",
+      "explanation": "A one‑one (injective) function requires that distinct elements of the domain map to distinct elements of the codomain. Option C fulfills this by giving each book a unique number and ensuring no duplication. Options A and B violate injectivity, while D describes an into function, not specifically one‑one.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "Which of the following statements about many‑one functions is incorrect?",
+      "options": {
+        "A": "Different elements of the domain may map to the same element of the codomain",
+        "B": "Every element of the codomain must be the image of at most one element of the domain",
+        "C": "A many‑one function is still a function because each domain element has exactly one image",
+        "D": "The function f(x)=x^2 from \\mathbb{R} to \\mathbb{R} is many‑one"
+      },
+      "correct_option": "B",
+      "answer": "Every element of the codomain must be the image of at most one element of the domain",
+      "explanation": "In a many‑one function, several domain elements can share the same image; there is no restriction that each codomain element be hit at most once. Hence statement B is false. Statements A, C and D correctly describe many‑one behavior (e.g., x^2 maps both x and -x to the same value).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "If a function f: {1,2,3,4} \\rightarrow {a,b,c,d,e} is defined by f(1)=a, f(2)=b, f(3)=c, f(4)=d, which of the following statements is true?",
+      "options": {
+        "A": "f is onto",
+        "B": "f is into",
+        "C": "f is bijective",
+        "D": "f is many-one"
+      },
+      "correct_option": "B",
+      "answer": "f is into",
+      "explanation": "An into function is not onto; at least one element of the codomain is not an image. Here element e of the codomain is never reached, so f is into. It is not onto, not bijective (codomain larger than domain), and it is one‑one, not many‑one.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Consider the functions g: \\mathbb{Z} \\rightarrow \\mathbb{Z} defined by g(n)=n+5 and h: \\mathbb{Z} \\rightarrow \\mathbb{Z} defined by h(n)=2n. Which statement correctly compares their onto properties?",
+      "options": {
+        "A": "Both g and h are onto",
+        "B": "g is onto but h is not onto",
+        "C": "h is onto but g is not onto",
+        "D": "Neither g nor h is onto"
+      },
+      "correct_option": "B",
+      "answer": "g is onto but h is not onto",
+      "explanation": "For any integer m, choosing n=m-5 gives g(n)=m, so g is onto. For h, only even integers are obtained; odd integers have no pre‑image, so h is not onto. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "For the function f: \\mathbb{R} \\rightarrow \\mathbb{R} defined by f(x)=2x+3, which of the following is true?",
+      "options": {
+        "A": "f is not one‑one but onto",
+        "B": "f is one‑one but not onto",
+        "C": "f is both one‑one and onto",
+        "D": "f is neither one‑one nor onto"
+      },
+      "correct_option": "C",
+      "answer": "f is both one‑one and onto",
+      "explanation": "The linear function with non‑zero slope is injective because f(x1)=f(x2) implies x1=x2. It is surjective because for any y in \\mathbb{R}, solving y=2x+3 gives x=(y-3)/2, which is real. Hence f is bijective, making option C correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A function f from set A to set B is called one‑one (injective) if:",
+      "options": {
+        "A": "Every element of B is the image of at least one element of A",
+        "B": "No two distinct elements of A have the same image in B",
+        "C": "At least one element of B is not an image of any element of A",
+        "D": "Each element of A maps to multiple elements of B"
+      },
+      "correct_option": "B",
+      "answer": "No two distinct elements of A have the same image in B",
+      "explanation": "Injectivity means distinct domain elements produce distinct images; i.e., f(a1)=f(a2) implies a1=a2. Option B states this definition. Options A and C describe surjectivity and into functions, while D contradicts the definition of a function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "A many‑one function is characterized by which of the following?",
+      "options": {
+        "A": "Each element of the codomain is the image of exactly one element of the domain",
+        "B": "Two or more distinct elements of the domain may have the same image in the codomain",
+        "C": "No element of the codomain is an image of any element of the domain",
+        "D": "Every element of the domain maps to a distinct element of the codomain"
+      },
+      "correct_option": "B",
+      "answer": "Two or more distinct elements of the domain may have the same image in the codomain",
+      "explanation": "In a many‑one (non‑injective) function, multiple domain elements can share a single codomain element. Option B captures this. Option A describes a one‑one onto function, C describes an empty mapping (not a function), and D describes a one‑one function.",
+      "difficulty": "easy"
+    }
+  ]
+}
