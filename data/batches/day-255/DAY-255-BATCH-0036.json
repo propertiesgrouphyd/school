@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand distributive laws",
+      "question": "Which of the following statements correctly expresses the distributive law of union over intersection for any sets A, B and C?",
+      "options": {
+        "A": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+        "B": "A ∪ (B ∩ C) = (A ∩ B) ∪ (A ∩ C)",
+        "C": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+        "D": "A ∩ (B ∪ C) = (A ∪ B) ∩ (A ∪ C)"
+      },
+      "correct_option": "A",
+      "answer": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+      "explanation": "The distributive law of union over intersection states that A ∪ (B ∩ C) equals (A ∪ B) ∩ (A ∪ C). Option B reverses union and intersection, while options C and D describe the distributive law of intersection over union, not the required law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "Let U be the universal set and A, B ⊆ U. Which expression is equal to the complement of the union of A and B, i.e., (A ∪ B)′?",
+      "options": {
+        "A": "A′ ∪ B′",
+        "B": "A′ ∩ B′",
+        "C": "(A ∩ B)′",
+        "D": "U \\ (A ∪ B)"
+      },
+      "correct_option": "B",
+      "answer": "A′ ∩ B′",
+      "explanation": "De Morgan's law for complements of a union states (A ∪ B)′ = A′ ∩ B′. Option A gives the complement of an intersection, option C is another form of De Morgan's law but not the required expression, and option D is a set‑theoretic description that is equivalent to A′ ∩ B′ but the question asks for the standard algebraic form.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "Which of the following algebraic steps correctly verifies the identity (A ∩ B) ∪ (A ∩ B′) = A?",
+      "options": {
+        "A": "(A ∩ B) ∪ (A ∩ B′) = A ∩ (B ∪ B′) = A ∩ U = A",
+        "B": "(A ∩ B) ∪ (A ∩ B′) = (A ∪ A) ∩ (B ∪ B′) = A ∩ U = A",
+        "C": "(A ∩ B) ∪ (A ∩ B′) = A ∪ (B ∩ B′) = A ∪ ∅ = A",
+        "D": "(A ∩ B) ∪ (A ∩ B′) = (A ∪ B) ∩ (A ∪ B′) = A"
+      },
+      "correct_option": "A",
+      "answer": "(A ∩ B) ∪ (A ∩ B′) = A ∩ (B ∪ B′) = A ∩ U = A",
+      "explanation": "Starting with (A ∩ B) ∪ (A ∩ B′), factor out A: A ∩ (B ∪ B′). Since B ∪ B′ = U (the universal set), we have A ∩ U = A. This stepwise algebraic manipulation correctly proves the identity. The other options misuse distributive or absorption laws.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand commutative laws",
+      "question": "In a problem, a student writes X ∩ Y = Y ∪ X. Which of the following statements correctly reflects the commutative law for intersection?",
+      "options": {
+        "A": "X ∩ Y = Y ∩ X",
+        "B": "X ∩ Y = Y ∪ X",
+        "C": "X ∪ Y = Y ∩ X",
+        "D": "X ∪ Y = Y ∪ X"
+      },
+      "correct_option": "A",
+      "answer": "X ∩ Y = Y ∩ X",
+      "explanation": "The commutative law for intersection states that the order of the sets does not affect the result: X ∩ Y = Y ∩ X. The student's expression mixes intersection with union, which is incorrect. Option D is the commutative law for union, not intersection.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand associative laws",
+      "question": "A common mistake is to think (A ∪ B) ∩ C = A ∪ (B ∩ C). Which of the following is the correct associative law involving union and intersection?",
+      "options": {
+        "A": "(A ∪ B) ∩ C = A ∪ (B ∩ C)",
+        "B": "(A ∪ B) ∩ C = (A ∩ C) ∪ (B ∩ C)",
+        "C": "(A ∩ B) ∪ C = (A ∪ C) ∩ (B ∪ C)",
+        "D": "(A ∩ B) ∪ C = A ∩ (B ∪ C)"
+      },
+      "correct_option": "B",
+      "answer": "(A ∪ B) ∩ C = (A ∩ C) ∪ (B ∩ C)",
+      "explanation": "The correct distributive (not associative) expansion is (A ∪ B) ∩ C = (A ∩ C) ∪ (B ∩ C). The mistaken statement in option A swaps the operations incorrectly. Options C and D are unrelated to the given expression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand distributive laws",
+      "question": "Which reasoning correctly justifies why union distributes over intersection, i.e., why A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)?",
+      "options": {
+        "A": "If an element belongs to A ∪ (B ∩ C), it must belong to A or to both B and C; therefore it belongs to A ∪ B and also to A ∪ C, placing it in their intersection.",
+        "B": "If an element belongs to (A ∪ B) ∩ (A ∪ C), it must belong to A and to both B and C, which is the definition of A ∪ (B ∩ C).",
+        "C": "Union distributes over intersection because both operations are associative.",
+        "D": "The distributive law holds only when A, B, C are disjoint sets."
+      },
+      "correct_option": "A",
+      "answer": "If an element belongs to A ∪ (B ∩ C), it must belong to A or to both B and C; therefore it belongs to A ∪ B and also to A ∪ C, placing it in their intersection.",
+      "explanation": "Option A follows element‑wise reasoning: an element in A ∪ (B ∩ C) is either in A (hence in both A ∪ B and A ∪ C) or in both B and C (hence also in both A ∪ B and A ∪ C). Thus it lies in (A ∪ B) ∩ (A ∪ C). Option B reverses the logic, option C confuses associativity with distributivity, and option D is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "Consider the two statements:\n1) (A ∪ B)′ = A′ ∩ B′\n2) (A ∩ B)′ = A′ ∪ B′\nWhich of the following correctly describes these statements?",
+      "options": {
+        "A": "Both statements are correct representations of De Morgan’s laws.",
+        "B": "Only statement 1 is correct; statement 2 is false.",
+        "C": "Only statement 2 is correct; statement 1 is false.",
+        "D": "Both statements are incorrect."
+      },
+      "correct_option": "A",
+      "answer": "Both statements are correct representations of De Morgan’s laws.",
+      "explanation": "De Morgan’s laws consist of two complementary identities: the complement of a union equals the intersection of the complements, and the complement of an intersection equals the union of the complements. Hence both statements 1 and 2 are true. The other options mischaracterize the laws.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "For any sets A and B, which of the following expressions is equivalent to (A ∪ B) ∩ (A ∪ B′)?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "A ∪ B",
+        "D": "A ∩ B"
+      },
+      "correct_option": "A",
+      "answer": "A",
+      "explanation": "Using distributive law: (A ∪ B) ∩ (A ∪ B′) = A ∪ (B ∩ B′). Since B ∩ B′ = ∅, the expression simplifies to A ∪ ∅ = A. Therefore the correct equivalent is A. Options B, C, and D do not simplify to the given expression.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-255-97",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand associative laws",
+      "question": "Which of the following statements about the associative law for set operations is FALSE?",
+      "options": {
+        "A": "(A ∪ B) ∪ C = A ∪ (B ∪ C)",
+        "B": "(A ∩ B) ∩ C = A ∩ (B ∩ C)",
+        "C": "(A ∪ B) ∩ C = A ∪ (B ∩ C)",
+        "D": "(A ∩ B) ∪ C = A ∩ (B ∪ C)"
+      },
+      "correct_option": "C",
+      "answer": "(A ∪ B) ∩ C = A ∪ (B ∩ C)",
+      "explanation": "The associative law applies only when the same operation is repeated. For union, (A ∪ B) ∪ C = A ∪ (B ∪ C) (Option A) and for intersection, (A ∩ B) ∩ C = A ∩ (B ∩ C) (Option B) are true. Option C mixes union and intersection, which is not an associative law, so it is false. Option D also mixes operations and is not an associative statement. Hence, C is the incorrect statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-255-98",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand distributive laws",
+      "question": "Given A = {1,2}, B = {2,3}, C = {3,4}, which of the following equalities correctly demonstrates the distributive law of intersection over union?",
+      "options": {
+        "A": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+        "B": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+        "C": "A ∩ (B ∩ C) = (A ∩ B) ∪ (A ∩ C)",
+        "D": "A ∪ (B ∪ C) = (A ∪ B) ∩ (A ∪ C)"
+      },
+      "correct_option": "A",
+      "answer": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+      "explanation": "First compute B ∪ C = {2,3,4}. Then A ∩ (B ∪ C) = {1,2} ∩ {2,3,4} = {2}. Next, A ∩ B = {2} and A ∩ C = {}. Their union is {2} ∪ {} = {2}. Both sides give {2}, confirming the distributive law. Options B, C, and D either state a different law or are false for the given sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-255-99",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "Which pair of statements correctly represents De Morgan’s laws for any subsets P and Q of a universal set U?",
+      "options": {
+        "A": "(P ∪ Q)' = P' ∩ Q'  and  (P ∩ Q)' = P' ∪ Q'",
+        "B": "(P ∪ Q)' = P' ∪ Q'  and  (P ∩ Q)' = P' ∩ Q'",
+        "C": "(P ∪ Q)' = P' ∩ Q'  and  (P ∩ Q)' = P' ∩ Q'",
+        "D": "(P ∪ Q)' = P' ∪ Q'  and  (P ∩ Q)' = P' ∪ Q'"
+      },
+      "correct_option": "A",
+      "answer": "(P ∪ Q)' = P' ∩ Q'  and  (P ∩ Q)' = P' ∪ Q'",
+      "explanation": "De Morgan’s laws state that the complement of a union equals the intersection of the complements, and the complement of an intersection equals the union of the complements. Option A states exactly these two identities, making it correct. Options B, C, and D either reverse the operations or repeat the same operation, which contradicts De Morgan’s laws.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-255-100",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "For any three sets A, B, and C, which of the following identities is always true and can be verified both algebraically and by a Venn‑diagram?",
+      "options": {
+        "A": "(A ∪ B) ∩ (A ∪ C) = A ∪ (B ∩ C)",
+        "B": "(A ∩ B) ∪ (A ∩ C) = A ∪ (B ∩ C)",
+        "C": "(A ∪ B) ∩ (A ∪ C) = (A ∩ B) ∪ C",
+        "D": "(A ∩ B) ∪ (A ∩ C) = A ∪ (B ∪ C)"
+      },
+      "correct_option": "A",
+      "answer": "(A ∪ B) ∩ (A ∪ C) = A ∪ (B ∩ C)",
+      "explanation": "Algebraic verification: \nLeft side = (A ∪ B) ∩ (A ∪ C) = A ∪ (B ∩ C) by distributive law of ∩ over ∪. Hence the identity holds. Diagrammatic verification: In a Venn diagram, the region covered by both (A ∪ B) and (A ∪ C) consists of all points in A plus the points common to B and C, which is exactly A ∪ (B ∩ C). Options B, C, and D are false identities; they either equate different expressions or give an incorrect union/intersection relationship. Therefore, option A is the correct identity.",
+      "difficulty": "hard"
+    }
+  ]
+}
