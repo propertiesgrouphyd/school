@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Consider the sets A = {1, 2, 3} and B = {1, 2, 3, 4, 5}. Which of the following statements correctly defines the relationship between A and B?",
+      "options": {
+        "A": "A is a subset of B",
+        "B": "A is a superset of B",
+        "C": "A and B are disjoint sets",
+        "D": "A is equal to B"
+      },
+      "correct_option": "A",
+      "answer": "A is a subset of B",
+      "explanation": "Every element of A (1, 2, 3) is also an element of B, so by definition A ⊆ B. Option B is wrong because A does not contain all elements of B. Option C is wrong because they share elements. Option D is wrong because B has extra elements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Let X = {a, b} and Y = {a, b, c}. Which statement correctly describes their relationship?",
+      "options": {
+        "A": "X is a proper subset of Y",
+        "B": "Y is a proper subset of X",
+        "C": "X and Y are equal sets",
+        "D": "X and Y are unrelated"
+      },
+      "correct_option": "A",
+      "answer": "X is a proper subset of Y",
+      "explanation": "All elements of X are in Y and Y has at least one element (c) not in X, satisfying the definition of a proper subset (X ⊂ Y). Options B, C, and D do not satisfy the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Set P = {1, 2} and set Q = {2, 3}. Which of the following statements is true?",
+      "options": {
+        "A": "P is a subset of Q",
+        "B": "P is not a subset of Q",
+        "C": "Q is a subset of P",
+        "D": "Both P and Q are subsets of each other"
+      },
+      "correct_option": "B",
+      "answer": "P is not a subset of Q",
+      "explanation": "For P to be a subset of Q, every element of P must belong to Q. Element 1 is not in Q, so P ⊄ Q. Hence option B is correct. Options A, C, and D are false because the required element inclusion does not hold.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "The set S = {p, q, r} has how many distinct subsets (including the empty set and S itself)?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 3, so 2^3 = 8 subsets. Options A, B, and D are incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "Set M has 4 elements while set N has 5 elements. Which set has a greater number of subsets?",
+      "options": {
+        "A": "Set M",
+        "B": "Set N",
+        "C": "Both have the same number of subsets",
+        "D": "It cannot be determined without knowing the actual elements"
+      },
+      "correct_option": "B",
+      "answer": "Set N",
+      "explanation": "Number of subsets = 2^n. For M, 2^4 = 16 subsets; for N, 2^5 = 32 subsets. Therefore N has more subsets. Options A, C, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "If T = {x, y}, which of the following is the power set \\(\\mathcal{P}(T)\\)?",
+      "options": {
+        "A": "{{x}, {y}}",
+        "B": "{{}, {x}, {y}, {x, y}}",
+        "C": "{{x, y}}",
+        "D": "{{}, {x, y}}"
+      },
+      "correct_option": "B",
+      "answer": "{{}, {x}, {y}, {x, y}}",
+      "explanation": "The power set contains all possible subsets of T: the empty set, each singleton, and the set itself. Hence \\(\\mathcal{P}(T) = \\{\\emptyset, \\{x\\}, \\{y\\}, \\{x, y\\}\\}\\). Options A, C, and D omit some subsets.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which of the following best defines a subset?",
+      "options": {
+        "A": "A set A is a subset of set B if every element of A is also an element of B.",
+        "B": "A set A is a subset of set B if A and B have at least one common element.",
+        "C": "A set A is a subset of set B if A contains all elements of B.",
+        "D": "A set A is a subset of set B if A and B are disjoint."
+      },
+      "correct_option": "A",
+      "answer": "A set A is a subset of set B if every element of A is also an element of B.",
+      "explanation": "The definition of a subset (A ⊆ B) requires that each element of A belongs to B. Option B describes a non‑empty intersection, not a subset. Option C describes a superset, and option D describes disjoint sets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "What distinguishes a proper subset from a regular subset?",
+      "options": {
+        "A": "A proper subset must contain at least one element that is not in the original set.",
+        "B": "A proper subset contains all elements of the original set and possibly more.",
+        "C": "A proper subset is a subset that is equal to the original set.",
+        "D": "A proper subset has no elements in common with the original set."
+      },
+      "correct_option": "A",
+      "answer": "A proper subset must contain at least one element that is not in the original set.",
+      "explanation": "A proper subset A of B (A ⊂ B) satisfies A ⊆ B and A ≠ B, meaning B has at least one element not in A. Option B describes a superset, C describes equality, and D describes disjoint sets.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-254-9",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let A = {1, 2, 3, 4, 5} and B = {2, 4}. Which of the following statements is correct?",
+      "options": {
+        "A": "B is a proper subset of A",
+        "B": "A is a proper subset of B",
+        "C": "B is not a subset of A",
+        "D": "A and B are equal"
+      },
+      "correct_option": "A",
+      "answer": "B is a proper subset of A",
+      "explanation": "Every element of B (2 and 4) is contained in A, and B does not contain all elements of A, so B is a proper subset of A. Option B is false because A has elements not in B. Option C contradicts the definition of subset. Option D is false because the sets are not identical.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-254-10",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many subsets of the set S = {1, 2, 3, 4} contain the element 2?",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "6",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "8",
+      "explanation": "To form a subset that must contain 2, we fix 2 in the subset. The remaining three elements (1,3,4) can each be either present or absent, giving 2³ = 8 possible subsets. The other options underestimate this count.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-254-11",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "If a set has n elements, how many subsets does it have?",
+      "options": {
+        "A": "2ⁿ",
+        "B": "n²",
+        "C": "n!",
+        "D": "2n"
+      },
+      "correct_option": "A",
+      "answer": "2ⁿ",
+      "explanation": "Each element can either be chosen or not chosen for a subset, giving two choices per element. Multiplying the choices for all n elements yields 2 × 2 × … × 2 (n times) = 2ⁿ subsets. The other formulas correspond to different combinatorial counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-254-12",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "The power set of a set S is:",
+      "options": {
+        "A": "The set of all elements not belonging to S",
+        "B": "The set of all subsets of S",
+        "C": "The complement of S with respect to the universal set",
+        "D": "The union of S with itself"
+      },
+      "correct_option": "B",
+      "answer": "The set of all subsets of S",
+      "explanation": "By definition, the power set P(S) consists of every possible subset of S, including the empty set and S itself. Option A describes a complement, not a power set. Option C also describes a complement. Option D is just S again.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-254-13",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which statement correctly defines a subset?",
+      "options": {
+        "A": "Set A is a subset of set B if every element of A is also an element of B",
+        "B": "Set A is a subset of set B if A and B share at least one common element",
+        "C": "Set A is a subset of set B if B contains at least one element not in A",
+        "D": "Set A is a subset of set B if A and B have the same number of elements"
+      },
+      "correct_option": "A",
+      "answer": "Set A is a subset of set B if every element of A is also an element of B",
+      "explanation": "The definition of a subset requires that all elements of the first set appear in the second set. Options B, C, and D describe weaker or unrelated conditions and are therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-254-14",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Which of the following correctly describes a proper subset?",
+      "options": {
+        "A": "A is a proper subset of B if A ⊂ B and A ≠ B",
+        "B": "A is a proper subset of B if A ⊂ B and A = B",
+        "C": "A is a proper subset of B if A ⊆ B only",
+        "D": "A is a proper subset of B if B ⊂ A"
+      },
+      "correct_option": "A",
+      "answer": "A is a proper subset of B if A ⊂ B and A ≠ B",
+      "explanation": "A proper subset must be contained within the larger set and must not be equal to it. Option B contradicts the 'proper' condition. Option C describes a subset (allowing equality). Option D reverses the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-254-15",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Consider the sets X = {a, b, c, d} and Y = {b, d}. Which statement is true?",
+      "options": {
+        "A": "X is a subset of Y",
+        "B": "Y is a proper subset of X",
+        "C": "Y is not a subset of X",
+        "D": "X and Y are equal"
+      },
+      "correct_option": "B",
+      "answer": "Y is a proper subset of X",
+      "explanation": "Every element of Y (b and d) belongs to X, and Y does not contain all elements of X, so Y is a proper subset of X. Option A is false because X has elements not in Y. Option C contradicts the subset definition. Option D is false because the sets differ.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-254-16",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "A club has four members: {A, B, C, D}. How many different committees (including the empty committee) can be formed from these members?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "Each member can either be included or excluded from a committee, giving 2 choices per member. With 4 members, the total number of subsets (committees) is 2⁴ = 16. The other numbers correspond to incorrect counting methods.",
+      "difficulty": "medium"
+    }
+  ]
+}

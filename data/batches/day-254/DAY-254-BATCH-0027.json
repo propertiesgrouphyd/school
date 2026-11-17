@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-254-1",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "What is the definition of a subset?",
+      "options": {
+        "A": "A set A is a subset of set B if every element of A is also an element of B.",
+        "B": "A set A is a subset of set B if A and B have at least one common element.",
+        "C": "A set A is a subset of set B if A contains all elements of B.",
+        "D": "A set A is a subset of set B if A and B are disjoint."
+      },
+      "correct_option": "A",
+      "answer": "A set A is a subset of set B if every element of A is also an element of B.",
+      "explanation": "A subset means every element of the first set appears in the second set. Option A states this precisely. Options B, C, and D describe different relations and are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-254-2",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Which statement correctly defines a proper subset?",
+      "options": {
+        "A": "A is a proper subset of B if every element of A is in B and A is not equal to B.",
+        "B": "A is a proper subset of B if A and B have exactly the same elements.",
+        "C": "A is a proper subset of B if B is contained in A.",
+        "D": "A is a proper subset of B if they share at least one element."
+      },
+      "correct_option": "A",
+      "answer": "A is a proper subset of B if every element of A is in B and A is not equal to B.",
+      "explanation": "A proper subset must be contained in the other set and must be strictly smaller; therefore it cannot be equal to the superset. Option A captures both conditions. The other options either describe equality, reverse inclusion, or a weaker condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-254-3",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let A = {1,2} and B = {1,2,3,4}. Is set A a subset of set B?",
+      "options": {
+        "A": "Yes, because every element of A is also an element of B.",
+        "B": "No, because A contains an element not present in B.",
+        "C": "Yes, because the two sets have the same number of elements.",
+        "D": "No, because B has more elements than A."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because every element of A is also an element of B.",
+      "explanation": "For A to be a subset of B, each element of A must belong to B. Both 1 and 2 are in B, so A ⊆ B. Option B is false; there is no element of A missing in B. Options C and D confuse cardinality with subset relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-254-4",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many subsets does the set S = {a, b, c} have?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "8",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 3, so 2^3 = 8 subsets. Option A (6) would be the number of non‑empty proper subsets, which is not asked. Options C and D are incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-254-5",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "A set U contains four distinct elements. How many proper subsets does U have?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "8",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "answer": "15",
+      "explanation": "A set with n elements has 2^n total subsets, including the set itself and the empty set. Proper subsets exclude the set itself, so the count is 2^n – 1. For n = 4, 2^4 – 1 = 16 – 1 = 15. Option B gives the total subsets, while C and D are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-254-6",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "If T = {x, y}, which of the following lists the power set of T correctly?",
+      "options": {
+        "A": "{{x}, {y}}",
+        "B": "{{}, {x}, {y}, {x, y}}",
+        "C": "{{x, y}}",
+        "D": "{{}, {x, y}}"
+      },
+      "correct_option": "B",
+      "answer": "{{}, {x}, {y}, {x, y}}",
+      "explanation": "The power set is the set of all subsets, including the empty set and the set itself. For T = {x, y} the subsets are: ∅, {x}, {y}, and {x, y}. Option B lists exactly these. Options A, C, and D omit some subsets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-254-7",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Statement: \"If set A has fewer elements than set B, then A is always a subset of B.\" Is this statement true or false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined without knowing the actual elements",
+        "D": "Only true when A is the empty set"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "Having fewer elements does not guarantee that every element of A appears in B. Subset relation depends on actual membership, not just cardinality. Hence the statement is false. Option C is technically correct reasoning but the question asks true/false; the correct answer is False. Option D is a special case, not the general rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-254-8",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Given A = {1,2,3} and B = {1,2,3,4}, which of the following is true?",
+      "options": {
+        "A": "A is a proper subset of B",
+        "B": "B is a proper subset of A",
+        "C": "A and B are equal sets",
+        "D": "Neither set is a subset of the other"
+      },
+      "correct_option": "A",
+      "answer": "A is a proper subset of B",
+      "explanation": "All elements of A are in B, and B contains an additional element (4), so A ⊂ B and A ≠ B, making A a proper subset of B. Options B and C are incorrect because B is larger, not smaller, and the sets are not equal. Option D contradicts the subset relationship established.",
+      "difficulty": "medium"
+    }
+  ]
+}

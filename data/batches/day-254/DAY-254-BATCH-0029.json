@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-254-17",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "A set S contains 4 distinct elements. How many subsets does S have?",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "4",
+        "D": "24"
+      },
+      "correct_option": "B",
+      "answer": "16",
+      "explanation": "For a set with n elements, the total number of subsets is 2^n. Here n = 4, so 2^4 = 16. Option D (24) arises from the mistaken belief that the number of subsets equals 4!; this is a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-254-18",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "Let A = {1, 2, 3}. Which of the following sets is NOT an element of the power set of A?",
+      "options": {
+        "A": "{1, 2}",
+        "B": "{1, 2, 3}",
+        "C": "{}",
+        "D": "{4}"
+      },
+      "correct_option": "D",
+      "answer": "{4}",
+      "explanation": "The power set of A consists of all subsets of A. {} , {1,2}, and {1,2,3} are all subsets of A, so they belong to the power set. {4} contains an element not in A, therefore it is not a subset and not in the power set.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-254-19",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which statement correctly defines the relation \"A is a subset of B\"?",
+      "options": {
+        "A": "Every element of A is also an element of B.",
+        "B": "A and B have at least one common element.",
+        "C": "A contains all elements of B.",
+        "D": "A and B are equal sets."
+      },
+      "correct_option": "A",
+      "answer": "Every element of A is also an element of B.",
+      "explanation": "By definition, A ⊆ B means that for each x in A, x is also in B. Option B describes a non‑empty intersection, not a subset. Option C reverses the direction, describing B ⊆ A. Option D is a special case where A = B, which also satisfies the subset definition but does not capture the general definition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-254-20",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "If A = {1,2,3,4} and B = {1,2,3,4,5}, which statement is true?",
+      "options": {
+        "A": "A is a proper subset of B.",
+        "B": "B is a proper subset of A.",
+        "C": "A and B are equal sets.",
+        "D": "Neither set is a subset of the other."
+      },
+      "correct_option": "A",
+      "answer": "A is a proper subset of B.",
+      "explanation": "A proper subset requires every element of A to be in B and at least one element of B not in A. All elements of A appear in B, and B has the extra element 5, so A ⊂ B. Hence option A is correct. Options B and C are false, and D contradicts the subset relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-254-21",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let X = {a, b} and Y = {a, b, c}. Is X a subset of Y?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Only if c is also in X",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "A",
+      "answer": "Yes",
+      "explanation": "Every element of X (a and b) appears in Y. Therefore X ⊆ Y, making the answer Yes. Options B and C are incorrect because the presence of extra elements in Y does not affect the subset relation. Option D is unnecessary as the information given is sufficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-254-22",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many subsets does the set {p, q, r, s} have?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 4, so 2^4 = 16 subsets. Option A (8) would correspond to n = 3, and the other options are not powers of two for integer n.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-254-23",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "A set has 3 elements. How many proper subsets does it have?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "Total subsets = 2^n = 2^3 = 8. Proper subsets exclude the set itself, so 8 – 1 = 7. Option A (6) would be the count if the empty set were also excluded, which is not the definition of proper subset.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-254-24",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "What is the number of elements in the power set of a set containing 5 distinct elements?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "25",
+        "D": "32"
+      },
+      "correct_option": "D",
+      "answer": "32",
+      "explanation": "The power set of a set with n elements contains 2^n subsets. For n = 5, 2^5 = 32. The other options are not powers of two and therefore cannot be the cardinality of a power set.",
+      "difficulty": "easy"
+    }
+  ]
+}
