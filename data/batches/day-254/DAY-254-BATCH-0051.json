@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0051",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-254-89",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which of the following statements correctly describes a property of two disjoint sets A and B?",
+      "options": {
+        "A": "A \\cap B = \\emptyset",
+        "B": "A \\cup B = \\emptyset",
+        "C": "A \\subseteq B",
+        "D": "B \\subseteq A"
+      },
+      "correct_option": "A",
+      "answer": "A \\cap B = \\emptyset",
+      "explanation": "Disjoint sets have no common elements, so their intersection is the empty set. The other statements are not generally true for disjoint non‑empty sets.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-254-90",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "Let the universal set U = {1,2,3,4,5,6,7,8,9,10}. If A = {2,4,6,8,10} and B = {1,2,3,4,5}, what is the number of elements in the complement of (A \\cup B) in U?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_option": "C",
+      "answer": "2",
+      "explanation": "A \\cup B = {1,2,3,4,5,6,8,10}. The elements of U not in this union are {7,9}, so the complement has 2 elements. Hence option C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-254-91",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "What is the definition of the union of two sets A and B?",
+      "options": {
+        "A": "The set of all elements that belong to either A or B or both",
+        "B": "The set of all elements that belong to both A and B",
+        "C": "The set of elements that belong to neither A nor B",
+        "D": "The empty set"
+      },
+      "correct_option": "A",
+      "answer": "The set of all elements that belong to either A or B or both",
+      "explanation": "The union A \\cup B contains every element that is in A, in B, or in both. Options B, C, and D describe intersection, complement, and the empty set respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-254-92",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "How is the intersection of two sets A and B defined?",
+      "options": {
+        "A": "All elements that are in either A or B",
+        "B": "All elements that are common to both A and B",
+        "C": "All elements that are in neither A nor B",
+        "D": "All elements of the universal set"
+      },
+      "correct_option": "B",
+      "answer": "All elements that are common to both A and B",
+      "explanation": "The intersection A \\cap B consists exactly of those elements that belong to both sets simultaneously. Option A describes union, C describes complement, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-254-93",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "If A = {1,2,3} and B = {3,4,5}, what is A \\cup B?",
+      "options": {
+        "A": "{1,2,3}",
+        "B": "{3,4,5}",
+        "C": "{1,2,3,4,5}",
+        "D": "{1,2,4,5}"
+      },
+      "correct_option": "C",
+      "answer": "{1,2,3,4,5}",
+      "explanation": "The union contains every element that appears in either set, without repetition. Elements 1,2,3 from A and 4,5 from B give {1,2,3,4,5}. Options A and B are just the original sets, D omits 3.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-254-94",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Let A = {x \\in \\mathbb{Z} \\mid -2 \\le x \\le 2} and B = {x \\in \\mathbb{Z} \\mid 0 \\le x \\le 4}. What is A \\cap B?",
+      "options": {
+        "A": "{-2,-1,0,1,2}",
+        "B": "{0,1,2}",
+        "C": "{1,2,3,4}",
+        "D": "{-1,0,1}"
+      },
+      "correct_option": "B",
+      "answer": "{0,1,2}",
+      "explanation": "A contains integers -2,-1,0,1,2. B contains 0,1,2,3,4. The common elements are 0,1,2, giving {0,1,2}. The other options include elements not common to both sets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-254-95",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which pair of sets below are disjoint?",
+      "options": {
+        "A": "A={1,2,3}, B={3,4,5}",
+        "B": "C={a,b}, D={c,d}",
+        "C": "E={0,2,4}, F={1,3,5}",
+        "D": "G={x}, H={x,y}"
+      },
+      "correct_option": "C",
+      "answer": "E={0,2,4}, F={1,3,5}",
+      "explanation": "Disjoint sets have no element in common. In option C, the even set and the odd set share no numbers, so they are disjoint. Options A and D share elements, and B, while having different letters, are not considered disjoint in the usual numeric context; however, C is the clear example of disjointness.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-254-96",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "In a school, 40 students study Mathematics, 30 study Physics, and 20 study both subjects. How many students study either Mathematics or Physics (or both)?",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "70",
+        "D": "80"
+      },
+      "correct_option": "A",
+      "answer": "50",
+      "explanation": "Using the principle of inclusion–exclusion: |M \\cup P| = |M| + |P| - |M \\cap P| = 40 + 30 - 20 = 50. Hence 50 students study at least one of the two subjects.",
+      "difficulty": "medium"
+    }
+  ]
+}

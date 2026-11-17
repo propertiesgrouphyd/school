@@ -1,0 +1,78 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-254-097",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "Which of the following statements correctly defines the union of two sets A and B?",
+      "options": {
+        "A": "The set of all elements that are in A or in B or in both.",
+        "B": "The set of elements that are in both A and B.",
+        "C": "The set of elements that are in A but not in B.",
+        "D": "The set of elements that are in B but not in A."
+      },
+      "correct_option": "A",
+      "answer": "The set of all elements that are in A or in B or in both.",
+      "explanation": "The union of A and B, denoted A ∪ B, contains every element that belongs to at least one of the sets. Option A states exactly this. Option B describes intersection, while C and D describe set differences, which are not unions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-254-098",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "If an element x belongs to the intersection of sets A and B, which of the following must be true?",
+      "options": {
+        "A": "x belongs to A only.",
+        "B": "x belongs to B only.",
+        "C": "x belongs to both A and B.",
+        "D": "x belongs to either A or B but not both."
+      },
+      "correct_option": "C",
+      "answer": "x belongs to both A and B.",
+      "explanation": "By definition, the intersection A ∩ B consists of all elements that are common to both sets. Therefore x must be an element of A and also an element of B. Options A and B describe one‑sided membership, and D describes an exclusive‑or condition, none of which match the definition of intersection.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-254-099",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Given A = {1, 2, 3, 5} and B = {3, 4, 5, 6}, what is the union A ∪ B?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6}",
+        "B": "{1, 2, 3, 5}",
+        "C": "{3, 4, 5, 6}",
+        "D": "{1, 2, 4, 6}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "The union contains every distinct element that appears in either set. Combining the elements of A and B gives {1,2,3,4,5,6}. Option B omits elements from B, C omits elements from A, and D misses several elements present in both sets.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-254-100",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Let A = {x ∈ ℤ | -2 ≤ x ≤ 2}, B = {x ∈ ℤ | x is even}, and C = {x ∈ ℤ | x² ≤ 4}. What is A ∩ B ∩ C?",
+      "options": {
+        "A": "{-2, 0, 2}",
+        "B": "{-1, 0, 1}",
+        "C": "{0}",
+        "D": "{-2, -1, 0, 1, 2}"
+      },
+      "correct_option": "A",
+      "answer": "{-2, 0, 2}",
+      "explanation": "A = {-2, -1, 0, 1, 2}. B (even integers) intersected with A gives {-2, 0, 2}. C = {-2, -1, 0, 1, 2} (same as A). The common elements of all three sets are therefore {-2, 0, 2}. Option B contains odd numbers, C is too restrictive, and D includes elements not even, so only A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}
