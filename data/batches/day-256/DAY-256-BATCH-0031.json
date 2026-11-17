@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "Which of the following statements correctly defines an into function?",
+      "options": {
+        "A": "A function where every element of the codomain is mapped to by at least one element of the domain.",
+        "B": "A function where some elements of the codomain are not images of any element of the domain.",
+        "C": "A function where each element of the domain maps to a distinct element of the codomain.",
+        "D": "A function where two different elements of the domain map to the same element of the codomain."
+      },
+      "correct_option": "B",
+      "answer": "A function where some elements of the codomain are not images of any element of the domain.",
+      "explanation": "An into function (also called non‑onto) does not cover the whole codomain; at least one codomain element has no pre‑image. Option B states this definition. Option A describes an onto (surjective) function, C describes a one‑one (injective) function, and D describes a many‑one situation, not the definition of into.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Let f:{1,2,3,4}→{a,b,c} be defined by f(1)=a, f(2)=b, f(3)=c, f(4)=c. Which statement is true about f?",
+      "options": {
+        "A": "f is onto because every element of the codomain has at least one pre‑image.",
+        "B": "f is not onto because element a has two pre‑images.",
+        "C": "f is not onto because element b has no pre‑image.",
+        "D": "f is onto because the function is one‑one."
+      },
+      "correct_option": "A",
+      "answer": "f is onto because every element of the codomain has at least one pre‑image.",
+      "explanation": "The codomain {a,b,c} is completely covered: a is hit by 1, b by 2, and c by 3 and 4. Hence f is surjective (onto). Option B is incorrect (a has only one pre‑image). Option C is false because b does have a pre‑image (2). Option D is wrong because the function is not one‑one (3 and 4 both map to c).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Consider the function f:ℝ→ℝ defined by f(x)=2x+3. Which of the following statements is correct?",
+      "options": {
+        "A": "f is neither one‑one nor onto.",
+        "B": "f is one‑one but not onto.",
+        "C": "f is onto but not one‑one.",
+        "D": "f is both one‑one and onto (bijective)."
+      },
+      "correct_option": "D",
+      "answer": "f is both one‑one and onto (bijective).",
+      "explanation": "The linear function with non‑zero slope is strictly monotonic, so different x give different f(x) – it is injective. For any real y, solving y=2x+3 gives x=(y‑3)/2, which is real, so every y has a pre‑image – it is surjective. Hence f is bijective. Options A‑C each miss one of these properties.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A school assigns each student a unique roll number. The mapping from the set of students to the set of roll numbers is an example of which type of function?",
+      "options": {
+        "A": "many‑one function",
+        "B": "into function",
+        "C": "one‑one function",
+        "D": "onto function"
+      },
+      "correct_option": "C",
+      "answer": "one‑one function",
+      "explanation": "Each student gets a distinct roll number, so no two different students map to the same number – this is the definition of an injective (one‑one) function. It may or may not be onto depending on whether every possible roll number is used, but the guaranteed property is one‑one. Options A, B, and D describe different classifications.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "Which of the following statements is FALSE about many‑one functions?",
+      "options": {
+        "A": "Every many‑one function is not one‑one.",
+        "B": "A many‑one function can be onto.",
+        "C": "In a many‑one function, at least two distinct domain elements map to the same codomain element.",
+        "D": "A many‑one function must have a codomain element with no pre‑image."
+      },
+      "correct_option": "D",
+      "answer": "A many‑one function must have a codomain element with no pre‑image.",
+      "explanation": "Statement D is false. A many‑one function only requires that at least two domain elements share an image; it may still cover the entire codomain (e.g., f:{1,2,3}→{a,b} with f(1)=a, f(2)=a, f(3)=b is many‑one and onto). Statements A, B, and C correctly describe properties of many‑one functions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "If a function f:A→B is into, which of the following must be true?",
+      "options": {
+        "A": "|A| > |B|",
+        "B": "|A| < |B|",
+        "C": "|A| = |B|",
+        "D": "No specific relation between |A| and |B| is necessary."
+      },
+      "correct_option": "D",
+      "answer": "No specific relation between |A| and |B| is necessary.",
+      "explanation": "An into function means the image of f is a proper subset of B; it does not impose a fixed size relation between |A| and |B|. For example, A={1,2}, B={a,b,c} (|A|<|B|) can be into, and A={1,2,3,4}, B={a,b,c} (|A|>|B|) can also be into if some codomain element is never used. Hence only option D is guaranteed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Which statement correctly compares onto and into functions?",
+      "options": {
+        "A": "Every onto function is also into, but not every into function is onto.",
+        "B": "Every into function is also onto, but not every onto function is into.",
+        "C": "Onto and into are mutually exclusive; a function cannot be both.",
+        "D": "A function can be neither onto nor into."
+      },
+      "correct_option": "C",
+      "answer": "Onto and into are mutually exclusive; a function cannot be both.",
+      "explanation": "By definition, an onto (surjective) function has its image equal to the whole codomain, whereas an into function has its image as a proper subset of the codomain. Both conditions cannot hold simultaneously, making them mutually exclusive. Option A reverses the relationship, B is incorrect, and D is impossible because any function is either onto or into.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Let f:ℝ→ℝ be defined by f(x)=x³ and g:ℝ→ℝ by g(x)=x⁵. Consider the composition h=g∘f, i.e., h(x)=g(f(x)). Which of the following statements about h is true?",
+      "options": {
+        "A": "h is not one‑one.",
+        "B": "h is onto but not one‑one.",
+        "C": "h is one‑one but not onto.",
+        "D": "h is bijective (both one‑one and onto)."
+      },
+      "correct_option": "D",
+      "answer": "h is bijective (both one‑one and onto).",
+      "explanation": "h(x)= (x³)⁵ = x¹⁵. The function x↦x¹⁵ is strictly increasing over ℝ, so it is injective. For any real y, solving y = x¹⁵ gives x = y^{1/15}, which is real, so every real y has a pre‑image; thus h is surjective. Therefore h is bijective. Options A‑C each miss one of these properties.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "Which of the following statements correctly defines a one-one (injective) function?",
+      "options": {
+        "A": "Each element of the domain maps to a distinct element of the codomain.",
+        "B": "Every element of the codomain has at least one pre‑image in the domain.",
+        "C": "Two different elements of the domain can map to the same element of the codomain.",
+        "D": "The function maps the domain onto the entire codomain."
+      },
+      "correct_option": "A",
+      "answer": "Each element of the domain maps to a distinct element of the codomain.",
+      "explanation": "A one‑one or injective function never maps two different domain elements to the same codomain element, so each domain element has a distinct image. Option B describes onto, C contradicts injectivity, and D describes onto, not injectivity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "In a many-one function, which of the following is true?",
+      "options": {
+        "A": "No two distinct domain elements share the same image.",
+        "B": "At least two distinct domain elements have the same image.",
+        "C": "Every element of the codomain is hit by some domain element.",
+        "D": "Each domain element maps to a unique codomain element."
+      },
+      "correct_option": "B",
+      "answer": "At least two distinct domain elements have the same image.",
+      "explanation": "A many‑one function allows (and often requires) two or more different elements of the domain to map to the same element of the codomain. Option A describes one‑one, C describes onto, and D repeats the definition of a function but not the many‑one property.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "An \"into\" function from set A to set B is characterized by which condition?",
+      "options": {
+        "A": "Every element of B is an image of some element of A.",
+        "B": "The function is both one‑one and onto.",
+        "C": "There exists at least one element of B that is not an image of any element of A.",
+        "D": "Each element of A maps to multiple elements of B."
+      },
+      "correct_option": "C",
+      "answer": "There exists at least one element of B that is not an image of any element of A.",
+      "explanation": "An into function does not cover the whole codomain; at least one codomain element is left unmapped. Option A describes onto, B is bijective, and D violates the definition of a function (each domain element must have exactly one image).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Let f:{1,2,3,4}→{a,b,c,d} be defined by f(1)=a, f(2)=b, f(3)=c, f(4)=d. Which statement about f is correct?",
+      "options": {
+        "A": "f is into but not onto.",
+        "B": "f is onto but not one‑one.",
+        "C": "f is both onto and one‑one.",
+        "D": "f is many‑one but not onto."
+      },
+      "correct_option": "C",
+      "answer": "f is both onto and one‑one.",
+      "explanation": "Every element of the codomain appears as an image (onto) and each domain element maps to a distinct codomain element (one‑one). Hence f is bijective. Options A and D incorrectly claim it is not onto, and B incorrectly says it is not one‑one.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Which of the following defines a bijective function from ℝ to ℝ?",
+      "options": {
+        "A": "f(x)=x^{2}",
+        "B": "f(x)=x^{3}",
+        "C": "f(x)=e^{x}",
+        "D": "f(x)=|x|"
+      },
+      "correct_option": "B",
+      "answer": "f(x)=x^{3}",
+      "explanation": "The cubic function is both one‑one (different x give different y) and onto (every real y has a real x such that x³=y). x² and |x| are not one‑one, and e^{x} is not onto ℝ because its range is (0,∞).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A teacher assigns each of 30 students a unique locker number from 1 to 30. The assignment can be represented as a function from the set of students to the set of locker numbers. Which property does this function satisfy?",
+      "options": {
+        "A": "It is many‑one.",
+        "B": "It is onto but not one‑one.",
+        "C": "It is one‑one but not onto.",
+        "D": "It is both one‑one and onto."
+      },
+      "correct_option": "D",
+      "answer": "It is both one‑one and onto.",
+      "explanation": "Each student gets a distinct locker (one‑one) and every locker number from 1 to 30 is used (onto). Hence the function is bijective. Options A, B, and C each miss one of these properties.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "A student claims that a function where each element of the domain maps to a different element of the codomain cannot be many‑one. Which option correctly addresses this misconception?",
+      "options": {
+        "A": "The statement is true; many‑one functions always map multiple domain elements to the same codomain element.",
+        "B": "The statement is false; a many‑one function may still have some distinct images for certain pairs.",
+        "C": "The statement is true; many‑one functions are the same as one‑one functions.",
+        "D": "The statement is false; many‑one functions are defined only for infinite sets."
+      },
+      "correct_option": "B",
+      "answer": "The statement is false; a many‑one function may still have some distinct images for certain pairs.",
+      "explanation": "A many‑one function requires that at least one pair of distinct domain elements share an image, but it does not forbid other pairs from having distinct images. Hence the function can have both shared and unique images. Options A and C are overly restrictive, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "Consider the function f:{1,2,3,4}→{a,b,c,d} defined by f(1)=a, f(2)=b, f(3)=a, f(4)=c. Which statement is correct?",
+      "options": {
+        "A": "f is onto.",
+        "B": "f is one‑one.",
+        "C": "f is into.",
+        "D": "f is bijective."
+      },
+      "correct_option": "C",
+      "answer": "f is into.",
+      "explanation": "The codomain element d is never attained, so the function does not cover the whole codomain; it is an into function. It is not onto (A), not one‑one because 1 and 3 both map to a (B), and therefore not bijective (D).",
+      "difficulty": "medium"
+    }
+  ]
+}

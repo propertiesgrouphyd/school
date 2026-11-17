@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Consider the two functions defined from set A = {1,2,3,4} to set B = {a,b,c,d}: (i) f(i) = the i‑th letter of the alphabet (1→a,2→b,3→c,4→d); (ii) g(i) = a for every i in A. Which statement correctly compares the functions with respect to being onto?",
+      "options": {
+        "A": "Both f and g are onto.",
+        "B": "f is onto but g is not onto.",
+        "C": "g is onto but f is not onto.",
+        "D": "Neither f nor g is onto."
+      },
+      "correct_option": "B",
+      "answer": "f is onto but g is not onto.",
+      "explanation": "Function f maps each element of A to a distinct element of B and every element of B (a,b,c,d) appears as an image, so f is onto. Function g maps every element of A to the same element a, leaving b,c,d without pre‑images; therefore g is not onto. Hence option B is correct, while the other options misstate the onto property.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Let f: ℝ → ℝ be defined by f(x)=2x+3, g: ℝ → ℝ be defined by g(x)=x², and h: ℝ → ℝ be defined by h(x)=e^x. Which of the following functions is bijective?",
+      "options": {
+        "A": "f(x)=2x+3",
+        "B": "g(x)=x²",
+        "C": "h(x)=e^x",
+        "D": "None of the above"
+      },
+      "correct_option": "A",
+      "answer": "f(x)=2x+3",
+      "explanation": "A bijective function must be both one‑one (injective) and onto (surjective). The linear function f(x)=2x+3 has a non‑zero slope, so it is strictly monotonic and maps ℝ onto ℝ, making it bijective. g(x)=x² is not one‑one (e.g., g(2)=g(-2)) and not onto ℝ (negative numbers have no pre‑image). h(x)=e^x is one‑one but its range is (0,∞), so it is not onto ℝ. Therefore only option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "Which statement correctly defines a one‑one (injective) function?",
+      "options": {
+        "A": "Every element of the codomain is the image of at least one element of the domain.",
+        "B": "No two distinct elements of the domain map to the same element of the codomain.",
+        "C": "Each element of the domain maps to exactly one element of the codomain.",
+        "D": "The function maps the domain onto the codomain."
+      },
+      "correct_option": "B",
+      "answer": "No two distinct elements of the domain map to the same element of the codomain.",
+      "explanation": "An injective (one‑one) function never sends two different domain elements to the same codomain element. Option B captures this definition. Option A describes surjectivity, C is the basic definition of a function, and D describes an onto function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand many-one functions",
+      "question": "Which description characterises a many‑one function?",
+      "options": {
+        "A": "Different elements of the domain map to different elements of the codomain.",
+        "B": "At least two distinct elements of the domain map to the same element of the codomain.",
+        "C": "Every element of the codomain has a pre‑image in the domain.",
+        "D": "Each element of the domain maps to more than one element of the codomain."
+      },
+      "correct_option": "B",
+      "answer": "At least two distinct elements of the domain map to the same element of the codomain.",
+      "explanation": "In a many‑one function, multiple domain elements share a common image, which is expressed by option B. Option A describes a one‑one function, C describes an onto function, and D is not a function (a single domain element cannot map to multiple codomain elements).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand into functions",
+      "question": "An \"into\" function from set A to set B is best described as:",
+      "options": {
+        "A": "A function where every element of B is the image of some element of A.",
+        "B": "A function where at least one element of B is not an image of any element of A.",
+        "C": "A function where each element of A maps to exactly one element of B and the mapping is one‑one.",
+        "D": "A function that is both one‑one and onto."
+      },
+      "correct_option": "B",
+      "answer": "A function where at least one element of B is not an image of any element of A.",
+      "explanation": "An into function is not onto; there exists at least one element in the codomain that is not hit by the function, which is captured by option B. Option A defines an onto function, C adds an unnecessary one‑one condition, and D describes a bijective function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand onto functions",
+      "question": "Let f: {1,2,3,4} → {a,b,c} be defined by f(1)=a, f(2)=b, f(3)=c, f(4)=c. Is f onto?",
+      "options": {
+        "A": "Yes, because every element of the codomain has a pre‑image.",
+        "B": "No, because element a has more than one pre‑image.",
+        "C": "No, because element b has no pre‑image.",
+        "D": "Yes, because the function is one‑one."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because every element of the codomain has a pre‑image.",
+      "explanation": "The codomain {a,b,c} is fully covered: a is hit by 1, b by 2, and c by 3 and 4. Hence every codomain element has at least one pre‑image, satisfying the definition of an onto (surjective) function. Options B and C are false statements, and D is irrelevant because the function is not one‑one (c has two pre‑images).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Identify bijective functions",
+      "question": "Consider the function f: {0,1,2,3} → {w,x,y,z} given by f(0)=w, f(1)=x, f(2)=y, f(3)=z. Which statement is true?",
+      "options": {
+        "A": "f is one‑one but not onto.",
+        "B": "f is onto but not one‑one.",
+        "C": "f is both one‑one and onto (bijective).",
+        "D": "f is neither one‑one nor onto."
+      },
+      "correct_option": "C",
+      "answer": "f is both one‑one and onto (bijective).",
+      "explanation": "Each element of the domain maps to a distinct element of the codomain, so the function is one‑one. All four codomain elements appear as images, so it is also onto. Therefore f is bijective, making option C correct. Options A, B, and D contradict the observed mapping.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01087",
+      "learning_point": "Understand one-one functions",
+      "question": "A teacher assigns each of 5 students a unique locker number from 1 to 5. The assignment function maps a student to his/her locker number. Which statement correctly describes this function?",
+      "options": {
+        "A": "The function is one‑one but not onto.",
+        "B": "The function is onto but not one‑one.",
+        "C": "The function is both one‑one and onto.",
+        "D": "The function is neither one‑one nor onto."
+      },
+      "correct_option": "C",
+      "answer": "The function is both one‑one and onto.",
+      "explanation": "Because each student receives a distinct locker number, no two students share the same locker (one‑one). Since there are exactly five lockers and each is assigned, every locker number is used (onto). Hence the function is bijective, corresponding to option C. The other options misrepresent either the injective or surjective property.",
+      "difficulty": "medium"
+    }
+  ]
+}
