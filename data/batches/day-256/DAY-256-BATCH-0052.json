@@ -1,0 +1,78 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand constant functions",
+      "question": "Which of the following statements about a constant function f(x)=k, where k is a non‑zero real number, is correct?",
+      "options": {
+        "A": "Its graph is a horizontal line passing through the origin.",
+        "B": "Its slope is zero and the line does not intersect the x‑axis unless k = 0.",
+        "C": "Its domain consists only of the point x = 0.",
+        "D": "Its range includes all real numbers."
+      },
+      "correct_option": "B",
+      "answer": "Its slope is zero and the line does not intersect the x‑axis unless k = 0.",
+      "explanation": "A constant function has the form f(x)=k, so its graph is a horizontal line y = k. The slope of any horizontal line is zero. The line meets the x‑axis only when k = 0; otherwise it stays parallel to the x‑axis. Hence option B correctly describes the behavior. Option A is wrong because the line passes through (0,k), not necessarily the origin. Option C is false because the domain is all real numbers. Option D is false because the range is the single value {k}.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand identity functions",
+      "question": "If a function f is defined by f(x) = x for every real number x, which of the following statements is always true?",
+      "options": {
+        "A": "f(x) = x + 1 for all x.",
+        "B": "f(x) = 0 for all x.",
+        "C": "f(x) = x for all x.",
+        "D": "f(x) = x^2 for all x."
+      },
+      "correct_option": "C",
+      "answer": "f(x) = x for all x.",
+      "explanation": "The identity function maps each element to itself, so by definition f(x) = x for every x in its domain. Therefore option C is the correct statement. Options A, B, and D describe different functions (a translation, a constant zero function, and a quadratic function) and are not true for the identity function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand polynomial functions",
+      "question": "Consider the two polynomial functions\np(x) = 3x^4 - 2x^2 + 1\nand\nq(x) = x^4 + 5x^3 - x + 2.\nWhich statement correctly compares their end behavior as x → ∞?",
+      "options": {
+        "A": "p(x) grows faster than q(x) because its leading coefficient is larger.",
+        "B": "q(x) grows faster than p(x) because it contains a cubic term.",
+        "C": "Both functions grow at the same rate because they have the same highest‑degree term (x^4).",
+        "D": "Neither function grows without bound; both approach a finite limit."
+      },
+      "correct_option": "C",
+      "answer": "Both functions grow at the same rate because they have the same highest‑degree term (x^4).",
+      "explanation": "The dominant term that determines end behavior of a polynomial is the term with the highest power of x. Both p(x) and q(x) have degree 4, so as x → ∞ their growth is governed by the x^4 term. The leading coefficients (3 for p and 1 for q) affect the vertical stretch but not the order of growth; both still increase without bound at the same polynomial rate. Hence option C is correct. Option A incorrectly assumes a larger coefficient changes the order of growth. Option B is wrong because the cubic term is of lower degree than the quartic term. Option D is false because polynomials of positive degree diverge to infinity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01088",
+      "learning_point": "Understand rational functions",
+      "question": "Let f(x) = (2x^2 - 8) / (x^2 - 4). Which of the following statements about the graph of f is correct?",
+      "options": {
+        "A": "The graph has vertical asymptotes at x = 2 and x = -2.",
+        "B": "The graph has holes at x = 2 and x = -2 and a horizontal asymptote y = 2.",
+        "C": "The graph has an oblique asymptote y = 2x.",
+        "D": "The graph has no asymptotes and is defined for all real x."
+      },
+      "correct_option": "B",
+      "answer": "The graph has holes at x = 2 and x = -2 and a horizontal asymptote y = 2.",
+      "explanation": "Factorising numerator and denominator: 2x^2 - 8 = 2(x^2 - 4) = 2(x - 2)(x + 2) and x^2 - 4 = (x - 2)(x + 2). Cancelling the common factors gives f(x) = 2 for all x except where the original denominator is zero, i.e., x = 2 and x = -2. At those points the function is undefined, producing removable discontinuities (holes). Since the simplified function is the constant 2, the horizontal line y = 2 is a horizontal asymptote. Therefore option B correctly describes the graph. Option A is wrong because the factors cancel, so there are no vertical asymptotes. Option C is incorrect because the function is constant, not slanted. Option D is false because the function is undefined at x = ±2.",
+      "difficulty": "hard"
+    }
+  ]
+}
