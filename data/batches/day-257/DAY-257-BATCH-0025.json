@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Use standard-angle values",
+      "question": "Which of the following comparisons between the values of sine and cosine for the standard angles \\(\\frac{\\pi}{6}\\) and \\(\\frac{\\pi}{3}\\) is correct?",
+      "options": {
+        "A": "\\(\\sin\\frac{\\pi}{6} > \\cos\\frac{\\pi}{3}\\)",
+        "B": "\\(\\sin\\frac{\\pi}{6} = \\cos\\frac{\\pi}{3}\\)",
+        "C": "\\(\\sin\\frac{\\pi}{6} < \\cos\\frac{\\pi}{3}\\)",
+        "D": "Both \\(\\sin\\frac{\\pi}{6}\\) and \\(\\cos\\frac{\\pi}{3}\\) are zero"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\sin\\frac{\\pi}{6} = \\cos\\frac{\\pi}{3}\\)",
+      "explanation": "For the standard angles, \\(\\sin\\frac{\\pi}{6}=\\frac{1}{2}\\) and \\(\\cos\\frac{\\pi}{3}=\\frac{1}{2}\\). Hence they are equal. Options A and C are false because the two values are the same, and option D is false because neither value is zero.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Relate coordinates on the unit circle to trigonometric ratios",
+      "question": "On the unit circle, a point \\(P\\) corresponding to an angle \\(\\theta\\) has coordinates \\((-\\frac{\\sqrt{3}}{2}, \\frac{1}{2})\\). What is the exact value of \\(\\tan\\theta\\)?",
+      "options": {
+        "A": "\\(-\\frac{\\sqrt{3}}{3}\\)",
+        "B": "\\(-\\sqrt{3}\\)",
+        "C": "\\(\\frac{\\sqrt{3}}{3}\\)",
+        "D": "\\(\\sqrt{3}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(-\\frac{\\sqrt{3}}{3}\\)",
+      "explanation": "For any angle \\(\\theta\\) on the unit circle, \\(\\cos\\theta\\) equals the x‑coordinate and \\(\\sin\\theta\\) equals the y‑coordinate. Thus \\(\\sin\\theta = \\frac{1}{2}\\) and \\(\\cos\\theta = -\\frac{\\sqrt{3}}{2}\\). Therefore \\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}=\\frac{\\frac{1}{2}}{-\\frac{\\sqrt{3}}{2}} = -\\frac{1}{\\sqrt{3}} = -\\frac{\\sqrt{3}}{3}\\). The other options correspond to incorrect sign or reciprocal mistakes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand trigonometric functions for general angles",
+      "question": "For any real angle \\(\\theta\\) measured from the positive x‑axis, the value of \\(\\sin\\theta\\) is defined as:",
+      "options": {
+        "A": "The x‑coordinate of the point where the terminal side meets the unit circle",
+        "B": "The y‑coordinate of the point where the terminal side meets the unit circle",
+        "C": "The distance from the origin to the point on the terminal side",
+        "D": "The length of the arc subtended by \\(\\theta\\) on the unit circle"
+      },
+      "correct_option": "B",
+      "answer": "The y‑coordinate of the point where the terminal side meets the unit circle",
+      "explanation": "By the unit‑circle definition, for an angle \\(\\theta\\) in standard position, the terminal side intersects the unit circle at a point \\((\\cos\\theta, \\sin\\theta)\\). Hence \\(\\sin\\theta\\) equals the y‑coordinate. Option A describes \\(\\cos\\theta\\); options C and D are unrelated to the definition of sine.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Determine signs in different quadrants",
+      "question": "What is the sign of \\(\\tan\\theta\\) when \\(\\theta\\) lies in the second quadrant (\\(90^{\\circ}<\\theta<180^{\\circ}\\))?",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Undefined"
+      },
+      "correct_option": "B",
+      "answer": "Negative",
+      "explanation": "In the second quadrant, sine is positive and cosine is negative. Since \\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}\\), a positive divided by a negative yields a negative value. Therefore \\(\\tan\\theta\\) is negative. It is not zero (that occurs at \\(0^{\\circ},180^{\\circ}\\)) nor undefined (that occurs where cosine is zero, i.e., at \\(90^{\\circ},270^{\\circ}\\)).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand periodicity",
+      "question": "The identity \\(\\sin(\\theta + 2\\pi) = \\sin\\theta\\) illustrates which fundamental property of the sine function?",
+      "options": {
+        "A": "Evenness",
+        "B": "Periodicity",
+        "C": "Oddness",
+        "D": "Amplitude"
+      },
+      "correct_option": "B",
+      "answer": "Periodicity",
+      "explanation": "Periodicity means that the function repeats its values after a fixed interval. For sine, the smallest positive period is \\(2\\pi\\), so adding \\(2\\pi\\) to the argument leaves the value unchanged. Evenness would be \\(\\sin(-\\theta)=\\sin\\theta\\) (which is false), oddness would be \\(\\sin(-\\theta)=-\\sin\\theta\\), and amplitude refers to the maximum absolute value, not to repeating behavior.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Use standard-angle values",
+      "question": "Calculate \\(\\sin 75^{\\circ}\\) using the sum formula \\(\\sin(45^{\\circ}+30^{\\circ})\\).",
+      "options": {
+        "A": "\\(\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\)",
+        "B": "\\(\\frac{\\sqrt{6}-\\sqrt{2}}{4}\\)",
+        "C": "\\(\\frac{\\sqrt{3}}{2}\\)",
+        "D": "\\(\\frac{1}{2}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\)",
+      "explanation": "Using \\(\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\\):\n\\(\\sin75^{\\circ}=\\sin45^{\\circ}\\cos30^{\\circ}+\\cos45^{\\circ}\\sin30^{\\circ}=\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\). Options B, C, D are results of other angle combinations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Relate coordinates on the unit circle to trigonometric ratios",
+      "question": "If a point \\(P\\) on the unit circle corresponding to an angle \\(\\theta\\) has coordinates \\((\\frac{1}{2}, \\frac{\\sqrt{3}}{2})\\), which of the following statements is true?",
+      "options": {
+        "A": "\\(\\sin\\theta = \\frac{1}{2}\\)",
+        "B": "\\(\\cos\\theta = \\frac{\\sqrt{3}}{2}\\)",
+        "C": "\\(\\tan\\theta = \\sqrt{3}\\)",
+        "D": "\\(\\tan\\theta = \\frac{1}{\\sqrt{3}}\\)"
+      },
+      "correct_option": "C",
+      "answer": "\\(\\tan\\theta = \\sqrt{3}\\)",
+      "explanation": "On the unit circle, \\(\\cos\\theta\\) equals the x‑coordinate \\(\\frac{1}{2}\\) and \\(\\sin\\theta\\) equals the y‑coordinate \\(\\frac{\\sqrt{3}}{2}\\). Therefore \\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}=\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}} = \\sqrt{3}\\). Options A and B swap the coordinates, and option D gives the reciprocal of the correct tangent value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand trigonometric functions for general angles",
+      "question": "A point starts at \\((1,0)\\) on the unit circle and moves counter‑clockwise through an angle of \\(\\frac{7\\pi}{6}\\) radians. What are the signs of \\(\\sin\\theta\\) and \\(\\cos\\theta\\) at the final position?",
+      "options": {
+        "A": "Both positive",
+        "B": "Both negative",
+        "C": "Sin positive, cos negative",
+        "D": "Sin negative, cos positive"
+      },
+      "correct_option": "B",
+      "answer": "Both negative",
+      "explanation": "\\(\\frac{7\\pi}{6}=210^{\\circ}\\) places the terminal side in the third quadrant, where both x (cosine) and y (sine) coordinates are negative. Hence both \\(\\sin\\theta\\) and \\(\\cos\\theta\\) are negative. Options A, C, and D describe quadrants other than the third.",
+      "difficulty": "medium"
+    }
+  ]
+}
