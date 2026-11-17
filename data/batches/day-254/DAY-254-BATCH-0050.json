@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A ∪ B?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5}",
+        "B": "{1, 2, 3}",
+        "C": "{3, 4, 5}",
+        "D": "{1, 2, 4, 5}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5}",
+      "explanation": "The union of two sets contains every element that appears in either set, without duplication. Elements 1,2,3 are from A; 3,4,5 are from B. Combining them gives {1,2,3,4,5}. Options B and C give only one of the sets, and D omits 3, which is common to both.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Given X = {a, b, c, d} and Y = {c, d, e, f}, what is X ∩ Y?",
+      "options": {
+        "A": "{c, d}",
+        "B": "{a, b, e, f}",
+        "C": "{a, b, c, d, e, f}",
+        "D": "{ }"
+      },
+      "correct_option": "A",
+      "answer": "{c, d}",
+      "explanation": "The intersection consists of elements common to both sets. Only c and d appear in both X and Y, so X ∩ Y = {c, d}. Option B lists elements that are not common, C is the union, and D would be correct only if the sets were disjoint.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Two sets are said to be disjoint when:",
+      "options": {
+        "A": "They have exactly one element in common.",
+        "B": "Their union is the empty set.",
+        "C": "Their intersection is the empty set.",
+        "D": "One set is a subset of the other."
+      },
+      "correct_option": "C",
+      "answer": "Their intersection is the empty set.",
+      "explanation": "Disjoint sets share no common elements, which means their intersection contains no elements (∅). Option A describes a single common element, B is impossible because the union of any two non‑empty sets cannot be empty, and D describes a subset relationship, not disjointness.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "Let P = {2, 4, 6, 8}, Q = {4, 5, 6, 7}, and R = {6, 8, 10}. Find (P ∪ Q) ∩ R.",
+      "options": {
+        "A": "{6, 8}",
+        "B": "{4, 6}",
+        "C": "{2, 4, 6, 8, 5, 7}",
+        "D": "{10}"
+      },
+      "correct_option": "A",
+      "answer": "{6, 8}",
+      "explanation": "First compute P ∪ Q = {2,4,5,6,7,8}. Intersect this with R = {6,8,10}. The common elements are 6 and 8, so the result is {6,8}. Options B and D miss one element, and C is the union of all three sets, not the required operation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "Which of the following statements correctly defines the union of two sets A and B?",
+      "options": {
+        "A": "A ∪ B is the set of all elements that belong to both A and B.",
+        "B": "A ∪ B is the set of all elements that belong to either A or B or both.",
+        "C": "A ∪ B is the set of elements that belong to A but not to B.",
+        "D": "A ∪ B is the empty set if A and B have no common elements."
+      },
+      "correct_option": "B",
+      "answer": "A ∪ B is the set of all elements that belong to either A or B or both.",
+      "explanation": "The union combines all distinct elements from both sets, including those that appear in both. Option A describes intersection, C describes set difference, and D is a false statement; disjoint sets still have a non‑empty union.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "In a school, the set M contains students who play music and the set S contains students who play sports. Which statement best describes M ∩ S?",
+      "options": {
+        "A": "All students who play either music or sports.",
+        "B": "Students who play both music and sports.",
+        "C": "Students who play music but not sports.",
+        "D": "Students who play sports but not music."
+      },
+      "correct_option": "B",
+      "answer": "Students who play both music and sports.",
+      "explanation": "The intersection of two sets consists of elements common to both. Hence M ∩ S lists students who are members of both the music and sports groups. Option A is the union, C and D describe set differences.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "If A = {1,2,3} and B = {3,4,5}, a student claims that A ∪ B = {1,2,3,3,4,5}. Which statement corrects this misconception?",
+      "options": {
+        "A": "The union can contain repeated elements, so the student's answer is correct.",
+        "B": "The union must list each distinct element only once; therefore A ∪ B = {1,2,3,4,5}.",
+        "C": "The union is the same as the intersection, so A ∪ B = {3}.",
+        "D": "The union is empty because the sets share a common element."
+      },
+      "correct_option": "B",
+      "answer": "The union must list each distinct element only once; therefore A ∪ B = {1,2,3,4,5}.",
+      "explanation": "In set theory, a set does not record multiplicities; each element appears only once. Hence the repeated 3 is not written twice. Option A repeats the mistake, C confuses union with intersection, and D is false because the presence of a common element does not make the union empty.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Given sets C = {x | x is a positive integer less than 6} and D = {x | x is an even integer less than 8}, which reasoning leads to C ∩ D = {2,4}?",
+      "options": {
+        "A": "List elements of C as {1,2,3,4,5} and D as {2,4,6}; the common elements are 2 and 4.",
+        "B": "Since C contains all numbers below 6 and D contains all numbers below 8, their intersection is all numbers below 6.",
+        "C": "C and D are disjoint because one set is defined by positivity and the other by evenness.",
+        "D": "The intersection equals the union because both sets are subsets of the natural numbers."
+      },
+      "correct_option": "A",
+      "answer": "List elements of C as {1,2,3,4,5} and D as {2,4,6}; the common elements are 2 and 4.",
+      "explanation": "Translating the set descriptions: C = {1,2,3,4,5}; D = {2,4,6}. The elements appearing in both lists are 2 and 4, giving the intersection {2,4}. Option B incorrectly assumes the intersection equals the smaller set, C wrongly claims they are disjoint, and D confuses intersection with union.",
+      "difficulty": "medium"
+    }
+  ]
+}

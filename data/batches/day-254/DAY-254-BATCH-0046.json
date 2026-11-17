@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "Which of the following statements correctly defines the union of two sets A and B?",
+      "options": {
+        "A": "The set of elements that are in A but not in B.",
+        "B": "The set of elements that are in B but not in A.",
+        "C": "The set of all elements that belong to A, or B, or both.",
+        "D": "The set of elements that are common to both A and B."
+      },
+      "correct_option": "C",
+      "answer": "The set of all elements that belong to A, or B, or both.",
+      "explanation": "The union of A and B, denoted A ∪ B, contains every element that is in A, in B, or in both. Option C states exactly this. Options A and B describe set difference, while D describes intersection.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "In set theory, the intersection of sets A and B, denoted A ∩ B, is defined as:",
+      "options": {
+        "A": "All elements that belong to A or B or both.",
+        "B": "All elements that belong to A but not to B.",
+        "C": "All elements that are common to both A and B.",
+        "D": "All elements that belong to either A or B, but not both."
+      },
+      "correct_option": "C",
+      "answer": "All elements that are common to both A and B.",
+      "explanation": "Intersection collects exactly those elements shared by both sets. Option C captures this definition. Option A is the union, B is set difference, and D describes the symmetric difference.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Given A = {1,2,3} and B = {3,4,5}, what is A ∪ B?",
+      "options": {
+        "A": "{1,2,3}",
+        "B": "{3,4,5}",
+        "C": "{1,2,3,4,5}",
+        "D": "{1,2,4,5}"
+      },
+      "correct_option": "C",
+      "answer": "{1,2,3,4,5}",
+      "explanation": "The union contains every element that appears in either set without repetition. Combining A and B gives {1,2,3,4,5}. Options A and B are the original sets, D omits 3 which is common to both.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Let A = {2,4,6,8} and B = {4,8,12}. What is A ∩ B?",
+      "options": {
+        "A": "{2,6}",
+        "B": "{4,8}",
+        "C": "{2,4,6,8,12}",
+        "D": "∅"
+      },
+      "correct_option": "B",
+      "answer": "{4,8}",
+      "explanation": "Intersection consists of elements present in both sets. Both A and B contain 4 and 8, so the intersection is {4,8}. Option A lists elements only in A, C is the union, and D would be correct only if there were no common elements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which statement correctly describes disjoint sets?",
+      "options": {
+        "A": "Two sets are disjoint if they share at least one common element.",
+        "B": "Two sets are disjoint if their union equals the universal set.",
+        "C": "Two sets are disjoint if they have no elements in common.",
+        "D": "Two sets are disjoint if one is a subset of the other."
+      },
+      "correct_option": "C",
+      "answer": "Two sets are disjoint if they have no elements in common.",
+      "explanation": "Disjoint sets have an empty intersection; they share no elements. Option C states this definition. Options A and D describe the opposite situation, while B is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "Let the universal set U = {1,2,3,4,5,6,7,8,9,10}, A = {2,4,6,8,10}, B = {1,2,3,4,5}. What is the number of elements in A ∪ B?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "A ∪ B = {1,2,3,4,5,6,8,10}. Counting the distinct elements gives 8. Options A, B, and D are incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "If X = {a,b} and Y = {b,c,d}, what is X ∪ Y?",
+      "options": {
+        "A": "{a,b}",
+        "B": "{b,c,d}",
+        "C": "{a,b,c,d}",
+        "D": "{a,c,d}"
+      },
+      "correct_option": "C",
+      "answer": "{a,b,c,d}",
+      "explanation": "The union includes every element that appears in either set, without duplication. Combining X and Y yields {a,b,c,d}. Options A and B are the original sets, D omits b which is common to both.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "In a school, let P be the set of students who play cricket and Q be the set of students who play football. Which description best defines P ∩ Q?",
+      "options": {
+        "A": "Students who play either cricket or football.",
+        "B": "Students who play cricket but not football.",
+        "C": "Students who play football but not cricket.",
+        "D": "Students who play both cricket and football."
+      },
+      "correct_option": "D",
+      "answer": "Students who play both cricket and football.",
+      "explanation": "The intersection P ∩ Q consists of students common to both sets, i.e., those who play both sports. Option D captures this. Options A describes the union, B and C describe set differences.",
+      "difficulty": "medium"
+    }
+  ]
+}

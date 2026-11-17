@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "Which of the following best defines the union of two sets A and B?",
+      "options": {
+        "A": "The set of all elements that are in A or in B or in both.",
+        "B": "The set of all elements that are common to both A and B.",
+        "C": "The set of elements that are in A but not in B.",
+        "D": "The set of elements that are in B but not in A."
+      },
+      "correct_option": "A",
+      "answer": "The set of all elements that are in A or in B or in both.",
+      "explanation": "The union A ∪ B contains every element that belongs to at least one of the sets. Option A states this precisely. Option B describes intersection, while C and D describe set differences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, what is A ∩ B?",
+      "options": {
+        "A": "{1, 2, 5, 6}",
+        "B": "{3, 4}",
+        "C": "{1, 2, 3, 4, 5, 6}",
+        "D": "∅"
+      },
+      "correct_option": "B",
+      "answer": "{3, 4}",
+      "explanation": "The intersection consists of elements that are present in both sets. Only 3 and 4 appear in A and B, so the correct set is {3, 4}. The other options list elements not common to both sets or the empty set.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Let A = {1, 2, 3, 4, 5} and B = {4, 5, 6, 7}. What is A ∪ B?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5, 6, 7}",
+        "B": "{1, 2, 3, 4, 5}",
+        "C": "{4, 5, 6, 7}",
+        "D": "{1, 2, 3, 6, 7}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5, 6, 7}",
+      "explanation": "The union contains every element that appears in either set. Combining A and B gives {1,2,3,4,5,6,7}. Options B and C miss elements from one of the sets, and D omits 4 and 5.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "In a class, 12 students study French (set F) and 15 study German (set G). Eight students study both languages. What is F ∩ G?",
+      "options": {
+        "A": "8",
+        "B": "19",
+        "C": "7",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "8",
+      "explanation": "The intersection F ∩ G consists of students who study both French and German, which is given as 8. The other numbers correspond to totals or unrelated values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which statement is true about two disjoint sets A and B?",
+      "options": {
+        "A": "A ∩ B = ∅",
+        "B": "A ∪ B = ∅",
+        "C": "Every element of A is also an element of B",
+        "D": "A and B must contain the same number of elements"
+      },
+      "correct_option": "A",
+      "answer": "A ∩ B = ∅",
+      "explanation": "Disjoint sets have no elements in common, so their intersection is the empty set. Their union need not be empty, and there is no requirement about subset relations or equal cardinalities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "If |A| = 20, |B| = 15, and |A ∪ B| = 30, what is |A ∩ B|?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "Using the formula |A ∪ B| = |A| + |B| – |A ∩ B|, we have 30 = 20 + 15 – x, giving x = 5. Hence the intersection has 5 elements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "Which of the following statements about the union of sets A and B is always correct?",
+      "options": {
+        "A": "A is always a subset of A ∪ B.",
+        "B": "A ∪ B is always a subset of A.",
+        "C": "A ∪ B equals A for every set B.",
+        "D": "A ∪ B is always a proper superset of A."
+      },
+      "correct_option": "A",
+      "answer": "A is always a subset of A ∪ B.",
+      "explanation": "By definition, every element of A appears in A ∪ B, so A ⊆ A ∪ B is always true. Option B reverses the inclusion, C holds only when B ⊆ A, and D is false when B ⊆ A (the union may equal A, not be proper).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "In a competitive exam, the notation A ∩ B denotes which of the following?",
+      "options": {
+        "A": "The set of elements that are common to both A and B.",
+        "B": "The set of elements that belong to either A or B but not to both.",
+        "C": "The set of elements that are in A but not in B.",
+        "D": "The complement of the union of A and B."
+      },
+      "correct_option": "A",
+      "answer": "The set of elements that are common to both A and B.",
+      "explanation": "Intersection (A ∩ B) consists exactly of the elements shared by both sets. Option B describes symmetric difference, C describes set difference, and D describes the complement of the union.",
+      "difficulty": "hard"
+    }
+  ]
+}

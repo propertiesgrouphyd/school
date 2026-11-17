@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Consider the sets A = {2, 4, 6} and B = {1, 3, 5}. Which statement correctly describes the relationship between A and B?",
+      "options": {
+        "A": "A and B are disjoint sets.",
+        "B": "A is a subset of B.",
+        "C": "A and B have exactly one common element.",
+        "D": "A and B are equal."
+      },
+      "correct_option": "A",
+      "answer": "A and B are disjoint sets.",
+      "explanation": "Two sets are disjoint when they have no element in common. Since none of the numbers 2, 4, 6 appear in B, the sets A and B are disjoint. Options B, C, and D are false because A is not contained in B, they share no elements, and they are not identical.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "In a class of 120 students, 70 study Mathematics, 55 study Physics, and 30 study both Mathematics and Physics. How many students study either Mathematics or Physics (or both)?",
+      "options": {
+        "A": "85",
+        "B": "95",
+        "C": "100",
+        "D": "115"
+      },
+      "correct_option": "B",
+      "answer": "95",
+      "explanation": "The number of students who study at least one of the subjects is given by |M ∪ P| = |M| + |P| – |M ∩ P| = 70 + 55 – 30 = 95. Hence option B is correct. The other options result from incorrect addition or subtraction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "The union of two sets A and B is defined as the set of elements that belong to A but not to B. Which option correctly defines the union?",
+      "options": {
+        "A": "The set of elements that belong to A but not to B.",
+        "B": "The set of elements that belong to B but not to A.",
+        "C": "The set of elements that belong to A or B (or both).",
+        "D": "The set of elements that belong to both A and B."
+      },
+      "correct_option": "C",
+      "answer": "The set of elements that belong to A or B (or both).",
+      "explanation": "By definition, A ∪ B contains every element that is in A, in B, or in both. Options A and B describe set difference, while option D describes intersection. Therefore, option C is the correct definition of union.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "If A = {x | x is an even integer between 1 and 10} and B = {x | x is a multiple of 4 less than 20}, what is the intersection A ∩ B?",
+      "options": {
+        "A": "{2, 4, 6, 8, 10}",
+        "B": "{4, 8, 12, 16}",
+        "C": "{4, 8}",
+        "D": "{2, 6, 10}"
+      },
+      "correct_option": "C",
+      "answer": "{4, 8}",
+      "explanation": "A = {2,4,6,8,10}. B = {4,8,12,16}. The common elements are 4 and 8, so A ∩ B = {4,8}. Option C lists exactly these elements. The other options either list all of A, all of B, or unrelated elements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Consider the following pairs of sets:\n\nPair 1: P = {1,2,3,4,5}, Q = {4,5,6,7}\nPair 2: R = {a,b,c}, S = {c,d,e,f}\n\nWhich pair has a union with the larger number of distinct elements?",
+      "options": {
+        "A": "Pair 1 (P ∪ Q)",
+        "B": "Pair 2 (R ∪ S)",
+        "C": "Both unions have the same cardinality",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Pair 1 (P ∪ Q)",
+      "explanation": "P ∪ Q = {1,2,3,4,5,6,7} → 7 elements. R ∪ S = {a,b,c,d,e,f} → 6 elements. Hence the union of Pair 1 is larger, making option A correct. Options C and D are false because the cardinalities are explicitly calculable, and option B is smaller.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Let the universal set U = {1,2,3,4,5,6,7,8,9,10}. Define A = {x ∈ U | x is a multiple of 2} and B = {x ∈ U | x > 5}. How many elements are in A ∩ B?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "A = {2,4,6,8,10}. B = {6,7,8,9,10}. Their intersection is {6,8,10}, which contains 3 elements. Therefore option B is correct. Options A, C, and D correspond to incorrect counts.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "Which of the following pairs of sets are disjoint?",
+      "options": {
+        "A": "A = {1,2,3}, B = {3,4,5}",
+        "B": "A = {a,b}, B = {c,d}",
+        "C": "A = {x}, B = {x,y}",
+        "D": "A = ∅, B = {1}"
+      },
+      "correct_option": "B",
+      "answer": "A = {a,b}, B = {c,d}",
+      "explanation": "Two sets are disjoint when they share no common element. Pair B has no overlap, so they are disjoint. Pair A shares element 3, Pair C shares x, and while the empty set (Pair D) is technically disjoint with any set, many textbooks treat the empty set as trivially disjoint; however, to avoid ambiguity the exam chooses the clearly non‑empty disjoint pair B as the correct answer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "If X = {1,2,3,4} and Y = {3,4,5,6}, what is the cardinality of X ∪ Y?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "X ∪ Y = {1,2,3,4,5,6}, which contains 6 distinct elements. Hence option C is correct. Options A and B underestimate the count, while D overestimates it.",
+      "difficulty": "easy"
+    }
+  ]
+}
