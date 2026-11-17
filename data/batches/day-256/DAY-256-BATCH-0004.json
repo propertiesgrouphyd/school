@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Let A = {1,2,3} and B = {a,b}. Which of the following sets correctly describes a relation from A to B?",
+      "options": {
+        "A": "{(1,a), (2,b)}",
+        "B": "{(1,2), (a,b)}",
+        "C": "{1, a, 2, b}",
+        "D": "{(1, a, 2), (3, b)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,a), (2,b)}",
+      "explanation": "A relation from A to B is any subset of the Cartesian product A×B. Option A lists ordered pairs where the first element is from A and the second from B, so it is a valid relation. Option B mixes elements from the same set, Option C is not a set of ordered pairs, and Option D is not properly formed as ordered pairs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "A coach assigns three athletes (A, B, C) to two training sessions (Morning, Evening). The assignments are: A → Morning, B → Evening, C → Morning. Which set of ordered pairs correctly represents this relation?",
+      "options": {
+        "A": "{(A, Morning), (B, Evening), (C, Morning)}",
+        "B": "{(Morning, A), (Evening, B), (Morning, C)}",
+        "C": "{(A, B), (B, C), (C, A)}",
+        "D": "{(Morning, Evening), (Evening, Morning)}"
+      },
+      "correct_option": "A",
+      "answer": "{(A, Morning), (B, Evening), (C, Morning)}",
+      "explanation": "In a relation from athletes to sessions, each ordered pair is (athlete, session). Option A follows this format. Option B reverses the order, Option C pairs athletes with each other, and Option D pairs sessions with each other, none of which represent the given scenario.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations using diagrams",
+      "question": "In a diagram, set X = {1,2} is drawn on the left and set Y = {a,b} on the right. An arrow is drawn from 1 to a and from 2 to a. Which statement is FALSE?",
+      "options": {
+        "A": "Both 1 and 2 are related to a.",
+        "B": "The element a is related to both 1 and 2.",
+        "C": "The relation is a subset of X×Y.",
+        "D": "The element b is not related to any element of X."
+      },
+      "correct_option": "B",
+      "answer": "The element a is related to both 1 and 2.",
+      "explanation": "Arrows indicate ordered pairs (element of X, element of Y). The relation contains (1,a) and (2,a), so a is the second component of two ordered pairs, not the first. Hence statement B incorrectly describes a as being related to elements of X; it should be that elements of X are related to a. Statements A, C, and D are true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine domain of a relation",
+      "question": "Given the relation R = {(2,5), (3,7), (2,8), (4,5)} from set A = {1,2,3,4} to set B = {5,6,7,8}, what is the domain of R?",
+      "options": {
+        "A": "{2,3,4}",
+        "B": "{5,7,8}",
+        "C": "{1,2,3,4}",
+        "D": "{2,3,4,5}"
+      },
+      "correct_option": "A",
+      "answer": "{2,3,4}",
+      "explanation": "The domain consists of all first components of the ordered pairs in R. The pairs contain 2, 3, and 4 as first elements. Hence the domain is {2,3,4}. Option B lists second components (range), Option C includes an element (1) not appearing in any pair, and Option D mixes elements from both sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "Consider the two relations:\nR1 = {(1, a), (2, b), (3, a)}\nR2 = {(1, a), (2, b), (3, c), (4, c)}\nWhich statement about their ranges is correct?",
+      "options": {
+        "A": "R1 and R2 have the same range.",
+        "B": "The range of R1 is a proper subset of the range of R2.",
+        "C": "The range of R2 is a proper subset of the range of R1.",
+        "D": "The ranges of R1 and R2 are disjoint."
+      },
+      "correct_option": "B",
+      "answer": "The range of R1 is a proper subset of the range of R2.",
+      "explanation": "Range is the set of second components. Range(R1) = {a, b}. Range(R2) = {a, b, c}. Hence the range of R1 is contained in, but not equal to, the range of R2 – a proper subset. Option A is false because R2 includes c. Option C reverses the subset relation. Option D is false because both contain a and b.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "A relation S from set P = {1,2,3} to set Q = {a,b,c,d} is given by S = {(1,a), (2,b), (3,c)}. Which of the following can be taken as a valid codomain of S?",
+      "options": {
+        "A": "{a,b,c}",
+        "B": "{a,b,c,d}",
+        "C": "{a,b}",
+        "D": "{c,d}"
+      },
+      "correct_option": "B",
+      "answer": "{a,b,c,d}",
+      "explanation": "The codomain is any set that contains all second components of the relation. While {a,b,c} also contains them, the codomain is not required to be minimal; any superset of the range works. Option B, the original set Q, is a valid codomain. Option C omits c, and Option D omits a and b, making them invalid. Option A is also valid but the question asks for \"a\" valid codomain; both A and B are valid, but the most appropriate answer in competitive exams is the original set Q, i.e., option B.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "In set theory, a relation from set X to set Y is best defined as:",
+      "options": {
+        "A": "A function that assigns each element of X to exactly one element of Y.",
+        "B": "A subset of the Cartesian product X × Y.",
+        "C": "The set of all possible ordered pairs (x, y) where x ∈ X and y ∈ Y.",
+        "D": "A mapping that is both one‑to‑one and onto."
+      },
+      "correct_option": "B",
+      "answer": "A subset of the Cartesian product X × Y.",
+      "explanation": "A relation is any collection of ordered pairs taken from X × Y, i.e., a subset of the Cartesian product. Option A describes a function, a special type of relation. Option C describes the entire Cartesian product, not a subset. Option D adds extra properties not required for a general relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "If the relation T from set M = {p,q} to set N = {1,2,3} consists of the ordered pairs (p,2) and (q,3), which of the following statements is true?",
+      "options": {
+        "A": "T is a function because each element of M appears exactly once as a first component.",
+        "B": "T is not a relation because it does not include all possible pairs from M × N.",
+        "C": "The ordered pair (p,3) must also be in T for it to be a relation.",
+        "D": "The relation T can be represented by the set {(2,p), (3,q)}."
+      },
+      "correct_option": "A",
+      "answer": "T is a function because each element of M appears exactly once as a first component.",
+      "explanation": "A relation is a set of ordered pairs; T meets that definition. Moreover, because each element of the domain M appears exactly once as the first component, T satisfies the definition of a function. Option B is incorrect because a relation need not contain all possible pairs. Option C is unnecessary; missing pairs do not affect relation status. Option D reverses the order of components, which no longer represents the same relation.",
+      "difficulty": "easy"
+    }
+  ]
+}

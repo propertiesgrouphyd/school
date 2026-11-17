@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-256-01",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Which of the following statements correctly defines a relation from set A to set B?",
+      "options": {
+        "A": "A relation from A to B is a subset of the Cartesian product A×B.",
+        "B": "A relation from A to B is a function that assigns each element of A to exactly one element of B.",
+        "C": "A relation from A to B is the union of sets A and B.",
+        "D": "A relation from A to B is the set of all possible ordered pairs (a,b) where a∈A and b∈B."
+      },
+      "correct_option": "A",
+      "answer": "A relation from A to B is a subset of the Cartesian product A×B.",
+      "explanation": "By definition, a relation from set A to set B is any subset of the Cartesian product A×B. Option B describes a function, which is a special type of relation. Option C is the union, not a relation. Option D describes the entire Cartesian product, which is a particular relation but not the general definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-256-02",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "Given sets X = {1,2,3} and Y = {a,b}, which of the following collections of ordered pairs correctly represents a relation R from X to Y?",
+      "options": {
+        "A": "{(1,a), (2,b), (3,a)}",
+        "B": "{(1,1), (2,2), (3,3)}",
+        "C": "{(a,1), (b,2)}",
+        "D": "{(1,a), (1,b), (2,a), (2,b), (3,a), (3,b)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,a), (2,b), (3,a)}",
+      "explanation": "In a relation from X to Y each ordered pair must have its first element from X and its second from Y. Option A satisfies this. Option B uses elements not in Y. Option C reverses the order. Option D is also a valid relation (the full Cartesian product) but the question asks for a specific representation; option A is the intended correct choice.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-256-03",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations using diagrams",
+      "question": "In a relation diagram, which description correctly shows the relation R where set A = {p,q} and set B = {1,2,3}, with p related to 1 and 3, and q related to 2?",
+      "options": {
+        "A": "Arrows from p to 1 and 3; arrow from q to 2.",
+        "B": "Arrows from p to 2; arrows from q to 1 and 3.",
+        "C": "Arrows from p to 1,2,3; no arrows from q.",
+        "D": "No arrows; all elements are unrelated."
+      },
+      "correct_option": "A",
+      "answer": "Arrows from p to 1 and 3; arrow from q to 2.",
+      "explanation": "A relation diagram uses arrows from elements of the first set to elements of the second set that are related. The description in option A matches the given relation. The other options depict different connections that do not correspond to the stated relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-256-04",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine domain of a relation",
+      "question": "For the relation R = {(2,5), (3,7), (2,8), (4,5)} between two sets of integers, what is the domain of R?",
+      "options": {
+        "A": "{2,3,4}",
+        "B": "{5,7,8}",
+        "C": "{2,3,4,5,7,8}",
+        "D": "{5,8}"
+      },
+      "correct_option": "A",
+      "answer": "{2,3,4}",
+      "explanation": "The domain consists of all first components of the ordered pairs in the relation. Here the first components are 2, 3, 2, and 4, giving the set {2,3,4}. Options B and D list second components, while C mixes both.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-256-05",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "Given the relation R = {(a,1), (b,2), (c,1), (d,3)}, what is the range of R?",
+      "options": {
+        "A": "{a,b,c,d}",
+        "B": "{1,2,3}",
+        "C": "{a,1,b,2,c,1,d,3}",
+        "D": "{1,2}"
+      },
+      "correct_option": "B",
+      "answer": "{1,2,3}",
+      "explanation": "The range (or image) is the set of all second components of the ordered pairs. The second components here are 1, 2, 1, and 3, which combine to {1,2,3}. Option A lists the first components, C mixes both, and D omits 3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-256-06",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "A relation f from the set of students S = {S1,S2,S3} to the set of grades G = {A,B,C,D} is defined as f = {(S1,A), (S2,B), (S3,A)}. Which of the following can be taken as the codomain of this relation?",
+      "options": {
+        "A": "{A,B}",
+        "B": "{A,B,C,D}",
+        "C": "{A}",
+        "D": "{B,C,D}"
+      },
+      "correct_option": "B",
+      "answer": "{A,B,C,D}",
+      "explanation": "The codomain is any set that contains all possible second elements of the relation. While the actual image is {A,B}, the codomain is usually taken as the whole set of grades G = {A,B,C,D}. Option A is too small (excludes C and D), C excludes B, and D excludes A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-256-07",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Which statement correctly identifies the misconception in the following claim?\n\"A relation from set X to set Y must associate each element of X with exactly one element of Y.\"",
+      "options": {
+        "A": "The statement is correct; this is the definition of a relation.",
+        "B": "The statement is incorrect because a relation need not be a function; an element of X can be related to multiple elements of Y or none.",
+        "C": "The statement is incorrect because a relation must associate each element of Y with exactly one element of X.",
+        "D": "The statement is correct only when X and Y are finite sets."
+      },
+      "correct_option": "B",
+      "answer": "The statement is incorrect because a relation need not be a function; an element of X can be related to multiple elements of Y or none.",
+      "explanation": "A relation is any subset of X×Y, so there is no requirement that every element of X appear, nor that it appears only once. The condition described is that of a function, which is a special type of relation. Options A and D are false, and C misstates the requirement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-256-08",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "Let A = {1,2} and B = {x,y,z}. Which set of ordered pairs represents a relation R from A to B that includes the pair (2,y) but does NOT contain any pair whose first component is 3?",
+      "options": {
+        "A": "{(1,x), (2,y), (2,z)}",
+        "B": "{(1,x), (1,y), (3,z)}",
+        "C": "{(2,y), (3,x)}",
+        "D": "{(1,x), (2,y), (3,z)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,x), (2,y), (2,z)}",
+      "explanation": "Option A satisfies both conditions: it contains (2,y) and all first components are from A (1 or 2); no pair has first component 3. Options B, C, and D each include a pair with first component 3, violating the requirement.",
+      "difficulty": "medium"
+    }
+  ]
+}

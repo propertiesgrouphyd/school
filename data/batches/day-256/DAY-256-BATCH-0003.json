@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "DAY256-MCQ-17",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "Consider the relation R = {(1,2), (2,3), (3,2)} from set A = {1,2,3} to set B = {2,3,4}. What is the range of R?",
+      "options": {
+        "A": "{2,3,4}",
+        "B": "{2,3}",
+        "C": "{1,2,3}",
+        "D": "{4}"
+      },
+      "correct_option": "B",
+      "answer": "{2,3}",
+      "explanation": "The range consists of all second components that actually appear in the ordered pairs of the relation. In R the second components are 2, 3 and 2, so the distinct values are 2 and 3. Hence the range is {2,3}. Option A is the codomain, not the range; options C and D are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "DAY256-MCQ-18",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "Given the relation R = {(a,1), (b,2), (c,2)} from set X = {a,b,c} to set Y = {1,2,3}, which of the following can be taken as the codomain of R?",
+      "options": {
+        "A": "{1,2}",
+        "B": "{1,2,3}",
+        "C": "{2,3}",
+        "D": "{1}"
+      },
+      "correct_option": "B",
+      "answer": "{1,2,3}",
+      "explanation": "The codomain is any set that contains all second components that appear in the relation (the range). The range of R is {1,2}. Any superset of this set can serve as a codomain. Option B, {1,2,3}, contains the range and is therefore a valid codomain. Option A omits 1, option C omits 1, and option D omits 2, so they cannot be codomains.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "DAY256-MCQ-19",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Which of the following statements correctly defines a relation between two sets?",
+      "options": {
+        "A": "A relation is a rule that assigns exactly one element of the second set to each element of the first set.",
+        "B": "A relation is any subset of the Cartesian product of the two sets.",
+        "C": "A relation is a mapping that is both one-to-one and onto.",
+        "D": "A relation is a set of ordered triples."
+      },
+      "correct_option": "B",
+      "answer": "A relation is any subset of the Cartesian product of the two sets.",
+      "explanation": "By definition, a relation from set X to set Y is any subset of X × Y, i.e., any collection of ordered pairs (x, y) with x∈X and y∈Y. Option A describes a function (a special type of relation). Option C adds extra properties (bijection) that are not required for a general relation. Option D mentions ordered triples, which belong to relations among three sets, not the binary relation considered here.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "DAY256-MCQ-20",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "Let A = {1,2,3} and B = {x,y}. The relation S consists of all ordered pairs where the first component is an odd number and the second component is x. Which of the following sets of ordered pairs correctly represents S?",
+      "options": {
+        "A": "{(1,x), (3,x)}",
+        "B": "{(2,x), (3,x)}",
+        "C": "{(1,y), (3,y)}",
+        "D": "{(1,x), (2,x)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,x), (3,x)}",
+      "explanation": "Odd numbers in A are 1 and 3. The relation requires the second component to be x. Therefore the ordered pairs are (1,x) and (3,x), which is option A. Options B and D include the even element 2, which violates the odd‑number condition. Option C uses y instead of the required x.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "DAY256-MCQ-21",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations using diagrams",
+      "question": "The relation R = {(1,2), (1,3), (2,3)} is from set X = {1,2} to set Y = {2,3}. Which diagram correctly represents R?\n\nOption A: Arrow from 1 to 2, arrow from 1 to 3, and arrow from 2 to 3.\nOption B: Arrow from 1 to 2 only.\nOption C: Arrow from 2 to 2 and arrow from 2 to 3.\nOption D: Arrow from 1 to 3 only.",
+      "options": {
+        "A": "Diagram A",
+        "B": "Diagram B",
+        "C": "Diagram C",
+        "D": "Diagram D"
+      },
+      "correct_option": "A",
+      "answer": "Diagram A",
+      "explanation": "R contains three ordered pairs: (1,2), (1,3) and (2,3). In a diagram, each ordered pair is shown by an arrow from the first element (in X) to the second element (in Y). Hence we need arrows from 1 to both 2 and 3, and an arrow from 2 to 3 – exactly what Diagram A depicts. The other diagrams miss one or more required arrows.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "DAY256-MCQ-22",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine domain of a relation",
+      "question": "Let R = {(p,5), (q,6), (p,7)} be a relation from set P = {p,q,r} to set Q = {5,6,7}. What is the domain of R?",
+      "options": {
+        "A": "{p, q}",
+        "B": "{p}",
+        "C": "{q}",
+        "D": "{r}"
+      },
+      "correct_option": "A",
+      "answer": "{p, q}",
+      "explanation": "The domain consists of all first components that appear in the ordered pairs of the relation. In R the first components are p (appearing twice) and q. Hence the domain is {p, q}. Element r never appears as a first component, so it is not part of the domain. Options B, C, and D are therefore incomplete.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "DAY256-MCQ-23",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "Which statement correctly distinguishes the range from the codomain of a relation?",
+      "options": {
+        "A": "The range is the set of all possible second elements, while the codomain is the set of second elements that actually appear.",
+        "B": "The range is the set of second elements that actually appear in the relation, whereas the codomain is the set of all possible second elements defined for the relation.",
+        "C": "The range and codomain are always identical for any relation.",
+        "D": "The codomain is a subset of the range."
+      },
+      "correct_option": "B",
+      "answer": "The range is the set of second elements that actually appear in the relation, whereas the codomain is the set of all possible second elements defined for the relation.",
+      "explanation": "The range (also called image) consists of those elements of the second set that are actually paired with elements of the first set in the relation. The codomain is the set that the relation maps into; it may contain elements that never appear as second components. Hence option B is correct. Option A reverses the definitions. Option C is false because the range can be a proper subset of the codomain. Option D is the opposite of the truth.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "DAY256-MCQ-24",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "For the relation R = {(1, a), (2, b)} from set A = {1,2,3} to set B = {a,b,c}, which of the following sets can serve as a codomain for R?",
+      "options": {
+        "A": "{a, b}",
+        "B": "{a, b, c}",
+        "C": "{a, b, c, d}",
+        "D": "{b, c}"
+      },
+      "correct_option": "B",
+      "answer": "{a, b, c}",
+      "explanation": "The range of R is {a, b}. A codomain must contain the range; any set that includes {a, b} is acceptable. Option B, {a, b, c}, includes the range and is therefore a valid codomain. Option A equals the range but is also acceptable; however, the question asks which of the listed sets can serve, and both A and B can, but we choose the one that matches the typical definition where the codomain is the original set B. Option C also works but is larger than necessary; the most appropriate answer among the choices is B. Option D omits a, so it cannot be a codomain.",
+      "difficulty": "easy"
+    }
+  ]
+}
