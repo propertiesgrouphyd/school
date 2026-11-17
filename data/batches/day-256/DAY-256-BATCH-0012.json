@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "Consider two relations R and S defined from set A = {1,2,3} to set B = {a,b,c}. Relation R = {(1,a),(2,b)} and relation S = {(1,a),(2,b),(3,c)}. Which statement about the ranges of R and S is true?",
+      "options": {
+        "A": "Both R and S have the same range.",
+        "B": "The range of R is a proper subset of the range of S.",
+        "C": "The range of S is a proper subset of the range of R.",
+        "D": "The ranges of R and S are incomparable."
+      },
+      "correct_option": "B",
+      "answer": "The range of R is a proper subset of the range of S.",
+      "explanation": "The range of a relation is the set of all second components that actually appear. For R, the second components are {a,b}. For S, they are {a,b,c}. Hence the range of R ({a,b}) is a proper subset of the range of S ({a,b,c}). Options A, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "Let relation R be defined from set X to set Y as R = {(p,2),(q,5),(r,2)} where X = {p,q,r} and Y = {1,2,3,4,5,6}. What is the codomain of R?",
+      "options": {
+        "A": "{2,5}",
+        "B": "{1,2,3,4,5,6}",
+        "C": "{p,q,r}",
+        "D": "{2,5,6}"
+      },
+      "correct_option": "B",
+      "answer": "{1,2,3,4,5,6}",
+      "explanation": "The codomain of a relation is the set from which the second elements are taken, i.e., the set Y specified in the definition of the relation. Here Y = {1,2,3,4,5,6}. The range (actual second elements) would be {2,5}, but the codomain remains the whole set Y. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Define relation",
+      "question": "Which of the following best defines a relation from set A to set B?",
+      "options": {
+        "A": "A set of ordered pairs where the first element belongs to A and the second element belongs to B.",
+        "B": "A function that assigns each element of A to exactly one element of B.",
+        "C": "The set of all possible ordered pairs (a,b) with a∈A and b∈B.",
+        "D": "A subset of A∪B."
+      },
+      "correct_option": "A",
+      "answer": "A set of ordered pairs where the first element belongs to A and the second element belongs to B.",
+      "explanation": "A relation from A to B is any subset of the Cartesian product A×B, i.e., a collection of ordered pairs (a,b) with a∈A and b∈B. Option A captures this definition. Option B describes a function, a special type of relation. Option C describes the entire Cartesian product, not a subset. Option D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations as ordered pairs",
+      "question": "Let A = {1,2} and B = {x,y,z}. The relation R consists of all pairs where the first component is 1. Which ordered pairs represent R?",
+      "options": {
+        "A": "{(1,x),(1,y),(1,z)}",
+        "B": "{(2,x),(2,y),(2,z)}",
+        "C": "{(1,2),(x,y)}",
+        "D": "{(1,x),(2,y)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,x),(1,y),(1,z)}",
+      "explanation": "Since the first component must be 1 and the second component can be any element of B, the ordered pairs are (1,x), (1,y), and (1,z). Options B, C, and D either use the wrong first component or include elements not from the specified sets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Represent relations using diagrams",
+      "question": "Which diagram correctly represents the relation R = {(a,1),(b,2),(c,2)} from set X = {a,b,c} to set Y = {1,2,3}?",
+      "options": {
+        "A": "Arrows: a → 1, b → 2, c → 2",
+        "B": "Arrows: a → 2, b → 1, c → 3",
+        "C": "Arrows: a → 1, b → 1, c → 1",
+        "D": "Arrows: a → 3, b → 2, c → 1"
+      },
+      "correct_option": "A",
+      "answer": "Arrows: a → 1, b → 2, c → 2",
+      "explanation": "The diagram must show exactly the ordered pairs given in R. Option A displays a→1, b→2, and c→2, matching R. The other options depict different pairings that are not part of R.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine domain of a relation",
+      "question": "Given the relation R = {(2,5),(3,7),(5,9)} from set A to set B, what is the domain of R?",
+      "options": {
+        "A": "{5,7,9}",
+        "B": "{2,3,5}",
+        "C": "{2,5,9}",
+        "D": "{3,5,7}"
+      },
+      "correct_option": "B",
+      "answer": "{2,3,5}",
+      "explanation": "The domain consists of all first components of the ordered pairs in the relation. Here the first components are 2, 3, and 5, giving the set {2,3,5}. Options A, C, and D list second components or mix them incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine range of a relation",
+      "question": "Let R = {(1,4),(2,5),(3,4),(4,6)}. What is the range of R?",
+      "options": {
+        "A": "{1,2,3,4}",
+        "B": "{4,5,6}",
+        "C": "{1,2,3,4,5,6}",
+        "D": "{5,6}"
+      },
+      "correct_option": "B",
+      "answer": "{4,5,6}",
+      "explanation": "The range is the set of all second components that appear in the ordered pairs. The second components are 4, 5, 4, and 6, so the distinct values are {4,5,6}. Option B is correct; the other options either list first components or include extra elements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01085",
+      "learning_point": "Determine codomain",
+      "question": "In a school, each student is assigned a locker number. The set of students S = {Alice, Bob, Charlie} and the set of locker numbers L = {101,102,103,104}. The relation R = {(Alice,101),(Bob,102),(Charlie,103)}. What is the codomain of this relation?",
+      "options": {
+        "A": "{101,102,103}",
+        "B": "{Alice,Bob,Charlie}",
+        "C": "{101,102,103,104}",
+        "D": "{Alice,101,Bob,102,Charlie,103}"
+      },
+      "correct_option": "C",
+      "answer": "{101,102,103,104}",
+      "explanation": "The codomain is the set from which the second elements (locker numbers) are drawn, i.e., the set L. Even though only three lockers are actually used, the codomain remains the entire set L = {101,102,103,104}. Option C reflects this; the other options describe the range, the domain, or a mixed set.",
+      "difficulty": "medium"
+    }
+  ]
+}
