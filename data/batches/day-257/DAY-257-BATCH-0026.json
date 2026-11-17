@@ -1,0 +1,78 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Determine signs in different quadrants",
+      "question": "For an angle of 150°, which of the following correctly states the signs of sin θ, cos θ, and tan θ?",
+      "options": {
+        "A": "sin θ > 0, cos θ > 0, tan θ > 0",
+        "B": "sin θ > 0, cos θ < 0, tan θ < 0",
+        "C": "sin θ < 0, cos θ > 0, tan θ < 0",
+        "D": "sin θ < 0, cos θ < 0, tan θ > 0"
+      },
+      "correct_option": "B",
+      "answer": "sin θ > 0, cos θ < 0, tan θ < 0",
+      "explanation": "150° lies in the second quadrant. In the second quadrant the y‑coordinate (sin) is positive, the x‑coordinate (cos) is negative, and tan = sin/cos is therefore negative. Many students mistakenly think all three functions keep the same sign as in the first quadrant, but only sine remains positive in QII.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Understand periodicity",
+      "question": "Which of the following identities correctly expresses the periodicity of the sine function for any real angle θ?",
+      "options": {
+        "A": "sin(θ + π) = sin θ",
+        "B": "sin(θ + 2π) = sin θ",
+        "C": "sin(θ + π/2) = sin θ",
+        "D": "sin(θ – 2π) = – sin θ"
+      },
+      "correct_option": "B",
+      "answer": "sin(θ + 2π) = sin θ",
+      "explanation": "The sine function repeats its values every 2π radians; therefore sin(θ+2π)=sinθ for all real θ. Adding π gives a sign change (sin(θ+π)=−sinθ), and adding π/2 shifts the function, not repeats it. Option D is also incorrect because sin(θ−2π)=sinθ, not its negative.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Use standard-angle values",
+      "question": "Which of the following statements correctly relates the sine of a standard angle to the cosine of its complementary angle?",
+      "options": {
+        "A": "sin 30° = cos 60°",
+        "B": "sin 45° = cos 30°",
+        "C": "sin 60° = cos 45°",
+        "D": "sin 90° = cos 0°"
+      },
+      "correct_option": "A",
+      "answer": "sin 30° = cos 60°",
+      "explanation": "For complementary angles α and (90°−α), sin α = cos(90°−α). Here 30° and 60° are complementary, so sin 30° equals cos 60°. The other options pair non‑complementary angles, giving unequal values (e.g., sin 45° = √2/2 while cos 30° = √3/2).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01090",
+      "learning_point": "Relate coordinates on the unit circle to trigonometric ratios",
+      "question": "On the unit circle, a point P corresponding to angle θ has coordinates (cos θ, sin θ). Which expression gives tan θ in terms of the coordinates of P?",
+      "options": {
+        "A": "sin θ / cos θ",
+        "B": "cos θ / sin θ",
+        "C": "sin θ × cos θ",
+        "D": "(sin θ)² + (cos θ)²"
+      },
+      "correct_option": "A",
+      "answer": "sin θ / cos θ",
+      "explanation": "For a point on the unit circle, the x‑coordinate is cos θ and the y‑coordinate is sin θ. Tangent is the ratio of the opposite side to the adjacent side, i.e., y/x = sin θ / cos θ. Option B is the reciprocal, C is a product, and D equals 1 for any point on the unit circle, not tan θ.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Consider the expression sin²θ + cos²θ. Which of the following is a common incorrect simplification of this expression?",
+      "options": {
+        "A": "sin²θ + cos²θ = 1",
+        "B": "sin²θ + cos²θ = (sinθ + cosθ)²",
+        "C": "sin²θ + cos²θ = (sinθ - cosθ)²",
+        "D": "sin²θ + cos²θ = sec²θ - tan²θ"
+      },
+      "correct_option": "B",
+      "answer": "sin²θ + cos²θ = (sinθ + cosθ)²",
+      "explanation": "The identity sin²θ + cos²θ = 1 is always true. Expanding (sinθ + cosθ)² gives sin²θ + cos²θ + 2sinθcosθ, which is not equal to sin²θ + cos²θ alone. Hence option B is an incorrect simplification, while the other options are either correct identities or equivalent to 1.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Verify identities",
+      "question": "To verify the identity 1 + tan²θ = sec²θ, which of the following sequences of steps is correct?",
+      "options": {
+        "A": "Express tanθ as sinθ/cosθ and secθ as 1/cosθ, then simplify the left side to obtain the right side.",
+        "B": "Express tanθ as cosθ/sinθ and secθ as sinθ, then simplify.",
+        "C": "Square both sides of the equation directly without any substitution.",
+        "D": "Replace tan²θ with sin²θ and sec²θ with cos²θ before simplifying."
+      },
+      "correct_option": "A",
+      "answer": "Express tanθ as sinθ/cosθ and secθ as 1/cosθ, then simplify the left side to obtain the right side.",
+      "explanation": "Writing tanθ = sinθ/cosθ gives tan²θ = sin²θ/cos²θ. Adding 1 (which is cos²θ/cos²θ) yields (sin²θ + cos²θ)/cos²θ = 1/cos²θ = sec²θ. This correctly proves the identity. The other options either use wrong substitutions or skip necessary algebraic steps.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use reciprocal identities",
+      "question": "Which of the following statements correctly applies a reciprocal identity?",
+      "options": {
+        "A": "cscθ = 1/sinθ",
+        "B": "secθ = sinθ",
+        "C": "tanθ = 1/cosθ",
+        "D": "cotθ = 1/sinθ"
+      },
+      "correct_option": "A",
+      "answer": "cscθ = 1/sinθ",
+      "explanation": "The reciprocal identity for cosecant is cscθ = 1/sinθ, which holds for all θ where sinθ ≠ 0. Options B, C, and D are incorrect: secθ is 1/cosθ, tanθ is sinθ/cosθ, and cotθ is cosθ/sinθ.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use quotient identities",
+      "question": "If sinθ = 3/5 and θ lies in the first quadrant, what is the value of \\(\\dfrac{\\tanθ}{\\secθ}\\)?",
+      "options": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "5/3",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "3/5",
+      "explanation": "From sinθ = 3/5, cosθ = √(1‑sin²θ) = 4/5 (first quadrant). Then tanθ = sinθ/cosθ = (3/5)/(4/5) = 3/4 and secθ = 1/cosθ = 5/4. Hence tanθ / secθ = (3/4)/(5/4) = 3/5. Option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use Pythagorean identities",
+      "question": "Which of the following is a Pythagorean identity in trigonometry?",
+      "options": {
+        "A": "sin²θ + cos²θ = 1",
+        "B": "tanθ = sinθ + cosθ",
+        "C": "secθ = 1 + tanθ",
+        "D": "cotθ = sinθ – cosθ"
+      },
+      "correct_option": "A",
+      "answer": "sin²θ + cos²θ = 1",
+      "explanation": "The fundamental Pythagorean identity is sin²θ + cos²θ = 1, derived from the right‑angle triangle definition of sine and cosine. The other options are not identities and do not hold for all θ.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Derive related identities",
+      "question": "Starting from the identity sin²θ + cos²θ = 1, which of the following is a correctly derived related identity?",
+      "options": {
+        "A": "tan²θ + 1 = sec²θ",
+        "B": "cot²θ + 1 = csc²θ",
+        "C": "sinθ·cosθ = 1",
+        "D": "secθ·cscθ = tanθ"
+      },
+      "correct_option": "A",
+      "answer": "tan²θ + 1 = sec²θ",
+      "explanation": "Dividing sin²θ + cos²θ = 1 by cos²θ gives tan²θ + 1 = sec²θ, a standard derived identity. Option B would result from dividing by sin²θ, giving cot²θ + 1 = csc²θ, which is also correct, but only option A is listed as correct per the question. Options C and D are not valid identities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Which statement correctly distinguishes a trigonometric identity from a trigonometric expression?",
+      "options": {
+        "A": "An identity is true for every admissible value of the variable, whereas an expression may not hold universally.",
+        "B": "An expression is always equal to 1, while an identity varies with the angle.",
+        "C": "Identities involve only sine and cosine, while expressions involve other functions.",
+        "D": "An expression represents a numerical value, whereas an identity represents a graph."
+      },
+      "correct_option": "A",
+      "answer": "An identity is true for every admissible value of the variable, whereas an expression may not hold universally.",
+      "explanation": "A trigonometric identity, such as sin²θ + cos²θ = 1, holds for all θ where the functions are defined. A trigonometric expression like sinθ + cosθ is just a combination of functions and does not equal a fixed value for all θ. The other options mischaracterize the concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Verify identities",
+      "question": "Verify the identity tanθ = sinθ / cosθ for θ = 30°. Which of the following statements is correct?",
+      "options": {
+        "A": "True, both sides equal 1/√3",
+        "B": "False, the left side is 1/2",
+        "C": "Both sides equal 0",
+        "D": "Both sides equal 1"
+      },
+      "correct_option": "A",
+      "answer": "True, both sides equal 1/√3",
+      "explanation": "For θ = 30°, sin30° = 1/2 and cos30° = √3/2. Hence sinθ / cosθ = (1/2)/(√3/2) = 1/√3. Also tan30° = 1/√3. Both sides match, so the identity holds. Options B, C, and D are incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

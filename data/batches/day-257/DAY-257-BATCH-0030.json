@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use reciprocal identities",
+      "question": "If \\(\\sin\\theta = \\frac{3}{5}\\), what is \\(\\csc\\theta\\)?",
+      "options": {
+        "A": "\\frac{5}{3}",
+        "B": "\\frac{3}{5}",
+        "C": "\\frac{5}{2}",
+        "D": "\\frac{2}{5}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{5}{3}",
+      "explanation": "Reciprocal identity states \\(\\csc\\theta = \\frac{1}{\\sin\\theta}\\). Since \\(\\sin\\theta = \\frac{3}{5}\\), its reciprocal is \\(\\frac{5}{3}\\). The other options are either the original value or unrelated fractions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use quotient identities",
+      "question": "In a right‑angled triangle, the side opposite \\(\\theta\\) is 5 cm and the side adjacent to \\(\\theta\\) is 12 cm. Using quotient identities, find \\(\\sec\\theta\\).",
+      "options": {
+        "A": "\\frac{13}{12}",
+        "B": "\\frac{12}{13}",
+        "C": "\\frac{5}{12}",
+        "D": "\\frac{12}{5}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{13}{12}",
+      "explanation": "First, \\(\\sin\\theta = \\frac{5}{13}\\) and \\(\\cos\\theta = \\frac{12}{13}\\) (hypotenuse = \\(\\sqrt{5^2+12^2}=13\\)). The quotient identity for secant is \\(\\sec\\theta = \\frac{1}{\\cos\\theta}\\). Hence \\(\\sec\\theta = \\frac{13}{12}\\). Options B, C, D are incorrect reciprocals or unrelated ratios.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use Pythagorean identities",
+      "question": "Many students think that \\(\\sin^2\\theta + \\cos^2\\theta = 1\\) implies \\(\\sin\\theta + \\cos\\theta = 1\\). Which statement is correct?",
+      "options": {
+        "A": "The implication is true for every angle \\(\\theta\\).",
+        "B": "It is true only when \\(\\theta = 45^{\\circ}\\).",
+        "C": "It is false; the correct identity is \\(\\sin^2\\theta + \\cos^2\\theta = 1\\).",
+        "D": "It holds when either \\(\\sin\\theta = 0\\) or \\(\\cos\\theta = 0\\)."
+      },
+      "correct_option": "C",
+      "answer": "It is false; the correct identity is \\(\\sin^2\\theta + \\cos^2\\theta = 1\\).",
+      "explanation": "The Pythagorean identity involves squares of the functions, not the functions themselves. Squaring removes sign information, so \\(\\sin\\theta + \\cos\\theta\\) does not equal 1 in general. Only option C states the true identity. Options A, B, D are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Derive related identities",
+      "question": "Starting from \\(\\sin^2\\theta + \\cos^2\\theta = 1\\), which of the following is the correct derived identity?",
+      "options": {
+        "A": "\\(1 + \\tan^2\\theta = \\sec^2\\theta\\)",
+        "B": "\\(1 - \\tan^2\\theta = \\sec^2\\theta\\)",
+        "C": "\\(1 + \\cot^2\\theta = \\csc^2\\theta\\)",
+        "D": "Both A and C"
+      },
+      "correct_option": "D",
+      "answer": "Both A and C",
+      "explanation": "Dividing \\(\\sin^2\\theta + \\cos^2\\theta = 1\\) by \\(\\cos^2\\theta\\) gives \\(\\tan^2\\theta + 1 = \\sec^2\\theta\\) (option A). Dividing by \\(\\sin^2\\theta\\) gives \\(1 + \\cot^2\\theta = \\csc^2\\theta\\) (option C). Hence both A and C are valid derived identities, making option D correct. Options B is incorrect sign, and single options A or C alone ignore the other valid identity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Simplify \\(\\dfrac{1-\\cos 2\\theta}{\\sin 2\\theta}\\).",
+      "options": {
+        "A": "\\tan\\theta",
+        "B": "\\cot\\theta",
+        "C": "\\sin\\theta",
+        "D": "\\cos\\theta"
+      },
+      "correct_option": "A",
+      "answer": "\\tan\\theta",
+      "explanation": "Using double‑angle formulas: \\(1-\\cos2\\theta = 2\\sin^2\\theta\\) and \\(\\sin2\\theta = 2\\sin\\theta\\cos\\theta\\). The ratio becomes \\(\\frac{2\\sin^2\\theta}{2\\sin\\theta\\cos\\theta}=\\frac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta\\). The other options do not match the simplified form.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Verify identities",
+      "question": "Which of the following equals \\((\\sec\\theta - \\tan\\theta)(\\sec\\theta + \\tan\\theta)\\)?",
+      "options": {
+        "A": "1",
+        "B": "\\sec^2\\theta - \\tan^2\\theta",
+        "C": "\\frac{1-\\sin\\theta}{\\cos\\theta}",
+        "D": "\\frac{\\cos\\theta - \\sin\\theta}{\\cos\\theta + \\sin\\theta}"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "The expression is a difference of squares: \\((\\sec\\theta)^2 - (\\tan\\theta)^2\\). Using the reciprocal and quotient identities, \\(\\sec^2\\theta - \\tan^2\\theta = 1\\) (since \\(\\sec^2\\theta = 1 + \\tan^2\\theta\\)). Hence the product simplifies to 1. Options B, C, D are not equivalent to the product.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use reciprocal identities",
+      "question": "What is the reciprocal of \\(\\cos\\theta\\)?",
+      "options": {
+        "A": "\\sec\\theta",
+        "B": "\\csc\\theta",
+        "C": "\\tan\\theta",
+        "D": "\\cot\\theta"
+      },
+      "correct_option": "A",
+      "answer": "\\sec\\theta",
+      "explanation": "By definition, the reciprocal identity states \\(\\sec\\theta = \\frac{1}{\\cos\\theta}\\). Therefore the reciprocal of \\(\\cos\\theta\\) is \\(\\sec\\theta\\). The other options are reciprocals of different functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use quotient identities",
+      "question": "Which expression correctly represents \\(\\tan\\theta\\) using sine and cosine?",
+      "options": {
+        "A": "\\frac{\\sin\\theta}{\\cos\\theta}",
+        "B": "\\frac{\\cos\\theta}{\\sin\\theta}",
+        "C": "\\frac{1}{\\sin\\theta}",
+        "D": "\\frac{1}{\\cos\\theta}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{\\sin\\theta}{\\cos\\theta}",
+      "explanation": "The quotient identity for tangent is \\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}\\). Option B is cotangent, C is cosecant, and D is secant. Hence option A is correct.",
+      "difficulty": "easy"
+    }
+  ]
+}
