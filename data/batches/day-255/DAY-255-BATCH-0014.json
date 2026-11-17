@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-255-001",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent sets using Venn diagrams",
+      "question": "Which of the following Venn diagrams correctly represents the set A = {1,2,3}?",
+      "options": {
+        "A": "A single circle labeled A containing the elements 1,2,3.",
+        "B": "Two non‑overlapping circles labeled A and B with no elements.",
+        "C": "Two overlapping circles A and B with elements 1,2,3 in the overlapping region.",
+        "D": "A rectangle with elements 1,2,3 listed outside any circle."
+      },
+      "correct_option": "A",
+      "answer": "A single circle labeled A containing the elements 1,2,3.",
+      "explanation": "Option A shows exactly one circle for set A and places the elements 1,2,3 inside it, which is the proper Venn diagram representation of a single set. The other options either misplace the elements or use extra circles/regions that do not correspond to the given set.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-255-002",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "In a Venn diagram with two overlapping circles A and B, the region that lies in both circles represents which set operation?",
+      "options": {
+        "A": "Elements that are in A or B (union)",
+        "B": "Elements that are in both A and B (intersection)",
+        "C": "Elements not in A (complement of A)",
+        "D": "Elements in A but not in B (difference)"
+      },
+      "correct_option": "B",
+      "answer": "Elements that are in both A and B (intersection)",
+      "explanation": "The overlapping region of two circles contains exactly those elements that belong to both sets, which is the definition of intersection. Option A describes the union, C the complement, and D the difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-255-003",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent union and intersection",
+      "question": "Which Venn diagram correctly shows the union of sets A and B?",
+      "options": {
+        "A": "Both circles A and B are shaded, including the overlapping part.",
+        "B": "Only the overlapping part of A and B is shaded.",
+        "C": "Only circle A is shaded.",
+        "D": "Only circle B is shaded."
+      },
+      "correct_option": "A",
+      "answer": "Both circles A and B are shaded, including the overlapping part.",
+      "explanation": "The union A∪B consists of all elements that are in A, in B, or in both; therefore the entire area of both circles must be shaded. Shading only the overlap would represent the intersection, while shading a single circle would represent that single set alone.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-255-004",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent complements",
+      "question": "If the universal set U = {1,2,3,4,5} and set A = {2,4}, which region in the Venn diagram represents the complement of A?",
+      "options": {
+        "A": "The area inside circle A",
+        "B": "The area outside circle A but inside the universal‑set rectangle",
+        "C": "The overlapping region of A with another set",
+        "D": "No region; the complement is empty"
+      },
+      "correct_option": "B",
+      "answer": "The area outside circle A but inside the universal‑set rectangle",
+      "explanation": "The complement of A consists of all elements of the universal set that are not in A, i.e., {1,3,5}. In a Venn diagram this is shown by the part of the rectangle that lies outside the circle representing A. Options A and C refer to elements inside A, and D is incorrect because the complement is not empty.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-255-005",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a class of 40 students, 25 study Mathematics, 20 study Physics, and 15 study both subjects. How many students study neither Mathematics nor Physics?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "Number studying at least one subject = 25 + 20 – 15 = 30 (union). Students studying neither = total – union = 40 – 30 = 10. Option B is correct; the other numbers result from incorrect addition or subtraction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-255-006",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent sets using Venn diagrams",
+      "question": "A survey of 100 people about liking tea (T) and coffee (C) shows: 60 like tea, 45 like coffee, and 30 like both. Which Venn diagram description correctly represents this data?",
+      "options": {
+        "A": "Circle T with 30 only‑T, circle C with 15 only‑C, overlapping region 30, outside region 25.",
+        "B": "Circle T with 60 only‑T, circle C with 45 only‑C, overlapping region 30, outside region 0.",
+        "C": "Circle T with 30 only‑T, circle C with 45 only‑C, overlapping region 30, outside region –5 (impossible).",
+        "D": "Two separate non‑overlapping circles for T and C with no overlap."
+      },
+      "correct_option": "A",
+      "answer": "Circle T with 30 only‑T, circle C with 15 only‑C, overlapping region 30, outside region 25.",
+      "explanation": "Only‑T = 60 – 30 = 30, only‑C = 45 – 30 = 15, both = 30, neither = 100 – (30+15+30) = 25. Option A matches these numbers. Option B incorrectly places all tea‑likers outside the overlap, and C gives an impossible negative count. D ignores the given overlap.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-255-007",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "A common mistake is to think the region outside both circles in a two‑set Venn diagram represents the union of the sets. What does this region actually represent?",
+      "options": {
+        "A": "Intersection of A and B",
+        "B": "Complement of the union of A and B",
+        "C": "Union of A and B",
+        "D": "Difference A − B"
+      },
+      "correct_option": "B",
+      "answer": "Complement of the union of A and B",
+      "explanation": "The area outside both circles contains elements that belong to neither set, i.e., the complement of (A∪B). It is not the union (which is inside the circles), nor the intersection or a set difference.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-255-008",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent union and intersection",
+      "question": "In a Venn diagram of sets A and B, region X (the overlap) contains 12 elements, region Y (only in A) contains 8, and region Z (only in B) contains 5. How many elements are in A ∪ B?",
+      "options": {
+        "A": "25",
+        "B": "20",
+        "C": "17",
+        "D": "13"
+      },
+      "correct_option": "A",
+      "answer": "25",
+      "explanation": "The union includes all three regions: X + Y + Z = 12 + 8 + 5 = 25. Options B, C, and D omit one or more regions, leading to lower counts.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "Given the universal set U = {1,2,3,4,5,6,7,8} and set A = {2,4,6}, let B = {1,3,5,7,8}. Which of the following statements correctly compares the complement of A with set B?",
+      "options": {
+        "A": "A' = B",
+        "B": "A' ⊂ B",
+        "C": "A' ⊃ B",
+        "D": "A' ∩ B = ∅"
+      },
+      "correct_option": "A",
+      "answer": "A' = B",
+      "explanation": "The complement of A with respect to U is U\\A = {1,3,5,7,8}, which is exactly the set B. Hence the equality A' = B holds, while the other relational statements are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "For any subsets A and B of a universal set U, which of the following identities is always valid?",
+      "options": {
+        "A": "(A - B) = A ∩ B'",
+        "B": "(A - B) = A ∪ B'",
+        "C": "(A - B) = A' ∩ B",
+        "D": "(A - B) = A' ∪ B'"
+      },
+      "correct_option": "A",
+      "answer": "(A - B) = A ∩ B'",
+      "explanation": "By definition, A - B consists of elements that are in A and not in B, which is precisely the intersection of A with the complement of B, i.e., A ∩ B'. The other options do not represent the set difference.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "In set theory, the 'difference of sets' A − B is defined as:",
+      "options": {
+        "A": "The set of elements that belong to A but not to B.",
+        "B": "The set of elements that belong to both A and B.",
+        "C": "The set of elements that belong to the universal set but not to A.",
+        "D": "The set of elements that belong to B but not to A."
+      },
+      "correct_option": "A",
+      "answer": "The set of elements that belong to A but not to B.",
+      "explanation": "The difference A − B removes every element of B from A, leaving only those elements that are exclusively in A. Options B, C, and D describe intersection, complement, and the reverse difference respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Let A = {1,2,3,4} and B = {3,5}. What is the set A − B?",
+      "options": {
+        "A": "{1,2,3,4}",
+        "B": "{3,5}",
+        "C": "{1,2,4}",
+        "D": "{5}"
+      },
+      "correct_option": "C",
+      "answer": "{1,2,4}",
+      "explanation": "A − B contains elements of A that are not in B. Removing the common element 3 from A leaves {1,2,4}. The other options either retain 3, list B, or give unrelated elements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "The complement of a set A (denoted A') with respect to a universal set U is:",
+      "options": {
+        "A": "The set of all elements in U that are not in A.",
+        "B": "The set of all elements in A that are not in U.",
+        "C": "The set of elements that are both in A and U.",
+        "D": "The set of elements that are in A but not in any other set."
+      },
+      "correct_option": "A",
+      "answer": "The set of all elements in U that are not in A.",
+      "explanation": "By definition, the complement consists of every element of the universal set that does not belong to A. Options B, C, and D misstate the relationship between A and the universal set.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "If the universal set U = {a, b, c, d, e, f} and A = {b, d, f}, what is the complement of A?",
+      "options": {
+        "A": "{a, c, e}",
+        "B": "{b, d, f}",
+        "C": "{a, b, c, d, e, f}",
+        "D": "{a, b, c, d, e}"
+      },
+      "correct_option": "A",
+      "answer": "{a, c, e}",
+      "explanation": "The complement A' = U \\ A = {a, c, e}. Option B repeats A itself, C is the whole universal set, and D incorrectly includes b and d.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Simplify the expression (A ∪ B) − (A ∩ B) using set identities.",
+      "options": {
+        "A": "(A − B) ∪ (B − A)",
+        "B": "A ∪ B",
+        "C": "∅",
+        "D": "A ∩ B"
+      },
+      "correct_option": "A",
+      "answer": "(A − B) ∪ (B − A)",
+      "explanation": "Using the identity X − Y = X ∩ Y' and De Morgan’s law, (A ∪ B) − (A ∩ B) = (A ∪ B) ∩ (A ∩ B)' = (A ∪ B) ∩ (A' ∪ B') = (A ∩ A') ∪ (A ∩ B') ∪ (B ∩ A') ∪ (B ∩ B') = (A − B) ∪ (B − A). The other options do not represent the symmetric difference.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "In a school, 40 students are members of the music club (M) and 25 are members of the drama club (D). If 10 students belong to both clubs, how many students are in M but not in D?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "40",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "30",
+      "explanation": "The set difference M − D contains members of M excluding those also in D. Numerically, |M − D| = |M| − |M ∩ D| = 40 − 10 = 30. The other numbers either ignore the overlap or miscalculate.",
+      "difficulty": "medium"
+    }
+  ]
+}

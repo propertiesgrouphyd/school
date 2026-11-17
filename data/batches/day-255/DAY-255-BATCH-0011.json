@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "What is the definition of the difference of two sets A and B?",
+      "options": {
+        "A": "The set of elements that are in A or B",
+        "B": "The set of elements that are in both A and B",
+        "C": "The set of elements that are in A but not in B",
+        "D": "The set of elements that are not in A"
+      },
+      "correct_option": "C",
+      "answer": "The set of elements that are in A but not in B",
+      "explanation": "The difference A \\ B consists of all elements that belong to A while excluding any element that also belongs to B. Option C states exactly this. Options A and B describe union and intersection respectively, and D describes the complement of A with respect to the universal set, not the set difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "Let the universal set be U = {1,2,3,4,5,6}, A = {1,2,3,4} and B = {3,4,5}. What is A − B?",
+      "options": {
+        "A": "{1,2,3,4}",
+        "B": "{1,2}",
+        "C": "{3,4}",
+        "D": "{5,6}"
+      },
+      "correct_option": "B",
+      "answer": "{1,2}",
+      "explanation": "A − B contains elements that are in A but not in B. Removing the common elements 3 and 4 from A leaves {1,2}. Hence option B is correct. Option A is the original set A, option C lists the common elements, and option D lists elements not relevant to the operation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "In set theory, the complement of a set A (denoted A') with respect to a universal set U is:",
+      "options": {
+        "A": "All elements that belong to both A and U",
+        "B": "All elements that belong to U but not to A",
+        "C": "All elements that belong to A but not to U",
+        "D": "All elements that belong to neither A nor U"
+      },
+      "correct_option": "B",
+      "answer": "All elements that belong to U but not to A",
+      "explanation": "The complement A' consists of every element of the universal set U that is not in A. Option B captures this definition. Option A describes intersection, option C is impossible because A is a subset of U, and option D describes elements outside the universal set, which do not exist in the given context.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find complements using the universal set",
+      "question": "If the universal set U = {a, b, c, d, e} and A = {b, d}, what is the complement of A?",
+      "options": {
+        "A": "{a, c, e}",
+        "B": "{b, d}",
+        "C": "{a, b, c, d, e}",
+        "D": "{}"
+      },
+      "correct_option": "A",
+      "answer": "{a, c, e}",
+      "explanation": "The complement of A consists of all elements of U that are not in A. Removing b and d from U leaves {a, c, e}, which is option A. Option B is the original set A, option C is the universal set itself, and option D would be the complement of U, not of A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Apply set identities",
+      "question": "Which of the following set identities is correct?",
+      "options": {
+        "A": "(A - B) ∪ (B - A) = (A ∪ B) - (A ∩ B)",
+        "B": "(A - B) ∩ (B - A) = (A ∪ B) - (A ∩ B)",
+        "C": "(A - B) ∪ (B - A) = A ∩ B",
+        "D": "(A - B) ∪ (B - A) = A ∪ B"
+      },
+      "correct_option": "A",
+      "answer": "(A - B) ∪ (B - A) = (A ∪ B) - (A ∩ B)",
+      "explanation": "The symmetric difference (A - B) ∪ (B - A) equals the union of A and B minus their intersection, which is exactly the identity in option A. Option B incorrectly uses intersection on the left side. Option C equates the symmetric difference to the intersection, which is false. Option D equates it to the union, also false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define difference of sets",
+      "question": "In a school, let S be the set of all students and G be the set of girls. What does the set S - G represent?",
+      "options": {
+        "A": "All girls in the school",
+        "B": "All students who are not girls (i.e., boys)",
+        "C": "All students who are both girls and boys",
+        "D": "The empty set"
+      },
+      "correct_option": "B",
+      "answer": "All students who are not girls (i.e., boys)",
+      "explanation": "S - G contains elements that are in S but not in G. Since G is the subset of girls, removing them from the total student set leaves only the boys. Hence option B is correct. Option A describes G itself, option C is impossible, and option D would be true only if every student were a girl.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Find A − B",
+      "question": "If A = {1, 2, 3} and B = {3, 4, 5}, then A - B = {3}. Is this statement correct?",
+      "options": {
+        "A": "Yes, because 3 is common to both sets",
+        "B": "No, because 3 is in both sets",
+        "C": "No, because A - B = {1, 2}",
+        "D": "Yes, because subtraction adds common elements"
+      },
+      "correct_option": "C",
+      "answer": "No, because A - B = {1, 2}",
+      "explanation": "A - B consists of elements that are in A but not in B. The element 3 belongs to both A and B, so it must be excluded. The remaining elements are 1 and 2, giving {1, 2}. Therefore option C is correct. Options A and D misunderstand the operation, and option B, while noting the error, does not give the correct resulting set.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01081",
+      "learning_point": "Define complement",
+      "question": "If the universal set U = {1, 2, 3, 4, 5} and C = {2, 4}, which statement about the complement of C is true?",
+      "options": {
+        "A": "C' = {2, 4}",
+        "B": "C' = {1, 3, 5}",
+        "C": "C' = {1, 2, 3, 4, 5}",
+        "D": "C' = {}"
+      },
+      "correct_option": "B",
+      "answer": "C' = {1, 3, 5}",
+      "explanation": "The complement C' includes all elements of the universal set that are not in C. Removing 2 and 4 from U leaves {1, 3, 5}, which is option B. Option A repeats the original set, option C is the universal set itself, and option D would be the complement of U, not of C.",
+      "difficulty": "medium"
+    }
+  ]
+}
