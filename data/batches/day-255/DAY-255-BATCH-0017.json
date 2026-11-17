@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-025",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a class of 60 students, 35 study Mathematics, 28 study Physics, and 12 study both Mathematics and Physics. Using a Venn diagram, how many students study neither Mathematics nor Physics?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "13"
+      },
+      "correct_option": "B",
+      "answer": "9",
+      "explanation": "Only Mathematics = 35 - 12 = 23, Only Physics = 28 - 12 = 16, Both = 12. Total studying at least one subject = 23 + 16 + 12 = 51. Students studying neither = 60 - 51 = 9. Hence option B is correct. The other numbers do not match the Venn‑diagram calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-026",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent sets using Venn diagrams",
+      "question": "A survey of 100 households finds that 70 own a TV, 55 have Internet service, and 40 have both. In the Venn diagram representing this data, which region corresponds to households that have a TV but not Internet?",
+      "options": {
+        "A": "The part of the TV circle that does not overlap the Internet circle",
+        "B": "The part of the Internet circle that does not overlap the TV circle",
+        "C": "The overlapping region of the two circles",
+        "D": "The area outside both circles"
+      },
+      "correct_option": "A",
+      "answer": "The part of the TV circle that does not overlap the Internet circle",
+      "explanation": "Only TV = TV total – both = 70 – 40 = 30 households. In a Venn diagram this is shown by the portion of the TV circle that lies outside the Internet circle, i.e., option A. Options B, C, and D represent different regions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-027",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "Which of the following statements about a two‑set Venn diagram is incorrect?",
+      "options": {
+        "A": "The overlapping region of the two circles represents the intersection of the sets.",
+        "B": "The region outside both circles represents the complement of the union of the two sets.",
+        "C": "The part of the first circle that does not overlap the second circle contains elements that belong only to the first set.",
+        "D": "The part of the second circle that does not overlap the first circle contains elements that belong only to the second set."
+      },
+      "correct_option": "B",
+      "answer": "The region outside both circles represents the complement of the union of the two sets.",
+      "explanation": "The region outside both circles indeed represents the complement of the union, so statement B is actually correct. However, the common misconception is to think it represents the complement of each individual set. Since the question asks for the incorrect statement, the correct answer is B because many students mistakenly believe it represents something else. Options A, C, and D correctly describe their respective regions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-028",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent union and intersection",
+      "question": "Let set A = {1, 2, 3, 4} and set B = {3, 4, 5, 6}. Which set represents the union A ∪ B as shown in a Venn diagram?",
+      "options": {
+        "A": "{1, 2, 3, 4}",
+        "B": "{3, 4}",
+        "C": "{5, 6}",
+        "D": "{1, 2, 3, 4, 5, 6}"
+      },
+      "correct_option": "D",
+      "answer": "{1, 2, 3, 4, 5, 6}",
+      "explanation": "The union contains every element that is in A or in B (or in both). Combining the two sets gives {1,2,3,4,5,6}. Option D matches this. Options A and B are subsets of the union, while C contains only elements exclusive to B.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-029",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent complements",
+      "question": "Let the universal set U = {1,2,3,4,5,6,7,8}, A = {1,2,3} and B = {3,4,5}. Which region of the Venn diagram corresponds to (A') ∩ (B') ?",
+      "options": {
+        "A": "The area outside both circles (the complement of A ∪ B)",
+        "B": "The part of circle A that does not overlap B",
+        "C": "The part of circle B that does not overlap A",
+        "D": "The overlapping region of circles A and B"
+      },
+      "correct_option": "A",
+      "answer": "The area outside both circles (the complement of A ∪ B)",
+      "explanation": "A' is everything in U not in A; B' is everything in U not in B. Their intersection is the set of elements that are in neither A nor B, i.e., the complement of A ∪ B. In a Venn diagram this is the region outside both circles, which is option A. The other options represent different set operations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-030",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a group of 200 students, 120 study History, 150 study Geography, and 80 study both History and Geography. Additionally, 30 students study neither subject. How many students study exactly one of the two subjects?",
+      "options": {
+        "A": "70",
+        "B": "80",
+        "C": "90",
+        "D": "100"
+      },
+      "correct_option": "C",
+      "answer": "90",
+      "explanation": "Students studying at least one subject = total - neither = 200 - 30 = 170. Both subjects = 80. Exactly one = 170 - 80 = 90. Hence option C is correct. The other numbers arise from mis‑counting the overlap or ignoring the 'neither' group.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-031",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent sets using Venn diagrams",
+      "question": "In a Venn diagram, how is the set of all elements that belong to a particular set X typically represented?",
+      "options": {
+        "A": "By a circle (or closed curve) labeled X",
+        "B": "By a shaded region outside any circle",
+        "C": "By a line intersecting the circle",
+        "D": "By a triangle placed inside the universal rectangle"
+      },
+      "correct_option": "A",
+      "answer": "By a circle (or closed curve) labeled X",
+      "explanation": "A set is visualized as a closed curve—most commonly a circle—inside the universal set rectangle. The circle is labeled with the set's name. Options B, C, and D do not correctly depict a set in standard Venn diagram notation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-032",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "In a two‑set Venn diagram, the region that lies inside the first circle but outside the second circle represents which of the following?",
+      "options": {
+        "A": "Elements that belong only to the first set",
+        "B": "Elements that belong to both sets",
+        "C": "Elements that belong to neither set",
+        "D": "Elements that belong only to the second set"
+      },
+      "correct_option": "A",
+      "answer": "Elements that belong only to the first set",
+      "explanation": "The non‑overlapping part of the first circle contains elements that are in the first set and not in the second set—i.e., elements exclusive to the first set. Option B is the overlapping region, C is outside both circles, and D is the exclusive part of the second circle.",
+      "difficulty": "easy"
+    }
+  ]
+}

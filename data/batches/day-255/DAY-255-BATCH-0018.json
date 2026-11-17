@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent union and intersection",
+      "question": "In a Venn diagram of two sets A and B, which region correctly represents the union A ∪ B?",
+      "options": {
+        "A": "The region that lies inside both A and B only (the overlap).",
+        "B": "The region that lies only inside set A.",
+        "C": "The region that lies only inside set B.",
+        "D": "All points that lie inside A, or inside B, or in both (the entire area covered by the two circles)."
+      },
+      "correct_option": "D",
+      "answer": "All points that lie inside A, or inside B, or in both (the entire area covered by the two circles).",
+      "explanation": "The union A ∪ B consists of every element that belongs to A, to B, or to both. In a Venn diagram this is shown by shading the whole area of both circles. Option D describes exactly that region, while the other options describe only parts of the union.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent complements",
+      "question": "If the universal set U is drawn as a rectangle and set A as a circle inside it, which region of the diagram represents the complement of A (A')?",
+      "options": {
+        "A": "The interior of the circle representing A.",
+        "B": "The part of the rectangle that lies outside the circle representing A.",
+        "C": "The area outside the rectangle.",
+        "D": "The overlapping region of A with another set."
+      },
+      "correct_option": "B",
+      "answer": "The part of the rectangle that lies outside the circle representing A.",
+      "explanation": "The complement A' consists of all elements of the universal set that are not in A. In the diagram this is the region inside the rectangle (U) but outside the circle (A). Option B describes exactly that region; the other options either describe A itself or unrelated areas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a class of 40 students, 25 study Mathematics, 18 study Physics and 10 study both subjects. How many students study at least one of the two subjects?",
+      "options": {
+        "A": "28",
+        "B": "33",
+        "C": "35",
+        "D": "40"
+      },
+      "correct_option": "B",
+      "answer": "33",
+      "explanation": "Using the principle |M ∪ P| = |M| + |P| – |M ∩ P|, we get 25 + 18 – 10 = 33 students who study Mathematics or Physics or both. Hence option B is correct. The other numbers arise from incorrect addition or omission of the intersection.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent sets using Venn diagrams",
+      "question": "A survey of 100 people asks whether they like tea (T) and coffee (C). Results: 60 like tea, 45 like coffee, and 30 like both. Which of the following Venn‑diagram descriptions correctly represents these numbers?",
+      "options": {
+        "A": "T only: 30, C only: 15, Both: 30, Neither: 25",
+        "B": "T only: 40, C only: 15, Both: 30, Neither: 15",
+        "C": "T only: 30, C only: 30, Both: 20, Neither: 20",
+        "D": "T only: 25, C only: 20, Both: 30, Neither: 25"
+      },
+      "correct_option": "A",
+      "answer": "T only: 30, C only: 15, Both: 30, Neither: 25",
+      "explanation": "From the data: only tea = 60 – 30 = 30, only coffee = 45 – 30 = 15, both = 30, and neither = 100 – (30+15+30) = 25. Option A matches these values. The other options mis‑allocate the counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Interpret regions of Venn diagrams",
+      "question": "Which statement about the region that lies outside both circles in a Venn diagram of sets A and B is correct?",
+      "options": {
+        "A": "It represents the intersection A ∩ B.",
+        "B": "It represents the union A ∪ B.",
+        "C": "It represents the complement of A ∪ B (i.e., (A ∪ B)').",
+        "D": "It represents the complement of A ∩ B (i.e., (A ∩ B)')."
+      },
+      "correct_option": "C",
+      "answer": "It represents the complement of A ∪ B (i.e., (A ∪ B)').",
+      "explanation": "The area outside both circles contains elements that belong to neither A nor B, which is precisely the complement of the union (A ∪ B)'. Option C states this correctly. Option A describes the overlap, B describes the whole shaded area, and D describes everything except the overlap, which includes parts inside A or B alone.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent union and intersection",
+      "question": "If only the region representing the intersection A ∩ B is shaded in a Venn diagram, which additional region(s) must be shaded to correctly represent the union A ∪ B?",
+      "options": {
+        "A": "Only the region outside both circles.",
+        "B": "Only the part of A that is not in B.",
+        "C": "Only the part of B that is not in A.",
+        "D": "All regions inside A, inside B, and their overlap (i.e., the entire area of both circles)."
+      },
+      "correct_option": "D",
+      "answer": "All regions inside A, inside B, and their overlap (i.e., the entire area of both circles).",
+      "explanation": "The union A ∪ B includes every element that is in A, in B, or in both. Therefore the whole area covered by the two circles must be shaded. Options A‑C each add only a part of the required region, while D correctly adds the remaining parts to complete the union.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Represent complements",
+      "question": "In a Venn diagram with sets A and B inside the universal set U, which region represents the complement of A but not the complement of B?",
+      "options": {
+        "A": "The region outside both circles.",
+        "B": "The region inside both A and B.",
+        "C": "The region inside B only (outside A).",
+        "D": "The region inside A only (outside B)."
+      },
+      "correct_option": "C",
+      "answer": "The region inside B only (outside A).",
+      "explanation": "The complement of A is everything outside A (U\\A). Among those points, those that are also inside B belong to B ∩ A'. This is exactly the region that lies inside B but outside A, described in option C. Option A is outside both sets, option B is inside A, and option D is inside A, so they do not satisfy the condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01082",
+      "learning_point": "Solve counting problems using Venn diagrams",
+      "question": "In a group of 200 students, 120 study History, 150 study Geography, 80 study both History and Geography, and 30 study neither subject. How many students study exactly one of the two subjects?",
+      "options": {
+        "A": "70",
+        "B": "80",
+        "C": "90",
+        "D": "100"
+      },
+      "correct_option": "C",
+      "answer": "90",
+      "explanation": "Students studying at least one subject = total – neither = 200 – 30 = 170. Those studying both = 80. Hence students studying exactly one = 170 – 80 = 90. Option C matches this calculation. The other options arise from forgetting to subtract the 'both' count or mis‑handling the 'neither' group.",
+      "difficulty": "hard"
+    }
+  ]
+}
