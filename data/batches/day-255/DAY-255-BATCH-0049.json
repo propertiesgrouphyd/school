@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following best defines an ordered pair?",
+      "options": {
+        "A": "A set of two elements where order does not matter",
+        "B": "A pair of elements written as (a, b) where the first element is distinguished from the second",
+        "C": "A collection of elements with repetition allowed",
+        "D": "A sequence of three or more elements"
+      },
+      "correct_option": "B",
+      "answer": "A pair of elements written as (a, b) where the first element is distinguished from the second",
+      "explanation": "An ordered pair is denoted (a, b) and the order matters: (a, b) ≠ (b, a) unless a = b. Option B captures this definition. Option A describes an unordered set, C is about multisets, and D refers to longer sequences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "If (3, x) = (y, 5), what are the values of x and y?",
+      "options": {
+        "A": "x = 5, y = 3",
+        "B": "x = 3, y = 5",
+        "C": "x = 5, y = 5",
+        "D": "x = 3, y = 3"
+      },
+      "correct_option": "A",
+      "answer": "x = 5, y = 3",
+      "explanation": "Two ordered pairs are equal only when their corresponding components are equal. Hence 3 = y gives y = 3 and x = 5. Option A satisfies both conditions. The other options violate at least one component equality.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "The Cartesian product A × B of sets A = {1,2} and B = {x, y, z} is:",
+      "options": {
+        "A": "{ (1, x), (1, y), (1, z), (2, x), (2, y), (2, z) }",
+        "B": "{ (x,1), (y,1), (z,1), (x,2), (y,2), (z,2) }",
+        "C": "{1,2,x,y,z}",
+        "D": "{ (1,2), (x,y), (z) }"
+      },
+      "correct_option": "A",
+      "answer": "{ (1, x), (1, y), (1, z), (2, x), (2, y), (2, z) }",
+      "explanation": "The Cartesian product A × B consists of all ordered pairs (a, b) with a from A and b from B. Hence each element of A pairs with each element of B, giving the six pairs listed in option A. Option B swaps the order of components, C is a simple union, and D is not a Cartesian product.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Students = {A, B} and Subjects = {Math, Physics, Chemistry}. How many ordered pairs are in the Cartesian product Students × Subjects?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "3",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "The number of ordered pairs equals the product of the cardinalities: |Students| = 2, |Subjects| = 3, so 2 × 3 = 6. Option B is correct. The other numbers arise from incorrect multiplication or addition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If set X has 4 elements and set Y has 0 elements, what is the cardinality of X × Y?",
+      "options": {
+        "A": "0",
+        "B": "4",
+        "C": "undefined",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "A Cartesian product with an empty set is empty because there are no elements from Y to pair with elements of X. Hence |X × Y| = |X|·|Y| = 4·0 = 0. Option A is correct; the other options reflect common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "When the set A = {1,2} is plotted on the x‑axis and set B = {3,4,5} on the y‑axis, the points representing A × B appear as:",
+      "options": {
+        "A": "Six points forming a rectangular grid with vertices (1,3), (1,5), (2,3), (2,5) etc.",
+        "B": "Three points lying on a straight line",
+        "C": "Four points forming a square",
+        "D": "No points because the sets are not intervals"
+      },
+      "correct_option": "A",
+      "answer": "Six points forming a rectangular grid with vertices (1,3), (1,5), (2,3), (2,5) etc.",
+      "explanation": "Each element of A pairs with each element of B, giving 2 × 3 = 6 ordered pairs. Plotted, they occupy the grid points (1,3), (1,4), (1,5), (2,3), (2,4), (2,5), which form a rectangular arrangement. Options B, C, D misrepresent the geometric picture.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which statement correctly distinguishes an ordered pair from an unordered pair?",
+      "options": {
+        "A": "In an ordered pair (a,b) the sequence matters, while in an unordered pair {a,b} the order is irrelevant",
+        "B": "Both treat order the same way, so (a,b) = {a,b}",
+        "C": "An ordered pair can contain repeated elements, whereas an unordered pair cannot",
+        "D": "An unordered pair is always written with parentheses"
+      },
+      "correct_option": "A",
+      "answer": "In an ordered pair (a,b) the sequence matters, while in an unordered pair {a,b} the order is irrelevant",
+      "explanation": "The defining property of an ordered pair is that (a,b) ≠ (b,a) unless a = b. An unordered pair, denoted {a,b}, does not consider order; {a,b} = {b,a}. Option A states this distinction precisely. Options B, C, and D are incorrect statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "If (p, q) = (r, s) and p + q = 10, r - s = 2, then the value of p is:",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Equality of ordered pairs gives p = r and q = s. Hence we have p + q = 10 and p - q = 2 (since r - s = 2). Solving the system: adding gives 2p = 12 → p = 6. Option C is correct. The other options do not satisfy both equations.",
+      "difficulty": "hard"
+    }
+  ]
+}

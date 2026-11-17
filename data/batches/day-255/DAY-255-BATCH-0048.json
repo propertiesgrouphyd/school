@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If set A = {1,2,3,4} and set B = {x, y, z}, what is the cardinality of the Cartesian product A × B?",
+      "options": {
+        "A": "7",
+        "B": "12",
+        "C": "9",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "The cardinality of a Cartesian product equals the product of the cardinalities of the two sets. |A| = 4 and |B| = 3, so |A × B| = 4 × 3 = 12. Hence option B is correct; the other numbers do not follow the multiplication rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Consider set X = {1,2} represented on the horizontal axis and set Y = {a,b,c} represented on the vertical axis. Which diagram correctly shows the Cartesian product X × Y?",
+      "options": {
+        "A": "Points (1,a), (1,b), (1,c), (2,a), (2,b), (2,c) plotted as a 2‑by‑3 grid.",
+        "B": "Points (a,1), (b,1), (c,1), (a,2), (b,2), (c,2) plotted as a 3‑by‑2 grid.",
+        "C": "Only the points (1,a) and (2,c) are plotted.",
+        "D": "A single line passing through (1,a) and (2,c)."
+      },
+      "correct_option": "A",
+      "answer": "Points (1,a), (1,b), (1,c), (2,a), (2,b), (2,c) plotted as a 2‑by‑3 grid.",
+      "explanation": "In X × Y the first coordinate comes from X (horizontal) and the second from Y (vertical). Therefore every element of X pairs with every element of Y, giving the six points listed in option A. Option B reverses the order of coordinates, and options C and D omit many required points.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following statements correctly defines an ordered pair?",
+      "options": {
+        "A": "An unordered collection of two elements.",
+        "B": "A set containing exactly two elements.",
+        "C": "A pair (a, b) where the order matters; (a, b) ≠ (b, a) unless a = b.",
+        "D": "A sequence of any length that may contain repeated elements."
+      },
+      "correct_option": "C",
+      "answer": "A pair (a, b) where the order matters; (a, b) ≠ (b, a) unless a = b.",
+      "explanation": "An ordered pair records elements in a specific order, so (a, b) and (b, a) are generally different. Options A and B describe sets, which are unordered, and D describes a general sequence, not specifically a pair.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "Given the ordered pairs P = (3, 5) and Q = (3, 5), which statement about their equality is true?",
+      "options": {
+        "A": "P and Q are equal because they contain the same numbers, regardless of position.",
+        "B": "P and Q are equal only if their first components are equal and their second components are equal.",
+        "C": "P and Q can never be equal because ordered pairs are always distinct objects.",
+        "D": "Equality of P and Q depends on the sum of their components."
+      },
+      "correct_option": "B",
+      "answer": "P and Q are equal only if their first components are equal and their second components are equal.",
+      "explanation": "Two ordered pairs are equal precisely when the first elements match and the second elements match. Here both components match, so the pairs are equal. Options A, C, and D misstate the definition of equality for ordered pairs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Which of the following statements correctly defines the Cartesian product of two sets A and B?",
+      "options": {
+        "A": "The set of all ordered pairs (a, b) where a ∈ A and b ∈ B.",
+        "B": "The set of all unordered pairs {a, b} where a ∈ A or b ∈ B.",
+        "C": "The set of all triples (a, b, c) where a ∈ A, b ∈ B, and c ∈ C.",
+        "D": "The set of elements that are common to both A and B."
+      },
+      "correct_option": "A",
+      "answer": "The set of all ordered pairs (a, b) where a ∈ A and b ∈ B.",
+      "explanation": "By definition, A × B = {(a, b) | a ∈ A and b ∈ B}. It consists of ordered pairs, not unordered pairs, triples, or intersections. Options B, C, and D describe different concepts (union, product of three sets, and intersection).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Let A = {0, 1} and B = {x, y}. Which of the following lists correctly represents the Cartesian product A × B?",
+      "options": {
+        "A": "{(0, x), (0, y), (1, x), (1, y)}",
+        "B": "{(x, 0), (y, 0), (x, 1), (y, 1)}",
+        "C": "{(0, 0), (1, 1)}",
+        "D": "{(x, y)}"
+      },
+      "correct_option": "A",
+      "answer": "{(0, x), (0, y), (1, x), (1, y)}",
+      "explanation": "A × B contains every ordered pair with the first element from A and the second from B. Hence the four pairs listed in option A are correct. Option B swaps the order of coordinates, while C and D miss most required pairs.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If |P| = 5 and |Q| = 2, what is the cardinality of the Cartesian product P × Q?",
+      "options": {
+        "A": "7",
+        "B": "10",
+        "C": "5",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "The cardinality of P × Q equals |P| × |Q| = 5 × 2 = 10. Option B gives this product; the other options are unrelated numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "Which description best matches the geometric representation of a Cartesian product of two finite sets?",
+      "options": {
+        "A": "A single point on the plane.",
+        "B": "A set of points forming a rectangular array where the horizontal coordinate comes from the first set and the vertical coordinate from the second set.",
+        "C": "A line segment joining the smallest and largest elements.",
+        "D": "A circular region centered at the origin."
+      },
+      "correct_option": "B",
+      "answer": "A set of points forming a rectangular array where the horizontal coordinate comes from the first set and the vertical coordinate from the second set.",
+      "explanation": "Geometrically, each ordered pair (a, b) is plotted as a point with a‑coordinate from the first set and b‑coordinate from the second set, producing a rectangular grid of points. Options A, C, and D do not capture this grid structure.",
+      "difficulty": "easy"
+    }
+  ]
+}

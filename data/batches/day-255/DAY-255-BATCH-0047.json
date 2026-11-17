@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Which of the following statements correctly defines the Cartesian product of two sets A and B?",
+      "options": {
+        "A": "The set of all unordered pairs {a,b} where a∈A and b∈B.",
+        "B": "The set of all ordered pairs (a,b) where a∈A and b∈B.",
+        "C": "The set of all sums a+b where a∈A and b∈B.",
+        "D": "The set of all subsets of A∪B."
+      },
+      "correct_option": "B",
+      "answer": "The set of all ordered pairs (a,b) where a∈A and b∈B.",
+      "explanation": "A Cartesian product A×B is defined as the set of all ordered pairs (a,b) with a taken from A and b taken from B. Option B states this precisely. Option A ignores order, C describes addition, and D describes the power set, none of which match the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "Let A = {1,2} and B = {x, y, z}. What is A × B?",
+      "options": {
+        "A": "{(1,x), (1,y), (1,z), (2,x), (2,y), (2,z)}",
+        "B": "{(x,1), (y,1), (z,1), (x,2), (y,2), (z,2)}",
+        "C": "{(1,2), (x,y), (y,z)}",
+        "D": "{(1,x), (2,y), (z,1)}"
+      },
+      "correct_option": "A",
+      "answer": "{(1,x), (1,y), (1,z), (2,x), (2,y), (2,z)}",
+      "explanation": "The Cartesian product A×B consists of every ordered pair where the first component comes from A and the second from B. Hence we list all six combinations shown in option A. Options B, C, and D either reverse the order or omit/alter pairs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Determine cardinality of Cartesian products",
+      "question": "If |X| = 4 and |Y| = 5, what is the cardinality of X × Y? Also, if |P| = 3 and |Q| = 7, which product has the larger cardinality?",
+      "options": {
+        "A": "|X×Y| = 20; |P×Q| = 21; P×Q is larger.",
+        "B": "|X×Y| = 9; |P×Q| = 10; P×Q is larger.",
+        "C": "|X×Y| = 20; |P×Q| = 21; X×Y is larger.",
+        "D": "|X×Y| = 20; |P×Q| = 21; both are equal."
+      },
+      "correct_option": "A",
+      "answer": "|X×Y| = 20; |P×Q| = 21; P×Q is larger.",
+      "explanation": "The cardinality of a Cartesian product equals the product of the cardinalities of the factor sets. |X×Y| = 4·5 = 20 and |P×Q| = 3·7 = 21, so P×Q has the larger cardinality. Option A states this correctly; the other options give incorrect products or comparisons.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Represent Cartesian products geometrically",
+      "question": "In the coordinate plane, the set A = {0,1,2} and B = {0,2,4}. The Cartesian product A × B corresponds to which of the following sets of points?",
+      "options": {
+        "A": "All points (x,y) where x∈{0,1,2} and y∈{0,2,4}.",
+        "B": "All points (y,x) where y∈{0,1,2} and x∈{0,2,4}.",
+        "C": "All points (x,y) where x∈{0,2,4} and y∈{0,1,2}.",
+        "D": "All points (x,y) where x+y is even."
+      },
+      "correct_option": "A",
+      "answer": "All points (x,y) where x∈{0,1,2} and y∈{0,2,4}.",
+      "explanation": "A Cartesian product A×B is visualized as the set of ordered pairs (x,y) with the first coordinate from A and the second from B. Hence the points are exactly those described in option A. Options B and C swap the sets, and D adds an unrelated condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define ordered pair",
+      "question": "Which of the following best defines an ordered pair?",
+      "options": {
+        "A": "A set containing two elements without any particular order.",
+        "B": "A sequence of two elements where the first element is distinguished from the second.",
+        "C": "A collection of elements that can be rearranged.",
+        "D": "A pair of numbers added together."
+      },
+      "correct_option": "B",
+      "answer": "A sequence of two elements where the first element is distinguished from the second.",
+      "explanation": "An ordered pair (a,b) records two elements in a specific order; swapping them yields a different pair. Option B captures this. Option A describes an unordered set, C is vague, and D describes addition, not ordering.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Understand equality of ordered pairs",
+      "question": "For ordered pairs (a,b) and (c,d), under what condition are they equal?",
+      "options": {
+        "A": "a = d and b = c",
+        "B": "a = c and b = d",
+        "C": "a + b = c + d",
+        "D": "a - b = c - d"
+      },
+      "correct_option": "B",
+      "answer": "a = c and b = d",
+      "explanation": "Two ordered pairs are equal only when their corresponding components are equal respectively: the first components match and the second components match. Option B states this condition. The other options involve unrelated relationships.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Define Cartesian product",
+      "question": "Which statement correctly defines the Cartesian product of sets X and Y?",
+      "options": {
+        "A": "The set of all ordered pairs (x,y) where x∈X and y∈Y.",
+        "B": "The set of all unordered pairs {x,y} where x∈X and y∈Y.",
+        "C": "The union X ∪ Y.",
+        "D": "The set of all triples (x,y,z) with x∈X, y∈Y, z∈Z."
+      },
+      "correct_option": "A",
+      "answer": "The set of all ordered pairs (x,y) where x∈X and y∈Y.",
+      "explanation": "By definition, X×Y = {(x,y) | x∈X, y∈Y}. Option A matches this definition. Option B ignores order, C describes union, and D introduces a third set, none of which define the Cartesian product of two sets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01084",
+      "learning_point": "Find Cartesian products",
+      "question": "If M = {a,b} and N = {1,2,3}, which of the following lists the Cartesian product M × N correctly?",
+      "options": {
+        "A": "{(a,1), (a,2), (a,3), (b,1), (b,2), (b,3)}",
+        "B": "{(1,a), (2,a), (3,a), (1,b), (2,b), (3,b)}",
+        "C": "{(a,b), (1,2), (2,3)}",
+        "D": "{(a,1), (b,2), (a,3)}"
+      },
+      "correct_option": "A",
+      "answer": "{(a,1), (a,2), (a,3), (b,1), (b,2), (b,3)}",
+      "explanation": "M×N consists of ordered pairs with the first element from M and the second from N, giving the six pairs shown in option A. Option B reverses the order, while C and D omit several required pairs.",
+      "difficulty": "easy"
+    }
+  ]
+}
