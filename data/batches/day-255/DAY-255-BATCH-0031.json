@@ -1,0 +1,150 @@
+{
+  "day": 255,
+  "batch_id": "DAY-255-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01083-MCQ-33",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand distributive laws",
+      "question": "Which of the following is the correct statement of the distributive law of intersection over union for sets?",
+      "options": {
+        "A": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+        "B": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)",
+        "C": "(A ∪ B) ∩ C = (A ∩ C) ∪ (B ∩ C)",
+        "D": "(A ∩ B) ∪ C = (A ∪ C) ∩ (B ∪ C)"
+      },
+      "correct_option": "A",
+      "answer": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+      "explanation": "The distributive law of intersection over union states that intersecting a set A with the union of B and C is equivalent to the union of the intersections: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C). Options B, C, and D represent other identities but not this distributive law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "LU-01083-MCQ-34",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "Let U be the universal set. Which expression correctly represents the complement of the union of two sets A and B, i.e., (A ∪ B)′?",
+      "options": {
+        "A": "A′ ∩ B′",
+        "B": "A′ ∪ B′",
+        "C": "(A ∩ B)′",
+        "D": "A ∩ B"
+      },
+      "correct_option": "A",
+      "answer": "A′ ∩ B′",
+      "explanation": "De Morgan’s first law states that the complement of a union equals the intersection of the complements: (A ∪ B)′ = A′ ∩ B′. Option B is the complement of an intersection, while C and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "LU-01083-MCQ-35",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "Given A = {1,2,3} and B = {3,4}, which step correctly verifies the identity A ∪ (A ∩ B) = A?",
+      "options": {
+        "A": "A ∩ B = {3}; then A ∪ {3} = {1,2,3} = A",
+        "B": "A ∪ B = {1,2,3,4}; then (A ∪ B) ∩ A = {1,2,3}",
+        "C": "A ∩ B = {1,2,3,4}; then A ∪ (A ∩ B) = {1,2,3,4}",
+        "D": "Take complements of A and B and apply De Morgan’s law"
+      },
+      "correct_option": "A",
+      "answer": "A ∩ B = {3}; then A ∪ {3} = {1,2,3} = A",
+      "explanation": "First compute the intersection A ∩ B = {3}. Unioning this with A gives {1,2,3}, which is exactly A, confirming the identity. Options B and C perform incorrect operations, and D is unrelated to this identity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01083-MCQ-36",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand commutative laws",
+      "question": "In a school, let A be the set of students who play cricket and B be the set of students who play football. Which statement best illustrates the commutative law of union?",
+      "options": {
+        "A": "The set of students who play cricket or football is the same as the set of students who play football or cricket.",
+        "B": "The set of students who play cricket and football is the same as the set of students who play football or cricket.",
+        "C": "The complement of cricket players union football players equals the complement of football players union cricket players.",
+        "D": "The intersection of cricket players with football players equals the union of football players with cricket players."
+      },
+      "correct_option": "A",
+      "answer": "The set of students who play cricket or football is the same as the set of students who play football or cricket.",
+      "explanation": "The commutative law for union states A ∪ B = B ∪ A. Option A directly reflects this by describing the same set of students irrespective of the order. Options B, C, and D mix union with intersection or complement, which are not statements of the commutative law for union.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01083-MCQ-37",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand associative laws",
+      "question": "Which of the following statements is a common misconception about the associative law for sets?",
+      "options": {
+        "A": "(A ∩ B) ∩ C = A ∩ (B ∩ C)",
+        "B": "(A ∪ B) ∪ C = A ∪ (B ∪ C)",
+        "C": "(A ∩ B) ∪ C = A ∩ (B ∪ C)",
+        "D": "(A ∪ B) ∩ C = A ∪ (B ∩ C)"
+      },
+      "correct_option": "C",
+      "answer": "(A ∩ B) ∪ C = A ∩ (B ∪ C)",
+      "explanation": "The associative law applies only when the same operation is repeated. Options A and B correctly state the associative laws for intersection and union respectively. Option C incorrectly mixes union and intersection, leading to a false equality; this is a typical misconception. Option D is also a false statement but it is not an associative law—it mixes operations, whereas the question asks for the misconception about the associative law itself.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01083-MCQ-38",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand distributive laws",
+      "question": "Using the distributive law A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C), which of the following simplifications is correct?\n\nSimplify (A ∩ (B ∪ C)) ∪ (A ∩ D).",
+      "options": {
+        "A": "(A ∩ (B ∪ C)) ∪ (A ∩ D) = A ∩ (B ∪ C ∪ D)",
+        "B": "(A ∩ (B ∪ C)) ∪ (A ∩ D) = (A ∪ B) ∩ (A ∪ C) ∪ D",
+        "C": "(A ∩ (B ∪ C)) ∪ (A ∩ D) = (A ∩ B) ∪ (C ∩ D)",
+        "D": "(A ∩ (B ∪ C)) ∪ (A ∩ D) = A ∪ (B ∩ C ∩ D)"
+      },
+      "correct_option": "A",
+      "answer": "(A ∩ (B ∪ C)) ∪ (A ∩ D) = A ∩ (B ∪ C ∪ D)",
+      "explanation": "First apply the distributive law: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C). The expression becomes ((A ∩ B) ∪ (A ∩ C)) ∪ (A ∩ D). Using associativity of union, we can combine all three intersections: (A ∩ B) ∪ (A ∩ C) ∪ (A ∩ D) = A ∩ (B ∪ C ∪ D). Hence option A is the correct simplification. The other options either misuse distributive or associative properties or introduce unrelated operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "LU-01083-MCQ-39",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Understand De Morgan's laws",
+      "question": "Which pair correctly states De Morgan’s two laws for any sets A and B?",
+      "options": {
+        "A": "(A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′",
+        "B": "(A ∪ B)′ = A′ ∪ B′ and (A ∩ B)′ = A′ ∩ B′",
+        "C": "(A ∪ B)′ = A ∩ B and (A ∩ B)′ = A ∪ B",
+        "D": "(A ∪ B)′ = (A′ ∩ B′)′ and (A ∩ B)′ = (A′ ∪ B′)′"
+      },
+      "correct_option": "A",
+      "answer": "(A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′",
+      "explanation": "De Morgan’s laws state that the complement of a union equals the intersection of the complements, and the complement of an intersection equals the union of the complements. Option A captures both laws accurately. Option B swaps the operations, C omits complements, and D adds extra complements that are not part of the standard laws.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01083-MCQ-40",
+      "learning_unit_id": "LU-01083",
+      "learning_point": "Verify set identities using algebraic and diagrammatic methods",
+      "question": "Which algebraic manipulation correctly proves the identity (A ∪ B) ∩ (A ∪ C) = A ∪ (B ∩ C) for arbitrary sets A, B, and C?",
+      "options": {
+        "A": "Apply the distributive law: (A ∪ B) ∩ (A ∪ C) = A ∪ (B ∩ C)",
+        "B": "Take complements of both sides and use De Morgan’s law to obtain the same expression.",
+        "C": "Use the associative law on the left‑hand side to rewrite it as A ∪ (B ∩ C).",
+        "D": "The identity is false; a counter‑example can be found when A = ∅."
+      },
+      "correct_option": "A",
+      "answer": "Apply the distributive law: (A ∪ B) ∩ (A ∪ C) = A ∪ (B ∩ C)",
+      "explanation": "Starting with the left side, apply the distributive law of intersection over union: (A ∪ B) ∩ (A ∪ C) = A ∪ (B ∩ C). This shows the two sides are identical for any sets, confirming the identity. Option B misapplies De Morgan’s law, C incorrectly uses associativity (which does not change the operation type), and D is wrong because the identity holds even when A is empty.",
+      "difficulty": "hard"
+    }
+  ]
+}
