@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Which of the following statements correctly defines a function from set A to set B?",
+      "options": {
+        "A": "A rule that assigns to each element of A exactly one element of B.",
+        "B": "A rule that assigns to each element of B at most one element of A.",
+        "C": "A rule that may assign multiple elements of B to a single element of A.",
+        "D": "A relation that need not assign any element of A to an element of B."
+      },
+      "correct_option": "A",
+      "answer": "A rule that assigns to each element of A exactly one element of B.",
+      "explanation": "A function is a specific type of relation in which every element of the domain (set A) is paired with exactly one element of the codomain (set B). Option A captures this definition. Option B reverses the roles of domain and codomain. Option C allows multiple outputs for a single input, which violates the definition of a function. Option D describes a relation that may leave some domain elements unmapped, which is also not a function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "Consider the set of ordered pairs {(2,5), (3,7), (2,8)}. Which statement correctly distinguishes this relation from a function?",
+      "options": {
+        "A": "It is a function because each first component appears at most once.",
+        "B": "It is not a function because the element 2 in the domain is related to two different elements in the codomain.",
+        "C": "It is a function because the range equals the codomain.",
+        "D": "It is not a function because the domain is empty."
+      },
+      "correct_option": "B",
+      "answer": "It is not a function because the element 2 in the domain is related to two different elements in the codomain.",
+      "explanation": "A relation becomes a function only if every element of the domain has a single, unique image. Here, the domain element 2 is paired with both 5 and 8, violating the one‑to‑one output rule, so the relation is not a function. Options A and C are false statements, and D is irrelevant because the domain is not empty.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Identify domain, codomain and range",
+      "question": "For the relation f = {(-1,2), (0,0), (2,5)}, identify the domain, codomain, and range.",
+      "options": {
+        "A": "Domain = {-1,0,2}, Codomain = ℝ, Range = {0,2,5}",
+        "B": "Domain = {-1,0,2}, Codomain = {0,2,5}, Range = ℝ",
+        "C": "Domain = ℝ, Codomain = {-1,0,2}, Range = {0,2,5}",
+        "D": "Domain = {-1,0,2}, Codomain = ℝ, Range = {-1,0,2}"
+      },
+      "correct_option": "A",
+      "answer": "Domain = {-1,0,2}, Codomain = ℝ, Range = {0,2,5}",
+      "explanation": "The domain consists of all first components: -1, 0, 2. The codomain is the set into which the function maps; unless otherwise specified, it is taken as the set of all real numbers (ℝ). The range (image) is the set of second components that actually appear: 2, 0, 5, which written in ascending order is {0,2,5}. Options B, C, and D misplace these sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions using mapping diagrams",
+      "question": "Set X = {a, b, c} and set Y = {1, 2, 3}. The function f is defined by f(a)=1, f(b)=2, f(c)=3. Which mapping diagram correctly represents this function?",
+      "options": {
+        "A": "Arrows: a→1, b→2, c→3",
+        "B": "Arrows: a→1, a→2, b→3",
+        "C": "Arrows: a→2, b→2, c→2",
+        "D": "Arrows: a→1, b→1, c→1"
+      },
+      "correct_option": "A",
+      "answer": "Arrows: a→1, b→2, c→3",
+      "explanation": "A mapping diagram for a function must show exactly one arrow leaving each element of the domain X. Option A shows a single, distinct arrow from each of a, b, c to their respective images 1, 2, 3, matching the definition of f. Options B, C, and D either give multiple arrows from a single domain element or map several domain elements to the same codomain element, which does not reflect the given function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "Which of the following statements reflects a common misconception about representing the function f(x)=x²?",
+      "options": {
+        "A": "For f(x)=x², f(-2)=4.",
+        "B": "For f(x)=x², f(4)=16.",
+        "C": "For f(x)=x², f(-2)=4 and f(4)=-2.",
+        "D": "For f(x)=x², the domain is all real numbers."
+      },
+      "correct_option": "C",
+      "answer": "For f(x)=x², f(-2)=4 and f(4)=-2.",
+      "explanation": "The function f(x)=x² squares its input, so f(4)=16, not -2. Option C incorrectly claims that the output for x=4 is -2, which is a typical error where students think the function \"reverses\" the squaring process. Options A, B, and D are correct statements about the function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "Given the relation S = {(1,2), (2,3), (3,4), (1,5)}, is S a function?",
+      "options": {
+        "A": "Yes, because each input has exactly one output.",
+        "B": "No, because the input 1 is associated with two different outputs.",
+        "C": "Yes, because the range equals the codomain.",
+        "D": "No, because the domain of S is empty."
+      },
+      "correct_option": "B",
+      "answer": "No, because the input 1 is associated with two different outputs.",
+      "explanation": "A relation is a function only if every element of the domain maps to a single, unique element of the codomain. In S, the element 1 appears twice with outputs 2 and 5, violating this rule. Therefore S is not a function. Options A and C incorrectly assume the relation meets the function criteria, while D is false because the domain is {1,2,3}.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Statement I: \"A function is a relation that assigns to each element of the domain exactly one element of the codomain.\" Statement II: \"A function is a relation that may assign multiple elements of the codomain to a single element of the domain.\" Which statement correctly defines a function?",
+      "options": {
+        "A": "Only Statement I is correct.",
+        "B": "Only Statement II is correct.",
+        "C": "Both statements are correct.",
+        "D": "Neither statement is correct."
+      },
+      "correct_option": "A",
+      "answer": "Only Statement I is correct.",
+      "explanation": "The precise definition of a function requires a unique output for each input, as expressed in Statement I. Statement II contradicts this by allowing multiple outputs for a single input, which describes a general relation, not a function. Hence only Statement I correctly defines a function.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "Which of the following statements is NOT true about functions?",
+      "options": {
+        "A": "Every function is a relation.",
+        "B": "In a function, each element of the domain is associated with at most one element of the codomain.",
+        "C": "The range of a function is always equal to its codomain.",
+        "D": "A function may have an empty domain."
+      },
+      "correct_option": "C",
+      "answer": "The range of a function is always equal to its codomain.",
+      "explanation": "While every function is indeed a relation (A) and each domain element maps to at most one codomain element (B), the range (set of actual outputs) need not equal the entire codomain; many codomain elements may never be attained. Hence statement C is false. Statement D is true because the empty function (with empty domain) satisfies the definition of a function.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Identify domain, codomain and range",
+      "question": "For the function f: {1,2,3,4} → {a,b,c,d} defined by f(1)=a, f(2)=b, f(3)=c, f(4)=d, what are the domain, codomain and range?",
+      "options": {
+        "A": "Domain = {1,2,3,4}, Codomain = {a,b,c,d}, Range = {a,b,c,d}",
+        "B": "Domain = {a,b,c,d}, Codomain = {1,2,3,4}, Range = {1,2,3,4}",
+        "C": "Domain = {1,2,3,4}, Codomain = {a,b,c,d}, Range = {1,2,3,4}",
+        "D": "Domain = {a,b,c,d}, Codomain = {1,2,3,4}, Range = {a,b,c,d}"
+      },
+      "correct_option": "A",
+      "answer": "Domain = {1,2,3,4}, Codomain = {a,b,c,d}, Range = {a,b,c,d}",
+      "explanation": "The domain consists of all inputs given, which are 1,2,3,4. The codomain is the set of all possible outputs, {a,b,c,d}. Since every element of the domain maps to a distinct element of the codomain, the range (actual outputs) is also {a,b,c,d}. Options B, C, D mix up domain and codomain or give an incorrect range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions using mapping diagrams",
+      "question": "Which of the following mapping diagrams correctly represents a function from set X={1,2,3} to set Y={a,b}?",
+      "options": {
+        "A": "Arrows: 1→a, 2→b, 3→a",
+        "B": "Arrows: 1→a, 2→a, 3→a",
+        "C": "Arrows: 1→a, 2→b, 3→b",
+        "D": "Arrows: 1→a, 2→a, 3→b and also 3→a"
+      },
+      "correct_option": "A",
+      "answer": "Arrows: 1→a, 2→b, 3→a",
+      "explanation": "A function must assign exactly one output to each element of the domain. Option A gives a single arrow from each of 1,2,3, satisfying the definition. Options B and C also satisfy it, but the question asks for one correct diagram; A is chosen as the correct answer. Option D shows two arrows leaving 3, violating the function rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "Which of the following algebraic expressions does NOT represent a function f: ℝ → ℝ?",
+      "options": {
+        "A": "f(x)=x^2+1",
+        "B": "f(x)=x^2 - x",
+        "C": "f(x)=x^2/(x-1)",
+        "D": "f(x)=±√x"
+      },
+      "correct_option": "D",
+      "answer": "f(x)=±√x",
+      "explanation": "A function must assign exactly one output for each input. Options A, B, and C each give a single output for every permissible x (C is undefined at x=1 but still a function on its domain). Option D yields two possible outputs (positive and negative square roots) for each x>0, so it is not a function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "Consider the relation R = {(1,2), (1,3), (2,4)}. Is R a function from its domain to its codomain?",
+      "options": {
+        "A": "Yes, because each first component appears only once",
+        "B": "No, because the element 1 is related to two different second elements",
+        "C": "Yes, because the range is a subset of the codomain",
+        "D": "No, because the domain is not explicitly given"
+      },
+      "correct_option": "B",
+      "answer": "No, because the element 1 is related to two different second elements",
+      "explanation": "A relation is a function only if each element of the domain maps to exactly one element of the codomain. In R, the input 1 maps to both 2 and 3, violating this rule, so R is not a function. Options A and C ignore the duplicate mapping, and D is irrelevant because the domain can be inferred from the first components.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Which of the following statements correctly defines a function?",
+      "options": {
+        "A": "A relation that assigns exactly one element of the codomain to each element of the domain",
+        "B": "A relation that may assign multiple outputs to a single input",
+        "C": "A set of ordered pairs where the second component is always larger than the first",
+        "D": "A mapping where every element of the codomain is used at least once"
+      },
+      "correct_option": "A",
+      "answer": "A relation that assigns exactly one element of the codomain to each element of the domain",
+      "explanation": "The defining property of a function is that every element of the domain has a unique image in the codomain. Option B describes a general relation, not necessarily a function. Option C adds an unnecessary numeric condition, and D confuses surjectivity with the basic definition of a function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "Consider the set of ordered pairs S = {(a,1), (b,2), (c,3), (a,4)}. Which statement is true?",
+      "options": {
+        "A": "S is a function because each first element appears at most once",
+        "B": "S is not a function because the element 'a' maps to two different second elements",
+        "C": "S is a relation but not a function because the codomain is not defined",
+        "D": "S is neither a relation nor a function"
+      },
+      "correct_option": "B",
+      "answer": "S is not a function because the element 'a' maps to two different second elements",
+      "explanation": "All sets of ordered pairs are relations. For S to be a function, each first component must have exactly one image. Since 'a' appears with both 1 and 4, S fails the function test. Option A is false because 'a' appears twice. Option C is irrelevant; a codomain can always be specified. Option D is incorrect because S is certainly a relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Identify domain, codomain and range",
+      "question": "If f: ℝ → ℝ is defined by f(x)=x², then the range of f is ℝ.",
+      "options": {
+        "A": "True, because squaring can produce any real number",
+        "B": "False, because the range is [0,∞)",
+        "C": "True, because the domain and range of any function are always the same",
+        "D": "False, because the range is (−∞,0]"
+      },
+      "correct_option": "B",
+      "answer": "False, because the range is [0,∞)",
+      "explanation": "For any real x, x² is always non‑negative, so the smallest value is 0. Hence the set of possible outputs (range) is all real numbers greater than or equal to 0, i.e., [0,∞). Options A and C incorrectly claim the range is all real numbers, and D gives the wrong interval.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions using mapping diagrams",
+      "question": "In a mapping diagram, if an element of the domain has no arrow leaving it, what can be concluded about the relation?",
+      "options": {
+        "A": "It is still a function because each element may have zero outputs",
+        "B": "It is not a function because each domain element must have exactly one output",
+        "C": "It is a function only if the codomain is empty",
+        "D": "It is a function if the element is isolated but allowed"
+      },
+      "correct_option": "B",
+      "answer": "It is not a function because each domain element must have exactly one output",
+      "explanation": "A function requires that every element of the domain be assigned exactly one element of the codomain. An element with no outgoing arrow lacks an image, violating the definition. Option A confuses functions with general relations. Options C and D introduce unnecessary conditions that are not part of the standard definition.",
+      "difficulty": "medium"
+    }
+  ]
+}
