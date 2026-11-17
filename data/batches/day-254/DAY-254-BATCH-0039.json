@@ -1,0 +1,78 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which of the following statements correctly defines a subset?",
+      "options": {
+        "A": "Set A is a subset of set B if A and B have at least one element in common.",
+        "B": "Set A is a subset of set B if every element of A is also an element of B.",
+        "C": "Set A is a subset of set B if B contains at least one element that is not in A.",
+        "D": "Set A is a subset of set B only when A and B are identical."
+      },
+      "correct_option": "B",
+      "answer": "Set A is a subset of set B if every element of A is also an element of B.",
+      "explanation": "A subset requires that each element of the first set appears in the second set. Option B states this precisely. Option A confuses \"common\" with \"all\". Option C describes a superset condition, and Option D describes equality, not the general subset relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Which statement correctly describes a proper subset?",
+      "options": {
+        "A": "Set A is a proper subset of set B if every element of A is in B and A may be equal to B.",
+        "B": "Set A is a proper subset of set B if A contains at least one element that B does not contain.",
+        "C": "Set A is a proper subset of set B if every element of A is in B and A is not equal to B.",
+        "D": "Set A is a proper subset of set B only when B has exactly one more element than A."
+      },
+      "correct_option": "C",
+      "answer": "Set A is a proper subset of set B if every element of A is in B and A is not equal to B.",
+      "explanation": "A proper subset must satisfy the subset condition and be strictly smaller; it cannot be equal to the superset. Option C captures both requirements. Option A omits the strict inequality, Option B reverses the relationship, and Option D adds an unnecessary numeric condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let A = {1, 2, 3}, B = {1, 2, 3, 4}, and C = {2, 4}. Which of the following statements is true?",
+      "options": {
+        "A": "A is a subset of B.",
+        "B": "B is a subset of A.",
+        "C": "C is a subset of A.",
+        "D": "None of the above."
+      },
+      "correct_option": "A",
+      "answer": "A is a subset of B.",
+      "explanation": "Every element of A (1,2,3) appears in B, so A ⊂ B is true. B is not a subset of A because it has element 4 not in A. C is not a subset of A because element 4 is missing from A. Hence only statement A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many distinct subsets does the set S = {a, b, c, d} have?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 4, so 2^4 = 16 subsets. Options A, B, and D are incorrect because they correspond to 2^3, 12 (no power of two), and 2^4 + 4 respectively.",
+      "difficulty": "hard"
+    }
+  ]
+}

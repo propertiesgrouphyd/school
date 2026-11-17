@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "LU-01079-89",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "Set A = {1,2,3,4} and Set B = {a,b,c}. Which of the following statements about the number of subsets of A and B is correct?",
+      "options": {
+        "A": "A has fewer subsets than B because it has fewer elements.",
+        "B": "A has the same number of subsets as B because both are finite sets.",
+        "C": "A has 2^4 = 16 subsets, while B has 2^3 = 8 subsets.",
+        "D": "B has more subsets than A because letters generate more combinations."
+      },
+      "correct_option": "C",
+      "answer": "A has 2^4 = 16 subsets, while B has 2^3 = 8 subsets.",
+      "explanation": "For any finite set with n elements, the total number of subsets (including the empty set and the set itself) is 2^n. Set A has 4 elements, so it has 2^4 = 16 subsets. Set B has 3 elements, so it has 2^3 = 8 subsets. Therefore option C correctly applies the number‑of‑subsets result. Options A, B and D are incorrect because they ignore the exponential relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01079-90",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "If S = {x, y, z}, the power set P(S) is:",
+      "options": {
+        "A": "{∅, {x}, {y}, {z}}",
+        "B": "{∅, {x}, {y}, {z}, {x,y}, {x,z}, {y,z}}",
+        "C": "{∅, {x}, {y}, {z}, {x,y}, {x,z}, {y,z}, {x,y,z}}",
+        "D": "{∅, {x,y,z}}"
+      },
+      "correct_option": "C",
+      "answer": "{∅, {x}, {y}, {z}, {x,y}, {x,z}, {y,z}, {x,y,z}}",
+      "explanation": "The power set of a set S is the set of all its subsets. For a set with 3 elements, there are 2^3 = 8 subsets. These are: the empty set, the three singletons, the three 2‑element subsets, and the set itself. Option C lists exactly these eight subsets. Options A and B miss some subsets, and D lists only two subsets, so they are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01079-91",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which of the following statements correctly defines a subset?",
+      "options": {
+        "A": "Set A is a subset of set B if every element of B is also an element of A.",
+        "B": "Set A is a subset of set B if A and B have at least one common element.",
+        "C": "Set A is a subset of set B if every element of A also belongs to B.",
+        "D": "Set A is a subset of set B if A contains more elements than B."
+      },
+      "correct_option": "C",
+      "answer": "Set A is a subset of set B if every element of A also belongs to B.",
+      "explanation": "By definition, A ⊆ B means that for each element x in A, x is also in B. Option C states exactly this. Option A reverses the direction, B is insufficient (common element does not guarantee subset), and D is opposite to the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01079-92",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "A set A is called a proper subset of set B if:",
+      "options": {
+        "A": "A ⊆ B and A = B",
+        "B": "A ⊆ B but A ≠ B",
+        "C": "A ⊇ B and A ≠ B",
+        "D": "A and B have no elements in common"
+      },
+      "correct_option": "B",
+      "answer": "A ⊆ B but A ≠ B",
+      "explanation": "A proper subset requires that all elements of A are in B (A ⊆ B) and that A is not equal to B; there must be at least one element in B that is not in A. Option B captures both conditions. Option A describes an ordinary subset (not proper), C reverses the inclusion, and D describes disjoint sets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01079-93",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let X = {2, 4, 6, 8} and Y = {4, 6}. Which statement is true?",
+      "options": {
+        "A": "Y is a subset of X but not a proper subset.",
+        "B": "Y is a proper subset of X.",
+        "C": "X is a subset of Y.",
+        "D": "Neither X nor Y is a subset of the other."
+      },
+      "correct_option": "B",
+      "answer": "Y is a proper subset of X.",
+      "explanation": "Every element of Y (4 and 6) is present in X, so Y ⊆ X. Since X contains elements (2 and 8) that are not in Y, Y ≠ X, making Y a proper subset of X. Hence option B is correct. Option A is wrong because Y is indeed proper. Option C reverses the relationship, and D is false because Y ⊆ X.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "LU-01079-94",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many subsets does the set Z = {a, b, c, d} have?",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 4, so the number of subsets is 2^4 = 16. Therefore option C is correct. The other numbers arise from incorrect calculations (e.g., 2^3 = 8, 2^5 = 32, etc.).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "LU-01079-95",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "If a set M contains 5 distinct elements, which of the following is the correct number of its subsets?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "25",
+        "D": "32"
+      },
+      "correct_option": "D",
+      "answer": "32",
+      "explanation": "For a set with n elements, total subsets = 2^n. With n = 5, 2^5 = 32. Hence option D is correct. Options A, B, and C correspond to n, nC2, and n^2 respectively, which are unrelated to the subset count.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01079-96",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "A teacher creates a quiz bank Q = {q1, q2, q3}. She wants to know how many different combinations of questions she can select (including selecting none or all). Which set represents all possible selections?",
+      "options": {
+        "A": "{∅, {q1}, {q2}, {q3}}",
+        "B": "{∅, {q1,q2}, {q1,q3}, {q2,q3}}",
+        "C": "{∅, {q1}, {q2}, {q3}, {q1,q2}, {q1,q3}, {q2,q3}, {q1,q2,q3}}",
+        "D": "{q1, q2, q3}"
+      },
+      "correct_option": "C",
+      "answer": "{∅, {q1}, {q2}, {q3}, {q1,q2}, {q1,q3}, {q2,q3}, {q1,q2,q3}}",
+      "explanation": "The set of all possible selections of elements from Q is the power set of Q. For three elements, the power set contains 2^3 = 8 subsets: the empty set, three singletons, three 2‑element subsets, and the full set. Option C lists exactly these eight subsets. Options A and B miss several subsets, and D is just the original set, not its power set.",
+      "difficulty": "medium"
+    }
+  ]
+}

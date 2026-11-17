@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "Which of the following best defines the union of two sets A and B?",
+      "options": {
+        "A": "The set of all elements that belong to A, or to B, or to both.",
+        "B": "The set of elements that belong to both A and B.",
+        "C": "The set of elements that belong to A but not to B.",
+        "D": "The set of elements that belong to B but not to A."
+      },
+      "correct_option": "A",
+      "answer": "The set of all elements that belong to A, or to B, or to both.",
+      "explanation": "The union of A and B, denoted A ∪ B, contains every element that is in A, in B, or in both. Option B describes intersection, while C and D describe relative complements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "What is the correct definition of the intersection of two sets A and B?",
+      "options": {
+        "A": "All elements that are in A or in B.",
+        "B": "All elements that are in A but not in B.",
+        "C": "All elements that are common to both A and B.",
+        "D": "All elements that are in B but not in A."
+      },
+      "correct_option": "C",
+      "answer": "All elements that are common to both A and B.",
+      "explanation": "The intersection, A ∩ B, consists precisely of those elements that belong to both sets simultaneously. Options A, B, and D describe union or set differences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find union of sets",
+      "question": "Given A = {1, 2, 3} and B = {3, 4, 5}, what is A ∪ B?",
+      "options": {
+        "A": "{1, 2, 3, 4, 5}",
+        "B": "{1, 2, 3}",
+        "C": "{3, 4, 5}",
+        "D": "{1, 2, 4, 5}"
+      },
+      "correct_option": "A",
+      "answer": "{1, 2, 3, 4, 5}",
+      "explanation": "The union contains every element that appears in either set. Elements 1,2,3 come from A; 3,4,5 from B. Combining without repetition gives {1,2,3,4,5}. The other options omit some elements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Find intersection of sets",
+      "question": "Let A = {2, 4, 6, 8, 10} (even numbers between 1 and 10) and B = {3, 6, 9} (multiples of 3 between 1 and 10). What is A ∩ B?",
+      "options": {
+        "A": "{6}",
+        "B": "{2, 4, 8, 10}",
+        "C": "{3, 9}",
+        "D": "{ }"
+      },
+      "correct_option": "A",
+      "answer": "{6}",
+      "explanation": "Intersection contains numbers that are both even and multiples of 3 within the range. Only 6 satisfies both conditions. Options B and C list elements belonging to only one set, and D is empty which is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Understand disjoint sets",
+      "question": "If set X = {a, b, c} and set Y = {d, e, f}, which statement is true?",
+      "options": {
+        "A": "X and Y are disjoint because they have no common elements.",
+        "B": "X and Y are not disjoint because they both contain three elements.",
+        "C": "X and Y are disjoint because they contain the same number of elements.",
+        "D": "X and Y are not disjoint because every set is disjoint with itself."
+      },
+      "correct_option": "A",
+      "answer": "X and Y are disjoint because they have no common elements.",
+      "explanation": "Two sets are disjoint when their intersection is empty. Since X and Y share no element, they are disjoint. The other options confuse cardinality with disjointness or misuse definitions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Solve numerical set-operation problems",
+      "question": "In a class of 100 students, 40 like cricket, 30 like football, and 10 like both cricket and football. How many students like either cricket or football (or both)?",
+      "options": {
+        "A": "60",
+        "B": "70",
+        "C": "80",
+        "D": "90"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "Number who like either sport = n(Cricket) + n(Football) – n(Both) = 40 + 30 – 10 = 60. This uses the principle of inclusion–exclusion. The other numbers ignore the overlap or add it twice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define union",
+      "question": "True or False: The union of two sets A and B contains only the elements that are common to both sets.",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Both A and B",
+        "D": "Neither A nor B"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "The statement describes intersection, not union. Union includes all elements from either set, not just the common ones. Hence the correct answer is False.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-01080",
+      "learning_point": "Define intersection",
+      "question": "If an element x belongs to the intersection A ∩ B, which of the following must be true?",
+      "options": {
+        "A": "x belongs to A only.",
+        "B": "x belongs to B only.",
+        "C": "x belongs to both A and B.",
+        "D": "x belongs to neither A nor B."
+      },
+      "correct_option": "C",
+      "answer": "x belongs to both A and B.",
+      "explanation": "By definition, the intersection consists of elements common to both sets, so any element in A ∩ B must be a member of A and also a member of B. Options A, B, and D contradict the definition.",
+      "difficulty": "medium"
+    }
+  ]
+}

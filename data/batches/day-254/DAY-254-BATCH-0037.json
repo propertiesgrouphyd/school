@@ -1,0 +1,150 @@
+{
+  "day": 254,
+  "batch_id": "DAY-254-BATCH-0037",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Let A = {1, 2, 3} and B = {0, 1, 2, 3, 4}. Is A a subset of B?",
+      "options": {
+        "A": "Yes, A is a subset of B",
+        "B": "No, A is not a subset of B",
+        "C": "A is a proper subset of B",
+        "D": "A is a superset of B"
+      },
+      "correct_option": "A",
+      "answer": "Yes, A is a subset of B",
+      "explanation": "Every element of A (1, 2, 3) appears in B, so by definition A ⊆ B. Option A states this correctly. Option C is also true but describes a proper subset; the question only asks if A is a subset, making A the best answer. Options B and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "How many subsets does the set S = {a, b, c} have?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "8",
+      "explanation": "A set with n elements has 2^n subsets. Here n = 3, so 2^3 = 8 subsets. Options A, B, and D give incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Use the number-of-subsets result",
+      "question": "If a set contains n elements, the total number of its subsets is:",
+      "options": {
+        "A": "n",
+        "B": "2n",
+        "C": "n^2",
+        "D": "2^n"
+      },
+      "correct_option": "D",
+      "answer": "2^n",
+      "explanation": "The fundamental result for subsets states that a set with n distinct elements has 2^n subsets (including the empty set and the set itself). The other options do not follow this rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Understand power set",
+      "question": "Which of the following collections is the power set of S = {a, b}?",
+      "options": {
+        "A": "{{a}, {b}}",
+        "B": "{∅, {a}, {b}, {a, b}}",
+        "C": "{a, b, ∅}",
+        "D": "{{a, b}}"
+      },
+      "correct_option": "B",
+      "answer": "{∅, {a}, {b}, {a, b}}",
+      "explanation": "The power set includes every possible subset of S, namely the empty set, the two singletons, and the set itself. Option B lists exactly these four subsets. Options A, C, and D miss some subsets.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define subset",
+      "question": "Which statement correctly defines a subset?",
+      "options": {
+        "A": "Set X is a subset of set Y if every element of Y is also in X.",
+        "B": "Set X is a subset of set Y if X and Y have at least one common element.",
+        "C": "Set X is a subset of set Y if every element of X is also an element of Y.",
+        "D": "Set X is a subset of set Y if X contains more elements than Y."
+      },
+      "correct_option": "C",
+      "answer": "Set X is a subset of set Y if every element of X is also an element of Y.",
+      "explanation": "By definition, X ⊆ Y means each element of X belongs to Y. Option C captures this precisely. Option A reverses the inclusion, B is insufficient, and D is unrelated to the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Define proper subset",
+      "question": "Let P = {1, 2, 3, 4} and Q = {1, 2, 3, 4, 5}. Which statement is true?",
+      "options": {
+        "A": "Q is a proper subset of P.",
+        "B": "P is a proper subset of Q.",
+        "C": "Q equals P.",
+        "D": "Neither is a subset of the other."
+      },
+      "correct_option": "B",
+      "answer": "P is a proper subset of Q.",
+      "explanation": "All elements of P are in Q, and Q has an extra element (5), so P ⊂ Q and P ≠ Q, satisfying the definition of a proper subset. Option B states this. Option A is reversed, C is false, D is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Determine whether one set is a subset of another",
+      "question": "Consider the sets A = ∅ and B = {1, 2}. Which of the following is true?",
+      "options": {
+        "A": "A is not a subset of B.",
+        "B": "A is a subset of B.",
+        "C": "B is a subset of A.",
+        "D": "Both A and B are subsets of each other."
+      },
+      "correct_option": "B",
+      "answer": "A is a subset of B.",
+      "explanation": "The empty set is a subset of every set because there is no element in ∅ that violates the subset condition. Therefore, statement B is correct. Options A and C are common misconceptions, and D is false because B is not a subset of ∅.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01079",
+      "learning_point": "Find subsets of a finite set",
+      "question": "Set S = {w, x, y, z}. How many proper subsets does S have?",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "15",
+      "explanation": "A set with n elements has 2^n total subsets. For n = 4, total subsets = 2^4 = 16. Proper subsets exclude the set itself, so 16 − 1 = 15. Option B gives this count. Options A, C, and D are incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}
