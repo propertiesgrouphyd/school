@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "Consider the function f defined by f(x) = 4x - 7. Which of the following algebraic expressions correctly represents f?",
+      "options": {
+        "A": "y = 7 - 4x",
+        "B": "y = 4x - 7",
+        "C": "y = -4x + 7",
+        "D": "y = 4(x - 7)"
+      },
+      "correct_option": "B",
+      "answer": "y = 4x - 7",
+      "explanation": "A function is represented algebraically by writing y = f(x). Substituting the given rule gives y = 4x - 7, which matches option B. The other options either change the sign or rearrange incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "The relation R = {(1,2), (2,3), (3,2), (4,5)} is given. Is R a function?",
+      "options": {
+        "A": "Yes, because each input has exactly one output.",
+        "B": "No, because the output 2 occurs for two different inputs.",
+        "C": "Yes, because the relation is one‑to‑one.",
+        "D": "No, because the domain is not specified."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because each input has exactly one output.",
+      "explanation": "For a relation to be a function, every element of the domain (the first components) must be paired with only one element of the codomain. In R, the inputs 1,2,3,4 each appear once, so the condition is satisfied. Option B confuses the requirement; repeated outputs are allowed.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Which of the following statements best defines a function?",
+      "options": {
+        "A": "A relation that assigns exactly one element of the codomain to each element of the domain.",
+        "B": "A relation that assigns at most one element of the domain to each element of the codomain.",
+        "C": "A set of ordered pairs where the second component is always larger than the first.",
+        "D": "A rule that maps each element of a set to multiple elements of another set."
+      },
+      "correct_option": "A",
+      "answer": "A relation that assigns exactly one element of the codomain to each element of the domain.",
+      "explanation": "The defining property of a function is that every element of the domain has a single, well‑defined image in the codomain. Options B, C, and D describe different or incorrect concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "The set of ordered pairs {(a,1), (b,2), (a,3)} is given. Which statement is true?",
+      "options": {
+        "A": "It is a function because each element of the domain appears at most once.",
+        "B": "It is a relation but not a function because the element 'a' in the domain is related to two different outputs.",
+        "C": "It is neither a relation nor a function.",
+        "D": "It is a function because each output is unique."
+      },
+      "correct_option": "B",
+      "answer": "It is a relation but not a function because the element 'a' in the domain is related to two different outputs.",
+      "explanation": "A relation becomes a function only when each domain element maps to a single codomain element. Here, 'a' maps to both 1 and 3, violating the definition. Hence it is a relation but not a function. Options A and D ignore this violation; C is false because it is still a relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Identify domain, codomain and range",
+      "question": "For the function f : R → R defined by f(x) = √(x − 1), select the correct description of its domain, codomain and range.",
+      "options": {
+        "A": "Domain = [1, ∞), Codomain = R, Range = [0, ∞)",
+        "B": "Domain = R, Codomain = [0, ∞), Range = [1, ∞)",
+        "C": "Domain = [0, ∞), Codomain = R, Range = [1, ∞)",
+        "D": "Domain = (−∞,1], Codomain = R, Range = (−∞,0]"
+      },
+      "correct_option": "A",
+      "answer": "Domain = [1, ∞), Codomain = R, Range = [0, ∞)",
+      "explanation": "The square‑root requires the radicand to be non‑negative, so x − 1 ≥ 0 ⇒ x ≥ 1, giving domain [1,∞). The function is declared from R to R, so codomain is R. The output √(x − 1) is always ≥ 0, so the range is [0,∞). The other options mix up these sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions using mapping diagrams",
+      "question": "In a mapping diagram, element 1 of set A maps to a in set B, element 2 maps to b, and element 3 maps to a. Which statement correctly describes this mapping?",
+      "options": {
+        "A": "The mapping represents a function because each element of set A is associated with exactly one element of set B.",
+        "B": "It is not a function because element a in set B is the image of two different elements of set A.",
+        "C": "It is a one‑to‑one function.",
+        "D": "It is not a function because element 3 has no image."
+      },
+      "correct_option": "A",
+      "answer": "The mapping represents a function because each element of set A is associated with exactly one element of set B.",
+      "explanation": "The definition of a function requires each input (elements of set A) to have a single output. Here, 1→a, 2→b, 3→a satisfy that condition. Having the same output for different inputs (a being image of 1 and 3) is allowed; it only violates the one‑to‑one property, not the function definition. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "The statement: “Because the graph of y = x² passes the vertical line test, y = x² is not a function since each y‑value corresponds to two x‑values.” Which option correctly identifies the misconception?",
+      "options": {
+        "A": "The statement is correct; a function cannot have two x‑values for the same y.",
+        "B": "The statement is incorrect; a function may have multiple x‑values mapping to the same y, but each x has only one y.",
+        "C": "The statement is correct because the vertical line test fails for y = x².",
+        "D": "The statement is incorrect because y = x² is not defined for negative x."
+      },
+      "correct_option": "B",
+      "answer": "The statement is incorrect; a function may have multiple x‑values mapping to the same y, but each x has only one y.",
+      "explanation": "A function is defined by the rule that each input x has exactly one output y. It is permissible for different inputs to share the same output (e.g., x = –1 and x = 1 both give y = 1). The vertical line test confirms that y = x² is a function because every vertical line meets the graph at most once. Options A and C misinterpret the test; D is false because the square function is defined for all real x.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "Let R = {(x, y) | y = x², x ∈ {‑2, ‑1, 0, 1, 2}}. Which of the following correctly explains whether R is a function?",
+      "options": {
+        "A": "Yes, because each x in the set is assigned exactly one y value given by y = x².",
+        "B": "No, because x = ‑1 and x = 1 give the same y value, violating the definition of a function.",
+        "C": "Yes, because the relation is one‑to‑one.",
+        "D": "No, because the codomain is not specified."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because each x in the set is assigned exactly one y value given by y = x².",
+      "explanation": "For a relation to be a function, each element of the domain must have a unique image. Here the domain consists of the five listed x‑values, and the rule y = x² assigns a single y to each of them (4, 1, 0, 1, 4 respectively). Repeated y‑values are allowed; the crucial point is that no x has more than one y. Hence option A is correct. Options B and C misinterpret the requirement, and D is irrelevant to the function test.",
+      "difficulty": "medium"
+    }
+  ]
+}

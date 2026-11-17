@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "Which of the following algebraic expressions does NOT represent a function f: \\(\\mathbb{R} \\to \\mathbb{R}\\)?",
+      "options": {
+        "A": "f(x) = x^2 + 3",
+        "B": "f(x) = \\sqrt{x}",
+        "C": "f(x) = |x|",
+        "D": "f(x) = 2x + 1"
+      },
+      "correct_option": "B",
+      "answer": "f(x) = \\sqrt{x}",
+      "explanation": "The square‑root function \\(\\sqrt{x}\\) is not defined for negative real numbers, so it does not assign an output for every real input. Hence it is not a function from \\(\\mathbb{R}\\) to \\(\\mathbb{R}\\). The other expressions are defined for all real x and give exactly one output for each input.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "Consider the relation R = {(1,2), (2,3), (3,4), (2,5)}. Is R a function from the set {1,2,3} to the set {2,3,4,5}?",
+      "options": {
+        "A": "Yes, because each element of the domain has exactly one image.",
+        "B": "No, because the element 2 in the domain is related to two different elements in the codomain.",
+        "C": "Yes, because the range is a subset of the codomain.",
+        "D": "No, because the domain does not include the element 4."
+      },
+      "correct_option": "B",
+      "answer": "No, because the element 2 in the domain is related to two different elements in the codomain.",
+      "explanation": "A function must assign exactly one output to each input. In R, the input 2 is paired with both 3 and 5, violating this rule, so R is not a function. The other statements either misinterpret the definition or are irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Which of the following statements correctly defines a function?",
+      "options": {
+        "A": "Only Statement I is correct.",
+        "B": "Only Statement II is correct.",
+        "C": "Both statements I and II are correct.",
+        "D": "Neither statement I nor statement II is correct."
+      },
+      "correct_option": "A",
+      "answer": "Only Statement I is correct.",
+      "explanation": "Statement I captures the definition: a function is a relation that assigns to each element of a set called the domain exactly one element of another set called the codomain. Statement II is false because a function cannot assign multiple outputs to a single input.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "For a relation to be a function, which of the following must be true?",
+      "options": {
+        "A": "Every element of the codomain must appear as an output.",
+        "B": "Every element of the domain must be associated with exactly one element of the codomain.",
+        "C": "An element of the domain may be related to more than one element of the codomain.",
+        "D": "The relation must be symmetric."
+      },
+      "correct_option": "B",
+      "answer": "Every element of the domain must be associated with exactly one element of the codomain.",
+      "explanation": "A function requires that each input (domain element) has precisely one output. Option A is unnecessary, C contradicts the definition, and D is unrelated to the concept of functions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Identify domain, codomain and range",
+      "question": "For the function \\(f(x)=\\sqrt{x-1}\\) with the notation \\(f: \\mathbb{R} \\to \\mathbb{R}\\), what are the domain, codomain and range respectively?",
+      "options": {
+        "A": "Domain \\(\\mathbb{R}\\), Codomain \\(\\mathbb{R}\\), Range \\(\\mathbb{R}\\)",
+        "B": "Domain \\([1,\\infty)\\), Codomain \\(\\mathbb{R}\\), Range \\([0,\\infty)\\)",
+        "C": "Domain \\([0,\\infty)\\), Codomain \\(\\mathbb{R}\\), Range \\([1,\\infty)\\)",
+        "D": "Domain \\(\\mathbb{R}\\), Codomain \\(\\mathbb{R}\\), Range \\([0,\\infty)\\)"
+      },
+      "correct_option": "B",
+      "answer": "Domain \\([1,\\infty)\\), Codomain \\(\\mathbb{R}\\), Range \\([0,\\infty)\\)",
+      "explanation": "The expression \\(\\sqrt{x-1}\\) is defined only when \\(x-1 \\ge 0\\), giving the domain \\([1,\\infty)\\). The codomain is specified as \\(\\mathbb{R}\\). Since a square root yields non‑negative values, the range is \\([0,\\infty)\\).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions using mapping diagrams",
+      "question": "Which diagram correctly represents the function \\(f: \\{1,2,3\\} \\to \\{a,b,c\\}\\) defined by \\(f(1)=a, f(2)=b, f(3)=c\\)?",
+      "options": {
+        "A": "A diagram where each element of the domain is connected to exactly one distinct element of the codomain.",
+        "B": "A diagram where the element 2 is connected to both a and b.",
+        "C": "A diagram where the element 1 has no arrow leaving it.",
+        "D": "A diagram where two different domain elements point to the same codomain element."
+      },
+      "correct_option": "A",
+      "answer": "A diagram where each element of the domain is connected to exactly one distinct element of the codomain.",
+      "explanation": "In a function, every input must have exactly one output. Diagram A shows a one‑to‑one correspondence, satisfying the definition. Diagrams B, C, and D violate the rule of a single output per input.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "A function maps each \\(x\\) to \\(y\\) according to the rule \\(y = 3x - 5\\). Which algebraic expression correctly represents this function?",
+      "options": {
+        "A": "y = 3x - 5",
+        "B": "y = 5 - 3x",
+        "C": "y = 3(x - 5)",
+        "D": "y = (3x)5"
+      },
+      "correct_option": "A",
+      "answer": "y = 3x - 5",
+      "explanation": "The given rule is directly expressed by \\(y = 3x - 5\\). Options B, C, and D are algebraically different and do not match the stated mapping.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24-LU-01086",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "A teacher records marks of students as the set \\{(Alice,85), (Bob,90), (Alice,92)\\}. Is this relation a function from students to marks?",
+      "options": {
+        "A": "Yes, because each student has a mark.",
+        "B": "No, because Alice appears with two different marks.",
+        "C": "Yes, because marks are numerical values.",
+        "D": "No, because marks can repeat for different students."
+      },
+      "correct_option": "B",
+      "answer": "No, because Alice appears with two different marks.",
+      "explanation": "A function must assign exactly one output to each input. Since Alice is associated with both 85 and 92, the relation fails the definition of a function. The other options misunderstand the uniqueness requirement.",
+      "difficulty": "easy"
+    }
+  ]
+}

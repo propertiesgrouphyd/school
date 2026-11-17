@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Consider the following statements about a function f from set X to set Y. Which statement correctly defines a function?",
+      "options": {
+        "A": "For every element x in X, there exists exactly one element y in Y such that (x, y) belongs to f.",
+        "B": "For some elements x in X, there may be more than one element y in Y such that (x, y) belongs to f.",
+        "C": "A function may assign no output to an element of its domain.",
+        "D": "A function is a relation that pairs each element of Y with at most one element of X."
+      },
+      "correct_option": "A",
+      "answer": "For every element x in X, there exists exactly one element y in Y such that (x, y) belongs to f.",
+      "explanation": "A function must assign exactly one output to each input in its domain. Option A states this precisely. Option B allows multiple outputs for a single input, which violates the definition. Option C suggests an input may have no output, which is not allowed. Option D reverses the direction of the mapping.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "Which of the following relations from set A = {1,2,3} to set B = {a,b,c} is NOT a function?",
+      "options": {
+        "A": "{(1,a), (2,b), (3,c)}",
+        "B": "{(1,a), (2,b), (2,c)}",
+        "C": "{(1,b), (2,c), (3,a)}",
+        "D": "{(1,a), (2,b), (3,b)}"
+      },
+      "correct_option": "B",
+      "answer": "{(1,a), (2,b), (2,c)}",
+      "explanation": "In a function each element of the domain must appear exactly once as a first coordinate. In option B the element 2 is paired with both b and c, so it fails the definition of a function. All other options pair each domain element with a single codomain element.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Identify domain, codomain and range",
+      "question": "Given the function f = {(-2,4), (0,0), (3,9)}. What are the domain, codomain, and range respectively?",
+      "options": {
+        "A": "Domain {−2,0,3}; Codomain all real numbers; Range {4,0,9}",
+        "B": "Domain {−2,0,3}; Codomain {4,0,9}; Range {−2,0,3}",
+        "C": "Domain {4,0,9}; Codomain all real numbers; Range {−2,0,3}",
+        "D": "Domain {−2,0,3}; Codomain all real numbers; Range {−2,0,3}"
+      },
+      "correct_option": "A",
+      "answer": "Domain {−2,0,3}; Codomain all real numbers; Range {4,0,9}",
+      "explanation": "The domain consists of all first components: {−2,0,3}. The codomain is the set into which outputs are placed; for a typical function from ℝ to ℝ it is all real numbers. The range (image) is the set of actual outputs: {4,0,9}. Options B and D swap domain and range, while C incorrectly lists the range as the domain.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions using mapping diagrams",
+      "question": "Which of the following mapping diagrams correctly represents the function g: {1,2,3} → {a,b,c} defined by g(1)=a, g(2)=b, g(3)=c?",
+      "options": {
+        "A": "Arrows: 1→a, 2→b, 3→c (each element of the domain points to a distinct element of the codomain).",
+        "B": "Arrows: 1→a, 2→a, 3→c (two domain elements point to the same codomain element).",
+        "C": "Arrows: 1→b, 2→c, 3→a (a different one‑to‑one correspondence).",
+        "D": "No arrows; the diagram is empty."
+      },
+      "correct_option": "A",
+      "answer": "Arrows: 1→a, 2→b, 3→c (each element of the domain points to a distinct element of the codomain).",
+      "explanation": "The definition of g assigns a unique output to each input exactly as shown in diagram A. Diagram B still represents a function but not the one defined. Diagram C represents a different one‑to‑one mapping, and D shows no mapping at all.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "Which algebraic expression defines a function f: ℝ → ℝ?",
+      "options": {
+        "A": "f(x) = √(x²) (outputs the non‑negative value for each real x)",
+        "B": "f(x) = 1/(x−2) (undefined at x = 2)",
+        "C": "f(x) = x² − 4x + 4 (a quadratic defined for all real x)",
+        "D": "All of the above define a function from ℝ to ℝ"
+      },
+      "correct_option": "C",
+      "answer": "f(x) = x² − 4x + 4 (a quadratic defined for all real x)",
+      "explanation": "A function ℝ → ℝ must be defined for every real number. Option C satisfies this because a quadratic is defined everywhere. Option A also yields a real number for every x, but √(x²) equals |x|, which is still defined for all ℝ, so it could be considered a function; however the expression is equivalent to |x| and still valid. Option B fails because it is undefined at x = 2, breaking the requirement of being defined on the whole domain ℝ. Therefore only C is guaranteed to be a function on the entire ℝ without exceptions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "Is the relation R = {(0,1), (1,2), (2,2), (2,3)} a function from {0,1,2} to ℝ?",
+      "options": {
+        "A": "Yes, because each element of the domain appears exactly once as a first coordinate.",
+        "B": "No, because the element 2 in the domain is paired with more than one element in the codomain.",
+        "C": "Yes, because the range is a subset of ℝ.",
+        "D": "No, because the relation does not include the pair (3, …)."
+      },
+      "correct_option": "B",
+      "answer": "No, because the element 2 in the domain is paired with more than one element in the codomain.",
+      "explanation": "A function must assign exactly one output to each input. In R, the input 2 is associated with both 2 and 3, violating the definition. Option A is false because 2 appears twice. Option C is irrelevant; having a range inside ℝ does not guarantee the function property. Option D mentions an element (3) that is not part of the stated domain, so it is not a valid reason.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Consider the rule: “Assign to each integer n the value n² + 1”. Does this rule define a function from ℤ to ℤ?",
+      "options": {
+        "A": "Yes, because each integer n is assigned exactly one integer value n² + 1.",
+        "B": "No, because the rule does not specify the codomain.",
+        "C": "Yes, because the rule can be written as a set of ordered pairs.",
+        "D": "No, because some integers may map to the same value."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because each integer n is assigned exactly one integer value n² + 1.",
+      "explanation": "For every integer n, the expression n² + 1 yields a unique integer, satisfying the definition of a function ℤ → ℤ. The codomain ℤ is implicit, so option B is incorrect. Option C is true but does not address the definition directly; the key point is the uniqueness of the output. Option D is false because even if different inputs could produce the same output, the definition of a function only requires a single output per input, not distinct outputs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "In a school, each student is assigned a locker number. The mapping is given as: Student A → Locker 101, Student B → Locker 102, Student C → Locker 101. Based on this scenario, which statement is true?",
+      "options": {
+        "A": "The mapping is a function because every student gets a locker.",
+        "B": "The mapping is not a function because Locker 101 is assigned to more than one student.",
+        "C": "The mapping is a function because each locker is assigned to at most one student.",
+        "D": "The mapping is not a function because a student could have no locker."
+      },
+      "correct_option": "A",
+      "answer": "The mapping is a function because every student gets a locker.",
+      "explanation": "The domain consists of the students. Each student (input) is associated with exactly one locker (output), satisfying the definition of a function. The fact that two students share Locker 101 does not violate the definition; multiple inputs may share the same output. Options B and C misinterpret the requirement, focusing on the codomain side. Option D introduces a condition not present in the scenario.",
+      "difficulty": "medium"
+    }
+  ]
+}

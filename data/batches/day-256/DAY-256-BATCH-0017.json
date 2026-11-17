@@ -1,0 +1,150 @@
+{
+  "day": 256,
+  "batch_id": "DAY-256-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "Which of the following statements correctly defines a function from a set X to a set Y?",
+      "options": {
+        "A": "A function assigns to each element of X exactly one element of Y.",
+        "B": "A function assigns to each element of Y exactly one element of X.",
+        "C": "A function may assign multiple elements of Y to a single element of X.",
+        "D": "A function is a relation that need not have any rule for assigning outputs."
+      },
+      "correct_option": "A",
+      "answer": "A function assigns to each element of X exactly one element of Y.",
+      "explanation": "By definition, a function f: X → Y assigns exactly one output in Y to every input in X. Option A states this precisely. Option B reverses the direction, Option C allows multiple outputs (which violates the definition), and Option D ignores the requirement of a unique output.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "Consider the set of ordered pairs {(1,2), (1,3), (2,4)}. Which statement best describes the difference between this relation and a function?",
+      "options": {
+        "A": "It is a function because every input has at least one output.",
+        "B": "It is a relation but not a function because the input 1 is associated with two different outputs.",
+        "C": "It is both a relation and a function because each pair is distinct.",
+        "D": "It is neither a relation nor a function because the pairs are not ordered."
+      },
+      "correct_option": "B",
+      "answer": "It is a relation but not a function because the input 1 is associated with two different outputs.",
+      "explanation": "A relation is any set of ordered pairs. For a relation to be a function, each element of the domain must have exactly one image. Here, the input 1 maps to both 2 and 3, violating the function rule, so the set is a relation but not a function. Options A and C ignore the uniqueness requirement, while D is false because the pairs are ordered.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Identify domain, codomain and range",
+      "question": "For the function f = {(-2,5), (0,1), (3,7)}, which set correctly represents the domain of f?",
+      "options": {
+        "A": "{-2, 0, 3}",
+        "B": "{5, 1, 7}",
+        "C": "{-2, 0, 3, 5, 1, 7}",
+        "D": "∅ (the empty set)"
+      },
+      "correct_option": "A",
+      "answer": "{-2, 0, 3}",
+      "explanation": "The domain consists of all first components (inputs) of the ordered pairs, which are -2, 0, and 3. Option B lists the outputs (range), Option C mixes both, and Option D is incorrect because the function has clearly defined inputs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions using mapping diagrams",
+      "question": "A function f has domain {1, 2, 3} and codomain {a, b, c} with f(1)=b, f(2)=c, f(3)=b. Which description correctly represents the mapping diagram of f?",
+      "options": {
+        "A": "1→a, 2→b, 3→c",
+        "B": "1→b, 2→b, 3→c",
+        "C": "1→b, 2→c, 3→b",
+        "D": "1→c, 2→a, 3→a"
+      },
+      "correct_option": "C",
+      "answer": "1→b, 2→c, 3→b",
+      "explanation": "The mapping diagram must reflect the given assignments: 1 maps to b, 2 maps to c, and 3 maps to b. Option C matches this exactly. The other options assign incorrect images to one or more elements of the domain.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Represent functions algebraically",
+      "question": "Which pair of algebraic expressions represents the same function?",
+      "options": {
+        "A": "f(x)=2x+3 and g(x)=2x+5",
+        "B": "f(x)=x^2-4x+4 and g(x)=(x-2)^2",
+        "C": "f(x)=3(x+1) and g(x)=3x+1",
+        "D": "f(x)=1/x and g(x)=x^{-2}"
+      },
+      "correct_option": "B",
+      "answer": "f(x)=x^2-4x+4 and g(x)=(x-2)^2",
+      "explanation": "Expanding (x‑2)^2 gives x^2‑4x+4, which is identical to f(x); therefore both expressions define the same function. Option A differs by a constant, Option C expands to 3x+3, not 3x+1, and Option D gives 1/x versus 1/x^2, which are different functions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Determine whether a relation is a function",
+      "question": "Given the relation R = {(-1,2), (0,0), (1,2), (2,3), (2,5)}, which statement is true?",
+      "options": {
+        "A": "R is a function because each x‑value appears exactly once.",
+        "B": "R is not a function because the x‑value 2 is paired with two different y‑values.",
+        "C": "R is a function because its range equals its codomain.",
+        "D": "R is not a function because the domain has not been explicitly stated."
+      },
+      "correct_option": "B",
+      "answer": "R is not a function because the x‑value 2 is paired with two different y‑values.",
+      "explanation": "A relation fails to be a function if any element of the domain maps to more than one output. In R, the ordered pairs (2,3) and (2,5) show that 2 has two images, so R is not a function. Option A is false because 2 appears twice, Option C confuses range with codomain, and Option D is irrelevant; the domain can be inferred from the first components.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Define function",
+      "question": "In mathematics, a function is best described as:",
+      "options": {
+        "A": "A rule that assigns at least one output to each input.",
+        "B": "A set of ordered pairs where each input may have many outputs.",
+        "C": "A correspondence that assigns exactly one output in the codomain to every element of the domain.",
+        "D": "A relation that need not have a well‑defined domain."
+      },
+      "correct_option": "C",
+      "answer": "A correspondence that assigns exactly one output in the codomain to every element of the domain.",
+      "explanation": "The essential property of a function is the uniqueness of the output for each input. Option C captures this definition precisely. Option A allows multiple outputs, Option B describes a general relation, and Option D ignores the requirement of a defined domain.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01086",
+      "learning_point": "Distinguish relation and function",
+      "question": "Which statement correctly distinguishes a function from a general relation?",
+      "options": {
+        "A": "All relations are functions.",
+        "B": "A function is a relation in which each element of the domain is paired with exactly one element of the codomain.",
+        "C": "A relation must have the same number of elements in its domain and codomain.",
+        "D": "Functions cannot be represented using ordered pairs."
+      },
+      "correct_option": "B",
+      "answer": "A function is a relation in which each element of the domain is paired with exactly one element of the codomain.",
+      "explanation": "A function is a special type of relation that satisfies the uniqueness condition for each domain element. Option B states this precisely. Option A is false because many relations are not functions, Option C is not required, and Option D is incorrect because functions are commonly expressed as ordered pairs.",
+      "difficulty": "easy"
+    }
+  ]
+}
