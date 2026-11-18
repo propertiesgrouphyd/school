@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Two induction arguments are presented to prove that for every integer n ≥ 1, the inequality 2ⁿ > n² holds.\n\nArgument A: Base case n=1: 2 > 1 holds. Inductive step assumes 2ᵏ > k² and shows 2^{k+1} > (k+1)² by multiplying both sides by 2.\n\nArgument B: Base case n=1: 2 > 1 holds. Inductive step assumes 2ᵏ > k² and argues that because 2^{k+1}=2·2ᵏ > 2·k², and since (k+1)² = k² + 2k + 1 ≤ 2k² for k ≥ 2, the inequality follows for all k ≥ 2.\n\nWhich argument contains an invalid induction step?",
+      "options": {
+        "A": "Argument A is invalid because multiplying the hypothesis by 2 does not guarantee the inequality for (k+1)².",
+        "B": "Argument B is invalid because the inequality (k+1)² ≤ 2k² is false for k=2.",
+        "C": "Both arguments are valid.",
+        "D": "Neither argument is valid; the statement itself is false for n=3."
+      },
+      "correct_option": "B",
+      "answer": "Argument B is invalid because the inequality (k+1)² ≤ 2k² is false for k=2.",
+      "explanation": "In Argument B the claim that (k+1)² ≤ 2k² for all k ≥ 2 is incorrect; for k=2 we have (2+1)²=9 while 2·2²=8, so the inequality fails. Hence the inductive step is invalid. Argument A correctly multiplies the hypothesis by 2 and the resulting inequality does hold for the next integer, so A is not flawed. Options C and D are therefore wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "In an induction proof of the identity \\(\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}\\), which of the following steps is indispensable for completing the proof?",
+      "options": {
+        "A": "Verifying the base case n = 1.",
+        "B": "Assuming the formula holds for n = m and then proving it for n = m + 1 using the assumption.",
+        "C": "Substituting n = m + 1 directly into the formula without using the hypothesis.",
+        "D": "Checking the formula for n = 0."
+      },
+      "correct_option": "B",
+      "answer": "Assuming the formula holds for n = m and then proving it for n = m + 1 using the assumption.",
+      "explanation": "A complete induction proof requires three parts: (1) a base case, (2) an induction hypothesis, and (3) an inductive step that uses the hypothesis to establish the statement for the next integer. Option B describes the essential inductive step. Option A alone is insufficient, C bypasses the hypothesis, and D is irrelevant because the statement is defined for n ≥ 1.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "What is the closed‑form expression for the sum of the squares of the first n natural numbers, i.e., \\(\\sum_{k=1}^{n} k^{2}\\) ?",
+      "options": {
+        "A": "\\(\\frac{n(n+1)}{2}\\)",
+        "B": "\\(\\frac{n(n+1)(2n+1)}{6}\\)",
+        "C": "\\(\\frac{n^{3}+n}{3}\\)",
+        "D": "\\(\\frac{2n^{3}+3n^{2}+n}{6}\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\frac{n(n+1)(2n+1)}{6}\\)",
+      "explanation": "The well‑known formula for the sum of squares is \\(\\sum_{k=1}^{n} k^{2}=\\frac{n(n+1)(2n+1)}{6}\\). Option A is the sum of first n integers, C and D are algebraic rearrangements that are not equivalent to the correct formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following statements can be proved by mathematical induction?\n\nI. \\(3^{n} - 1\\) is divisible by 2 for all \\(n \\ge 1\\).\nII. \\(5^{n} - 5\\) is divisible by 5 for all \\(n \\ge 1\\).\nIII. \\(n!\\) is even for all \\(n \\ge 2\\).",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "I and III",
+        "D": "I, II and III"
+      },
+      "correct_option": "D",
+      "answer": "I, II and III",
+      "explanation": "All three statements are true and each admits a straightforward induction proof. For I, the base case n=1 gives 3‑1=2, divisible by 2; the inductive step uses \\(3^{k+1}-1 = 3(3^{k}-1)+2\\). For II, the base case n=1 gives 0, and the inductive step uses \\(5^{k+1}-5 = 5(5^{k}-5)\\). For III, the base case n=2 gives 2! = 2 (even); assuming \\(k!\\) is even, \\((k+1)! = (k+1)k!\\) is also even. Hence option D is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "In the context of induction, which statement correctly distinguishes proving an inequality from proving an equality?",
+      "options": {
+        "A": "Proving an inequality requires establishing both ≤ and ≥ parts, while proving an equality needs only one direction.",
+        "B": "Proving an inequality often involves showing that the inductive step preserves the order, whereas proving an equality requires showing the expressions are exactly the same.",
+        "C": "Inequalities cannot be proved by induction, only equalities can.",
+        "D": "Equality proofs use the hypothesis, inequality proofs do not."
+      },
+      "correct_option": "B",
+      "answer": "Proving an inequality often involves showing that the inductive step preserves the order, whereas proving an equality requires showing the expressions are exactly the same.",
+      "explanation": "When proving an inequality by induction, the key is to ensure that if the statement holds for n = k, the relationship (e.g., ≤ or ≥) remains true for n = k+1. Equality proofs, on the other hand, must demonstrate that the two sides become identical for the next integer. Options A, C, and D misrepresent the nature of induction for inequalities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "A student attempts to prove that all horses are of the same colour using induction. Which step in the argument is flawed?",
+      "options": {
+        "A": "The base case for one horse is correctly established.",
+        "B": "Assuming that in a group of k horses all are the same colour, then adding one more horse guarantees the colour remains the same.",
+        "C": "The conclusion that the property holds for any number of horses follows from the induction hypothesis.",
+        "D": "The argument correctly handles the transition from k to k+1 horses."
+      },
+      "correct_option": "B",
+      "answer": "Assuming that in a group of k horses all are the same colour, then adding one more horse guarantees the colour remains the same.",
+      "explanation": "The induction fails when moving from k = 1 to k = 2 because the overlapping subsets used in the proof no longer share a common horse, so the colour cannot be transferred. Hence the assumption in option B is the invalid step. Options A, C, and D either describe correct parts or repeat the flawed reasoning.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "Which of the following provides a logically complete induction proof for the identity \\(\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}\\) ?",
+      "options": {
+        "A": "Shows base case n=1, states the induction hypothesis, but does not perform the inductive step.",
+        "B": "Shows base case n=1, assumes the formula for n=m, and correctly derives the formula for n=m+1.",
+        "C": "Only verifies the formula for n=2 and n=3.",
+        "D": "Uses the formula for n=m+1 without referencing the hypothesis."
+      },
+      "correct_option": "B",
+      "answer": "Shows base case n=1, assumes the formula for n=m, and correctly derives the formula for n=m+1.",
+      "explanation": "A complete induction proof must contain (1) a verified base case, (2) a clear induction hypothesis, and (3) a derivation of the statement for n = m+1 that explicitly uses the hypothesis. Option B satisfies all three requirements. Options A, C, and D omit essential components, making them incomplete.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "In a coding contest, participants need to compute the sum of the first n odd natural numbers: 1 + 3 + 5 + … + (2n‑1). Which summation identity should they use?",
+      "options": {
+        "A": "\\(\\sum_{k=1}^{n} (2k-1) = n^{2}\\)",
+        "B": "\\(\\sum_{k=1}^{n} (2k-1) = n(n+1)\\)",
+        "C": "\\(\\sum_{k=1}^{n} (2k-1) = 2n^{2} - n\\)",
+        "D": "\\(\\sum_{k=1}^{n} (2k-1) = \\frac{n^{2}+n}{2}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\sum_{k=1}^{n} (2k-1) = n^{2}\\)",
+      "explanation": "The sum of the first n odd numbers equals n², a classic result proved easily by induction: base case n=1 gives 1 = 1²; assuming the sum up to n = m is m², adding the next odd term 2(m+1)-1 yields m² + 2m + 1 = (m+1)². Hence option A is correct; the other formulas do not give the correct values.",
+      "difficulty": "medium"
+    }
+  ]
+}

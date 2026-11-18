@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "In an induction proof for the formula \\(1+2+\\dots+ k = \\frac{k(k+1)}{2}\\), the inductive step assumes the statement true for \\(k\\) and then considers \\(k+1\\). Which of the following statements correctly completes the inductive step?",
+      "options": {
+        "A": "\\(\\frac{(k+1)(k+2)}{2}=\\frac{k(k+1)}{2}+(k+1)\\)",
+        "B": "\\(\\frac{(k+1)(k+2)}{2}=\\frac{k(k+1)}{2}-(k+1)\\)",
+        "C": "\\(\\frac{(k+1)(k+2)}{2}=\\frac{k(k-1)}{2}+(k+1)\\)",
+        "D": "\\(\\frac{(k+1)(k+2)}{2}=\\frac{k(k+1)}{2}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{(k+1)(k+2)}{2}=\\frac{k(k+1)}{2}+(k+1)\\)",
+      "explanation": "Assuming the hypothesis \\(1+2+\\dots+ k = \\frac{k(k+1)}{2}\\), adding the next term \\((k+1)\\) gives \\(\\frac{k(k+1)}{2}+(k+1)\\). Simplifying the right‑hand side yields \\(\\frac{(k+1)(k+2)}{2}\\), which is exactly the formula for \\(k+1\\). Options B, C and D either change the sign or use an incorrect previous formula, so they do not complete the proof.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "A student wants to prove by induction that \\(\\sum_{i=1}^{n} i^{2}=\\frac{n(n+1)(2n+1)}{6}\\). Which of the following correctly states the inductive hypothesis?",
+      "options": {
+        "A": "Assume the formula holds for \\(n = k\\), i.e., \\(\\sum_{i=1}^{k} i^{2}=\\frac{k(k+1)(2k+1)}{6}\\).",
+        "B": "Assume the formula holds for \\(n = k+1\\), i.e., \\(\\sum_{i=1}^{k+1} i^{2}=\\frac{(k+1)(k+2)(2k+3)}{6}\\).",
+        "C": "Assume the formula holds for all \\(n \\le k\\).",
+        "D": "Assume the formula holds for \\(n = 1\\) only."
+      },
+      "correct_option": "A",
+      "answer": "Assume the formula holds for \\(n = k\\), i.e., \\(\\sum_{i=1}^{k} i^{2}=\\frac{k(k+1)(2k+1)}{6}\\).",
+      "explanation": "In ordinary (weak) mathematical induction the hypothesis is that the statement is true for a particular integer \\(k\\). The student then proves it for \\(k+1\\). Option B skips the inductive step, C describes strong induction (unnecessary here), and D does not provide a hypothesis for the inductive step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "To prove that \\(5\\) divides \\(3^{n}-2^{n}\\) for every integer \\(n\\ge 1\\), a student writes the base case \\(n=1\\) and then assumes the statement true for \\(n=k\\). The student immediately writes \"Hence it is true for \\(n=k+1\\)\" without any algebraic work. Which misconception does this illustrate?",
+      "options": {
+        "A": "Assuming the truth of the statement for \\(k+1\\) without establishing it from the hypothesis.",
+        "B": "Failing to verify the base case.",
+        "C": "Using the wrong induction hypothesis.",
+        "D": "Assuming the statement is false for \\(k\\)."
+      },
+      "correct_option": "A",
+      "answer": "Assuming the truth of the statement for \\(k+1\\) without establishing it from the hypothesis.",
+      "explanation": "Induction requires a logical bridge from the hypothesis (true for \\(k\\)) to the conclusion (true for \\(k+1\\)). Simply stating the conclusion without algebraic manipulation skips this essential step. Options B, C and D describe different errors that are not present in the described reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "Consider the inequality \\(2^{n} > n^{2}\\) for all integers \\(n\\ge 5\\). Assuming it holds for \\(n=k\\), which of the following correctly justifies the inductive step for \\(n=k+1\\)?",
+      "options": {
+        "A": "From \\(2^{k}>k^{2}\\) multiply both sides by 2 to get \\(2^{k+1}>2k^{2}\\) and note that \\(2k^{2}>(k+1)^{2}\\) for \\(k\\ge 5\\).",
+        "B": "Add 1 to both sides of \\(2^{k}>k^{2}\\) to obtain \\(2^{k}+1>(k+1)^{2}\\).",
+        "C": "Replace \\(k\\) by \\(k+1\\) directly in the hypothesis, giving \\(2^{k+1}>(k+1)^{2}\\).",
+        "D": "Since \\(2^{k}>k^{2}\\), the inequality automatically holds for any larger exponent."
+      },
+      "correct_option": "A",
+      "answer": "From \\(2^{k}>k^{2}\\) multiply both sides by 2 to get \\(2^{k+1}>2k^{2}\\) and note that \\(2k^{2}>(k+1)^{2}\\) for \\(k\\ge 5\\).",
+      "explanation": "Multiplying the inductive hypothesis by 2 yields a valid inequality for \\(k+1\\). One then shows that \\(2k^{2}\\) exceeds \\((k+1)^{2}\\) when \\(k\\ge5\\), completing the step. Options B, C, and D either misuse algebra or skip the necessary comparison, so they are invalid.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Two induction arguments are presented for the statement \\(S(n):\\) \"\\(n! \\ge 2^{n}\\) for \\(n\\ge 4\\)\". Argument A verifies the base case \\(n=4\\) and correctly shows that if \\(S(k)\\) holds then \\(S(k+1)\\) holds. Argument B starts with the base case \\(n=0\\) (where the statement is false) and then proceeds with the same inductive step. Which key difference makes Argument A valid and Argument B invalid?",
+      "options": {
+        "A": "Argument A checks a true base case that satisfies the statement, while Argument B uses a false base case.",
+        "B": "Argument A uses strong induction, whereas Argument B uses weak induction.",
+        "C": "Argument A applies factorial properties, while Argument B incorrectly applies exponent rules.",
+        "D": "Argument A proves the statement for all integers, but Argument B only proves it for even integers."
+      },
+      "correct_option": "A",
+      "answer": "Argument A checks a true base case that satisfies the statement, while Argument B uses a false base case.",
+      "explanation": "Induction is only valid if the base case(s) are true. Starting with \\(n=0\\) where \\(0! =1\\) and \\(2^{0}=1\\) actually equality holds, but the statement is intended for \\(n\\ge4\\); using an irrelevant base case makes the argument incomplete. The crucial error is the mismatch of the base case, not the type of induction or algebraic manipulation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "In a competitive exam, a candidate is asked to prove by induction that \\(7\\) divides \\(2^{3n}-1\\) for every positive integer \\(n\\). Which of the following steps is essential to complete a logically sound proof?",
+      "options": {
+        "A": "Show that if \\(7\\mid (2^{3k}-1)\\) then \\(7\\mid (2^{3(k+1)}-1)\\) by factorising \\(2^{3(k+1)}-1\\).",
+        "B": "Verify the statement for \\(n=0\\) only.",
+        "C": "Use modular arithmetic to note that \\(2^{3}\\equiv 1\\pmod{7}\\) and then apply the inductive hypothesis.",
+        "D": "All of the above."
+      },
+      "correct_option": "C",
+      "answer": "Use modular arithmetic to note that \\(2^{3}\\equiv 1\\pmod{7}\\) and then apply the inductive hypothesis.",
+      "explanation": "The key to the induction is recognizing that \\(2^{3}\\equiv1\\pmod{7}\\); thus \\(2^{3(k+1)} = 2^{3k}\\cdot2^{3}\\equiv 2^{3k}\\pmod{7}\\). If \\(7\\mid (2^{3k}-1)\\), the same divisibility follows for \\(k+1\\). Verifying only \\(n=0\\) (option B) is insufficient, and while factorisation (option A) can work, the modular observation is the most direct and essential step. Hence option C is the indispensable component.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "Which of the following is the correct closed‑form expression for \\(\\displaystyle\\sum_{i=1}^{n} i\\)?",
+      "options": {
+        "A": "\\(\\frac{n(n+1)}{2}\\)",
+        "B": "\\(n^{2}\\)",
+        "C": "\\(\\frac{(n+1)(n+2)}{2}\\)",
+        "D": "\\(2n\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{n(n+1)}{2}\\)",
+      "explanation": "The sum of the first \\(n\\) natural numbers is given by the well‑known formula \\(\\frac{n(n+1)}{2}\\). Options B, C and D do not simplify to the correct sum for general \\(n\\).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following statements is a true divisibility result that can be proved by mathematical induction?",
+      "options": {
+        "A": "3 divides \\(2^{2n}-1\\) for all \\(n\\ge 1\\)",
+        "B": "5 divides \\(3^{n}-2^{n}\\) for all \\(n\\ge 1\\)",
+        "C": "4 divides \\(n^{2}-n\\) for all \\(n\\ge 1\\)",
+        "D": "6 divides \\(n^{3}-n\\) for all \\(n\\ge 1\\)"
+      },
+      "correct_option": "D",
+      "answer": "6 divides \\(n^{3}-n\\) for all \\(n\\ge 1\\)",
+      "explanation": "The expression \\(n^{3}-n = n(n-1)(n+1)\\) is the product of three consecutive integers, which is always divisible by both 2 and 3, hence by 6. Options A and B are false for certain \\(n\\) (e.g., \\(n=1\\) gives \\(2^{2}-1=3\\) not divisible by 3), and option C is not always true (e.g., \\(n=2\\) gives 2, not a multiple of 4). Therefore, option D is the correct inductively provable divisibility statement.",
+      "difficulty": "easy"
+    }
+  ]
+}

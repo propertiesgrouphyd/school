@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "Which of the following formulas correctly gives the sum 1 + 2 + … + n for a positive integer n?",
+      "options": {
+        "A": "n(n-1)/2",
+        "B": "n(n+1)/2",
+        "C": "(n+1)(n+2)/2",
+        "D": "n^2"
+      },
+      "correct_option": "B",
+      "answer": "n(n+1)/2",
+      "explanation": "The sum of the first n natural numbers is given by the well‑known identity 1+2+…+n = n(n+1)/2, which can be proved by mathematical induction. Option B matches this formula; the other options are algebraic variations that do not equal the required sum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following divisibility statements can be proved true for every integer n ≥ 1 using mathematical induction?",
+      "options": {
+        "A": "5^n – 1 is divisible by 4",
+        "B": "3^n + 2 is divisible by 5",
+        "C": "2^n – 1 is divisible by n",
+        "D": "n! is divisible by n+1"
+      },
+      "correct_option": "A",
+      "answer": "5^n – 1 is divisible by 4",
+      "explanation": "Since 5 ≡ 1 (mod 4), raising 5 to any positive integer power keeps the remainder 1; thus 5^n – 1 ≡ 0 (mod 4) for all n≥1, a statement that is readily proved by induction. The other options are false for general n (e.g., n=1 makes option D false).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "Identify the inequality that holds for all integers n ≥ 1 and can be established by induction.",
+      "options": {
+        "A": "2^n ≥ n + 1",
+        "B": "n^2 ≤ 2^n",
+        "C": "n! ≤ 2^n",
+        "D": "n ≥ 2^n"
+      },
+      "correct_option": "A",
+      "answer": "2^n ≥ n + 1",
+      "explanation": "The inequality 2^n ≥ n + 1 is true for n = 1 (2 ≥ 2) and, assuming it holds for k, multiplying both sides by 2 gives 2^{k+1} ≥ 2(k+1) ≥ (k+1)+1, completing the inductive step. Options B and C are false for small n, and D reverses the true direction of growth.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "In the following inductive proof attempt, which step is invalid?\nBase: For n = 1, P(1) is true.\nInductive step: Assume P(k) true, then P(k+1) is obtained by multiplying both sides of P(k) by 2.\nConclusion: P(n) holds for all n.\nWhich of the following best describes the flaw?",
+      "options": {
+        "A": "The base case is not verified correctly.",
+        "B": "The inductive hypothesis is not used to relate P(k) and P(k+1).",
+        "C": "Multiplying by 2 does not preserve the property being proved.",
+        "D": "No flaw; the proof is valid."
+      },
+      "correct_option": "B",
+      "answer": "The inductive hypothesis is not used to relate P(k) and P(k+1).",
+      "explanation": "A correct inductive step must show how the truth of P(k) leads logically to the truth of P(k+1). Simply stating that we multiply both sides by 2 without demonstrating the connection is insufficient; the reasoning is missing, making the proof invalid. The base case is fine, and multiplying by 2 may be legitimate for some statements, but the logical link is absent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "Complete the inductive step in the proof of the formula 1 + 2 + … + n = n(n+1)/2.\nAssume the formula holds for n = k: 1 + 2 + … + k = k(k+1)/2.\nTo obtain the case n = k+1, we add (k+1) to both sides. Which of the following equalities correctly finishes the step?",
+      "options": {
+        "A": "k(k+1)/2 + (k+1) = (k+1)(k+2)/2",
+        "B": "k(k+1)/2 + (k+1) = (k+2)(k+3)/2",
+        "C": "k(k+1)/2 + (k+1) = (k+1)^2/2",
+        "D": "k(k+1)/2 + (k+1) = (k+1)(k+2)"
+      },
+      "correct_option": "A",
+      "answer": "k(k+1)/2 + (k+1) = (k+1)(k+2)/2",
+      "explanation": "Adding (k+1) to the inductive hypothesis gives k(k+1)/2 + (k+1) = (k+1)[k/2 + 1] = (k+1)(k+2)/2, which is exactly the formula with n replaced by k+1. This completes the inductive step. The other options either mis‑simplify or omit the division by 2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "A student wants to prove the formula for the sum of squares of the first n natural numbers. Which of the following expressions correctly states the identity they need to establish?",
+      "options": {
+        "A": "1^2 + 2^2 + … + n^2 = n(n+1)(2n+1)/6",
+        "B": "1^2 + 2^2 + … + n^2 = n(n+1)(2n-1)/6",
+        "C": "1^2 + 2^2 + … + n^2 = (n+1)(n+2)(2n+3)/6",
+        "D": "1^2 + 2^2 + … + n^2 = n(n-1)(2n-1)/6"
+      },
+      "correct_option": "A",
+      "answer": "1^2 + 2^2 + … + n^2 = n(n+1)(2n+1)/6",
+      "explanation": "The standard summation identity for squares is 1^2 + 2^2 + … + n^2 = n(n+1)(2n+1)/6, which can be proved by induction. Options B, C, and D are common mis‑writes that change one factor and therefore give incorrect results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Many students incorrectly believe the following statement is always true: \"If n is divisible by 3, then n^2 is divisible by 6.\" Which option correctly identifies the false claim?",
+      "options": {
+        "A": "If n is divisible by 3, then n^2 is divisible by 3.",
+        "B": "If n is divisible by 3, then n^2 is divisible by 9.",
+        "C": "If n is divisible by 3, then n^2 is divisible by 6.",
+        "D": "If n is divisible by 3, then n^2 is divisible by 12."
+      },
+      "correct_option": "C",
+      "answer": "If n is divisible by 3, then n^2 is divisible by 6.",
+      "explanation": "If n = 3k, then n^2 = 9k^2, which is always a multiple of 3 and 9, but not necessarily of 2. Hence n^2 need not be divisible by 6. Options A and B are true (multiples of 3 and 9), while D is also false but less directly related; the specific misconception highlighted is option C.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "Assume for some integer k ≥ 1 that 3^k > k^2. Multiplying both sides by 3 gives 3^{k+1} > 3k^2. To complete the inductive step for the claim 3^n > n^2, which inequality must be shown for all k ≥ 1?",
+      "options": {
+        "A": "3k^2 ≥ (k+1)^2",
+        "B": "3k^2 ≤ (k+1)^2",
+        "C": "3k^2 > (k+1)^2",
+        "D": "3k^2 = (k+1)^2"
+      },
+      "correct_option": "A",
+      "answer": "3k^2 ≥ (k+1)^2",
+      "explanation": "From 3^{k+1} > 3k^2 we need to ensure that 3k^2 is at least as large as (k+1)^2 so that 3^{k+1} > (k+1)^2 follows. Indeed, 3k^2 - (k+1)^2 = 2k^2 - 2k -1 = 2(k^2 - k) -1 ≥ 0 for all k ≥ 1, establishing the required inequality. Options B, C, and D either reverse the needed direction or assert equality, which is not required.",
+      "difficulty": "medium"
+    }
+  ]
+}

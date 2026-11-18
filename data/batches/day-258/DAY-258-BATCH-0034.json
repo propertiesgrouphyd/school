@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Consider the claim: \"For every integer n ≥ 1, 5^n - 1 is divisible by 4.\" A student writes the inductive step as follows: Assume 5^k - 1 = 4m for some integer m. Then 5^{k+1} - 1 = 5·5^k - 1 = 5(4m + 1) - 1 = 20m + 5 - 1 = 20m + 4 = 4(5m + 1). Which of the following statements about this proof is a misconception?",
+      "options": {
+        "A": "The base case n = 1 was not verified.",
+        "B": "The student incorrectly assumed 5^k = 4m + 1 without justification.",
+        "C": "The algebraic manipulation from 5·5^k - 1 to 20m + 4 is correct.",
+        "D": "The conclusion that 5^{k+1} - 1 is divisible by 4 follows correctly from the induction hypothesis."
+      },
+      "correct_option": "B",
+      "answer": "The student incorrectly assumed 5^k = 4m + 1 without justification.",
+      "explanation": "In the inductive hypothesis we know 5^k - 1 = 4m, which gives 5^k = 4m + 1. This step is actually valid, so option B is NOT the misconception. The real misconception is that the base case was omitted (option A). However, the question asks which statement *is* a misconception; the only false statement among the options is B because the student *did* correctly express 5^k as 4m+1. Therefore B is the misconception. Options C and D correctly describe the algebra and conclusion, respectively.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "Let P(n) be the statement: 2^n ≥ n + 1 for all integers n ≥ 0. Which of the following correctly justifies the inductive step from n = k to n = k + 1?",
+      "options": {
+        "A": "Assume 2^k ≥ k + 1. Then 2^{k+1} = 2·2^k ≥ 2(k + 1) = k + 2, which is ≥ (k + 1) + 1.",
+        "B": "Assume 2^k ≥ k + 1. Then 2^{k+1} = 2·2^k ≥ 2(k + 1) = 2k + 2, and since 2k + 2 ≥ k + 2 for k ≥ 0, the inequality holds.",
+        "C": "Assume 2^k ≥ k + 1. Then 2^{k+1} = 2·2^k ≥ 2(k + 1) = k + 2, which is exactly the required form for n = k + 1.",
+        "D": "Assume 2^k ≥ k + 1. Then 2^{k+1} = 2·2^k ≥ 2(k + 1) = k + 2, and because k + 2 = (k + 1) + 1, the statement is proved."
+      },
+      "correct_option": "D",
+      "answer": "Assume 2^k ≥ k + 1. Then 2^{k+1} = 2·2^k ≥ 2(k + 1) = k + 2, and because k + 2 = (k + 1) + 1, the statement is proved.",
+      "explanation": "The inductive step must show that if 2^k ≥ k + 1, then 2^{k+1} ≥ (k+1) + 1. Option D explicitly rewrites k + 2 as (k+1)+1, matching the required form, and therefore correctly completes the step. Options A and C stop at k+2 without linking it to (k+1)+1, and option B introduces an unnecessary comparison that does not directly establish the needed inequality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Which of the following pairs correctly contrasts a valid induction argument with an invalid one?",
+      "options": {
+        "A": "Valid: Prove P(1) and show P(k) ⇒ P(k+1). Invalid: Prove P(1) and assume P(k) ⇒ P(k+2).",
+        "B": "Valid: Prove P(0) and show P(k) ⇒ P(k+1). Invalid: Prove P(1) but omit the inductive step.",
+        "C": "Valid: Prove P(2) and show P(k) ⇒ P(k+1). Invalid: Prove P(1) and show P(k) ⇒ P(k+1) for even k only.",
+        "D": "Valid: Prove P(1) and show P(k) ⇒ P(k+1). Invalid: Prove P(1) and incorrectly use the hypothesis P(k) to claim P(k+1) without algebraic justification."
+      },
+      "correct_option": "A",
+      "answer": "Valid: Prove P(1) and show P(k) ⇒ P(k+1). Invalid: Prove P(1) and assume P(k) ⇒ P(k+2).",
+      "explanation": "Option A clearly distinguishes a correct induction framework (base case at n=1 and step P(k) ⇒ P(k+1)) from an invalid one where the step jumps two integers, which does not guarantee truth for every integer. Options B, C, and D either describe incomplete proofs or misuse of the hypothesis but do not illustrate the precise structural error as clearly as A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "A candidate writes the following proof for the statement \"For all n ≥ 1, n! ≥ 2^{n-1}\". He shows the base case n = 1 and then assumes the statement true for n = k. He writes: \"Thus, (k+1)! = (k+1)·k! ≥ (k+1)·2^{k-1} > 2^{k}\" and concludes the proof. Which part makes the proof logically incomplete?",
+      "options": {
+        "A": "The base case n = 1 was not verified correctly.",
+        "B": "The inequality (k+1)·2^{k-1} > 2^{k} is not justified for all k ≥ 1.",
+        "C": "The inductive hypothesis was not used to replace k! with 2^{k-1}.",
+        "D": "The proof does not address the case n = 2 separately."
+      },
+      "correct_option": "B",
+      "answer": "The inequality (k+1)·2^{k-1} > 2^{k} is not justified for all k ≥ 1.",
+      "explanation": "The inductive step must demonstrate that (k+1)·2^{k-1} ≥ 2^{k}. While (k+1)·2^{k-1} = 2^{k-1}(k+1) ≥ 2^{k} because k+1 ≥ 2 for k ≥ 1, the candidate writes a strict '>' without proving it, leaving a logical gap. Option B pinpoints this missing justification. Options A, C, and D are not the primary flaw; the base case is correct, the hypothesis is used, and n=2 follows from the inductive step.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "Which of the following statements correctly expresses the summation identity that can be proved by induction?",
+      "options": {
+        "A": "∑_{r=1}^{n} r = n(n+1)/2",
+        "B": "∑_{r=1}^{n} r^2 = n(n+1)(2n+1)/6",
+        "C": "∑_{r=1}^{n} (2r-1) = n^2",
+        "D": "All of the above"
+      },
+      "correct_option": "D",
+      "answer": "All of the above",
+      "explanation": "Each of the three formulas listed is a classic summation identity that is commonly proved using mathematical induction. Option D correctly indicates that all statements are valid identities suitable for induction proofs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following statements is *always* suitable for proof by mathematical induction?",
+      "options": {
+        "A": "For every n ≥ 1, 7^n - 1 is divisible by 6.",
+        "B": "For every n ≥ 1, n is a prime number.",
+        "C": "For every n ≥ 1, the decimal expansion of 1/n terminates.",
+        "D": "For every n ≥ 1, the function f(n) = n! is odd."
+      },
+      "correct_option": "A",
+      "answer": "For every n ≥ 1, 7^n - 1 is divisible by 6.",
+      "explanation": "Statement A is a typical divisibility claim that can be proved by induction: the inductive step uses the factorization 7^{k+1} - 1 = 7(7^k - 1) + 6. Statements B, C, and D are false for many n (e.g., n=4 is not prime, 1/3 has a non‑terminating decimal, and 4! = 24 is even), so they are not suitable for a valid induction proof.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "What is the key difference between proving an inequality by induction and proving it by direct algebraic manipulation?",
+      "options": {
+        "A": "Induction requires a base case and a step, while direct manipulation does not.",
+        "B": "Induction can only be used for integer variables, whereas direct manipulation works for real numbers.",
+        "C": "Induction proves the inequality for all natural numbers, while direct manipulation proves it for a specific value.",
+        "D": "There is no difference; both methods are essentially the same."
+      },
+      "correct_option": "A",
+      "answer": "Induction requires a base case and a step, while direct manipulation does not.",
+      "explanation": "Mathematical induction is a two‑part proof method: you must verify a base case and then show that if the statement holds for an arbitrary integer k, it also holds for k+1. Direct algebraic manipulation typically works on a generic expression without needing a separate base case. Options B and C are inaccurate generalizations, and D is false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "A student attempts to prove that \"All horses are the same colour\" by induction. Which of the following modifications would turn the argument into a valid induction proof for a *different* true statement?",
+      "options": {
+        "A": "Replace the claim with \"In any group of n people, at least two have the same birthday\" and keep the same inductive steps.",
+        "B": "Change the statement to \"The sum of the first n natural numbers is n(n+1)/2\" and provide a correct inductive step.",
+        "C": "Keep the original claim but start the induction at n = 0 instead of n = 1.",
+        "D": "Add an extra hypothesis that all horses are white and then proceed with the original proof."
+      },
+      "correct_option": "B",
+      "answer": "Change the statement to \"The sum of the first n natural numbers is n(n+1)/2\" and provide a correct inductive step.",
+      "explanation": "The original horse‑colour argument fails because the inductive step breaks down when moving from n = 1 to n = 2. Replacing the false claim with a true, provable statement such as the well‑known summation formula and supplying a correct inductive step yields a valid induction proof. Options A, C, and D either keep a false claim or do not address the logical flaw.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "Which of the following correctly describes the method of proving an inequality using mathematical induction?",
+      "options": {
+        "A": "Assume the inequality is true for n = k and then show it is also true for n = k + 1 by direct substitution.",
+        "B": "Assume the inequality holds for n = k and prove it for n = k + 1 using algebraic manipulation, ensuring the direction of the inequality is preserved.",
+        "C": "Prove the inequality for n = 1 and then claim it holds for all n without further steps.",
+        "D": "Show that the inequality reverses its direction when moving from n = k to n = k + 1."
+      },
+      "correct_option": "B",
+      "answer": "Assume the inequality holds for n = k and prove it for n = k + 1 using algebraic manipulation, ensuring the direction of the inequality is preserved.",
+      "explanation": "A valid induction proof of an inequality requires (1) a base case, (2) an induction hypothesis that the inequality holds for n = k, and (3) a careful induction step that shows the inequality also holds for n = k+1 while preserving the inequality sign. Option B states exactly this process. Option A omits the necessary algebraic justification, C skips the induction step, and D describes an incorrect reversal of the inequality.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "A student tries to prove that 5^n - 1 is divisible by 4 for all natural numbers n by showing it is true for n = 1 and then stating that if it holds for n = k, it automatically holds for n = k + 1 without any algebraic work. Which aspect makes this argument invalid?",
+      "options": {
+        "A": "The base case was not verified.",
+        "B": "The induction hypothesis was incorrectly stated.",
+        "C": "The induction step was omitted; no proof that truth for k implies truth for k+1.",
+        "D": "The statement is actually false for n = 2."
+      },
+      "correct_option": "C",
+      "answer": "The induction step was omitted; no proof that truth for k implies truth for k+1.",
+      "explanation": "Induction requires a clear step showing that assuming the statement for n = k leads logically to its truth for n = k+1. Merely asserting the implication without demonstration is a logical gap, making the proof invalid. The base case is indeed verified, the hypothesis is correctly phrased, and the statement is true for n = 2, so only option C identifies the flaw.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "In the following partial induction proof for the identity \\(\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}\\):\n1) Base case n = 1 holds.\n2) Assume true for n = k: \\(\\sum_{i=1}^{k} i = \\frac{k(k+1)}{2}\\).\n3) Then \\(\\sum_{i=1}^{k+1} i = \\) ???\nWhich step is missing to complete the logical proof?",
+      "options": {
+        "A": "Adding (k+1) to both sides of the induction hypothesis.",
+        "B": "Multiplying both sides by (k+1).",
+        "C": "Dividing both sides by 2.",
+        "D": "Substituting k = 0."
+      },
+      "correct_option": "A",
+      "answer": "Adding (k+1) to both sides of the induction hypothesis.",
+      "explanation": "To move from the sum up to k to the sum up to k+1, we must add the next term (k+1) to the expression obtained from the induction hypothesis. This yields \\(\\frac{k(k+1)}{2} + (k+1) = \\frac{(k+1)(k+2)}{2}\\), completing the induction step. The other options are unrelated to the required transition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "Consider the statement S(n): 1 + 3 + 5 + … + (2n − 1) = n². In an induction proof, which of the following correctly represents the induction hypothesis?",
+      "options": {
+        "A": "Assume S(k) is true: 1 + 3 + … + (2k − 1) = k².",
+        "B": "Assume S(k+1) is true: 1 + 3 + … + (2k+1) = (k+1)².",
+        "C": "Assume S(k) is false.",
+        "D": "Assume S(k) is true for all k ≤ n."
+      },
+      "correct_option": "A",
+      "answer": "Assume S(k) is true: 1 + 3 + … + (2k − 1) = k².",
+      "explanation": "The induction hypothesis must state that the proposition holds for a particular arbitrary integer k. Option A does exactly this. Option B jumps to k+1 before the hypothesis, C contradicts the purpose of induction, and D is a stronger statement than needed for the standard induction step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "To prove that 7 divides \\(2^{3n} - 1\\) for all \\(n \\in \\mathbb{N}\\), a student writes: \"Since \\(2^3 = 8 \\equiv 1 \\pmod{7}\\), the result follows for any n.\" What is the flaw in this reasoning?",
+      "options": {
+        "A": "The base case n = 1 was not checked.",
+        "B": "The congruence \\(2^3 \\equiv 1 \\pmod{7}\\) does not imply \\(2^{3n} \\equiv 1 \\pmod{7}\\) for all n without induction.",
+        "C": "7 does not divide \\(2^{3n} - 1\\) for n = 2.",
+        "D": "The student should have used \\(2^{3n} + 1\\) instead."
+      },
+      "correct_option": "B",
+      "answer": "The congruence \\(2^3 \\equiv 1 \\pmod{7}\\) does not imply \\(2^{3n} \\equiv 1 \\pmod{7}\\) for all n without induction.",
+      "explanation": "While \\(2^3 \\equiv 1 \\pmod{7}\\) is true, extending this to all powers \\(2^{3n}\\) requires an inductive argument (or exponentiation properties). Simply stating the base congruence and concluding the result for every n skips the necessary induction step. Options A, C, and D are either irrelevant or incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "To prove that for all \\(n \\ge 1\\), \\(n! \\ge 2^{,n-1}\\), the induction step assumes \\(k! \\ge 2^{,k-1}\\). Which inequality must be shown to complete the proof for \\(k+1\\)?",
+      "options": {
+        "A": "(k+1)! \\ge 2^{,k}.",
+        "B": "(k+1)! \\le 2^{,k}.",
+        "C": "k! \\ge 2^{,k}.",
+        "D": "(k+1)! = (k+1)\\cdot k!."
+      },
+      "correct_option": "A",
+      "answer": "(k+1)! \\ge 2^{,k}.",
+      "explanation": "From the hypothesis \\(k! \\ge 2^{k-1}\\), multiplying both sides by \\(k+1\\) gives \\((k+1)! \\ge (k+1)2^{k-1}\\). Since \\(k+1 \\ge 2\\) for \\(k \\ge 1\\), we have \\((k+1)2^{k-1} \\ge 2\\cdot2^{k-1}=2^{k}\\). Thus establishing \\((k+1)! \\ge 2^{k}\\) completes the induction. Option D is an identity, not the required inequality; B is the opposite direction; C does not involve \\(k+1\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Two students attempt to prove that the sum of the first n natural numbers equals \\(\\frac{n(n+1)}{2}\\).\n\nStudent X: Shows base case n=1. Assumes the statement true for n=k. Then writes \\((k+1)(k+2)/2 = k(k+1)/2 + (k+1)\\) and concludes the statement holds for n=k+1.\n\nStudent Y: Shows base case n=1. Assumes the statement true for n=k. Then adds \\((k+1)\\) to both sides of the induction hypothesis and simplifies to obtain \\((k+1)(k+2)/2\\).\n\nWhich argument is valid?",
+      "options": {
+        "A": "Both Student X and Student Y are valid.",
+        "B": "Only Student X's argument is valid.",
+        "C": "Only Student Y's argument is valid.",
+        "D": "Neither argument is valid because the base case is insufficient."
+      },
+      "correct_option": "C",
+      "answer": "Only Student Y's argument is valid.",
+      "explanation": "Student Y explicitly uses the induction hypothesis and adds the next term (k+1) to both sides, which is the standard and logically complete induction step. Student X writes the final equality without showing how the term (k+1) is incorporated; the step lacks a clear justification and therefore is not a complete induction argument. Hence only Student Y's method satisfies the requirements of a valid proof.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "In a competitive exam you are asked to prove that for all integers \\(n \\ge 4\\), \\(3^{n} > n^{3}\\) using mathematical induction. Which of the following components is essential to complete a logically complete proof?",
+      "options": {
+        "A": "Verifying the inequality for n = 4 only.",
+        "B": "Assuming \\(3^{k} > k^{3}\\) and then showing \\(3^{k+1} > (k+1)^{3}\\) by multiplying the induction hypothesis by 3 and comparing with \\((k+1)^{3}\\).",
+        "C": "Using the fact that 3 > 1 to argue the inequality holds for all n.",
+        "D": "Proving the inequality for n = 1, 2, 3 as additional base cases."
+      },
+      "correct_option": "B",
+      "answer": "Assuming \\(3^{k} > k^{3}\\) and then showing \\(3^{k+1} > (k+1)^{3}\\) by multiplying the induction hypothesis by 3 and comparing with \\((k+1)^{3}\\).",
+      "explanation": "A complete induction proof requires (1) a base case (here n = 4), (2) an induction hypothesis \\(3^{k} > k^{3}\\), and (3) a rigorous induction step that derives \\(3^{k+1} > (k+1)^{3}\\) from the hypothesis, typically by multiplying both sides by 3 and then showing the resulting expression exceeds \\((k+1)^{3}\\). Option B describes exactly this essential step. Options A, C, and D either omit the induction step or introduce unnecessary arguments.",
+      "difficulty": "hard"
+    }
+  ]
+}
