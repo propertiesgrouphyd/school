@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Identify real and imaginary parts",
+      "question": "Consider the complex number 3 - 4i. Which of the following correctly identifies its real part and imaginary part?",
+      "options": {
+        "A": "Real part = 3, Imaginary part = -4",
+        "B": "Real part = -4, Imaginary part = 3",
+        "C": "Real part = 3, Imaginary part = 4",
+        "D": "Real part = -3, Imaginary part = 4"
+      },
+      "correct_option": "A",
+      "answer": "Real part = 3, Imaginary part = -4",
+      "explanation": "In a complex number a + ib, the coefficient a is the real part and b is the imaginary part. For 3 - 4i, a = 3 and b = -4, so the real part is 3 and the imaginary part is -4. The other options mix up the components or change the sign incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Understand the need for complex numbers",
+      "question": "The quadratic equation x² + 4x + 13 = 0 has a negative discriminant. Which statement best explains why introducing complex numbers is necessary to find its roots?",
+      "options": {
+        "A": "Real numbers cannot represent the square root of a negative number, so complex numbers are required.",
+        "B": "The equation has no solutions at all, even in the complex system.",
+        "C": "Complex numbers make factoring the equation easier, even though real roots exist.",
+        "D": "The imaginary unit i is equal to zero, which resolves the negative discriminant."
+      },
+      "correct_option": "A",
+      "answer": "Real numbers cannot represent the square root of a negative number, so complex numbers are required.",
+      "explanation": "The discriminant Δ = b² - 4ac = 16 - 52 = -36 is negative, so √Δ is not a real number. Introducing i, where i² = -1, allows us to write √(-36) = 6i and obtain complex roots. Options B, C, and D are incorrect because the equation does have solutions in the complex plane, factoring does not avoid the need for i, and i is not zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Define i",
+      "question": "Which of the following correctly defines the imaginary unit i?",
+      "options": {
+        "A": "i is the solution to the equation i² = -1.",
+        "B": "i is the solution to the equation i² = 1.",
+        "C": "i is a real number equal to -1.",
+        "D": "i is the same as √(-1) but is considered a real number."
+      },
+      "correct_option": "A",
+      "answer": "i is the solution to the equation i² = -1.",
+      "explanation": "By definition, the imaginary unit i satisfies i² = -1. This distinguishes it from real numbers. Option B describes the unit 1, not i. Option C incorrectly calls i a real number, and option D misstates its classification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Understand square roots of negative real numbers",
+      "question": "What is the principal square root of -9?",
+      "options": {
+        "A": "3i",
+        "B": "-3i",
+        "C": "9",
+        "D": "-9"
+      },
+      "correct_option": "A",
+      "answer": "3i",
+      "explanation": "The principal square root of a negative number -a (a>0) is defined as √(-a) = √a·i. Here √9 = 3, so √(-9) = 3i. Option B gives the negative of the principal root, while C and D are real numbers and do not satisfy (3i)² = -9.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Write complex numbers in a + ib form",
+      "question": "Which of the following expressions correctly represents the complex number whose magnitude is 5 and argument π/6 in a + ib form?",
+      "options": {
+        "A": "5(cos π/6 + i sin π/6)",
+        "B": "(5√3)/2 + i(5/2)",
+        "C": "(5/2) + i(5√3)/2",
+        "D": "5 + iπ/6"
+      },
+      "correct_option": "B",
+      "answer": "(5√3)/2 + i(5/2)",
+      "explanation": "Using the polar to rectangular conversion: a = r cosθ, b = r sinθ. With r = 5 and θ = π/6, a = 5·(√3/2) = (5√3)/2 and b = 5·(1/2) = 5/2. Hence the a + ib form is (5√3)/2 + i(5/2). Option A is still in polar form, C swaps a and b, and D is unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Identify real and imaginary parts",
+      "question": "If z = (2 + 3i)/(1 - i), what are the real and imaginary parts of z?",
+      "options": {
+        "A": "Real part = -0.5, Imaginary part = 2.5",
+        "B": "Real part = 0.5, Imaginary part = -2.5",
+        "C": "Real part = 2, Imaginary part = 3",
+        "D": "Real part = -2, Imaginary part = -3"
+      },
+      "correct_option": "A",
+      "answer": "Real part = -0.5, Imaginary part = 2.5",
+      "explanation": "Compute z: (2+3i)/(1-i) × (1+i)/(1+i) = (2+2i+3i+3i²)/2 = (2+5i-3)/2 = (-1+5i)/2 = -0.5 + 2.5i. Thus the real part is -0.5 and the imaginary part is 2.5. The other options either have signs reversed or ignore the division.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Understand the need for complex numbers",
+      "question": "Why were complex numbers introduced in mathematics?",
+      "options": {
+        "A": "To provide solutions for equations with negative discriminants.",
+        "B": "To replace real numbers entirely.",
+        "C": "To simplify addition of fractions.",
+        "D": "To define a new type of geometry unrelated to algebra."
+      },
+      "correct_option": "A",
+      "answer": "To provide solutions for equations with negative discriminants.",
+      "explanation": "Complex numbers extend the real number system so that equations like x² + 1 = 0, which have negative discriminants, have solutions (±i). Options B, C, and D describe purposes that are not the historical or mathematical reason for introducing i.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Define i",
+      "question": "The symbol i, used in complex numbers, represents:",
+      "options": {
+        "A": "The principal square root of -1.",
+        "B": "The square root of 1.",
+        "C": "A real number equal to -1.",
+        "D": "An undefined quantity."
+      },
+      "correct_option": "A",
+      "answer": "The principal square root of -1.",
+      "explanation": "By definition, i satisfies i² = -1, making i the principal (positive) square root of -1. It is not a real number, nor is it the square root of 1, and it is well-defined, so options B, C, and D are incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}
