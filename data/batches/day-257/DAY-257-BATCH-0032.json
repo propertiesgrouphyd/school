@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Simplify the expression \\(\\frac{\\sin\\theta}{\\cos\\theta}+\\frac{\\cos\\theta}{\\sin\\theta}\\).",
+      "options": {
+        "A": "tan\\theta + cot\\theta",
+        "B": "sec\\theta\\,csc\\theta",
+        "C": "1",
+        "D": "sin\\theta\\,cos\\theta"
+      },
+      "correct_option": "B",
+      "answer": "sec\\theta\\,csc\\theta",
+      "explanation": "\\(\\frac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta\\) and \\(\\frac{\\cos\\theta}{\\sin\\theta}=\\cot\\theta\\). Adding gives \\(\\tan\\theta+\\cot\\theta=\\frac{\\sin^2\\theta+\\cos^2\\theta}{\\sin\\theta\\cos\\theta}=\\frac{1}{\\sin\\theta\\cos\\theta}=\\sec\\theta\\csc\\theta\\). Hence option B is correct; the other options either repeat the original form or give unrelated values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Verify identities",
+      "question": "Which step correctly verifies the identity \\(1+\\tan^{2}\\theta = \\sec^{2}\\theta\\)?",
+      "options": {
+        "A": "Start with \\(\\sin^{2}\\theta+\\cos^{2}\\theta=1\\) and divide every term by \\(\\cos^{2}\\theta\\).",
+        "B": "Start with \\(\\sin^{2}\\theta+\\cos^{2}\\theta=1\\) and divide every term by \\(\\sin^{2}\\theta\\).",
+        "C": "Replace \\(\\tan\\theta\\) directly by \\(\\sin\\theta/\\cos\\theta\\) without using the Pythagorean relation.",
+        "D": "None of the above."
+      },
+      "correct_option": "A",
+      "answer": "Start with \\(\\sin^{2}\\theta+\\cos^{2}\\theta=1\\) and divide every term by \\(\\cos^{2}\\theta\\).",
+      "explanation": "Dividing \\(\\sin^{2}\\theta+\\cos^{2}\\theta=1\\) by \\(\\cos^{2}\\theta\\) gives \\(\\tan^{2}\\theta+1=\\sec^{2}\\theta\\), which is exactly the required identity. Option B would give \\(1+\\cot^{2}\\theta=\\csc^{2}\\theta\\), not the target identity. Option C skips the essential Pythagorean step, and D is therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use reciprocal identities",
+      "question": "What is the reciprocal identity for the sine function?",
+      "options": {
+        "A": "sin\\theta = 1/\\csc\\theta",
+        "B": "csc\\theta = 1/\\sin\\theta",
+        "C": "cos\\theta = 1/\\sec\\theta",
+        "D": "tan\\theta = 1/\\cot\\theta"
+      },
+      "correct_option": "B",
+      "answer": "csc\\theta = 1/\\sin\\theta",
+      "explanation": "The reciprocal identity states that the cosecant of an angle is the reciprocal of its sine: \\(\\csc\\theta = 1/\\sin\\theta\\). Option A is a rearranged form of the same identity but the question asks for the identity expressed for the reciprocal function, making B the precise answer. Options C and D refer to other functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use quotient identities",
+      "question": "Simplify \\(\\dfrac{1-\\cos 2\\theta}{\\sin 2\\theta}\\) using quotient identities.",
+      "options": {
+        "A": "cot\\theta",
+        "B": "tan\\theta",
+        "C": "sec\\theta",
+        "D": "csc\\theta"
+      },
+      "correct_option": "B",
+      "answer": "tan\\theta",
+      "explanation": "Using the double‑angle formulas, \\(1-\\cos 2\\theta = 2\\sin^{2}\\theta\\) and \\(\\sin 2\\theta = 2\\sin\\theta\\cos\\theta\\). Their ratio is \\(\\frac{2\\sin^{2}\\theta}{2\\sin\\theta\\cos\\theta}=\\frac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta\\). Hence option B is correct; the other options do not match the simplified form.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use Pythagorean identities",
+      "question": "If \\(\\sin\\theta = \\frac{3}{5}\\) and \\(\\theta\\) is an acute angle, what is \\(\\cos\\theta\\)?",
+      "options": {
+        "A": "\\(\\frac{4}{5}\\)",
+        "B": "\\(\\frac{3}{5}\\)",
+        "C": "\\(\\frac{5}{3}\\)",
+        "D": "\\(\\frac{5}{4}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{4}{5}\\)",
+      "explanation": "From the Pythagorean identity \\(\\sin^{2}\\theta + \\cos^{2}\\theta = 1\\), we have \\(\\cos^{2}\\theta = 1 - (3/5)^{2} = 1 - 9/25 = 16/25\\). Since \\(\\theta\\) is acute, \\(\\cos\\theta\\) is positive, giving \\(\\cos\\theta = 4/5\\). Options B, C, D are incorrect values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Derive related identities",
+      "question": "Which of the following expressions is equivalent to \\(\\sec\\theta - \\tan\\theta\\)?",
+      "options": {
+        "A": "\\(\\frac{1}{\\sec\\theta + \\tan\\theta}\\)",
+        "B": "\\(\\sec\\theta + \\tan\\theta\\)",
+        "C": "\\(\\frac{\\sec\\theta}{\\tan\\theta}\\)",
+        "D": "\\(\\sec\\theta\\,\\tan\\theta\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{1}{\\sec\\theta + \\tan\\theta}\\)",
+      "explanation": "Multiplying \\(\\sec\\theta - \\tan\\theta\\) by its conjugate \\(\\sec\\theta + \\tan\\theta\\) gives \\((\\sec\\theta)^2 - (\\tan\\theta)^2 = 1\\) (using the identity \\(\\sec^{2}\\theta - \\tan^{2}\\theta = 1\\)). Hence \\(\\sec\\theta - \\tan\\theta = \\frac{1}{\\sec\\theta + \\tan\\theta}\\). Option A reflects this derived form; the others are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Simplify \\(\\dfrac{\\sin\\theta\\,\\cos\\theta}{\\tan\\theta}\\).",
+      "options": {
+        "A": "\\(\\sin\\theta\\)",
+        "B": "\\(\\cos\\theta\\)",
+        "C": "\\(\\cos^{2}\\theta\\)",
+        "D": "\\(\\sin^{2}\\theta\\)"
+      },
+      "correct_option": "C",
+      "answer": "\\(\\cos^{2}\\theta\\)",
+      "explanation": "Since \\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}\\), the expression becomes \\(\\frac{\\sin\\theta\\,\\cos\\theta}{\\sin\\theta/\\cos\\theta}=\\sin\\theta\\,\\cos\\theta\\times\\frac{\\cos\\theta}{\\sin\\theta}=\\cos^{2}\\theta\\). A common mistake is to cancel \\(\\sin\\theta\\) incorrectly and think the result is \\(\\sin\\theta\\) (option A). The correct simplified form is \\(\\cos^{2}\\theta\\) (option C).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Verify identities",
+      "question": "To verify the identity \\(\\frac{1-\\sin\\theta}{\\cos\\theta}=\\frac{\\cos\\theta}{1+\\sin\\theta}\\), which reasoning step is essential?",
+      "options": {
+        "A": "Multiply numerator and denominator of the left‑hand side by \\(1+\\sin\\theta\\).",
+        "B": "Replace \\(\\cos^{2}\\theta\\) by \\(1-\\sin^{2}\\theta\\) using the Pythagorean identity.",
+        "C": "Use the reciprocal identity for cosine.",
+        "D": "None of the above."
+      },
+      "correct_option": "A",
+      "answer": "Multiply numerator and denominator of the left‑hand side by \\(1+\\sin\\theta\\).",
+      "explanation": "Multiplying \\(\\frac{1-\\sin\\theta}{\\cos\\theta}\\) by \\(\\frac{1+\\sin\\theta}{1+\\sin\\theta}\\) gives \\(\\frac{(1-\\sin^{2}\\theta)}{\\cos\\theta(1+\\sin\\theta)} = \\frac{\\cos^{2}\\theta}{\\cos\\theta(1+\\sin\\theta)} = \\frac{\\cos\\theta}{1+\\sin\\theta}\\), establishing the identity. Option B is unnecessary for this particular verification, and C is unrelated. Hence A is the correct reasoning.",
+      "difficulty": "medium"
+    }
+  ]
+}

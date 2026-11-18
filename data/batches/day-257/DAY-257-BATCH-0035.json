@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Simplify the expression \\(\\frac{\\sin\\theta+\\tan\\theta}{\\sec\\theta+1}\\).",
+      "options": {
+        "A": "\\sin\\theta",
+        "B": "\\cos\\theta",
+        "C": "\\tan\\theta",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "\\sin\\theta",
+      "explanation": "\\(\\sin\\theta+\\tan\\theta=\\sin\\theta+\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{\\sin\\theta(1+\\cos\\theta)}{\\cos\\theta}\\). \\(\\sec\\theta+1=\\frac{1}{\\cos\\theta}+1=\\frac{1+\\cos\\theta}{\\cos\\theta}\\). Dividing gives \\(\\frac{\\sin\\theta(1+\\cos\\theta)}{\\cos\\theta}\\times\\frac{\\cos\\theta}{1+\\cos\\theta}=\\sin\\theta\\). Hence the simplified form is \\(\\sin\\theta\\). Options B, C and D do not reduce to the original expression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Verify identities",
+      "question": "For an acute angle \\(\\alpha\\) with \\(\\sin\\alpha=\\frac{3}{5}\\), which statement correctly verifies the identity \\(1+\\cot^{2}\\alpha=\\csc^{2}\\alpha\\)?",
+      "options": {
+        "A": "Both sides equal \\(\\frac{25}{9}\\)",
+        "B": "Left‑hand side is greater than right‑hand side",
+        "C": "Left‑hand side is less than right‑hand side",
+        "D": "The identity does not hold for this angle"
+      },
+      "correct_option": "A",
+      "answer": "Both sides equal \\(\\frac{25}{9}\\)",
+      "explanation": "From \\(\\sin\\alpha=3/5\\) we get \\(\\cos\\alpha=4/5\\). Then \\(\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}=\\frac{4/5}{3/5}=\\frac{4}{3}\\); \\(\\cot^{2}\\alpha=\\frac{16}{9}\\). Hence LHS = \\(1+\\frac{16}{9}=\\frac{25}{9}\\). \\(\\csc\\alpha=\\frac{1}{\\sin\\alpha}=\\frac{5}{3}\\); \\(\\csc^{2}\\alpha=\\frac{25}{9}\\). Both sides match, confirming the identity. Options B, C and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use reciprocal identities",
+      "question": "Which of the following statements is a correct reciprocal identity?",
+      "options": {
+        "A": "\\sec\\theta = \\frac{1}{\\cos\\theta}",
+        "B": "\\cosec\\theta = \\frac{1}{\\tan\\theta}",
+        "C": "\\tan\\theta = \\frac{1}{\\sec\\theta}",
+        "D": "\\cot\\theta = \\frac{1}{\\sin\\theta}"
+      },
+      "correct_option": "A",
+      "answer": "\\sec\\theta = \\frac{1}{\\cos\\theta}",
+      "explanation": "Reciprocal identities are: \\(\\sec\\theta = 1/\\cos\\theta\\), \\(\\cosec\\theta = 1/\\sin\\theta\\), \\(\\tan\\theta = \\sin\\theta/\\cos\\theta\\) and \\(\\cot\\theta = \\cos\\theta/\\sin\\theta\\). Option A states the correct reciprocal relationship. Options B, C and D misuse the definitions, leading to common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use quotient identities",
+      "question": "Given \\(\\sin\\theta = \\frac{3}{5}\\) and \\(\\cos\\theta = \\frac{4}{5}\\), find \\(\\tan\\theta\\) using the quotient identity.",
+      "options": {
+        "A": "\\frac{3}{4}",
+        "B": "\\frac{4}{3}",
+        "C": "\\frac{5}{3}",
+        "D": "\\frac{5}{4}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{3}{4}",
+      "explanation": "The quotient identity states \\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}\\). Substituting the given values: \\(\\tan\\theta = \\frac{3/5}{4/5}=\\frac{3}{4}\\). Hence option A is correct; the other fractions arise from incorrect inversion or mixing of the given ratios.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Use Pythagorean identities",
+      "question": "Which of the following relationships follows directly from the Pythagorean identities for any angle \\(\\theta\\) where the functions are defined?",
+      "options": {
+        "A": "\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}",
+        "B": "\\sec\\theta = \\frac{1}{\\cos\\theta}",
+        "C": "1+\\tan^{2}\\theta = \\sec^{2}\\theta",
+        "D": "\\sin\\theta + \\cos\\theta = 1"
+      },
+      "correct_option": "C",
+      "answer": "1+\\tan^{2}\\theta = \\sec^{2}\\theta",
+      "explanation": "The three fundamental Pythagorean identities are: \\(\\sin^{2}\\theta+\\cos^{2}\\theta=1\\), \\(1+\\tan^{2}\\theta=\\sec^{2}\\theta\\), and \\(1+\\cot^{2}\\theta=\\csc^{2}\\theta\\). Option C is exactly one of these. Option A is the definition of tangent, not a Pythagorean result; option B is a reciprocal identity; option D is false in general.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Derive related identities",
+      "question": "Using the fundamental identities, simplify \\(\\frac{1-\\cos2\\theta}{\\sin2\\theta}\\).",
+      "options": {
+        "A": "\\tan\\theta",
+        "B": "\\cot\\theta",
+        "C": "\\sin\\theta",
+        "D": "\\cos\\theta"
+      },
+      "correct_option": "A",
+      "answer": "\\tan\\theta",
+      "explanation": "Recall that \\(1-\\cos2\\theta = 2\\sin^{2}\\theta\\) and \\(\\sin2\\theta = 2\\sin\\theta\\cos\\theta\\). The ratio becomes \\(\\frac{2\\sin^{2}\\theta}{2\\sin\\theta\\cos\\theta}=\\frac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta\\). Hence option A is correct. The other options result from incorrect manipulation of the double‑angle formulas.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Simplify trigonometric expressions",
+      "question": "Simplify \\(1-\\cos^{2}\\theta\\).",
+      "options": {
+        "A": "\\sin^{2}\\theta",
+        "B": "\\cos^{2}\\theta",
+        "C": "1",
+        "D": "\\tan^{2}\\theta"
+      },
+      "correct_option": "A",
+      "answer": "\\sin^{2}\\theta",
+      "explanation": "From the basic Pythagorean identity \\(\\sin^{2}\\theta+\\cos^{2}\\theta=1\\), rearranging gives \\(1-\\cos^{2}\\theta=\\sin^{2}\\theta\\). Therefore option A is the simplified form. The other options do not follow from the identity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01091",
+      "learning_point": "Verify identities",
+      "question": "Which statement correctly describes the identity \\(\\frac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta\\)?",
+      "options": {
+        "A": "It holds for all \\(\\theta\\) where \\(\\cos\\theta\\neq0\\)",
+        "B": "It holds only for acute angles",
+        "C": "It is false for angles greater than 90°",
+        "D": "It holds only when \\(\\theta=45^{\\circ}\\)"
+      },
+      "correct_option": "A",
+      "answer": "It holds for all \\(\\theta\\) where \\(\\cos\\theta\\neq0\\)",
+      "explanation": "By definition, tangent is the ratio of sine to cosine, provided cosine is not zero (to avoid division by zero). Hence the identity is universally true for its domain. Options B, C, and D impose unnecessary restrictions.",
+      "difficulty": "easy"
+    }
+  ]
+}
