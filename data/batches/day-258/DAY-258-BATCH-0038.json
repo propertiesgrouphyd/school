@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Consider the following two attempts to prove that the sum of the first n natural numbers equals n(n+1)/2 by induction. Which statement contains an invalid induction argument?",
+      "options": {
+        "A": "Statement A: Base case n=1: 1 = 1·2/2 holds. Inductive step assumes the formula true for n=k and proves it for n=k+1 by adding (k+1) to both sides.",
+        "B": "Statement B: Base case n=1: 1 = 1·2/2 holds. Inductive step assumes the formula true for n=k and directly substitutes n=k+1 without using the induction hypothesis.",
+        "C": "Both statements are valid induction arguments.",
+        "D": "Both statements are invalid induction arguments."
+      },
+      "correct_option": "B",
+      "answer": "Statement B: Base case n=1: 1 = 1·2/2 holds. Inductive step assumes the formula true for n=k and directly substitutes n=k+1 without using the induction hypothesis.",
+      "explanation": "An induction proof must use the induction hypothesis (the truth for n=k) to derive the case n=k+1. Statement B skips this crucial step, making the argument invalid. Statement A correctly adds (k+1) to both sides, using the hypothesis, so it is valid. Options C and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "In an induction proof of the statement P(n): 2^n > n for all integers n ≥ 1, which of the following steps must be included to complete the proof?",
+      "options": {
+        "A": "Verify the base case n = 1.",
+        "B": "Assume P(k) is true for some arbitrary k ≥ 1.",
+        "C": "Show that P(k+1) follows from P(k) by proving 2^{k+1} > k+1.",
+        "D": "All of the above."
+      },
+      "correct_option": "D",
+      "answer": "All of the above.",
+      "explanation": "A complete induction proof requires three parts: (1) a verified base case, (2) a clear induction hypothesis, and (3) a derivation of the statement for k+1 using the hypothesis. Omitting any part leaves the proof incomplete. Hence option D, which includes all three steps, is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "What is the sum of the first n odd natural numbers?",
+      "options": {
+        "A": "n^2",
+        "B": "n(n+1)/2",
+        "C": "2n+1",
+        "D": "n(n+2)"
+      },
+      "correct_option": "A",
+      "answer": "n^2",
+      "explanation": "The sequence of odd numbers is 1, 3, 5, …, (2n‑1). Adding them gives 1+3+5+…+(2n‑1) = n^2, a classic induction identity. The other options correspond to different formulas and are therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following statements correctly expresses that 7 divides 5^{2n} - 1 for every positive integer n?",
+      "options": {
+        "A": "5^{2n} - 1 = 7k for some integer k.",
+        "B": "5^{2n} - 1 \\equiv 0 \\pmod{7}.",
+        "C": "5^{2n} \\equiv 1 \\pmod{7}.",
+        "D": "All of the above."
+      },
+      "correct_option": "B",
+      "answer": "5^{2n} - 1 \\equiv 0 \\pmod{7}.",
+      "explanation": "The modular congruence 5^{2n} - 1 ≡ 0 (mod 7) directly states that 7 divides the expression. Option A is also true but is a less precise way of stating divisibility; option C is equivalent to B but focuses on the left‑hand side alone. The most explicit statement of divisibility in modular form is option B, making it the best answer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "In induction proofs, which of the following best distinguishes proving an inequality from proving an equality?",
+      "options": {
+        "A": "Inequality proofs require establishing a strict > or < relation in the inductive step, while equality proofs require showing both sides are exactly the same.",
+        "B": "Inequality proofs do not need a base case, whereas equality proofs do.",
+        "C": "Inequality proofs can use the induction hypothesis in reverse direction, equality cannot.",
+        "D": "There is no difference; both follow the same steps."
+      },
+      "correct_option": "A",
+      "answer": "Inequality proofs require establishing a strict > or < relation in the inductive step, while equality proofs require showing both sides are exactly the same.",
+      "explanation": "The key distinction is the nature of the statement being proved. For an inequality, the inductive step must demonstrate that the inequality (e.g., > or <) holds when moving from k to k+1. For an equality, the step must show exact equality of the two expressions. Options B, C, and D are incorrect statements about induction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "A student attempts to prove that all horses are the same colour using induction. Which step contains the logical flaw?",
+      "options": {
+        "A": "The base case for n = 1, stating that a single horse has a single colour, is correct.",
+        "B": "The induction hypothesis assumes that any set of k horses are all the same colour.",
+        "C": "The transition from k to k+1 assumes the (k+1)th horse shares the colour of the first k horses without justification.",
+        "D": "The final conclusion that all horses in the world are the same colour."
+      },
+      "correct_option": "C",
+      "answer": "The transition from k to k+1 assumes the (k+1)th horse shares the colour of the first k horses without justification.",
+      "explanation": "The flaw lies in the inductive step: when moving from a group of k horses to k+1, the argument implicitly assumes an overlap that guarantees a common colour, which fails when k = 1. The base case and hypothesis are fine; the error is the unjustified assumption in the transition. Hence option C is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "To prove n! \\ge 2^{n-1} for all n \\ge 1 by induction, which of the following is the correct inductive step?",
+      "options": {
+        "A": "Assume k! \\ge 2^{k-1} and show (k+1)! \\ge 2^{k} by multiplying both sides by (k+1).",
+        "B": "Assume k! \\ge 2^{k-1} and show (k+1)! \\ge 2^{k-1}.",
+        "C": "Assume (k+1)! \\ge 2^{k} and deduce k! \\ge 2^{k-1}.",
+        "D": "No inductive step is needed because the statement is obvious."
+      },
+      "correct_option": "A",
+      "answer": "Assume k! \\ge 2^{k-1} and show (k+1)! \\ge 2^{k} by multiplying both sides by (k+1).",
+      "explanation": "Starting from the hypothesis k! \\ge 2^{k-1}, multiply both sides by (k+1) (which is at least 2 for k \\ge 1) to obtain (k+1)! \\ge (k+1)·2^{k-1} \\ge 2·2^{k-1} = 2^{k}. This completes the inductive step. Options B and C do not correctly advance the inequality, and D ignores the need for proof.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "When proving \\sum_{k=1}^{n} k^2 = n(n+1)(2n+1)/6 by induction, which expression must be established for the inductive step (i.e., for n = k+1)?",
+      "options": {
+        "A": "\\sum_{k=1}^{k+1} k^2 = (k+1)(k+2)(2k+3)/6",
+        "B": "\\sum_{k=1}^{k+1} k^2 = (k+1)(k+2)(2k+1)/6",
+        "C": "\\sum_{k=1}^{k+1} k^2 = (k+1)(k+2)(2k+3)/5",
+        "D": "\\sum_{k=1}^{k+1} k^2 = (k+1)(k+2)(2k+3)/7"
+      },
+      "correct_option": "A",
+      "answer": "\\sum_{k=1}^{k+1} k^2 = (k+1)(k+2)(2k+3)/6",
+      "explanation": "If the formula holds for n = k, then for n = k+1 we need to show \\sum_{i=1}^{k+1} i^2 = (k+1)(k+2)(2(k+1)+1)/6, which simplifies to (k+1)(k+2)(2k+3)/6. Options B, C, and D give incorrect denominators or numerators, so only option A correctly represents the required expression.",
+      "difficulty": "medium"
+    }
+  ]
+}

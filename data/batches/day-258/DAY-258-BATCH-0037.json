@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0037",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "Which of the following summation identities is true for every positive integer n and can be proved by mathematical induction?",
+      "options": {
+        "A": "∑_{k=1}^{n} k = n(n+1)/2",
+        "B": "∑_{k=1}^{n} k = n^2",
+        "C": "∑_{k=1}^{n} k = n(n-1)/2",
+        "D": "∑_{k=1}^{n} k = 2^{n}"
+      },
+      "correct_option": "A",
+      "answer": "∑_{k=1}^{n} k = n(n+1)/2",
+      "explanation": "The well‑known formula for the sum of the first n natural numbers is ∑_{k=1}^{n} k = n(n+1)/2. It can be proved by induction by verifying the base case n=1 and showing that if it holds for n=k, then adding (k+1) yields the formula for n=k+1. The other options are false identities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following divisibility statements holds for all integers n ≥ 1 and can be established using mathematical induction?",
+      "options": {
+        "A": "7^n - 1 is divisible by 5",
+        "B": "5^n - 1 is divisible by 4",
+        "C": "3^n + 2 is divisible by 5",
+        "D": "2^n - 1 is divisible by n"
+      },
+      "correct_option": "B",
+      "answer": "5^n - 1 is divisible by 4",
+      "explanation": "Since 5 ≡ 1 (mod 4), raising 5 to any positive integer power keeps the remainder 1, so 5^n - 1 is always a multiple of 4. This can be proved by induction. Options A, C and D are false for general n.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "When proving an inequality by induction, which of the following correctly describes the base step and the inductive step?",
+      "options": {
+        "A": "Verify the inequality for n=1 (base) and assume it holds for n=k to prove it for n=k+1 (inductive).",
+        "B": "Verify the inequality for n=0 (base) and assume it holds for n=k+1 to prove it for n=k (inductive).",
+        "C": "Prove the inequality directly for all n without using a base case.",
+        "D": "Assume the inequality holds for all n and then check a single case."
+      },
+      "correct_option": "A",
+      "answer": "Verify the inequality for n=1 (base) and assume it holds for n=k to prove it for n=k+1 (inductive).",
+      "explanation": "Induction for inequalities follows the same structure as for equalities: a true base case (often n=1) and a correct inductive step where the hypothesis for n=k is used to establish the statement for n=k+1. Options B, C and D describe incorrect or incomplete procedures.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Which of the following attempts to prove that all horses are the same colour contains a flaw that makes the induction invalid?",
+      "options": {
+        "A": "The base case n=1 is correct, but the inductive step fails when moving from a set of size k to k+1 because the overlapping subsets may not share a common horse.",
+        "B": "The base case n=2 is omitted, making the proof incomplete.",
+        "C": "The proof assumes the statement is true for n=0, which is not defined.",
+        "D": "The proof uses division by zero in the inductive step."
+      },
+      "correct_option": "A",
+      "answer": "The base case n=1 is correct, but the inductive step fails when moving from a set of size k to k+1 because the overlapping subsets may not share a common horse.",
+      "explanation": "In the classic faulty induction, the step from k=1 to k=2 fails because two single‑horse groups have no horse in common, so the argument that a colour common to both groups exists is invalid. This is the precise flaw described in option A. The other options describe unrelated issues.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "Consider the following outline of an induction proof for ∑_{k=1}^{n} k = n(n+1)/2:\n1. Base step: For n=1, LHS = 1 and RHS = 1, so true.\n2. Inductive hypothesis: Assume true for n = m, i.e., ∑_{k=1}^{m} k = m(m+1)/2.\n3. Inductive step: For n = m+1,\n   ∑_{k=1}^{m+1} k = (∑_{k=1}^{m} k) + (m+1).\nWhich of the following statements must be added next to complete the proof?",
+      "options": {
+        "A": "Substitute the inductive hypothesis into the expression and simplify to obtain (m+1)(m+2)/2.",
+        "B": "State that the result holds for all real numbers.",
+        "C": "Assume the formula is true for n = m+2.",
+        "D": "Conclude that the proof is complete without further algebra."
+      },
+      "correct_option": "A",
+      "answer": "Substitute the inductive hypothesis into the expression and simplify to obtain (m+1)(m+2)/2.",
+      "explanation": "After writing ∑_{k=1}^{m+1} k = (∑_{k=1}^{m} k) + (m+1), we replace the sum up to m by the hypothesis m(m+1)/2 and then simplify: m(m+1)/2 + (m+1) = (m+1)(m/2 + 1) = (m+1)(m+2)/2, which is the required formula for n = m+1. The other options either add irrelevant statements or skip necessary algebra.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "You are asked to prove that the sum of the first n odd natural numbers equals n², i.e., ∑_{k=1}^{n} (2k‑1) = n². Which of the following correctly states the inductive hypothesis you would use?",
+      "options": {
+        "A": "Assume ∑_{k=1}^{m} (2k‑1) = m² for some arbitrary positive integer m.",
+        "B": "Assume ∑_{k=1}^{m} (2k‑1) = (m+1)².",
+        "C": "Assume ∑_{k=1}^{m} (2k‑1) = 2m².",
+        "D": "Assume ∑_{k=1}^{m} (2k‑1) = m."
+      },
+      "correct_option": "A",
+      "answer": "Assume ∑_{k=1}^{m} (2k‑1) = m² for some arbitrary positive integer m.",
+      "explanation": "The inductive hypothesis must reflect exactly the statement we intend to prove, namely that the sum of the first m odd numbers equals m². Option A states this correctly. Options B, C, and D are incorrect formulations of the hypothesis.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Many students think that the statement 'n³ ‑ n is divisible by 6 for all integers n' is false because they test n=2 and get 6, which they consider not divisible. Which of the following correctly identifies the truth of the statement?",
+      "options": {
+        "A": "The statement is true; 6 is divisible by 6, so the test confirms it.",
+        "B": "The statement is false; n³ ‑ n is not always divisible by 6.",
+        "C": "The statement is true only for even n.",
+        "D": "The statement is true only for odd n."
+      },
+      "correct_option": "A",
+      "answer": "The statement is true; 6 is divisible by 6, so the test confirms it.",
+      "explanation": "For any integer n, n³ ‑ n = n(n‑1)(n+1) is the product of three consecutive integers, one of which is divisible by 2 and another by 3; hence the whole product is divisible by 6. The test with n=2 gives 6, which is indeed divisible by 6. Options B, C, and D are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "To prove by induction that n! > 2ⁿ for all integers n ≥ 4, which of the following steps is essential in the inductive step?",
+      "options": {
+        "A": "Multiply the inductive hypothesis k! > 2ᵏ by (k+1) and show (k+1) > 2.",
+        "B": "Add 1 to both sides of the inequality k! > 2ᵏ.",
+        "C": "Replace k! with 2ᵏ in the inequality.",
+        "D": "Assume the inequality holds for k‑1 instead of k."
+      },
+      "correct_option": "A",
+      "answer": "Multiply the inductive hypothesis k! > 2ᵏ by (k+1) and show (k+1) > 2.",
+      "explanation": "Assuming k! > 2ᵏ for some k ≥ 4, we consider (k+1)! = (k+1)·k!. Multiplying the hypothesis gives (k+1)·k! > (k+1)·2ᵏ. Since k+1 ≥ 5 > 2, we have (k+1)·2ᵏ > 2·2ᵏ = 2^{k+1}. Thus (k+1)! > 2^{k+1}. This reasoning is the core of the inductive step. The other options do not lead to the required inequality.",
+      "difficulty": "medium"
+    }
+  ]
+}
