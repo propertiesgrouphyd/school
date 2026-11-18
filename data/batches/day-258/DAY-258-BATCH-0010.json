@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "Which of the following statements correctly describes the graph of y = sin x?",
+      "options": {
+        "A": "It is periodic with period 2π, amplitude 1, and passes through the origin (0,0).",
+        "B": "It is periodic with period π, amplitude 1, and starts at (0,1).",
+        "C": "It is periodic with period 2π, amplitude 2, and passes through the origin (0,0).",
+        "D": "It is periodic with period π, amplitude 0.5, and starts at (0,0)."
+      },
+      "correct_option": "A",
+      "answer": "It is periodic with period 2π, amplitude 1, and passes through the origin (0,0).",
+      "explanation": "The sine function repeats every 2π radians, has a maximum value of 1 and minimum of –1, giving an amplitude of 1, and its value at x = 0 is sin 0 = 0, so the graph passes through the origin. Options B, C and D contain incorrect period, amplitude or starting point values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "Which transformation of the graph of y = sin x yields the graph of y = cos x?",
+      "options": {
+        "A": "Shift the sine graph left by π/2 units.",
+        "B": "Shift the sine graph right by π/2 units.",
+        "C": "Reflect the sine graph about the x‑axis.",
+        "D": "Reflect the sine graph about the y‑axis."
+      },
+      "correct_option": "A",
+      "answer": "Shift the sine graph left by π/2 units.",
+      "explanation": "cos x = sin(x + π/2); adding a positive angle inside the function shifts the graph to the left. Therefore moving the sine curve left by π/2 produces the cosine curve. The other options give different graphs that are not the cosine function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "The graph of y = tan x has vertical asymptotes at which set of x‑values?",
+      "options": {
+        "A": "x = nπ, where n is any integer",
+        "B": "x = (2n+1)π/2, where n is any integer",
+        "C": "x = nπ/2, where n is any integer",
+        "D": "x = 2nπ, where n is any integer"
+      },
+      "correct_option": "B",
+      "answer": "x = (2n+1)π/2, where n is any integer",
+      "explanation": "tan x = sin x / cos x is undefined when cos x = 0, i.e., at odd multiples of π/2: x = (2n+1)π/2. Option A gives zeros of sin, not asymptotes. Option C includes both zeros and asymptotes. Option D gives multiples of 2π, which are regular points.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "If f(x) = sin 2x, what is the period of f?",
+      "options": {
+        "A": "π",
+        "B": "2π",
+        "C": "π/2",
+        "D": "4π"
+      },
+      "correct_option": "A",
+      "answer": "π",
+      "explanation": "For sin(kx) the period is 2π/|k|. Here k = 2, so period = 2π/2 = π. The other choices correspond to incorrect calculations of the period.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify amplitude where applicable",
+      "question": "Which statement about the amplitude of y = tan x is correct?",
+      "options": {
+        "A": "The amplitude is 1.",
+        "B": "The amplitude is undefined.",
+        "C": "The amplitude is 0.",
+        "D": "The amplitude is infinite."
+      },
+      "correct_option": "B",
+      "answer": "The amplitude is undefined.",
+      "explanation": "Amplitude is defined for bounded periodic functions like sine and cosine. tan x is unbounded, so it does not have a finite amplitude; we say the amplitude is undefined. Options A, C, and D assign specific values that are not appropriate for tan x.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Determine basic domain and range",
+      "question": "What are the domain and range of the function y = sin x?",
+      "options": {
+        "A": "Domain: all real numbers; Range: [‑1, 1]",
+        "B": "Domain: [0, 2π]; Range: [‑1, 1]",
+        "C": "Domain: all real numbers; Range: all real numbers",
+        "D": "Domain: all real numbers; Range: [0, 1]"
+      },
+      "correct_option": "A",
+      "answer": "Domain: all real numbers; Range: [‑1, 1]",
+      "explanation": "The sine function is defined for every real x, giving a domain of ℝ. Its values never exceed 1 or go below –1, so the range is the closed interval [‑1, 1]. Options B restricts the domain unnecessarily, C gives an incorrect range, and D gives a range that excludes negative values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "Which statement correctly compares the graphs of y = sin x and y = cos x?",
+      "options": {
+        "A": "Both have the same amplitude and period, and the cosine graph is a left shift of the sine graph by π/2.",
+        "B": "The cosine graph has double the amplitude of the sine graph.",
+        "C": "The sine graph has period π while the cosine graph has period 2π.",
+        "D": "The cosine graph is the reflection of the sine graph about the x‑axis."
+      },
+      "correct_option": "A",
+      "answer": "Both have the same amplitude and period, and the cosine graph is a left shift of the sine graph by π/2.",
+      "explanation": "Sine and cosine are identical in shape: amplitude 1 and period 2π. Cosine leads sine by π/2, meaning the cosine graph can be obtained by shifting the sine graph left by π/2. Options B, C, and D describe false relationships.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "Regarding the function y = cos x, which of the following is true?",
+      "options": {
+        "A": "cos x is an odd function.",
+        "B": "cos x is an even function.",
+        "C": "cos x is neither even nor odd.",
+        "D": "cos x is both even and odd."
+      },
+      "correct_option": "B",
+      "answer": "cos x is an even function.",
+      "explanation": "A function f is even if f(‑x) = f(x). Since cos(‑x) = cos x, the cosine function is even. It is not odd because cos(‑x) ≠ –cos x, and it cannot be both even and odd unless it is identically zero, which cos x is not. Hence option B is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}
