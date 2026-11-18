@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Solve basic trigonometric equations",
+      "question": "Which of the following gives the complete set of solutions of the equation \\(\\sin \\theta = \\frac{1}{2}\\)?",
+      "options": {
+        "A": "\\(\\theta = 30^{\\circ} + 360^{\\circ}k\\)",
+        "B": "\\(\\theta = 150^{\\circ} + 360^{\\circ}k\\)",
+        "C": "\\(\\theta = 30^{\\circ} + 180^{\\circ}k\\)",
+        "D": "\\(\\theta = 30^{\\circ} + 360^{\\circ}k \\text{ or } 150^{\\circ} + 360^{\\circ}k\\)"
+      },
+      "correct_option": "D",
+      "answer": "\\(\\theta = 30^{\\circ} + 360^{\\circ}k \\text{ or } 150^{\\circ} + 360^{\\circ}k\\)",
+      "explanation": "The equation \\(\\sin \\theta = \\frac{1}{2}\\) is satisfied when the reference angle is 30°. In the unit circle this occurs in the first quadrant (30°) and the second quadrant (150°). Because sine is periodic with period 360°, the general solutions are \\(\\theta = 30^{\\circ} + 360^{\\circ}k\\) and \\(\\theta = 150^{\\circ} + 360^{\\circ}k\\), where \\(k\\) is any integer. Options A, B and C each give only one of these families, so D is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Find solutions in specified intervals",
+      "question": "Find all solutions of \\(\\cos \\theta = -\\frac{1}{2}\\) in the interval \\(0^{\\circ} \\le \\theta < 360^{\\circ}\\).",
+      "options": {
+        "A": "60°, 300°",
+        "B": "120°, 240°",
+        "C": "90°, 270°",
+        "D": "0°, 180°"
+      },
+      "correct_option": "B",
+      "answer": "120°, 240°",
+      "explanation": "Cosine is negative in the second and third quadrants. The reference angle for \\(|\\cos \\theta| = \\frac{1}{2}\\) is 60°. Hence the angles are \\(180^{\\circ} - 60^{\\circ} = 120^{\\circ}\\) and \\(180^{\\circ} + 60^{\\circ} = 240^{\\circ}\\). Options A, C and D correspond to other quadrants or the wrong sign, so B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Understand general solutions",
+      "question": "What is the general solution of the equation \\(\\tan \\theta = 1\\)?",
+      "options": {
+        "A": "\\(\\theta = 45^{\\circ} + 360^{\\circ}k\\)",
+        "B": "\\(\\theta = 45^{\\circ} + 180^{\\circ}k\\)",
+        "C": "\\(\\theta = 90^{\\circ} + 180^{\\circ}k\\)",
+        "D": "\\(\\theta = 0^{\\circ} + 180^{\\circ}k\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\theta = 45^{\\circ} + 180^{\\circ}k\\)",
+      "explanation": "The tangent function repeats every 180°. The principal value where \\(\\tan \\theta = 1\\) is \\(45^{\\circ}\\). Adding any integer multiple of the period gives the complete set: \\(\\theta = 45^{\\circ} + 180^{\\circ}k\\). Option A uses the period of sine/cosine (360°) and therefore misses half the solutions. Options C and D correspond to different tangent values, so B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Use standard identities while solving equations",
+      "question": "Solve the equation \\(\\sin \\theta + \\sqrt{3}\\,\\cos \\theta = 0\\) for \\(\\theta\\) (general solution).",
+      "options": {
+        "A": "\\(\\theta = 30^{\\circ} + 180^{\\circ}k\\)",
+        "B": "\\(\\theta = 120^{\\circ} + 180^{\\circ}k\\)",
+        "C": "\\(\\theta = 60^{\\circ} + 180^{\\circ}k\\)",
+        "D": "\\(\\theta = 150^{\\circ} + 180^{\\circ}k\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\theta = 120^{\\circ} + 180^{\\circ}k\\)",
+      "explanation": "Rewrite the equation as \\(\\frac{\\sin \\theta}{\\cos \\theta} = -\\sqrt{3}\\), i.e., \\(\\tan \\theta = -\\sqrt{3}\\). The reference angle whose tangent is \\(\\sqrt{3}\\) is 60°. Since the tangent is negative in the second and fourth quadrants, the principal solution is \\(180^{\\circ} - 60^{\\circ} = 120^{\\circ}\\). Adding the period of tangent (180°) gives \\(\\theta = 120^{\\circ} + 180^{\\circ}k\\). Options A, C, D correspond to other quadrants or the wrong sign, so B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Solve basic trigonometric equations",
+      "question": "A student claims that the equation \\(\\sin \\theta = 0\\) has only the solution \\(\\theta = 0^{\\circ}\\). Which statement correctly addresses this claim?",
+      "options": {
+        "A": "The claim is correct; sine is zero only at 0°.",
+        "B": "The claim is partially correct; sine is also zero at 180°.",
+        "C": "The claim is incorrect; the complete solution is \\(\\theta = n\\times 180^{\\circ}\\) where \\(n\\) is any integer.",
+        "D": "The claim is incorrect; sine never equals zero."
+      },
+      "correct_option": "C",
+      "answer": "The claim is incorrect; the complete solution is \\(\\theta = n\\times 180^{\\circ}\\) where \\(n\\) is any integer.",
+      "explanation": "Sine equals zero at every integer multiple of 180° (or \\(n\\pi\\) radians). Thus the general solution is \\(\\theta = 180^{\\circ}k\\) where \\(k\\in \\mathbb{Z}\\). Options A and B miss many solutions, and D is false. Option C correctly states the full set, so it is the right answer.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Find solutions in specified intervals",
+      "question": "If \\(2\\sin \\theta = \\sqrt{3}\\), which of the following pairs gives all solutions for \\(\\theta\\) in the interval \\([0^{\\circ}, 360^{\\circ})\\)?",
+      "options": {
+        "A": "30°, 150°",
+        "B": "60°, 120°",
+        "C": "90°, 270°",
+        "D": "0°, 180°"
+      },
+      "correct_option": "B",
+      "answer": "60°, 120°",
+      "explanation": "Dividing both sides gives \\(\\sin \\theta = \\frac{\\sqrt{3}}{2}\\). The reference angle with this sine value is 60°. Sine is positive in the first and second quadrants, so the solutions are \\(\\theta = 60^{\\circ}\\) and \\(\\theta = 180^{\\circ} - 60^{\\circ} = 120^{\\circ}\\). Options A, C, and D correspond to other sine values, making B the correct choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Understand general solutions",
+      "question": "Which statement correctly compares the general solutions of \\(\\sin \\theta = a\\) and \\(\\cos \\theta = a\\) (where \\(|a|\\le 1\\))?",
+      "options": {
+        "A": "For \\(\\sin \\theta = a\\): \\(\\theta = \\arcsin a + 2\\pi k\\) or \\(\\theta = (\\pi - \\arcsin a) + 2\\pi k\\); for \\(\\cos \\theta = a\\): \\(\\theta = \\arccos a + 2\\pi k\\) or \\(\\theta = (2\\pi - \\arccos a) + 2\\pi k\\).",
+        "B": "For \\(\\sin \\theta = a\\): \\(\\theta = \\arcsin a + \\pi k\\); for \\(\\cos \\theta = a\\): \\(\\theta = \\arccos a + \\pi k\\).",
+        "C": "Both equations have the same general solution: \\(\\theta = \\arcsin a + 2\\pi k\\).",
+        "D": "For \\(\\sin \\theta = a\\): \\(\\theta = (\\pi/2 - \\arccos a) + 2\\pi k\\); for \\(\\cos \\theta = a\\): \\(\\theta = \\arccos a + \\pi k\\)."
+      },
+      "correct_option": "A",
+      "answer": "For \\(\\sin \\theta = a\\): \\(\\theta = \\arcsin a + 2\\pi k\\) or \\(\\theta = (\\pi - \\arcsin a) + 2\\pi k\\); for \\(\\cos \\theta = a\\): \\(\\theta = \\arccos a + 2\\pi k\\) or \\(\\theta = (2\\pi - \\arccos a) + 2\\pi k\\).",
+      "explanation": "Sine is positive in the first and second quadrants, giving the two families \\(\\theta = \\arcsin a + 2\\pi k\\) and \\(\\theta = (\\pi - \\arcsin a) + 2\\pi k\\). Cosine is positive in the first and fourth quadrants, leading to \\(\\theta = \\arccos a + 2\\pi k\\) and \\(\\theta = (2\\pi - \\arccos a) + 2\\pi k\\). Option B incorrectly uses a period of \\(\\pi\\) for both functions, which would miss alternate solutions. Option C ignores the second family for each function. Option D mixes up the identities. Hence A is the accurate comparison.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Use standard identities while solving equations",
+      "question": "Solve \\(2\\sin^{2}\\theta - \\sqrt{3}\\,\\sin\\theta - 1 = 0\\) for \\(0^{\\circ} \\le \\theta < 360^{\\circ}\\).",
+      "options": {
+        "A": "203.3°, 336.7°",
+        "B": "30°, 150°",
+        "C": "45°, 225°",
+        "D": "90°, 270°"
+      },
+      "correct_option": "A",
+      "answer": "203.3°, 336.7°",
+      "explanation": "Let \\(x = \\sin\\theta\\). The quadratic becomes \\(2x^{2} - \\sqrt{3}x - 1 = 0\\). Solving, \\(x = \\frac{\\sqrt{3} \\pm \\sqrt{11}}{4}\\). The value with the plus sign exceeds 1 and is discarded. The admissible root is \\(x = \\frac{\\sqrt{3} - \\sqrt{11}}{4} \\approx -0.396\\). Hence \\(\\sin\\theta = -0.396\\). In the interval \\([0^{\\circ},360^{\\circ})\\) the sine is negative in the third and fourth quadrants. \\(\\theta_{1} = \\arcsin(-0.396) \\approx -23.3^{\\circ}\\) which corresponds to \\(360^{\\circ} - 23.3^{\\circ} = 336.7^{\\circ}\\). The other solution is \\(\\theta_{2} = 180^{\\circ} - (-23.3^{\\circ}) = 203.3^{\\circ}\\). Therefore the correct pair is 203.3° and 336.7°, option A. The other options correspond to different sine values.",
+      "difficulty": "hard"
+    }
+  ]
+}

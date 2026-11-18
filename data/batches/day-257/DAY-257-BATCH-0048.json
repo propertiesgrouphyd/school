@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Solve basic trigonometric equations",
+      "question": "Solve the equation \\(\\sin\\theta = \\frac{1}{2}\\). Which of the following gives the complete set of solutions?",
+      "options": {
+        "A": "\\(\\theta = 30^{\\circ}+360^{\\circ}k\\)",
+        "B": "\\(\\theta = 150^{\\circ}+360^{\\circ}k\\)",
+        "C": "\\(\\theta = 30^{\\circ}+180^{\\circ}k\\)",
+        "D": "\\(\\theta = 30^{\\circ}+360^{\\circ}k\\) or \\(\\theta = 150^{\\circ}+360^{\\circ}k\\)"
+      },
+      "correct_option": "D",
+      "answer": "\\(\\theta = 30^{\\circ}+360^{\\circ}k\\) or \\(\\theta = 150^{\\circ}+360^{\\circ}k\\)",
+      "explanation": "\\(\\sin\\theta = \\frac{1}{2}\\) is satisfied at \\(\\theta = 30^{\\circ}\\) and \\(\\theta = 150^{\\circ}\\) in the first revolution. Because sine is periodic with period \\(360^{\\circ}\\), adding \\(360^{\\circ}k\\) (k∈ℤ) to each gives all solutions. Options A and B give only one family; option C uses the wrong period. Hence D correctly lists both families.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Find solutions in specified intervals",
+      "question": "Find all solutions of \\(\\cos\\theta = -\\frac{\\sqrt{3}}{2}\\) in the interval \\([0^{\\circ},360^{\\circ}]\\).",
+      "options": {
+        "A": "\\(150^{\\circ},\\;210^{\\circ}\\)",
+        "B": "\\(120^{\\circ},\\;240^{\\circ}\\)",
+        "C": "\\(150^{\\circ},\\;210^{\\circ},\\;330^{\\circ}\\)",
+        "D": "\\(30^{\\circ},\\;150^{\\circ}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(150^{\\circ},\\;210^{\\circ}\\)",
+      "explanation": "Cosine equals \\(-\\sqrt{3}/2\\) at the reference angle \\(30^{\\circ}\\) in the second and third quadrants, giving angles \\(180^{\\circ}-30^{\\circ}=150^{\\circ}\\) and \\(180^{\\circ}+30^{\\circ}=210^{\\circ}\\). No other angles in the given interval satisfy the equation, so option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Understand general solutions",
+      "question": "The general solution of \\(\\tan\\theta = 1\\) is:",
+      "options": {
+        "A": "\\(\\theta = 45^{\\circ}+180^{\\circ}k\\)",
+        "B": "\\(\\theta = 45^{\\circ}+360^{\\circ}k\\)",
+        "C": "\\(\\theta = 135^{\\circ}+180^{\\circ}k\\)",
+        "D": "\\(\\theta = 135^{\\circ}+360^{\\circ}k\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\theta = 45^{\\circ}+180^{\\circ}k\\)",
+      "explanation": "\\(\\tan\\theta = 1\\) occurs where the angle is \\(45^{\\circ}\\) plus any integer multiple of the period of tangent, which is \\(180^{\\circ}\\). Option B mistakenly uses the period of sine/cosine. Options C and D correspond to \\(\\tan\\theta = -1\\). Hence A is the correct general solution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Use standard identities while solving equations",
+      "question": "To solve \\(2\\sin^{2}\\theta-1=0\\), which trigonometric identity is most directly applied?",
+      "options": {
+        "A": "\\(\\sin2\\theta = 2\\sin\\theta\\cos\\theta\\)",
+        "B": "\\(\\cos2\\theta = 1-2\\sin^{2}\\theta\\)",
+        "C": "\\(\\tan^{2}\\theta+1 = \\sec^{2}\\theta\\)",
+        "D": "\\(\\sin^{2}\\theta+\\cos^{2}\\theta = 1\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\cos2\\theta = 1-2\\sin^{2}\\theta\\)",
+      "explanation": "Rearranging the equation gives \\(2\\sin^{2}\\theta = 1\\) → \\(1-2\\sin^{2}\\theta = 0\\). The left‑hand side is exactly \\(\\cos2\\theta\\) by the double‑angle identity \\(\\cos2\\theta = 1-2\\sin^{2}\\theta\\). Thus identity B converts the equation to \\(\\cos2\\theta = 0\\), which is straightforward to solve. The other identities are unrelated to this form.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Solve basic trigonometric equations",
+      "question": "In the interval \\([0^{\\circ},360^{\\circ}]\\), how many solutions does each of the equations \\(\\sin\\theta = \\frac{1}{2}\\) and \\(\\cos\\theta = \\frac{1}{2}\\) have?",
+      "options": {
+        "A": "Both equations have two solutions",
+        "B": "\\(\\sin\\theta = \\frac{1}{2}\\) has two solutions, \\(\\cos\\theta = \\frac{1}{2}\\) has one",
+        "C": "\\(\\sin\\theta = \\frac{1}{2}\\) has one solution, \\(\\cos\\theta = \\frac{1}{2}\\) has two",
+        "D": "Both equations have one solution"
+      },
+      "correct_option": "A",
+      "answer": "Both equations have two solutions",
+      "explanation": "\\(\\sin\\theta = \\frac{1}{2}\\) is satisfied at \\(30^{\\circ}\\) and \\(150^{\\circ}\\). \\(\\cos\\theta = \\frac{1}{2}\\) is satisfied at \\(60^{\\circ}\\) and \\(300^{\\circ}\\). Hence each equation yields exactly two distinct solutions in the stated interval, making option A correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Find solutions in specified intervals",
+      "question": "Solve \\(2\\cos\\theta - \\sqrt{3}=0\\) for \\(\\theta\\) in the interval \\([0,2\\pi]\\).",
+      "options": {
+        "A": "\\(\\frac{\\pi}{6},\\;\\frac{5\\pi}{6}\\)",
+        "B": "\\(\\frac{\\pi}{3},\\;\\frac{2\\pi}{3}\\)",
+        "C": "\\(\\frac{\\pi}{6},\\;\\frac{11\\pi}{6}\\)",
+        "D": "\\(\\frac{\\pi}{3},\\;\\frac{5\\pi}{3}\\)"
+      },
+      "correct_option": "C",
+      "answer": "\\(\\frac{\\pi}{6},\\;\\frac{11\\pi}{6}\\)",
+      "explanation": "Rearranging gives \\(\\cos\\theta = \\frac{\\sqrt{3}}{2}\\). The principal value is \\(\\theta = \\frac{\\pi}{6}\\). Because cosine is positive in the first and fourth quadrants, the second solution in \\([0,2\\pi]\\) is \\(2\\pi-\\frac{\\pi}{6}=\\frac{11\\pi}{6}\\). Options A, B, and D correspond to other cosine values, so C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Understand general solutions",
+      "question": "What is the general solution of the equation \\(\\sin\\theta = 0\\)?",
+      "options": {
+        "A": "\\(\\theta = n\\pi\\)",
+        "B": "\\(\\theta = \\frac{\\pi}{2}+n\\pi\\)",
+        "C": "\\(\\theta = 0\\)",
+        "D": "\\(\\theta = 2\\pi n\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\theta = n\\pi\\)",
+      "explanation": "Sine equals zero at integer multiples of \\(\\pi\\) radians (or 180°). Option A captures all such multiples (n∈ℤ). Option D is a subset (only even multiples), and options B and C miss many solutions. Hence A is the complete general solution.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Use standard identities while solving equations",
+      "question": "Which identity expresses \\(\\sin^{2}\\theta\\) in terms of a double‑angle cosine?",
+      "options": {
+        "A": "\\(\\sin2\\theta = 2\\sin\\theta\\cos\\theta\\)",
+        "B": "\\(\\cos2\\theta = \\cos^{2}\\theta - \\sin^{2}\\theta\\)",
+        "C": "\\(\\sin^{2}\\theta = \\frac{1-\\cos2\\theta}{2}\\)",
+        "D": "\\(\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}\\)"
+      },
+      "correct_option": "C",
+      "answer": "\\(\\sin^{2}\\theta = \\frac{1-\\cos2\\theta}{2}\\)",
+      "explanation": "The power‑reducing identity for sine is \\(\\sin^{2}\\theta = \\frac{1-\\cos2\\theta}{2}\\). This converts a squared sine term into a cosine of double angle, useful for solving equations. The other options are different identities.",
+      "difficulty": "easy"
+    }
+  ]
+}
