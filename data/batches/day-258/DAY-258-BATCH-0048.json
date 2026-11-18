@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Identify real and imaginary parts",
+      "question": "Consider the complex number 3 − 4i. Which of the following correctly identifies its real part and imaginary part?",
+      "options": {
+        "A": "Real part = 3, Imaginary part = -4",
+        "B": "Real part = -4, Imaginary part = 3",
+        "C": "Real part = 3, Imaginary part = 4",
+        "D": "Real part = -3, Imaginary part = 4"
+      },
+      "correct_option": "A",
+      "answer": "Real part = 3, Imaginary part = -4",
+      "explanation": "In a complex number written as a + ib, the coefficient a is the real part and b is the imaginary part. For 3 − 4i, a = 3 and b = -4, so the real part is 3 and the imaginary part is -4. The other options swap or change the signs incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Understand the need for complex numbers",
+      "question": "A student tries to solve the equation x² + 4 = 0 using only real numbers and finds no solution. Which statement best explains why introducing complex numbers is necessary in this case?",
+      "options": {
+        "A": "Because every polynomial equation must have a solution, leading to the definition of i such that i² = –1.",
+        "B": "Because negative numbers cannot be squared.",
+        "C": "Because the equation was written incorrectly.",
+        "D": "Because only linear equations can be solved with real numbers."
+      },
+      "correct_option": "A",
+      "answer": "Because every polynomial equation must have a solution, leading to the definition of i such that i² = –1.",
+      "explanation": "The Fundamental Theorem of Algebra states that every non‑constant polynomial has at least one root in the complex number system. Introducing the imaginary unit i (where i² = –1) allows equations like x² + 4 = 0 to have solutions (x = ±2i). Options B, C, and D are misconceptions about the nature of squaring and solving equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Define i",
+      "question": "Which of the following correctly defines the imaginary unit i?",
+      "options": {
+        "A": "i is a real number equal to –1.",
+        "B": "i is a symbol representing the square root of –1, satisfying i² = –1.",
+        "C": "i is the same as the number 1.",
+        "D": "i is the cube root of –1."
+      },
+      "correct_option": "B",
+      "answer": "i is a symbol representing the square root of –1, satisfying i² = –1.",
+      "explanation": "By definition, the imaginary unit i is introduced so that i² = –1. It is not a real number, nor is it equal to 1 or a cube root of –1. Option B captures the precise definition; the other options are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Understand square roots of negative real numbers",
+      "question": "What is the principal value of √(–9)?",
+      "options": {
+        "A": "3i",
+        "B": "-3i",
+        "C": "9",
+        "D": "-9"
+      },
+      "correct_option": "A",
+      "answer": "3i",
+      "explanation": "The square root of a negative real number is expressed using the imaginary unit: √(–9) = √9 · √(–1) = 3i. The principal (positive) value is taken, so 3i is correct. –3i is also a square root but not the principal value; 9 and –9 are not square roots of –9.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Write complex numbers in a + ib form",
+      "question": "Which of the following expresses the complex number given in polar form 5∠120° correctly in a + ib form?",
+      "options": {
+        "A": "-2.5 + 4.33i",
+        "B": "-2.5 - 4.33i",
+        "C": "2.5 + 4.33i",
+        "D": "2.5 - 4.33i"
+      },
+      "correct_option": "A",
+      "answer": "-2.5 + 4.33i",
+      "explanation": "Convert using a = r cosθ, b = r sinθ. Here r = 5, θ = 120° (cos120° = –½, sin120° = √3/2 ≈ 0.866). Thus a = 5(–½) = –2.5 and b = 5(0.866) ≈ 4.33, giving –2.5 + 4.33i. The other options have incorrect signs.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Identify real and imaginary parts",
+      "question": "If z = (2 + 3i)/(1 – i), what are the real and imaginary parts of z?",
+      "options": {
+        "A": "Real part = –0.5, Imaginary part = 2.5",
+        "B": "Real part = 0.5, Imaginary part = –2.5",
+        "C": "Real part = –2.5, Imaginary part = 0.5",
+        "D": "Real part = 2.5, Imaginary part = –0.5"
+      },
+      "correct_option": "A",
+      "answer": "Real part = –0.5, Imaginary part = 2.5",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: (2+3i)(1+i)/(1+i)(1‑i) = (2+2i+3i+3i²)/2 = (2+5i‑3)/2 = (‑1+5i)/2 = –0.5 + 2.5i. Hence the real part is –0.5 and the imaginary part is 2.5. The other options misplace signs or values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Understand the need for complex numbers",
+      "question": "Why were complex numbers introduced in mathematics?",
+      "options": {
+        "A": "To provide solutions for equations like x² + 1 = 0 that have no real roots.",
+        "B": "To replace real numbers entirely.",
+        "C": "To simplify addition of fractions.",
+        "D": "To avoid using negative numbers."
+      },
+      "correct_option": "A",
+      "answer": "To provide solutions for equations like x² + 1 = 0 that have no real roots.",
+      "explanation": "Complex numbers extend the real number system so that every polynomial equation has a root (Fundamental Theorem of Algebra). Equations such as x² + 1 = 0 have no real solution, but they have solutions x = ±i in the complex system. Options B, C, and D describe unrelated or incorrect motivations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01096",
+      "learning_point": "Define i",
+      "question": "The imaginary unit i is defined as:",
+      "options": {
+        "A": "The number whose square is –1.",
+        "B": "The number whose cube is –1.",
+        "C": "The number equal to 0.",
+        "D": "The number equal to 1."
+      },
+      "correct_option": "A",
+      "answer": "The number whose square is –1.",
+      "explanation": "By definition, i satisfies i² = –1. This definition introduces the concept of imaginary numbers. The other options describe different, incorrect properties.",
+      "difficulty": "easy"
+    }
+  ]
+}
