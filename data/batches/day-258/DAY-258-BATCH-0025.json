@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "Which of the following comparisons correctly identifies the induction step in a proof by mathematical induction?",
+      "options": {
+        "A": "Assuming the statement holds for an arbitrary integer k, and then proving it holds for k+1.",
+        "B": "Verifying the statement for the initial integer n=1 without any assumption.",
+        "C": "Assuming the statement holds for all integers up to k and then proving it holds for k+2.",
+        "D": "Demonstrating that the statement is false for some integer larger than the base case."
+      },
+      "correct_option": "A",
+      "answer": "Assuming the statement holds for an arbitrary integer k, and then proving it holds for k+1.",
+      "explanation": "The induction step requires assuming the proposition is true for a particular integer k (the induction hypothesis) and then proving it is true for the next integer k+1. Option B describes the base case, C overreaches by skipping k+1, and D is unrelated to induction.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "In a typical competitive exam, a problem states: 'Let P(n) be a proposition. P(1) is true, and for every integer k≥1, P(k) ⇒ P(k+1)'. What is the correct conclusion that can be drawn from these premises?",
+      "options": {
+        "A": "P(n) is true for every positive integer n.",
+        "B": "P(n) is true only for n=1 and n=2.",
+        "C": "P(n) may be false for some large n despite the premises.",
+        "D": "The truth of P(n) cannot be determined without an explicit formula."
+      },
+      "correct_option": "A",
+      "answer": "P(n) is true for every positive integer n.",
+      "explanation": "By the principle of mathematical induction, if the base case (n=1) holds and the implication P(k) ⇒ P(k+1) holds for all k≥1, then the proposition is true for all natural numbers. Options B, C, and D ignore the logical consequence of the induction principle.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Which statement best describes the principle of mathematical induction?",
+      "options": {
+        "A": "If a statement is true for the first integer and its truth for n implies its truth for n+1, then it is true for all integers greater than or equal to the first integer.",
+        "B": "If a statement is true for an integer, it must be true for all smaller integers.",
+        "C": "A statement is true for all integers only if it can be expressed as a polynomial.",
+        "D": "The principle states that every integer can be written as a sum of primes."
+      },
+      "correct_option": "A",
+      "answer": "If a statement is true for the first integer and its truth for n implies its truth for n+1, then it is true for all integers greater than or equal to the first integer.",
+      "explanation": "Option A captures the two essential components of induction: the base case and the inductive step. Options B, C, and D describe unrelated or incorrect statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "When applying mathematical induction to prove that the sum of the first n natural numbers equals n(n+1)/2, which of the following is the statement that needs to be proved?",
+      "options": {
+        "A": "For every positive integer n, 1+2+...+n = n(n+1)/2.",
+        "B": "The sum of the first n natural numbers is always an even number.",
+        "C": "The formula n(n+1)/2 holds only for n=1.",
+        "D": "The product of n and (n+1) is always divisible by 2."
+      },
+      "correct_option": "A",
+      "answer": "For every positive integer n, 1+2+...+n = n(n+1)/2.",
+      "explanation": "The proposition to be proved by induction is the exact formula relating the sum of the first n natural numbers to n(n+1)/2. Options B, C, and D are consequences or partial observations, not the full statement to be proved.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "Which of the following correctly defines the base case in a proof by induction?",
+      "options": {
+        "A": "Verifying that the proposition holds for the initial integer (usually n=1).",
+        "B": "Assuming the proposition holds for an arbitrary integer k.",
+        "C": "Proving that if the proposition holds for k, then it holds for k+1.",
+        "D": "Demonstrating that the proposition fails for some integer."
+      },
+      "correct_option": "A",
+      "answer": "Verifying that the proposition holds for the initial integer (usually n=1).",
+      "explanation": "The base case establishes the truth of the statement for the smallest value of n, typically n=1. Option B describes the induction hypothesis, C describes the induction step, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "For the proposition P(n): 'The sum of the first n odd numbers equals n²', what is the correct induction hypothesis?",
+      "options": {
+        "A": "Assume that 1+3+5+...+(2k-1) = k² holds for an arbitrary positive integer k.",
+        "B": "Assume that 1+3+5+...+(2k+1) = (k+1)² holds for all integers k.",
+        "C": "Assume that the sum of the first k even numbers equals k(k+1).",
+        "D": "Assume that the statement is true for n=1 only."
+      },
+      "correct_option": "A",
+      "answer": "Assume that 1+3+5+...+(2k-1) = k² holds for an arbitrary positive integer k.",
+      "explanation": "The induction hypothesis must state that the proposition is true for a generic integer k, using the same form as the original statement. Option B changes the expression, C is about even numbers, and D limits the hypothesis to a single case.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "In proving by induction that 1+2+...+n = n(n+1)/2, which of the following correctly completes the induction step?",
+      "options": {
+        "A": "Assuming 1+2+...+k = k(k+1)/2, then adding (k+1) to both sides gives 1+2+...+k+(k+1) = (k+1)(k+2)/2.",
+        "B": "Assuming the formula holds for k, then substituting k=0 gives the result for k+1.",
+        "C": "Assuming the statement for k, then differentiating both sides with respect to k.",
+        "D": "Assuming the formula holds for k, then multiplying both sides by (k+1)."
+      },
+      "correct_option": "A",
+      "answer": "Assuming 1+2+...+k = k(k+1)/2, then adding (k+1) to both sides gives 1+2+...+k+(k+1) = (k+1)(k+2)/2.",
+      "explanation": "The correct induction step adds the next term (k+1) to the assumed sum and simplifies algebraically to obtain the formula for k+1. Options B, C, and D misuse the hypothesis or apply invalid operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "A student correctly verifies the base case P(1) for a proposition but, in the induction step, assumes P(k) and incorrectly concludes P(k+2) without proving P(k+1). What conclusion can be drawn about the validity of the proof?",
+      "options": {
+        "A": "The proof is incomplete; the induction step does not satisfy the required implication P(k) ⇒ P(k+1).",
+        "B": "The proof is valid because establishing P(k+2) automatically ensures P(k+1).",
+        "C": "The proof is valid only for even integers.",
+        "D": "The proof is valid because the base case and any later case are sufficient."
+      },
+      "correct_option": "A",
+      "answer": "The proof is incomplete; the induction step does not satisfy the required implication P(k) ⇒ P(k+1).",
+      "explanation": "Mathematical induction requires proving that P(k) implies P(k+1). Skipping directly to P(k+2) leaves a gap; the proof is therefore incomplete. Options B, C, and D misinterpret the logical requirements of induction.",
+      "difficulty": "medium"
+    }
+  ]
+}

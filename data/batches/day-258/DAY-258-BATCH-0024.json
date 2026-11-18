@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "In the principle of mathematical induction, why is establishing the base case essential?",
+      "options": {
+        "A": "It verifies that the proposition is true for the initial integer from which induction starts",
+        "B": "It assumes the proposition is true for an arbitrary integer",
+        "C": "It proves the implication from n to n+1 without any assumption",
+        "D": "It directly concludes that the proposition holds for all integers"
+      },
+      "correct_option": "A",
+      "answer": "It verifies that the proposition is true for the initial integer from which induction starts",
+      "explanation": "The base case confirms the statement for the first integer (often n=1). Without this verification the induction chain has no starting point, so the proposition cannot be extended to all subsequent integers. Options B, C and D describe other parts of induction or are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "When applying mathematical induction, which of the following correctly expresses the induction hypothesis for proving a statement P(n) for all n ≥ 1?",
+      "options": {
+        "A": "Assume that P(k) is true for an arbitrary but fixed integer k ≥ 1",
+        "B": "Prove directly that P(1) is true",
+        "C": "Show that P(k+1) is true without assuming P(k)",
+        "D": "State that P(n) is true for all n without proof"
+      },
+      "correct_option": "A",
+      "answer": "Assume that P(k) is true for an arbitrary but fixed integer k ≥ 1",
+      "explanation": "The induction hypothesis is the assumption that the statement holds for a generic integer k. This assumption is then used to prove the next case, P(k+1). Option B is the base case, C ignores the hypothesis, and D bypasses the proof process.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "Which description correctly distinguishes the induction step from the base case in mathematical induction?",
+      "options": {
+        "A": "The induction step shows that if P(k) is true then P(k+1) is also true",
+        "B": "The induction step verifies the truth of P(1)",
+        "C": "The induction step is the same as formulating the induction hypothesis",
+        "D": "The induction step concludes the proof without using any assumption"
+      },
+      "correct_option": "A",
+      "answer": "The induction step shows that if P(k) is true then P(k+1) is also true",
+      "explanation": "The induction step establishes the logical implication P(k) ⇒ P(k+1). The base case (option B) checks the initial integer, while the hypothesis (part of the step) is the assumption that P(k) holds. Option D is false because the step relies on the hypothesis.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After successfully completing the base case and the induction step, which statement correctly expresses the final conclusion of the induction proof?",
+      "options": {
+        "A": "P(n) is true for every integer n greater than or equal to the base integer",
+        "B": "P(n) is true only for the base integer",
+        "C": "P(n) is false for all integers beyond the base case",
+        "D": "P(n) may be true for some integers but not necessarily all"
+      },
+      "correct_option": "A",
+      "answer": "P(n) is true for every integer n greater than or equal to the base integer",
+      "explanation": "Completing both parts of induction allows us to assert that the proposition holds for all integers starting from the base case onward. Options B, C, and D contradict the logical outcome of a valid induction proof.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "To prove that 1+2+...+n = n(n+1)/2 for all natural numbers n, which components of mathematical induction are employed?",
+      "options": {
+        "A": "Only the base case n=1",
+        "B": "Only the induction hypothesis",
+        "C": "Only the induction step",
+        "D": "Both the base case, the induction hypothesis, and the induction step"
+      },
+      "correct_option": "D",
+      "answer": "Both the base case, the induction hypothesis, and the induction step",
+      "explanation": "The proof requires verifying the formula for n=1 (base case), assuming it holds for an arbitrary k (hypothesis), and then showing it holds for k+1 (step). All three components are essential; using any single one alone is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "You are asked to prove, using induction, that 2^n > n for every integer n ≥ 1. Which of the following correctly identifies the statement that must be proved by induction?",
+      "options": {
+        "A": "2^n > n",
+        "B": "2^n = n",
+        "C": "2^n < n",
+        "D": "n > 2^n"
+      },
+      "correct_option": "A",
+      "answer": "2^n > n",
+      "explanation": "The target proposition is the inequality 2^n > n. The induction process will establish this inequality for all n≥1. Options B, C, and D state different relations that are not the goal of the problem.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "A common mistake is to assume the base case is automatically true without verification. Which of the following statements correctly addresses this misconception?",
+      "options": {
+        "A": "The base case does not need to be checked because induction guarantees it",
+        "B": "The base case must be proved separately before proceeding to the induction step",
+        "C": "Any integer can be chosen as the base case without proof",
+        "D": "The base case and induction step are the same thing"
+      },
+      "correct_option": "B",
+      "answer": "The base case must be proved separately before proceeding to the induction step",
+      "explanation": "The base case is the foundation of the induction argument and must be explicitly verified. Assuming it without proof (A) is incorrect, and the base case cannot be arbitrarily chosen without justification (C). The base case and step are distinct (D).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "In proving the formula for the sum of squares 1^2+2^2+...+n^2 = n(n+1)(2n+1)/6 by induction, what should be taken as the induction hypothesis?",
+      "options": {
+        "A": "Assume the formula holds for n = k, where k is an arbitrary positive integer",
+        "B": "Assume the formula holds for n = k+1",
+        "C": "Assume the formula holds for all integers n",
+        "D": "No hypothesis is needed; the step can be proved directly"
+      },
+      "correct_option": "A",
+      "answer": "Assume the formula holds for n = k, where k is an arbitrary positive integer",
+      "explanation": "The induction hypothesis states that the statement is true for a generic integer k. This assumption is then used to prove the case k+1. Assuming it for k+1 (B) or for all n (C) defeats the purpose of induction, and skipping the hypothesis (D) is not valid.",
+      "difficulty": "medium"
+    }
+  ]
+}

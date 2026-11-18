@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "Consider the proposition P(n): 1+3+5+\\dots+(2n-1)=n^2. Assuming P(k) is true, which of the following correctly shows the induction step to prove P(k+1)?",
+      "options": {
+        "A": "(k+1)^2 = k^2 + 2k, which omits the new term.",
+        "B": "(k+1)^2 = k^2 + (2k+1), which correctly adds the (k+1)th odd number.",
+        "C": "(k+1)^2 = k^2 + (2k+3), which adds an extra term.",
+        "D": "(k+1)^2 = k^2 + 1, which is insufficient."
+      },
+      "correct_option": "B",
+      "answer": "(k+1)^2 = k^2 + (2k+1), which correctly adds the (k+1)th odd number.",
+      "explanation": "Assuming the sum of the first k odd numbers equals k^2, the sum for k+1 terms is k^2 + (2(k+1)-1) = k^2 + (2k+1) = (k+1)^2. Option B expresses exactly this reasoning; the other options either miss the new term or add the wrong term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After verifying the base case n=1 and proving the induction step for the statement P(n): 2^n > n for all n \\ge 1, which conclusion is logically valid?",
+      "options": {
+        "A": "P(n) is true only for n = 1.",
+        "B": "P(n) is true for every natural number n \\ge 1.",
+        "C": "P(n) is true only for even values of n.",
+        "D": "P(n) may be false for some n > 1."
+      },
+      "correct_option": "B",
+      "answer": "P(n) is true for every natural number n \\ge 1.",
+      "explanation": "Mathematical induction guarantees that if the base case holds and the implication P(k) \\Rightarrow P(k+1) is true for an arbitrary k, then P(n) holds for all integers n starting from the base. Hence the correct conclusion is that the statement is true for all n \\ge 1. The other options contradict the principle of induction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Which of the following statements reflects a common misconception about mathematical induction?",
+      "options": {
+        "A": "The induction step must be proved for an arbitrary integer k assuming P(k) is true.",
+        "B": "Proving the base case alone is sufficient to establish the statement for all integers.",
+        "C": "The induction hypothesis is the assumption that P(k) holds for some specific k.",
+        "D": "The conclusion of induction is that P(n) holds for all n \\ge the base integer."
+      },
+      "correct_option": "B",
+      "answer": "Proving the base case alone is sufficient to establish the statement for all integers.",
+      "explanation": "Induction requires two parts: a verified base case and a valid induction step. Only proving the base case does not guarantee the statement for larger integers, making option B a misconception. Options A, C, and D correctly describe aspects of the induction process.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "For the proposition \"For every integer n \\ge 1, n! \\ge 2^{n-1}\", which of the following correctly identifies the statement that should be proved by induction?",
+      "options": {
+        "A": "Prove that n! = 2^{n-1} for all n.",
+        "B": "Prove that n! \\le 2^{n-1} for all n.",
+        "C": "Prove that n! \\ge 2^{n-1} for all n \\ge 1.",
+        "D": "Prove that n! is odd for all n."
+      },
+      "correct_option": "C",
+      "answer": "Prove that n! \\ge 2^{n-1} for all n \\ge 1.",
+      "explanation": "The original proposition is an inequality stating that the factorial of n is at least 2^{n-1}. Option C restates this exact claim, which is what induction must establish. Options A and B change the relation, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "To prove the formula S(n)=n(n+1)/2 for the sum of the first n natural numbers, which of the following correctly establishes the base case?",
+      "options": {
+        "A": "For n=0, S(0)=0 and RHS=0, so the base case holds.",
+        "B": "For n=1, S(1)=1 and RHS=1·2/2=1, so the base case holds.",
+        "C": "For n=2, S(2)=3 and RHS=2·3/2=3, so the base case holds.",
+        "D": "For n=1, S(1)=1 but RHS=1·1/2=0.5, so the base case fails."
+      },
+      "correct_option": "B",
+      "answer": "For n=1, S(1)=1 and RHS=1·2/2=1, so the base case holds.",
+      "explanation": "The standard base case for this formula is n=1. Substituting n=1 gives S(1)=1 and the right‑hand side 1·2/2 = 1, confirming equality. Option A uses n=0, which is not the usual starting point for natural numbers in this context, and options C and D are either unnecessary or incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "In preparing for a competitive exam, you need to prove that 2^n > n^2 for all integers n \\ge 5. Which of the following correctly states the induction hypothesis?",
+      "options": {
+        "A": "Assume 2^k > k^2 for some integer k \\ge 5.",
+        "B": "Assume 2^{k+1} > (k+1)^2 for some integer k \\ge 5.",
+        "C": "Assume 2^k \\ge k^2 for all k \\ge 5.",
+        "D": "Assume 2^k > k^2 for all integers k."
+      },
+      "correct_option": "A",
+      "answer": "Assume 2^k > k^2 for some integer k \\ge 5.",
+      "explanation": "The induction hypothesis must assume the statement holds for an arbitrary integer k (the \"inductive\" integer) that satisfies the given lower bound. Option A captures this precisely. Option B assumes the statement for k+1, which defeats the purpose of the hypothesis. Option C weakens the inequality, and option D removes the lower‑bound condition, both of which are not the standard hypothesis for this problem.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "For the claim that the sum of the first n even numbers equals n(n+1), which of the following correctly carries out the induction step?",
+      "options": {
+        "A": "Assuming the formula holds for n=k, then for n=k+1 the sum is k(k+1)+2(k+1) = (k+1)(k+2).",
+        "B": "Assuming the formula holds for n=k, then for n=k+1 the sum is k(k+1)+(k+1) = (k+1)^2.",
+        "C": "Assuming the formula holds for n=k, then for n=k+1 the sum is k(k+1)+2k = k(k+3).",
+        "D": "Assuming the formula holds for n=k, then for n=k+1 the sum is k(k+1)+2(k+2) = (k+2)(k+3)."
+      },
+      "correct_option": "A",
+      "answer": "Assuming the formula holds for n=k, then for n=k+1 the sum is k(k+1)+2(k+1) = (k+1)(k+2).",
+      "explanation": "If the sum of the first k even numbers is k(k+1), adding the next even number 2(k+1) gives k(k+1)+2(k+1) = (k+1)(k+2), which is exactly the formula with n replaced by k+1. This validates the induction step. The other options either add the wrong term or simplify incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After successfully proving the base case and the induction step for a proposition P(n), what is the correct conclusion?",
+      "options": {
+        "A": "The statement is true only for the base integer.",
+        "B": "The statement holds for all integers greater than or equal to the base case.",
+        "C": "The statement may be false for some larger integers.",
+        "D": "The statement is true for no integers."
+      },
+      "correct_option": "B",
+      "answer": "The statement holds for all integers greater than or equal to the base case.",
+      "explanation": "Mathematical induction asserts that once the base case is verified and the implication P(k) \\Rightarrow P(k+1) is established, P(n) is true for every integer n starting from the base. Therefore option B correctly captures the conclusion; the other options contradict the principle.",
+      "difficulty": "easy"
+    }
+  ]
+}

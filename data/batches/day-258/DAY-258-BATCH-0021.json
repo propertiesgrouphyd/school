@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "In proving that the sum of the first n natural numbers equals n(n+1)/2 by mathematical induction, which statement about the base case is correct?",
+      "options": {
+        "A": "The base case must be n = 0 because the formula also holds for n = 0.",
+        "B": "The base case can be any integer; the choice does not affect the validity of the proof.",
+        "C": "The base case must be the smallest integer for which the statement is claimed, typically n = 1.",
+        "D": "The base case is unnecessary if the induction step is proved correctly."
+      },
+      "correct_option": "C",
+      "answer": "The base case must be the smallest integer for which the statement is claimed, typically n = 1.",
+      "explanation": "In induction we first verify the statement for the smallest integer in the domain (often n = 1). This establishes a starting point. Choosing n = 0 is only appropriate if the statement is explicitly claimed for n = 0. Options A and B are misconceptions, and D is false because the base case is essential.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "When proving by induction that 1 + 2 + … + k = k(k+1)/2, which of the following correctly expresses the induction hypothesis?",
+      "options": {
+        "A": "Assume the formula holds for k + 1.",
+        "B": "Assume the formula holds for k – 1.",
+        "C": "Assume the formula holds for k.",
+        "D": "Assume the formula holds for all integers less than k."
+      },
+      "correct_option": "C",
+      "answer": "Assume the formula holds for k.",
+      "explanation": "The induction hypothesis is the assumption that the statement P(k) is true for an arbitrary but fixed integer k (≥ the base). We then use this to prove P(k+1). Option C captures this. Options A and B misuse the index, while D is stronger than needed and not the standard hypothesis.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "Which of the following differences distinguishes a correct induction step from a common error in its proof?",
+      "options": {
+        "A": "In the correct step you assume P(k) and prove P(k+1); in the error you assume P(k+1) and try to prove P(k).",
+        "B": "In the correct step you substitute k+1 into the formula; in the error you substitute k.",
+        "C": "In the correct step you use algebraic manipulation; in the error you rely on a numerical example.",
+        "D": "In the correct step you re‑prove the base case; in the error you skip it."
+      },
+      "correct_option": "A",
+      "answer": "In the correct step you assume P(k) and prove P(k+1); in the error you assume P(k+1) and try to prove P(k).",
+      "explanation": "The essence of the induction step is: assume the statement true for an arbitrary integer k (induction hypothesis) and then deduce its truth for the next integer k+1. Assuming the very statement you need to prove (P(k+1)) is a logical fallacy. Options B, C, and D describe unrelated issues.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After successfully establishing the base case and the induction step for a statement P(n), which of the following correctly states the final conclusion?",
+      "options": {
+        "A": "Therefore P(n) is true for all integers n ≥ the base integer.",
+        "B": "Therefore P(n) is true only for the integer n used in the induction step.",
+        "C": "Therefore P(n) is true for n = 1 only.",
+        "D": "Therefore P(n) is true for all integers n ≤ the base integer."
+      },
+      "correct_option": "A",
+      "answer": "Therefore P(n) is true for all integers n ≥ the base integer.",
+      "explanation": "Mathematical induction allows us to conclude that the proposition holds for every integer starting from the base case onward. Options B, C, and D misinterpret the scope of the conclusion.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "The principle of mathematical induction states that:",
+      "options": {
+        "A": "If a statement is true for n = 1 and true for n + 1 whenever it is true for n, then it is true for all natural numbers.",
+        "B": "If a statement is true for n = 0 only, then it is true for all integers.",
+        "C": "If a statement holds for two consecutive integers, it holds for all integers.",
+        "D": "If a statement is true for some integer, it is true for all integers."
+      },
+      "correct_option": "A",
+      "answer": "If a statement is true for n = 1 and true for n + 1 whenever it is true for n, then it is true for all natural numbers.",
+      "explanation": "Option A captures the exact formulation of induction: verify the base case (often n = 1) and prove the implication P(k) ⇒ P(k+1). The other options either omit the base case or overgeneralize.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "In using induction to prove that 2^n > n for all n ≥ 1, what is the precise statement P(n) that must be proved?",
+      "options": {
+        "A": "2^n = n",
+        "B": "2^n < n",
+        "C": "2^n > n",
+        "D": "2^n ≥ n + 1"
+      },
+      "correct_option": "C",
+      "answer": "2^n > n",
+      "explanation": "The proposition to be established by induction is exactly the inequality 2^n > n for each natural number n ≥ 1. Options A and B are opposite statements, while D is a stronger claim not required by the given problem.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "Which of the following best defines the 'base case' in a proof by mathematical induction?",
+      "options": {
+        "A": "The step where you assume P(k) is true.",
+        "B": "The initial verification of the statement for the smallest integer in the domain.",
+        "C": "The conclusion that the statement holds for all integers.",
+        "D": "The process of deriving P(k+1) from P(k)."
+      },
+      "correct_option": "B",
+      "answer": "The initial verification of the statement for the smallest integer in the domain.",
+      "explanation": "The base case is the first part of an induction proof where the statement is checked directly for the smallest value (often n = 1). Options A and D describe the induction hypothesis and step, while C describes the final conclusion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "To prove by induction that the sum of the first n odd numbers equals n², what is the correct induction hypothesis?",
+      "options": {
+        "A": "Assume the sum of the first k odd numbers equals k².",
+        "B": "Assume the sum of the first k+1 odd numbers equals (k+1)².",
+        "C": "Assume the sum of the first k odd numbers equals (k+1)².",
+        "D": "Assume the sum of the first k odd numbers equals (k‑1)²."
+      },
+      "correct_option": "A",
+      "answer": "Assume the sum of the first k odd numbers equals k².",
+      "explanation": "The induction hypothesis must state that the proposition holds for an arbitrary integer k: Σ_{i=1}^{k} (2i‑1) = k². This is then used to prove the case k+1. Options B, C, and D either shift the index incorrectly or give a wrong formula.",
+      "difficulty": "easy"
+    }
+  ]
+}
