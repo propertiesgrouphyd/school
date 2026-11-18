@@ -1,0 +1,150 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0041",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-257-09",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Solve basic trigonometric equations",
+      "question": "Which of the following equations is equivalent to sin θ = ½ and therefore has exactly the same set of solutions?",
+      "options": {
+        "A": "2 sin θ − 1 = 0",
+        "B": "cos θ = √3/2",
+        "C": "tan θ = 1/√3",
+        "D": "sin 2θ = √3/2"
+      },
+      "correct_option": "A",
+      "answer": "2 sin θ − 1 = 0",
+      "explanation": "Starting from sin θ = ½, multiplying both sides by 2 gives 2 sin θ = 1, which can be rearranged to 2 sin θ − 1 = 0. This equation is algebraically identical to the original and therefore shares exactly the same solution set (θ = 30° + 360°k or 150° + 360°k). The other options correspond to different trigonometric functions and yield different solution sets.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-257-10",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Find solutions in specified intervals",
+      "question": "Solve 2 cos θ − √3 = 0 for θ in the interval [0°, 360°]. Which option gives the correct solutions?",
+      "options": {
+        "A": "30°, 150°",
+        "B": "30°, 330°",
+        "C": "60°, 300°",
+        "D": "0°, 180°"
+      },
+      "correct_option": "B",
+      "answer": "30°, 330°",
+      "explanation": "2 cos θ − √3 = 0 ⇒ cos θ = √3/2. The cosine equals √3/2 at angles 30° and 330° within one full revolution. Hence the solutions in [0°, 360°] are θ = 30° and θ = 330°. Options A, C, and D correspond to other cosine values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-257-11",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Understand general solutions",
+      "question": "The general solution of sin θ = a (where |a| ≤ 1) can be written as:",
+      "options": {
+        "A": "θ = arcsin a + 2kπ, k∈ℤ",
+        "B": "θ = π − arcsin a + 2kπ, k∈ℤ",
+        "C": "θ = (−1)^k arcsin a + kπ, k∈ℤ",
+        "D": "θ = arccos a + 2kπ, k∈ℤ"
+      },
+      "correct_option": "C",
+      "answer": "θ = (−1)^k arcsin a + kπ, k∈ℤ",
+      "explanation": "For sin θ = a, the two principal solutions in [0,2π) are θ₁ = arcsin a and θ₂ = π − arcsin a. Combining them into a single expression yields θ = (−1)^k arcsin a + kπ, where k is any integer. This compact form generates both families of solutions. Options A and B give only one family each, and D involves cosine, not sine.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-257-12",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Use standard identities while solving equations",
+      "question": "Which standard trigonometric identity is used to rewrite sin 2θ as a product of sin θ and cos θ?",
+      "options": {
+        "A": "sin 2θ = sin²θ − cos²θ",
+        "B": "sin 2θ = 2 sin θ cos θ",
+        "C": "sin 2θ = 1 − 2 sin²θ",
+        "D": "sin 2θ = 2 tan θ/(1+tan²θ)"
+      },
+      "correct_option": "B",
+      "answer": "sin 2θ = 2 sin θ cos θ",
+      "explanation": "The double‑angle identity for sine states that sin 2θ equals twice the product of sin θ and cos θ. This identity is frequently used to transform equations containing sin 2θ into expressions involving only sin θ and cos θ, facilitating factorisation or substitution. The other options are either incorrect forms of the double‑angle identity or pertain to cosine or tangent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-257-13",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Solve basic trigonometric equations",
+      "question": "Which statement correctly distinguishes the solution sets of sin θ = 0 and cos θ = 0?",
+      "options": {
+        "A": "sin θ = 0 gives θ = nπ, while cos θ = 0 gives θ = (2n + 1)π/2",
+        "B": "sin θ = 0 gives θ = (2n + 1)π/2, while cos θ = 0 gives θ = nπ",
+        "C": "Both equations have the same set of solutions",
+        "D": "Neither equation has periodic solutions"
+      },
+      "correct_option": "A",
+      "answer": "sin θ = 0 gives θ = nπ, while cos θ = 0 gives θ = (2n + 1)π/2",
+      "explanation": "sin θ = 0 is satisfied at integer multiples of π (0, π, 2π,…). cos θ = 0 is satisfied at odd multiples of π/2 ((2n + 1)π/2 = π/2, 3π/2,…). Thus the two solution sets are distinct. Option B swaps the two, C incorrectly claims they coincide, and D ignores the periodic nature of trigonometric functions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-257-14",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Find solutions in specified intervals",
+      "question": "Find all values of θ in the interval [0, 2π] that satisfy tan θ = 1.",
+      "options": {
+        "A": "θ = π/4, 3π/4",
+        "B": "θ = π/4, 5π/4",
+        "C": "θ = π/2, 3π/2",
+        "D": "θ = 0, π"
+      },
+      "correct_option": "B",
+      "answer": "θ = π/4, 5π/4",
+      "explanation": "tan θ = 1 occurs where the sine and cosine are equal and both positive or both negative. Within 0 to 2π, this happens at θ = π/4 (first quadrant) and θ = 5π/4 (third quadrant). Options A, C, and D correspond to other tangent values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-257-15",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Understand general solutions",
+      "question": "If sec θ = 2, which of the following expresses the general solution for θ?",
+      "options": {
+        "A": "θ = ±π/3 + 2kπ",
+        "B": "θ = π/3 + kπ",
+        "C": "θ = ±π/3 + kπ",
+        "D": "θ = π/6 + 2kπ"
+      },
+      "correct_option": "A",
+      "answer": "θ = ±π/3 + 2kπ",
+      "explanation": "sec θ = 2 implies cos θ = 1/2. The principal angles where cosine equals 1/2 are θ = π/3 and θ = 5π/3, which can be written as ±π/3 (mod 2π). Adding the full period 2kπ gives the general solution θ = ±π/3 + 2kπ. Option B omits the second solution, C uses the wrong period, and D gives an unrelated angle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-257-16",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Use standard identities while solving equations",
+      "question": "In simplifying the expression sin²θ − cos²θ, which identity should be applied?",
+      "options": {
+        "A": "sin²θ + cos²θ = 1",
+        "B": "cos 2θ = cos²θ − sin²θ",
+        "C": "sin 2θ = 2 sinθ cosθ",
+        "D": "tan θ = sinθ/cosθ"
+      },
+      "correct_option": "B",
+      "answer": "cos 2θ = cos²θ − sin²θ",
+      "explanation": "Rearranging the double‑angle identity for cosine gives cos 2θ = cos²θ − sin²θ, which can be rewritten as sin²θ − cos²θ = −cos 2θ. Thus the identity in option B directly relates to the given expression. Option A is the Pythagorean identity, C is the double‑angle for sine, and D defines tangent; none directly simplify sin²θ − cos²θ.",
+      "difficulty": "medium"
+    }
+  ]
+}
