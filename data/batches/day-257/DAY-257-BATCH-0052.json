@@ -1,0 +1,78 @@
+{
+  "day": 257,
+  "batch_id": "DAY-257-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97-001",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Solve basic trigonometric equations",
+      "question": "A student solves the equation sin θ = 0.5 and writes θ = 30° as the only solution. Which statement correctly identifies the student's mistake?",
+      "options": {
+        "A": "The student ignored the periodic nature of the sine function and missed other valid solutions.",
+        "B": "The student used an incorrect value for sin 30°.",
+        "C": "The student should have solved a cosine equation instead of a sine equation.",
+        "D": "The student must restrict θ to the interval [0°, 90°] when solving any sine equation."
+      },
+      "correct_option": "A",
+      "answer": "The student ignored the periodic nature of the sine function and missed other valid solutions.",
+      "explanation": "sin θ = 0.5 has infinitely many solutions because sine is periodic with period 360°. In the principal interval 0°–360°, the solutions are θ = 30° and θ = 150°. The student's answer omitted the second solution, showing a common misconception that trigonometric equations have only one solution. Options B, C, and D describe unrelated errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98-001",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Find solutions in specified intervals",
+      "question": "Solve 2 cos θ – 1 = 0 for θ in the interval [0°, 360°]. Which of the following lists all the correct solutions?",
+      "options": {
+        "A": "θ = 60° only",
+        "B": "θ = 300° only",
+        "C": "θ = 60° and 300°",
+        "D": "θ = 0° and 180°"
+      },
+      "correct_option": "C",
+      "answer": "θ = 60° and 300°",
+      "explanation": "2 cos θ – 1 = 0 ⇒ cos θ = ½. In [0°,360°] the cosine equals ½ at θ = 60° and θ = 300°. Both values satisfy the original equation, so option C is correct. Options A and B give only one of the two solutions, and option D corresponds to cos θ = ±1, which is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99-001",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Understand general solutions",
+      "question": "Which statement correctly compares the general solution sets of the equations tan θ = 1 and sin θ = √2⁄2?",
+      "options": {
+        "A": "Both equations have a single family of solutions that repeat every 180°.",
+        "B": "tan θ = 1 yields solutions every 180°, while sin θ = √2⁄2 yields two distinct families of solutions each 360° apart.",
+        "C": "sin θ = √2⁄2 yields solutions every 180°, while tan θ = 1 yields two distinct families each 360° apart.",
+        "D": "Both equations have two families of solutions that repeat every 360°."
+      },
+      "correct_option": "B",
+      "answer": "tan θ = 1 yields solutions every 180°, while sin θ = √2⁄2 yields two distinct families of solutions each 360° apart.",
+      "explanation": "tan θ = 1 ⇒ θ = 45° + n·180° (single family, period 180°). sin θ = √2⁄2 ⇒ θ = 45° + n·360° or θ = 135° + n·360° (two families, each repeating every 360°). Hence option B accurately describes the difference. Options A, C, and D misstate the number of families or periods.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100-001",
+      "learning_unit_id": "LU-01092",
+      "learning_point": "Use standard identities while solving equations",
+      "question": "Solve sin 2θ = √3⁄2 for θ in the interval [0°, 360°]. Which set below gives all correct values of θ?",
+      "options": {
+        "A": "θ = 30°, 60°, 210°, 240°",
+        "B": "θ = 15°, 75°, 195°, 255°",
+        "C": "θ = 45°, 135°, 225°, 315°",
+        "D": "θ = 0°, 90°, 180°, 270°"
+      },
+      "correct_option": "A",
+      "answer": "θ = 30°, 60°, 210°, 240°",
+      "explanation": "Using the double‑angle identity, sin 2θ = √3⁄2 ⇒ 2θ = 60° + 360°k or 120° + 360°k. Dividing by 2 gives θ = 30° + 180°k or θ = 60° + 180°k. For k = 0 and 1 within 0°–360°, the solutions are θ = 30°, 60°, 210°, 240°. Option A lists exactly these values. The other options correspond to different equations and are therefore incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}
