@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "Which of the following correctly describes the graph of y = tan x over the interval (−π, π)?",
+      "options": {
+        "A": "A continuous curve passing through (0,0) with vertical asymptotes at x = −π/2 and x = π/2, repeating every 2π.",
+        "B": "A curve passing through (0,0) with vertical asymptotes at x = −π/2 and x = π/2, repeating every π.",
+        "C": "A sinusoidal curve with maximum 1 and minimum –1, no asymptotes.",
+        "D": "A straight line through the origin with slope 1."
+      },
+      "correct_option": "B",
+      "answer": "A curve passing through (0,0) with vertical asymptotes at x = −π/2 and x = π/2, repeating every π.",
+      "explanation": "The tangent function has vertical asymptotes where cos x = 0, i.e., at odd multiples of π/2. Within each interval between asymptotes the curve passes through the origin and repeats after a shift of π, so its fundamental period is π. Option B captures these features; the other options describe incorrect properties.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "What is the fundamental period of the function y = tan x?",
+      "options": {
+        "A": "π/2",
+        "B": "π",
+        "C": "2π",
+        "D": "4π"
+      },
+      "correct_option": "B",
+      "answer": "π",
+      "explanation": "For any angle x, tan(x + π) = tan x because both sine and cosine repeat after 2π, but their ratio repeats after π. Hence the smallest positive interval after which the graph repeats is π. The other choices are either too small or too large.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify amplitude where applicable",
+      "question": "For which of the following trigonometric functions is the term 'amplitude' defined, and what is its value for y = sin x?",
+      "options": {
+        "A": "Only for sin x and cos x; amplitude = 1.",
+        "B": "Only for tan x; amplitude = 1.",
+        "C": "For sin x, cos x, and tan x; amplitude = 1.",
+        "D": "Amplitude is not defined for any trigonometric function."
+      },
+      "correct_option": "A",
+      "answer": "Only for sin x and cos x; amplitude = 1.",
+      "explanation": "Amplitude refers to the maximum displacement from the mid‑line for sinusoidal functions, i.e., sin x and cos x. Their amplitude equals the absolute value of the coefficient of the function; for y = sin x it is 1. Tangent does not have a fixed maximum or minimum, so amplitude is not defined for it.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Determine basic domain and range",
+      "question": "What are the domain and range of y = tan x?",
+      "options": {
+        "A": "Domain: all real numbers; Range: all real numbers.",
+        "B": "Domain: x ≠ (2k+1)π/2, k∈Z; Range: all real numbers.",
+        "C": "Domain: all real numbers; Range: [−1,1].",
+        "D": "Domain: x ≠ kπ, k∈Z; Range: (−∞,∞)."
+      },
+      "correct_option": "B",
+      "answer": "Domain: x ≠ (2k+1)π/2, k∈Z; Range: all real numbers.",
+      "explanation": "The tangent function is undefined where cos x = 0, i.e., at odd multiples of π/2. Hence those points are excluded from the domain. Since tan x can take any real value between its vertical asymptotes, its range is (−∞, ∞). Option B states this precisely.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "Which set of points correctly lies on the graph of y = sin x?",
+      "options": {
+        "A": "(0,0), (π/2,1), (π,0), (3π/2,−1), (2π,0)",
+        "B": "(0,1), (π/2,0), (π,−1), (3π/2,0), (2π,1)",
+        "C": "(0,0), (π/2,0), (π,0), (3π/2,0), (2π,0)",
+        "D": "(0,0), (π/2,−1), (π,0), (3π/2,1), (2π,0)"
+      },
+      "correct_option": "A",
+      "answer": "(0,0), (π/2,1), (π,0), (3π/2,−1), (2π,0)",
+      "explanation": "The sine function starts at 0, reaches its maximum 1 at π/2, returns to 0 at π, reaches minimum –1 at 3π/2, and completes the cycle at 2π. Option A lists exactly these characteristic points; the other options place incorrect y‑values at those x‑coordinates.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "A simple pendulum’s horizontal displacement from equilibrium is given by y = 5 cos(π t). Which description best matches its graph for t in seconds?",
+      "options": {
+        "A": "A sinusoidal curve starting at y = 5 at t = 0, reaching the same maximum again at t = 2 s, with period 2 s.",
+        "B": "A sinusoidal curve starting at y = 0 at t = 0, reaching maximum at t = 1 s, period 1 s.",
+        "C": "A straight line decreasing linearly from y = 5.",
+        "D": "A sinusoidal curve with vertical asymptotes at t = 1 s."
+      },
+      "correct_option": "A",
+      "answer": "A sinusoidal curve starting at y = 5 at t = 0, reaching the same maximum again at t = 2 s, with period 2 s.",
+      "explanation": "The general cosine form y = A cos(ωt) has period 2π/ω. Here ω = π, so period = 2π/π = 2 seconds. At t = 0, cos 0 = 1, giving y = 5. The graph repeats every 2 seconds, matching option A. Options B, C, and D describe incorrect starting values, periods, or non‑existent asymptotes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "A student claims that the graph of y = tan x repeats every 2π, just like y = sin x. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "The statement is correct; tan x has period 2π.",
+        "B": "The statement is incorrect; tan x has period π because tan(x+π)=tan x.",
+        "C": "The statement is incorrect; tan x has no period.",
+        "D": "The statement is correct; both have period 2π but tan x also has asymptotes."
+      },
+      "correct_option": "B",
+      "answer": "The statement is incorrect; tan x has period π because tan(x+π)=tan x.",
+      "explanation": "Tangent repeats its values after a shift of π, not 2π, because tan(x+π)=sin(x+π)/cos(x+π)=−sin x/−cos x=tan x. Therefore its fundamental period is π. Options A and D are false, and option C is wrong because tangent is periodic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "Given that sin(x+2π)=sin x and tan(x+π)=tan x, which reasoning explains why the period of tan x is π and not 2π?",
+      "options": {
+        "A": "Because tan x repeats its values after a shift of π due to the periodicity of both sine and cosine in its definition.",
+        "B": "Because tan x has vertical asymptotes every π, limiting its repeat interval to π.",
+        "C": "Because the amplitude of tan x forces a shorter period.",
+        "D": "Because tan x is defined only for angles less than π."
+      },
+      "correct_option": "A",
+      "answer": "Because tan x repeats its values after a shift of π due to the periodicity of both sine and cosine in its definition.",
+      "explanation": "tan x = sin x / cos x. Both numerator and denominator repeat after 2π, but their ratio repeats after π because sin(x+π)=−sin x and cos(x+π)=−cos x, and the negatives cancel. Hence the smallest shift that leaves tan unchanged is π. Option B mentions asymptotes, which is a consequence, not the fundamental reason. Options C and D are incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}

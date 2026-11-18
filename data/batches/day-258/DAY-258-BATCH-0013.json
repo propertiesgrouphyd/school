@@ -1,0 +1,78 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "Which of the following statements about the graph of y = sin x (x in radians) is FALSE?",
+      "options": {
+        "A": "The graph passes through the origin (0,0).",
+        "B": "The maximum value 1 occurs at x = π/2.",
+        "C": "The graph is symmetric about the y‑axis.",
+        "D": "The graph repeats every 2π units."
+      },
+      "correct_option": "C",
+      "answer": "The graph is symmetric about the y‑axis.",
+      "explanation": "The sine function is odd, so its graph is symmetric about the origin, not the y‑axis. Statements A, B, and D are true: sin 0 = 0, the maximum 1 occurs at π/2, and the function repeats every 2π. Hence option C is the false statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "Which point does NOT lie on the graph of y = cos x (x in radians)?",
+      "options": {
+        "A": "(0, 1)",
+        "B": "(π/2, 0)",
+        "C": "(π, ‑1)",
+        "D": "(3π/2, 1)"
+      },
+      "correct_option": "D",
+      "answer": "(3π/2, 1)",
+      "explanation": "For the cosine function, cos(3π/2) = 0, not 1. Therefore the point (3π/2, 1) is not on the graph. The other three points satisfy cos 0 = 1, cos π/2 = 0, and cos π = –1, so they are correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "In comparing the graphs of y = tan x and y = sin x (x in radians), which statement is correct?",
+      "options": {
+        "A": "The tangent graph has vertical asymptotes at odd multiples of π/2, while the sine graph is continuous for all real x.",
+        "B": "Both graphs have the same period and are bounded between –1 and 1.",
+        "C": "Both graphs intersect the x‑axis at the same set of points.",
+        "D": "The tangent graph attains a maximum value of 1."
+      },
+      "correct_option": "A",
+      "answer": "The tangent graph has vertical asymptotes at odd multiples of π/2, while the sine graph is continuous for all real x.",
+      "explanation": "y = tan x is undefined where cos x = 0, i.e., at x = (2k+1)π/2, producing vertical asymptotes. The sine graph has no such discontinuities and is defined for every real x. Options B, C, and D are incorrect because tangent is unbounded, its zeros occur at integer multiples of π (different from sine's zeros at kπ), and tangent does not have a maximum value of 1.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "What is the period of the function y = 3 sin (2x − π/4)?",
+      "options": {
+        "A": "π",
+        "B": "2π",
+        "C": "π/2",
+        "D": "4π"
+      },
+      "correct_option": "A",
+      "answer": "π",
+      "explanation": "For y = a sin(bx + c), the period is 2π/|b|. Here b = 2, so the period = 2π/2 = π. Multiplying by a constant (3) or shifting the phase (−π/4) does not affect the period. Hence the correct answer is π.",
+      "difficulty": "hard"
+    }
+  ]
+}

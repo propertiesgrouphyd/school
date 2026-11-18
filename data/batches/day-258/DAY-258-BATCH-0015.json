@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "Consider the proposition P(n): n^2 ≥ n for all integers n ≥ 1. Which of the following statements correctly compares the role of the base case (n = 1) with the induction step in establishing the truth of P(n)?",
+      "options": {
+        "A": "If the base case fails, the induction step can still prove P(n) for all n.",
+        "B": "A valid base case guarantees that the induction step, if proved, will establish P(n) for every integer n ≥ 1.",
+        "C": "The base case and induction step are independent; proving one does not affect the other.",
+        "D": "Only the induction step is necessary; the base case is optional."
+      },
+      "correct_option": "B",
+      "answer": "A valid base case guarantees that the induction step, if proved, will establish P(n) for every integer n ≥ 1.",
+      "explanation": "In mathematical induction the base case confirms that the statement holds for the initial integer. Once this is true, the induction step shows that truth propagates from any integer k to k+1. Hence, a correct base case together with a valid induction step ensures the statement is true for all subsequent integers. Options A, C, and D misrepresent this relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "In a proof by induction for the statement S(n): 1 + 2 + … + n = n(n+1)/2, which of the following correctly formulates the induction hypothesis for an arbitrary integer k ≥ 1?",
+      "options": {
+        "A": "S(k) is true.",
+        "B": "S(k+1) is true.",
+        "C": "Assume S(k) is true to prove S(k+1).",
+        "D": "Assume S(k-1) is true to prove S(k)."
+      },
+      "correct_option": "C",
+      "answer": "Assume S(k) is true to prove S(k+1).",
+      "explanation": "The induction hypothesis states that we assume the statement holds for a generic integer k, and then we use this assumption to prove it for k+1. Option C captures this exactly. Option A merely states the truth without indicating its use; B and D refer to the wrong integers.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "What must be shown in the induction step of a proof by induction?",
+      "options": {
+        "A": "That the statement holds for the base integer only.",
+        "B": "That if the statement holds for n = m, then it also holds for n = m+1.",
+        "C": "That the statement is false for some integer.",
+        "D": "That the statement holds for all integers without using the hypothesis."
+      },
+      "correct_option": "B",
+      "answer": "That if the statement holds for n = m, then it also holds for n = m+1.",
+      "explanation": "The induction step demonstrates the preservation of truth: assuming the proposition true for an arbitrary integer m (the induction hypothesis) leads to its truth for the next integer m+1. Options A, C, and D do not describe this essential step.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After completing the base case and induction step, how should the final conclusion of a proof by induction be stated?",
+      "options": {
+        "A": "Thus, the statement is true for the base case only.",
+        "B": "Hence, the statement holds for all integers n ≥ the base integer.",
+        "C": "Therefore, the statement may be true for some integers.",
+        "D": "Consequently, the statement is false for n greater than the base case."
+      },
+      "correct_option": "B",
+      "answer": "Hence, the statement holds for all integers n ≥ the base integer.",
+      "explanation": "The purpose of induction is to extend the truth from the base case to every integer greater than or equal to it. The correct concluding sentence reflects this universal claim. Options A, C, and D either limit the claim or contradict it.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Which of the following best defines the principle of mathematical induction and distinguishes it from simple verification?",
+      "options": {
+        "A": "It proves a statement for all natural numbers by checking each case individually.",
+        "B": "It establishes a base case and shows that if the statement holds for an arbitrary integer k, then it holds for k+1, thereby proving it for all subsequent integers.",
+        "C": "It uses calculus to approximate sums.",
+        "D": "It relies on experimental observation rather than logical proof."
+      },
+      "correct_option": "B",
+      "answer": "It establishes a base case and shows that if the statement holds for an arbitrary integer k, then it holds for k+1, thereby proving it for all subsequent integers.",
+      "explanation": "Induction differs from case‑by‑case verification because it requires only one base case and a logical step that propagates truth forward. Option B captures this definition; the other options describe unrelated or incorrect methods.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "Given the statement to prove: For every n ≥ 1, the sum of the first n odd numbers equals n². Which of the following correctly identifies the statement that should be proved using induction?",
+      "options": {
+        "A": "1 + 3 + 5 + … + (2n‑1) = n²",
+        "B": "n² = n + (n‑1)",
+        "C": "The sum of the first n even numbers is n(n+1)",
+        "D": "n! > 2ⁿ for n ≥ 4"
+      },
+      "correct_option": "A",
+      "answer": "1 + 3 + 5 + … + (2n‑1) = n²",
+      "explanation": "The induction problem concerns the sum of the first n odd numbers. Option A states exactly that relationship. Options B, C, and D are unrelated statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "Consider the proposition P(n): 2ⁿ > n² for all integers n ≥ 5. Which of the following correctly establishes the base case for an induction proof of P(n)?",
+      "options": {
+        "A": "Show P(1) is true.",
+        "B": "Show P(5) is true.",
+        "C": "Show P(0) is true.",
+        "D": "Show P(2) is true."
+      },
+      "correct_option": "B",
+      "answer": "Show P(5) is true.",
+      "explanation": "The proposition is claimed for n ≥ 5, so the smallest integer that must be verified is n = 5. Demonstrating that 2⁵ = 32 > 25 confirms the base case. Options A, C, and D test values outside the required domain.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "Suppose you are proving that the sum of the first n natural numbers is n(n+1)/2 by induction. In the induction hypothesis step, which of the following correctly formulates the hypothesis?",
+      "options": {
+        "A": "Assume the formula holds for n = k and use it to prove for n = k+1.",
+        "B": "Assume the formula holds for n = k+1 and prove for n = k.",
+        "C": "Assume the formula holds for n = k‑1 and prove for n = k.",
+        "D": "No assumption is needed; directly prove for n = k+1."
+      },
+      "correct_option": "A",
+      "answer": "Assume the formula holds for n = k and use it to prove for n = k+1.",
+      "explanation": "The induction hypothesis states that we take the formula as true for an arbitrary integer k and then, using this assumption, demonstrate its truth for the next integer k+1. Options B and C reverse the direction, and D omits the essential hypothesis.",
+      "difficulty": "medium"
+    }
+  ]
+}

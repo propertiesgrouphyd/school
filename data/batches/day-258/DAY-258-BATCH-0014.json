@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-1",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Which of the following statements correctly describes the principle of mathematical induction?",
+      "options": {
+        "A": "If a statement is true for the initial integer and its truth for an arbitrary integer k implies its truth for k + 1, then the statement is true for all subsequent integers.",
+        "B": "If a statement is true for two consecutive integers, it is automatically true for all integers.",
+        "C": "If a statement holds for the integer 0, it holds for every integer without further proof.",
+        "D": "If a statement can be proved for a particular integer, it holds for all integers."
+      },
+      "correct_option": "A",
+      "answer": "If a statement is true for the initial integer and its truth for an arbitrary integer k implies its truth for k + 1, then the statement is true for all subsequent integers.",
+      "explanation": "The induction principle requires two steps: (1) verify the statement for a base integer (usually 1) and (2) show that assuming it true for k leads to its truth for k + 1. Together they guarantee truth for every integer ≥ the base. Options B, C and D omit the crucial implication step.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-2",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "In the first step of an induction proof, what must the student do?",
+      "options": {
+        "A": "Assume the statement is true for an arbitrary integer k.",
+        "B": "Clearly write down the proposition P(n) that is to be proved for all natural numbers n.",
+        "C": "Prove the statement for the next integer k + 1.",
+        "D": "Conclude that the statement holds for all integers."
+      },
+      "correct_option": "B",
+      "answer": "Clearly write down the proposition P(n) that is to be proved for all natural numbers n.",
+      "explanation": "The very first task is to identify and formulate the exact statement P(n) whose truth for every n is to be established. Only after this can the base case and induction hypothesis be set up. Options A and C refer to later steps, while D is the final conclusion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-3",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "What is the purpose of establishing the base case in an induction proof?",
+      "options": {
+        "A": "To verify that the statement holds for the initial integer from which the induction starts.",
+        "B": "To assume the statement is true for an arbitrary integer k.",
+        "C": "To prove that the statement for k implies the statement for k + 1.",
+        "D": "To generalise the result to all real numbers."
+      },
+      "correct_option": "A",
+      "answer": "To verify that the statement holds for the initial integer from which the induction starts.",
+      "explanation": "The base case confirms that the proposition is true at the starting point (usually n = 1). Without this verification, the chain of implications cannot begin. Options B and C describe later steps, and D is unrelated to induction on integers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-4",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "To prove that the sum of the first n odd numbers equals n², what should be taken as the induction hypothesis for an arbitrary integer k?",
+      "options": {
+        "A": "Assume that 1 + 3 + 5 + … + (2k − 1) = k².",
+        "B": "Assume that 1 + 3 + 5 + … + (2k + 1) = (k + 1)².",
+        "C": "Assume that 1 + 3 + 5 + … + (2k − 3) = (k − 1)².",
+        "D": "Assume that 1 + 3 + 5 + … + (2k − 1) = (k + 1)²."
+      },
+      "correct_option": "A",
+      "answer": "Assume that 1 + 3 + 5 + … + (2k − 1) = k².",
+      "explanation": "The induction hypothesis must state that the proposition holds for a generic integer k. Here the proposition is that the sum of the first k odd numbers equals k². Options B, C, and D either shift the index or give an incorrect equality.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-5",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "In proving 1 + 2 + … + n = n(n + 1)/2 by induction, which of the following correctly carries out the induction step from k to k + 1?",
+      "options": {
+        "A": "Assuming the hypothesis for k, add (k + 1) to both sides to obtain (k + 1)(k + 2)/2, which matches the formula for n = k + 1.",
+        "B": "Assuming the hypothesis for k, multiply both sides by (k + 1) to get (k + 1)²(k + 2)/2.",
+        "C": "Assuming the hypothesis for k, replace k by (k + 1) directly in the formula without any additional term.",
+        "D": "Assuming the hypothesis for k, subtract (k + 1) from both sides to obtain k(k + 1)/2."
+      },
+      "correct_option": "A",
+      "answer": "Assuming the hypothesis for k, add (k + 1) to both sides to obtain (k + 1)(k + 2)/2, which matches the formula for n = k + 1.",
+      "explanation": "The induction step requires adding the next term (k + 1) to the sum up to k. Using the hypothesis Σ_{i=1}^{k} i = k(k + 1)/2, we get Σ_{i=1}^{k+1} i = k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is exactly the required formula for n = k + 1. Options B, C, and D misuse algebraic operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-6",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After successfully proving the base case and the induction step for a proposition P(n), which of the following statements correctly expresses the final conclusion?",
+      "options": {
+        "A": "Therefore, P(n) is true for all integers n ≥ 1.",
+        "B": "Therefore, P(n) is true only for n = 1.",
+        "C": "Therefore, P(n) is true for all even integers n.",
+        "D": "Therefore, P(n) may still be false for some integers, so further verification is needed."
+      },
+      "correct_option": "A",
+      "answer": "Therefore, P(n) is true for all integers n ≥ 1.",
+      "explanation": "The essence of mathematical induction is that once the base case and the inductive step are established, the proposition holds for every integer starting from the base. Options B and C incorrectly restrict the domain, while D contradicts the logical guarantee provided by induction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-7",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "A student claims: “Since the statement is true for n = 1 and also true for n = 2, it must be true for all natural numbers.” Which response correctly addresses the misconception?",
+      "options": {
+        "A": "The claim is valid; checking two cases is enough.",
+        "B": "The claim is invalid because induction requires proving that truth for an arbitrary k implies truth for k + 1, not just verifying a few isolated cases.",
+        "C": "The claim is valid only if the statement is linear.",
+        "D": "The claim is invalid because a base case is unnecessary."
+      },
+      "correct_option": "B",
+      "answer": "The claim is invalid because induction requires proving that truth for an arbitrary k implies truth for k + 1, not just verifying a few isolated cases.",
+      "explanation": "Induction does not rely on checking a finite number of instances. It needs a base case and a general implication (k → k + 1). Verifying n = 1 and n = 2 alone cannot guarantee truth for all n. Options A, C, and D misinterpret the induction requirement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-8",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "For the proposition “n² − n is even for every natural number n”, which of the following correctly identifies the statement P(n) to be used in an induction proof?",
+      "options": {
+        "A": "P(n): n² − n is even.",
+        "B": "P(n): n² + n is even.",
+        "C": "P(n): n² − n is odd.",
+        "D": "P(n): n² is even."
+      },
+      "correct_option": "A",
+      "answer": "P(n): n² − n is even.",
+      "explanation": "The proposition to be proved is exactly that the expression n² − n yields an even number for every n; therefore P(n) must be stated as “n² − n is even”. Options B, C, and D describe different statements that are not the target of the proof.",
+      "difficulty": "medium"
+    }
+  ]
+}
