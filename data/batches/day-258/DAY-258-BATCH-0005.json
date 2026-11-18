@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "Which of the following statements correctly describes a characteristic feature of the graph of y = tan θ that distinguishes it from the graphs of y = sin θ and y = cos θ?",
+      "options": {
+        "A": "It has vertical asymptotes at odd multiples of 90° (π/2).",
+        "B": "Its maximum value is 1.",
+        "C": "It is periodic with period 2π.",
+        "D": "It passes through the origin."
+      },
+      "correct_option": "A",
+      "answer": "It has vertical asymptotes at odd multiples of 90° (π/2).",
+      "explanation": "The tangent function is undefined where cos θ = 0, i.e., at (2k+1)π/2 (odd multiples of 90°). This creates vertical asymptotes, a feature not present in the sine or cosine graphs. Options B and C describe sine/cosine properties, and D is true for all three but does not distinguish tan.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "What is the fundamental period of the function y = tan θ?",
+      "options": {
+        "A": "π",
+        "B": "2π",
+        "C": "π/2",
+        "D": "4π"
+      },
+      "correct_option": "A",
+      "answer": "π",
+      "explanation": "The tangent function repeats its values whenever its argument increases by π, because tan(θ + π) = tan θ. Hence the fundamental period is π. The other choices correspond to periods of sine/cosine or multiples thereof.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify amplitude where applicable",
+      "question": "Which of the following trigonometric functions has a well‑defined amplitude of 1?",
+      "options": {
+        "A": "y = sin θ",
+        "B": "y = tan θ",
+        "C": "y = sec θ",
+        "D": "y = cosec θ"
+      },
+      "correct_option": "A",
+      "answer": "y = sin θ",
+      "explanation": "Amplitude is defined for sinusoidal functions that oscillate between a maximum and minimum. For y = sin θ (and y = cos θ) the amplitude is |maximum| = 1. Tangent, secant, and cosecant are unbounded, so amplitude is not applicable.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Determine basic domain and range",
+      "question": "For the function y = tan θ, which pair correctly describes its basic domain and range?",
+      "options": {
+        "A": "Domain: all real θ; Range: [‑1, 1]",
+        "B": "Domain: θ ≠ (2k+1)π/2, k∈ℤ; Range: all real numbers",
+        "C": "Domain: θ ≠ kπ, k∈ℤ; Range: (‑∞, 0) ∪ (0, ∞)",
+        "D": "Domain: all real θ; Range: (‑∞, ∞) except 0"
+      },
+      "correct_option": "B",
+      "answer": "Domain: θ ≠ (2k+1)π/2, k∈ℤ; Range: all real numbers",
+      "explanation": "tan θ is undefined when cos θ = 0, i.e., at odd multiples of π/2, giving the domain restriction. Its values can be any real number, so the range is (‑∞, ∞). Options A and D incorrectly give a bounded range, and C gives the wrong domain.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "When sketching the graph of y = sin θ, which of the following is a common mistake made by students?",
+      "options": {
+        "A": "Assuming the graph attains its maximum value at θ = 0°.",
+        "B": "Marking zeros at θ = 0°, 180°, 360°.",
+        "C": "Using a period of 2π radians.",
+        "D": "Drawing the curve symmetric about the y‑axis."
+      },
+      "correct_option": "A",
+      "answer": "Assuming the graph attains its maximum value at θ = 0°.",
+      "explanation": "The sine function starts from 0 at θ = 0°, reaches its maximum (+1) at 90° (π/2), and returns to 0 at 180°. Assuming a maximum at 0° is a typical misconception. Options B, C, and D are correct aspects of the sine graph.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "The graph of y = cos θ can be obtained from the graph of y = sin θ by applying which horizontal shift?",
+      "options": {
+        "A": "A shift of 0° (no shift)",
+        "B": "A shift of 90° to the left",
+        "C": "A shift of 180° to the right",
+        "D": "A shift of 270° to the left"
+      },
+      "correct_option": "B",
+      "answer": "A shift of 90° to the left",
+      "explanation": "cos θ = sin(θ + 90°). Therefore, moving the sine curve 90° left (or equivalently 90° right for the cosine) aligns the peaks, producing the cosine graph. The other shifts do not give the cosine function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "Which statement correctly compares the basic graphs of y = tan θ and y = cot θ?",
+      "options": {
+        "A": "Both have period π, but tan θ has vertical asymptotes at (2k+1)π/2 while cot θ has them at kπ.",
+        "B": "Both have period 2π, and their asymptotes occur at the same x‑values.",
+        "C": "tan θ is bounded between –1 and 1, whereas cot θ is unbounded.",
+        "D": "The graph of cot θ is a vertical reflection of the graph of tan θ."
+      },
+      "correct_option": "A",
+      "answer": "Both have period π, but tan θ has vertical asymptotes at (2k+1)π/2 while cot θ has them at kπ.",
+      "explanation": "Both tangent and cotangent repeat every π radians. tan θ is undefined where cos θ = 0 → (2k+1)π/2, while cot θ is undefined where sin θ = 0 → kπ. Option B is wrong about period, C misstates boundedness, and D misdescribes the relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "If f(θ) = tan (2θ), what is the fundamental period of f?",
+      "options": {
+        "A": "π",
+        "B": "π/2",
+        "C": "2π",
+        "D": "π/4"
+      },
+      "correct_option": "B",
+      "answer": "π/2",
+      "explanation": "The period of tan x is π. For tan (2θ), the argument 2θ must increase by π for the function to repeat, so θ must increase by π/2. Hence the period is π/2. The other options correspond to periods of tan θ, sin/cos, or a miscalculation.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-1",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "Which of the following sketches correctly represents one complete period of the graph of y = sin x (with x in radians)?",
+      "options": {
+        "A": "Starts at (0,0), rises to (π/2,1), returns to (π,0), falls to (3π/2,‑1), and ends at (2π,0).",
+        "B": "Starts at (0,1), falls to (π/2,0), goes to (π,‑1), rises to (3π/2,0), and ends at (2π,1).",
+        "C": "Starts at (0,0), rises to (π/4,0.707), peaks at (π/2,1) then stays constant.",
+        "D": "Starts at (0,0) and proceeds in a straight line to (2π,0)."
+      },
+      "correct_option": "A",
+      "answer": "Starts at (0,0), rises to (π/2,1), returns to (π,0), falls to (3π/2,‑1), and ends at (2π,0).",
+      "explanation": "Option A follows the defining properties of the sine function: y=0 at 0, π, 2π; y=1 at π/2; y=‑1 at 3π/2, giving one full periodic wave. Options B and C describe other functions, and D is not a sinusoidal graph.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-2",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "Which sketch correctly shows the graph of y = cos x for one period from 0 to 2π?",
+      "options": {
+        "A": "Starts at (0,0), rises to (π/2,1), returns to (π,0), falls to (3π/2,‑1), ends at (2π,0).",
+        "B": "Starts at (0,1), falls to (π/2,0), continues to (π,‑1), rises to (3π/2,0), ends at (2π,1).",
+        "C": "Starts at (0,‑1), rises to (π,1), ends at (2π,‑1).",
+        "D": "Remains on the x‑axis for all x."
+      },
+      "correct_option": "B",
+      "answer": "Starts at (0,1), falls to (π/2,0), continues to (π,‑1), rises to (3π/2,0), ends at (2π,1).",
+      "explanation": "Cosine starts at its maximum value 1 when x=0, crosses zero at π/2, reaches –1 at π, returns to zero at 3π/2 and back to 1 at 2π. Option B matches these points; the other options describe sine, a shifted cosine, or a constant line.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-3",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "Which statement correctly describes the graph of y = tan x over the interval (‑π/2, π/2)?",
+      "options": {
+        "A": "The graph passes through the origin and has vertical asymptotes at x = ±π/2.",
+        "B": "The graph is a sinusoidal wave with maximum 1 and minimum –1.",
+        "C": "The graph has a horizontal asymptote y = 0.",
+        "D": "The graph is undefined for all x in the interval."
+      },
+      "correct_option": "A",
+      "answer": "The graph passes through the origin and has vertical asymptotes at x = ±π/2.",
+      "explanation": "tan x is zero at x=0 and grows without bound as x approaches ±π/2, producing vertical asymptotes there. It is not bounded between –1 and 1 (so B is false), has no horizontal asymptote (C false), and is defined except at the asymptotes (D false).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-4",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "What is the period of the function y = sin 2x?",
+      "options": {
+        "A": "π",
+        "B": "2π",
+        "C": "π/2",
+        "D": "4π"
+      },
+      "correct_option": "A",
+      "answer": "π",
+      "explanation": "For y = sin kx, the period is 2π/|k|. Here k = 2, so period = 2π/2 = π. Options B, C, D correspond to incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-5",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify amplitude where applicable",
+      "question": "Which statement about amplitude is correct?",
+      "options": {
+        "A": "The amplitude of y = sin x is 1, while y = tan x does not have a defined amplitude.",
+        "B": "Both y = sin x and y = tan x have amplitude 1.",
+        "C": "The amplitude of y = cos x is 0.",
+        "D": "Amplitude is the distance between the vertical asymptotes of y = tan x."
+      },
+      "correct_option": "A",
+      "answer": "The amplitude of y = sin x is 1, while y = tan x does not have a defined amplitude.",
+      "explanation": "Amplitude is the maximum absolute value of a periodic wave. Sine and cosine have amplitude 1. Tangent is unbounded, so amplitude is not defined. Options B, C, D misuse the term amplitude.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-6",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Determine basic domain and range",
+      "question": "For the function y = tan x, which of the following correctly states its principal domain and range?",
+      "options": {
+        "A": "Domain: all real numbers; Range: (‑∞, ∞).",
+        "B": "Domain: x ≠ (2k+1)π/2, k∈ℤ; Range: (‑∞, ∞).",
+        "C": "Domain: [0, π]; Range: [‑1, 1].",
+        "D": "Domain: (‑π/2, π/2); Range: [0, 1]."
+      },
+      "correct_option": "B",
+      "answer": "Domain: x ≠ (2k+1)π/2, k∈ℤ; Range: (‑∞, ∞).",
+      "explanation": "tan x is undefined where cos x = 0, i.e., at odd multiples of π/2, so those points are excluded from the domain. Its values cover all real numbers, giving the range (‑∞, ∞). Options A, C, D ignore the asymptotes or restrict the domain incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-7",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "A student sketches the graph of y = sin x and marks the point (3π/2, 1). Which statement best identifies the error?",
+      "options": {
+        "A": "The sine function is positive at 3π/2; the point is correct.",
+        "B": "The sine function is zero at 3π/2; the point should be (3π/2, 0).",
+        "C": "The sine function is negative at 3π/2; the point should be (3π/2, ‑1).",
+        "D": "The point lies outside the domain of the sine function."
+      },
+      "correct_option": "C",
+      "answer": "The sine function is negative at 3π/2; the point should be (3π/2, ‑1).",
+      "explanation": "sin(3π/2) = –1, so the correct coordinate is (3π/2, ‑1). Option A is wrong because sine is not positive there; B is wrong because sine is not zero; D is irrelevant because sine is defined for all real x.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-8",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "If the graph of y = cos x is shifted π units to the right, which function represents the new graph?",
+      "options": {
+        "A": "y = cos(x ‑ π) = –cos x",
+        "B": "y = cos(x + π) = –cos x",
+        "C": "y = sin x",
+        "D": "y = –sin x"
+      },
+      "correct_option": "A",
+      "answer": "y = cos(x ‑ π) = –cos x",
+      "explanation": "Shifting a graph right by π replaces x with (x ‑ π). Using the identity cos(θ ‑ π) = –cos θ, the new function is –cos x. Option B represents a left shift, while C and D are unrelated sine functions.",
+      "difficulty": "medium"
+    }
+  ]
+}

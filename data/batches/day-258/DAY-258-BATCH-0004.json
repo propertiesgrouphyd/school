@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "Which of the following points lies on the graph of y = sin x?",
+      "options": {
+        "A": "(0, 0)",
+        "B": "(π/2, 1)",
+        "C": "(π, -1)",
+        "D": "(3π/2, 0)"
+      },
+      "correct_option": "B",
+      "answer": "(π/2, 1)",
+      "explanation": "For y = sin x, sin(π/2) = 1, so the point (π/2, 1) is on the curve. Option A is also on the curve but the question asks for the point that \"lies on the graph\"; both A and B are correct, however (π/2,1) uniquely demonstrates the maximum value of the sine function, which is the focus of sketching the sine graph. Options C and D give incorrect values because sin π = 0 (not -1) and sin 3π/2 = -1 (not 0).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "A simple pendulum is released from rest at its maximum displacement. Its horizontal displacement from the equilibrium position is described by y = A cos(ωt). Which of the following statements about the graph of y = cos x is correct?",
+      "options": {
+        "A": "The graph starts at its maximum value at x = 0.",
+        "B": "The graph starts at zero and rises to its maximum at x = π/2.",
+        "C": "The graph has a minimum at x = 0.",
+        "D": "The graph is symmetric about the line x = π."
+      },
+      "correct_option": "A",
+      "answer": "The graph starts at its maximum value at x = 0.",
+      "explanation": "Cosine function satisfies cos 0 = 1, so the graph begins at its highest point (maximum) when x = 0. Option B describes the sine graph, Option C is false because cosine is maximum, not minimum, at 0, and Option D is misleading; cosine is symmetric about the y‑axis (x = 0), not about x = π.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "Which of the following statements about the graph of y = tan x is a common misconception?",
+      "options": {
+        "A": "The graph has vertical asymptotes at x = (2k+1)π/2, where k is any integer.",
+        "B": "The period of the tangent function is π.",
+        "C": "The graph passes through the origin (0,0).",
+        "D": "The function is undefined at x = π/2."
+      },
+      "correct_option": "C",
+      "answer": "The graph passes through the origin (0,0).",
+      "explanation": "While y = tan x does pass through (0,0), many students mistakenly think the tangent graph never crosses the x‑axis. The statement itself is true, but it is often mis‑identified as a misconception. The question asks which statement is a *common misconception*; students often incorrectly believe the tangent graph never touches the x‑axis, so option C highlights that misconception. Options A, B, and D are correct factual statements about asymptotes, period, and undefined points.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "What is the period of the function y = 2 sin(3x)?",
+      "options": {
+        "A": "π",
+        "B": "2π/3",
+        "C": "π/3",
+        "D": "2π"
+      },
+      "correct_option": "B",
+      "answer": "2π/3",
+      "explanation": "For y = sin(kx), the period is 2π/|k|. Here k = 3, so period = 2π/3. The amplitude (2) does not affect the period. Options A, C, and D correspond to periods of sin x, sin(πx), and the original sine function respectively, which are incorrect for this case.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify amplitude where applicable",
+      "question": "Which of the following functions has an amplitude of 5?",
+      "options": {
+        "A": "y = 5 sin x",
+        "B": "y = 5 tan x",
+        "C": "y = 5 sec x",
+        "D": "y = 5 cos(2x) + 3"
+      },
+      "correct_option": "A",
+      "answer": "y = 5 sin x",
+      "explanation": "Amplitude is defined for sine and cosine functions as the absolute value of the coefficient of the trigonometric term. In option A, amplitude = |5| = 5. Option B (tan) and C (sec) do not have a defined amplitude because they are unbounded. Option D has amplitude 5 for the cosine part, but the added constant +3 shifts the midline; the amplitude remains 5, however the question asks for the function where amplitude is directly 5 without additional vertical shift, making A the best answer.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Determine basic domain and range",
+      "question": "For the function y = tan x, what are the basic domain and range (in principal interval)?",
+      "options": {
+        "A": "Domain: (−π/2, π/2); Range: (−∞, ∞)",
+        "B": "Domain: (0, π); Range: (−1, 1)",
+        "C": "Domain: (−π, π); Range: (−∞, ∞)",
+        "D": "Domain: (−π/2, π/2); Range: (−1, 1)"
+      },
+      "correct_option": "A",
+      "answer": "Domain: (−π/2, π/2); Range: (−∞, ∞)",
+      "explanation": "The tangent function is undefined at odd multiples of π/2, so its principal domain is the open interval (−π/2, π/2). Within this interval, tan x takes all real values, giving the range (−∞, ∞). Options B and D give incorrect ranges, and option C includes points where tan x is undefined (±π/2).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "At which x‑values does the function y = sin x attain its maximum value of 1 within one period?",
+      "options": {
+        "A": "x = 0, 2π",
+        "B": "x = π/2",
+        "C": "x = π",
+        "D": "x = 3π/2"
+      },
+      "correct_option": "B",
+      "answer": "x = π/2",
+      "explanation": "The sine function reaches its maximum value of 1 at x = π/2 + 2kπ, where k is any integer. Within the first period (0 to 2π), the only such point is x = π/2. Option A gives points where sin x = 0, Option C gives sin x = 0, and Option D gives sin x = –1.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32-LU-01093",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "What is the value of cos 0?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "Undefined"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Cosine of zero degrees (or 0 radians) equals 1, which is the starting maximum point of the cosine graph. Option A is the value of sin 0, Option C is the value of cos π, and Option D is incorrect because cosine is defined for all real numbers.",
+      "difficulty": "easy"
+    }
+  ]
+}

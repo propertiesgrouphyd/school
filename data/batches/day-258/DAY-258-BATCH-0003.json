@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify amplitude where applicable",
+      "question": "A student claims that the amplitude of the function y = sin(2x) is 2 because the coefficient of x is 2. Is this statement correct?",
+      "options": {
+        "A": "Yes, the amplitude is 2.",
+        "B": "No, the amplitude remains 1.",
+        "C": "Amplitude is not defined for sine functions.",
+        "D": "Amplitude equals the period of the function."
+      },
+      "correct_option": "B",
+      "answer": "No, the amplitude remains 1.",
+      "explanation": "For y = sin(kx) the amplitude is the absolute value of the coefficient multiplying the sine function, which is 1 here. The factor 2 changes the period, not the amplitude. Therefore option B is correct; the other options misinterpret amplitude.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Determine basic domain and range",
+      "question": "What are the basic domain and range of the function y = tan x?",
+      "options": {
+        "A": "Domain: all real numbers; Range: all real numbers",
+        "B": "Domain: x ≠ (2n+1)π/2, n ∈ ℤ; Range: all real numbers",
+        "C": "Domain: all real numbers; Range: y ≠ 0",
+        "D": "Domain: x ≠ nπ, n ∈ ℤ; Range: all real numbers"
+      },
+      "correct_option": "B",
+      "answer": "Domain: x ≠ (2n+1)π/2, n ∈ ℤ; Range: all real numbers",
+      "explanation": "tan x is undefined where cos x = 0, i.e., at odd multiples of π/2. Hence those points are excluded from the domain. The tangent function can take any real value, so its range is ℝ. Option B states this correctly; the other options either give an incorrect domain or range.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch sine graph",
+      "question": "Which of the following descriptions matches the graph of y = sin x?",
+      "options": {
+        "A": "The curve starts at the origin (0,0), rises to (π/2,1), returns to (π,0), falls to (3π/2,-1) and completes one period at (2π,0).",
+        "B": "The curve starts at (0,1), stays constant at 1 for all x, and never crosses the x‑axis.",
+        "C": "The curve starts at (0,0), immediately jumps to (0,1) and then proceeds as a straight line with slope 1.",
+        "D": "The curve starts at (0,0), descends to (π/2,-1), returns to (π,0), rises to (3π/2,1) and ends at (2π,0)."
+      },
+      "correct_option": "A",
+      "answer": "The curve starts at the origin (0,0), rises to (π/2,1), returns to (π,0), falls to (3π/2,-1) and completes one period at (2π,0).",
+      "explanation": "The sine function is zero at multiples of π, reaches its maximum +1 at (π/2 + 2kπ) and minimum –1 at (3π/2 + 2kπ). Option A correctly describes this behaviour; the other options describe unrelated or incorrect patterns.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch cosine graph",
+      "question": "Which transformation of the graph of y = sin x will produce the graph of y = cos x?",
+      "options": {
+        "A": "Shift the sine graph left by π/2 units.",
+        "B": "Shift the sine graph right by π/2 units.",
+        "C": "Reflect the sine graph about the x‑axis.",
+        "D": "Shift the sine graph upward by 1 unit."
+      },
+      "correct_option": "A",
+      "answer": "Shift the sine graph left by π/2 units.",
+      "explanation": "cos x = sin(x + π/2); therefore moving the sine curve left (i.e., adding π/2 to the argument) aligns it with the cosine curve. Option A states this correctly. Shifting right gives sin(x‑π/2) = –cos x, reflecting about the x‑axis changes sign, and vertical shift does not produce cosine.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Sketch tangent graph",
+      "question": "Which statement correctly describes the basic shape of the graph of y = tan x?",
+      "options": {
+        "A": "A repeating pattern with vertical asymptotes at x = (2n+1)π/2, passing through the origin and increasing from –∞ to +∞ in each interval.",
+        "B": "A smooth wave that oscillates between –1 and 1 without any asymptotes.",
+        "C": "A parabola opening upwards with vertex at the origin.",
+        "D": "A horizontal line at y = 0."
+      },
+      "correct_option": "A",
+      "answer": "A repeating pattern with vertical asymptotes at x = (2n+1)π/2, passing through the origin and increasing from –∞ to +∞ in each interval.",
+      "explanation": "The tangent function is undefined where cos x = 0, giving vertical asymptotes at odd multiples of π/2. Within each interval (–π/2, π/2) it passes through (0,0) and increases without bound. Options B, C, and D describe unrelated graphs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify period",
+      "question": "What is the period of the function y = sin 3x?",
+      "options": {
+        "A": "2π",
+        "B": "π/3",
+        "C": "2π/3",
+        "D": "π"
+      },
+      "correct_option": "C",
+      "answer": "2π/3",
+      "explanation": "For y = sin(kx) the period is 2π/|k|. Here k = 3, so period = 2π/3. Option C gives this value; the other options correspond to incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Identify amplitude where applicable",
+      "question": "Which of the following statements correctly defines amplitude and indicates the trigonometric functions for which it is applicable?",
+      "options": {
+        "A": "Amplitude is the maximum value of the function; it is defined for sin, cos, and tan.",
+        "B": "Amplitude is half the distance between the maximum and minimum values; it is defined only for sin and cos.",
+        "C": "Amplitude is the distance between successive peaks; it is defined for all trigonometric functions.",
+        "D": "Amplitude is the vertical shift of the graph; it is not defined for any basic trigonometric function."
+      },
+      "correct_option": "B",
+      "answer": "Amplitude is half the distance between the maximum and minimum values; it is defined only for sin and cos.",
+      "explanation": "Amplitude = (max – min)/2, which for sin and cos equals the absolute value of the coefficient multiplying them. Tangent does not have a fixed maximum or minimum, so amplitude is not defined for tan. Option B captures this correctly; the other options contain inaccurate definitions or applicability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01093",
+      "learning_point": "Determine basic domain and range",
+      "question": "Find the basic domain and range of the function y = 2 sin x.",
+      "options": {
+        "A": "Domain: all real numbers; Range: [‑2, 2]",
+        "B": "Domain: all real numbers; Range: [‑1, 1]",
+        "C": "Domain: x ≠ (2n+1)π/2, n ∈ ℤ; Range: [‑2, 2]",
+        "D": "Domain: all real numbers; Range: [0, 2]"
+      },
+      "correct_option": "A",
+      "answer": "Domain: all real numbers; Range: [‑2, 2]",
+      "explanation": "The sine function is defined for every real x, so the domain is ℝ. Multiplying by 2 stretches the graph vertically, giving maximum 2 and minimum –2; thus the range is [‑2, 2]. Option A states this correctly. Options B and D give incorrect ranges, and C incorrectly restricts the domain.",
+      "difficulty": "easy"
+    }
+  ]
+}
