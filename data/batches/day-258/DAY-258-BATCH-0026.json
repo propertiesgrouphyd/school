@@ -1,0 +1,78 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Why is it incorrect to claim that a statement is true for all natural numbers simply because it holds for the first few values, such as n=1 and n=2?",
+      "options": {
+        "A": "Because checking a finite number of cases cannot guarantee truth for infinitely many integers.",
+        "B": "Because the base case of induction must always start at n=0, not n=1.",
+        "C": "Because mathematical induction works only for even integers.",
+        "D": "Because the statement must be linear in n to apply induction."
+      },
+      "correct_option": "A",
+      "answer": "Because checking a finite number of cases cannot guarantee truth for infinitely many integers.",
+      "explanation": "Induction does not rely on testing many individual cases. It requires (1) a verified base case and (2) a proof that if the statement holds for an arbitrary integer k, then it also holds for k+1. Without the inductive step, confirming only a few values cannot establish truth for all natural numbers. Options B, C and D describe unrelated or false conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "Which of the following statements should be identified as the proposition to be proved by induction when asked to find the sum of the first n natural numbers?",
+      "options": {
+        "A": "Prove that n^2 - n + 1 is divisible by 3 for all n.",
+        "B": "Prove that 1+2+...+n = n(n+1)/2 for all natural numbers n.",
+        "C": "Prove that the sum of the first n odd numbers equals n^2 for all n.",
+        "D": "Prove that n! > 2^n for all n \\ge 1."
+      },
+      "correct_option": "B",
+      "answer": "Prove that 1+2+...+n = n(n+1)/2 for all natural numbers n.",
+      "explanation": "The classic induction problem for the sum of the first n natural numbers is to establish the formula S(n)=1+2+...+n = n(n+1)/2. Options A, C, and D are different statements unrelated to the required sum formula, so they are not the correct proposition to be proved.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "For the proposition P(n): 1+2+...+n = n(n+1)/2, which of the following correctly establishes the base case in an induction proof?",
+      "options": {
+        "A": "Prove P(0): 0 = 0 and conclude the proof.",
+        "B": "Prove P(1): 1 = 1 and then use the inductive step for n\\ge1.",
+        "C": "Prove both P(0) and P(1) before proceeding with induction.",
+        "D": "No base case is needed if the inductive step is valid for all n."
+      },
+      "correct_option": "B",
+      "answer": "Prove P(1): 1 = 1 and then use the inductive step for n\\ge1.",
+      "explanation": "The statement P(n) is defined for natural numbers starting at 1, so verifying it for n=1 (1 = 1) suffices as the base case. Proving P(0) is unnecessary here, and option C adds an extra, non‑required step. Option D is false because induction always requires at least one base case.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "In proving that 2^n > n^2 for all integers n \\ge 5, what is the correct form of the induction hypothesis?",
+      "options": {
+        "A": "Assume 2^k > k^2 holds for all integers k \\ge 5.",
+        "B": "Assume 2^{k+1} > (k+1)^2 holds for some integer k \\ge 5.",
+        "C": "Assume 2^k > k^2 holds for a particular integer k \\ge 5.",
+        "D": "Assume 2^k > k^2 holds only for k = 5."
+      },
+      "correct_option": "C",
+      "answer": "Assume 2^k > k^2 holds for a particular integer k \\ge 5.",
+      "explanation": "The induction hypothesis states that the property is true for an arbitrary but fixed integer k (with k \\ge 5). This assumption is then used to prove the statement for k+1. Option A is too strong (it assumes the statement for all k), option B misplaces the hypothesis on k+1, and option D limits the hypothesis to a single value, which is insufficient for induction.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-258-9",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Two statements are given about proving the formula 1+2+…+n = n(n+1)/2 by induction.\n\nStatement I: Base case n=1 is verified. Assume the formula holds for n=k, then add (k+1) to both sides to obtain the formula for n=k+1.\n\nStatement II: Base case n=0 is verified. Assume the formula holds for n=k, then replace k by k+1 in the formula without any additional algebraic step to claim it holds for n=k+1.\n\nWhich statement contains an invalid induction argument?",
+      "options": {
+        "A": "Statement I is invalid because the induction step is incorrect.",
+        "B": "Statement II is invalid because the induction step skips necessary algebra.",
+        "C": "Both statements are valid.",
+        "D": "Neither statement is valid."
+      },
+      "correct_option": "B",
+      "answer": "Statement II is invalid because the induction step skips necessary algebra.",
+      "explanation": "In Statement II the student merely substitutes k+1 into the formula without showing how the left‑hand side changes; the induction step must start from Σ_{i=1}^{k+1} i = (Σ_{i=1}^{k} i) + (k+1). Skipping this algebra makes the argument invalid. Statement I follows the correct inductive step, so it is valid.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-258-10",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "Which of the following outlines represents a logically complete induction proof for the statement: \"For every integer n ≥ 1, 5^n – 1 is divisible by 4\"?",
+      "options": {
+        "A": "Base step: n=1, 5^1–1=4, divisible by 4. Induction hypothesis: assume true for n=k. Induction step: write 5^{k+1}–1 = 5·5^{k}–1 = 5(5^{k}–1)+4 and conclude divisibility.",
+        "B": "Base step: n=0, 5^0–1=0, divisible by 4. Induction hypothesis: assume true for n=k. Induction step: replace k by k+1 directly in the hypothesis.",
+        "C": "Base step: n=1, 5^1–1=4, divisible by 4. Induction hypothesis: assume true for n=k. Induction step: add 5^{k+1} to both sides of the hypothesis and claim the result is divisible by 4.",
+        "D": "Base step: n=2, 5^2–1=24, divisible by 4. Induction hypothesis: assume true for n=k. Induction step: note that 5^{k+1}–1 = (5^{k}–1)·5 +4 and use the hypothesis."
+      },
+      "correct_option": "A",
+      "answer": "Base step: n=1, 5^1–1=4, divisible by 4. Induction hypothesis: assume true for n=k. Induction step: write 5^{k+1}–1 = 5·5^{k}–1 = 5(5^{k}–1)+4 and conclude divisibility.",
+      "explanation": "Option A contains all required elements: a correct base case, a clear induction hypothesis, and a step that rewrites 5^{k+1}–1 in terms of the hypothesis plus a multiple of 4, thereby showing the property holds for k+1. The other options either miss a proper base case or do not correctly use the hypothesis.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-258-11",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "Which of the following summation identities can be proved by mathematical induction?",
+      "options": {
+        "A": "∑_{k=1}^{n} k = n(n+1)/2",
+        "B": "∑_{k=1}^{n} k^2 = n(n+1)(2n+1)/6",
+        "C": "∑_{k=1}^{n} 2^{k} = 2^{n+1} – 2",
+        "D": "All of the above"
+      },
+      "correct_option": "D",
+      "answer": "All of the above",
+      "explanation": "Each of the three formulas has a clear base case and an induction step that follows from the hypothesis. Hence all can be established using the principle of mathematical induction. Options A, B, and C are individually provable; therefore the correct choice is D.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-258-12",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following statements is true for all integers n ≥ 1 and can be proved by induction?",
+      "options": {
+        "A": "3^{n} – 2^{n} is divisible by 5",
+        "B": "7^{n} – 1 is divisible by 6",
+        "C": "2^{n} + 1 is divisible by 3 for even n",
+        "D": "9^{n} – 1 is divisible by 8"
+      },
+      "correct_option": "B",
+      "answer": "7^{n} – 1 is divisible by 6",
+      "explanation": "Since 7 ≡ 1 (mod 6), raising 7 to any power k gives 7^{k} ≡ 1 (mod 6). Hence 7^{n} – 1 is a multiple of 6 for every n ≥ 1, and the statement is easily proved by induction. The other options are either false or hold only under extra conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-258-13",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "Why is mathematical induction suitable for proving the inequality 2^{n} ≥ n + 1 for all n ≥ 0?",
+      "options": {
+        "A": "The inequality relates successive terms, allowing the induction step to use the hypothesis directly.",
+        "B": "Induction is not suitable; a calculus argument is required.",
+        "C": "The inequality can be proved only by contradiction, not induction.",
+        "D": "Induction works only for equalities, not inequalities."
+      },
+      "correct_option": "A",
+      "answer": "The inequality relates successive terms, allowing the induction step to use the hypothesis directly.",
+      "explanation": "In the induction step we assume 2^{k} ≥ k+1 and then show 2^{k+1}=2·2^{k} ≥ 2(k+1) ≥ (k+1)+1, which uses the hypothesis about the previous term. Hence induction naturally fits the structure of the inequality. The other options misstate the scope of induction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-258-14",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "A student tries to prove that every integer greater than 1 can be written as a product of primes by induction. He assumes the statement true for n = k and then claims it is automatically true for n = k + 1 without examining the factorisation of k + 1. What is wrong with this argument?",
+      "options": {
+        "A": "The base case is missing.",
+        "B": "The induction hypothesis does not guarantee the factorisation of k + 1.",
+        "C": "The statement is false for some n.",
+        "D": "Induction cannot be used for statements about factorisation."
+      },
+      "correct_option": "B",
+      "answer": "The induction hypothesis does not guarantee the factorisation of k + 1.",
+      "explanation": "The hypothesis only tells us that numbers up to k can be expressed as a product of primes. It says nothing about the specific integer k+1, which might be prime itself or a composite needing a new factorisation. Therefore the step is invalid. The base case (n=2) is usually provided, and the statement is true, so options A, C, and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-258-15",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "Consider the following partial induction proof for the identity ∑_{i=1}^{n} i = n(n+1)/2.\n\nBase step: For n = 1, LHS = 1 and RHS = 1·2/2 = 1, true.\n\nInduction hypothesis: Assume true for n = k.\n\nInduction step: For n = k + 1,\n∑_{i=1}^{k+1} i = (∑_{i=1}^{k} i) + (k+1)\n= [k(k+1)/2] + (k+1)   (by hypothesis)\n= (k+1)(k/2 + 1)\n= (k+1)(k+2)/2.\n\nWhich of the following statements is missing to complete the proof?",
+      "options": {
+        "A": "The algebraic simplification from [k(k+1)/2] + (k+1) to (k+1)(k+2)/2.",
+        "B": "Restating the induction hypothesis.",
+        "C": "Observing that (k+1)(k+2)/2 is exactly the right‑hand side of the formula for n = k + 1.",
+        "D": "None, the proof is already complete."
+      },
+      "correct_option": "C",
+      "answer": "Observing that (k+1)(k+2)/2 is exactly the right‑hand side of the formula for n = k + 1.",
+      "explanation": "After the algebraic manipulation we must explicitly note that the obtained expression matches the formula n(n+1)/2 when n is replaced by k+1. This final comparison confirms that the induction step holds. Options A and B are already performed, and the proof is not complete without the observation in C.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-258-16",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "A student is asked to find a closed form for the sum S = ∑_{r=1}^{n} (2r – 1). Which of the following statements correctly uses induction to prove that S = n^{2}?",
+      "options": {
+        "A": "Verify the base case n = 1, assume the formula holds for n = k, then add the (k+1)^{st} term 2(k+1) – 1 to both sides to obtain (k+1)^{2}.",
+        "B": "Verify the base case n = 0, assume the formula holds for n = k, then multiply both sides by 2.",
+        "C": "Verify the base case n = 2, assume the formula holds for n = k, then subtract 1 from both sides.",
+        "D": "No induction is needed; the result follows directly from the formula for the sum of an arithmetic progression."
+      },
+      "correct_option": "A",
+      "answer": "Verify the base case n = 1, assume the formula holds for n = k, then add the (k+1)^{st} term 2(k+1) – 1 to both sides to obtain (k+1)^{2}.",
+      "explanation": "The induction proof proceeds as follows: for n = 1, S = 1 = 1^{2}. Assuming ∑_{r=1}^{k} (2r – 1) = k^{2}, adding the next term 2(k+1) – 1 gives k^{2} + 2k + 1 = (k+1)^{2}, which matches the formula for n = k+1. Options B, C, and D either use incorrect base cases or ignore the inductive structure.",
+      "difficulty": "medium"
+    }
+  ]
+}

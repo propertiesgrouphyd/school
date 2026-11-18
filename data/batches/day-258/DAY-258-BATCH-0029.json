@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-258-17",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Consider the statement: For every integer n ≥ 1, 5ⁿ − 1 is divisible by 4. Which of the following reflects a common mistake when trying to prove this by mathematical induction?",
+      "options": {
+        "A": "Assuming the result for n automatically implies the result for n + 1 without performing any algebraic manipulation.",
+        "B": "Verifying the base case n = 1 correctly.",
+        "C": "Using the induction hypothesis to write 5^{n+1} − 1 = 5(5ⁿ − 1) + 4.",
+        "D": "Concluding divisibility from the equality 5^{n+1} − 1 = 5(5ⁿ − 1) + 4."
+      },
+      "correct_option": "A",
+      "answer": "Assuming the result for n automatically implies the result for n + 1 without performing any algebraic manipulation.",
+      "explanation": "The flaw is to skip the algebraic step that connects the hypothesis for n to the case n + 1. One must rewrite 5^{n+1} − 1 in terms of 5ⁿ − 1 and show the extra term is also divisible by 4. Options B, C and D describe correct parts of a valid induction proof.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-258-18",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "To prove by induction that 2ⁿ ≥ n + 1 for all integers n ≥ 1, which of the following statements correctly justifies the inductive step?",
+      "options": {
+        "A": "Assuming 2ᵏ ≥ k + 1, then 2^{k+1}=2·2ᵏ ≥ 2(k + 1).",
+        "B": "Assuming 2ᵏ ≥ k + 1, then 2^{k+1}=2·2ᵏ ≥ (k + 1)+1.",
+        "C": "Assuming 2ᵏ ≥ k + 1, then 2^{k+1}=2·2ᵏ ≥ k + 2.",
+        "D": "Assuming 2ᵏ ≥ k + 1, then 2^{k+1}=2·2ᵏ ≥ 2k + 2."
+      },
+      "correct_option": "A",
+      "answer": "Assuming 2ᵏ ≥ k + 1, then 2^{k+1}=2·2ᵏ ≥ 2(k + 1).",
+      "explanation": "From the hypothesis 2ᵏ ≥ k + 1, multiplying both sides by 2 gives 2^{k+1} ≥ 2k + 2 = 2(k + 1). Since 2(k + 1) ≥ k + 2 for all k ≥ 1, the required inequality 2^{k+1} ≥ (k+1)+1 holds. Options B and C do not follow directly from the hypothesis, and D repeats the same inequality without linking it to the target form.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-258-19",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Which of the following induction arguments is invalid?",
+      "options": {
+        "A": "Base case: P(1) is true. Inductive step: Assuming P(k) true, prove P(k+1) by adding 2 to both sides of the equality in P(k).",
+        "B": "Base case: P(2) is true. Inductive step: Assuming P(k) true for some even k, prove P(k+2) true using the same reasoning.",
+        "C": "Base case: For n=1, all horses are the same colour (trivially true). Inductive step: Assuming any set of k horses are the same colour, show that any set of k+1 horses are the same colour by overlapping two subsets of size k.",
+        "D": "Base case: P(0) is true. Inductive step: Assuming P(k) true, prove P(k+1) by direct substitution."
+      },
+      "correct_option": "C",
+      "answer": "Base case: For n=1, all horses are the same colour (trivially true). Inductive step: Assuming any set of k horses are the same colour, show that any set of k+1 horses are the same colour by overlapping two subsets of size k.",
+      "explanation": "The argument in option C is the classic fallacious proof that all horses are the same colour. The error lies in the inductive step when k=1: the two subsets of size k do not overlap, so the colour‑matching argument fails. Options A, B and D follow valid logical structures for appropriate statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-258-20",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "In a competitive exam, which of the following steps is essential to make an induction proof of the statement \"n! > 2ⁿ for all integers n ≥ 4\" logically complete?",
+      "options": {
+        "A": "State and verify the base case n = 4.",
+        "B": "Assume the statement holds for n = k (induction hypothesis).",
+        "C": "Show explicitly how k! > 2ᵏ leads to (k+1)! > 2^{k+1}.",
+        "D": "All of the above."
+      },
+      "correct_option": "D",
+      "answer": "All of the above.",
+      "explanation": "A complete induction proof must (A) verify the base case, (B) state the induction hypothesis, and (C) use the hypothesis to derive the result for the next integer, demonstrating the logical flow. Omitting any of these makes the proof incomplete, which is penalised in competitive exams.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-258-21",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "What is the sum of the first n odd natural numbers?",
+      "options": {
+        "A": "n²",
+        "B": "n(n+1)/2",
+        "C": "2n + 1",
+        "D": "n(n‑1)/2"
+      },
+      "correct_option": "A",
+      "answer": "n²",
+      "explanation": "The series 1 + 3 + 5 + … + (2n‑1) contains n terms. Adding them gives n², a classic summation identity that can be proved by induction or by pairing terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-258-22",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "Which of the following correctly describes the role of the induction hypothesis when proving a divisibility statement such as \"3ⁿ − 2ⁿ is divisible by 5 for all n ≥ 1\"?",
+      "options": {
+        "A": "It is used to replace 3ᵏ and 2ᵏ with expressions involving the number 5.",
+        "B": "It allows us to assume the statement is true for n = k and then deduce it for n = k + 1.",
+        "C": "It is not needed because the statement follows directly from algebraic factorisation.",
+        "D": "It proves the base case automatically."
+      },
+      "correct_option": "B",
+      "answer": "It allows us to assume the statement is true for n = k and then deduce it for n = k + 1.",
+      "explanation": "In an induction proof of a divisibility claim, the hypothesis that the statement holds for a particular k is the bridge to the case k + 1. By expressing 3^{k+1} − 2^{k+1} in terms of 3ᵏ − 2ᵏ, the hypothesis shows the new expression is also a multiple of 5. Options A, C and D misstate the purpose of the hypothesis.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-258-23",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "In the context of mathematical induction, how does proving an inequality differ from proving an identity?",
+      "options": {
+        "A": "Inequality proofs require establishing a base case and a strict > or < relation in the inductive step, whereas identity proofs require equality in the inductive step.",
+        "B": "Inequality proofs do not need a base case.",
+        "C": "Identity proofs use the principle of strong induction only.",
+        "D": "There is no difference; both are proved in exactly the same way."
+      },
+      "correct_option": "A",
+      "answer": "Inequality proofs require establishing a base case and a strict > or < relation in the inductive step, whereas identity proofs require equality in the inductive step.",
+      "explanation": "When proving an inequality, the inductive step must show that the assumed inequality for k leads to a (usually stronger) inequality for k + 1, often using auxiliary bounds. For an identity, the step must demonstrate exact equality. Options B, C and D are incorrect statements about the process.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-258-24",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Which modification would correct the following flawed induction proof that \"all natural numbers are even\"? (Flawed proof: Base case n = 2 is true. Inductive step assumes n is even, then concludes n + 2 is even.)",
+      "options": {
+        "A": "Change the statement to \"All even natural numbers are even\".",
+        "B": "Start the induction at n = 1.",
+        "C": "Use strong induction instead of ordinary induction.",
+        "D": "No modification can make the argument valid."
+      },
+      "correct_option": "A",
+      "answer": "Change the statement to \"All even natural numbers are even\".",
+      "explanation": "The original claim is false; induction cannot prove a false universal statement. By restricting the claim to the set of even numbers, the base case and inductive step become logically sound. Options B and C do not address the falsity of the original claim, and D is unnecessary because a suitable modification exists.",
+      "difficulty": "easy"
+    }
+  ]
+}

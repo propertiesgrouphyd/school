@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "Consider the claim: For every integer n ≥ 1, 1 + 2 + … + n = n(n + 1)/2. Which of the following outlines a logically complete proof by mathematical induction?",
+      "options": {
+        "A": "Base step: Verify the statement for n=1. Inductive hypothesis: Assume it holds for n=k. Inductive step: Show that 1+2+…+k+(k+1) = (k+1)(k+2)/2 using the hypothesis.",
+        "B": "Base step: Verify the statement for n=1. Inductive step: Directly compute 1+2+…+(k+1) without using the hypothesis.",
+        "C": "Inductive hypothesis: Assume the formula holds for n=k+1. Base step: Verify for n=1.",
+        "D": "Base step: Verify for n=2. Inductive hypothesis: Assume it holds for n=k. Inductive step: Add (k+1) to both sides but forget to simplify."
+      },
+      "correct_option": "A",
+      "answer": "Base step: Verify the statement for n=1. Inductive hypothesis: Assume it holds for n=k. Inductive step: Show that 1+2+…+k+(k+1) = (k+1)(k+2)/2 using the hypothesis.",
+      "explanation": "Option A contains all three essential parts of a valid induction proof: a correct base case, a clear hypothesis, and a correct inductive step that uses the hypothesis to reach the desired formula. Options B, C, and D miss one or more of these components, making the argument incomplete or incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "A student wants to prove by induction that \\(\\sum_{i=1}^{n} i^{2}=\\frac{n(n+1)(2n+1)}{6}\\). Which of the following correctly represents the inductive step after assuming the formula holds for \\(n=k\\)?",
+      "options": {
+        "A": "Assume \\(\\sum_{i=1}^{k} i^{2}=\\frac{k(k+1)(2k+1)}{6}\\). Then \\(\\sum_{i=1}^{k+1} i^{2}=\\frac{k(k+1)(2k+1)}{6}+(k+1)^{2}\\), which simplifies to \\(\\frac{(k+1)(k+2)(2k+3)}{6}\\).",
+        "B": "Assume the formula for \\(k\\). Then add \\((k+1)^{2}\\) and claim the result is \\(\\frac{(k+1)(k+2)(2k+3)}{6}\\) without simplification.",
+        "C": "Assume the formula for \\(k\\). Then write \\(\\sum_{i=1}^{k+1} i^{2}=\\frac{k(k+1)(2k+1)}{6}\\) directly, ignoring the extra term.",
+        "D": "Assume the formula for \\(k\\). Then replace \\(k\\) by \\(k+1\\) in the original expression without using the hypothesis."
+      },
+      "correct_option": "A",
+      "answer": "Assume \\(\\sum_{i=1}^{k} i^{2}=\\frac{k(k+1)(2k+1)}{6}\\). Then \\(\\sum_{i=1}^{k+1} i^{2}=\\frac{k(k+1)(2k+1)}{6}+(k+1)^{2}\\), which simplifies to \\(\\frac{(k+1)(k+2)(2k+3)}{6}\\).",
+      "explanation": "Option A correctly uses the induction hypothesis, adds the (k+1)² term, and algebraically simplifies to the required formula for n = k+1. Options B, C, and D either skip the simplification, omit the added term, or replace k by k+1 without justification, so they are not valid inductive steps.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "To prove that \\(5^{n}-1\\) is divisible by 4 for every integer \\(n\\ge 1\\), a student writes: “Assume the statement is true for n. Then \\(5^{n+1}-1 = 5\\cdot5^{n}-1\\) and therefore it is divisible by 4.” Which statement correctly identifies the flaw in this reasoning?",
+      "options": {
+        "A": "The student failed to use the induction hypothesis to relate \\(5^{n+1}-1\\) to \\(5^{n}-1\\); the argument is incomplete.",
+        "B": "The equality \\(5^{n+1}-1 = 5(5^{n}-1)\\) is algebraically incorrect.",
+        "C": "The base case n=1 is not verified, so the proof cannot start.",
+        "D": "Divisibility by 4 cannot be proved by induction."
+      },
+      "correct_option": "A",
+      "answer": "The student failed to use the induction hypothesis to relate \\(5^{n+1}-1\\) to \\(5^{n}-1\\); the argument is incomplete.",
+      "explanation": "Option A pinpoints the real mistake: the student writes the expression for n+1 but never substitutes the hypothesis that \\(5^{n}-1\\) is a multiple of 4, so the divisibility is never transferred to the next case. Option B is false because the equality is correct; Option C is irrelevant because the base case is easy to check; Option D is false because induction can indeed prove such divisibility statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove inequalities",
+      "question": "Using mathematical induction, prove that \\(2^{n} > n\\) for all integers \\(n \\ge 1\\). Which of the following correctly justifies the inductive step?",
+      "options": {
+        "A": "Assume \\(2^{k} > k\\). Then \\(2^{k+1}=2\\cdot2^{k} > 2k \\ge k+1\\) for \\(k\\ge 1\\), establishing the step.",
+        "B": "Assume \\(2^{k} > k\\). Adding 1 to both sides gives \\(2^{k}+1 > k+1\\), which is the required inequality.",
+        "C": "Assume \\(2^{k} > k\\). Multiplying both sides by 2 yields \\(2^{k+1} > 2k\\); since \\(2k > k+1\\) for all \\(k\\), the result follows.",
+        "D": "Base case alone is sufficient; no inductive step is needed."
+      },
+      "correct_option": "A",
+      "answer": "Assume \\(2^{k} > k\\). Then \\(2^{k+1}=2\\cdot2^{k} > 2k \\ge k+1\\) for \\(k\\ge 1\\), establishing the step.",
+      "explanation": "Option A correctly uses the hypothesis, multiplies by 2, and then observes that \\(2k \\ge k+1\\) for all \\(k\\ge 1\\), thereby completing the inductive step. Option B adds 1 incorrectly; the inequality does not follow. Option C assumes \\(2k > k+1\\) without justification for k=1 (where equality holds). Option D ignores the need for induction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Avoid invalid induction arguments",
+      "question": "Two arguments are presented to prove the statement: \"For every integer n≥1, n(n+1) is even.\" Which of the following correctly compares their validity?\n\nArgument I: Base case n=1 is true (1·2=2, even). Assume n=k gives an even product. Then for n=k+1, (k+1)(k+2) = k(k+1) + 2(k+1), which is even because both terms are even.\n\nArgument II: Base case n=1 is true. Assume the statement holds for n=k. Then claim it is automatically true for n=k+1 because the product of two consecutive integers is always even, without using the hypothesis.",
+      "options": {
+        "A": "Argument I is valid, Argument II is invalid.",
+        "B": "Argument II is valid, Argument I is invalid.",
+        "C": "Both arguments are valid.",
+        "D": "Both arguments are invalid."
+      },
+      "correct_option": "A",
+      "answer": "Argument I is valid, Argument II is invalid.",
+      "explanation": "Argument I explicitly uses the induction hypothesis to rewrite (k+1)(k+2) in terms of the known even quantity k(k+1) and an even remainder, thus correctly completing the step. Argument II merely restates the obvious property without invoking the hypothesis, which is not a valid inductive proof. Hence only Argument I is valid.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Write logically complete proofs",
+      "question": "For all integers n≥1, prove that 3ⁿ + 2 is divisible by 5. Which of the following outlines a complete induction proof suitable for a competitive exam?",
+      "options": {
+        "A": "Base case n=1: 3¹+2=5, divisible by 5. Inductive hypothesis: Assume 3ᵏ+2 is a multiple of 5. Inductive step: 3^{k+1}+2 = 3·3^{k}+2 = 3(5m−2)+2 = 5(3m)−4, which simplifies to 5(3m−1), a multiple of 5.",
+        "B": "Base case n=1 verified. Assume the statement for n=k. Then 3^{k+1}+2 = 3·3^{k}+2, and since 3^{k}+2 is divisible by 5, 3·(multiple of 5)+2 is also divisible by 5.",
+        "C": "Base case n=0: 3⁰+2=3, not divisible, so the statement is false.",
+        "D": "Base case n=1 verified. Inductive step: 3^{k+1}+2 = 3^{k}+2+3^{k}, and because 3^{k}+2 is divisible by 5, the sum is also divisible by 5."
+      },
+      "correct_option": "A",
+      "answer": "Base case n=1: 3¹+2=5, divisible by 5. Inductive hypothesis: Assume 3ᵏ+2 is a multiple of 5. Inductive step: 3^{k+1}+2 = 3·3^{k}+2 = 3(5m−2)+2 = 5(3m)−4, which simplifies to 5(3m−1), a multiple of 5.",
+      "explanation": "Option A provides a rigorous base case, a clear hypothesis, and a correct algebraic manipulation that explicitly uses the hypothesis (writing 3^{k}+2 = 5m) to show the next case is also a multiple of 5. Option B skips the necessary algebraic detail; Option C uses an incorrect base case; Option D incorrectly splits the expression and does not correctly use the hypothesis. Hence only A is acceptable for a competitive‑exam level proof.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove summation identities",
+      "question": "What is the closed‑form expression for the sum \\(1+2+\\dots+n\\) of the first n natural numbers?",
+      "options": {
+        "A": "n(n+1)/2",
+        "B": "n(n-1)/2",
+        "C": "(n+1)(n+2)/2",
+        "D": "n^{2}"
+      },
+      "correct_option": "A",
+      "answer": "n(n+1)/2",
+      "explanation": "The well‑known formula for the sum of the first n natural numbers is \\(S = n(n+1)/2\\). Options B, C, and D are common mis‑arrangements that do not give the correct sum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01095",
+      "learning_point": "Prove divisibility statements",
+      "question": "For every integer n ≥ 1, which of the following expressions is always divisible by 3?",
+      "options": {
+        "A": "n^{3} - n",
+        "B": "n^{2} + 1",
+        "C": "2n + 1",
+        "D": "n + 2"
+      },
+      "correct_option": "A",
+      "answer": "n^{3} - n",
+      "explanation": "n^{3} - n = n(n-1)(n+1) is the product of three consecutive integers, and among any three consecutive integers one is a multiple of 3, so the whole product is divisible by 3. The other options do not guarantee divisibility by 3 for all n.",
+      "difficulty": "easy"
+    }
+  ]
+}
