@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-258-25",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Consider the statement P(n): 1 + 2 + … + n = n(n+1)/2. Which of the following correctly describes the principle of mathematical induction used to prove P(n) for all natural numbers?",
+      "options": {
+        "A": "Prove the base case (n = 1) and then assume P(k) is true to prove P(k+1).",
+        "B": "Prove only the base case and conclude the statement holds for all n.",
+        "C": "Prove the statement for n = 2 and infer it is true for all larger n.",
+        "D": "Assume the statement is true for all n without any proof."
+      },
+      "correct_option": "A",
+      "answer": "Prove the base case (n = 1) and then assume P(k) is true to prove P(k+1).",
+      "explanation": "Mathematical induction requires two steps: (1) verify the statement for the initial integer (base case) and (2) assume it holds for an arbitrary integer k (induction hypothesis) and then prove it for k+1 (inductive step). Option A captures this process; the other options omit or misuse these steps.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-258-26",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "A student wants to prove that 2^n > n for every integer n ≥ 1 using induction. Which of the following correctly identifies the statement that must be proved by induction?",
+      "options": {
+        "A": "Prove 2^n > n for n = 1 and then, assuming it holds for n = k, prove it for n = k + 1.",
+        "B": "Prove 2^n = n for all n ≥ 1.",
+        "C": "Prove 2^n < n for all n ≥ 1.",
+        "D": "Prove 2^n ≥ n only for n = 0."
+      },
+      "correct_option": "A",
+      "answer": "Prove 2^n > n for n = 1 and then, assuming it holds for n = k, prove it for n = k + 1.",
+      "explanation": "The statement to be proved by induction is the inequality 2^n > n for all n ≥ 1. The correct induction framework is to verify it for the base case n = 1 and then show that if it is true for an arbitrary k, it must also be true for k + 1. Options B, C, and D describe unrelated or incorrect statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-258-27",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "When proving that n! ≥ 2^{n-1} for all integers n ≥ 1, a student checks the base case only at n = 2 and declares the induction complete. Which base case should actually be verified?",
+      "options": {
+        "A": "n = 1",
+        "B": "n = 0",
+        "C": "n = 2",
+        "D": "n = 3"
+      },
+      "correct_option": "A",
+      "answer": "n = 1",
+      "explanation": "The statement is claimed for all n ≥ 1, so the base case must be the smallest integer in that domain, namely n = 1. Verifying only at n = 2 leaves the case n = 1 unchecked, which is a common mistake. Options B, C, and D either lie outside the required domain or do not address the smallest case.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-258-28",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "In an induction proof of the formula \\(\\sum_{i=1}^{n} i^{2}=\\frac{n(n+1)(2n+1)}{6}\\), what is the correct induction hypothesis for an arbitrary integer k?",
+      "options": {
+        "A": "Assume \\(\\sum_{i=1}^{k} i^{2}=\\frac{k(k+1)(2k+1)}{6}\\) holds.",
+        "B": "Assume \\(\\sum_{i=1}^{k+1} i^{2}=\\frac{(k+1)(k+2)(2k+3)}{6}\\) holds.",
+        "C": "Assume the formula holds for all integers n.",
+        "D": "No hypothesis is needed; the step follows directly from the base case."
+      },
+      "correct_option": "A",
+      "answer": "Assume \\(\\sum_{i=1}^{k} i^{2}=\\frac{k(k+1)(2k+1)}{6}\\) holds.",
+      "explanation": "The induction hypothesis states that the proposition is true for a particular but arbitrary integer k. Option A correctly expresses this. Option B incorrectly assumes the statement for k+1 before it is proved, while C is too strong and D ignores the essential hypothesis.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-258-29",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "For the statement \\(P(n): 1+2+\\dots+n = \\frac{n(n+1)}{2}\\), which of the following correctly demonstrates the induction step from \\(n = k\\) to \\(n = k+1\\)?",
+      "options": {
+        "A": "Assuming \\(1+2+\\dots+k = \\frac{k(k+1)}{2}\\), adding \\((k+1)\\) to both sides gives \\(1+2+\\dots+k+(k+1) = \\frac{k(k+1)}{2} + (k+1) = \\frac{(k+1)(k+2)}{2}\\).",
+        "B": "Multiplying both sides of the hypothesis by \\((k+1)\\) yields \\( (1+2+\\dots+k)(k+1) = \\frac{k(k+1)}{2}(k+1)\\), which is the required result.",
+        "C": "Subtracting \\((k+1)\\) from the hypothesis produces the formula for \\(k+1\\).",
+        "D": "No additional work is needed; the hypothesis itself proves the case \\(k+1\\)."
+      },
+      "correct_option": "A",
+      "answer": "Assuming \\(1+2+\\dots+k = \\frac{k(k+1)}{2}\\), adding \\((k+1)\\) to both sides gives \\(1+2+\\dots+k+(k+1) = \\frac{k(k+1)}{2} + (k+1) = \\frac{(k+1)(k+2)}{2}\\).",
+      "explanation": "The induction step requires using the hypothesis for \\(k\\) and then showing the statement holds for \\(k+1\\). Adding \\((k+1)\\) to both sides of the hypothesis and simplifying leads to the required formula for \\(k+1\\). Options B, C, and D misuse algebraic operations or skip the necessary reasoning.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-258-30",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After successfully establishing the base case and the inductive step for a proposition \\(P(n)\\), which of the following statements correctly expresses the final conclusion of the induction proof?",
+      "options": {
+        "A": "Therefore, \\(P(n)\\) is true for all integers \\(n \\geq 1\\).",
+        "B": "Therefore, \\(P(n)\\) is true only for \\(n = 1\\).",
+        "C": "Therefore, \\(P(n)\\) may be false for some values of \\(n\\).",
+        "D": "Therefore, induction does not guarantee the truth of \\(P(n)\\)."
+      },
+      "correct_option": "A",
+      "answer": "Therefore, \\(P(n)\\) is true for all integers \\(n \\geq 1\\).",
+      "explanation": "The essence of mathematical induction is that once the base case and the inductive step are proved, the proposition holds for every integer in the specified domain. Option A states this precisely. Options B, C, and D contradict the logical outcome of a valid induction proof.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-258-31",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Which of the following best describes the principle of mathematical induction?",
+      "options": {
+        "A": "A method to prove statements for all natural numbers by establishing a base case and an inductive step.",
+        "B": "A technique for solving differential equations.",
+        "C": "A way to compute limits of sequences.",
+        "D": "A method for factoring polynomials."
+      },
+      "correct_option": "A",
+      "answer": "A method to prove statements for all natural numbers by establishing a base case and an inductive step.",
+      "explanation": "Mathematical induction is specifically a proof technique that involves (1) verifying the statement for the first integer (base case) and (2) showing that if it holds for an arbitrary integer k, it must also hold for k+1 (inductive step). The other options describe unrelated mathematical methods.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-258-32",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "In an induction proof, the \"statement to be proved\" refers to:",
+      "options": {
+        "A": "The proposition \\(P(n)\\) that we aim to show holds for all integers \\(n\\) in the domain.",
+        "B": "Only the base case of the proof.",
+        "C": "Only the inductive hypothesis.",
+        "D": "The final conclusion after the proof is complete."
+      },
+      "correct_option": "A",
+      "answer": "The proposition \\(P(n)\\) that we aim to show holds for all integers \\(n\\) in the domain.",
+      "explanation": "The statement to be proved, denoted \\(P(n)\\), is the general claim that the induction process seeks to establish for every integer in the specified set. The base case and inductive hypothesis are parts of the proof, not the statement itself, and the final conclusion follows from successfully proving the statement.",
+      "difficulty": "easy"
+    }
+  ]
+}

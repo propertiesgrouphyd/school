@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "Which of the following correctly describes the induction step when proving a statement P(n) for all integers n\\u2265k?",
+      "options": {
+        "A": "Show that P(k) is true without using any assumption.",
+        "B": "Assume P(m) is true for an arbitrary integer m\\u2265k and then prove P(m+1) is true.",
+        "C": "Conclude that P(n) is true for all n without further proof.",
+        "D": "Prove P(k+1) directly without assuming P(k)."
+      },
+      "correct_option": "B",
+      "answer": "Assume P(m) is true for an arbitrary integer m\\u2265k and then prove P(m+1) is true.",
+      "explanation": "The induction step requires assuming the statement holds for an arbitrary integer m (the induction hypothesis) and using this assumption to prove it holds for the next integer m+1. Option B follows this procedure. Option A describes only the base case, C skips proof, and D does not use the hypothesis.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After establishing both the base case and the induction step, which statement correctly expresses the final conclusion of a proof by induction?",
+      "options": {
+        "A": "Therefore P(n) is true only for the particular integer n that was examined.",
+        "B": "Hence P(n) holds for all integers n\\u2265k.",
+        "C": "The statement may be true for some n but false for others.",
+        "D": "No conclusion can be drawn without checking infinitely many cases individually."
+      },
+      "correct_option": "B",
+      "answer": "Hence P(n) holds for all integers n\\u2265k.",
+      "explanation": "Mathematical induction guarantees that if the base case is true and the induction step is valid, then the proposition P(n) is true for every integer n starting from the base value k. Option B states this correctly; the other options either limit the truth to a single case or deny the logical consequence of induction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Which of the following best defines the principle of mathematical induction?",
+      "options": {
+        "A": "A method for solving differential equations.",
+        "B": "A technique to prove that a statement holds for all natural numbers by verifying a base case and an inductive step.",
+        "C": "A way to compute limits of sequences.",
+        "D": "A process for factoring quadratic polynomials."
+      },
+      "correct_option": "B",
+      "answer": "A technique to prove that a statement holds for all natural numbers by verifying a base case and an inductive step.",
+      "explanation": "The principle of mathematical induction consists of two parts: (1) proving the statement for the initial integer (base case) and (2) showing that if it holds for an arbitrary integer, it also holds for the next integer (inductive step). This matches option B. The other options describe unrelated mathematical techniques.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "We wish to prove that the sum of the first n odd numbers equals n². Which of the following is the exact statement that must be proved by induction?",
+      "options": {
+        "A": "1+3+\\dots+(2n-1)=n²",
+        "B": "1+2+\\dots+n=\\frac{n(n+1)}{2}",
+        "C": "n²-n+1 is a prime number for all n",
+        "D": "n!>2ⁿ for all n\\u22654"
+      },
+      "correct_option": "A",
+      "answer": "1+3+\\dots+(2n-1)=n²",
+      "explanation": "The proposition to be proved is that the sum of the first n odd integers (which are 1,3,...,2n-1) equals n squared. Option A states this precisely. Options B, C, and D are unrelated statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "To prove by induction that 2ⁿ>n for all integers n\\u22651, which value of n should be used for the base case?",
+      "options": {
+        "A": "n=0",
+        "B": "n=1",
+        "C": "n=2",
+        "D": "n=3"
+      },
+      "correct_option": "B",
+      "answer": "n=1",
+      "explanation": "For n=1, 2¹=2 which is greater than 1, so the base case holds. Choosing n=0 would give 2⁰=1 which is not greater than 0, and larger n are unnecessary for the base case. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "In proving that \\sum_{i=1}^{n} i = \\frac{n(n+1)}{2} by induction, what is the correct induction hypothesis?",
+      "options": {
+        "A": "Assume the formula holds for n=k and then prove it for n=k+1.",
+        "B": "Assume the formula holds only for n=1 and use it to prove all other cases.",
+        "C": "Assume the formula holds for every integer n simultaneously without proof.",
+        "D": "No hypothesis is needed; the formula follows directly from algebra."
+      },
+      "correct_option": "A",
+      "answer": "Assume the formula holds for n=k and then prove it for n=k+1.",
+      "explanation": "The induction hypothesis states that we assume the statement is true for an arbitrary integer k (the inductive assumption) and then use this to prove it for k+1. Option A captures this process. The other options either restrict the hypothesis incorrectly or ignore the need for an assumption.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "Which of the following reflects a common mistake when attempting to prove the induction step?",
+      "options": {
+        "A": "Assuming P(k) is true and then directly showing P(k+1) without actually using the assumption P(k).",
+        "B": "Assuming P(k) is true and correctly using it to derive P(k+1).",
+        "C": "Proving only the base case and ignoring the induction step.",
+        "D": "Verifying the statement for several specific values of n instead of a general proof."
+      },
+      "correct_option": "A",
+      "answer": "Assuming P(k) is true and then directly showing P(k+1) without actually using the assumption P(k).",
+      "explanation": "A frequent error is to claim the induction step is proved by merely checking P(k+1) without employing the induction hypothesis P(k). The hypothesis must be used to link the two cases. Option A describes this error; options B, C, and D describe either correct practice or different issues.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After a successful proof of the base case and the induction step for a statement S(n), which reasoning justifies concluding that S(n) holds for all integers n\\u2265k?",
+      "options": {
+        "A": "Because we have individually checked infinitely many cases.",
+        "B": "Because the principle of mathematical induction guarantees the truth for all subsequent integers.",
+        "C": "Because the statement appears obvious from intuition.",
+        "D": "Because we tested a few random values and they worked."
+      },
+      "correct_option": "B",
+      "answer": "Because the principle of mathematical induction guarantees the truth for all subsequent integers.",
+      "explanation": "The logical foundation of induction is that once the base case is true and the inductive step is established, the statement must be true for every integer from the base onward. This is precisely what option B states. Options A, C, and D do not provide a valid logical basis for the universal conclusion.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "In the method of mathematical induction, which of the following best describes the purpose of establishing the base case?",
+      "options": {
+        "A": "To prove the statement for all integers by assuming it holds for an arbitrary integer.",
+        "B": "To verify that the statement is true for the initial integer, typically n = 1.",
+        "C": "To derive the general formula that will be used in the induction step.",
+        "D": "To show that the statement fails for the initial integer, establishing a counterexample."
+      },
+      "correct_option": "B",
+      "answer": "To verify that the statement is true for the initial integer, typically n = 1.",
+      "explanation": "The base case is the first step of induction where we check that the proposition holds for the smallest integer in the domain (usually n=1). This verification anchors the inductive chain; without it the implication \"if true for k then true for k+1\" would have no starting point. Options A, C and D describe other activities or are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "When proving that the sum of the first n odd numbers equals n^2 using induction, what is the correct induction hypothesis?",
+      "options": {
+        "A": "Assume the formula holds for n = k+1.",
+        "B": "Assume the formula holds for n = k, i.e., 1 + 3 + … + (2k‑1) = k^2.",
+        "C": "Assume the formula holds for n = 1 only.",
+        "D": "Assume the sum of the first k even numbers equals k(k+1)."
+      },
+      "correct_option": "B",
+      "answer": "Assume the formula holds for n = k, i.e., 1 + 3 + … + (2k‑1) = k^2.",
+      "explanation": "The induction hypothesis is the assumption that the statement is true for an arbitrary integer k. Here the statement to be proved is 1+3+…+(2n-1)=n^2, so we assume it holds for n=k. Option B captures this precisely; the other options either shift the index, restrict to n=1, or refer to a different statement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "To prove by induction that 2^n > n for every integer n ≥ 1, which statement correctly represents the induction step?",
+      "options": {
+        "A": "Assume 2^k > k and then prove 2^{k+1} > k+1.",
+        "B": "Assume 2^{k+1} > k+1 and then prove 2^k > k.",
+        "C": "Show directly that 2^{k+1} > k+1 without using any hypothesis.",
+        "D": "Verify the inequality only for n = 1."
+      },
+      "correct_option": "A",
+      "answer": "Assume 2^k > k and then prove 2^{k+1} > k+1.",
+      "explanation": "In the induction step we assume the statement true for n=k (the induction hypothesis) and, using this assumption, demonstrate it holds for n=k+1. Option A follows this pattern. Option B reverses the direction, C omits the hypothesis, and D is merely the base case.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After successfully establishing the base case and proving the induction step for a proposition P(n), which of the following statements correctly states the final conclusion of mathematical induction?",
+      "options": {
+        "A": "P(n) is true only for the base integer.",
+        "B": "P(n) is true for all integers n greater than or equal to the base integer.",
+        "C": "P(n) may be true for some integers, but not necessarily all.",
+        "D": "P(n) is false for all integers beyond the base case."
+      },
+      "correct_option": "B",
+      "answer": "P(n) is true for all integers n greater than or equal to the base integer.",
+      "explanation": "The power of induction is that once the base case and the step \"k ⇒ k+1\" are verified, the statement holds for every integer starting from the base. Hence option B is the correct conclusion; the other options contradict the principle of induction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "Identify the misconception about mathematical induction: Which of the following statements is FALSE?",
+      "options": {
+        "A": "If a statement is true for n = 1 and true for n = 2, then it is true for all natural numbers.",
+        "B": "In induction, we must first verify the base case.",
+        "C": "The induction step shows that if the statement holds for n = k, it also holds for n = k+1.",
+        "D": "The induction hypothesis assumes the statement is true for an arbitrary integer k."
+      },
+      "correct_option": "A",
+      "answer": "If a statement is true for n = 1 and true for n = 2, then it is true for all natural numbers.",
+      "explanation": "Induction requires two components: a verified base case and a proof that truth for k implies truth for k+1. Merely checking n=1 and n=2 does not guarantee the statement for all n; the implication must be established for every successive integer. Options B, C, and D correctly describe the method, making A the false misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "When beginning an induction proof, which of the following is the appropriate statement to be proved (i.e., the statement P(n))?",
+      "options": {
+        "A": "The sum of the first n natural numbers is S_n = n(n+1)/2.",
+        "B": "The derivative of x^n is nx^{n-1}.",
+        "C": "The limit of (1+1/n)^n as n→∞ equals e.",
+        "D": "The area of a circle is πr^2."
+      },
+      "correct_option": "A",
+      "answer": "The sum of the first n natural numbers is S_n = n(n+1)/2.",
+      "explanation": "Induction is used to prove statements that are defined for each integer n. The formula for the sum of the first n natural numbers is a classic induction example. Options B, C, and D are unrelated to integer‑indexed statements and thus are not suitable for induction in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "Consider the inequality n! ≥ 2^{n-1} for all integers n ≥ 1. Which of the following correctly compares the choice of base case n = 0 versus n = 1?",
+      "options": {
+        "A": "Checking n = 0 is sufficient because the inequality holds trivially.",
+        "B": "Checking n = 1 is necessary because the statement is defined only for n ≥ 1.",
+        "C": "Both n = 0 and n = 1 must be verified to start the induction.",
+        "D": "No base case is needed if the induction step is proved."
+      },
+      "correct_option": "B",
+      "answer": "Checking n = 1 is necessary because the statement is defined only for n ≥ 1.",
+      "explanation": "The domain of the proposition is n ≥ 1, so the base case must be the smallest integer in that domain, namely n=1. Verifying n=0 is irrelevant because the statement does not claim anything about n=0. Options C and D ignore the requirement of a base case, while A misapplies the domain.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "In a JEE‑style induction problem, you need to prove that 3^n – 2^n is divisible by 5 for every integer n ≥ 1. What is the correct induction hypothesis to assume for the integer k?",
+      "options": {
+        "A": "Assume 3^{k+1} – 2^{k+1} is divisible by 5.",
+        "B": "Assume 3^k – 2^k is divisible by 5.",
+        "C": "Assume 3^k + 2^k is divisible by 5.",
+        "D": "Assume 3^{k-1} – 2^{k-1} is divisible by 5."
+      },
+      "correct_option": "B",
+      "answer": "Assume 3^k – 2^k is divisible by 5.",
+      "explanation": "The induction hypothesis must state that the property holds for an arbitrary integer k. Here the property is \"3^n – 2^n is divisible by 5\"; thus we assume it for n=k. Option B captures this. Option A jumps to k+1, C changes the expression, and D shifts to k‑1, none of which correctly set up the hypothesis.",
+      "difficulty": "hard"
+    }
+  ]
+}

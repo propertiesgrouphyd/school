@@ -1,0 +1,150 @@
+{
+  "day": 258,
+  "batch_id": "DAY-258-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "When proving the induction step for a statement P(k) ⇒ P(k+1), which of the following reflects a common misconception?",
+      "options": {
+        "A": "Assuming P(k+1) is true without using the induction hypothesis.",
+        "B": "Using the truth of P(k) (the induction hypothesis) to algebraically derive P(k+1).",
+        "C": "Verifying that the base case holds for the initial integer.",
+        "D": "Showing that, under the assumption that P(k) holds, P(k+1) follows logically."
+      },
+      "correct_option": "A",
+      "answer": "Assuming P(k+1) is true without using the induction hypothesis.",
+      "explanation": "The error in option A is to assume the very statement you need to prove for k+1, which defeats the purpose of the induction step. The correct approach is to start from the induction hypothesis (P(k) is true) and, using logical or algebraic reasoning, deduce P(k+1). Options B, D describe the proper method, and C concerns the base case, not the step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After completing both the base case and the induction step for a proposition P(n), which statement correctly expresses the conclusion of the induction proof?",
+      "options": {
+        "A": "Therefore, P(n) is true for all integers n ≥ n₀.",
+        "B": "Hence, P(n) is true only for the initial integer n₀.",
+        "C": "Thus, P(n) is false for all integers greater than n₀.",
+        "D": "Consequently, P(n) holds for some particular integer n."
+      },
+      "correct_option": "A",
+      "answer": "Therefore, P(n) is true for all integers n ≥ n₀.",
+      "explanation": "Mathematical induction allows us to conclude that the statement holds for every integer starting from the base case onward. Option A captures this universal conclusion. Options B and C incorrectly limit or negate the result, while D only suggests existence for a single n, which is insufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Understand the principle of mathematical induction",
+      "question": "How does the principle of mathematical induction differ from a direct proof when establishing a statement about all natural numbers?",
+      "options": {
+        "A": "Induction proves the statement for all natural numbers by verifying a base case and showing that if it holds for an arbitrary k, it holds for k+1; a direct proof derives the statement for an arbitrary n without such a stepwise argument.",
+        "B": "Induction requires checking infinitely many cases individually, whereas a direct proof checks only one case.",
+        "C": "In induction, the base case is optional, while a direct proof always starts with n=1.",
+        "D": "A direct proof uses the induction hypothesis, while induction does not."
+      },
+      "correct_option": "A",
+      "answer": "Induction proves the statement for all natural numbers by verifying a base case and showing that if it holds for an arbitrary k, it holds for k+1; a direct proof derives the statement for an arbitrary n without such a stepwise argument.",
+      "explanation": "Option A correctly contrasts the two methods: induction relies on a base case plus a step that propagates truth, whereas a direct proof attempts to establish the statement for a generic n in one argument. Options B, C, and D contain factual inaccuracies about the nature of induction and direct proof.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Identify the statement to be proved",
+      "question": "In a typical induction problem, which of the following is the correct statement that needs to be proved for all integers n ≥ 1?",
+      "options": {
+        "A": "For every integer n ≥ 1, the sum 1 + 3 + 5 + … + (2n − 1) equals n².",
+        "B": "For every integer n ≥ 1, the product n! is always even.",
+        "C": "For every integer n ≥ 1, the series 1 + 1/2 + … + 1/n diverges.",
+        "D": "For every integer n ≥ 1, n² − n + 41 is a prime number."
+      },
+      "correct_option": "A",
+      "answer": "For every integer n ≥ 1, the sum 1 + 3 + 5 + … + (2n − 1) equals n².",
+      "explanation": "Option A states a true proposition that is commonly proved by induction: the sum of the first n odd numbers equals n². Options B, C, and D are either false (B is false for n=1, D fails for n=41) or unrelated to a typical induction proof (C concerns divergence of the harmonic series, which is not proved by induction).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Establish the base case",
+      "question": "What is the purpose of establishing the base case in a proof by mathematical induction?",
+      "options": {
+        "A": "To verify that the statement holds for the initial integer, providing the starting point for the inductive argument.",
+        "B": "To prove the statement for all integers directly without further steps.",
+        "C": "To assume the statement is true for an arbitrary integer k.",
+        "D": "To demonstrate that the induction step fails."
+      },
+      "correct_option": "A",
+      "answer": "To verify that the statement holds for the initial integer, providing the starting point for the inductive argument.",
+      "explanation": "The base case confirms that the proposition is true for the smallest value (often n=1). This anchors the induction chain; without it, the step alone cannot guarantee truth for any integer. Options B, C, and D describe other parts of induction or are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Formulate the induction hypothesis",
+      "question": "Which of the following correctly expresses the induction hypothesis for the statement P(n): \"The sum of the first n natural numbers is n(n+1)/2\"?",
+      "options": {
+        "A": "Assume that for some integer k ≥ 1, 1 + 2 + … + k = k(k+1)/2.",
+        "B": "Assume that 1 + 2 + … + (k+1) = (k+1)(k+2)/2.",
+        "C": "Assume that the statement is true for all integers less than k.",
+        "D": "Assume that the base case n=1 holds."
+      },
+      "correct_option": "A",
+      "answer": "Assume that for some integer k ≥ 1, 1 + 2 + … + k = k(k+1)/2.",
+      "explanation": "The induction hypothesis states that the proposition is true for an arbitrary but fixed integer k. Option A captures this precisely. Option B jumps to k+1, which is what we need to prove, not assume. Option C is stronger than needed, and D merely repeats the base case.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "Prove the induction step",
+      "question": "In the context of mathematical induction, which description correctly distinguishes the induction step from the base case?",
+      "options": {
+        "A": "The induction step shows that if the statement holds for an arbitrary integer k, then it also holds for k+1; the base case verifies the statement for the initial integer.",
+        "B": "The induction step verifies the statement for the initial integer, while the base case proves it for all subsequent integers.",
+        "C": "Both the induction step and the base case involve checking infinitely many cases.",
+        "D": "The induction step is optional if the base case is proved for many values."
+      },
+      "correct_option": "A",
+      "answer": "The induction step shows that if the statement holds for an arbitrary integer k, then it also holds for k+1; the base case verifies the statement for the initial integer.",
+      "explanation": "Option A accurately describes the two distinct parts of induction: (1) base case – confirm the statement for the smallest n, and (2) step – prove the implication from k to k+1. Options B, C, and D misrepresent the roles or necessity of these components.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01094",
+      "learning_point": "State the conclusion correctly",
+      "question": "After successfully proving the base case and the induction step for the proposition P(n): \"n³ − n is divisible by 6 for all n ≥ 1\", how should the final conclusion be stated?",
+      "options": {
+        "A": "Hence, n³ − n is divisible by 6 for every integer n ≥ 1.",
+        "B": "Thus, n³ − n is divisible by 6 only for n = 1.",
+        "C": "Therefore, n³ − n is not divisible by 6 for any n > 1.",
+        "D": "Consequently, the statement holds for some specific n but not all."
+      },
+      "correct_option": "A",
+      "answer": "Hence, n³ − n is divisible by 6 for every integer n ≥ 1.",
+      "explanation": "The correct conclusion of an induction proof is a universal claim covering all integers from the base onward, as expressed in option A. Options B, C, and D contradict the result of a valid induction proof.",
+      "difficulty": "easy"
+    }
+  ]
+}
