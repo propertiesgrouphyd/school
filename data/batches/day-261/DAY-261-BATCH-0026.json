@@ -1,0 +1,78 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "A student writes the expansion (1 + x)^3 = 1 + 3x + 2x^2 + x^3. Which statement correctly identifies the error in this expansion?",
+      "options": {
+        "A": "The coefficient of x^2 should be 3, not 2.",
+        "B": "The constant term should be 0.",
+        "C": "The exponent of x in the last term should be 2, not 3.",
+        "D": "The term x^3 should not appear in the expansion."
+      },
+      "correct_option": "A",
+      "answer": "The coefficient of x^2 should be 3, not 2.",
+      "explanation": "The correct binomial expansion of (1 + x)^3 is 1 + 3x + 3x^2 + x^3. The student's error is the coefficient of x^2, which they wrote as 2 instead of the correct value 3. Options B, C, and D describe errors that do not exist in the given expansion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (2x - 3)^5, the (k+1)th term (where k starts from 0) is given by T_{k+1} = C(5,k) (2x)^{5-k} (-3)^k. Which of the following expressions correctly represents T_{k+1}?",
+      "options": {
+        "A": "C(5,k) (2x)^{5-k} (-3)^k",
+        "B": "C(5,k) (2x)^{k} (-3)^{5-k}",
+        "C": "C(5,k) (2x)^{5+k} (-3)^{k}",
+        "D": "C(5,k) (2x)^{5-k} ( -3)^{5-k}"
+      },
+      "correct_option": "A",
+      "answer": "C(5,k) (2x)^{5-k} (-3)^k",
+      "explanation": "The general term in a binomial expansion (a + b)^n is T_{k+1}=C(n,k) a^{n-k} b^{k}. Here a = 2x, b = -3, and n = 5, giving T_{k+1}=C(5,k)(2x)^{5-k}(-3)^k. Options B, C, and D misuse the exponents or the placement of -3, making them incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Consider the coefficient of x^3 in the expansions of (1 + x)^7 and (1 + x)^8. Which statement is true?",
+      "options": {
+        "A": "The coefficient in (1 + x)^7 is larger than that in (1 + x)^8.",
+        "B": "The coefficient in (1 + x)^8 is larger than that in (1 + x)^7.",
+        "C": "Both coefficients are equal.",
+        "D": "Neither expansion contains an x^3 term."
+      },
+      "correct_option": "B",
+      "answer": "The coefficient in (1 + x)^8 is larger than that in (1 + x)^7.",
+      "explanation": "The coefficient of x^3 in (1 + x)^n is C(n,3). C(7,3)=35 while C(8,3)=56. Since 56 > 35, the coefficient in (1 + x)^8 is larger. Options A, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "In Pascal’s triangle, the 9th row (starting with row 0) gives the coefficients of (a + b)^8. Which of the following statements is correct?",
+      "options": {
+        "A": "The middle term is 64 a^4 b^4.",
+        "B": "The sum of all coefficients in the row is 256.",
+        "C": "The first and last coefficients are 8.",
+        "D": "The coefficient of a^5 b^3 is 70."
+      },
+      "correct_option": "B",
+      "answer": "The sum of all coefficients in the row is 256.",
+      "explanation": "The sum of the coefficients in the expansion of (a + b)^n equals (1 + 1)^n = 2^n. For n = 8, the sum is 2^8 = 256, making option B correct. Option A is wrong because the middle coefficient is 70, not 64. Option C is wrong because the first and last coefficients are always 1. Option D is wrong because the coefficient of a^5 b^3 is C(8,5)=56, not 70.",
+      "difficulty": "hard"
+    }
+  ]
+}

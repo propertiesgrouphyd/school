@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In the expansion of (x+2)^{10}, the coefficient of x^3 is equal to the coefficient of x^k. Find the value of k.",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "5",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "The coefficient of x^r in (x+2)^{10} is C(10,r)·2^{10-r}. For r=3 the coefficient is C(10,3)=120. By the symmetry property C(10,r)=C(10,10-r), the same coefficient occurs when r=10-3=7. Hence k=7.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "A student wants to find the term containing x^4 in the expansion of (2x-5)^9. Write the general term T_{r+1} and determine the value of r for which the term contains x^4.",
+      "options": {
+        "A": "r = 4",
+        "B": "r = 5",
+        "C": "r = 6",
+        "D": "r = 3"
+      },
+      "correct_option": "B",
+      "answer": "r = 5",
+      "explanation": "The (r+1)th term is T_{r+1}=C(9,r)(2x)^{9-r}(-5)^{r}=C(9,r)2^{9-r}(-5)^{r}x^{9-r}. For the power of x to be 4, 9‑r = 4, giving r = 5. Thus the required term corresponds to r = 5.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "In the expansion of (1 - x)^8, what is the term containing x^5?",
+      "options": {
+        "A": "56x^5",
+        "B": "-56x^5",
+        "C": "8x^5",
+        "D": "-8x^5"
+      },
+      "correct_option": "B",
+      "answer": "-56x^5",
+      "explanation": "The (r+1)th term is C(8,r)(1)^{8-r}(-x)^{r}=C(8,r)(-1)^{r}x^{r}. For x^5 we need r=5. C(8,5)=56 and (-1)^{5} = -1, so the term is -56x^5. Many forget the sign introduced by (-x)^r.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "Find the middle term in the expansion of (3x+2)^7.",
+      "options": {
+        "A": "22680 x^4",
+        "B": "45360 x^4",
+        "C": "11340 x^4",
+        "D": "22680 x^3"
+      },
+      "correct_option": "A",
+      "answer": "22680 x^4",
+      "explanation": "For n = 7 (odd), the middle term is the (n+1)/2 = 4th term (r = 3). T_{4}=C(7,3)(3x)^{4}2^{3}=35·81x^4·8=22680x^4. Options B and C are incorrect multiplications, and D has the wrong power of x.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "Which coefficient is larger?\nA) The coefficient of x^3 in (2x+1)^6\nB) The coefficient of x^2 in (x-3)^5",
+      "options": {
+        "A": "Coefficient of x^3 in (2x+1)^6 is larger",
+        "B": "Coefficient of x^2 in (x-3)^5 is larger",
+        "C": "Both coefficients are equal",
+        "D": "Cannot be determined without further information"
+      },
+      "correct_option": "A",
+      "answer": "Coefficient of x^3 in (2x+1)^6 is larger",
+      "explanation": "Coefficient of x^3 in (2x+1)^6: C(6,3)·2^3 = 20·8 = 160.\nCoefficient of x^2 in (x-3)^5: C(5,2)·(-3)^3 = 10·(-27) = -270.\n160 > -270, so the first coefficient is larger. Option B ignores the sign, and C & D are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In the expansion of (x+2)^n, the coefficient of x^{n-2} is 84. Find the value of n.",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "answer": "7",
+      "explanation": "Coefficient of x^{n-2} = C(n, n-2)·2^{2}=C(n,2)·4. Setting C(n,2)·4 = 84 gives C(n,2)=21. Since C(7,2)=21, n = 7. Options A, B, and D give different binomial coefficients.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "Write the general term T_{r+1} in the expansion of (a+b)^n.",
+      "options": {
+        "A": "C(n,r) a^{r} b^{n-r}",
+        "B": "C(n,r) a^{n-r} b^{r}",
+        "C": "C(n,r+1) a^{n-r} b^{r}",
+        "D": "C(n,r) a^{n} b^{r}"
+      },
+      "correct_option": "B",
+      "answer": "C(n,r) a^{n-r} b^{r}",
+      "explanation": "The (r+1)th term of (a+b)^n is given by T_{r+1}=C(n,r) a^{n-r} b^{r}. Option A swaps the exponents, C uses wrong combination, and D keeps a to the power n regardless of r.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "Find the term containing a^3 b^2 in the expansion of (a+b)^5.",
+      "options": {
+        "A": "5 a^3 b^2",
+        "B": "10 a^3 b^2",
+        "C": "10 a^2 b^3",
+        "D": "5 a^2 b^3"
+      },
+      "correct_option": "B",
+      "answer": "10 a^3 b^2",
+      "explanation": "We need a exponent 3, so n‑r = 3 ⇒ r = 2. The term is C(5,2) a^{3} b^{2} = 10 a^3 b^2. Option A uses wrong coefficient, C and D correspond to different exponents.",
+      "difficulty": "easy"
+    }
+  ]
+}

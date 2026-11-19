@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "Compare the coefficients of x^3 in (1+x)^5 and x^2 in (1+x)^4. Which of the following statements is true?",
+      "options": {
+        "A": "The coefficient of x^3 in (1+x)^5 is greater than the coefficient of x^2 in (1+x)^4.",
+        "B": "The coefficient of x^3 in (1+x)^5 is less than the coefficient of x^2 in (1+x)^4.",
+        "C": "Both coefficients are equal.",
+        "D": "The relationship cannot be determined without further calculation."
+      },
+      "correct_option": "A",
+      "answer": "The coefficient of x^3 in (1+x)^5 is greater than the coefficient of x^2 in (1+x)^4.",
+      "explanation": "In (1+x)^5 the coefficient of x^3 is C(5,3)=10. In (1+x)^4 the coefficient of x^2 is C(4,2)=6. Since 10 > 6, statement A is correct; the other options are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In the expansion of (x+2)^n, the coefficient of x^3 is 560. What is the value of n?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "answer": "7",
+      "explanation": "The coefficient of x^3 in (x+2)^n is C(n,3)·2^{n-3}. Setting C(n,3)·2^{n-3}=560 and testing integer n gives n=7 because C(7,3)=35 and 2^{4}=16, and 35·16=560. No other integer n satisfies the equation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "What is the general term T_{k+1} in the binomial expansion of (a+b)^n?",
+      "options": {
+        "A": "C(n,k)·a^{n‑k}·b^{k}",
+        "B": "C(n,k)·a^{k}·b^{n‑k}",
+        "C": "C(n,k)·a^{n}·b^{k}",
+        "D": "C(n,k)·a^{k}·b^{k}"
+      },
+      "correct_option": "A",
+      "answer": "C(n,k)·a^{n‑k}·b^{k}",
+      "explanation": "The (k+1)th term of (a+b)^n is obtained by choosing k factors of b and (n‑k) factors of a, giving the coefficient C(n,k). Hence T_{k+1}=C(n,k)a^{n‑k}b^{k}. Options B, C, D misuse the exponents.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "Find the term containing x^4 in the expansion of (2x‑3)^7.",
+      "options": {
+        "A": "-15120 x^4",
+        "B": "15120 x^4",
+        "C": "-30240 x^4",
+        "D": "30240 x^4"
+      },
+      "correct_option": "A",
+      "answer": "-15120 x^4",
+      "explanation": "The term with x^4 occurs when k=4: C(7,4)(2x)^{4}(-3)^{3}=35·16·(-27)x^4 = -15120 x^4. The sign is negative and the magnitude is 15120, making option A correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "Which statement correctly describes the middle term(s) in the expansion of (a+b)^n?",
+      "options": {
+        "A": "If n is even, there are two middle terms given by T_{(n/2)+1} and T_{(n/2)+2}; if n is odd, there is a single middle term T_{(n+1)/2}.",
+        "B": "If n is odd, there are two middle terms; if n is even, there is a single middle term.",
+        "C": "The middle term is always T_{(n+1)/2} regardless of n.",
+        "D": "Middle terms do not exist in binomial expansions."
+      },
+      "correct_option": "A",
+      "answer": "If n is even, there are two middle terms given by T_{(n/2)+1} and T_{(n/2)+2}; if n is odd, there is a single middle term T_{(n+1)/2}.",
+      "explanation": "When n is even (say n=2m), the expansion has 2m+1 terms, so the two central terms are the (m+1)th and (m+2)th. When n is odd (n=2m+1), there are 2m+2 terms and a single central term, the (m+1)th, which is T_{(n+1)/2}. Options B, C, D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "Determine the coefficient of x^5 in the expansion of (3x^2 + 2)^6.",
+      "options": {
+        "A": "0",
+        "B": "720",
+        "C": "1080",
+        "D": "1440"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "Each term from (3x^2)^k·2^{6‑k} contributes x^{2k}. To obtain x^5 we need 2k=5, which has no integer solution. Hence the coefficient of x^5 is 0. All other options assume a possible term, which is not the case.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In the expansion of (x+1)^8, what is the coefficient of x^3?",
+      "options": {
+        "A": "56",
+        "B": "28",
+        "C": "70",
+        "D": "84"
+      },
+      "correct_option": "A",
+      "answer": "56",
+      "explanation": "The coefficient of x^3 is given by C(8,3)=8·7·6/(3·2·1)=56. The other numbers correspond to different binomial coefficients (C(8,2)=28, C(8,4)=70, C(8,5)=56 again but not asked).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "In the expansion of (2y ‑ z)^9, what is the 5th term (i.e., the term corresponding to k = 4)?",
+      "options": {
+        "A": "4032 y^5 z^4",
+        "B": "2016 y^5 z^4",
+        "C": "4032 y^4 z^5",
+        "D": "2016 y^4 z^5"
+      },
+      "correct_option": "A",
+      "answer": "4032 y^5 z^4",
+      "explanation": "The (k+1)th term is C(9,k)(2y)^{9‑k}(-z)^k. For k=4, C(9,4)=126, (2y)^{5}=32y^5, (-z)^4 = z^4. Multiplying: 126·32 = 4032, giving 4032 y^5 z^4. Options B, C, D have incorrect coefficients or powers.",
+      "difficulty": "medium"
+    }
+  ]
+}
