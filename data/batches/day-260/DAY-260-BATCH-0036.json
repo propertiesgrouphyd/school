@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "Which statement correctly defines the addition principle in counting?",
+      "options": {
+        "A": "If two events are mutually exclusive, the total number of ways to perform either event is the sum of the ways of each event.",
+        "B": "If two events occur sequentially, the total number of ways is the product of the ways of each event.",
+        "C": "The number of ways to arrange n distinct objects is n factorial.",
+        "D": "The number of ways to choose r objects from n is given by nCr."
+      },
+      "correct_option": "A",
+      "answer": "If two events are mutually exclusive, the total number of ways to perform either event is the sum of the ways of each event.",
+      "explanation": "The addition principle states that when two tasks are mutually exclusive, the total number of ways to do either one is the sum of the individual counts. Option B describes the multiplication principle, while C and D refer to permutations and combinations respectively, not the addition principle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A student must choose one of 3 books, one of 4 pens, and one of 2 notebooks. How many different selections are possible?",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "24",
+        "D": "36"
+      },
+      "correct_option": "C",
+      "answer": "24",
+      "explanation": "The multiplication principle applies because the choices are independent stages. Multiply the number of options at each stage: 3 × 4 × 2 = 24. The other options result from incorrect addition or partial multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "A password consists of 2 letters followed by 3 digits. Which of the following correctly lists the independent stages of forming such a password?",
+      "options": {
+        "A": "Choose the first letter, choose the second letter, choose the first digit, choose the second digit, choose the third digit.",
+        "B": "Choose the two letters together, then choose the three digits together.",
+        "C": "Choose the total of five characters at once.",
+        "D": "None of the above."
+      },
+      "correct_option": "A",
+      "answer": "Choose the first letter, choose the second letter, choose the first digit, choose the second digit, choose the third digit.",
+      "explanation": "Each character is selected independently, so each choice forms a separate stage. Options B and C combine stages, which violates the principle of independent counting.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A club wants to form a team of 3 boys and 2 girls from 4 boys and 3 girls. How many different teams can be formed?",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "20"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "First choose 3 boys from 4: C(4,3)=4 ways. Then choose 2 girls from 3: C(3,2)=3 ways. Multiply the independent stages: 4 × 3 = 12. The other options arise from incorrect addition or mis‑counting.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "If event A can occur in 5 ways and event B can occur in 3 ways, and the two events are mutually exclusive, then the total number of ways for either A or B to occur is 15. Is this statement true or false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both A and B"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "For mutually exclusive events, the addition principle requires addition, not multiplication: total ways = 5 + 3 = 8. The statement incorrectly multiplies the counts, so it is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "Why does the multiplication principle give the total number of outcomes when choices are made in succession?",
+      "options": {
+        "A": "Because each choice is independent, and every possibility of the first choice can be paired with every possibility of the second choice.",
+        "B": "Because we add the number of possibilities at each stage.",
+        "C": "Because overlapping outcomes are subtracted.",
+        "D": "Because we divide the total by the number of stages."
+      },
+      "correct_option": "A",
+      "answer": "Because each choice is independent, and every possibility of the first choice can be paired with every possibility of the second choice.",
+      "explanation": "Independence means the outcome of one stage does not affect the others, so the total number of combined outcomes is the product of the counts at each stage. Options B, C, and D describe unrelated principles.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Consider Process X: rolling a die and then flipping a coin. Process Y: selecting a single card from a standard deck of 52 cards. Which process has more independent stages?",
+      "options": {
+        "A": "Process X has more independent stages.",
+        "B": "Process Y has more independent stages.",
+        "C": "Both processes have the same number of independent stages.",
+        "D": "It cannot be determined without more information."
+      },
+      "correct_option": "A",
+      "answer": "Process X has more independent stages.",
+      "explanation": "Process X involves two sequential independent choices (die roll and coin flip), whereas Process Y involves only one choice (selecting a card). Therefore, Process X has more independent stages. Options B, C, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "In how many ways can 4 different books be arranged on a shelf if two particular books must not be placed together?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "20",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Total permutations of 4 books = 4! = 24. Treat the two particular books as a single block: then we have 3 objects, which can be arranged in 3! = 6 ways, and the two books within the block can be ordered in 2! = 2 ways, giving 6 × 2 = 12 arrangements where they are together. Subtract from total: 24 – 12 = 12 arrangements where they are not together. Hence option A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

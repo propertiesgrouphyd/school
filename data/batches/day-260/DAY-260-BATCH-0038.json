@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "Which of the following situations should be solved using the addition principle?",
+      "options": {
+        "A": "Choosing a committee of 2 from 5 students and then appointing a leader from that committee.",
+        "B": "Choosing a snack: either a sandwich from 4 types or a juice from 3 types, but not both.",
+        "C": "Arranging 3 distinct books on a shelf.",
+        "D": "Forming a 2‑digit password where each digit can be any of 0‑9."
+      },
+      "correct_option": "B",
+      "answer": "Choosing a snack: either a sandwich from 4 types or a juice from 3 types, but not both.",
+      "explanation": "The addition principle applies when the tasks are mutually exclusive – you can do either one or the other. In option B the choice is either a sandwich or a juice, so total ways = 4 + 3 = 7. Options A, C and D involve successive choices, which require the multiplication principle.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A code consists of a 3‑letter word followed by a 2‑digit number. The letters can be any of the 5 distinct letters {A,B,C,D,E} and repetitions are allowed. The digits can be any of 0‑9, repetitions allowed. How many such codes are possible?",
+      "options": {
+        "A": "1,250",
+        "B": "12,500",
+        "C": "2,500",
+        "D": "5,000"
+      },
+      "correct_option": "B",
+      "answer": "12,500",
+      "explanation": "Using the multiplication principle, the number of ways to choose the letters is 5³ = 125 (each of the three positions can be any of the 5 letters). The number of ways to choose the digits is 10² = 100. Total codes = 125 × 100 = 12,500. The other options arise from incorrect multiplication or omission of a factor.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which statement correctly describes an independent stage in a counting process?",
+      "options": {
+        "A": "Choosing a color for a shirt after deciding the size of the shirt.",
+        "B": "Choosing a size for a shirt after deciding the color.",
+        "C": "Choosing a color for a shirt when the color does not affect the size choice.",
+        "D": "Choosing a size for a shirt that depends on the color chosen."
+      },
+      "correct_option": "C",
+      "answer": "Choosing a color for a shirt when the color does not affect the size choice.",
+      "explanation": "An independent stage is one whose number of choices does not depend on previous stages. In option C the color can be chosen irrespective of the size, making it independent. Options A, B and D describe dependent choices, where the number of possibilities would change based on earlier decisions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A bag contains 4 red balls and 3 blue balls. In how many ways can you select one ball?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "7",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "answer": "7",
+      "explanation": "Selecting one ball is a simple counting problem: you can pick any of the 4 red balls or any of the 3 blue balls. By the addition principle, total ways = 4 + 3 = 7. The other options count only one colour or ignore the addition principle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "According to the addition principle, if a task can be performed in either of two mutually exclusive ways with m and n possibilities respectively, the total number of ways equals:",
+      "options": {
+        "A": "m × n",
+        "B": "m + n",
+        "C": "m - n",
+        "D": "max(m, n)"
+      },
+      "correct_option": "B",
+      "answer": "m + n",
+      "explanation": "The addition principle states that for mutually exclusive alternatives, the total number of outcomes is the sum of the individual counts, i.e., m + n. Option A describes the multiplication principle, while C and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A password consists of 2 distinct letters (chosen from 6 different letters, no repetition) followed by 3 digits (each digit can be any of 0‑9, repetitions allowed). How many different passwords can be formed?",
+      "options": {
+        "A": "30,000",
+        "B": "3,000",
+        "C": "60,000",
+        "D": "180,000"
+      },
+      "correct_option": "A",
+      "answer": "30,000",
+      "explanation": "First part: number of ways to choose 2 distinct letters = 6P2 = 6 × 5 = 30. Second part: each of the 3 digit positions can be any of 10 digits, so 10³ = 1,000. By the multiplication principle, total passwords = 30 × 1,000 = 30,000. The other options arise from missing a factor or using addition instead of multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "A restaurant offers 3 types of appetizers, 4 main courses, and 2 desserts. If a customer wants to choose exactly one item from each category, how many different 3‑course meals can be formed?",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "24",
+        "D": "36"
+      },
+      "correct_option": "C",
+      "answer": "24",
+      "explanation": "Choosing an appetizer, a main course, and a dessert are three independent stages. By the multiplication principle, total meals = 3 × 4 × 2 = 24. Options A, B, and D result from omitting or incorrectly combining stages.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A school is forming a committee consisting of 2 students from class A (which has 5 students) and 1 student from class B (which has 4 students). How many distinct committees can be formed?",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "40",
+        "D": "50"
+      },
+      "correct_option": "C",
+      "answer": "40",
+      "explanation": "First choose 2 students from class A: C(5,2) = 10 ways. Then choose 1 student from class B: C(4,1) = 4 ways. By the multiplication principle, total committees = 10 × 4 = 40. The other options miscalculate one of the combinations or use addition instead of multiplication.",
+      "difficulty": "medium"
+    }
+  ]
+}

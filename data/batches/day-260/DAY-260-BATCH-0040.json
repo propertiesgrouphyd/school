@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01104-MCQ-001",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "What is the definition of n! for a positive integer n?",
+      "options": {
+        "A": "product of all positive integers up to n",
+        "B": "sum of all positive integers up to n",
+        "C": "product of n and (n-1) only",
+        "D": "quotient of n divided by (n-1)"
+      },
+      "correct_option": "A",
+      "answer": "product of all positive integers up to n",
+      "explanation": "By definition, n! (read as \"n factorial\") equals the product 1×2×3×…×n. Hence option A correctly states the definition, while the other options describe unrelated operations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01104-MCQ-002",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "What is the value of 0! ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "undefined",
+        "D": "-1"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "By convention, the factorial of zero is defined as 1 so that formulas like n!/(n·(n-1)!) work for n=1. Therefore option B is correct; the other choices are incorrect by definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01104-MCQ-003",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression \\(\\frac{5!}{3!}\\).",
+      "options": {
+        "A": "20",
+        "B": "60",
+        "C": "120",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "20",
+      "explanation": "5! = 120 and 3! = 6, so \\(\\frac{5!}{3!}=\\frac{120}{6}=20\\). Option A gives the correct simplified value; the others are results of incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-01104-MCQ-004",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct books be arranged on a shelf?",
+      "options": {
+        "A": "4",
+        "B": "12",
+        "C": "24",
+        "D": "64"
+      },
+      "correct_option": "C",
+      "answer": "24",
+      "explanation": "Arranging 4 distinct items is a permutation of 4 objects: 4! = 4×3×2×1 = 24. Hence option C is correct. Options A and B underestimate the possibilities, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-01104-MCQ-005",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Given that 6! = 720, which of the following statements correctly describes the factorial notation?",
+      "options": {
+        "A": "6! = 6×5×4×3×2×1",
+        "B": "6! = 6×5×4×3",
+        "C": "6! = 6×5×4",
+        "D": "6! = 720 ÷ 2"
+      },
+      "correct_option": "A",
+      "answer": "6! = 6×5×4×3×2×1",
+      "explanation": "Factorial means the product of all positive integers down to 1. Option A reflects this definition, giving 6×5×4×3×2×1 = 720. Options B and C omit factors, and D misinterprets the value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01104-MCQ-006",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "In a counting problem you need to choose 0 objects from a set of 5 distinct objects. How many ways can this be done?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "5",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Choosing zero objects can be done in exactly one way – by choosing nothing. This aligns with the combinatorial formula \\(\\binom{5}{0}=1\\) and the convention 0! = 1. Hence option B is correct; the others are incorrect counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01104-MCQ-007",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Which of the following simplifications is incorrect?",
+      "options": {
+        "A": "\\(\\frac{5!}{5}=4!\\)",
+        "B": "\\(\\frac{6!}{7}=5!\\)",
+        "C": "\\(\\frac{4!}{2}=3!\\)",
+        "D": "\\(\\frac{7!}{7}=6!\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\frac{6!}{7}=5!\\)",
+      "explanation": "\\(\\frac{6!}{7}=\\frac{720}{7}\\) is not an integer and certainly not equal to 5! (=120). Options A, C, and D are valid simplifications because dividing n! by n removes the factor n, leaving (n‑1)!. Therefore B is the incorrect statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01104-MCQ-008",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many 3‑letter arrangements can be formed from 5 distinct letters if no letter repeats?",
+      "options": {
+        "A": "5³ = 125",
+        "B": "5P3 = 60",
+        "C": "5C3 = 10",
+        "D": "3! = 6"
+      },
+      "correct_option": "B",
+      "answer": "5P3 = 60",
+      "explanation": "The number of permutations of 3 objects chosen from 5 is 5P3 = 5×4×3 = 60. Option B correctly uses factorial notation (5! / (5‑3)!). Option A counts with replacement, C counts combinations without order, and D ignores the selection of letters. Hence B is correct.",
+      "difficulty": "medium"
+    }
+  ]
+}

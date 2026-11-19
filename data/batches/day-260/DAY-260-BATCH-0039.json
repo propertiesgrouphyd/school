@@ -1,0 +1,78 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A cafeteria offers 3 types of sandwiches and 4 types of drinks. A customer may order either a sandwich or a drink, but not both. How many different single‑item orders can the customer make?",
+      "options": {
+        "A": "12",
+        "B": "7",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "The addition principle applies because the two sets of choices (sandwiches and drinks) are mutually exclusive – a customer cannot choose both at the same time. Number of ways = ways to choose a sandwich (3) + ways to choose a drink (4) = 3 + 4 = 7. Option A (12) would be obtained by incorrectly multiplying, which is the common misconception the question targets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A password for a system consists of two lowercase letters followed by three digits (0–9). Letters may repeat. How many distinct passwords are possible?",
+      "options": {
+        "A": "676,000",
+        "B": "17,576",
+        "C": "1,000,000",
+        "D": "456,976"
+      },
+      "correct_option": "A",
+      "answer": "676,000",
+      "explanation": "The multiplication principle states that if a task is performed in successive independent stages, the total number of outcomes is the product of the numbers of choices at each stage. For the password: 26 choices for the first letter, 26 for the second, and 10 choices for each of the three digits. Total = 26 × 26 × 10 × 10 × 10 = 676,000. The other options arise from using wrong numbers of choices or omitting a stage.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Consider the following two counting tasks.\n\nTask I: Form a 3‑digit number using the digits 1, 2, 3, 4 without repetition.\nTask II: Form a 3‑digit number using the digits 1, 2, 3, 4 where digits may repeat.\n\nWhich statement correctly describes the independence of stages for each task?",
+      "options": {
+        "A": "In Task I the choices for each digit are independent; in Task II they are not.",
+        "B": "In Task I the choices for each digit are not independent; in Task II they are independent.",
+        "C": "Both tasks have independent stages because each digit is chosen separately.",
+        "D": "Neither task has independent stages because the total number of possibilities depends on previous choices."
+      },
+      "correct_option": "B",
+      "answer": "In Task I the choices for each digit are not independent; in Task II they are independent.",
+      "explanation": "Independence of stages means the number of options at a stage does not depend on earlier choices. In Task I, once a digit is used it cannot be reused, so the number of options for the second and third positions depends on what was chosen earlier – the stages are dependent. In Task II repetitions are allowed, so each position always has 4 choices regardless of previous selections – the stages are independent. Hence option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A committee of 3 members is to be selected from 5 boys and 4 girls. In how many ways can the committee be formed if it must contain at least one girl?",
+      "options": {
+        "A": "74",
+        "B": "84",
+        "C": "70",
+        "D": "60"
+      },
+      "correct_option": "A",
+      "answer": "74",
+      "explanation": "First count all possible committees of 3 from the 9 students: C(9,3) = 84. Subtract the committees that have no girl (i.e., all boys). Number of all‑boy committees = C(5,3) = 10. Therefore, committees with at least one girl = 84 – 10 = 74. Option B gives the total without the restriction, while C and D are incorrect calculations.",
+      "difficulty": "hard"
+    }
+  ]
+}
