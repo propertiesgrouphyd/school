@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "Solve the quadratic equation \\(x^{2}+4x+13=0\\) over the set of complex numbers.",
+      "options": {
+        "A": "The roots are \\(-2\\pm 3i\\)",
+        "B": "The roots are \\(-4\\pm 5i\\)",
+        "C": "The roots are \\(2\\pm 3i\\)",
+        "D": "The roots are \\(-2\\pm 5i\\)"
+      },
+      "correct_option": "A",
+      "answer": "The roots are \\(-2\\pm 3i\\)",
+      "explanation": "For \\(ax^{2}+bx+c=0\\), roots are \\(\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}\\). Here \\(a=1, b=4, c=13\\). Discriminant \\(D=4^{2}-4\\cdot1\\cdot13=16-52=-36\\). \\(\\sqrt{D}=\\sqrt{-36}=6i\\). Hence roots \\(\\frac{-4\\pm6i}{2}= -2\\pm3i\\). Options B, C, D give incorrect real or imaginary parts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "A quadratic equation with real coefficients has one root \\(3+2i\\). Which of the following must be the other root?",
+      "options": {
+        "A": "3-2i",
+        "B": "-3+2i",
+        "C": "-3-2i",
+        "D": "2+3i"
+      },
+      "correct_option": "A",
+      "answer": "3-2i",
+      "explanation": "When the coefficients of a quadratic are real, non‑real roots occur in conjugate pairs. The conjugate of \\(3+2i\\) is \\(3-2i\\). The other options are not conjugates and would make the coefficients non‑real.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "For the quadratic equation \\(x^{2}+2x+5=0\\) with roots \\(\\alpha\\) and \\(\\beta\\), which relation is always true?",
+      "options": {
+        "A": "\\(\\alpha+\\beta = -\\dfrac{b}{a}\\)",
+        "B": "\\(\\alpha\\beta = \\dfrac{b}{a}\\)",
+        "C": "\\(\\alpha+\\beta = \\dfrac{c}{a}\\)",
+        "D": "\\(\\alpha\\beta = -\\dfrac{c}{a}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\alpha+\\beta = -\\dfrac{b}{a}\\)",
+      "explanation": "For any quadratic \\(ax^{2}+bx+c=0\\), the sum of the roots is \\(-b/a\\) and the product is \\(c/a\\), irrespective of whether the roots are real or complex. Option A states the correct sum formula. Options B, C, D misuse the coefficients.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "Consider the quadratic \\(2x^{2}-4x+9=0\\). The discriminant is negative. What can be concluded about its roots?",
+      "options": {
+        "A": "The equation has two equal real roots.",
+        "B": "The equation has two distinct real roots.",
+        "C": "The equation has a pair of complex conjugate roots.",
+        "D": "The equation has no roots at all."
+      },
+      "correct_option": "C",
+      "answer": "The equation has a pair of complex conjugate roots.",
+      "explanation": "Discriminant \\(D = b^{2}-4ac = (-4)^{2}-4\\cdot2\\cdot9 = 16-72 = -56 < 0\\). A negative discriminant indicates that the quadratic does not intersect the x‑axis and its roots are non‑real complex conjugates. Options A and B describe non‑negative discriminants, while D is a misconception; every quadratic has two roots in the complex plane.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "Which of the following quadratic equations has complex (non‑real) roots?",
+      "options": {
+        "A": "x^{2}-6x+9=0",
+        "B": "x^{2}+4x+5=0",
+        "C": "x^{2}-5x+6=0",
+        "D": "x^{2}+2x+1=0"
+      },
+      "correct_option": "B",
+      "answer": "x^{2}+4x+5=0",
+      "explanation": "Compute discriminants: \\(A: D=36-36=0\\) (real double root); \\(B: D=16-20=-4\\) (negative → complex conjugate roots); \\(C: D=25-24=1\\) (real distinct); \\(D: D=4-4=0\\) (real double). Only option B yields a negative discriminant, giving complex roots \\(-2\\pm i\\).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "A quadratic equation with real coefficients has one root \\(2+i\\sqrt{3}\\). If the other root is \\(k\\), find \\(k\\).",
+      "options": {
+        "A": "2-i\\sqrt{3}",
+        "B": "-2+i\\sqrt{3}",
+        "C": "-2-i\\sqrt{3}",
+        "D": "i\\sqrt{3}"
+      },
+      "correct_option": "A",
+      "answer": "2-i\\sqrt{3}",
+      "explanation": "Real‑coefficient quadratics require non‑real roots to occur as conjugate pairs. The conjugate of \\(2+i\\sqrt{3}\\) is \\(2-i\\sqrt{3}\\). Hence \\(k = 2-i\\sqrt{3}\\). The other options are not conjugates and would make the coefficients non‑real.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "For the quadratic equation \\(x^{2}-7x+12=0\\), what is the sum of its roots?",
+      "options": {
+        "A": "7",
+        "B": "-7",
+        "C": "12",
+        "D": "-12"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "For \\(ax^{2}+bx+c=0\\), sum of roots = \\(-b/a)\\). Here \\(a=1, b=-7\\); thus sum = \\(-(-7)/1)=7\\). Options B, C, D are incorrect sign or use product formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "What is the discriminant of the quadratic \\(x^{2}+2x+5=0\\)?",
+      "options": {
+        "A": "-16",
+        "B": "-12",
+        "C": "-4",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "-16",
+      "explanation": "Discriminant \\(D = b^{2}-4ac = 2^{2}-4\\cdot1\\cdot5 = 4-20 = -16\\). A negative value indicates complex conjugate roots. The other options are miscalculations.",
+      "difficulty": "easy"
+    }
+  ]
+}
