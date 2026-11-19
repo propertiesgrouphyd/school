@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "How many ways can a committee of 3 be selected from 7 distinct students?",
+      "options": {
+        "A": "21",
+        "B": "35",
+        "C": "42",
+        "D": "56"
+      },
+      "correct_option": "B",
+      "answer": "35",
+      "explanation": "The number of selections where order does not matter is given by nCr = 7C3 = 7!/(3!·4!) = 35. Option B is correct; the other numbers correspond to different values of n or r.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "Using the symmetry property of combinations, what is the value of C(10,7)?",
+      "options": {
+        "A": "120",
+        "B": "210",
+        "C": "720",
+        "D": "5040"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "The symmetry property states C(n,r)=C(n,n‑r). Hence C(10,7)=C(10,3)=10!/(3!·7!)=120. Option A is correct; the other options are values of different combinations or permutations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "A school wants to form a team consisting of 2 boys and 2 girls. There are 5 boys and 4 girls available. How many different teams can be formed?",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "60",
+        "D": "90"
+      },
+      "correct_option": "C",
+      "answer": "60",
+      "explanation": "Select 2 boys from 5: C(5,2)=10. Select 2 girls from 4: C(4,2)=6. Multiply because choices are independent: 10×6=60. Option C is correct; the other numbers arise from incorrect multiplication or omission of one group.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "In how many ways can 3 letters be chosen from the set {A,B,C,D} if the order of selection matters?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "64",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "When order matters we use permutations: P(4,3)=4·3·2=24. Option B is correct. Option A would be C(4,3) (order not mattering); C and D are unrelated values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Which of the following statements best defines a combination in combinatorial mathematics?",
+      "options": {
+        "A": "An arrangement of objects where the order of selection is important",
+        "B": "A selection of objects where the order of selection is not important",
+        "C": "The number of ways to arrange objects in a circular pattern",
+        "D": "A partition of a set into two non‑empty subsets"
+      },
+      "correct_option": "B",
+      "answer": "A selection of objects where the order of selection is not important",
+      "explanation": "A combination counts selections without regard to order, matching option B. Option A describes permutations; C and D describe different concepts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "Which algebraic expression correctly represents the number of ways to choose r objects from n distinct objects?",
+      "options": {
+        "A": "n!/(r!(n‑r)!)",
+        "B": "n!/(r!·n!)",
+        "C": "(n+r)!/(r!·n!)",
+        "D": "n!·r!/(n‑r)!"
+      },
+      "correct_option": "A",
+      "answer": "n!/(r!(n‑r)!)",
+      "explanation": "The standard formula for combinations is nCr = n!/(r!(n‑r)!). Hence option A is correct. The other options are algebraically incorrect for combinations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "A student used the permutation formula 6P4 and obtained 360 as the number of possible committees of 4 members from 6 people. What is the correct number of committees?",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "360",
+        "D": "120"
+      },
+      "correct_option": "A",
+      "answer": "15",
+      "explanation": "Committees are unordered, so we use combinations: C(6,4)=6!/(4!·2!)=15. The student’s 360 is the permutation count (order matters). Option A is correct; B, C, D are incorrect values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "Which statement is true about the values of C(12,5) and C(12,7)?",
+      "options": {
+        "A": "C(12,5) > C(12,7)",
+        "B": "C(12,5) = C(12,7)",
+        "C": "C(12,5) < C(12,7)",
+        "D": "No definite relationship can be established"
+      },
+      "correct_option": "B",
+      "answer": "C(12,5) = C(12,7)",
+      "explanation": "By the symmetry property, C(n,r)=C(n,n‑r). Since 12‑5=7, C(12,5)=C(12,7). Therefore option B is correct; options A and C contradict the property, and D is false because the relationship is known.",
+      "difficulty": "medium"
+    }
+  ]
+}

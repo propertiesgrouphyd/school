@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "Which of the following statements about the number of possible committees is true?",
+      "options": {
+        "A": "Choosing 2 members from a group of 5 gives more possible committees than choosing 3 members from the same group.",
+        "B": "Choosing 3 members from a group of 8 gives the same number of possible committees as choosing 5 members from the same group.",
+        "C": "Choosing 4 members from a group of 9 gives fewer possible committees than choosing 5 members from the same group.",
+        "D": "Choosing 1 member from a group of 10 gives more possible committees than choosing 2 members from the same group."
+      },
+      "correct_option": "B",
+      "answer": "Choosing 3 members from a group of 8 gives the same number of possible committees as choosing 5 members from the same group.",
+      "explanation": "The number of ways to choose k objects from n is given by nCk = n!/(k!(n‑k)!). Because nCk = nC(n‑k), C(8,3) = C(8,5) = 56, so the two selections yield the same number of committees. All other statements are false: C(5,2)=C(5,3)=10 (not more), C(9,4)=C(9,5)=126 (not fewer), and C(10,1)=10 < C(10,2)=45 (so not more).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "A password consists of 4 distinct digits selected from 0‑9. Which counting principle should be used to determine the total number of possible passwords?",
+      "options": {
+        "A": "Permutations",
+        "B": "Combinations",
+        "C": "Both permutations and combinations",
+        "D": "Neither permutations nor combinations"
+      },
+      "correct_option": "A",
+      "answer": "Permutations",
+      "explanation": "A password is an ordered arrangement of 4 distinct digits; the order in which the digits appear matters. Therefore we count the number of permutations of 4 digits chosen from 10, which is 10P4 = 10·9·8·7 = 5040. Combinations would ignore order, which is not appropriate here.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "In combinatorial mathematics, a \"combination\" is best defined as:",
+      "options": {
+        "A": "An arrangement of objects where order matters",
+        "B": "A selection of objects where order does not matter",
+        "C": "A permutation of objects with repetitions",
+        "D": "A subset of objects arranged in a circle"
+      },
+      "correct_option": "B",
+      "answer": "A selection of objects where order does not matter",
+      "explanation": "A combination refers to choosing a subset of items from a larger set without regard to the order of selection. This contrasts with a permutation, where the arrangement (order) is important.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "Which of the following expressions correctly represents the number of combinations of n distinct objects taken r at a time?",
+      "options": {
+        "A": "n!/(n−r)!",
+        "B": "n!/[r!(n−r)!]",
+        "C": "nPr",
+        "D": "(n+r−1)!/[r!(n−1)!]"
+      },
+      "correct_option": "B",
+      "answer": "n!/[r!(n−r)!]",
+      "explanation": "The formula for combinations (n choose r) is nCr = n! / (r! (n‑r)!). Option A is the formula for permutations without the r! denominator, option C denotes permutations, and option D is the formula for combinations with repetitions, which is not asked here.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "How many ways can a committee of 3 be formed from 7 students?",
+      "options": {
+        "A": "35",
+        "B": "21",
+        "C": "7",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "The number of ways to choose 3 students from 7 is 7C3 = 7!/(3!·4!) = (7·6·5)/(3·2·1) = 35. This counts selections where order does not matter.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "What is the value of 12C9?",
+      "options": {
+        "A": "220",
+        "B": "495",
+        "C": "12",
+        "D": "792"
+      },
+      "correct_option": "A",
+      "answer": "220",
+      "explanation": "Using the symmetry property nCr = nC(n‑r), 12C9 = 12C3. Calculating 12C3 = 12!/(3!·9!) = (12·11·10)/(3·2·1) = 220.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "A school library has 5 different math books, 4 different physics books, and 3 different chemistry books. In how many ways can a student select 2 math books and 1 chemistry book?",
+      "options": {
+        "A": "30",
+        "B": "60",
+        "C": "90",
+        "D": "120"
+      },
+      "correct_option": "A",
+      "answer": "30",
+      "explanation": "Select 2 math books from 5: 5C2 = 10 ways. Select 1 chemistry book from 3: 3C1 = 3 ways. Total selections = 10 × 3 = 30. The selections are independent, so we multiply the counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "A coach wants to select 3 players from a squad of 8 to start a match, and then assign them to the positions of striker, midfielder, and defender. Which counting method should be applied to determine the total number of possible line‑ups?",
+      "options": {
+        "A": "Combination",
+        "B": "Permutation",
+        "C": "Both combination and permutation",
+        "D": "Neither combination nor permutation"
+      },
+      "correct_option": "B",
+      "answer": "Permutation",
+      "explanation": "First, 3 players are chosen from 8, and then they are arranged into 3 distinct positions. Since the order (position) matters, we use permutations: P(8,3) = 8·7·6 = 336 possible line‑ups. A combination would ignore the positional assignment.",
+      "difficulty": "medium"
+    }
+  ]
+}

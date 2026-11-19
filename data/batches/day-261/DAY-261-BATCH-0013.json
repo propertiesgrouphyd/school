@@ -1,0 +1,78 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Which statement correctly defines a combination of n objects taken r at a time?",
+      "options": {
+        "A": "Number of ways to select r objects where order matters",
+        "B": "Number of ways to select r objects where order does not matter",
+        "C": "Number of ways to arrange all n objects",
+        "D": "Number of ways to select r objects with replacement"
+      },
+      "correct_option": "B",
+      "answer": "Number of ways to select r objects where order does not matter",
+      "explanation": "A combination counts selections where the order of chosen objects is irrelevant. Option B captures this definition. Option A describes permutations, C is about arranging all n objects, and D refers to selections with replacement, which is not the standard definition of nCr.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "By considering permutations of r objects from n and then removing the effect of ordering, which expression correctly gives the number of combinations nCr?",
+      "options": {
+        "A": "\\frac{n!}{(n-r)!}",
+        "B": "\\frac{n!}{r!(n-r)!}",
+        "C": "\\frac{(n-r)!}{n!}",
+        "D": "\\frac{r!}{n!(n-r)!}"
+      },
+      "correct_option": "B",
+      "answer": "\\frac{n!}{r!(n-r)!}",
+      "explanation": "First count the permutations of r objects: nPr = n!/(n-r)!. Since each selection of r objects can be ordered in r! ways, divide by r! to eliminate ordering. This yields nCr = n!/[r!(n-r)!], which is option B. Options A, C, and D are incorrect forms.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "What is the value of \\(\\binom{12}{5}\\)?",
+      "options": {
+        "A": "792",
+        "B": "924",
+        "C": "462",
+        "D": "1287"
+      },
+      "correct_option": "A",
+      "answer": "792",
+      "explanation": "\\(\\binom{12}{5}=\\frac{12!}{5!7!}=\\frac{12\\times11\\times10\\times9\\times8}{5\\times4\\times3\\times2\\times1}=\\frac{95040}{120}=792.\\) Hence option A is correct; the other numbers correspond to different nCr values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "If \\(\\binom{20}{k}=\\binom{20}{5}\\) and \\(k\\neq5\\), what is the value of \\(k\\)?",
+      "options": {
+        "A": "15",
+        "B": "5",
+        "C": "10",
+        "D": "20"
+      },
+      "correct_option": "A",
+      "answer": "15",
+      "explanation": "The symmetry property of combinations states \\(\\binom{n}{r}=\\binom{n}{n-r}\\). Here \\(\\binom{20}{k}=\\binom{20}{5}\\) implies either k=5 or k=20-5=15. Since k≠5, k=15, which is option A. The other options do not satisfy the symmetry condition.",
+      "difficulty": "hard"
+    }
+  ]
+}

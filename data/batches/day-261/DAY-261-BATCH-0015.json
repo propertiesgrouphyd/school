@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-009",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Compare the numerical values of the coefficients of x^3 in (1+x)^7 and x^2 in (1+x)^5. Which statement is true?",
+      "options": {
+        "A": "35 is greater than 10",
+        "B": "35 equals 10",
+        "C": "35 is less than 10",
+        "D": "It cannot be determined without further information"
+      },
+      "correct_option": "A",
+      "answer": "35 is greater than 10",
+      "explanation": "In (1+x)^7 the coefficient of x^3 is C(7,3)=35. In (1+x)^5 the coefficient of x^2 is C(5,2)=10. Since 35 > 10, option A is correct. The other options misstate the relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-010",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "In Pascal’s triangle, what is the entry in the 9th row and 4th column (both rows and columns start from 0)?",
+      "options": {
+        "A": "126",
+        "B": "84",
+        "C": "56",
+        "D": "210"
+      },
+      "correct_option": "A",
+      "answer": "126",
+      "explanation": "The entry is given by the binomial coefficient C(9,4). C(9,4)=9!/(4!5!)=126. Hence option A is correct. The other numbers correspond to different binomial coefficients.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-011",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "Which of the following correctly states the binomial theorem for a positive integer n?",
+      "options": {
+        "A": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+        "B": "(a+b)^n = a^n + b^n",
+        "C": "(a+b)^n = n a b",
+        "D": "None of the above"
+      },
+      "correct_option": "A",
+      "answer": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+      "explanation": "The binomial theorem expresses (a+b)^n as the sum of terms \\binom{n}{k} a^{n-k} b^{k} for k from 0 to n. Option A captures this exact formula. Options B and C are incorrect simplifications.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-012",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "Select the correct expansion of (x+2)^3.",
+      "options": {
+        "A": "x^3 + 6x^2 + 12x + 8",
+        "B": "x^3 + 4x^2 + 4x + 8",
+        "C": "x^3 + 6x^2 + 8x + 8",
+        "D": "x^3 + 3x^2 + 6x + 8"
+      },
+      "correct_option": "A",
+      "answer": "x^3 + 6x^2 + 12x + 8",
+      "explanation": "Using the binomial theorem: (x+2)^3 = C(3,0)x^3·2^0 + C(3,1)x^2·2^1 + C(3,2)x·2^2 + C(3,3)2^3 = x^3 + 3·2x^2 + 3·4x + 8 = x^3 + 6x^2 + 12x + 8. Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-013",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (a+b)^n, the (k+1)th term (starting from k = 0) is given by which expression?",
+      "options": {
+        "A": "\\binom{n}{k} a^{n-k} b^{k}",
+        "B": "\\binom{n}{k} a^{k} b^{n-k}",
+        "C": "\\binom{n}{k} a^{n} b^{k}",
+        "D": "\\binom{n}{k} a^{k} b^{k}"
+      },
+      "correct_option": "A",
+      "answer": "\\binom{n}{k} a^{n-k} b^{k}",
+      "explanation": "The (k+1)th term corresponds to choosing k factors of b and (n‑k) factors of a, giving the term \\binom{n}{k} a^{n-k} b^{k}. Option A reflects this; the other options misplace the exponents.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-014",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "What is the coefficient of x^2 y^3 in the expansion of (x + y)^5?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "20",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "The term containing x^2 y^3 corresponds to k = 2 (or 3) in the binomial expansion. Its coefficient is C(5,2) = 10 (same as C(5,3)). Therefore option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-015",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "Which row of Pascal’s triangle (starting with row 0) contains the sequence 1, 5, 10, 10, 5, 1?",
+      "options": {
+        "A": "Row 5",
+        "B": "Row 4",
+        "C": "Row 6",
+        "D": "Row 7"
+      },
+      "correct_option": "A",
+      "answer": "Row 5",
+      "explanation": "Row n of Pascal’s triangle lists the coefficients C(n,0) to C(n,n). For n = 5, the coefficients are 1,5,10,10,5,1, matching the given sequence. Hence the correct answer is Row 5.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-016",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "A particle’s displacement after n steps is given by (1+2x)^n. Using the binomial theorem, what is the term containing x^2 when n = 4?",
+      "options": {
+        "A": "24x^2",
+        "B": "16x^2",
+        "C": "8x^2",
+        "D": "32x^2"
+      },
+      "correct_option": "A",
+      "answer": "24x^2",
+      "explanation": "For (1+2x)^4, the term with x^2 corresponds to k = 2: C(4,2)(2x)^2 = 6·4x^2 = 24x^2. Thus option A is correct; the other options arise from incorrect coefficient calculations.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "What does the Binomial Theorem state for the expansion of (a + b)^n?",
+      "options": {
+        "A": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+        "B": "(a + b)^n = a^n + b^n",
+        "C": "(a + b)^n = n a b",
+        "D": "(a + b)^n = a^n b^n"
+      },
+      "correct_option": "A",
+      "answer": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+      "explanation": "The Binomial Theorem expresses (a+b)^n as the sum of terms \\binom{n}{k} a^{n-k} b^{k} for k = 0 to n. Options B, C and D are incorrect because they do not include the binomial coefficients or the proper powers of a and b.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "Which of the following is the correct expansion of (x + 2)^3?",
+      "options": {
+        "A": "x^3 + 6x^2 + 12x + 8",
+        "B": "x^3 + 2x^2 + 4x + 8",
+        "C": "x^3 + 3x^2 + 6x + 8",
+        "D": "x^3 + 3x^2 + 3x + 8"
+      },
+      "correct_option": "A",
+      "answer": "x^3 + 6x^2 + 12x + 8",
+      "explanation": "Using the Binomial Theorem, (x+2)^3 = \\binom{3}{0}x^3 2^0 + \\binom{3}{1}x^2 2^1 + \\binom{3}{2}x 2^2 + \\binom{3}{3}2^3 = x^3 + 3·2x^2 + 3·4x + 8 = x^3 + 6x^2 + 12x + 8. The other options miss the correct coefficients.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (a + b)^n, the (k+1)th term T_{k+1} is given by which expression?",
+      "options": {
+        "A": "T_{k+1}=\\binom{n}{k} a^{n-k} b^{k}",
+        "B": "T_{k+1}=\\binom{n}{k} a^{k} b^{n-k}",
+        "C": "T_{k+1}=\\binom{n}{k} a^{n} b^{k}",
+        "D": "T_{k+1}=\\binom{n}{k} a^{k} b^{k}"
+      },
+      "correct_option": "A",
+      "answer": "T_{k+1}=\\binom{n}{k} a^{n-k} b^{k}",
+      "explanation": "The general term in the binomial expansion is obtained by choosing k factors of b and (n‑k) factors of a, giving the coefficient \\binom{n}{k}. Option B swaps the exponents, while C and D are not consistent with the theorem.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Find the coefficient of x^2 in the expansion of (2x - 3)^5.",
+      "options": {
+        "A": "-1080",
+        "B": "1080",
+        "C": "540",
+        "D": "-540"
+      },
+      "correct_option": "A",
+      "answer": "-1080",
+      "explanation": "The term containing x^2 arises when the power of (2x) is 2, i.e., (2x)^{2} and the remaining factor is (-3)^{3}. Using k = 3, coefficient = \\binom{5}{3}(2)^{2}(-3)^{3}=10·4·(-27) = -1080. Other options have incorrect sign or magnitude.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "Which row of Pascal’s triangle provides the binomial coefficients for the expansion of (x + y)^4?",
+      "options": {
+        "A": "1 4 6 4 1",
+        "B": "1 3 3 1",
+        "C": "1 5 10 10 5 1",
+        "D": "1 2 1"
+      },
+      "correct_option": "A",
+      "answer": "1 4 6 4 1",
+      "explanation": "The 5th row (starting count from 0) of Pascal’s triangle is 1, 4, 6, 4, 1, which are the coefficients \\binom{4}{0} to \\binom{4}{4} for (x+y)^4. The other rows correspond to different powers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "A student wants to approximate (1.02)^5 using the Binomial Theorem as (1 + 0.02)^5. Which term after the leading 1 contributes the most to the approximation?",
+      "options": {
+        "A": "5 × 0.02",
+        "B": "10 × (0.02)^2",
+        "C": "10 × (0.02)^3",
+        "D": "5 × (0.02)^4"
+      },
+      "correct_option": "A",
+      "answer": "5 × 0.02",
+      "explanation": "The expansion is 1 + 5·0.02 + 10·(0.02)^2 + … . Since 0.02 is small, the first-order term 5·0.02 dominates the correction after 1. Higher‑order terms involve higher powers of 0.02 and are much smaller.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "A common mistake is to think that (x + 1)^2 expands to x^2 + 1^2. What is the correct expansion?",
+      "options": {
+        "A": "x^2 + 2x + 1",
+        "B": "x^2 + 1",
+        "C": "x^2 + 2x",
+        "D": "x^2 + 2 + 1"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + 2x + 1",
+      "explanation": "Applying the Binomial Theorem: (x+1)^2 = \\binom{2}{0}x^2·1^0 + \\binom{2}{1}x·1 + \\binom{2}{2}1^2 = x^2 + 2x + 1. The mistaken answer omits the middle term, which arises from the mixed product.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "If the (k+1)th term in (a + b)^n is T_{k+1}=\\binom{n}{k}a^{n-k}b^{k}, what is the ratio \\frac{T_{k+2}}{T_{k+1}}?",
+      "options": {
+        "A": "\\frac{n-k}{k+1}\\times\\frac{b}{a}",
+        "B": "\\frac{k+1}{n-k}\\times\\frac{a}{b}",
+        "C": "\\frac{n-k}{k+1}\\times\\frac{a}{b}",
+        "D": "\\frac{k+1}{n-k}\\times\\frac{b}{a}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{n-k}{k+1}\\times\\frac{b}{a}",
+      "explanation": "T_{k+2}=\\binom{n}{k+1}a^{n-(k+1)}b^{k+1}. Taking the ratio gives \\frac{\\binom{n}{k+1}}{\\binom{n}{k}}\\times\\frac{a^{n-(k+1)}b^{k+1}}{a^{n-k}b^{k}} = \\frac{n-k}{k+1}\\times\\frac{b}{a}. The other options invert or misplace the fractions.",
+      "difficulty": "medium"
+    }
+  ]
+}
