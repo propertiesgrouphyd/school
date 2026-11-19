@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0054",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-260-9",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Consider arranging six distinct books on a shelf. In scenario 1 the books are placed with no restriction. In scenario 2 two particular books are not allowed to be adjacent. Which statement correctly compares the number of possible arrangements in the two scenarios?",
+      "options": {
+        "A": "The number of arrangements in scenario 2 is greater than in scenario 1.",
+        "B": "The number of arrangements in scenario 2 is equal to that in scenario 1.",
+        "C": "The number of arrangements in scenario 2 is fewer than in scenario 1.",
+        "D": "The two numbers cannot be compared because the conditions are different."
+      },
+      "correct_option": "C",
+      "answer": "The number of arrangements in scenario 2 is fewer than in scenario 1.",
+      "explanation": "Without restriction, 6! = 720 arrangements are possible. If two particular books must not be together, first count the arrangements where they are together: treat them as a block, giving 5! × 2 = 240. Subtracting, restricted arrangements = 720 − 240 = 480, which is fewer than 720. Hence option C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-260-10",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Eight persons are to be seated around a circular table. Two particular persons, A and B, must sit opposite each other. In how many distinct ways can they be seated?",
+      "options": {
+        "A": "720",
+        "B": "5040",
+        "C": "360",
+        "D": "1440"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "Fix one person to remove rotational symmetry. Place A at a chosen seat (fixed). B must occupy the seat directly opposite, which is uniquely determined. The remaining six persons can be arranged in the six remaining seats in 6! = 720 ways. Thus the total number of arrangements is 720, making option A correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-260-11",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "Which of the following statements best defines a permutation of n distinct objects taken r at a time?",
+      "options": {
+        "A": "A selection of r objects where the order does not matter.",
+        "B": "An ordered arrangement of r distinct objects selected from n distinct objects.",
+        "C": "The number of ways to divide n objects into r groups.",
+        "D": "A combination of n objects taken r at a time."
+      },
+      "correct_option": "B",
+      "answer": "An ordered arrangement of r distinct objects selected from n distinct objects.",
+      "explanation": "A permutation emphasizes order; therefore it is an ordered arrangement of r distinct objects chosen from n distinct objects. Option B captures this definition, whereas the other options describe combinations or unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-260-12",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which expression correctly represents the number of permutations of n distinct objects taken r at a time, derived using the fundamental principle of counting?",
+      "options": {
+        "A": "n!/(n‑r)!",
+        "B": "n!/r!",
+        "C": "nCr",
+        "D": "(n‑r)!"
+      },
+      "correct_option": "A",
+      "answer": "n!/(n‑r)!",
+      "explanation": "To form a permutation of r objects from n, we have n choices for the first position, (n‑1) for the second, and so on until (n‑r+1) for the r‑th. Multiplying gives n·(n‑1)…(n‑r+1) = n!/(n‑r)!. Hence option A is the derived formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-260-13",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "How many ways can four different letters be arranged in a row, and how does this number differ from the number of ways to choose four letters from the same set?",
+      "options": {
+        "A": "24 ways; the same as the number of combinations because order is irrelevant.",
+        "B": "24 ways; the number of combinations is 1 because all four letters are chosen.",
+        "C": "24 ways; the number of combinations is 4 because we are choosing one letter at a time.",
+        "D": "24 ways; the number of combinations is also 24 because both count arrangements."
+      },
+      "correct_option": "B",
+      "answer": "24 ways; the number of combinations is 1 because all four letters are chosen.",
+      "explanation": "Arranging 4 distinct letters gives 4! = 24 permutations. Choosing 4 letters out of the same 4 without regard to order is a single selection, i.e., 1 combination. Option B correctly distinguishes permutations from combinations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-260-14",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "In how many ways can five different books be placed on a shelf if two particular books must not be placed next to each other?",
+      "options": {
+        "A": "48",
+        "B": "72",
+        "C": "96",
+        "D": "120"
+      },
+      "correct_option": "B",
+      "answer": "72",
+      "explanation": "Total arrangements =5! =120. Treat the two restricted books as a block: then we have 4 objects, which can be arranged in 4! =24 ways, and the two books inside the block can be ordered in 2 ways, giving 24×2 =48 arrangements where they are together. Subtracting from the total, 120‑48 =72 arrangements satisfy the restriction. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-260-15",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Four couples are to be seated around a circular table such that no couple sits together. In how many distinct ways can they be arranged?",
+      "options": {
+        "A": "1440",
+        "B": "1488",
+        "C": "1680",
+        "D": "1920"
+      },
+      "correct_option": "B",
+      "answer": "1488",
+      "explanation": "Total circular arrangements of 8 people = (8‑1)! = 5040. Using inclusion‑exclusion for the restriction that no couple sits together gives 5040 − 3552 = 1488 valid arrangements. Therefore option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-260-16",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A school wants to award first, second and third place among ten students. Which statement correctly defines the mathematical concept used to count the possible award outcomes?",
+      "options": {
+        "A": "It is a permutation because the order of the three awards matters.",
+        "B": "It is a combination because we are selecting three students without caring about order.",
+        "C": "It is a factorial because we multiply all ten numbers together.",
+        "D": "It is a probability because we are finding the chance of each student winning."
+      },
+      "correct_option": "A",
+      "answer": "It is a permutation because the order of the three awards matters.",
+      "explanation": "Awarding distinct positions (first, second, third) creates ordered selections; thus the counting uses permutations: P(10,3)=10·9·8. Option A correctly identifies this, while the other options describe unrelated concepts.",
+      "difficulty": "medium"
+    }
+  ]
+}

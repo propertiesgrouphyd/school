@@ -1,0 +1,78 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements correctly defines the factorial of a positive integer n?",
+      "options": {
+        "A": "n! = n + (n-1) + (n-2) + ... + 1",
+        "B": "n! = n \\u00d7 (n-1) \\u00d7 (n-2) \\u00d7 ... \\u00d7 1",
+        "C": "n! = n \\u00d7 (n+1) \\u00d7 (n+2) \\u00d7 ... \\u00d7 (2n)",
+        "D": "n! = product of all even numbers up to n"
+      },
+      "correct_option": "B",
+      "answer": "n! = n \\u00d7 (n-1) \\u00d7 (n-2) \\u00d7 ... \\u00d7 1",
+      "explanation": "The factorial of a positive integer n, denoted n!, is defined as the product of all consecutive positive integers from 1 up to n. Option B states this definition correctly. Option A describes a sum, not a product. Option C gives a product of numbers larger than n, and Option D restricts the product to even numbers only, both of which are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "What is the value of the expression \\(5! \\div (0! \\times 4!)\\)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "5",
+        "D": "120"
+      },
+      "correct_option": "C",
+      "answer": "5",
+      "explanation": "First compute the factorials: 5! = 120, 4! = 24, and by definition 0! = 1. The denominator is 0! \\u00d7 4! = 1 \\u00d7 24 = 24. Hence 5! \\u00f7 (0! \\u00d7 4!) = 120 \\u00f7 24 = 5. Therefore option C is correct. The other options result from misapplying the definition of 0! or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Which of the following expressions is equivalent to \\((n+2)! \\div n!\\) for a positive integer n?",
+      "options": {
+        "A": "(n+2)(n+1)",
+        "B": "(n+2)(n+1)n",
+        "C": "(n+2)! \\div (n-1)!",
+        "D": "(n+2)(n+1)n(n-1)"
+      },
+      "correct_option": "A",
+      "answer": "(n+2)(n+1)",
+      "explanation": "Expand (n+2)! as (n+2)(n+1)n!. Dividing by n! cancels the n! term, leaving (n+2)(n+1). Hence option A is the simplified form. Options B and D retain extra factors of n, and option C represents a different ratio altogether.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "Seven distinct students are to be selected for the positions of chairperson, secretary, and treasurer (order matters). In how many ways can these three positions be filled?",
+      "options": {
+        "A": "210",
+        "B": "35",
+        "C": "5040",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "210",
+      "explanation": "The problem requires permutations of 7 students taken 3 at a time: \\(P(7,3) = 7 \\times 6 \\times 5 = 210\\). This is expressed using factorials as \\(\\frac{7!}{(7-3)!} = \\frac{7!}{4!} = 210\\). Option B is the combination count (order not considered), option C is 7! (all 7 positions), and option D is just the number of choices for a single position. Hence option A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

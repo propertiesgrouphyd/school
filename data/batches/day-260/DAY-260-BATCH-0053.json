@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0053",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-260-001",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "What is the definition of a permutation in combinatorics?",
+      "options": {
+        "A": "An ordered arrangement of a set of objects",
+        "B": "A selection of objects where order does not matter",
+        "C": "A circular arrangement of objects",
+        "D": "A way to partition a set into subsets"
+      },
+      "correct_option": "A",
+      "answer": "An ordered arrangement of a set of objects",
+      "explanation": "A permutation refers to an ordered arrangement of distinct objects. Option A captures this definition. Options B, C, and D describe different concepts (combinations, circular arrangements, and partitions).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-260-002",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which reasoning step correctly leads to the formula for the number of permutations of r objects chosen from n distinct objects (nPr)?",
+      "options": {
+        "A": "First choose r objects from the n, then arrange the chosen r objects in all possible orders",
+        "B": "Arrange all n objects and then discard the last (n‑r) positions",
+        "C": "Select r objects without regard to order and then multiply by r!",
+        "D": "Divide n! by r!"
+      },
+      "correct_option": "A",
+      "answer": "First choose r objects from the n, then arrange the chosen r objects in all possible orders",
+      "explanation": "To obtain nPr we first select r distinct objects (which can be done in nPr ways) and then arrange them. This reasoning yields nPr = n!/(n‑r)!. Option A states this correctly. Options B, C, and D describe incorrect or incomplete reasoning.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-260-003",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "How many different ways can 4 distinct books be arranged on a single shelf?",
+      "options": {
+        "A": "24",
+        "B": "6",
+        "C": "256",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "answer": "24",
+      "explanation": "Arranging 4 distinct items in a line is a permutation: 4! = 4 × 3 × 2 × 1 = 24. Option A is correct. Option B is the combination count, while C and D are unrelated values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-260-004",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Five friends A, B, C, D, and E are to be seated in a row. In how many possible arrangements does A sit somewhere to the left of B?",
+      "options": {
+        "A": "60",
+        "B": "120",
+        "C": "30",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "Total permutations of 5 people = 5! = 120. For any arrangement, A is either left of B or right of B, each equally likely, so exactly half satisfy A left of B: 120 ÷ 2 = 60. Option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-260-005",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many distinct ways can 6 students be seated around a circular table, where rotations of the whole arrangement are considered the same?",
+      "options": {
+        "A": "120",
+        "B": "720",
+        "C": "60",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "For circular permutations, fix one person as a reference to eliminate rotational symmetry. The remaining (n‑1) people can be arranged in (n‑1)! ways. Here (6‑1)! = 5! = 120. Option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-260-006",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A locker combination consists of 3 distinct digits selected from 0 to 9, where the order of the digits matters. How would you define the number of possible combinations?",
+      "options": {
+        "A": "The number of ordered arrangements of 3 distinct digits chosen from 10 digits",
+        "B": "The number of unordered selections of 3 digits from 10",
+        "C": "The number of ways to repeat digits in the three positions",
+        "D": "The number of ways to arrange all 10 digits"
+      },
+      "correct_option": "A",
+      "answer": "The number of ordered arrangements of 3 distinct digits chosen from 10 digits",
+      "explanation": "Since the three digits must be distinct and the order matters, we are counting permutations of 3 items from 10, i.e., 10P3. Option A states this definition. Options B, C, and D describe different counting situations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-260-007",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which of the following statements about the permutation formula nPr = n!/(n‑r)! is FALSE?",
+      "options": {
+        "A": "It counts ordered selections of r objects from n distinct objects.",
+        "B": "It can be derived by first choosing r objects and then arranging them.",
+        "C": "It is the same as nCr because order does not matter.",
+        "D": "When r = n, nPr equals n!."
+      },
+      "correct_option": "C",
+      "answer": "It is the same as nCr because order does not matter.",
+      "explanation": "nPr counts ordered arrangements, whereas nCr counts unordered selections. Therefore statement C is false. Statements A, B, and D correctly describe properties of permutations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-260-008",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "A password is formed by first selecting 4 distinct letters (from the 26 English letters) and arranging them, followed by selecting 2 distinct digits (from 0‑9) and arranging them. How many such passwords are possible?",
+      "options": {
+        "A": "32,292,000",
+        "B": "1,560,000",
+        "C": "5,040,000",
+        "D": "720,720"
+      },
+      "correct_option": "A",
+      "answer": "32,292,000",
+      "explanation": "Number of ways to arrange 4 distinct letters: 26P4 = 26×25×24×23 = 358,800. Number of ways to arrange 2 distinct digits: 10P2 = 10×9 = 90. Multiply: 358,800 × 90 = 32,292,000. Option A matches this calculation.",
+      "difficulty": "medium"
+    }
+  ]
+}

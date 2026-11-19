@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0051",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements correctly defines n! (the factorial of a positive integer n)?",
+      "options": {
+        "A": "n! is the sum of all positive integers from 1 to n.",
+        "B": "n! is the product of all positive integers from 1 to n.",
+        "C": "n! is the number of ways to arrange n distinct objects in a circle.",
+        "D": "n! is the difference between n and (n-1)!"
+      },
+      "correct_option": "B",
+      "answer": "n! is the product of all positive integers from 1 to n.",
+      "explanation": "By definition, n! = 1 × 2 × 3 × … × n, i.e., the product of the first n natural numbers. Option A describes a sum, not a product. Option C refers to circular permutations, which equal (n‑1)!, not n!. Option D is unrelated. Hence B is the correct definition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "If 0! = 1, what is the value of 0! + 1! + 2! + 3! ?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "Compute each factorial: 0! = 1, 1! = 1, 2! = 2, 3! = 6. Adding them gives 1 + 1 + 2 + 6 = 10. Therefore option B is correct. The other options result from incorrect addition or forgetting that 0! equals 1.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression \\(\\dfrac{7!}{5!}\\).",
+      "options": {
+        "A": "42",
+        "B": "210",
+        "C": "840",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "42",
+      "explanation": "7! = 7 × 6 × 5!; dividing by 5! cancels the 5! term, leaving 7 × 6 = 42. Options B and C retain extra factors, while D omits the factor 6.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct books be arranged on a shelf?",
+      "options": {
+        "A": "4",
+        "B": "12",
+        "C": "24",
+        "D": "256"
+      },
+      "correct_option": "C",
+      "answer": "24",
+      "explanation": "Arranging n distinct objects linearly is counted by n! . Here n = 4, so 4! = 4 × 3 × 2 × 1 = 24. The other numbers correspond to unrelated counting principles.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Select the statement that correctly defines the factorial of a natural number n.",
+      "options": {
+        "A": "n! is the product of the first n natural numbers.",
+        "B": "n! is the number of ways to choose n objects from a set of n objects.",
+        "C": "n! is the sum of the first n natural numbers.",
+        "D": "n! is the product of the first n even numbers."
+      },
+      "correct_option": "A",
+      "answer": "n! is the product of the first n natural numbers.",
+      "explanation": "The factorial n! equals 1 × 2 × 3 × … × n, which is exactly the product of the first n natural numbers. Option B describes a combination (which equals 1), Option C is a sum, and Option D restricts to even numbers only.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "In how many ways can a committee of 0 members be formed from a group of 5 people?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "5",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Choosing no one from any set is a single possibility—the empty set. Mathematically, this is expressed as \\(\\binom{5}{0}=\\dfrac{5!}{0!\\,5!}=1\\). Hence there is exactly one way, making option B correct. Option A misinterprets the situation as impossible, while C and D count non‑empty selections.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify \\(\\dfrac{8!}{6!\\times 2!}\\).",
+      "options": {
+        "A": "28",
+        "B": "56",
+        "C": "14",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "28",
+      "explanation": "Write 8! as 8×7×6!. The expression becomes \\((8×7×6!)/(6!×2!) = (8×7)/2!\\). Since 2! = 2, we have (8×7)/2 = 56/2 = 28. Therefore option A is correct. The other options arise from arithmetic errors or forgetting to divide by 2!.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "A password consists of 3 distinct letters followed by 2 distinct digits. How many such passwords are possible?",
+      "options": {
+        "A": "1,404,000",
+        "B": "1,560,000",
+        "C": "1,200,000",
+        "D": "1,800,000"
+      },
+      "correct_option": "A",
+      "answer": "1,404,000",
+      "explanation": "The letters can be arranged in 26P3 = 26! / 23! = 26×25×24 ways. The digits can be arranged in 10P2 = 10! / 8! = 10×9 ways. Total passwords = (26×25×24) × (10×9) = 15,600 × 90 = 1,404,000. Option A matches this calculation. The other options result from incorrect multiplication or using combinations instead of permutations.",
+      "difficulty": "medium"
+    }
+  ]
+}
