@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "Which statement correctly describes how to solve a quadratic equation when it has no real roots?",
+      "options": {
+        "A": "Apply the quadratic formula and write the roots as a pair of complex conjugates using the imaginary unit i.",
+        "B": "The discriminant being negative means the equation has no solution.",
+        "C": "Factor the quadratic over the set of integers.",
+        "D": "Only numerical approximation methods can be used."
+      },
+      "correct_option": "A",
+      "answer": "Apply the quadratic formula and write the roots as a pair of complex conjugates using the imaginary unit i.",
+      "explanation": "When the discriminant (b²‑4ac) is negative, the quadratic formula gives roots of the form \\((-b \\pm \\sqrt{b^2-4ac})/(2a)\\). The square‑root of a negative number is expressed using i, producing two complex conjugate roots. Options B, C and D are incorrect because a negative discriminant does not imply ‘no solution’, integer factorisation is not possible, and the quadratic formula gives an exact solution.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "If a quadratic equation with real coefficients has one root 4 + 3i, what is the other root?",
+      "options": {
+        "A": "4 − 3i",
+        "B": "4 + 3i",
+        "C": "−4 + 3i",
+        "D": "−4 − 3i"
+      },
+      "correct_option": "A",
+      "answer": "4 − 3i",
+      "explanation": "For polynomials with real coefficients, non‑real roots occur in conjugate pairs. Hence the conjugate of 4 + 3i, which is 4 − 3i, must also be a root. The other options are not conjugates and therefore cannot be the second root.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "For the quadratic equation \\(x^{2}-(2-3i)x+(5+6i)=0\\), which of the following gives the correct sum and product of its roots?",
+      "options": {
+        "A": "Sum = 2 − 3i, Product = 5 + 6i",
+        "B": "Sum = -(2 − 3i), Product = 5 + 6i",
+        "C": "Sum = 2 − 3i, Product = -(5 + 6i)",
+        "D": "Sum = -(2 − 3i), Product = -(5 + 6i)"
+      },
+      "correct_option": "A",
+      "answer": "Sum = 2 − 3i, Product = 5 + 6i",
+      "explanation": "For a quadratic \\(ax^{2}+bx+c=0\\), sum of roots = \\(-b/a\\) and product = \\(c/a\\). Here \\(a=1\\), \\(b=-(2-3i)\\), \\(c=5+6i\\). Thus sum = \\(-b) = 2-3i\\) and product = \\(c = 5+6i\\). Options B, C, D misuse the sign conventions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "A quadratic equation \\(ax^{2}+bx+c=0\\) has discriminant \\(D = -16\\). Which statement about its roots is true?",
+      "options": {
+        "A": "The equation has two equal real roots.",
+        "B": "The equation has two distinct real roots.",
+        "C": "The equation has two complex conjugate roots.",
+        "D": "The equation has no roots."
+      },
+      "correct_option": "C",
+      "answer": "The equation has two complex conjugate roots.",
+      "explanation": "A negative discriminant indicates that the square‑root term in the quadratic formula is imaginary, producing a pair of complex conjugate roots. Options A and B describe positive or zero discriminants, while D is incorrect because a quadratic always has two roots in the complex number system.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "A student claims that the quadratic equation \\(x^{2}+4x+8=0\\) has no solution because its discriminant is negative. Which response correctly addresses the misconception?",
+      "options": {
+        "A": "The student is right; a negative discriminant means the equation is unsolvable.",
+        "B": "The equation has two real roots that are irrational.",
+        "C": "The equation has two complex conjugate roots that can be found using the quadratic formula.",
+        "D": "The equation can be solved only by graphing."
+      },
+      "correct_option": "C",
+      "answer": "The equation has two complex conjugate roots that can be found using the quadratic formula.",
+      "explanation": "A negative discriminant does not imply ‘no solution’; it means the solutions are non‑real complex numbers. Using the quadratic formula gives \\(x = -2 \\pm 2i\\), a pair of complex conjugates. Options A and B are false, and D is unnecessary because the formula provides exact roots.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "A quadratic with real coefficients has one root \\(3+2i\\). Which of the following must also be true?",
+      "options": {
+        "A": "The other root is \\(3-2i\\).",
+        "B": "The other root is also \\(3+2i\\) (a repeated root).",
+        "C": "The other root is \\(-3+2i\\).",
+        "D": "No information about the other root can be deduced."
+      },
+      "correct_option": "A",
+      "answer": "The other root is \\(3-2i\\).",
+      "explanation": "Real‑coefficient polynomials have non‑real roots in conjugate pairs. Hence the conjugate \\(3-2i\\) must be the second root. Option B would require a double root, which would make the discriminant zero and the root real. Option C is unrelated, and D ignores the conjugate‑root theorem.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "Consider the quadratics (i) \\(x^{2}+(4-2i)x+(5+i)=0\\) and (ii) \\(x^{2}-6x+13=0\\). Which statement correctly compares the relationship between coefficients and roots for the two equations?",
+      "options": {
+        "A": "For both equations, the sum of the roots equals the negative of the coefficient of \\(x\\).",
+        "B": "Only equation (ii) satisfies the relation sum = ‑b/a because its coefficients are real.",
+        "C": "Neither equation satisfies the product of roots = c/a because one has complex coefficients.",
+        "D": "Both equations have only real roots."
+      },
+      "correct_option": "A",
+      "answer": "For both equations, the sum of the roots equals the negative of the coefficient of \\(x\\).",
+      "explanation": "The identities sum = ‑b/a and product = c/a hold for any quadratic \\(ax^{2}+bx+c=0\\) regardless of whether the coefficients are real or complex. Hence statement A is universally true. Statements B and C incorrectly claim the relations depend on the nature of the coefficients, and D is false because both quadratics have discriminants negative, giving complex roots.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "For the quadratic equation \\(x^{2}+px+q=0\\) with real parameters \\(p\\) and \\(q\\), the discriminant is \\(D=p^{2}-4q\\). Which condition guarantees that the two roots are purely imaginary (i.e., have zero real part)?",
+      "options": {
+        "A": "D>0",
+        "B": "D=0",
+        "C": "p=0 and D<0",
+        "D": "D<0"
+      },
+      "correct_option": "C",
+      "answer": "p=0 and D<0",
+      "explanation": "Purely imaginary roots require the sum of the roots (which equals \\(-p\\)) to be zero, so \\(p=0\\). Additionally, the roots must be non‑real, which occurs when the discriminant is negative (\\(D<0\\)). Hence both conditions together (option C) are necessary. Option D alone gives complex conjugate roots with possibly non‑zero real parts, while A and B correspond to real roots.",
+      "difficulty": "hard"
+    }
+  ]
+}

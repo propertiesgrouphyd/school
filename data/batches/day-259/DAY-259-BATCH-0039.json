@@ -1,0 +1,78 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "Solve the quadratic equation x^2 + 4 = 0 over the set of complex numbers. Which of the following represents the complete set of solutions?",
+      "options": {
+        "A": "{2i, -2i}",
+        "B": "{2, -2}",
+        "C": "{0}",
+        "D": "No solution"
+      },
+      "correct_option": "A",
+      "answer": "{2i, -2i}",
+      "explanation": "For x^2 + 4 = 0, move 4 to the other side: x^2 = -4. Taking square roots gives x = ±√(-4) = ±2i. Hence the two complex solutions are 2i and -2i, which is option A. Options B and C are real numbers that do not satisfy the equation, and option D is incorrect because complex solutions do exist.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "If a quadratic equation with real coefficients has a root 3 + 4i, which of the following must also be a root?",
+      "options": {
+        "A": "3 - 4i",
+        "B": "-3 + 4i",
+        "C": "-3 - 4i",
+        "D": "4 + 3i"
+      },
+      "correct_option": "A",
+      "answer": "3 - 4i",
+      "explanation": "For any polynomial with real coefficients, non‑real complex roots occur in conjugate pairs. The conjugate of 3 + 4i is 3 - 4i, so this must also be a root. The other options are not conjugates and need not be roots.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "For the quadratic equation x^2 + (2 - 3i)x + (5 + i) = 0, let its roots be α and β. Which statement is true?",
+      "options": {
+        "A": "α + β = -(2 - 3i) and αβ = 5 + i",
+        "B": "α + β = 2 - 3i and αβ = -(5 + i)",
+        "C": "α + β = -(2 - 3i) and αβ = -(5 + i)",
+        "D": "α + β = 2 - 3i and αβ = 5 + i"
+      },
+      "correct_option": "A",
+      "answer": "α + β = -(2 - 3i) and αβ = 5 + i",
+      "explanation": "Vieta’s formulas hold for complex coefficients as well: sum of roots α+β = -b/a = -(2 - 3i) and product αβ = c/a = 5 + i. Hence option A correctly reflects the relationships. The other options either miss the negative sign for the sum or product.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "For the quadratic equation 2x^2 + 4x + 9 = 0, the discriminant Δ = b^2 - 4ac is negative. What does this indicate about the nature of its roots?",
+      "options": {
+        "A": "Two distinct real roots",
+        "B": "Real and equal roots",
+        "C": "Two non‑real complex conjugate roots",
+        "D": "No roots"
+      },
+      "correct_option": "C",
+      "answer": "Two non‑real complex conjugate roots",
+      "explanation": "Here Δ = 4^2 - 4·2·9 = 16 - 72 = -56 < 0. A negative discriminant means the quadratic has no real roots; instead it has two distinct non‑real complex roots that are conjugates of each other. Therefore option C is correct. Options A and B describe cases with non‑negative discriminants, and option D is incorrect because roots do exist in the complex plane.",
+      "difficulty": "hard"
+    }
+  ]
+}
