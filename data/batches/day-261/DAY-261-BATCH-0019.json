@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "Which of the following correctly states the Binomial Theorem for (a + b)^n?",
+      "options": {
+        "A": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{k} b^{n-k}",
+        "B": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+        "C": "(a+b)^n = a^{n} + b^{n}",
+        "D": "(a+b)^n = n a^{n-1} b + \\dots"
+      },
+      "correct_option": "B",
+      "answer": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+      "explanation": "The Binomial Theorem states that (a+b)^n expands to the sum of terms \\binom{n}{k} a^{n-k} b^{k} for k = 0 to n. Option B matches this expression; the other options either reverse the exponents, omit the summation, or give an unrelated formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "What is the expansion of (x + 2)^3?",
+      "options": {
+        "A": "x^3 + 6x^2 + 12x + 8",
+        "B": "x^3 + 4x^2 + 8x + 8",
+        "C": "x^3 + 2x^2 + 4x + 8",
+        "D": "x^3 + 6x^2 + 8x + 8"
+      },
+      "correct_option": "A",
+      "answer": "x^3 + 6x^2 + 12x + 8",
+      "explanation": "Using the binomial coefficients 1, 3, 3, 1, we have (x+2)^3 = x^3 + 3·x^2·2 + 3·x·2^2 + 2^3 = x^3 + 6x^2 + 12x + 8. Option A is the correct expansion; the other options have incorrect coefficients.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (a + b)^n, the (k+1)th term (starting from k = 0) is given by which expression?",
+      "options": {
+        "A": "\\binom{n}{k} a^{k} b^{n-k}",
+        "B": "\\binom{n}{k} a^{n-k} b^{k}",
+        "C": "\\binom{n}{k} a^{k+1} b^{n-k-1}",
+        "D": "\\binom{n}{k} a^{n-k-1} b^{k+1}"
+      },
+      "correct_option": "B",
+      "answer": "\\binom{n}{k} a^{n-k} b^{k}",
+      "explanation": "The (k+1)th term of (a+b)^n is obtained by choosing k factors of b and (n‑k) factors of a, giving \\binom{n}{k} a^{n-k} b^{k}. Option B reflects this; the other options misplace the exponents.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "What is the coefficient of x^2 y^3 in the expansion of (x + y)^5?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "20",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "The term x^{5-3} y^{3} = x^2 y^3 has coefficient \\binom{5}{3} = 10 (or equivalently \\binom{5}{2}). Hence option A is correct; the other numbers are unrelated binomial coefficients.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "Which row of Pascal’s triangle (starting with row 0 as 1) contains the coefficients 1, 4, 6, 4, 1?",
+      "options": {
+        "A": "Row 3",
+        "B": "Row 4",
+        "C": "Row 5",
+        "D": "Row 6"
+      },
+      "correct_option": "B",
+      "answer": "Row 4",
+      "explanation": "Row n of Pascal’s triangle gives the coefficients of (a+b)^n. Row 4 yields 1, 4, 6, 4, 1, which matches the given sequence. Therefore option B is correct; other rows give different coefficient sets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "A fair coin is tossed 4 times. Using the binomial theorem, what is the probability of getting exactly 2 heads?",
+      "options": {
+        "A": "1/8",
+        "B": "3/8",
+        "C": "6/16",
+        "D": "3/16"
+      },
+      "correct_option": "B",
+      "answer": "3/8",
+      "explanation": "The number of ways to obtain 2 heads in 4 tosses is \\binom{4}{2}=6. Each specific sequence has probability (1/2)^4 = 1/16. Hence probability = 6/16 = 3/8. Option B matches this result; the other options are either unsimplified or incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "Which of the following is the correct expansion of (1 - x)^4?",
+      "options": {
+        "A": "1 - 4x + 6x^2 - 4x^3 + x^4",
+        "B": "1 + 4x + 6x^2 + 4x^3 + x^4",
+        "C": "1 - 4x - 6x^2 - 4x^3 - x^4",
+        "D": "1 - 4x + 6x^2 + 4x^3 + x^4"
+      },
+      "correct_option": "A",
+      "answer": "1 - 4x + 6x^2 - 4x^3 + x^4",
+      "explanation": "Applying the binomial theorem with a = 1 and b = -x gives coefficients 1, -4, 6, -4, 1. Thus the expansion is 1 - 4x + 6x^2 - 4x^3 + x^4 (option A). Options B, C, D contain sign errors, a common misconception when expanding with a negative term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (a + b)^6, which statement about a term containing a^3 b^2 is correct?",
+      "options": {
+        "A": "The term is 20 a^3 b^2",
+        "B": "The term is 15 a^3 b^2",
+        "C": "No such term appears in the expansion",
+        "D": "The term is 6 a^3 b^2"
+      },
+      "correct_option": "C",
+      "answer": "No such term appears in the expansion",
+      "explanation": "In (a + b)^6 each term has exponents that sum to 6. A term a^3 b^2 would have total exponent 5, so it cannot occur. Therefore the correct statement is that no such term appears (option C). The other options incorrectly assume the term exists and assign arbitrary coefficients.",
+      "difficulty": "medium"
+    }
+  ]
+}

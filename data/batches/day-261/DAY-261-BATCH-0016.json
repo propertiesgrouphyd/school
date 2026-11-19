@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "Which of the following is the correct expansion of (x+2)^3?",
+      "options": {
+        "A": "x^3+6x^2+12x+8",
+        "B": "x^3+4x^2+8x+8",
+        "C": "x^3+6x^2+8x+4",
+        "D": "x^3+8x^2+12x+6"
+      },
+      "correct_option": "A",
+      "answer": "x^3+6x^2+12x+8",
+      "explanation": "Using the binomial theorem, (x+2)^3 = C(3,0)x^3(2)^0 + C(3,1)x^2(2)^1 + C(3,2)x(2)^2 + C(3,3)(2)^3 = x^3+6x^2+12x+8. Options B, C, D contain incorrect coefficients, showing common mistakes such as omitting the binomial coefficients or mis‑calculating powers of 2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (p+q)^7, what is the general (r+1)th term T_{r+1}?",
+      "options": {
+        "A": "C(7,r) p^{7-r} q^{r}",
+        "B": "C(7,r) p^{r} q^{7-r}",
+        "C": "C(7,r) p^{7+r} q^{r-7}",
+        "D": "C(7,r) p^{r-7} q^{7+r}"
+      },
+      "correct_option": "A",
+      "answer": "C(7,r) p^{7-r} q^{r}",
+      "explanation": "The binomial theorem states that the (r+1)th term in (p+q)^n is C(n,r) p^{n-r} q^{r}. Here n=7, giving C(7,r) p^{7-r} q^{r}. Options B, C, D incorrectly swap exponents or give nonsensical powers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Compare the coefficient of x^3 in (1+x)^6 with the coefficient of x^2 in (1+x)^5. Which statement is true?",
+      "options": {
+        "A": "The coefficient in (1+x)^6 is larger",
+        "B": "The coefficient in (1+x)^5 is larger",
+        "C": "Both coefficients are equal",
+        "D": "The comparison cannot be determined without further information"
+      },
+      "correct_option": "A",
+      "answer": "The coefficient in (1+x)^6 is larger",
+      "explanation": "Coefficient of x^3 in (1+x)^6 is C(6,3)=20. Coefficient of x^2 in (1+x)^5 is C(5,2)=10. Since 20>10, the first coefficient is larger. Options B, C, D are incorrect for the reasons stated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "In Pascal's triangle, what is the entry in the 9th row and 4th column (both counted starting from 0)?",
+      "options": {
+        "A": "56",
+        "B": "70",
+        "C": "28",
+        "D": "84"
+      },
+      "correct_option": "A",
+      "answer": "56",
+      "explanation": "Row 8 (since counting from 0) of Pascal's triangle is 1 8 28 56 70 56 28 8 1. The 4th column (index 3) contains 56. Hence option A is correct; the other numbers belong to different positions in the same or other rows.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "The binomial theorem for a positive integer n states that (a+b)^n equals:",
+      "options": {
+        "A": "\\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+        "B": "\\sum_{k=0}^{n} \\binom{n}{k} a^{k} b^{n-k}",
+        "C": "a^{n}+b^{n}",
+        "D": "n(a+b)"
+      },
+      "correct_option": "A",
+      "answer": "\\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^{k}",
+      "explanation": "The correct formulation is (a+b)^n = Σ_{k=0}^{n} C(n,k) a^{n-k} b^{k}. Option B swaps the exponents, while C and D are not expansions at all.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "What is the expansion of (x-1)^2?",
+      "options": {
+        "A": "x^2-2x+1",
+        "B": "x^2+2x+1",
+        "C": "x^2-1",
+        "D": "x^2+1"
+      },
+      "correct_option": "A",
+      "answer": "x^2-2x+1",
+      "explanation": "Applying (a-b)^2 = a^2 - 2ab + b^2 with a=x and b=1 gives x^2 - 2x + 1. Options B, C, D miss the middle term or have wrong signs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (a+b)^5, which statement correctly defines the (r+1)th term?",
+      "options": {
+        "A": "It is C(5,r) a^{5-r} b^{r}",
+        "B": "It is C(5,r) a^{r} b^{5-r}",
+        "C": "It is the rth term, not the (r+1)th term",
+        "D": "It does not involve binomial coefficients"
+      },
+      "correct_option": "A",
+      "answer": "It is C(5,r) a^{5-r} b^{r}",
+      "explanation": "The (r+1)th term in (a+b)^5 is given by the binomial coefficient C(5,r) multiplied by a^{5-r} b^{r}. Option B swaps the exponents, C mislabels the term index, and D ignores the binomial coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Find the coefficient of x^2 y^3 in the expansion of (2x+3y)^5.",
+      "options": {
+        "A": "1080",
+        "B": "540",
+        "C": "720",
+        "D": "360"
+      },
+      "correct_option": "A",
+      "answer": "1080",
+      "explanation": "We need the term where (2x)^{5-k}(3y)^{k} gives x^2 y^3. Hence 5-k=2 → k=3. Coefficient = C(5,3)*(2)^{2}*(3)^{3}=10*4*27=1080. The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (a + b)^n, which of the following expressions correctly represents the general (r+1)th term?",
+      "options": {
+        "A": "C(n, r) a^{r} b^{n-r}",
+        "B": "C(n, r) a^{n-r} b^{r}",
+        "C": "C(n, r) a^{n+r} b^{r-n}",
+        "D": "C(n, r) a^{r-n} b^{n+r}"
+      },
+      "correct_option": "B",
+      "answer": "C(n, r) a^{n-r} b^{r}",
+      "explanation": "The general term in the binomial expansion (a+b)^n is given by T_{r+1}=C(n,r) a^{n-r} b^{r}. Option B matches this formula; the other options either swap the exponents or alter them incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "What is the coefficient of x^3 in the expansion of (2x + 3)^5?",
+      "options": {
+        "A": "720",
+        "B": "540",
+        "C": "360",
+        "D": "1080"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "The term containing x^3 is obtained when the 2x factor is chosen three times: C(5,3)(2x)^3·3^{2}=10·8·9=720. Hence option A is correct; the other numbers arise from incorrect choices of r or mis‑multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "Which row of Pascal's triangle provides the coefficients for the expansion of (a + b)^4?",
+      "options": {
+        "A": "Row 4",
+        "B": "Row 5",
+        "C": "Row 3",
+        "D": "Row 6"
+      },
+      "correct_option": "A",
+      "answer": "Row 4",
+      "explanation": "Starting with row 0 as 1, row 4 of Pascal's triangle is 1  4  6  4  1, which are exactly the coefficients of (a+b)^4. Rows 3, 5, and 6 give coefficients for different powers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "A student writes that (1 + x)^6 expands to 1 + 6x + 15x^2 + 20x^3 + 15x^4 + 6x^5 + x^6. Is this statement correct?",
+      "options": {
+        "A": "Yes, the expansion is correct.",
+        "B": "No, the term for x^4 is missing.",
+        "C": "No, the coefficient of x^3 should be 30.",
+        "D": "No, the constant term should be 0."
+      },
+      "correct_option": "A",
+      "answer": "Yes, the expansion is correct.",
+      "explanation": "Applying the binomial theorem, the coefficients are C(6,0)=1, C(6,1)=6, C(6,2)=15, C(6,3)=20, C(6,4)=15, C(6,5)=6, C(6,6)=1, giving exactly the written expansion. Hence option A is true; the other options point to errors that do not exist.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "Which of the following is the correct expansion of (x + y)^2?",
+      "options": {
+        "A": "x^2 + y^2",
+        "B": "x^2 + 2xy + y^2",
+        "C": "x^2 - 2xy + y^2",
+        "D": "x^2 + xy + y^2"
+      },
+      "correct_option": "B",
+      "answer": "x^2 + 2xy + y^2",
+      "explanation": "Using (x+y)^2 = x^2 + 2xy + y^2. Option A omits the middle term, C has the wrong sign, and D has an incorrect coefficient. Therefore B is the only correct expansion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (3p - 2q)^7, which expression correctly represents the general term containing p^{7-r} q^{r}?",
+      "options": {
+        "A": "C(7,r) (3p)^{7-r} (-2q)^{r}",
+        "B": "C(7,r) (3p)^{r} (-2q)^{7-r}",
+        "C": "C(7,r) (3p)^{7+r} (-2q)^{r-7}",
+        "D": "C(7,r) (3p)^{7-r} (2q)^{r}"
+      },
+      "correct_option": "A",
+      "answer": "C(7,r) (3p)^{7-r} (-2q)^{r}",
+      "explanation": "The general term of (a+b)^n is C(n,r) a^{n-r} b^{r}. Here a = 3p and b = -2q, so the term is C(7,r)(3p)^{7-r}(-2q)^{r}. Option D misses the negative sign, while B and C swap exponents incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Which statement correctly compares the coefficient of x^2 in (1 + x)^5 and (1 + x)^6?",
+      "options": {
+        "A": "Both coefficients are equal.",
+        "B": "The coefficient in (1 + x)^6 is larger by 1.",
+        "C": "The coefficient in (1 + x)^6 is larger by 5.",
+        "D": "The coefficient in (1 + x)^5 is larger."
+      },
+      "correct_option": "C",
+      "answer": "The coefficient in (1 + x)^6 is larger by 5.",
+      "explanation": "Coefficient of x^2 in (1+x)^5 is C(5,2)=10; in (1+x)^6 it is C(6,2)=15. The difference is 5, making option C correct. Options A, B, and D are numerically inaccurate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "If the sum of the elements in the nth row of Pascal's triangle equals 2^n, what is the sum of the elements in the 10th row?",
+      "options": {
+        "A": "1024",
+        "B": "512",
+        "C": "256",
+        "D": "2048"
+      },
+      "correct_option": "A",
+      "answer": "1024",
+      "explanation": "The sum of the nth row is 2^n. For n = 10, 2^{10} = 1024. Hence option A is correct; the other numbers correspond to different powers of two.",
+      "difficulty": "hard"
+    }
+  ]
+}
