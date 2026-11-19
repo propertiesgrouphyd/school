@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "A committee of 3 members is to be formed from a group of 7 students. Which of the following statements correctly defines a combination in this context?",
+      "options": {
+        "A": "A permutation, where the order of selection matters.",
+        "B": "A combination, where the order of selection does not matter.",
+        "C": "An arrangement of objects in a circle.",
+        "D": "The number of ways to distribute identical objects among distinct boxes."
+      },
+      "correct_option": "B",
+      "answer": "A combination, where the order of selection does not matter.",
+      "explanation": "A combination counts selections where the order of the chosen items is irrelevant. In forming a committee, only the set of members matters, not the sequence in which they are chosen. Hence option B correctly defines a combination. Options A, C, and D describe different concepts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "A school wants to select 4 representatives from 10 students. Which expression correctly derives the number of possible selections using the combination formula?",
+      "options": {
+        "A": "10! / (4! 6!)",
+        "B": "10! / (6! 4! 2!)",
+        "C": "10! / (4! (10-2)!)",
+        "D": "10! / (10-4)!"
+      },
+      "correct_option": "A",
+      "answer": "10! / (4! 6!)",
+      "explanation": "The number of ways to choose r objects from n is given by nCr = n! / (r! (n‑r)!). Here n = 10 and r = 4, so the correct expression is 10! / (4! 6!). Options B, C, and D do not match the combination formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "How many ways can you choose 2 books from a shelf containing 5 different books? A student incorrectly uses the permutation formula and gets 20. What is the correct number of combinations?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "5",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "The correct count uses the combination formula: 5C2 = 5! / (2! 3!) = (5×4)/2 = 10. The permutation formula (5P2 = 5×4 = 20) counts ordered selections, which is not required here. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "The number of ways to choose 3 objects from 8 is equal to the number of ways to choose how many objects from the same 8?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "8",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "The symmetry property of combinations states nCr = nC(n‑r). Here n = 8 and r = 3, so 8C3 = 8C5. Therefore the equal selection size is 5, which corresponds to option B.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "Which selection problem yields a greater number of possible ways?\n(i) Choosing 2 out of 6 objects.\n(ii) Choosing 3 out of 7 objects.",
+      "options": {
+        "A": "The first selection (2 out of 6) has more ways.",
+        "B": "The second selection (3 out of 7) has more ways.",
+        "C": "Both selections have the same number of ways.",
+        "D": "It cannot be determined without calculation."
+      },
+      "correct_option": "B",
+      "answer": "The second selection (3 out of 7) has more ways.",
+      "explanation": "Compute each: 6C2 = 15 and 7C3 = 35. Since 35 > 15, the second selection provides more possibilities. Hence option B is correct; the other options are inaccurate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which statement correctly distinguishes permutations from combinations?",
+      "options": {
+        "A": "Permutations consider the order of selection, while combinations do not.",
+        "B": "Combinations consider the order of selection, while permutations do not.",
+        "C": "Both permutations and combinations consider the order of selection.",
+        "D": "Neither permutations nor combinations consider the order of selection."
+      },
+      "correct_option": "A",
+      "answer": "Permutations consider the order of selection, while combinations do not.",
+      "explanation": "In permutations, different orders of the same items are counted as distinct arrangements; in combinations, only the set of items matters, not their order. Therefore option A accurately captures the distinction. Options B, C, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "What is the definition of a combination in combinatorial mathematics?",
+      "options": {
+        "A": "A selection where the order matters.",
+        "B": "A selection where the order does not matter.",
+        "C": "An arrangement of objects in a circle.",
+        "D": "A method to distribute identical items."
+      },
+      "correct_option": "B",
+      "answer": "A selection where the order does not matter.",
+      "explanation": "A combination counts the number of ways to choose a subset of items without regard to the sequence in which they are chosen. Hence option B is the correct definition. The other options describe permutations, circular arrangements, or distribution problems.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "The formula for nCr is obtained by dividing the permutation formula nPr by r!. Which of the following expressions represents nCr?",
+      "options": {
+        "A": "n! / (r! (n−r)!)",
+        "B": "n! / (n−r)!",
+        "C": "n! / r!",
+        "D": "nPr"
+      },
+      "correct_option": "A",
+      "answer": "n! / (r! (n−r)!)",
+      "explanation": "Starting from nPr = n! / (n‑r)!, dividing by r! removes the ordering of the selected r items, giving nCr = n! / (r! (n‑r)!). Option A matches this derived expression. Options B and C omit the necessary r! or (n‑r)! factor, and D is just the permutation formula.",
+      "difficulty": "easy"
+    }
+  ]
+}

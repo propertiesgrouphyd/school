@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "Which of the following statements correctly defines a combination and gives the correct value for selecting 3 objects from a set of 5?",
+      "options": {
+        "A": "A combination selects objects without regard to order; 5C3 = 10",
+        "B": "A combination arranges objects in order; 5C3 = 60",
+        "C": "A combination selects objects without regard to order; 5C3 = 5",
+        "D": "A combination arranges objects in order; 5C3 = 120"
+      },
+      "correct_option": "A",
+      "answer": "A combination selects objects without regard to order; 5C3 = 10",
+      "explanation": "A combination is a selection where order does not matter. The number of ways to choose 3 out of 5 is given by 5C3 = 5!/(3!2!) = 10. Options B, C, and D either misuse the definition or give incorrect values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "The number of ways to select 6 objects from a set of 10 is equal to the number of ways to select how many objects from the same set?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "4",
+      "explanation": "By the symmetry property, nCr = nC(n‑r). Here 10C6 = 10C(10‑6) = 10C4. Hence the equal number of selections is obtained when choosing 4 objects. The other options do not satisfy the symmetry relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "A committee of three members is to be formed from 5 boys and 4 girls such that at least one girl is included. How many different committees are possible?",
+      "options": {
+        "A": "70",
+        "B": "74",
+        "C": "80",
+        "D": "84"
+      },
+      "correct_option": "B",
+      "answer": "74",
+      "explanation": "Total ways to choose any 3 from 9 people = 9C3 = 84. Subtract the all‑boy committees: 5C3 = 10. Hence committees with at least one girl = 84 – 10 = 74. Options A, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which of the following scenarios correctly uses a combination for selection and a permutation for arrangement?",
+      "options": {
+        "A": "Choosing 3 out of 5 books to read (combination) and arranging 3 books on a shelf (permutation)",
+        "B": "Both choosing and arranging are permutations",
+        "C": "Both choosing and arranging are combinations",
+        "D": "Choosing 3 out of 5 books to read (permutation) and arranging 3 books on a shelf (combination)"
+      },
+      "correct_option": "A",
+      "answer": "Choosing 3 out of 5 books to read (combination) and arranging 3 books on a shelf (permutation)",
+      "explanation": "Selecting books to read does not consider order, so it is a combination. Placing the selected books on a shelf cares about order, making it a permutation. Options B, C, and D misuse the definitions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Statement: \"A combination is the number of ways to arrange r objects out of n where the order of selection matters.\" Is this statement true or false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Partially true",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "In a combination, order does NOT matter; it counts selections only. The given statement describes a permutation, not a combination. Hence the statement is false. Options A, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "Which of the following formulas correctly represents the number of combinations of r objects chosen from n distinct objects?",
+      "options": {
+        "A": "n! / (r! (n‑r)!)",
+        "B": "n! / (r! (n+r)!)",
+        "C": "n! / (n‑r)!",
+        "D": "r! / n!"
+      },
+      "correct_option": "A",
+      "answer": "n! / (r! (n‑r)!)",
+      "explanation": "The combination formula is nCr = n! / (r! (n‑r)!). Option B adds (n+r) incorrectly, C omits division by r!, and D inverts the relationship. Therefore, A is the correct derivation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "Which of the following statements is true regarding the values of 12C5 and 12C4?",
+      "options": {
+        "A": "12C5 is greater than 12C4",
+        "B": "12C4 is greater than 12C5",
+        "C": "Both are equal",
+        "D": "They cannot be compared without calculation"
+      },
+      "correct_option": "A",
+      "answer": "12C5 is greater than 12C4",
+      "explanation": "12C5 = 792 and 12C4 = 495, so 12C5 > 12C4. The values are not equal, and they can be compared directly by calculation, making options B, C, and D incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "In how many ways can a committee of 7 members be formed from a group of 15 people? (Use the symmetry property to find the answer quickly.)",
+      "options": {
+        "A": "6435",
+        "B": "5005",
+        "C": "3003",
+        "D": "8008"
+      },
+      "correct_option": "A",
+      "answer": "6435",
+      "explanation": "The number of ways is 15C7. By symmetry, 15C7 = 15C8, and 15C7 = 6435. Options B, C, and D give values for different combinations (e.g., 15C6 = 5005, 15C5 = 3003, 15C9 = 5005). Hence A is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

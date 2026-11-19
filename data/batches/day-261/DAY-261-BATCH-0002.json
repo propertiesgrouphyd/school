@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "Which of the following statements correctly compares the given combination values?",
+      "options": {
+        "A": "C(10,3) > C(10,4)",
+        "B": "C(12,5) = C(12,7)",
+        "C": "C(15,2) < C(15,13)",
+        "D": "C(8,2) > C(8,6)"
+      },
+      "correct_option": "B",
+      "answer": "C(12,5) = C(12,7)",
+      "explanation": "Using the symmetry property, C(n, r) = C(n, n‑r). Hence C(12,5) = C(12,12‑5) = C(12,7). The other statements are false because C(10,3) < C(10,4), C(15,2) = C(15,13), and C(8,2) = C(8,6).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "A committee of 4 members is to be formed from 10 persons. Which expression, using the symmetry property of combinations, gives the same number of ways as C(10,4)?",
+      "options": {
+        "A": "C(10,4)",
+        "B": "C(10,6)",
+        "C": "C(10,5)",
+        "D": "C(10,3)"
+      },
+      "correct_option": "B",
+      "answer": "C(10,6)",
+      "explanation": "The symmetry property states C(n, r) = C(n, n‑r). Here n‑r = 10‑4 = 6, so C(10,4) = C(10,6). Options C and D are not equal to C(10,4).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "From 7 boys and 5 girls, in how many ways can a team consisting of 3 boys and 2 girls be selected?",
+      "options": {
+        "A": "210",
+        "B": "350",
+        "C": "420",
+        "D": "560"
+      },
+      "correct_option": "B",
+      "answer": "350",
+      "explanation": "Select 3 boys from 7: C(7,3)=35. Select 2 girls from 5: C(5,2)=10. Multiply: 35 × 10 = 350. The other numbers arise from incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which statement correctly distinguishes permutations from combinations?",
+      "options": {
+        "A": "Permutations consider order, while combinations do not.",
+        "B": "Permutations are always larger than combinations for the same n and r.",
+        "C": "Combinations can be calculated using the nPr formula.",
+        "D": "Permutations are used only when selecting all n objects."
+      },
+      "correct_option": "A",
+      "answer": "Permutations consider order, while combinations do not.",
+      "explanation": "In permutations the arrangement (order) matters, giving nPr = n!/(n‑r)!. In combinations order is irrelevant, giving nCr = n!/[r!(n‑r)!]. The other statements are false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "What is the correct definition of a combination in the context of selections?",
+      "options": {
+        "A": "The number of ways to arrange r objects out of n where order matters.",
+        "B": "The number of ways to select r objects out of n where order does not matter.",
+        "C": "The number of ways to select all n objects.",
+        "D": "The number of ways to partition n objects into r groups."
+      },
+      "correct_option": "B",
+      "answer": "The number of ways to select r objects out of n where order does not matter.",
+      "explanation": "A combination counts selections without regard to order, expressed as nCr = n!/[r!(n‑r)!]. Option A describes permutations, while C and D describe different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "Which of the following expressions is equal to C(9,3)?",
+      "options": {
+        "A": "9! / (3!·6!)",
+        "B": "9! / (3!·9!)",
+        "C": "9! / (6!·6!)",
+        "D": "9! / (2!·7!)"
+      },
+      "correct_option": "A",
+      "answer": "9! / (3!·6!)",
+      "explanation": "By definition, C(n, r) = n! / [r!(n‑r)!]. Substituting n = 9 and r = 3 gives 9! / (3!·6!). The other options do not match the formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "How many different 5‑card hands can be dealt from a standard 52‑card deck?",
+      "options": {
+        "A": "2,598,960",
+        "B": "2,598,000",
+        "C": "2,600,000",
+        "D": "2,500,000"
+      },
+      "correct_option": "A",
+      "answer": "2,598,960",
+      "explanation": "Number of 5‑card hands = C(52,5) = 52! / (5!·47!) = 2,598,960. The other numbers are close approximations but are not the exact value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "A teacher wants to choose 2 students out of a class of 12 to be class representatives. She notes that choosing 2 students is the same as leaving out 10 students. Which expression correctly uses the symmetry property to compute the number of ways?",
+      "options": {
+        "A": "C(12,2)",
+        "B": "C(12,10)",
+        "C": "Both A and B are equal",
+        "D": "None of the above"
+      },
+      "correct_option": "C",
+      "answer": "Both A and B are equal",
+      "explanation": "By symmetry, C(12,2) = C(12,12‑2) = C(12,10). Hence both expressions give the same count of ways. Options A and B are individually correct, but the statement that they are equal (option C) captures the symmetry property best.",
+      "difficulty": "medium"
+    }
+  ]
+}

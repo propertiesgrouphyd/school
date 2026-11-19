@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "A club has 5 members. In how many ways can a sub‑committee of 3 members be formed?",
+      "options": {
+        "A": "60",
+        "B": "20",
+        "C": "10",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "answer": "10",
+      "explanation": "Forming a sub‑committee is a selection where order does not matter. The number of ways is 5C3 = 5!/(3!2!) = 10. Option A (60) is 5P3, which counts arrangements, a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "A password consists of 4 distinct letters chosen from the alphabet and the order of the letters matters. Which counting principle should be used to find the number of possible passwords?",
+      "options": {
+        "A": "Permutation",
+        "B": "Combination",
+        "C": "Both permutation and combination",
+        "D": "Neither"
+      },
+      "correct_option": "A",
+      "answer": "Permutation",
+      "explanation": "Because the order of the chosen letters matters, we count arrangements, i.e., permutations. Hence 26P4 is the correct approach. Combination would ignore order, which is not suitable here.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Which of the following statements correctly defines a combination of n items taken r at a time?",
+      "options": {
+        "A": "It is the number of ways to arrange r items where order matters.",
+        "B": "It is the number of ways to select r items where order does not matter.",
+        "C": "It equals nPr.",
+        "D": "It equals n!/(n−r)!"
+      },
+      "correct_option": "B",
+      "answer": "It is the number of ways to select r items where order does not matter.",
+      "explanation": "A combination counts selections without regard to order, which is expressed by the formula nCr = n!/[r!(n−r)!]. Option A describes permutations, C is the permutation formula, and D is missing the r! denominator.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "The number of combinations of n distinct objects taken r at a time is nCr = n!/(r!(n−r)!). Which step in the derivation justifies dividing nPr by r! ?",
+      "options": {
+        "A": "Because each selection of r objects can be arranged in r! different orders.",
+        "B": "Because order does not matter in a combination.",
+        "C": "Because of the symmetry property nCr = nC(n−r).",
+        "D": "Because n! already includes the factor r!."
+      },
+      "correct_option": "A",
+      "answer": "Because each selection of r objects can be arranged in r! different orders.",
+      "explanation": "nPr counts all ordered arrangements of r objects. For each unordered selection there are r! possible orders, so dividing nPr by r! removes the over‑counting, yielding nCr. Option B states the reason but does not explain the division step.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "How many ways can you choose 2 fruits from 5 different fruits?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "5",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "Choosing 2 fruits from 5 is a combination: 5C2 = 5!/(2!3!) = 10. The other options correspond to permutations or incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "What is the value of 10C8?",
+      "options": {
+        "A": "45",
+        "B": "120",
+        "C": "10",
+        "D": "210"
+      },
+      "correct_option": "A",
+      "answer": "45",
+      "explanation": "By the symmetry property, 10C8 = 10C(10−8) = 10C2. 10C2 = 10!/(2!8!) = 45. Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "From a group of 7 boys and 5 girls, a committee of 2 boys and 2 girls is to be formed. How many different committees are possible?",
+      "options": {
+        "A": "210",
+        "B": "105",
+        "C": "35",
+        "D": "70"
+      },
+      "correct_option": "A",
+      "answer": "210",
+      "explanation": "Select 2 boys: 7C2 = 21 ways. Select 2 girls: 5C2 = 10 ways. Multiply because choices are independent: 21 × 10 = 210. The other options arise from forgetting multiplication or using wrong combinations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "A basketball team of 5 players is to be selected from 12 candidates, and the coach also wants to assign the five distinct positions (point guard, shooting guard, small forward, power forward, center) to the selected players. How many possible line‑ups are there?",
+      "options": {
+        "A": "12C5",
+        "B": "12P5",
+        "C": "5C12",
+        "D": "5P12"
+      },
+      "correct_option": "B",
+      "answer": "12P5",
+      "explanation": "Both selection of 5 players and assignment of distinct positions matter, so we count ordered arrangements of 5 out of 12: 12P5 = 12!/(12−5)! = 12·11·10·9·8 = 95,040. Option A counts only selections without positions, while C and D are nonsensical.",
+      "difficulty": "easy"
+    }
+  ]
+}
