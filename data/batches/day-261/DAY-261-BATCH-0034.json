@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "In the expansion of (2x − 3)^7, what is the 5th term?",
+      "options": {
+        "A": "22680 x^3",
+        "B": "-20412 x^2",
+        "C": "15120 x^4",
+        "D": "-15120 x^4"
+      },
+      "correct_option": "A",
+      "answer": "22680 x^3",
+      "explanation": "The (r+1)th term in (a+b)^n is T_{r+1}=C(n,r)a^{n-r}b^{r}. For the 5th term, r=4. Here a=2x, b=‑3, n=7. T_5 = C(7,4)(2x)^{3}(-3)^{4}=35·8x^3·81=22680 x^3. Option B uses r=5, which gives the 6th term, a common mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "Find the middle term in the expansion of (2x + 5)^6.",
+      "options": {
+        "A": "20000 x^3",
+        "B": "16000 x^3",
+        "C": "25000 x^3",
+        "D": "18000 x^3"
+      },
+      "correct_option": "A",
+      "answer": "20000 x^3",
+      "explanation": "When n is even, the expansion has a single middle term, the (n/2 + 1)th term. Here n=6, so the 4th term is the middle term. Using T_{r+1}=C(6,r)(2x)^{6-r}5^{r} with r=3 gives C(6,3)=20, (2x)^3=8x^3, 5^3=125. Multiplying: 20·8·125=20000, so the middle term is 20000 x^3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "In the expansion of (x + 2)^8, which coefficient is larger?",
+      "options": {
+        "A": "Coefficient of x^5",
+        "B": "Coefficient of x^3",
+        "C": "Both coefficients are equal",
+        "D": "Cannot be determined without further information"
+      },
+      "correct_option": "B",
+      "answer": "Coefficient of x^3",
+      "explanation": "Coefficient of x^k in (x+2)^8 is C(8,8‑k)·2^{8‑k}. For x^5, k=5 ⇒ r=3, coefficient = C(8,3)·2^3 = 56·8 = 448. For x^3, k=3 ⇒ r=5, coefficient = C(8,5)·2^5 = 56·32 = 1792. Hence the coefficient of x^3 is larger.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In the expansion of (x + 3)^n, the coefficient of the term containing x^{n‑1} is 84. Find n.",
+      "options": {
+        "A": "24",
+        "B": "28",
+        "C": "30",
+        "D": "32"
+      },
+      "correct_option": "B",
+      "answer": "28",
+      "explanation": "The term containing x^{n‑1} corresponds to r=1: coefficient = C(n,1)·3 = 3n. Setting 3n = 84 gives n = 28. The other options do not satisfy this equation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "Which of the following correctly expresses the general term of (a + b)^n?",
+      "options": {
+        "A": "T_{r+1}=C(n,r)·a^{,n‑r}·b^{,r}",
+        "B": "T_{r}=C(n,r)·a^{,r}·b^{,n‑r}",
+        "C": "T_{r+1}=C(n,r)·a^{,r}·b^{,n‑r}",
+        "D": "T_{r}=C(n,r)·a^{,n‑r}·b^{,r}"
+      },
+      "correct_option": "A",
+      "answer": "T_{r+1}=C(n,r)·a^{,n‑r}·b^{,r}",
+      "explanation": "The (r+1)th term in the binomial expansion is given by T_{r+1}=\\binom{n}{r} a^{n-r} b^{r}. Option A matches this formula exactly; the other options misplace the exponents or the term index.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "In the expansion of (2a + b)^5, what is the term containing a^3 b^2?",
+      "options": {
+        "A": "80 a^3 b^2",
+        "B": "40 a^3 b^2",
+        "C": "160 a^3 b^2",
+        "D": "20 a^3 b^2"
+      },
+      "correct_option": "A",
+      "answer": "80 a^3 b^2",
+      "explanation": "We need r such that the power of a is 3: (5‑r)=3 ⇒ r=2. The term is C(5,2)(2a)^{3}b^{2}=10·8a^3·b^2=80 a^3 b^2. The other options arise from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "Which statement correctly defines the middle term(s) in a binomial expansion?",
+      "options": {
+        "A": "The middle term is the term with equal powers of a and b, occurring only when n is even.",
+        "B": "The middle term(s) are the term(s) that occupy the central position(s) in the expansion; there is one middle term when n is even and two when n is odd.",
+        "C": "The middle term is always the (n/2)th term regardless of n.",
+        "D": "There are always two middle terms in any binomial expansion."
+      },
+      "correct_option": "B",
+      "answer": "The middle term(s) are the term(s) that occupy the central position(s) in the expansion; there is one middle term when n is even and two when n is odd.",
+      "explanation": "If n is even, the total number of terms n+1 is odd, giving a single central term (the (n/2+1)th). If n is odd, n+1 is even, giving two central terms ((n+1)/2)th and ((n+3)/2)th. Options A, C, and D misstate these conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "What is the coefficient of x^4 in the expansion of (x + 1)^6?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "6",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "15",
+      "explanation": "The coefficient of x^k in (x+1)^n is C(n,k). Here n=6, k=4, so the coefficient is C(6,4)=15. The other numbers correspond to different binomial coefficients.",
+      "difficulty": "easy"
+    }
+  ]
+}

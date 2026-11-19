@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "In the expansion of \\((a+b)^n\\), which expression correctly represents the \\((k+1)^{\\text{th}}\\) term?",
+      "options": {
+        "A": "C(n,k) a^{n-k} b^{k}",
+        "B": "C(n,k) a^{k} b^{n-k}",
+        "C": "C(n,k-1) a^{n-k+1} b^{k-1}",
+        "D": "C(n,k+1) a^{n-k-1} b^{k+1}"
+      },
+      "correct_option": "A",
+      "answer": "C(n,k) a^{n-k} b^{k}",
+      "explanation": "The general term in the binomial expansion \\((a+b)^n\\) is \\(T_{k+1}=\\binom{n}{k}a^{n-k}b^{k}\\). Option A matches this formula; the other options have incorrect exponents or binomial coefficients.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "Find the term containing \\(a^{3}b^{4}\\) in the expansion of \\((2a+3b)^{7}\\).",
+      "options": {
+        "A": "22680 a^{3} b^{4}",
+        "B": "15120 a^{3} b^{4}",
+        "C": "30240 a^{3} b^{4}",
+        "D": "11340 a^{3} b^{4}"
+      },
+      "correct_option": "A",
+      "answer": "22680 a^{3} b^{4}",
+      "explanation": "The general term is \\(T_{k+1}=\\binom{7}{k}(2a)^{7-k}(3b)^{k}\\). To obtain \\(a^{3}\\) we need \\(7-k=3\\) so \\(k=4\\). Substituting gives \\(\\binom{7}{4}2^{3}3^{4}=35\\times8\\times81=22680\\). Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "In the expansion of \\((x+y)^{6}\\), how many middle terms are there and what is the middle term?",
+      "options": {
+        "A": "One middle term, \\(T_{4}=\\binom{6}{3}x^{3}y^{3}\\)",
+        "B": "Two middle terms, \\(T_{3}=\\binom{6}{2}x^{4}y^{2}\\) and \\(T_{4}=\\binom{6}{3}x^{3}y^{3}\\)",
+        "C": "One middle term, \\(T_{3}=\\binom{6}{2}x^{4}y^{2}\\)",
+        "D": "Two middle terms, \\(T_{4}=\\binom{6}{3}x^{3}y^{3}\\) and \\(T_{5}=\\binom{6}{4}x^{2}y^{4}\\)"
+      },
+      "correct_option": "A",
+      "answer": "One middle term, \\(T_{4}=\\binom{6}{3}x^{3}y^{3}\\)",
+      "explanation": "When \\(n\\) is even, \\(n+1\\) is odd, so there is a single middle term. For \\(n=6\\) the middle term is the 4th term: \\(T_{4}=\\binom{6}{3}x^{3}y^{3}\\). Option A states this correctly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "What is the coefficient of \\(x^{2}y^{5}\\) in the expansion of \\((3x+2y)^{7}\\)?",
+      "options": {
+        "A": "6048",
+        "B": "3024",
+        "C": "1512",
+        "D": "756"
+      },
+      "correct_option": "A",
+      "answer": "6048",
+      "explanation": "General term: \\(T_{k+1}=\\binom{7}{k}(3x)^{7-k}(2y)^{k}\\). For \\(y^{5}\\) we need \\(k=5\\); then \\(x\\) exponent is \\(7-5=2\\). Coefficient = \\(\\binom{7}{5}3^{2}2^{5}=21\\times9\\times32=6048\\). Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In \\((x+2)^{5}\\) the coefficient of \\(x^{3}\\) equals the coefficient of \\(x^{2}\\) in \\((x+k)^{5}\\). Find the value of \\(k\\).",
+      "options": {
+        "A": "\\(4^{1/3}\\)",
+        "B": "2",
+        "C": "\\(\\sqrt{2}\\)",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "\\(4^{1/3}\\)",
+      "explanation": "Coefficient of \\(x^{3}\\) in \\((x+2)^{5}\\): choose \\(r=2\\) → \\(\\binom{5}{2}2^{2}=10\\times4=40\\). In \\((x+k)^{5}\\), coefficient of \\(x^{2}\\) corresponds to \\(r=3\\): \\(\\binom{5}{3}k^{3}=10k^{3}\\). Setting \\(10k^{3}=40\\) gives \\(k^{3}=4\\) → \\(k=4^{1/3}\\). Option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "A student wants to locate the term containing \\(a^{5}b^{2}\\) in the expansion of \\((3a-b)^{8}\\). Which general term formula should they use?",
+      "options": {
+        "A": "\\(T_{k+1}=\\binom{8}{k}(3a)^{8-k}(-b)^{k}\\)",
+        "B": "\\(T_{k+1}=\\binom{8}{k}(3a)^{k}(-b)^{8-k}\\)",
+        "C": "\\(T_{k}=\\binom{8}{k}(3a)^{8-k}(-b)^{k}\\)",
+        "D": "\\(T_{k}=\\binom{8}{k}(3a)^{k}(-b)^{8-k}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(T_{k+1}=\\binom{8}{k}(3a)^{8-k}(-b)^{k}\\)",
+      "explanation": "The \\((k+1)^{\\text{th}}\\) term in \\((3a-b)^{8}\\) is \\(\\binom{8}{k}(3a)^{8-k}(-b)^{k}\\). Setting \\(8-k=5\\) gives \\(k=3\\), yielding the required \\(a^{5}b^{2}\\) term. Option A correctly states the general term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "In the expansion of \\((x+y)^{5}\\), a student writes the term containing \\(x^{4}y\\) as \\(\\binom{5}{4}x^{4}y^{4}\\). What is wrong with this statement?",
+      "options": {
+        "A": "The exponent of \\(y\\) should be 1, not 4",
+        "B": "The binomial coefficient should be \\(\\binom{5}{1}\\)",
+        "C": "The expansion should be \\((x-y)^{5}\\)",
+        "D": "There is no error"
+      },
+      "correct_option": "A",
+      "answer": "The exponent of \\(y\\) should be 1, not 4",
+      "explanation": "In \\((x+y)^{5}\\), the term with \\(x^{4}y\\) corresponds to \\(k=1\\): \\(\\binom{5}{1}x^{4}y\\). The student incorrectly used \\(y^{4}\\). Hence the exponent of \\(y\\) is wrong, making option A correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "Determine the middle term(s) in the expansion of \\((2p-3q)^{7}\\) and give their coefficients.",
+      "options": {
+        "A": "One middle term: \\(T_{4}=\\binom{7}{3}(2p)^{4}(-3q)^{3}\\) with coefficient \\(-15120\\)",
+        "B": "Two middle terms: \\(T_{4}=\\binom{7}{3}(2p)^{4}(-3q)^{3}\\) and \\(T_{5}=\\binom{7}{4}(2p)^{3}(-3q)^{4}\\); coefficients are \\(-15120\\) and \\(22680\\) respectively",
+        "C": "One middle term: \\(T_{5}=\\binom{7}{4}(2p)^{3}(-3q)^{4}\\) with coefficient \\(22680\\)",
+        "D": "There is no middle term because the exponent is odd"
+      },
+      "correct_option": "B",
+      "answer": "Two middle terms: \\(T_{4}=\\binom{7}{3}(2p)^{4}(-3q)^{3}\\) and \\(T_{5}=\\binom{7}{4}(2p)^{3}(-3q)^{4}\\); coefficients are \\(-15120\\) and \\(22680\\) respectively",
+      "explanation": "For \\(n=7\\) (odd), the expansion has \\(8\\) terms, giving two middle terms: the 4th and 5th. \\(T_{4}=\\binom{7}{3}(2p)^{4}(-3q)^{3}\\) → coefficient \\(35\\times16\\times(-27)=-15120\\). \\(T_{5}=\\binom{7}{4}(2p)^{3}(-3q)^{4}\\) → coefficient \\(35\\times8\\times81=22680\\). Option B correctly lists both terms and their coefficients.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "In the expansion of (x + y)^n, which statement correctly describes the middle term(s)?",
+      "options": {
+        "A": "If n is even, there are two middle terms given by T_{(n/2)+1} and T_{(n/2)+2}; if n is odd, there is a single middle term T_{(n+1)/2}.",
+        "B": "If n is odd, there are two middle terms given by T_{(n+1)/2} and T_{(n+3)/2}; if n is even, there is a single middle term T_{n/2}.",
+        "C": "The middle term is always T_{(n+1)/2} regardless of n being even or odd.",
+        "D": "There are never middle terms; all terms are distinct."
+      },
+      "correct_option": "A",
+      "answer": "If n is even, there are two middle terms given by T_{(n/2)+1} and T_{(n/2)+2}; if n is odd, there is a single middle term T_{(n+1)/2}.",
+      "explanation": "For a binomial (x+y)^n, the (r+1)th term is T_{r+1}=C(n,r)x^{n-r}y^{r}. If n is odd, (n+1)/2 is an integer giving a single middle term. If n is even, the two central terms are the (n/2)th and (n/2+1)th terms, i.e., T_{(n/2)+1} and T_{(n/2)+2}. The other options misstate the rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "What is the coefficient of a^2 b^3 in the expansion of (a + b)^5?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "20",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "The general term is C(5,r)a^{5-r}b^{r}. To obtain a^2 b^3 we need r=3, giving C(5,3)=10. Hence the coefficient is 10. The other options correspond to incorrect choices of r or miscalculated combinations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "Find the coefficient of x^3 in the expansion of (2x - 3)^7.",
+      "options": {
+        "A": "22680",
+        "B": "11340",
+        "C": "45360",
+        "D": "5670"
+      },
+      "correct_option": "A",
+      "answer": "22680",
+      "explanation": "The (r+1)th term is C(7,r)(2x)^{7-r}(-3)^{r}. For x^3 we need 7‑r = 3 ⇒ r = 4. Coefficient = C(7,4)·2^{3}·(-3)^{4}=35·8·81=22680. The other options arise from using wrong r or ignoring the sign of (-3)^{4}.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "In the expansion of (3p + q)^n, which expression represents the general term T_{r+1}?",
+      "options": {
+        "A": "C(n,r)*(3p)^{n-r}*q^{r}",
+        "B": "C(n,r)*(3p)^{r}*q^{n-r}",
+        "C": "C(n,r)*(3p)^{n+r}*q^{-r}",
+        "D": "C(n,r)*(3p)^{n-r}*q^{n-r}"
+      },
+      "correct_option": "A",
+      "answer": "C(n,r)*(3p)^{n-r}*q^{r}",
+      "explanation": "The (r+1)th term in (a+b)^n is C(n,r)a^{n-r}b^{r}. Here a=3p and b=q, giving T_{r+1}=C(n,r)(3p)^{n-r}q^{r}. Options B, C, D misplace the exponents.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "In the expansion of (x - 2)^5, the term containing x^2 is:",
+      "options": {
+        "A": "10x^2",
+        "B": "-10x^2",
+        "C": "80x^2",
+        "D": "-80x^2"
+      },
+      "correct_option": "D",
+      "answer": "-80x^2",
+      "explanation": "The term with x^2 occurs when r=3 (since power of x is 5‑r). T_{4}=C(5,3)x^{2}(-2)^{3}=10·x^{2}·(-8)=-80x^2. Many forget the negative sign from (-2)^3, leading to the wrong positive options.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "For (2y + 3)^6, what is the sum of the middle terms when y = 1?",
+      "options": {
+        "A": "9180",
+        "B": "8640",
+        "C": "4320",
+        "D": "4860"
+      },
+      "correct_option": "A",
+      "answer": "9180",
+      "explanation": "n=6 (even) gives two middle terms: T4 and T5. T4 = C(6,3)(2y)^3·3^3 = 20·8·27 y^3 = 4320 y^3. T5 = C(6,4)(2y)^2·3^4 = 15·4·81 y^2 = 4860 y^2. With y=1, sum = 4320+4860 = 9180. Options C and D are the individual terms; B is an incorrect sum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "The coefficient of x^4 in (x + 2)^8 compared with that in (2x + 1)^8 is:",
+      "options": {
+        "A": "First coefficient is greater",
+        "B": "Second coefficient is greater",
+        "C": "Both coefficients are equal",
+        "D": "Neither expansion contains x^4"
+      },
+      "correct_option": "C",
+      "answer": "Both coefficients are equal",
+      "explanation": "In (x+2)^8, coefficient = C(8,4)·1^{4}·2^{4}=70·16=1120. In (2x+1)^8, coefficient = C(8,4)·2^{4}·1^{4}=70·16=1120. Hence they are equal. Options A and B are false; D is false because both contain x^4.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In (3x - 2)^9 the coefficient of x^5 equals the coefficient of x^5 in (ax + b)^9, where a and b are positive integers. Find a + b.",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "Coefficient in (3x-2)^9 for x^5: C(9,4)·3^5·(-2)^4 = 126·243·16 = 489,888. For (ax+b)^9 the coefficient is C(9,4)·a^5·b^4 = 126·a^5·b^4. Equating gives a^5·b^4 = 3,888 = 2^4·3^5. The integer solution with positive a,b is a=3, b=2, giving a+b=5. Hence option B is correct; other options do not satisfy the equality.",
+      "difficulty": "hard"
+    }
+  ]
+}
