@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Simplify powers of i",
+      "question": "Which of the following is equal to i^{2021}?",
+      "options": {
+        "A": "-i",
+        "B": "i",
+        "C": "-1",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "answer": "i",
+      "explanation": "Since i^4 = 1, the exponent 2021 can be reduced modulo 4: 2021 ÷ 4 leaves a remainder of 1. Hence i^{2021}=i^{4·505+1}= (i^4)^{505}·i = 1^{505}·i = i. Option B is the only correct simplification.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Use conjugates in division",
+      "question": "Evaluate \\(\\frac{3+4i}{2-i}\\) and express the result in a+bi form.",
+      "options": {
+        "A": "2/5 + (11/5)i",
+        "B": "(2+11i)/5",
+        "C": "(2-11i)/5",
+        "D": "(11/5) - (2/5)i"
+      },
+      "correct_option": "B",
+      "answer": "(2+11i)/5",
+      "explanation": "To divide, multiply numerator and denominator by the conjugate of the denominator: \\(\\frac{3+4i}{2-i}\\cdot\\frac{2+i}{2+i}=\\frac{(3+4i)(2+i)}{(2)^2+1^2}=\\frac{6+3i+8i+4i^2}{5}=\\frac{2+11i}{5}. Option B matches this result. The other options either have wrong signs or are incorrectly simplified.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Add complex numbers",
+      "question": "What is (5-2i) + (3+4i)?",
+      "options": {
+        "A": "8+2i",
+        "B": "2+8i",
+        "C": "8-2i",
+        "D": "-2+8i"
+      },
+      "correct_option": "A",
+      "answer": "8+2i",
+      "explanation": "Add real parts: 5+3=8. Add imaginary parts: -2i+4i=2i. Hence the sum is 8+2i, which is option A. The other options mix up the order or signs of the components.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Subtract complex numbers",
+      "question": "Compute (7+3i) - (2+5i).",
+      "options": {
+        "A": "5-2i",
+        "B": "9+8i",
+        "C": "5+2i",
+        "D": "-5+2i"
+      },
+      "correct_option": "A",
+      "answer": "5-2i",
+      "explanation": "Subtract real parts: 7-2=5. Subtract imaginary parts: 3i-5i = -2i. The result is 5-2i, which corresponds to option A. The other choices either add instead of subtract or change signs incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Multiply complex numbers",
+      "question": "Which expression correctly equals (1+2i)(3-i)?",
+      "options": {
+        "A": "5+5i",
+        "B": "5-5i",
+        "C": "-5+5i",
+        "D": "-5-5i"
+      },
+      "correct_option": "A",
+      "answer": "5+5i",
+      "explanation": "Multiplying: (1)(3) + (1)(-i) + (2i)(3) + (2i)(-i) = 3 - i + 6i -2i^2 = 3 +5i +2 = 5+5i. Option A is the correct product. The other options have incorrect signs for the real or imaginary parts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Divide complex numbers",
+      "question": "Find the value of \\(\\frac{6-8i}{2+2i}\\).",
+      "options": {
+        "A": "-1/2 - 7/2 i",
+        "B": "-1/2 + 7/2 i",
+        "C": "1/2 - 7/2 i",
+        "D": "1/2 + 7/2 i"
+      },
+      "correct_option": "A",
+      "answer": "-1/2 - 7/2 i",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: \\(\\frac{6-8i}{2+2i}\\cdot\\frac{2-2i}{2-2i}=\\frac{(6-8i)(2-2i)}{(2)^2+(2)^2}=\\frac{-4-28i}{8}= -\\frac{1}{2}-\\frac{7}{2}i. Option A matches this simplified form. The other options have sign errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Simplify powers of i",
+      "question": "Simplify i^{55}.",
+      "options": {
+        "A": "i",
+        "B": "-i",
+        "C": "-1",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "answer": "-i",
+      "explanation": "Reduce the exponent modulo 4 because i^4=1. 55 ÷ 4 leaves remainder 3, so i^{55}=i^{4·13+3}= (i^4)^{13}·i^3 = 1·i^3 = i^3 = -i. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Use conjugates in division",
+      "question": "An AC circuit has impedances Z1 = 4+3i Ω and Z2 = 1-i Ω. What is the ratio Z1/Z2?",
+      "options": {
+        "A": "0.5 + 3.5i",
+        "B": "0.5 - 3.5i",
+        "C": "-0.5 + 3.5i",
+        "D": "-0.5 - 3.5i"
+      },
+      "correct_option": "A",
+      "answer": "0.5 + 3.5i",
+      "explanation": "Divide using the conjugate of the denominator: \\(\\frac{4+3i}{1-i}\\cdot\\frac{1+i}{1+i}=\\frac{(4+3i)(1+i)}{(1)^2+(1)^2}=\\frac{1+7i}{2}=\\frac{1}{2}+\\frac{7}{2}i = 0.5+3.5i. Option A is the correct result. Other options have incorrect signs.",
+      "difficulty": "medium"
+    }
+  ]
+}
