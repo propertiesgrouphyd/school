@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A student can choose a snack for lunch. He may either pick one of 3 types of fruit or one of 2 types of cake. How many different snack choices does he have?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "The addition principle states that if there are m ways to do one thing and n ways to do another, and the two sets are mutually exclusive, the total number of ways is m + n. Here, 3 fruit choices + 2 cake choices = 5 total snack choices. Options B, C, and D either add incorrectly or ignore the principle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A password consists of two letters (each can be any of the 26 English alphabets) followed by three digits (each can be any digit from 0 to 9). How many distinct passwords can be formed?",
+      "options": {
+        "A": "676,000",
+        "B": "52,000",
+        "C": "1,000,000",
+        "D": "260,000"
+      },
+      "correct_option": "A",
+      "answer": "676,000",
+      "explanation": "The multiplication principle multiplies the number of choices at each independent stage. For the two letters: 26 × 26 = 676. For the three digits: 10 × 10 × 10 = 1,000. Total passwords = 676 × 1,000 = 676,000. The other options arise from incorrect multiplication or omission of a stage.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "To form a committee of 2 members from 5 people and then appoint a chairperson from the selected members, which statement is correct?",
+      "options": {
+        "A": "The two stages are independent, so we can multiply 5C2 by 5.",
+        "B": "The second stage depends on the outcome of the first stage, so after choosing the committee we have exactly 2 choices for chairperson.",
+        "C": "We should add the number of ways to choose the committee and the number of ways to choose a chairperson.",
+        "D": "The chairperson can be any of the 5 people, regardless of the committee selection."
+      },
+      "correct_option": "B",
+      "answer": "The second stage depends on the outcome of the first stage, so after choosing the committee we have exactly 2 choices for chairperson.",
+      "explanation": "The selection of the chairperson is contingent on the committee already formed; only the two committee members are eligible. Hence the stages are sequential but not independent, and we multiply 5C2 (10 ways) by 2 (choices for chair) to get 20. Options A and D treat the stages as independent, which is a common misconception. Option C incorrectly uses addition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A bag contains 4 red, 5 blue, and 3 green balls (total 12). If one ball is drawn and then a second different ball is drawn without replacement, how many ordered pairs of balls can be obtained?",
+      "options": {
+        "A": "132",
+        "B": "144",
+        "C": "120",
+        "D": "156"
+      },
+      "correct_option": "A",
+      "answer": "132",
+      "explanation": "For the first draw there are 12 possible balls. After removing that ball, 11 remain for the second draw. By the multiplication principle, total ordered pairs = 12 × 11 = 132. Options B, C, and D result from incorrect arithmetic or forgetting the \"without replacement\" condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "Which of the following situations must be solved using the addition principle rather than the multiplication principle?",
+      "options": {
+        "A": "Choosing a 3‑digit number where each digit can be any of 0‑9.",
+        "B": "Selecting a dessert that is either a cake (3 varieties) or an ice‑cream (4 varieties).",
+        "C": "Forming a 2‑letter code where the first letter is chosen from 5 options and the second from 7 options.",
+        "D": "Picking a pair of shoes from 8 distinct pairs."
+      },
+      "correct_option": "B",
+      "answer": "Selecting a dessert that is either a cake (3 varieties) or an ice‑cream (4 varieties).",
+      "explanation": "The addition principle applies when the choices are mutually exclusive alternatives. In option B, a dessert is either a cake or an ice‑cream, so total ways = 3 + 4 = 7. Options A, C, and D involve successive independent choices and require multiplication.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "In how many ways can a three‑digit number be formed using the digits 1, 2, 3, 4, 5 without repetition?",
+      "options": {
+        "A": "60",
+        "B": "120",
+        "C": "30",
+        "D": "90"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "The first digit can be any of the 5 digits, the second digit any of the remaining 4, and the third digit any of the remaining 3. By the multiplication principle, total numbers = 5 × 4 × 3 = 60. Option B doubles the count, C halves it, and D is unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which statement correctly describes independent stages in a counting process?",
+      "options": {
+        "A": "The number of choices at each stage remains the same regardless of previous selections.",
+        "B": "Each stage must be performed after the previous one, but the choices may change.",
+        "C": "The total number of outcomes is obtained by adding the choices of each stage.",
+        "D": "Only one stage is needed to count the outcomes."
+      },
+      "correct_option": "A",
+      "answer": "The number of choices at each stage remains the same regardless of previous selections.",
+      "explanation": "Independent stages mean the options available at a stage are unaffected by earlier choices, allowing direct multiplication of the counts. Option B describes dependent stages, C confuses addition with multiplication, and D ignores the concept of multiple stages.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "How many distinct arrangements can be made with the letters of the word \"CAT\"?",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "12",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "The word \"CAT\" has 3 distinct letters. The number of permutations is 3! = 3 × 2 × 1 = 6. Options B, C, and D result from incorrect factorial usage or treating letters as identical.",
+      "difficulty": "easy"
+    }
+  ]
+}

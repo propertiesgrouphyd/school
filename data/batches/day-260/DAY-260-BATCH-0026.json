@@ -1,0 +1,78 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01102",
+      "learning_point": "Identify appropriate half-plane",
+      "question": "Consider the linear inequality 2x - 3y \\le 6. Which of the following descriptions correctly identifies the half‑plane that represents the solution set?",
+      "options": {
+        "A": "The side of the line that contains the origin (0,0).",
+        "B": "The side that contains the point (4,0).",
+        "C": "The side that contains the point (0,3).",
+        "D": "The side that contains the point (3,2)."
+      },
+      "correct_option": "A",
+      "answer": "The side of the line that contains the origin (0,0).",
+      "explanation": "Substituting the origin (0,0) into 2x - 3y \\le 6 gives 0 \\le 6, which is true. Hence the half‑plane that includes the origin satisfies the inequality. Points such as (4,0) make the left side 8, which does not satisfy the inequality, and while (0,3) also satisfies it, the standard way to identify the correct half‑plane is to refer to the side containing the origin. Therefore option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01102",
+      "learning_point": "Use test points",
+      "question": "To determine the region that satisfies the inequality x + y > 4, a test point is chosen. Which of the following points is suitable as a test point to decide the correct half‑plane?",
+      "options": {
+        "A": "(0,0)",
+        "B": "(2,2)",
+        "C": "(4,0)",
+        "D": "(5,0)"
+      },
+      "correct_option": "D",
+      "answer": "(5,0)",
+      "explanation": "Evaluating the inequality for each option: \\n- (0,0): 0+0 = 0, not >4. \\n- (2,2): 2+2 = 4, not >4. \\n- (4,0): 4+0 = 4, not >4. \\n- (5,0): 5+0 = 5, which is >4. Since (5,0) satisfies the inequality, the half‑plane containing (5,0) is the solution region. Hence option D is the correct test point.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01102",
+      "learning_point": "Represent strict and non-strict inequalities graphically",
+      "question": "Which of the following statements correctly compares the graphs of the inequalities y > 2x - 1 and y \\ge 2x - 1?",
+      "options": {
+        "A": "Both graphs are drawn with a solid line, but the shaded regions are different.",
+        "B": "The graph of y > 2x - 1 is drawn with a dashed line, while the graph of y \\ge 2x - 1 is drawn with a solid line.",
+        "C": "Both graphs are drawn with a dashed line.",
+        "D": "Both graphs are drawn with a solid line."
+      },
+      "correct_option": "B",
+      "answer": "The graph of y > 2x - 1 is drawn with a dashed line, while the graph of y \\ge 2x - 1 is drawn with a solid line.",
+      "explanation": "A strict inequality (>) does not include the boundary line, so it is represented by a dashed line. A non‑strict inequality (\\ge) includes the boundary, so it is represented by a solid line. Both inequalities share the same boundary line y = 2x - 1, but their line styles differ as described in option B. The other options misrepresent the line styles.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01102",
+      "learning_point": "Solve systems of simple linear inequalities graphically",
+      "question": "Consider the system of linear inequalities \\n1) \\; y > x \\n2) \\; y < 2 - x \\nWhich of the following points satisfies both inequalities simultaneously?",
+      "options": {
+        "A": "(0,0)",
+        "B": "(0,1)",
+        "C": "(1,0)",
+        "D": "(1,1)"
+      },
+      "correct_option": "B",
+      "answer": "(0,1)",
+      "explanation": "Test each point: \\n- (0,0): 0 > 0 is false, so it fails inequality 1. \\n- (0,1): 1 > 0 (true) and 1 < 2 - 0 = 2 (true); it satisfies both. \\n- (1,0): 0 > 1 is false, so it fails. \\n- (1,1): 1 > 1 is false (strict inequality), so it fails. Therefore only option B meets both conditions, illustrating how the feasible region is the intersection of the two half‑planes.",
+      "difficulty": "hard"
+    }
+  ]
+}

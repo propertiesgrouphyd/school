@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-260-1",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "According to the addition principle, if a task can be performed in either of two mutually exclusive ways, with m ways for the first way and n ways for the second way, how many total ways are there to perform the task?",
+      "options": {
+        "A": "m + n",
+        "B": "m × n",
+        "C": "m – n",
+        "D": "(m + n) ÷ 2"
+      },
+      "correct_option": "A",
+      "answer": "m + n",
+      "explanation": "The addition principle states that when two alternatives are mutually exclusive, the total number of ways to do either is the sum of the individual counts, i.e., m + n. Multiplication is used when choices are successive, not exclusive.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-260-2",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A password consists of two letters followed by three digits. How many different passwords can be formed if letters may repeat and digits may repeat?",
+      "options": {
+        "A": "676,000",
+        "B": "62,000",
+        "C": "1,000",
+        "D": "260,000"
+      },
+      "correct_option": "A",
+      "answer": "676,000",
+      "explanation": "For each of the two letter positions there are 26 choices, and for each of the three digit positions there are 10 choices. By the multiplication principle, total = 26 × 26 × 10 × 10 × 10 = 676,000. The other options misapply addition or use wrong counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-260-3",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which statement best describes an independent stage in a counting process?",
+      "options": {
+        "A": "A stage whose number of possible choices does not depend on the outcomes of previous stages.",
+        "B": "A stage that must occur after another specific stage.",
+        "C": "A stage that has only one possible outcome.",
+        "D": "A stage that repeats the same choice made earlier."
+      },
+      "correct_option": "A",
+      "answer": "A stage whose number of possible choices does not depend on the outcomes of previous stages.",
+      "explanation": "Independence means the count of options at that stage remains the same regardless of earlier selections, allowing the multiplication principle. Options B, C, and D describe dependence or special cases, not independence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-260-4",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A committee of three members is to be formed from 5 boys and 4 girls. How many different committees can be formed if the committee must contain at least one girl?",
+      "options": {
+        "A": "74",
+        "B": "84",
+        "C": "10",
+        "D": "35"
+      },
+      "correct_option": "A",
+      "answer": "74",
+      "explanation": "Total ways to choose any 3 from 9 people = C(9,3) = 84. Ways with no girl (all boys) = C(5,3) = 10. Subtracting gives 84 – 10 = 74 committees with at least one girl. The other options either ignore the restriction or miscalculate.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-260-5",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A restaurant menu offers 4 appetizers and 6 desserts. If a customer may order either one appetizer or one dessert (but not both), how many different single‑item orders are possible?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "24",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "The choices are mutually exclusive: 4 ways to pick an appetizer + 6 ways to pick a dessert = 4 + 6 = 10. Adding is appropriate because the customer cannot choose both at once. Options B and C incorrectly multiply, and D is far too small.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-260-6",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A locker combination consists of three distinct digits chosen from 0 to 9 without repetition. How many different combinations are possible?",
+      "options": {
+        "A": "720",
+        "B": "1,000",
+        "C": "90",
+        "D": "56"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "First digit: 10 choices, second digit: 9 remaining, third digit: 8 remaining. By the multiplication principle, total = 10 × 9 × 8 = 720. Option B treats digits as independent with replacement, C and D are far off.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-260-7",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "A student selects a shirt (5 possible designs) and then selects a pair of shoes (4 possible designs). Which of the following statements reflects a common misconception about counting the total number of possible outfits?",
+      "options": {
+        "A": "The total number of outfits is 5 + 4 = 9.",
+        "B": "The total number of outfits is 5 × 4 = 20.",
+        "C": "The choice of shoes is independent of the shirt choice.",
+        "D": "Each outfit consists of one shirt and one pair of shoes."
+      },
+      "correct_option": "A",
+      "answer": "The total number of outfits is 5 + 4 = 9.",
+      "explanation": "Adding the counts (5 + 4) is a misconception because the two selections are successive and independent; the correct method is multiplication (5 × 4 = 20). Options B, C, and D are correct statements about the counting process.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-260-8",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A box contains 3 red, 2 blue, and 4 green balls. Two balls are drawn sequentially without replacement. What is the probability that both drawn balls are red?",
+      "options": {
+        "A": "1/12",
+        "B": "1/6",
+        "C": "1/9",
+        "D": "1/3"
+      },
+      "correct_option": "A",
+      "answer": "1/12",
+      "explanation": "First draw: 3 red out of 9 total → 3/9 = 1/3. After removing one red, 2 red remain out of 8 balls → 2/8 = 1/4. Multiply the independent successive probabilities: (1/3) × (1/4) = 1/12. The other fractions arise from incorrect addition or ignoring the without‑replacement condition.",
+      "difficulty": "medium"
+    }
+  ]
+}

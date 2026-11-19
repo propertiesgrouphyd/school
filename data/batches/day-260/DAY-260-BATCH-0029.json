@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A student can either take a Mathematics test in one of 4 different sections or a Physics test in one of 5 different sections. Using the addition principle, how many distinct test choices are available?",
+      "options": {
+        "A": "9",
+        "B": "20",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "9",
+      "explanation": "The two choices are mutually exclusive, so the total number of ways is the sum of the individual ways: 4 (Math) + 5 (Physics) = 9. Multiplying (4×5) would be incorrect because the choices are not performed successively; they are alternatives.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A 5‑character code is formed by first choosing a letter (26 options) and then a digit (10 options) for each of the remaining four positions. How many different codes can be generated?",
+      "options": {
+        "A": "260,000",
+        "B": "130,000",
+        "C": "36,000",
+        "D": "2,600,000"
+      },
+      "correct_option": "A",
+      "answer": "260,000",
+      "explanation": "The code is built in successive independent stages: 1st position – 26 choices, each of the next four positions – 10 choices. By the multiplication principle, total = 26 × 10⁴ = 26 × 10,000 = 260,000. The other numbers arise from incorrect addition or wrong exponentiation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which of the following situations involves independent stages that can be counted using the multiplication principle?",
+      "options": {
+        "A": "Choosing a shirt (3 colors) and then a pair of shoes (2 styles) for an outfit.",
+        "B": "Choosing a dessert where you can either have ice‑cream (2 flavors) or cake (3 flavors).",
+        "C": "Both A and B.",
+        "D": "Neither A nor B."
+      },
+      "correct_option": "A",
+      "answer": "Choosing a shirt (3 colors) and then a pair of shoes (2 styles) for an outfit.",
+      "explanation": "In option A, the choice of shirt does not affect the choice of shoes; the stages are independent, so total ways = 3 × 2 = 6. Option B presents mutually exclusive alternatives, not independent successive stages, so it does not use the multiplication principle. Hence only A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A committee of three members is to be formed from 5 boys and 4 girls. In how many ways can the committee be formed if it must contain at least one girl?",
+      "options": {
+        "A": "74",
+        "B": "70",
+        "C": "80",
+        "D": "60"
+      },
+      "correct_option": "A",
+      "answer": "74",
+      "explanation": "Total ways to choose any 3 from 9 people = C(9,3)=84. Ways with no girl (all boys) = C(5,3)=10. Subtracting gives ways with at least one girl = 84‑10 = 74. The other options result from miscounting or forgetting the restriction.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "According to the addition principle, if event X can occur in m ways and a mutually exclusive event Y can occur in n ways, the total number of ways either X or Y can occur is:",
+      "options": {
+        "A": "m + n",
+        "B": "m × n",
+        "C": "m – n",
+        "D": "max(m,n)"
+      },
+      "correct_option": "A",
+      "answer": "m + n",
+      "explanation": "The addition principle applies to mutually exclusive alternatives; you add the number of ways each can occur. Multiplication is used for successive independent choices, not for alternatives.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "The multiplication principle states that if a task is performed in k independent stages, where the i‑th stage can be carried out in n_i ways, then the total number of distinct outcomes is:",
+      "options": {
+        "A": "n_1 + n_2 + … + n_k",
+        "B": "n_1 × n_2 × … × n_k",
+        "C": "(n_1)! × (n_2)!",
+        "D": "max(n_i)"
+      },
+      "correct_option": "B",
+      "answer": "n_1 × n_2 × … × n_k",
+      "explanation": "When stages are independent, each choice at one stage can be paired with every choice at the next stage, leading to a product of the numbers of ways. Adding or taking factorials would be incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which statement correctly defines an independent stage in a counting process?",
+      "options": {
+        "A": "A stage whose number of possible outcomes does not depend on the choices made in previous stages.",
+        "B": "A stage that can occur only if a particular previous choice was made.",
+        "C": "A stage that is mutually exclusive with all other stages.",
+        "D": "A stage that reduces the total number of outcomes."
+      },
+      "correct_option": "A",
+      "answer": "A stage whose number of possible outcomes does not depend on the choices made in previous stages.",
+      "explanation": "Independence means the count of options at that stage remains the same regardless of earlier selections. Option B describes a dependent stage, C describes mutually exclusive alternatives, and D is inaccurate.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A student has 3 different hats, 4 different scarves, and 2 different pairs of gloves. How many distinct outfits can the student create if each outfit must consist of exactly one hat, one scarf, and one pair of gloves?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "9",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "24",
+      "explanation": "The outfit is formed by three independent choices: 3 hats × 4 scarves × 2 gloves = 24 possible outfits. The other numbers arise from omitting one of the factors or using addition instead of multiplication.",
+      "difficulty": "easy"
+    }
+  ]
+}
