@@ -1,0 +1,78 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-260-97",
+      "learning_unit_id": "LU-01101",
+      "learning_point": "Represent solutions on a number line",
+      "question": "The inequality 3x - 5 \\le 7 simplifies to x \\le 4. Which of the following number‑line diagrams correctly represents the solution set?",
+      "options": {
+        "A": "A closed circle at 4 with a solid arrow pointing to the left (including all numbers less than or equal to 4).",
+        "B": "An open circle at 4 with a solid arrow pointing to the left (excluding 4).",
+        "C": "A closed circle at 4 with a solid arrow pointing to the right (including numbers greater than or equal to 4).",
+        "D": "An open circle at 4 with a solid arrow pointing to the right (excluding 4)."
+      },
+      "correct_option": "A",
+      "answer": "A closed circle at 4 with a solid arrow pointing to the left (including all numbers less than or equal to 4).",
+      "explanation": "Since the solution is x \\le 4, the point 4 must be included (closed circle) and the arrow must extend toward smaller numbers (left). Option A shows exactly this. Option B excludes 4, which is wrong. Options C and D point to the opposite direction, representing x \\ge 4, which does not match the inequality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-260-98",
+      "learning_unit_id": "LU-01101",
+      "learning_point": "Use interval notation where appropriate",
+      "question": "Express the solution set of the inequality -3 < x \\le 5 in interval notation.",
+      "options": {
+        "A": "(-3,5]",
+        "B": "[-3,5)",
+        "C": "(-3,5)",
+        "D": "[-3,5]"
+      },
+      "correct_option": "A",
+      "answer": "(-3,5]",
+      "explanation": "The inequality -3 < x means x is greater than -3 but not equal, so the left endpoint is an open parenthesis. x \\le 5 includes 5, so the right endpoint is a closed bracket. Hence the correct interval notation is (-3,5]. Options B and D use a closed bracket at -3, which would include -3, and option C excludes 5, both incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-260-99",
+      "learning_unit_id": "LU-01101",
+      "learning_point": "Solve compound inequalities",
+      "question": "Consider the compound inequalities (i) 2 < x < 6 and (ii) x \\le 5. Which statement about their solution sets is true?",
+      "options": {
+        "A": "The solution set of (i) is a subset of the solution set of (ii).",
+        "B": "The solution set of (ii) is a subset of the solution set of (i).",
+        "C": "Both have exactly the same solution set.",
+        "D": "The solution sets are disjoint."
+      },
+      "correct_option": "A",
+      "answer": "The solution set of (i) is a subset of the solution set of (ii).",
+      "explanation": "Inequality (i) gives 2 < x < 6, i.e., all numbers between 2 and 6, not including the endpoints. Inequality (ii) gives x \\le 5, i.e., all numbers up to and including 5. Every number satisfying (i) also satisfies (ii) because any x between 2 and 5 is allowed, and the part (5,6) of (i) does not satisfy (ii). Thus the set of (i) is contained within the set of (ii). Option A states this correctly. Options B, C, and D are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-260-100",
+      "learning_unit_id": "LU-01101",
+      "learning_point": "Interpret solution sets",
+      "question": "If the solution set of a linear inequality in one variable is (-\\infty, -2) \\cup (3, \\infty), which of the following inequalities represents it?",
+      "options": {
+        "A": "x < -2 \\text{ or } x > 3",
+        "B": "x \\le -2 \\text{ or } x \\ge 3",
+        "C": "x > -2 \\text{ and } x < 3",
+        "D": "x \\ge -2 \\text{ and } x \\le 3"
+      },
+      "correct_option": "A",
+      "answer": "x < -2 \\text{ or } x > 3",
+      "explanation": "The interval (-\\infty, -2) corresponds to all numbers less than -2 (strict inequality), and (3, \\infty) corresponds to all numbers greater than 3 (strict inequality). Therefore the combined solution is \"x < -2 or x > 3\", which is option A. Option B uses \"\\le\" and \"\\ge\", which would include -2 and 3, contradicting the open intervals. Options C and D describe the intersection of the two intervals, which would be the empty set, not the given union.",
+      "difficulty": "hard"
+    }
+  ]
+}
