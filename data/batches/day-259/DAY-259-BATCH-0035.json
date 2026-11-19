@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "Solve the quadratic equation x^2 + 4x + 13 = 0 over the complex numbers.",
+      "options": {
+        "A": "-2 + 3i, -2 - 3i",
+        "B": "2 + 3i, 2 - 3i",
+        "C": "-4 ± i",
+        "D": "1 ± 2i"
+      },
+      "correct_option": "A",
+      "answer": "-2 + 3i, -2 - 3i",
+      "explanation": "The discriminant is Δ = b^2 - 4ac = 16 - 52 = -36. √Δ = 6i. Roots are (-b ± √Δ)/(2a) = (-4 ± 6i)/2 = -2 ± 3i. Hence option A is correct. The other options do not satisfy the equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "A quadratic equation with real coefficients has one root 3 + 2i. Which of the following must be the other root?",
+      "options": {
+        "A": "3 - 2i",
+        "B": "-3 + 2i",
+        "C": "-3 - 2i",
+        "D": "2 - 3i"
+      },
+      "correct_option": "A",
+      "answer": "3 - 2i",
+      "explanation": "For a polynomial with real coefficients, non‑real roots occur in conjugate pairs. Therefore the conjugate of 3 + 2i, which is 3 - 2i, must also be a root. The other options are not conjugates.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "For the quadratic equation x^2 + px + q = 0, which of the following statements is correct?",
+      "options": {
+        "A": "Sum of roots = -p and product = q",
+        "B": "Sum of roots = p and product = -q",
+        "C": "Sum of roots = -q and product = p",
+        "D": "Sum of roots = p and product = q"
+      },
+      "correct_option": "A",
+      "answer": "Sum of roots = -p and product = q",
+      "explanation": "Vieta's formulas give sum of roots = -b/a = -p (since a = 1) and product = c/a = q. Option A reflects this correctly; the other options mix up signs or swap the quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "If the discriminant of a quadratic equation ax^2 + bx + c = 0 is negative, what can be concluded about its roots?",
+      "options": {
+        "A": "Both roots are real and distinct",
+        "B": "Both roots are real and equal",
+        "C": "Roots are complex conjugates",
+        "D": "No roots exist"
+      },
+      "correct_option": "C",
+      "answer": "Roots are complex conjugates",
+      "explanation": "A negative discriminant (Δ < 0) means the square root of Δ is imaginary, giving two non‑real roots that are conjugates of each other. Hence option C is correct; the other statements describe Δ ≥ 0 cases.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "Consider the quadratic equation x^2 + 6x + 10 = 0. Which statement correctly compares the solutions obtained by completing the square and by using the quadratic formula?",
+      "options": {
+        "A": "Both methods give the same roots, namely -3 ± i",
+        "B": "Completing the square yields real roots while the formula gives complex roots",
+        "C": "The quadratic formula gives -3 ± i, but completing the square gives -3 ± √1",
+        "D": "The methods give different roots because one method is approximate"
+      },
+      "correct_option": "A",
+      "answer": "Both methods give the same roots, namely -3 ± i",
+      "explanation": "Completing the square: (x+3)^2 = -1 → x = -3 ± i. Quadratic formula: Δ = 36 - 40 = -4, √Δ = 2i, x = (-6 ± 2i)/2 = -3 ± i. Both approaches lead to identical complex conjugate roots, confirming option A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "A quadratic equation with real coefficients has one root 1 + i. If the constant term of the equation is 2, what is the coefficient of x?",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "-1",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "-2",
+      "explanation": "The other root must be the conjugate 1 - i. Sum of roots = (1 + i) + (1 - i) = 2. For a monic quadratic x^2 - (sum)x + (product) = 0, the coefficient of x is -sum = -2. Hence option A is correct; the other values do not satisfy Vieta's relation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "For the quadratic equation x^2 - 5x + 6 = 0, what are the sum and product of its roots respectively?",
+      "options": {
+        "A": "Sum = 5, Product = 6",
+        "B": "Sum = -5, Product = -6",
+        "C": "Sum = 5, Product = -6",
+        "D": "Sum = -5, Product = 6"
+      },
+      "correct_option": "A",
+      "answer": "Sum = 5, Product = 6",
+      "explanation": "Using Vieta's formulas: sum = -(-5) = 5, product = 6. Option A matches these values; the other options have incorrect signs.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "What is the value of the discriminant Δ for the quadratic equation x^2 + 2x + 5 = 0, and what does it indicate about the nature of the roots?",
+      "options": {
+        "A": "Δ = -16; roots are complex conjugates",
+        "B": "Δ = 4; roots are real and equal",
+        "C": "Δ = 0; roots are real and equal",
+        "D": "Δ = 9; roots are real and distinct"
+      },
+      "correct_option": "A",
+      "answer": "Δ = -16; roots are complex conjugates",
+      "explanation": "Δ = b^2 - 4ac = 4 - 20 = -16, which is negative, so the quadratic has two non‑real complex conjugate roots. Option A correctly states both the discriminant value and its implication.",
+      "difficulty": "easy"
+    }
+  ]
+}

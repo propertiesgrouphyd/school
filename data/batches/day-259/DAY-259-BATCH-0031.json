@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "Which of the following best describes the process of solving a quadratic equation over the complex numbers?",
+      "options": {
+        "A": "Find only the real roots, ignoring any complex possibilities",
+        "B": "Use the discriminant and express the roots in the form a+bi",
+        "C": "Approximate the roots numerically without using algebraic formulas",
+        "D": "Factor the quadratic only when all coefficients are integers"
+      },
+      "correct_option": "B",
+      "answer": "Use the discriminant and express the roots in the form a+bi",
+      "explanation": "To solve a quadratic over the complex numbers we compute the discriminant Δ=b²-4ac. If Δ is negative, the roots are written as (-b±√Δ)/(2a)=(-b/(2a))±(√|Δ|/(2a))i, i.e., in the form a+bi. Options A, C and D are incomplete or incorrect approaches.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "If the quadratic equation x^2 + 4x + 13 = 0 has roots α and β, which statement is true?",
+      "options": {
+        "A": "α = β",
+        "B": "Both α and β are real numbers",
+        "C": "α and β are complex conjugates",
+        "D": "α = -β"
+      },
+      "correct_option": "C",
+      "answer": "α and β are complex conjugates",
+      "explanation": "For a quadratic with real coefficients, a negative discriminant gives non‑real roots that occur as conjugate pairs. Here Δ=4^2-4·1·13=16-52=-36, so the roots are -2±3i, which are conjugates. Options A and B are false because the roots are distinct and non‑real; D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "For the quadratic 2x^2-(k+3)x+(k-2)=0, the sum of its roots equals 5. What is k?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "correct_option": "D",
+      "answer": "7",
+      "explanation": "For ax^2+bx+c=0, sum of roots = -b/a. Here a=2, b=-(k+3). So sum = (k+3)/2 =5 ⇒ k+3=10 ⇒ k=7. Only option D satisfies this. The other options give incorrect sums.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "The discriminant of x^2 - 6x + 10 = 0 is negative. What does this indicate about its roots?",
+      "options": {
+        "A": "Two equal real roots",
+        "B": "Two distinct real roots",
+        "C": "Two complex conjugate roots",
+        "D": "No roots exist"
+      },
+      "correct_option": "C",
+      "answer": "Two complex conjugate roots",
+      "explanation": "Δ = (-6)^2 - 4·1·10 = 36 - 40 = -4 < 0, so the quadratic has no real roots; instead it has a pair of complex conjugate roots. Option D is a misconception; the equation still has solutions in ℂ. Options A and B describe cases with Δ ≥ 0.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Solve quadratic equations over complex numbers",
+      "question": "A student claims that because the discriminant of x^2 + 2x + 5 = 0 is negative, the equation has no solutions. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "The equation indeed has no solutions",
+        "B": "The equation has two real solutions",
+        "C": "The equation has two complex conjugate solutions",
+        "D": "A negative discriminant means the coefficients are entered incorrectly"
+      },
+      "correct_option": "C",
+      "answer": "The equation has two complex conjugate solutions",
+      "explanation": "A negative discriminant means the roots are non‑real but they exist as complex numbers. For the given equation, Δ = 4 - 20 = -16, giving roots -1 ± 2i. Hence option C is correct; A and B are false, and D misinterprets the meaning of the discriminant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Understand conjugate roots",
+      "question": "Why must the roots of a quadratic equation with real coefficients be complex conjugates when they are non‑real?",
+      "options": {
+        "A": "Because the sum of the roots must be a real number",
+        "B": "Because the product of the roots must be imaginary",
+        "C": "Because complex numbers always appear in pairs",
+        "D": "Because the discriminant is always positive"
+      },
+      "correct_option": "A",
+      "answer": "Because the sum of the roots must be a real number",
+      "explanation": "For ax^2+bx+c=0 with real a,b,c, the sum of roots = -b/a and the product = c/a are both real. If one root is p+qi (q≠0), the only way for the sum and product to stay real is for the other root to be its conjugate p‑qi. Options B, C, and D are inaccurate statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Relate coefficients and roots",
+      "question": "Quadratic A: x^2 - 4x + 5 = 0 and Quadratic B: x^2 - 4x + k = 0 have the same sum of roots but different products. Which value of k makes the product of the roots of B equal to 9?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "13"
+      },
+      "correct_option": "C",
+      "answer": "9",
+      "explanation": "Both quadratics have coefficient -4 for x, so sum of roots = 4 for each (by -b/a). The product of roots equals the constant term c (since a=1). To have product 9, we need k=9. Option C satisfies this; the other options give different products.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01099",
+      "learning_point": "Interpret discriminant in relation to roots",
+      "question": "For the quadratic equation ax^2 + bx + c = 0 with real coefficients, the discriminant Δ = b^2 - 4ac is -16. Which statement is true?",
+      "options": {
+        "A": "The equation has two equal real roots",
+        "B": "The equation has two distinct real roots",
+        "C": "The equation has two complex conjugate roots whose real parts are zero",
+        "D": "The equation has two complex conjugate roots with non‑zero real parts"
+      },
+      "correct_option": "D",
+      "answer": "The equation has two complex conjugate roots with non‑zero real parts",
+      "explanation": "Δ = -16 < 0 guarantees complex conjugate roots. Their real part is -b/(2a), which is generally non‑zero unless b=0. Since the problem does not specify b=0, we cannot assume zero real part; thus option D is the correct general statement. Options A and B contradict the negative discriminant, and C is only true for the special case b=0, which is not given.",
+      "difficulty": "hard"
+    }
+  ]
+}
