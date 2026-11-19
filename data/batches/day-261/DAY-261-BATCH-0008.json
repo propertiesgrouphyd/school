@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "A committee of 3 members is to be formed from a group of 7 people. How many different committees can be formed?",
+      "options": {
+        "A": "35",
+        "B": "210",
+        "C": "7",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "The problem asks for selections where order does not matter, so we use combinations: 7C3 = 7!/(3!4!) = 35. Option B (210) is 7P3, which counts arrangements where order matters—a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "The number of ways to choose 2 objects from 5 distinct objects is equal to the number of ways to choose how many objects from the same 5?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "By the symmetry property of combinations, nCr = nC(n‑r). Here 5C2 = 5C(5‑2) = 5C3, so the equal number of ways corresponds to choosing 3 objects.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "Which of the following selections yields a larger number of combinations?",
+      "options": {
+        "A": "Selecting 4 objects from 10",
+        "B": "Selecting 5 objects from 12",
+        "C": "Both give the same number",
+        "D": "Cannot be determined without calculation"
+      },
+      "correct_option": "B",
+      "answer": "Selecting 5 objects from 12",
+      "explanation": "10C4 = 210 while 12C5 = 792. Therefore selecting 5 from 12 gives the larger count. Options A and C are incorrect, and D is unnecessary because the values can be computed directly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "A team of 3 students is to be formed from 8 candidates, and then a captain is to be appointed from the selected team. In how many ways can this be done?",
+      "options": {
+        "A": "56",
+        "B": "336",
+        "C": "168",
+        "D": "24"
+      },
+      "correct_option": "C",
+      "answer": "168",
+      "explanation": "First choose the team: 8C3 = 56 ways (combination, order irrelevant). Then choose a captain from the 3 members: 3 ways (permutation of the chosen subset). Total = 56 × 3 = 168. Option A counts only the team selection, B multiplies by 6 (3! instead of 3), and D is far too small.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Which of the following best defines a combination in combinatorial mathematics?",
+      "options": {
+        "A": "An arrangement where order matters",
+        "B": "A selection of items where order does not matter",
+        "C": "A repeated selection with replacement",
+        "D": "A permutation of a subset"
+      },
+      "correct_option": "B",
+      "answer": "A selection of items where order does not matter",
+      "explanation": "A combination refers to selecting a subset of items from a larger set without regard to the order of selection. Options A and D describe permutations, while C describes selections with replacement, not standard combinations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "The formula nCr = n! / (r! (n−r)!) is derived by first counting permutations and then adjusting for order. Which step is essential in this derivation?",
+      "options": {
+        "A": "Multiplying by r! to account for order",
+        "B": "Dividing by (n−r)! to exclude unchosen objects",
+        "C": "Both A and B",
+        "D": "None of the above"
+      },
+      "correct_option": "C",
+      "answer": "Both A and B",
+      "explanation": "Starting with nPr = n!/(n−r)!, we divide by r! to eliminate the r! arrangements of the chosen objects (order irrelevant). This yields nCr. Both adjustments are required; hence option C is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "How many different 2‑digit numbers can be formed using the digits 1, 2, 3, 4 without repetition if the order of digits is not considered?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "If order does not matter, we are simply choosing 2 distinct digits from 4, which is 4C2 = 6. Options B and C correspond to counting permutations (order matters), and D is too small.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "Without calculating directly, find the value of 9C7.",
+      "options": {
+        "A": "36",
+        "B": "72",
+        "C": "84",
+        "D": "126"
+      },
+      "correct_option": "A",
+      "answer": "36",
+      "explanation": "By symmetry, 9C7 = 9C(9‑7) = 9C2. Computing 9C2 = 9·8/2 = 36. Hence option A is correct; the other options are results of incorrect calculations.",
+      "difficulty": "easy"
+    }
+  ]
+}

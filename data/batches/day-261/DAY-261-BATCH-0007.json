@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Consider the following statements about selecting 3 objects from a set of 5 distinct objects. Which statement correctly describes the difference between combinations and permutations?",
+      "options": {
+        "A": "The number of combinations is 5P3 = 60, while the number of permutations is 5C3 = 10.",
+        "B": "Both combinations and permutations give the same count because order does not matter.",
+        "C": "Combinations count selections where order does not matter, giving 5C3 = 10; permutations count arrangements where order matters, giving 5P3 = 60.",
+        "D": "Combinations and permutations are unrelated concepts; one deals with probability and the other with geometry."
+      },
+      "correct_option": "C",
+      "answer": "Combinations count selections where order does not matter, giving 5C3 = 10; permutations count arrangements where order matters, giving 5P3 = 60.",
+      "explanation": "A combination selects items without regard to order, so for 5 objects taken 3 at a time we have 5C3 = 10. A permutation arranges the selected items, giving 5P3 = 5×4×3 = 60. Option C states this correctly. Option A swaps the definitions, B incorrectly claims they are equal, and D is unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "Which of the following expressions correctly represents the number of combinations of n distinct objects taken r at a time (nCr) as derived from the fundamental counting principle?",
+      "options": {
+        "A": "n! / (n - r)!",
+        "B": "n! / (r! (n - r)!)",
+        "C": "(n + r)! / (n! r!)",
+        "D": "n! * r! / (n - r)!"
+      },
+      "correct_option": "B",
+      "answer": "n! / (r! (n - r)!)",
+      "explanation": "To form a combination we first consider the r! arrangements of the chosen r objects and divide them out of the total permutations n!/(n‑r)!. This yields n! / [r! (n‑r)!]. Option B matches this derived formula. Options A, C, and D are incorrect forms.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "In how many ways can a committee of 4 members be formed from a group of 9 students?",
+      "options": {
+        "A": "126",
+        "B": "84",
+        "C": "36",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "126",
+      "explanation": "The number of ways is given by 9C4 = 9! / (4!·5!) = (9×8×7×6)/(4×3×2×1) = 126. The other options correspond to different calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "According to the symmetry property of combinations, which of the following is equal to 12C5?",
+      "options": {
+        "A": "12C7",
+        "B": "12C4",
+        "C": "5C12",
+        "D": "7C12"
+      },
+      "correct_option": "A",
+      "answer": "12C7",
+      "explanation": "The symmetry property states nCr = nC(n‑r). Here n‑r = 12‑5 = 7, so 12C5 = 12C7. Options B, C, and D do not satisfy the property.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "Which of the following situations is a selection problem best solved using combinations?",
+      "options": {
+        "A": "Arranging 3 books on a shelf",
+        "B": "Choosing 2 team leaders from 6 candidates",
+        "C": "Forming a 5‑digit number using digits 1‑5 without repetition",
+        "D": "Seating 4 people around a round table"
+      },
+      "correct_option": "B",
+      "answer": "Choosing 2 team leaders from 6 candidates",
+      "explanation": "Choosing leaders involves selecting people where the order of selection does not matter, which is a combination problem (6C2). Options A, C, and D involve ordering, thus require permutations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which of the following tasks requires counting permutations rather than combinations?",
+      "options": {
+        "A": "Selecting 3 out of 8 books to read",
+        "B": "Selecting 3 out of 8 books to display on a shelf where order matters",
+        "C": "Selecting 3 out of 8 books to donate",
+        "D": "Selecting 3 out of 8 books for a reading list where order is irrelevant"
+      },
+      "correct_option": "B",
+      "answer": "Selecting 3 out of 8 books to display on a shelf where order matters",
+      "explanation": "When the arrangement (order) on the shelf matters, we count permutations: 8P3. The other options involve only selection without order, which are combinations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "From 5 different fruits, how many ways can you choose 2 fruits?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "5",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "Choosing 2 fruits from 5 without regard to order is a combination: 5C2 = 5!/(2!·3!) = 10. Option B would be the permutation count (5P2 = 20). Options C and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "A school wants to form a sub‑committee of 3 teachers from a pool of 10 teachers. In how many ways can this be done?",
+      "options": {
+        "A": "120",
+        "B": "720",
+        "C": "10",
+        "D": "210"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "The number of ways is given by 10C3 = 10!/(3!·7!) = (10×9×8)/(3×2×1) = 120. Option B is 10P3, option D is 10C4, and option C is just the number of teachers.",
+      "difficulty": "medium"
+    }
+  ]
+}

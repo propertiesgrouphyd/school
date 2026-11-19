@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "In how many ways can a committee of 3 be formed from 8 distinct students?",
+      "options": {
+        "A": "24",
+        "B": "56",
+        "C": "64",
+        "D": "72"
+      },
+      "correct_option": "B",
+      "answer": "56",
+      "explanation": "A committee is a selection where order does not matter. The number of ways is given by the combination formula C(8,3)=8!/(3!·5!)=56. Hence option B is correct. The other numbers correspond to incorrect calculations (e.g., permutations or arithmetic errors).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "A library wants to select 4 books out of 10 distinct books to display on a shelf. Which counting principle should be used?",
+      "options": {
+        "A": "Permutation",
+        "B": "Combination",
+        "C": "Both permutation and combination",
+        "D": "Neither"
+      },
+      "correct_option": "B",
+      "answer": "Combination",
+      "explanation": "The problem asks only for a selection of books; the order in which they are displayed is not specified, so we count combinations where order does not matter. Therefore the correct principle is combination. Permutation would be used if the arrangement order mattered. Options A, C, and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Which of the following correctly defines a combination?",
+      "options": {
+        "A": "An arrangement of n objects taken r at a time where order matters",
+        "B": "A selection of r objects from n distinct objects where order does not matter",
+        "C": "The total number of ways to arrange r objects from n distinct objects",
+        "D": "A permutation of n objects"
+      },
+      "correct_option": "B",
+      "answer": "A selection of r objects from n distinct objects where order does not matter",
+      "explanation": "A combination is precisely a selection of r objects from a set of n distinct objects without regard to order, which matches option B. Option A describes a permutation, option C is another way of describing a permutation, and option D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "Which of the following expressions correctly represents the number of combinations of n objects taken r at a time?",
+      "options": {
+        "A": "n!/(n−r)!",
+        "B": "n!/(r!·(n−r)!)",
+        "C": "nPr",
+        "D": "(n−r)!/n!"
+      },
+      "correct_option": "B",
+      "answer": "n!/(r!·(n−r)!)",
+      "explanation": "The combination formula is nCr = n! / (r! (n−r)!). Option B matches this formula. Option A is the permutation formula nPr, option C denotes permutation, and option D is not a standard counting formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "Which of the following statements about the values of C(12,5) and C(12,7) is true?",
+      "options": {
+        "A": "C(12,5) is larger than C(12,7)",
+        "B": "C(12,7) is larger than C(12,5)",
+        "C": "Both are equal",
+        "D": "Cannot be determined without calculation"
+      },
+      "correct_option": "C",
+      "answer": "Both are equal",
+      "explanation": "By the symmetry property of combinations, C(n,r)=C(n,n−r). Here, 12−5=7, so C(12,5)=C(12,7). Hence the two values are equal, making option C correct. Options A and B ignore the symmetry, and D is unnecessary because the relationship is known theoretically.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "What is the value of C(20,3)?",
+      "options": {
+        "A": "1140",
+        "B": "190",
+        "C": "1330",
+        "D": "1540"
+      },
+      "correct_option": "A",
+      "answer": "1140",
+      "explanation": "C(20,3)=20!/(3!·17!)= (20·19·18)/(3·2·1)=1140. Using symmetry, C(20,3)=C(20,17) gives the same result. Option A matches the correct calculation. The other options result from arithmetic mistakes or confusing with other combination values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "How many ways can 2 books be selected from a shelf containing 5 distinct books?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "5",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "answer": "10",
+      "explanation": "Selecting 2 books from 5 without regard to order uses the combination formula C(5,2)=5!/(2!·3!)=10. Therefore option A is correct. Option B would be the permutation count (5P2), while C and D are unrelated counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which statement correctly distinguishes a permutation from a combination?",
+      "options": {
+        "A": "Permutation considers order, combination does not",
+        "B": "Combination considers order, permutation does not",
+        "C": "Both consider order",
+        "D": "Neither consider order"
+      },
+      "correct_option": "A",
+      "answer": "Permutation considers order, combination does not",
+      "explanation": "A permutation counts arrangements where the sequence matters, while a combination counts selections where the order is irrelevant. Hence option A accurately describes the distinction. Options B, C, and D invert or deny the role of order, which is incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "In how many ways can a committee of 3 be selected from 7 students?",
+      "options": {
+        "A": "35",
+        "B": "21",
+        "C": "7",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "The number of ways to choose 3 objects from 7 without regard to order is given by the combination formula 7C3 = 7!/(3!4!) = 35. Hence option A is correct. The other options correspond to incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which statement correctly distinguishes a permutation from a combination?",
+      "options": {
+        "A": "A permutation considers the order of selection, while a combination does not.",
+        "B": "A permutation does not consider order, whereas a combination does.",
+        "C": "Both permutations and combinations consider the order of selection.",
+        "D": "Both permutations and combinations ignore the order of selection."
+      },
+      "correct_option": "A",
+      "answer": "A permutation considers the order of selection, while a combination does not.",
+      "explanation": "In permutations, different orders of the same objects are counted separately; in combinations, only the selected set matters, not the order. Therefore option A is correct. Options B, C, and D misstate the definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "What is the definition of a combination in the context of counting selections?",
+      "options": {
+        "A": "The number of ways to select r objects from n distinct objects without regard to order.",
+        "B": "The number of ways to arrange r objects from n distinct objects in a specific order.",
+        "C": "The product of n and r.",
+        "D": "The sum of n and r."
+      },
+      "correct_option": "A",
+      "answer": "The number of ways to select r objects from n distinct objects without regard to order.",
+      "explanation": "A combination counts selections where the order does not matter, expressed as nCr = n!/(r!(n‑r)!). Options B, C, and D describe permutations or unrelated operations, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "Which of the following expressions correctly represents the combination formula nCr?",
+      "options": {
+        "A": "n!/(r!(n‑r)!)",
+        "B": "n!/(n‑r)!",
+        "C": "nPr = n!/(n‑r)!",
+        "D": "r!/(n!)"
+      },
+      "correct_option": "A",
+      "answer": "n!/(r!(n‑r)!)",
+      "explanation": "The combination formula is derived by dividing the permutation count nPr = n!/(n‑r)! by r! to eliminate ordering, giving nCr = n!/(r!(n‑r)!). Options B, C, and D are either incomplete or represent different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "A basketball team needs to select 5 players from a squad of 12. How many different groups of 5 can be formed?",
+      "options": {
+        "A": "792",
+        "B": "950",
+        "C": "462",
+        "D": "252"
+      },
+      "correct_option": "A",
+      "answer": "792",
+      "explanation": "The number of ways is 12C5 = 12!/(5!7!) = (12×11×10×9×8)/(5×4×3×2×1) = 792. Hence option A is correct. The other numbers result from incorrect arithmetic or using the wrong formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "In a class of 10 students, the number of ways to choose 3 students for a project is equal to the number of ways to choose how many students for the same project?",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "5",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "By the symmetry property of combinations, nCk = nC(n‑k). Here 10C3 = 10C7, so the equal number of selections corresponds to choosing 7 students. Hence option B is correct. Options A, C, and D do not satisfy the symmetry relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "A committee of 2 is to be formed from 4 people A, B, C, D. A student incorrectly counts AB and BA as different selections and obtains 12 ways. What is the correct number of committees?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "4",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Since order does not matter, the number of 2‑person committees is 4C2 = 6. The student's error was treating AB and BA as distinct, which doubles the count. Therefore option A is correct; the others reflect the mistaken counting or unrelated values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which of the following scenarios requires using permutations rather than combinations?",
+      "options": {
+        "A": "Selecting 3 books from a shelf of 10 to read (order does not matter).",
+        "B": "Choosing 2 leaders from 5 candidates where one will be president and the other secretary.",
+        "C": "Forming a basketball team of 5 from 12 players.",
+        "D": "Picking 4 colors for a flag where order is irrelevant."
+      },
+      "correct_option": "B",
+      "answer": "Choosing 2 leaders from 5 candidates where one will be president and the other secretary.",
+      "explanation": "When the positions (president and secretary) are distinct, the order of selection matters, so permutations are used: 5P2 = 20. The other options involve selections where order is irrelevant, so combinations apply. Hence option B is correct.",
+      "difficulty": "medium"
+    }
+  ]
+}

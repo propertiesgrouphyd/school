@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Which of the following statements correctly defines a combination?",
+      "options": {
+        "A": "An arrangement of r objects selected from n distinct objects where the order of selection is important.",
+        "B": "A selection of r objects from n distinct objects where the order of selection does not matter.",
+        "C": "A selection of n objects from r distinct objects where repetitions are allowed.",
+        "D": "An ordered list of n objects taken r at a time."
+      },
+      "correct_option": "B",
+      "answer": "A selection of r objects from n distinct objects where the order of selection does not matter.",
+      "explanation": "A combination counts selections where only the chosen set matters; the order of the chosen objects is irrelevant. Option B states exactly this. Option A describes a permutation, C is unrelated, and D mixes concepts incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "The number of ways to choose r objects from n distinct objects (order not important) is given by which formula?",
+      "options": {
+        "A": "\\u00b7 n!/(n-r)!",
+        "B": "\\u00b7 n!/[r!(n-r)!]",
+        "C": "\\u00b7 r!/[n!(n-r)!]",
+        "D": "\\u00b7 (n+r)!/[r!n!]"
+      },
+      "correct_option": "B",
+      "answer": "\\u00b7 n!/[r!(n-r)!]",
+      "explanation": "Starting from permutations nPr = n!/(n-r)!, we divide by r! to ignore the ordering of the r selected objects, yielding nCr = n!/[r!(n-r)!]. Option B matches this expression; the others are incorrect forms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Calculate combinations",
+      "question": "How many different committees of 4 students can be formed from a class of 9 students?",
+      "options": {
+        "A": "84",
+        "B": "126",
+        "C": "210",
+        "D": "36"
+      },
+      "correct_option": "B",
+      "answer": "126",
+      "explanation": "The number of ways is C(9,4) = 9!/[4!·5!] = (9·8·7·6)/(4·3·2·1) = 126. Hence option B is correct; the other numbers result from miscalculations or using permutations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Use symmetry property",
+      "question": "A basketball team needs to select 5 players from a squad of 12. Using the symmetry property of combinations, which of the following expressions gives the same number of selections as C(12,5)?",
+      "options": {
+        "A": "C(12,5)",
+        "B": "C(12,7)",
+        "C": "C(5,12)",
+        "D": "C(7,12)"
+      },
+      "correct_option": "B",
+      "answer": "C(12,7)",
+      "explanation": "The symmetry property states C(n,r) = C(n,n‑r). Here n‑r = 12‑5 = 7, so C(12,5) = C(12,7). Option B reflects this; A is the original expression, C and D are not defined in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Solve selection problems",
+      "question": "A student thinks that the number of ways to choose 2 books from 5 distinct books is 5P2 = 20. Which statement corrects this misconception?",
+      "options": {
+        "A": "The correct number is 5C2 = 10 because order does not matter.",
+        "B": "The correct number is 5C2 = 20 because order matters.",
+        "C": "The correct number is 5P2 = 10 because order does not matter.",
+        "D": "The correct number is 5! = 120."
+      },
+      "correct_option": "A",
+      "answer": "The correct number is 5C2 = 10 because order does not matter.",
+      "explanation": "Choosing 2 books without regard to order is a combination: C(5,2) = 5!/[2!·3!] = 10. The student's use of permutation (5P2) counts ordered selections, leading to 20, which is not appropriate for a selection problem. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Distinguish permutation from combination",
+      "question": "Which of the following correctly distinguishes a permutation from a combination?",
+      "options": {
+        "A": "In a permutation, order matters; in a combination, order does not matter.",
+        "B": "In a permutation, order does not matter; in a combination, order matters.",
+        "C": "Both permutation and combination consider order.",
+        "D": "Neither permutation nor combination consider order."
+      },
+      "correct_option": "A",
+      "answer": "In a permutation, order matters; in a combination, order does not matter.",
+      "explanation": "By definition, permutations count arrangements where the sequence is important, while combinations count selections where only the set matters. Option A states this distinction accurately; the other options invert or deny the definitions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Define combination",
+      "question": "Consider the following two statements:\n\nStatement I: A combination is a selection of r objects from n distinct objects where the arrangement of the selected objects is taken into account.\nStatement II: A combination is a selection of r objects from n distinct objects where only the set of selected objects matters, not their order.\n\nWhich statement correctly defines a combination?",
+      "options": {
+        "A": "Statement I only",
+        "B": "Statement II only",
+        "C": "Both statements",
+        "D": "Neither statement"
+      },
+      "correct_option": "B",
+      "answer": "Statement II only",
+      "explanation": "Statement II captures the essence of a combination—order is irrelevant. Statement I incorrectly describes a permutation. Therefore, only Statement II is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01106",
+      "learning_point": "Derive nCr",
+      "question": "In a competitive exam, a student is asked to derive the formula for nCr. Starting from the number of permutations nPr = n!/(n−r)!, which of the following steps correctly leads to the combination formula?",
+      "options": {
+        "A": "Divide nPr by r! to eliminate the effect of ordering, giving nCr = n!/[r!(n−r)!].",
+        "B": "Multiply nPr by r! to account for ordering, giving nCr = n!·r!/(n−r)!.",
+        "C": "Replace n in nPr with r, giving nCr = r!/(n−r)!.",
+        "D": "Subtract r! from nPr, giving nCr = n!/(n−r)! − r!."
+      },
+      "correct_option": "A",
+      "answer": "Divide nPr by r! to eliminate the effect of ordering, giving nCr = n!/[r!(n−r)!].",
+      "explanation": "A combination is obtained by removing the r! arrangements of the selected r objects from the permutation count. Hence nCr = nPr / r! = n!/[r!(n−r)!]. Option A describes this correct step; the other options misuse multiplication, substitution, or subtraction, leading to incorrect formulas.",
+      "difficulty": "hard"
+    }
+  ]
+}
