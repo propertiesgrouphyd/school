@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "What does the addition principle state in counting?",
+      "options": {
+        "A": "If two tasks are mutually exclusive, the total number of ways is the sum of the ways for each task.",
+        "B": "If two tasks are performed in sequence, the total number of ways is the sum of the ways for each task.",
+        "C": "The addition principle applies only when choices are independent.",
+        "D": "It states that the total number of ways is the product of the ways for each task."
+      },
+      "correct_option": "A",
+      "answer": "If two tasks are mutually exclusive, the total number of ways is the sum of the ways for each task.",
+      "explanation": "The addition principle (also called the sum rule) says that if a task can be performed in one of several mutually exclusive ways, the total number of ways to perform the task is the sum of the numbers of ways for each individual option. It does not involve multiplication; that is the multiplication principle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "According to the multiplication principle, if a task consists of two independent stages where the first stage has 4 possible choices and the second stage has 5 possible choices, how many total outcomes are possible?",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "20",
+        "D": "25"
+      },
+      "correct_option": "C",
+      "answer": "20",
+      "explanation": "The multiplication principle states that when a task is performed in successive independent stages, the total number of outcomes equals the product of the number of choices at each stage. Here 4 × 5 = 20. Options A, B, and D are results of addition or incorrect multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which of the following best describes an independent stage in a counting process?",
+      "options": {
+        "A": "A stage where the number of choices depends on the previous stage.",
+        "B": "A stage where the number of choices is fixed and does not depend on earlier stages.",
+        "C": "A stage that can be skipped without affecting the total count.",
+        "D": "A stage that repeats the same choice made earlier."
+      },
+      "correct_option": "B",
+      "answer": "A stage where the number of choices is fixed and does not depend on earlier stages.",
+      "explanation": "An independent stage means the options available at that stage are unaffected by the choices made in previous stages. This independence allows the multiplication principle to be applied. Option A describes dependence, while C and D are unrelated to the definition of independence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A password consists of two letters followed by one digit. The letters can be chosen from {A, B, C} and the digit can be 0 or 1. How many different passwords can be formed?",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "18"
+      },
+      "correct_option": "D",
+      "answer": "18",
+      "explanation": "For each of the two letter positions there are 3 choices, giving 3 × 3 = 9 possibilities. The digit position has 2 choices. By the multiplication principle, total passwords = 9 × 2 = 18. The other options arise from incorrect addition or missing the second letter choice.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A student can either read a novel (3 different novels are available) or watch a documentary (2 different documentaries are available). How many distinct choices does the student have?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "Reading a novel and watching a documentary are mutually exclusive activities. By the addition principle, total choices = 3 (novels) + 2 (documentaries) = 5. Options B‑D incorrectly add extra possibilities or use multiplication.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A sandwich can be prepared by choosing one type of bread (white or wheat) and one filling (cheese, tomato, or cucumber). How many different sandwich combinations are possible?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "There are 2 choices for bread and 3 choices for filling. Since the choices are independent, the multiplication principle gives 2 × 3 = 6 possible sandwiches. Option A adds instead of multiplies; C and D are incorrect products.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "True or False: If there are 4 ways to choose a shirt and 3 ways to choose a pair of pants, the total number of possible outfits is 7.",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Not enough information",
+        "D": "Both"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "Choosing a shirt and a pair of pants are independent stages, so the total outfits are found by multiplication: 4 × 3 = 12, not by addition. The statement uses the addition principle incorrectly, leading to the wrong total of 7.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A code consists of two distinct letters selected from {A, B, C, D} followed by a digit chosen from {0, 1, 2}. Repetition of letters is not allowed, but the digit may repeat any previous character. How many such codes are possible?",
+      "options": {
+        "A": "24",
+        "B": "30",
+        "C": "36",
+        "D": "48"
+      },
+      "correct_option": "C",
+      "answer": "36",
+      "explanation": "First letter: 4 choices. Second letter must be different: 3 choices. Digit: 3 choices (0,1,2) independent of the letters. By multiplication, total codes = 4 × 3 × 3 = 36. Options A, B, and D result from incorrect counting of the digit or allowing letter repetition.",
+      "difficulty": "medium"
+    }
+  ]
+}

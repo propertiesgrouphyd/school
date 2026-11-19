@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "The addition principle in counting states that if a task can be performed in either of two mutually exclusive ways, with m ways for the first way and n ways for the second way, then the total number of ways is:",
+      "options": {
+        "A": "m + n",
+        "B": "m × n",
+        "C": "m - n",
+        "D": "m ÷ n"
+      },
+      "correct_option": "A",
+      "answer": "m + n",
+      "explanation": "The addition principle adds the number of ways of mutually exclusive alternatives: total = m + n. Multiplication (m × n) is used when choices are successive and independent, not when they are exclusive. Subtraction and division have no relevance here.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A password consists of 2 letters followed by 3 digits. How many such passwords are possible if letters may repeat and digits may repeat?",
+      "options": {
+        "A": "676,000",
+        "B": "52,000",
+        "C": "1,000,000",
+        "D": "260,000"
+      },
+      "correct_option": "A",
+      "answer": "676,000",
+      "explanation": "For each of the 2 letter positions there are 26 choices, giving 26 × 26 = 676 possibilities. For each of the 3 digit positions there are 10 choices, giving 10³ = 1,000 possibilities. By the multiplication principle total passwords = 676 × 1,000 = 676,000. The other options arise from incorrect addition or omission of a factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "In forming a 3‑digit number using the digits 1, 2, 3, 4 without repetition, which statement correctly identifies the independent stages of the counting process?",
+      "options": {
+        "A": "Choose the first digit, then the second digit, then the third digit.",
+        "B": "Choose the sum of the three digits, then the first digit, then the third digit.",
+        "C": "Choose the third digit first, then the first digit, then the second digit.",
+        "D": "Choose only the first digit; the rest are determined automatically."
+      },
+      "correct_option": "A",
+      "answer": "Choose the first digit, then the second digit, then the third digit.",
+      "explanation": "Each selection (first, second, third digit) is made independently of the others, except for the restriction of no repetition. Hence the process has three independent stages. Options B and D describe non‑independent or incomplete stages, and C, while possible, does not list the stages in the natural order required by the statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A committee of 2 boys and 2 girls is to be formed from 5 boys and 4 girls. How many different committees can be formed?",
+      "options": {
+        "A": "60",
+        "B": "20",
+        "C": "30",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "Choose 2 boys from 5: C(5,2)=10 ways. Choose 2 girls from 4: C(4,2)=6 ways. By the multiplication principle total committees = 10 × 6 = 60. The other numbers correspond to counting only one gender or using addition instead of multiplication.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A student claims: \"If there are 3 ways to choose a shirt and 4 ways to choose a pair of trousers, then there are 7 ways to choose an outfit.\" Which statement is correct?",
+      "options": {
+        "A": "The student's claim is correct because the addition principle applies.",
+        "B": "The student's claim is incorrect; the multiplication principle should be used.",
+        "C": "The student's claim is correct because shirts and trousers are mutually exclusive choices.",
+        "D": "The student's claim is incorrect because there are only 4 possible outfits."
+      },
+      "correct_option": "B",
+      "answer": "The student's claim is incorrect; the multiplication principle should be used.",
+      "explanation": "Choosing a shirt and a pair of trousers are independent choices, not mutually exclusive alternatives. Therefore the total outfits = 3 × 4 = 12 (multiplication principle). Adding the numbers (7) misapplies the addition principle, which is only for exclusive options.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "Why does the multiplication principle give the total number of outcomes when a task is performed in successive independent stages?",
+      "options": {
+        "A": "Because each choice in a later stage can be paired with every choice in earlier stages, forming a Cartesian product.",
+        "B": "Because we add the number of choices at each stage.",
+        "C": "Because the stages are mutually exclusive.",
+        "D": "Because the total is the average of the numbers of choices."
+      },
+      "correct_option": "A",
+      "answer": "Because each choice in a later stage can be paired with every choice in earlier stages, forming a Cartesian product.",
+      "explanation": "When stages are independent, every option of the first stage can be combined with every option of the second stage, and so on. This creates a Cartesian product of the sets of choices, whose size is the product of the individual sizes. Adding (option B) would be appropriate only for exclusive alternatives, not for successive independent choices.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Consider two counting processes:\nProcess X: selecting a president (3 choices) then a vice‑president (2 choices).\nProcess Y: selecting a committee of 2 members from 5 people.\nWhich process has more independent stages?",
+      "options": {
+        "A": "Process X has more independent stages.",
+        "B": "Process Y has more independent stages.",
+        "C": "Both processes have the same number of independent stages.",
+        "D": "Neither process has independent stages."
+      },
+      "correct_option": "A",
+      "answer": "Process X has more independent stages.",
+      "explanation": "Process X involves two sequential, independent selections (president then vice‑president), i.e., two stages. Process Y is a single selection of a 2‑person subset, regarded as one stage. Hence X has more independent stages. Options B, C, D misinterpret the definition of a stage.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "In how many distinct arrangements of the letters of the word \"LEVEL\" are the two L's not together?",
+      "options": {
+        "A": "48",
+        "B": "60",
+        "C": "12",
+        "D": "30"
+      },
+      "correct_option": "A",
+      "answer": "48",
+      "explanation": "Total permutations of \"LEVEL\" = 5! / 2! = 60 (because L repeats). Treat the two L's as a single block; then we have {LL, E, V, E} → 4 items with E repeated twice, giving 4! / 2! = 12 arrangements where the L's are together. Subtracting: 60 – 12 = 48 arrangements where the L's are separated. The other options correspond to total permutations, the block count, or an incorrect subtraction.",
+      "difficulty": "hard"
+    }
+  ]
+}

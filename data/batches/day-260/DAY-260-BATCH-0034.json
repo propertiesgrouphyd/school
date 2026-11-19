@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A student can wear a shirt of 3 different colours and a pair of trousers of 4 different styles. Which statement about the total number of possible outfits is correct?",
+      "options": {
+        "A": "Add the numbers: 3 + 4 = 7 outfits.",
+        "B": "Multiply the numbers: 3 × 4 = 12 outfits.",
+        "C": "Add the numbers and then multiply: (3 + 4) × 2 = 14 outfits.",
+        "D": "None of the above."
+      },
+      "correct_option": "B",
+      "answer": "Multiply the numbers: 3 × 4 = 12 outfits.",
+      "explanation": "The addition principle applies only when the choices are mutually exclusive. Here a shirt and trousers are chosen together, so the choices are independent stages. The total number of outfits is the product of the possibilities: 3 shirts × 4 trousers = 12. Option A misapplies the addition principle, leading to an incorrect count.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "How many three‑digit numbers can be formed using the digits 1, 2, 3, and 4 without repeating any digit?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "6",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "Forming a three‑digit number involves three independent stages: choosing the hundreds digit (4 choices), then the tens digit (3 remaining choices), then the units digit (2 remaining choices). By the multiplication principle, total numbers = 4 × 3 × 2 = 24. The other options correspond to incorrect counting of stages.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which of the following scenarios involves independent stages in a counting process?",
+      "options": {
+        "A": "Choosing a pizza topping (5 options) and then selecting a drink, where the drink choices depend on the topping selected.",
+        "B": "Rolling a die and then flipping a coin; the outcome of the coin does not depend on the die result.",
+        "C": "Selecting a password of 4 letters where each subsequent letter must be alphabetically after the previous one.",
+        "D": "Picking a team captain and then automatically assigning the remaining members based on the captain’s position."
+      },
+      "correct_option": "B",
+      "answer": "Rolling a die and then flipping a coin; the outcome of the coin does not depend on the die result.",
+      "explanation": "Independent stages mean the number of choices at a later stage is unaffected by earlier choices. In option B, the die roll and coin flip are unrelated, so the total outcomes are 6 × 2 = 12. All other options have dependence between stages, violating independence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "In how many ways can a committee of three members be formed from 5 boys and 4 girls such that at least one girl is included?",
+      "options": {
+        "A": "70",
+        "B": "74",
+        "C": "80",
+        "D": "84"
+      },
+      "correct_option": "B",
+      "answer": "74",
+      "explanation": "Total ways to choose any 3 people from 9 = C(9,3) = 84. Subtract the ways with no girl (all boys): C(5,3) = 10. Hence, ways with at least one girl = 84 – 10 = 74. Options A, C, and D are incorrect calculations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "According to the addition principle, if a task can be performed in m ways or in n ways, and the two ways are mutually exclusive, the total number of ways to perform the task is:",
+      "options": {
+        "A": "m + n",
+        "B": "m × n",
+        "C": "m – n",
+        "D": "(m + n) ÷ 2"
+      },
+      "correct_option": "A",
+      "answer": "m + n",
+      "explanation": "The addition principle applies when the choices are mutually exclusive; you simply add the number of ways for each exclusive case. Multiplication is used for independent stages, not for exclusive alternatives.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "The multiplication principle states that if a task consists of two independent stages, the first can be done in p ways and the second in q ways. The total number of ways to complete the task is:",
+      "options": {
+        "A": "p + q",
+        "B": "p × q",
+        "C": "p – q",
+        "D": "max(p, q)"
+      },
+      "correct_option": "B",
+      "answer": "p × q",
+      "explanation": "When stages are independent, each choice in the first stage can be paired with every choice in the second stage, giving a product of possibilities. Adding would underestimate the total, and subtraction or max are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "Which statement correctly distinguishes independent stages from dependent stages in a counting process?",
+      "options": {
+        "A": "In independent stages, the number of choices at a later stage does not depend on the choice made at an earlier stage.",
+        "B": "In independent stages, the number of choices at a later stage increases with each earlier choice.",
+        "C": "In dependent stages, the number of choices at a later stage remains the same regardless of earlier choices.",
+        "D": "Independent and dependent stages are identical; the terms are interchangeable."
+      },
+      "correct_option": "A",
+      "answer": "In independent stages, the number of choices at a later stage does not depend on the choice made at an earlier stage.",
+      "explanation": "Independence means the outcome of one stage does not affect the options available in the next stage, allowing the multiplication principle. Dependent stages have restrictions based on earlier selections, requiring careful case analysis.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A restaurant menu offers 2 appetizers and 4 desserts. If a customer may choose either one appetizer or one dessert (but not both), how many different choices does the customer have?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "The two alternatives (appetizer or dessert) are mutually exclusive. By the addition principle, total choices = number of appetizers + number of desserts = 2 + 4 = 6. The other options result from incorrect addition or mixing multiplication.",
+      "difficulty": "easy"
+    }
+  ]
+}

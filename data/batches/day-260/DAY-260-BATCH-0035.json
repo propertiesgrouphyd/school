@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-260-65",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "A student can either choose a T‑shirt (available in 3 colours) or a pair of shoes (available in 2 styles), but not both. How many different choices does the student have?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "The addition principle states that if there are mutually exclusive alternatives, the total number of ways is the sum of the individual counts. Here the alternatives are choosing a T‑shirt (3 ways) or shoes (2 ways). 3 + 2 = 5. Options B, C and D add or multiply incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-260-66",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "A password consists of two letters (each can be any of the 26 English alphabets) followed by three digits (each can be any digit from 0 to 9). How many distinct passwords can be formed?",
+      "options": {
+        "A": "676,000",
+        "B": "130,000",
+        "C": "52,000",
+        "D": "2,600"
+      },
+      "correct_option": "A",
+      "answer": "676,000",
+      "explanation": "The multiplication principle multiplies the number of choices at each independent stage: 26 × 26 × 10 × 10 × 10 = 676,000. The other options arise from omitting a factor or using addition instead of multiplication.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-260-67",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "A wardrobe has 4 shirts and 5 trousers. Which statement correctly identifies the independent stages for counting the number of possible outfits?",
+      "options": {
+        "A": "Choosing a shirt and choosing a trouser are independent stages, so total outfits = 4 + 5.",
+        "B": "Choosing a shirt and choosing a trouser are independent stages, so total outfits = 4 × 5.",
+        "C": "Choosing a shirt depends on the colour of the trouser, so we must add the counts.",
+        "D": "Only one stage is needed because shirts and trousers are the same category."
+      },
+      "correct_option": "B",
+      "answer": "Choosing a shirt and choosing a trouser are independent stages, so total outfits = 4 × 5.",
+      "explanation": "Independent stages mean the number of choices at one stage does not affect the other. Hence we multiply: 4 shirts × 5 trousers = 20 outfits. Option A incorrectly adds, while C and D misinterpret independence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-260-68",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A club has 3 boys and 4 girls. A committee of 2 members is to be formed. In how many ways can the committee be chosen?",
+      "options": {
+        "A": "21",
+        "B": "12",
+        "C": "14",
+        "D": "28"
+      },
+      "correct_option": "A",
+      "answer": "21",
+      "explanation": "The committee is unordered, so we use combinations: C(7,2) = 7×6/2 = 21. Options B, C, D result from incorrect multiplication or omission of the division by 2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-260-69",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand addition principle",
+      "question": "Which of the following situations requires the addition principle rather than the multiplication principle?",
+      "options": {
+        "A": "Choosing a pizza topping (3 options) and then a drink (2 options).",
+        "B": "Selecting either a red pen or a blue pen, but not both.",
+        "C": "Arranging 4 distinct books on a shelf.",
+        "D": "Forming a 3‑digit number using digits 0‑9 with repetition allowed."
+      },
+      "correct_option": "B",
+      "answer": "Selecting either a red pen or a blue pen, but not both.",
+      "explanation": "The addition principle applies when alternatives are mutually exclusive. In option B, the choices are exclusive (red pen OR blue pen), so total ways = 1 + 1 = 2. Options A, C, D involve successive independent choices, requiring multiplication.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-260-70",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Understand multiplication principle",
+      "question": "Five distinct books are to be placed on a shelf. In how many ways can they be arranged if two particular books must never be placed together?",
+      "options": {
+        "A": "72",
+        "B": "60",
+        "C": "84",
+        "D": "96"
+      },
+      "correct_option": "A",
+      "answer": "72",
+      "explanation": "Total permutations of 5 books = 5! = 120. Treat the two restricted books as a single block: then we have 4 objects, which can be arranged in 4! = 24 ways, and the two books inside the block can be ordered in 2 ways, giving 24 × 2 = 48 unwanted arrangements. Subtracting: 120 – 48 = 72 permissible arrangements. The other options arise from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-260-71",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Identify independent stages of a counting process",
+      "question": "In the context of the fundamental principle of counting, what does it mean for stages to be independent?",
+      "options": {
+        "A": "The outcome of one stage influences the number of choices in the next stage.",
+        "B": "The stages can be performed in any order without affecting the count.",
+        "C": "The number of choices at each stage does not depend on the choices made in previous stages.",
+        "D": "Each stage must represent a mutually exclusive alternative."
+      },
+      "correct_option": "C",
+      "answer": "The number of choices at each stage does not depend on the choices made in previous stages.",
+      "explanation": "Independence means the count of options at a given stage remains the same regardless of earlier selections, allowing multiplication of the counts. Option A describes dependence, B is about order, and D describes mutual exclusivity, which relates to addition, not independence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-260-72",
+      "learning_unit_id": "LU-01103",
+      "learning_point": "Solve elementary counting problems",
+      "question": "A fair six‑sided die is rolled twice. How many ordered pairs of results are possible?",
+      "options": {
+        "A": "12",
+        "B": "30",
+        "C": "36",
+        "D": "42"
+      },
+      "correct_option": "C",
+      "answer": "36",
+      "explanation": "Each roll has 6 possible outcomes, and the rolls are independent. By the multiplication principle, total ordered outcomes = 6 × 6 = 36. The other numbers result from adding or miscounting.",
+      "difficulty": "easy"
+    }
+  ]
+}
