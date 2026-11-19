@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements correctly defines the factorial of a positive integer n?",
+      "options": {
+        "A": "n! = n \\times (n-1) \\times (n-2) \\times \\dots \\times 2 \\times 1, for n \\ge 1.",
+        "B": "n! = n \\times (n-1) \\times (n-2) \\times \\dots \\times 3 \\times 2, for n \\ge 2.",
+        "C": "n! = n \\times (n-1) \\times (n-2) \\times \\dots \\times 1, and 0! = 0.",
+        "D": "n! = n \\times (n-1) \\times \\dots \\times 1, defined only for even n."
+      },
+      "correct_option": "A",
+      "answer": "n! = n \\times (n-1) \\times (n-2) \\times \\dots \\times 2 \\times 1, for n \\ge 1.",
+      "explanation": "Option A matches the definition: factorial of n (n\\ge1) is the product of all positive integers from n down to 1. Option B omits the factor 1, option C incorrectly states 0! = 0, and option D restricts factorial to even numbers, which is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "If 5! = 120, evaluate (5! + 0!) / (0! + 1).",
+      "options": {
+        "A": "121",
+        "B": "60",
+        "C": "121/2",
+        "D": "61"
+      },
+      "correct_option": "C",
+      "answer": "121/2",
+      "explanation": "0! equals 1. Numerator: 5! + 0! = 120 + 1 = 121. Denominator: 0! + 1 = 1 + 1 = 2. Hence the value is 121/2. Only option C reflects this result; the others are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression (n+2)! / n!.",
+      "options": {
+        "A": "(n+2)(n+1)",
+        "B": "(n+2)(n+1)n",
+        "C": "(n+2)!",
+        "D": "(n+1)"
+      },
+      "correct_option": "A",
+      "answer": "(n+2)(n+1)",
+      "explanation": "(n+2)! = (n+2)(n+1)n!. Dividing by n! cancels n!, leaving (n+2)(n+1). Options B, C, and D retain extra factors or are incomplete.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "The number of ways to arrange 4 distinct books on a shelf is given by which factorial expression?",
+      "options": {
+        "A": "4!",
+        "B": "4",
+        "C": "4\\times 3",
+        "D": "3!"
+      },
+      "correct_option": "A",
+      "answer": "4!",
+      "explanation": "Arranging 4 distinct items in order is a permutation of 4 objects, counted by 4! = 4\\times3\\times2\\times1 = 24. The other options give incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which statement distinguishes factorial from exponentiation?",
+      "options": {
+        "A": "Factorial multiplies a sequence of decreasing integers, while exponentiation multiplies a number by itself repeatedly.",
+        "B": "Factorial adds a sequence of numbers, while exponentiation multiplies.",
+        "C": "Factorial is defined only for even numbers, exponentiation for all.",
+        "D": "Factorial grows slower than exponentiation for all n."
+      },
+      "correct_option": "A",
+      "answer": "Factorial multiplies a sequence of decreasing integers, while exponentiation multiplies a number by itself repeatedly.",
+      "explanation": "Option A correctly describes the nature of factorial (product of a descending integer sequence) versus exponentiation (repeated multiplication of the same base). Options B, C, and D contain factual errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "What is the value of 7! \\div (7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 0!) ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "7",
+        "D": "5040"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "0! = 1, so the denominator equals 7\\times6\\times5\\times4\\times3\\times2\\times1 = 7!. Hence the fraction simplifies to 1. Only option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify (8!)/(6! \\times 2!).",
+      "options": {
+        "A": "28",
+        "B": "56",
+        "C": "14",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "28",
+      "explanation": "8! = 8\\times7\\times6!. The expression becomes (8\\times7\\times6!)/(6!\\times2) = (8\\times7)/2 = 56/2 = 28. Option A matches; the others do not.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "A school wants to select a class monitor and a deputy from 5 students, where order matters (monitor first, then deputy). How many possible selections are there?",
+      "options": {
+        "A": "20",
+        "B": "10",
+        "C": "5",
+        "D": "30"
+      },
+      "correct_option": "A",
+      "answer": "20",
+      "explanation": "The number of ordered selections of 2 from 5 is P(5,2) = 5\\times4 = 20, which can also be written as 5! / 3!. Option A is correct; the other numbers correspond to unordered or different counts.",
+      "difficulty": "medium"
+    }
+  ]
+}

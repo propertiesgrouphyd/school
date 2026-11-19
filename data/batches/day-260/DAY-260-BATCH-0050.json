@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "What is the definition of n! (factorial) for a positive integer n?",
+      "options": {
+        "A": "The product of all positive integers from 1 up to n",
+        "B": "The sum of all positive integers from 1 up to n",
+        "C": "The product of all even numbers up to n",
+        "D": "n multiplied only by (n‑1)"
+      },
+      "correct_option": "A",
+      "answer": "The product of all positive integers from 1 up to n",
+      "explanation": "By definition, n! = 1 × 2 × 3 × … × n, i.e., the product of consecutive positive integers up to n. Options B, C, and D describe different operations and are therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "According to the definition of factorial, what is the value of 0! ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "Undefined",
+        "D": "Any integer"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "The factorial of zero is defined as 1 because it represents the product of zero numbers, known as the empty product, which by convention equals 1. Hence option B is correct; the other options contradict this convention.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression \\(\\dfrac{5!}{3!}\\).",
+      "options": {
+        "A": "20",
+        "B": "60",
+        "C": "120",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "20",
+      "explanation": "5! = 120 and 3! = 6, so \\(\\dfrac{5!}{3!}=\\dfrac{120}{6}=20\\). Option A gives the correct simplified value. The other options result from incorrect cancellation or arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct books be arranged on a shelf?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "Arranging n distinct items is counted by n! . Here n = 4, so 4! = 4 × 3 × 2 × 1 = 24. Therefore option B is correct. The other numbers correspond to unrelated counts (e.g., combinations or partial permutations).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "What is the value of 6! ?",
+      "options": {
+        "A": "720",
+        "B": "120",
+        "C": "5040",
+        "D": "7200"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "6! = 1 × 2 × 3 × 4 × 5 × 6 = 720. Option A matches this calculation. Options B, C, and D are results of incorrect multiplication or extra zeros.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "How many ways can you select zero objects from a set of five distinct objects?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "5",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Choosing nothing from any set is a single possibility—the empty selection. In combinatorial formulas, \\(\\binom{5}{0}=\\dfrac{5!}{0!\\,5!}=1\\) because 0! = 1. Hence option B is correct; the other options misinterpret the concept.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "What is the value of \\(\\dfrac{4!}{5!}\\)?",
+      "options": {
+        "A": "4",
+        "B": "1/5",
+        "C": "1/20",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "1/5",
+      "explanation": "5! = 5 × 4! , so \\(\\dfrac{4!}{5!}=\\dfrac{4!}{5\\times4!}=\\dfrac{1}{5}\\). Many students mistakenly think the result is 4 or 5 by canceling incorrectly. Option B is the correct simplified value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "In how many ways can gold, silver, and bronze medals be awarded to 5 distinct athletes?",
+      "options": {
+        "A": "10",
+        "B": "60",
+        "C": "120",
+        "D": "20"
+      },
+      "correct_option": "B",
+      "answer": "60",
+      "explanation": "Awarding three distinct positions is a permutation of 5 items taken 3 at a time: \\(P(5,3)=\\dfrac{5!}{(5-3)!}=\\dfrac{120}{2}=60\\). Option B reflects this count. Options A, C, and D correspond to other combinatorial counts (e.g., combinations or full permutations) and are therefore incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}

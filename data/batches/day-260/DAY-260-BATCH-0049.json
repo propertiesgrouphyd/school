@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following best defines n! for a positive integer n?",
+      "options": {
+        "A": "Product of all positive integers from 1 up to n",
+        "B": "Sum of all positive integers from 1 up to n",
+        "C": "Product of all even numbers up to n",
+        "D": "n raised to the power n"
+      },
+      "correct_option": "A",
+      "answer": "Product of all positive integers from 1 up to n",
+      "explanation": "By definition, n! = 1×2×3×…×n, i.e., the product of all positive integers up to n. Option B is a sum, not a product; C restricts to even numbers; D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "What is the value of 0! ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "Undefined"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "By convention, the factorial of zero is defined as 1 because it represents the number of ways to arrange zero objects, which is one way (the empty arrangement). Hence 0! = 1. The other options are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression \\(\\frac{5!}{3!}\\).",
+      "options": {
+        "A": "20",
+        "B": "60",
+        "C": "120",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "20",
+      "explanation": "5! = 5×4×3×2×1 = 120 and 3! = 6. Dividing gives 120/6 = 20. Therefore the simplified value is 20. The other options result from incorrect cancellation or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct books be arranged on a shelf?",
+      "options": {
+        "A": "4",
+        "B": "12",
+        "C": "24",
+        "D": "256"
+      },
+      "correct_option": "C",
+      "answer": "24",
+      "explanation": "Arranging n distinct items corresponds to n! permutations. For 4 books, 4! = 4×3×2×1 = 24. Options A and B are too small, D is far too large.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements is false?\\nA) 1! = 1\\nB) 0! = 1\\nC) 2! = 2×1! = 2\\nD) 1! = 0",
+      "options": {
+        "A": "1! = 1",
+        "B": "0! = 1",
+        "C": "2! = 2×1! = 2",
+        "D": "1! = 0"
+      },
+      "correct_option": "D",
+      "answer": "1! = 0",
+      "explanation": "By definition, 1! = 1×0! = 1×1 = 1, so statement D is false. Statements A, B, and C are correct properties of factorials.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "Why is 0! defined to be 1?",
+      "options": {
+        "A": "Because the product of no numbers (an empty product) is defined as 1",
+        "B": "Because 0 multiplied by any number equals 0",
+        "C": "Because factorial is only defined for positive integers",
+        "D": "Because there are zero ways to arrange zero objects"
+      },
+      "correct_option": "A",
+      "answer": "Because the product of no numbers (an empty product) is defined as 1",
+      "explanation": "In combinatorics, 0! counts the number of ways to arrange zero objects, which is one way (the empty arrangement). This aligns with the mathematical convention that an empty product equals 1. Options B, C, and D misinterpret the concept.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Compare the values of the two expressions: \\(\\frac{7!}{5!}\\) and \\(\\frac{6!}{4!}\\). Which statement is correct?",
+      "options": {
+        "A": "\\(\\frac{7!}{5!}\\) is greater than \\(\\frac{6!}{4!}\\)",
+        "B": "\\(\\frac{7!}{5!}\\) is less than \\(\\frac{6!}{4!}\\)",
+        "C": "Both expressions are equal",
+        "D": "Cannot be determined without a calculator"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{7!}{5!}\\) is greater than \\(\\frac{6!}{4!}\\)",
+      "explanation": "\\(\\frac{7!}{5!}=7\\times6=42\\). \\(\\frac{6!}{4!}=6\\times5=30\\). Hence the first expression is larger. Option B is opposite, C is false, D is unnecessary because the values are easy to compute.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "Five distinct letters, of which exactly two are vowels, are to be arranged in a row. If the first position must be occupied by a vowel, how many such arrangements are possible?",
+      "options": {
+        "A": "24",
+        "B": "48",
+        "C": "60",
+        "D": "120"
+      },
+      "correct_option": "B",
+      "answer": "48",
+      "explanation": "Choose the vowel for the first position in 2 ways. The remaining 4 letters can be arranged in 4! = 24 ways. Total arrangements = 2 × 24 = 48. Options A, C, and D result from omitting the vowel restriction or miscalculating permutations.",
+      "difficulty": "hard"
+    }
+  ]
+}

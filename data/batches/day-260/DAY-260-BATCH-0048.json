@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements correctly defines the factorial of a positive integer n?",
+      "options": {
+        "A": "The product of all positive integers from 1 up to n",
+        "B": "The sum of all positive integers from 1 up to n",
+        "C": "The difference between n and the previous integer",
+        "D": "The quotient of n divided by the number of its factors"
+      },
+      "correct_option": "A",
+      "answer": "The product of all positive integers from 1 up to n",
+      "explanation": "By definition, n! = 1 × 2 × 3 × … × n. It is a product, not a sum, difference, or quotient. Hence option A is correct, while the others describe unrelated operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "A committee of zero members is to be formed from a group of 5 people. In how many ways can this be done?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "5",
+        "D": "120"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Choosing no one from any set is a single way, represented by 0! = 1. Therefore there is exactly one way to form an empty committee. Options A, C, and D are incorrect counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression \\( \\dfrac{5! \\times 3!}{4!} \\).",
+      "options": {
+        "A": "15",
+        "B": "60",
+        "C": "20",
+        "D": "30"
+      },
+      "correct_option": "D",
+      "answer": "30",
+      "explanation": "5! = 120, 3! = 6, so numerator = 720. 4! = 24. 720 ÷ 24 = 30. A common mistake is to cancel incorrectly, but the correct simplification yields 30.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct books be arranged on a single shelf?",
+      "options": {
+        "A": "4",
+        "B": "12",
+        "C": "24",
+        "D": "64"
+      },
+      "correct_option": "C",
+      "answer": "24",
+      "explanation": "Arranging n distinct objects is counted by n! . Here n = 4, so 4! = 4 × 3 × 2 × 1 = 24. The other numbers correspond to unrelated counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which statement correctly distinguishes the factorial function from other arithmetic operations?",
+      "options": {
+        "A": "n! gives the number of ways to arrange n distinct objects",
+        "B": "n! is the sum of the first n natural numbers",
+        "C": "n! is the product of the first n natural numbers",
+        "D": "n! equals n raised to the power n"
+      },
+      "correct_option": "C",
+      "answer": "n! is the product of the first n natural numbers",
+      "explanation": "The factorial of n is defined as the product 1·2·3·…·n, which also counts permutations (statement A is a consequence but not the definition). Statements B and D describe different operations. Hence option C precisely defines factorial.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "If 0! = 1, evaluate \\(0! + 1! + 2!\\).",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "0! = 1, 1! = 1, 2! = 2. Adding them gives 1 + 1 + 2 = 4. Options A, B, and D are incorrect sums.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "What is the value of \\(\\dfrac{4!}{2!}\\)?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "48"
+      },
+      "correct_option": "B",
+      "answer": "12",
+      "explanation": "4! = 24 and 2! = 2, so 24 ÷ 2 = 12. The other options result from incorrect cancellation or arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different 3‑letter words can be formed using the distinct letters A, B, and C?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "Each word is a permutation of the three letters, counted by 3! = 6. Options A, C, and D either undercount or overcount the possibilities.",
+      "difficulty": "easy"
+    }
+  ]
+}

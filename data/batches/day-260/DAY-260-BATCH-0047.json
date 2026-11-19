@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "A student writes: \"The factorial of a number n is the sum of all positive integers up to n.\" Which of the following statements correctly identifies the misconception and gives the proper definition?",
+      "options": {
+        "A": "The statement is correct; n! is the sum 1+2+…+n.",
+        "B": "The statement is a misconception; n! is the product 1×2×…×n.",
+        "C": "The statement is a misconception; n! is the difference 1‑2‑…‑n.",
+        "D": "The statement is correct only for n = 1."
+      },
+      "correct_option": "B",
+      "answer": "The statement is a misconception; n! is the product 1×2×…×n.",
+      "explanation": "Factorial of a non‑negative integer n, denoted n!, is defined as the product of all positive integers from 1 up to n (i.e., n! = 1×2×…×n). It is not a sum. Option B correctly points out the misconception and provides the right definition. Options A, C, and D are incorrect because they either treat factorial as a sum, a difference, or claim the statement is correct only for n=1.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "If 5! = 120, which of the following reasoning correctly explains why 0! must be defined as 1?",
+      "options": {
+        "A": "Because 0 multiplied by any number equals 1.",
+        "B": "Because the recursive definition n! = n × (n‑1)! applied to n = 1 gives 1! = 1 × 0!, so 0! must be 1 to keep 1! = 1.",
+        "C": "Because 0! is the sum of zero numbers, which is 0.",
+        "D": "Because factorials are only defined for positive integers, so 0! is arbitrarily set to 1."
+      },
+      "correct_option": "B",
+      "answer": "Because the recursive definition n! = n × (n‑1)! applied to n = 1 gives 1! = 1 × 0!, so 0! must be 1 to keep 1! = 1.",
+      "explanation": "Using the recurrence n! = n × (n‑1)!, set n = 1: 1! = 1 × 0!. Since 1! = 1, the only value that satisfies the equation is 0! = 1. Option B captures this reasoning. Option A is false because any number multiplied by 0 is 0, not 1. Option C confuses product with sum. Option D is incorrect; the definition is not arbitrary but follows from the recurrence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Which of the following expressions is equivalent to \\(\\frac{(n+2)!}{n!}\\)?",
+      "options": {
+        "A": "(n+2)(n+1)",
+        "B": "(n+2)(n+1)n",
+        "C": "(n+2)! + n!",
+        "D": "(n+2)!"
+      },
+      "correct_option": "A",
+      "answer": "(n+2)(n+1)",
+      "explanation": "Expand (n+2)! as (n+2)(n+1)n!. Dividing by n! cancels the n! term, leaving (n+2)(n+1). Option A is correct. Option B still contains an extra factor n, Option C adds factorials instead of dividing, and Option D is the original numerator without simplification.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "A password consists of 4 distinct letters chosen from the 26‑letter English alphabet, where the order of letters matters. How many such passwords are possible?",
+      "options": {
+        "A": "26^4",
+        "B": "26P4",
+        "C": "26C4",
+        "D": "4!"
+      },
+      "correct_option": "B",
+      "answer": "26P4",
+      "explanation": "When order matters and repetitions are not allowed, the number of arrangements is a permutation: 26P4 = 26×25×24×23 = 358,800. Option B correctly represents this count. Option A counts repetitions, Option C ignores order, and Option D counts permutations of 4 items without considering the 26 choices.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "What is the definition of n! for a positive integer n?",
+      "options": {
+        "A": "The sum of all integers from 1 to n.",
+        "B": "The product of all positive integers from 1 to n.",
+        "C": "The difference between n and (n‑1).",
+        "D": "The quotient of n divided by (n‑1)."
+      },
+      "correct_option": "B",
+      "answer": "The product of all positive integers from 1 to n.",
+      "explanation": "By definition, n! = 1 × 2 × 3 × … × n. It is a product, not a sum, difference, or quotient. Hence option B is correct; the others describe unrelated operations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "Why is the value of 0! defined as 1?",
+      "options": {
+        "A": "Because multiplying zero numbers together gives 1 by convention.",
+        "B": "Because the empty product, which has no factors, is defined to be 1.",
+        "C": "Because 0! is the sum of zero terms, which equals 1.",
+        "D": "Because factorials must always be positive, so the smallest value is 1."
+      },
+      "correct_option": "B",
+      "answer": "Because the empty product, which has no factors, is defined to be 1.",
+      "explanation": "In mathematics, the product of no numbers (an empty product) is defined as 1, ensuring consistency with the recurrence n! = n × (n‑1)!. Option B states this correctly. Option A misstates multiplication by zero; Option C confuses sum with product; Option D is not a formal reason.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Which of the following statements correctly distinguishes between (n+1)! and n! + 1?",
+      "options": {
+        "A": "(n+1)! equals n! + 1 for all n.",
+        "B": "(n+1)! equals (n+1) × n!, while n! + 1 adds 1 after the product.",
+        "C": "(n+1)! is always one more than n!.",
+        "D": "(n+1)! and n! + 1 are identical expressions."
+      },
+      "correct_option": "B",
+      "answer": "(n+1)! equals (n+1) × n!, while n! + 1 adds 1 after the product.",
+      "explanation": "By definition, (n+1)! = (n+1) × n!. The expression n! + 1 simply adds 1 to the value of n!. They are generally not equal (except for n=1 where both equal 2). Option B accurately describes the distinction. Options A, C, and D incorrectly claim equality.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "In how many ways can the letters of the word \"MATH\" be arranged?",
+      "options": {
+        "A": "4!",
+        "B": "4P4",
+        "C": "Both A and B",
+        "D": "4C4"
+      },
+      "correct_option": "C",
+      "answer": "Both A and B",
+      "explanation": "The word \"MATH\" has 4 distinct letters. The number of arrangements is 4! = 24. Since 4P4 also equals 4! (permutations of 4 items taken all 4 at a time), both A and B give the correct count. Option C correctly states this. Option D (4C4) equals 1, which counts only the selection, not the ordering.",
+      "difficulty": "easy"
+    }
+  ]
+}
