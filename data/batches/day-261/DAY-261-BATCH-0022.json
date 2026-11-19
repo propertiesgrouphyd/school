@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "Using Pascal's triangle, what is the coefficient of \\(x^{3}y^{2}\\) in the expansion of \\((x + y)^{5}\\)?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "20",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "The coefficient of \\(x^{3}y^{2}\\) is the binomial coefficient \\(\\binom{5}{3}\\). From Pascal's triangle, the 5th row (starting with row 0) is 1 5 10 10 5 1, so \\(\\binom{5}{3}=10\\). Hence option B is correct. The other options correspond to different binomial coefficients: \\(\\binom{5}{1}=5\\), \\(\\binom{5}{2}=10\\) (same as B but for a different term), \\(\\binom{5}{4}=5\\), etc.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "A student wants to find the term independent of \\(x\\) in the expansion of \\((1 + 2x)^{4}\\). Which term is it?",
+      "options": {
+        "A": "1",
+        "B": "8x",
+        "C": "16x^{2}",
+        "D": "32x^{3}"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "The independent (constant) term occurs when the power of \\(x\\) is zero, i.e., when \\(k = 0\\) in \\(\\binom{4}{k}(1)^{4-k}(2x)^{k}\\). This gives \\(\\binom{4}{0} \\cdot 1^{4} \\cdot (2x)^{0}=1\\). Hence option A is correct. All other options contain \\(x\\) and are therefore not constant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "Which of the following is the correct expansion of \\((a + b)^{2}\\)?",
+      "options": {
+        "A": "a^{2} + b^{2}",
+        "B": "a^{2} + 2ab + b^{2}",
+        "C": "a^{2} - 2ab + b^{2}",
+        "D": "a^{2} + ab + b^{2}"
+      },
+      "correct_option": "B",
+      "answer": "a^{2} + 2ab + b^{2}",
+      "explanation": "By the binomial theorem, \\((a+b)^{2}=\\binom{2}{0}a^{2}b^{0}+\\binom{2}{1}a^{1}b^{1}+\\binom{2}{2}a^{0}b^{2}=a^{2}+2ab+b^{2}\\). Option B matches this result. Option A omits the middle term, a common mistake. Option C has the wrong sign, and option D uses an incorrect coefficient for the middle term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of \\((x + y)^{n}\\), the \\((k+1)^{\\text{th}}\\) term is given by which expression?",
+      "options": {
+        "A": "\\binom{n}{k} x^{k} y^{n-k}",
+        "B": "\\binom{n}{k} x^{n-k} y^{k}",
+        "C": "\\binom{n}{k+1} x^{k+1} y^{n-k-1}",
+        "D": "\\binom{n}{k} x^{n-k} y^{k}"
+      },
+      "correct_option": "D",
+      "answer": "\\binom{n}{k} x^{n-k} y^{k}",
+      "explanation": "The general term in the binomial expansion is \\(T_{k+1}=\\binom{n}{k} x^{n-k} y^{k}\\) where \\(k\\) starts from 0. Option D states exactly this. Option A swaps the exponents, Option B repeats the same as A, and Option C uses \\(k+1\\) in the coefficient, which is not the standard form for the \\((k+1)^{\\text{th}}\\) term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Which statement correctly compares the coefficients of \\(x^{3}\\) in the expansions of \\((1 + x)^{5}\\) and \\((1 + x)^{6}\\)?",
+      "options": {
+        "A": "The coefficient in \\((1 + x)^{5}\\) is larger.",
+        "B": "The coefficient in \\((1 + x)^{6}\\) is larger.",
+        "C": "Both coefficients are equal.",
+        "D": "The coefficient in \\((1 + x)^{5}\\) is zero."
+      },
+      "correct_option": "B",
+      "answer": "The coefficient in \\((1 + x)^{6}\\) is larger.",
+      "explanation": "The coefficient of \\(x^{3}\\) in \\((1+x)^{n}\\) is \\(\\binom{n}{3}\\). For \\(n=5\\), \\(\\binom{5}{3}=10\\). For \\(n=6\\), \\(\\binom{6}{3}=20\\). Hence the coefficient in the sixth power is larger, making option B correct. Options A and C are false because 20 > 10, and option D is false because the coefficient is not zero.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "What is the sum of the numbers in the 7th row (starting with row 0) of Pascal's triangle?",
+      "options": {
+        "A": "64",
+        "B": "128",
+        "C": "256",
+        "D": "512"
+      },
+      "correct_option": "B",
+      "answer": "128",
+      "explanation": "The sum of the entries in the \\(n^{\\text{th}}\\) row of Pascal's triangle equals \\(2^{n}\\). For the 7th row, the sum is \\(2^{7}=128\\). Therefore option B is correct. The other options correspond to \\(2^{6}, 2^{8}, 2^{9}\\) respectively, which are not the sum of the 7th row.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "The binomial theorem provides a formula for expanding \\((a + b)^{n}\\) where \\(n\\) is a...",
+      "options": {
+        "A": "positive integer",
+        "B": "negative integer",
+        "C": "fraction",
+        "D": "any real number"
+      },
+      "correct_option": "A",
+      "answer": "positive integer",
+      "explanation": "In the 11th‑grade syllabus, the binomial theorem is introduced for positive integral indices, i.e., \\(n\\) is a positive integer. Hence option A is correct. For negative or fractional exponents, a generalized binomial series exists, but that is beyond the current curriculum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "What is the correct expansion of \\((x + y)^{3}\\)?",
+      "options": {
+        "A": "x^{3} + y^{3}",
+        "B": "x^{3} + 3x^{2}y + 3xy^{2} + y^{3}",
+        "C": "x^{3} + 2x^{2}y + 2xy^{2} + y^{3}",
+        "D": "x^{3} + 3xy + y^{3}"
+      },
+      "correct_option": "B",
+      "answer": "x^{3} + 3x^{2}y + 3xy^{2} + y^{3}",
+      "explanation": "Applying the binomial theorem: \\((x+y)^{3}=\\binom{3}{0}x^{3}+\\binom{3}{1}x^{2}y+\\binom{3}{2}xy^{2}+\\binom{3}{3}y^{3}=x^{3}+3x^{2}y+3xy^{2}+y^{3}\\). Option B matches this expansion. Options A, C, and D miss one or more terms or have incorrect coefficients.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the binomial expansion of (a + b)^n, which of the following correctly represents the general term T_{r+1}?",
+      "options": {
+        "A": "T_{r+1} = C(n, r) a^{n-r} b^{r}",
+        "B": "T_{r+1} = C(n, r) a^{r} b^{n-r}",
+        "C": "T_{r+1} = a^{n-r} b^{r}",
+        "D": "T_{r+1} = C(n, r) a^{n} b^{r}"
+      },
+      "correct_option": "A",
+      "answer": "T_{r+1} = C(n, r) a^{n-r} b^{r}",
+      "explanation": "The (r+1)th term in the expansion of (a+b)^n is given by the binomial coefficient C(n, r) multiplied by a raised to the power (n‑r) and b raised to the power r. Option A matches this definition; the other options either swap the exponents or omit the coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "What is the coefficient of x^3 in the expansion of (2x + 3)^5?",
+      "options": {
+        "A": "720",
+        "B": "540",
+        "C": "360",
+        "D": "180"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "The term containing x^3 arises when (2x)^3 is chosen and 3^2 from the remaining factors. Its coefficient is C(5,3)·(2)^3·(3)^2 = 10·8·9 = 720. The other numbers result from incorrect arithmetic or choosing the wrong powers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "Which row of Pascal's triangle provides the coefficients for the expansion of (x + y)^4?",
+      "options": {
+        "A": "Row 3: 1 3 3 1",
+        "B": "Row 4: 1 4 6 4 1",
+        "C": "Row 5: 1 5 10 10 5 1",
+        "D": "Row 2: 1 2 1"
+      },
+      "correct_option": "B",
+      "answer": "Row 4: 1 4 6 4 1",
+      "explanation": "For (x + y)^n, the coefficients are given by the (n)th row of Pascal's triangle when counting the topmost 1 as row 0. Hence for n = 4, the coefficients are 1, 4, 6, 4, 1, which is row 4. The other rows correspond to different powers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand binomial theorem",
+      "question": "According to the binomial theorem, how many distinct terms appear in the expansion of (a + b)^9?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "18",
+        "D": "19"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "The expansion of (a + b)^n contains n + 1 distinct terms, one for each value of r from 0 to n. For n = 9, the number of terms is 9 + 1 = 10. Options A, C, and D are based on incorrect formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Write expansions for small powers",
+      "question": "Which of the following is NOT the correct expansion of (x + 2)^3?",
+      "options": {
+        "A": "x^3 + 6x^2 + 12x + 8",
+        "B": "x^3 + 6x^2 + 8x + 8",
+        "C": "x^3 + 6x^2 + 12x + 8",
+        "D": "x^3 + 6x^2 + 12x + 8"
+      },
+      "correct_option": "B",
+      "answer": "x^3 + 6x^2 + 8x + 8",
+      "explanation": "The correct expansion, obtained using the binomial coefficients (1, 3, 3, 1), is x^3 + 6x^2 + 12x + 8. Option B mistakenly uses 8x instead of 12x, a common error where the middle coefficient is miscalculated. Options A, C, and D are identical and correct, highlighting the specific mistake in B.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Identify general terms",
+      "question": "In the expansion of (p + q)^7, what is the coefficient of the term containing p^4 q^3?",
+      "options": {
+        "A": "35",
+        "B": "21",
+        "C": "7",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "The term p^{4}q^{3} corresponds to r = 3 (or n‑r = 4). Its coefficient is the binomial coefficient C(7,3) = 7!/(3!4!) = 35. The other numbers are coefficients of different terms in the same expansion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Use binomial coefficients",
+      "question": "Which statement correctly compares the coefficients of x^2 in the expansions of (1 + x)^5 and (1 + x)^6?",
+      "options": {
+        "A": "The coefficient of x^2 in (1 + x)^6 is greater than that in (1 + x)^5.",
+        "B": "Both coefficients are equal.",
+        "C": "The coefficient of x^2 in (1 + x)^5 is greater than that in (1 + x)^6.",
+        "D": "The coefficients cannot be compared without knowing the value of x."
+      },
+      "correct_option": "A",
+      "answer": "The coefficient of x^2 in (1 + x)^6 is greater than that in (1 + x)^5.",
+      "explanation": "For (1 + x)^n, the coefficient of x^2 is C(n,2). C(5,2)=10 and C(6,2)=15, so the coefficient in the sixth‑power expansion is larger. Equality (B) and the reverse inequality (C) are false, and (D) is irrelevant because coefficients are independent of x.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01107",
+      "learning_point": "Understand Pascal's triangle",
+      "question": "The sum of the elements in the 8th row of Pascal's triangle (starting with row 0) is:",
+      "options": {
+        "A": "128",
+        "B": "256",
+        "C": "512",
+        "D": "1024"
+      },
+      "correct_option": "B",
+      "answer": "256",
+      "explanation": "The sum of the entries in the nth row of Pascal's triangle equals 2^n. For n = 8, the sum is 2^8 = 256. Options A, C, and D correspond to 2^7, 2^9, and 2^{10} respectively, which are incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}
