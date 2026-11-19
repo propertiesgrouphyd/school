@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Add complex numbers",
+      "question": "Which of the following correctly describes how to add two complex numbers (a+bi) and (c+di)?",
+      "options": {
+        "A": "(a+c)+(b+d)i",
+        "B": "(ac-bd)+(ad+bc)i",
+        "C": "(a-c)+(b-d)i",
+        "D": "(ac+bd)+(ad-bc)i"
+      },
+      "correct_option": "A",
+      "answer": "(a+c)+(b+d)i",
+      "explanation": "To add complex numbers, add their real parts and their imaginary parts separately: (a+bi)+(c+di) = (a+c)+(b+d)i. Options B and D are formulas for multiplication, and C represents subtraction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Subtract complex numbers",
+      "question": "If z₁ = 5 − 3i and z₂ = 2 + 4i, what is z₁ − z₂?",
+      "options": {
+        "A": "3 − 7i",
+        "B": "7 − i",
+        "C": "3 + i",
+        "D": "−3 + 7i"
+      },
+      "correct_option": "A",
+      "answer": "3 − 7i",
+      "explanation": "Subtract real parts: 5 − 2 = 3. Subtract imaginary parts: (−3) − 4 = −7. Hence z₁ − z₂ = 3 − 7i. The other options result from incorrect sign handling.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Multiply complex numbers",
+      "question": "Find the product of (3 + 2i) and (1 − 4i).",
+      "options": {
+        "A": "−5 − 10i",
+        "B": "−5 + 10i",
+        "C": "5 − 10i",
+        "D": "5 + 10i"
+      },
+      "correct_option": "A",
+      "answer": "−5 − 10i",
+      "explanation": "Using (a+bi)(c+di) = (ac−bd)+(ad+bc)i: (3·1−2·4) = 3−8 = −5 for the real part, and (3·(−4)+2·1) = −12+2 = −10 for the imaginary part. Thus the product is −5 − 10i.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Divide complex numbers",
+      "question": "A circuit analysis requires dividing (2 + i) by (1 − i). What is the result?",
+      "options": {
+        "A": "0.5 + 1.5i",
+        "B": "1.5 + 0.5i",
+        "C": "−0.5 + 1.5i",
+        "D": "0.5 − 1.5i"
+      },
+      "correct_option": "A",
+      "answer": "0.5 + 1.5i",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: (2+i)(1+i) / [(1−i)(1+i)] = (2+3i−1)/2 = (1+3i)/2 = 0.5 + 1.5i. The other options arise from incorrect conjugate use or sign errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Simplify powers of i",
+      "question": "What is the value of i^{23}?",
+      "options": {
+        "A": "−i",
+        "B": "i",
+        "C": "−1",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "−i",
+      "explanation": "Since i⁴ = 1, divide the exponent by 4: 23 = 4·5 + 3, so i^{23} = (i⁴)⁵·i³ = 1⁵·i³ = i³ = −i. Options B, C, D correspond to other remainders.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Use conjugates in division",
+      "question": "Why is the conjugate of the denominator used when dividing complex numbers?",
+      "options": {
+        "A": "To eliminate the imaginary part in the denominator, producing a real denominator",
+        "B": "To change the sign of the numerator’s imaginary part",
+        "C": "To increase the magnitude of the quotient",
+        "D": "To convert the expression directly into polar form"
+      },
+      "correct_option": "A",
+      "answer": "To eliminate the imaginary part in the denominator, producing a real denominator",
+      "explanation": "Multiplying numerator and denominator by the conjugate (a−bi) of (a+bi) yields (a²+b²) in the denominator, which is a real number. This simplifies the division. The other statements describe unrelated effects.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Add complex numbers",
+      "question": "Which statement correctly compares adding complex numbers in rectangular form versus polar form?",
+      "options": {
+        "A": "In rectangular form, add real parts and imaginary parts directly; in polar form, conversion to rectangular is required before addition.",
+        "B": "In polar form, add magnitudes and angles directly to obtain the sum.",
+        "C": "Rectangular addition requires using conjugates of the numbers.",
+        "D": "Polar addition yields the same result without any conversion."
+      },
+      "correct_option": "A",
+      "answer": "In rectangular form, add real parts and imaginary parts directly; in polar form, conversion to rectangular is required before addition.",
+      "explanation": "Complex addition is straightforward in rectangular coordinates: (a+bi)+(c+di) = (a+c)+(b+d)i. In polar coordinates, addition is not performed by simply adding magnitudes and angles; the numbers must first be converted to rectangular form, added, and optionally converted back. Options B, C, D are incorrect statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Subtract complex numbers",
+      "question": "If z₁ = 4 − 3i and z₂ = 2 + 5i, what is the modulus of (z₁ − z₂)?",
+      "options": {
+        "A": "2√17",
+        "B": "√68",
+        "C": "8",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "2√17",
+      "explanation": "First find the difference: (4−2) + (−3−5)i = 2 − 8i. Modulus = √(2² + (−8)²) = √(4+64) = √68 = 2√17. Option B is the unsimplified form, while C and D are incorrect values.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Simplify powers of i",
+      "question": "What is the value of \\(i^{23}\\)?",
+      "options": {
+        "A": "i",
+        "B": "-i",
+        "C": "1",
+        "D": "-1"
+      },
+      "correct_option": "B",
+      "answer": "-i",
+      "explanation": "Since \\(i^4=1\\), powers of \\(i\\) repeat every 4. \\(23\\) divided by 4 leaves a remainder of 3, so \\(i^{23}=i^{4\\times5+3}= (i^4)^5\\cdot i^3 = 1^5\\cdot (-i) = -i\\). Options A, C and D give incorrect remainders.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Use conjugates in division",
+      "question": "When dividing \\((3+2i)\\) by \\((1-i)\\), which step is essential to obtain a simplified a+bi form?",
+      "options": {
+        "A": "Multiply numerator and denominator by \\(1+i\\)",
+        "B": "Multiply numerator and denominator by \\(1-i\\)",
+        "C": "Add numerator and denominator directly",
+        "D": "Multiply the numerator by \\(i\\)"
+      },
+      "correct_option": "A",
+      "answer": "Multiply numerator and denominator by \\(1+i\\)",
+      "explanation": "The denominator \\(1-i\\) has conjugate \\(1+i\\). Multiplying both numerator and denominator by the conjugate gives \\((3+2i)(1+i)/(1-i)(1+i) = (3+2i)(1+i)/2\\), which removes the imaginary part from the denominator. Options B, C, D do not achieve a real denominator.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Add complex numbers",
+      "question": "What is the sum of \\((4-3i)\\) and \\((-2+5i)\\)?",
+      "options": {
+        "A": "2+2i",
+        "B": "6-8i",
+        "C": "2-8i",
+        "D": "6+2i"
+      },
+      "correct_option": "A",
+      "answer": "2+2i",
+      "explanation": "Add real parts: 4+(-2)=2. Add imaginary parts: -3i+5i=2i. Hence the sum is \\(2+2i\\). The other options result from incorrect pairing of parts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Subtract complex numbers",
+      "question": "Find \\((7+4i) - (2-3i)\\).",
+      "options": {
+        "A": "5+7i",
+        "B": "9+1i",
+        "C": "5+1i",
+        "D": "9+7i"
+      },
+      "correct_option": "A",
+      "answer": "5+7i",
+      "explanation": "Subtract real parts: 7-2=5. Subtract imaginary parts: 4i-(-3i)=4i+3i=7i. Thus the result is \\(5+7i\\). The other choices arise from sign errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Multiply complex numbers",
+      "question": "What is the product of \\((2+i)\\) and \\((3-4i)\\)?",
+      "options": {
+        "A": "10-5i",
+        "B": "10+5i",
+        "C": "-2-11i",
+        "D": "-2+11i"
+      },
+      "correct_option": "A",
+      "answer": "10-5i",
+      "explanation": "Multiply using distributive law: \\((2+i)(3-4i)=6-8i+3i-4i^2 =6-5i+4 =10-5i\\). Options B, C, D result from sign mistakes or forgetting \\(i^2=-1\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Divide complex numbers",
+      "question": "A circuit has impedances \\(Z_1 = 5+6i\\) Ω and \\(Z_2 = 1+i\\) Ω. What is \\(Z_1 / Z_2\\) expressed in a+bi form?",
+      "options": {
+        "A": "5.5+0.5i",
+        "B": "5+i",
+        "C": "6+i",
+        "D": "4.5+1.5i"
+      },
+      "correct_option": "A",
+      "answer": "5.5+0.5i",
+      "explanation": "\\(\\frac{5+6i}{1+i}=\\frac{(5+6i)(1-i)}{(1+i)(1-i)}=\\frac{5-5i+6i-6i^2}{2}=\\frac{5+i+6}{2}=\\frac{11+i}{2}=5.5+0.5i\\). Options B, C, D come from arithmetic errors or not using the conjugate.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Simplify powers of i",
+      "question": "Which statement about \\(i^0\\) is correct?",
+      "options": {
+        "A": "\\(i^0 = i\\)",
+        "B": "\\(i^0 = 0\\)",
+        "C": "\\(i^0 = 1\\)",
+        "D": "\\(i^0 = -1\\)"
+      },
+      "correct_option": "C",
+      "answer": "\\(i^0 = 1\\)",
+      "explanation": "Any non‑zero number raised to the power 0 equals 1, including the imaginary unit \\(i\\). Hence \\(i^0 = 1\\). Options A, B, D are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Use conjugates in division",
+      "question": "Why does multiplying the numerator and denominator by the conjugate of the denominator remove the imaginary part from the denominator?",
+      "options": {
+        "A": "Because \\((a+bi)(a-bi)=a^2+b^2\\), which is always real",
+        "B": "Because \\(i^2 = -1\\)",
+        "C": "Because the conjugate adds the imaginary parts together",
+        "D": "Because it doubles the denominator"
+      },
+      "correct_option": "A",
+      "answer": "Because \\((a+bi)(a-bi)=a^2+b^2\\), which is always real",
+      "explanation": "The product of a complex number and its conjugate yields \\(a^2+b^2\\), a real number, thus eliminating the imaginary component in the denominator. Option B is a true fact but does not explain the removal; C and D are incorrect statements.",
+      "difficulty": "medium"
+    }
+  ]
+}

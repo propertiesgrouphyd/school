@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Multiply complex numbers",
+      "question": "When multiplying (2 + i)(3 - i), a student expands to 6 + 2i - 3i - i^2 and then simplifies to 7 - i. Which step contains the misconception?",
+      "options": {
+        "A": "Incorrect sign while expanding the product of i and -i",
+        "B": "Misinterpreted i^2 as +1",
+        "C": "Added the real parts incorrectly",
+        "D": "Subtracted the imaginary parts incorrectly"
+      },
+      "correct_option": "B",
+      "answer": "Misinterpreted i^2 as +1",
+      "explanation": "The term i^2 equals -1, not +1. The correct simplification is 6 + 2i - 3i - (-1) = 6 - i + 1 = 7 - i. The student's error was treating i^2 as +1, leading to a wrong real part. All other steps are valid.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Divide complex numbers",
+      "question": "Find the quotient (5 + 2i) ÷ (1 - i) expressed in the form a + bi.",
+      "options": {
+        "A": "3 + 5i",
+        "B": "2 + 4i",
+        "C": "1.5 + 3.5i",
+        "D": "0.5 + 2.5i"
+      },
+      "correct_option": "C",
+      "answer": "1.5 + 3.5i",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: (5+2i)(1+i)/(1-i)(1+i) = (5+5i+2i+2i^2)/2 = (5+7i-2)/2 = (3+7i)/2 = 1.5 + 3.5i. The other options arise from arithmetic mistakes such as forgetting to divide by 2 or mis‑computing i^2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Simplify powers of i",
+      "question": "Which of the following statements about powers of i is true?",
+      "options": {
+        "A": "i^2021 = i and i^2022 = -1",
+        "B": "i^2021 = -i and i^2022 = 1",
+        "C": "i^2021 = -1 and i^2022 = i",
+        "D": "i^2021 = 1 and i^2022 = -i"
+      },
+      "correct_option": "A",
+      "answer": "i^2021 = i and i^2022 = -1",
+      "explanation": "Powers of i repeat every 4: i^1 = i, i^2 = -1, i^3 = -i, i^4 = 1. 2021 ÷ 4 leaves remainder 1, so i^2021 = i. 2022 leaves remainder 2, so i^2022 = -1. Only option A reflects this cycle correctly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Use conjugates in division",
+      "question": "Evaluate (7 - 3i) ÷ (2 + i) and write the answer in a + bi form.",
+      "options": {
+        "A": "2.2 + 2.6i",
+        "B": "2.2 - 2.6i",
+        "C": "-2.2 + 2.6i",
+        "D": "-2.2 - 2.6i"
+      },
+      "correct_option": "B",
+      "answer": "2.2 - 2.6i",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: (7-3i)(2-i)/(2+i)(2-i) = (11-13i)/5 = 11/5 - 13/5 i = 2.2 - 2.6i. Options A, C, D arise from sign errors or forgetting to use the conjugate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Add complex numbers",
+      "question": "What is (4 - 3i) + (2 + 5i)?",
+      "options": {
+        "A": "6 + 2i",
+        "B": "2 + 8i",
+        "C": "6 - 2i",
+        "D": "2 - 8i"
+      },
+      "correct_option": "A",
+      "answer": "6 + 2i",
+      "explanation": "Add real parts: 4 + 2 = 6. Add imaginary parts: -3i + 5i = 2i. Hence the sum is 6 + 2i. The other options mix up signs or fail to add correctly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Subtract complex numbers",
+      "question": "Compute (7 + 2i) - (5 - 4i).",
+      "options": {
+        "A": "12 - 2i",
+        "B": "2 - 6i",
+        "C": "12 + 6i",
+        "D": "2 + 6i"
+      },
+      "correct_option": "D",
+      "answer": "2 + 6i",
+      "explanation": "Subtract real parts: 7 - 5 = 2. Subtract imaginary parts: 2i - (-4i) = 2i + 4i = 6i. Result is 2 + 6i. Options A and C are unrelated, and B has the wrong sign for the imaginary part.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Multiply complex numbers",
+      "question": "The product of (a + bi) and (c + di) can be written as:",
+      "options": {
+        "A": "(ac - bd) + (ad + bc)i",
+        "B": "(ac + bd) + (ad - bc)i",
+        "C": "(ac - bd) - (ad + bc)i",
+        "D": "(ac + bd) - (ad - bc)i"
+      },
+      "correct_option": "A",
+      "answer": "(ac - bd) + (ad + bc)i",
+      "explanation": "Multiplying (a + bi)(c + di) gives ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i because i^2 = -1. Option A reflects this formula; the others change signs incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Divide complex numbers",
+      "question": "If Z₁ = 4 + 3i Ω and Z₂ = 1 - i Ω, find the ratio Z₁ ÷ Z₂ expressed as a + bi.",
+      "options": {
+        "A": "0.5 + 3.5i",
+        "B": "3.5 + 0.5i",
+        "C": "-0.5 + 3.5i",
+        "D": "0.5 - 3.5i"
+      },
+      "correct_option": "A",
+      "answer": "0.5 + 3.5i",
+      "explanation": "Divide by multiplying numerator and denominator by the conjugate of Z₂: (4+3i)(1+i)/(1-i)(1+i) = (1+7i)/2 = 0.5 + 3.5i. Options B, C, D arise from swapping real and imaginary parts or sign errors.",
+      "difficulty": "easy"
+    }
+  ]
+}
