@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0059",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Which of the following statements about arranging 6 distinct persons in a line is correct?",
+      "options": {
+        "A": "The number of arrangements where persons A and B sit together is greater than the number where they do not sit together.",
+        "B": "The number of arrangements where persons A and B sit together is less than the number where they do not sit together.",
+        "C": "Both numbers are equal.",
+        "D": "It depends on the total number of persons."
+      },
+      "correct_option": "B",
+      "answer": "The number of arrangements where persons A and B sit together is less than the number where they do not sit together.",
+      "explanation": "Total arrangements of 6 persons = 6! = 720. Treat A and B as a block for \"together\" cases: 5! × 2 = 240. Arrangements where they are not together = 720 – 240 = 480, which is larger. Hence statement B is true, while A, C and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Eight people are to be seated around a circular table. Two particular persons must not sit next to each other. In how many distinct seatings can this be done?",
+      "options": {
+        "A": "3600",
+        "B": "5040",
+        "C": "1440",
+        "D": "720"
+      },
+      "correct_option": "A",
+      "answer": "3600",
+      "explanation": "Circular arrangements of 8 people = (8‑1)! = 5040. If the two particular persons sit together, treat them as a block: (7‑1)! × 2 = 6! × 2 = 1440. Subtracting gives arrangements where they are not together: 5040 – 1440 = 3600. Options B, C, D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "Which statement correctly defines a permutation?",
+      "options": {
+        "A": "An arrangement of n distinct objects taken r at a time where order matters.",
+        "B": "A selection of n objects where order does not matter.",
+        "C": "The number of ways to divide n objects into equal groups.",
+        "D": "A combination of n objects taken r at a time."
+      },
+      "correct_option": "A",
+      "answer": "An arrangement of n distinct objects taken r at a time where order matters.",
+      "explanation": "A permutation counts ordered arrangements; the order of selected objects is important. Option B describes a combination, C is unrelated, and D repeats the combination definition, so only A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which formula correctly represents the number of permutations of n objects taken r at a time (nPr)?",
+      "options": {
+        "A": "n!/(n‑r)!",
+        "B": "n!/[r!(n‑r)!]",
+        "C": "r!/(n‑r)!",
+        "D": "(n‑r)!"
+      },
+      "correct_option": "A",
+      "answer": "n!/(n‑r)!",
+      "explanation": "nPr counts ordered selections of r objects from n, derived by multiplying the first r factors of n!; this simplifies to n!/(n‑r)!. Option B is the combination formula nCr, while C and D are unrelated expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "What is the value of 5P3 (the number of permutations of 5 distinct objects taken 3 at a time)?",
+      "options": {
+        "A": "60",
+        "B": "120",
+        "C": "20",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "60",
+      "explanation": "5P3 = 5 × 4 × 3 = 60. Option B (120) would be 5!; C (20) is 5C2; D (10) is 5C2. Hence only A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "In how many ways can 4 boys and 3 girls be arranged in a single line such that no two girls stand together?",
+      "options": {
+        "A": "1440",
+        "B": "720",
+        "C": "5040",
+        "D": "360"
+      },
+      "correct_option": "A",
+      "answer": "1440",
+      "explanation": "Arrange the 4 boys first: 4! = 24 ways. This creates 5 gaps (including ends). Choose 3 of these gaps for the girls: C(5,3) = 10. Arrange the 3 girls within the chosen gaps: 3! = 6. Total = 24 × 10 × 6 = 1440. The other options result from incorrect counting of gaps or permutations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Seven friends are to sit around a round table. Two particular friends must sit opposite each other. How many distinct seatings satisfy this condition?",
+      "options": {
+        "A": "120",
+        "B": "720",
+        "C": "360",
+        "D": "60"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "Fix one of the two particular friends to break circular symmetry. Their opposite seat is then fixed. The remaining 5 friends can be arranged in 5! = 120 ways. Hence option A is correct. Options B, C, D arise from ignoring the opposite‑seat restriction or the circular equivalence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A password consists of 4 distinct letters chosen from the alphabet and arranged in a specific order. Which statement correctly defines the counting principle used for such passwords?",
+      "options": {
+        "A": "Permutation: arrangement of selected items where order matters.",
+        "B": "Combination: selection where order does not matter.",
+        "C": "Factorial: product of all positive integers up to n.",
+        "D": "Permutation with repetition: arrangement allowing repeated items."
+      },
+      "correct_option": "A",
+      "answer": "Permutation: arrangement of selected items where order matters.",
+      "explanation": "The password problem counts ordered selections of 4 distinct letters, which is a permutation. Option B describes combinations (order ignored). Option C defines factorial but does not specify selection. Option D allows repeats, which is not allowed here. Therefore A is the correct definition.",
+      "difficulty": "medium"
+    }
+  ]
+}

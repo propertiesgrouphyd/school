@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0060",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which of the following expressions correctly gives the number of ways to arrange r distinct objects out of n distinct objects?",
+      "options": {
+        "A": "nCr = n!/[r!(n‑r)!]",
+        "B": "nPr = n!/(n‑r)!",
+        "C": "nPr = n!/[r!(n‑r)!]",
+        "D": "nPr = r!/(n‑r)!"
+      },
+      "correct_option": "B",
+      "answer": "nPr = n!/(n‑r)!",
+      "explanation": "The formula for permutations of r objects chosen from n distinct objects is nPr = n!/(n‑r)!. A common mistake is to use the combination formula nCr, which ignores order. Option B is the correct permutation formula; the other options either give the combination formula or an incorrect expression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "In how many different ways can 5 distinct books be arranged on a single shelf?",
+      "options": {
+        "A": "120",
+        "B": "60",
+        "C": "24",
+        "D": "720"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "Arranging 5 distinct items in a line is a permutation of 5 objects: 5! = 5×4×3×2×1 = 120. The other numbers correspond to incorrect factorials or mis‑applications of the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Four distinct persons are to be seated in a row. Which statement correctly compares the number of possible seatings when (i) a particular person must sit at one of the two ends, and (ii) the same person must not sit at either end?",
+      "options": {
+        "A": "(i) > (ii)",
+        "B": "(i) < (ii)",
+        "C": "(i) = (ii)",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "C",
+      "answer": "(i) = (ii)",
+      "explanation": "Total arrangements of 4 persons = 4! = 24. With the chosen person at an end: 2 choices for the end × 3! = 12. With the person not at an end: 24 – 12 = 12. Hence the two counts are equal, making option C correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many ways can 6 people be seated around a circular table if two particular persons must not sit next to each other?",
+      "options": {
+        "A": "48",
+        "B": "60",
+        "C": "72",
+        "D": "96"
+      },
+      "correct_option": "C",
+      "answer": "72",
+      "explanation": "Circular arrangements of 6 people = (6‑1)! = 120. Treat the two particular persons as a block to count the forbidden cases: (5‑1)! × 2 = 4! × 2 = 48. Subtracting, permissible arrangements = 120 – 48 = 72, which is option C.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "In combinatorics, a permutation of a set of objects is best defined as:",
+      "options": {
+        "A": "Selection of objects without regard to order",
+        "B": "Arrangement of objects in a specific order",
+        "C": "Grouping of objects into subsets",
+        "D": "Counting of combinations"
+      },
+      "correct_option": "B",
+      "answer": "Arrangement of objects in a specific order",
+      "explanation": "A permutation refers to an ordered arrangement of objects. Option B captures this definition; the other options describe selections (combinations) or unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which of the following expressions correctly derives the formula for nPr, the number of permutations of r objects chosen from n distinct objects?",
+      "options": {
+        "A": "nPr = n!/(n‑r)!",
+        "B": "nPr = n!/[r!(n‑r)!]",
+        "C": "nPr = nCr × r!",
+        "D": "Both A and C are correct"
+      },
+      "correct_option": "D",
+      "answer": "Both A and C are correct",
+      "explanation": "Starting from the definition, nPr = n!/(n‑r)!. Since nCr = n!/[r!(n‑r)!], multiplying nCr by r! also yields n!/(n‑r)!. Thus both expressions A and C are valid, making option D the correct choice.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "Which statement correctly distinguishes permutations from combinations?",
+      "options": {
+        "A": "Permutations consider order, combinations do not",
+        "B": "Permutations do not consider order",
+        "C": "Both consider order",
+        "D": "Neither consider order"
+      },
+      "correct_option": "A",
+      "answer": "Permutations consider order, combinations do not",
+      "explanation": "In permutations the arrangement (order) of selected items matters, whereas in combinations only the selection matters. Hence option A accurately describes the distinction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "How many ways can the letters of the word 'MATH' be arranged if the letters 'M' and 'A' must not be adjacent?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Total permutations of 4 distinct letters = 4! = 24. Treat 'M' and 'A' as a block: 2 possible internal orders (MA, AM) × 3! = 12 arrangements where they are together. Subtracting, arrangements where they are not adjacent = 24 – 12 = 12, which is option A.",
+      "difficulty": "easy"
+    }
+  ]
+}

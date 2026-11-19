@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0056",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Six friends are to be seated around a circular table. In how many ways can they be arranged if two particular friends, A and B, must not sit next to each other?",
+      "options": {
+        "A": "72",
+        "B": "48",
+        "C": "60",
+        "D": "84"
+      },
+      "correct_option": "A",
+      "answer": "72",
+      "explanation": "For a circular arrangement of 6 people, total ways = (6‑1)! = 120. Treat A and B as a block to count the arrangements where they sit together: (5‑1)! × 2 = 24 × 2 = 48. Subtracting, the arrangements where they are not together = 120 – 48 = 72. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "Which of the following statements best defines a permutation?",
+      "options": {
+        "A": "A selection of objects where the order does not matter",
+        "B": "An arrangement of objects in a specific order",
+        "C": "A grouping of objects into subsets",
+        "D": "A counting of the total number of objects"
+      },
+      "correct_option": "B",
+      "answer": "An arrangement of objects in a specific order",
+      "explanation": "A permutation refers to an ordered arrangement of distinct objects. Option B captures this definition. Option A describes a combination, while C and D are unrelated concepts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which formula correctly gives the number of permutations of r objects chosen from n distinct objects?",
+      "options": {
+        "A": "nPr = n! / (n – r)!",
+        "B": "nPr = n! / [r! (n – r)!]",
+        "C": "nPr = r! / (n – r)!",
+        "D": "nPr = n! × r!"
+      },
+      "correct_option": "A",
+      "answer": "nPr = n! / (n – r)!",
+      "explanation": "The permutation formula is nPr = n! / (n‑r)!. Option B is the combination formula (nCr). Options C and D are incorrect expressions. Therefore, A is the correct choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "How many different 5‑digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?",
+      "options": {
+        "A": "120",
+        "B": "60",
+        "C": "24",
+        "D": "720"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "Forming a 5‑digit number without repetition is a permutation of 5 distinct digits: 5! = 5 × 4 × 3 × 2 × 1 = 120. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Which scenario yields a greater number of arrangements?\n(i) Arrange 5 distinct books on a shelf with no restrictions.\n(ii) Arrange the same 5 books on a shelf such that two particular books are never placed together.",
+      "options": {
+        "A": "Scenario (i) has more arrangements",
+        "B": "Scenario (ii) has more arrangements",
+        "C": "Both scenarios have the same number of arrangements",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Scenario (i) has more arrangements",
+      "explanation": "Total unrestricted arrangements = 5! = 120. For scenario (ii), count arrangements where the two books are together: treat them as a block → 4! × 2 = 48. Subtracting, arrangements where they are not together = 120 – 48 = 72. Since 120 > 72, scenario (i) yields more arrangements. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Eight persons are to be seated around a circular table. In how many ways can they be arranged if two particular persons, A and B, must have exactly one person sitting between them?",
+      "options": {
+        "A": "1440",
+        "B": "720",
+        "C": "5040",
+        "D": "240"
+      },
+      "correct_option": "A",
+      "answer": "1440",
+      "explanation": "Fix A to remove rotational symmetry. B must be two seats away, either clockwise or anticlockwise → 2 choices. The remaining 6 persons can be arranged in 6! = 720 ways. Total = 2 × 720 = 1440. Option A matches this count.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A permutation is:",
+      "options": {
+        "A": "A selection of objects where order is irrelevant",
+        "B": "An arrangement of objects in a specific order",
+        "C": "A grouping of objects into subsets",
+        "D": "A method of counting combinations"
+      },
+      "correct_option": "B",
+      "answer": "An arrangement of objects in a specific order",
+      "explanation": "By definition, a permutation concerns ordered arrangements of distinct objects. Option B states this directly; the other options describe different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "If n = 7 and r = 3, what is the value of nPr?",
+      "options": {
+        "A": "210",
+        "B": "35",
+        "C": "84",
+        "D": "56"
+      },
+      "correct_option": "A",
+      "answer": "210",
+      "explanation": "nPr = n! / (n‑r)! = 7! / 4! = (7 × 6 × 5) = 210. Option A is correct; the other numbers correspond to different calculations (e.g., combinations).",
+      "difficulty": "easy"
+    }
+  ]
+}

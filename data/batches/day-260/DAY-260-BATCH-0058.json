@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0058",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "What is the definition of a permutation of n distinct objects?",
+      "options": {
+        "A": "An arrangement of n objects in a specific order",
+        "B": "A selection of objects without regard to order",
+        "C": "A combination of objects taken two at a time",
+        "D": "A circular arrangement where rotations are considered the same"
+      },
+      "correct_option": "A",
+      "answer": "An arrangement of n objects in a specific order",
+      "explanation": "A permutation refers to an ordered arrangement of all (or a part of) the given distinct objects. Option A captures this definition, while the other options describe selections, combinations, or a special type of arrangement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "How is the formula for the number of permutations of r objects chosen from n distinct objects (nPr) derived?",
+      "options": {
+        "A": "By arranging n objects and then selecting r, giving n!/(n‑r)!",
+        "B": "By adding n and r",
+        "C": "By multiplying n! by r!",
+        "D": "By dividing n! by r!"
+      },
+      "correct_option": "A",
+      "answer": "By arranging n objects and then selecting r, giving n!/(n‑r)!",
+      "explanation": "To form a permutation of r objects, we first choose a position for the first object (n ways), then for the second (n‑1 ways), and continue until r objects are placed. Multiplying these gives n·(n‑1)…(n‑r+1)=n!/(n‑r)!. Option A states this derivation correctly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "How many different ways can 5 distinct books be arranged on a single shelf?",
+      "options": {
+        "A": "5",
+        "B": "20",
+        "C": "60",
+        "D": "120"
+      },
+      "correct_option": "D",
+      "answer": "120",
+      "explanation": "Arranging 5 distinct items is a permutation of all 5 objects: 5! = 5×4×3×2×1 = 120. The other numbers correspond to partial arrangements or combinations, not the full permutation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "In how many ways can the letters A, B, C, D be arranged if the letter A must appear at the beginning?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Fixing A at the first position leaves 3 letters (B, C, D) to arrange freely. They can be ordered in 3! = 6 ways. Hence option A is correct; the other options ignore the restriction or count extra arrangements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many distinct ways can 6 people be seated around a round table? (Rotations of the same seating are considered identical.)",
+      "options": {
+        "A": "720",
+        "B": "120",
+        "C": "60",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "120",
+      "explanation": "For circular arrangements, one position can be fixed to break rotational symmetry, leaving (n‑1)! arrangements. Here (6‑1)! = 5! = 120. Option B reflects this; the other options correspond to linear permutations or further division by symmetry.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A password consists of 3 distinct digits chosen from 0‑9, where the order of digits matters. Which statement best defines the number of possible passwords?",
+      "options": {
+        "A": "It is the number of permutations of 3 digits selected from 10",
+        "B": "It is the number of combinations of 3 digits selected from 10",
+        "C": "It is 10³",
+        "D": "It is 3!"
+      },
+      "correct_option": "A",
+      "answer": "It is the number of permutations of 3 digits selected from 10",
+      "explanation": "Since the order matters and digits cannot repeat, the count is a permutation: 10P3 = 10×9×8 = 720. Option A correctly describes this; option B ignores order, C counts with repetition, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "A student claims that the number of ways to arrange 4 books out of 7 on a shelf is given by 7C4. Which of the following identifies the misconception?",
+      "options": {
+        "A": "They used a combination formula instead of a permutation formula",
+        "B": "They forgot to multiply by 4!",
+        "C": "They should have used 7P4",
+        "D": "Both A and C"
+      },
+      "correct_option": "D",
+      "answer": "Both A and C",
+      "explanation": "The student applied the combination formula (7C4), which ignores order. The correct approach is a permutation, 7P4, which accounts for ordering. Hence both statements A and C correctly point out the error, making option D the right choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "If 8 distinct medals are to be awarded for gold, silver, and bronze positions, how many possible outcomes are there?",
+      "options": {
+        "A": "336",
+        "B": "56",
+        "C": "40320",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "336",
+      "explanation": "The three positions are ordered, so we need permutations of 3 medals from 8: 8P3 = 8×7×6 = 336. Option A matches this calculation. Option B is a combination count, C is 8! (all medals ordered), and D is only the permutations of the three positions themselves, not the selection of medals.",
+      "difficulty": "medium"
+    }
+  ]
+}

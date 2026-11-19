@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0057",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "Which of the following expressions gives the number of permutations of selecting r objects from n distinct objects?",
+      "options": {
+        "A": "nPr = n! / (n - r)!",
+        "B": "nCr = n! / (r! (n - r)!)",
+        "C": "n! ",
+        "D": "(n - r)! "
+      },
+      "correct_option": "A",
+      "answer": "nPr = n! / (n - r)!",
+      "explanation": "A permutation counts ordered selections, so the formula is nPr = n!/(n‑r)!. Option B is the combination formula (order does not matter). Options C and D are incomplete expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "In how many ways can 5 distinct books be arranged on a shelf if two particular books must not be placed together?",
+      "options": {
+        "A": "60",
+        "B": "72",
+        "C": "84",
+        "D": "96"
+      },
+      "correct_option": "B",
+      "answer": "72",
+      "explanation": "Total arrangements = 5! = 120. Treat the two restricted books as a block: 4! × 2 = 48 arrangements where they are together. Subtracting gives 120 – 48 = 72 permissible arrangements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many ways can 6 people be seated around a round table if two particular persons must sit opposite each other?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "48",
+        "D": "120"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "Fix one of the two particular persons to break rotational symmetry. The opposite seat for the second person is then fixed. The remaining 4 people can be arranged in 4! = 24 ways. Hence 24 distinct circular arrangements satisfy the condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A permutation is best described as:",
+      "options": {
+        "A": "Selection of objects where order does not matter",
+        "B": "Arrangement of objects where order matters",
+        "C": "Grouping of objects into subsets",
+        "D": "Counting of combinations"
+      },
+      "correct_option": "B",
+      "answer": "Arrangement of objects where order matters",
+      "explanation": "In permutations the order of the selected objects is important, unlike combinations where order is ignored. Therefore option B correctly defines a permutation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which step is incorrect when deriving the formula for nPr?",
+      "options": {
+        "A": "Choose the first object in n ways",
+        "B": "Choose the second object in (n‑1) ways",
+        "C": "Multiply the choices to obtain n!/(n‑r)!",
+        "D": "Divide by r! to account for order"
+      },
+      "correct_option": "D",
+      "answer": "Divide by r! to account for order",
+      "explanation": "Dividing by r! is done when order does NOT matter (combinations). For permutations, we keep the product of decreasing choices, giving n!/(n‑r)!. Hence step D is the misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "How many 4‑letter codes can be formed from the letters A, B, C, D, E if no letter is repeated?",
+      "options": {
+        "A": "60",
+        "B": "120",
+        "C": "240",
+        "D": "720"
+      },
+      "correct_option": "B",
+      "answer": "120",
+      "explanation": "The number of permutations of 5 distinct letters taken 4 at a time is P(5,4) = 5 × 4 × 3 × 2 = 120. Options A, C, and D correspond to different counts.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Which statement correctly compares the number of ways to arrange the letters of the word \"LEVEL\" without any restriction and with the restriction that the two L's must not be together?",
+      "options": {
+        "A": "Without restriction 30, with restriction 18",
+        "B": "Without restriction 60, with restriction 30",
+        "C": "Without restriction 30, with restriction 12",
+        "D": "Without restriction 120, with restriction 60"
+      },
+      "correct_option": "A",
+      "answer": "Without restriction 30, with restriction 18",
+      "explanation": "Word LEVEL has 5 letters with L repeated twice and E repeated twice. Total permutations = 5!/(2!·2!) = 30. Treat the two L's as a block: then we have block LL, two E's and V → 4 items with E repeated twice, giving 4!/(2!) = 12 arrangements where L's are together. Subtracting, 30 – 12 = 18 arrangements keep the L's apart. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many ways can 8 persons be seated around a circular table if three particular persons must sit together?",
+      "options": {
+        "A": "240",
+        "B": "360",
+        "C": "720",
+        "D": "1440"
+      },
+      "correct_option": "C",
+      "answer": "720",
+      "explanation": "Treat the three particular persons as a single block. This gives a block + the remaining 5 individuals = 6 items to arrange around a circle: (6‑1)! = 120 ways. Inside the block, the three persons can be ordered in 3! = 6 ways. Total arrangements = 120 × 6 = 720. Options A, B, and D are incorrect counts.",
+      "difficulty": "hard"
+    }
+  ]
+}
