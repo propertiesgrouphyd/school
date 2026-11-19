@@ -1,0 +1,150 @@
+{
+  "day": 259,
+  "batch_id": "DAY-259-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-1",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Add complex numbers",
+      "question": "What is (3+2i) + (−1+4i)?",
+      "options": {
+        "A": "2+6i",
+        "B": "4+2i",
+        "C": "2-2i",
+        "D": "-4+6i"
+      },
+      "correct_option": "A",
+      "answer": "2+6i",
+      "explanation": "Add real parts: 3 + (−1) = 2. Add imaginary parts: 2i + 4i = 6i. Hence the sum is 2+6i. The other options either mis‑add the real or imaginary parts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-2",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Subtract complex numbers",
+      "question": "If z₁ = 5+3i and z₂ = 2−4i, what is z₁ − z₂?",
+      "options": {
+        "A": "3+7i",
+        "B": "7−i",
+        "C": "3−i",
+        "D": "7+7i"
+      },
+      "correct_option": "A",
+      "answer": "3+7i",
+      "explanation": "Subtract real parts: 5−2 = 3. Subtract imaginary parts: 3i−(−4i) = 3i+4i = 7i. So z₁−z₂ = 3+7i. Other options mix up signs or add instead of subtract.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-3",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Multiply complex numbers",
+      "question": "Which expression correctly gives the product (2+i)(3−2i)?",
+      "options": {
+        "A": "8−i",
+        "B": "5+i",
+        "C": "6−i",
+        "D": "8+i"
+      },
+      "correct_option": "A",
+      "answer": "8−i",
+      "explanation": "(2+i)(3−2i)=6−4i+3i−2i²=6−i+2=8−i because i² = −1. Options B, C, D result from arithmetic errors such as forgetting the i² term or sign mistakes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-4",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Divide complex numbers",
+      "question": "Find (4+2i) ÷ (1−i).",
+      "options": {
+        "A": "1+3i",
+        "B": "2+2i",
+        "C": "3−i",
+        "D": "1−3i"
+      },
+      "correct_option": "A",
+      "answer": "1+3i",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: (4+2i)(1+i)/(1−i)(1+i) = (4+4i+2i+2i²)/2 = (4+6i−2)/2 = (2+6i)/2 = 1+3i. Other options arise from missing the conjugate step or arithmetic slips.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-5",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Simplify powers of i",
+      "question": "Simplify i²³.",
+      "options": {
+        "A": "-i",
+        "B": "i",
+        "C": "-1",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "-i",
+      "explanation": "i⁴ = 1, so i²³ = i^(4·5 + 3) = (i⁴)⁵·i³ = 1·i³ = i³ = -i. Options B, C, D correspond to i¹, i², i⁴ respectively, which are incorrect for the exponent 23.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-6",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Use conjugates in division",
+      "question": "To rationalize the denominator of (5+i)/(2−3i), which conjugate should be multiplied to both numerator and denominator?",
+      "options": {
+        "A": "2+3i",
+        "B": "2−3i",
+        "C": "5−i",
+        "D": "5+i"
+      },
+      "correct_option": "A",
+      "answer": "2+3i",
+      "explanation": "The conjugate of a+bi is a−bi; here the denominator is 2−3i, so its conjugate is 2+3i. Multiplying by this removes the imaginary part from the denominator. Options B repeats the original denominator, while C and D are unrelated conjugates of the numerator.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-7",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Add complex numbers",
+      "question": "A student adds (2+3i) and (4−5i) and writes 6+8i. Which mistake did the student make?",
+      "options": {
+        "A": "Added the real parts incorrectly",
+        "B": "Added the imaginary parts incorrectly",
+        "C": "Multiplied the imaginary unit i by itself",
+        "D": "No mistake; the answer is correct"
+      },
+      "correct_option": "B",
+      "answer": "Added the imaginary parts incorrectly",
+      "explanation": "Correct addition: (2+4) = 6 for the real part, and (3i)+(−5i) = −2i for the imaginary part, giving 6−2i. The student wrote 6+8i, showing they added the magnitudes of the imaginary parts (3+5) instead of considering the sign. Option A is wrong because the real parts were added correctly; C and D are irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-8",
+      "learning_unit_id": "LU-01097",
+      "learning_point": "Subtract complex numbers",
+      "question": "If z₁ = a+bi and z₂ = c+di, which expression correctly represents z₁ − z₂?",
+      "options": {
+        "A": "(a−c)+(b−d)i",
+        "B": "(a+c)+(b+d)i",
+        "C": "(a−c)+(b+d)i",
+        "D": "(a+c)+(b−d)i"
+      },
+      "correct_option": "A",
+      "answer": "(a−c)+(b−d)i",
+      "explanation": "Subtracting complex numbers means subtracting their real parts and their imaginary parts separately: (a−c) for the real part and (b−d) for the coefficient of i. Hence the correct form is (a−c)+(b−d)i. The other options either add instead of subtract or mix signs incorrectly.",
+      "difficulty": "medium"
+    }
+  ]
+}
