@@ -1,0 +1,78 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "In the expansion of \\((x+2)^6\\), which of the following is the 4th term?",
+      "options": {
+        "A": "15x^3",
+        "B": "20x^3",
+        "C": "30x^3",
+        "D": "10x^3"
+      },
+      "correct_option": "B",
+      "answer": "20x^3",
+      "explanation": "The general term in \\((a+b)^n\\) is \\(T_{r+1}=\\binom{n}{r}a^{n-r}b^{r}\\). The 4th term corresponds to \\(r=3\\). Here \\(a=x\\), \\(b=2\\), \\(n=6\\). Thus \\(T_4=\\binom{6}{3}x^{6-3}2^{3}=20x^{3}\\). Option B is correct; the other options arise from common mistakes such as using \\(r=4\\) or forgetting the factor 2^3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "Identify the middle term in the expansion of \\((3y-5)^9\\).",
+      "options": {
+        "A": "19,136,250 y^5",
+        "B": "-19,136,250 y^5",
+        "C": "9,568,125 y^5",
+        "D": "-9,568,125 y^5"
+      },
+      "correct_option": "A",
+      "answer": "19,136,250 y^5",
+      "explanation": "For \\((a+b)^n\\) with odd \\(n\\), the middle term is the \\((n+1)/2\\)th term. Here \\(n=9\\), so the 5th term is required. Using \\(T_{r+1}=\\binom{9}{r}(3y)^{9-r}(-5)^{r}\\) with \\(r=4\\) gives \\(\\binom{9}{4}=126\\), \\((3y)^5=243y^5\\), \\((-5)^4=625\\). Multiplying: 126×243×625 = 19,136,250, and the sign is positive because the power of \\(-5\\) is even. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "Compare the coefficient of \\(x^4\\) in the expansions of \\((2x-3)^7\\) and \\((x+1)^8\\). Which coefficient is larger?",
+      "options": {
+        "A": "Coefficient in \\((2x-3)^7\\) is larger",
+        "B": "Coefficient in \\((x+1)^8\\) is larger",
+        "C": "Both coefficients are equal",
+        "D": "Cannot be determined without further information"
+      },
+      "correct_option": "B",
+      "answer": "Coefficient in \\((x+1)^8\\) is larger",
+      "explanation": "For \\((2x-3)^7\\), the term containing \\(x^4\\) occurs when the exponent of \\(x\\) is 4, i.e., \\(7-r=4\\) ⇒ \\(r=3\\). Coefficient = \\(\\binom{7}{3}2^{4}(-3)^{3}=35\\times16\\times(-27)=-15,120\\). For \\((x+1)^8\\), the \\(x^4\\) term coefficient is \\(\\binom{8}{4}=70\\). Since 70 > -15,120, the coefficient from \\((x+1)^8\\) is larger. Option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "The coefficient of \\(x^2\\) in \\((x+2)^5\\) equals the coefficient of \\(x^k\\) in \\((3x-1)^6\\). Find the integer value of \\(k\\).",
+      "options": {
+        "A": "k = 2",
+        "B": "k = 3",
+        "C": "k = 4",
+        "D": "No such integer k"
+      },
+      "correct_option": "D",
+      "answer": "No such integer k",
+      "explanation": "First, coefficient of \\(x^2\\) in \\((x+2)^5\\): \\(T_{r+1}\\) with \\(5-r=2\\) ⇒ \\(r=3\\). Coefficient = \\(\\binom{5}{3}2^{3}=10\\times8=80\\). For \\((3x-1)^6\\), the coefficient of \\(x^k\\) (using the form \\((3x)^k(-1)^{6-k}\\)) is \\(\\binom{6}{k}3^{k}(-1)^{6-k}\\). Evaluating for \\(k=0\\) to \\(6\\) gives coefficients 1, -18, 135, -540, 1215, -1458, 729 respectively—none equal 80. Hence no integer \\(k\\) satisfies the condition. Option D is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

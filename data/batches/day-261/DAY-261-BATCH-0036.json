@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "In the expansion of (a + b)^n, which statement correctly describes the middle term(s)?",
+      "options": {
+        "A": "If n is even, there are two middle terms given by T_{(n/2)+1} and T_{(n/2)+2}",
+        "B": "If n is odd, there is a single middle term given by T_{(n+1)/2}",
+        "C": "If n is odd, there are two middle terms given by T_{(n+1)/2} and T_{(n+3)/2}",
+        "D": "If n is even, there is a single middle term given by T_{(n/2)+1}"
+      },
+      "correct_option": "B",
+      "answer": "If n is odd, there is a single middle term given by T_{(n+1)/2}",
+      "explanation": "When n is odd, the total number of terms (n+1) is even, so there is exactly one term positioned in the centre, namely the ((n+1)/2)th term. If n were even, two terms would occupy the centre. Hence option B is correct; the other options misstate the parity condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "What is the coefficient of x^3 y^2 in the expansion of (2x + 3y)^5?",
+      "options": {
+        "A": "720",
+        "B": "540",
+        "C": "360",
+        "D": "240"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "The term containing x^3 y^2 corresponds to r = 2 (power of y). Using the general term C(5,2)(2x)^{3}(3y)^{2} = 10·8·9 = 720. The other options arise from incorrect arithmetic or choosing the wrong r.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In the expansion of (x + 2y)^5, the coefficient of x^2 y^3 is C1. In the expansion of (2x + y)^5, the coefficient of x^3 y^2 is C2. Which statement is true?",
+      "options": {
+        "A": "C1 = C2",
+        "B": "C1 > C2",
+        "C": "C1 < C2",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "A",
+      "answer": "C1 = C2",
+      "explanation": "C1 = C(5,3)·1^{2}·2^{3} = 10·8 = 80. C2 = C(5,2)·2^{3}·1^{2} = 10·8 = 80. Both coefficients are equal, so option A is correct. Options B and C are wrong because the numerical values are the same, and D is unnecessary since we can compute them directly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Write the general term",
+      "question": "Write the (r+1)th term in the expansion of (3x - 2y)^n.",
+      "options": {
+        "A": "C(n, r) (3x)^{n-r} (-2y)^r",
+        "B": "C(n, r) (3x)^{r} (-2y)^{n-r}",
+        "C": "C(n, r) (3x)^{n+r} (-2y)^{...}",
+        "D": "C(n, r) (3x)^{n-r} (2y)^r"
+      },
+      "correct_option": "A",
+      "answer": "C(n, r) (3x)^{n-r} (-2y)^r",
+      "explanation": "The (r+1)th term of (a + b)^n is C(n, r) a^{n-r} b^{r}. Here a = 3x and b = -2y, giving the expression in option A. Option B swaps the exponents, option C is nonsensical, and option D omits the negative sign.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find a specified term",
+      "question": "In the expansion of (x - y)^8, what is the coefficient of the term containing x^5 y^3?",
+      "options": {
+        "A": "56",
+        "B": "-56",
+        "C": "70",
+        "D": "-70"
+      },
+      "correct_option": "B",
+      "answer": "-56",
+      "explanation": "The required term corresponds to r = 3 (power of y). Coefficient = C(8,3)(-1)^3 = 56·(-1) = -56. A common mistake is to ignore the sign from (-y)^3, leading to option A. Options C and D use the wrong binomial coefficient (C(8,4)=70).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Find middle term(s)",
+      "question": "For the expansion of (a + b)^7, which term occupies the middle position?",
+      "options": {
+        "A": "4th term",
+        "B": "3rd term",
+        "C": "5th term",
+        "D": "6th term"
+      },
+      "correct_option": "A",
+      "answer": "4th term",
+      "explanation": "When n = 7 (odd), the total number of terms is 8, and the middle term is the ((n+1)/2)th = (7+1)/2 = 4th term. Hence option A is correct. The other options correspond to incorrect positions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Determine coefficients",
+      "question": "Compare the coefficient of x^4 in (2x + 3)^6 with the coefficient of x^4 in (3x + 2)^6. Which is larger?",
+      "options": {
+        "A": "Coefficient in the first expansion is larger",
+        "B": "Coefficient in the second expansion is larger",
+        "C": "Both coefficients are equal",
+        "D": "Cannot be determined without calculation"
+      },
+      "correct_option": "B",
+      "answer": "Coefficient in the second expansion is larger",
+      "explanation": "First expansion: C(6,4)(2)^4·3^{2}=15·16·9=2160. Second expansion: C(6,4)(3)^4·2^{2}=15·81·4=4860. The second coefficient (4860) exceeds the first (2160), so option B is correct. Option D is unnecessary because a direct calculation resolves the comparison.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01108",
+      "learning_point": "Solve coefficient-comparison problems",
+      "question": "In the expansion of (x + 2)^n, the coefficient of x^3 is 560. Find the value of n.",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "Coefficient of x^3 = C(n,3)·2^{n-3}. Set  C(n,3)·2^{n-3}=560. Trying n=7 gives C(7,3)=35 and 2^{4}=16, product = 35·16 = 560, which satisfies the condition. No other option yields 560, so n = 7 (option B). This type of reverse‑engineering of binomial coefficients is common in competitive exams.",
+      "difficulty": "hard"
+    }
+  ]
+}
