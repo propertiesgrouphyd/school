@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "What is the definition of n factorial (n!) for a positive integer n?",
+      "options": {
+        "A": "The product of all positive integers from 1 up to n",
+        "B": "The sum of all positive integers from 1 up to n",
+        "C": "The product of all even numbers up to n",
+        "D": "n raised to the power n"
+      },
+      "correct_option": "A",
+      "answer": "The product of all positive integers from 1 up to n",
+      "explanation": "By definition, n! = 1\\times2\\times3\\dots\\times n, i.e., the product of all positive integers up to n. Option B describes a sum, not a product, and the other options are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "According to the factorial definition, what is the value of 0! ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "Undefined",
+        "D": "It can be any integer"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "The factorial function is defined so that 0! = 1 to make formulas such as n! = n\\times (n-1)! work for n=1 and to satisfy combinatorial identities. Hence the correct value is 1.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression \\(\\frac{5!}{3!}\\).",
+      "options": {
+        "A": "20",
+        "B": "60",
+        "C": "120",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "20",
+      "explanation": "5! = 120 and 3! = 6, so \\(\\frac{5!}{3!}=\\frac{120}{6}=20\\). The other numbers result from incorrect cancellation or arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct objects be arranged in a straight line?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "The number of permutations of 4 distinct items is 4! = 4\\times3\\times2\\times1 = 24. Options A, C, and D correspond to other counting situations (e.g., combinations or partial permutations).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Calculate 5! .",
+      "options": {
+        "A": "120",
+        "B": "60",
+        "C": "24",
+        "D": "720"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "5! = 1\\times2\\times3\\times4\\times5 = 120. The other options are results of different operations or factorials of other numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "In the expression for combinations \\(\\binom{7}{0}=\\frac{7!}{0!\\,7!}\\), what value must be assigned to 0! to obtain the correct result?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "7",
+        "D": "Undefined"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Using 0! = 1 gives \\(\\frac{7!}{1\\times7!}=1\\), which is the correct number of ways to choose no objects. If 0! were 0, the expression would be undefined; the other choices are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Identify the incorrect simplification of a factorial expression:",
+      "options": {
+        "A": "\\(\\frac{5!}{3!}=20\\)",
+        "B": "\\(\\frac{5!}{3!}=10\\)",
+        "C": "\\(\\frac{6!}{4!}=30\\)",
+        "D": "\\(\\frac{7!}{5!}=42\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\frac{5!}{3!}=10\\)",
+      "explanation": "\\(5! =120\\) and \\(3! =6\\); their ratio is 20, not 10. Options A, C, and D are correct simplifications, so B reflects a common mistake of mis‑dividing the factorials.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many distinct 2‑letter arrangements can be formed from the letters A, B, C without repetition?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "The number of permutations of 3 items taken 2 at a time is \\(P(3,2)=\\frac{3!}{(3-2)!}=\\frac{6}{1}=6\\). Options A, C, and D correspond to incorrect counting methods such as combinations or allowing repetitions.",
+      "difficulty": "medium"
+    }
+  ]
+}

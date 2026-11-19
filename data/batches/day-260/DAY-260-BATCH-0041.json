@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0041",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-260-9",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements correctly defines the factorial of a positive integer n?",
+      "options": {
+        "A": "n! = n × (n‑1) × … × 2 × 1 for n ≥ 1, and 0! = 1",
+        "B": "n! = n × (n+1) × … × 2 for n ≥ 1",
+        "C": "n! = product of all even numbers up to n",
+        "D": "n! = n × (n‑1) × … × 2 for n > 1, undefined for n = 1"
+      },
+      "correct_option": "A",
+      "answer": "n! = n × (n‑1) × … × 2 × 1 for n ≥ 1, and 0! = 1",
+      "explanation": "The factorial n! is defined as the product of all positive integers from 1 up to n. By convention, 0! is defined to be 1 to make many formulas work. Options B, C, and D give incorrect definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-260-10",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "In a competitive exam, a problem asks for the value of (5! − 3!)/0!. What is the correct answer?",
+      "options": {
+        "A": "114",
+        "B": "120",
+        "C": "108",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "114",
+      "explanation": "5! = 120 and 3! = 6, so 5! − 3! = 114. Since 0! = 1, dividing by 0! leaves the value unchanged: 114/1 = 114. The other options ignore the subtraction or the definition of 0!.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-260-11",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify the expression \\(\\dfrac{7!}{5!}\\).",
+      "options": {
+        "A": "42",
+        "B": "5040",
+        "C": "7",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "42",
+      "explanation": "7! = 7 × 6 × 5!. Cancelling the common 5! gives 7 × 6 = 42. Options B, C, and D are results of incorrect cancellation or arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-260-12",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct books be arranged on a shelf?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "Arranging n distinct objects is counted by n!. For 4 books, 4! = 4 × 3 × 2 × 1 = 24. The other numbers correspond to partial permutations or combinations, not the full arrangement count.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-260-13",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which statement correctly defines factorial and distinguishes it from a permutation formula?",
+      "options": {
+        "A": "n! is the product of the first n natural numbers; the number of permutations of n objects taken r at a time is nPr = n!/(n‑r)!.",
+        "B": "n! gives the number of ways to choose r objects from n; permutations are given by n! × r.",
+        "C": "n! equals the sum of the first n integers; permutations are calculated by n! + r.",
+        "D": "n! is defined only for even n; permutations are defined only for odd n."
+      },
+      "correct_option": "A",
+      "answer": "n! is the product of the first n natural numbers; the number of permutations of n objects taken r at a time is nPr = n!/(n‑r)!.",
+      "explanation": "Option A states the exact definition of factorial and the correct permutation formula. Options B, C, and D confuse factorial with combinations, addition, or impose incorrect parity restrictions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-260-14",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "In how many ways can a committee of 0 members be formed from a group of 5 people?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "5",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Choosing no one from any set is a single possibility—the empty set. By definition, 0! = 1, which reflects this single way. Options A, C, and D misinterpret the concept.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-260-15",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify \\(\\dfrac{8!}{6!\\times 2!}\\).",
+      "options": {
+        "A": "28",
+        "B": "56",
+        "C": "14",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "28",
+      "explanation": "8! = 8×7×6!. Cancelling 6! gives (8×7)/2! = (56)/2 = 28. Options B, C, and D arise from arithmetic errors or forgetting to divide by 2!.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-260-16",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "A password consists of 3 distinct digits followed by 2 distinct letters. How many such passwords are possible?",
+      "options": {
+        "A": "468000",
+        "B": "72000",
+        "C": "1300",
+        "D": "15600"
+      },
+      "correct_option": "A",
+      "answer": "468000",
+      "explanation": "Digits: 10P3 = 10×9×8 = 720 ways. Letters: 26P2 = 26×25 = 650 ways. Total passwords = 720 × 650 = 468,000. The other options underestimate one or both selections.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01104-MCQ-33",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following best defines n! for a positive integer n?",
+      "options": {
+        "A": "Product of all positive integers from 1 up to n",
+        "B": "Sum of all positive integers from 1 up to n",
+        "C": "Product of all even numbers up to n",
+        "D": "Number of ways to arrange n distinct objects in a circle"
+      },
+      "correct_option": "A",
+      "answer": "Product of all positive integers from 1 up to n",
+      "explanation": "Factorial n! is defined as 1×2×3×…×n, i.e., the product of all positive integers up to n. Option B describes a sum, C is unrelated, and D counts circular permutations which equal (n‑1)!.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "LU-01104-MCQ-34",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "What is the value of \\(\\dfrac{5!}{5\\times4\\times3\\times2\\times0!}\\)?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "5",
+        "D": "Undefined"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "5! =120. The denominator 5·4·3·2·0! =5·4·3·2·1 =120 because 0! =1. Hence the fraction equals 120/120 =1. The other options are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "LU-01104-MCQ-35",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify \\(\\dfrac{7!}{5!}\\).",
+      "options": {
+        "A": "42",
+        "B": "5040",
+        "C": "7",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "42",
+      "explanation": "7! =7·6·5!; dividing by 5! cancels the 5! leaving 7·6 =42. Options B and D are the full 7! and 5! respectively, while C is just 7.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01104-MCQ-36",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "In how many different ways can 4 distinct books be arranged on a shelf?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "Arranging n distinct items linearly is n! ways. Here n=4, so 4! =4·3·2·1 =24. The other numbers correspond to partial permutations or combinations, not full arrangements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01104-MCQ-37",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which statement about factorial is correct?",
+      "options": {
+        "A": "n! is defined for all integers n",
+        "B": "0! = 0",
+        "C": "Factorial is defined only for non‑negative integers",
+        "D": "n! = n for every n"
+      },
+      "correct_option": "C",
+      "answer": "Factorial is defined only for non‑negative integers",
+      "explanation": "Factorial n! is defined for n = 0,1,2,…; it is not defined for negative integers. Also 0! =1, not 0, and n! grows rapidly, not equal to n. Option C accurately reflects the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01104-MCQ-38",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "Why is 0! defined as 1?",
+      "options": {
+        "A": "There is exactly one way to arrange zero objects",
+        "B": "Because 0 multiplied by any number is 0",
+        "C": "Factorial represents a sum, and the sum of no numbers is 0",
+        "D": "By convention to make 0! equal to 0"
+      },
+      "correct_option": "A",
+      "answer": "There is exactly one way to arrange zero objects",
+      "explanation": "The empty product convention states that the product of zero numbers equals the multiplicative identity, 1. Hence there is exactly one arrangement (the empty arrangement) of zero objects, making 0! =1. Options B, C, D are incorrect reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "LU-01104-MCQ-39",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Compare the values of \\(\\dfrac{8!}{6!}\\) and \\(\\dfrac{7!}{5!}\\). Which statement is true?",
+      "options": {
+        "A": "\\(\\dfrac{8!}{6!}\\) is greater than \\(\\dfrac{7!}{5!}\\)",
+        "B": "\\(\\dfrac{8!}{6!}\\) is less than \\(\\dfrac{7!}{5!}\\)",
+        "C": "Both expressions are equal",
+        "D": "The relationship cannot be determined without calculation"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\dfrac{8!}{6!}\\) is greater than \\(\\dfrac{7!}{5!}\\)",
+      "explanation": "\\(\\dfrac{8!}{6!}=8\\times7=56\\). \\(\\dfrac{7!}{5!}=7\\times6=42\\). Since 56 > 42, the first expression is larger. Hence option A is correct; the others are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01104-MCQ-40",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many distinct 3‑letter arrangements can be formed from 5 different letters?",
+      "options": {
+        "A": "10",
+        "B": "60",
+        "C": "120",
+        "D": "20"
+      },
+      "correct_option": "B",
+      "answer": "60",
+      "explanation": "The number of permutations of 3 objects chosen from 5 is P(5,3)=5!/(5‑3)! =5·4·3 =60. Option B matches this value. Option A is the combination count C(5,3), C is 5! (all 5 letters), and D is an incorrect product.",
+      "difficulty": "hard"
+    }
+  ]
+}

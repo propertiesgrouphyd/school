@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements about the factorial function is NOT correct?",
+      "options": {
+        "A": "n! is defined only for positive integers n.",
+        "B": "5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120.",
+        "C": "0! = 1.",
+        "D": "n! gives the number of ways to arrange n distinct objects in a line."
+      },
+      "correct_option": "A",
+      "answer": "n! is defined only for positive integers n.",
+      "explanation": "In the NCERT syllabus factorial is defined for all non‑negative integers, including 0, where 0! = 1. Therefore statement A is incorrect, while B, C and D are correct definitions and properties of factorial.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "What is the value of \\((3! \\times 0!)/2!\\)?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "12",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "3",
+      "explanation": "3! = 6 and 0! = 1, so the numerator is 6. 2! = 2, thus (6)/2 = 3. Option A is correct; the other numbers arise from incorrect arithmetic or ignoring the fact that 0! equals 1.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Which of the following pairs of expressions are equal?",
+      "options": {
+        "A": "\\(\\frac{7!}{5!}\\) and 7\\times6",
+        "B": "\\(\\frac{8!}{6!}\\) and 8\\times7\\times6",
+        "C": "\\(\\frac{9!}{7!}\\) and 9\\times8\\times7",
+        "D": "\\(\\frac{6!}{4!}\\) and 6\\times5\\times4"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{7!}{5!}\\) and 7\\times6",
+      "explanation": "\\(\\frac{7!}{5!}=7\\times6\\) because the 5! terms cancel, giving 42. The other options include extra factors that do not cancel, so they are not equal. Hence option A correctly simplifies the factorial expression.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "In how many ways can 5 different books be arranged on a shelf?",
+      "options": {
+        "A": "5",
+        "B": "20",
+        "C": "60",
+        "D": "120"
+      },
+      "correct_option": "D",
+      "answer": "120",
+      "explanation": "Arranging n distinct objects in a line corresponds to n! permutations. For n=5, 5! = 5\\times4\\times3\\times2\\times1 = 120. Therefore option D is the correct count; the other numbers represent partial permutations or combinations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "The factorial of a non‑negative integer n, denoted by n!, is defined as:",
+      "options": {
+        "A": "The sum of all integers from 1 to n.",
+        "B": "The product of all positive integers from 1 up to n.",
+        "C": "The difference between n and (n‑1).",
+        "D": "The number of prime numbers less than n."
+      },
+      "correct_option": "B",
+      "answer": "The product of all positive integers from 1 up to n.",
+      "explanation": "By definition, n! = 1\\times2\\times3\\times\\dots\\times n for n\\ge1, and 0! =1. It is a product, not a sum or any other operation. Hence option B correctly defines factorial.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "Which of the following statements is true about 0! ?",
+      "options": {
+        "A": "0! = 0",
+        "B": "0! is undefined",
+        "C": "0! = 1",
+        "D": "0! = –1"
+      },
+      "correct_option": "C",
+      "answer": "0! = 1",
+      "explanation": "By convention, the factorial of zero is defined to be 1, which makes many combinatorial formulas work uniformly. Options A, B, and D contradict this definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Which expression correctly represents 4! ?",
+      "options": {
+        "A": "4 \\times 3 \\times 2",
+        "B": "4 \\times 3 \\times 2 \\times 1",
+        "C": "4 + 3 + 2 + 1",
+        "D": "(4)^4"
+      },
+      "correct_option": "B",
+      "answer": "4 \\times 3 \\times 2 \\times 1",
+      "explanation": "Factorial means the product of all positive integers up to the number. Thus 4! = 4\\times3\\times2\\times1. Option A omits the factor 1, option C is a sum, and option D is exponentiation, none of which define factorial.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "A password consists of 3 distinct digits selected from 0‑9 and arranged in a specific order. How many possible passwords are there?",
+      "options": {
+        "A": "720",
+        "B": "504",
+        "C": "120",
+        "D": "90"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "The number of ordered selections of 3 distinct digits from 10 is a permutation: 10P3 = 10\\times9\\times8 = 720. Option A matches this calculation; the other options correspond to different counts (e.g., combinations or fewer digits).",
+      "difficulty": "easy"
+    }
+  ]
+}

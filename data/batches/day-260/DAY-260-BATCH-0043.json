@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "LU-01104-25",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Which of the following statements correctly defines the factorial of a positive integer n?",
+      "options": {
+        "A": "n! is the product of all positive integers from 1 to n",
+        "B": "n! is the sum of all integers from 1 to n",
+        "C": "n! equals n multiplied by (n-1) only",
+        "D": "n! is the product of all even numbers up to n"
+      },
+      "correct_option": "A",
+      "answer": "n! is the product of all positive integers from 1 to n",
+      "explanation": "The factorial n! is defined as 1×2×3×…×n for n≥1, and by convention 0! =1. Option A states this definition exactly. Option B describes a sum, not a product. Option C omits the remaining factors, and Option D restricts to even numbers, which is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01104-26",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "In a scenario where you have to arrange zero distinct objects in a line, how many different arrangements are possible?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "n (where n is the number of objects)",
+        "D": "Not defined"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Even when there are no objects, there is exactly one way to arrange them – the empty arrangement. By definition 0! = 1, which represents this single possibility. Hence option B is correct; the other options misinterpret the concept.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01104-27",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "What is the value of \\(\\dfrac{7!}{5!}\\)?",
+      "options": {
+        "A": "42",
+        "B": "35",
+        "C": "7",
+        "D": "5040"
+      },
+      "correct_option": "A",
+      "answer": "42",
+      "explanation": "7! = 7×6×5!; dividing by 5! cancels the 5! leaving 7×6 = 42. Option A is correct. Option B (35) would result from 7×5, option C ignores the factor 6, and option D is the value of 7! itself.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01104-28",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "Which of the following real‑world situations is counted by the expression 5!?",
+      "options": {
+        "A": "Choosing 5 objects out of a set of 5 without regard to order",
+        "B": "Arranging 5 distinct books on a shelf",
+        "C": "Selecting 5 objects with replacement from a set of 5",
+        "D": "Distributing 5 identical balls into 5 distinct boxes"
+      },
+      "correct_option": "B",
+      "answer": "Arranging 5 distinct books on a shelf",
+      "explanation": "5! equals the number of permutations of 5 distinct items, i.e., the number of possible orderings. Arranging 5 distinct books on a shelf is exactly such a permutation, so option B is correct. Option A describes a combination (which would be 1), option C involves repetitions, and option D is a stars‑and‑bars problem, none of which equal 5!.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "LU-01104-29",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Define factorial",
+      "question": "Select the statement that correctly defines factorial for any non‑negative integer n:",
+      "options": {
+        "A": "n! = n × (n‑1) × … × 1 for n≥1 and 0! = 1",
+        "B": "n! = n + (n‑1) + … + 1",
+        "C": "n! = product of all odd numbers up to n",
+        "D": "n! = nⁿ"
+      },
+      "correct_option": "A",
+      "answer": "n! = n × (n‑1) × … × 1 for n≥1 and 0! = 1",
+      "explanation": "The factorial function multiplies all positive integers up to n, with the special convention that 0! = 1. Option A states this precisely. Options B, C, and D describe unrelated operations (sum, odd‑product, and exponentiation).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01104-30",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Use 0! = 1",
+      "question": "What is the value of \\(\\displaystyle\\sum_{k=0}^{3} k!\\)?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "Compute each term: 0! = 1, 1! = 1, 2! = 2, 3! = 6. Their sum is 1+1+2+6 = 10. Hence option B is correct. The other options result from incorrect addition or omission of the 0! term.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01104-31",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Simplify factorial expressions",
+      "question": "Simplify \\(\\dfrac{6!}{4!\\,2!}\\) and give its numerical value.",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "20",
+        "D": "30"
+      },
+      "correct_option": "B",
+      "answer": "15",
+      "explanation": "6! = 720, 4! = 24, 2! = 2. So \\(\\dfrac{720}{24\\times2}=\\dfrac{720}{48}=15\\). Option B matches this result. The other options are results of common arithmetic mistakes such as forgetting to multiply the denominator or mis‑cancelling factors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01104-32",
+      "learning_unit_id": "LU-01104",
+      "learning_point": "Relate factorial notation to counting",
+      "question": "How many different ways can 4 distinct books be arranged on a shelf?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "6",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "The number of permutations of 4 distinct items is 4! = 4×3×2×1 = 24. Therefore option B is correct. Option A would be 4! /2, option C is 3!, and option D is just the count of items, none of which represent the total arrangements.",
+      "difficulty": "easy"
+    }
+  ]
+}
