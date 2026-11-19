@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0061",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many ways can 6 persons be seated around a round table if two particular persons must not sit next to each other?",
+      "options": {
+        "A": "48",
+        "B": "60",
+        "C": "72",
+        "D": "84"
+      },
+      "correct_option": "C",
+      "answer": "72",
+      "explanation": "Total circular arrangements of 6 people = (6‑1)! = 120. Treat the two particular persons as a block; then we have 5 objects around the circle, giving (5‑1)! = 24 arrangements, and the two can be ordered in 2 ways, so 24×2 = 48 arrangements where they sit together. Subtracting from the total, 120‑48 = 72 arrangements where they are not adjacent.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A locker has four distinct coloured keys. In how many different orders can the keys be placed on a hook?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "24",
+      "explanation": "A permutation is an ordered arrangement of distinct objects. For 4 distinct keys, the number of permutations is 4! = 4×3×2×1 = 24.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which expression correctly gives the number of ways to arrange r objects selected from n distinct objects?",
+      "options": {
+        "A": "\\u2113Cr = \\frac{n!}{r!(n-r)!}",
+        "B": "\\u2113Pr = \\frac{n!}{(n-r)!}",
+        "C": "\\frac{n!}{r!(n-r)!}",
+        "D": "\\frac{(n+r)!}{n!\\,r!}"
+      },
+      "correct_option": "B",
+      "answer": "\\u2113Pr = \\frac{n!}{(n-r)!}",
+      "explanation": "The permutation formula nPr counts ordered selections: nPr = n!/(n‑r)!. Option A is the combination formula (order not considered). Options C and D are incorrect variations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "How many 5‑letter strings can be formed using the letters A, B, C, D, E without repetition?",
+      "options": {
+        "A": "60",
+        "B": "120",
+        "C": "24",
+        "D": "720"
+      },
+      "correct_option": "B",
+      "answer": "120",
+      "explanation": "All 5 distinct letters are to be arranged, so the number of permutations is 5! = 5×4×3×2×1 = 120. The other options correspond to incorrect factorial values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Five different books are to be placed on a shelf. Two particular books must not be placed together. In how many permissible arrangements can the books be placed?",
+      "options": {
+        "A": "48",
+        "B": "72",
+        "C": "96",
+        "D": "108"
+      },
+      "correct_option": "B",
+      "answer": "72",
+      "explanation": "Total arrangements of 5 books = 5! = 120. Treat the two restricted books as a block: then we have 4 objects, giving 4! = 24 arrangements, and the two books can be ordered in 2 ways, so 24×2 = 48 arrangements where they are together. Subtracting, 120‑48 = 72 arrangements where they are separated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Eight students are to be seated around a circular table. Two particular students must have exactly one person sitting between them. How many distinct seatings are possible?",
+      "options": {
+        "A": "720",
+        "B": "1440",
+        "C": "5040",
+        "D": "10080"
+      },
+      "correct_option": "B",
+      "answer": "1440",
+      "explanation": "Fix one of the two particular students to remove circular symmetry. The other must be two seats away, giving 2 possible positions. Choose the person who sits between them: 6 choices. Arrange the remaining 5 students in the remaining 5 seats: 5! = 120 ways. Total = 2×6×120 = 1440.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "In combinatorics, a permutation of n distinct objects is best described as:",
+      "options": {
+        "A": "Selection of r objects without regard to order",
+        "B": "An arrangement of all n objects in a specific order",
+        "C": "Grouping of objects into subsets",
+        "D": "Counting the number of ways to choose objects"
+      },
+      "correct_option": "B",
+      "answer": "An arrangement of all n objects in a specific order",
+      "explanation": "A permutation refers to an ordered arrangement of objects. Option B captures this definition; the other options describe combinations, subsets, or counting selections, not ordered arrangements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "The number of permutations of r objects chosen from n distinct objects is given by nPr = ?",
+      "options": {
+        "A": "\\frac{n!}{(n-r)!}",
+        "B": "\\frac{n!}{r!(n-r)!}",
+        "C": "\\binom{n}{r}\\times r!",
+        "D": "\\frac{(n+r)!}{n!\\,r!}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{n!}{(n-r)!}",
+      "explanation": "Deriving nPr: choose the first object in n ways, the second in (n‑1) ways, continuing until r objects are placed, giving n×(n‑1)×…×(n‑r+1) = n!/(n‑r)!. Options B and C are the combination formula, and D is unrelated.",
+      "difficulty": "easy"
+    }
+  ]
+}

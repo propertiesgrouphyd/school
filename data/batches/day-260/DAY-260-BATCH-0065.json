@@ -1,0 +1,78 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "Which of the following expressions correctly gives the number of permutations of r objects chosen from n distinct objects (order matters)?",
+      "options": {
+        "A": "n!/(n‑r)!",
+        "B": "n!·r!",
+        "C": "nCr",
+        "D": "n!/(r!)"
+      },
+      "correct_option": "A",
+      "answer": "n!/(n‑r)!",
+      "explanation": "The formula for permutations of r objects from n distinct objects is nPr = n! / (n‑r)!. Option A matches this formula. Option B multiplies factorials incorrectly, Option C is the combination formula, and Option D divides by r! which gives nCr, not nPr.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "How many different ways can 5 distinct books be arranged on a single shelf?",
+      "options": {
+        "A": "20",
+        "B": "60",
+        "C": "120",
+        "D": "720"
+      },
+      "correct_option": "C",
+      "answer": "120",
+      "explanation": "Arranging 5 distinct items in a line is a permutation of 5 objects: 5! = 5 × 4 × 3 × 2 × 1 = 120. Hence option C is correct. The other numbers correspond to incorrect factorial values or unrelated calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Six friends are to be seated in a row. In how many arrangements is it ensured that friends A and B are not seated together?",
+      "options": {
+        "A": "240",
+        "B": "360",
+        "C": "480",
+        "D": "600"
+      },
+      "correct_option": "C",
+      "answer": "480",
+      "explanation": "Total permutations of 6 people = 6! = 720. Treat A and B as a single block to count the arrangements where they sit together: 5! ways to arrange the block with the other 4 people, and 2! ways to order A and B within the block, giving 5! × 2 = 240. Subtracting from the total, arrangements where A and B are not together = 720 – 240 = 480, which is option C.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Eight persons are to be seated around a round table. Two particular persons, X and Y, must sit opposite each other. How many distinct seating arrangements satisfy this condition?",
+      "options": {
+        "A": "360",
+        "B": "720",
+        "C": "1440",
+        "D": "5040"
+      },
+      "correct_option": "B",
+      "answer": "720",
+      "explanation": "For circular arrangements, we fix one person to eliminate rotational symmetry. Fix X at any seat; Y must then occupy the seat directly opposite, which is uniquely determined. The remaining 6 persons can be arranged in the remaining 6 seats in 6! = 720 ways. Hence the total number of valid arrangements is 720, option B. Option D is the total arrangements without any restriction, while A and C are incorrect multiples.",
+      "difficulty": "hard"
+    }
+  ]
+}

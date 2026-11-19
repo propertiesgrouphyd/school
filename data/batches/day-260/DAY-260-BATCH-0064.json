@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0064",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Which of the following scenarios yields the largest number of possible arrangements of the letters of the word \"BANANA\"?",
+      "options": {
+        "A": "Arrange the letters so that no two N's are together.",
+        "B": "Arrange the letters without any restriction.",
+        "C": "Arrange the letters so that all A's are together.",
+        "D": "Arrange the letters so that the first letter is B."
+      },
+      "correct_option": "B",
+      "answer": "Arrange the letters without any restriction.",
+      "explanation": "When no restriction is imposed (option B) every permutation of the multiset is allowed, giving the maximum count. Any restriction (options A, C, D) eliminates some permutations, so they can never exceed the unrestricted total.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many ways can 6 students be seated around a circular table if two particular students must not sit next to each other?",
+      "options": {
+        "A": "48",
+        "B": "60",
+        "C": "72",
+        "D": "84"
+      },
+      "correct_option": "C",
+      "answer": "72",
+      "explanation": "Total circular arrangements of 6 people = (6‑1)! = 120. Treat the two particular students as a block: (5‑1)! × 2 = 24 × 2 = 48 arrangements where they sit together. Subtracting gives 120 − 48 = 72 arrangements where they are not adjacent.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "Which of the following best defines a permutation of n distinct objects taken r at a time?",
+      "options": {
+        "A": "A selection of r objects where order does not matter.",
+        "B": "An ordered arrangement of r objects selected from n distinct objects.",
+        "C": "The number of ways to divide n objects into r groups.",
+        "D": "A combination of n objects taken r at a time."
+      },
+      "correct_option": "B",
+      "answer": "An ordered arrangement of r objects selected from n distinct objects.",
+      "explanation": "A permutation counts arrangements where the order of the selected objects matters, unlike combinations where order is ignored. Hence option B is the correct definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "The number of permutations of n distinct objects taken r at a time, denoted by nPr, is given by which expression?",
+      "options": {
+        "A": "n!/(n‑r)!",
+        "B": "n!/r!",
+        "C": "nCr × r!",
+        "D": "(n+r)!/n!"
+      },
+      "correct_option": "A",
+      "answer": "n!/(n‑r)!",
+      "explanation": "Choosing r positions from n in order gives n × (n‑1) × … × (n‑r+1) = n!/(n‑r)!. This is the standard formula for nPr, matching option A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "If 5 different books are to be arranged on a shelf, how many permutations are possible, and how does this differ from the number of combinations of 5 books taken 3 at a time?",
+      "options": {
+        "A": "Permutations = 120; combinations = 10; permutations consider order, combinations do not.",
+        "B": "Permutations = 60; combinations = 20; permutations consider order, combinations do not.",
+        "C": "Permutations = 120; combinations = 20; permutations consider order, combinations consider order.",
+        "D": "Permutations = 60; combinations = 10; permutations ignore order, combinations consider order."
+      },
+      "correct_option": "A",
+      "answer": "Permutations = 120; combinations = 10; permutations consider order, combinations do not.",
+      "explanation": "Arranging 5 distinct books gives 5! = 120 permutations. Choosing any 3 of the 5 without regard to order gives 5C3 = 10 combinations. The key difference is that permutations count ordered arrangements, while combinations do not.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "In how many ways can the letters of the word \"PROBLEM\" be arranged so that the letters P and R are never together?",
+      "options": {
+        "A": "3600",
+        "B": "4320",
+        "C": "5040",
+        "D": "720"
+      },
+      "correct_option": "A",
+      "answer": "3600",
+      "explanation": "All letters are distinct, so total permutations = 7! = 5040. Treat P and R as a block: 6! × 2! = 720 × 2 = 1440 arrangements where they are together. Subtracting gives 5040 − 1440 = 3600 arrangements where P and R are separated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Eight people are to be seated around a round table. If two particular persons must sit opposite each other, how many distinct arrangements are possible?",
+      "options": {
+        "A": "720",
+        "B": "1440",
+        "C": "5040",
+        "D": "360"
+      },
+      "correct_option": "A",
+      "answer": "720",
+      "explanation": "Fix one of the two particular persons to break rotational symmetry. The opposite seat is then fixed for the second person. The remaining 6 people can be arranged in 6! = 720 ways. Hence 720 distinct circular arrangements satisfy the condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A password consists of 4 distinct digits chosen from 0‑9. Which statement correctly describes the number of possible passwords?",
+      "options": {
+        "A": "It is the number of permutations of 10 digits taken 4 at a time, i.e., 10P4.",
+        "B": "It is the number of combinations of 10 digits taken 4 at a time, i.e., 10C4.",
+        "C": "It is 10^4 because digits can repeat.",
+        "D": "It is 4! because order does not matter."
+      },
+      "correct_option": "A",
+      "answer": "It is the number of permutations of 10 digits taken 4 at a time, i.e., 10P4.",
+      "explanation": "Since the digits must be distinct and the order in the password matters, the count is the number of ordered selections of 4 digits from 10, which is 10P4 = 10 × 9 × 8 × 7 = 5040. Options B, C, and D describe different situations.",
+      "difficulty": "medium"
+    }
+  ]
+}

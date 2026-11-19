@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0062",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "Which of the following expressions correctly gives the number of permutations of selecting 3 objects from 5 distinct objects?",
+      "options": {
+        "A": "5C3",
+        "B": "5P3",
+        "C": "5! / 3!",
+        "D": "3!"
+      },
+      "correct_option": "B",
+      "answer": "5P3",
+      "explanation": "A permutation counts ordered selections. The number of ways to arrange 3 objects out of 5 is denoted by 5P3 and equals 5!/(5-3)! = 60. Option A is a combination (order ignored), C is incorrect because the denominator should be (5-3)!, and D is just 3! which does not involve the 5 objects.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Five persons A, B, C, D and E are to be seated in a row. A and B must not sit together. How many possible arrangements are there?",
+      "options": {
+        "A": "48",
+        "B": "72",
+        "C": "96",
+        "D": "120"
+      },
+      "correct_option": "B",
+      "answer": "72",
+      "explanation": "Total arrangements of 5 persons =5! =120. Treat A and B as a block to count the forbidden arrangements: 4! ways to arrange the block with the other three persons, and the block can be ordered in 2 ways, giving 4!×2 =48. Subtracting from total, allowed arrangements =120‑48 =72. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many distinct ways can 6 people be seated around a round table? (Rotations are considered the same.)",
+      "options": {
+        "A": "120",
+        "B": "720",
+        "C": "60",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "120",
+      "explanation": "For circular permutations, one position is fixed to eliminate rotational symmetry. Thus the number of arrangements is (n‑1)! = (6‑1)! =5! =120. The other options correspond to linear permutations or incorrect factorials.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "Which statement best defines a permutation?",
+      "options": {
+        "A": "Selection of objects where order does not matter",
+        "B": "Arrangement of objects where order matters",
+        "C": "Number of ways to divide objects into groups",
+        "D": "Choosing objects with replacement"
+      },
+      "correct_option": "B",
+      "answer": "Arrangement of objects where order matters",
+      "explanation": "A permutation is an ordered arrangement of distinct objects; the order in which the objects appear is important. Option A describes a combination, C describes partitioning, and D describes selections with replacement, none of which capture the essence of permutations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "The number of ways to arrange r objects out of n distinct objects is given by nPr = n!/(n‑r)!. A student mistakenly uses the formula nCr = n!/[r!(n‑r)!] for this purpose. Which of the following explains why this is incorrect?",
+      "options": {
+        "A": "Because nCr does not consider the order of selection",
+        "B": "Because nCr counts arrangements with repetitions",
+        "C": "Because nCr is always larger than nPr",
+        "D": "Because nCr uses the factorial of n twice"
+      },
+      "correct_option": "A",
+      "answer": "Because nCr does not consider the order of selection",
+      "explanation": "The combination formula nCr counts selections where order is irrelevant. Permutations require order, so the extra factor r! in the denominator of nCr removes the ordering information, making it unsuitable for counting permutations. The other options describe unrelated issues.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "Four distinct books are to be placed on a shelf. Two particular books must be together. In how many ways can the books be arranged?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "6",
+        "D": "48"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Treat the two books that must stay together as a single block. Then we have 3 items (the block + the other two books) to arrange: 3! =6 ways. Within the block, the two books can be ordered in 2! =2 ways. Total arrangements =6×2 =12. The other options either ignore the restriction or double‑count.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Which statement is correct regarding the number of arrangements of 5 distinct persons in a row?",
+      "options": {
+        "A": "The number of arrangements where A sits to the left of B equals the number where A sits to the right of B",
+        "B": "The number of arrangements where A sits to the left of B is greater than the number where A does not sit next to B",
+        "C": "The number of arrangements where A does not sit next to B is half of the total arrangements",
+        "D": "The number of arrangements where A sits to the left of B equals the number where A does not sit next to B"
+      },
+      "correct_option": "A",
+      "answer": "The number of arrangements where A sits to the left of B equals the number where A sits to the right of B",
+      "explanation": "For any arrangement of 5 people, swapping A and B produces a unique counterpart where their relative left‑right positions are reversed. Hence exactly half of the 5! =120 total arrangements have A left of B (60) and the other half have A right of B (60). The other statements are false: 60 is not greater than 72 (arrangements where A is not adjacent to B), not half of 120, and not equal to 72.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "Eight people are to be seated around a circular table. Two particular persons must not sit together. How many possible seatings are there? (Rotations considered identical)",
+      "options": {
+        "A": "3600",
+        "B": "5040",
+        "C": "1440",
+        "D": "720"
+      },
+      "correct_option": "A",
+      "answer": "3600",
+      "explanation": "Total circular arrangements of 8 people = (8‑1)! =5040. To count the forbidden arrangements where the two specific persons sit together, treat them as a block: we then have 7 items around the circle, giving (7‑1)! =720 arrangements, and the block can be ordered in 2 ways, so forbidden =720×2 =1440. Allowed arrangements =5040‑1440 =3600, which is option A.",
+      "difficulty": "hard"
+    }
+  ]
+}

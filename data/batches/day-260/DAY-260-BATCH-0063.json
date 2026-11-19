@@ -1,0 +1,150 @@
+{
+  "day": 260,
+  "batch_id": "DAY-260-BATCH-0063",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "What is the definition of a permutation of n distinct objects?",
+      "options": {
+        "A": "An arrangement of all n objects in a specific order",
+        "B": "A selection of some objects without regard to order",
+        "C": "A combination of n objects taken r at a time",
+        "D": "A circular arrangement where rotations are considered the same"
+      },
+      "correct_option": "A",
+      "answer": "An arrangement of all n objects in a specific order",
+      "explanation": "A permutation refers to an ordered arrangement of objects. Hence, arranging all n distinct objects in a particular sequence is the definition of a permutation. Options B and C ignore order, and D describes a special case of circular permutations, not the general definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "The number of permutations of r objects chosen from n distinct objects (nPr) is given by which of the following formulas?",
+      "options": {
+        "A": "n! / (n - r)!",
+        "B": "n × (n - 1) × … × (n - r + 1)",
+        "C": "(n + r)! / n!",
+        "D": "r! / (n - r)!"
+      },
+      "correct_option": "A",
+      "answer": "n! / (n - r)!",
+      "explanation": "nPr counts ordered selections of r objects from n. The derivation starts with n choices for the first position, (n‑1) for the second, and so on, giving the product n × (n‑1) × … × (n‑r+1). This product equals n! divided by (n‑r)!. Option A expresses this compactly. Option B is equivalent but the question asks for the formula; A is the standard notation. Options C and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "In how many ways can 5 distinct books be arranged on a single shelf?",
+      "options": {
+        "A": "5P5 = 5! = 120",
+        "B": "5C5 = 1",
+        "C": "5! / (5 - 5)! = 120",
+        "D": "5C2 = 10"
+      },
+      "correct_option": "A",
+      "answer": "5P5 = 5! = 120",
+      "explanation": "Arranging all 5 books is a permutation of 5 objects taken 5 at a time, which equals 5! = 120. Option C gives the same numerical value but repeats the formula; Option A directly states the permutation notation, making it the best answer. Options B and D refer to combinations, which ignore order.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Handle arrangements with restrictions",
+      "question": "Four different letters are to be arranged in a row. If the letter A must occupy the first position, how many distinct arrangements are possible?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Fixing A at the first position leaves 3 letters to arrange freely. The number of ways to arrange these 3 letters is 3! = 6. Hence, only 6 complete arrangements satisfy the restriction. Options B and C count extra unrestricted permutations, while D is too small.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Solve circular arrangement problems at the required level",
+      "question": "In how many different ways can 6 people be seated around a round table, where rotations of the same seating are considered identical?",
+      "options": {
+        "A": "720",
+        "B": "120",
+        "C": "60",
+        "D": "36"
+      },
+      "correct_option": "B",
+      "answer": "120",
+      "explanation": "For circular arrangements, one position can be fixed to eliminate rotational symmetry. Thus, the number of distinct seatings is (n‑1)! = (6‑1)! = 5! = 120. Option A is the linear permutation count (6!), Option C is (6‑2)!, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Define permutation",
+      "question": "A locker has three distinct keys labeled A, B, and C. The keys are to be placed on a hook in a line. Which concept best describes this situation?",
+      "options": {
+        "A": "Permutation of 3 distinct objects",
+        "B": "Combination of 3 objects taken 2 at a time",
+        "C": "Circular permutation of 3 objects",
+        "D": "Repeated arrangement with identical objects"
+      },
+      "correct_option": "A",
+      "answer": "Permutation of 3 distinct objects",
+      "explanation": "Placing the three distinct keys in a line creates an ordered arrangement, which is precisely a permutation of 3 distinct objects (3! = 6 possible orders). Option B ignores order, Option C would apply only if the arrangement were circular, and Option D is irrelevant because the objects are distinct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Derive nPr",
+      "question": "A student writes: “The number of ways to arrange 3 books out of 5 is 5C3 = 10.” Which statement correctly addresses the mistake?",
+      "options": {
+        "A": "Arrangements consider order, so the correct count is 5P3 = 60.",
+        "B": "Combinations already consider order, so 5C3 = 10 is correct.",
+        "C": "Both permutations and combinations give the same value for this case.",
+        "D": "The total number of possible orders of all 5 books is 5! = 120."
+      },
+      "correct_option": "A",
+      "answer": "Arrangements consider order, so the correct count is 5P3 = 60.",
+      "explanation": "Permutations count ordered selections, while combinations ignore order. Selecting 3 books out of 5 and arranging them yields 5P3 = 5!/(5‑3)! = 60. The student's use of 5C3 (which equals 10) neglects ordering, so option A corrects the misconception. Options B and C are false, and D, although true, does not answer the specific question.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01105",
+      "learning_point": "Calculate permutations",
+      "question": "Four different letters are to be arranged in a row such that the letter X must always appear at the last position. How many permissible permutations are there?",
+      "options": {
+        "A": "6",
+        "B": "24",
+        "C": "12",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Fixing X at the last position leaves three remaining letters to arrange freely. The number of ways to arrange these three letters is 3! = 6. Hence, only 6 permutations satisfy the condition. Option B counts all unrestricted permutations, while C and D are incorrect counts.",
+      "difficulty": "medium"
+    }
+  ]
+}
