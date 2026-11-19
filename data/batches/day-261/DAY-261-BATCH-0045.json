@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Using the binomial expansion up to the term containing x, what is the approximate value of (1 + 0.05)^3?",
+      "options": {
+        "A": "1.15",
+        "B": "1.1576",
+        "C": "1.16",
+        "D": "1.14"
+      },
+      "correct_option": "A",
+      "answer": "1.15",
+      "explanation": "The binomial expansion of (1 + x)^3 is 1 + 3x + 3x^2 + x^3. Keeping only the first two terms (the constant term and the term linear in x) gives 1 + 3(0.05) = 1.15. This is the required approximation. Options B, C and D either include higher‑order terms or are unrelated values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "Which of the following statements about the number of terms retained in a binomial approximation is correct?",
+      "options": {
+        "A": "Retaining more terms always reduces the approximation error.",
+        "B": "Retaining fewer terms gives a better approximation.",
+        "C": "The number of terms does not affect the accuracy of the approximation.",
+        "D": "Only the first term is ever needed for a useful approximation."
+      },
+      "correct_option": "A",
+      "answer": "Retaining more terms always reduces the approximation error.",
+      "explanation": "Each additional term of the binomial series accounts for higher‑order contributions of x, thereby bringing the series closer to the exact value. Hence, more terms decrease the error. Options B, C and D contradict this principle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which statement correctly distinguishes an estimate obtained by binomial expansion from an exact evaluation?",
+      "options": {
+        "A": "An estimate uses a truncated series, while an exact evaluation includes all infinite terms.",
+        "B": "An estimate is always larger than the exact value.",
+        "C": "An estimate can be obtained only for integer exponents.",
+        "D": "An estimate gives the same result as direct calculation."
+      },
+      "correct_option": "A",
+      "answer": "An estimate uses a truncated series, while an exact evaluation includes all infinite terms.",
+      "explanation": "When we apply the binomial theorem for approximation, we stop after a few terms, producing an estimate. The exact value would require the complete infinite series (or direct calculation). Options B, C and D are false statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "For which of the following expressions is the binomial approximation likely to be least accurate?",
+      "options": {
+        "A": "(1 + 0.02)^{5}",
+        "B": "(1 - 0.03)^{8}",
+        "C": "(1 + 0.5)^{3}",
+        "D": "(1 - 0.01)^{10}"
+      },
+      "correct_option": "C",
+      "answer": "(1 + 0.5)^{3}",
+      "explanation": "The binomial approximation works well when |x| is small (|x| << 1). In option C, x = 0.5, which is relatively large, so the truncated series will give a poor estimate. Options A, B and D have much smaller |x| values, leading to better approximations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Use the binomial expansion up to the linear term to approximate \\(\\sqrt{1.21}\\). Which answer is closest to the approximation?",
+      "options": {
+        "A": "1.105",
+        "B": "1.100",
+        "C": "1.150",
+        "D": "1.200"
+      },
+      "correct_option": "A",
+      "answer": "1.105",
+      "explanation": "Write \\(\\sqrt{1.21}= (1+0.21)^{1/2}\\). Using the first two terms of the binomial series: \\(1 + \\frac{1}{2}\\times0.21 = 1 + 0.105 = 1.105\\). The exact value is 1.10, so 1.105 is the closest approximation among the options. Options B, C and D are either the exact value or far off.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate \\((1-0.02)^{10}\\) with an error less than 0.001, how many terms of the binomial expansion should be retained?",
+      "options": {
+        "A": "1 term",
+        "B": "2 terms",
+        "C": "3 terms",
+        "D": "4 terms"
+      },
+      "correct_option": "C",
+      "answer": "3 terms",
+      "explanation": "Using three terms: \\(1 + 10(-0.02) + \\frac{10\\times9}{2}(-0.02)^2 = 1 - 0.2 + 0.018 = 0.818\\). The exact value \\((0.98)^{10}\\) ≈ 0.817. The difference is about 0.001, satisfying the required accuracy. One or two terms give larger errors, while four terms are unnecessary for this precision.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "A student writes: “To find (1 + 2)^3, I can use the binomial expansion (1 + x)^3 and substitute x = 2, keeping only the first two terms, so the answer is 1 + 3·2 = 7.” Why is this reasoning incorrect?",
+      "options": {
+        "A": "Because the binomial expansion is only valid for |x| < 1.",
+        "B": "Because the first two terms give the exact value for any x.",
+        "C": "Because (1 + 2)^3 does not require approximation.",
+        "D": "Because the coefficient of the linear term is 2, not 3."
+      },
+      "correct_option": "A",
+      "answer": "Because the binomial expansion is only valid for |x| < 1.",
+      "explanation": "The binomial series used for approximation converges rapidly only when |x| is less than 1. Here x = 2, which violates that condition, so truncating after the linear term yields a large error. Option B is false (truncation is not exact), C is irrelevant, and D misstates the coefficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "Why does the binomial approximation become unreliable when the magnitude of x is not small?",
+      "options": {
+        "A": "Higher‑order terms, which are omitted, become comparable to the retained terms, increasing error.",
+        "B": "The binomial coefficients change sign, making the series divergent.",
+        "C": "The approximation formula switches from addition to multiplication.",
+        "D": "The value of n becomes undefined for large x."
+      },
+      "correct_option": "A",
+      "answer": "Higher‑order terms, which are omitted, become comparable to the retained terms, increasing error.",
+      "explanation": "When |x| is not small, the contributions from x^2, x^3, … are no longer negligible. Omitting them leads to a significant discrepancy between the truncated series and the true value. Options B, C and D describe unrelated or incorrect phenomena.",
+      "difficulty": "medium"
+    }
+  ]
+}

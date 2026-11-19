@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0041",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Using the binomial expansion, two approximations for (1+0.02)^5 are proposed: (i) retaining only the first two terms and (ii) retaining the first three terms. Which approximation is closer to the actual value?",
+      "options": {
+        "A": "Approximation (i) with two terms",
+        "B": "Approximation (ii) with three terms",
+        "C": "Both are equally close",
+        "D": "Neither is close"
+      },
+      "correct_option": "B",
+      "answer": "Approximation (ii) with three terms",
+      "explanation": "Including the third term adds 10·(0.02)^2 = 0.004 to the sum, reducing the error from about 0.0012 (two‑term result) to about 0.0002. Hence the three‑term approximation is noticeably more accurate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate (1+0.03)^7 with an absolute error less than 10⁻⁴, what is the minimum number of terms required in the binomial expansion (including the constant term)?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "The terms are 1, 0.21, 0.0189, 0.000945, 0.00002835, … The sum of the remaining terms after the fourth term is about 2.9×10⁻⁵, which is below 10⁻⁴. Using only three terms leaves an error of about 2.8×10⁻⁴, which is too large. Hence four terms are needed.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Using the binomial expansion up to the x² term, estimate (1+0.05)⁴.",
+      "options": {
+        "A": "1.215",
+        "B": "1.225",
+        "C": "1.200",
+        "D": "1.250"
+      },
+      "correct_option": "A",
+      "answer": "1.215",
+      "explanation": "(1+0.05)⁴ ≈ 1 + 4·0.05 + 6·0.05² = 1 + 0.20 + 0.015 = 1.215. The exact value is 1.215506…, so the estimate is accurate to three decimal places.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "The linear binomial approximation (1+x)ⁿ ≈ 1+nx is reliable only when:",
+      "options": {
+        "A": "|x| is very small (|x|<0.1) irrespective of n",
+        "B": "n is an integer and x can be any real number",
+        "C": "|x| is small and the product n|x| is also small",
+        "D": "x is positive"
+      },
+      "correct_option": "C",
+      "answer": "|x| is small and the product n|x| is also small",
+      "explanation": "Higher‑order terms are of order (n·x)², (n·x)³ …; if n|x| is not small, those terms are no longer negligible, making the linear approximation inaccurate.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Which statement correctly distinguishes the exact value of (1+0.1)³ from its binomial approximation using only the first two terms?",
+      "options": {
+        "A": "Exact value is 1.331, approximation is 1.3",
+        "B": "Exact value is 1.3, approximation is 1.331",
+        "C": "Both are the same",
+        "D": "Approximation gives 1.33, exact is 1.331"
+      },
+      "correct_option": "A",
+      "answer": "Exact value is 1.331, approximation is 1.3",
+      "explanation": "(1.1)³ = 1.331. Keeping only 1+3·0.1 gives 1.3, which omits the x² term (3·0.01 = 0.03) and higher terms, showing the difference between exact and truncated expansion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate √(1+0.02) using the binomial series (1+x)^{1/2}, what is the minimum number of terms (including the constant term) required to keep the error below 0.001?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "answer": "2",
+      "explanation": "(1+x)^{1/2} ≈ 1 + ½x – 1/8 x² … For x=0.02, the second term is 0.01 and the third term is –0.00005, already below 0.001. Thus keeping the first two terms gives an error less than 0.001.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Using the binomial expansion up to the x² term, estimate (0.98)⁵ (i.e., (1‑0.02)⁵).",
+      "options": {
+        "A": "0.904",
+        "B": "0.902",
+        "C": "0.910",
+        "D": "0.896"
+      },
+      "correct_option": "A",
+      "answer": "0.904",
+      "explanation": "(1‑0.02)⁵ ≈ 1 + 5(‑0.02) + 10(0.02)² = 1 – 0.10 + 0.004 = 0.904. The actual value is 0.90392…, confirming the estimate’s accuracy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "A student estimates (1+0.5)⁴ by keeping only the first two terms of the binomial expansion, obtaining 3. Which of the following best identifies the flaw in this approach?",
+      "options": {
+        "A": "Higher‑order terms are significant because x=0.5 is not small",
+        "B": "The exponent was used incorrectly",
+        "C": "A negative sign should have been used",
+        "D": "Binomial theorem cannot be applied to non‑integer exponents"
+      },
+      "correct_option": "A",
+      "answer": "Higher‑order terms are significant because x=0.5 is not small",
+      "explanation": "With x=0.5, the omitted terms (e.g., 6·0.5²=1.5, 4·0.5³=0.5, 0.5⁴=0.0625) are large, so truncating after the linear term gives a poor estimate. The error arises from using the approximation outside its range of validity.",
+      "difficulty": "medium"
+    }
+  ]
+}

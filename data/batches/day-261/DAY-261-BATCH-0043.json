@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Using the binomial expansion up to the term in x^2, approximate (1.02)^5. Which of the following is the closest value?",
+      "options": {
+        "A": "1.104",
+        "B": "1.102",
+        "C": "1.108",
+        "D": "1.100"
+      },
+      "correct_option": "A",
+      "answer": "1.104",
+      "explanation": "(1.02)^5 = (1+0.02)^5. Expanding up to x^2 gives 1 + 5(0.02) + 10(0.02)^2 = 1 + 0.10 + 0.004 = 1.104. This matches option A. The other options either omit the x^2 term or add extra terms incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate √(1.05) using the binomial series (1+x)^{1/2}, how many terms are required to guarantee an error less than 0.001?",
+      "options": {
+        "A": "1 term",
+        "B": "2 terms",
+        "C": "3 terms",
+        "D": "4 terms"
+      },
+      "correct_option": "C",
+      "answer": "3 terms",
+      "explanation": "Let x = 0.05. The series is 1 + (1/2)x – (1/8)x^2 + (1/16)x^3 … Using three terms gives 1 + 0.025 – 0.0003125 = 1.0246875, whose error from the true value 1.024695… is about 8×10⁻⁶, well below 0.001. Two terms give a larger error, so three terms are sufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which statement correctly explains why the binomial expansion is not suitable for directly estimating (1+0.9)^5?",
+      "options": {
+        "A": "The expansion gives the exact value because the exponent is an integer.",
+        "B": "Only the first two terms are needed for a good estimate.",
+        "C": "The expansion converges slowly because |x| = 0.9 is not less than 1.",
+        "D": "Rewriting the expression as (2-0.1)^5 solves the problem."
+      },
+      "correct_option": "C",
+      "answer": "The expansion converges slowly because |x| = 0.9 is not less than 1.",
+      "explanation": "The binomial series (1+x)^n converges rapidly only when |x|<1. Here x = 0.9, which is close to 1, so many terms are required for an accurate estimate, making the direct use impractical. Options A and B are false, and D does not address the convergence issue.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "If we approximate (1‑0.2)^3 using only the first two terms of the binomial expansion, what is the maximum possible error in the estimate?",
+      "options": {
+        "A": "0.112",
+        "B": "0.200",
+        "C": "0.050",
+        "D": "0.010"
+      },
+      "correct_option": "A",
+      "answer": "0.112",
+      "explanation": "Exact value: (0.8)^3 = 0.512. Using two terms: 1 + 3(‑0.2) = 1 – 0.6 = 0.4. Error = |0.512 – 0.4| = 0.112. The omitted term (3 choose 2)(‑0.2)^2 = 3·0.04 = 0.12, which explains the magnitude of the error. The other options underestimate the error.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Which approximation of (1+0.03)^4 is closer to the actual value?",
+      "options": {
+        "A": "Using only the first two terms (1 + 4x)",
+        "B": "Using the first three terms (1 + 4x + 6x^2)",
+        "C": "Both approximations are equally close",
+        "D": "Both approximations are far from the true value"
+      },
+      "correct_option": "B",
+      "answer": "Using the first three terms (1 + 4x + 6x^2)",
+      "explanation": "With x = 0.03, two‑term estimate = 1.12, three‑term estimate = 1.1254. The exact value is 1.125508… The three‑term result differs by about 0.0001, whereas the two‑term result differs by about 0.0055. Hence the three‑term approximation is closer. Options C and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "For (1+0.01)^{10}, how many terms of the binomial expansion are needed to obtain a value correct to five decimal places?",
+      "options": {
+        "A": "1 term",
+        "B": "2 terms",
+        "C": "3 terms",
+        "D": "4 terms"
+      },
+      "correct_option": "D",
+      "answer": "4 terms",
+      "explanation": "Expanding up to the x^3 term (four terms total) gives 1 + 0.10 + 0.0045 + 0.00012 = 1.10462, which matches the exact value 1.104622… when rounded to five decimal places. Using only three terms (up to x^2) yields 1.1045, which is not accurate to five decimal places. Hence four terms are required.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Estimate (1+0.05)^2 using the binomial formula. Choose the correct result.",
+      "options": {
+        "A": "1.1025",
+        "B": "1.10",
+        "C": "1.105",
+        "D": "1.09"
+      },
+      "correct_option": "A",
+      "answer": "1.1025",
+      "explanation": "(1+0.05)^2 = 1 + 2·0.05 + (0.05)^2 = 1 + 0.10 + 0.0025 = 1.1025. Option A matches this calculation; the other options either ignore the x^2 term or round incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "Which condition must be satisfied for the binomial expansion to give a reliable approximation?",
+      "options": {
+        "A": "|x| < 1",
+        "B": "x > 0",
+        "C": "n must be an integer",
+        "D": "x can be any real number"
+      },
+      "correct_option": "A",
+      "answer": "|x| < 1",
+      "explanation": "The binomial series (1+x)^n converges rapidly and yields accurate approximations only when the absolute value of x is less than 1. Positive or negative x values are allowed as long as |x|<1. The other options are not sufficient conditions for reliability.",
+      "difficulty": "easy"
+    }
+  ]
+}
