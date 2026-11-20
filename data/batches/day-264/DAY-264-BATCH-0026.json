@@ -1,0 +1,78 @@
+{
+  "day": 264,
+  "batch_id": "DAY-264-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Understand foci",
+      "question": "Consider an ellipse with foci F₁ and F₂. Which of the following statements about the foci is true?",
+      "options": {
+        "A": "The distance between the two foci is equal to the length of the minor axis.",
+        "B": "The line segment joining the foci lies along the major axis, and its length is 2c where c² = a² – b².",
+        "C": "Each focus lies on the minor axis of the ellipse.",
+        "D": "The sum of the distances from any point on the ellipse to the two foci is equal to the length of the minor axis."
+      },
+      "correct_option": "B",
+      "answer": "The line segment joining the foci lies along the major axis, and its length is 2c where c² = a² – b².",
+      "explanation": "For an ellipse, the two foci are positioned on the major axis, symmetrically about the centre. The distance between them is 2c, where c² = a² – b² (a = semi‑major axis, b = semi‑minor axis). Option B states this correctly. Options A and C place the foci on the minor axis, which is false. Option D confuses the constant sum of distances (2a, the length of the major axis) with the minor axis length.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify major and minor axes",
+      "question": "The ellipse given by the equation \\(\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1\\) is plotted. Which statement correctly identifies its major and minor axes?",
+      "options": {
+        "A": "The major axis is along the y‑direction with length 6, and the minor axis is along the x‑direction with length 4.",
+        "B": "The major axis is along the x‑direction with length 6, and the minor axis is along the y‑direction with length 4.",
+        "C": "Both axes have equal length 5, so the curve is a circle.",
+        "D": "The major axis is along the x‑direction with length 4, and the minor axis is along the y‑direction with length 6."
+      },
+      "correct_option": "B",
+      "answer": "The major axis is along the x‑direction with length 6, and the minor axis is along the y‑direction with length 4.",
+      "explanation": "In the standard form \\(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1\\) with \\(a^{2}>b^{2}\\), the major axis lies along the x‑axis and its total length is 2a. Here \\(a^{2}=9\\) so \\(a=3\\) and the major axis length is 2a=6. \\(b^{2}=4\\) gives \\(b=2\\) and the minor axis length is 2b=4. Hence option B is correct. Options A and D swap the axes, and C incorrectly claims the curve is a circle (that would require a²=b²).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Use standard equation",
+      "question": "Two ellipses are given by (i) \\(\\frac{x^{2}}{25}+\\frac{y^{2}}{9}=1\\) and (ii) \\(\\frac{(x-1)^{2}}{16}+\\frac{(y+2)^{2}}{4}=1\\). Which statement correctly compares their eccentricities?",
+      "options": {
+        "A": "Ellipse (i) has a larger eccentricity than ellipse (ii).",
+        "B": "Ellipse (ii) has a larger eccentricity than ellipse (i).",
+        "C": "Both ellipses have the same eccentricity.",
+        "D": "Eccentricity cannot be compared without knowing the orientation of the axes."
+      },
+      "correct_option": "B",
+      "answer": "Ellipse (ii) has a larger eccentricity than ellipse (i).",
+      "explanation": "For ellipse (i): a²=25 (a=5), b²=9 (b=3) → c²=25‑9=16 → c=4 → e=c/a=4/5=0.8. For ellipse (ii): a²=16 (a=4), b²=4 (b=2) → c²=16‑4=12 → c=√12≈3.464 → e=√12/4≈0.866. Since 0.866 > 0.8, ellipse (ii) is more elongated, so its eccentricity is larger. Option B states this. Option A is opposite, C is false, and D is irrelevant because the standard form already gives the orientation (major axis along x).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify centre and eccentricity at the required level",
+      "question": "For the ellipse \\(\\frac{(x-2)^{2}}{16}+\\frac{(y+1)^{2}}{9}=1\\), determine its centre and eccentricity.",
+      "options": {
+        "A": "Centre (2, -1); eccentricity 3/5.",
+        "B": "Centre (2, -1); eccentricity \\(\\sqrt{7}/4\\).",
+        "C": "Centre (‑2, 1); eccentricity \\(\\sqrt{7}/4\\).",
+        "D": "Centre (‑2, 1); eccentricity 3/5."
+      },
+      "correct_option": "B",
+      "answer": "Centre (2, -1); eccentricity \\(\\sqrt{7}/4\\).",
+      "explanation": "The standard form \\(\\frac{(x-h)^{2}}{a^{2}}+\\frac{(y-k)^{2}}{b^{2}}=1\\) gives centre (h,k). Here h=2, k=‑1, so centre is (2,‑1). a²=16 → a=4, b²=9 → b=3. Eccentricity e = c/a where c² = a²‑b² = 16‑9 = 7, so c = √7 and e = √7/4. Option B matches both centre and eccentricity. Options A and D give the wrong eccentricity (3/5 corresponds to a different a,b), and C has the wrong centre sign.",
+      "difficulty": "hard"
+    }
+  ]
+}
