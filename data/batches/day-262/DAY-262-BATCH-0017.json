@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "The sum of the first 5 terms of an arithmetic progression is 150 and the common difference is 4. What is the first term?",
+      "options": {
+        "A": "22",
+        "B": "24",
+        "C": "20",
+        "D": "26"
+      },
+      "correct_option": "A",
+      "answer": "22",
+      "explanation": "For an AP, S_n = n/2[2a + (n-1)d]. Here n=5, d=4, S_5=150.\n150 = 5/2[2a + 4*4] => 150 = 2.5[2a + 16] => 2a + 16 = 60 => 2a = 44 => a = 22. Hence option A is correct. The other options do not satisfy the sum formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "Which of the following statements correctly defines an arithmetic progression?",
+      "options": {
+        "A": "A sequence in which the difference between consecutive terms is constant.",
+        "B": "A sequence where each term is obtained by multiplying the previous term by a fixed number.",
+        "C": "A sequence where each term equals the sum of the two preceding terms.",
+        "D": "A sequence whose terms are the squares of natural numbers."
+      },
+      "correct_option": "A",
+      "answer": "A sequence in which the difference between consecutive terms is constant.",
+      "explanation": "An arithmetic progression (AP) is characterized by a constant common difference between successive terms, which is exactly what option A states. Option B describes a geometric progression, C describes a Fibonacci‑type sequence, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "The sequence 3, 7, 11, 15, … is an arithmetic progression. What is its common difference?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "The common difference d = second term – first term = 7 – 3 = 4. All successive differences are 4, confirming the AP. Options A, B, and D give incorrect differences.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "In an AP, the first term is 5 and the common difference is 3. What is the 12th term?",
+      "options": {
+        "A": "38",
+        "B": "41",
+        "C": "35",
+        "D": "40"
+      },
+      "correct_option": "A",
+      "answer": "38",
+      "explanation": "The nth term formula is a_n = a + (n‑1)d. Substituting a = 5, d = 3, n = 12 gives a_12 = 5 + 11·3 = 5 + 33 = 38. Hence option A is correct; the other numbers result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Which of the following arithmetic progressions yields a larger sum of the first 10 terms?\n\nAP 1: a = 2, d = 3\nAP 2: a = 5, d = 1",
+      "options": {
+        "A": "AP 1",
+        "B": "AP 2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "AP 1",
+      "explanation": "Sum formula: S_n = n/2[2a + (n‑1)d].\nFor AP 1: S_10 = 10/2[4 + 9·3] = 5[4 + 27] = 5·31 = 155.\nFor AP 2: S_10 = 5[10 + 9·1] = 5·19 = 95.\nSince 155 > 95, AP 1 has the larger sum. Options B, C, D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "If the sum of the first 2n terms of an arithmetic progression is three times the sum of its first n terms, the common difference d equals:",
+      "options": {
+        "A": "a/n",
+        "B": "2a/(n+1)",
+        "C": "a/(2n)",
+        "D": "3a/n"
+      },
+      "correct_option": "B",
+      "answer": "2a/(n+1)",
+      "explanation": "Let a be the first term and d the common difference.\nS_n = n/2[2a+(n‑1)d]; S_{2n}= n[2a+(2n‑1)d].\nGiven S_{2n}=3S_n:\n n[2a+(2n‑1)d] = 3·n/2[2a+(n‑1)d]\n=> 2a+(2n‑1)d = (3/2)[2a+(n‑1)d]\n=> 4a+2(2n‑1)d = 3[2a+(n‑1)d]\n=> -2a + (n+1)d = 0\n=> d = 2a/(n+1).\nThus option B is correct; the other expressions do not satisfy the given condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "An arithmetic progression is:",
+      "options": {
+        "A": "A sequence in which the difference between consecutive terms is constant.",
+        "B": "A sequence in which the ratio between consecutive terms is constant.",
+        "C": "A sequence where each term equals the sum of the two preceding terms.",
+        "D": "A sequence of perfect squares."
+      },
+      "correct_option": "A",
+      "answer": "A sequence in which the difference between consecutive terms is constant.",
+      "explanation": "By definition, an AP has a constant common difference. Option B describes a geometric progression, C describes a Fibonacci‑type sequence, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "In the arithmetic progression 12, 17, 22, …, what is the common difference?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "answer": "5",
+      "explanation": "Common difference d = 17 – 12 = 5. The same difference appears between 22 and 17. Hence option C is correct; the other numbers are not the difference between successive terms.",
+      "difficulty": "easy"
+    }
+  ]
+}

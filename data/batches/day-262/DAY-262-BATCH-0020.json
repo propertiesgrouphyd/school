@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Two arithmetic progressions are given: AP1 has first term 2 and common difference 3, AP2 has first term 5 and common difference 1. For n = 10, which AP has the larger sum of its first 10 terms?",
+      "options": {
+        "A": "AP1",
+        "B": "AP2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "AP1",
+      "explanation": "Sum of first n terms of an AP: S_n = n/2[2a + (n-1)d]. For AP1: S = 10/2[2*2 + 9*3] = 5[4+27] = 155. For AP2: S = 5[2*5 + 9*1] = 5[10+9] = 95. Since 155 > 95, AP1 has the larger sum.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "The sum of the first n terms of an arithmetic progression is 495. The first term is 5 and the common difference is 4. Find n.",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "answer": "15",
+      "explanation": "Using S_n = n/2[2a + (n-1)d] gives S_n = n/2[10 + 4(n-1)] = n(2n+3). Setting n(2n+3)=495 leads to 2n^2+3n-495=0. Solving, n = (-3 + 63)/4 = 15. Hence n = 15.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "Which of the following statements correctly defines an arithmetic progression (AP)?",
+      "options": {
+        "A": "A sequence in which each term after the first is obtained by adding a constant difference to the preceding term.",
+        "B": "A sequence in which each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+        "C": "A sequence consisting of the squares of natural numbers.",
+        "D": "A sequence where each term is the factorial of its position."
+      },
+      "correct_option": "A",
+      "answer": "A sequence in which each term after the first is obtained by adding a constant difference to the preceding term.",
+      "explanation": "An arithmetic progression is characterized by a constant common difference d, so each successive term equals the previous term plus d. Option B describes a geometric progression, while C and D describe unrelated sequences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "In the arithmetic progression 7, 12, 17, …, what is the common difference?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "The common difference d = second term – first term = 12 – 7 = 5. The same difference appears between any two consecutive terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "An arithmetic progression has first term a = 4 and common difference d = 6. What is the 8th term?",
+      "options": {
+        "A": "40",
+        "B": "44",
+        "C": "46",
+        "D": "48"
+      },
+      "correct_option": "C",
+      "answer": "46",
+      "explanation": "The nth term formula is a_n = a + (n‑1)d. Substituting a = 4, d = 6, n = 8 gives a_8 = 4 + 7·6 = 4 + 42 = 46.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Find the sum of the first 20 terms of the arithmetic progression whose first term is 3 and common difference is 2.",
+      "options": {
+        "A": "380",
+        "B": "400",
+        "C": "420",
+        "D": "440"
+      },
+      "correct_option": "D",
+      "answer": "440",
+      "explanation": "Using S_n = n/2[2a + (n‑1)d] with n = 20, a = 3, d = 2: S = 20/2[6 + 19·2] = 10[6 + 38] = 10·44 = 440.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "A person saves Rs. 500 in the first month and then saves Rs. 100 more each subsequent month. After how many complete months will the total savings first exceed Rs. 15,000?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "15"
+      },
+      "correct_option": "C",
+      "answer": "14",
+      "explanation": "Savings form an AP with a = 500, d = 100. Sum after n months: S_n = n/2[2·500 + (n‑1)·100] = 50n^2 + 450n. Solve 50n^2 + 450n > 15,000 → n^2 + 9n - 300 > 0. The positive root of the equality is ≈13.4, so the smallest integer n satisfying the inequality is 14 months.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "In a staircase, the height of the first step is 10 cm and each subsequent step is 3 cm higher than the previous one. Which statement correctly describes the sequence of step heights?",
+      "options": {
+        "A": "The heights form a geometric progression.",
+        "B": "The heights form an arithmetic progression with first term 10 cm and common difference 3 cm.",
+        "C": "The heights are random and have no pattern.",
+        "D": "The heights form an arithmetic progression with first term 3 cm and common difference 10 cm."
+      },
+      "correct_option": "B",
+      "answer": "The heights form an arithmetic progression with first term 10 cm and common difference 3 cm.",
+      "explanation": "Each step height increases by the same amount (3 cm), so the sequence follows the definition of an arithmetic progression: a_1 = 10 cm, d = 3 cm. Option A describes a geometric progression, while C and D are incorrect descriptions.",
+      "difficulty": "medium"
+    }
+  ]
+}

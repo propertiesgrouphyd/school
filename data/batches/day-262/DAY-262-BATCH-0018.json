@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "In an arithmetic progression, which formula correctly gives the nth term?",
+      "options": {
+        "A": "a + (n-1)d",
+        "B": "a + nd",
+        "C": "nd",
+        "D": "an + d"
+      },
+      "correct_option": "A",
+      "answer": "a + (n-1)d",
+      "explanation": "The nth term of an AP is given by T_n = a + (n-1)d, where a is the first term and d is the common difference. Option B adds an extra d, C omits the first term, and D misplaces the variables.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "The first term of an AP is 3 and the common difference is 2. What is the sum of the first 5 terms?",
+      "options": {
+        "A": "35",
+        "B": "30",
+        "C": "40",
+        "D": "25"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "The first five terms are 3, 5, 7, 9, 11. Their sum is 3+5+7+9+11 = 35. Using the formula S_n = n/2[2a+(n-1)d] also gives 5/2[6+8] = 35. The other options are incorrect sums.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "A person saves $100 in the first month and increases the saving by $20 each subsequent month. How much does the person save in the first 6 months?",
+      "options": {
+        "A": "$900",
+        "B": "$800",
+        "C": "$1000",
+        "D": "$750"
+      },
+      "correct_option": "A",
+      "answer": "$900",
+      "explanation": "The savings form an AP with a = 100, d = 20, n = 6. Sum S_6 = 6/2[2·100 + (6-1)·20] = 3[200 + 100] = 3·300 = 900. Hence the total saved is $900. Other options result from mis‑applying the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "Which of the following sequences is an arithmetic progression?",
+      "options": {
+        "A": "2, 5, 8, 11, ...",
+        "B": "3, 6, 12, 24, ...",
+        "C": "1, 4, 9, 16, ...",
+        "D": "5, 5, 5, 5, ..."
+      },
+      "correct_option": "A",
+      "answer": "2, 5, 8, 11, ...",
+      "explanation": "An AP has a constant difference between consecutive terms. In option A the difference is 3, so it is an AP. Option B is geometric (ratio 2), C consists of perfect squares, and D has zero difference which is a degenerate AP but the most typical example is A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "The common difference of an arithmetic progression can be found by which of the following methods?",
+      "options": {
+        "A": "Subtracting any term from its preceding term",
+        "B": "Dividing the sum of the first two terms by 2",
+        "C": "Multiplying the first term by the number of terms",
+        "D": "Adding the first and last term"
+      },
+      "correct_option": "A",
+      "answer": "Subtracting any term from its preceding term",
+      "explanation": "In an AP, the difference between consecutive terms is constant; thus d = T_{k} - T_{k-1}. Options B, C, and D describe unrelated operations and are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "In an AP, the 3rd term is 7 and the 7th term is 19. What is the 10th term?",
+      "options": {
+        "A": "28",
+        "B": "31",
+        "C": "25",
+        "D": "34"
+      },
+      "correct_option": "A",
+      "answer": "28",
+      "explanation": "Let d be the common difference. Between the 3rd and 7th terms there are 4 steps, so d = (19‑7)/4 = 3. The first term a = 7 – 2d = 7 – 6 = 1. The 10th term = a + 9d = 1 + 9·3 = 28. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Which expression correctly gives the sum S_n of the first n terms of an arithmetic progression with first term a and common difference d?",
+      "options": {
+        "A": "S_n = \\frac{n}{2}\\bigl[2a + (n-1)d\\bigr]",
+        "B": "S_n = n\\bigl[a + (n-1)d\\bigr]",
+        "C": "S_n = \\frac{n}{2}\\bigl[a + nd\\bigr]",
+        "D": "S_n = \\frac{n+1}{2}\\bigl[2a + (n-1)d\\bigr]"
+      },
+      "correct_option": "A",
+      "answer": "S_n = \\frac{n}{2}\\bigl[2a + (n-1)d\\bigr]",
+      "explanation": "The standard sum formula for an AP is S_n = n/2[2a + (n-1)d]. Option B omits the division by 2, C uses nd instead of (n-1)d, and D incorrectly uses (n+1)/2. Therefore A is the correct expression.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "In an arithmetic progression, the sum of the first 5 terms is 150 and the sum of the first 10 terms is 450. What is the 12th term of the progression?",
+      "options": {
+        "A": "84",
+        "B": "90",
+        "C": "78",
+        "D": "96"
+      },
+      "correct_option": "A",
+      "answer": "84",
+      "explanation": "Let a be the first term and d the common difference.\nS_5 = 5/2[2a + 4d] = 150 ⇒ 2a + 4d = 60 ⇒ a + 2d = 30 …(1)\nS_10 = 10/2[2a + 9d] = 5[2a + 9d] = 450 ⇒ 2a + 9d = 90 ⇒ a + 4.5d = 45 …(2)\nSubtract (1) from (2): 2.5d = 15 ⇒ d = 6.\nFrom (1): a = 30 – 2d = 30 – 12 = 18.\nThe 12th term = a + 11d = 18 + 66 = 84.\nThus option A is correct; the other options arise from arithmetic errors.",
+      "difficulty": "hard"
+    }
+  ]
+}
