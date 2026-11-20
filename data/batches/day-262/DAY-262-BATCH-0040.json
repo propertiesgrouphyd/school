@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01113-MCQ-001",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following correctly represents the sum of the first n natural numbers using sigma notation?",
+      "options": {
+        "A": "\\(\\displaystyle \\sum_{k=1}^{n} k\\)",
+        "B": "\\(\\displaystyle \\sum_{k=0}^{n} (k+1)\\)",
+        "C": "\\(\\displaystyle \\sum_{k=1}^{n} (k-1)\\)",
+        "D": "\\(\\displaystyle \\sum_{k=2}^{n+1} k\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\displaystyle \\sum_{k=1}^{n} k\\)",
+      "explanation": "The standard sigma notation for adding the first n natural numbers starts the index at 1 and ends at n, giving \\(\\sum_{k=1}^{n} k\\). Options B, C and D are algebraically equivalent but use a shifted index; the most direct representation is option A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01113-MCQ-002",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "What is the sum of the first n odd natural numbers?",
+      "options": {
+        "A": "n²",
+        "B": "n(n+1)",
+        "C": "2n",
+        "D": "n(n-1)"
+      },
+      "correct_option": "A",
+      "answer": "n²",
+      "explanation": "The series of odd numbers is 1, 3, 5, …, (2n‑1). Its sum is given by the formula \\(1+3+5+\\dots+(2n-1)=n^{2}\\). The other options correspond to different arithmetic sums.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01113-MCQ-003",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Which statement correctly distinguishes a sequence from a series?",
+      "options": {
+        "A": "A sequence is an ordered list of terms; a series is the sum of those terms.",
+        "B": "A sequence is the sum of terms; a series is an ordered list.",
+        "C": "Both terms refer to the same mathematical object.",
+        "D": "A sequence is always infinite, while a series is always finite."
+      },
+      "correct_option": "A",
+      "answer": "A sequence is an ordered list of terms; a series is the sum of those terms.",
+      "explanation": "A sequence lists elements one after another (e.g., 2, 5, 8,…). When we add the terms of a sequence we obtain a series (e.g., 2+5+8+…). Options B, C, and D misstate the definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-01113-MCQ-004",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "The nth term of a sequence is given by \\(a_n = 3n + 2\\). What is the sum of the first 5 terms of this sequence?",
+      "options": {
+        "A": "55",
+        "B": "60",
+        "C": "50",
+        "D": "45"
+      },
+      "correct_option": "A",
+      "answer": "55",
+      "explanation": "First five terms: \\(a_1=5, a_2=8, a_3=11, a_4=14, a_5=17\\). Adding them: \\(5+8+11+14+17 = 55\\). The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-01113-MCQ-005",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Express the sum of the squares of the first n natural numbers using sigma notation.",
+      "options": {
+        "A": "\\(\\displaystyle \\sum_{k=1}^{n} k^{2}\\)",
+        "B": "\\(\\displaystyle \\sum_{k=0}^{n} k^{2}\\)",
+        "C": "\\(\\displaystyle \\sum_{k=1}^{n} (k+1)^{2}\\)",
+        "D": "\\(\\displaystyle \\sum_{k=1}^{n} 2k\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\displaystyle \\sum_{k=1}^{n} k^{2}\\)",
+      "explanation": "The standard notation for adding squares from 1² up to n² starts the index at 1 and ends at n, giving \\(\\sum_{k=1}^{n} k^{2}\\). Option B includes the extra term 0² (which is zero but changes the index), while C and D represent different expressions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01113-MCQ-006",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "In a competition, points awarded each round form an arithmetic progression: 5, 8, 11, … . What is the total number of points after 10 rounds?",
+      "options": {
+        "A": "185",
+        "B": "190",
+        "C": "180",
+        "D": "200"
+      },
+      "correct_option": "A",
+      "answer": "185",
+      "explanation": "First term \\(a=5\\), common difference \\(d=3\\), number of terms \\(n=10\\). Sum \\(S_n = \\frac{n}{2}[2a+(n-1)d] = \\frac{10}{2}[10+27] = 5\\times37 = 185\\). The other options arise from mis‑applying the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01113-MCQ-007",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "A geometric series has first term \\(a=2\\) and common ratio \\(r=1\\). What is the sum of its first 4 terms?",
+      "options": {
+        "A": "8",
+        "B": "2",
+        "C": "4",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "answer": "8",
+      "explanation": "When \\(r=1\\), every term equals the first term: 2, 2, 2, 2. Sum = 2+2+2+2 = 8. A common mistake is to use the formula \\(S_n = a\\frac{1-r^{n}}{1-r}\\) which is undefined for \\(r=1\\); instead we add the constant terms directly. Options B, C, D are results of mis‑using the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01113-MCQ-008",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "If a sequence is defined by \\(a_n = n^{2}\\), what is the sum of the first three terms of the series formed by these terms?",
+      "options": {
+        "A": "14",
+        "B": "13",
+        "C": "15",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "14",
+      "explanation": "First three terms: \\(a_1=1^{2}=1\\), \\(a_2=2^{2}=4\\), \\(a_3=3^{2}=9\\). Their sum is \\(1+4+9 = 14\\). The other options result from omitting or mis‑adding one of the terms.",
+      "difficulty": "medium"
+    }
+  ]
+}

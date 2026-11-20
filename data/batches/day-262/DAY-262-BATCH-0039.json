@@ -1,0 +1,78 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97-LU-01112",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "The sequence 2, 6, 18, 54, … is a geometric progression. What is its common ratio?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "12",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "3",
+      "explanation": "In a geometric progression each term is obtained by multiplying the previous term by a constant called the common ratio (r). Here, 6 ÷ 2 = 3, 18 ÷ 6 = 3, and 54 ÷ 18 = 3, so the common ratio is 3. Option B, C, and D are incorrect because they are not the factor that relates consecutive terms; they may arise from confusing ratio with difference or higher powers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98-LU-01112",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "If the first term of a geometric progression is 4 and the common ratio is 3, what is the 5th term?",
+      "options": {
+        "A": "108",
+        "B": "324",
+        "C": "972",
+        "D": "2916"
+      },
+      "correct_option": "B",
+      "answer": "324",
+      "explanation": "The nth term of a GP is given by aₙ = a·r^(n‑1). Here a = 4, r = 3, n = 5, so a₅ = 4·3^(5‑1) = 4·3^4 = 4·81 = 324. Option A uses r^(n‑2), Option C uses r^(n) and Option D uses r^(n+1), all of which give larger values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99-LU-01112",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Consider two geometric progressions:\nGP1: first term a₁ = 2, common ratio r₁ = 3.\nGP2: first term a₂ = 5, common ratio r₂ = 2.\nFor n = 4, which progression has the larger sum of the first four terms?",
+      "options": {
+        "A": "GP1",
+        "B": "GP2",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "GP1",
+      "explanation": "Sum of first n terms of a GP: Sₙ = a (rⁿ – 1)/(r – 1) when r ≠ 1.\nFor GP1: S₄ = 2(3⁴ – 1)/(3 – 1) = 2(81 – 1)/2 = 80.\nFor GP2: S₄ = 5(2⁴ – 1)/(2 – 1) = 5(16 – 1) = 75.\nSince 80 > 75, GP1 has the larger sum. Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100-LU-01112",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "An infinite geometric progression has first term 8 and its sum to infinity is 12. What is the common ratio?",
+      "options": {
+        "A": "1/3",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "4/5"
+      },
+      "correct_option": "A",
+      "answer": "1/3",
+      "explanation": "For an infinite GP to have a finite sum, |r| < 1. The sum to infinity is S∞ = a/(1 – r). Here 12 = 8/(1 – r) ⇒ 1 – r = 8/12 = 2/3 ⇒ r = 1 – 2/3 = 1/3. Option A satisfies the condition |r| < 1. Options B, C, and D give larger values of r that would not satisfy the convergence condition or do not satisfy the equation.",
+      "difficulty": "hard"
+    }
+  ]
+}

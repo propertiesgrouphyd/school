@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Consider two geometric progressions: GP1 has first term a=2 and common ratio r=3; GP2 has first term a=5 and common ratio r=2. For a given positive integer n, which statement about the sum S_n of the first n terms is correct?",
+      "options": {
+        "A": "S_n(GP1) > S_n(GP2) for all n \\u2265 1",
+        "B": "S_n(GP1) = S_n(GP2) only for n=1",
+        "C": "S_n(GP1) < S_n(GP2) for all n \\u2265 1",
+        "D": "The comparison depends on n; for some n GP1 sum is larger and for others GP2 sum is larger"
+      },
+      "correct_option": "D",
+      "answer": "The comparison depends on n; for some n GP1 sum is larger and for others GP2 sum is larger",
+      "explanation": "The sum of the first n terms of a GP is S_n = a(r^n-1)/(r-1). For GP1 (a=2, r=3) and GP2 (a=5, r=2), S_n(GP1) < S_n(GP2) for small n (e.g., n=1,2,3) but because (3/2)^n grows, GP1 eventually overtakes GP2 (e.g., n=5). Hence the relationship changes with n, making option D correct. The other options claim a fixed relationship, which is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "A geometric progression has first term a and common ratio r. Which statement about its infinite sum is true?",
+      "options": {
+        "A": "The infinite sum exists only if |r|>1 and equals a/(1-r)",
+        "B": "The infinite sum exists only if |r|<1 and equals a/(1-r)",
+        "C": "The infinite sum exists for any r except r=1 and equals a/(1-r)",
+        "D": "The infinite sum exists only if r=0"
+      },
+      "correct_option": "B",
+      "answer": "The infinite sum exists only if |r|<1 and equals a/(1-r)",
+      "explanation": "An infinite geometric series converges only when the absolute value of the common ratio is less than 1 (|r|<1). In that case the sum is S_\\infty = a/(1-r). Options A, C, and D give incorrect conditions or formulas, so B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "Which of the following best defines a geometric progression?",
+      "options": {
+        "A": "A sequence where each term after the first is obtained by adding a fixed number",
+        "B": "A sequence where each term after the first is obtained by multiplying the preceding term by a fixed non-zero constant",
+        "C": "A sequence where each term is the square of its position number",
+        "D": "A sequence where terms alternate between two fixed numbers"
+      },
+      "correct_option": "B",
+      "answer": "A sequence where each term after the first is obtained by multiplying the preceding term by a fixed non-zero constant",
+      "explanation": "In a geometric progression (GP) each term is obtained by multiplying the previous term by a constant called the common ratio (r). Option B captures this definition. Option A describes an arithmetic progression, while C and D are unrelated patterns.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "The sequence 4, 12, 36, ... is a geometric progression. What is its common ratio?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "In a GP, the common ratio r = second term / first term = 12/4 = 3. The same ratio holds for subsequent terms (36/12 = 3). Hence option B is correct; the other numbers do not satisfy the ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "In a geometric progression with first term 5 and common ratio 2, the nth term is given by:",
+      "options": {
+        "A": "5+2(n-1)",
+        "B": "5\\u00b72^{n-1}",
+        "C": "5\\u00b72n",
+        "D": "5n\\u00b72"
+      },
+      "correct_option": "B",
+      "answer": "5\\u00b72^{n-1}",
+      "explanation": "The nth term of a GP is a_n = a r^{n-1}. Here a=5 and r=2, so a_n = 5·2^{n-1}. Option B matches this formula. Option A is the formula for an arithmetic progression, while C and D are incorrect manipulations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Find the sum of the first 4 terms of the geometric progression with first term a=3 and common ratio r=2.",
+      "options": {
+        "A": "30",
+        "B": "45",
+        "C": "60",
+        "D": "75"
+      },
+      "correct_option": "B",
+      "answer": "45",
+      "explanation": "The terms are 3, 6, 12, 24. Their sum S_4 = 3+6+12+24 = 45. Using the formula S_n = a(r^n-1)/(r-1) gives S_4 = 3(2^4-1)/(2-1)=3(16-1)=45, confirming option B. The other options are incorrect sums.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "The series 8 + 4 + 2 + 1 + \\dots continues indefinitely. What is the sum of this infinite geometric series?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "This is a GP with a=8 and r=1/2. Since |r|<1, the infinite sum exists and equals S_\\infty = a/(1-r) = 8/(1-1/2) = 8/(1/2) = 16. Hence option C is correct; the other values result from incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "A ball is dropped from a height of 10 m and each bounce reaches half the height of the previous bounce. The heights form the sequence 10 m, 5 m, 2.5 m, ... Is this sequence a geometric progression?",
+      "options": {
+        "A": "Yes, because each term is obtained by adding a constant",
+        "B": "Yes, because each term is obtained by multiplying the previous term by a constant ratio",
+        "C": "No, because the ratio changes each bounce",
+        "D": "No, because the terms are not numbers"
+      },
+      "correct_option": "B",
+      "answer": "Yes, because each term is obtained by multiplying the previous term by a constant ratio",
+      "explanation": "Each successive height is half of the previous one, i.e., multiplied by the constant ratio r = 1/2. This satisfies the definition of a geometric progression. Option B correctly states this; option A describes an arithmetic progression, while C and D are false.",
+      "difficulty": "medium"
+    }
+  ]
+}
