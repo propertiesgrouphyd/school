@@ -1,0 +1,150 @@
+{
+  "day": 264,
+  "batch_id": "DAY-264-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify centre and eccentricity at the required level",
+      "question": "The ellipse is given by \\(\\frac{(x-3)^2}{16}+\\frac{(y+2)^2}{9}=1\\). Identify its centre and eccentricity.",
+      "options": {
+        "A": "Centre (3, -2), eccentricity = \\(\\frac{\\sqrt{7}}{4}\\)",
+        "B": "Centre (3, -2), eccentricity = \\(\\frac{3}{4}\\)",
+        "C": "Centre (-3, 2), eccentricity = \\(\\frac{\\sqrt{7}}{4}\\)",
+        "D": "Centre (3, -2), eccentricity = \\(\\frac{1}{2}\\)"
+      },
+      "correct_option": "A",
+      "answer": "Centre (3, -2), eccentricity = \\(\\frac{\\sqrt{7}}{4}\\)",
+      "explanation": "The given equation is of the form \\(\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1\\) with \\(h=3, k=-2, a^2=16, b^2=9\\). Hence the centre is (h,k) = (3, -2). Since \\(a>b\\), \\(a=4, b=3\\). The focal distance \\(c\\) satisfies \\(c^2 = a^2 - b^2 = 16-9 = 7\\), so \\(c = \\sqrt{7}\\). Eccentricity \\(e = c/a = \\sqrt{7}/4\\). Option A gives the correct centre and exact eccentricity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Define ellipse",
+      "question": "A point P moves such that the sum of its distances from the fixed points \\(F_1(-2,0)\\) and \\(F_2(2,0)\\) is constantly 10 units. Which curve does P trace?",
+      "options": {
+        "A": "Circle",
+        "B": "Parabola",
+        "C": "Ellipse",
+        "D": "Hyperbola"
+      },
+      "correct_option": "C",
+      "answer": "Ellipse",
+      "explanation": "By definition, an ellipse is the set of points for which the sum of distances from two fixed points (the foci) is a constant greater than the distance between the foci. Here the constant sum is 10, which is greater than the distance between \\((-2,0)\\) and \\((2,0)\\) (which is 4). Hence the locus is an ellipse. Options A, B, and D describe different loci.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Understand foci",
+      "question": "For the ellipse \\(\\frac{x^2}{25}+\\frac{y^2}{9}=1\\), which statement about its foci is correct?",
+      "options": {
+        "A": "The foci lie on the x‑axis at \\((\\pm4,0)\\).",
+        "B": "The foci lie on the y‑axis at \\((0,\\pm4)\\).",
+        "C": "Both foci coincide with the centre \\((0,0)\\).",
+        "D": "The foci lie on the x‑axis at \\((\\pm5,0)\\)."
+      },
+      "correct_option": "A",
+      "answer": "The foci lie on the x‑axis at \\((\\pm4,0)\\).",
+      "explanation": "For the given ellipse, \\(a^2=25\\) and \\(b^2=9\\) so \\(a=5\\), \\(b=3\\). The focal distance \\(c\\) satisfies \\(c^2 = a^2 - b^2 = 25-9 = 16\\), giving \\(c=4\\). Since the larger denominator is under \\(x^2\\), the major axis is along the x‑axis, placing the foci at \\((\\pm c,0) = (\\pm4,0)\\). Options B and D place the foci incorrectly, and option C confuses foci with the centre.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify major and minor axes",
+      "question": "For the ellipse \\(\\frac{x^2}{36}+\\frac{y^2}{64}=1\\), which statement is correct?",
+      "options": {
+        "A": "The major axis is along the x‑axis and its length is 12.",
+        "B": "The major axis is along the y‑axis and its length is 16.",
+        "C": "The minor axis is along the y‑axis and its length is 8.",
+        "D": "The minor axis is along the x‑axis and its length is 6."
+      },
+      "correct_option": "B",
+      "answer": "The major axis is along the y‑axis and its length is 16.",
+      "explanation": "The larger denominator determines the major axis. Here \\(64>36\\), so the major axis is along the y‑axis with \\(a^2=64\\) giving \\(a=8\\). The length of the major axis is \\(2a = 16\\). Hence option B is correct. Option A incorrectly assigns the major axis to x‑axis; options C and D give incorrect lengths for the minor axis.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Use standard equation",
+      "question": "Which of the following equations represents an ellipse with centre at the origin, its major axis along the x‑axis, and eccentricity \\(e = 0.6\\)?",
+      "options": {
+        "A": "\\(\\frac{x^2}{25}+\\frac{y^2}{16}=1\\)",
+        "B": "\\(\\frac{x^2}{16}+\\frac{y^2}{25}=1\\)",
+        "C": "\\(\\frac{x^2}{36}+\\frac{y^2}{16}=1\\)",
+        "D": "\\(\\frac{x^2}{16}+\\frac{y^2}{9}=1\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{x^2}{25}+\\frac{y^2}{16}=1\\)",
+      "explanation": "For an ellipse with major axis along x, let \\(a^2\\) be under \\(x^2\\) and \\(b^2\\) under \\(y^2\\). Eccentricity \\(e = c/a\\) where \\(c^2 = a^2 - b^2\\). Option A has \\(a^2=25\\) (so \\(a=5\\)) and \\(b^2=16\\) (\\(b=4\\)). Then \\(c = \\sqrt{25-16}=3\\) and \\(e = 3/5 = 0.6\\), matching the requirement. The other options give different eccentricities or swap the axes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify centre and eccentricity at the required level",
+      "question": "The ellipse \\(\\frac{(x+1)^2}{9}+\\frac{(y-2)^2}{4}=1\\) appears in a competitive exam. Determine its centre and eccentricity.",
+      "options": {
+        "A": "Centre \\((-1, 2)\\), eccentricity \\(\\frac{\\sqrt{5}}{3}\\)",
+        "B": "Centre \\((1, -2)\\), eccentricity \\(\\frac{\\sqrt{5}}{3}\\)",
+        "C": "Centre \\((-1, 2)\\), eccentricity \\(\\frac{2}{3}\\)",
+        "D": "Centre \\((-1, 2)\\), eccentricity \\(\\frac{1}{2}\\)"
+      },
+      "correct_option": "A",
+      "answer": "Centre \\((-1, 2)\\), eccentricity \\(\\frac{\\sqrt{5}}{3}\\)",
+      "explanation": "The given equation is of the form \\(\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1\\) with \\(h=-1, k=2, a^2=9, b^2=4\\). Hence the centre is \\((-1,2)\\). Since \\(a>b\\), \\(a=3, b=2\\). The focal distance \\(c = \\sqrt{a^2-b^2}=\\sqrt{9-4}=\\sqrt{5}\\). Eccentricity \\(e = c/a = \\sqrt{5}/3\\). Option A provides the correct centre and exact eccentricity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Define ellipse",
+      "question": "Which of the following best defines an ellipse?",
+      "options": {
+        "A": "The set of points whose sum of distances from two fixed points is constant.",
+        "B": "The set of points equidistant from a single fixed point.",
+        "C": "The set of points whose product of distances from two fixed points is constant.",
+        "D": "The set of points whose distance from a fixed line is constant."
+      },
+      "correct_option": "A",
+      "answer": "The set of points whose sum of distances from two fixed points is constant.",
+      "explanation": "An ellipse is precisely the locus of points for which the sum of distances to two fixed points (the foci) remains a constant value greater than the distance between the foci. Option B describes a circle, C describes a hyperbola, and D describes a parabola.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Understand foci",
+      "question": "An ellipse has \\(a = 5\\), \\(b = 3\\) and its major axis lies along the x‑axis with centre at the origin. What are the coordinates of its foci?",
+      "options": {
+        "A": "(±4, 0)",
+        "B": "(±\\sqrt{16}, 0)",
+        "C": "(0, ±4)",
+        "D": "(±5, 0)"
+      },
+      "correct_option": "A",
+      "answer": "(±4, 0)",
+      "explanation": "For an ellipse with major axis along the x‑axis, the focal distance \\(c\\) is given by \\(c = \\sqrt{a^2 - b^2}\\). Here \\(c = \\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = \\sqrt{16} = 4\\). Therefore the foci are at \\((\\pm c, 0) = (±4, 0)\\). Option B is algebraically the same as A but written differently; the standard answer format is (±4,0), making A the correct choice.",
+      "difficulty": "easy"
+    }
+  ]
+}

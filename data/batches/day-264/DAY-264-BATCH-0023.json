@@ -1,0 +1,150 @@
+{
+  "day": 264,
+  "batch_id": "DAY-264-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify major and minor axes",
+      "question": "In the standard form of an ellipse \\((x^2/a^2)+(y^2/b^2)=1\\) with \\(a>b\\), which statement correctly identifies the major and minor axes?",
+      "options": {
+        "A": "The major axis is the longer axis of length 2a along the x‑axis; the minor axis is the shorter axis of length 2b along the y‑axis.",
+        "B": "The major axis is the shorter axis of length 2b along the y‑axis; the minor axis is the longer axis of length 2a along the x‑axis.",
+        "C": "Both axes have equal length 2a and 2b respectively.",
+        "D": "The major axis is always vertical irrespective of a and b."
+      },
+      "correct_option": "A",
+      "answer": "The major axis is the longer axis of length 2a along the x‑axis; the minor axis is the shorter axis of length 2b along the y‑axis.",
+      "explanation": "For an ellipse in the form \\(x^2/a^2+y^2/b^2=1\\) with \\(a>b\\), the denominator under the x‑term is larger, so the ellipse stretches farther along the x‑direction. Hence the major axis lies along the x‑axis with total length \\(2a\\) and the minor axis lies along the y‑axis with length \\(2b\\). Options B, C and D contradict this definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Use standard equation",
+      "question": "An ellipse is centred at the origin, its major axis is 10 units long and its minor axis is 8 units long. Which of the following is its standard equation?",
+      "options": {
+        "A": "x^2/25 + y^2/16 = 1",
+        "B": "x^2/16 + y^2/25 = 1",
+        "C": "x^2/10 + y^2/8 = 1",
+        "D": "(x-5)^2/25 + (y-4)^2/16 = 1"
+      },
+      "correct_option": "A",
+      "answer": "x^2/25 + y^2/16 = 1",
+      "explanation": "The semi‑major axis \\(a\\) is half of 10, so \\(a=5\\); the semi‑minor axis \\(b\\) is half of 8, so \\(b=4\\). Substituting into \\(x^2/a^2 + y^2/b^2 =1\\) gives \\(x^2/25 + y^2/16 =1\\). Options B and C swap the denominators or use incorrect values, and D translates the centre away from the origin.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify centre and eccentricity at the required level",
+      "question": "For an ellipse whose foci are at \\((\\pm3,0)\\) and for which the sum of the distances from any point on the ellipse to the two foci equals 10, find its centre and eccentricity.",
+      "options": {
+        "A": "Centre (0,0) and eccentricity 0.6",
+        "B": "Centre (0,0) and eccentricity 0.8",
+        "C": "Centre (3,0) and eccentricity 0.6",
+        "D": "Centre (0,0) and eccentricity 0.3"
+      },
+      "correct_option": "A",
+      "answer": "Centre (0,0) and eccentricity 0.6",
+      "explanation": "The constant sum equals \\(2a\\), so \\(a=5\\). The distance of each focus from the centre is \\(c=3\\). Eccentricity \\(e=c/a=3/5=0.6\\). The centre is the midpoint of the foci, i.e., the origin. Options B, C, and D use wrong values for \\(e\\) or misplace the centre.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Define ellipse",
+      "question": "A point moves in the plane such that the sum of its distances from the fixed points \\((-2,0)\\) and \\((2,0)\\) is always 10 units. Which description best defines the curve traced by the point?",
+      "options": {
+        "A": "The curve is an ellipse.",
+        "B": "The curve is a hyperbola.",
+        "C": "The curve is a parabola.",
+        "D": "The curve is a circle."
+      },
+      "correct_option": "A",
+      "answer": "The curve is an ellipse.",
+      "explanation": "By definition, an ellipse is the set of points whose sum of distances to two fixed points (the foci) is constant. Here the foci are \\((-2,0)\\) and \\((2,0)\\) and the constant sum is 10, so the locus is an ellipse. The other conic sections correspond to different distance conditions: a hyperbola uses a constant difference, a parabola uses a constant distance to a focus and a directrix, and a circle uses equal distances to a single centre.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Understand foci",
+      "question": "True or False: In every ellipse, the distance between the two foci is greater than the length of the major axis.",
+      "options": {
+        "A": "True – the distance between the foci is always greater than the major axis.",
+        "B": "False – the distance between the foci is always less than the major axis.",
+        "C": "True – the distance between the foci equals the major axis.",
+        "D": "False – the distance between the foci can be greater or smaller depending on the ellipse."
+      },
+      "correct_option": "B",
+      "answer": "False – the distance between the foci is always less than the major axis.",
+      "explanation": "For an ellipse, the semi‑major axis \\(a\\) and the focal distance \\(c\\) satisfy \\(c<a\\). Hence the total distance between the foci is \\(2c\\) which is always less than the major axis length \\(2a\\). Therefore statement B is correct; the other options misstate the relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify major and minor axes",
+      "question": "Given the ellipse equation \\(9x^2 + 16y^2 = 144\\), determine which axis is the major axis and its total length.",
+      "options": {
+        "A": "The major axis is along the x‑axis and its length is 8 units.",
+        "B": "The major axis is along the y‑axis and its length is 8 units.",
+        "C": "The major axis is along the x‑axis and its length is 6 units.",
+        "D": "The major axis is along the y‑axis and its length is 6 units."
+      },
+      "correct_option": "A",
+      "answer": "The major axis is along the x‑axis and its length is 8 units.",
+      "explanation": "Dividing by 144 gives \\(x^2/16 + y^2/9 = 1\\). Here \\(a^2=16\\) (since it is the larger denominator) so \\(a=4\\). The major axis lies along the x‑direction and its total length is \\(2a = 8\\) units. Options B, C, and D either swap axes or use the wrong length.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Use standard equation",
+      "question": "Ellipse 1: \\(x^2/25 + y^2/9 = 1\\)\\nEllipse 2: \\(x^2/16 + y^2/4 = 1\\)\\nWhich ellipse has the larger area?",
+      "options": {
+        "A": "Ellipse 1 (x²/25 + y²/9 = 1) has the larger area.",
+        "B": "Ellipse 2 (x²/16 + y²/4 = 1) has the larger area.",
+        "C": "Both ellipses have equal area.",
+        "D": "Area cannot be compared without knowing the orientation."
+      },
+      "correct_option": "A",
+      "answer": "Ellipse 1 (x²/25 + y²/9 = 1) has the larger area.",
+      "explanation": "Area of an ellipse is \\(\\pi a b\\). For Ellipse 1, \\(a=5\\), \\(b=3\\) → area = \\(15\\pi\\). For Ellipse 2, \\(a=4\\), \\(b=2\\) → area = \\(8\\pi\\). Since \\(15\\pi > 8\\pi\\), Ellipse 1 is larger. Orientation does not affect area, so option D is irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify centre and eccentricity at the required level",
+      "question": "For the ellipse \\((x-2)^2/9 + (y+1)^2/16 = 1\\), determine its centre and eccentricity (expressed as a simplified radical).",
+      "options": {
+        "A": "Centre (2, –1) and eccentricity √7⁄4.",
+        "B": "Centre (2, –1) and eccentricity 1⁄2.",
+        "C": "Centre (–2, 1) and eccentricity √7⁄4.",
+        "D": "Centre (2, –1) and eccentricity √5⁄4."
+      },
+      "correct_option": "A",
+      "answer": "Centre (2, –1) and eccentricity √7⁄4.",
+      "explanation": "The centre is given by the translation \\((h,k) = (2, -1)\\). The larger denominator is 16, so \\(a^2 = 16\\) → \\(a = 4\\); the other denominator gives \\(b^2 = 9\\) → \\(b = 3\\). Focal distance \\(c = \\sqrt{a^2 - b^2} = \\sqrt{16-9} = \\sqrt{7}\\). Hence eccentricity \\(e = c/a = \\sqrt{7}/4\\). Options B and D use incorrect values for \\(c\\) or \\(e\\), and C misplaces the centre.",
+      "difficulty": "hard"
+    }
+  ]
+}
