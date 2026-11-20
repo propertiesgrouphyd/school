@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following expressions correctly represents the sum 1 + 2 + 3 + … + n using sigma (summation) notation?",
+      "options": {
+        "A": "Σ_{i=0}^{n} i",
+        "B": "Σ_{i=1}^{n} i",
+        "C": "Σ_{i=1}^{n-1} i",
+        "D": "Σ_{i=1}^{n} (i+1)"
+      },
+      "correct_option": "B",
+      "answer": "Σ_{i=1}^{n} i",
+      "explanation": "The standard way to write the sum of the first n natural numbers is Σ_{i=1}^{n} i. Option A starts at 0, which adds an unnecessary zero term; Option C stops at n‑1, missing the last term; Option D adds 1 to each term, giving a larger sum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "Which of the following statements correctly reasons why the sum of the first n odd numbers, 1 + 3 + 5 + … + (2n‑1), equals n²?",
+      "options": {
+        "A": "Pair each odd number with the next even number to form n pairs each summing to n+1.",
+        "B": "Σ_{k=1}^{n} (2k‑1) = 2 Σ_{k=1}^{n} k – Σ_{k=1}^{n} 1 = n(n+1) – n = n².",
+        "C": "Using the arithmetic‑series formula, sum = (n/2)(first term + last term) = (n/2)(1 + 2n) = n(n+1).",
+        "D": "The sum equals the number of terms multiplied by the average term, where the average term is (first + last)/2 = n+1, giving n(n+1)."
+      },
+      "correct_option": "B",
+      "answer": "Σ_{k=1}^{n} (2k‑1) = 2 Σ_{k=1}^{n} k – Σ_{k=1}^{n} 1 = n(n+1) – n = n².",
+      "explanation": "Option B correctly expands the series and uses the known formula Σ k = n(n+1)/2, leading to n². Options A, C, and D contain incorrect pairing or mis‑applied formulas, producing n(n+1) instead of n².",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Consider a sequence {a_n} and the series Σ a_n formed from its terms. Which statement correctly describes their relationship?",
+      "options": {
+        "A": "A sequence is the list of partial sums of a series; the series is the list of terms of the sequence.",
+        "B": "The nth term of a sequence is the same as the nth partial sum of its series.",
+        "C": "The series Σ a_n converges if and only if the sequence {a_n} tends to zero.",
+        "D": "The series Σ a_n is formed by adding the terms of the sequence {a_n}; the sequence of partial sums of this series is a new sequence."
+      },
+      "correct_option": "D",
+      "answer": "The series Σ a_n is formed by adding the terms of the sequence {a_n}; the sequence of partial sums of this series is a new sequence.",
+      "explanation": "Option D accurately states that a series is the sum of the terms of a given sequence, and the partial sums themselves constitute another sequence. Options A and B reverse the roles, while C is a necessary but not sufficient condition for convergence (the terms must tend to zero, but that alone does not guarantee convergence).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "Find the sum of the series S = 1·2 + 2·3 + 3·4 + … + n·(n+1).",
+      "options": {
+        "A": "n(n+1)(n+2) / 3",
+        "B": "n(n+1)(2n+1) / 6",
+        "C": "(n³ + 3n² + 2n) / 2",
+        "D": "n(n+1) / 2"
+      },
+      "correct_option": "A",
+      "answer": "n(n+1)(n+2) / 3",
+      "explanation": "Each term k(k+1) = k² + k. Summing from k=1 to n gives Σk² + Σk = n(n+1)(2n+1)/6 + n(n+1)/2 = n(n+1)[(2n+1)+3]/6 = n(n+1)(2n+4)/6 = n(n+1)(n+2)/3. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "What does the expression Σ_{k=1}^{5} k represent?",
+      "options": {
+        "A": "The product of the numbers 1 to 5.",
+        "B": "The sum 1 + 2 + 3 + 4 + 5.",
+        "C": "The sum 0 + 1 + 2 + 3 + 4.",
+        "D": "The average of the numbers 1 to 5."
+      },
+      "correct_option": "B",
+      "answer": "The sum 1 + 2 + 3 + 4 + 5.",
+      "explanation": "Σ_{k=1}^{5} k means add the values of k as k runs from 1 through 5, which yields 1+2+3+4+5 = 15. The other options describe different operations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "What is the sum of the first 10 natural numbers?",
+      "options": {
+        "A": "45",
+        "B": "55",
+        "C": "65",
+        "D": "75"
+      },
+      "correct_option": "B",
+      "answer": "55",
+      "explanation": "The sum of the first n natural numbers is n(n+1)/2. For n = 10, the sum is 10·11/2 = 55.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Which statement correctly distinguishes a sequence from a series?",
+      "options": {
+        "A": "A sequence is a sum of terms, while a series is an ordered list of terms.",
+        "B": "A sequence is an ordered list of terms; a series is the sum of the terms of a sequence.",
+        "C": "Both sequence and series refer to the same concept; the terms are interchangeable.",
+        "D": "A series lists terms in decreasing order, whereas a sequence lists them in increasing order."
+      },
+      "correct_option": "B",
+      "answer": "A sequence is an ordered list of terms; a series is the sum of the terms of a sequence.",
+      "explanation": "A sequence lists elements one after another (e.g., a₁, a₂, …). When we add those elements together we obtain a series. Options A, C, and D misstate the definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "Find the sum of the series 2 + 4 + 8 + 16 + 32.",
+      "options": {
+        "A": "60",
+        "B": "62",
+        "C": "64",
+        "D": "66"
+      },
+      "correct_option": "B",
+      "answer": "62",
+      "explanation": "The series is geometric with first term 2 and common ratio 2. Sum = a(rⁿ – 1)/(r – 1) = 2(2⁵ – 1)/(2 – 1) = 2(32 – 1) = 62.",
+      "difficulty": "easy"
+    }
+  ]
+}

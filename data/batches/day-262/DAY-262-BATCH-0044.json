@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following correctly represents the sum of the first n natural numbers using sigma (summation) notation?",
+      "options": {
+        "A": "\\u03a3_{k=1}^{n} k",
+        "B": "\\u03a3_{k=0}^{n} k",
+        "C": "\\u03a3_{k=1}^{n} (k+1)",
+        "D": "\\u03a3_{k=1}^{n} 2k"
+      },
+      "correct_option": "A",
+      "answer": "\\u03a3_{k=1}^{n} k",
+      "explanation": "Option A is the standard sigma notation for 1+2+...+n. Option B starts at k=0, which would add an extra zero term but is not the conventional form. Option C adds 1 to each term, giving the sum of 2 to n+1. Option D doubles each term, giving the sum of even numbers. Hence only A correctly represents the required sum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "Find the sum of the first 10 terms of the arithmetic series 3, 6, 9, … (common difference 3).",
+      "options": {
+        "A": "150",
+        "B": "165",
+        "C": "180",
+        "D": "195"
+      },
+      "correct_option": "B",
+      "answer": "165",
+      "explanation": "The nth term a_n = 3 + (n-1)·3. Using S_n = n/2[2a + (n-1)d] with n=10, a=3, d=3: S_10 = 10/2[2·3 + 9·3] = 5[6+27] = 5·33 = 165. The other options result from arithmetic errors in applying the formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "The sequence a_n = 2n‑1 (odd numbers) has its partial sums S_n. Which expression gives S_n?",
+      "options": {
+        "A": "n^2",
+        "B": "n(n+1)/2",
+        "C": "n(2n+1)/3",
+        "D": "(n+1)^2"
+      },
+      "correct_option": "A",
+      "answer": "n^2",
+      "explanation": "Adding the first n odd numbers yields 1+3+5+…+(2n‑1)=n^2, a well‑known result. Option B is the sum of the first n natural numbers, C is the sum of squares, and D does not correspond to any standard sum. Hence A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "A ball is dropped from a height of 2 m. After each impact it rebounds to half the previous height. After the 4th rebound (i.e., four up‑and‑down cycles) what total distance has the ball travelled?",
+      "options": {
+        "A": "5.5 m",
+        "B": "5.75 m",
+        "C": "6.0 m",
+        "D": "6.25 m"
+      },
+      "correct_option": "B",
+      "answer": "5.75 m",
+      "explanation": "Initial drop = 2 m. Each rebound adds twice the rebound height. Heights: 1, 0.5, 0.25, 0.125 m. Total = 2 + 2(1+0.5+0.25+0.125) = 2 + 2·1.875 = 2 + 3.75 = 5.75 m. Options A, C, D arise from omitting or mis‑counting the up‑down contributions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Identify the incorrect statement about sigma notation:",
+      "options": {
+        "A": "The expression \\u03a3_{i=1}^{n} i^2 includes the term i=0.",
+        "B": "The expression \\u03a3_{i=1}^{n} i^2 includes the terms i=1,2,…,n.",
+        "C": "The expression \\u03a3_{i=0}^{n} i^2 includes the term i=0.",
+        "D": "The expression \\u03a3_{i=1}^{n} i includes n terms."
+      },
+      "correct_option": "A",
+      "answer": "The expression \\u03a3_{i=1}^{n} i^2 includes the term i=0.",
+      "explanation": "Option A is false because the lower limit i=1 excludes i=0. Options B, C and D correctly describe the respective sigma expressions, so they are true. Recognising the limits prevents common off‑by‑one errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "Which of the following series has the sum \\u03a3_{k=1}^{n} k = n(n+1)/2?",
+      "options": {
+        "A": "\\u03a3_{k=1}^{n} k",
+        "B": "\\u03a3_{k=1}^{n} (2k-1)",
+        "C": "\\u03a3_{k=1}^{n} k^2",
+        "D": "\\u03a3_{k=1}^{n} (k+1)"
+      },
+      "correct_option": "A",
+      "answer": "\\u03a3_{k=1}^{n} k",
+      "explanation": "The sum of the first n natural numbers is given by n(n+1)/2, which corresponds exactly to option A. Option B sums the first n odd numbers (result n^2). Option C sums squares (n(n+1)(2n+1)/6). Option D equals n(n+3)/2, not the required formula. Hence A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Which statement correctly compares the sum formulas of an arithmetic series and a geometric series having the same first term a (a>0) and common ratio r (0<r<1)?",
+      "options": {
+        "A": "S_{arith}=\\frac{n}{2}[2a+(n-1)d] grows quadratically with n, while S_{geom}=a\\frac{1-r^{n}}{1-r} approaches the finite limit a/(1-r).",
+        "B": "S_{arith}=a\\frac{1-r^{n}}{1-r} and S_{geom}=\\frac{n}{2}[2a+(n-1)d]; both grow linearly with n.",
+        "C": "Both sums are given by the same formula \\frac{n}{2}[2a+(n-1)d].",
+        "D": "The geometric sum always exceeds the arithmetic sum for any n when 0<r<1."
+      },
+      "correct_option": "A",
+      "answer": "S_{arith}=\\frac{n}{2}[2a+(n-1)d] grows quadratically with n, while S_{geom}=a\\frac{1-r^{n}}{1-r} approaches the finite limit a/(1-r).",
+      "explanation": "Option A correctly states the standard formulas: arithmetic sum depends on n^2 (quadratic) whereas geometric sum approaches a finite limit as n→∞ because 0<r<1. Option B swaps the formulas, B is false. Option C incorrectly claims both series share the arithmetic formula. Option D is false because for 0<r<1 the geometric sum is bounded while the arithmetic sum can become larger as n increases. Hence A is the correct comparison.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "Find a closed‑form expression for S_n = \\u03a3_{k=1}^{n} k\\,2^{k}.",
+      "options": {
+        "A": "(n-1)2^{n+1}+2",
+        "B": "(n+1)2^{n}+2",
+        "C": "n\\,2^{n+1}",
+        "D": "2^{n+2}-2"
+      },
+      "correct_option": "A",
+      "answer": "(n-1)2^{n+1}+2",
+      "explanation": "Using the identity \\u03a3_{k=1}^{n} k r^{k}=\\frac{r-(n+1)r^{n+1}+n r^{n+2}}{(1-r)^{2}} with r=2, we obtain S_n = 2 - (n+1)2^{n+1}+n2^{n+2} = (n-1)2^{n+1}+2. Option A matches this result. Options B, C, D arise from incorrect manipulation of the formula or omission of terms, so they are not equal to the true sum.",
+      "difficulty": "hard"
+    }
+  ]
+}

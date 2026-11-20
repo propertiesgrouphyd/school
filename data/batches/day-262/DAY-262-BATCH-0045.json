@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following correctly represents the sum 1+2+3+\\dots +n using summation (sigma) notation?",
+      "options": {
+        "A": "\\sum_{k=1}^{n} k",
+        "B": "\\sum_{k=0}^{n} (k+1)",
+        "C": "\\sum_{k=1}^{n} (k-1)",
+        "D": "\\sum_{k=2}^{n} k"
+      },
+      "correct_option": "A",
+      "answer": "\\sum_{k=1}^{n} k",
+      "explanation": "The sigma notation \\sum_{k=1}^{n} k adds the term k as k runs from 1 to n, which gives exactly 1+2+3+\\dots +n. Option B also yields the same sum but is a less direct representation; the standard form is option A. The other options start or shift the index incorrectly, so they do not match the required series.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "What is the formula for the sum of the first n natural numbers?",
+      "options": {
+        "A": "\\frac{n(n+1)}{2}",
+        "B": "\\frac{n(n-1)}{2}",
+        "C": "\\frac{(n+1)(n+2)}{2}",
+        "D": "n^{2}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{n(n+1)}{2}",
+      "explanation": "The sum S = 1+2+\\dots +n equals n(n+1)/2, derived by pairing terms from opposite ends or using induction. Options B, C, and D are incorrect formulas for this sum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Which statement correctly distinguishes a sequence from a series?",
+      "options": {
+        "A": "A sequence is an ordered list of terms; a series is the sum of those terms.",
+        "B": "A series is an ordered list of terms; a sequence is the sum of those terms.",
+        "C": "Sequences and series are two names for the same mathematical object.",
+        "D": "A sequence involves multiplication of terms, while a series involves addition."
+      },
+      "correct_option": "A",
+      "answer": "A sequence is an ordered list of terms; a series is the sum of those terms.",
+      "explanation": "A sequence lists elements in a specific order (e.g., 2,4,6,…). When we add the terms of a sequence we obtain a series (e.g., 2+4+6+\\dots). Options B, C, and D misstate the definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "The nth term of an arithmetic sequence is given by a_n = 3n + 2. What is the sum of the first 5 terms of this sequence?",
+      "options": {
+        "A": "55",
+        "B": "60",
+        "C": "50",
+        "D": "45"
+      },
+      "correct_option": "A",
+      "answer": "55",
+      "explanation": "First five terms: a_1=5, a_2=8, a_3=11, a_4=14, a_5=17. Their sum =5+8+11+14+17=55. Options B‑D give incorrect totals.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Write the sum 1^{2}+2^{2}+3^{2}+\\dots +n^{2} in sigma notation.",
+      "options": {
+        "A": "\\sum_{k=1}^{n} k^{2}",
+        "B": "\\sum_{k=0}^{n} k^{2}",
+        "C": "\\sum_{k=1}^{n} (k+1)^{2}",
+        "D": "\\sum_{k=1}^{n} 2k"
+      },
+      "correct_option": "A",
+      "answer": "\\sum_{k=1}^{n} k^{2}",
+      "explanation": "The expression \\sum_{k=1}^{n} k^{2} adds the square of each integer k from 1 up to n, matching the given series. Option B starts at k=0, adding an extra 0^{2}=0, which is unnecessary but not standard. Options C and D represent different series.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "In a competition, the prize money starts at $500 in the first year and increases by $100 each subsequent year. What is the total prize money paid over the first 4 years?",
+      "options": {
+        "A": "$2600",
+        "B": "$2500",
+        "C": "$2400",
+        "D": "$2700"
+      },
+      "correct_option": "A",
+      "answer": "$2600",
+      "explanation": "The amounts form an arithmetic series: 500, 600, 700, 800. Sum = (4/2)\\times(500+800)=2\\times1300=2600. The other options result from incorrect addition or using a wrong formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Identify the false statement about sequences and series:",
+      "options": {
+        "A": "The sum of the first n terms of an arithmetic sequence can be found using \\frac{n}{2}(first\\;term+last\\;term).",
+        "B": "The series formed by adding the terms of a geometric sequence is itself a geometric sequence.",
+        "C": "A sequence lists individual terms, while a series adds those terms together.",
+        "D": "For any sequence, the sum of its terms up to n is called the nth partial sum."
+      },
+      "correct_option": "B",
+      "answer": "The series formed by adding the terms of a geometric sequence is itself a geometric sequence.",
+      "explanation": "Adding the terms of a geometric sequence yields a series whose partial sums do not follow a geometric progression; they follow a different pattern and are given by a separate formula. Hence statement B is false. Statements A, C, and D are correct definitions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "If a sequence is defined by a_n = 2^{n}, what is the sum of its first three terms?",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "8",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "14",
+      "explanation": "First three terms: a_1=2, a_2=4, a_3=8. Their sum =2+4+8=14. The other options correspond to incorrect addition or omission of a term.",
+      "difficulty": "medium"
+    }
+  ]
+}

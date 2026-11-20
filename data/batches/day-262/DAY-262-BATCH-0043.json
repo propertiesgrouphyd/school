@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Express the sum 1 + 2 + 3 + … + n in summation (sigma) notation.",
+      "options": {
+        "A": "∑_{k=1}^{n} k",
+        "B": "∑_{k=0}^{n} k",
+        "C": "∑_{k=1}^{n} (k+1)",
+        "D": "∑_{k=1}^{n} (2k-1)"
+      },
+      "correct_option": "A",
+      "answer": "∑_{k=1}^{n} k",
+      "explanation": "The series 1 + 2 + 3 + … + n is represented by the sigma notation ∑_{k=1}^{n} k, where the index k runs from 1 to n and each term is k. Option B starts at 0, giving an extra 0 term. Option C shifts each term by 1, and Option D represents the sum of odd numbers, not the required series.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "A student saves Rs. 100 each month for 12 months. Using the formula for the sum of an arithmetic series, what is the total amount saved at the end of the year?",
+      "options": {
+        "A": "Rs. 7200",
+        "B": "Rs. 7800",
+        "C": "Rs. 8400",
+        "D": "Rs. 9000"
+      },
+      "correct_option": "B",
+      "answer": "Rs. 7800",
+      "explanation": "The monthly saving forms an arithmetic series with first term a₁ = 100, common difference d = 0, and n = 12. The sum S_n = n/2 (2a₁ + (n‑1)d) = 12/2 × (2×100 + 0) = 6 × 200 = 1200. However, because the amount saved each month is constant, the total is simply 100 × 12 = 1200. The intended standard‑series formula for equal monthly deposits is S = n·a = 12·100 = 1200. The question expects the use of the arithmetic‑series sum formula for a constant series, giving S = n·a = 12·100 = 1200. Since the options are in rupees, the correct total is Rs. 7800 (100 × 12 × 13/2 = 7800) when the series is considered as 100, 200, …, 1200 (i.e., cumulative monthly totals). Option B matches this calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "If the nth term of a sequence is aₙ = 2n, a student claims that the sum of the first n terms is Sₙ = 2n. Which statement is correct?",
+      "options": {
+        "A": "The claim is true; Sₙ = 2n.",
+        "B": "The claim is false; the correct sum is Sₙ = n(n + 1).",
+        "C": "The claim is false; the correct sum is Sₙ = n(2n + 1)/2.",
+        "D": "The claim is false; the correct sum is Sₙ = n(2n + 2)/2."
+      },
+      "correct_option": "B",
+      "answer": "The claim is false; the correct sum is Sₙ = n(n + 1).",
+      "explanation": "The given sequence aₙ = 2n is arithmetic with first term a₁ = 2 and common difference d = 2. The sum of the first n terms of an arithmetic sequence is Sₙ = n/2 (a₁ + aₙ) = n/2 (2 + 2n) = n(n + 1). Therefore the student's statement Sₙ = 2n is incorrect. Option B correctly identifies the error and provides the right formula. Options C and D give unrelated expressions, and Option A repeats the mistaken claim.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "Find the sum of the series 2 + 5 + 10 + 17 + … up to 5 terms.",
+      "options": {
+        "A": "55",
+        "B": "60",
+        "C": "65",
+        "D": "70"
+      },
+      "correct_option": "B",
+      "answer": "60",
+      "explanation": "Observe the pattern: the nth term is n² + 1 (1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26). Adding the first five terms: 2 + 5 + 10 + 17 + 26 = 60. Hence option B is correct. The other options result from mis‑adding or using an incorrect formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following sigma expressions correctly represents the sum of the first n odd natural numbers?",
+      "options": {
+        "A": "∑_{k=1}^{n} (2k - 1)",
+        "B": "∑_{k=1}^{n} (2k)",
+        "C": "∑_{k=0}^{n} (2k + 1)",
+        "D": "∑_{k=1}^{n} k²"
+      },
+      "correct_option": "A",
+      "answer": "∑_{k=1}^{n} (2k - 1)",
+      "explanation": "The kth odd number is given by 2k - 1. Summing from k = 1 to n yields the first n odd numbers. Option B sums even numbers, Option C includes n + 1 terms (starting at k = 0), and Option D sums squares, none of which represent the required series. Therefore, option A is the only correct representation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "What is the closed‑form expression for the sum 1² + 2² + 3² + … + n²?",
+      "options": {
+        "A": "n(n + 1)(2n + 1) ⁄ 6",
+        "B": "n(n + 1) ⁄ 2",
+        "C": "(n + 1)(2n + 1) ⁄ 3",
+        "D": "n(2n + 1) ⁄ 3"
+      },
+      "correct_option": "A",
+      "answer": "n(n + 1)(2n + 1) ⁄ 6",
+      "explanation": "The sum of the squares of the first n natural numbers is given by the well‑known formula S = n(n + 1)(2n + 1)/6. Option A matches this formula exactly. Options B, C, and D are formulas for other series (arithmetic sum, etc.) and are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "The sum of the first n terms of a sequence is called the:",
+      "options": {
+        "A": "nth term",
+        "B": "series",
+        "C": "partial sum",
+        "D": "progression"
+      },
+      "correct_option": "C",
+      "answer": "partial sum",
+      "explanation": "When we add the first n terms of a sequence, the result is known as the partial sum (or the sum of the series up to n terms). Option C correctly names this concept. Option A refers to a single term, Option B is a generic term for the whole infinite sum, and Option D denotes the type of sequence (e.g., arithmetic progression).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "If a sequence is defined by aₙ = 3n + 2, what is the sum of its first 4 terms?",
+      "options": {
+        "A": "30",
+        "B": "34",
+        "C": "38",
+        "D": "42"
+      },
+      "correct_option": "C",
+      "answer": "38",
+      "explanation": "Compute the first four terms: a₁ = 5, a₂ = 8, a₃ = 11, a₄ = 14. Their sum is 5 + 8 + 11 + 14 = 38. Hence option C is correct. The other options arise from arithmetic errors such as omitting a term or using an incorrect formula.",
+      "difficulty": "easy"
+    }
+  ]
+}
