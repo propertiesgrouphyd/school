@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Using the binomial expansion, approximate (1 + 0.02)^5 by retaining only the first two terms. What is the approximate value?",
+      "options": {
+        "A": "1.10",
+        "B": "1.12",
+        "C": "1.08",
+        "D": "1.14"
+      },
+      "correct_option": "A",
+      "answer": "1.10",
+      "explanation": "The binomial expansion of (1 + x)^5 is 1 + 5x + 10x^2 + ... . Retaining only the first two terms gives 1 + 5(0.02) = 1 + 0.10 = 1.10. This truncated value is the required approximation. The other options correspond to adding extra terms or rounding incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate (1 + 0.05)^3 with an error less than 0.001, up to which term should the binomial expansion be retained?",
+      "options": {
+        "A": "Only the constant term",
+        "B": "Up to the x term",
+        "C": "Up to the x^2 term",
+        "D": "Up to the x^3 term"
+      },
+      "correct_option": "C",
+      "answer": "Up to the x^2 term",
+      "explanation": "Expanding (1 + x)^3 gives 1 + 3x + 3x^2 + x^3. With x = 0.05, the x^3 term contributes (0.05)^3 = 0.000125, which is less than 0.001. Keeping terms up to x^2 yields an error smaller than the required tolerance. Hence, retaining up to the x^2 term is sufficient. Options A and B give larger errors, while D is unnecessary.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which statement correctly distinguishes an approximation obtained by truncating the binomial series from the exact value of the expression?",
+      "options": {
+        "A": "An approximation always equals the exact value for any number of terms.",
+        "B": "The exact value can be obtained by using only the first term of the series.",
+        "C": "An approximation truncates the infinite series, giving a value close to but not exactly equal to the true value.",
+        "D": "The exact value cannot be expressed using the binomial theorem."
+      },
+      "correct_option": "C",
+      "answer": "An approximation truncates the infinite series, giving a value close to but not exactly equal to the true value.",
+      "explanation": "When the binomial series is stopped after a finite number of terms, the result is an approximation—it is close to the true value but not exact. Options A and B are false because truncation loses information, and D is false because the binomial theorem does give the exact value when all terms are included.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "For which of the following values of x is using only the first two terms of the expansion of (1 + x)^4 likely to give a poor approximation?",
+      "options": {
+        "A": "x = 0.1",
+        "B": "x = 0.5",
+        "C": "x = 0.01",
+        "D": "x = -0.05"
+      },
+      "correct_option": "B",
+      "answer": "x = 0.5",
+      "explanation": "The accuracy of a truncated binomial expansion depends on the magnitude of x. When |x| is small (e.g., 0.1, 0.01, -0.05), the first two terms give a reasonable estimate. For x = 0.5, the higher‑order terms become significant, so the two‑term approximation deviates noticeably from the true value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Approximate (1 – 0.03)^6 by using the binomial expansion up to the term in x^2. What is the approximate value?",
+      "options": {
+        "A": "0.8335",
+        "B": "0.84",
+        "C": "0.80",
+        "D": "0.86"
+      },
+      "correct_option": "A",
+      "answer": "0.8335",
+      "explanation": "Let x = –0.03. The expansion up to x^2 is 1 + 6x + 15x^2. Substituting gives 1 + 6(–0.03) + 15(0.0009) = 1 – 0.18 + 0.0135 = 0.8335. This matches the value obtained by a calculator to four decimal places. The other options arise from rounding or including extra terms incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "A student wants to estimate √(1 + 0.04) using the binomial expansion (1 + x)^{1/2}. How many terms of the expansion are needed to guarantee an error less than 0.0005?",
+      "options": {
+        "A": "One term",
+        "B": "Two terms",
+        "C": "Three terms",
+        "D": "Four terms"
+      },
+      "correct_option": "B",
+      "answer": "Two terms",
+      "explanation": "For (1 + x)^{1/2}, the first two terms are 1 + (1/2)x. With x = 0.04, this gives 1 + 0.02 = 1.02. The exact value √1.04 ≈ 1.0199, so the error is about 0.0001, which is below 0.0005. Hence two terms are sufficient. One term (just 1) would give an error of about 0.02, far larger than the allowed limit.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which of the following statements reflects a common misconception about using the binomial expansion for approximations?",
+      "options": {
+        "A": "The series gives the exact value if all its infinite terms are taken.",
+        "B": "Truncating after a few terms yields an accurate result for any value of x.",
+        "C": "The approximation becomes more accurate as |x| becomes smaller.",
+        "D": "It can be used to estimate (1 + 0.01)^{10}."
+      },
+      "correct_option": "B",
+      "answer": "Truncating after a few terms yields an accurate result for any value of x.",
+      "explanation": "The binomial series converges rapidly only when |x| is small. For larger |x|, omitting higher‑order terms can produce large errors, so statement B is false and represents a misconception. Statements A, C, and D are correct observations about the series.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "Why does the binomial series (1 + x)^n converge only for |x| < 1 when n is not a positive integer?",
+      "options": {
+        "A": "Because the terms increase without bound when |x| ≥ 1, causing divergence.",
+        "B": "Because the binomial coefficients become undefined for |x| ≥ 1.",
+        "C": "Because the series is finite for non‑integer n.",
+        "D": "Because x must be an integer for the series to be valid."
+      },
+      "correct_option": "A",
+      "answer": "Because the terms increase without bound when |x| ≥ 1, causing divergence.",
+      "explanation": "For non‑integer exponents, the binomial coefficients involve factorials of non‑integers and the general term behaves like C(n,k) x^k. When |x| ≥ 1, the magnitude of successive terms does not tend to zero, so the infinite series fails to converge. Options B, C, and D are incorrect statements about the nature of the series.",
+      "difficulty": "medium"
+    }
+  ]
+}

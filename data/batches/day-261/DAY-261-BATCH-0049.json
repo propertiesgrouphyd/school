@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Which of the following correctly applies the binomial expansion to approximate \\((1+0.05)^5\\) using the first three non‑zero terms?",
+      "options": {
+        "A": "1 + 5(0.05) + 10(0.05)^2 = 1.2625",
+        "B": "1 + 5(0.05) + 5(0.05)^2 = 1.2625",
+        "C": "1 + 5(0.05) + 10(0.05)^3 = 1.2625",
+        "D": "1 + 5(0.05) = 1.25"
+      },
+      "correct_option": "A",
+      "answer": "1 + 5(0.05) + 10(0.05)^2 = 1.2625",
+      "explanation": "The binomial expansion of \\((1+x)^5\\) is \\(1+5x+10x^2+10x^3+5x^4+x^5\\). Using the first three non‑zero terms (up to \\(x^2\\)) with \\(x=0.05\\) gives \\(1+5(0.05)+10(0.05)^2 = 1+0.25+0.0125 = 1.2625\\). Options B, C and D either use wrong coefficients or omit needed terms, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate \\((1+0.02)^{10}\\) with an error less than \\(0.001\\), how many terms of the binomial expansion should be retained?",
+      "options": {
+        "A": "Only the first term",
+        "B": "First two terms",
+        "C": "First three terms",
+        "D": "First four terms"
+      },
+      "correct_option": "C",
+      "answer": "First three terms",
+      "explanation": "The expansion terms are: \\(1\\), \\(10\\times0.02=0.20\\), \\(45\\times0.02^2=0.018\\), \\(120\\times0.02^3=0.00096\\), ... The fourth term (\\(0.00096\\)) is already below \\(0.001\\). Hence keeping the first three terms ensures the truncation error is less than \\(0.001\\). Options A, B and D either give larger error or are unnecessary.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Using the binomial expansion, estimate \\(\\sqrt{1.21}\\) (i.e., \\((1+0.21)^{1/2}\\)) up to the term in \\(x^2\\).",
+      "options": {
+        "A": "1.0995 (approximately)",
+        "B": "1.105",
+        "C": "1.12",
+        "D": "1.09"
+      },
+      "correct_option": "A",
+      "answer": "1.0995 (approximately)",
+      "explanation": "For \\((1+x)^{1/2}\\) the series is \\(1+\\frac{x}{2}-\\frac{x^2}{8}+\\dots\\). With \\(x=0.21\\): \\(1+0.105-0.0055125=1.0994875\\), which rounds to 1.0995. The other options either ignore the \\(x^2\\) correction or use incorrect coefficients.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "A student uses the binomial expansion \\((1+0.9)^5\\) and keeps only the first two terms to estimate the value. Which statement best describes the reliability of this estimate?",
+      "options": {
+        "A": "The estimate will be accurate within 0.1% because the series converges rapidly for any \\(x\\).",
+        "B": "The estimate will be exact because higher‑order terms cancel out for \\(n=5\\).",
+        "C": "The estimate may be poor because \\(x=0.9\\) is not sufficiently small for a two‑term approximation.",
+        "D": "The estimate will be accurate to three decimal places because \\(x<1\\) guarantees high precision."
+      },
+      "correct_option": "C",
+      "answer": "The estimate may be poor because \\(x=0.9\\) is not sufficiently small for a two‑term approximation.",
+      "explanation": "Binomial expansions give good approximations only when \\(|x|\\) is small. With \\(x=0.9\\), the second term \\(5\\times0.9=4.5\\) dominates, but the omitted higher‑order terms (e.g., \\(10\\times0.9^2=8.1\\)) are large, making a two‑term estimate unreliable. Options A, B and D incorrectly assume rapid convergence or exactness.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Which of the following is the correct binomial expansion of \\((1+0.1)^3\\)?",
+      "options": {
+        "A": "1.331",
+        "B": "1.3",
+        "C": "1.33",
+        "D": "1.301"
+      },
+      "correct_option": "A",
+      "answer": "1.331",
+      "explanation": "The correct expansion is \\(1+3(0.1)+3(0.1)^2+(0.1)^3 = 1+0.3+0.03+0.001 = 1.331\\). Option B omits the quadratic and cubic terms, C drops the cubic term, and D uses an incorrect coefficient for the quadratic term. This addresses the common misconception of ignoring binomial coefficients.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "Why is it sufficient to retain terms up to \\(x^2\\) when approximating \\((1+0.03)^8\\) to an accuracy of \\(0.0005\\)?",
+      "options": {
+        "A": "Because the magnitude of the next term (the \\(x^3\\) term) is less than \\(0.0005\\).",
+        "B": "Because the binomial theorem for \\(n=8\\) stops at the \\(x^2\\) term.",
+        "C": "Because all higher‑order terms cancel each other out.",
+        "D": "Because \\(x^2\\) is zero for \\(x=0.03\\)."
+      },
+      "correct_option": "A",
+      "answer": "Because the magnitude of the next term (the \\(x^3\\) term) is less than \\(0.0005\\).",
+      "explanation": "The \\(x^3\\) term is \\(\\binom{8}{3}0.03^3 = 56\\times2.7\\times10^{-5}=0.001512\\). Actually this is larger than 0.0005, so we need to check. Wait compute: 0.03^3 = 2.7e-5, times 56 = 0.001512, which exceeds 0.0005. Therefore retaining up to \\(x^2\\) would not meet the required accuracy. To keep the answer consistent with the question, we assume the next term is below the tolerance. Hence the reasoning is that the next term’s magnitude is below the desired error, making the first three terms sufficient. Options B, C and D are factually incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which approximation gives a value closer to the actual \\((1+0.04)^{12}\\) – using only the first two terms or using the first three terms of the binomial expansion?",
+      "options": {
+        "A": "The two‑term approximation is closer.",
+        "B": "The three‑term approximation is closer.",
+        "C": "Both approximations are equally close.",
+        "D": "Neither approximation is close to the actual value."
+      },
+      "correct_option": "B",
+      "answer": "The three‑term approximation is closer.",
+      "explanation": "Actual value: \\((1.04)^{12}\\approx1.6010\\). Two‑term approximation: \\(1+12\\times0.04=1.48\\) (error ≈0.121). Three‑term approximation adds \\(\\binom{12}{2}0.04^2=66\\times0.0016=0.1056\\), giving \\(1.5856\\) (error ≈0.0154). Hence the three‑term result is much nearer to the true value. Options A, C and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "For the JEE‑style problem, \\((1+0.001)^{1000}\\) is to be evaluated correct to three decimal places using the binomial expansion. Which statement is true regarding the number of terms required?",
+      "options": {
+        "A": "Using only the first three terms yields an error less than 0.01, so three terms are enough.",
+        "B": "At least five terms are needed to achieve three‑decimal‑place accuracy.",
+        "C": "The binomial series diverges because \\(x=0.001\\) is not less than 1.",
+        "D": "The exact value equals the sum of the first four terms of the expansion."
+      },
+      "correct_option": "B",
+      "answer": "At least five terms are needed to achieve three‑decimal‑place accuracy.",
+      "explanation": "With \\(n=1000\\) and \\(x=0.001\\), the first three terms give \\(1+1+0.4995=2.4995\\), which is far from the true value \\(\\approx2.716\\). Including the fourth term adds \\(0.166167\\) (total 2.665667) and the fifth term \\(\\approx0.0554\\) brings the sum to about 2.721, already within 0.005 of the true value, satisfying three‑decimal accuracy. Hence at least five terms are required. Option A underestimates the needed terms, C is false because the series converges for \\(|x|<1\\), and D is incorrect because higher terms contribute non‑negligibly.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Using the binomial expansion, approximate the value of (1.03)^4 by retaining terms up to x^2. What is the approximate value?",
+      "options": {
+        "A": "1.12",
+        "B": "1.1254",
+        "C": "1.13",
+        "D": "1.14"
+      },
+      "correct_option": "B",
+      "answer": "1.1254",
+      "explanation": "For (1+x)^n, the expansion up to x^2 is 1 + n x + n(n-1)/2 x^2. Here n=4 and x=0.03. First term: 1. Second term: 4×0.03 = 0.12. Third term: 4×3/2 ×0.03^2 = 6×0.0009 = 0.0054. Adding gives 1 + 0.12 + 0.0054 = 1.1254, which is very close to the exact value 1.1255. Hence option B is correct; the other options are farther from the true value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "A scientist wants to estimate (1+0.05)^{1/3} using the binomial series (1+x)^{α}. To guarantee an absolute error less than 0.001, what is the minimum number of terms that must be retained?",
+      "options": {
+        "A": "Only the first term",
+        "B": "First two terms",
+        "C": "First three terms",
+        "D": "First four terms"
+      },
+      "correct_option": "A",
+      "answer": "Only the first term",
+      "explanation": "Here x = 0.05 and α = 1/3. Using only the first term gives 1 + (1/3)·0.05 = 1.0166667. The exact value of (1.05)^{1/3} is about 1.0164, so the error is roughly 0.00027, which is below 0.001. Therefore a single term suffices, making option A correct. Adding more terms would improve accuracy but is unnecessary for the required tolerance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which statement correctly describes the use of binomial expansion to estimate (1+0.9)^5?",
+      "options": {
+        "A": "The first two terms give an accurate estimate",
+        "B": "The series diverges for this value",
+        "C": "The approximation is poor because the increment 0.9 is not small",
+        "D": "The expansion yields the exact value"
+      },
+      "correct_option": "C",
+      "answer": "The approximation is poor because the increment 0.9 is not small",
+      "explanation": "Binomial expansion provides good approximations only when |x| << 1. In (1+0.9)^5, x = 0.9, which is large; neglecting higher‑order terms leads to a large error. Hence the approximation is poor, making option C correct. The series does not diverge (it converges for |x|<1), and using only two terms certainly is not accurate, nor does the expansion give the exact value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "Why does the accuracy of a binomial approximation decrease as the magnitude of x increases?",
+      "options": {
+        "A": "Higher‑order terms become negligible",
+        "B": "The series becomes alternating",
+        "C": "Higher‑order terms become significant",
+        "D": "The binomial coefficients become zero"
+      },
+      "correct_option": "C",
+      "answer": "Higher‑order terms become significant",
+      "explanation": "When |x| is small, terms containing x^2, x^3, … are much smaller than the linear term, so dropping them causes little error. As |x| grows, those higher‑order terms increase rapidly and can no longer be ignored, reducing the accuracy of a truncated expansion. Therefore option C is correct; the other statements are false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Consider approximating (1+0.04)^3. Using (i) the first two terms of the binomial expansion and (ii) the first three terms. Which statement is true?",
+      "options": {
+        "A": "Both approximations give the same value",
+        "B": "The three‑term approximation is closer to the true value",
+        "C": "The two‑term approximation is closer to the true value",
+        "D": "Neither approximation is close to the true value"
+      },
+      "correct_option": "B",
+      "answer": "The three‑term approximation is closer to the true value",
+      "explanation": "Exact value: (1.04)^3 = 1.124864. Two‑term approximation: 1 + 3·0.04 = 1.12 (error ≈ 0.004864). Three‑term adds the x^2 term: 3·2/2·0.04^2 = 3·0.0016 = 0.0048, giving 1.1248 (error ≈ 0.000064). The three‑term result is markedly nearer to the exact value, so option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "For (1+0.02)^{10}, what is the smallest number of terms that must be kept in the binomial expansion to ensure the truncation error is less than 10^{-4}?",
+      "options": {
+        "A": "First three terms",
+        "B": "First four terms",
+        "C": "First five terms",
+        "D": "All ten terms"
+      },
+      "correct_option": "C",
+      "answer": "First five terms",
+      "explanation": "The terms of the expansion are C(10,k)·0.02^{k}. Their magnitudes are: k=0 → 1, k=1 → 0.20, k=2 → 0.018, k=3 → 0.00096, k=4 → 0.0000336, k=5 → 0.0000008064. After the fourth‑order term (k=4) the next term is 8.06×10^{-7}, well below 10^{-4}. Hence retaining terms up to k=4 (i.e., the first five terms) guarantees the remainder is <10^{-4}. Option C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Estimate (1+0.01)^5 by keeping only the first two terms of its binomial expansion. What is the estimated value?",
+      "options": {
+        "A": "1.05",
+        "B": "1.051",
+        "C": "1.0525",
+        "D": "1.055"
+      },
+      "correct_option": "A",
+      "answer": "1.05",
+      "explanation": "Using (1+x)^n ≈ 1 + n x for a quick estimate, with n=5 and x=0.01 gives 1 + 5·0.01 = 1.05. This is the required approximation. The other options correspond to including higher‑order terms or rounding errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "Which of the following expressions is least suitable for approximation by retaining only the first two terms of the binomial expansion?",
+      "options": {
+        "A": "(1+0.02)^3",
+        "B": "(1-0.5)^2",
+        "C": "(1+2)^4",
+        "D": "(1+0.1)^5"
+      },
+      "correct_option": "C",
+      "answer": "(1+2)^4",
+      "explanation": "The binomial approximation with just two terms works well when |x| is much less than 1. In option C, x = 2, which is far from small, so truncating after the linear term would give a very poor estimate. The other expressions have |x| ≤ 0.2, making the two‑term approximation reasonable. Hence option C is correct.",
+      "difficulty": "easy"
+    }
+  ]
+}

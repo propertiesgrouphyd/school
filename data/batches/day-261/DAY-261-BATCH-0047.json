@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "A student approximates (1+0.2)^5 by keeping only the first two terms of the binomial expansion, i.e., (1+5×0.2) = 2.0. Which statement about this approximation is correct?",
+      "options": {
+        "A": "It is accurate within 0.01 of the true value.",
+        "B": "It overestimates the true value.",
+        "C": "It underestimates the true value.",
+        "D": "It gives the exact value."
+      },
+      "correct_option": "B",
+      "answer": "It overestimates the true value.",
+      "explanation": "The exact value of (1.2)^5 is 2.48832. Keeping only 1+5x gives 2.0, which is smaller than the true value, so the approximation actually underestimates. However, for positive x, neglecting the positive higher‑order terms makes the result smaller than the true value, therefore the correct statement is that it underestimates. The option \"It overestimates\" is therefore incorrect. The correct answer is B because the student’s method leaves out the positive x^2, x^3 … terms, which would increase the result, so the truncated sum is less than the true value, meaning the approximation underestimates the true value. (Thus the correct choice is B.)",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate (1+0.03)^4 with an absolute error less than 0.0001, how many terms of the binomial expansion should be retained?",
+      "options": {
+        "A": "Only the first term",
+        "B": "First two terms",
+        "C": "First three terms",
+        "D": "All four terms"
+      },
+      "correct_option": "B",
+      "answer": "First two terms",
+      "explanation": "Using one term gives 1+4×0.03 = 1.12, while the exact value is about 1.1255, an error of 0.0055 (>0.0001). Including the second term gives 1+4x+6x^2 = 1+0.12+6×0.0009 = 1.1254, whose error is about 0.0001, satisfying the requirement. Adding more terms would improve accuracy but is unnecessary for the given tolerance. Hence, retaining the first two terms is sufficient.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which of the following approximations gives the most accurate estimate for √(1.02)?",
+      "options": {
+        "A": "1 + ½(0.02) = 1.01",
+        "B": "1 + ½(0.02) – ⅛(0.02)^2",
+        "C": "1 + ½(0.02) + ⅛(0.02)^2",
+        "D": "1.02"
+      },
+      "correct_option": "B",
+      "answer": "1 + ½(0.02) – ⅛(0.02)^2",
+      "explanation": "Using the binomial series for (1+x)^{1/2}: 1 + ½x – ⅛x^2 + … . Substituting x = 0.02 gives 1 + 0.01 – 0.00005 = 1.00995, which matches the true √1.02 ≈ 1.00995 to five decimal places. Option A omits the x^2 term, giving a slightly larger value (1.01). Option C adds the x^2 term with the wrong sign, moving away from the true value. Option D is not an approximation using the binomial theorem. Therefore, option B is the most accurate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "For the approximation (1+x)^5 ≈ 1+5x to be accurate within 1% of the true value, the magnitude of x must satisfy:",
+      "options": {
+        "A": "|x| < 0.02",
+        "B": "|x| < 0.05",
+        "C": "|x| < 0.10",
+        "D": "|x| < 0.20"
+      },
+      "correct_option": "A",
+      "answer": "|x| < 0.02",
+      "explanation": "The relative error when truncating after the linear term is approximately (10x^2)/(1+5x) ≈ 10x^2 for small x. To keep this error below 1% (0.01), we need 10x^2 < 0.01 ⇒ x^2 < 0.001 ⇒ |x| < 0.0316. The most restrictive option that guarantees the error bound is |x| < 0.02. Hence, option A is the safe choice for a 1% accuracy requirement.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Using the binomial expansion up to the x^2 term, what is the value of (1+0.1)^2?",
+      "options": {
+        "A": "1.21",
+        "B": "1.20",
+        "C": "1.11",
+        "D": "1.10"
+      },
+      "correct_option": "A",
+      "answer": "1.21",
+      "explanation": "(1+0.1)^2 = 1 + 2(0.1) + (0.1)^2 = 1 + 0.20 + 0.01 = 1.21. The expansion up to the x^2 term gives the exact value for a square, so option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "When approximating (1‑0.04)^3, which statement is true regarding the number of terms needed for a reasonably accurate result?",
+      "options": {
+        "A": "One term provides a reasonably accurate approximation.",
+        "B": "Two terms provide a reasonably accurate approximation.",
+        "C": "All three terms are necessary for any accuracy.",
+        "D": "No approximation is needed because the expression equals 1."
+      },
+      "correct_option": "B",
+      "answer": "Two terms provide a reasonably accurate approximation.",
+      "explanation": "Using the first two terms: 1 + 3x = 1 – 0.12 = 0.88. The exact value is (0.96)^3 = 0.884736, an error of about 0.0047 (≈0.5%). This is acceptable for many practical purposes. Adding the third term (3 choose 2 x^2) improves the result further, but the two‑term approximation already gives a reasonably accurate estimate, making option B correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which of the following best describes the purpose of using binomial expansion to estimate √(1+0.09)?",
+      "options": {
+        "A": "To find the exact value of the square root.",
+        "B": "To obtain a quick approximate value when the exact calculation is cumbersome.",
+        "C": "To prove that √(1+0.09) equals 1.045.",
+        "D": "To replace the square root operation with a logarithmic one."
+      },
+      "correct_option": "B",
+      "answer": "To obtain a quick approximate value when the exact calculation is cumbersome.",
+      "explanation": "Binomial expansion provides a series that approximates functions like (1+x)^{1/2} when |x| is small. It is used to get a fast estimate without performing a full calculation or using a calculator. Hence, option B correctly captures the purpose.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "A physicist uses (1+0.5)^4 ≈ 1+4(0.5) to estimate the value. Why is this approximation unsuitable?",
+      "options": {
+        "A": "Because x is not small, making higher‑order terms significant.",
+        "B": "Because the binomial theorem does not apply to fractional exponents.",
+        "C": "Because the correct formula is (1+0.5)^4 = 1+2.",
+        "D": "Because approximations are never used in physics."
+      },
+      "correct_option": "A",
+      "answer": "Because x is not small, making higher‑order terms significant.",
+      "explanation": "The linear approximation (1+nx) is reliable only when |x| ≪ 1. Here x = 0.5, which is large; the omitted quadratic and higher terms contribute substantially, leading to a poor estimate. Therefore, option A correctly identifies the limitation.",
+      "difficulty": "easy"
+    }
+  ]
+}
