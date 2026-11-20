@@ -1,0 +1,78 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following correctly represents the sum of the first n natural numbers using summation notation?",
+      "options": {
+        "A": "\\(\\displaystyle \\sum_{k=1}^{n} k\\)",
+        "B": "\\(\\displaystyle \\sum_{k=0}^{n} k\\)",
+        "C": "\\(\\displaystyle \\sum_{k=1}^{n} (k+1)\\)",
+        "D": "\\(\\displaystyle \\sum_{k=1}^{n-1} k\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\displaystyle \\sum_{k=1}^{n} k\\)",
+      "explanation": "The sum of the first n natural numbers starts with 1 and ends with n, which is expressed as \\(\\sum_{k=1}^{n} k\\). Option B starts at 0, adding an extra term 0 that does not affect the sum but is not the standard notation. Option C shifts every term by 1, giving the sum of numbers from 2 to n+1. Option D stops at n‑1, missing the nth term. Hence, option A is the correct representation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "Find the sum of the arithmetic series 2 + 5 + 8 + … + (3n − 1).",
+      "options": {
+        "A": "\\(\\displaystyle \\frac{n(3n+1)}{2}\\)",
+        "B": "\\(\\displaystyle \\frac{n(3n-1)}{2}\\)",
+        "C": "\\(\\displaystyle \\frac{(n+1)(3n)}{2}\\)",
+        "D": "\\(\\displaystyle \\frac{n(3n+2)}{2}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\displaystyle \\frac{n(3n+1)}{2}\\)",
+      "explanation": "The series is arithmetic with first term a = 2 and common difference d = 3. The nth term is a + (n‑1)d = 2 + 3(n‑1) = 3n‑1, matching the given last term. The sum of n terms is S_n = n/2 (first term + last term) = n/2 (2 + (3n‑1)) = n/2 (3n+1) = n(3n+1)/2. Option A matches this result; the other options arise from algebraic mistakes such as using the wrong last term or mis‑applying the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Consider an arithmetic sequence with first term a₁ and common difference d. Let Sₙ denote the sum of its first n terms. Which statement is always true?",
+      "options": {
+        "A": "Sₙ = \\(\\displaystyle \\frac{n}{2}\\bigl(2a₁ + (n-1)d\\bigr)\\)",
+        "B": "Sₙ = n·aₙ",
+        "C": "Sₙ = aₙ²",
+        "D": "Sₙ = n·a₁"
+      },
+      "correct_option": "A",
+      "answer": "Sₙ = \\(\\displaystyle \\frac{n}{2}\\bigl(2a₁ + (n-1)d\\bigr)\\)",
+      "explanation": "For an arithmetic sequence, the nth term is aₙ = a₁ + (n‑1)d. The sum of the first n terms equals n times the average of the first and nth terms, giving Sₙ = n/2 (a₁ + aₙ) = n/2 (2a₁ + (n‑1)d). Option A states this exact formula. Option B would be true only if the sequence were constant (d = 0). Option C has no basis in arithmetic series theory. Option D ignores the contribution of later terms beyond the first. Therefore, option A correctly relates the sequence to its series.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "If the nth term of a series is given by \\(T_n = n\\cdot 2^{,n-1}\\), what is the sum of the first four terms?",
+      "options": {
+        "A": "49",
+        "B": "60",
+        "C": "45",
+        "D": "55"
+      },
+      "correct_option": "A",
+      "answer": "49",
+      "explanation": "Compute each term: \\(T_1 = 1·2^{0}=1\\), \\(T_2 = 2·2^{1}=4\\), \\(T_3 = 3·2^{2}=12\\), \\(T_4 = 4·2^{3}=32\\). Adding them gives 1 + 4 + 12 + 32 = 49. Option A matches this sum. The other options result from arithmetic errors such as omitting a term or mis‑calculating the powers of 2.",
+      "difficulty": "hard"
+    }
+  ]
+}

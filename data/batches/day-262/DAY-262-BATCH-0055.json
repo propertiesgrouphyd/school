@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0055",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-262-17",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use distance formula",
+      "question": "Which of the following expressions correctly gives the Euclidean distance between the points A(1, 2) and B(4, 6)?",
+      "options": {
+        "A": "√[(4 − 1)² + (6 − 2)²]",
+        "B": "|4 − 1| + |6 − 2|",
+        "C": "(4 − 1) + (6 − 2)",
+        "D": "√[(4 + 1)² + (6 + 2)²]"
+      },
+      "correct_option": "A",
+      "answer": "√[(4 − 1)² + (6 − 2)²]",
+      "explanation": "The Euclidean distance between (x₁,y₁) and (x₂,y₂) is √[(x₂‑x₁)² + (y₂‑y₁)²]. Substituting the coordinates gives √[(4‑1)² + (6‑2)²] = √[9 + 16] = √25 = 5. Options B and C represent Manhattan distance, and D uses addition instead of subtraction, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-262-18",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use section formula",
+      "question": "A point P divides the line segment joining A(2, ‑1) and B(8, 5) internally in the ratio 2:3. What are the coordinates of P?",
+      "options": {
+        "A": "(22/5, 7/5)",
+        "B": "(4, 2)",
+        "C": "(5, 3)",
+        "D": "(6, 4)"
+      },
+      "correct_option": "A",
+      "answer": "(22/5, 7/5)",
+      "explanation": "For internal division in ratio m:n, the coordinates are ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n)). Here m=2, n=3, (x₁,y₁)=(2,‑1), (x₂,y₂)=(8,5). x = (2·8 + 3·2)/5 = (16 + 6)/5 = 22/5; y = (2·5 + 3·(‑1))/5 = (10 ‑ 3)/5 = 7/5. Hence option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-262-19",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Find midpoint",
+      "question": "Which statement correctly describes the midpoint of a line segment joining P(x₁, y₁) and Q(x₂, y₂)?",
+      "options": {
+        "A": "It divides the segment in the ratio 1:1 and its coordinates are ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+        "B": "It is the point that maximizes the distance from both endpoints.",
+        "C": "It lies at the intersection of the segment and its perpendicular bisector only when the segment is horizontal.",
+        "D": "It always has integer coordinates if the endpoints have integer coordinates."
+      },
+      "correct_option": "A",
+      "answer": "It divides the segment in the ratio 1:1 and its coordinates are ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+      "explanation": "The midpoint is defined as the point that splits a segment into two equal parts; algebraically its coordinates are the averages of the corresponding coordinates of the endpoints. Option B is false (the midpoint minimizes, not maximizes, distances). Option C is unnecessary; the perpendicular bisector always passes through the midpoint regardless of orientation. Option D is false because averaging two integers can give a fraction (e.g., (1+2)/2 = 1.5).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-262-20",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Apply coordinate methods to geometric problems",
+      "question": "Using coordinate geometry, find the area of the triangle with vertices O(0, 0), A(4, 0) and B(4, 3).",
+      "options": {
+        "A": "6 square units",
+        "B": "12 square units",
+        "C": "8 square units",
+        "D": "9 square units"
+      },
+      "correct_option": "A",
+      "answer": "6 square units",
+      "explanation": "The area of a triangle with vertices (x₁,y₁), (x₂,y₂), (x₃,y₃) is (1/2)|x₁(y₂‑y₃)+x₂(y₃‑y₁)+x₃(y₁‑y₂)|. Substituting O(0,0), A(4,0), B(4,3): Area = (1/2)|0(0‑3)+4(3‑0)+4(0‑0)| = (1/2)|12| = 6. Hence option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-262-21",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use distance formula",
+      "question": "What is the distance between the points C(‑2, 5) and D(3, ‑1)?",
+      "options": {
+        "A": "√61",
+        "B": "√11",
+        "C": "7",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "√61",
+      "explanation": "Using the distance formula: √[(3 − (‑2))² + (‑1 − 5)²] = √[(5)² + (‑6)²] = √[25 + 36] = √61. The other options are results of incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-262-22",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use section formula",
+      "question": "The point that divides the line joining M(‑3, 2) and N(9, ‑6) internally in the ratio 3:1 has coordinates:",
+      "options": {
+        "A": "(6, ‑4)",
+        "B": "(3, ‑2)",
+        "C": "(0, ‑2)",
+        "D": "(‑1, 1)"
+      },
+      "correct_option": "A",
+      "answer": "(6, ‑4)",
+      "explanation": "Using the internal section formula with m=3, n=1: x = (3·9 + 1·(‑3))/(3+1) = (27 ‑ 3)/4 = 24/4 = 6; y = (3·(‑6) + 1·2)/4 = (‑18 + 2)/4 = (‑16)/4 = ‑4. Hence the coordinates are (6, ‑4). The other options arise from mis‑applying the ratio or swapping points.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-262-23",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Find midpoint",
+      "question": "Which of the following correctly defines the midpoint of a line segment?",
+      "options": {
+        "A": "The point whose coordinates are the averages of the corresponding coordinates of the segment’s endpoints.",
+        "B": "The point that is farthest from both endpoints of the segment.",
+        "C": "The point that divides the segment in the ratio 2:1.",
+        "D": "The point where the slope of the segment becomes zero."
+      },
+      "correct_option": "A",
+      "answer": "The point whose coordinates are the averages of the corresponding coordinates of the segment’s endpoints.",
+      "explanation": "By definition, the midpoint M of segment AB with A(x₁,y₁) and B(x₂,y₂) is M((x₁+x₂)/2, (y₁+y₂)/2). Options B, C, and D describe unrelated concepts (maximum distance, a 2:1 division, and horizontal slope).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-262-24",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Apply coordinate methods to geometric problems",
+      "question": "A rectangle has vertices at (0, 0), (0, 5), (8, 5) and (8, 0). What is the length of its diagonal?",
+      "options": {
+        "A": "√89",
+        "B": "13",
+        "C": "10",
+        "D": "√64 + 25"
+      },
+      "correct_option": "A",
+      "answer": "√89",
+      "explanation": "The diagonal connects (0, 0) to (8, 5). Its length = √[(8‑0)² + (5‑0)²] = √[64 + 25] = √89. Option D writes the same expression but not simplified; the standard form is √89, making A the correct choice. Options B and C are numerical approximations that are not equal to √89 (~9.43).",
+      "difficulty": "easy"
+    }
+  ]
+}

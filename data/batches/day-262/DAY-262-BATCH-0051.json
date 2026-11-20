@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0051",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following sigma expressions correctly represents the sum of the first n odd natural numbers?",
+      "options": {
+        "A": "\\( \\displaystyle \\sum_{k=1}^{n} (2k-1) \\)",
+        "B": "\\( \\displaystyle \\sum_{k=0}^{n} (2k+1) \\)",
+        "C": "\\( \\displaystyle \\sum_{k=1}^{n} (2k) \\)",
+        "D": "\\( \\displaystyle \\sum_{k=1}^{n} (k^2) \\)"
+      },
+      "correct_option": "A",
+      "answer": "\\( \\displaystyle \\sum_{k=1}^{n} (2k-1) \\)",
+      "explanation": "The k‑th odd number is given by 2k‑1. Summing these from k = 1 to n gives \\(\\sum_{k=1}^{n}(2k-1)\\), which equals n². Option B starts at k = 0, giving n+1 terms; Option C sums even numbers; Option D sums squares, not odds.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "Find the sum of the first 50 terms of the arithmetic series 5, 9, 13, … (common difference 4).",
+      "options": {
+        "A": "5,150",
+        "B": "5,200",
+        "C": "5,250",
+        "D": "5,300"
+      },
+      "correct_option": "A",
+      "answer": "5,150",
+      "explanation": "For an AP, \\(S_n = \\frac{n}{2}[2a+(n-1)d]\\). Here a = 5, d = 4, n = 50. \\(S_{50}=\\frac{50}{2}[10+49\\times4]=25[10+196]=25\\times206=5,150\\). The other options arise from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "How is a series related to a sequence?",
+      "options": {
+        "A": "A series is the product of the terms of a sequence.",
+        "B": "A series is the sum of the terms of a sequence.",
+        "C": "A series is the set of all possible subsequences.",
+        "D": "A series is the difference between consecutive terms of a sequence."
+      },
+      "correct_option": "B",
+      "answer": "A series is the sum of the terms of a sequence.",
+      "explanation": "A sequence lists terms in order. When we add those terms together, we obtain a series. Hence a series = Σ (terms of a sequence). Options A, C, D describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "Which sigma expression gives the sum of the first n terms of the sequence defined by \\(a_k = 3k + 2\\)?",
+      "options": {
+        "A": "\\( \\displaystyle \\sum_{k=1}^{n} (3k + 2) \\)",
+        "B": "\\( \\displaystyle \\sum_{k=0}^{n} (3k + 2) \\)",
+        "C": "\\( \\displaystyle \\sum_{k=1}^{n} (3k - 2) \\)",
+        "D": "\\( \\displaystyle \\sum_{k=1}^{n} (k^3 + 2) \\)"
+      },
+      "correct_option": "A",
+      "answer": "\\( \\displaystyle \\sum_{k=1}^{n} (3k + 2) \\)",
+      "explanation": "The given term formula is \\(a_k = 3k+2\\). Summing from the first term (k=1) to the n‑th term uses \\(\\sum_{k=1}^{n}(3k+2)\\). Option B starts at k=0, giving an extra term; C changes the sign; D uses a completely different formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "What is the primary difference between summation (\\(\\Sigma\\)) notation and product (\\(\\Pi\\)) notation?",
+      "options": {
+        "A": "Summation adds terms, while product multiplies terms.",
+        "B": "Summation is used only for finite series, product only for infinite series.",
+        "C": "Summation requires integer indices, product works with real indices.",
+        "D": "Summation denotes the maximum of a set, product denotes the minimum."
+      },
+      "correct_option": "A",
+      "answer": "Summation adds terms, while product multiplies terms.",
+      "explanation": "The sigma symbol (\\(\\Sigma\\)) represents the addition of a sequence of terms, whereas the pi symbol (\\(\\Pi\\)) represents their multiplication. The other statements are false: both can be used for finite or infinite collections, both accept integer indices, and they do not denote extrema.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "Find the sum of the first 10 natural numbers.",
+      "options": {
+        "A": "45",
+        "B": "50",
+        "C": "55",
+        "D": "60"
+      },
+      "correct_option": "C",
+      "answer": "55",
+      "explanation": "The sum of the first n natural numbers is \\(n(n+1)/2\\). For n = 10, \\(10\\times11/2 = 55\\). Options A, B, D result from mis‑calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "The sequence 2, 5, 8, 11, … is an arithmetic progression. What is the sum of its first 5 terms?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "40",
+        "D": "45"
+      },
+      "correct_option": "C",
+      "answer": "40",
+      "explanation": "Here a = 2, d = 3, n = 5. Using \\(S_n = \\frac{n}{2}[2a+(n-1)d]\\): \\(S_5 = \\frac{5}{2}[4+4\\times3] = 2.5[4+12] = 2.5\\times16 = 40\\). The other options arise from forgetting the factor ½ or using wrong d.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "In a competition, the prize money for the winners is given by the series 100, 180, 260, … where each term increases by Rs. 80. What is the total prize money to be paid to the first 7 winners?",
+      "options": {
+        "A": "2,180",
+        "B": "2,380",
+        "C": "2,580",
+        "D": "2,780"
+      },
+      "correct_option": "B",
+      "answer": "2,380",
+      "explanation": "The series is an AP with a = 100, d = 80, n = 7. \\(S_7 = \\frac{7}{2}[2\\times100 + (7-1)\\times80] = 3.5[200 + 480] = 3.5\\times680 = 2,380\\). Options A, C, D result from arithmetic slips in the formula.",
+      "difficulty": "medium"
+    }
+  ]
+}
