@@ -1,0 +1,78 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-262-97",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "In the arithmetic progression 5, 9, 13, …, which of the following methods correctly finds the common difference?",
+      "options": {
+        "A": "Subtract the second term from the first term.",
+        "B": "Divide the difference between the last and first term by the number of terms.",
+        "C": "Divide the difference between the last and first term by (number of terms − 1).",
+        "D": "Add all the terms and divide by the number of terms."
+      },
+      "correct_option": "A",
+      "answer": "Subtract the second term from the first term.",
+      "explanation": "The common difference d of an AP is defined as the difference between any two consecutive terms. Here d = 9 − 5 = 4, which is obtained by subtracting the second term from the first. Option C also yields 4 for this particular AP, but it is a derived formula, not the definition. Options B and D give incorrect values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-262-98",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "An arithmetic progression has first term 3 and common difference 5. What is the 12th term of this progression?",
+      "options": {
+        "A": "58",
+        "B": "63",
+        "C": "53",
+        "D": "68"
+      },
+      "correct_option": "A",
+      "answer": "58",
+      "explanation": "The nth term of an AP is given by a_n = a + (n‑1)d. Substituting a = 3, d = 5, n = 12 gives a_12 = 3 + 11·5 = 3 + 55 = 58. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-262-99",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Consider two arithmetic progressions: AP₁ with first term 2 and common difference 3, and AP₂ with first term 5 and common difference 2. Both have 10 terms. Which statement about the sums of the first 10 terms is correct?",
+      "options": {
+        "A": "Sum of AP₁ is greater than sum of AP₂.",
+        "B": "Sum of AP₂ is greater than sum of AP₁.",
+        "C": "Both sums are equal.",
+        "D": "Cannot be determined without calculating."
+      },
+      "correct_option": "A",
+      "answer": "Sum of AP₁ is greater than sum of AP₂.",
+      "explanation": "Sum of first n terms: S_n = n/2[2a + (n‑1)d]. For AP₁: S_10 = 10/2[2·2 + 9·3] = 5[4 + 27] = 5·31 = 155. For AP₂: S_10 = 5[2·5 + 9·2] = 5[10 + 18] = 5·28 = 140. Hence the sum of AP₁ is larger. Options B, C, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-262-100",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "A person saves money in an arithmetic progression: first month Rs 2000, and each subsequent month saves Rs 500 more than the previous month. After how many complete months will the total savings first exceed Rs 1,00,000?",
+      "options": {
+        "A": "16 months",
+        "B": "17 months",
+        "C": "18 months",
+        "D": "19 months"
+      },
+      "correct_option": "B",
+      "answer": "17 months",
+      "explanation": "Here a = 2000, d = 500. Total after n months: S_n = n/2[2a + (n‑1)d] > 100000. Substituting gives n/2[4000 + 500(n‑1)] > 100000 → n(500n + 3500) > 200000 → 5n^2 + 35n – 2000 > 0. Solving the quadratic gives n ≈ 16.8, so the smallest integer n satisfying the inequality is 17. Hence after 17 months the savings exceed Rs 1,00,000. Options A, C, D are therefore incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}

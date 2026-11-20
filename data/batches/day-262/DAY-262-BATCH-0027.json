@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-262-1",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "Which of the following best defines a geometric progression?",
+      "options": {
+        "A": "A sequence where each term after the first is obtained by adding a fixed number to the preceding term.",
+        "B": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+        "C": "A sequence consisting only of prime numbers.",
+        "D": "A sequence where each term is the square of a natural number."
+      },
+      "correct_option": "B",
+      "answer": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+      "explanation": "In a geometric progression (GP) each term is produced by multiplying the previous term by the same constant called the common ratio. Option B states this definition. Option A describes an arithmetic progression, while C and D describe unrelated sequences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-262-2",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "The sequence 3, 6, 12, 24, ... is a geometric progression. What is its common ratio?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1.5",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "answer": "2",
+      "explanation": "Each term is obtained by multiplying the previous term by 2 (6÷3=2, 12÷6=2, 24÷12=2). Hence the common ratio r = 2. The other options are incorrect multipliers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-262-3",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "If a geometric progression has first term a and common ratio r, the nth term is given by:",
+      "options": {
+        "A": "a + (n-1)r",
+        "B": "a r^{n-1}",
+        "C": "a r^{n}",
+        "D": "a / r^{n-1}"
+      },
+      "correct_option": "B",
+      "answer": "a r^{n-1}",
+      "explanation": "The formula for the nth term of a GP is T_n = a·r^{n-1}. Option B matches this formula. Option A is the arithmetic progression formula, while C and D are incorrect variations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-262-4",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "A geometric progression has first term 5 and common ratio 3. What is the sum of its first 4 terms?",
+      "options": {
+        "A": "200",
+        "B": "215",
+        "C": "180",
+        "D": "225"
+      },
+      "correct_option": "A",
+      "answer": "200",
+      "explanation": "Terms: 5, 15, 45, 135. Sum S_4 = 5+15+45+135 = 200. Option A is correct. The other numbers result from arithmetic miscalculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-262-5",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "Consider the infinite geometric series 2 + 1 + 0.5 + 0.25 + … . Which statement is true?",
+      "options": {
+        "A": "The series diverges because the terms do not become zero.",
+        "B": "The series converges to 4.",
+        "C": "The series converges to 6.",
+        "D": "The series does not have a sum because the common ratio is greater than 1."
+      },
+      "correct_option": "B",
+      "answer": "The series converges to 4.",
+      "explanation": "Here a = 2 and r = 0.5 (|r|<1), so the infinite sum S = a/(1‑r) = 2/(1‑0.5) = 4. Hence option B is correct. Options A and D ignore the convergence condition, and C uses an incorrect calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-262-6",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "A certain type of bacteria doubles in number every hour. Starting with 100 bacteria, which of the following best describes the sequence of population sizes over successive hours?",
+      "options": {
+        "A": "An arithmetic progression",
+        "B": "A geometric progression",
+        "C": "A harmonic progression",
+        "D": "A Fibonacci sequence"
+      },
+      "correct_option": "B",
+      "answer": "A geometric progression",
+      "explanation": "Doubling each hour means each term is multiplied by the constant ratio 2, which is the definition of a geometric progression. Hence option B is correct. Option A would involve adding a constant, not multiplying; C and D are unrelated patterns.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-262-7",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "In the sequence 8, 4, 2, 1, … what is the common ratio?",
+      "options": {
+        "A": "-2",
+        "B": "0.5",
+        "C": "2",
+        "D": "-0.5"
+      },
+      "correct_option": "B",
+      "answer": "0.5",
+      "explanation": "Each term is half of the preceding term (4÷8 = 0.5, 2÷4 = 0.5, 1÷2 = 0.5). Therefore the common ratio r = 0.5. Some may mistakenly think the ratio is 2 by reversing the order; however the ratio is always obtained by dividing a term by its predecessor, not the other way round.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-262-8",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "If the 3rd term of a geometric progression is 12 and the common ratio is 2, what is the 6th term?",
+      "options": {
+        "A": "48",
+        "B": "96",
+        "C": "192",
+        "D": "24"
+      },
+      "correct_option": "B",
+      "answer": "96",
+      "explanation": "Let the first term be a. Then T_3 = a·r^{2} = 12 ⇒ a = 12 / 2^{2} = 3. The 6th term T_6 = a·r^{5} = 3·2^{5} = 3·32 = 96. Hence option B is correct. Options A, C, and D result from using wrong exponents or ratios.",
+      "difficulty": "medium"
+    }
+  ]
+}

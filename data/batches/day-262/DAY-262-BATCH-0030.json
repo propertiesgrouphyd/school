@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "Consider the infinite geometric progression 5, 5/3, 5/9, ... Find its sum to infinity.",
+      "options": {
+        "A": "15/2",
+        "B": "6",
+        "C": "5",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "15/2",
+      "explanation": "The first term a = 5 and the common ratio r = (5/3)/5 = 1/3. Since |r| < 1, the series converges. Sum to infinity S = a/(1‑r) = 5/(1‑1/3) = 5/(2/3) = 15/2 = 7.5. Hence option A is correct; the other options do not satisfy the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "A sequence where each term after the first is obtained by multiplying the previous term by a constant r is called which of the following?",
+      "options": {
+        "A": "Arithmetic progression",
+        "B": "Geometric progression",
+        "C": "Harmonic progression",
+        "D": "Fibonacci sequence"
+      },
+      "correct_option": "B",
+      "answer": "Geometric progression",
+      "explanation": "By definition, a geometric progression (GP) is a sequence in which every term after the first is the product of the preceding term and a fixed number called the common ratio r. Hence option B is correct; the other sequences are defined differently.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "The sequence 2, -6, 18, -54, ... is a geometric progression. What is its common ratio?",
+      "options": {
+        "A": "-3",
+        "B": "3",
+        "C": "-2",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "-3",
+      "explanation": "The common ratio r is found by dividing any term by its preceding term: r = (-6)/2 = -3. The sign alternates because r is negative. Options B, C, and D give incorrect magnitudes or signs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "In a geometric progression the first term is 4 and the common ratio is 2. What is the 7th term?",
+      "options": {
+        "A": "128",
+        "B": "256",
+        "C": "512",
+        "D": "64"
+      },
+      "correct_option": "B",
+      "answer": "256",
+      "explanation": "The nth term of a GP is a_n = a·r^{n‑1}. Here a = 4, r = 2, n = 7, so a_7 = 4·2^{6} = 4·64 = 256. Hence option B is correct; the other options correspond to different exponents.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "For GP1: first term 3, common ratio 2, n = 4. For GP2: first term 5, common ratio 1/2, n = 4. Which GP has the larger sum of the first four terms?",
+      "options": {
+        "A": "GP1",
+        "B": "GP2",
+        "C": "Both sums are equal",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "GP1",
+      "explanation": "Sum of first n terms S_n = a(1‑r^{n})/(1‑r) when r ≠ 1. GP1: S = 3(1‑2^{4})/(1‑2) = 3(1‑16)/(-1) = 45. GP2: S = 5(1‑(1/2)^{4})/(1‑1/2) = 5(1‑1/16)/(1/2) = 5(15/16)·2 = 9.375. Therefore GP1’s sum (45) is larger, so option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "A geometric progression has first term 8 and common ratio r. If its sum to infinity equals 10, what is the value of r?",
+      "options": {
+        "A": "0.2",
+        "B": "0.5",
+        "C": "-0.2",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "0.2",
+      "explanation": "For an infinite GP, S_∞ = a/(1‑r) provided |r| < 1. Here 10 = 8/(1‑r) ⇒ 1‑r = 8/10 = 0.8 ⇒ r = 0.2, which satisfies |r|<1. Hence option A is correct; the other options either give a different sum or violate the convergence condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "Which of the following best defines a geometric progression?",
+      "options": {
+        "A": "A sequence in which the difference between consecutive terms is constant",
+        "B": "A sequence in which the ratio of consecutive terms is constant",
+        "C": "A sequence where each term equals the sum of the two preceding terms",
+        "D": "A sequence whose terms decrease by half each step"
+      },
+      "correct_option": "B",
+      "answer": "A sequence in which the ratio of consecutive terms is constant",
+      "explanation": "A geometric progression is characterized by a constant common ratio between successive terms, which is described in option B. Option A defines an arithmetic progression, C defines the Fibonacci sequence, and D is a specific case not a general definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "If the third term of a geometric progression is 12 and the fifth term is 108, what is the common ratio?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "Let the first term be a and common ratio r. Then a·r^{2}=12 and a·r^{4}=108. Dividing the second equation by the first gives r^{2}=108/12=9, so r=3 (positive ratio as terms are positive). Hence option B is correct; the other options do not satisfy the given terms.",
+      "difficulty": "easy"
+    }
+  ]
+}

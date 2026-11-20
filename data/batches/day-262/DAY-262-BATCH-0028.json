@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Consider two geometric progressions: (i) 3, 6, 12, 24, … and (ii) 5, 7.5, 11.25, 16.875, … Both have four terms. Which progression has the larger sum of its first four terms?",
+      "options": {
+        "A": "The first progression (3, 6, 12, 24)",
+        "B": "The second progression (5, 7.5, 11.25, 16.875)",
+        "C": "Both sums are equal",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "The first progression (3, 6, 12, 24)",
+      "explanation": "Sum of the first progression: S = 3(2^4-1)/(2-1) = 3(16-1) = 45. Sum of the second progression: S = 5(1.5^4-1)/(1.5-1) = 5(5.0625-1)/0.5 = 40.625. Since 45 > 40.625, the first progression has the larger sum. Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "Find the sum to infinity of the geometric series 8 + 4 + 2 + …",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "correct_option": "C",
+      "answer": "16",
+      "explanation": "The series is geometric with first term a = 8 and common ratio r = 0.5 (since 4/8 = 0.5). Because |r| < 1, the infinite sum exists and is given by S∞ = a/(1‑r) = 8/(1‑0.5) = 8/0.5 = 16. Options A, B, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "Which of the following best defines a geometric progression?",
+      "options": {
+        "A": "A sequence where each term after the first is obtained by adding a fixed number to the preceding term.",
+        "B": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant called the common ratio.",
+        "C": "A sequence where each term is the sum of the two preceding terms.",
+        "D": "A sequence where terms alternate between two fixed numbers."
+      },
+      "correct_option": "B",
+      "answer": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant called the common ratio.",
+      "explanation": "In a geometric progression (GP), every term after the first is produced by multiplying the previous term by a fixed constant r, known as the common ratio. Option A describes an arithmetic progression, C describes the Fibonacci-type recurrence, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "In the geometric progression 5, 15, 45, …, what is the common ratio?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "The common ratio r = second term / first term = 15/5 = 3. The same ratio holds for the next pair (45/15 = 3). Hence option B is correct; the others are not the ratio of successive terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "What is the nth term of a geometric progression whose first term is 2 and common ratio is 5?",
+      "options": {
+        "A": "2·5^{n-1}",
+        "B": "2·5^{n}",
+        "C": "5·2^{n-1}",
+        "D": "5^{n}+2"
+      },
+      "correct_option": "A",
+      "answer": "2·5^{n-1}",
+      "explanation": "For a GP, the nth term is given by a·r^{n‑1}, where a is the first term and r the common ratio. Substituting a = 2 and r = 5 gives 2·5^{n‑1}. Options B, C, and D do not follow the correct formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Find the sum of the first 5 terms of the geometric progression with first term 2 and common ratio 3.",
+      "options": {
+        "A": "242",
+        "B": "240",
+        "C": "244",
+        "D": "246"
+      },
+      "correct_option": "A",
+      "answer": "242",
+      "explanation": "Sum of first n terms: S_n = a(r^{n}‑1)/(r‑1). Here a = 2, r = 3, n = 5. So S_5 = 2(3^{5}‑1)/(3‑1) = 2(243‑1)/2 = 2·242/2 = 242. Hence option A is correct; the other numbers are miscalculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "The series 12 + 6 + 3 + 1.5 + … is an infinite geometric progression. Does it have a finite sum? If yes, what is it?",
+      "options": {
+        "A": "No, because the series does not converge.",
+        "B": "Yes, the sum is 24.",
+        "C": "Yes, the sum is 48.",
+        "D": "Yes, the sum is 12."
+      },
+      "correct_option": "B",
+      "answer": "Yes, the sum is 24.",
+      "explanation": "The series has first term a = 12 and common ratio r = 0.5 (6/12). Since |r| < 1, the infinite sum exists and equals a/(1‑r) = 12/(1‑0.5) = 12/0.5 = 24. Option A is wrong because the series does converge; options C and D give incorrect sums.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "A farmer plants a row of trees such that each successive tree is planted twice as far from the previous one as the first tree was from the start point. The distances from the start are 2 m, 4 m, 8 m, 16 m, … Which description best fits this situation?",
+      "options": {
+        "A": "Arithmetic progression",
+        "B": "Geometric progression",
+        "C": "Harmonic progression",
+        "D": "Fibonacci sequence"
+      },
+      "correct_option": "B",
+      "answer": "Geometric progression",
+      "explanation": "Each distance is obtained by multiplying the previous distance by a constant factor of 2, which is the definition of a geometric progression. Hence option B is correct. Option A would require a constant addition, C involves reciprocals, and D follows a different recurrence.",
+      "difficulty": "medium"
+    }
+  ]
+}
