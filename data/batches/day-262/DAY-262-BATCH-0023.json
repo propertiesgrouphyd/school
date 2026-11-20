@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "In an arithmetic progression, which formula gives the nth term?",
+      "options": {
+        "A": "a_n = a + (n-1)d",
+        "B": "a_n = a + nd",
+        "C": "a_n = a\\*d^{n-1}",
+        "D": "a_n = (a + n)/d"
+      },
+      "correct_option": "A",
+      "answer": "a_n = a + (n-1)d",
+      "explanation": "The nth term of an AP is obtained by adding (n‑1) times the common difference d to the first term a, i.e., a_n = a + (n‑1)d. Option B omits the ‘‑1’, C is the formula for a geometric progression, and D is algebraically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "What is the correct expression for the sum of the first n terms of an arithmetic progression?",
+      "options": {
+        "A": "S_n = \\frac{n}{2}[2a + (n-1)d]",
+        "B": "S_n = n[2a + (n-1)d]",
+        "C": "S_n = a\\,d^{n-1}",
+        "D": "S_n = \\frac{n}{2}(a + n)"
+      },
+      "correct_option": "A",
+      "answer": "S_n = \\frac{n}{2}[2a + (n-1)d]",
+      "explanation": "The sum of the first n terms of an AP is S_n = n/2 [2a + (n‑1)d]. Option B misses the division by 2, C is a geometric‑progression expression, and D does not represent the AP sum formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "A person saves $100 in the first month and then increases the monthly saving by $20 each subsequent month. How much total is saved in the first 6 months?",
+      "options": {
+        "A": "$900",
+        "B": "$800",
+        "C": "$1,000",
+        "D": "$1,100"
+      },
+      "correct_option": "A",
+      "answer": "$900",
+      "explanation": "Here a = 100, d = 20, n = 6. Using S_n = n/2[2a+(n-1)d] gives S_6 = 6/2[200+5·20] = 3[200+100] = 3·300 = 900. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "Which of the following sequences is an arithmetic progression?",
+      "options": {
+        "A": "3, 7, 11, 15, ...",
+        "B": "2, 4, 8, 16, ...",
+        "C": "1, 4, 9, 16, ...",
+        "D": "10, 8, 5, 2, ..."
+      },
+      "correct_option": "A",
+      "answer": "3, 7, 11, 15, ...",
+      "explanation": "In option A the difference between consecutive terms is constant (4), so it is an AP. Option B is geometric, C consists of squares, and D has non‑constant differences (‑2, ‑3, ‑3).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "What is the common difference of the arithmetic progression 5, 9, 13, 17, … ?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "4",
+      "explanation": "The common difference d = 9‑5 = 4 (or any successive pair). Some students mistakenly compute (last‑first)/n = (17‑5)/4 = 3, which is option B. Options C and D are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "In an AP, the 5th term is 20 and the common difference is 3. What is the 10th term?",
+      "options": {
+        "A": "35",
+        "B": "38",
+        "C": "32",
+        "D": "41"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "First term a = a_5 – 4d = 20 – 12 = 8. Then a_10 = a + 9d = 8 + 27 = 35. Options B, C, D arise from incorrect substitution or arithmetic mistakes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Which expression correctly represents the sum of the first n terms of an arithmetic progression in terms of the first term a and the nth term l?",
+      "options": {
+        "A": "S_n = \\frac{n}{2}(a + l)",
+        "B": "S_n = n(a + l)",
+        "C": "S_n = \\frac{n}{2}[2a + nd]",
+        "D": "S_n = \\frac{n+1}{2}(a + l)"
+      },
+      "correct_option": "A",
+      "answer": "S_n = \\frac{n}{2}(a + l)",
+      "explanation": "The sum can be written as S_n = n/2 (a + l), where l is the nth term. Option B lacks the division by 2, C mixes the d‑formula incorrectly, and D uses n+1 which is wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "In an arithmetic progression, the sum of the first 10 terms is 250 and the sum of the first 20 terms is 750. What is the 15th term?",
+      "options": {
+        "A": "48.75",
+        "B": "45",
+        "C": "50",
+        "D": "52.5"
+      },
+      "correct_option": "A",
+      "answer": "48.75",
+      "explanation": "Let a be the first term and d the common difference. From S_10 = 5(2a+9d)=250 ⇒ 2a+9d=50. From S_20 =10(2a+19d)=750 ⇒ 2a+19d=75. Subtracting gives 10d=25 ⇒ d=2.5. Substituting back: 2a+9·2.5=50 ⇒ 2a=27.5 ⇒ a=13.75. The 15th term a_15 = a+14d = 13.75+35 = 48.75. Other options result from arithmetic errors.",
+      "difficulty": "hard"
+    }
+  ]
+}

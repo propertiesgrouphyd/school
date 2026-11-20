@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Consider two arithmetic progressions: AP1 has first term 3 and common difference 2, while AP2 has first term 5 and common difference 1. Which statement about the sum of the first n terms (Sₙ) of these APs is correct for all positive integers n?",
+      "options": {
+        "A": "Sₙ of AP1 is always greater than Sₙ of AP2",
+        "B": "Sₙ of AP1 is always equal to Sₙ of AP2",
+        "C": "Sₙ of AP1 is always less than Sₙ of AP2",
+        "D": "The relative size of the two sums depends on the value of n"
+      },
+      "correct_option": "D",
+      "answer": "The relative size of the two sums depends on the value of n",
+      "explanation": "For AP1: S₁ = n/2[2·3+(n‑1)·2] = n(n+2). For AP2: S₂ = n/2[2·5+(n‑1)·1] = n(n+9)/2. Comparing 2S₁ = 2n²+4n with 2S₂ = n²+9n gives 2S₁‑2S₂ = n(n‑5). Hence S₁>S₂ when n>5, S₁<S₂ when n<5, and they are equal at n=5. Therefore the relationship depends on n.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "In an arithmetic progression, the sum of the first 5 terms is 50 and the sum of the first 10 terms is 200. What is the 8th term of the progression?",
+      "options": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "34"
+      },
+      "correct_option": "B",
+      "answer": "30",
+      "explanation": "Let a be the first term and d the common difference. S₅ = 5/2[2a+4d] = 50 ⇒ 2a+4d = 20 ⇒ a+2d = 10. S₁₀ = 10/2[2a+9d] = 200 ⇒ 2a+9d = 40. Subtracting the first equation (multiplied by 2) from the second gives 5d = 20 ⇒ d = 4. Then a = 10‑2·4 = 2. The 8th term = a+7d = 2+28 = 30.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "Which of the following statements correctly defines an arithmetic progression?",
+      "options": {
+        "A": "A sequence in which each term after the first is obtained by adding a constant to the preceding term.",
+        "B": "A sequence where each term is the product of the previous term and a constant.",
+        "C": "A sequence where the difference between consecutive terms varies.",
+        "D": "A sequence where each term is the square of its position number."
+      },
+      "correct_option": "A",
+      "answer": "A sequence in which each term after the first is obtained by adding a constant to the preceding term.",
+      "explanation": "In an arithmetic progression (AP) the difference between any two successive terms is the same constant, called the common difference. This matches option A. Options B, C, and D describe geometric, non‑uniform, and square‑number sequences respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "If the first three terms of an arithmetic progression are 7, 12, and 17, what is the common difference?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "In an AP, the common difference d = second term – first term = 12‑7 = 5. The same difference is seen between the second and third terms (17‑12 = 5), confirming the value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "In an arithmetic progression with first term a₁ = 4 and common difference d = 3, the nth term is given by which expression?",
+      "options": {
+        "A": "4 + 3n",
+        "B": "4 + 3(n‑1)",
+        "C": "3n – 4",
+        "D": "4n + 3"
+      },
+      "correct_option": "B",
+      "answer": "4 + 3(n‑1)",
+      "explanation": "The general formula for the nth term of an AP is aₙ = a₁ + (n‑1)d. Substituting a₁ = 4 and d = 3 gives aₙ = 4 + 3(n‑1). Option B matches this formula; the other options are algebraic variations that do not represent the correct AP term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Find the sum of the first 8 terms of the arithmetic progression: 5, 9, 13, …",
+      "options": {
+        "A": "124",
+        "B": "132",
+        "C": "152",
+        "D": "160"
+      },
+      "correct_option": "C",
+      "answer": "152",
+      "explanation": "Here a = 5, d = 4, n = 8. Sum Sₙ = n/2[2a + (n‑1)d] = 8/2[10 + 28] = 4 × 38 = 152. The other options result from arithmetic errors such as using wrong n or d.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "A person saves Rs. 200 in the first month and then increases the saving by Rs. 50 each subsequent month. What is the total amount saved in the first 12 months?",
+      "options": {
+        "A": "Rs 4,800",
+        "B": "Rs 5,100",
+        "C": "Rs 5,700",
+        "D": "Rs 6,200"
+      },
+      "correct_option": "C",
+      "answer": "Rs 5,700",
+      "explanation": "The savings form an AP with a = 200, d = 50, n = 12. Sum S₁₂ = 12/2[2·200 + (12‑1)·50] = 6[400 + 550] = 6 × 950 = 5,700. Options A, B, and D correspond to mis‑calculations of the sum formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "A staircase has steps such that the height of the first step is 15 cm and each subsequent step is 2 cm taller than the previous one. Which of the following best describes the sequence of step heights?",
+      "options": {
+        "A": "Geometric progression",
+        "B": "Harmonic progression",
+        "C": "Arithmetic progression",
+        "D": "Fibonacci sequence"
+      },
+      "correct_option": "C",
+      "answer": "Arithmetic progression",
+      "explanation": "The step heights increase by a fixed amount (2 cm) each time, which is the defining property of an arithmetic progression. A geometric progression would multiply by a constant ratio, a harmonic progression involves reciprocals, and the Fibonacci sequence adds the two preceding terms.",
+      "difficulty": "medium"
+    }
+  ]
+}
