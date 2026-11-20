@@ -1,0 +1,150 @@
+{
+  "day": 261,
+  "batch_id": "DAY-261-BATCH-0051",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Using the binomial expansion (1+x)^5 with x=0.02, which of the following approximations is closest to the actual value of (1.02)^5?",
+      "options": {
+        "A": "Approximation using only the first term (1)",
+        "B": "Approximation using terms up to x^2 (1+5x+10x^2)",
+        "C": "Approximation using terms up to x^3 (1+5x+10x^2+10x^3)",
+        "D": "Approximation using terms up to x^4"
+      },
+      "correct_option": "C",
+      "answer": "Approximation using terms up to x^3 (1+5x+10x^2+10x^3)",
+      "explanation": "The exact value of (1.02)^5 is about 1.1040808. Using terms up to x^2 gives 1.104, error ≈8.1×10⁻⁵. Including the x^3 term gives 1.1040808, error ≈8×10⁻⁷, which is far closer. Hence the approximation up to x^3 is the most accurate among the choices.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "To approximate √(1.05) using the binomial expansion (1+x)^{1/2}, what is the minimum number of terms required to ensure the absolute error is less than 0.001?",
+      "options": {
+        "A": "One term only",
+        "B": "Two terms",
+        "C": "Three terms",
+        "D": "Four terms"
+      },
+      "correct_option": "B",
+      "answer": "Two terms",
+      "explanation": "Using the first two terms: √(1.05)≈1+½·0.05=1.025. The true value is ≈1.024695, giving an error of about 0.000305, which is below 0.001. One term (just 1) would give an error of 0.0247, exceeding the limit. Thus two terms suffice.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Which of the following expressions can be reliably estimated using the binomial expansion for a small positive increment?",
+      "options": {
+        "A": "(1+0.03)^{10}",
+        "B": "sin 30^{\\circ}",
+        "C": "\\log 2",
+        "D": "7^{2}"
+      },
+      "correct_option": "A",
+      "answer": "(1+0.03)^{10}",
+      "explanation": "The binomial theorem is applicable to expressions of the form (1+x)^n where |x| is small. Option A fits this pattern with x=0.03. The other options are unrelated to binomial expansion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "Which statement correctly describes a limitation of the binomial approximation?",
+      "options": {
+        "A": "The approximation becomes more accurate as the magnitude of x decreases.",
+        "B": "The approximation gives exact results for any large value of x.",
+        "C": "Increasing the number of terms never improves accuracy.",
+        "D": "The approximation is exact for all integer exponents n."
+      },
+      "correct_option": "A",
+      "answer": "The approximation becomes more accurate as the magnitude of x decreases.",
+      "explanation": "Binomial expansion is a series that converges rapidly when |x| is small; larger |x| values require many terms for good accuracy. Hence statement A is true, while B, C, and D are false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Apply expansion to numerical expressions",
+      "question": "Consider (1+0.05)^3. Which pair correctly distinguishes the exact value from its binomial approximation using only the first two terms?",
+      "options": {
+        "A": "Exact value = 1.1500, Approximation = 1.157625",
+        "B": "Exact value = 1.157625, Approximation = 1.1500",
+        "C": "Exact value = 1.1500, Approximation = 1.1500",
+        "D": "Exact value = 1.157625, Approximation = 1.157625"
+      },
+      "correct_option": "B",
+      "answer": "Exact value = 1.157625, Approximation = 1.1500",
+      "explanation": "The exact value of (1.05)^3 is 1.157625. Using only the first two terms of the binomial expansion gives 1 + 3·0.05 = 1.15. Option B correctly reflects this distinction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Use appropriate number of terms",
+      "question": "Approximate (1-0.04)^6 using the binomial expansion up to the smallest number of terms that guarantees an absolute error less than 0.0005. What is the resulting approximation?",
+      "options": {
+        "A": "0.7840",
+        "B": "0.7827",
+        "C": "0.7800",
+        "D": "0.7880"
+      },
+      "correct_option": "B",
+      "answer": "0.7827",
+      "explanation": "Expanding (1-0.04)^6 gives 1-6x+15x^2-20x^3+… with x=0.04. Using terms up to x^3: 1-0.24+0.024-0.00128 = 0.78272, which differs from the exact value 0.78277 by less than 0.0005. Options A and C are less accurate, D is far off.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Estimate values where suitable",
+      "question": "Estimate (1+0.01)^{12} by retaining terms up to x^2 in the binomial expansion. What is the estimated value?",
+      "options": {
+        "A": "1.1266",
+        "B": "1.1270",
+        "C": "1.1250",
+        "D": "1.1300"
+      },
+      "correct_option": "A",
+      "answer": "1.1266",
+      "explanation": "Using (1+x)^{12} ≈ 1+12x+\\binom{12}{2}x^2 with x=0.01 gives 1+0.12+66·0.0001 = 1.1266. This is the required estimate; the other options either include more precision or are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01109",
+      "learning_point": "Understand limitations of approximation",
+      "question": "A student approximates (1+0.5)^3 by keeping only the first two terms of the binomial expansion. Which statement best describes the reliability of this approximation?",
+      "options": {
+        "A": "It is highly reliable because the exponent is an integer.",
+        "B": "It is reliable because |x|=0.5 is sufficiently small for any number of terms.",
+        "C": "It is unreliable because |x|=0.5 is not small enough for a two‑term approximation to be accurate.",
+        "D": "It is exact because the binomial theorem gives the exact value with any number of terms."
+      },
+      "correct_option": "C",
+      "answer": "It is unreliable because |x|=0.5 is not small enough for a two‑term approximation to be accurate.",
+      "explanation": "With x=0.5, the first two terms give 1+3·0.5=2.5, while the exact value (1.5)^3=3.375. The error is large, showing that a two‑term binomial approximation is unreliable for such a large x. Options A, B, and D are incorrect for the reasons stated.",
+      "difficulty": "medium"
+    }
+  ]
+}
