@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Consider two geometric progressions: GP1 has first term 2, common ratio 3 and 4 terms; GP2 has first term 5, common ratio 2 and 4 terms. Which statement about the sums of the first 4 terms is correct?",
+      "options": {
+        "A": "The sum of GP1 is greater than the sum of GP2",
+        "B": "The sum of GP2 is greater than the sum of GP1",
+        "C": "Both sums are equal",
+        "D": "The comparison cannot be made without further information"
+      },
+      "correct_option": "A",
+      "answer": "The sum of GP1 is greater than the sum of GP2",
+      "explanation": "For GP1, S4 = a(r^4-1)/(r-1)=2(3^4-1)/(3-1)=2(81-1)/2=80. For GP2, S4 =5(2^4-1)/(2-1)=5(16-1)=75. Since 80>75, GP1's sum is larger. Options B, C, D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "An infinite geometric progression has first term 4 and converges to a finite sum. Which of the following could be its common ratio?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "2",
+        "D": "-1"
+      },
+      "correct_option": "A",
+      "answer": "1/2",
+      "explanation": "An infinite GP converges only when the absolute value of the common ratio |r|<1. Among the options, only 1/2 satisfies this condition. r=1 gives a constant series with infinite sum, r=2 diverges, and r=-1 oscillates without a limit.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "Which of the following statements correctly defines a geometric progression?",
+      "options": {
+        "A": "Each term after the first is obtained by adding a fixed number to the preceding term.",
+        "B": "Each term after the first is obtained by multiplying the preceding term by a fixed non‑zero constant.",
+        "C": "The terms are the squares of the natural numbers.",
+        "D": "Each term is the sum of the two preceding terms."
+      },
+      "correct_option": "B",
+      "answer": "Each term after the first is obtained by multiplying the preceding term by a fixed non‑zero constant.",
+      "explanation": "In a geometric progression (GP) the ratio between successive terms is constant; that is, a_{n+1}=a_n·r where r (≠0) is the common ratio. Option A describes an arithmetic progression, C is unrelated, and D describes the Fibonacci sequence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "The sequence 5, 15, 45, … is a geometric progression. What is its common ratio?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "The common ratio r is the quotient of any term by its preceding term: 15/5 = 3, 45/15 = 3. Hence r = 3. The other options do not satisfy the ratio between consecutive terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "A geometric progression has first term 7 and common ratio 2. What is the 6th term of this progression?",
+      "options": {
+        "A": "112",
+        "B": "224",
+        "C": "56",
+        "D": "14"
+      },
+      "correct_option": "B",
+      "answer": "224",
+      "explanation": "The nth term of a GP is given by a_n = a·r^{n-1}. Here a=7, r=2, n=6 ⇒ a_6 = 7·2^{5}=7·32=224. Options A, C, D are results of incorrect exponent or arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Find the sum of the first 5 terms of the geometric progression 3, -6, 12, -24, …",
+      "options": {
+        "A": "33",
+        "B": "-33",
+        "C": "21",
+        "D": "-21"
+      },
+      "correct_option": "A",
+      "answer": "33",
+      "explanation": "Here a=3, r=-2, n=5. Sum S_n = a(r^n-1)/(r-1) = 3((-2)^5-1)/(-2-1) = 3(-32-1)/-3 = 3(-33)/-3 = 33. The other options arise from sign mistakes or using the wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "The series 6, 2, 2/3, … continues as a geometric progression. What is the sum to infinity of this series?",
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "12",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "9",
+      "explanation": "First term a=6, common ratio r = 2/6 = 1/3 (also 2/6 = 1/3). Since |r|<1, the infinite sum S = a/(1-r) = 6/(1-1/3) = 6/(2/3) = 9. Options B, C, D are incorrect because they use wrong denominator or ignore the convergence condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "A bacterial colony starts with 10 cells and the number of cells doubles every hour. Which description best matches the pattern of the colony size over time?",
+      "options": {
+        "A": "The colony size forms a geometric progression with common ratio 2.",
+        "B": "The colony size forms an arithmetic progression with common difference 2.",
+        "C": "The colony size forms a harmonic progression.",
+        "D": "The colony size follows a random, non‑systematic pattern."
+      },
+      "correct_option": "A",
+      "answer": "The colony size forms a geometric progression with common ratio 2.",
+      "explanation": "Doubling each hour means each term is obtained by multiplying the previous term by 2, which is the definition of a geometric progression with r=2. Option B describes an AP, C is unrelated, and D is false.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "Which of the following best defines a geometric progression?",
+      "options": {
+        "A": "A sequence where each term after the first is obtained by adding a fixed number to the preceding term.",
+        "B": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+        "C": "A sequence where each term is the sum of the two preceding terms.",
+        "D": "A sequence where all terms are powers of 2 only."
+      },
+      "correct_option": "B",
+      "answer": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+      "explanation": "In a geometric progression (GP) each term is produced by multiplying the previous term by a constant called the common ratio. Option B states this definition. Option A describes an arithmetic progression, C describes a Fibonacci-type sequence, and D is a special case, not the general definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "The sequence 3, 6, 12, 24, ... is a geometric progression. What is its common ratio?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1/2",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "answer": "2",
+      "explanation": "Each term is obtained by multiplying the previous term by 2 (6÷3=2, 12÷6=2, etc.). Hence the common ratio r = 2. The other options give incorrect multipliers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "In a geometric progression with first term a=5 and common ratio r=3, what is the 5th term?",
+      "options": {
+        "A": "45",
+        "B": "135",
+        "C": "405",
+        "D": "1215"
+      },
+      "correct_option": "C",
+      "answer": "405",
+      "explanation": "The nth term formula for a GP is a_n = a·r^{n-1}. Here a_5 = 5·3^{4}=5·81=405. Option C is correct; the other values arise from using wrong exponents or arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "Find the sum of the first 4 terms of the geometric progression 2, 6, 18, 54, ...",
+      "options": {
+        "A": "80",
+        "B": "82",
+        "C": "78",
+        "D": "85"
+      },
+      "correct_option": "A",
+      "answer": "80",
+      "explanation": "Here a=2, r=3, n=4. Sum S_n = a(r^n-1)/(r-1) = 2(3^4-1)/(3-1)=2(81-1)/2=80. Option A matches this calculation. The other options are distractors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "The infinite geometric series 4 + 2 + 1 + 0.5 + … has a sum to infinity. What is that sum?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "4",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "8",
+      "explanation": "The series has a=4 and r=1/2 (|r|<1), so the sum to infinity S_∞ = a/(1-r) = 4/(1-0.5)=8. Option B is correct. Options A, C, D result from incorrect use of the formula or ignoring the condition |r|<1.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "A ball is dropped from a height of 10 m and each bounce reaches half the height of the previous bounce. Which statement correctly defines the sequence of heights reached?",
+      "options": {
+        "A": "Each height is obtained by adding a constant number to the previous height.",
+        "B": "Each height is obtained by multiplying the previous height by a constant ratio of 1/2.",
+        "C": "Each height is the sum of the two preceding heights.",
+        "D": "Each height is always 10 m regardless of the bounce."
+      },
+      "correct_option": "B",
+      "answer": "Each height is obtained by multiplying the previous height by a constant ratio of 1/2.",
+      "explanation": "The heights form a geometric progression with first term 10 m and common ratio r=1/2, because each bounce reaches half the previous height. Option B captures this definition. Options A, C, D describe unrelated sequences.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "Consider the geometric progression 8, 4, 2, 1, … . What is the common ratio?",
+      "options": {
+        "A": "2",
+        "B": "-2",
+        "C": "1/2",
+        "D": "-1/2"
+      },
+      "correct_option": "C",
+      "answer": "1/2",
+      "explanation": "The ratio is obtained by dividing any term by its preceding term: 4÷8 = 1/2, 2÷4 = 1/2, etc. Hence r = 1/2. Many students mistakenly think the ratio is 2 because the numbers are decreasing, but the ratio is the factor you multiply by, which is 1/2. Options A, B, D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "A geometric progression has first term 7 and fourth term 56. What is the sixth term of this progression?",
+      "options": {
+        "A": "112",
+        "B": "224",
+        "C": "448",
+        "D": "56"
+      },
+      "correct_option": "B",
+      "answer": "224",
+      "explanation": "Let r be the common ratio. a_4 = a·r^{3} ⇒ 56 = 7·r^{3} ⇒ r^{3}=8 ⇒ r=2. The sixth term a_6 = a·r^{5}=7·2^{5}=7·32=224. Option B is correct. The other options arise from using wrong exponents or forgetting to compute r correctly.",
+      "difficulty": "medium"
+    }
+  ]
+}

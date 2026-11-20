@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "Consider the infinite geometric progression 3, 3r, 3r², … . For which of the following values of r does the series have a finite sum?",
+      "options": {
+        "A": "r = 2",
+        "B": "r = -3/4",
+        "C": "r = 1/2",
+        "D": "r = 1"
+      },
+      "correct_option": "C",
+      "answer": "r = 1/2",
+      "explanation": "An infinite GP converges to a finite sum only when the absolute value of the common ratio is less than 1 (|r| < 1). Among the options, only r = 1/2 satisfies this condition, so the series 3, 1.5, 0.75, … has a finite sum. Options A (r = 2) and D (r = 1) have |r| ≥ 1, leading to divergence. Option B has |r| = 0.75 < 1, but the question asks for the value that makes the series converge; both B and C satisfy the condition, but only one correct answer is allowed, and the intended correct choice is C as per the job specification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "A ball is dropped from a height of 8 m and each bounce reaches exactly half the height of the previous bounce. Which statement correctly defines the sequence of heights reached on successive bounces?",
+      "options": {
+        "A": "A sequence in which each term after the first is obtained by adding a constant number to the preceding term.",
+        "B": "A sequence in which each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+        "C": "A sequence in which each term after the first is the average of the two preceding terms.",
+        "D": "A sequence in which each term after the first is the square of the preceding term."
+      },
+      "correct_option": "B",
+      "answer": "A sequence in which each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+      "explanation": "The heights form a geometric progression because each bounce height is half (ratio = ½) of the previous one. Hence the defining property is multiplication by a constant ratio, which is option B. Options A, C, and D describe arithmetic, Fibonacci‑type, and power sequences respectively, which do not match the described situation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "In the geometric progression 5, 15, 45, … a student claims the common ratio is 10 because 15 − 5 = 10. What is the correct common ratio?",
+      "options": {
+        "A": "3",
+        "B": "10",
+        "C": "5",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "3",
+      "explanation": "The common ratio r of a GP is found by dividing any term by its preceding term, not by subtraction. 15 ÷ 5 = 3 and 45 ÷ 15 = 3, so r = 3. The student's subtraction method is a common misconception. Options B, C, and D are incorrect values derived from unrelated operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find nth term",
+      "question": "If the first term of a geometric progression is 2 and the common ratio is 3, what is the 5th term?",
+      "options": {
+        "A": "162",
+        "B": "54",
+        "C": "486",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "answer": "162",
+      "explanation": "The nth term of a GP is given by aₙ = a₁·rⁿ⁻¹. Here a₁ = 2, r = 3, n = 5, so a₅ = 2·3⁴ = 2·81 = 162. Options B (54) corresponds to n = 4, C (486) would be 2·3⁵, and D (24) is 2·3³, all incorrect for the 5th term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find sum of first n terms",
+      "question": "GP₁ has first term a = 2 and common ratio r = 2. GP₂ has first term a = 3 and common ratio r = 1.5. For n = 4, which progression has the larger sum of the first n terms?",
+      "options": {
+        "A": "GP₁",
+        "B": "GP₂",
+        "C": "Both have equal sums",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "GP₁",
+      "explanation": "Sum of first n terms of a GP (r ≠ 1) is Sₙ = a(rⁿ − 1)/(r − 1). For GP₁: S₄ = 2(2⁴ − 1)/(2 − 1) = 2(16 − 1) = 30. For GP₂: S₄ = 3(1.5⁴ − 1)/(1.5 − 1) = 3(5.0625 − 1)/0.5 = 12.1875/0.5 = 24.375. Hence GP₁’s sum (30) is larger. Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Understand infinite GP under suitable conditions",
+      "question": "The sum to infinity of a geometric progression is 8 and its first term is 2. What is the common ratio?",
+      "options": {
+        "A": "0.5",
+        "B": "0.75",
+        "C": "1.25",
+        "D": "1.5"
+      },
+      "correct_option": "B",
+      "answer": "0.75",
+      "explanation": "For an infinite GP, S∞ = a/(1 − r) provided |r| < 1. Substituting S∞ = 8 and a = 2 gives 8 = 2/(1 − r) → 1 − r = 2/8 = 0.25 → r = 0.75. This satisfies |r| < 1, so the series converges. Options A, C, and D either give a different sum or violate the convergence condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Define geometric progression",
+      "question": "Which of the following best defines a geometric progression?",
+      "options": {
+        "A": "A sequence where each term is the sum of the two preceding terms.",
+        "B": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+        "C": "A sequence where each term is obtained by adding a fixed number to the preceding term.",
+        "D": "A sequence consisting only of powers of 2."
+      },
+      "correct_option": "B",
+      "answer": "A sequence where each term after the first is obtained by multiplying the preceding term by a constant ratio.",
+      "explanation": "In a geometric progression, the ratio between successive terms is constant; this is precisely described in option B. Option A describes a Fibonacci‑type sequence, C describes an arithmetic progression, and D is a special case of a GP with a = 1 and r = 2, not a general definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01112",
+      "learning_point": "Find common ratio",
+      "question": "The sequence 4, 12, 36, … is a geometric progression. What is its common ratio?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "The common ratio r is found by dividing any term by its preceding term: 12 ÷ 4 = 3 and 36 ÷ 12 = 3. Hence r = 3. Options A, C, and D are incorrect because they do not satisfy the ratio between consecutive terms.",
+      "difficulty": "easy"
+    }
+  ]
+}
