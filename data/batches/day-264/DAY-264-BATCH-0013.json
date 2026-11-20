@@ -1,0 +1,78 @@
+{
+  "day": 264,
+  "batch_id": "DAY-264-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01119",
+      "learning_point": "Define parabola",
+      "question": "Which of the following statements is NOT a correct definition of a parabola?",
+      "options": {
+        "A": "The set of points equidistant from a fixed point (focus) and a fixed line (directrix).",
+        "B": "The set of points equidistant from two fixed points.",
+        "C": "The set of points equidistant from a fixed point and a fixed line.",
+        "D": "The locus of points where the distance to the focus equals the distance to the directrix."
+      },
+      "correct_option": "B",
+      "answer": "The set of points equidistant from two fixed points.",
+      "explanation": "A parabola is defined as the locus of points that are equidistant from a fixed point called the focus and a fixed line called the directrix. Option B describes an ellipse, not a parabola. Options A, C, and D are all correct descriptions of a parabola, while B is the misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01119",
+      "learning_point": "Understand focus and directrix",
+      "question": "Which of the following points lies on the parabola whose focus is (0,2) and whose directrix is the line y = -2?",
+      "options": {
+        "A": "(0,0)",
+        "B": "(1,0)",
+        "C": "(0,2)",
+        "D": "(2,0)"
+      },
+      "correct_option": "A",
+      "answer": "(0,0)",
+      "explanation": "For a point (x, y) to be on the parabola, its distance to the focus (0,2) must equal its perpendicular distance to the directrix y = -2. For (0,0): distance to focus = sqrt((0-0)^2+(0-2)^2)=2; distance to directrix = |0+2|=2. Hence (0,0) satisfies the condition. The other points give unequal distances, so they are not on the parabola.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01119",
+      "learning_point": "Identify vertex",
+      "question": "Consider the following two parabolas:\n(i) y^2 = 8x\n(ii) (x-2)^2 = -12(y+1)\nWhich statement about their vertices is correct?",
+      "options": {
+        "A": "Both parabolas have their vertex at the origin.",
+        "B": "Parabola (i) has vertex at (0,0) while parabola (ii) has vertex at (2,-1).",
+        "C": "Parabola (i) has vertex at (0,0) and parabola (ii) has vertex at (2,1).",
+        "D": "Neither parabola has its vertex at the origin."
+      },
+      "correct_option": "B",
+      "answer": "Parabola (i) has vertex at (0,0) while parabola (ii) has vertex at (2,-1).",
+      "explanation": "For y^2 = 8x, the standard form y^2 = 4ax gives a = 2, and the vertex is at the origin (0,0). For (x-2)^2 = -12(y+1), rewrite as (x-2)^2 = -12(y+1) ⇒ (x-2)^2 = 4a(y+1) with a = -3. The vertex is at (h, k) = (2, -1). Hence option B correctly identifies both vertices.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01119",
+      "learning_point": "Identify axis",
+      "question": "The parabola given by (x-3)^2 = 12(y+2) has its axis of symmetry along which line?",
+      "options": {
+        "A": "x = 3",
+        "B": "y = -2",
+        "C": "x = -3",
+        "D": "y = 3"
+      },
+      "correct_option": "A",
+      "answer": "x = 3",
+      "explanation": "The equation (x-3)^2 = 12(y+2) is of the form (x-h)^2 = 4a(y-k), which represents a parabola opening upwards with vertex at (h, k) = (3, -2). Its axis of symmetry is the vertical line passing through the vertex, i.e., x = h = 3. Therefore option A is correct; the other lines are not axes of this parabola.",
+      "difficulty": "hard"
+    }
+  ]
+}
