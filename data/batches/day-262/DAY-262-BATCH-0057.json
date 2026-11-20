@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0057",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use distance formula",
+      "question": "Which of the following expressions correctly gives the distance between the points (x1, y1) and (x2, y2)?",
+      "options": {
+        "A": "√[(x2 - x1)² + (y2 - y1)²]",
+        "B": "√[(x2 + x1)² + (y2 + y1)²]",
+        "C": "(x2 - x1) + (y2 - y1)",
+        "D": "√[(x2 - x1)² - (y2 - y1)²]"
+      },
+      "correct_option": "A",
+      "answer": "√[(x2 - x1)² + (y2 - y1)²]",
+      "explanation": "The distance formula is derived from the Pythagorean theorem applied to the right‑angled triangle formed by the horizontal and vertical differences of the two points. It is √[(Δx)² + (Δy)²] = √[(x2 - x1)² + (y2 - y1)²]. Options B, C and D either add instead of subtract, omit the square root, or subtract the squares, which are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use section formula",
+      "question": "Find the coordinates of the point that divides the line segment joining A(2, 3) and B(8, 9) in the ratio 2:3 internally.",
+      "options": {
+        "A": "(4, 5)",
+        "B": "(22/5, 27/5)",
+        "C": "(5, 6)",
+        "D": "(6, 7)"
+      },
+      "correct_option": "B",
+      "answer": "(22/5, 27/5)",
+      "explanation": "For internal division in ratio m:n, the coordinates are ((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n)). Here m=2, n=3, x1=2, y1=3, x2=8, y2=9. So x = (3·2 + 2·8)/5 = 22/5, y = (3·3 + 2·9)/5 = 27/5. The other options are results of incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Find midpoint",
+      "question": "What are the coordinates of the midpoint of the line segment joining P(‑4, 2) and Q(6, ‑8)?",
+      "options": {
+        "A": "(1, ‑3)",
+        "B": "(2, ‑3)",
+        "C": "(1, ‑2)",
+        "D": "(0, ‑3)"
+      },
+      "correct_option": "A",
+      "answer": "(1, ‑3)",
+      "explanation": "Midpoint formula: ((x1 + x2)/2, (y1 + y2)/2). Thus ((‑4 + 6)/2 = 1, (2 + (‑8))/2 = ‑3). Option A matches; the others arise from arithmetic slips.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Apply coordinate methods to geometric problems",
+      "question": "In triangle ABC, vertices A(0, 0) and B(6, 0) are known. If the centroid G is at (2, 2), what are the coordinates of vertex C?",
+      "options": {
+        "A": "(0, 6)",
+        "B": "(6, 0)",
+        "C": "(0, ‑6)",
+        "D": "(6, 6)"
+      },
+      "correct_option": "A",
+      "answer": "(0, 6)",
+      "explanation": "The centroid is the average of the three vertices: ((0+6+x)/3, (0+0+y)/3) = (2, 2). Solving gives x = 0 and y = 6. Hence C is (0, 6). Options B, C, D do not satisfy the centroid condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use distance formula",
+      "question": "A student computes the distance between (1, 2) and (4, 6) as (4‑1)² + (6‑2)² = 25 and claims the distance is 25 units. Which of the following identifies the error?",
+      "options": {
+        "A": "Forgot to take the square root after adding the squares",
+        "B": "Swapped the coordinates of the points",
+        "C": "Used the slope formula instead of the distance formula",
+        "D": "Added the coordinates instead of subtracting them"
+      },
+      "correct_option": "A",
+      "answer": "Forgot to take the square root after adding the squares",
+      "explanation": "The distance formula requires √[(Δx)² + (Δy)²]. The student correctly computed the sum of squares (25) but omitted the square root, which would give √25 = 5 units. The other options describe unrelated mistakes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use section formula",
+      "question": "Point P divides the segment AB internally in the ratio 3:2. If A(1, 4) and P(4, 7), find the coordinates of B.",
+      "options": {
+        "A": "(6, 9)",
+        "B": "(9, 6)",
+        "C": "(5, 8)",
+        "D": "(8, 5)"
+      },
+      "correct_option": "A",
+      "answer": "(6, 9)",
+      "explanation": "For internal division, P = ((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n)) with m:n = 3:2. Setting ( (2·1 + 3·x₂)/5, (2·4 + 3·y₂)/5 ) = (4, 7) gives 2+3x₂ = 20 → x₂ = 6 and 8+3y₂ = 35 → y₂ = 9. Hence B is (6, 9). The other options result from swapping m and n or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Find midpoint",
+      "question": "Compare the midpoints of the segments joining (2, ‑3) & (8, 5) and (5, 1) & (5, 9). Which statement is true?",
+      "options": {
+        "A": "Both midpoints are the same point.",
+        "B": "The first midpoint is (5, 1) and the second midpoint is (5, 5).",
+        "C": "The first midpoint is (5, 5) and the second midpoint is (5, 1).",
+        "D": "Both midpoints are (5, 5)."
+      },
+      "correct_option": "B",
+      "answer": "The first midpoint is (5, 1) and the second midpoint is (5, 5).",
+      "explanation": "Midpoint of (2, ‑3) & (8, 5): ((2+8)/2, (‑3+5)/2) = (5, 1). Midpoint of (5, 1) & (5, 9): ((5+5)/2, (1+9)/2) = (5, 5). Thus option B correctly states both midpoints; the other options incorrectly claim they are identical or swapped.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Apply coordinate methods to geometric problems",
+      "question": "In triangle ABC, A(2, 3), B(8, 3) and C(5, k). If the centroid of the triangle lies on the line y = x, find the value of k.",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "answer": "9",
+      "explanation": "Centroid G = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3). Substituting gives G = ((2+8+5)/3, (3+3+k)/3) = (5, (6+k)/3). Since G lies on y = x, we set (6+k)/3 = 5 → 6 + k = 15 → k = 9. Option B is correct; the other values do not satisfy the line condition.",
+      "difficulty": "hard"
+    }
+  ]
+}
