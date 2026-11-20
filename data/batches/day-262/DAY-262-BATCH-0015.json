@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "Which of the following formulas correctly gives the sum of the first n terms of an arithmetic progression with first term a and common difference d?",
+      "options": {
+        "A": "S_n = \\frac{n}{2}[2a + (n-1)d]",
+        "B": "S_n = n(a + d)",
+        "C": "S_n = n\\big(a + (n-1)d\\big)",
+        "D": "S_n = \\frac{n}{2}[a + (a + nd)]"
+      },
+      "correct_option": "A",
+      "answer": "S_n = \\frac{n}{2}[2a + (n-1)d]",
+      "explanation": "The sum of the first n terms of an AP is given by S_n = n/2 [2a + (n‑1)d]. Option A matches this formula exactly. Option B omits the factor (n‑1) in the second term, Option C multiplies n by the nth term instead of averaging the first and nth terms, and Option D uses an incorrect expression for the nth term.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "In an arithmetic progression, the 5th term is 20 and the 15th term is 60. What is the sum of the first 20 terms?",
+      "options": {
+        "A": "800",
+        "B": "840",
+        "C": "860",
+        "D": "880"
+      },
+      "correct_option": "B",
+      "answer": "840",
+      "explanation": "Let a be the first term and d the common difference. From a + 4d = 20 and a + 14d = 60, subtracting gives 10d = 40 ⇒ d = 4. Then a = 20 – 4·4 = 4. The sum S_20 = 20/2[2a + (20‑1)d] = 10[8 + 76] = 10·84 = 840. Hence option B is correct; the other numbers result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "An arithmetic progression (AP) is best described as:",
+      "options": {
+        "A": "A sequence in which the difference between any two consecutive terms is constant.",
+        "B": "A sequence in which the ratio between any two consecutive terms is constant.",
+        "C": "A sequence that alternates between two fixed numbers.",
+        "D": "A sequence whose terms are the squares of natural numbers."
+      },
+      "correct_option": "A",
+      "answer": "A sequence in which the difference between any two consecutive terms is constant.",
+      "explanation": "By definition, an AP has a constant common difference between successive terms, which is option A. Option B describes a geometric progression, while C and D describe unrelated sequences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find common difference",
+      "question": "The first term of an AP is 7 and the third term is 15. What is the common difference?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "For an AP, a₃ = a + 2d. Substituting a = 7 and a₃ = 15 gives 7 + 2d = 15 ⇒ 2d = 8 ⇒ d = 4. Hence option C is correct; the other choices result from mis‑calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find nth term",
+      "question": "Which formula gives the nth term of an arithmetic progression?",
+      "options": {
+        "A": "a_n = a + (n-1)d",
+        "B": "a_n = a \\times d^{n-1}",
+        "C": "a_n = a + nd",
+        "D": "a_n = \\frac{a + (a + nd)}{2}"
+      },
+      "correct_option": "A",
+      "answer": "a_n = a + (n-1)d",
+      "explanation": "The nth term of an AP is a_n = a + (n‑1)d, where a is the first term and d the common difference. Option B is the formula for a geometric progression, C omits the ‘‑1’, and D is the average of the first and nth terms, not the nth term itself.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Find sum of first n terms",
+      "question": "If an AP has first term a = 3 and common difference d = 2, what is the sum of its first 10 terms?",
+      "options": {
+        "A": "100",
+        "B": "110",
+        "C": "120",
+        "D": "130"
+      },
+      "correct_option": "C",
+      "answer": "120",
+      "explanation": "Using S_n = n/2[2a + (n‑1)d] with n = 10, a = 3, d = 2: S_10 = 10/2[6 + 9·2] = 5[6 + 18] = 5·24 = 120. Option C matches this result; the other options arise from arithmetic slips.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Solve AP applications",
+      "question": "In an AP, the sum of the first 5 terms is 75 and the first term is 5. What is the common difference?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "answer": "5",
+      "explanation": "Let d be the common difference. S_5 = 5/2[2a + (5‑1)d] = (5/2)[10 + 4d] = 25 + 10d = 75 ⇒ 10d = 50 ⇒ d = 5. Hence option C is correct; the other values do not satisfy the given sum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01111",
+      "learning_point": "Define arithmetic progression",
+      "question": "A student observes that the difference between consecutive scores in a series of weekly tests is always 3 marks. Which statement correctly defines the nature of this series?",
+      "options": {
+        "A": "It is an arithmetic progression because the common difference between successive terms is constant.",
+        "B": "It is a geometric progression because each term is multiplied by a constant factor.",
+        "C": "It is a harmonic progression because the reciprocals form an arithmetic progression.",
+        "D": "It is a quadratic sequence because the second differences are constant."
+      },
+      "correct_option": "A",
+      "answer": "It is an arithmetic progression because the common difference between successive terms is constant.",
+      "explanation": "A constant difference of 3 marks between consecutive terms characterises an arithmetic progression, matching option A. Option B describes a geometric progression, C a harmonic progression, and D a quadratic sequence, none of which fit the given scenario.",
+      "difficulty": "medium"
+    }
+  ]
+}

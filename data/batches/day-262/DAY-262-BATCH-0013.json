@@ -1,0 +1,78 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01110",
+      "learning_point": "Identify terms",
+      "question": "Consider the sequence 2, 5, 10, 17, ... . Which of the following is the correct 5th term of the sequence?",
+      "options": {
+        "A": "22",
+        "B": "24",
+        "C": "26",
+        "D": "28"
+      },
+      "correct_option": "C",
+      "answer": "26",
+      "explanation": "The differences between successive terms are 3, 5, and 7, which increase by 2 each time. The next difference will be 9, so the 5th term = 17 + 9 = 26. Option C is correct; the other options arise from assuming a constant or incorrect increment.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01110",
+      "learning_point": "Find general term",
+      "question": "The sequence 3, 7, 13, 21, ... can be expressed by a formula aₙ = ?. Choose the correct expression for the nth term.",
+      "options": {
+        "A": "n² + 1",
+        "B": "n² + n + 1",
+        "C": "n² + 2n",
+        "D": "n² + 3"
+      },
+      "correct_option": "B",
+      "answer": "n² + n + 1",
+      "explanation": "Testing n = 1 gives 1 + 1 + 1 = 3, n = 2 gives 4 + 2 + 1 = 7, n = 3 gives 9 + 3 + 1 = 13, n = 4 gives 16 + 4 + 1 = 21, matching the given terms. Hence aₙ = n² + n + 1 (option B). The other formulas do not produce the correct sequence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01110",
+      "learning_point": "Identify patterns",
+      "question": "Sequence A: 1, 4, 9, 16, ... ; Sequence B: 2, 6, 12, 20, ... . Which option correctly matches each sequence with its general term?",
+      "options": {
+        "A": "A: n², B: n(n+1)",
+        "B": "A: n(n+1), B: n²",
+        "C": "A: 2n-1, B: n²+1",
+        "D": "A: n²+1, B: n²-1"
+      },
+      "correct_option": "A",
+      "answer": "A: n², B: n(n+1)",
+      "explanation": "Sequence A consists of perfect squares (1², 2², 3², 4², …), so its nth term is n². Sequence B follows the pattern n(n+1): 1·2=2, 2·3=6, 3·4=12, 4·5=20, … Hence option A correctly identifies both patterns. The other options mismatch the observed terms.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01110",
+      "learning_point": "Distinguish finite and infinite sequences",
+      "question": "Which statement correctly distinguishes a finite sequence from an infinite sequence?",
+      "options": {
+        "A": "A finite sequence has a last term, while an infinite sequence does not have a last term.",
+        "B": "A finite sequence repeats its terms periodically, while an infinite sequence never repeats.",
+        "C": "A finite sequence can be represented by a formula, while an infinite sequence cannot.",
+        "D": "A finite sequence always has a constant difference between consecutive terms, while an infinite sequence has variable differences."
+      },
+      "correct_option": "A",
+      "answer": "A finite sequence has a last term, while an infinite sequence does not have a last term.",
+      "explanation": "By definition, a finite sequence contains a specific number of terms and therefore ends with a last term. An infinite sequence continues indefinitely and lacks a terminal term. Options B, C, and D describe properties that are not definitive criteria for finiteness or infiniteness.",
+      "difficulty": "hard"
+    }
+  ]
+}
