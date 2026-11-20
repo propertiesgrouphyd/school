@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following correctly represents the sum 1 + 2 + 3 + … + n using summation (sigma) notation?",
+      "options": {
+        "A": "Σ_{k=1}^{n} k",
+        "B": "Σ_{k=0}^{n} (k+1)",
+        "C": "Σ_{k=1}^{n-1} k",
+        "D": "Σ_{k=1}^{n} (k-1)"
+      },
+      "correct_option": "A",
+      "answer": "Σ_{k=1}^{n} k",
+      "explanation": "The series 1+2+3+…+n is expressed as the sum of the integer k as k runs from 1 to n, which is written Σ_{k=1}^{n} k. Option B starts at k=0 and adds 1, giving the same terms but an extra term; option C stops one term early; option D subtracts 1 from each term, giving 0,1,2,…,n‑1.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "A student wants the sum of the first 20 terms of the arithmetic series 3, 6, 9, … . What is the required sum?",
+      "options": {
+        "A": "630",
+        "B": "600",
+        "C": "660",
+        "D": "720"
+      },
+      "correct_option": "A",
+      "answer": "630",
+      "explanation": "For an arithmetic series, S_n = n/2[2a + (n‑1)d]. Here a = 3, d = 3, n = 20. So S_20 = 20/2[2·3 + 19·3] = 10[6 + 57] = 10·63 = 630. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Which of the following statements is FALSE regarding the relationship between a sequence and its corresponding series?",
+      "options": {
+        "A": "The nth term of a sequence is the same as the nth partial sum of its series.",
+        "B": "A series is formed by adding the terms of the sequence.",
+        "C": "If a sequence is arithmetic, the series of its partial sums is quadratic.",
+        "D": "The sum of the first n terms of a series is called the nth partial sum."
+      },
+      "correct_option": "A",
+      "answer": "The nth term of a sequence is the same as the nth partial sum of its series.",
+      "explanation": "The nth term of a sequence is a single element, whereas the nth partial sum is the sum of the first n terms. They are not equal, making statement A false. Statements B, C, and D correctly describe the relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "Consider the sequence a_n = n. Form the series by taking the reciprocal of each term: 1/1 + 1/2 + 1/3 + … . What is the sum of the first four terms of this series?",
+      "options": {
+        "A": "25/12",
+        "B": "5/2",
+        "C": "2",
+        "D": "7/4"
+      },
+      "correct_option": "A",
+      "answer": "25/12",
+      "explanation": "The first four reciprocals are 1, 1/2, 1/3, and 1/4. Adding them: 1 + 1/2 + 1/3 + 1/4 = (12/12) + (6/12) + (4/12) + (3/12) = 25/12 ≈ 2.0833. Options B, C, and D give incorrect totals.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which pair of summation expressions represents the same numerical value?",
+      "options": {
+        "A": "Σ_{k=1}^{5} (2k) and Σ_{j=1}^{5} (j + (j‑1))",
+        "B": "Σ_{k=0}^{4} (k^2) and Σ_{j=1}^{5} ((j‑1)^2)",
+        "C": "Σ_{k=1}^{5} (k) and Σ_{j=1}^{5} (5‑j)",
+        "D": "Σ_{k=1}^{5} (k) and Σ_{j=1}^{5} (k)"
+      },
+      "correct_option": "B",
+      "answer": "Σ_{k=0}^{4} (k^2) and Σ_{j=1}^{5} ((j‑1)^2)",
+      "explanation": "Both expressions in option B sum the squares of 0,1,2,3,4, giving 0+1+4+9+16 = 30. Options A, C, and D evaluate to different totals, so they are not equivalent.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "The sum of the first n terms of an arithmetic series is S_n = n(2n + 1). What is the value of the 10th term of the original series?",
+      "options": {
+        "A": "39",
+        "B": "40",
+        "C": "38",
+        "D": "41"
+      },
+      "correct_option": "A",
+      "answer": "39",
+      "explanation": "The nth term a_n = S_n – S_{n‑1}. Compute S_10 = 10(20+1)=210 and S_9 = 9(18+1)=171. Hence a_10 = 210 – 171 = 39. The other options arise from mis‑calculations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "What is the term used for the sum of the first n terms of a sequence?",
+      "options": {
+        "A": "Partial sum",
+        "B": "Common difference",
+        "C": "General term",
+        "D": "Ratio"
+      },
+      "correct_option": "A",
+      "answer": "Partial sum",
+      "explanation": "The sum of the first n terms is called the nth partial sum (or simply partial sum). The other terms refer to different concepts: common difference for arithmetic sequences, general term for the nth term, and ratio for geometric sequences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "If a sequence is defined by a_n = 3n + 2, which expression gives the sum of the first n terms?",
+      "options": {
+        "A": "(3n^2 + 7n) / 2",
+        "B": "(3n^2 + 5n) / 2",
+        "C": "(3n^2 + 9n) / 2",
+        "D": "(3n^2 + 6n) / 2"
+      },
+      "correct_option": "A",
+      "answer": "(3n^2 + 7n) / 2",
+      "explanation": "Sum S_n = Σ_{k=1}^{n} (3k + 2) = 3 Σ k + 2n = 3·n(n+1)/2 + 2n = (3n^2 + 3n + 4n)/2 = (3n^2 + 7n)/2. The other options miss or add extra terms.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Which of the following correctly represents the sum of the first n natural numbers using sigma notation?",
+      "options": {
+        "A": "∑_{k=1}^{n} k",
+        "B": "∑_{k=0}^{n} k",
+        "C": "∑_{k=1}^{n} k^{2}",
+        "D": "∑_{k=1}^{n} 2k"
+      },
+      "correct_option": "A",
+      "answer": "∑_{k=1}^{n} k",
+      "explanation": "The sigma notation ∑_{k=1}^{n} k adds the terms k = 1, 2, …, n, which is exactly the sum of the first n natural numbers. Option B starts at 0, adding an extra zero; C squares each term; D doubles each term, giving a different sum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "What is the sum of the first 10 terms of the arithmetic series 3, 6, 9, … ?",
+      "options": {
+        "A": "165",
+        "B": "150",
+        "C": "180",
+        "D": "120"
+      },
+      "correct_option": "A",
+      "answer": "165",
+      "explanation": "The series is arithmetic with a = 3, d = 3, n = 10. Sum = n/2 [2a + (n‑1)d] = 10/2 [6 + 27] = 5 × 33 = 165. The other options result from incorrect arithmetic or forgetting the factor 5.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Which statement correctly describes the relationship between a sequence and its series?",
+      "options": {
+        "A": "A series is the sum of the terms of a sequence.",
+        "B": "A sequence is the sum of the terms of a series.",
+        "C": "Sequences and series are unrelated concepts.",
+        "D": "A series is the product of the terms of a sequence."
+      },
+      "correct_option": "A",
+      "answer": "A series is the sum of the terms of a sequence.",
+      "explanation": "A sequence lists individual terms; when those terms are added together, the resulting expression is called a series. Options B, C, and D misstate the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "Find the sum of the first 5 terms of the sequence defined by aₙ = 2n + 1.",
+      "options": {
+        "A": "35",
+        "B": "30",
+        "C": "40",
+        "D": "25"
+      },
+      "correct_option": "A",
+      "answer": "35",
+      "explanation": "The sequence is arithmetic with a₁ = 3, d = 2. Sum of first 5 terms = 5/2 (first + last) = 5/2 (3 + 11) = 5/2 × 14 = 35. Other options arise from arithmetic mistakes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Use summation notation",
+      "question": "Express the sum 1² + 2² + … + n² using sigma notation.",
+      "options": {
+        "A": "∑_{k=1}^{n} k^{2}",
+        "B": "∑_{k=0}^{n} k^{2}",
+        "C": "∑_{k=1}^{n} k",
+        "D": "∑_{k=1}^{n} 2k"
+      },
+      "correct_option": "A",
+      "answer": "∑_{k=1}^{n} k^{2}",
+      "explanation": "The required sum adds the squares of integers from 1 to n, which is precisely ∑_{k=1}^{n} k². Option B includes an unnecessary term for k = 0 (which is 0), C omits the square, and D doubles each integer instead of squaring.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Find sums of standard sequences",
+      "question": "A school distributes pens each day in the pattern 5, 8, 11, … . How many pens are distributed in the first 12 days?",
+      "options": {
+        "A": "258",
+        "B": "260",
+        "C": "255",
+        "D": "250"
+      },
+      "correct_option": "A",
+      "answer": "258",
+      "explanation": "The pattern is arithmetic with a = 5, d = 3, n = 12. Sum = n/2 [2a + (n‑1)d] = 12/2 [10 + 33] = 6 × 43 = 258. The other numbers come from mis‑applying the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Relate sequences and series",
+      "question": "Which of the following is a common error when converting a sequence into its series?",
+      "options": {
+        "A": "Assuming the sum of the series equals the nth term of the sequence.",
+        "B": "Writing the series using sigma notation.",
+        "C": "Adding each term of the sequence exactly once.",
+        "D": "Identifying the common difference in an arithmetic sequence."
+      },
+      "correct_option": "A",
+      "answer": "Assuming the sum of the series equals the nth term of the sequence.",
+      "explanation": "A frequent misconception is to think that the series sum is just the last term (nth term). In reality, a series adds *all* terms. Options B, C, and D describe correct practices.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01113",
+      "learning_point": "Solve mixed sequence-series problems",
+      "question": "The odd‑positioned terms of a series follow the arithmetic progression 2, 5, 8, … . The even‑positioned terms follow the geometric progression 3, 6, 12, … . What is the sum of the first four terms of the combined series?",
+      "options": {
+        "A": "16",
+        "B": "15",
+        "C": "18",
+        "D": "20"
+      },
+      "correct_option": "A",
+      "answer": "16",
+      "explanation": "First term (odd) = 2. Second term (even) = 3. Third term (odd) = 5. Fourth term (even) = 6. Sum = 2 + 3 + 5 + 6 = 16. The other options arise from adding incorrectly or mixing up the progressions.",
+      "difficulty": "medium"
+    }
+  ]
+}
