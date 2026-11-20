@@ -1,0 +1,150 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0062",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01114-73",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use distance formula",
+      "question": "Which of the following expressions correctly gives the distance between the points \\(P(x_1,y_1)\\) and \\(Q(x_2,y_2)\\) in the Cartesian plane?",
+      "options": {
+        "A": "\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+        "B": "(x_2 - x_1)^2 + (y_2 - y_1)^2",
+        "C": "\\sqrt{(x_2 + x_1)^2 + (y_2 + y_1)^2}",
+        "D": "|x_2 - x_1| + |y_2 - y_1|"
+      },
+      "correct_option": "A",
+      "answer": "\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+      "explanation": "The distance formula is derived from the Pythagorean theorem: the horizontal difference \\((x_2-x_1)\\) and vertical difference \\((y_2-y_1)\\) form the legs of a right triangle, so the hypotenuse (the distance) is \\(\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\\). Option B omits the square root, C uses addition of coordinates, and D adds absolute differences, which gives the Manhattan distance, not the Euclidean distance.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "LU-01114-74",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use section formula",
+      "question": "Point A has coordinates (2,3) and point B has coordinates (8,9). Find the coordinates of the point that divides the line segment AB internally in the ratio 2:3.",
+      "options": {
+        "A": "(22/5, 27/5)",
+        "B": "(4,5)",
+        "C": "(5,6)",
+        "D": "(6,7)"
+      },
+      "correct_option": "A",
+      "answer": "(22/5, 27/5)",
+      "explanation": "For internal division in the ratio m:n, the coordinates are \\(\\big(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\big)\\). Here m=2, n=3, \\(x_1=2, y_1=3, x_2=8, y_2=9\\). Thus \\(x=\\frac{2\\cdot8+3\\cdot2}{5}=\\frac{22}{5}\\) and \\(y=\\frac{2\\cdot9+3\\cdot3}{5}=\\frac{27}{5}\\). The other options are not obtained from the section formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "LU-01114-75",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Find midpoint",
+      "question": "What is the midpoint of the line segment joining the points \\(P(-4,5)\\) and \\(Q(6,-3)\\)?",
+      "options": {
+        "A": "(1,1)",
+        "B": "(2,1)",
+        "C": "(1,2)",
+        "D": "(0,0)"
+      },
+      "correct_option": "A",
+      "answer": "(1,1)",
+      "explanation": "Midpoint formula: \\(M\\big(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\big)\\). Substituting \\((-4,5)\\) and \\((6,-3)\\) gives \\(\\big(\\frac{-4+6}{2},\\frac{5-3}{2}\\big) = (1,1)\\). The other choices result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01114-76",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Apply coordinate methods to geometric problems",
+      "question": "A rectangle has its vertices at A(1,2), B(1,6), C(5,6) and D(5,2). Using coordinate geometry, what is the length of its diagonal AC?",
+      "options": {
+        "A": "4\\sqrt{2}",
+        "B": "8",
+        "C": "2\\sqrt{5}",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "4\\sqrt{2}",
+      "explanation": "Diagonal AC joins (1,2) and (5,6). Distance = \\(\\sqrt{(5-1)^2+(6-2)^2}=\\sqrt{16+16}=\\sqrt{32}=4\\sqrt{2}\\). Options B, C, D are incorrect values obtained by mis‑calculating the differences or forgetting the square root.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01114-77",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use distance formula",
+      "question": "A student claims that the distance between the points \\((3,4)\\) and \\((7,1)\\) is given by \\((7-3)^2 + (1-4)^2 = 25\\). Which of the following statements correctly identifies the error in this reasoning?",
+      "options": {
+        "A": "The student forgot to take the square root of the sum of squares.",
+        "B": "The coordinates were subtracted in the wrong order.",
+        "C": "The distance formula should use absolute values, not squares.",
+        "D": "The distance between two points cannot be computed using coordinates."
+      },
+      "correct_option": "A",
+      "answer": "The student forgot to take the square root of the sum of squares.",
+      "explanation": "The correct distance is \\(\\sqrt{(7-3)^2+(1-4)^2}=\\sqrt{16+9}=\\sqrt{25}=5\\). The student computed the squared distance but omitted the outer square root, leading to 25 instead of 5. The other statements are not the source of the mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01114-78",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use section formula",
+      "question": "Point P divides the line segment joining \\(A(1,2)\\) and \\(B(7,14)\\) internally in the ratio 3:2. Which of the following could be the coordinates of P?",
+      "options": {
+        "A": "(4.6, 9.2)",
+        "B": "(5,10)",
+        "C": "(3,8)",
+        "D": "(6,12)"
+      },
+      "correct_option": "A",
+      "answer": "(4.6, 9.2)",
+      "explanation": "Using the section formula \\(\\big(\\frac{3\\cdot7+2\\cdot1}{5},\\frac{3\\cdot14+2\\cdot2}{5}\\big) = (\\frac{23}{5},\\frac{46}{5}) = (4.6,9.2)\\). Options B, C, D do not satisfy the ratio 3:2 when substituted back into the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "LU-01114-79",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Find midpoint",
+      "question": "Consider the following statements about the midpoint M of a segment with endpoints \\(A(x_1,y_1)\\) and \\(B(x_2,y_2)\\):\n\n(i) \\(M\\) has coordinates \\(\\big(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\big)\\).\n\n(ii) The midpoint can be found by averaging the x‑coordinates and the y‑coordinates separately.\n\n(iii) The midpoint is always the point \\((x_1,y_1)\\).\n\nWhich of the above statements are correct?",
+      "options": {
+        "A": "(i) and (ii) only",
+        "B": "(i) and (iii) only",
+        "C": "(ii) and (iii) only",
+        "D": "All three statements"
+      },
+      "correct_option": "A",
+      "answer": "(i) and (ii) only",
+      "explanation": "Both (i) and (ii) describe the same correct midpoint formula. Statement (iii) is false because the midpoint lies halfway between the two endpoints, not at one endpoint. Hence only (i) and (ii) are correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01114-80",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Apply coordinate methods to geometric problems",
+      "question": "In a triangle with vertices \\(A(0,0)\\), \\(B(4,0)\\) and \\(C(2,6)\\), what is the area of the triangle? (Use coordinate geometry.)",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "8",
+        "D": "14"
+      },
+      "correct_option": "A",
+      "answer": "12",
+      "explanation": "Using the shoelace formula: Area = \\(\\frac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|\\). Substituting gives \\(\\frac{1}{2}|0(0-6)+4(6-0)+2(0-0)| = \\frac{1}{2}|24| = 12\\). The other options result from arithmetic slips or using incorrect formulas.",
+      "difficulty": "hard"
+    }
+  ]
+}

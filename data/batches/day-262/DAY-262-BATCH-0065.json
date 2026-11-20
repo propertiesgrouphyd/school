@@ -1,0 +1,78 @@
+{
+  "day": 262,
+  "batch_id": "DAY-262-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use distance formula",
+      "question": "Which of the following expressions correctly gives the distance between the points A(1, 2) and B(4, 6)?",
+      "options": {
+        "A": "√[(4‑1)² + (6‑2)²]",
+        "B": "√[(4‑1) + (6‑2)]",
+        "C": "|4‑1| + |6‑2|",
+        "D": "√[(4‑1)²] + √[(6‑2)²]"
+      },
+      "correct_option": "A",
+      "answer": "√[(4‑1)² + (6‑2)²]",
+      "explanation": "The distance formula in the plane is d = √[(x₂‑x₁)² + (y₂‑y₁)²]. Substituting x₁=1, y₁=2, x₂=4, y₂=6 gives √[(4‑1)² + (6‑2)²] = √[3² + 4²] = √25 = 5. Options B, C, and D misuse the formula by omitting squares or taking absolute values separately, leading to incorrect results.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Use section formula",
+      "question": "Point P divides the line segment joining A(2, 3) and B(8, 9) internally in the ratio 2:3 (AP : PB = 2:3). What are the coordinates of P?",
+      "options": {
+        "A": "(4.4, 5.4)",
+        "B": "(5, 6)",
+        "C": "(3, 4)",
+        "D": "(6, 7)"
+      },
+      "correct_option": "A",
+      "answer": "(4.4, 5.4)",
+      "explanation": "For internal division in the ratio m:n, the coordinates are ((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n)). Here m=2, n=3, (x₁,y₁)=(2,3), (x₂,y₂)=(8,9). Thus x = (3·2 + 2·8)/5 = (6 + 16)/5 = 22/5 = 4.4, y = (3·3 + 2·9)/5 = (9 + 18)/5 = 27/5 = 5.4. The other options result from arithmetic errors or using the wrong ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Find midpoint",
+      "question": "Which point is the midpoint of the segment joining A(‑2, 5) and B(6, ‑3)?",
+      "options": {
+        "A": "(2, 1)",
+        "B": "(4, 2)",
+        "C": "(-4, 8)",
+        "D": "(1, 2)"
+      },
+      "correct_option": "A",
+      "answer": "(2, 1)",
+      "explanation": "Midpoint formula: M = ((x₁ + x₂)/2, (y₁ + y₂)/2). Substituting gives ((‑2 + 6)/2, (5 + (‑3))/2) = (4/2, 2/2) = (2, 1). Option B uses the sum without halving, C swaps signs, and D miscalculates both coordinates.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01114",
+      "learning_point": "Apply coordinate methods to geometric problems",
+      "question": "Find the perpendicular distance from the origin O(0, 0) to the line joining the points C(4, 0) and D(0, 3).",
+      "options": {
+        "A": "12/5",
+        "B": "5/12",
+        "C": "3/5",
+        "D": "4/3"
+      },
+      "correct_option": "A",
+      "answer": "12/5",
+      "explanation": "First obtain the line equation. Slope of CD = (3‑0)/(0‑4) = –3/4, so y = (‑3/4)x + 3. Re‑write as 3x + 4y – 12 = 0. Distance from (0,0) to Ax + By + C = 0 is |A·0 + B·0 + C| / √(A² + B²) = |‑12| / √(3² + 4²) = 12 / 5 = 12/5. Options B, C, D are common mis‑calculations (using reciprocal, forgetting absolute value, or using wrong coefficients).",
+      "difficulty": "hard"
+    }
+  ]
+}
