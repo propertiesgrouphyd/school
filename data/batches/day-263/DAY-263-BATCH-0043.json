@@ -1,0 +1,150 @@
+{
+  "day": 263,
+  "batch_id": "DAY-263-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Understand general equation of a circle",
+      "question": "Which of the following represents the general form of the equation of a circle?",
+      "options": {
+        "A": "x^2 + y^2 + 4x - 6y + 5 = 0",
+        "B": "x^2 + y^2 - 4x + 6y - 5 = 0",
+        "C": "x^2 - y^2 + 4x - 6y + 5 = 0",
+        "D": "x^2 + y^2 + 4xy + 5 = 0"
+      },
+      "correct_option": "A",
+      "answer": "x^2 + y^2 + 4x - 6y + 5 = 0",
+      "explanation": "The general equation of a circle is x^2 + y^2 + 2gx + 2fy + c = 0. Option A matches this form with 2g=4 (g=2) and 2f=-6 (f=-3). Options B and C alter signs or the y^2 term, breaking the required x^2 + y^2 structure, and D introduces an xy term which is not present in a circle’s equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Define circle geometrically",
+      "question": "A point P moves such that its distance from a fixed point O is always 5 cm. Which description best defines the set of positions of P?",
+      "options": {
+        "A": "The set of points at a distance of 5 cm from a fixed point O, forming a circle with centre O and radius 5 cm.",
+        "B": "The set of points at varying distances from O forming a spiral.",
+        "C": "The set of points forming a straight line 5 cm away from O.",
+        "D": "The set of points inside a square of side 5 cm centered at O."
+      },
+      "correct_option": "A",
+      "answer": "The set of points at a distance of 5 cm from a fixed point O, forming a circle with centre O and radius 5 cm.",
+      "explanation": "By definition, a circle is the locus of all points that are at a fixed distance (the radius) from a given centre. Hence option A correctly describes the situation, while the other options describe different geometric loci.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Derive standard equation",
+      "question": "A student writes the equation of a circle with centre (2, -3) and radius 4 as (x-2)^2 + (y+3)^2 = -16. Which of the following identifies the error?",
+      "options": {
+        "A": "The radius squared should be negative; the equation is correct as written.",
+        "B": "The right side must be positive; it should be +16, not -16.",
+        "C": "The centre coordinates are swapped; they should be (-2,3).",
+        "D": "The equation represents a parabola, not a circle."
+      },
+      "correct_option": "B",
+      "answer": "The right side must be positive; it should be +16, not -16.",
+      "explanation": "For a circle, the standard form is (x-h)^2 + (y-k)^2 = r^2, where r^2 is always non‑negative. The student's negative right‑hand side makes the equation impossible for real points. The correct right side is +16. Options A and C are false statements, and D misidentifies the shape.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Identify centre and radius",
+      "question": "Given the equation x^2 + y^2 - 4x + 6y - 12 = 0, what are the centre and radius of the circle?",
+      "options": {
+        "A": "Centre (2, -3), radius 5",
+        "B": "Centre (-2, 3), radius 5",
+        "C": "Centre (2, -3), radius 4",
+        "D": "Centre (2, 3), radius 5"
+      },
+      "correct_option": "A",
+      "answer": "Centre (2, -3), radius 5",
+      "explanation": "Rewriting: (x^2-4x)+(y^2+6y)=12 → (x-2)^2-4+(y+3)^2-9=12 → (x-2)^2+(y+3)^2=25. Hence centre (2,-3) and radius √25 = 5. Options B, C, D give incorrect centre or radius.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Find equation from given conditions",
+      "question": "Find the equation of the circle that passes through the points (1,2) and (3,4) and whose centre lies on the line h - k = 1. Which equation is correct?",
+      "options": {
+        "A": "(x-3)^2 + (y-2)^2 = 4",
+        "B": "(x+3)^2 + (y-2)^2 = 4",
+        "C": "(x-3)^2 + (y+2)^2 = 9",
+        "D": "(x-2)^2 + (y-3)^2 = 4"
+      },
+      "correct_option": "A",
+      "answer": "(x-3)^2 + (y-2)^2 = 4",
+      "explanation": "Let centre be (h,k) with h - k =1. Equating distances to the two given points yields h + k =5. Solving gives h=3, k=2. Radius squared = (3-1)^2 + (2-2)^2 =4. Hence (x-3)^2+(y-2)^2=4, which is option A. Other options either use wrong centre signs or radius.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Understand general equation of a circle",
+      "question": "If the general equation of a circle is x^2 + y^2 + 2gx + 2fy + c = 0, which statement is always true for a real circle?",
+      "options": {
+        "A": "g^2 + f^2 > c",
+        "B": "g^2 + f^2 = c",
+        "C": "g^2 + f^2 < c",
+        "D": "No relation between g, f and c"
+      },
+      "correct_option": "A",
+      "answer": "g^2 + f^2 > c",
+      "explanation": "For a real circle, the radius squared is r^2 = g^2 + f^2 - c and must be positive, so g^2 + f^2 > c. Option B would give radius zero, C would give imaginary radius, and D ignores the necessary condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Define circle geometrically",
+      "question": "A circle can be defined as:",
+      "options": {
+        "A": "The set of all points in a plane that are at a fixed distance (radius) from a given point (centre).",
+        "B": "The set of all points in space equidistant from a line.",
+        "C": "The set of points forming a polygon with equal sides.",
+        "D": "The set of points whose coordinates satisfy x + y = constant."
+      },
+      "correct_option": "A",
+      "answer": "The set of all points in a plane that are at a fixed distance (radius) from a given point (centre).",
+      "explanation": "Option A matches the geometric definition of a circle. Option B describes a cylinder, C a regular polygon, and D a straight line, none of which are circles.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01118",
+      "learning_point": "Derive standard equation",
+      "question": "Which of the following is the standard form of a circle with centre (-2,5) and radius 7?",
+      "options": {
+        "A": "(x+2)^2 + (y-5)^2 = 49",
+        "B": "(x-2)^2 + (y+5)^2 = 49",
+        "C": "(x+2)^2 + (y-5)^2 = 7",
+        "D": "(x-2)^2 + (y-5)^2 = 49"
+      },
+      "correct_option": "A",
+      "answer": "(x+2)^2 + (y-5)^2 = 49",
+      "explanation": "Standard form: (x-h)^2 + (y-k)^2 = r^2. With h = -2, k = 5, r = 7, we get (x+2)^2 + (y-5)^2 = 49. Options B and D use wrong signs for the centre, and C uses radius 7 instead of radius squared 49.",
+      "difficulty": "easy"
+    }
+  ]
+}
