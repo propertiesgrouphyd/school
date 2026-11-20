@@ -1,0 +1,150 @@
+{
+  "day": 263,
+  "batch_id": "DAY-263-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Use normal form",
+      "question": "The line 4x + 3y - 12 = 0 is expressed in normal form as:",
+      "options": {
+        "A": "(4/5)x + (3/5) y = 12/5",
+        "B": "(3/4)x + (4/3) y = 12",
+        "C": "4x + 3y = 12",
+        "D": "(4/5)x - (3/5) y = 12/5"
+      },
+      "correct_option": "A",
+      "answer": "(4/5)x + (3/5) y = 12/5",
+      "explanation": "Normal form requires the coefficients of x and y to be direction cosines of the normal, i.e., they must satisfy a² + b² = 1. Dividing the general form 4x + 3y - 12 = 0 by √(4²+3²)=5 gives (4/5)x + (3/5) y - 12/5 = 0, or (4/5)x + (3/5) y = 12/5. Option A matches this; the other options either do not normalize the coefficients or change signs incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Convert between forms",
+      "question": "A line passes through the point (2, -1) and has slope 4. Its equation in point‑slope form is y + 1 = 4(x – 2). What is the equivalent slope‑intercept form?",
+      "options": {
+        "A": "y = 4x - 9",
+        "B": "y = 4x + 9",
+        "C": "y = -4x - 9",
+        "D": "y = -4x + 9"
+      },
+      "correct_option": "A",
+      "answer": "y = 4x - 9",
+      "explanation": "Starting from y + 1 = 4(x – 2), expand: y + 1 = 4x – 8 → y = 4x – 9. This is the slope‑intercept form y = mx + c with m = 4 and c = –9. Options B, C, and D either change the sign of the slope or the constant term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Use slope-intercept form",
+      "question": "Which of the following correctly represents the slope‑intercept form of the line that passes through (0, 5) and has slope –2?",
+      "options": {
+        "A": "y = –2x + 5",
+        "B": "y = –2x – 5",
+        "C": "y = 2x + 5",
+        "D": "y = 2x – 5"
+      },
+      "correct_option": "A",
+      "answer": "y = –2x + 5",
+      "explanation": "In slope‑intercept form y = mx + c, m is the slope and c is the y‑intercept. The line meets the y‑axis at (0,5), so c = 5, and the slope is –2, giving y = –2x + 5. Option B uses the wrong sign for the intercept, while C and D have the wrong slope sign.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Use point-slope form",
+      "question": "The points (1, 3) and (4, 9) lie on a straight line. Which of the following is a correct point‑slope equation of that line using the point (1, 3)?",
+      "options": {
+        "A": "y – 3 = 2(x – 1)",
+        "B": "y – 9 = 2(x – 4)",
+        "C": "y – 3 = –2(x – 1)",
+        "D": "y – 9 = –2(x – 4)"
+      },
+      "correct_option": "A",
+      "answer": "y – 3 = 2(x – 1)",
+      "explanation": "First find the slope: m = (9‑3)/(4‑1) = 6/3 = 2. Using point (1,3) in the point‑slope formula y – y₁ = m(x – x₁) gives y – 3 = 2(x – 1). Options B and D use the other point but still give the same line; however they are not the requested form. Option C uses a negative slope, which is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Use two-point form",
+      "question": "Which expression correctly represents the two‑point form of the line passing through (2, –1) and (5, 8)?",
+      "options": {
+        "A": "(y + 1)/(x – 2) = (8 + 1)/(5 – 2)",
+        "B": "(y – 8)/(x – 5) = (–1 – 8)/(2 – 5)",
+        "C": "(y + 1)/(x – 5) = (8 + 1)/(2 – 2)",
+        "D": "(y – 8)/(x – 2) = (–1 + 8)/(5 + 2)"
+      },
+      "correct_option": "A",
+      "answer": "(y + 1)/(x – 2) = (8 + 1)/(5 – 2)",
+      "explanation": "The two‑point form is (y – y₁)/(x – x₁) = (y₂ – y₁)/(x₂ – x₁). Substituting (x₁,y₁) = (2,–1) and (x₂,y₂) = (5,8) gives (y + 1)/(x – 2) = (8 + 1)/(5 – 2) = 9/3 = 3. Option A follows the definition exactly. Option B swaps the points but also yields the same ratio; however it is not the requested form using the first point. Options C and D contain invalid denominators or incorrect signs.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Use intercept form",
+      "question": "A line cuts the x‑axis at (4, 0) and the y‑axis at (0, –3). Which of the following is its intercept form?",
+      "options": {
+        "A": "x/4 + y/(–3) = 1",
+        "B": "x/4 – y/3 = 1",
+        "C": "x/4 + y/3 = 1",
+        "D": "x/(–4) + y/3 = 1"
+      },
+      "correct_option": "B",
+      "answer": "x/4 – y/3 = 1",
+      "explanation": "Intercept form is x/a + y/b = 1, where a and b are the x‑ and y‑intercepts respectively. Here a = 4 and b = –3, so the equation becomes x/4 + y/(–3) = 1, which simplifies to x/4 – y/3 = 1. Option B is the simplified correct form. Option A is mathematically equivalent but retains a negative denominator, which is less standard; the exam expects the simplified version. Options C and D use wrong signs for the intercepts.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Use normal form",
+      "question": "In the normal form of a straight line ax + by = p, the coefficients a and b satisfy which condition?",
+      "options": {
+        "A": "a² + b² = 1",
+        "B": "a + b = 1",
+        "C": "a² – b² = 0",
+        "D": "a·b = 1"
+      },
+      "correct_option": "A",
+      "answer": "a² + b² = 1",
+      "explanation": "Normal form requires that (a, b) be the direction cosines of the normal to the line; therefore they must be a unit vector, which gives a² + b² = 1. The other options do not represent this requirement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01116",
+      "learning_point": "Convert between forms",
+      "question": "To convert the general form ax + by + c = 0 into the slope‑intercept form y = mx + c', which of the following steps is essential?",
+      "options": {
+        "A": "Isolate y on one side of the equation",
+        "B": "Isolate x on one side of the equation",
+        "C": "Divide the entire equation by a",
+        "D": "Replace a with the slope m"
+      },
+      "correct_option": "A",
+      "answer": "Isolate y on one side of the equation",
+      "explanation": "The slope‑intercept form expresses y explicitly as a function of x. Starting from ax + by + c = 0, we rearrange to by = –ax – c and then divide by b to get y = (–a/b)x – c/b. Hence isolating y is the crucial step. Options B, C, and D do not lead directly to the required form.",
+      "difficulty": "easy"
+    }
+  ]
+}
