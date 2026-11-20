@@ -1,0 +1,150 @@
+{
+  "day": 264,
+  "batch_id": "DAY-264-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify centre and eccentricity at the required level",
+      "question": "The equation \\((x-2)^2/9 + (y+1)^2/16 = 1\\) represents an ellipse. What are its centre and eccentricity?",
+      "options": {
+        "A": "Centre (2, -1), eccentricity = \\(\\frac{\\sqrt{7}}{4}\\)",
+        "B": "Centre (2, -1), eccentricity = \\(\\frac{\\sqrt{5}}{4}\\)",
+        "C": "Centre (-2, 1), eccentricity = \\(\\frac{\\sqrt{7}}{4}\\)",
+        "D": "Centre (-2, 1), eccentricity = \\(\\frac{\\sqrt{5}}{4}\\)"
+      },
+      "correct_option": "A",
+      "answer": "Centre (2, -1), eccentricity = \\(\\frac{\\sqrt{7}}{4}\\)",
+      "explanation": "The given equation is of the form \\((x-h)^2/b^2 + (y-k)^2/a^2 = 1\\) with \\(a^2 = 16\\) and \\(b^2 = 9\\). Hence the centre is \\((h,k) = (2,-1)\\). For an ellipse, \\(c^2 = a^2 - b^2 = 16 - 9 = 7\\) so \\(c = \\sqrt{7}\\). The eccentricity is \\(e = c/a = \\sqrt{7}/4\\). Options B, C and D give either the wrong centre or wrong value of \\(c\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Define ellipse",
+      "question": "A point P moves such that the sum of its distances from two fixed points \\(F_1(-3,0)\\) and \\(F_2(3,0)\\) is always 10 units. Which curve does P trace?",
+      "options": {
+        "A": "Circle",
+        "B": "Ellipse",
+        "C": "Parabola",
+        "D": "Hyperbola"
+      },
+      "correct_option": "B",
+      "answer": "Ellipse",
+      "explanation": "By definition, an ellipse is the set of points whose sum of distances from two fixed points (the foci) is constant. Here the constant sum is 10, so the locus is an ellipse. A circle would require equal distances from a single centre, a parabola a constant distance from a focus to a directrix, and a hyperbola a constant difference of distances.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Understand foci",
+      "question": "Statement: \"In an ellipse, the distance between the two foci is greater than the length of the major axis.\" Is this statement true or false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined without more information",
+        "D": "Both true and false depending on the ellipse"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "For any ellipse, the distance between the foci is \\(2c\\) where \\(c = \\sqrt{a^2 - b^2}\\) and \\(a\\) is the semi‑major axis. Since \\(c < a\\), we have \\(2c < 2a\\), i.e., the focal distance is always less than the length of the major axis. Therefore the statement is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify major and minor axes",
+      "question": "For the ellipse \\(\\frac{x^2}{25} + \\frac{y^2}{9} = 1\\), which of the following correctly identifies its major and minor axes?",
+      "options": {
+        "A": "Major axis lies along the x‑axis with length 10; minor axis lies along the y‑axis with length 6.",
+        "B": "Major axis lies along the y‑axis with length 10; minor axis lies along the x‑axis with length 6.",
+        "C": "Both axes have equal length 5; the curve is a circle.",
+        "D": "The curve does not have distinct major or minor axes."
+      },
+      "correct_option": "A",
+      "answer": "Major axis lies along the x‑axis with length 10; minor axis lies along the y‑axis with length 6.",
+      "explanation": "The larger denominator is 25, so \\(a^2 = 25\\) and \\(a = 5\\). The major axis is along the x‑direction and its total length is \\(2a = 10\\). The smaller denominator gives \\(b^2 = 9\\) and \\(b = 3\\); the minor axis length is \\(2b = 6\\) along the y‑direction. Options B, C and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Use standard equation",
+      "question": "Consider the two equations:\n1) \\(\\frac{x^2}{16} + \\frac{y^2}{9} = 1\\)\n2) \\(\\frac{x^2}{9} + \\frac{y^2}{16} = 1\\)\nWhich statement about them is correct?",
+      "options": {
+        "A": "Both represent ellipses with the same centre but different orientations of the major axis.",
+        "B": "Both represent circles because the denominators are equal.",
+        "C": "The first ellipse has its major axis along the x‑axis, while the second has its major axis along the y‑axis.",
+        "D": "Both represent hyperbolas because the denominators are different."
+      },
+      "correct_option": "C",
+      "answer": "The first ellipse has its major axis along the x‑axis, while the second has its major axis along the y‑axis.",
+      "explanation": "Each equation is of the standard ellipse form \\(\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\) with centre at the origin. In (1) \\(a^2=16\\) (>9), so the major axis is along the x‑direction. In (2) \\(a^2=16\\) corresponds to the y‑denominator, making the major axis along the y‑direction. Both are ellipses, not circles (denominators differ) nor hyperbolas (signs are positive). Option A is partially true but less precise than C; C explicitly states the orientation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Identify centre and eccentricity at the required level",
+      "question": "The curve \\((x+3)^2/4 + (y-2)^2/9 = 1\\) is an ellipse. Which of the following gives its centre and eccentricity correctly?",
+      "options": {
+        "A": "Centre \\((-3, 2)\\), eccentricity \\(= \\frac{\\sqrt{5}}{3}\\)",
+        "B": "Centre \\((3, -2)\\), eccentricity \\(= \\frac{\\sqrt{5}}{3}\\)",
+        "C": "Centre \\((-3, 2)\\), eccentricity \\(= \\frac{2}{3}\\)",
+        "D": "Centre \\((3, -2)\\), eccentricity \\(= \\frac{2}{3}\\)"
+      },
+      "correct_option": "A",
+      "answer": "Centre \\((-3, 2)\\), eccentricity \\(= \\frac{\\sqrt{5}}{3}\\)",
+      "explanation": "The given equation is of the form \\((x-h)^2/b^2 + (y-k)^2/a^2 = 1\\) with \\(h = -3\\), \\(k = 2\\). Hence the centre is \\((-3,2)\\). The larger denominator is 9, so \\(a^2 = 9\\) (\\(a = 3\\)) and \\(b^2 = 4\\). Then \\(c^2 = a^2 - b^2 = 9 - 4 = 5\\) giving \\(c = \\sqrt{5}\\). Eccentricity \\(e = c/a = \\sqrt{5}/3\\). Options B and D have the wrong centre; option C has an incorrect eccentricity value.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Define ellipse",
+      "question": "Which of the following is the correct definition of an ellipse?",
+      "options": {
+        "A": "The set of points whose sum of distances from two fixed points (foci) is constant.",
+        "B": "The set of points whose product of distances from two fixed points is constant.",
+        "C": "The set of points equidistant from a single fixed point (center).",
+        "D": "The set of points whose difference of distances from two fixed points is constant."
+      },
+      "correct_option": "A",
+      "answer": "The set of points whose sum of distances from two fixed points (foci) is constant.",
+      "explanation": "An ellipse is defined precisely as the locus of points for which the sum of distances to two fixed points (the foci) remains the same. Option B describes a different curve, option C describes a circle, and option D describes a hyperbola.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01120",
+      "learning_point": "Understand foci",
+      "question": "If the length of the major axis of an ellipse is 10 units, which of the following could be the distance between its two foci?",
+      "options": {
+        "A": "6 units",
+        "B": "12 units",
+        "C": "0 units",
+        "D": "10 units"
+      },
+      "correct_option": "A",
+      "answer": "6 units",
+      "explanation": "The major axis length is \\(2a = 10\\) so \\(a = 5\\). For an ellipse, the focal distance is \\(2c\\) where \\(c = \\sqrt{a^2 - b^2}\\) and must satisfy \\(0 < c < a\\). Hence \\(0 < 2c < 10\\). Among the options, only 6 units satisfies this condition (giving \\(c = 3\\)). Options B and D exceed the major axis length, and option C would correspond to a circle, not an ellipse.",
+      "difficulty": "easy"
+    }
+  ]
+}
