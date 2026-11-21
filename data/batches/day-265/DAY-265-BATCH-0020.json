@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Point P divides the line segment joining A(2, 3, 4) and B(8, 9, 10) internally in the ratio 2:3. Which of the following gives the correct coordinates of P?",
+      "options": {
+        "A": "(4.4, 5.4, 6.4)",
+        "B": "(5, 6, 7)",
+        "C": "(3, 4, 5)",
+        "D": "(6, 7, 8)"
+      },
+      "correct_option": "A",
+      "answer": "(4.4, 5.4, 6.4)",
+      "explanation": "For internal division in the ratio m:n, the coordinates are ((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n), (n·z1 + m·z2)/(m+n)). Here m=2, n=3, x1=2, x2=8, etc. So x = (3·2 + 2·8)/5 = 22/5 = 4.4, y = (3·3 + 2·9)/5 = 27/5 = 5.4, z = (3·4 + 2·10)/5 = 32/5 = 6.4. Option A matches this result.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "Find the midpoint of the line segment joining the points (1, -2, 3) and (7, 4, -5).",
+      "options": {
+        "A": "(4, 1, -1)",
+        "B": "(3, 1, -1)",
+        "C": "(4, 0, -2)",
+        "D": "(5, 2, -1)"
+      },
+      "correct_option": "A",
+      "answer": "(4, 1, -1)",
+      "explanation": "The midpoint M of (x1, y1, z1) and (x2, y2, z2) is ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2). Substituting gives ((1+7)/2, (-2+4)/2, (3-5)/2) = (4, 1, -1). Option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Point Q divides the line segment joining O(0, 0, 0) and R(6, 9, 12) in the ratio 1:2. What are the coordinates of Q?",
+      "options": {
+        "A": "(2, 3, 4)",
+        "B": "(4, 6, 8)",
+        "C": "(1, 1.5, 2)",
+        "D": "(3, 4.5, 6)"
+      },
+      "correct_option": "A",
+      "answer": "(2, 3, 4)",
+      "explanation": "Using the section formula with m=1, n=2: x = (2·0 + 1·6)/3 = 2, y = (2·0 + 1·9)/3 = 3, z = (2·0 + 1·12)/3 = 4. Hence Q is (2,3,4). Option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "The section formula in three dimensions for a point P that divides the line segment joining A(x₁,y₁,z₁) and B(x₂,y₂,z₂) internally in the ratio m:n is:",
+      "options": {
+        "A": "P = ((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n), (n·z₁ + m·z₂)/(m+n))",
+        "B": "P = ((m·x₁ + n·x₂)/(m+n), (m·y₁ + n·y₂)/(m+n), (m·z₁ + n·z₂)/(m+n))",
+        "C": "P = ((x₁ + x₂)/2, (y₁ + y₂)/2, (z₁ + z₂)/2)",
+        "D": "P = ((n·x₁ - m·x₂)/(m-n), (n·y₁ - m·y₂)/(m-n), (n·z₁ - m·z₂)/(m-n))"
+      },
+      "correct_option": "A",
+      "answer": "P = ((n·x₁ + m·x₂)/(m+n), (n·y₁ + m·y₂)/(m+n), (n·z₁ + m·z₂)/(m+n))",
+      "explanation": "For internal division, the coordinates are weighted by the opposite segment's ratio: the coordinate of A is multiplied by n (the part opposite to A) and the coordinate of B by m. Option A correctly expresses this; the other options either swap the weights, give the midpoint formula, or represent external division.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "The midpoint of a line segment joining points (x₁, y₁, z₁) and (x₂, y₂, z₂) in three‑dimensional space is obtained by:",
+      "options": {
+        "A": "Taking the average of the corresponding coordinates: ((x₁+x₂)/2, (y₁+y₂)/2, (z₁+z₂)/2)",
+        "B": "Subtracting the coordinates and dividing by 2: ((x₁−x₂)/2, (y₁−y₂)/2, (z₁−z₂)/2)",
+        "C": "Using the section formula with ratio 1:1",
+        "D": "Both A and C"
+      },
+      "correct_option": "D",
+      "answer": "Both A and C",
+      "explanation": "The midpoint formula is indeed the average of the coordinates (option A). This is also a special case of the section formula where the ratio m:n = 1:1 (option C). Hence both statements are correct, making option D the right choice. Options B is incorrect because it gives a vector difference, not a midpoint.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "A point P lies on the line joining A(2, 3, 5) and B(8, 9, 11) such that AP : PB = 3 : 2. What are the coordinates of P?",
+      "options": {
+        "A": "(5.6, 6.6, 8.6)",
+        "B": "(5, 6, 8)",
+        "C": "(6, 7, 9)",
+        "D": "(4.8, 5.8, 7.8)"
+      },
+      "correct_option": "A",
+      "answer": "(5.6, 6.6, 8.6)",
+      "explanation": "With AP:PB = 3:2, m=3, n=2. Using the section formula: x = (2·2 + 3·8)/5 = 28/5 = 5.6, y = (2·3 + 3·9)/5 = 33/5 = 6.6, z = (2·5 + 3·11)/5 = 43/5 = 8.6. Option A matches these values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Given A(1, 2, 3) and B(7, 8, 9), find the coordinates of the point that divides AB internally in the ratio 4:1.",
+      "options": {
+        "A": "(5.8, 6.8, 7.8)",
+        "B": "(6, 7, 8)",
+        "C": "(5, 6, 7)",
+        "D": "(4.5, 5.5, 6.5)"
+      },
+      "correct_option": "A",
+      "answer": "(5.8, 6.8, 7.8)",
+      "explanation": "Here m=4, n=1. Coordinates = ((1·1 + 4·7)/5, (1·2 + 4·8)/5, (1·3 + 4·9)/5) = (29/5, 34/5, 39/5) = (5.8, 6.8, 7.8). Option A is correct; the other options are results of incorrect weighting or rounding.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "The ends of a space diagonal of a rectangular box are at O(0, 0, 0) and V(10, 12, 14). What are the coordinates of the centre of the box?",
+      "options": {
+        "A": "(5, 6, 7)",
+        "B": "(10, 12, 14)",
+        "C": "(0, 0, 0)",
+        "D": "(5, 5, 5)"
+      },
+      "correct_option": "A",
+      "answer": "(5, 6, 7)",
+      "explanation": "The centre of the box is the midpoint of the space diagonal OV. Midpoint = ((0+10)/2, (0+12)/2, (0+14)/2) = (5, 6, 7). Option A gives this point. Options B and C are the vertices themselves, and D is unrelated.",
+      "difficulty": "medium"
+    }
+  ]
+}

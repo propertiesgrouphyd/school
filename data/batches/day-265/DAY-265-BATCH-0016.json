@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "Given points A(2,4,6) and B(8,10,14) in space, which of the following is the midpoint of AB?",
+      "options": {
+        "A": "(5,7,10)",
+        "B": "(6,7,10)",
+        "C": "(5,8,10)",
+        "D": "(5,7,12)"
+      },
+      "correct_option": "A",
+      "answer": "(5,7,10)",
+      "explanation": "The midpoint of a segment joining (x1,y1,z1) and (x2,y2,z2) is ((x1+x2)/2,(y1+y2)/2,(z1+z2)/2). Applying it: ((2+8)/2, (4+10)/2, (6+14)/2) = (5,7,10). Options B, C, D use incorrect averaging of one or more coordinates, leading to a common mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Point P divides the line segment joining A(1,2,3) and B(11,8,13) internally in the ratio 2:3. What are the coordinates of P?",
+      "options": {
+        "A": "(5, 4.4, 7)",
+        "B": "(5, 5, 7)",
+        "C": "(6, 4, 8)",
+        "D": "(4, 4.4, 6)"
+      },
+      "correct_option": "A",
+      "answer": "(5, 4.4, 7)",
+      "explanation": "For internal division in ratio m:n, coordinates are ((m·x2 + n·x1)/(m+n), ...). Here m=2, n=3: x = (2·11+3·1)/5 = 25/5 =5, y = (2·8+3·2)/5 = 22/5 =4.4, z = (2·13+3·3)/5 = 35/5 =7. The other options misapply the formula or use wrong ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Which statement correctly describes the internal and external division formulas for a point dividing AB in the ratio m:n?",
+      "options": {
+        "A": "Internal: ((m·x_B + n·x_A)/(m+n), (m·y_B + n·y_A)/(m+n), (m·z_B + n·z_A)/(m+n)); External: ((m·x_B - n·x_A)/(m-n), (m·y_B - n·y_A)/(m-n), (m·z_B - n·z_A)/(m-n))",
+        "B": "Internal: ((m·x_A + n·x_B)/(m+n), ...); External: ((m·x_A - n·x_B)/(m-n), ...)",
+        "C": "Both internal and external use the plus sign in the numerator",
+        "D": "Both internal and external use the minus sign in the numerator"
+      },
+      "correct_option": "A",
+      "answer": "Internal: ((m·x_B + n·x_A)/(m+n), (m·y_B + n·y_A)/(m+n), (m·z_B + n·z_A)/(m+n)); External: ((m·x_B - n·x_A)/(m-n), (m·y_B - n·y_A)/(m-n), (m·z_B - n·z_A)/(m-n))",
+      "explanation": "The internal section formula adds the weighted coordinates and divides by (m+n). The external formula subtracts because the point lies outside the segment, dividing by (m‑n). Options B, C, D either swap the roles of A and B or use incorrect signs, leading to wrong results.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "If P(2a,3b,-c) and Q(-4a,b,5c) are two points in space, what is the midpoint of PQ?",
+      "options": {
+        "A": "(-a,2b,2c)",
+        "B": "(-a,b,2c)",
+        "C": "(-3a,2b,2c)",
+        "D": "(-a,2b,c)"
+      },
+      "correct_option": "A",
+      "answer": "(-a,2b,2c)",
+      "explanation": "Midpoint = ((x1+x2)/2,(y1+y2)/2,(z1+z2)/2). Compute: x: (2a-4a)/2 = -2a/2 = -a; y: (3b+b)/2 = 4b/2 = 2b; z: (-c+5c)/2 = 4c/2 = 2c. Only option A matches. Other options miscalculate one coordinate.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "A point P divides the segment AB in the ratio 3:2 internally. Which of the following gives the coordinates of P?",
+      "options": {
+        "A": "((3x_B + 2x_A)/5 , (3y_B + 2y_A)/5 , (3z_B + 2z_A)/5)",
+        "B": "((3x_A + 2x_B)/5 , (3y_A + 2y_B)/5 , (3z_A + 2z_B)/5)",
+        "C": "((3x_B - 2x_A)/5 , (3y_B - 2y_A)/5 , (3z_B - 2z_A)/5)",
+        "D": "((3x_A - 2x_B)/5 , (3y_A - 2y_B)/5 , (3z_A - 2z_B)/5)"
+      },
+      "correct_option": "A",
+      "answer": "((3x_B + 2x_A)/5 , (3y_B + 2y_A)/5 , (3z_B + 2z_A)/5)",
+      "explanation": "For internal division in ratio m:n, the coordinate of the dividing point is ((m·x_B + n·x_A)/(m+n), ...). Here m=3, n=2, so denominator is 5 and the numerator uses the weighted sum of B's coordinates plus A's. Options B, C, D either swap the weights or use subtraction, which are incorrect for internal division.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Why can the section formula be used to find a point dividing a line segment in three‑dimensional space?",
+      "options": {
+        "A": "Because the formula is applied separately to each coordinate axis",
+        "B": "Because three‑dimensional space is equivalent to two‑dimensional space",
+        "C": "Because the distance formula changes in three dimensions",
+        "D": "Because ratios are only defined in two dimensions"
+      },
+      "correct_option": "A",
+      "answer": "Because the formula is applied separately to each coordinate axis",
+      "explanation": "The section formula works component‑wise: the x‑, y‑ and z‑coordinates are each found by the same one‑dimensional ratio expression. Hence it extends directly to 3‑D. Options B, C, D give incorrect reasons.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "The midpoint of a line segment is defined as the point that ... Which statement correctly distinguishes it from the centroid of a triangle?",
+      "options": {
+        "A": "Midpoint is the average of the endpoints of a segment; centroid is the average of the three vertices of a triangle",
+        "B": "Midpoint lies on a line; centroid lies inside a triangle",
+        "C": "Midpoint is always at the origin; centroid is not",
+        "D": "Midpoint divides a segment in 1:1; centroid divides each median in 2:1"
+      },
+      "correct_option": "A",
+      "answer": "Midpoint is the average of the endpoints of a segment; centroid is the average of the three vertices of a triangle",
+      "explanation": "Midpoint = ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2) – an average of two points. The centroid = ((x1+x2+x3)/3, (y1+y2+y3)/3, (z1+z2+z3)/3) – an average of three vertices. Option A captures this distinction. Options B, C, D are either partially true or misleading.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Find the coordinates of the point that divides the line segment joining O(0,0,0) and R(12,6,18) internally in the ratio 1:2.",
+      "options": {
+        "A": "(4,2,6)",
+        "B": "(6,3,9)",
+        "C": "(8,4,12)",
+        "D": "(2,1,3)"
+      },
+      "correct_option": "A",
+      "answer": "(4,2,6)",
+      "explanation": "Using the internal section formula with m=1, n=2: x = (1·12 + 2·0)/3 = 12/3 = 4, y = (1·6 + 2·0)/3 = 6/3 = 2, z = (1·18 + 2·0)/3 = 18/3 = 6. Option A is correct; the others correspond to different ratios or miscalculations.",
+      "difficulty": "easy"
+    }
+  ]
+}

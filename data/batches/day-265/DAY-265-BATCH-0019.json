@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "What are the coordinates of the midpoint of the line segment joining the points A(2, -1, 4) and B(8, 5, -2) in three‑dimensional space?",
+      "options": {
+        "A": "(5, 2, 1)",
+        "B": "(6, 3, 0)",
+        "C": "(4, 2, 1)",
+        "D": "(5, 3, 2)"
+      },
+      "correct_option": "A",
+      "answer": "(5, 2, 1)",
+      "explanation": "The midpoint M of a segment with endpoints (x1,y1,z1) and (x2,y2,z2) is given by M = ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2). Substituting (2, -1, 4) and (8, 5, -2) gives M = ((2+8)/2, (-1+5)/2, (4+(-2))/2) = (5, 2, 1). Options B, C, and D are obtained by incorrect averaging or mixing coordinates.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Point P divides the line segment joining A(1, 2, 3) and B(7, 8, 9) internally in the ratio 2:3. What are the coordinates of P?",
+      "options": {
+        "A": "(3.4, 4.4, 5.4)",
+        "B": "(4, 5, 6)",
+        "C": "(5, 6, 7)",
+        "D": "(2.5, 3.5, 4.5)"
+      },
+      "correct_option": "A",
+      "answer": "(3.4, 4.4, 5.4)",
+      "explanation": "For internal division in the ratio m:n, the coordinates are ((mx2 + nx1)/(m+n), (my2 + ny1)/(m+n), (mz2 + nz1)/(m+n)). Here m=2, n=3, (x1,y1,z1)=(1,2,3), (x2,y2,z2)=(7,8,9). Thus x = (2·7 + 3·1)/5 = 17/5 = 3.4, y = (2·8 + 3·2)/5 = 22/5 = 4.4, z = (2·9 + 3·3)/5 = 27/5 = 5.4. The other options use wrong ratios or arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Which of the following statements correctly describes the section formula for internal division of a line segment joining points A(x1, y1, z1) and B(x2, y2, z2) in three dimensions?",
+      "options": {
+        "A": "If the point P divides AB internally in the ratio m:n, then P = ((mx2 + nx1)/(m+n), (my2 + ny1)/(m+n), (mz2 + nz1)/(m+n)).",
+        "B": "For external division, the same formula with denominator (m−n) is used.",
+        "C": "The formula gives the midpoint when m=n=1.",
+        "D": "The section formula cannot be applied in three dimensions."
+      },
+      "correct_option": "A",
+      "answer": "If the point P divides AB internally in the ratio m:n, then P = ((mx2 + nx1)/(m+n), (my2 + ny1)/(m+n), (mz2 + nz1)/(m+n)).",
+      "explanation": "Option A states the exact internal section formula in three dimensions. Option B describes external division, not internal. Option C is a special case of the formula but does not define the general internal case. Option D is false because the formula works in any number of dimensions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "The opposite vertices of a rectangular parallelepiped are O(0,0,0) and Q(6,8,10). What are the coordinates of the centre of the parallelepiped?",
+      "options": {
+        "A": "(3, 4, 5)",
+        "B": "(6, 8, 10)",
+        "C": "(0, 0, 0)",
+        "D": "(2, 4, 5)"
+      },
+      "correct_option": "A",
+      "answer": "(3, 4, 5)",
+      "explanation": "The centre of a rectangular box is the midpoint of the line joining its opposite vertices. Using the midpoint formula: ((0+6)/2, (0+8)/2, (0+10)/2) = (3, 4, 5). Options B and C are the given vertices, and D is an incorrect averaging.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "A point R divides the line segment joining S(−2, 4, 6) and T(8, −2, −4) internally in the ratio 4:1. Find the coordinates of R.",
+      "options": {
+        "A": "(6, -0.8, -2)",
+        "B": "(4, 1, 0)",
+        "C": "(5, -1, -3)",
+        "D": "(7, -2, -1)"
+      },
+      "correct_option": "A",
+      "answer": "(6, -0.8, -2)",
+      "explanation": "Using the internal section formula with m=4, n=1: x = (4·8 + 1·(-2))/5 = 30/5 = 6, y = (4·(-2) + 1·4)/5 = -4/5 = -0.8, z = (4·(-4) + 1·6)/5 = -10/5 = -2. The other options arise from mis‑applying the ratio or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "A drone starts from point A(2, 3, 5) and moves towards point B(12, 15, 25). After traveling a distance that puts it 3/7 of the way from A to B, where is the drone located?",
+      "options": {
+        "A": "(44/7, 57/7, 95/7)",
+        "B": "(6, 8, 14)",
+        "C": "(5, 7, 13)",
+        "D": "(8, 10, 16)"
+      },
+      "correct_option": "A",
+      "answer": "(44/7, 57/7, 95/7)",
+      "explanation": "Being 3/7 of the way from A to B means the drone divides AB in the ratio 3:4 (m=3, n=4). Applying the internal section formula: x = (3·12 + 4·2)/7 = 44/7, y = (3·15 + 4·3)/7 = 57/7, z = (3·25 + 4·5)/7 = 95/7. Options B‑D are approximations or incorrect ratios.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "A student claims that the midpoint of the segment joining points P(1, 2, 3) and Q(5, 6, 9) is obtained by averaging only the x‑coordinates, giving (3, ?, ?). Which of the following statements correctly identifies the error?",
+      "options": {
+        "A": "The student forgot to average the y‑ and z‑coordinates as well.",
+        "B": "The midpoint formula requires taking the product of coordinates, not the average.",
+        "C": "Midpoint in three dimensions is found by averaging the squares of the coordinates.",
+        "D": "The student's method is correct; only the x‑coordinate needs averaging."
+      },
+      "correct_option": "A",
+      "answer": "The student forgot to average the y‑ and z‑coordinates as well.",
+      "explanation": "The midpoint in three dimensions is ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2). Ignoring y and z leads to an incomplete answer. Options B, C, and D describe incorrect formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Point P(4, -2, 6) divides the line segment joining points X and Y internally in the ratio 1:2. If the coordinates of X are (1, -5, 0), find the coordinates of Y.",
+      "options": {
+        "A": "(10, 4, 18)",
+        "B": "(8, 2, 12)",
+        "C": "(9, 3, 15)",
+        "D": "(11, 5, 20)"
+      },
+      "correct_option": "A",
+      "answer": "(10, 4, 18)",
+      "explanation": "For XP:PY = 1:2, let m=1, n=2. The internal section formula gives P = ((n·X + m·Y)/(m+n)). Rearranging: Y = (m+n)·P – n·X = 3·P – 2·X. Computing: 3·P = (12, -6, 18); 2·X = (2, -10, 0); Y = (12-2, -6+10, 18-0) = (10, 4, 18). The other options result from arithmetic mistakes.",
+      "difficulty": "medium"
+    }
+  ]
+}
