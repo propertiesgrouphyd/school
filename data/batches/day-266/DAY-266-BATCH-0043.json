@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Construct simple mathematical arguments",
+      "question": "Consider the statements: (1) If n is an even integer, then n² is even. (2) 8 is an even integer. Which of the following is a correct conclusion?",
+      "options": {
+        "A": "8² is odd",
+        "B": "8² is even",
+        "C": "8 is odd",
+        "D": "None of the above"
+      },
+      "correct_option": "B",
+      "answer": "8² is even",
+      "explanation": "From premise (1), an even integer squared is even. Premise (2) tells us 8 is even, so applying (1) gives 8² is even. Options A and C contradict the premises, and D is unnecessary because B follows directly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Identify premises and conclusions",
+      "question": "In the argument: \"All squares have four equal sides. Figure ABCD has four equal sides, therefore ABCD is a square.\" Which of the following correctly identifies the premise(s) and conclusion?",
+      "options": {
+        "A": "Premise: All squares have four equal sides; Conclusion: Figure ABCD has four equal sides.",
+        "B": "Premise: Figure ABCD has four equal sides; Conclusion: All squares have four equal sides.",
+        "C": "Premise: All squares have four equal sides and Figure ABCD has four equal sides; Conclusion: ABCD is a square.",
+        "D": "Premise: ABCD is a square; Conclusion: All squares have four equal sides."
+      },
+      "correct_option": "C",
+      "answer": "Premise: All squares have four equal sides and Figure ABCD has four equal sides; Conclusion: ABCD is a square.",
+      "explanation": "Both statements \"All squares have four equal sides\" and \"Figure ABCD has four equal sides\" are used as supporting statements (premises). The statement that follows, \"ABCD is a square,\" is the conclusion. Options A, B, and D misplace premises and conclusions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Understand implication and converse",
+      "question": "Which of the following statements correctly describes the converse of the implication \"If a number is divisible by 6, then it is divisible by 3\"?",
+      "options": {
+        "A": "If a number is divisible by 3, then it is divisible by 6.",
+        "B": "If a number is not divisible by 3, then it is not divisible by 6.",
+        "C": "If a number is divisible by 3, then it may or may not be divisible by 6.",
+        "D": "The converse is the same as the original statement."
+      },
+      "correct_option": "A",
+      "answer": "If a number is divisible by 3, then it is divisible by 6.",
+      "explanation": "The converse of \"If P then Q\" is \"If Q then P\". Here P = \"number is divisible by 6\" and Q = \"number is divisible by 3\". Hence the converse is \"If a number is divisible by 3, then it is divisible by 6\". Option B describes the contrapositive, C is a vague restatement, and D is false because converse differs from the original.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Use basic logical reasoning",
+      "question": "Given the premises: (i) If it rains, the ground gets wet. (ii) The ground is wet. Which of the following conclusions is logically valid?",
+      "options": {
+        "A": "It rained.",
+        "B": "It did not rain.",
+        "C": "It may have rained or not; we cannot be sure.",
+        "D": "The ground being wet implies it will rain."
+      },
+      "correct_option": "C",
+      "answer": "It may have rained or not; we cannot be sure.",
+      "explanation": "From premise (i) we have the implication rain → wet. Premise (ii) gives wet, but the converse (wet → rain) is not guaranteed; this is the fallacy of affirming the consequent. Therefore we cannot deduce whether it rained. Option C correctly reflects the logical status. Options A and B make unwarranted assertions, and D reverses the implication.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Identify valid and invalid reasoning patterns",
+      "question": "Argument A: \"If a figure is a rectangle, then it has four right angles. Figure X has four right angles, therefore X is a rectangle.\" Argument B: \"If a number is a multiple of 4, then it is even. Number 12 is even, therefore 12 is a multiple of 4.\" Which argument(s) is/are valid?",
+      "options": {
+        "A": "Both A and B are valid.",
+        "B": "Only A is valid.",
+        "C": "Only B is valid.",
+        "D": "Neither A nor B is valid."
+      },
+      "correct_option": "D",
+      "answer": "Neither A nor B is valid.",
+      "explanation": "Both arguments commit the fallacy of affirming the consequent: from \"If P then Q\" they infer \"Q, therefore P\". In A, many shapes (e.g., a right-angled kite) have four right angles without being rectangles. In B, many even numbers (e.g., 2, 6) are not multiples of 4. Hence both are invalid. Options A, B, and C incorrectly label at least one argument as valid.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Construct simple mathematical arguments",
+      "question": "In a competitive exam, a question states: \"Let p and q be statements such that p → q is true and ¬q is true. Which of the following must be true?\"",
+      "options": {
+        "A": "p is true.",
+        "B": "p is false.",
+        "C": "Both p and q are true.",
+        "D": "Neither p nor q can be determined."
+      },
+      "correct_option": "B",
+      "answer": "p is false.",
+      "explanation": "The given information matches the form of modus tollens: from p → q and ¬q we infer ¬p. Therefore p must be false. Option A contradicts modus tollens, C is impossible because q is false, and D ignores the logical deduction that can be made.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Identify premises and conclusions",
+      "question": "In any logical argument, the statements that provide support are called ____ and the statement that is being supported is called ____.",
+      "options": {
+        "A": "premises; conclusion",
+        "B": "conclusions; premises",
+        "C": "hypotheses; results",
+        "D": "assumptions; deductions"
+      },
+      "correct_option": "A",
+      "answer": "premises; conclusion",
+      "explanation": "Standard terminology: premises are the supporting statements, and the conclusion is the statement that follows from them. The other options swap or replace these terms incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Understand implication and converse",
+      "question": "The statement \"If a shape is a triangle, then it has three sides\" is an implication. Which of the following is its converse?",
+      "options": {
+        "A": "If a shape has three sides, then it is a triangle.",
+        "B": "If a shape does not have three sides, then it is not a triangle.",
+        "C": "If a shape is not a triangle, then it does not have three sides.",
+        "D": "The converse is identical to the original statement."
+      },
+      "correct_option": "A",
+      "answer": "If a shape has three sides, then it is a triangle.",
+      "explanation": "The converse swaps the hypothesis and conclusion: original P → Q becomes Q → P. Here P = \"shape is a triangle\", Q = \"shape has three sides\". Hence the converse is \"If a shape has three sides, then it is a triangle\". Options B and C describe the contrapositive or inverse, and D is false because converse differs from the original.",
+      "difficulty": "easy"
+    }
+  ]
+}

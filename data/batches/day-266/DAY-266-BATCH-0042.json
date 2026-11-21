@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-266-17",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Understand implication and converse",
+      "question": "Given the true implication 'If a number is divisible by 4 then it is even', which of the following statements is a logically valid inference?",
+      "options": {
+        "A": "If a number is even then it is divisible by 4",
+        "B": "If a number is not even then it is not divisible by 4",
+        "C": "If a number is not divisible by 4 then it is not even",
+        "D": "None of the above"
+      },
+      "correct_option": "D",
+      "answer": "None of the above",
+      "explanation": "From 'p ⇒ q' (divisible by 4 ⇒ even) only the contrapositive '¬q ⇒ ¬p' (not even ⇒ not divisible by 4) is guaranteed. Option B is the inverse, not guaranteed; Option C is the converse, also not guaranteed; Option A is the converse as well. Hence none of the listed statements must be true. The correct choice is D.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-266-18",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Use basic logical reasoning",
+      "question": "Premise 1: If it rains, the ground gets wet. Premise 2: The ground is wet. Which conclusion follows logically?",
+      "options": {
+        "A": "It rained",
+        "B": "It did not rain",
+        "C": "The ground is dry",
+        "D": "It may have rained or not"
+      },
+      "correct_option": "D",
+      "answer": "It may have rained or not",
+      "explanation": "From 'p ⇒ q' and the truth of q we cannot infer p (this would be affirming the consequent). Therefore the only safe conclusion is that rain may have occurred or may not have; the statement in option D captures this uncertainty. Options A, B, and C are invalid deductions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-266-19",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Identify valid and invalid reasoning patterns",
+      "question": "Consider the following arguments:\nArgument I: All squares are rectangles. All rectangles have four right angles. Therefore, all squares have four right angles.\nArgument II: If a number is divisible by 6 then it is divisible by 3. The number 12 is divisible by 3. Therefore, 12 is divisible by 6.\nWhich description is correct?",
+      "options": {
+        "A": "Argument I is valid and Argument II is invalid",
+        "B": "Both arguments are valid",
+        "C": "Both arguments are invalid",
+        "D": "Argument I is invalid and Argument II is valid"
+      },
+      "correct_option": "A",
+      "answer": "Argument I is valid and Argument II is invalid",
+      "explanation": "Argument I follows a correct chain of syllogism (modus ponens). Argument II commits the fallacy of affirming the consequent: from 'p ⇒ q' and q being true, it incorrectly infers p. Hence only Argument I is valid, matching option A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-266-20",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Construct simple mathematical arguments",
+      "question": "Let a and b be even integers. Which of the following statements correctly completes the argument that a + b is even?\nPremise: a = 2m and b = 2n for some integers m and n.\nConclusion: a + b = ?",
+      "options": {
+        "A": "2(m + n), which is even",
+        "B": "2(m - n), which is even",
+        "C": "m + n, which is even",
+        "D": "m - n, which is even"
+      },
+      "correct_option": "A",
+      "answer": "2(m + n), which is even",
+      "explanation": "Substituting a = 2m and b = 2n gives a + b = 2m + 2n = 2(m + n). Since m + n is an integer, 2(m + n) is divisible by 2, proving the sum is even. Options B, C, and D do not follow from the premises.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-266-21",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Identify premises and conclusions",
+      "question": "In the argument: 'If a number is a multiple of 5 then it ends with 0 or 5. 35 is a multiple of 5, therefore it ends with 5.' Identify the premise(s) and the conclusion.",
+      "options": {
+        "A": "Premise: 35 is a multiple of 5; Conclusion: If a number is a multiple of 5 then it ends with 0 or 5",
+        "B": "Premise: If a number is a multiple of 5 then it ends with 0 or 5; Conclusion: 35 ends with 5",
+        "C": "Premise: 35 ends with 5; Conclusion: If a number is a multiple of 5 then it ends with 0 or 5",
+        "D": "Premise: None; Conclusion: None"
+      },
+      "correct_option": "B",
+      "answer": "Premise: If a number is a multiple of 5 then it ends with 0 or 5; Conclusion: 35 ends with 5",
+      "explanation": "The conditional statement provides the general rule (premise). The specific fact that 35 is a multiple of 5 is another premise. From these, the conclusion drawn is that 35 ends with 5. Option B correctly identifies the general premise and the conclusion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-266-22",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Understand implication and converse",
+      "question": "Which statement correctly describes the converse of the implication 'If a quadrilateral is a square then it is a rectangle'?",
+      "options": {
+        "A": "If a quadrilateral is a rectangle then it is a square",
+        "B": "If a quadrilateral is not a square then it is not a rectangle",
+        "C": "If a quadrilateral is a square then it is a rectangle",
+        "D": "If a quadrilateral is not a rectangle then it is not a square"
+      },
+      "correct_option": "A",
+      "answer": "If a quadrilateral is a rectangle then it is a square",
+      "explanation": "The converse of 'p ⇒ q' is 'q ⇒ p'. Here p = 'quadrilateral is a square', q = 'quadrilateral is a rectangle'. Therefore the converse is 'If a quadrilateral is a rectangle then it is a square', which is option A. The other options represent inverse, original implication, or contrapositive.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-266-23",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Use basic logical reasoning",
+      "question": "Which of the following best distinguishes implication from equivalence?",
+      "options": {
+        "A": "Implication means both statements are true together, equivalence means one implies the other",
+        "B": "Implication is one‑way, equivalence is two‑way",
+        "C": "Implication is the same as converse, equivalence is the same as inverse",
+        "D": "Implication and equivalence are identical"
+      },
+      "correct_option": "B",
+      "answer": "Implication is one‑way, equivalence is two‑way",
+      "explanation": "An implication 'p ⇒ q' asserts that whenever p is true, q must be true (one‑directional). An equivalence 'p ⇔ q' asserts both 'p ⇒ q' and 'q ⇒ p' hold, making it a two‑way relationship. Hence option B correctly captures the distinction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-266-24",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Identify valid and invalid reasoning patterns",
+      "question": "All even numbers are divisible by 2. 14 is divisible by 2. Therefore, 14 is even. Which classification best describes this reasoning?",
+      "options": {
+        "A": "Valid (modus ponens)",
+        "B": "Invalid (affirming the consequent)",
+        "C": "Cannot be determined from the information given",
+        "D": "Both premises are false"
+      },
+      "correct_option": "A",
+      "answer": "Valid (modus ponens)",
+      "explanation": "The structure matches modus ponens: If p then q; p is true; therefore q is true. Here p = 'number is even', q = 'number is divisible by 2'. Since 14 satisfies the premise, the conclusion that 14 is even follows validly. Options B, C, D are incorrect descriptions.",
+      "difficulty": "easy"
+    }
+  ]
+}
