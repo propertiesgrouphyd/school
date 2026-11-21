@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0053",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand range",
+      "question": "What is the range of a data set?",
+      "options": {
+        "A": "The difference between the maximum and minimum values",
+        "B": "The average of all observations",
+        "C": "The most frequently occurring value",
+        "D": "The sum of all observations divided by the number of observations"
+      },
+      "correct_option": "A",
+      "answer": "The difference between the maximum and minimum values",
+      "explanation": "The range measures how spread out the data are by subtracting the smallest value from the largest value. Options B, C, and D describe mean, mode, and mean respectively, not range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "Mean deviation (MD) of a data set indicates which of the following?",
+      "options": {
+        "A": "The average distance of each observation from the mean",
+        "B": "The square root of the variance",
+        "C": "The difference between the largest and smallest observations",
+        "D": "The most common observation in the data"
+      },
+      "correct_option": "A",
+      "answer": "The average distance of each observation from the mean",
+      "explanation": "Mean deviation is defined as the average of the absolute deviations of each observation from the mean. Option B describes standard deviation, C describes range, and D describes mode.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "For the ungrouped data set {4, 7, 9, 10, 12}, what is the mean deviation about the mean?",
+      "options": {
+        "A": "2.32",
+        "B": "2.40",
+        "C": "2.00",
+        "D": "3.00"
+      },
+      "correct_option": "A",
+      "answer": "2.32",
+      "explanation": "Mean = (4+7+9+10+12)/5 = 8.4. Absolute deviations: 4.4, 1.4, 0.6, 1.6, 3.6. Sum = 11.6. Mean deviation = 11.6/5 = 2.32. The other options are close but not the exact value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "The following grouped data represent frequencies of a variable:\nClass interval: 10‑20, 20‑30, 30‑40\nFrequency: 5, 8, 7\nWhat is the mean deviation about the mean for this data?",
+      "options": {
+        "A": "6.3",
+        "B": "5.5",
+        "C": "7.0",
+        "D": "8.2"
+      },
+      "correct_option": "A",
+      "answer": "6.3",
+      "explanation": "Class marks are 15, 25, 35. Mean = (5·15 + 8·25 + 7·35)/20 = 520/20 = 26. Absolute deviations: |15‑26|=11, |25‑26|=1, |35‑26|=9. Weighted sum = 5·11 + 8·1 + 7·9 = 55+8+63 = 126. Mean deviation = 126/20 = 6.3. Other options are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Interpret dispersion measures",
+      "question": "Class A scores: 40, 45, 50, 55, 60.\nClass B scores: 48, 49, 50, 51, 52.\nBased on range and mean deviation, which class shows less dispersion?",
+      "options": {
+        "A": "Class A",
+        "B": "Class B",
+        "C": "Both classes have the same dispersion",
+        "D": "Dispersion cannot be compared with the given information"
+      },
+      "correct_option": "B",
+      "answer": "Class B",
+      "explanation": "Class A range = 60‑40 = 20, mean deviation ≈ 8.0. Class B range = 52‑48 = 4, mean deviation ≈ 1.6. Both measures are much smaller for Class B, indicating it is more consistent. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand range",
+      "question": "A farmer records daily temperatures (in °C) over a week: 22, 25, 27, 23, 26, 28, 24. What is the range of these temperatures?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Maximum temperature = 28°C, minimum = 22°C. Range = 28‑22 = 6°C. Options A, B, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "Statement: \"The mean deviation of any data set is always less than its standard deviation.\" Is this statement true or false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined without data",
+        "D": "Both can be true depending on the data"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "Mean deviation and standard deviation measure spread differently. While mean deviation is often smaller, there are data sets where it can be larger (e.g., data with many extreme values). Therefore the statement is false. Option C is unnecessary because the relationship is not fixed, and option D is misleading.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "For the ungrouped data set {5, 8, 12, 15, 22}, calculate the mean deviation about the mean.",
+      "options": {
+        "A": "4.88",
+        "B": "5.00",
+        "C": "4.50",
+        "D": "5.20"
+      },
+      "correct_option": "A",
+      "answer": "4.88",
+      "explanation": "Mean = (5+8+12+15+22)/5 = 12.4. Absolute deviations: 7.4, 4.4, 0.4, 2.6, 9.6. Sum = 24.4. Mean deviation = 24.4/5 = 4.88. The other options are not the correct calculation.",
+      "difficulty": "medium"
+    }
+  ]
+}

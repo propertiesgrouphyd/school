@@ -1,0 +1,78 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97-001",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Understand implication and converse",
+      "question": "Consider the implication: \"If a number is divisible by 4, then it is even.\" Which of the following statements is the correct converse of this implication?",
+      "options": {
+        "A": "If a number is even, then it is divisible by 4.",
+        "B": "If a number is not divisible by 4, then it is not even.",
+        "C": "If a number is even, then it is divisible by 2.",
+        "D": "If a number is not even, then it is not divisible by 4."
+      },
+      "correct_option": "A",
+      "answer": "If a number is even, then it is divisible by 4.",
+      "explanation": "The converse of an implication \"If P then Q\" is \"If Q then P\". Here P = \"number is divisible by 4\" and Q = \"number is even\". Therefore the converse is \"If a number is even, then it is divisible by 4\" (option A). Options B and D are negations, not the converse, and option C changes the consequent to a different true statement, not the converse.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98-001",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Use basic logical reasoning",
+      "question": "Premise 1: All squares are rectangles.\nPremise 2: All rectangles have four right angles.\nWhich of the following conclusions follows logically from the premises?",
+      "options": {
+        "A": "All squares have four right angles.",
+        "B": "Some squares are not rectangles.",
+        "C": "Some rectangles are not squares.",
+        "D": "No squares have four right angles."
+      },
+      "correct_option": "A",
+      "answer": "All squares have four right angles.",
+      "explanation": "From Premise 1, every square is a rectangle. From Premise 2, every rectangle has four right angles. By transitivity, every square (being a rectangle) also has four right angles, making option A the valid conclusion. Options B and D contradict Premise 1, while option C, although true, is not a necessary conclusion from the given premises.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99-001",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Identify valid and invalid reasoning patterns",
+      "question": "Two arguments are given:\n\nArgument I: If a number is a multiple of 6, then it is even. 12 is a multiple of 6. Therefore, 12 is even.\nArgument II: If a shape is a triangle, then it has three sides. This shape has three sides. Therefore, it is a triangle.\n\nWhich option correctly identifies the validity of Argument I and Argument II?",
+      "options": {
+        "A": "Argument I is valid, Argument II is invalid.",
+        "B": "Both Argument I and Argument II are valid.",
+        "C": "Both Argument I and Argument II are invalid.",
+        "D": "Argument I is invalid, Argument II is valid."
+      },
+      "correct_option": "A",
+      "answer": "Argument I is valid, Argument II is invalid.",
+      "explanation": "Argument I follows the correct logical form (modus ponens): If P then Q; P is true; therefore Q is true. Hence it is valid. Argument II commits the converse fallacy: it assumes the converse of the original implication, which is not logically guaranteed. Therefore Argument II is invalid. Option A correctly captures this assessment.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100-001",
+      "learning_unit_id": "LU-01131",
+      "learning_point": "Construct simple mathematical arguments",
+      "question": "Given the premises: (1) If p → q is true, and (2) p is true. Which of the following statements must be true?",
+      "options": {
+        "A": "q is true.",
+        "B": "p is false.",
+        "C": "q is false.",
+        "D": "p ↔ q is true."
+      },
+      "correct_option": "A",
+      "answer": "q is true.",
+      "explanation": "The combination of premises (1) and (2) is a classic modus ponens argument: From \"If p then q\" and the affirmation of p, we can deduce that q must be true. Hence option A is correct. Option B contradicts premise (2). Option C contradicts the logical consequence of modus ponens. Option D (biconditional) requires both \"p → q\" and \"q → p\", which is not given.",
+      "difficulty": "hard"
+    }
+  ]
+}

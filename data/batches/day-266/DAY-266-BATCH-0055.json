@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0055",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "Which of the following statements about mean deviation (MD) is correct?",
+      "options": {
+        "A": "MD is the average of the absolute deviations of each observation from the mean of the data set.",
+        "B": "MD is the square root of the average of the squared deviations from the mean.",
+        "C": "MD is always equal to the standard deviation for any data set.",
+        "D": "MD is the difference between the largest and smallest observations."
+      },
+      "correct_option": "A",
+      "answer": "MD is the average of the absolute deviations of each observation from the mean of the data set.",
+      "explanation": "Mean deviation is defined as \\(\\frac{\\sum|x_i-\\bar{x}|}{n}\\), i.e., the average of absolute deviations from the mean. Option B describes standard deviation, C is false because MD and SD differ, and D describes the range, not MD.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "For the data set {5, 7, 8, 10, 12}, what is the mean deviation?",
+      "options": {
+        "A": "2.08",
+        "B": "2.50",
+        "C": "3.00",
+        "D": "1.80"
+      },
+      "correct_option": "A",
+      "answer": "2.08",
+      "explanation": "Mean \\(\\bar{x}= (5+7+8+10+12)/5 = 8.4\\). Absolute deviations: 3.4, 1.4, 0.4, 1.6, 3.6. Sum = 10.4. MD = 10.4/5 = 2.08. Hence option A is correct; the other numbers are common rounding errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "Given the grouped data:\nClass interval | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 7\n40‑50 | 4\nWhat is the mean deviation about the mean?",
+      "options": {
+        "A": "8.68",
+        "B": "7.50",
+        "C": "9.20",
+        "D": "6.80"
+      },
+      "correct_option": "A",
+      "answer": "8.68",
+      "explanation": "Mid‑points: 15, 25, 35, 45. Mean = (5·15 + 8·25 + 7·35 + 4·45)/24 = 700/24 ≈ 29.17. Absolute deviations: 14.17, 4.17, 5.83, 15.83. Weighted sum = 5·14.17 + 8·4.17 + 7·5.83 + 4·15.83 ≈ 208.33. MD = 208.33/24 ≈ 8.68. Options B‑D are incorrect approximations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Interpret dispersion measures",
+      "question": "Two data sets A and B have the same arithmetic mean. Set A has a range of 12 and a mean deviation of 3.5, while set B has a range of 20 and a mean deviation of 6.2. Which statement is true?",
+      "options": {
+        "A": "Set B is more dispersed than Set A, as reflected by both its larger range and larger mean deviation.",
+        "B": "Both sets have identical dispersion because they share the same mean.",
+        "C": "Set A is more dispersed because its mean deviation is closer to the mean.",
+        "D": "Range and mean deviation cannot be compared across different data sets."
+      },
+      "correct_option": "A",
+      "answer": "Set B is more dispersed than Set A, as reflected by both its larger range and larger mean deviation.",
+      "explanation": "Dispersion measures quantify spread. A larger range and a larger mean deviation both indicate greater spread. Hence set B, with higher values for both, is more dispersed. Option B ignores dispersion, C misinterprets the meaning of mean deviation, and D is false because these measures are comparable.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand range",
+      "question": "The range of a data set is defined as:",
+      "options": {
+        "A": "The difference between the maximum and minimum values.",
+        "B": "The average of all observations.",
+        "C": "The sum of the absolute deviations from the mean.",
+        "D": "The most frequently occurring value."
+      },
+      "correct_option": "A",
+      "answer": "The difference between the maximum and minimum values.",
+      "explanation": "Range = Largest value – Smallest value. Options B describes the mean, C describes mean deviation, and D describes the mode.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "Which of the following statements about mean deviation (MD) is always true?",
+      "options": {
+        "A": "MD is never negative because it uses absolute deviations.",
+        "B": "MD equals zero only when all observations are equal to the median.",
+        "C": "MD is larger than the standard deviation for any data set.",
+        "D": "MD depends on the order in which data are listed."
+      },
+      "correct_option": "A",
+      "answer": "MD is never negative because it uses absolute deviations.",
+      "explanation": "Since MD is the average of absolute deviations, it cannot be negative. Option B is false (MD is zero only when all observations are identical, not just equal to the median). Option C is false; MD can be smaller or larger than SD. Option D is false because MD is independent of data order.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "Which formula correctly gives the mean deviation (MD) for ungrouped data?",
+      "options": {
+        "A": "MD = \\(\\frac{\\sum|x_i-\\bar{x}|}{n}\\)",
+        "B": "MD = \\(\\frac{\\sum(x_i-\\bar{x})^2}{n}\\)",
+        "C": "MD = \\(\\sqrt{\\frac{\\sum(x_i-\\bar{x})^2}{n}}\\)",
+        "D": "MD = \\(\\frac{\\sum|x_i-\\text{median}|}{n}\\)"
+      },
+      "correct_option": "A",
+      "answer": "MD = \\(\\frac{\\sum|x_i-\\bar{x}|}{n}\\)",
+      "explanation": "Mean deviation is defined as the average of absolute deviations from the mean, which is option A. Option B is the variance, C is the standard deviation, and D is the mean absolute deviation about the median, not the required formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "For the grouped data below, find the mean deviation about the mean.\nClass interval | Frequency\n0‑10 | 3\n10‑20 | 7\n20‑30 | 5\nWhat is the MD (rounded to two decimal places)?",
+      "options": {
+        "A": "5.78",
+        "B": "4.50",
+        "C": "6.20",
+        "D": "7.00"
+      },
+      "correct_option": "A",
+      "answer": "5.78",
+      "explanation": "Mid‑points: 5, 15, 25. Mean = (3·5 + 7·15 + 5·25)/15 = 245/15 ≈ 16.33. Absolute deviations: |5‑16.33|=11.33, |15‑16.33|=1.33, |25‑16.33|=8.67. Weighted sum = 3·11.33 + 7·1.33 + 5·8.67 ≈ 86.67. MD = 86.67/15 ≈ 5.78. Hence option A is correct; other options are incorrect approximations.",
+      "difficulty": "easy"
+    }
+  ]
+}
