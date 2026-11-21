@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Consider the domain D = ℝ (all real numbers). Which of the following correctly compares the truth values of the two universal statements (i) ∀x ∈ D, x > 0 and (ii) ∀x ∈ D, x ≥ 0 ?",
+      "options": {
+        "A": "Both statements are false.",
+        "B": "Both statements are true.",
+        "C": "Statement (i) is true and statement (ii) is false.",
+        "D": "Statement (i) is false and statement (ii) is true."
+      },
+      "correct_option": "A",
+      "answer": "Both statements are false.",
+      "explanation": "Over the set of all real numbers there exist numbers that are zero or negative. Hence the statement \"for every real x, x > 0\" is false, and the statement \"for every real x, x ≥ 0\" is also false because negative numbers violate it. Therefore both universal statements are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "Which of the following statements correctly uses the existential quantifier to assert that there exists an integer n such that n² = 25?",
+      "options": {
+        "A": "∀n ∈ ℤ, n² = 25",
+        "B": "∃n ∈ ℤ, n² = 25",
+        "C": "∀n ∈ ℤ, n² ≠ 25",
+        "D": "∃n ∈ ℤ, n² ≠ 25"
+      },
+      "correct_option": "B",
+      "answer": "∃n ∈ ℤ, n² = 25",
+      "explanation": "The existential quantifier (∃) states that at least one element of the domain satisfies the given property. Option B correctly says that there exists an integer whose square equals 25 (namely n = 5 or n = -5). The other options either use the universal quantifier or assert the opposite property.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English statement into a quantified mathematical statement: \"Every natural number is greater than or equal to zero.\"",
+      "options": {
+        "A": "∀n ∈ ℕ, n ≥ 0",
+        "B": "∃n ∈ ℕ, n ≥ 0",
+        "C": "∀n ∈ ℕ, n > 0",
+        "D": "∃n ∈ ℕ, n > 0"
+      },
+      "correct_option": "A",
+      "answer": "∀n ∈ ℕ, n ≥ 0",
+      "explanation": "The phrase \"Every natural number\" calls for the universal quantifier (∀). The condition \"is greater than or equal to zero\" is expressed as n ≥ 0. Hence the correct translation is ∀n ∈ ℕ, n ≥ 0.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the universal statement ∀x ∈ ℝ, x² ≥ 0 ?",
+      "options": {
+        "A": "∀x ∈ ℝ, x² < 0",
+        "B": "∃x ∈ ℝ, x² < 0",
+        "C": "∃x ∈ ℝ, x² ≥ 0",
+        "D": "∀x ∈ ℝ, x² > 0"
+      },
+      "correct_option": "B",
+      "answer": "∃x ∈ ℝ, x² < 0",
+      "explanation": "The negation of a universal statement ∀x P(x) is the existential statement ∃x ¬P(x). Here P(x) is \"x² ≥ 0\", so ¬P(x) is \"x² < 0\". Therefore the negation is ∃x ∈ ℝ, x² < 0. Options A, C, and D do not represent the correct logical negation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following best defines the universal quantifier and distinguishes it from the existential quantifier?",
+      "options": {
+        "A": "The universal quantifier (∀) states that a property holds for at least one element, whereas the existential quantifier (∃) states it holds for all elements.",
+        "B": "The universal quantifier (∀) states that a property holds for all elements of the domain, while the existential quantifier (∃) states that there exists at least one element for which the property holds.",
+        "C": "Both quantifiers mean the same; they are interchangeable.",
+        "D": "The universal quantifier (∀) is used only for finite domains, while the existential quantifier (∃) is used only for infinite domains."
+      },
+      "correct_option": "B",
+      "answer": "The universal quantifier (∀) states that a property holds for all elements of the domain, while the existential quantifier (∃) states that there exists at least one element for which the property holds.",
+      "explanation": "Option B correctly captures the meaning of the two quantifiers: ∀ asserts that the predicate is true for every element, whereas ∃ asserts the existence of at least one element making the predicate true. The other options contain incorrect definitions or irrelevant distinctions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In a class of 30 students, the statement \"There is a student who scored above 90 marks\" is an example of which quantifier?",
+      "options": {
+        "A": "Universal quantifier",
+        "B": "Existential quantifier",
+        "C": "No quantifier",
+        "D": "Both universal and existential"
+      },
+      "correct_option": "B",
+      "answer": "Existential quantifier",
+      "explanation": "The phrase \"There is a student\" asserts the existence of at least one student with the described property, which is precisely the role of the existential quantifier (∃). It does not claim that all students have the property, so it is not universal.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Select the option that correctly translates the quantified statement: ∃x ∈ ℤ such that x is odd.",
+      "options": {
+        "A": "There exists an integer x that is odd.",
+        "B": "All integers x are odd.",
+        "C": "No integer x is odd.",
+        "D": "For every integer x, x is odd."
+      },
+      "correct_option": "A",
+      "answer": "There exists an integer x that is odd.",
+      "explanation": "The symbol ∃ denotes existence. Hence ∃x ∈ ℤ, x is odd means \"There exists an integer x that is odd.\" Options B, C, and D misinterpret the quantifier.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "A teacher claims: \"It is not true that every student in the class has submitted the assignment.\" Which of the following is the correct logical negation of the teacher's claim?",
+      "options": {
+        "A": "All students have submitted the assignment.",
+        "B": "No student has submitted the assignment.",
+        "C": "At least one student has not submitted the assignment.",
+        "D": "Exactly one student has submitted the assignment."
+      },
+      "correct_option": "C",
+      "answer": "At least one student has not submitted the assignment.",
+      "explanation": "The teacher's statement is the negation of the universal claim ∀x (Student x has submitted). Negating a universal yields an existential statement: ∃x (Student x has not submitted). This is expressed as \"At least one student has not submitted the assignment.\" Options A and B are opposite extremes, and D is unrelated.",
+      "difficulty": "medium"
+    }
+  ]
+}

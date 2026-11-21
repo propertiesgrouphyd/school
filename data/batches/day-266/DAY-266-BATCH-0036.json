@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following best defines the universal quantifier (∀) in mathematical statements?",
+      "options": {
+        "A": "There exists at least one element in the domain for which the statement is true",
+        "B": "For every element in the domain, the statement is true",
+        "C": "Exactly one element in the domain satisfies the statement",
+        "D": "No element in the domain satisfies the statement"
+      },
+      "correct_option": "B",
+      "answer": "For every element in the domain, the statement is true",
+      "explanation": "The universal quantifier (∀) asserts that the given property holds for all elements of the specified domain. Option B captures this meaning. Options A and C describe existential ideas, while D is the negation of a universal statement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "Given the domain of natural numbers, which of the following statements correctly uses the existential quantifier?",
+      "options": {
+        "A": "∀ n ∈ N, n > 0",
+        "B": "∃ n ∈ N such that n^2 = 4",
+        "C": "∀ n ∈ N, n is even",
+        "D": "∃ n ∈ N such that n is negative"
+      },
+      "correct_option": "B",
+      "answer": "∃ n ∈ N such that n^2 = 4",
+      "explanation": "The existential quantifier (∃) states that there is at least one element in the domain satisfying the condition. Option B asserts the existence of a natural number whose square is 4 (namely n=2). Options A and C are universal statements, and D is false because no natural number is negative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English statement into symbolic form: \"Every prime number greater than 2 is odd.\"",
+      "options": {
+        "A": "∀ p ∈ P, (p > 2) → (p is odd)",
+        "B": "∃ p ∈ P, (p > 2) ∧ (p is odd)",
+        "C": "∀ p ∈ P, (p is odd) → (p > 2)",
+        "D": "∃ p ∈ P, (p is odd) → (p > 2)"
+      },
+      "correct_option": "A",
+      "answer": "∀ p ∈ P, (p > 2) → (p is odd)",
+      "explanation": "The phrase \"Every ... is ...\" translates to a universal quantifier with an implication: for all primes p, if p > 2 then p is odd. Option A reflects this. Option B is existential, C reverses the implication, and D mixes quantifiers incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "Which of the following is the correct negation of the statement \"∀ x ∈ ℝ, x^2 ≥ 0\"?",
+      "options": {
+        "A": "∃ x ∈ ℝ such that x^2 < 0",
+        "B": "∃ x ∈ ℝ such that x^2 > 0",
+        "C": "∀ x ∈ ℝ, x^2 < 0",
+        "D": "∃ x ∈ ℝ such that x^2 ≤ 0"
+      },
+      "correct_option": "A",
+      "answer": "∃ x ∈ ℝ such that x^2 < 0",
+      "explanation": "Negating a universal statement ∀x P(x) yields ∃x ¬P(x). Here ¬(x^2 ≥ 0) is x^2 < 0, giving option A. Options B and D are not the logical negation, and C incorrectly retains the universal quantifier.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "A student claims that the statement \"∀ x ∈ ℤ, x^2 ≥ 0\" is false because for x = -1 we have (-1)^2 = -1. Identify the flaw in this reasoning.",
+      "options": {
+        "A": "The student miscalculated (-1)^2; it equals 1, which satisfies the inequality",
+        "B": "The universal quantifier does not apply to negative integers",
+        "C": "The statement requires x to be positive, not any integer",
+        "D": "The negation of the statement was applied incorrectly"
+      },
+      "correct_option": "A",
+      "answer": "The student miscalculated (-1)^2; it equals 1, which satisfies the inequality",
+      "explanation": "(-1)^2 = 1, which is indeed ≥ 0, so the universal statement holds. The student's error is a computational mistake, not a problem with the quantifier. Options B, C, and D introduce incorrect interpretations of the quantifier.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "If the statement \"∃ y ∈ ℝ such that y^2 = 2\" is true, which of the following must also be true?",
+      "options": {
+        "A": "There exists a unique y with y^2 = 2",
+        "B": "There exists at least one real number whose square is 2",
+        "C": "All real numbers satisfy y^2 = 2",
+        "D": "No real number squares to 2"
+      },
+      "correct_option": "B",
+      "answer": "There exists at least one real number whose square is 2",
+      "explanation": "An existential statement guarantees the existence of at least one element meeting the condition, not uniqueness or universality. Hence option B is correct. Option A adds a uniqueness claim not implied; C and D contradict the given existence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Consider the two statements: (1) ∀ x ∈ ℕ, (x is even) → (x is divisible by 4). (2) ∀ x ∈ ℕ, (x is divisible by 4) → (x is even). Which of the following correctly compares their truth values?",
+      "options": {
+        "A": "Both statements are true",
+        "B": "Statement (1) is true, statement (2) is false",
+        "C": "Statement (1) is false, statement (2) is true",
+        "D": "Both statements are false"
+      },
+      "correct_option": "C",
+      "answer": "Statement (1) is false, statement (2) is true",
+      "explanation": "Statement (1) is false because x = 2 is even but not divisible by 4. Statement (2) is true because any number divisible by 4 is necessarily even. Therefore option C correctly captures the truth values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "In a competitive exam, a question asks: \"Negate the statement: ∀ ε > 0, ∃ δ > 0 such that |x - a| < δ ⇒ |f(x) - L| < ε\". Which of the following is the correct negation?",
+      "options": {
+        "A": "∃ ε > 0 such that ∀ δ > 0, |x - a| < δ and |f(x) - L| ≥ ε",
+        "B": "∃ ε > 0 such that ∀ δ > 0, ∃ x with |x - a| < δ and |f(x) - L| ≥ ε",
+        "C": "∀ ε > 0, ∃ δ > 0 such that |x - a| < δ and |f(x) - L| ≥ ε",
+        "D": "∃ ε > 0 such that ∀ δ > 0, ∀ x, if |x - a| < δ then |f(x) - L| ≥ ε"
+      },
+      "correct_option": "B",
+      "answer": "∃ ε > 0 such that ∀ δ > 0, ∃ x with |x - a| < δ and |f(x) - L| ≥ ε",
+      "explanation": "Negating ∀ε ∃δ ∀x (P ⇒ Q) yields ∃ε ∀δ ∃x (P ∧ ¬Q). Option B matches this form: there exists an ε such that for every δ we can find an x with |x‑a|<δ but |f(x)‑L| is not less than ε. The other options either miss the required quantifier order or misuse the logical connectors.",
+      "difficulty": "hard"
+    }
+  ]
+}

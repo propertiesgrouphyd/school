@@ -1,0 +1,78 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Consider the statement: \\(\\forall x \\in \\mathbb{R},\\; x^{2} \\ge 0\\). Which of the following best describes its meaning?",
+      "options": {
+        "A": "There exists at least one real number \\(x\\) such that \\(x^{2} \\ge 0\\).",
+        "B": "For every real number \\(x\\), the inequality \\(x^{2} \\ge 0\\) holds.",
+        "C": "Only positive real numbers satisfy \\(x^{2} \\ge 0\\).",
+        "D": "None of the above."
+      },
+      "correct_option": "B",
+      "answer": "For every real number \\(x\\), the inequality \\(x^{2} \\ge 0\\) holds.",
+      "explanation": "The universal quantifier \\(\\forall\\) asserts that the property following it is true for *all* elements of the domain. Here the domain is the set of real numbers, so the statement says that every real number, without exception, satisfies \\(x^{2} \\ge 0\\). Option A describes an existential claim, which is a common misconception. Option C restricts the domain incorrectly. Option D is false because option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "The statement \\(\\exists x \\in \\mathbb{R}\\) such that \\(x^{2}=4\\) means:",
+      "options": {
+        "A": "All real numbers satisfy \\(x^{2}=4\\).",
+        "B": "There is at least one real number whose square equals 4.",
+        "C": "No real number satisfies \\(x^{2}=4\\).",
+        "D": "Exactly two real numbers satisfy \\(x^{2}=4\\)."
+      },
+      "correct_option": "B",
+      "answer": "There is at least one real number whose square equals 4.",
+      "explanation": "The existential quantifier \\(\\exists\\) states that *at least one* element in the domain makes the predicate true. Here it guarantees the existence of a real number with square 4 (indeed \\(x=2\\) or \\(x=-2\\)). Option A confuses it with a universal claim, option C denies existence, and option D adds unnecessary specificity about the number of solutions, which is not implied by the quantifier alone.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Which of the following symbolic expressions correctly translates the English sentence: “Every prime number greater than 2 is odd”?",
+      "options": {
+        "A": "\\(\\forall p\\, (\\text{Prime}(p) \\land p>2) \\rightarrow \\text{Odd}(p)\\)",
+        "B": "\\(\\exists p\\, (\\text{Prime}(p) \\land p>2 \\land \\text{Odd}(p))\\)",
+        "C": "\\(\\forall p\\, (\\text{Prime}(p) \\land \\text{Odd}(p) \\rightarrow p>2)\\)",
+        "D": "\\(\\exists p\\, (\\text{Prime}(p) \\land \\text{Odd}(p) \\land p>2)\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\forall p\\, (\\text{Prime}(p) \\land p>2) \\rightarrow \\text{Odd}(p)\\)",
+      "explanation": "The sentence asserts a property that holds for *all* prime numbers exceeding 2; therefore a universal quantifier is required. The correct structure is “for every \\(p\\), if \\(p\\) is prime and greater than 2, then \\(p\\) is odd.” Option B and D are existential and do not capture the ‘every’ meaning. Option C reverses the implication, stating that being prime and odd implies the number is greater than 2, which is not the intended translation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement: \\(\\forall x \\in \\mathbb{R},\\; (x>0 \\rightarrow x^{2}>0)\\)?",
+      "options": {
+        "A": "\\(\\exists x \\in \\mathbb{R}\\) such that \\(x>0\\) and \\(x^{2}\\le 0\\).",
+        "B": "\\(\\exists x \\in \\mathbb{R}\\) such that \\(x\\le 0\\) or \\(x^{2}\\le 0\\).",
+        "C": "\\(\\forall x \\in \\mathbb{R}\\) such that \\(x>0\\) and \\(x^{2}\\le 0\\).",
+        "D": "\\(\\exists x \\in \\mathbb{R}\\) such that \\(x>0\\) and \\(x^{2}>0\\)."
+      },
+      "correct_option": "A",
+      "answer": "\\(\\exists x \\in \\mathbb{R}\\) such that \\(x>0\\) and \\(x^{2}\\le 0\\).",
+      "explanation": "Negating a universal statement \\(\\forall x\\, P(x)\\) yields an existential statement \\(\\exists x\\, \\neg P(x)\\). Here \\(P(x)\\) is the implication \\(x>0 \\rightarrow x^{2}>0\\). The negation of an implication \\(A\\rightarrow B\\) is \\(A \\land \\neg B\\). Therefore the negation becomes: there exists a real \\(x\\) such that \\(x>0\\) and \\(x^{2}\\le 0\\). Option B changes the logical structure incorrectly, option C retains a universal quantifier, and option D states the original implication, not its negation.",
+      "difficulty": "hard"
+    }
+  ]
+}
