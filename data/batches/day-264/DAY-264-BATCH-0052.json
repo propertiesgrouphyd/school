@@ -1,0 +1,78 @@
+{
+  "day": 264,
+  "batch_id": "DAY-264-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01122",
+      "learning_point": "Identify coordinate planes",
+      "question": "Which of the following points lies on the xy‑plane in the three‑dimensional coordinate system?",
+      "options": {
+        "A": "(3, -2, 0)",
+        "B": "(0, 5, 4)",
+        "C": "(-1, 0, 2)",
+        "D": "(2, 3, -5)"
+      },
+      "correct_option": "A",
+      "answer": "(3, -2, 0)",
+      "explanation": "The xy‑plane is defined by the equation z = 0. Only option A has its third coordinate equal to zero, so it lies on the xy‑plane. Option B lies on the yz‑plane (x = 0), option C lies on the xz‑plane (y = 0), and option D does not lie on any coordinate plane because none of its coordinates is zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01122",
+      "learning_point": "Represent points in space",
+      "question": "Point P is 4 units from the xy‑plane, 3 units from the xz‑plane, and 5 units from the yz‑plane. Which of the following could be the coordinates of P?",
+      "options": {
+        "A": "(5, 3, 4)",
+        "B": "(5, 3, -5)",
+        "C": "(-5, 2, 4)",
+        "D": "(4, 3, 5)"
+      },
+      "correct_option": "A",
+      "answer": "(5, 3, 4)",
+      "explanation": "Distance from the xy‑plane equals |z|, so |z| = 4 → z = ±4. Distance from the xz‑plane equals |y|, so |y| = 3 → y = ±3. Distance from the yz‑plane equals |x|, so |x| = 5 → x = ±5. Only option A has |x| = 5, |y| = 3, and |z| = 4 simultaneously. The other options violate at least one of these magnitude conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01122",
+      "learning_point": "Identify octants",
+      "question": "Which pair of points lies in the same octant of the three‑dimensional coordinate system?",
+      "options": {
+        "A": "(2, 3, 4) and (5, -6, 7)",
+        "B": "(-2, 3, 4) and (-5, -6, 7)",
+        "C": "(-1, -2, -3) and (1, -2, -3)",
+        "D": "(-4, 5, -6) and (-7, 8, -9)"
+      },
+      "correct_option": "D",
+      "answer": "(-4, 5, -6) and (-7, 8, -9)",
+      "explanation": "An octant is determined by the signs of (x, y, z). For option D both points have x negative, y positive, and z negative, i.e., the sign pattern (‑, +, ‑), so they belong to the same octant. In option A the signs are (+,+,+) and (+,‑,+) – different octants. Option B has (‑,+,+) versus (‑,‑,+). Option C has (‑,‑,‑) versus (+,‑,‑). Hence only D is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01122",
+      "learning_point": "Interpret signs of coordinates",
+      "question": "If a point lies in the octant where x > 0, y < 0 and z < 0, what is the sign of the product xyz?",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "A",
+      "answer": "Positive",
+      "explanation": "In the given octant x is positive, y and z are negative. Multiplying the signs: (+) × (‑) × (‑) = (+). Therefore the product xyz is positive. It cannot be zero because none of the coordinates is zero, and it is determinable from the sign information, so options B, C, and D are incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}
