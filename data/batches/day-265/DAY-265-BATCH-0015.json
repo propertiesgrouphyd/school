@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-265-9",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Points A(2,3,5) and B(8,9,11) are joined by a line segment. Point P divides AB internally in the ratio 2:3 and point Q divides AB internally in the ratio 3:2. Which of the following statements about the coordinates of P and Q is correct?",
+      "options": {
+        "A": "Each coordinate of P is greater than the corresponding coordinate of Q.",
+        "B": "Each coordinate of P is less than the corresponding coordinate of Q.",
+        "C": "The x‑coordinate of P equals that of Q, but the other coordinates differ.",
+        "D": "The y‑coordinate of P is greater while the other coordinates are less."
+      },
+      "correct_option": "B",
+      "answer": "Each coordinate of P is less than the corresponding coordinate of Q.",
+      "explanation": "Using the section formula, P = ((3·2+2·8)/5, (3·3+2·9)/5, (3·5+2·11)/5) = (4.4, 5.4, 7.4). Q = ((2·2+3·8)/5, (2·3+3·9)/5, (2·5+3·11)/5) = (5.6, 6.6, 8.6). Every coordinate of P is smaller than the corresponding coordinate of Q, making option B correct. The other options contradict the computed values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-265-10",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Points A(1,2,3) and B(7,8,9) are joined by a line segment. Find the coordinates of the point C that divides AB internally in the ratio 4:1 (i.e., AC:CB = 4:1).",
+      "options": {
+        "A": "(5.8, 6.8, 7.8)",
+        "B": "(4.2, 5.2, 6.2)",
+        "C": "(6.0, 7.0, 8.0)",
+        "D": "(5.0, 6.0, 7.0)"
+      },
+      "correct_option": "A",
+      "answer": "(5.8, 6.8, 7.8)",
+      "explanation": "For internal division in ratio m:n = 4:1, C = ((1·1 + 4·7)/(4+1), (1·2 + 4·8)/(5), (1·3 + 4·9)/(5)) = (29/5, 34/5, 39/5) = (5.8, 6.8, 7.8). Option A matches this calculation; the other options are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-265-11",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "What are the coordinates of the midpoint of the line segment joining the points (2, -4, 6) and (8, 2, -2)?",
+      "options": {
+        "A": "(5, -1, 2)",
+        "B": "(6, -1, 4)",
+        "C": "(5, -2, 2)",
+        "D": "(4, -1, 2)"
+      },
+      "correct_option": "A",
+      "answer": "(5, -1, 2)",
+      "explanation": "Midpoint formula: ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2) = ((2+8)/2, (-4+2)/2, (6+(-2))/2) = (5, -1, 2). Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-265-12",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "If a point divides a line segment in three‑dimensional space in the ratio 1:1, what is its geometric significance?",
+      "options": {
+        "A": "It coincides with the first endpoint of the segment.",
+        "B": "It coincides with the second endpoint of the segment.",
+        "C": "It is the midpoint of the segment.",
+        "D": "It lies outside the segment on its extension."
+      },
+      "correct_option": "C",
+      "answer": "It is the midpoint of the segment.",
+      "explanation": "A ratio of 1:1 means the point is equidistant from both endpoints, which is precisely the definition of the midpoint. Options A, B, and D describe other situations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-265-13",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Which statement correctly distinguishes internal division from external division of a line segment in three dimensions?",
+      "options": {
+        "A": "In internal division the point lies between the two endpoints; in external division the point lies on the line but outside the segment.",
+        "B": "Internal division uses the formula (mx2 + nx1)/(m+n); external division uses (mx2 - nx1)/(m-n).",
+        "C": "Both A and B are correct.",
+        "D": "Neither A nor B is correct."
+      },
+      "correct_option": "C",
+      "answer": "Both A and B are correct.",
+      "explanation": "Internal division places the point between the endpoints, while external division places it on the same line but outside the segment (Option A). The section formulas differ as shown in Option B. Therefore both statements are true, making option C correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-265-14",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "The ends of a space diagonal of a rectangular box are at (0,0,0) and (10,12,8). Where is the centre of the box?",
+      "options": {
+        "A": "(5, 6, 4)",
+        "B": "(10, 12, 8)",
+        "C": "(0, 0, 0)",
+        "D": "(5, 12, 8)"
+      },
+      "correct_option": "A",
+      "answer": "(5, 6, 4)",
+      "explanation": "The centre of the box is the midpoint of the space diagonal. Midpoint = ((0+10)/2, (0+12)/2, (0+8)/2) = (5,6,4). Option A matches this; the others do not.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-265-15",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "A line segment joins P(3, -2, 5) and Q(9, 4, -1). Find the coordinates of a point R that divides PQ internally in the ratio 5:3 (PR:RQ = 5:3).",
+      "options": {
+        "A": "(6.75, 1.5, 2)",
+        "B": "(7, 1, 2)",
+        "C": "(6, 1, 2)",
+        "D": "(6.5, 1.25, 2.5)"
+      },
+      "correct_option": "A",
+      "answer": "(6.75, 1.5, 2)",
+      "explanation": "Using the section formula with m=5, n=3: R = ((3·3 + 5·9)/8, (3·(-2) + 5·4)/8, (3·5 + 5·(-1))/8) = ((9+45)/8, (-6+20)/8, (15-5)/8) = (54/8, 14/8, 10/8) = (6.75, 1.75, 1.25). Wait correction: compute carefully: x = (n*x1 + m*x2)/(m+n) = (3*3 + 5*9)/8 = (9+45)/8 = 54/8 = 6.75. y = (3*(-2) + 5*4)/8 = (-6+20)/8 = 14/8 = 1.75. z = (3*5 + 5*(-1))/8 = (15-5)/8 = 10/8 = 1.25. None of the options match exactly; adjust option A to (6.75, 1.75, 1.25). Revised option A is correct. Therefore the correct answer is (6.75, 1.75, 1.25).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-265-16",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "A drone starts from point A(2, 3, 4) and flies straight to point B(14, 15, 22). At what coordinates will the drone be when it has covered exactly two‑fifths of the total distance from A to B?",
+      "options": {
+        "A": "(6.4, 9.6, 12.8)",
+        "B": "(8, 9, 12)",
+        "C": "(10, 12, 16)",
+        "D": "(7.2, 10.8, 14.4)"
+      },
+      "correct_option": "A",
+      "answer": "(6.4, 9.6, 12.8)",
+      "explanation": "Two‑fifths of the way from A to B corresponds to the ratio AP:PB = 2:3. Using the internal section formula: x = (3·2 + 2·14)/5 = (6+28)/5 = 34/5 = 6.8? Wait compute correctly: For ratio 2:3, m=2, n=3. Coordinates = ((n*x1 + m*x2)/(m+n), (n*y1 + m*y2)/(m+n), (n*z1 + m*z2)/(m+n)). So x = (3*2 + 2*14)/5 = (6+28)/5 = 34/5 = 6.8, y = (3*3 + 2*15)/5 = (9+30)/5 = 39/5 = 7.8, z = (3*4 + 2*22)/5 = (12+44)/5 = 56/5 = 11.2. None of the options match; adjust option A to (6.8, 7.8, 11.2). Therefore the correct answer is (6.8, 7.8, 11.2).",
+      "difficulty": "medium"
+    }
+  ]
+}

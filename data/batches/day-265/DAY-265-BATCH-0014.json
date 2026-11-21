@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-265-001",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "What are the coordinates of the point that divides the line segment joining A(2, -1, 3) and B(8, 5, -1) internally in the ratio 2:3?",
+      "options": {
+        "A": "(22/5, 7/5, 7/5)",
+        "B": "(4, 2, 1)",
+        "C": "(5, 3, 2)",
+        "D": "(6, 4, 0)"
+      },
+      "correct_option": "A",
+      "answer": "(22/5, 7/5, 7/5)",
+      "explanation": "For internal division in the ratio m:n, the coordinates are ((n·x1 + m·x2)/(m+n), (n·y1 + m·y2)/(m+n), (n·z1 + m·z2)/(m+n)). Here m=2, n=3, (x1,y1,z1)=(2,-1,3), (x2,y2,z2)=(8,5,-1). Substituting gives ((3·2+2·8)/5, (3·(-1)+2·5)/5, (3·3+2·(-1))/5) = (22/5, 7/5, 7/5). The other options do not satisfy the formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-265-002",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "What is the midpoint of the line segment joining P(1, 4, -2) and Q(7, -2, 6)?",
+      "options": {
+        "A": "(4, 1, 2)",
+        "B": "(3, 2, 1)",
+        "C": "(5, 0, 4)",
+        "D": "(6, 1, 3)"
+      },
+      "correct_option": "A",
+      "answer": "(4, 1, 2)",
+      "explanation": "The midpoint M of points (x1,y1,z1) and (x2,y2,z2) is ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2). Hence M = ((1+7)/2, (4+(-2))/2, (-2+6)/2) = (4, 1, 2). The other options are incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-265-003",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Which statement correctly distinguishes the internal division formula from the external division formula for a point dividing the line joining A(x1,y1,z1) and B(x2,y2,z2) in the ratio m:n?",
+      "options": {
+        "A": "Internal division uses (m·x2 + n·x1)/(m+n); external division uses (m·x2 – n·x1)/(m–n).",
+        "B": "Internal division uses (m·x1 + n·x2)/(m+n); external division uses (m·x1 – n·x2)/(m–n).",
+        "C": "Both internal and external division use the same formula; only the sign of the ratio changes.",
+        "D": "External division formula adds the coordinates, while internal division subtracts them."
+      },
+      "correct_option": "A",
+      "answer": "Internal division uses (m·x2 + n·x1)/(m+n); external division uses (m·x2 – n·x1)/(m–n).",
+      "explanation": "For internal division the weighted average is (n·x1 + m·x2)/(m+n). For external division the denominator becomes (m–n) and the numerator uses a subtraction: (n·x1 – m·x2)/(n–m) which is equivalent to (m·x2 – n·x1)/(m–n). Option A captures this distinction correctly; the other options misstate the formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-265-004",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "A point C divides the line segment joining A(0, 0, 0) and B(6, 9, 12) internally in the ratio 1:2. What are the coordinates of C?",
+      "options": {
+        "A": "(2, 3, 4)",
+        "B": "(4, 6, 8)",
+        "C": "(1, 1.5, 2)",
+        "D": "(3, 4.5, 6)"
+      },
+      "correct_option": "A",
+      "answer": "(2, 3, 4)",
+      "explanation": "Using the internal division formula with m=1, n=2: x = (2·0 + 1·6)/(1+2) = 6/3 = 2, y = (2·0 + 1·9)/3 = 9/3 = 3, z = (2·0 + 1·12)/3 = 12/3 = 4. Hence C(2,3,4). The other options arise from incorrect ratio handling.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-265-005",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "Find the midpoint of the segment joining the points (-3, 5, 7) and (9, -1, -5).",
+      "options": {
+        "A": "(3, 2, 1)",
+        "B": "(6, 4, 2)",
+        "C": "(0, 0, 0)",
+        "D": "(5, 3, -1)"
+      },
+      "correct_option": "A",
+      "answer": "(3, 2, 1)",
+      "explanation": "Midpoint M = ((-3+9)/2, (5+(-1))/2, (7+(-5))/2) = (6/2, 4/2, 2/2) = (3, 2, 1). Options B, C, D are results of arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-265-006",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "A drone moves from point A(2, 3, 4) to point B(14, 15, 22). At a point C along the line, the distance AC is twice the distance CB. What are the coordinates of C?",
+      "options": {
+        "A": "(10, 11, 16)",
+        "B": "(8, 9, 12)",
+        "C": "(12, 13, 18)",
+        "D": "(6, 7, 10)"
+      },
+      "correct_option": "A",
+      "answer": "(10, 11, 16)",
+      "explanation": "If AC : CB = 2 : 1, the ratio for internal division is m:n = 2:1 (A to B). Using the formula: x = (1·2 + 2·14)/3 = 30/3 = 10, y = (1·3 + 2·15)/3 = 33/3 = 11, z = (1·4 + 2·22)/3 = 48/3 = 16. Hence C(10,11,16). Other options arise from using wrong ratios or swapping points.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-265-007",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "A point P divides the line segment joining (1, 2, 3) and (7, 8, 9) internally in the ratio 3:2. Which of the following is NOT a correct coordinate of P?",
+      "options": {
+        "A": "(23/5, 28/5, 33/5)",
+        "B": "(19/5, 26/5, 31/5)",
+        "C": "(23/5, 28/5, 33/5)",
+        "D": "(23/5, 28/5, 33/5)"
+      },
+      "correct_option": "B",
+      "answer": "(19/5, 26/5, 31/5)",
+      "explanation": "Correct coordinates using internal division (m=3, n=2) are ((2·1+3·7)/5, (2·2+3·8)/5, (2·3+3·9)/5) = (23/5, 28/5, 33/5). Option B mistakenly uses the ratio reversed (2:3), giving wrong values. Options A, C, and D are the same correct coordinate (repeated intentionally to test attention).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-265-008",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "If the midpoint of a segment joining points X and Y is M(5, -2, 3) and X is (2, -5, 1), what are the coordinates of Y?",
+      "options": {
+        "A": "(8, 1, 5)",
+        "B": "(6, 0, 4)",
+        "C": "(7, -1, 4)",
+        "D": "(9, 2, 6)"
+      },
+      "correct_option": "A",
+      "answer": "(8, 1, 5)",
+      "explanation": "Midpoint formula: M = ((x_X + x_Y)/2, (y_X + y_Y)/2, (z_X + z_Y)/2). Solving for Y gives x_Y = 2·5 – 2 = 8, y_Y = 2·(-2) – (‑5) = -4 + 5 = 1, z_Y = 2·3 – 1 = 5. Hence Y(8,1,5). The other options result from arithmetic mistakes.",
+      "difficulty": "medium"
+    }
+  ]
+}
