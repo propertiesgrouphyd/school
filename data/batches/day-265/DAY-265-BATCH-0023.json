@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "The section formula in three dimensions gives the coordinates of a point P dividing the line segment joining A(x1, y1, z1) and B(x2, y2, z2) internally in the ratio m:n. Which of the following is the correct expression for P?",
+      "options": {
+        "A": "( (mx1 + nx2)/(m+n), (my1 + ny2)/(m+n), (mz1 + nz2)/(m+n) )",
+        "B": "( (mx2 + nx1)/(m+n), (my2 + ny1)/(m+n), (mz2 + nz1)/(m+n) )",
+        "C": "( (mx1 - nx2)/(m-n), (my1 - ny2)/(m-n), (mz1 - nz2)/(m-n) )",
+        "D": "( (mx2 - nx1)/(m-n), (my2 - ny1)/(m-n), (mz2 - nz1)/(m-n) )"
+      },
+      "correct_option": "B",
+      "answer": "( (mx2 + nx1)/(m+n), (my2 + ny1)/(m+n), (mz2 + nz1)/(m+n) )",
+      "explanation": "For internal division in three dimensions, the coordinates of P are given by ((mx2 + nx1)/(m+n), (my2 + ny1)/(m+n), (mz2 + nz1)/(m+n)). Option B matches this formula. Options A and C use the wrong order of the endpoints or subtract instead of add, and D uses the external division form.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "Find the midpoint of the line segment joining the points A(2, -3, 5) and B(8, 7, -1).",
+      "options": {
+        "A": "(5, 2, 2)",
+        "B": "(6, 2, 2)",
+        "C": "(5, 2, -3)",
+        "D": "(6, 2, -3)"
+      },
+      "correct_option": "A",
+      "answer": "(5, 2, 2)",
+      "explanation": "Midpoint M = ((x1+x2)/2, (y1+y2)/2, (z1+z2)/2). Substituting gives ((2+8)/2, (-3+7)/2, (5+(-1))/2) = (5, 2, 2). Option A is correct; the other options contain incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "Point P divides the line segment joining A(2, 4, 6) and B(12, 14, 26) internally in the ratio 2:3. What are the coordinates of P?",
+      "options": {
+        "A": "(6, 8, 14)",
+        "B": "(8, 10, 18)",
+        "C": "(5, 7, 13)",
+        "D": "(7, 9, 15)"
+      },
+      "correct_option": "A",
+      "answer": "(6, 8, 14)",
+      "explanation": "Using the internal section formula: x = (2*12 + 3*2)/5 = 6, y = (2*14 + 3*4)/5 = 8, z = (2*26 + 3*6)/5 = 14. Hence P(6,8,14). Option A matches; the others are results of incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "A drone moves from point A(0, 0, 0) to point B(30, 40, 50). At a point P along the straight line AB, the drone has covered one‑fourth of the total distance from A to B. Using the section formula, what are the coordinates of P?",
+      "options": {
+        "A": "(7.5, 10, 12.5)",
+        "B": "(15, 20, 25)",
+        "C": "(22.5, 30, 37.5)",
+        "D": "(10, 15, 20)"
+      },
+      "correct_option": "A",
+      "answer": "(7.5, 10, 12.5)",
+      "explanation": "Covering one‑fourth of the distance means P divides AB in the ratio 1:3 (AP:PB). Applying the internal section formula: x = (1*30 + 3*0)/4 = 7.5, y = (1*40 + 3*0)/4 = 10, z = (1*50 + 3*0)/4 = 12.5. Option A is correct; B, C, D correspond to larger fractions of the total distance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "Which of the following is NOT the correct midpoint of the segment joining points C(-4, 8, 2) and D(6, -2, 10)?",
+      "options": {
+        "A": "(1, 3, 6)",
+        "B": "(2, 3, 6)",
+        "C": "(1, 5, 6)",
+        "D": "(1, 3, 8)"
+      },
+      "correct_option": "B",
+      "answer": "(2, 3, 6)",
+      "explanation": "The true midpoint is ((-4+6)/2, (8+(-2))/2, (2+10)/2) = (1, 3, 6). Option A is the correct midpoint. Options B, C, and D each contain an error in one coordinate. The question asks for the NOT correct midpoint, so option B is a valid incorrect choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Solve ratio-based spatial coordinate problems",
+      "question": "If a point Q divides the line segment joining R(3, -3, 9) and S(9, 9, 3) internally in the ratio 4:1, which of the following statements is true?",
+      "options": {
+        "A": "Q is nearer to R than to S.",
+        "B": "Q is nearer to S than to R.",
+        "C": "Q is the midpoint of RS.",
+        "D": "Q coincides with R."
+      },
+      "correct_option": "B",
+      "answer": "Q is nearer to S than to R.",
+      "explanation": "A ratio of 4:1 means RQ : QS = 4 : 1, so the smaller segment QS indicates Q is much closer to S. Therefore statement B is true. A is opposite, C would require a 1:1 ratio, and D would need a 0:1 ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Use the section formula in three dimensions",
+      "question": "Which statement correctly compares the internal and external division formulas for a point P dividing AB in the ratio m:n in three dimensions?",
+      "options": {
+        "A": "Both formulas have the same numerator but differ in the denominator sign.",
+        "B": "Internal division uses (mx2 + nx1)/(m+n) while external division uses (mx2 - nx1)/(m-n).",
+        "C": "External division formula is obtained by swapping m and n in the internal formula.",
+        "D": "Internal division gives coordinates outside the segment, while external division gives coordinates inside."
+      },
+      "correct_option": "B",
+      "answer": "Internal division uses (mx2 + nx1)/(m+n) while external division uses (mx2 - nx1)/(m-n).",
+      "explanation": "For internal division, the coordinates are ((mx2 + nx1)/(m+n), …). For external division, the coordinates become ((mx2 - nx1)/(m-n), …). Option B states this precisely. Option A is vague about signs, C is incorrect because swapping m and n does not produce the external formula, and D reverses the geometric meaning.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01124",
+      "learning_point": "Find midpoint",
+      "question": "In a competitive exam, a problem asks: The endpoints of a space diagonal of a rectangular parallelepiped are P(-12, 5, 7) and Q(8, -3, -9). Find the coordinates of the midpoint M of PQ. This point also serves as the center of the parallelepiped. What are the coordinates of M?",
+      "options": {
+        "A": "(-2, 1, -1)",
+        "B": "(-2, 2, -1)",
+        "C": "(-2, 1, 0)",
+        "D": "(-1, 1, -1)"
+      },
+      "correct_option": "A",
+      "answer": "(-2, 1, -1)",
+      "explanation": "Midpoint M = ((-12+8)/2, (5+(-3))/2, (7+(-9))/2) = (-4/2, 2/2, -2/2) = (-2, 1, -1). Option A matches this calculation. The other options contain errors in one of the coordinates.",
+      "difficulty": "hard"
+    }
+  ]
+}
