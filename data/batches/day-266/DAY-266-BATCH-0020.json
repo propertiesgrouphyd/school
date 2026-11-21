@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Consider the following two compound statements:\\nI. \"It is raining if and only if the ground is wet.\"\\nII. \"If the ground is wet then it is raining, and if it is raining then the ground is wet.\" Which option correctly states the logical relationship between I and II?",
+      "options": {
+        "A": "Both I and II are different forms; they are not logically equivalent.",
+        "B": "I is the converse of II.",
+        "C": "I and II are logically equivalent; both express the same biconditional.",
+        "D": "II is the negation of I."
+      },
+      "correct_option": "C",
+      "answer": "I and II are logically equivalent; both express the same biconditional.",
+      "explanation": "A biconditional p↔q is equivalent to (p→q) ∧ (q→p). Statement I is a direct biconditional, while statement II explicitly writes the two implications that together form the same biconditional. Hence they are logically equivalent. Options A, B and D describe incorrect relationships.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "For the compound proposition (p ∨ q) → (¬p ∧ r), which of the following assignments of truth values makes the proposition false?",
+      "options": {
+        "A": "p = False, q = False, r = True",
+        "B": "p = True, q = False, r = False",
+        "C": "p = False, q = True, r = True",
+        "D": "p = False, q = False, r = False"
+      },
+      "correct_option": "B",
+      "answer": "p = True, q = False, r = False",
+      "explanation": "An implication A → B is false only when A is true and B is false. Here the antecedent (p ∨ q) is true when p is true. The consequent (¬p ∧ r) is false because ¬p is false (p is true). Hence the whole expression is false for p = True, q = False, r = False. The other options make the antecedent false or the consequent true, so the implication is true.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "In logical connectives, the conjunction of two statements p and q, denoted p ∧ q, is true under which condition?",
+      "options": {
+        "A": "When at least one of p or q is true.",
+        "B": "When both p and q are true.",
+        "C": "When p is true and q is false.",
+        "D": "When both p and q are false."
+      },
+      "correct_option": "B",
+      "answer": "When both p and q are true.",
+      "explanation": "The conjunction p ∧ q is defined to be true only if both component statements are true; otherwise it is false. Option B captures this definition, while the other options describe disjunction, a specific false case, or the negation of conjunction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The logical disjunction p ∨ q is true in which of the following cases?",
+      "options": {
+        "A": "Only when both p and q are true.",
+        "B": "Only when p is true and q is false.",
+        "C": "When at least one of p or q is true.",
+        "D": "Only when both p and q are false."
+      },
+      "correct_option": "C",
+      "answer": "When at least one of p or q is true.",
+      "explanation": "Disjunction p ∨ q is defined to be true if either p is true, q is true, or both are true. It is false only when both are false. Therefore option C is correct; the other options misstate the truth conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "Which statement correctly defines the implication p → q and distinguishes it from its converse?",
+      "options": {
+        "A": "p → q is true only when p is true and q is false; its converse q → p has the same truth table.",
+        "B": "p → q is false only when p is true and q is false; the converse q → p swaps antecedent and consequent.",
+        "C": "p → q means q is true whenever p is true, and its converse means p is true whenever q is true; both are logically equivalent.",
+        "D": "p → q is true when both p and q are false; its converse is always false."
+      },
+      "correct_option": "B",
+      "answer": "p → q is false only when p is true and q is false; the converse q → p swaps antecedent and consequent.",
+      "explanation": "An implication p → q is true in all cases except when p is true and q is false; that is its only false condition. The converse q → p simply interchanges the roles of antecedent and consequent, leading to a different truth table in general. Options A, C, and D contain incorrect definitions or equivalence claims.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "The statement \"A number n is even if and only if n² is even\" can be interpreted as:",
+      "options": {
+        "A": "If n is even then n² is even, but not necessarily the reverse.",
+        "B": "n² is even only when n is even.",
+        "C": "n is even exactly when n² is even; both directions hold.",
+        "D": "n is even or n² is even, but not both."
+      },
+      "correct_option": "C",
+      "answer": "n is even exactly when n² is even; both directions hold.",
+      "explanation": "The phrase \"if and only if\" denotes a biconditional, meaning the two statements are equivalent: n is even ⇔ n² is even. Hence both the forward and reverse implications are true, which is captured by option C. Options A and B give only one direction, and D misrepresents the logical connective.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Given the compound proposition S = p ∧ (q → r), which of the following assignments of (p, q, r) makes S true?",
+      "options": {
+        "A": "p = True, q = True, r = False",
+        "B": "p = True, q = False, r = False",
+        "C": "p = False, q = True, r = True",
+        "D": "p = False, q = False, r = True"
+      },
+      "correct_option": "B",
+      "answer": "p = True, q = False, r = False",
+      "explanation": "The implication q → r is true when q is false (regardless of r). With p = True, the conjunction p ∧ (q → r) becomes True ∧ True = True. Option B satisfies this. Option A fails because q → r is false (q true, r false). Options C and D have p false, making the whole conjunction false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "A student will receive a scholarship only if she scores above 90% in mathematics and secures a rank within the top 5. Which condition must be satisfied for her to get the scholarship?",
+      "options": {
+        "A": "She must score above 90% in mathematics, regardless of rank.",
+        "B": "She must be in the top 5 rank, regardless of mathematics score.",
+        "C": "Both conditions must be true simultaneously.",
+        "D": "Either condition alone is sufficient."
+      },
+      "correct_option": "C",
+      "answer": "Both conditions must be true simultaneously.",
+      "explanation": "The word \"and\" in the statement creates a conjunction of two requirements. Both the high mathematics score and the top‑5 rank must be achieved together for the scholarship to be awarded. Options A and B consider only one condition, and D incorrectly treats the conjunction as a disjunction.",
+      "difficulty": "medium"
+    }
+  ]
+}

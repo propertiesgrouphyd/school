@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "LU-01129-MCQ-25",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the statements p: \"It is raining\" and q: \"I carry an umbrella\". Construct the truth table for the compound statement (p ∧ q) → ¬p. What is the truth value of the statement when p = True and q = False?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both true and false"
+      },
+      "correct_option": "A",
+      "answer": "True",
+      "explanation": "When p = True and q = False, p ∧ q = False. ¬p = False. An implication (False → False) is always true. Hence the compound statement evaluates to True. Options B, C, D are incorrect because the implication rule makes the statement true in this case.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01129-MCQ-26",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "Let p denote \"n is even\" and q denote \"n > 10\". Which compound statement correctly expresses \"n is even and greater than 10\"?",
+      "options": {
+        "A": "p ∨ q",
+        "B": "p ∧ q",
+        "C": "p → q",
+        "D": "¬p ∧ q"
+      },
+      "correct_option": "B",
+      "answer": "p ∧ q",
+      "explanation": "The word \"and\" corresponds to the logical conjunction, denoted by ∧. Therefore the correct representation is p ∧ q. Option A is disjunction, C is implication, and D negates p, so they do not match the required meaning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01129-MCQ-27",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "Which of the following statements about the logical disjunction p ∨ q is incorrect?",
+      "options": {
+        "A": "It is true when at least one of p or q is true.",
+        "B": "It is false only when both p and q are false.",
+        "C": "It is true only when both p and q are true.",
+        "D": "It is true when p is true and q is false."
+      },
+      "correct_option": "C",
+      "answer": "It is true only when both p and q are true.",
+      "explanation": "A disjunction is true if at least one operand is true; it is false only when both are false. Hence statement C, which says it is true only when both are true, is the misconception. Options A, B, and D correctly describe the truth conditions of p ∨ q.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01129-MCQ-28",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "For statements p and q, the implication p → q is false only in which case?",
+      "options": {
+        "A": "p is true and q is false",
+        "B": "p is false and q is true",
+        "C": "Both p and q are true",
+        "D": "Both p and q are false"
+      },
+      "correct_option": "A",
+      "answer": "p is true and q is false",
+      "explanation": "An implication is false only when the antecedent (p) is true while the consequent (q) is false. In all other combinations the implication is true. Therefore option A is the only case that makes p → q false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "LU-01129-MCQ-29",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following best describes the truth condition of the biconditional statement p ↔ q?",
+      "options": {
+        "A": "True when p and q have the same truth value, false otherwise",
+        "B": "True only when both p and q are true",
+        "C": "True only when p is true and q is false",
+        "D": "True when at least one of p or q is true"
+      },
+      "correct_option": "A",
+      "answer": "True when p and q have the same truth value, false otherwise",
+      "explanation": "A biconditional p ↔ q is true exactly when both statements share the same truth value—both true or both false. Options B, C, and D describe other connectives (conjunction, a specific false case, and disjunction) and are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01129-MCQ-30",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement (p ∨ q) → (p ∧ r). For the row where p = False, q = True, and r = False, what is the truth value of the whole statement?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both true and false"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "First compute p ∨ q = False ∨ True = True. Next compute p ∧ r = False ∧ False = False. The implication True → False is false. Hence the compound statement evaluates to False. Options A, C, and D are incorrect based on the implication rule.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01129-MCQ-31",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "In logical connectives, the conjunction of two statements p and q, denoted p ∧ q, is true exactly when:",
+      "options": {
+        "A": "Both p and q are true",
+        "B": "At least one of p or q is true",
+        "C": "p is true and q is false",
+        "D": "Both p and q are false"
+      },
+      "correct_option": "A",
+      "answer": "Both p and q are true",
+      "explanation": "Conjunction (AND) requires both component statements to be true for the whole expression to be true. All other options describe different truth conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01129-MCQ-32",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The logical disjunction p ∨ q is false only when:",
+      "options": {
+        "A": "Both p and q are false",
+        "B": "At least one of p or q is true",
+        "C": "Both p and q are true",
+        "D": "p is true and q is false"
+      },
+      "correct_option": "A",
+      "answer": "Both p and q are false",
+      "explanation": "A disjunction (OR) yields false only in the case where both operands are false. In every other combination it is true. Hence option A correctly states the condition.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "Which of the following symbols correctly represents the conjunction of two statements p and q?",
+      "options": {
+        "A": "p ∧ q",
+        "B": "p ∨ q",
+        "C": "p → q",
+        "D": "p ↔ q"
+      },
+      "correct_option": "A",
+      "answer": "p ∧ q",
+      "explanation": "The conjunction (AND) of p and q is denoted by p ∧ q and is true only when both p and q are true. Option B is disjunction, C is implication, and D is biconditional.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The statement \"It is raining or it is windy\" is an example of which logical connective?",
+      "options": {
+        "A": "Conjunction",
+        "B": "Disjunction",
+        "C": "Implication",
+        "D": "Biconditional"
+      },
+      "correct_option": "B",
+      "answer": "Disjunction",
+      "explanation": "The word \"or\" indicates a disjunction (logical OR). It is true when at least one of the component statements is true. Conjunction uses \"and\", implication uses \"if…then\", and biconditional uses \"iff\".",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "In propositional logic, the implication p → q is best described as:",
+      "options": {
+        "A": "\"If p is true then q must be true\"",
+        "B": "Both p and q are true simultaneously",
+        "C": "Either p is false or q is true (or both)",
+        "D": "p is true if and only if q is true"
+      },
+      "correct_option": "C",
+      "answer": "Either p is false or q is true (or both)",
+      "explanation": "An implication p → q is false only when p is true and q is false; otherwise it is true. This is equivalent to \"¬p ∨ q\". Option A is a common misconception that ignores the case when p is false. Option B describes conjunction, and D describes biconditional.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following compound statements is a biconditional?",
+      "options": {
+        "A": "p ∧ q",
+        "B": "p ∨ q",
+        "C": "p → q",
+        "D": "p ↔ q"
+      },
+      "correct_option": "D",
+      "answer": "p ↔ q",
+      "explanation": "A biconditional (iff) states that p and q have the same truth value; it is denoted by p ↔ q. Options A, B, and C are conjunction, disjunction, and implication respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement p ∧ (q ∨ r). If p = True, q = False, and r = True, what is the truth value of the whole statement?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both true and false"
+      },
+      "correct_option": "A",
+      "answer": "True",
+      "explanation": "First evaluate the inner disjunction: q ∨ r = False ∨ True = True. Then the conjunction: p ∧ True = True ∧ True = True. Hence the compound statement is true. The other options are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "A student passes Mathematics and passes Physics. Which logical connective correctly joins the two statements?",
+      "options": {
+        "A": "Conjunction",
+        "B": "Disjunction",
+        "C": "Implication",
+        "D": "Biconditional"
+      },
+      "correct_option": "A",
+      "answer": "Conjunction",
+      "explanation": "The word \"and\" joins the two statements, representing a conjunction (AND). Disjunction would use \"or\", implication would be \"if…then\", and biconditional would be \"iff\".",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "Which of the following statements about the disjunction p ∨ q is FALSE?",
+      "options": {
+        "A": "It is true when both p and q are true.",
+        "B": "It is false only when both p and q are false.",
+        "C": "It is true only when exactly one of p or q is true.",
+        "D": "It is true when at least one of p or q is true."
+      },
+      "correct_option": "C",
+      "answer": "It is true only when exactly one of p or q is true.",
+      "explanation": "Option C describes an exclusive OR, not the standard (inclusive) disjunction. The inclusive disjunction is true when at least one component is true, including the case where both are true (options A, B, D are correct statements).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "The implication \"If it rains, the ground gets wet\" is false. Which combination of truth values for the statements \"It rains\" (p) and \"The ground gets wet\" (q) makes the implication false?",
+      "options": {
+        "A": "p = True, q = True",
+        "B": "p = False, q = False",
+        "C": "p = True, q = False",
+        "D": "p = False, q = True"
+      },
+      "correct_option": "C",
+      "answer": "p = True, q = False",
+      "explanation": "An implication p → q is false only when the antecedent p is true and the consequent q is false. All other combinations make the implication true. Hence option C is the only case that renders the statement false.",
+      "difficulty": "medium"
+    }
+  ]
+}
