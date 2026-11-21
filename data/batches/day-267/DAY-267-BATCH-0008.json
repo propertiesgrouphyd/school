@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "A data set consists of the numbers 2, 4, and 6. What is the variance of this data set?",
+      "options": {
+        "A": "8/3",
+        "B": "4",
+        "C": "0",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "8/3",
+      "explanation": "First find the mean: (2+4+6)/3 = 4. Deviations are -2, 0, 2. Square them: 4, 0, 4. Sum of squared deviations = 8. Variance = sum/n = 8/3. Option A is correct. Option B (4) would be the variance if we mistakenly divided by (n‑1) for a sample of size 3, but the question asks for population variance. Option C (0) would be the variance only if all values were identical. Option D (8) is the sum of squared deviations, not the average.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "When calculating variance, why are the deviations from the mean squared?",
+      "options": {
+        "A": "To ensure all contributions are non‑negative",
+        "B": "To give more weight to larger deviations",
+        "C": "Both A and B",
+        "D": "Neither A nor B"
+      },
+      "correct_option": "C",
+      "answer": "Both A and B",
+      "explanation": "Squaring each deviation makes negative deviations positive, guaranteeing a non‑negative contribution (reason A). It also amplifies larger deviations more than smaller ones, giving them greater influence on the final value (reason B). Hence both statements are true, making option C correct. Option A alone ignores the weighting effect, and option B alone ignores the sign‑issue. Option D is incorrect because both reasons are valid.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "Consider two data sets: Set A = {2, 2, 8, 8} and Set B = {4, 5, 6, 7}. Which set has the larger variance?",
+      "options": {
+        "A": "Set A",
+        "B": "Set B",
+        "C": "Both have the same variance",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Set A",
+      "explanation": "For Set A, mean = (2+2+8+8)/4 = 5. Squared deviations: (‑3)²=9, (‑3)²=9, 3²=9, 3²=9; sum = 36; variance = 36/4 = 9. For Set B, mean = (4+5+6+7)/4 = 5.5. Squared deviations: (‑1.5)²=2.25, (‑0.5)²=0.25, 0.5²=0.25, 1.5²=2.25; sum = 5; variance = 5/4 = 1.25. Since 9 > 1.25, Set A has the larger variance. Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "In a competitive exam, the variance of students' scores in a subject is found to be relatively high. What does this indicate about the distribution of scores?",
+      "options": {
+        "A": "Most students scored close to the average",
+        "B": "Scores are widely spread around the mean",
+        "C": "The average score is high",
+        "D": "There is a negative skew"
+      },
+      "correct_option": "B",
+      "answer": "Scores are widely spread around the mean",
+      "explanation": "A high variance means that the squared deviations from the mean are, on average, large, which translates to scores being far apart from each other and from the mean. Therefore option B correctly interprets a high variance. Option A describes low variance. Option C concerns the mean, not variance. Option D refers to skewness, a different concept.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "Which of the following best defines variance for a set of numerical data?",
+      "options": {
+        "A": "The average of the squared deviations from the mean",
+        "B": "The square root of the average squared deviations from the mean",
+        "C": "The average absolute deviation from the mean",
+        "D": "The sum of the deviations from the mean"
+      },
+      "correct_option": "A",
+      "answer": "The average of the squared deviations from the mean",
+      "explanation": "Variance is calculated by squaring each deviation from the mean, summing these squares, and dividing by the number of observations – i.e., the average of the squared deviations. Option A states this precisely. Option B describes the standard deviation. Option C describes mean absolute deviation. Option D is always zero for any data set.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "Find the variance of the data set {3, 5, 7}.",
+      "options": {
+        "A": "8/3",
+        "B": "4",
+        "C": "0",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "answer": "8/3",
+      "explanation": "Mean = (3+5+7)/3 = 5. Deviations: -2, 0, 2. Squared deviations: 4, 0, 4. Sum = 8. Variance = 8/3. Option A matches this value. Options B, C, and D are results of incorrect calculations (e.g., using n‑1, ignoring squaring, or mis‑adding).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Which statement correctly distinguishes variance from standard deviation?",
+      "options": {
+        "A": "Variance is the square root of the average squared deviations, while standard deviation is the average of squared deviations",
+        "B": "Variance is the average of squared deviations from the mean, whereas standard deviation is the square root of variance",
+        "C": "Both variance and standard deviation are the same quantity expressed in different units",
+        "D": "Standard deviation is always larger than variance"
+      },
+      "correct_option": "B",
+      "answer": "Variance is the average of squared deviations from the mean, whereas standard deviation is the square root of variance",
+      "explanation": "Variance = average of squared deviations. Standard deviation = √(variance). Option B states this relationship correctly. Option A reverses the definitions. Option C is false because they differ numerically. Option D is false; standard deviation is the square root, which is smaller than variance for values greater than 1.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "A frequency distribution has values 2, 3, and 5 with respective frequencies 2, 3, and 1. What is the variance of this data set?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "0.5"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "Total observations n = 2+3+1 = 6. Sum of values = 2·2 + 3·3 + 5·1 = 4 + 9 + 5 = 18. Mean = 18/6 = 3. Squared deviations: (2‑3)² = 1, contributes 1·2 = 2; (3‑3)² = 0, contributes 0·3 = 0; (5‑3)² = 4, contributes 4·1 = 4. Sum of squared deviations = 2 + 0 + 4 = 6. Variance = 6/6 = 1. Hence option A is correct. The other options result from mis‑division or omitting the frequency weights.",
+      "difficulty": "easy"
+    }
+  ]
+}

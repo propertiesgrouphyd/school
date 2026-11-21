@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "What is the definition of variance for a set of numerical data?",
+      "options": {
+        "A": "The average of the squared deviations of each observation from the mean.",
+        "B": "The average of the absolute deviations of each observation from the mean.",
+        "C": "The sum of the deviations of each observation from the mean.",
+        "D": "The median of the data set."
+      },
+      "correct_option": "A",
+      "answer": "The average of the squared deviations of each observation from the mean.",
+      "explanation": "Variance is defined as the mean of the squared differences between each data value and the arithmetic mean of the data. Option A states this definition correctly. Option B describes mean absolute deviation, Option C is not a standard measure, and Option D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "For the data set {2, 4, 6, 8}, what is the variance?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "Mean = (2+4+6+8)/4 = 5. Squared deviations: (2‑5)²=9, (4‑5)²=1, (6‑5)²=1, (8‑5)²=9. Sum = 20. Variance = 20/4 = 5. Hence option A is correct. The other options result from incorrect division or omission of squaring.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "How does variance differ from standard deviation?",
+      "options": {
+        "A": "Variance is the average of squared deviations; standard deviation is the square root of variance.",
+        "B": "Variance is the square root of standard deviation.",
+        "C": "Variance uses absolute deviations while standard deviation uses squared deviations.",
+        "D": "Standard deviation is the median of the data, whereas variance is the mean."
+      },
+      "correct_option": "A",
+      "answer": "Variance is the average of squared deviations; standard deviation is the square root of variance.",
+      "explanation": "Variance measures the mean of squared deviations from the mean. The standard deviation is defined as the positive square root of the variance, giving a measure in the same units as the data. Options B, C, and D are incorrect statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "The values 3, 3, 5, 5, 7, 7 are observed. What is the variance of this data set?",
+      "options": {
+        "A": "8/3",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "answer": "8/3",
+      "explanation": "Mean = (3+3+5+5+7+7)/6 = 5. Squared deviations: (3‑5)²=4 (twice), (5‑5)²=0 (twice), (7‑5)²=4 (twice). Sum = 4+4+0+0+4+4 = 16. Variance = 16/6 = 8/3 ≈ 2.67. Option A matches this value. The other options arise from incorrect division or forgetting to square.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "Two classes have the same average test score of 75. Class A has a variance of 4, while Class B has a variance of 16. Which statement is true?",
+      "options": {
+        "A": "Class B’s scores are more spread out around the mean than Class A’s.",
+        "B": "Class A’s scores are more spread out around the mean than Class B’s.",
+        "C": "Both classes have the same spread because their means are equal.",
+        "D": "Variance does not provide any information about spread."
+      },
+      "correct_option": "A",
+      "answer": "Class B’s scores are more spread out around the mean than Class A’s.",
+      "explanation": "A larger variance indicates that the data points deviate more, on average, from the mean. Since Class B’s variance (16) is greater than Class A’s (4), Class B’s scores are more dispersed. Options B, C, and D contradict the definition of variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A farmer records daily rainfall (in mm) over a week: 10, 12, 8, 11, 9, 13, 7. Which of the following statements correctly defines the variance of this data?",
+      "options": {
+        "A": "Variance is the average of the squared deviations of each day's rainfall from the weekly mean rainfall.",
+        "B": "Variance is the average amount of rainfall recorded each day.",
+        "C": "Variance is the difference between the maximum and minimum rainfall recorded.",
+        "D": "Variance is the median rainfall of the week."
+      },
+      "correct_option": "A",
+      "answer": "Variance is the average of the squared deviations of each day's rainfall from the weekly mean rainfall.",
+      "explanation": "Variance always refers to the mean of squared deviations from the mean of the data set, regardless of the context. Options B, C, and D describe other statistical measures (mean, range, median) and are not definitions of variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "For the data set {5, 7, 9}, a student incorrectly adds the squared deviations and reports the result as the variance. What is the correct variance?",
+      "options": {
+        "A": "8/3",
+        "B": "8",
+        "C": "2",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "8/3",
+      "explanation": "Mean = (5+7+9)/3 = 7. Squared deviations: (5‑7)²=4, (7‑7)²=0, (9‑7)²=4. Sum = 8. Variance = sum/number of observations = 8/3 ≈ 2.67. The student’s mistake is reporting the sum (8) as the variance. Option A gives the correct averaged value. Options B, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Why do we square the deviations from the mean when calculating variance?",
+      "options": {
+        "A": "To ensure all contributions are non‑negative and to give larger deviations more weight.",
+        "B": "Because squaring simplifies the arithmetic involved.",
+        "C": "So that variance has the same units as the original data.",
+        "D": "To cancel out any negative signs without affecting the magnitude."
+      },
+      "correct_option": "A",
+      "answer": "To ensure all contributions are non‑negative and to give larger deviations more weight.",
+      "explanation": "Squaring removes the sign of each deviation, preventing positive and negative values from canceling, and it accentuates larger deviations, making variance sensitive to outliers. Option B is false; squaring actually makes calculations more complex. Option C is incorrect because variance has squared units; the standard deviation restores original units. Option D is partially true about sign but does not capture the weighting effect.",
+      "difficulty": "medium"
+    }
+  ]
+}

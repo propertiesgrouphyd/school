@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "In the context of variance, what is a squared deviation?",
+      "options": {
+        "A": "The difference between a data value and the mean.",
+        "B": "The square of the difference between a data value and the mean.",
+        "C": "The average of the differences between all data values and the mean.",
+        "D": "The product of a data value and the mean."
+      },
+      "correct_option": "B",
+      "answer": "The square of the difference between a data value and the mean.",
+      "explanation": "A squared deviation is obtained by subtracting the mean from a data value and then squaring the result. This ensures the quantity is non‑negative and gives larger deviations more weight. Option A describes a simple deviation, not squared. Options C and D are unrelated to the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "For the data set {5, 7, 9}, what is the variance (population variance)?",
+      "options": {
+        "A": "2",
+        "B": "8/3",
+        "C": "4",
+        "D": "10/3"
+      },
+      "correct_option": "B",
+      "answer": "8/3",
+      "explanation": "Mean = (5+7+9)/3 = 7. Squared deviations: (5‑7)²=4, (7‑7)²=0, (9‑7)²=4. Sum = 8. Population variance = 8/3 ≈ 2.667. Option B matches this value. The other options arise from incorrect division or forgetting to square.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "Two data sets have the same mean of 10. Set A = {10, 10, 10, 10}. Set B = {4, 8, 12, 16}. Which set has the larger variance?",
+      "options": {
+        "A": "Set A",
+        "B": "Set B",
+        "C": "Both have the same variance",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "B",
+      "answer": "Set B",
+      "explanation": "Set A has all values equal to the mean, so each deviation is 0; variance = 0. Set B’s values are spread around the mean, giving non‑zero squared deviations, thus a positive variance. Therefore Set B has the larger variance. Options A and C are incorrect, and D is unnecessary because the data are given.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A teacher wants to know how much the students' test scores deviate, on average, from the class mean. Which of the following best defines the variance she should compute?",
+      "options": {
+        "A": "The average of the absolute differences between each score and the mean.",
+        "B": "The average of the squared differences between each score and the mean.",
+        "C": "The square root of the average of the squared differences between each score and the mean.",
+        "D": "The difference between the highest and lowest scores."
+      },
+      "correct_option": "B",
+      "answer": "The average of the squared differences between each score and the mean.",
+      "explanation": "Variance is defined as the mean of the squared deviations from the mean. Option B states this definition precisely. Option A describes mean absolute deviation, Option C describes standard deviation, and Option D is the range.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "A student calculates the variance of the data {2, 4, 6} by first finding the absolute deviations from the mean and then averaging them. Which of the following is the correct variance for this data set?",
+      "options": {
+        "A": "8/3",
+        "B": "2",
+        "C": "4",
+        "D": "4/3"
+      },
+      "correct_option": "A",
+      "answer": "8/3",
+      "explanation": "Mean = (2+4+6)/3 = 4. Squared deviations: (2‑4)²=4, (4‑4)²=0, (6‑4)²=4. Sum = 8. Variance = 8/3 ≈ 2.667. The student's method using absolute deviations would give (|2‑4|+|4‑4|+|6‑4|)/3 = 4/3, which is incorrect. Hence option A is the correct variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Why do we square the deviations when computing variance instead of taking their absolute values?",
+      "options": {
+        "A": "Squaring makes all contributions non‑negative and gives larger weight to larger deviations.",
+        "B": "Squaring simplifies the arithmetic involved in the calculation.",
+        "C": "Absolute values are not defined for negative numbers.",
+        "D": "Squaring converts the units back to the original scale of the data."
+      },
+      "correct_option": "A",
+      "answer": "Squaring makes all contributions non‑negative and gives larger weight to larger deviations.",
+      "explanation": "Squaring ensures that deviations on either side of the mean contribute positively and emphasizes larger deviations because the square grows faster than the absolute value. Option B is false; squaring actually makes algebra a bit more involved. Option C is incorrect because absolute values are defined for negatives. Option D is wrong; squaring changes the unit to the square of the original unit.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "For the data set {2, 4, 6, 8}, which variance is larger?\n1. Population variance (divide by n)\n2. Sample variance (divide by n‑1)",
+      "options": {
+        "A": "Both variances are equal.",
+        "B": "Population variance is larger.",
+        "C": "Sample variance is larger.",
+        "D": "Cannot be compared without knowing the distribution type."
+      },
+      "correct_option": "C",
+      "answer": "Sample variance is larger.",
+      "explanation": "Mean = 5. Squared deviations sum = 20. Population variance = 20/4 = 5. Sample variance = 20/3 ≈ 6.667. Because the denominator is smaller for the sample variance, its value is larger. Hence option C is correct. Options A and B are false, and D is irrelevant because the formulas are deterministic.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "If the variance of a data set is zero, which of the following statements is necessarily true?",
+      "options": {
+        "A": "All observations in the data set are equal.",
+        "B": "The data are symmetrically distributed about the mean.",
+        "C": "The mean and median of the data set are equal.",
+        "D": "The data set contains both positive and negative values."
+      },
+      "correct_option": "A",
+      "answer": "All observations in the data set are equal.",
+      "explanation": "Zero variance means every squared deviation from the mean is zero, implying each observation equals the mean. Therefore all observations are identical. Options B, C, and D may be true in some cases but are not guaranteed by zero variance.",
+      "difficulty": "hard"
+    }
+  ]
+}
