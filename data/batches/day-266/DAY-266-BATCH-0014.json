@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "DAY266-MCQ1",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "Which of the following best describes the conjunction (AND) of two statements P and Q?",
+      "options": {
+        "A": "It is true only when both P and Q are true.",
+        "B": "It is true when either P or Q is true.",
+        "C": "It is true when P is true and Q is false.",
+        "D": "It is true only when both P and Q are false."
+      },
+      "correct_option": "A",
+      "answer": "It is true only when both P and Q are true.",
+      "explanation": "The conjunction P ∧ Q is true only in the case where both component statements are true; in all other cases (one false or both false) the conjunction is false. Option B describes disjunction, C and D are incorrect definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "DAY266-MCQ2",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The disjunction (OR) of statements P and Q is false only when:",
+      "options": {
+        "A": "Both P and Q are true.",
+        "B": "At least one of P or Q is true.",
+        "C": "Both P and Q are false.",
+        "D": "Exactly one of P or Q is true."
+      },
+      "correct_option": "C",
+      "answer": "Both P and Q are false.",
+      "explanation": "For the inclusive OR (P ∨ Q), the compound statement is true if at least one component is true. It becomes false only when both components are false. Hence option C is correct; the other options describe true conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "DAY266-MCQ3",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "In the implication \"If P then Q\", what is the truth value when P is false and Q is true?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Indeterminate",
+        "D": "Both true and false"
+      },
+      "correct_option": "A",
+      "answer": "True",
+      "explanation": "An implication P → Q is considered true whenever the antecedent P is false, regardless of the truth value of Q. This is sometimes called a vacuous truth. Therefore the correct answer is True. Option B would be correct only when P is true and Q is false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "DAY266-MCQ4",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Let P be \"It is raining\" and Q be \"The ground is wet\". Which of the following statements correctly represents the biconditional relationship between P and Q?",
+      "options": {
+        "A": "If it is raining then the ground is wet.",
+        "B": "The ground is wet if and only if it is raining.",
+        "C": "It is raining or the ground is wet.",
+        "D": "It is not raining and the ground is not wet."
+      },
+      "correct_option": "B",
+      "answer": "The ground is wet if and only if it is raining.",
+      "explanation": "A biconditional (P ↔ Q) asserts that P and Q have the same truth value: both true or both false. It is expressed as \"P if and only if Q\". Option B captures this meaning. Option A is a simple implication, C is a disjunction, and D is a conjunction of negations, none of which convey the biconditional.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "DAY266-MCQ5",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement P ∧ (Q ∨ R). What is its truth value when P is true, Q is false, and R is true?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both true and false"
+      },
+      "correct_option": "A",
+      "answer": "True",
+      "explanation": "First evaluate the inner disjunction: Q ∨ R = false ∨ true = true. Then the whole expression becomes P ∧ true = true ∧ true = true. Hence the compound statement is true. Options B, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "DAY266-MCQ6",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "A student passes Mathematics and passes Physics. Which of the following statements about the conjunction is correct if the student passes Mathematics but fails Physics?",
+      "options": {
+        "A": "The conjunction is true.",
+        "B": "The conjunction is false.",
+        "C": "The conjunction is indeterminate.",
+        "D": "Both component statements are true."
+      },
+      "correct_option": "B",
+      "answer": "The conjunction is false.",
+      "explanation": "A conjunction requires both component statements to be true. Since the student fails Physics, the second component is false, making the whole conjunction false. Option A contradicts the definition, C is not applicable, and D is factually wrong.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "DAY266-MCQ7",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "A common misconception is that \"P OR Q\" is true only when exactly one of P or Q is true. Which statement correctly describes the truth condition for the logical OR?",
+      "options": {
+        "A": "True only when exactly one of P or Q is true.",
+        "B": "True when at least one of P or Q is true.",
+        "C": "True only when both P and Q are true.",
+        "D": "True only when both P and Q are false."
+      },
+      "correct_option": "B",
+      "answer": "True when at least one of P or Q is true.",
+      "explanation": "The inclusive OR (∨) is true if either or both component statements are true. It is false only when both are false. Option A describes the exclusive OR, which is not the standard logical OR used in mathematical reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "DAY266-MCQ8",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "For the implication \"If it is snowing then the temperature is below 0°C\", which of the following situations makes the implication false?",
+      "options": {
+        "A": "It is snowing and the temperature is below 0°C.",
+        "B": "It is not snowing and the temperature is above 0°C.",
+        "C": "It is snowing and the temperature is above 0°C.",
+        "D": "It is not snowing and the temperature is below 0°C."
+      },
+      "correct_option": "C",
+      "answer": "It is snowing and the temperature is above 0°C.",
+      "explanation": "An implication P → Q is false only when the antecedent P is true and the consequent Q is false. Here, P = \"it is snowing\" and Q = \"temperature is below 0°C\". The only case that violates the implication is when it is snowing (P true) but the temperature is not below 0°C (Q false), which is option C. All other options satisfy the implication.",
+      "difficulty": "medium"
+    }
+  ]
+}

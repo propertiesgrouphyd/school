@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0015",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-009",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following compound statements is logically equivalent to the biconditional statement (P ↔ Q)?",
+      "options": {
+        "A": "(P ∧ Q) ∨ (¬P ∧ ¬Q)",
+        "B": "(P ∧ ¬Q) ∨ (¬P ∧ Q)",
+        "C": "(P ∨ Q) ∧ (¬P ∨ ¬Q)",
+        "D": "(P → Q) ∨ (Q → P)"
+      },
+      "correct_option": "A",
+      "answer": "(P ∧ Q) ∨ (¬P ∧ ¬Q)",
+      "explanation": "The biconditional P ↔ Q is true when both statements have the same truth value, i.e., both true or both false. This condition is captured by (P ∧ Q) ∨ (¬P ∧ ¬Q). Options B and C represent exclusive or and a different combination, while D is a disjunction of implications, not equivalent to the biconditional.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-010",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement (P ∨ Q) → (¬P ∧ R). Using a truth table, what is the truth value of the statement when P is True, Q is False, and R is True?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both True and False"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "With P = T and Q = F, (P ∨ Q) is True. ¬P is False, so (¬P ∧ R) = False ∧ True = False. An implication True → False is False. Hence the statement is false. Options A, C, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-011",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "In logical connectives, the conjunction of two statements P and Q, denoted by P ∧ Q, is true ____.",
+      "options": {
+        "A": "only when both P and Q are true",
+        "B": "when at least one of P or Q is true",
+        "C": "only when both P and Q are false",
+        "D": "when P is true and Q is false"
+      },
+      "correct_option": "A",
+      "answer": "only when both P and Q are true",
+      "explanation": "Conjunction (AND) requires both component statements to be true for the whole compound statement to be true. All other options describe disjunction, negation, or a specific false case.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-012",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The logical disjunction of statements P and Q, written as P ∨ Q, is true ____.",
+      "options": {
+        "A": "only when both P and Q are true",
+        "B": "when at least one of P or Q is true",
+        "C": "only when both P and Q are false",
+        "D": "when P is false and Q is true"
+      },
+      "correct_option": "B",
+      "answer": "when at least one of P or Q is true",
+      "explanation": "Disjunction (OR) is true if either P, Q, or both are true. It is false only when both are false. Option D describes a specific true case but does not capture the full definition, while A and C are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-013",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "Which of the following correctly defines the implication P → Q and distinguishes it from conjunction P ∧ Q?",
+      "options": {
+        "A": "P → Q is true except when P is true and Q is false; P ∧ Q is true only when both are true.",
+        "B": "P → Q is true only when both P and Q are true; P ∧ Q is true except when P is true and Q is false.",
+        "C": "P → Q and P ∧ Q have identical truth tables.",
+        "D": "P → Q is true only when P is false; P ∧ Q is true only when Q is false."
+      },
+      "correct_option": "A",
+      "answer": "P → Q is true except when P is true and Q is false; P ∧ Q is true only when both are true.",
+      "explanation": "Implication is false only in the case T → F; otherwise it is true. Conjunction requires both operands to be true. Options B, C, and D misstate the truth conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-014",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "The statement \"The alarm rings if and only if the door is opened\" can be expressed as which of the following logical forms?",
+      "options": {
+        "A": "(Alarm → Door) ∧ (Door → Alarm)",
+        "B": "(Alarm ∨ Door)",
+        "C": "(Alarm ∧ Door)",
+        "D": "(Alarm → Door)"
+      },
+      "correct_option": "A",
+      "answer": "(Alarm → Door) ∧ (Door → Alarm)",
+      "explanation": "\"If and only if\" denotes a biconditional, which is equivalent to the conjunction of two implications: Alarm → Door and Door → Alarm. Options B and C represent simple OR and AND, while D is only one direction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-015",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Given the compound statement (P ∧ Q) → (R ∨ ¬S), which of the following rows of its truth table makes the whole statement false?",
+      "options": {
+        "A": "P = T, Q = T, R = F, S = T",
+        "B": "P = F, Q = T, R = F, S = F",
+        "C": "P = T, Q = F, R = T, S = T",
+        "D": "P = F, Q = F, R = T, S = F"
+      },
+      "correct_option": "A",
+      "answer": "P = T, Q = T, R = F, S = T",
+      "explanation": "The implication is false only when its antecedent (P ∧ Q) is true and its consequent (R ∨ ¬S) is false. In option A, P ∧ Q = T and R ∨ ¬S = F ∨ F = F, so the whole statement is false. All other options have a false antecedent or a true consequent, making the implication true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-016",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "A student will receive a scholarship only if she scores above 90% in mathematics and above 85% in physics. Which logical expression correctly represents the condition for receiving the scholarship?",
+      "options": {
+        "A": "(M > 90) ∧ (P > 85)",
+        "B": "(M > 90) ∨ (P > 85)",
+        "C": "(M > 90) → (P > 85)",
+        "D": "(M > 90) ↔ (P > 85)"
+      },
+      "correct_option": "A",
+      "answer": "(M > 90) ∧ (P > 85)",
+      "explanation": "The phrase \"and\" indicates that both conditions must be satisfied simultaneously, which is represented by the conjunction (M > 90) ∧ (P > 85). Option B uses disjunction, C is a one‑way implication, and D denotes a biconditional, none of which capture the required \"both\" condition.",
+      "difficulty": "medium"
+    }
+  ]
+}
