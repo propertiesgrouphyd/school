@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0048",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A particle moves along a straight line with its distance s (in metres) from the origin given by s = 4t^2 + 3t, where t is time in seconds. What is the instantaneous speed of the particle at t = 2 s?",
+      "options": {
+        "A": "11 m/s",
+        "B": "19 m/s",
+        "C": "23 m/s",
+        "D": "27 m/s"
+      },
+      "correct_option": "B",
+      "answer": "19 m/s",
+      "explanation": "The instantaneous speed is the derivative ds/dt. ds/dt = d/dt(4t^2 + 3t) = 8t + 3. Substituting t = 2 gives 8(2) + 3 = 19 m/s. Hence option B is correct. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "The volume V (in cubic metres) of water in a cylindrical tank is increasing at a rate given by dV/dt = k h^2, where h is the water height and k is a positive constant. Which statement best describes the derivative dV/dt?",
+      "options": {
+        "A": "It is the total volume of water in the tank.",
+        "B": "It is the instantaneous rate at which the volume changes with respect to time.",
+        "C": "It is the height of the water at any instant.",
+        "D": "It is the constant k multiplied by the height."
+      },
+      "correct_option": "B",
+      "answer": "It is the instantaneous rate at which the volume changes with respect to time.",
+      "explanation": "A derivative with respect to time gives the instantaneous rate of change of the quantity—in this case, volume. Option B captures this meaning. Option A confuses the derivative with the quantity itself, C confuses it with height, and D omits the derivative concept.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "A student says: “If the derivative of a function at x = 3 is zero, the function must have a maximum at x = 3.” Which of the following is the correct response?",
+      "options": {
+        "A": "The statement is always true; a zero derivative guarantees a maximum.",
+        "B": "A zero derivative only indicates a horizontal tangent; the point could be a maximum, minimum, or point of inflection.",
+        "C": "The derivative being zero means the function is constant everywhere.",
+        "D": "A zero derivative means the slope of the graph is positive."
+      },
+      "correct_option": "B",
+      "answer": "A zero derivative only indicates a horizontal tangent; the point could be a maximum, minimum, or point of inflection.",
+      "explanation": "A derivative of zero means the tangent is horizontal, but it does not specify the nature of the stationary point. It could be a maximum, minimum, or inflection point. Hence option B is correct. Options A, C, and D misinterpret the meaning of a zero derivative.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Using the definition of derivative from first principles, \\(f'(x) = \\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}\\), find the derivative of \\(f(x)=x^{2}\\).",
+      "options": {
+        "A": "x",
+        "B": "2x",
+        "C": "x^{2}",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "2x",
+      "explanation": "Applying the limit: \\(\\frac{(x+h)^{2}-x^{2}}{h}=\\frac{x^{2}+2xh+h^{2}-x^{2}}{h}=2x+h\\). As \\(h\\to0\\), the expression approaches \\(2x\\). Therefore the derivative is 2x, option B. The other options arise from forgetting the limit step or mis‑simplifying.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Consider the functions \\(f(x)=e^{x}\\) and \\(g(x)=\\ln x\\) (with \\(x>0\\)). At \\(x=1\\), which derivative is larger?",
+      "options": {
+        "A": "f'(1) is larger than g'(1)",
+        "B": "g'(1) is larger than f'(1)",
+        "C": "Both derivatives are equal",
+        "D": "Neither derivative exists at x=1"
+      },
+      "correct_option": "A",
+      "answer": "f'(1) is larger than g'(1)",
+      "explanation": "f'(x)=e^{x}, so f'(1)=e≈2.718. g'(x)=1/x, so g'(1)=1. Since 2.718 > 1, f'(1) is larger. Hence option A is correct. Option B reverses the comparison, C is false because the values differ, and D is incorrect because both derivatives exist at x=1.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "If \\(y = x^{3} - 3x\\), find \\(\\frac{dy}{dx}\\) at \\(x = 2\\) and state what this value represents.",
+      "options": {
+        "A": "9; the instantaneous rate of change of y with respect to x at x=2",
+        "B": "3; the average rate of change of y between x=0 and x=2",
+        "C": "0; the function has a maximum at x=2",
+        "D": "6; the slope of the secant line between x=1 and x=3"
+      },
+      "correct_option": "A",
+      "answer": "9; the instantaneous rate of change of y with respect to x at x=2",
+      "explanation": "Differentiating, dy/dx = 3x^{2} - 3. Substituting x = 2 gives 3(4) - 3 = 12 - 3 = 9. This number is the instantaneous rate of change (or slope of the tangent) of y with respect to x at that point. Option A correctly states both the value and its meaning. The other options either give wrong values or misinterpret the derivative.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "Which of the following best describes the derivative of a function at a point?",
+      "options": {
+        "A": "The total area under the curve up to that point.",
+        "B": "The instantaneous rate at which the function's value changes with respect to its variable.",
+        "C": "The average value of the function over an interval.",
+        "D": "The maximum value the function attains."
+      },
+      "correct_option": "B",
+      "answer": "The instantaneous rate at which the function's value changes with respect to its variable.",
+      "explanation": "The derivative gives the instantaneous rate of change (or slope of the tangent) at a specific point. Option B captures this definition. Options A and C refer to integrals or averages, while D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "The graph of a function f passes through the point (2,5) and has a derivative f'(2)= -3. What does this derivative tell you about the graph at that point?",
+      "options": {
+        "A": "The graph is horizontal at (2,5).",
+        "B": "The graph is rising steeply to the right of (2,5).",
+        "C": "The tangent line at (2,5) slopes downwards with a slope of -3.",
+        "D": "The function has a maximum at x = 2."
+      },
+      "correct_option": "C",
+      "answer": "The tangent line at (2,5) slopes downwards with a slope of -3.",
+      "explanation": "A derivative of -3 means the tangent line at that point has a slope of -3, indicating a downward inclination. Hence option C is correct. Option A would require a derivative of 0, B would need a positive slope, and D is not guaranteed by the sign of the derivative alone.",
+      "difficulty": "easy"
+    }
+  ]
+}

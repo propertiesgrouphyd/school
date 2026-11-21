@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "DAY265-MCQ-81",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "Which of the following statements best describes the derivative of a function at a point?",
+      "options": {
+        "A": "It gives the average value of the function over an interval.",
+        "B": "It represents the instantaneous rate of change of the function with respect to its variable.",
+        "C": "It is the same as the function's second derivative.",
+        "D": "It measures the area under the curve of the function."
+      },
+      "correct_option": "B",
+      "answer": "It represents the instantaneous rate of change of the function with respect to its variable.",
+      "explanation": "The derivative at a point gives the instantaneous rate at which the function's value changes with a tiny change in the variable. It is not an average value, a second derivative, or an area measure.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "DAY265-MCQ-82",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "How is the derivative of a function at a point related to the slope of the tangent line to its graph at that point?",
+      "options": {
+        "A": "The derivative equals the negative reciprocal of the slope of the tangent line.",
+        "B": "The derivative equals the slope of the tangent line.",
+        "C": "The derivative equals the curvature of the graph at that point.",
+        "D": "The derivative gives the y‑intercept of the tangent line."
+      },
+      "correct_option": "B",
+      "answer": "The derivative equals the slope of the tangent line.",
+      "explanation": "By definition, the derivative at a point is the limit of the secant slopes, which becomes the slope of the tangent line at that point. It is not the negative reciprocal, curvature, or y‑intercept.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "DAY265-MCQ-83",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Which of the following expressions correctly gives the derivative of f(x) at x = a using first principles?",
+      "options": {
+        "A": "f'(a) = lim_{h→0} [f(a+h) - f(a)] / h",
+        "B": "f'(a) = lim_{h→0} [f(a) - f(a-h)] / h",
+        "C": "f'(a) = lim_{h→0} [f(a+h) + f(a)] / h",
+        "D": "f'(a) = lim_{h→0} [f(a) * h]"
+      },
+      "correct_option": "A",
+      "answer": "f'(a) = lim_{h→0} [f(a+h) - f(a)] / h",
+      "explanation": "The first‑principles (limit) definition of the derivative is the limit of the difference quotient (f(a+h)-f(a))/h as h approaches zero. The other options do not represent this definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "DAY265-MCQ-84",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "If f(x) = 3x^2 + 2x - 5, what is f'(x)?",
+      "options": {
+        "A": "6x + 2",
+        "B": "3x + 2",
+        "C": "6x - 2",
+        "D": "3x^2 + 2"
+      },
+      "correct_option": "A",
+      "answer": "6x + 2",
+      "explanation": "Differentiating term by term: d/dx(3x^2)=6x, d/dx(2x)=2, d/dx(-5)=0. Hence f'(x)=6x+2. The other options are algebraic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "DAY265-MCQ-85",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A car’s distance from the starting point after t hours is given by s = 4t^2 km. What does the derivative ds/dt represent at t = 3 hours?",
+      "options": {
+        "A": "The total distance traveled after 3 hours.",
+        "B": "The instantaneous speed of the car at t = 3 hours.",
+        "C": "The acceleration of the car at t = 3 hours.",
+        "D": "The average speed over the first 3 hours."
+      },
+      "correct_option": "B",
+      "answer": "The instantaneous speed of the car at t = 3 hours.",
+      "explanation": "ds/dt = d/dt(4t^2) = 8t, which gives the instantaneous speed at any time t. At t = 3, the speed is 24 km/h. It is not the total distance, acceleration, or average speed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "DAY265-MCQ-86",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "The height of a ball thrown upward is h(t) = 20t - 5t^2 meters. What does the derivative dh/dt at t = 2 seconds represent?",
+      "options": {
+        "A": "The maximum height reached by the ball.",
+        "B": "The instantaneous vertical velocity of the ball at t = 2 seconds.",
+        "C": "The total distance the ball has traveled up to t = 2 seconds.",
+        "D": "The constant acceleration due to gravity."
+      },
+      "correct_option": "B",
+      "answer": "The instantaneous vertical velocity of the ball at t = 2 seconds.",
+      "explanation": "dh/dt = 20 - 10t gives the vertical velocity at any time. At t = 2, dh/dt = 0 m/s, indicating the instant when the ball changes direction. This derivative gives velocity, not height, total distance, or acceleration (which is the second derivative).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "DAY265-MCQ-87",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "Statement: \"If the derivative of a function at x = 2 is zero, then the function must have a local maximum at x = 2.\" Which of the following is correct?",
+      "options": {
+        "A": "True, because a zero derivative always indicates a maximum.",
+        "B": "False, because a zero derivative could indicate a maximum, minimum, or a point of inflection.",
+        "C": "True, but only for polynomial functions.",
+        "D": "False, because a derivative cannot be zero at any point."
+      },
+      "correct_option": "B",
+      "answer": "False, because a zero derivative could indicate a maximum, minimum, or a point of inflection.",
+      "explanation": "A zero derivative means the tangent is horizontal, but the point could be a maximum, minimum, or a saddle (inflection) point. Hence the statement is false. Options A and C are overly restrictive, and D is incorrect because derivatives can be zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "DAY265-MCQ-88",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Using the first‑principles definition, what is the derivative of f(x) = x^2 at x = 3?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "From first principles, f'(a) = lim_{h→0} [(a+h)^2 - a^2]/h = lim_{h→0} [2ah + h^2]/h = 2a. For a = 3, f'(3) = 2·3 = 6. The other numbers arise from common arithmetic mistakes.",
+      "difficulty": "medium"
+    }
+  ]
+}

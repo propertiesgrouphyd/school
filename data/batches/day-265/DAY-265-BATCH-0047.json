@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "Which of the following statements correctly describes the relationship between the derivative of a function at a point and the slope of a line?",
+      "options": {
+        "A": "The derivative equals the slope of any secant line passing through that point.",
+        "B": "The derivative equals the slope of the tangent line at that point.",
+        "C": "The derivative equals the y‑intercept of the tangent line.",
+        "D": "The derivative equals the curvature of the graph at that point."
+      },
+      "correct_option": "B",
+      "answer": "The derivative equals the slope of the tangent line at that point.",
+      "explanation": "The derivative of a function at a point is defined as the limit of the slopes of secant lines as the second point approaches the first. This limit is precisely the slope of the tangent line at that point. Options A, C and D describe unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Using the definition of derivative, \\(f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}\\), find \\(f'(3)\\) for \\(f(x)=x^{2}\\).",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "Applying the limit: \\(f'(x)=\\lim_{h\\to0}\\frac{(x+h)^2-x^2}{h}=\\lim_{h\\to0}\\frac{2xh+h^2}{h}=2x\\). At \\(x=3\\), \\(f'(3)=2\\times3=6\\). The other options are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Which of the following functions has a derivative equal to 4 at \\(x=2\\)?",
+      "options": {
+        "A": "f(x)=2x^{2}",
+        "B": "g(x)=4x",
+        "C": "h(x)=x^{3}",
+        "D": "None of these"
+      },
+      "correct_option": "B",
+      "answer": "g(x)=4x",
+      "explanation": "Derivative of f(x)=2x^{2} is f'(x)=4x, giving f'(2)=8. Derivative of g(x)=4x is g'(x)=4, constant, so g'(2)=4. Derivative of h(x)=x^{3} is h'(x)=3x^{2}, giving h'(2)=12. Hence only g(x)=4x satisfies the condition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A particle moves along a line with displacement \\(s(t)=5t^{2}-3t\\) metres, where \\(t\\) is in seconds. What is its instantaneous velocity at \\(t=4\\) s?",
+      "options": {
+        "A": "33 m/s",
+        "B": "37 m/s",
+        "C": "41 m/s",
+        "D": "45 m/s"
+      },
+      "correct_option": "B",
+      "answer": "37 m/s",
+      "explanation": "Velocity is the derivative of displacement: \\(v(t)=s'(t)=10t-3\\). At \\(t=4\\), \\(v(4)=10\\times4-3=40-3=37\\) m/s. The other options result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "Which statement best defines the derivative of a function at a point?",
+      "options": {
+        "A": "It is the limit of the average rate of change of the function as the interval approaches zero.",
+        "B": "It is the maximum value attained by the function.",
+        "C": "It is the area under the curve of the function between two points.",
+        "D": "It is the slope of any secant line drawn through the point."
+      },
+      "correct_option": "A",
+      "answer": "It is the limit of the average rate of change of the function as the interval approaches zero.",
+      "explanation": "The derivative captures the instantaneous rate of change, obtained by shrinking the interval of the average rate of change to zero. Options B and C describe unrelated concepts, and D is incorrect because the secant line must become a tangent as the interval shrinks.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "For the linear function \\(y = 3x + 2\\), what is the value of its derivative and what geometric quantity does this represent?",
+      "options": {
+        "A": "2, which is the y‑intercept",
+        "B": "3, which is the slope of the line",
+        "C": "5, which is the length of the line segment between (0,2) and (1,5)",
+        "D": "0, which is the curvature of the line"
+      },
+      "correct_option": "B",
+      "answer": "3, which is the slope of the line",
+      "explanation": "For a linear function \\(y = mx + c\\), the derivative is the constant \\(m\\). Here \\(m = 3\\), which equals the slope of the line. The other options misinterpret the derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Which of the following expressions correctly represents the derivative of \\(f(x)\\) from first principles?",
+      "options": {
+        "A": "lim_{h→0} [f(x+h) - f(x)] / h",
+        "B": "lim_{x→0} [f(x) - f(0)] / x",
+        "C": "lim_{h→∞} [f(x+h) - f(x)] / h",
+        "D": "lim_{h→0} [f(x) + f(h)] / h"
+      },
+      "correct_option": "A",
+      "answer": "lim_{h→0} [f(x+h) - f(x)] / h",
+      "explanation": "The definition of the derivative uses the limit of the difference quotient as the increment \\(h\\) approaches zero. Option B uses \\(x\\) instead of \\(h\\) and evaluates at 0, which is not general. Options C and D are mathematically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "If \\(f(x)=x^{3}\\), what is the value of \\(f'(2)\\)?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "16"
+      },
+      "correct_option": "C",
+      "answer": "12",
+      "explanation": "The derivative of \\(x^{3}\\) is \\(3x^{2}\\). Substituting \\(x=2\\) gives \\(3\\times2^{2}=3\\times4=12\\). The other options result from incorrect differentiation or arithmetic.",
+      "difficulty": "easy"
+    }
+  ]
+}

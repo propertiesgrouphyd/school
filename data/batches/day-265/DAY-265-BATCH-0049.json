@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01126-73",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Which of the following expressions correctly gives the derivative of a function f(x) at x = a using first principles?",
+      "options": {
+        "A": "f'(a) = \\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h}",
+        "B": "f'(a) = \\lim_{x \\to a} \\frac{f(x) - f(a)}{x-a}",
+        "C": "f'(a) = \\frac{f(a)}{a}",
+        "D": "f'(a) = \\lim_{h \\to \\infty} \\frac{f(a+h) - f(a)}{h}"
+      },
+      "correct_option": "A",
+      "answer": "f'(a) = \\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h}",
+      "explanation": "The derivative from first principles (the definition) is the limit of the difference quotient as the increment h approaches zero: f'(a)=lim_{h→0}[f(a+h)-f(a)]/h. Option B is similar but uses x→a; it is also correct but the standard first‑principles form uses h. Options C and D are not definitions of the derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "LU-01126-74",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Find the derivative of the function f(x) = 3x^2 + 2x - 5.",
+      "options": {
+        "A": "f'(x) = 6x + 2",
+        "B": "f'(x) = 3x + 2",
+        "C": "f'(x) = 6x - 2",
+        "D": "f'(x) = 3x^2 + 2"
+      },
+      "correct_option": "A",
+      "answer": "f'(x) = 6x + 2",
+      "explanation": "Using the power rule, d/dx[3x^2]=6x and d/dx[2x]=2; the constant term disappears. Hence f'(x)=6x+2. Options B, C, and D are algebraic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "LU-01126-75",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A car travels along a straight road and its distance s (in metres) from the starting point after t seconds is given by s = 5t^2. What does the derivative ds/dt represent in this context?",
+      "options": {
+        "A": "The car's instantaneous speed at time t",
+        "B": "The total distance travelled after t seconds",
+        "C": "The car's acceleration",
+        "D": "The average speed over the interval from 0 to t"
+      },
+      "correct_option": "A",
+      "answer": "The car's instantaneous speed at time t",
+      "explanation": "The derivative ds/dt gives the instantaneous rate of change of distance with respect to time, i.e., the instantaneous speed. For s=5t^2, ds/dt=10t, which varies with t. Option B is the original function, C would be the second derivative, and D is not a derivative.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01126-76",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "Water is being poured into a cylindrical tank at a rate that causes the water level h (in metres) to change with time t (in minutes) according to h = 0.2t^2 + 0.5t. Conceptually, what does the derivative dh/dt represent?",
+      "options": {
+        "A": "The instantaneous rate at which the water level is rising at time t",
+        "B": "The total volume of water in the tank at time t",
+        "C": "The constant cross‑sectional area of the tank",
+        "D": "The average rate of rise of the water level from t = 0 to the current time"
+      },
+      "correct_option": "A",
+      "answer": "The instantaneous rate at which the water level is rising at time t",
+      "explanation": "dh/dt is the derivative of the height with respect to time, giving the instantaneous speed of rise of the water level. It is not a volume (B), nor a geometric constant (C), nor an average rate (D).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01126-77",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "For the curve y = x^3, which of the following statements is correct?",
+      "options": {
+        "A": "The derivative at any point gives the slope of the tangent line at that point.",
+        "B": "The derivative at any point gives the y‑intercept of the tangent line.",
+        "C": "The derivative at any point gives the curvature of the curve.",
+        "D": "The derivative at any point is always equal to 3."
+      },
+      "correct_option": "A",
+      "answer": "The derivative at any point gives the slope of the tangent line at that point.",
+      "explanation": "The derivative of a function at a point equals the slope of the tangent to the graph at that point. Option B confuses slope with intercept, C describes second derivative, and D is false because the derivative of x^3 is 3x^2, not a constant 3.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01126-78",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "If f(x) = x^2, using the first‑principles definition, which step correctly simplifies the difference quotient before taking the limit?",
+      "options": {
+        "A": "\\frac{(x+h)^2 - x^2}{h} = \\frac{2xh + h^2}{h}",
+        "B": "\\frac{(x+h)^2 - x^2}{h} = \\frac{x^2 + h^2}{h}",
+        "C": "\\frac{(x+h)^2 - x^2}{h} = \\frac{2x + h}{h}",
+        "D": "\\frac{(x+h)^2 - x^2}{h} = \\frac{2x + h^2}{h}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{(x+h)^2 - x^2}{h} = \\frac{2xh + h^2}{h}",
+      "explanation": "Expanding (x+h)^2 gives x^2 + 2xh + h^2. Subtracting x^2 leaves 2xh + h^2. Dividing by h yields (2x h + h^2)/h = 2x + h. Option A shows the correct unsimplified form; after canceling h we get 2x + h, whose limit as h→0 is 2x. Other options miss terms or simplify incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "LU-01126-79",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Consider the functions f(x)=x^3 and g(x)=3x^2. Which of the following statements is true?",
+      "options": {
+        "A": "f'(x) = g(x) for every x.",
+        "B": "g'(x) = f(x) for every x.",
+        "C": "Both f'(x) and g'(x) are equal to 6x.",
+        "D": "f'(x) and g'(x) are unrelated."
+      },
+      "correct_option": "A",
+      "answer": "f'(x) = g(x) for every x.",
+      "explanation": "Differentiating f(x)=x^3 gives f'(x)=3x^2, which is exactly g(x). Hence statement A is true. g'(x)=6x, not equal to f(x)=x^3, so B is false. C is false because f'(x)=3x^2, not 6x. D is false because there is a clear relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01126-80",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "The area A of a circle varies with its radius r as A = πr^2. At the instant when r = 5 cm, the radius is increasing at 0.2 cm/s. What is the rate of change of the area at that instant?",
+      "options": {
+        "A": "0.4π cm^2/s",
+        "B": "2π cm^2/s",
+        "C": "π cm^2/s",
+        "D": "5π cm^2/s"
+      },
+      "correct_option": "B",
+      "answer": "2π cm^2/s",
+      "explanation": "Differentiate A = πr^2 with respect to time: dA/dt = 2πr·dr/dt. Substituting r = 5 cm and dr/dt = 0.2 cm/s gives dA/dt = 2π·5·0.2 = 2π cm^2/s. Option B is correct; the others result from arithmetic errors.",
+      "difficulty": "hard"
+    }
+  ]
+}
