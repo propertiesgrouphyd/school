@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Consider the following functions. For which one can the limit as x approaches 2 be found simply by substituting x = 2?",
+      "options": {
+        "A": "f(x)=\\frac{x^2-4}{x-2}",
+        "B": "g(x)=\\sqrt{x+2}",
+        "C": "h(x)=\\frac{x-2}{x^2-4}",
+        "D": "k(x)=5x+1"
+      },
+      "correct_option": "D",
+      "answer": "k(x)=5x+1",
+      "explanation": "Direct substitution works when the function is continuous at the point. Options A and C have a denominator that becomes zero at x=2, causing indeterminate forms. Option B is also continuous, but the square‑root is defined and substitution works, yet option D is a simple linear function where substituting x=2 gives 5·2+1=11 without any restriction, making it the safest example of direct substitution. Hence D is the correct choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A person walks toward a closed door. The time (in seconds) it takes to reach the door is given by t(x)=0.5x, where x is the distance (in meters) from the door. As the distance x approaches 0, what does the limit of t(x) represent?",
+      "options": {
+        "A": "0 seconds",
+        "B": "2 seconds",
+        "C": "The limit does not exist",
+        "D": "Infinity"
+      },
+      "correct_option": "A",
+      "answer": "0 seconds",
+      "explanation": "The limit describes the value the function approaches as the input gets arbitrarily close to the specified point. Here, as the distance x gets closer and closer to 0, the time t(x)=0.5x approaches 0. Hence the limit is 0 seconds, meaning the person would need no time once they are at the door. Options B, C, and D do not reflect this intuitive meaning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Evaluate \\(\\displaystyle\\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\). Many students think the limit does not exist because the numerator and denominator become zero. What is the correct value?",
+      "options": {
+        "A": "4",
+        "B": "0",
+        "C": "The limit does not exist",
+        "D": "Infinity"
+      },
+      "correct_option": "A",
+      "answer": "4",
+      "explanation": "Factor the numerator: x^2-4 = (x-2)(x+2). Cancel the common factor (x-2) (x≠2) to get the simplified expression x+2. Taking the limit as x→2 gives 2+2 = 4. The apparent 0/0 form is removable, so the limit exists and equals 4. Options B, C, and D stem from the misconception of treating 0/0 as undefined.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Find \\(\\displaystyle\\lim_{x\\to 3}\\frac{x^{2}-9}{x-3}\\) by simplifying the expression algebraically.",
+      "options": {
+        "A": "0",
+        "B": "6",
+        "C": "3",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "Factor the numerator: x^2-9 = (x-3)(x+3). Cancel the (x-3) term (for x≠3) to obtain x+3. Substituting x=3 gives 3+3 = 6. Hence the limit is 6. Options A, C, and D ignore the simplification step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Consider the function f(x)=\\frac{1}{x}. Which statement correctly describes its one‑sided limits as x approaches 0?",
+      "options": {
+        "A": "Both the left‑hand and right‑hand limits are +\\infty",
+        "B": "The left‑hand limit is -\\infty and the right‑hand limit is +\\infty",
+        "C": "Both the left‑hand and right‑hand limits are -\\infty",
+        "D": "Both one‑sided limits do not exist but are not infinite"
+      },
+      "correct_option": "B",
+      "answer": "The left‑hand limit is -\\infty and the right‑hand limit is +\\infty",
+      "explanation": "As x approaches 0 from the left (negative values), 1/x becomes a large negative number, so the limit is -∞. From the right (positive values), 1/x becomes a large positive number, so the limit is +∞. Therefore option B correctly captures the one‑sided behavior. Options A and C incorrectly assign the same sign to both sides, and D is inaccurate because the limits are infinite.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Let \\(f(x)=\\begin{cases}x^{2}, & x\\neq 1\\\\3, & x=1\\end{cases}\\). What is \\(\\displaystyle\\lim_{x\\to 1}f(x)\\)?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "The limit does not exist",
+        "D": "Infinity"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "For limits, we consider the behavior of f(x) as x approaches 1, not the actual value at x=1. For all x≠1, f(x)=x^2, which is continuous. Substituting x=1 gives 1^2=1. Hence the limit is 1, even though f(1)=3. Direct substitution works because the surrounding expression x^2 is continuous at 1. Options B, C, and D ignore this reasoning.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "Which of the following statements best describes the limit of a function f(x) as x approaches a value a?",
+      "options": {
+        "A": "The value that the function approaches as the input gets arbitrarily close to a",
+        "B": "The value of the function at a",
+        "C": "The derivative of the function at a",
+        "D": "The average rate of change of the function near a"
+      },
+      "correct_option": "A",
+      "answer": "The value that the function approaches as the input gets arbitrarily close to a",
+      "explanation": "The definition of a limit focuses on the behavior of the function near the point a, not necessarily its value at a. Therefore option A captures the intuitive meaning. Option B confuses limit with function value, C with derivative, and D with average rate of change.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "What is \\(\\displaystyle\\lim_{x\\to 5}(2x+3)\\)?",
+      "options": {
+        "A": "13",
+        "B": "10",
+        "C": "8",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "A",
+      "answer": "13",
+      "explanation": "The function 2x+3 is continuous everywhere, so the limit as x approaches 5 can be found by direct substitution: 2·5+3 = 10+3 = 13. Hence option A is correct. Options B and C are incorrect arithmetic, and D is wrong because the limit exists.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Consider the function f(x)= (x^2-9)/(x-3). Which of the following statements correctly defines the limit of f(x) as x approaches 3 and shows how algebraic simplification is used to find its value?",
+      "options": {
+        "A": "The limit does not exist because the denominator becomes zero at x=3.",
+        "B": "The limit is the value of f(3) after substituting x=3 directly.",
+        "C": "The limit is the value that f(x) approaches as x→3; after simplifying (x^2-9)/(x-3) to x+3, the limit equals 6.",
+        "D": "The limit equals infinity because the function grows without bound near x=3."
+      },
+      "correct_option": "C",
+      "answer": "The limit is the value that f(x) approaches as x→3; after simplifying (x^2-9)/(x-3) to x+3, the limit equals 6.",
+      "explanation": "A limit describes the value that the function approaches as the input gets arbitrarily close to a point. Direct substitution gives 0/0, an indeterminate form, so we simplify algebraically: (x^2-9) = (x-3)(x+3). Cancelling (x-3) leaves x+3, and substituting x=3 yields 6. Hence option C is correct; the other options either ignore simplification or misinterpret the behavior.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Find the limit of g(x)=\\frac{1}{x+2} as x approaches -2 from the left side.",
+      "options": {
+        "A": "-\\infty",
+        "B": "+\\infty",
+        "C": "0",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "A",
+      "answer": "-\\infty",
+      "explanation": "When x approaches -2 from the left, x+2 is a small negative number. Dividing 1 by a tiny negative quantity yields a very large negative value, so the left‑hand limit is -∞. Option A captures this; the other options describe the opposite sign, zero, or claim non‑existence without justification.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For the function h(x)=\\sqrt{x+4}, which statement is true about evaluating \\lim_{x\\to 0} h(x)?",
+      "options": {
+        "A": "Direct substitution gives \\sqrt{4}=2, so the limit is 2.",
+        "B": "Direct substitution leads to division by zero, so it cannot be used.",
+        "C": "The expression must be rationalised before taking the limit.",
+        "D": "The limit does not exist because the square‑root is undefined for negative x."
+      },
+      "correct_option": "A",
+      "answer": "Direct substitution gives \\sqrt{4}=2, so the limit is 2.",
+      "explanation": "The function is continuous at x=0; substituting x=0 directly yields \\sqrt{0+4}=2, which is the limit. No algebraic manipulation is needed. Options B, C, and D incorrectly claim obstacles that do not exist for this continuous function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A ball’s height after t seconds is given by s(t)= -5t^2 + 20t + 2. As t approaches 2 seconds, which description best captures the limit of s(t)?",
+      "options": {
+        "A": "The height will be exactly 22 metres at t = 2 s.",
+        "B": "The height approaches 22 metres, even if the ball is not measured exactly at t = 2 s.",
+        "C": "The height becomes undefined at t = 2 s.",
+        "D": "The height oscillates near 22 metres as t gets close to 2 s."
+      },
+      "correct_option": "B",
+      "answer": "The height approaches 22 metres, even if the ball is not measured exactly at t = 2 s.",
+      "explanation": "Plugging t = 2 into the polynomial gives s(2)= -5(4)+40+2 = 22. The limit describes the value the function gets arbitrarily close to as t approaches 2, regardless of whether we evaluate exactly at t=2. Option B states this correctly; option A confuses limit with the actual value, while C and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Evaluate \\lim_{x\\to 1} \\frac{x^2-1}{x-1}. A common mistake is to substitute x=1 directly and claim the limit is 0. What is the correct limit?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "2",
+      "explanation": "The expression simplifies: x^2-1 = (x-1)(x+1). Cancelling (x-1) leaves x+1. Substituting x=1 gives 1+1 = 2. The direct substitution that yields 0/0 is an indeterminate form, not the limit. Hence option C is correct; the other options reflect the misconception or claim non‑existence incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Given \\lim_{x\\to 4} \\frac{x^2-16}{x-4}, which reasoning correctly uses algebraic simplification to find the limit?",
+      "options": {
+        "A": "Since the numerator becomes 0, the limit is 0.",
+        "B": "Factor the numerator as (x-4)(x+4), cancel (x-4), then substitute x=4 to obtain 8.",
+        "C": "Apply L'Hôpital's rule directly to get the limit.",
+        "D": "The limit is infinite because the denominator approaches 0."
+      },
+      "correct_option": "B",
+      "answer": "Factor the numerator as (x-4)(x+4), cancel (x-4), then substitute x=4 to obtain 8.",
+      "explanation": "x^2-16 = (x-4)(x+4). After cancelling the common factor (x-4), the expression reduces to x+4. Substituting x=4 gives 8, which is the limit. Option B follows the correct algebraic simplification. Options A and D ignore the cancellation, and C, while valid, is unnecessary for this simple polynomial.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Consider f(x)=\\frac{|x|}{x}. Which statement correctly compares the left‑hand limit and right‑hand limit as x approaches 0?",
+      "options": {
+        "A": "Both the left‑hand and right‑hand limits equal 1.",
+        "B": "The left‑hand limit is -1, the right‑hand limit is 1, so the two‑sided limit does not exist.",
+        "C": "Both limits are 0.",
+        "D": "The left‑hand limit is 1, the right‑hand limit is -1."
+      },
+      "correct_option": "B",
+      "answer": "The left‑hand limit is -1, the right‑hand limit is 1, so the two‑sided limit does not exist.",
+      "explanation": "For x>0, |x|/x = 1, so the right‑hand limit as x→0⁺ is 1. For x<0, |x|/x = -1, so the left‑hand limit as x→0⁻ is -1. Because the one‑sided limits differ, the overall limit at 0 does not exist. Option B captures this; the other options incorrectly state equality or zero.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For the function p(x)=\\frac{x^2-4x+4}{x-2}, determine which statement about \\lim_{x\\to 2} p(x) is correct.",
+      "options": {
+        "A": "Direct substitution gives 0/0, therefore the limit does not exist.",
+        "B": "After simplifying, the limit equals 0.",
+        "C": "The limit equals 2.",
+        "D": "The limit is infinite."
+      },
+      "correct_option": "B",
+      "answer": "After simplifying, the limit equals 0.",
+      "explanation": "x^2-4x+4 = (x-2)^2. Dividing by (x-2) simplifies to x-2 (for x≠2). Substituting x=2 gives 0. Hence the limit exists and equals 0. Option B states this correctly. Option A stops at the indeterminate form, while C and D give incorrect numerical values.",
+      "difficulty": "hard"
+    }
+  ]
+}

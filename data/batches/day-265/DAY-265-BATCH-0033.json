@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Consider the function f(x)= (x^2-4)/(x-2). Compare the left-hand limit lim_{x→2^-} f(x) and the right-hand limit lim_{x→2^+} f(x). Which of the following statements is correct?",
+      "options": {
+        "A": "Both limits exist and are equal to 4",
+        "B": "Left-hand limit is 4 but right-hand limit does not exist",
+        "C": "Left-hand limit does not exist but right-hand limit is 4",
+        "D": "Neither one-sided limit exists"
+      },
+      "correct_option": "A",
+      "answer": "Both limits exist and are equal to 4",
+      "explanation": "For x≠2, f(x) simplifies to x+2. As x approaches 2 from either side, x+2 approaches 4. Hence both the left‑hand and right‑hand limits exist and are equal to 4. The other options contradict this result.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Which of the following limits can be evaluated correctly by the method of direct substitution?",
+      "options": {
+        "A": "lim_{x→3} (2x+1)",
+        "B": "lim_{x→0} (sin x)/x",
+        "C": "lim_{x→2} (x^2-4)/(x-2)",
+        "D": "lim_{x→0} (1/x)"
+      },
+      "correct_option": "A",
+      "answer": "lim_{x→3} (2x+1)",
+      "explanation": "The function 2x+1 is a polynomial, continuous everywhere, so substituting x=3 gives the limit 2·3+1=7. The other limits involve 0/0 or undefined forms and require other techniques.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "Which of the following statements best captures the intuitive idea of a limit of a function as x approaches a point a?",
+      "options": {
+        "A": "The function's value at a must equal the limit",
+        "B": "The function must be defined on both sides of a",
+        "C": "As x gets arbitrarily close to a (but not necessarily equal), the function values get arbitrarily close to a particular number L",
+        "D": "The limit exists only if the function is continuous at a"
+      },
+      "correct_option": "C",
+      "answer": "As x gets arbitrarily close to a (but not necessarily equal), the function values get arbitrarily close to a particular number L",
+      "explanation": "The essence of a limit is that for inputs sufficiently near a (excluding a itself if needed), the outputs become as close as desired to a specific number L. Continuity or the function’s value at a are not required for the limit to exist.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find the value of the limit lim_{x→5} (3x - 7).",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "15",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "8",
+      "explanation": "Since the expression 3x‑7 is a polynomial, it is continuous. Direct substitution x=5 gives 3·5‑7 = 15‑7 = 8. The other numbers are unrelated to the correct calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "To evaluate lim_{x→3} (x^2 - 9)/(x - 3), which algebraic simplification is valid?",
+      "options": {
+        "A": "Cancel x with (x-3) to get (x+3)",
+        "B": "Substitute x=3 directly to get 0/0",
+        "C": "Multiply numerator and denominator by (x+3)",
+        "D": "Factor numerator as (x-3)(x+3) and cancel (x-3), giving limit of (x+3)"
+      },
+      "correct_option": "D",
+      "answer": "Factor numerator as (x-3)(x+3) and cancel (x-3), giving limit of (x+3)",
+      "explanation": "x^2‑9 = (x‑3)(x+3). Canceling the common factor (x‑3) (for x≠3) leaves x+3, whose limit as x→3 is 6. Options A, B, and C are mathematically incorrect manipulations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "What is the value of the left-hand limit lim_{x→2^-} ⌊x⌋, where ⌊x⌋ denotes the greatest integer less than or equal to x?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "1",
+        "D": "Does not exist"
+      },
+      "correct_option": "C",
+      "answer": "1",
+      "explanation": "For values just left of 2 (e.g., 1.9, 1.99), the greatest integer ≤ x is 1. Hence the left‑hand limit approaches 1. The right‑hand limit would be 2, but the question asks only for the left side.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Consider the limit lim_{x→4} (5x + 2). Can this limit be found by direct substitution?",
+      "options": {
+        "A": "Yes, because the function is a polynomial and continuous everywhere.",
+        "B": "No, because substitution leads to an indeterminate form.",
+        "C": "Yes, but only after simplifying the expression.",
+        "D": "No, because the limit does not exist."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because the function is a polynomial and continuous everywhere.",
+      "explanation": "Polynomials are continuous on the whole real line, so the limit equals the function value at the point. Substituting x=4 gives 5·4+2 = 22. No indeterminate form arises, and no simplification is needed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A car approaches a speed‑limit sign. As the car gets closer to the sign, its speed approaches 60 km/h, though the driver has not yet reached the sign. Which statement best describes this situation in terms of limits?",
+      "options": {
+        "A": "The car's speed at the sign is exactly 60 km/h.",
+        "B": "The limit does not exist because the car never reaches the sign.",
+        "C": "The speed of the car approaches 60 km/h as the distance to the sign approaches zero.",
+        "D": "The car must be traveling at 60 km/h at all times before the sign."
+      },
+      "correct_option": "C",
+      "answer": "The speed of the car approaches 60 km/h as the distance to the sign approaches zero.",
+      "explanation": "The limit describes the behavior of the speed as the distance to the sign gets arbitrarily small. It does not require the car to actually be at the sign, nor does it guarantee the speed is exactly 60 km/h at any earlier point. Options A, B, and D misinterpret the concept of a limit.",
+      "difficulty": "medium"
+    }
+  ]
+}

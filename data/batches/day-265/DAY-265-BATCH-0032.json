@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "What does the limit of a function f(x) as x approaches a represent?",
+      "options": {
+        "A": "The exact value that f(x) attains at x = a",
+        "B": "The value that f(x) approaches as x gets arbitrarily close to a",
+        "C": "The maximum value of f(x) on the interval",
+        "D": "The derivative of f(x) at x = a"
+      },
+      "correct_option": "B",
+      "answer": "The value that f(x) approaches as x gets arbitrarily close to a",
+      "explanation": "A limit describes the number that the function values get nearer to as the input approaches the specified point, regardless of whether the function actually reaches that number at the point. Option B captures this definition; the other options describe different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find \\(\\displaystyle\\lim_{x\\to 3}\\,(2x+1)\\).",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "For a polynomial, the limit as x approaches a is obtained by direct substitution: 2·3 + 1 = 7. Hence option B is correct. The other numbers arise from incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Evaluate \\(\\displaystyle\\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\) by simplifying the expression.",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "The limit does not exist",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "Factor the numerator: \\(x^{2}-4 = (x-2)(x+2)\\). Cancel the common factor \\((x-2)\\) (x≠2) to get \\(x+2\\). Substituting x = 2 gives 2+2 = 4. Hence option B is correct. Options A, C, D ignore the simplification step.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "As \\(x\\) approaches 0 from the right, what is the value of \\(\\displaystyle\\frac{1}{x}\\)?",
+      "options": {
+        "A": "+\\infty",
+        "B": "-\\infty",
+        "C": "0",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "A",
+      "answer": "+\\infty",
+      "explanation": "When x is positive and gets smaller (approaches 0⁺), 1/x grows without bound in the positive direction, so the right‑hand limit is +∞. Option A states this. From the left the limit would be -∞, which is not asked here; options C and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For the function \\(f(x)=x^{2}+5\\), what is \\(\\displaystyle\\lim_{x\\to -2} f(x)\\)?",
+      "options": {
+        "A": "9",
+        "B": "-9",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "9",
+      "explanation": "The function is a polynomial, so we can substitute x = -2 directly: (-2)² + 5 = 4 + 5 = 9. Hence option A is correct. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A car’s speedometer reads 60 km/h as the time approaches t = 5 seconds. What is the limit of the car’s speed as t → 5 s?",
+      "options": {
+        "A": "60 km/h",
+        "B": "0 km/h",
+        "C": "5 km/h",
+        "D": "Cannot be determined from the information given"
+      },
+      "correct_option": "A",
+      "answer": "60 km/h",
+      "explanation": "The limit describes the value the speed approaches as the instant t = 5 s is approached. Since the speedometer shows 60 km/h near that instant, the limit is 60 km/h. Option A is correct; the other options misinterpret the concept.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "What is \\(\\displaystyle\\lim_{x\\to 1}\\frac{x^{2}-1}{x-1}\\)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "2",
+      "explanation": "Factor the numerator: \\(x^{2}-1 = (x-1)(x+1)\\). Cancel \\((x-1)\\) (for x≠1) to obtain \\(x+1\\). Substituting x = 1 gives 1+1 = 2. Many students mistakenly think the limit is 0 because the numerator becomes 0, but after simplification the correct limit is 2, option C.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Find \\(\\displaystyle\\lim_{x\\to 3}\\frac{x^{2}-9}{x-3}\\) by appropriate algebraic manipulation.",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "6",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Factor the numerator: \\(x^{2}-9 = (x-3)(x+3)\\). Cancel the common factor \\((x-3)\\) (x≠3) to get \\(x+3\\). Substituting x = 3 yields 3+3 = 6. Therefore option C is correct. Options A, B, and D arise from overlooking the simplification step.",
+      "difficulty": "medium"
+    }
+  ]
+}
