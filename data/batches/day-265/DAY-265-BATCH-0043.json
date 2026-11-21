@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A particle moves along a straight line and its distance s (in meters) from the origin after t seconds is given by s = 4t^2 + 3t. What is the instantaneous rate of change of distance with respect to time at t = 2 seconds?",
+      "options": {
+        "A": "11 m/s",
+        "B": "19 m/s",
+        "C": "23 m/s",
+        "D": "27 m/s"
+      },
+      "correct_option": "B",
+      "answer": "19 m/s",
+      "explanation": "The instantaneous rate of change is the derivative ds/dt. ds/dt = d/dt(4t^2 + 3t) = 8t + 3. Substituting t = 2 gives 8*2 + 3 = 19 m/s. Hence option B is correct; the other numbers arise from incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "A cylindrical tank is being filled such that its water height h (in meters) increases with time t (seconds) according to h = 0.5 t^2. Conceptually, what does the derivative dh/dt represent at any instant?",
+      "options": {
+        "A": "The instantaneous rate at which the water height is changing with time",
+        "B": "The total volume of water in the tank",
+        "C": "The average height of water over a time interval",
+        "D": "The time required to fill the tank completely"
+      },
+      "correct_option": "A",
+      "answer": "The instantaneous rate at which the water height is changing with time",
+      "explanation": "dh/dt gives the instantaneous rate of change of height with respect to time. For h = 0.5 t^2, dh/dt = t, which tells how fast the height is rising at each moment. Options B, C, D describe unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "A student claims that the derivative of a function at x = a gives the slope of the secant line passing through (a, f(a)) and (a+1, f(a+1)). Which statement correctly identifies the mistake?",
+      "options": {
+        "A": "The derivative gives the slope of the tangent line, not the secant line.",
+        "B": "The derivative is always zero at any point.",
+        "C": "The derivative represents the y‑intercept of the function.",
+        "D": "The derivative gives the slope of the normal line."
+      },
+      "correct_option": "A",
+      "answer": "The derivative gives the slope of the tangent line, not the secant line.",
+      "explanation": "By definition, the derivative at a point is the limit of the secant slopes as the second point approaches the first, resulting in the tangent slope. Hence option A corrects the misconception. Options B, C, D are false statements about derivatives.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Using the definition f'(x)=lim_{h→0}[f(x+h)-f(x)]/h, find the derivative of f(x)=3x^2 for a general x.",
+      "options": {
+        "A": "3x",
+        "B": "6x",
+        "C": "9x^2",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "answer": "6x",
+      "explanation": "Apply the limit: f(x+h)=3(x+h)^2=3(x^2+2xh+h^2). Then [f(x+h)-f(x)]/h = [3(2xh+h^2)]/h = 6x+3h. Taking h→0 gives 6x. Thus option B is correct; the other options result from algebraic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Which of the following functions has the greatest derivative value at x = 1?",
+      "options": {
+        "A": "f(x)=x^3",
+        "B": "g(x)=2x^2",
+        "C": "h(x)=e^x",
+        "D": "k(x)=ln(x+1)"
+      },
+      "correct_option": "B",
+      "answer": "g(x)=2x^2",
+      "explanation": "Compute derivatives at x=1: f'(x)=3x^2 → f'(1)=3; g'(x)=4x → g'(1)=4; h'(x)=e^x → h'(1)=e≈2.718; k'(x)=1/(x+1) → k'(1)=0.5. The largest is 4 for g(x), so option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A car's position along a straight road is given by s(t)=t^3-6t^2+9t (meters), where t is in seconds. What is the car's instantaneous velocity at t = 2 seconds?",
+      "options": {
+        "A": "-3 m/s",
+        "B": "0 m/s",
+        "C": "3 m/s",
+        "D": "6 m/s"
+      },
+      "correct_option": "A",
+      "answer": "-3 m/s",
+      "explanation": "Velocity is the derivative of position: v(t)=ds/dt=3t^2-12t+9. Substituting t=2 gives v(2)=3·4-24+9=12-24+9=-3 m/s. Hence option A is correct; the other options arise from sign or arithmetic mistakes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "In calculus, the derivative of a function at a point is best described as:",
+      "options": {
+        "A": "The instantaneous rate of change of the function with respect to its variable",
+        "B": "The average value of the function over an interval",
+        "C": "The maximum value of the function",
+        "D": "The integral of the function"
+      },
+      "correct_option": "A",
+      "answer": "The instantaneous rate of change of the function with respect to its variable",
+      "explanation": "The derivative measures how fast the function changes at an exact point, i.e., its instantaneous rate of change. Options B, C, D describe different concepts (average value, extremum, integral).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "The slope of the tangent line to the curve y = f(x) at x = a is equal to:",
+      "options": {
+        "A": "f(a)",
+        "B": "f'(a)",
+        "C": "∫ f(x)dx",
+        "D": "a·f(a)"
+      },
+      "correct_option": "B",
+      "answer": "f'(a)",
+      "explanation": "By definition, the derivative f'(a) gives the slope of the tangent to the curve at x = a. Option A is the function value, C is an integral, and D is unrelated.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0041",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Consider the functions f(x)=x^2 and g(x)=x^3. At x = 2, which of the following statements correctly compares their derivatives?",
+      "options": {
+        "A": "f'(2) > g'(2)",
+        "B": "f'(2) = g'(2)",
+        "C": "f'(2) < g'(2)",
+        "D": "The derivatives cannot be compared at x = 2."
+      },
+      "correct_option": "C",
+      "answer": "f'(2) < g'(2)",
+      "explanation": "f'(x)=2x, so f'(2)=4. g'(x)=3x^2, so g'(2)=12. Since 4 < 12, the correct comparison is f'(2) < g'(2). Options A and B are false, and D is incorrect because the derivatives are well‑defined.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A particle moves along a straight line with position s(t)=4t^2 - 3t + 2 meters, where t is in seconds. What is its instantaneous velocity at t = 3 s?",
+      "options": {
+        "A": "9 m/s",
+        "B": "21 m/s",
+        "C": "15 m/s",
+        "D": "27 m/s"
+      },
+      "correct_option": "B",
+      "answer": "21 m/s",
+      "explanation": "Velocity is the derivative of position: v(t)=ds/dt=8t-3. At t=3, v(3)=8·3-3=24-3=21 m/s. The other options result from incorrect differentiation or arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "Which of the following statements best describes the derivative of a function at a point?",
+      "options": {
+        "A": "It gives the instantaneous rate of change of the function with respect to its variable at that point.",
+        "B": "It gives the average value of the function over an interval containing the point.",
+        "C": "It is the same as the function’s second derivative.",
+        "D": "It represents the maximum value of the function."
+      },
+      "correct_option": "A",
+      "answer": "It gives the instantaneous rate of change of the function with respect to its variable at that point.",
+      "explanation": "The derivative measures how fast the function changes at an exact point, i.e., its instantaneous rate of change. Option B describes an average rate, C confuses first and second derivatives, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "For the linear function y = mx + c, what does its derivative dy/dx represent?",
+      "options": {
+        "A": "The constant slope m of the line.",
+        "B": "The y‑intercept c.",
+        "C": "The curvature of the graph.",
+        "D": "The value of y at x = 0."
+      },
+      "correct_option": "A",
+      "answer": "The constant slope m of the line.",
+      "explanation": "Differentiating y = mx + c gives dy/dx = m, a constant equal to the line’s slope. The y‑intercept, curvature, and specific y‑value are not given by the derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Which of the following expressions correctly defines the derivative of f(x) using first principles?",
+      "options": {
+        "A": "f'(x) = lim_{h→0} [f(x+h) - f(x)] / h",
+        "B": "f'(x) = lim_{x→∞} [f(x) / x]",
+        "C": "f'(x) = ∫ f(x) dx",
+        "D": "f'(x) = f(x)·h"
+      },
+      "correct_option": "A",
+      "answer": "f'(x) = lim_{h→0} [f(x+h) - f(x)] / h",
+      "explanation": "The first‑principles (limit) definition of the derivative is the limit of the difference quotient as h approaches zero. Options B, C, and D are unrelated expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Find the derivative of the function f(x)=3x^3 - 5x + 2.",
+      "options": {
+        "A": "9x^2 - 5",
+        "B": "9x^2 + 5",
+        "C": "3x^2 - 5",
+        "D": "9x^2 - 2"
+      },
+      "correct_option": "A",
+      "answer": "9x^2 - 5",
+      "explanation": "Using the power rule, d/dx[3x^3]=9x^2, d/dx[-5x]= -5, and the constant term disappears. Hence f'(x)=9x^2 -5. The other options contain sign or coefficient errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "The temperature of a chemical reaction varies with time as T(t)=2t^2 - 4t + 10 (°C), where t is in minutes. What is the rate of change of temperature at t = 5 min?",
+      "options": {
+        "A": "6 °C/min",
+        "B": "12 °C/min",
+        "C": "16 °C/min",
+        "D": "20 °C/min"
+      },
+      "correct_option": "C",
+      "answer": "16 °C/min",
+      "explanation": "Rate of change is dT/dt = 4t - 4. At t = 5, dT/dt = 4·5 - 4 = 20 - 4 = 16 °C/min. Options A, B, and D result from incorrect substitution or arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "A car travels along a straight road with distance covered s(t)=t^3 - 6t^2 + 9t (km), where t is in hours. At which time(s) is the car’s instantaneous speed zero?",
+      "options": {
+        "A": "t = 0 h",
+        "B": "t = 1 h",
+        "C": "t = 2 h",
+        "D": "t = 1 h and t = 3 h"
+      },
+      "correct_option": "D",
+      "answer": "t = 1 h and t = 3 h",
+      "explanation": "Speed is the derivative: v(t)=ds/dt=3t^2 -12t +9 = 3(t-1)(t-3). Setting v(t)=0 gives t=1 h or t=3 h. Option A gives non‑zero speed, B only one root, C is not a root.",
+      "difficulty": "medium"
+    }
+  ]
+}

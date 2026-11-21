@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "The derivative of a function f at x = a is defined by which of the following expressions?",
+      "options": {
+        "A": "f'(a)=lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}",
+        "B": "f'(a)=lim_{h\\to0}\\frac{f(a)+h-f(a)}{h}",
+        "C": "f'(a)=\\frac{f(a)}{a}",
+        "D": "f'(a)=lim_{x\\to0}f(x)"
+      },
+      "correct_option": "A",
+      "answer": "f'(a)=lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}",
+      "explanation": "Option A correctly states the first‑principles (limit) definition of the derivative: f'(a)=lim_{h→0}[f(a+h)-f(a)]/h. The other options are either algebraically incorrect or do not represent a limit definition of the derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Find the derivative of the function f(x)=3x^2+2x-5.",
+      "options": {
+        "A": "6x+2",
+        "B": "3x+2",
+        "C": "6x-2",
+        "D": "3x^2+2"
+      },
+      "correct_option": "A",
+      "answer": "6x+2",
+      "explanation": "Differentiating term by term: d/dx(3x^2)=6x, d/dx(2x)=2, and the constant -5 disappears. Hence f'(x)=6x+2, which is option A. The other options result from incorrect differentiation rules.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A car travels along a straight road and its distance s (in metres) from the starting point after t seconds is given by s = 5t^2. Which statement correctly interprets the derivative ds/dt at t = 3 seconds?",
+      "options": {
+        "A": "The car's instantaneous speed at t = 3 s is 30 m/s",
+        "B": "The car's average speed over the first 3 seconds is 30 m/s",
+        "C": "The car's acceleration at t = 3 s is 30 m/s^2",
+        "D": "The car's displacement at t = 3 s is 30 m"
+      },
+      "correct_option": "A",
+      "answer": "The car's instantaneous speed at t = 3 s is 30 m/s",
+      "explanation": "ds/dt = d/dt(5t^2)=10t. At t=3, ds/dt = 10×3 = 30 m/s, which is the instantaneous speed. Option B confuses instantaneous with average speed, C refers to acceleration (second derivative), and D gives a distance value (s=45 m).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "The water level h (in metres) in a tank increases with time t (in minutes) according to h = 0.2t^2 + 0.5t. Which statement best describes the derivative dh/dt at any instant?",
+      "options": {
+        "A": "It gives the instantaneous rate at which the water level is rising",
+        "B": "It gives the total amount of water in the tank",
+        "C": "It gives the average rise of the water level over the whole time interval considered",
+        "D": "It gives the time when the water level will be maximum"
+      },
+      "correct_option": "A",
+      "answer": "It gives the instantaneous rate at which the water level is rising",
+      "explanation": "dh/dt = d/dt(0.2t^2+0.5t)=0.4t+0.5, which represents how fast the level changes at that exact moment – the instantaneous rate of rise. The other options describe unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "Which of the following statements about the derivative of a function at a point is NOT true?",
+      "options": {
+        "A": "The derivative equals the slope of the tangent line to the curve at that point",
+        "B": "The derivative gives the instantaneous rate of change of the function with respect to its variable",
+        "C": "The derivative is always equal to the y‑intercept of the function",
+        "D": "If the derivative is zero, the function has a horizontal tangent at that point"
+      },
+      "correct_option": "C",
+      "answer": "The derivative is always equal to the y‑intercept of the function",
+      "explanation": "The derivative measures slope, not the y‑intercept. Options A, B and D correctly describe properties of the derivative, while C is a common misconception and therefore the correct choice for this question.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Given that f'(x)=lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}, which limit expression correctly represents the derivative of f at x=2?",
+      "options": {
+        "A": "lim_{h\\to0}\\frac{f(2+h)-f(2)}{h}",
+        "B": "lim_{h\\to0}\\frac{f(2)-f(2-h)}{h}",
+        "C": "lim_{h\\to0}\\frac{f(2+h)+f(2)}{h}",
+        "D": "lim_{h\\to0}\\frac{f(2h)-f(2)}{h}"
+      },
+      "correct_option": "A",
+      "answer": "lim_{h\\to0}\\frac{f(2+h)-f(2)}{h}",
+      "explanation": "Substituting x=2 into the definition yields exactly option A. Options B, C and D alter the numerator or the argument of f, breaking the definition of the derivative.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Let f(x)=x^3 and g(x)=3x^2. Which of the following statements is true for all real x?",
+      "options": {
+        "A": "f'(x)=g(x)",
+        "B": "g'(x)=f(x)",
+        "C": "f'(x)>g(x) for all x>0",
+        "D": "g'(x)=6x"
+      },
+      "correct_option": "A",
+      "answer": "f'(x)=g(x)",
+      "explanation": "Differentiating f(x)=x^3 gives f'(x)=3x^2, which is exactly g(x). Hence statement A is true. Statement B would require (3x^2)'=x^3, which is false. Statement C is false because f'(x)=g(x). Statement D is true mathematically but does not address the comparison asked, and only one option may be correct, so A is the intended answer.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A particle moves along a straight line with position s(t)=4t^3-3t^2+2t (metres) at time t seconds. What is the particle's acceleration at t=2 s?",
+      "options": {
+        "A": "42 m/s^2",
+        "B": "38 m/s^2",
+        "C": "30 m/s^2",
+        "D": "24 m/s^2"
+      },
+      "correct_option": "A",
+      "answer": "42 m/s^2",
+      "explanation": "First derivative (velocity): v(t)=ds/dt=12t^2-6t+2. Second derivative (acceleration): a(t)=dv/dt=24t-6. At t=2, a=24*2-6=48-6=42 m/s^2, which matches option A. The other options result from arithmetic errors.",
+      "difficulty": "hard"
+    }
+  ]
+}

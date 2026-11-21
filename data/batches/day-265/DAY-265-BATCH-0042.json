@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-265-17",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "Which of the following statements correctly describes the relationship between the derivative of a function at a point and the slope of its graph at that point?",
+      "options": {
+        "A": "The derivative equals the y‑coordinate of the point on the curve.",
+        "B": "The derivative equals the slope of the tangent line to the curve at that point.",
+        "C": "The derivative equals the x‑coordinate of the point on the curve.",
+        "D": "The derivative equals the area under the curve up to that point."
+      },
+      "correct_option": "B",
+      "answer": "The derivative equals the slope of the tangent line to the curve at that point.",
+      "explanation": "The derivative f'(a) is defined as the limit of the difference quotient and geometrically represents the slope of the tangent to the curve y=f(x) at x=a. It does not give the y‑coordinate, x‑coordinate, or area under the curve. Hence option B is correct, while the other options describe unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-265-18",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Using the definition f'(x)=lim_{h→0}[f(x+h)-f(x)]/h, find f'(2) for f(x)=3x^2+2x.",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "10",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "14",
+      "explanation": "First find the general derivative: f'(x)=lim_{h→0}[3(x+h)^2+2(x+h)- (3x^2+2x)]/h = lim_{h→0}[6xh+3h^2+2h]/h = 6x+2. Substituting x=2 gives f'(2)=6·2+2=14. Therefore option A is correct; the other numbers result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-265-19",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Consider the functions f(x)=x^3 and g(x)=3x^2. Which statement about their derivatives is true?",
+      "options": {
+        "A": "f'(x)=g(x) for all x",
+        "B": "g'(x)=f(x) for all x",
+        "C": "f'(x)=3x^2 and g'(x)=6x",
+        "D": "f'(x)=3x^2 and g'(x)=3x^2"
+      },
+      "correct_option": "C",
+      "answer": "f'(x)=3x^2 and g'(x)=6x",
+      "explanation": "Differentiating, f'(x)=3x^2. Differentiating g(x)=3x^2 gives g'(x)=6x. Thus option C correctly lists both derivatives. Option A incorrectly equates f' with g, B swaps functions, and D gives the same derivative for both, which is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-265-20",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A car travels such that its distance from the start after t seconds is s(t)=5t^2 meters. What is the instantaneous speed of the car at t=3 seconds?",
+      "options": {
+        "A": "15 m/s",
+        "B": "30 m/s",
+        "C": "45 m/s",
+        "D": "60 m/s"
+      },
+      "correct_option": "B",
+      "answer": "30 m/s",
+      "explanation": "Instantaneous speed is the derivative ds/dt. ds/dt = d/dt(5t^2)=10t. At t=3, speed =10·3=30 m/s. Hence option B is correct; the other options correspond to incorrect multiplication or forgetting the factor 10.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-265-21",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "In calculus, the derivative of a function at a point represents:",
+      "options": {
+        "A": "the instantaneous rate of change of the function with respect to its variable",
+        "B": "the average value of the function over a small interval",
+        "C": "the maximum value attained by the function",
+        "D": "the integral of the function from the origin"
+      },
+      "correct_option": "A",
+      "answer": "the instantaneous rate of change of the function with respect to its variable",
+      "explanation": "The derivative f'(a) measures how rapidly f changes at the exact point a, i.e., the instantaneous rate of change. It is not an average value, a maximum, or an integral, so options B, C, D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-265-22",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "The slope of the tangent line to the curve y = f(x) at x = a is equal to:",
+      "options": {
+        "A": "f(a)",
+        "B": "f'(a)",
+        "C": "∫_0^a f(x)dx",
+        "D": "f''(a)"
+      },
+      "correct_option": "B",
+      "answer": "f'(a)",
+      "explanation": "By definition, the slope of the tangent at x = a is the derivative f'(a). f(a) is the function value, the integral gives area, and f''(a) is the curvature (second derivative). Hence only option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-265-23",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Which of the following correctly distinguishes the derivative from the process of differentiation?",
+      "options": {
+        "A": "The derivative is the limit definition; differentiation is applying rules to compute it.",
+        "B": "The derivative is the function itself; differentiation finds its integral.",
+        "C": "The derivative exists only for polynomials; differentiation works for all functions.",
+        "D": "There is no distinction; the terms are synonymous."
+      },
+      "correct_option": "A",
+      "answer": "The derivative is the limit definition; differentiation is applying rules to compute it.",
+      "explanation": "The derivative at a point is defined as a limit of the difference quotient. Differentiation refers to the set of techniques (rules) used to find that derivative efficiently. Options B, C, and D misstate the concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-265-24",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Find the derivative of f(x)=4x^3-5x+7.",
+      "options": {
+        "A": "12x^2-5",
+        "B": "12x^2+5",
+        "C": "12x^2-5x",
+        "D": "12x^2-5x+7"
+      },
+      "correct_option": "A",
+      "answer": "12x^2-5",
+      "explanation": "Differentiate term by term: d/dx(4x^3)=12x^2, d/dx(-5x)=-5, d/dx(7)=0. Hence f'(x)=12x^2-5, which is option A. The other options contain sign or extra terms errors.",
+      "difficulty": "easy"
+    }
+  ]
+}

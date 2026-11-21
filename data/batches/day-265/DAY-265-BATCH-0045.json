@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "Which of the following best describes the derivative of a function at a point?",
+      "options": {
+        "A": "The average rate of change over an interval",
+        "B": "The instantaneous rate of change at that point",
+        "C": "The maximum value of the function",
+        "D": "The area under the curve"
+      },
+      "correct_option": "B",
+      "answer": "The instantaneous rate of change at that point",
+      "explanation": "The derivative gives the instantaneous rate of change of the function at a specific point, i.e., how the function value is changing at that exact instant. It is not an average over an interval, nor does it represent the function's maximum value or the area under the curve.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "The derivative of y = f(x) at x = a corresponds to which geometric quantity of the graph y = f(x) at the point (a, f(a))?",
+      "options": {
+        "A": "y-intercept of the graph",
+        "B": "Slope of the tangent line at that point",
+        "C": "Curvature of the graph at that point",
+        "D": "x-intercept of the graph"
+      },
+      "correct_option": "B",
+      "answer": "Slope of the tangent line at that point",
+      "explanation": "The derivative at a point equals the slope of the tangent to the curve at that point. The y‑intercept and x‑intercept are fixed points of the graph, and curvature involves second derivatives, not the first derivative alone.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "The derivative f'(x) defined by the limit \\([f(x+h)-f(x)]/h\\) as \\(h\\to0\\) is called the derivative from first principles. Which statement is true about this definition?",
+      "options": {
+        "A": "It gives the average rate of change over a finite interval",
+        "B": "It requires the function to be continuous at x",
+        "C": "It provides the instantaneous rate of change at x",
+        "D": "It is applicable only to polynomial functions"
+      },
+      "correct_option": "C",
+      "answer": "It provides the instantaneous rate of change at x",
+      "explanation": "The limit of the difference quotient as h approaches zero yields the instantaneous rate of change (the derivative). Continuity is necessary but not sufficient, and the definition applies to any function for which the limit exists, not just polynomials.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "What is the derivative of \\(f(x)=3x^{2}+2x-5\\) with respect to x?",
+      "options": {
+        "A": "6x+2",
+        "B": "3x+2",
+        "C": "6x-2",
+        "D": "3x^{2}+2"
+      },
+      "correct_option": "A",
+      "answer": "6x+2",
+      "explanation": "Differentiate term by term: d/dx(3x^2)=6x, d/dx(2x)=2, and the constant -5 differentiates to 0. Adding gives 6x+2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A car's distance s (in meters) from a point after t seconds is given by \\(s = 5t^{2}\\). What does the derivative \\(ds/dt\\) represent at \\(t = 3\\) seconds?",
+      "options": {
+        "A": "The car's instantaneous speed at t = 3 seconds",
+        "B": "The total distance traveled up to t = 3 seconds",
+        "C": "The acceleration of the car",
+        "D": "The average speed from t = 0 to t = 3 seconds"
+      },
+      "correct_option": "A",
+      "answer": "The car's instantaneous speed at t = 3 seconds",
+      "explanation": "ds/dt = 10t, so at t = 3 s the rate is 30 m/s, which is the instantaneous speed. Total distance is s(3)=45 m, acceleration would be the derivative of speed, and average speed over the interval is s(3)/3 = 15 m/s.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "If a population P(t)=100e^{0.05t} (t in years), what does the derivative \\(dP/dt\\) represent?",
+      "options": {
+        "A": "The total population at time t",
+        "B": "The instantaneous rate at which the population is changing at time t",
+        "C": "The average population over the first t years",
+        "D": "The time when the population reaches 200"
+      },
+      "correct_option": "B",
+      "answer": "The instantaneous rate at which the population is changing at time t",
+      "explanation": "dP/dt = 100·0.05·e^{0.05t}=5e^{0.05t}, which gives the instantaneous growth rate of the population at any time t. It is not the total population, an average, or a specific time value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "A student claims that the derivative of \\(y = x^{2}\\) at \\(x = 2\\) is equal to the y‑coordinate of the point on the curve, i.e., 4. Which statement correctly addresses this claim?",
+      "options": {
+        "A": "The claim is correct because the derivative always equals the function value",
+        "B": "The claim is incorrect; the derivative at x=2 is 4, which coincidentally equals the y‑coordinate",
+        "C": "The claim is incorrect; the derivative at x=2 is 2, not 4",
+        "D": "The claim is irrelevant because derivatives are not defined for quadratic functions"
+      },
+      "correct_option": "B",
+      "answer": "The claim is incorrect; the derivative at x=2 is 4, which coincidentally equals the y‑coordinate",
+      "explanation": "For y = x^2, the derivative is dy/dx = 2x. At x = 2, dy/dx = 4, which happens to match the y‑coordinate (also 4) but this equality is a coincidence, not a general rule. Hence the student's reasoning is flawed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Using the definition \\(f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}\\), what is the derivative of \\(f(x)=x^{2}\\)?",
+      "options": {
+        "A": "2x",
+        "B": "x^{2}",
+        "C": "2",
+        "D": "x"
+      },
+      "correct_option": "A",
+      "answer": "2x",
+      "explanation": "Compute the limit: \\(\\frac{(x+h)^{2}-x^{2}}{h}=\\frac{2xh+h^{2}}{h}=2x+h\\). As \\(h\\to0\\), the expression approaches \\(2x\\). Hence the derivative of \\(x^{2}\\) is \\(2x\\).",
+      "difficulty": "medium"
+    }
+  ]
+}
