@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0060",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "What is the derivative of the constant function f(x) = 7?",
+      "options": {
+        "A": "0",
+        "B": "7",
+        "C": "1",
+        "D": "The derivative does not exist"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "The derivative of any constant function is zero because the rate of change of a constant value with respect to x is nil. Options B and C confuse the constant with its derivative, and D is incorrect because the derivative exists and equals zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "To differentiate g(x) = 3x^4 - 5x + 2, which basic differentiation rule(s) must be applied?",
+      "options": {
+        "A": "Power rule only",
+        "B": "Sum rule only",
+        "C": "Both power rule and sum rule",
+        "D": "Chain rule"
+      },
+      "correct_option": "C",
+      "answer": "Both power rule and sum rule",
+      "explanation": "Each term of g(x) is a simple power of x, so the power rule (d/dx[x^n] = nx^{n-1}) is used for each term. Because the function is a sum of three terms, the sum rule (the derivative of a sum equals the sum of the derivatives) is also required. The chain rule is unnecessary as there is no composition of functions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Which of the following statements about the derivatives of sin x and cos x is true?",
+      "options": {
+        "A": "d/dx(sin x) = cos x and d/dx(cos x) = -sin x",
+        "B": "d/dx(sin x) = -cos x and d/dx(cos x) = sin x",
+        "C": "d/dx(sin x) = cos x and d/dx(cos x) = sin x",
+        "D": "d/dx(sin x) = -sin x and d/dx(cos x) = -cos x"
+      },
+      "correct_option": "A",
+      "answer": "d/dx(sin x) = cos x and d/dx(cos x) = -sin x",
+      "explanation": "The standard differentiation formulas are d/dx(sin x) = cos x and d/dx(cos x) = -sin x. Option A states these correctly. Options B, C, and D give incorrect signs or mix up the functions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "If h(x) = 5x^3 - 4√x + 7, what is h'(x)?",
+      "options": {
+        "A": "15x^2 - 2/√x",
+        "B": "15x^2 - 8/√x",
+        "C": "5x^2 - 2/√x",
+        "D": "15x - 2/√x"
+      },
+      "correct_option": "A",
+      "answer": "15x^2 - 2/√x",
+      "explanation": "Differentiate term by term: d/dx(5x^3)=15x^2, d/dx(-4√x)= -4·(1/(2√x)) = -2/√x, and d/dx(7)=0. Adding gives 15x^2 - 2/√x. Options B, C, and D contain arithmetic or power errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "Find the derivative of f(x) = 4x^5 - 3x^2 + x - 9.",
+      "options": {
+        "A": "20x^4 - 6x + 1",
+        "B": "20x^4 - 6x - 1",
+        "C": "4x^4 - 3x + 1",
+        "D": "5x^4 - 6x + 1"
+      },
+      "correct_option": "A",
+      "answer": "20x^4 - 6x + 1",
+      "explanation": "Apply the power rule to each term: d/dx(4x^5)=20x^4, d/dx(-3x^2)=-6x, d/dx(x)=1, and d/dx(-9)=0. Summing gives 20x^4 - 6x + 1. The other options miscalculate coefficients or omit the constant term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "Which statement correctly describes the derivative of any constant function?",
+      "options": {
+        "A": "It is zero for every value of x.",
+        "B": "It equals the constant itself.",
+        "C": "It is undefined.",
+        "D": "It equals one."
+      },
+      "correct_option": "A",
+      "answer": "It is zero for every value of x.",
+      "explanation": "A constant does not change as x changes, so its rate of change (derivative) is zero everywhere. Options B, C, and D are common misconceptions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "The power rule states that d/dx[x^n] = ___, while the sum rule states that d/dx[f(x)+g(x)] = ___.",
+      "options": {
+        "A": "n·x^{n-1}; f'(x)+g'(x)",
+        "B": "n·x^{n+1}; f'(x)·g'(x)",
+        "C": "n·x^{n-1}; f'(x)·g'(x)",
+        "D": "n·x^{n-1}; f'(x)-g'(x)"
+      },
+      "correct_option": "A",
+      "answer": "n·x^{n-1}; f'(x)+g'(x)",
+      "explanation": "The power rule reduces the exponent by one and multiplies by the original exponent. The sum rule says the derivative of a sum is the sum of the derivatives. Options B, C, and D mix up the operations or give incorrect forms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Find the derivative of y = sin(2x) at x = π/4.",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "-2",
+        "D": "√2"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "First differentiate: dy/dx = 2·cos(2x) by the chain rule. At x = π/4, 2x = π/2, and cos(π/2) = 0, so dy/dx = 2·0 = 0. The other options result from forgetting the cosine value or the chain factor.",
+      "difficulty": "easy"
+    }
+  ]
+}

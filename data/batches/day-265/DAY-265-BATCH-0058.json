@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0058",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "What is the derivative of the polynomial function f(x)=3x^4-5x^2+7?",
+      "options": {
+        "A": "12x^3-10x",
+        "B": "12x^3-5x",
+        "C": "3x^3-10x",
+        "D": "12x^4-10x^2"
+      },
+      "correct_option": "A",
+      "answer": "12x^3-10x",
+      "explanation": "Using the power rule, d/dx[x^n]=n x^{n-1}. For 3x^4 the derivative is 3*4x^{3}=12x^3; for -5x^2 it is -5*2x^{1}=-10x; the constant 7 differentiates to 0. Hence f'(x)=12x^3-10x. Options B, C, and D either misuse the coefficient or the exponent, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "If f(x)=9 for all x, what is the derivative f'(x)?",
+      "options": {
+        "A": "9",
+        "B": "0",
+        "C": "Undefined",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "answer": "0",
+      "explanation": "The derivative measures the rate of change. A constant function does not change, so its rate of change is zero. Therefore f'(x)=0. Options A and D give non‑zero values, and D is the derivative of x, not a constant. Option C is incorrect because the derivative of a constant exists and equals zero.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "Which statement correctly expresses the power rule for differentiation?",
+      "options": {
+        "A": "If f(x)=x^n, then f'(x)=n x^{n-1}",
+        "B": "If f(x)=x^n, then f'(x)=x^{n+1}",
+        "C": "If f(x)=x^n, then f'(x)=n x^{n}",
+        "D": "If f(x)=x^n, then f'(x)=n"
+      },
+      "correct_option": "A",
+      "answer": "If f(x)=x^n, then f'(x)=n x^{n-1}",
+      "explanation": "The power rule states that the derivative of x raised to a constant power n is n times x to the (n‑1) power. Option B adds 1 to the exponent, which is incorrect. Option C keeps the same exponent, and Option D omits the variable factor, both wrong.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Find the derivative of h(x)=sin x + cos x.",
+      "options": {
+        "A": "cos x - sin x",
+        "B": "-cos x + sin x",
+        "C": "cos x + sin x",
+        "D": "-sin x - cos x"
+      },
+      "correct_option": "A",
+      "answer": "cos x - sin x",
+      "explanation": "The derivative of sin x is cos x and the derivative of cos x is -sin x. Adding them gives cos x - sin x. Options B, C, and D either swap signs or add instead of subtract, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "Given f(x)=2x^3-4x+5, what is f'(x)?",
+      "options": {
+        "A": "6x^2-4",
+        "B": "6x^2+4",
+        "C": "2x^3-4",
+        "D": "6x^2-5"
+      },
+      "correct_option": "A",
+      "answer": "6x^2-4",
+      "explanation": "Differentiate each term: d/dx[2x^3]=6x^2, d/dx[-4x]=-4, and the constant 5 becomes 0. Hence f'(x)=6x^2-4. Option B has the wrong sign for the linear term, C fails to differentiate, and D has an incorrect constant term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "A particle moves along a line with distance s(t)=5t^3-2t^2+3t meters from the origin at time t seconds. What is its velocity at t=2 seconds?",
+      "options": {
+        "A": "55 m/s",
+        "B": "59 m/s",
+        "C": "51 m/s",
+        "D": "45 m/s"
+      },
+      "correct_option": "A",
+      "answer": "55 m/s",
+      "explanation": "Velocity is the derivative of distance: v(t)=ds/dt=15t^2-4t+3. Substituting t=2 gives v(2)=15(4)-8+3=60-8+3=55 m/s. The other options result from arithmetic errors in evaluating the derivative or substituting the value of t.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "Which of the following statements about the derivative of the constant function f(x)=7 is correct?",
+      "options": {
+        "A": "The derivative is 7",
+        "B": "The derivative is 0",
+        "C": "The derivative is undefined",
+        "D": "The derivative is 1"
+      },
+      "correct_option": "B",
+      "answer": "The derivative is 0",
+      "explanation": "A constant does not change, so its rate of change is zero; therefore f'(x)=0. Option A mistakenly treats the constant as unchanged after differentiation. Option C is false because the derivative exists, and Option D is the derivative of x, not a constant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "To differentiate g(x) = (3x^2)(sin x), which differentiation rule should be applied first?",
+      "options": {
+        "A": "Product rule",
+        "B": "Quotient rule",
+        "C": "Chain rule",
+        "D": "Power rule"
+      },
+      "correct_option": "A",
+      "answer": "Product rule",
+      "explanation": "g(x) is the product of two functions, 3x^2 and sin x. The appropriate rule is the product rule: (uv)' = u'v + uv'. The quotient rule applies to ratios, the chain rule to compositions, and the power rule to single power functions, none of which directly handle a product of two distinct functions.",
+      "difficulty": "medium"
+    }
+  ]
+}

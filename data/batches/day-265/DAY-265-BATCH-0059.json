@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0059",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "At x = \\(\\pi/4\\), compare the values of the derivatives of \\(\\sin x\\) and \\(\\cos x\\). Which statement is correct?",
+      "options": {
+        "A": "\\(\\frac{d}{dx}\\sin x > \\frac{d}{dx}\\cos x\\)",
+        "B": "\\(\\frac{d}{dx}\\sin x < \\frac{d}{dx}\\cos x\\)",
+        "C": "Both derivatives are equal",
+        "D": "Both derivatives are zero"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{d}{dx}\\sin x > \\frac{d}{dx}\\cos x\\)",
+      "explanation": "\\(\\frac{d}{dx}\\sin x = \\cos x\\) and \\(\\frac{d}{dx}\\cos x = -\\sin x\\). At \\(x=\\pi/4\\), \\(\\cos(\\pi/4)=\\sin(\\pi/4)=\\sqrt{2}/2\\). Hence \\(\\frac{d}{dx}\\sin x = \\sqrt{2}/2\\) and \\(\\frac{d}{dx}\\cos x = -\\sqrt{2}/2\\). The derivative of \\(\\sin x\\) is greater, so option A is correct. The other options are false because the derivatives are not equal, not both zero, and the inequality is opposite in B.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "Let \\(f(x)=3\\sin x+4\\cos x-5\\tan x\\). Find \\(f'(\\pi/6)\\).",
+      "options": {
+        "A": "\\(\\frac{9\\sqrt{3}-52}{6}\\)",
+        "B": "\\(\\frac{9\\sqrt{3}+52}{6}\\)",
+        "C": "\\(\\frac{9\\sqrt{3}-40}{6}\\)",
+        "D": "\\(\\frac{9\\sqrt{3}+40}{6}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{9\\sqrt{3}-52}{6}\\)",
+      "explanation": "Using derivative rules: \\(f'(x)=3\\cos x-4\\sin x-5\\sec^2 x\\). At \\(x=\\pi/6\\), \\(\\cos(\\pi/6)=\\sqrt{3}/2\\), \\(\\sin(\\pi/6)=1/2\\), \\(\\sec^2(\\pi/6)=1/\\cos^2(\\pi/6)=4/3\\). Substituting gives \\(f'(\\pi/6)=3(\\sqrt{3}/2)-4(1/2)-5(4/3)=\\frac{3\\sqrt{3}}{2}-2-\\frac{20}{3}=\\frac{9\\sqrt{3}-52}{6}\\). Hence option A is correct; the other options alter signs or constants incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "What is the derivative of the polynomial \\(f(x)=2x^{3}-5x+7\\)?",
+      "options": {
+        "A": "6x^{2}-5",
+        "B": "6x^{2}+5",
+        "C": "6x^{2}-5x",
+        "D": "2x^{3}-5"
+      },
+      "correct_option": "A",
+      "answer": "6x^{2}-5",
+      "explanation": "Apply the power rule term‑by‑term: \\(d/dx[2x^{3}]=6x^{2}\\), \\(d/dx[-5x]=-5\\), and the constant 7 differentiates to 0. Adding gives \\(6x^{2}-5\\). Options B, C, and D either change the sign of the constant, retain an extra \\(x\\) factor, or fail to differentiate.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "If \\(g(x) = -9\\) for all \\(x\\), what is \\(g'(x)\\)?",
+      "options": {
+        "A": "-9",
+        "B": "0",
+        "C": "1",
+        "D": "Undefined"
+      },
+      "correct_option": "B",
+      "answer": "0",
+      "explanation": "The derivative of any constant function is zero because the rate of change of a constant value is nil. Hence \\(g'(x)=0\\). Options A and C give non‑zero values, and D is incorrect because the derivative exists and equals zero.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "Which statement correctly distinguishes the power rule from the constant multiple rule?",
+      "options": {
+        "A": "Power rule: \\(d/dx[x^{n}] = n x^{n-1}\\); Constant multiple rule: \\(d/dx[c\\,f(x)] = c\\,f'(x)\\).",
+        "B": "Power rule: \\(d/dx[c\\,x^{n}] = c n x^{n-1}\\); Constant multiple rule: \\(d/dx[x^{n}] = n x^{n-1}\\).",
+        "C": "Power rule applies only to trigonometric functions; constant multiple rule applies only to polynomials.",
+        "D": "Both rules state that the derivative of any function is the function itself multiplied by its exponent."
+      },
+      "correct_option": "A",
+      "answer": "Power rule: \\(d/dx[x^{n}] = n x^{n-1}\\); Constant multiple rule: \\(d/dx[c\\,f(x)] = c\\,f'(x)\\).",
+      "explanation": "The power rule gives the derivative of a pure power of \\(x\\). The constant multiple rule allows a constant factor to be taken outside the differentiation. Option A states both correctly. Option B swaps the definitions, C is false, and D misstates the rules.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Find \\(\\frac{d}{dx}[5\\sin x-3\\cos x]\\) evaluated at \\(x=0\\).",
+      "options": {
+        "A": "5",
+        "B": "-5",
+        "C": "0",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "Derivative: \\(5\\cos x +3\\sin x\\). At \\(x=0\\), \\(\\cos0=1\\) and \\(\\sin0=0\\), giving \\(5\\times1+3\\times0=5\\). Options B, C, D give incorrect signs or omit the sine term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "If \\(p(x)= (x^{4}-2x^{3}) + (5x-7)\\), what is \\(p'(x)\\)?",
+      "options": {
+        "A": "4x^{3}-6x^{2}+5",
+        "B": "4x^{3}-6x^{2}-5",
+        "C": "4x^{3}+5",
+        "D": "x^{4}-2x^{3}+5x-7"
+      },
+      "correct_option": "A",
+      "answer": "4x^{3}-6x^{2}+5",
+      "explanation": "Differentiate each term: \\(d/dx[x^{4}]=4x^{3}\\), \\(d/dx[-2x^{3}]=-6x^{2}\\), \\(d/dx[5x]=5\\), constant \\(-7\\) gives 0. Summing yields \\(4x^{3}-6x^{2}+5\\). Options B changes the sign of the constant, C omits the \\(-6x^{2}\\) term, D is the original function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "A particle’s position is given by \\(s(t)=3t^{4}-8t^{2}+6\\) metres. What is its instantaneous velocity at \\(t=2\\) seconds?",
+      "options": {
+        "A": "64 m/s",
+        "B": "48 m/s",
+        "C": "32 m/s",
+        "D": "0 m/s"
+      },
+      "correct_option": "A",
+      "answer": "64 m/s",
+      "explanation": "Velocity is the derivative of position: \\(v(t)=ds/dt=12t^{3}-16t\\). At \\(t=2\\), \\(v(2)=12(8)-16(2)=96-32=64\\) m/s. Options B, C, D are incorrect values obtained by arithmetic errors or omitting terms.",
+      "difficulty": "medium"
+    }
+  ]
+}
