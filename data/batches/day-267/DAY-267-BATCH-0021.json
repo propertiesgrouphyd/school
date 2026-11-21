@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "For the data set {2, 4, 4, 4, 5, 5, 7, 9}, what is the standard deviation (population)?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "answer": "2",
+      "explanation": "First find the mean: (2+4+4+4+5+5+7+9)=40, mean=40/8=5. Compute squared deviations: (2-5)^2=9, (4-5)^2=1 (three times), (5-5)^2=0 (two times), (7-5)^2=4, (9-5)^2=16. Sum = 9+1+1+1+0+0+4+16 = 32. Population variance = 32/8 = 4. Standard deviation is the positive square root of variance, √4 = 2. Hence option A is correct. The other options either give the variance itself or unrelated values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Data Set A: 10, 12, 14, 16, 18. Data Set B: 14, 14, 14, 14, 14. Which data set has the greater spread as indicated by its standard deviation?",
+      "options": {
+        "A": "Data Set A",
+        "B": "Data Set B",
+        "C": "Both have the same spread",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Data Set A",
+      "explanation": "For Data Set A, mean = 14. Squared deviations: (−4)^2, (−2)^2, 0^2, 2^2, 4^2 = 16+4+0+4+16 = 40. Variance = 40/5 = 8, so standard deviation = √8 ≈ 2.83. For Data Set B, all values equal the mean, so variance = 0 and standard deviation = 0. A larger standard deviation means greater spread, so Data Set A is more spread out. Options B, C, D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "If a set of measurements is recorded in meters, what are the units of its standard deviation?",
+      "options": {
+        "A": "meters",
+        "B": "square meters",
+        "C": "seconds",
+        "D": "kilograms"
+      },
+      "correct_option": "A",
+      "answer": "meters",
+      "explanation": "Standard deviation is the square root of variance. Variance has units squared (m²), so taking the square root returns the original unit, meters. Hence option A is correct. Square meters would be the unit of variance, not standard deviation. Seconds and kilograms are unrelated units.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Two classes took the same exam. Class X scores: 78, 80, 82, 84, 86. Class Y scores: 60, 70, 80, 90, 100. Which class shows more consistent performance?",
+      "options": {
+        "A": "Class X",
+        "B": "Class Y",
+        "C": "Both are equally consistent",
+        "D": "Consistency cannot be judged from the given data"
+      },
+      "correct_option": "A",
+      "answer": "Class X",
+      "explanation": "Consistency is indicated by a smaller standard deviation. For Class X, mean = 80, deviations are –2,0,2,4,6 → squared deviations sum = 4+0+4+16+36 = 60, variance = 60/5 = 12, sd ≈ 3.46. For Class Y, mean = 80, deviations –20,–10,0,10,20 → squares 400+100+0+100+400 = 1000, variance = 1000/5 = 200, sd ≈ 14.14. Since Class X has a much smaller sd, its scores are more tightly clustered, indicating higher consistency. Therefore option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "Standard deviation is defined as:",
+      "options": {
+        "A": "The positive square root of variance",
+        "B": "The square of the variance",
+        "C": "The arithmetic mean of the data",
+        "D": "The range of the data set"
+      },
+      "correct_option": "A",
+      "answer": "The positive square root of variance",
+      "explanation": "By definition, standard deviation = √(variance). It measures the average distance of data points from the mean. Options B, C, and D describe other concepts (variance squared, mean, and range) and are therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "Find the population standard deviation of the data set {3, 7, 7, 7, 11}. (Round to two decimal places.)",
+      "options": {
+        "A": "2.53",
+        "B": "4.00",
+        "C": "6.40",
+        "D": "8.00"
+      },
+      "correct_option": "A",
+      "answer": "2.53",
+      "explanation": "Mean = (3+7+7+7+11)/5 = 35/5 = 7. Squared deviations: (3‑7)²=16, (7‑7)²=0 (three times), (11‑7)²=16. Sum = 16+0+0+0+16 = 32. Variance = 32/5 = 6.4. Standard deviation = √6.4 ≈ 2.5298, which rounds to 2.53. Option A matches this value; the others are either the variance or unrelated numbers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Which statement correctly distinguishes two data sets based on their standard deviations?",
+      "options": {
+        "A": "The set with the larger standard deviation is more spread out.",
+        "B": "The set with the larger standard deviation is less spread out.",
+        "C": "Standard deviation does not provide any information about spread.",
+        "D": "Standard deviation is always equal to the mean of the data."
+      },
+      "correct_option": "A",
+      "answer": "The set with the larger standard deviation is more spread out.",
+      "explanation": "A larger standard deviation indicates that data points deviate more from the mean, meaning the data are more dispersed. Hence option A is correct. Option B reverses the relationship, option C ignores the purpose of standard deviation, and option D confuses it with the mean.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "The heights of a group of plants are measured in centimeters. In which unit will the standard deviation of these heights be expressed?",
+      "options": {
+        "A": "centimeters",
+        "B": "square centimeters",
+        "C": "meters",
+        "D": "kilograms"
+      },
+      "correct_option": "A",
+      "answer": "centimeters",
+      "explanation": "Since standard deviation is the square root of variance, its unit is the same as the original measurement. The original data are in centimeters, so the standard deviation is also in centimeters. Square centimeters would be the unit of variance, while meters and kilograms are unrelated.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Which statement correctly describes how standard deviation is used to compare the spread of two data sets?",
+      "options": {
+        "A": "The data set with the larger mean always has the larger spread.",
+        "B": "The data set with the larger standard deviation has the greater spread.",
+        "C": "The data set with the smaller range has the larger spread.",
+        "D": "Standard deviation cannot be used to compare spreads of data sets."
+      },
+      "correct_option": "B",
+      "answer": "The data set with the larger standard deviation has the greater spread.",
+      "explanation": "Standard deviation measures the average distance of data points from the mean. A larger standard deviation indicates that the values are more widely dispersed, i.e., the data set has a greater spread. Hence option B is correct. Option A confuses mean with spread, option C misinterprets range, and option D is false because standard deviation is a standard measure of spread.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "If a set of lengths is recorded in centimeters, what will be the unit of its standard deviation?",
+      "options": {
+        "A": "cm²",
+        "B": "cm",
+        "C": "cm³",
+        "D": "unitless"
+      },
+      "correct_option": "B",
+      "answer": "cm",
+      "explanation": "Standard deviation is the square root of variance. Since variance has the square of the original unit (cm²), taking the square root returns the original unit, centimeters. Therefore the standard deviation is expressed in cm. Options A and C are units of area and volume, and D is incorrect because the measure retains the original unit.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Data Set A: 5, 7, 9, 11, 13. Data Set B: 2, 8, 9, 10, 20. Which set shows greater consistency (i.e., less spread) based on standard deviation?",
+      "options": {
+        "A": "Data Set A",
+        "B": "Data Set B",
+        "C": "Both sets have equal consistency",
+        "D": "Consistency cannot be judged without the mean"
+      },
+      "correct_option": "A",
+      "answer": "Data Set A",
+      "explanation": "Data Set A values are evenly spaced around the mean (9) and have a relatively small standard deviation. Data Set B contains values far from the mean (2 and 20), giving it a larger standard deviation. Hence Data Set A is more consistent. Option B is opposite, C is false, and D is unnecessary because standard deviation already accounts for the mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "A teacher says, “Standard deviation is the positive square root of variance.” Which of the following best defines standard deviation?",
+      "options": {
+        "A": "The average of all data values",
+        "B": "The square root of the sum of the squared data values",
+        "C": "The positive square root of the variance of the data set",
+        "D": "The difference between the maximum and minimum values"
+      },
+      "correct_option": "C",
+      "answer": "The positive square root of the variance of the data set",
+      "explanation": "By definition, variance is the average of the squared deviations from the mean. The standard deviation is the positive square root of this variance, giving a measure in the same unit as the original data. Options A, B, and D describe other concepts (mean, sum of squares, range).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "For a sample of 5 observations, a student computes the standard deviation by dividing the sum of squared deviations from the mean by 5 and then taking the square root. Is this procedure correct?",
+      "options": {
+        "A": "True, because the divisor is always the number of observations",
+        "B": "False, because the sum of squared deviations should be divided by (n‑1) for a sample",
+        "C": "False, because the square root must be taken before dividing",
+        "D": "True, because variance uses n as the divisor"
+      },
+      "correct_option": "B",
+      "answer": "False, because the sum of squared deviations should be divided by (n‑1) for a sample",
+      "explanation": "When calculating the sample standard deviation, the unbiased estimator of variance uses n‑1 (degrees of freedom) as the divisor. Dividing by n gives the population variance, not the sample variance. Hence option B is correct. Options A and D ignore the n‑1 correction, and C reverses the order of operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Two data sets have the same mean, but Set X has a standard deviation of 4 and Set Y has a standard deviation of 1. Which statement is true?",
+      "options": {
+        "A": "Set X’s data points are more clustered around the mean than Set Y’s",
+        "B": "Set Y’s data points are more dispersed than Set X’s",
+        "C": "Set X exhibits greater variability than Set Y",
+        "D": "Both sets have identical variability because their means are equal"
+      },
+      "correct_option": "C",
+      "answer": "Set X exhibits greater variability than Set Y",
+      "explanation": "A larger standard deviation indicates greater variability (more spread) around the mean. Therefore Set X, with SD = 4, is more variable than Set Y, with SD = 1. Options A and B invert the relationship, and D incorrectly assumes mean equality implies equal spread.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "Data set P is measured in kilograms and has a standard deviation of 2 kg. Data set Q is measured in grams and has a standard deviation of 1500 g. Which statement correctly compares their spreads?",
+      "options": {
+        "A": "Data set P has the larger spread because 2 kg (2000 g) > 1500 g",
+        "B": "Data set Q has the larger spread because 1500 g > 2 kg",
+        "C": "Both data sets have the same spread after unit conversion",
+        "D": "The spreads cannot be compared because the units differ"
+      },
+      "correct_option": "A",
+      "answer": "Data set P has the larger spread because 2 kg (2000 g) > 1500 g",
+      "explanation": "To compare spreads, convert to the same unit. 2 kg equals 2000 g, which is greater than 1500 g, so Data set P is more spread out. Option B reverses the conversion, C is false, and D ignores the possibility of unit conversion.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "In a competitive exam, two groups of measurements are reported. Group A has a standard deviation of 1.2 cm, while Group B has a standard deviation of 3.5 cm. Which interpretation is correct?",
+      "options": {
+        "A": "Group A is more consistent (less spread) than Group B",
+        "B": "Group B is more consistent (less spread) than Group A",
+        "C": "Both groups are equally consistent because they measure the same quantity",
+        "D": "Consistency cannot be inferred from standard deviation"
+      },
+      "correct_option": "A",
+      "answer": "Group A is more consistent (less spread) than Group B",
+      "explanation": "A smaller standard deviation indicates that the data points are closer to the mean, reflecting higher consistency. Hence Group A, with SD = 1.2 cm, is more consistent than Group B, which has SD = 3.5 cm. Options B, C, and D are incorrect for the reasons stated.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Two sets of test scores are given:\n\nSet A: 50, 52, 48, 51\nSet B: 30, 70, 20, 80\nBoth sets have almost the same mean. Which set shows greater consistency (i.e., less spread) in the scores?",
+      "options": {
+        "A": "Set A",
+        "B": "Set B",
+        "C": "Both sets have equal consistency",
+        "D": "Cannot be determined without calculating standard deviation"
+      },
+      "correct_option": "A",
+      "answer": "Set A",
+      "explanation": "Consistency refers to how close the data points are to each other. Set A values are clustered around the mean (50‑52), while Set B values are far apart (20‑80). Hence Set A has less spread and is more consistent. Options B and C are incorrect because the spread is clearly larger in Set B, and we can infer the relative consistency without exact calculation. Option D is unnecessary because the observation is evident.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "A school principal wants to know, \"On average, how far do the students' marks deviate from the class mean?\" Which statistical term best describes the positive square root of the variance that answers this question?",
+      "options": {
+        "A": "Mean deviation",
+        "B": "Standard deviation",
+        "C": "Range",
+        "D": "Interquartile range"
+      },
+      "correct_option": "B",
+      "answer": "Standard deviation",
+      "explanation": "Standard deviation is defined as the positive square root of the variance and measures the average distance of data points from the mean. Mean deviation also measures average distance but is not the square root of variance. Range and interquartile range describe spread differently and are not square roots of variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "For the data set {4, 8, 6, 10}, the mean is 7. A student computes the variance as 5 and then writes the standard deviation as 5. Which statement explains the mistake?",
+      "options": {
+        "A": "The student added the deviations instead of squaring them.",
+        "B": "The student forgot to divide the sum of squared deviations by the number of observations.",
+        "C": "The student omitted taking the square root of the variance.",
+        "D": "The student used the sample formula (n‑1) instead of the population formula."
+      },
+      "correct_option": "C",
+      "answer": "The student omitted taking the square root of the variance.",
+      "explanation": "Standard deviation is the positive square root of variance. The variance for the set is 5, so the standard deviation is √5 ≈ 2.24, not 5. Option C correctly identifies the missing square‑root step. Options A and B describe different errors, and option D is irrelevant because the population formula was used correctly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Data Set X = {12, 14, 16, 18} and Data Set Y = {10, 15, 20, 25}. Which statement is true regarding their standard deviations?",
+      "options": {
+        "A": "Both sets have the same standard deviation because they contain four numbers each.",
+        "B": "Set X has a larger standard deviation because its numbers are closer to each other.",
+        "C": "Set Y has a larger standard deviation because its values are more widely spread.",
+        "D": "Standard deviation cannot be compared without knowing the mean of each set."
+      },
+      "correct_option": "C",
+      "answer": "Set Y has a larger standard deviation because its values are more widely spread.",
+      "explanation": "Standard deviation measures spread. Set X values are tightly clustered (range 6), while Set Y values range from 10 to 25 (range 15), indicating greater dispersion. Hence Set Y’s standard deviation is larger. Option A is false; the number of observations does not determine standard deviation. Option B incorrectly reverses the relationship. Option D is unnecessary because spread can be inferred from the data.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "The heights of a group of plants are recorded in centimeters (cm). Which of the following correctly states the unit of the standard deviation of these heights?",
+      "options": {
+        "A": "cm² (square centimeters)",
+        "B": "cm (centimeters)",
+        "C": "No unit, it is a dimensionless number",
+        "D": "cm·s⁻¹ (centimeter per second)"
+      },
+      "correct_option": "B",
+      "answer": "cm (centimeters)",
+      "explanation": "Standard deviation has the same unit as the original data because it is the square root of variance (which has squared units). Since the data are in centimeters, the standard deviation is also expressed in centimeters. Option A gives the unit of variance, not standard deviation. Option C is incorrect because the unit is retained. Option D is unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Two classes take the same mathematics test. Both classes have an average score of 65 marks. Class A has a standard deviation of 4 marks, while Class B has a standard deviation of 10 marks. Which of the following statements is most accurate?",
+      "options": {
+        "A": "Class A performed better because a lower standard deviation always indicates higher marks.",
+        "B": "Class B performed better because a higher standard deviation means more students scored above the mean.",
+        "C": "Class A’s scores are more consistent, i.e., most students scored close to 65 marks.",
+        "D": "Both classes have identical performance because they share the same mean."
+      },
+      "correct_option": "C",
+      "answer": "Class A’s scores are more consistent, i.e., most students scored close to 65 marks.",
+      "explanation": "A smaller standard deviation indicates that the data points (scores) are clustered tightly around the mean, showing higher consistency. Hence Class A’s scores are more uniform. Option A incorrectly equates consistency with better performance. Option B misinterprets a larger spread as better performance. Option D ignores the information about spread, which is crucial for interpreting consistency.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "Standard deviation is best defined as:",
+      "options": {
+        "A": "The average of the data values.",
+        "B": "The positive square root of the variance.",
+        "C": "The difference between the maximum and minimum values.",
+        "D": "The sum of the squared deviations from the mean."
+      },
+      "correct_option": "B",
+      "answer": "The positive square root of the variance.",
+      "explanation": "By definition, standard deviation = √(variance), where variance is the average of squared deviations from the mean. Option A describes the mean, Option C describes the range, and Option D describes the numerator used to compute variance, not the standard deviation itself.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "Find the standard deviation of the data set {2, 4, 6, 8}. (Use the population formula.)",
+      "options": {
+        "A": "2",
+        "B": "√5",
+        "C": "4",
+        "D": "√10"
+      },
+      "correct_option": "B",
+      "answer": "√5",
+      "explanation": "Mean = (2+4+6+8)/4 = 5. Deviations: -3, -1, 1, 3. Squares: 9, 1, 1, 9. Sum = 20. Variance = 20/4 = 5. Standard deviation = √5. Option B matches this result. Options A, C, and D are incorrect calculations.",
+      "difficulty": "easy"
+    }
+  ]
+}
