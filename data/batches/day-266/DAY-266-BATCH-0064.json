@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0064",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "Which of the following statements correctly compares the procedure for finding mean deviation in grouped data with that in ungrouped data?",
+      "options": {
+        "A": "In grouped data we use class marks to compute deviations, while in ungrouped data we use the actual data values.",
+        "B": "In grouped data the sum of deviations is divided by (N‑1), whereas for ungrouped data it is divided by N.",
+        "C": "For grouped data the mean deviation is always calculated about the median, not the mean.",
+        "D": "Frequencies are ignored when calculating mean deviation for grouped data."
+      },
+      "correct_option": "A",
+      "answer": "In grouped data we use class marks to compute deviations, while in ungrouped data we use the actual data values.",
+      "explanation": "When data are grouped, each class is represented by its class mark (mid‑point) and the frequency of that class is taken into account. The absolute deviations are computed from these class marks. For ungrouped (raw) data we directly use each observed value. Options B, C and D describe incorrect procedures.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Interpret dispersion measures",
+      "question": "In a competitive exam, the mean score of a class is 68 and the mean deviation about the mean is 4. Which interpretation is most appropriate?",
+      "options": {
+        "A": "Most students scored exactly 68 marks.",
+        "B": "The scores are widely scattered, indicating high variability.",
+        "C": "On average, a student's score deviates from the mean by about 4 marks, showing low variability.",
+        "D": "The median score must be 68 as well."
+      },
+      "correct_option": "C",
+      "answer": "On average, a student's score deviates from the mean by about 4 marks, showing low variability.",
+      "explanation": "Mean deviation measures the average absolute distance of observations from the mean. A value of 4 indicates that, on average, scores are only 4 marks away from 68, which reflects relatively low dispersion. Option A is false because not all scores equal the mean; B contradicts the small deviation; D confuses mean with median.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand range",
+      "question": "What is the definition of the range of a data set?",
+      "options": {
+        "A": "The difference between the maximum and minimum values.",
+        "B": "The average of all the observations.",
+        "C": "The most frequently occurring value.",
+        "D": "The middle value when the data are ordered."
+      },
+      "correct_option": "A",
+      "answer": "The difference between the maximum and minimum values.",
+      "explanation": "Range = Maximum value – Minimum value. It gives a quick measure of the total spread of the data. Options B, C, and D describe mean, mode, and median respectively, not range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "What does the mean deviation of a data set indicate?",
+      "options": {
+        "A": "The average absolute distance of the observations from the mean.",
+        "B": "The square root of the variance.",
+        "C": "The difference between the mean and the median.",
+        "D": "The most common deviation from the mean."
+      },
+      "correct_option": "A",
+      "answer": "The average absolute distance of the observations from the mean.",
+      "explanation": "Mean deviation (also called mean absolute deviation) is calculated as Σ|x‑μ|/N, representing how far, on average, the data points lie from the arithmetic mean. Option B describes standard deviation, C is unrelated, and D is not a standard statistical term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "Which formula correctly gives the mean deviation for ungrouped (raw) data?",
+      "options": {
+        "A": "MD = ( Σ |x_i – μ| ) / N",
+        "B": "MD = ( Σ (x_i – μ)^2 ) / N",
+        "C": "MD = ( Σ |x_i – median| ) / (N‑1)",
+        "D": "MD = ( Σ (x_i – μ) ) / N"
+      },
+      "correct_option": "A",
+      "answer": "MD = ( Σ |x_i – μ| ) / N",
+      "explanation": "For ungrouped data, mean deviation about the mean is the sum of absolute deviations divided by the number of observations (N). Option B is the variance formula, C mixes median and an incorrect denominator, and D omits the absolute value, giving zero.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "The following grouped data represent the number of books read by students:\n\nClass interval (books) | Frequency\n10‑20 | 5\n20‑30 | 8\n30‑40 | 7\n\nWhat is the mean deviation about the mean for this data (rounded to one decimal place)?",
+      "options": {
+        "A": "5.5",
+        "B": "6.3",
+        "C": "7.2",
+        "D": "8.0"
+      },
+      "correct_option": "B",
+      "answer": "6.3",
+      "explanation": "First find class marks: 15, 25, 35. Mean = (5·15 + 8·25 + 7·35)/20 = 26. Absolute deviations: |15‑26|=11, |25‑26|=1, |35‑26|=9. Weighted sum = 5·11 + 8·1 + 7·9 = 126. Mean deviation = 126/20 = 6.3. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Interpret dispersion measures",
+      "question": "Two classes took the same mathematics test and both obtained a mean score of 75.\nClass A has a range of 10 and a mean deviation of 3.\nClass B has a range of 25 and a mean deviation of 9.\nWhich statement correctly interprets the dispersion of scores?",
+      "options": {
+        "A": "Both classes have identical dispersion because their means are equal.",
+        "B": "Class A shows less dispersion than Class B, as indicated by its smaller range and mean deviation.",
+        "C": "Class B has less dispersion because a larger range always means scores are closer together.",
+        "D": "Dispersion cannot be compared without knowing the standard deviation."
+      },
+      "correct_option": "B",
+      "answer": "Class A shows less dispersion than Class B, as indicated by its smaller range and mean deviation.",
+      "explanation": "Dispersion measures such as range and mean deviation quantify spread. Smaller values indicate that observations are clustered nearer to the mean. Class A’s range (10) and mean deviation (3) are both considerably lower than Class B’s (25 and 9), so Class A’s scores are less dispersed. Option A ignores dispersion; C is opposite of the truth; D is unnecessary because the given measures already allow comparison.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand range",
+      "question": "A weather station recorded the following maximum daily temperatures (in °C) over a week: 22, 25, 27, 23, 26, 28, 24. What is the range of these temperatures?",
+      "options": {
+        "A": "4°C",
+        "B": "5°C",
+        "C": "6°C",
+        "D": "7°C"
+      },
+      "correct_option": "C",
+      "answer": "6°C",
+      "explanation": "Range = maximum – minimum. The highest temperature is 28°C and the lowest is 22°C. 28 – 22 = 6°C. Therefore option C is correct. The other options result from incorrect subtraction.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "Which of the following statements about the mean deviation is correct?",
+      "options": {
+        "A": "It is always less than or equal to the standard deviation.",
+        "B": "It is calculated by squaring the deviations from the mean.",
+        "C": "It is obtained by taking the average of the absolute deviations from the mean.",
+        "D": "It is the square root of the variance."
+      },
+      "correct_option": "C",
+      "answer": "It is obtained by taking the average of the absolute deviations from the mean.",
+      "explanation": "Mean deviation (also called mean absolute deviation) is defined as the average of the absolute differences between each observation and the mean. It does not involve squaring deviations (that's variance) nor taking a square root (that's standard deviation). Option C correctly describes the definition, while the other options describe other dispersion measures or are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "For the data set {4, 8, 6, 10, 12}, what is the mean deviation about the mean?",
+      "options": {
+        "A": "2",
+        "B": "2.4",
+        "C": "3",
+        "D": "3.2"
+      },
+      "correct_option": "B",
+      "answer": "2.4",
+      "explanation": "First find the mean: (4+8+6+10+12)/5 = 40/5 = 8. Absolute deviations: |4-8|=4, |8-8|=0, |6-8|=2, |10-8|=2, |12-8|=4. Sum = 12. Mean deviation = 12/5 = 2.4. Hence option B is correct; the other values result from incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "The grouped data are: \nClass 10‑20: f=5, \nClass 20‑30: f=8, \nClass 30‑40: f=7. Using class marks, what is the mean deviation about the mean?",
+      "options": {
+        "A": "5.5",
+        "B": "6.3",
+        "C": "7.0",
+        "D": "8.2"
+      },
+      "correct_option": "B",
+      "answer": "6.3",
+      "explanation": "Class marks are 15, 25, 35. Mean = (15·5 + 25·8 + 35·7)/20 = 520/20 = 26. Absolute deviations from mean: |15‑26|=11, |25‑26|=1, |35‑26|=9. Weighted sum = 11·5 + 1·8 + 9·7 = 55 + 8 + 63 = 126. Mean deviation = 126/20 = 6.3. Option B matches this value; the other options arise from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Interpret dispersion measures",
+      "question": "Data Set X = {10, 12, 14, 16, 18} and Data Set Y = {14, 14, 14, 14, 14}. Both sets have the same mean. Which statement is true regarding their mean deviations?",
+      "options": {
+        "A": "Both sets have equal mean deviation because they share the same mean.",
+        "B": "Set X has a larger mean deviation than Set Y.",
+        "C": "Set Y has a larger mean deviation than Set X.",
+        "D": "Mean deviation cannot be compared without knowing the standard deviation."
+      },
+      "correct_option": "B",
+      "answer": "Set X has a larger mean deviation than Set Y.",
+      "explanation": "Both sets have mean 14. For Set X, absolute deviations are 4,2,0,2,4; sum =12; mean deviation =12/5 = 2.4. For Set Y, all deviations are 0; mean deviation =0. Hence Set X is more spread out and has a larger mean deviation. Option B is correct; the other options misunderstand the definition or claim unnecessary information.",
+      "difficulty": "hard"
+    }
+  ]
+}
