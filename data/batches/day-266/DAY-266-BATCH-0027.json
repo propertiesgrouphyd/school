@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following best describes the universal quantifier (∀) in a mathematical statement?",
+      "options": {
+        "A": "There exists at least one element in the domain for which the statement is true.",
+        "B": "The statement is true for every element in the domain.",
+        "C": "The statement is false for all elements in the domain.",
+        "D": "It indicates a conditional relationship between two statements."
+      },
+      "correct_option": "B",
+      "answer": "The statement is true for every element in the domain.",
+      "explanation": "The universal quantifier ∀ asserts that the predicate holds for all members of the domain. Hence option B correctly captures its meaning. Option A describes the existential quantifier, C is the opposite of a universal claim, and D describes implication, not quantification.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "The symbol ∃ in a mathematical statement means:",
+      "options": {
+        "A": "All elements of the domain satisfy the property.",
+        "B": "No element of the domain satisfies the property.",
+        "C": "At least one element of the domain satisfies the property.",
+        "D": "Exactly two elements of the domain satisfy the property."
+      },
+      "correct_option": "C",
+      "answer": "At least one element of the domain satisfies the property.",
+      "explanation": "∃ is the existential quantifier and states that there exists at least one element for which the predicate is true. Option C expresses this. Option A is the universal quantifier, B is the negation of an existential statement, and D is too specific.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English statement \"Every natural number n is greater than or equal to zero\" into symbolic form.",
+      "options": {
+        "A": "∀n ∈ ℕ, n ≥ 0",
+        "B": "∃n ∈ ℕ, n ≥ 0",
+        "C": "∀n ∈ ℕ, n > 0",
+        "D": "∃n ∈ ℕ, n > 0"
+      },
+      "correct_option": "A",
+      "answer": "∀n ∈ ℕ, n ≥ 0",
+      "explanation": "The word \"Every\" signals the universal quantifier ∀, and the condition is \"n ≥ 0\". Hence the correct symbolic translation is ∀n ∈ ℕ, n ≥ 0. Options B and D use the existential quantifier, and C changes the inequality to a strict >, which is not equivalent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement \\(\\forall x \\in \\mathbb{R},\\; x^{2} \\ge 0\\)?",
+      "options": {
+        "A": "∃x \\in \\mathbb{R} \\text{ such that } x^{2} < 0",
+        "B": "∃x \\in \\mathbb{R} \\text{ such that } x^{2} > 0",
+        "C": "\\forall x \\in \\mathbb{R},\\; x^{2} < 0",
+        "D": "∃x \\in \\mathbb{R} \\text{ such that } x^{2} = 0"
+      },
+      "correct_option": "A",
+      "answer": "∃x \\in \\mathbb{R} \\text{ such that } x^{2} < 0",
+      "explanation": "Negating a universal statement replaces ∀ with ∃ and negates the predicate. The original predicate is \"x² ≥ 0\"; its negation is \"x² < 0\". Therefore the correct negation is option A. Option B changes the inequality direction, C keeps the universal quantifier, and D states a true fact but is not the logical negation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Consider the statement: \"For every integer k, k² - k is even.\" Which of the following correctly explains why this statement is true?",
+      "options": {
+        "A": "k² - k = k(k-1) is the product of two consecutive integers, one of which is always even.",
+        "B": "k² - k = (k-1)² + 2k - 1, which is always odd.",
+        "C": "k² - k = (k+1)(k-2) which is always divisible by 3.",
+        "D": "k² - k = k(k+1) which is the product of two consecutive integers, one of which is odd."
+      },
+      "correct_option": "A",
+      "answer": "k² - k = k(k-1) is the product of two consecutive integers, one of which is always even.",
+      "explanation": "For any integer k, the numbers k and k‑1 are consecutive; among any two consecutive integers, one is even. Hence their product k(k‑1) is even, proving the universal claim. Option B incorrectly claims oddness, C introduces divisibility by 3 which is irrelevant, and D misidentifies the factorisation and the parity of the factors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In a class of 30 students, the teacher says, \"There is a student who scored above 90 in the test.\" Which logical expression correctly represents this statement?",
+      "options": {
+        "A": "∀x (Student(x) → Score(x) > 90)",
+        "B": "∃x (Student(x) ∧ Score(x) > 90)",
+        "C": "∃x (Student(x) → Score(x) > 90)",
+        "D": "∀x (Student(x) ∧ Score(x) > 90)"
+      },
+      "correct_option": "B",
+      "answer": "∃x (Student(x) ∧ Score(x) > 90)",
+      "explanation": "The phrase \"There is a student\" signals the existential quantifier ∃. The statement must assert that the individual is both a student and has a score >90, which is captured by the conjunction inside the quantifier. Option A uses a universal quantifier, C's implication is always true when the antecedent is false, and D incorrectly asserts that every student scored above 90.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Which of the following is NOT a correct translation of the English sentence \"Some prime numbers are odd\"?",
+      "options": {
+        "A": "∃p ∈ ℙ, p is odd",
+        "B": "∃p ∈ ℙ, p > 2",
+        "C": "∀p ∈ ℙ, p is odd",
+        "D": "∃p ∈ ℙ such that p ≠ 2 and p is odd"
+      },
+      "correct_option": "C",
+      "answer": "∀p ∈ ℙ, p is odd",
+      "explanation": "The word \"Some\" indicates an existential quantifier, not a universal one. Options A, B, and D correctly use ∃ to state that at least one prime (specifically any prime greater than 2) is odd. Option C incorrectly uses the universal quantifier, claiming all primes are odd, which is false because 2 is even.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "If the statement \"There exists a real number x such that x² = -1\" is false, which of the following is the correct negation?",
+      "options": {
+        "A": "∀x ∈ ℝ, x² ≠ -1",
+        "B": "∃x ∈ ℝ, x² = -1",
+        "C": "∀x ∈ ℝ, x² = -1",
+        "D": "∃x ∈ ℝ, x² ≠ -1"
+      },
+      "correct_option": "A",
+      "answer": "∀x ∈ ℝ, x² ≠ -1",
+      "explanation": "The negation of an existential statement ∃x P(x) is the universal statement ∀x ¬P(x). Here P(x) is \"x² = -1\", so its negation is \"for every real x, x² ≠ -1\". Option B repeats the original (false) statement, C is too strong, and D is true but does not represent the logical negation of the given existential claim.",
+      "difficulty": "medium"
+    }
+  ]
+}

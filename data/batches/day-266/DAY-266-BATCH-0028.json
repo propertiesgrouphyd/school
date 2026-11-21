@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Consider the statements: (i) ∀x ∈ ℝ, x² ≥ 0 and (ii) ∃x ∈ ℝ, x² < 0. Which of the following correctly compares their truth values?",
+      "options": {
+        "A": "Both (i) and (ii) are true.",
+        "B": "(i) is true and (ii) is false.",
+        "C": "(i) is false and (ii) is true.",
+        "D": "Both (i) and (ii) are false."
+      },
+      "correct_option": "B",
+      "answer": "(i) is true and (ii) is false.",
+      "explanation": "The universal statement (i) is true because every real number squared is non‑negative. The existential statement (ii) is false because there is no real number whose square is negative. Hence option B is correct; the other options misstate the truth values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "Which of the following statements correctly uses the existential quantifier to assert that some real number satisfies x² = 2?",
+      "options": {
+        "A": "∀x ∈ ℝ, x² = 2",
+        "B": "∃x ∈ ℝ, x² = 2",
+        "C": "∀x ∈ ℝ, x² ≠ 2",
+        "D": "∃x ∈ ℝ, x² ≠ 2"
+      },
+      "correct_option": "B",
+      "answer": "∃x ∈ ℝ, x² = 2",
+      "explanation": "The existential quantifier ∃ means \"there exists at least one\". Statement B says there exists a real number whose square is 2, which is the correct way to express the idea. Option A is universal, C denies existence, and D states the existence of a number whose square is not 2, which is unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English sentence \"Every natural number is greater than or equal to zero\" into symbolic form.",
+      "options": {
+        "A": "∀n ∈ ℕ, n ≥ 0",
+        "B": "∃n ∈ ℕ, n ≥ 0",
+        "C": "∀n ∈ ℕ, n > 0",
+        "D": "∃n ∈ ℕ, n > 0"
+      },
+      "correct_option": "A",
+      "answer": "∀n ∈ ℕ, n ≥ 0",
+      "explanation": "The word \"every\" corresponds to the universal quantifier ∀, and the condition is \"n ≥ 0\". Hence the correct symbolic translation is ∀n ∈ ℕ, n ≥ 0. Options B and D use the existential quantifier, and C changes the inequality to strict >.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement \"∀x ∈ ℝ, x² ≥ 0\"?",
+      "options": {
+        "A": "∀x ∈ ℝ, x² < 0",
+        "B": "∃x ∈ ℝ, x² < 0",
+        "C": "∃x ∈ ℝ, x² ≥ 0",
+        "D": "∀x ∈ ℝ, x² > 0"
+      },
+      "correct_option": "B",
+      "answer": "∃x ∈ ℝ, x² < 0",
+      "explanation": "Negating a universal quantifier changes it to an existential quantifier and negates the predicate: ¬(∀x P(x)) ≡ ∃x ¬P(x). Here ¬(x² ≥ 0) is x² < 0, giving ∃x ∈ ℝ, x² < 0. Options A and D keep the universal quantifier, and C does not negate the predicate.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following best defines the universal quantifier and distinguishes it from the existential quantifier?",
+      "options": {
+        "A": "\"∀ means 'for some', while ∃ means 'for all'.\"",
+        "B": "\"∀ means 'for all elements of the domain', whereas ∃ means 'there exists at least one element of the domain'.\"",
+        "C": "\"Both ∀ and ∃ mean the same, indicating existence.\"",
+        "D": "\"∀ applies only to finite sets, ∃ only to infinite sets.\""
+      },
+      "correct_option": "B",
+      "answer": "\"∀ means 'for all elements of the domain', whereas ∃ means 'there exists at least one element of the domain'.\"",
+      "explanation": "The universal quantifier ∀ asserts that a property holds for every element of the domain, while the existential quantifier ∃ asserts that the property holds for at least one element. Option B captures this distinction accurately; the other options are incorrect definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In a classroom, the statement \"There is a student who scored above 90%\" uses which quantifier and what does it assert?",
+      "options": {
+        "A": "Universal quantifier; asserts all students scored above 90%.",
+        "B": "Existential quantifier; asserts at least one student scored above 90%.",
+        "C": "Universal quantifier; asserts at least one student scored above 90%.",
+        "D": "Existential quantifier; asserts all students scored above 90%."
+      },
+      "correct_option": "B",
+      "answer": "Existential quantifier; asserts at least one student scored above 90%.",
+      "explanation": "The phrase \"There is a student\" corresponds to the existential quantifier ∃, meaning at least one member of the domain (students) satisfies the condition (scored above 90%). Options A and D misuse the universal quantifier, and C mixes quantifier with meaning.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English statement \"Some even integer is divisible by 4\" into symbolic form.",
+      "options": {
+        "A": "∀n ∈ ℤ, (n even → n divisible by 4)",
+        "B": "∃n ∈ ℤ, (n even ∧ n divisible by 4)",
+        "C": "∀n ∈ ℤ, (n even ∧ n divisible by 4)",
+        "D": "∃n ∈ ℤ, (n even → n divisible by 4)"
+      },
+      "correct_option": "B",
+      "answer": "∃n ∈ ℤ, (n even ∧ n divisible by 4)",
+      "explanation": "The word \"some\" indicates an existential quantifier ∃. The statement requires an integer that is both even and divisible by 4, so the conjunction (∧) is used. Option B correctly captures this. Options A and C use the universal quantifier, and D uses implication instead of conjunction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "Consider the statement: \"Every student in the class has submitted the assignment.\" Which of the following correctly represents its negation?",
+      "options": {
+        "A": "There exists a student in the class who has not submitted the assignment.",
+        "B": "All students have not submitted the assignment.",
+        "C": "No student in the class has submitted the assignment.",
+        "D": "Some students have submitted the assignment."
+      },
+      "correct_option": "A",
+      "answer": "There exists a student in the class who has not submitted the assignment.",
+      "explanation": "Negating a universal statement (∀) yields an existential statement (∃) with the predicate negated: ¬(∀x P(x)) ≡ ∃x ¬P(x). Here, ¬P(x) is \"has not submitted the assignment\", giving option A. Options B and C are stronger than the logical negation, and D does not represent the negation.",
+      "difficulty": "medium"
+    }
+  ]
+}

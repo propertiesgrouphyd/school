@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following statements correctly uses the universal quantifier to express that every integer n satisfies n² ≥ n?",
+      "options": {
+        "A": "For all integers n, n² ≥ n.",
+        "B": "There exists an integer n such that n² ≥ n.",
+        "C": "If n is an integer, then n² < n.",
+        "D": "For some integer n, n² = n."
+      },
+      "correct_option": "A",
+      "answer": "For all integers n, n² ≥ n.",
+      "explanation": "The universal quantifier (∀) states that a property holds for every element of the domain. Option A reads “For all integers n, n² ≥ n,” which is exactly the universal form. Option B uses an existential quantifier, C gives a false implication, and D refers to a particular element, not all.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In a class of 30 students, at least one student scored above 90% in the test. Which statement correctly uses the existential quantifier to represent this situation?",
+      "options": {
+        "A": "For every student, the score is above 90%.",
+        "B": "There exists a student in the class who scored above 90%.",
+        "C": "No student scored above 90%.",
+        "D": "All students scored below 90%."
+      },
+      "correct_option": "B",
+      "answer": "There exists a student in the class who scored above 90%.",
+      "explanation": "The existential quantifier (∃) asserts that at least one element satisfies the property. Option B states exactly that – there is at least one student with a score above 90%. Options A and D describe universal statements, while C is the negation of the given fact.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Identify the incorrectly translated quantified statement:",
+      "options": {
+        "A": "∀x (x is a prime number → x > 1) translates to “Every prime number is greater than 1.”",
+        "B": "∃x (x is even ∧ x < 2) translates to “There exists an even number less than 2.”",
+        "C": "∀x (x > 0) translates to “There exists a number greater than 0.”",
+        "D": "∃x (x² = 4) translates to “There exists a number whose square is 4.”"
+      },
+      "correct_option": "C",
+      "answer": "∀x (x > 0) translates to “There exists a number greater than 0.”",
+      "explanation": "Option C misinterprets the universal quantifier. ∀x (x > 0) means “Every number is greater than 0,” not “There exists a number…”. The other options correctly match their quantifiers and translations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement “∀x (P(x) → Q(x))”?",
+      "options": {
+        "A": "∃x (P(x) ∧ ¬Q(x))",
+        "B": "∃x (¬P(x) ∧ Q(x))",
+        "C": "∀x (¬P(x) ∨ Q(x))",
+        "D": "∃x (¬P(x) ∨ Q(x))"
+      },
+      "correct_option": "A",
+      "answer": "∃x (P(x) ∧ ¬Q(x))",
+      "explanation": "Negating a universal conditional gives an existential statement where the antecedent holds but the consequent fails: ¬∀x (P → Q) ≡ ∃x (P ∧ ¬Q). Options B, C, and D do not represent the proper logical negation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which pair correctly contrasts the truth conditions of universal (∀) and existential (∃) quantifiers?",
+      "options": {
+        "A": "∀x P(x) is true only if P(x) holds for at least one element; ∃x P(x) is true only if P(x) holds for all elements.",
+        "B": "∀x P(x) is true only if P(x) holds for every element; ∃x P(x) is true if P(x) holds for at least one element.",
+        "C": "Both ∀x P(x) and ∃x P(x) require P(x) to hold for all elements.",
+        "D": "Both ∀x P(x) and ∃x P(x) require P(x) to hold for at least one element."
+      },
+      "correct_option": "B",
+      "answer": "∀x P(x) is true only if P(x) holds for every element; ∃x P(x) is true if P(x) holds for at least one element.",
+      "explanation": "The universal quantifier demands the predicate be true for every member of the domain, while the existential quantifier needs the predicate to be true for at least one member. Option B states this precisely; the other options invert or conflate the conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In the set S = {1, 2, 3, 4, 5}, which statement is equivalent to “∃x∈S such that x is a prime number and x > 2”?",
+      "options": {
+        "A": "2 is the only prime number in S.",
+        "B": "There exists a prime number in S that is greater than 2.",
+        "C": "All prime numbers in S are greater than 2.",
+        "D": "No prime numbers in S are greater than 2."
+      },
+      "correct_option": "B",
+      "answer": "There exists a prime number in S that is greater than 2.",
+      "explanation": "The original existential statement asserts the existence of at least one element of S that is both prime and greater than 2. Option B restates this directly. Option A mentions only 2 (which is not >2), C makes a universal claim, and D contradicts the existence claim.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Select the statement that correctly translates the quantified expression ∀x (x is a natural number → x ≥ 0).",
+      "options": {
+        "A": "Every natural number is greater than or equal to zero.",
+        "B": "There exists a natural number that is greater than zero.",
+        "C": "All numbers are natural numbers.",
+        "D": "Some natural numbers are negative."
+      },
+      "correct_option": "A",
+      "answer": "Every natural number is greater than or equal to zero.",
+      "explanation": "The universal quantifier (∀) together with the implication translates to “For every x, if x is a natural number then x ≥ 0,” which is exactly option A. Options B, C, and D either change the quantifier or state false properties.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the negation of the existential statement “∃x (x is a rational number and x² = 2)”? ",
+      "options": {
+        "A": "For every x, either x is not rational or x² ≠ 2.",
+        "B": "There exists an x that is rational and x² = 2.",
+        "C": "There exists an x that is irrational and x² = 2.",
+        "D": "For some x, x is rational and x² ≠ 2."
+      },
+      "correct_option": "A",
+      "answer": "For every x, either x is not rational or x² ≠ 2.",
+      "explanation": "Negating an existential quantifier yields a universal statement with the negated predicate: ¬∃x (R(x) ∧ Q(x)) ≡ ∀x (¬R(x) ∨ ¬Q(x)). Option A expresses this correctly. Options B and C repeat or modify the original claim, while D is only a partial negation.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "Which of the following statements about the logical connective \"or\" (disjunction) is true?",
+      "options": {
+        "A": "P ∨ Q is true only when both P and Q are true.",
+        "B": "P ∨ Q is false only when both P and Q are false.",
+        "C": "P ∨ Q is true only when exactly one of P or Q is true.",
+        "D": "P ∨ Q is always true regardless of the truth values of P and Q."
+      },
+      "correct_option": "B",
+      "answer": "P ∨ Q is false only when both P and Q are false.",
+      "explanation": "For a disjunction P ∨ Q, the only case when it is false is when both components are false; in all other cases (true/false, false/true, true/true) it is true. Hence option B correctly describes the truth condition, while the other options misstate it.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "For the implication \"If P then Q\" (P \\rightarrow Q), in which situation is the implication false?",
+      "options": {
+        "A": "P is true and Q is true",
+        "B": "P is true and Q is false",
+        "C": "P is false and Q is true",
+        "D": "P is false and Q is false"
+      },
+      "correct_option": "B",
+      "answer": "P is true and Q is false",
+      "explanation": "An implication P \\rightarrow Q is false only when the antecedent P is true while the consequent Q is false. In all other combinations (TT, FT, FF) the implication is true. Therefore option B correctly identifies the false case.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "The biconditional statement P \\leftrightarrow Q is logically equivalent to which of the following expressions?",
+      "options": {
+        "A": "(P \\land Q) \\lor (\\lnot P \\land \\lnot Q)",
+        "B": "(P \\land \\lnot Q) \\lor (\\lnot P \\land Q)",
+        "C": "P \\lor Q",
+        "D": "P \\land Q"
+      },
+      "correct_option": "A",
+      "answer": "(P \\land Q) \\lor (\\lnot P \\land \\lnot Q)",
+      "explanation": "A biconditional P \\leftrightarrow Q is true exactly when P and Q have the same truth value—both true or both false. The expression (P \\land Q) \\lor (\\lnot P \\land \\lnot Q) captures precisely those two cases, making it equivalent to the biconditional. The other options represent different logical relations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement (P \\lor Q) \\rightarrow (P \\land R). What is its truth value when P is false, Q is true, and R is false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Indeterminate",
+        "D": "Cannot be determined from the given information"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "First evaluate the antecedent: P \\lor Q = false \\lor true = true. Next evaluate the consequent: P \\land R = false \\land false = false. The implication true \\rightarrow false is false. Hence the overall statement is false, making option B correct. The other options do not match the logical evaluation.",
+      "difficulty": "hard"
+    }
+  ]
+}

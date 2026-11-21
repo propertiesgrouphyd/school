@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Consider the statement: ∀x (x is a prime number → x > 1). Which of the following is the correct interpretation of this universal quantified statement?",
+      "options": {
+        "A": "All numbers are prime and greater than 1.",
+        "B": "If a number is prime, then it is greater than 1.",
+        "C": "There exists a number that is prime and greater than 1.",
+        "D": "If a number is greater than 1, then it is prime."
+      },
+      "correct_option": "B",
+      "answer": "If a number is prime, then it is greater than 1.",
+      "explanation": "The universal quantifier ∀x (P(x) → Q(x)) means that for every element x in the domain, whenever P(x) is true, Q(x) must also be true. Hence the statement says: for every x, if x is a prime number then x is greater than 1. Option B captures this meaning. Option A incorrectly asserts that every number is prime. Option C is an existential claim, not universal. Option D reverses the implication.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "Which of the following symbolic statements correctly expresses the existence of a real number x such that x² = 2?",
+      "options": {
+        "A": "∀x (x² = 2)",
+        "B": "∃x (x² = 2)",
+        "C": "∀x (x² ≠ 2)",
+        "D": "∃x (x² ≠ 2)"
+      },
+      "correct_option": "B",
+      "answer": "∃x (x² = 2)",
+      "explanation": "The existential quantifier ∃x means \"there exists at least one x\" for which the predicate holds. Therefore ∃x (x² = 2) states that some real number squares to 2. Option A claims every real number squares to 2, which is false. Option C says every real number does not square to 2, also false. Option D asserts the existence of a real number whose square is not 2, which is true but does not capture the intended statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English sentence \"Every even integer greater than 2 can be expressed as the sum of two prime numbers\" into a correct formal quantified statement. Which option is correct?",
+      "options": {
+        "A": "∃n (n is even ∧ n > 2 ∧ ∃p ∃q (p and q are prime ∧ n = p + q))",
+        "B": "∀n (n is even ∧ n > 2 → ∃p ∃q (p and q are prime ∧ n = p + q))",
+        "C": "∀n ∃p ∃q (n is even ∧ n > 2 ∧ p and q are prime ∧ n = p + q)",
+        "D": "∃n ∀p ∀q (n is even ∧ n > 2 → p and q are prime ∧ n = p + q)"
+      },
+      "correct_option": "B",
+      "answer": "∀n (n is even ∧ n > 2 → ∃p ∃q (p and q are prime ∧ n = p + q))",
+      "explanation": "The sentence starts with \"Every\" which translates to the universal quantifier ∀n. The condition \"n is even and n > 2\" is the antecedent of an implication, and the consequent asserts the existence of two primes p and q whose sum equals n, expressed with ∃p ∃q. Option B captures this structure precisely. Option A uses an existential quantifier for n, changing the meaning. Option C places the existential quantifiers inside the universal without the implication, which would claim that for each n there exist primes p and q regardless of whether n satisfies the even‑and‑greater‑than‑2 condition. Option D mixes quantifiers incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement ∀x ∈ ℝ (x² ≥ 0)?",
+      "options": {
+        "A": "∃x ∈ ℝ (x² < 0)",
+        "B": "∀x ∈ ℝ (x² < 0)",
+        "C": "∃x ∈ ℝ (x² ≤ 0)",
+        "D": "∀x ∈ ℝ (x² > 0)"
+      },
+      "correct_option": "A",
+      "answer": "∃x ∈ ℝ (x² < 0)",
+      "explanation": "The negation of a universal statement ∀x P(x) is an existential statement ¬∀x P(x) ≡ ∃x ¬P(x). Here P(x) is \"x² ≥ 0\"; its negation is \"x² < 0\". Hence the correct negation is ∃x ∈ ℝ (x² < 0). Options B and D keep the universal quantifier, which is incorrect. Option C changes the inequality to ≤, which does not represent the logical negation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "In mathematical logic, the symbol ∀ is used to denote which of the following?",
+      "options": {
+        "A": "Existence of at least one element",
+        "B": "Uniqueness of an element",
+        "C": "Universality – the statement holds for all elements",
+        "D": "Negation of a statement"
+      },
+      "correct_option": "C",
+      "answer": "Universality – the statement holds for all elements",
+      "explanation": "The universal quantifier ∀ reads as \"for all\" or \"for every\". It asserts that the predicate following it is true for every element in the specified domain. Option A describes the existential quantifier ∃, B describes a uniqueness quantifier (often written ∃! ), and D describes logical negation ¬.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "The symbol ∃ in a logical statement signifies what?",
+      "options": {
+        "A": "All elements satisfy the predicate",
+        "B": "No element satisfies the predicate",
+        "C": "At least one element satisfies the predicate",
+        "D": "Exactly one element satisfies the predicate"
+      },
+      "correct_option": "C",
+      "answer": "At least one element satisfies the predicate",
+      "explanation": "∃ is the existential quantifier and means \"there exists\" or \"there is at least one\" element for which the predicate is true. Option A describes the universal quantifier ∀, B would be the negation of ∃, and D describes a uniqueness quantifier (∃!).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Which pair correctly matches the quantifier with its typical English translation?",
+      "options": {
+        "A": "∀ – 'There exists'; ∃ – 'For all'",
+        "B": "∀ – 'For all'; ∃ – 'There exists'",
+        "C": "∀ – 'Not all'; ∃ – 'None'",
+        "D": "∀ – 'Only if'; ∃ – 'If and only if'"
+      },
+      "correct_option": "B",
+      "answer": "∀ – 'For all'; ∃ – 'There exists'",
+      "explanation": "The universal quantifier ∀ translates to \"for all\" or \"every\", while the existential quantifier ∃ translates to \"there exists\" or \"there is at least one\". Options A, C, and D pair the symbols with incorrect English phrases.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "Negate the statement: \"There exists a natural number n such that n is even.\" Which of the following is the correct negation?",
+      "options": {
+        "A": "All natural numbers are even.",
+        "B": "There exists a natural number n that is not even.",
+        "C": "Some natural numbers are not even.",
+        "D": "All natural numbers are not even."
+      },
+      "correct_option": "D",
+      "answer": "All natural numbers are not even.",
+      "explanation": "The original statement is ∃n (n is even). Its negation is ¬∃n (n is even) which is equivalent to ∀n (n is not even). In plain English this reads as \"All natural numbers are not even.\" Option A states the opposite, Option B is an existential claim, and Option C is weaker than the universal negation.",
+      "difficulty": "easy"
+    }
+  ]
+}
