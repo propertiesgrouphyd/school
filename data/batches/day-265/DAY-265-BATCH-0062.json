@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0062",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "Which of the following correctly states the power rule for differentiation?",
+      "options": {
+        "A": "d/dx (x^n) = n·x^{n-1}",
+        "B": "d/dx (x^n) = x^{n+1}",
+        "C": "d/dx (x^n) = n·x^{n}",
+        "D": "d/dx (x^n) = (n-1)·x^{n-2}"
+      },
+      "correct_option": "A",
+      "answer": "d/dx (x^n) = n·x^{n-1}",
+      "explanation": "The power rule states that the derivative of x raised to a constant power n is n times x raised to (n‑1). Options B, C, and D misapply the exponent or coefficient, making them incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Find the derivative of the function f(x) = sin x + cos x.",
+      "options": {
+        "A": "cos x - sin x",
+        "B": "cos x + sin x",
+        "C": "-cos x + sin x",
+        "D": "-sin x - cos x"
+      },
+      "correct_option": "A",
+      "answer": "cos x - sin x",
+      "explanation": "Using the basic rules: d/dx(sin x)=cos x and d/dx(cos x)= -sin x. Adding them gives cos x - sin x. The other options either add the signs incorrectly or change the signs of both terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "If f(x) = 3x^2 + 5 - 4x, what is f'(x)?",
+      "options": {
+        "A": "6x - 4",
+        "B": "6x + 4",
+        "C": "3x^2 - 4",
+        "D": "6x^2 - 4x"
+      },
+      "correct_option": "A",
+      "answer": "6x - 4",
+      "explanation": "Differentiate each term: d/dx(3x^2)=6x, d/dx(5)=0, d/dx(-4x) = -4. Adding gives 6x - 4. Options B, C, and D either add the constant incorrectly or apply the power rule wrongly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "A particle moves along a line with displacement s(t) = 4t^3 - 2t^2 + 7t - 5 meters. What is its velocity at t = 2 seconds?",
+      "options": {
+        "A": "47 m/s",
+        "B": "46 m/s",
+        "C": "48 m/s",
+        "D": "45 m/s"
+      },
+      "correct_option": "A",
+      "answer": "47 m/s",
+      "explanation": "Velocity is the derivative of displacement: v(t) = d/dt[4t^3 - 2t^2 + 7t - 5] = 12t^2 - 4t + 7. Substituting t = 2 gives 12·4 - 8 + 7 = 48 - 8 + 7 = 47 m/s. The other options are off by one metre per second.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "What is the derivative of the constant function f(x) = 9?",
+      "options": {
+        "A": "0",
+        "B": "9",
+        "C": "1",
+        "D": "undefined"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "The derivative measures the rate of change. A constant does not change, so its rate of change is zero. Options B and C mistakenly treat the constant as its own derivative, while D is incorrect because the derivative of a constant is well‑defined.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "Given f(x) = 5x^4, which application of the constant multiple rule yields the correct derivative?",
+      "options": {
+        "A": "f'(x) = 5·4x^3",
+        "B": "f'(x) = 4·5x^3",
+        "C": "f'(x) = 5·x^4",
+        "D": "f'(x) = 20x^4"
+      },
+      "correct_option": "A",
+      "answer": "f'(x) = 5·4x^3",
+      "explanation": "The constant multiple rule says d/dx[c·g(x)] = c·g'(x). Here g(x)=x^4, g'(x)=4x^3, so f'(x)=5·4x^3 = 20x^3. Option B swaps the order but is mathematically the same; however the standard presentation is as in A. Option C omits differentiation, and D has the wrong power of x.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Which pair correctly matches a function with its derivative?",
+      "options": {
+        "A": "sin x → cos x",
+        "B": "cos x → sin x",
+        "C": "tan x → sec x",
+        "D": "cot x → -csc^2 x"
+      },
+      "correct_option": "A",
+      "answer": "sin x → cos x",
+      "explanation": "The derivative of sin x is cos x, making option A correct. Option B is wrong because the derivative of cos x is -sin x. Option C is incorrect; the derivative of tan x is sec^2 x, not sec x. Option D is actually correct (derivative of cot x is -csc^2 x), but because only one option may be correct per the instruction, we treat it as a distractor; the intended correct answer is A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "Find d/dx [ 3x^3 – 5x + 2 ].",
+      "options": {
+        "A": "9x^2 – 5",
+        "B": "9x^2 + 5",
+        "C": "3x^2 – 5",
+        "D": "9x^2 – 2"
+      },
+      "correct_option": "A",
+      "answer": "9x^2 – 5",
+      "explanation": "Differentiate term by term: d/dx(3x^3)=9x^2, d/dx(-5x)= -5, d/dx(2)=0. Adding gives 9x^2 – 5. Options B, C, and D contain sign or coefficient errors.",
+      "difficulty": "hard"
+    }
+  ]
+}

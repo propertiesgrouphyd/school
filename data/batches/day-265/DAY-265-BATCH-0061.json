@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0061",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "Given the function f(x)=3x^2+5x-7, what is f'(x)?",
+      "options": {
+        "A": "6x+5",
+        "B": "3x+5",
+        "C": "6x-5",
+        "D": "3x^2+5"
+      },
+      "correct_option": "A",
+      "answer": "6x+5",
+      "explanation": "The derivative of a sum is the sum of the derivatives. d/dx(3x^2)=6x, d/dx(5x)=5, and d/dx(-7)=0. Adding them gives 6x+5. Options B, C, and D are incorrect because they either miss a term or differentiate incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "A car travels a distance s(t)=4t^3-2t^2+t (in meters) after t seconds. What is its instantaneous velocity at t=2 seconds?",
+      "options": {
+        "A": "41 m/s",
+        "B": "45 m/s",
+        "C": "39 m/s",
+        "D": "40 m/s"
+      },
+      "correct_option": "A",
+      "answer": "41 m/s",
+      "explanation": "Velocity is the derivative of distance: v(t)=d/dt(4t^3-2t^2+t)=12t^2-4t+1. Substituting t=2 gives 12·4-8+1=48-8+1=41 m/s. The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "What is the derivative of the constant function f(x)=5?",
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "1",
+        "D": "Undefined"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "The derivative measures the rate of change. A constant does not change, so its rate of change is zero. Option B confuses the function value with its derivative; C is the derivative of x, not a constant; D is incorrect because the derivative exists and equals zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "Which of the following statements is NOT a correct application of basic differentiation rules?",
+      "options": {
+        "A": "d/dx (x^3)=3x^2",
+        "B": "d/dx (sin x)=cos x",
+        "C": "d/dx (e^{x})=e^{x}",
+        "D": "d/dx (ln x)=1/x+1"
+      },
+      "correct_option": "D",
+      "answer": "d/dx (ln x)=1/x+1",
+      "explanation": "The derivative of ln x is 1/x. The extra '+1' makes statement D incorrect. Statements A, B, and C correctly apply the power, trigonometric, and exponential rules respectively.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "At x=π/4, what are the values of the derivatives d/dx(sin x) and d/dx(cos x) respectively?",
+      "options": {
+        "A": "Both are √2/2",
+        "B": "sin' = √2/2, cos' = -√2/2",
+        "C": "sin' = -√2/2, cos' = √2/2",
+        "D": "Both are -√2/2"
+      },
+      "correct_option": "B",
+      "answer": "sin' = √2/2, cos' = -√2/2",
+      "explanation": "d/dx(sin x)=cos x and d/dx(cos x)=-sin x. At x=π/4, cos(π/4)=√2/2 and sin(π/4)=√2/2, so the derivatives are √2/2 and -√2/2 respectively. Options A, C, D give incorrect signs or values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "Find the derivative of f(x)= (x^5-2x^3+4)/x^2 and simplify the result.",
+      "options": {
+        "A": "3x^2-2-8/x^3",
+        "B": "(5x^4-6x^2)/x^2",
+        "C": "5x^4-6x^2+4/x^2",
+        "D": "(5x^4-6x^2+4)/x^2"
+      },
+      "correct_option": "A",
+      "answer": "3x^2-2-8/x^3",
+      "explanation": "Rewrite f(x)=x^3-2x+4x^{-2}. Differentiate term‑by‑term: d/dx(x^3)=3x^2, d/dx(-2x)=-2, d/dx(4x^{-2})=4·(-2)x^{-3}=-8x^{-3}. Hence f'(x)=3x^2-2-8/x^3. Options B, C, D arise from incorrect algebraic simplification or forgetting to differentiate the denominator.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "What is the derivative of the polynomial p(x)=2x^4-3x+5?",
+      "options": {
+        "A": "8x^3-3",
+        "B": "8x^3+3",
+        "C": "2x^3-3",
+        "D": "8x^4-3"
+      },
+      "correct_option": "A",
+      "answer": "8x^3-3",
+      "explanation": "Apply the power rule: d/dx(2x^4)=8x^3, d/dx(-3x)=-3, and d/dx(5)=0. Adding gives 8x^3-3. Options B, C, D misapply the power rule or include incorrect terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "The derivative of any constant function f(x)=c (where c is a real number) is:",
+      "options": {
+        "A": "0",
+        "B": "c",
+        "C": "1",
+        "D": "Undefined"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "A constant does not change with x, so its rate of change is zero. Therefore the derivative is 0. Option B confuses the function value with its derivative; C is the derivative of x; D is incorrect because the derivative exists and equals zero.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "If f(x) = 7 for all real x, what is the derivative f'(x)?",
+      "options": {
+        "A": "7",
+        "B": "0",
+        "C": "1",
+        "D": "undefined"
+      },
+      "correct_option": "B",
+      "answer": "0",
+      "explanation": "The derivative of a constant function is always zero because the function does not change with x; its rate of change is nil. Option B correctly gives 0. Option A mistakenly treats the constant as its own derivative, C confuses with derivative of x, and D is incorrect because the derivative exists and is finite.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "Find the derivative of g(x) = 3x^4 - 5x^2 + 2.",
+      "options": {
+        "A": "12x^3 - 10x",
+        "B": "12x^3 - 5x",
+        "C": "3x^3 - 5x",
+        "D": "12x^4 - 10x^2"
+      },
+      "correct_option": "A",
+      "answer": "12x^3 - 10x",
+      "explanation": "Apply the power rule (d/dx x^n = n x^{n-1}) and the constant multiple rule. Derivative of 3x^4 is 3·4x^3 = 12x^3; derivative of -5x^2 is -5·2x = -10x; derivative of constant 2 is 0. Adding gives 12x^3 - 10x, which is option A. The other options either miss the factor 2 or misapply the power rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Which of the following statements about the derivatives of sin x and cos x is true?",
+      "options": {
+        "A": "d/dx sin x = cos x and d/dx cos x = -sin x",
+        "B": "d/dx sin x = -cos x and d/dx cos x = sin x",
+        "C": "Both derivatives are zero",
+        "D": "d/dx sin x = sec^2 x and d/dx cos x = -csc^2 x"
+      },
+      "correct_option": "A",
+      "answer": "d/dx sin x = cos x and d/dx cos x = -sin x",
+      "explanation": "The fundamental differentiation rules for trigonometric functions state that the derivative of sin x is cos x, and the derivative of cos x is -sin x. Option A correctly reflects these rules. Option B reverses the signs, C is false because trigonometric functions are not constant, and D confuses with derivatives of sec x and cosec x.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "If h(x) = (x^3 + 2x) - (4x^2 - 5), what is h'(x)?",
+      "options": {
+        "A": "3x^2 + 2 - 8x",
+        "B": "3x^2 + 2 - 8x + 0",
+        "C": "3x^2 + 2 - 8x + 5",
+        "D": "3x^2 + 2 - 8x - 5"
+      },
+      "correct_option": "A",
+      "answer": "3x^2 + 2 - 8x",
+      "explanation": "Differentiate each part using the sum/difference rule. d/dx(x^3 + 2x) = 3x^2 + 2. d/dx(4x^2 - 5) = 8x + 0. Since the second expression is subtracted, h'(x) = (3x^2 + 2) - (8x) = 3x^2 - 8x + 2, which matches option A. Options B, C, and D add unnecessary constants or duplicate terms.",
+      "difficulty": "hard"
+    }
+  ]
+}
