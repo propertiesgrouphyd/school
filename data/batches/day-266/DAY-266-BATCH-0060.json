@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0060",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "Which of the following statements about mean deviation is correct?",
+      "options": {
+        "A": "It is the square root of the average of squared deviations from the mean.",
+        "B": "It is the average of absolute deviations from the mean.",
+        "C": "It is always larger than the range of the data.",
+        "D": "It is calculated by dividing the sum of (signed) deviations by the number of observations."
+      },
+      "correct_option": "B",
+      "answer": "It is the average of absolute deviations from the mean.",
+      "explanation": "Mean deviation (also called mean absolute deviation) is defined as the average of the absolute differences of each observation from the mean. Option B states this definition correctly. Option A describes standard deviation, Option C is false because mean deviation can be smaller than the range, and Option D ignores the absolute value, which would give zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "For the data set {12, 15, 22, 25, 28}, what is the mean deviation about the mean?",
+      "options": {
+        "A": "4.2",
+        "B": "5.52",
+        "C": "6.0",
+        "D": "7.1"
+      },
+      "correct_option": "B",
+      "answer": "5.52",
+      "explanation": "First find the mean: (12+15+22+25+28)=102, 102/5 = 20.4. Absolute deviations: |12‑20.4|=8.4, |15‑20.4|=5.4, |22‑20.4|=1.6, |25‑20.4|=4.6, |28‑20.4|=7.6. Sum = 27.6. Mean deviation = 27.6/5 = 5.52. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "Given the grouped data:\n\nClass interval | Frequency\n0‑10 | 4\n10‑20 | 6\n20‑30 | 8\n30‑40 | 2\n\nWhat is the mean deviation about the mean (use class marks as representatives)?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "answer": "8",
+      "explanation": "Class marks are 5, 15, 25, 35. Σf·x = 5·4 + 15·6 + 25·8 + 35·2 = 20 + 90 + 200 + 70 = 380. Total frequency N = 20, so mean = 380/20 = 19. Absolute deviations from the mean: |5‑19|=14 (×4 = 56), |15‑19|=4 (×6 = 24), |25‑19|=6 (×8 = 48), |35‑19|=16 (×2 = 32). Σ|x‑mean|·f = 56+24+48+32 = 160. Mean deviation = 160/20 = 8. Option B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Interpret dispersion measures",
+      "question": "Two classes, X and Y, have the same arithmetic mean of 70 marks. Class X has a range of 40 and a mean deviation of 12, while Class Y has a range of 30 and a mean deviation of 8. Which statement best interprets these dispersion measures?",
+      "options": {
+        "A": "Class X is more consistent because its larger range compensates for the higher mean deviation.",
+        "B": "Both classes are equally consistent because they share the same mean.",
+        "C": "Class Y is more consistent because its smaller mean deviation indicates marks are more clustered around the mean.",
+        "D": "Range is the only reliable indicator of consistency, so Class X is less consistent."
+      },
+      "correct_option": "C",
+      "answer": "Class Y is more consistent because its smaller mean deviation indicates marks are more clustered around the mean.",
+      "explanation": "Mean deviation measures the average distance of observations from the mean. A smaller mean deviation (8 for Class Y) shows that the marks are tighter around the mean compared to Class X (mean deviation 12). Hence Class Y is more consistent. Option C captures this interpretation. Options A and D misuse the range, and Option B ignores dispersion differences.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand range",
+      "question": "In a data set, the range is defined as:",
+      "options": {
+        "A": "The difference between the highest and lowest values.",
+        "B": "The average of all the values.",
+        "C": "The sum of the deviations from the mean.",
+        "D": "The square root of the variance."
+      },
+      "correct_option": "A",
+      "answer": "The difference between the highest and lowest values.",
+      "explanation": "Range = Maximum value – Minimum value. It gives a quick measure of the spread of the data. The other options describe mean, total deviation, and standard deviation respectively, not range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Understand mean deviation",
+      "question": "Which of the following best describes the mean deviation of a data set?",
+      "options": {
+        "A": "It measures the average distance of data points from the mean using absolute values.",
+        "B": "It is identical to the variance of the data.",
+        "C": "It is always zero for any data set.",
+        "D": "It can be calculated only for grouped data."
+      },
+      "correct_option": "A",
+      "answer": "It measures the average distance of data points from the mean using absolute values.",
+      "explanation": "Mean deviation (mean absolute deviation) is the arithmetic mean of the absolute deviations of each observation from the data’s mean. It is distinct from variance (which uses squared deviations) and is defined for both ungrouped and grouped data. Hence option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for ungrouped data",
+      "question": "Find the mean deviation about the mean for the data set {5, 7, 9, 11, 13}.",
+      "options": {
+        "A": "2",
+        "B": "2.4",
+        "C": "3",
+        "D": "3.5"
+      },
+      "correct_option": "B",
+      "answer": "2.4",
+      "explanation": "Mean = (5+7+9+11+13)/5 = 45/5 = 9. Absolute deviations: |5‑9|=4, |7‑9|=2, |9‑9|=0, |11‑9|=2, |13‑9|=4. Sum = 12. Mean deviation = 12/5 = 2.4. Option B matches this value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01132",
+      "learning_point": "Calculate mean deviation for grouped data",
+      "question": "For the grouped data below, use class marks as representatives and find the mean deviation about the mean.\n\nClass interval | Frequency\n10‑20 | 5\n20‑30 | 7\n30‑40 | 3\n\nWhat is the mean deviation (rounded to two decimal places)?",
+      "options": {
+        "A": "4.5",
+        "B": "5.78",
+        "C": "6.2",
+        "D": "7.0"
+      },
+      "correct_option": "B",
+      "answer": "5.78",
+      "explanation": "Class marks: 15, 25, 35.\nΣf·x = 15·5 + 25·7 + 35·3 = 75 + 175 + 105 = 355.\nTotal frequency N = 15, so mean = 355/15 ≈ 23.6667.\nAbsolute deviations: |15‑23.6667|≈8.6667 (×5 = 43.3335), |25‑23.6667|≈1.3333 (×7 = 9.3331), |35‑23.6667|≈11.3333 (×3 = 34.0). Sum ≈ 86.6666.\nMean deviation = 86.6666/15 ≈ 5.7778 ≈ 5.78. Option B is correct.",
+      "difficulty": "easy"
+    }
+  ]
+}
