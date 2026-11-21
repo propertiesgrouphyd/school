@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-267-001",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "What is the definition of variance of a data set?",
+      "options": {
+        "A": "Average of squared deviations from the mean",
+        "B": "Average of absolute deviations from the mean",
+        "C": "Square of the mean of the data",
+        "D": "Sum of the deviations from the mean"
+      },
+      "correct_option": "A",
+      "answer": "Average of squared deviations from the mean",
+      "explanation": "Variance is defined as the average of the squared deviations of each observation from the mean. It quantifies how data are spread around the mean. Option B describes mean absolute deviation, C is unrelated, and D is always zero.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-267-002",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "For the data set {2, 4, 6, 8}, what is the variance?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "Mean = (2+4+6+8)/4 = 5. Squared deviations: (2‑5)²=9, (4‑5)²=1, (6‑5)²=1, (8‑5)²=9. Sum = 20. Variance = 20/4 = 5. Hence option A is correct; the other numbers arise from incorrect division or using absolute deviations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-267-003",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Why are squared deviations used in the definition of variance instead of absolute deviations?",
+      "options": {
+        "A": "Squaring ensures all contributions are non‑negative and gives more weight to larger deviations",
+        "B": "Squaring makes the calculation easier than using absolute values",
+        "C": "Absolute deviations are not defined for negative numbers",
+        "D": "Squared deviations are always equal to the mean"
+      },
+      "correct_option": "A",
+      "answer": "Squaring ensures all contributions are non‑negative and gives more weight to larger deviations",
+      "explanation": "Squaring removes sign, so every deviation contributes positively, and larger deviations affect the variance more because they are squared. Options B, C, and D are incorrect statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-267-004",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "Using the formula \\(\\sigma^2 = \\frac{\\sum (x-\\mu)^2}{n}\\), find the variance of the data set {3, 7, 7, 19}.",
+      "options": {
+        "A": "36",
+        "B": "24",
+        "C": "30",
+        "D": "40"
+      },
+      "correct_option": "A",
+      "answer": "36",
+      "explanation": "Mean \\(\\mu = (3+7+7+19)/4 = 9\\). Squared deviations: (3‑9)²=36, (7‑9)²=4, (7‑9)²=4, (19‑9)²=100. Sum = 144. Variance = 144/4 = 36. Hence option A. The other options result from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-267-005",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "Two classes have the same average score of 70. Class A has a variance of 4, while Class B has a variance of 25. Which class shows a greater spread of scores?",
+      "options": {
+        "A": "Class A",
+        "B": "Class B",
+        "C": "Both classes have the same spread",
+        "D": "The spread cannot be determined from the given information"
+      },
+      "correct_option": "B",
+      "answer": "Class B",
+      "explanation": "A larger variance indicates that the scores are more widely dispersed around the mean. Class B’s variance (25) is greater than Class A’s (4), so Class B has the larger spread. Options A, C, and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-267-006",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A teacher observes that the variance of the test scores in a class is 0. What does this tell you about the scores?",
+      "options": {
+        "A": "All scores are the same",
+        "B": "The scores are increasing steadily",
+        "C": "The scores have a high degree of spread",
+        "D": "The scores are randomly distributed"
+      },
+      "correct_option": "A",
+      "answer": "All scores are the same",
+      "explanation": "Variance of zero means there is no deviation from the mean; every observation equals the mean. Therefore all scores must be identical. The other options describe non‑zero variance situations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-267-007",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "A student incorrectly adds the deviations from the mean and obtains 0, then declares the variance of {2, 4, 6, 8} to be 0. What is the correct variance?",
+      "options": {
+        "A": "5",
+        "B": "0",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "The sum of deviations is always zero, but variance uses the sum of squared deviations divided by n. As calculated earlier, the correct variance is 5. Option B reflects the misconception, while C and D are incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-267-008",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "If a particular observation is 3 units away from the mean, what numerical contribution does it make to the variance calculation?",
+      "options": {
+        "A": "9",
+        "B": "3",
+        "C": "6",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "9",
+      "explanation": "Variance uses squared deviations, so a deviation of 3 contributes 3² = 9 to the sum of squared deviations. The other options correspond to the unsquared deviation or incorrect arithmetic.",
+      "difficulty": "medium"
+    }
+  ]
+}

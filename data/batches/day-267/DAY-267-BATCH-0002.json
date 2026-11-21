@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-267-9",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "Consider two data sets: Set A = {2, 4, 6, 8} and Set B = {5, 5, 5, 5}. Which set has the larger variance?",
+      "options": {
+        "A": "Set A",
+        "B": "Set B",
+        "C": "Both have equal variance",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Set A",
+      "explanation": "Variance is the average of squared deviations from the mean. For Set A, mean = 5, squared deviations = 9,1,1,9; sum = 20; variance = 20/4 = 5. For Set B, all values equal the mean, so variance = 0. Hence Set A has the larger variance.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-267-10",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "In a class, the variance of marks in Mathematics is 36 while the variance of marks in Physics is 9. Which statement is correct?",
+      "options": {
+        "A": "Students performed more consistently in Mathematics",
+        "B": "Students performed more consistently in Physics",
+        "C": "Both subjects show the same level of consistency",
+        "D": "Variance does not relate to consistency of performance"
+      },
+      "correct_option": "B",
+      "answer": "Students performed more consistently in Physics",
+      "explanation": "A smaller variance indicates that the data points are closer to the mean, i.e., more consistent performance. Since 9 < 36, Physics marks are more consistent than Mathematics marks.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-267-11",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "Which of the following best defines the statistical term \"variance\"?",
+      "options": {
+        "A": "The average of the squared deviations of each observation from the mean",
+        "B": "The square root of the average of the absolute deviations from the mean",
+        "C": "The sum of the deviations of each observation from the mean",
+        "D": "The difference between the maximum and minimum values in a data set"
+      },
+      "correct_option": "A",
+      "answer": "The average of the squared deviations of each observation from the mean",
+      "explanation": "Variance is calculated as \\(\\sigma^2 = \\frac{\\sum (x_i-\\mu)^2}{N}\\), which is the mean of the squared deviations from the mean. The other options describe different concepts (standard deviation, total deviation, range).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-267-12",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "Find the variance of the data set {3, 5, 7}. (Use the population variance formula.)",
+      "options": {
+        "A": "2",
+        "B": "2.67",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "answer": "2.67",
+      "explanation": "Mean = (3+5+7)/3 = 5. Squared deviations: (3-5)^2=4, (5-5)^2=0, (7-5)^2=4. Sum = 8. Population variance = 8/3 ≈ 2.67. Option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-267-13",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Which expression correctly represents a squared deviation of a data value \\(x\\) from the mean \\(\\mu\\)?",
+      "options": {
+        "A": "(x - \\mu)^2",
+        "B": "(x - \\mu)",
+        "C": "(x - \\mu)^3",
+        "D": "(\\mu - x)"
+      },
+      "correct_option": "A",
+      "answer": "(x - \\mu)^2",
+      "explanation": "A squared deviation is obtained by subtracting the mean from the observation and squaring the result, i.e., \\((x-\\mu)^2\\). Option B is a simple deviation, C is a cubed deviation, and D is the negative of the deviation (not squared).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-267-14",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "For the data set {10, 12, 14, 16}, what is the variance?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "Mean = (10+12+14+16)/4 = 13. Squared deviations: (10-13)^2=9, (12-13)^2=1, (14-13)^2=1, (16-13)^2=9. Sum = 20. Variance = 20/4 = 5. Hence option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-267-15",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "Factory X records a daily output variance of 25 square units, while Factory Y records a variance of 4 square units. Which statement is true?",
+      "options": {
+        "A": "Factory X has more consistent daily output than Factory Y",
+        "B": "Factory Y has more consistent daily output than Factory X",
+        "C": "Both factories have equally consistent output",
+        "D": "Variance cannot be used to compare consistency"
+      },
+      "correct_option": "B",
+      "answer": "Factory Y has more consistent daily output than Factory X",
+      "explanation": "A smaller variance indicates that the observations are clustered closer to the mean, meaning greater consistency. Since 4 < 25, Factory Y's output is more consistent.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-267-16",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A researcher states, \"Variance tells us how much the data values differ, on average, from the central value, after squaring those differences.\" Which of the following is the most accurate definition that matches this description?",
+      "options": {
+        "A": "Variance is the measure of average squared deviation from the mean",
+        "B": "Variance is the measure of average absolute deviation from the mean",
+        "C": "Variance is the difference between the largest and smallest observations",
+        "D": "Variance is the median of the data set"
+      },
+      "correct_option": "A",
+      "answer": "Variance is the measure of average squared deviation from the mean",
+      "explanation": "The researcher’s description matches the formal definition of variance: the mean of the squared deviations from the mean. Options B, C, and D describe other statistical measures (mean absolute deviation, range, median).",
+      "difficulty": "medium"
+    }
+  ]
+}

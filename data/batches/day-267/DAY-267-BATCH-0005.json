@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01133-33",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "In the calculation of variance, what is meant by the *squared deviation* of a data value from the mean?",
+      "options": {
+        "A": "The simple difference between the data value and the mean.",
+        "B": "The square of the difference between the data value and the mean.",
+        "C": "The absolute value of the difference between the data value and the mean.",
+        "D": "The difference divided by the total number of observations."
+      },
+      "correct_option": "B",
+      "answer": "The square of the difference between the data value and the mean.",
+      "explanation": "A squared deviation is obtained by first finding the deviation (value – mean) and then squaring it. This removes the sign and gives more weight to larger deviations. Option A is just the deviation, not squared. Option C describes absolute deviation, not squared. Option D is unrelated to the definition of squared deviation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "LU-01133-34",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "For the data set {4, 8, 6, 10}, what is the population variance?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "Mean = (4+8+6+10)/4 = 7. Squared deviations: (4‑7)²=9, (8‑7)²=1, (6‑7)²=1, (10‑7)²=9. Sum = 20. Population variance = 20/4 = 5. Options A, C, D are incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "LU-01133-35",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "Two classes took the same mathematics test. Both classes have a mean score of 70. Class A has a variance of 4, while Class B has a variance of 16. Which statement best interprets these variances?",
+      "options": {
+        "A": "Class A’s scores are more spread out than Class B’s.",
+        "B": "Class B’s scores are more spread out than Class A’s.",
+        "C": "Both classes have the same spread of scores.",
+        "D": "Variance does not provide any information about spread."
+      },
+      "correct_option": "B",
+      "answer": "Class B’s scores are more spread out than Class A’s.",
+      "explanation": "A larger variance indicates that the data points deviate more from the mean on average. Hence Class B (variance 16) is more dispersed than Class A (variance 4). Option A reverses the interpretation. Option C ignores the difference, and Option D is false because variance directly measures spread.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01133-36",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A teacher says: “Variance is the average of the squared deviations of each observation from the mean of the data.” Which of the following statements correctly defines variance?",
+      "options": {
+        "A": "Variance = (Σ (xᵢ – μ) ) / n",
+        "B": "Variance = (Σ (xᵢ – μ)² ) / n",
+        "C": "Variance = (Σ |xᵢ – μ| ) / n",
+        "D": "Variance = (Σ (xᵢ – μ)³ ) / n"
+      },
+      "correct_option": "B",
+      "answer": "Variance = (Σ (xᵢ – μ)² ) / n",
+      "explanation": "The definition given by the teacher matches option B: sum of squared deviations divided by the number of observations. Option A omits squaring, option C uses absolute deviations, and option D uses cubes, none of which define variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01133-37",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "A student computes the variance of the data set {2, 4, 6, 8} as follows: mean = 5, deviations = –3, –1, 1, 3, squares = 9, 1, 1, 9, sum = 20, variance = 20 ÷ 4 = 5. Which of the following statements about this calculation is **incorrect**?",
+      "options": {
+        "A": "The mean of the data set is correctly calculated as 5.",
+        "B": "The deviations from the mean are correctly listed.",
+        "C": "The variance should be 5 because the sum of squared deviations is divided by the number of observations.",
+        "D": "The variance would be different if the data were considered a sample rather than a whole population."
+      },
+      "correct_option": "C",
+      "answer": "The variance should be 5 because the sum of squared deviations is divided by the number of observations.",
+      "explanation": "For a population variance, dividing by n (4) gives 5, which is correct. However, the question does not specify whether the data represent a whole population or a sample. If it is a sample, the unbiased estimator divides by (n‑1)=3, giving variance = 20/3 ≈ 6.67. Hence statement C is misleading because it assumes population context without clarification. Options A, B, and D are true statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01133-38",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Why do we square the deviations when calculating variance instead of taking their absolute values?",
+      "options": {
+        "A": "Squaring makes all deviations positive and gives greater weight to larger deviations.",
+        "B": "Squaring simplifies the computation of the mean.",
+        "C": "Absolute values cannot be added together.",
+        "D": "Squaring eliminates the need to find the mean first."
+      },
+      "correct_option": "A",
+      "answer": "Squaring makes all deviations positive and gives greater weight to larger deviations.",
+      "explanation": "Squaring serves two purposes: it removes the sign (making all terms non‑negative) and it accentuates larger deviations because the square grows faster than the linear absolute value. Option B is unrelated, option C is false (absolute values can be summed), and option D is incorrect because the mean is still required before deviations are computed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "LU-01133-39",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "A data set of 5 observations is known to be the entire population. Another data set of 5 observations is a random sample from a larger population. Which of the following statements correctly compares the formulas used to compute their variances?",
+      "options": {
+        "A": "Both use the same formula: Σ (xᵢ – μ)² ÷ n.",
+        "B": "The population variance uses Σ (xᵢ – μ)² ÷ n, while the sample variance uses Σ (xᵢ – x̄)² ÷ (n‑1).",
+        "C": "The population variance uses Σ (xᵢ – μ)² ÷ (n‑1), while the sample variance uses Σ (xᵢ – x̄)² ÷ n.",
+        "D": "Both variances are always identical regardless of the formula used."
+      },
+      "correct_option": "B",
+      "answer": "The population variance uses Σ (xᵢ – μ)² ÷ n, while the sample variance uses Σ (xᵢ – x̄)² ÷ (n‑1).",
+      "explanation": "For a complete population, variance is computed by dividing the sum of squared deviations from the true mean μ by n. For a sample, we use the sample mean x̄ and divide by (n‑1) to obtain an unbiased estimator. Option A ignores the (n‑1) correction for samples. Option C swaps the denominators. Option D is false because the formulas differ and generally give different numerical results.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01133-40",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "In a competitive exam, a question states: “The variance of the marks obtained by candidates in a test is 9. Which of the following statements is necessarily true?\"",
+      "options": {
+        "A": "All candidates scored within 3 marks of the mean.",
+        "B": "The standard deviation of the marks is 3.",
+        "C": "At least 68% of the candidates scored within 9 marks of the mean.",
+        "D": "The range of marks must be at least 9."
+      },
+      "correct_option": "B",
+      "answer": "The standard deviation of the marks is 3.",
+      "explanation": "Standard deviation is the square root of variance. √9 = 3, so statement B is always true. Statement A confuses variance with absolute deviation. Statement C incorrectly applies the empirical rule (which uses standard deviation, not variance). Statement D is not guaranteed; a small range can still produce a variance of 9 if the distribution is spread appropriately.",
+      "difficulty": "hard"
+    }
+  ]
+}

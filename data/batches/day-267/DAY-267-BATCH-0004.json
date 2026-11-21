@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-267-25",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "The marks obtained by five students are 4, 6, 8, 10 and 12. The variance of this data set is 8. What does a variance of 8 tell you about the spread of the marks?",
+      "options": {
+        "A": "The marks are tightly clustered around the mean.",
+        "B": "The marks are moderately spread around the mean.",
+        "C": "The marks are highly dispersed from the mean.",
+        "D": "All marks are equal to the mean."
+      },
+      "correct_option": "B",
+      "answer": "The marks are moderately spread around the mean.",
+      "explanation": "A variance of 8 (units squared) indicates that, on average, each mark deviates from the mean by the square root of 8 ≈ 2.83 marks. This shows a moderate spread—not extremely tight (which would give a very small variance) nor highly dispersed (which would give a much larger variance). Option B correctly interprets the magnitude of the variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-267-26",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A teacher records the scores of a class: 70, 75, 80, 85, and 90. She asks her students to define variance. Which of the following statements correctly defines variance?",
+      "options": {
+        "A": "The sum of the deviations of each score from the mean.",
+        "B": "The average of the absolute deviations of each score from the mean.",
+        "C": "The average of the squared deviations of each score from the mean.",
+        "D": "The difference between the highest and lowest scores."
+      },
+      "correct_option": "C",
+      "answer": "The average of the squared deviations of each score from the mean.",
+      "explanation": "Variance is defined as the mean of the squared differences between each observation and the arithmetic mean of the data set. Option C captures this definition precisely. Option A omits squaring, B uses absolute values, and D describes range, not variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-267-27",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "For the data set 2, 4, 6, 8, the mean is 5. A student incorrectly adds the deviations (‑3, ‑1, 1, 3) and divides by 4, obtaining 0. What is the correct variance?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "First compute squared deviations: (‑3)²=9, (‑1)²=1, 1²=1, 3²=9. Sum = 20. Divide by the number of observations (4) gives variance = 20/4 = 5. The student's error was adding raw deviations, which always sum to zero. Option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-267-28",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Why do we square the deviations from the mean when calculating variance?",
+      "options": {
+        "A": "To convert all deviations to positive values and give larger deviations more influence.",
+        "B": "Because squaring makes the calculation easier.",
+        "C": "To obtain the same units as the original data.",
+        "D": "To eliminate the need for a square‑root step later."
+      },
+      "correct_option": "A",
+      "answer": "To convert all deviations to positive values and give larger deviations more influence.",
+      "explanation": "Squaring serves two purposes: it removes the sign, ensuring that deviations above and below the mean do not cancel, and it accentuates larger deviations because the square grows faster than the linear value. Option A states both reasons. Options B, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-267-29",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "A researcher has a random sample of 15 observations. Which formula should be used to obtain an unbiased estimate of the population variance?",
+      "options": {
+        "A": "Divide the sum of squared deviations by n (the sample size).",
+        "B": "Divide the sum of squared deviations by n − 1.",
+        "C": "Divide the sum of squared deviations by n + 1.",
+        "D": "Multiply the sum of squared deviations by n."
+      },
+      "correct_option": "B",
+      "answer": "Divide the sum of squared deviations by n − 1.",
+      "explanation": "For a sample, the unbiased estimator of the population variance uses the denominator (n − 1), known as Bessel's correction. This corrects the bias that arises when using the sample mean. Hence option B is correct; the other options either underestimate or are mathematically incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-267-30",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "In a competitive exam, the scores of two sections are analyzed. Section A has a variance of 2, while Section B has a variance of 18. Which statement is most appropriate?",
+      "options": {
+        "A": "The mean score of Section A is more reliable as a measure of central tendency than that of Section B.",
+        "B": "Both sections have equally reliable means because variance does not affect reliability.",
+        "C": "Section B’s higher variance means its mean is more representative of the data.",
+        "D": "Variance only affects the mode, not the mean."
+      },
+      "correct_option": "A",
+      "answer": "The mean score of Section A is more reliable as a measure of central tendency than that of Section B.",
+      "explanation": "A smaller variance indicates that data points are clustered closely around the mean, making the mean a better representative of typical performance. Section A’s variance (2) is much lower than Section B’s (18), so its mean is more reliable. Options B, C, and D misunderstand the role of variance.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-267-31",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "Which of the following best defines variance in a data set?",
+      "options": {
+        "A": "The difference between the largest and smallest values.",
+        "B": "The average of the squared differences between each value and the mean.",
+        "C": "The most frequently occurring value.",
+        "D": "The square root of the mean."
+      },
+      "correct_option": "B",
+      "answer": "The average of the squared differences between each value and the mean.",
+      "explanation": "Variance quantifies the average squared deviation of each observation from the arithmetic mean. Option B captures this definition precisely. Option A describes range, C describes mode, and D describes the square root of the mean, which is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-267-32",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "Find the variance of the data set: 3, 3, 3, 3.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "All observations are identical, so each deviation from the mean (which is 3) is 0. Squaring these deviations gives 0, and the average of zeros is 0. Hence the variance is 0. Options B, C, and D are incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}
