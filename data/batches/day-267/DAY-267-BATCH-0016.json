@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "For the data set {4, 8, 6, 10}, what is the standard deviation? (Use the population formula: variance = Σ(x‑μ)² / n)",
+      "options": {
+        "A": "√5 ≈ 2.24",
+        "B": "5",
+        "C": "20",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "answer": "√5 ≈ 2.24",
+      "explanation": "First find the mean μ = (4+8+6+10)/4 = 7. The squared deviations are (4‑7)²=9, (8‑7)²=1, (6‑7)²=1, (10‑7)²=9; their sum is 20. Variance = 20/4 = 5. Standard deviation is the positive square root of the variance, √5 ≈ 2.24. Options B, C and D ignore the square‑root step or use the sum of squares directly, which are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Data set A = {2, 4, 6, 8, 10} and Data set B = {5, 5, 5, 5, 5}. Which data set shows greater variability?",
+      "options": {
+        "A": "Data set A",
+        "B": "Data set B",
+        "C": "Both have the same variability",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Data set A",
+      "explanation": "For Data set A, mean = 6, variance = [(2‑6)²+(4‑6)²+(6‑6)²+(8‑6)²+(10‑6)²]/5 = 40/5 = 8, so σ = √8 ≈ 2.83. For Data set B, all values are identical, variance = 0, σ = 0. A larger standard deviation indicates greater spread, so Data set A is more variable. Options B, C, D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "The heights of a group of plants are measured in centimeters. Which unit correctly describes the standard deviation of these heights?",
+      "options": {
+        "A": "centimeters",
+        "B": "square centimeters",
+        "C": "meters",
+        "D": "kilograms"
+      },
+      "correct_option": "A",
+      "answer": "centimeters",
+      "explanation": "Standard deviation has the same unit as the original data because it is the square root of the variance (which is in squared units). Since the data are in centimeters, the standard deviation is also expressed in centimeters. Option B is the unit of variance, while C and D are unrelated units.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Two sets of measurements of the same quantity have the same mean of 50. Set X has a standard deviation of 2, while Set Y has a standard deviation of 5. Which statement is true?",
+      "options": {
+        "A": "Set X is more consistent than Set Y.",
+        "B": "Set Y is more consistent than Set X.",
+        "C": "Both sets are equally consistent.",
+        "D": "Consistency cannot be judged from standard deviation."
+      },
+      "correct_option": "A",
+      "answer": "Set X is more consistent than Set Y.",
+      "explanation": "A smaller standard deviation indicates that the data points are clustered closer to the mean, i.e., the measurements are more consistent. Since 2 < 5, Set X shows higher consistency. Options B and C contradict the definition, and D is false because standard deviation directly quantifies consistency.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "Standard deviation is defined as:",
+      "options": {
+        "A": "The positive square root of variance",
+        "B": "The average of the data values",
+        "C": "The sum of the squared deviations from the mean",
+        "D": "The difference between the maximum and minimum values"
+      },
+      "correct_option": "A",
+      "answer": "The positive square root of variance",
+      "explanation": "By definition, variance = Σ(x‑μ)² / n (or n‑1 for a sample). The standard deviation is the non‑negative square root of this variance, giving a measure of spread in the same units as the data. Options B, C, and D describe other statistics (mean, sum of squares, range).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "Find the standard deviation of the data set {3, 3, 3, 3}.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "All observations are identical, so each deviation from the mean (which is 3) is zero. The variance is 0, and the square root of 0 is 0. Hence the standard deviation is 0. The other options are non‑zero values that would arise only if the data varied.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Which statement correctly distinguishes standard deviation from range?",
+      "options": {
+        "A": "Standard deviation measures the average spread of data about the mean, while range measures the difference between the maximum and minimum values.",
+        "B": "Standard deviation is always larger than the range for any data set.",
+        "C": "Range is expressed in squared units, whereas standard deviation uses the original units.",
+        "D": "Both standard deviation and range give the same information about data spread."
+      },
+      "correct_option": "A",
+      "answer": "Standard deviation measures the average spread of data about the mean, while range measures the difference between the maximum and minimum values.",
+      "explanation": "Standard deviation quantifies how data are dispersed around the mean, using all observations. Range only looks at the extreme values (max – min). Option B is false; range can be larger or smaller than the standard deviation. Option C reverses the units (range has original units, variance has squared units). Option D is incorrect because they capture different aspects of spread.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "The time taken by runners in a race is recorded in seconds. In which unit will the standard deviation of these times be expressed?",
+      "options": {
+        "A": "seconds",
+        "B": "minutes",
+        "C": "seconds squared",
+        "D": "metres per second"
+      },
+      "correct_option": "A",
+      "answer": "seconds",
+      "explanation": "Standard deviation carries the same unit as the original measurements. Since the data are in seconds, the standard deviation is also expressed in seconds. Option C is the unit of variance, while B and D are unrelated units.",
+      "difficulty": "easy"
+    }
+  ]
+}

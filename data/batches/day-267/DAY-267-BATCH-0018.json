@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01134-33",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Two classes took the same test. Class A has a mean score of 70 and a standard deviation of 5, while Class B has a mean of 70 and a standard deviation of 12. Which statement correctly describes the comparison of the two data sets?",
+      "options": {
+        "A": "Class A’s scores are more spread out than Class B’s scores.",
+        "B": "Both classes have the same amount of spread because their means are equal.",
+        "C": "Class B’s scores are more spread out than Class A’s scores.",
+        "D": "Standard deviation cannot be used to compare spread when means are equal."
+      },
+      "correct_option": "C",
+      "answer": "Class B’s scores are more spread out than Class A’s scores.",
+      "explanation": "Standard deviation measures the average distance of data points from the mean. A larger standard deviation indicates greater spread. Since Class B has a standard deviation of 12, which is larger than Class A’s 5, Class B’s scores are more spread out. Options A and B are incorrect because they reverse or ignore the meaning of standard deviation. Option D is wrong because standard deviation is precisely the tool for comparing spread, irrespective of equal means.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "LU-01134-34",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "If the heights of students are recorded in centimeters, what are the units of the standard deviation of these heights?",
+      "options": {
+        "A": "Centimeters squared (cm²)",
+        "B": "Centimeters (cm)",
+        "C": "No units (dimensionless)",
+        "D": "Meters (m)"
+      },
+      "correct_option": "B",
+      "answer": "Centimeters (cm)",
+      "explanation": "Standard deviation is the square root of variance. Variance has units squared (cm²), so taking the square root returns the original unit, centimeters. Therefore the standard deviation is expressed in cm. Option A gives the unit of variance, not standard deviation. Option C is incorrect because the measure is not dimensionless. Option D uses a different unit not present in the data.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "LU-01134-35",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Data Set X: {12, 14, 13, 15, 14} Data Set Y: {5, 23, 12, 18, 9}. Which data set shows greater consistency in the measurements?",
+      "options": {
+        "A": "Data Set X, because it has a smaller standard deviation.",
+        "B": "Data Set Y, because it has a larger mean.",
+        "C": "Both sets are equally consistent because they have the same number of observations.",
+        "D": "Data Set Y, because its values are more varied."
+      },
+      "correct_option": "A",
+      "answer": "Data Set X, because it has a smaller standard deviation.",
+      "explanation": "Consistency refers to how closely the data points cluster around the mean. A smaller standard deviation indicates less spread and therefore higher consistency. Calculating quickly shows Data Set X values are close to each other, giving a small standard deviation, while Data Set Y values are far apart, giving a larger standard deviation. Option B confuses mean with consistency. Option C ignores spread. Option D states the opposite of the correct interpretation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01134-36",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "A researcher says, “The standard deviation tells us the typical distance of each observation from the average value.” Which of the following best captures the formal definition of standard deviation?",
+      "options": {
+        "A": "The average of all observations in a data set.",
+        "B": "The square of the variance.",
+        "C": "The positive square root of the variance.",
+        "D": "The difference between the maximum and minimum values."
+      },
+      "correct_option": "C",
+      "answer": "The positive square root of the variance.",
+      "explanation": "Standard deviation is defined as the positive square root of the variance, which itself is the average of the squared deviations from the mean. Option A describes the mean. Option B describes variance squared, not its root. Option D describes the range, not standard deviation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01134-37",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "A set of five numbers has a mean of 20 and a variance of 36. A student incorrectly adds the mean and the square root of the variance to obtain 26 as the standard deviation. What is the correct standard deviation?",
+      "options": {
+        "A": "6",
+        "B": "26",
+        "C": "56",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "Standard deviation is the square root of variance, not the sum of mean and √variance. √36 = 6, so the correct standard deviation is 6. The student’s error was adding the mean (20) to the square root, giving 26, which is incorrect. Options B, C, and D are results of the mistaken operation or unrelated calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01134-38",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Two experiments measure the same quantity. Experiment 1 yields a standard deviation of 2.5 units, while Experiment 2 yields 4.0 units. Which reasoning correctly explains what this tells us about the two experiments?",
+      "options": {
+        "A": "Experiment 1’s measurements are more precise because they vary less from the mean.",
+        "B": "Experiment 2 is more accurate because a larger standard deviation indicates higher quality data.",
+        "C": "Both experiments have the same reliability because standard deviation does not affect reliability.",
+        "D": "Experiment 2’s larger standard deviation means its mean must be larger than Experiment 1’s mean."
+      },
+      "correct_option": "A",
+      "answer": "Experiment 1’s measurements are more precise because they vary less from the mean.",
+      "explanation": "A smaller standard deviation indicates that data points are clustered more tightly around the mean, reflecting higher precision. Accuracy relates to closeness to the true value, not directly to standard deviation. Option B confuses precision with accuracy. Option C ignores the role of spread in reliability. Option D incorrectly links standard deviation to the magnitude of the mean.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "LU-01134-39",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "Which statement correctly compares the units of variance and standard deviation for a data set measured in kilograms (kg)?",
+      "options": {
+        "A": "Both variance and standard deviation are expressed in kilograms (kg).",
+        "B": "Variance is expressed in kilograms squared (kg²), while standard deviation is expressed in kilograms (kg).",
+        "C": "Variance is expressed in kilograms (kg), while standard deviation is expressed in kilograms squared (kg²).",
+        "D": "Both variance and standard deviation are dimensionless because they are statistical measures."
+      },
+      "correct_option": "B",
+      "answer": "Variance is expressed in kilograms squared (kg²), while standard deviation is expressed in kilograms (kg).",
+      "explanation": "Variance is the average of squared deviations, so its unit is the square of the original unit (kg²). Standard deviation is the square root of variance, returning to the original unit (kg). Options A and C swap the units, and D incorrectly claims they are dimensionless.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01134-40",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "A competitive exam provides the following summary for two groups of students:\nGroup P: Mean = 68, Standard Deviation = 3.\nGroup Q: Mean = 68, Standard Deviation = 9.\nWhich inference is most appropriate for a test‑taking strategy based on these statistics?",
+      "options": {
+        "A": "Aim for the highest possible score because Group Q shows greater variability, indicating many high scorers.",
+        "B": "Focus on consistent performance because Group P’s lower standard deviation suggests scores are tightly clustered around the mean.",
+        "C": "Ignore the standard deviation; only the mean matters for strategy.",
+        "D": "Assume Group Q will always outperform Group P because a larger standard deviation means higher potential scores."
+      },
+      "correct_option": "B",
+      "answer": "Focus on consistent performance because Group P’s lower standard deviation suggests scores are tightly clustered around the mean.",
+      "explanation": "A lower standard deviation (Group P) indicates that most students score close to the mean, reflecting consistency. For a test‑taking strategy, aiming for steady, reliable performance aligns with this consistency. Option A misinterprets variability as an advantage for high scores, which is not a reliable strategy. Option C dismisses useful spread information. Option D incorrectly assumes larger spread guarantees higher scores, ignoring the risk of low scores as well.",
+      "difficulty": "hard"
+    }
+  ]
+}

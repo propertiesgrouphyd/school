@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "What is the definition of standard deviation in statistics?",
+      "options": {
+        "A": "The positive square root of variance",
+        "B": "The square of the variance",
+        "C": "The average of the data values",
+        "D": "The range of the data set"
+      },
+      "correct_option": "A",
+      "answer": "The positive square root of variance",
+      "explanation": "Standard deviation is defined as the positive square root of the variance, which measures the average squared deviation of each data point from the mean. Option B describes squaring variance, C describes mean, and D describes range, none of which define standard deviation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "What is the standard deviation of the data set {2, 4, 6} (using the population formula)?",
+      "options": {
+        "A": "1.63",
+        "B": "2.00",
+        "C": "2.45",
+        "D": "3.00"
+      },
+      "correct_option": "A",
+      "answer": "1.63",
+      "explanation": "Mean = (2+4+6)/3 = 4. Squared deviations: (2-4)²=4, (4-4)²=0, (6-4)²=4. Sum = 8. Variance = 8/3 ≈ 2.6667. Standard deviation = √2.6667 ≈ 1.63. The other options correspond to incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Which of the following data sets has the larger spread as indicated by its standard deviation?\nSet A: {10, 10, 10, 10}\nSet B: {5, 15, 5, 15}",
+      "options": {
+        "A": "Set A",
+        "B": "Set B",
+        "C": "Both sets have the same spread",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "B",
+      "answer": "Set B",
+      "explanation": "Set A has all identical values, so its standard deviation is 0. Set B has values 5 and 15 alternating; its mean is 10, squared deviations are 25 each, variance = 25, so standard deviation = 5. Hence Set B shows a larger spread. Options A, C, D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "If the observations are measured in centimeters, what are the units of the standard deviation?",
+      "options": {
+        "A": "Centimeters",
+        "B": "Square centimeters",
+        "C": "Centimeters per second",
+        "D": "Meters"
+      },
+      "correct_option": "A",
+      "answer": "Centimeters",
+      "explanation": "Standard deviation has the same unit as the original data because it is the square root of variance (which has squared units). Therefore, if data are in centimeters, the standard deviation is also expressed in centimeters. Options B, C, D are incorrect units.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Student X scored 78, 80, 82, 84, 86 while Student Y scored 60, 70, 80, 90, 100. Whose scores are more consistent?",
+      "options": {
+        "A": "Student X",
+        "B": "Student Y",
+        "C": "Both are equally consistent",
+        "D": "Cannot be determined without the mean"
+      },
+      "correct_option": "A",
+      "answer": "Student X",
+      "explanation": "Consistency relates to a smaller standard deviation. Student X’s scores are tightly clustered around the mean (average deviation ≈ 2), whereas Student Y’s scores vary widely (average deviation ≈ 14). Hence Student X’s data are more consistent. Options B, C, D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "A researcher claims that the standard deviation is the average of the absolute deviations from the mean. Which statement is correct?",
+      "options": {
+        "A": "The claim is correct.",
+        "B": "The claim is incorrect; standard deviation is the positive square root of variance.",
+        "C": "The claim is incorrect; standard deviation is the sum of the deviations.",
+        "D": "The claim is correct only for sample data."
+      },
+      "correct_option": "B",
+      "answer": "The claim is incorrect; standard deviation is the positive square root of variance.",
+      "explanation": "Standard deviation is defined as the square root of the variance (average of squared deviations), not the average of absolute deviations. Option A repeats the false claim, C misstates the definition, and D adds an unfounded condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "A student computed the standard deviation of {3, 7, 7, 11} by summing the squared deviations (32) and taking the square root, obtaining √32 ≈ 5.66. What is the error in this calculation?",
+      "options": {
+        "A": "The student forgot to subtract the mean from each observation.",
+        "B": "The student used the sample formula instead of the population formula.",
+        "C": "The student did not divide the sum of squared deviations by the number of observations before taking the square root.",
+        "D": "The student used incorrect units for the result."
+      },
+      "correct_option": "C",
+      "answer": "The student did not divide the sum of squared deviations by the number of observations before taking the square root.",
+      "explanation": "To obtain variance, the sum of squared deviations must be divided by n (for population) or n‑1 (for sample). The student took √32 directly, skipping this division, leading to an inflated value. Options A, B, and D do not describe the actual mistake.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Which data set shows greater variability?\nSet P: {4, 4, 4, 4, 4}\nSet Q: {2, 4, 6, 8, 10}",
+      "options": {
+        "A": "Set P",
+        "B": "Set Q",
+        "C": "Both sets have the same variability",
+        "D": "Insufficient information to decide"
+      },
+      "correct_option": "B",
+      "answer": "Set Q",
+      "explanation": "Set P has all identical values, so its standard deviation is 0. Set Q has a mean of 6; squared deviations are 16, 4, 0, 4, 16, sum = 40, variance = 40/5 = 8, standard deviation = √8 ≈ 2.83. Hence Set Q has greater spread. Options A, C, D are incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}
