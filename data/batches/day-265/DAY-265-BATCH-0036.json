@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Which of the following statements correctly defines the limit of a function f(x) as x approaches a and distinguishes it from the actual value f(a), using algebraic simplification where necessary?",
+      "options": {
+        "A": "The limit of f(x) as x→a is the value that f(x) actually attains at x = a.",
+        "B": "The limit of f(x) as x→a is the number that f(x) gets arbitrarily close to as x gets arbitrarily close to a, regardless of whether f(a) is defined.",
+        "C": "The limit of f(x) as x→a is the average of the left-hand and right-hand values of f at a.",
+        "D": "The limit of f(x) as x→a is always equal to f(a) after simplifying the expression."
+      },
+      "correct_option": "B",
+      "answer": "The limit of f(x) as x→a is the number that f(x) gets arbitrarily close to as x gets arbitrarily close to a, regardless of whether f(a) is defined.",
+      "explanation": "A limit describes the value that the function approaches, not necessarily the value it takes at that point. Option B captures this definition and highlights the distinction from f(a). Options A and D incorrectly equate the limit with the function’s actual value, and option C is not a definition of limit.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Find the limit of f(x)=3x+1 as x approaches 2 from the left side (x→2⁻).",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "7",
+      "explanation": "The function is linear, so its left‑hand limit equals the value of the expression at x=2: 3·2+1=7. Hence option C is correct; the other numbers are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For the function g(x)= (x^2 - 4)/(x - 2), which statement is true regarding the use of direct substitution to find \\(\\lim_{x\\to2} g(x)\\)?",
+      "options": {
+        "A": "Direct substitution gives 0/0, so the limit does not exist.",
+        "B": "Direct substitution gives 4/0, indicating an infinite limit.",
+        "C": "Direct substitution works after simplifying the expression, giving limit 4.",
+        "D": "Direct substitution works directly, giving limit 2."
+      },
+      "correct_option": "C",
+      "answer": "Direct substitution works after simplifying the expression, giving limit 4.",
+      "explanation": "Substituting x=2 initially yields 0/0, an indeterminate form. Factoring the numerator gives (x-2)(x+2), so g(x)=x+2 for x≠2. The limit as x→2 is therefore 2+2=4, making option C correct. Options A and B misinterpret the indeterminate form, and D ignores the simplification step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A ball is dropped from a height. As time t approaches 0 seconds, the height h(t) approaches 100 meters. Which statement best captures the intuitive meaning of this limit?",
+      "options": {
+        "A": "The ball is at 100 meters at t=0.",
+        "B": "The ball never reaches 100 meters.",
+        "C": "As t gets very small, the height gets very close to 100 meters, regardless of the exact position at t=0.",
+        "D": "The height oscillates around 100 meters near t=0."
+      },
+      "correct_option": "C",
+      "answer": "As t gets very small, the height gets very close to 100 meters, regardless of the exact position at t=0.",
+      "explanation": "The limit describes the value the function approaches as the input gets arbitrarily close to a point. Here, as t→0, h(t) gets arbitrarily close to 100 m, which is expressed by option C. Option A confuses limit with actual value at t=0, while B and D are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "What is \\(\\displaystyle\\lim_{x\\to0}\\frac{\\sin x}{x}\\)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "Does not exist",
+        "D": "Infinity"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "Using the standard limit result or the squeeze theorem, \\(\\lim_{x\\to0}\\frac{\\sin x}{x}=1\\). Many students mistakenly think the limit is 0 because the numerator tends to 0, but the ratio approaches 1. Hence option B is correct; the other options are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Evaluate \\(\\displaystyle\\lim_{x\\to3}\\frac{x^2-9}{x-3}\\) using algebraic simplification.",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "6",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Factor the numerator: x^2-9=(x-3)(x+3). Cancel (x-3) (x≠3) to get x+3. Substituting x=3 gives 3+3=6. Therefore option C is correct. Options A, B, and D ignore the simplification step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Consider \\(f(x)=\\frac{|x|}{x}\\) for \\(x\\neq0\\). Which statement correctly compares the left‑hand and right‑hand limits as \\(x\\) approaches 0?",
+      "options": {
+        "A": "Both left‑hand and right‑hand limits equal 1.",
+        "B": "Left‑hand limit = -1, right‑hand limit = 1.",
+        "C": "Both limits equal -1.",
+        "D": "Neither limit exists because the function is undefined at 0."
+      },
+      "correct_option": "B",
+      "answer": "Left‑hand limit = -1, right‑hand limit = 1.",
+      "explanation": "For x>0, |x|/x = 1, so the right‑hand limit is 1. For x<0, |x|/x = -1, so the left‑hand limit is -1. Since the one‑sided limits differ, the two‑sided limit does not exist, making option B correct. Options A and C incorrectly state equality, and D misstates the reason for non‑existence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For \\(h(x)=\\frac{\\sqrt{x+4}-2}{x}\\), what is \\(\\displaystyle\\lim_{x\\to0} h(x)\\) after rationalising the numerator?",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{1}{2}\\)",
+        "C": "1",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{1}{4}\\)",
+      "explanation": "Rationalise: \\(\\frac{\\sqrt{x+4}-2}{x}=\\frac{(\\sqrt{x+4}-2)(\\sqrt{x+4}+2)}{x(\\sqrt{x+4}+2)}=\\frac{x}{x(\\sqrt{x+4}+2)}=\\frac{1}{\\sqrt{x+4}+2}.\\) As x→0, \\(\\sqrt{4}=2\\), so the expression approaches \\(1/(2+2)=1/4\\). Hence option A is correct; the other options are incorrect values.",
+      "difficulty": "hard"
+    }
+  ]
+}

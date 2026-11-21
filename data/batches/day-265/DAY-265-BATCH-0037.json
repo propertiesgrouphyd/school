@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0037",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "What does the limit of a function f(x) as x approaches a represent?",
+      "options": {
+        "A": "The exact value of f(a)",
+        "B": "The value that f(x) approaches as x gets arbitrarily close to a",
+        "C": "The maximum value of f(x) on the interval",
+        "D": "The derivative of f at a"
+      },
+      "correct_option": "B",
+      "answer": "The value that f(x) approaches as x gets arbitrarily close to a",
+      "explanation": "A limit describes the number that the function values get nearer to as the input variable gets nearer to the specified point. It is not necessarily the actual function value at that point, nor a maximum or a derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find \\(\\displaystyle\\lim_{x\\to 3}\\,(2x+1)\\).",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "For a polynomial, the limit as x approaches a is obtained by direct substitution: 2·3 + 1 = 7. The other numbers are distractors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Evaluate \\(\\displaystyle\\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\) by simplifying the expression.",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "4",
+        "D": "Does not exist"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "Factor the numerator: \\(x^{2}-4=(x-2)(x+2)\\). Cancel the common factor \\((x-2)\\) (x≠2) to get \\(x+2\\). Substituting x=2 gives 2+2 = 4. The limit exists and equals 4.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "What is the right‑hand limit \\(\\displaystyle\\lim_{x\\to 0^{+}}\\frac{1}{x}\\)?",
+      "options": {
+        "A": "-\\infty",
+        "B": "0",
+        "C": "+\\infty",
+        "D": "Does not exist"
+      },
+      "correct_option": "C",
+      "answer": "+\\infty",
+      "explanation": "As x approaches 0 from the positive side, 1/x grows without bound in the positive direction, so the right‑hand limit is +∞. The left‑hand limit would be -∞, but the question asks for the right‑hand limit.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For which of the following functions can the limit as x approaches the given point be found simply by direct substitution?",
+      "options": {
+        "A": "f(x)=\\frac{x^{2}-9}{x-3} \\;\\text{at}\\; x=3",
+        "B": "f(x)=\\sqrt{x} \\;\\text{at}\\; x=4",
+        "C": "f(x)=\\frac{x-2}{x^{2}-4} \\;\\text{at}\\; x=2",
+        "D": "f(x)=\\frac{1}{x-1} \\;\\text{at}\\; x=1"
+      },
+      "correct_option": "B",
+      "answer": "f(x)=\\sqrt{x} \\;\\text{at}\\; x=4",
+      "explanation": "Direct substitution works when the function is defined and continuous at the point. \\(\\sqrt{x}\\) is continuous for x≥0, so substituting x=4 gives \\(\\sqrt{4}=2\\). Options A, C give 0/0 indeterminate forms, and D gives division by zero, so direct substitution fails for them.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A car’s speedometer reading approaches 60 km/h as the time variable t approaches a particular instant t₀. What does the limit \\(\\displaystyle\\lim_{t\\to t_{0}}\\,v(t)\\) represent?",
+      "options": {
+        "A": "The speed the car was traveling just before reaching t₀",
+        "B": "The speed the car will travel just after t₀",
+        "C": "The instantaneous speed of the car at t₀",
+        "D": "The average speed over the whole trip"
+      },
+      "correct_option": "C",
+      "answer": "The instantaneous speed of the car at t₀",
+      "explanation": "The limit gives the value that the speed function v(t) approaches as t gets arbitrarily close to t₀. If the speed function is continuous, this value equals the instantaneous speed at that exact moment. It is not merely a speed before or after, nor an average over a longer interval.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "What is \\(\\displaystyle\\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\)?\\nA common mistake is to think the limit is 0 because the numerator becomes 0 at x=2. Which answer is correct?",
+      "options": {
+        "A": "0",
+        "B": "4",
+        "C": "Does not exist",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "After canceling the common factor (x‑2), the expression simplifies to x+2. Substituting x=2 gives 4. The numerator being zero does not determine the limit when the denominator also becomes zero; the indeterminate form 0/0 must be resolved first.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Find \\(\\displaystyle\\lim_{x\\to 3}\\frac{x^{2}-9}{x-3}\\) by reasoning through algebraic simplification.",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "6",
+        "D": "Does not exist"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Factor the numerator: \\(x^{2}-9=(x-3)(x+3)\\). Cancel the factor \\((x-3)\\) (for x≠3) to obtain \\(x+3\\). Substituting x=3 yields 3+3 = 6. Hence the limit is 6.",
+      "difficulty": "medium"
+    }
+  ]
+}

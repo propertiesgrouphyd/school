@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Consider the function f(x) = (x^2 - 4)/(x - 2). Which statement correctly compares the left‑hand limit and the right‑hand limit as x approaches 2?",
+      "options": {
+        "A": "Both the left‑hand and right‑hand limits exist and are equal to 4.",
+        "B": "The left‑hand limit exists and equals 4, but the right‑hand limit does not exist.",
+        "C": "The right‑hand limit exists and equals 4, but the left‑hand limit does not exist.",
+        "D": "Neither the left‑hand nor the right‑hand limit exists."
+      },
+      "correct_option": "A",
+      "answer": "Both the left‑hand and right‑hand limits exist and are equal to 4.",
+      "explanation": "For x ≠ 2, (x^2‑4)/(x‑2) simplifies to x+2. As x approaches 2 from either side, x+2 approaches 4. Hence both one‑sided limits exist and equal 4. Options B, C, and D are incorrect because the function approaches the same finite value from both sides.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Which of the following limits can be evaluated directly by substituting the approaching value?",
+      "options": {
+        "A": "limₓ→3 (2x + 5)",
+        "B": "limₓ→0 (sin x)/x",
+        "C": "limₓ→2 (x² – 4)/(x – 2)",
+        "D": "limₓ→1 √(x – 1)"
+      },
+      "correct_option": "A",
+      "answer": "limₓ→3 (2x + 5)",
+      "explanation": "The function 2x+5 is a polynomial, which is continuous everywhere. Therefore the limit as x→3 is obtained by direct substitution: 2·3+5 = 11. Options B and C lead to indeterminate forms (0/0) and need simplification or special limits, while D is undefined for x<1, so direct substitution is not valid.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "Which description best captures the intuitive meaning of the limit of f(x) as x approaches a?",
+      "options": {
+        "A": "The exact value of f(x) at x = a.",
+        "B": "The value that f(x) gets arbitrarily close to as x gets arbitrarily close to a.",
+        "C": "The average of all values of f(x) near a.",
+        "D": "The maximum value of f(x) in a neighbourhood of a."
+      },
+      "correct_option": "B",
+      "answer": "The value that f(x) gets arbitrarily close to as x gets arbitrarily close to a.",
+      "explanation": "A limit describes the number that f(x) approaches, not necessarily the value at the point itself. Option B states this precisely. Option A confuses limit with function value, while C and D describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find limₓ→0 (3x + 2).",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "0",
+        "D": "Does not exist"
+      },
+      "correct_option": "A",
+      "answer": "2",
+      "explanation": "The function 3x+2 is continuous everywhere. Substituting x = 0 gives 3·0 + 2 = 2. Hence the limit is 2. The other options are incorrect because they do not follow from direct substitution.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "To evaluate limₓ→3 (x² – 9)/(x – 3), which algebraic technique is most appropriate?",
+      "options": {
+        "A": "Factor the numerator and cancel the common factor.",
+        "B": "Apply direct substitution immediately.",
+        "C": "Rationalise the denominator.",
+        "D": "Use L'Hôpital's Rule."
+      },
+      "correct_option": "A",
+      "answer": "Factor the numerator and cancel the common factor.",
+      "explanation": "x² – 9 = (x – 3)(x + 3). Cancelling (x – 3) with the denominator leaves x + 3, whose limit as x→3 is 6. Direct substitution gives 0/0, so option B fails. Rationalising (C) is irrelevant, and L'Hôpital's Rule (D) is unnecessary for this simple factorable form.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Let f(x) = { x²  for x < 1;  3x – 2  for x ≥ 1 }. What is the left‑hand limit of f(x) as x approaches 1?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "Does not exist"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "For x < 1, f(x) = x². As x approaches 1 from the left, x² → 1² = 1. Hence the left‑hand limit is 1. Options B, C, and D do not match this calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Which of the following limits can be evaluated correctly by direct substitution?",
+      "options": {
+        "A": "limₓ→2 (x² – 4)/(x – 2)",
+        "B": "limₓ→5 (3x + 1)",
+        "C": "limₓ→0 (sin x)/x",
+        "D": "limₓ→‑1 √(x + 1)"
+      },
+      "correct_option": "B",
+      "answer": "limₓ→5 (3x + 1)",
+      "explanation": "The function 3x+1 is a polynomial, continuous everywhere, so substituting x = 5 gives 3·5+1 = 16. Option A yields 0/0 and needs simplification, C is a standard limit requiring the sine limit theorem, and D is undefined for x < –1, so direct substitution is not valid.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A car approaches a speed‑limit sign. As the car gets closer to the sign, its speed gets arbitrarily close to 60 km/h. Which statement best reflects the limit concept illustrated here?",
+      "options": {
+        "A": "The car’s speed at the exact sign is exactly 60 km/h.",
+        "B": "As the car approaches the sign, its speed approaches 60 km/h, though it may not be exactly 60 km/h at the sign.",
+        "C": "The car’s speed fluctuates wildly near the sign.",
+        "D": "The car’s speed is undefined near the sign."
+      },
+      "correct_option": "B",
+      "answer": "As the car approaches the sign, its speed approaches 60 km/h, though it may not be exactly 60 km/h at the sign.",
+      "explanation": "The limit describes the value that the speed gets arbitrarily close to as the car nears the sign, not necessarily the actual speed at the sign. Option B captures this idea. Option A confuses limit with actual value, while C and D misrepresent the behavior.",
+      "difficulty": "medium"
+    }
+  ]
+}

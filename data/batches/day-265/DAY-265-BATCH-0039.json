@@ -1,0 +1,78 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "What is the value of \\(\\displaystyle\\lim_{x\\to 3}\\frac{x^{2}-9}{x-3}\\)?",
+      "options": {
+        "A": "0",
+        "B": "6",
+        "C": "3",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "Direct substitution gives 0/0, which is indeterminate. Factoring the numerator: \\(x^{2}-9=(x-3)(x+3)\\). Cancel the \\((x-3)\\) term, leaving \\(x+3\\). Substituting \\(x=3\\) yields \\(3+3=6\\). Hence the limit is 6. Options A and D arise from the common mistake of treating 0/0 as 0 or assuming the limit does not exist without simplification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Evaluate the limit: \\(\\displaystyle\\lim_{x\\to 0}\\frac{\\sqrt{x+1}-1}{x}\\).",
+      "options": {
+        "A": "0",
+        "B": "\\frac{1}{2}",
+        "C": "1",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "B",
+      "answer": "\\frac{1}{2}",
+      "explanation": "The expression is of the indeterminate form 0/0. Multiply numerator and denominator by the conjugate \\(\\sqrt{x+1}+1\\): \\[\\frac{\\sqrt{x+1}-1}{x}=\\frac{(\\sqrt{x+1}-1)(\\sqrt{x+1}+1)}{x(\\sqrt{x+1}+1)}=\\frac{x}{x(\\sqrt{x+1}+1)}=\\frac{1}{\\sqrt{x+1}+1}.\\] As \\(x\\to0\\), \\(\\sqrt{x+1}\\to1\\), so the limit becomes \\(1/(1+1)=1/2\\). Option B is correct; the other options ignore the simplification step.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Consider \\(f(x)=\\frac{|x|}{x}\\). Which of the following statements correctly describes its one‑sided limits as \\(x\\to0\\)?",
+      "options": {
+        "A": "Both the left‑hand and right‑hand limits equal 0",
+        "B": "Left‑hand limit is \\(-1\\) and right‑hand limit is \\(1\\)",
+        "C": "Both the left‑hand and right‑hand limits equal \\(1\\)",
+        "D": "The two one‑sided limits are equal, so the overall limit exists and equals 0"
+      },
+      "correct_option": "B",
+      "answer": "Left‑hand limit is \\(-1\\) and right‑hand limit is \\(1\\)",
+      "explanation": "For \\(x>0\\), \\(|x|=x\\) so \\(f(x)=1\\); thus \\(\\lim_{x\\to0^{+}}f(x)=1\\). For \\(x<0\\), \\(|x|=-x\\) so \\(f(x)=-1\\); thus \\(\\lim_{x\\to0^{-}}f(x)=-1\\). The left‑hand and right‑hand limits are different, so the two‑sided limit does not exist. Option B captures this correctly; the other options misstate the one‑sided values or incorrectly claim the overall limit exists.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Which of the following limits can be evaluated directly by substituting the approaching value into the function? \\(\\displaystyle\\lim_{x\\to5}(2x+3)\\)",
+      "options": {
+        "A": "13",
+        "B": "0",
+        "C": "Undefined",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "answer": "13",
+      "explanation": "The function \\(2x+3\\) is continuous everywhere, so the limit as \\(x\\to5\\) equals the function value at \\(x=5\\). Substituting gives \\(2\\times5+3=13\\). Direct substitution works because there is no indeterminate form. Options B, C, and D are incorrect values that might arise from miscalculations or from applying substitution to a non‑continuous expression.",
+      "difficulty": "hard"
+    }
+  ]
+}

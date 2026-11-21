@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01126-001",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "What does the derivative of a function at a point represent?",
+      "options": {
+        "A": "The instantaneous rate of change of the function at that point",
+        "B": "The average value of the function over an interval",
+        "C": "The maximum value of the function",
+        "D": "The area under the curve up to that point"
+      },
+      "correct_option": "A",
+      "answer": "The instantaneous rate of change of the function at that point",
+      "explanation": "The derivative at a point is defined as the limit of the average rate of change as the interval shrinks to zero, giving the instantaneous rate of change. It is not an average value, a maximum, or an area.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01126-002",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "How is the derivative of y = f(x) at a point related to the graph of the function?",
+      "options": {
+        "A": "It equals the slope of the tangent line to the curve at that point",
+        "B": "It gives the curvature of the curve at that point",
+        "C": "It is the y‑intercept of the function",
+        "D": "It is the x‑intercept of the function"
+      },
+      "correct_option": "A",
+      "answer": "It equals the slope of the tangent line to the curve at that point",
+      "explanation": "The derivative at a point is precisely the slope of the tangent line drawn to the curve at that point. Curvature, intercepts, and other properties are unrelated to the first derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01126-003",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "The derivative of f(x) at x = a is defined as \\(\\displaystyle\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\). This definition is called:",
+      "options": {
+        "A": "The first‑principle (or definition) of derivative",
+        "B": "The chain rule",
+        "C": "The product rule",
+        "D": "Integration by parts"
+      },
+      "correct_option": "A",
+      "answer": "The first‑principle (or definition) of derivative",
+      "explanation": "The limit expression is the fundamental definition of the derivative, often called the first‑principle definition. The chain rule, product rule, and integration by parts are techniques that use the derivative, not its definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-01126-004",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Find derivatives of simple functions",
+      "question": "Find the derivative of the function \\(f(x)=3x^{2}+2x-5\\).",
+      "options": {
+        "A": "6x+2",
+        "B": "3x+2",
+        "C": "6x-2",
+        "D": "3x^{2}+2"
+      },
+      "correct_option": "A",
+      "answer": "6x+2",
+      "explanation": "Using the power rule, \\(\\frac{d}{dx}[3x^{2}] = 6x\\) and \\(\\frac{d}{dx}[2x] = 2\\). The constant term disappears, giving \\(6x+2\\). The other options are algebraic mistakes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-01126-005",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Interpret derivative as rate of change",
+      "question": "A particle moves along a line with distance \\(s(t)=5t^{2}\\) metres after \\(t\\) seconds. What is its speed at \\(t=3\\) seconds?",
+      "options": {
+        "A": "30 m/s",
+        "B": "15 m/s",
+        "C": "45 m/s",
+        "D": "10 m/s"
+      },
+      "correct_option": "A",
+      "answer": "30 m/s",
+      "explanation": "Speed is the derivative of distance: \\(v(t)=\\frac{ds}{dt}=10t\\). At \\(t=3\\), \\(v=10\\times3=30\\) m/s. The other numbers arise from incorrect differentiation or evaluation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01126-006",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative conceptually",
+      "question": "The temperature of a chemical reaction varies with time as \\(T(t)=2t^{2}-4t+10\\) (°C) where \\(t\\) is in minutes. What does the derivative \\(T'(2)\\) represent?",
+      "options": {
+        "A": "The rate at which temperature is changing per minute at \\(t=2\\) minutes",
+        "B": "The temperature value at \\(t=2\\) minutes",
+        "C": "The total change in temperature from \\(t=0\\) to \\(t=2\\)",
+        "D": "The maximum temperature reached by the reaction"
+      },
+      "correct_option": "A",
+      "answer": "The rate at which temperature is changing per minute at \\(t=2\\) minutes",
+      "explanation": "The derivative of a temperature‑time function gives the instantaneous rate of temperature change. At \\(t=2\\) it tells how many degrees per minute the temperature is increasing or decreasing. It is not the temperature itself, total change, or a maximum value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01126-007",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Relate derivative to slope",
+      "question": "Statement: \"If the derivative of a function at a point is zero, the graph must have a maximum there.\" Which of the following is correct?",
+      "options": {
+        "A": "The statement is always true.",
+        "B": "The statement is sometimes true.",
+        "C": "The statement is never true.",
+        "D": "A zero derivative indicates a horizontal tangent, which could be a maximum, a minimum, or a point of inflection."
+      },
+      "correct_option": "D",
+      "answer": "A zero derivative indicates a horizontal tangent, which could be a maximum, a minimum, or a point of inflection.",
+      "explanation": "A derivative of zero means the tangent is horizontal, but the point could be a local maximum, local minimum, or a stationary point of inflection. Hence the statement is not universally true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01126-008",
+      "learning_unit_id": "LU-01126",
+      "learning_point": "Understand derivative from first principles",
+      "question": "Using the limit definition, find the derivative of \\(f(x)=x^{2}\\) at \\(x=3\\).",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "6",
+      "explanation": "From first principles, \\(f'(x)=\\lim_{h\\to0}\\frac{(x+h)^{2}-x^{2}}{h}=\\lim_{h\\to0}\\frac{2xh+h^{2}}{h}=2x\\). At \\(x=3\\), \\(f'(3)=2\\times3=6\\). The other options result from arithmetic errors.",
+      "difficulty": "medium"
+    }
+  ]
+}
