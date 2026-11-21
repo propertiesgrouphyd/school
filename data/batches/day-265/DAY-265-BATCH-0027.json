@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-001",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "What does the limit of a function f(x) as x approaches a represent?",
+      "options": {
+        "A": "The value that f(x) actually attains at x = a",
+        "B": "The value that f(x) approaches as x gets arbitrarily close to a",
+        "C": "The maximum value of f(x) on the interval",
+        "D": "The derivative of f(x) at x = a"
+      },
+      "correct_option": "B",
+      "answer": "The value that f(x) approaches as x gets arbitrarily close to a",
+      "explanation": "A limit describes the value that the function gets nearer to as the input approaches a particular point, not necessarily the value at that point. Option B captures this definition; the other options describe different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-002",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find \\(\\displaystyle\\lim_{x\\to 3}\\,(2x+1)\\).",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "answer": "7",
+      "explanation": "Direct substitution works because the expression is continuous. Substituting x = 3 gives 2·3 + 1 = 7. Hence option B is correct; the other numbers are results of incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-003",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "When direct substitution in a limit gives the indeterminate form 0/0, which algebraic technique is most appropriate to evaluate the limit?",
+      "options": {
+        "A": "Factor the numerator and denominator and cancel common factors",
+        "B": "Apply L'Hôpital's Rule immediately",
+        "C": "Use a graphical method to estimate the limit",
+        "D": "Substitute a very large number for the variable"
+      },
+      "correct_option": "A",
+      "answer": "Factor the numerator and denominator and cancel common factors",
+      "explanation": "Factoring removes the common factor that causes the 0/0 form, allowing direct substitution after cancellation. L'Hôpital's Rule is a later tool, while graphing or large-number substitution do not resolve the indeterminate form analytically.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-004",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "Evaluate the left‑hand limit: \\(\\displaystyle\\lim_{x\\to 2^-}\\frac{x^2-4}{x-2}\\).",
+      "options": {
+        "A": "4",
+        "B": "-4",
+        "C": "0",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "A",
+      "answer": "4",
+      "explanation": "Factor the numerator: \\(x^2-4=(x-2)(x+2)\\). Cancel \\((x-2)\\) (except at x=2) to get \\(x+2\\). As x approaches 2 from the left, \\(x+2\\) approaches 4. Hence the left‑hand limit is 4. The other options ignore the simplification.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-005",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For the polynomial \\(f(x)=x^2+5x-6\\), what is \\(\\displaystyle\\lim_{x\\to 1}f(x)\\)?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "6",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "Polynomials are continuous everywhere, so we can substitute x = 1 directly: \\(1^2 + 5·1 - 6 = 1 + 5 - 6 = 0\\). Hence option A is correct; the other numbers result from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-006",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A particle moves according to \\(s(t)=5t+0.2t^{2}\\) metres, where t is time in seconds. What is the limit of the distance travelled as time approaches zero?",
+      "options": {
+        "A": "0 metres",
+        "B": "5 metres",
+        "C": "0.2 metres",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "A",
+      "answer": "0 metres",
+      "explanation": "As t → 0, both terms \\(5t\\) and \\(0.2t^{2}\\) approach 0, so the distance approaches 0 metres. This illustrates the intuitive idea that the particle has not moved at the instant t = 0. Options B and C incorrectly treat the coefficients as limits, while D is false because the limit exists.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-007",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Many students think that \\(\\displaystyle\\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\) is undefined because direct substitution gives 0/0. What is the correct value of this limit?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "4",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "Factor the numerator: \\(x^{2}-4=(x-2)(x+2)\\). Cancel the common factor \\((x-2)\\) to obtain \\(x+2\\). Substituting x = 2 gives 4. The limit exists and equals 4; the 0/0 form is removable, not a sign of non‑existence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-008",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Determine \\(\\displaystyle\\lim_{x\\to 3}\\frac{x^{2}-9}{x-3}\\) by simplifying the expression.",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "6",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Factor the numerator: \\(x^{2}-9=(x-3)(x+3)\\). Cancel \\((x-3)\\) (for x ≠ 3) to get \\(x+3\\). As x approaches 3, \\(x+3\\) approaches 6. Hence the limit is 6. Options A and B ignore the simplification, and D is incorrect because the limit exists.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "For the function f(x) = 3x + 5, what is \\(\\lim_{x\\to 2} f(x)\\)?",
+      "options": {
+        "A": "11",
+        "B": "8",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "11",
+      "explanation": "The function f(x) = 3x + 5 is a polynomial, hence continuous everywhere. Therefore the limit as x approaches 2 can be found by direct substitution: f(2) = 3(2) + 5 = 11. Options B, C, and D are results of incorrect arithmetic or using a different substitution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A car moves towards a stop sign with its distance from the sign given by d(t) = 100 - 20t meters, where t is time in seconds. What is the limit of d(t) as t approaches 5 seconds?",
+      "options": {
+        "A": "0 meters",
+        "B": "100 meters",
+        "C": "-20 meters",
+        "D": "Does not exist"
+      },
+      "correct_option": "A",
+      "answer": "0 meters",
+      "explanation": "As the car gets closer to the stop sign, the distance function approaches the value it would have at t = 5: d(5) = 100 - 20·5 = 0. The limit represents the distance the car is approaching, which is 0 meters. The other options either ignore the substitution or give unrelated values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Evaluate \\(\\displaystyle \\lim_{x\\to 2} \\frac{x^{2}-4}{x-2}\\).",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "4",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "Factor the numerator: x²‑4 = (x‑2)(x+2). Cancel the common factor (x‑2) (x ≠ 2). The expression simplifies to x+2, whose limit as x→2 is 2+2 = 4. Many students mistakenly think the original form 0/0 makes the limit undefined, but algebraic simplification resolves the indeterminate form.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Find \\(\\displaystyle \\lim_{x\\to 3} \\frac{x^{2}-9}{x-3}\\).",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "B",
+      "answer": "6",
+      "explanation": "Factor the numerator: x²‑9 = (x‑3)(x+3). Cancel (x‑3) (for x ≠ 3) to obtain x+3. Substituting x = 3 gives 3+3 = 6. Option A is the value of the denominator, C is the numerator at x=3, and D ignores the simplification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "For the piecewise function \\(f(x)=\\begin{cases}x+2,& x<1\\\\5,& x\\ge 1\\end{cases}\\), what are the left‑hand limit \\(\\lim_{x\\to1^-}f(x)\\) and the right‑hand limit \\(\\lim_{x\\to1^+}f(x)\\)?",
+      "options": {
+        "A": "Both limits are 3",
+        "B": "Left‑hand limit is 3 and right‑hand limit is 5",
+        "C": "Left‑hand limit is 5 and right‑hand limit is 3",
+        "D": "The overall limit does not exist, and neither one‑sided limit can be determined"
+      },
+      "correct_option": "B",
+      "answer": "Left‑hand limit is 3 and right‑hand limit is 5",
+      "explanation": "Approaching 1 from the left, we use the expression x+2, giving \\(\\lim_{x\\to1^-}(x+2)=1+2=3\\). Approaching from the right, the function equals the constant 5, so \\(\\lim_{x\\to1^+}f(x)=5\\). Because the one‑sided limits are different, the two‑sided limit does not exist, but the individual one‑sided limits are as stated. Options A and C swap or equal the values incorrectly, and D misstates the existence of one‑sided limits.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Which of the following limits can be evaluated directly by substituting the approaching value into the function?",
+      "options": {
+        "A": "\\(\\displaystyle \\lim_{x\\to2} (3x+1)\\)",
+        "B": "\\(\\displaystyle \\lim_{x\\to2} \\frac{x^{2}-4}{x-2}\\)",
+        "C": "\\(\\displaystyle \\lim_{x\\to0} \\frac{\\sin x}{x}\\)",
+        "D": "\\(\\displaystyle \\lim_{x\\to1} \\frac{x^{3}-1}{x-1}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\displaystyle \\lim_{x\\to2} (3x+1)\\)",
+      "explanation": "The function 3x+1 is a polynomial, continuous everywhere, so its limit at x=2 is obtained by direct substitution: 3·2+1 = 7. Options B, C, and D all give a 0/0 indeterminate form; they require algebraic simplification, trigonometric limits, or factoring before the limit can be found.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "Which statement best describes the limit of a function \\(f(x)\\) as \\(x\\) approaches \\(a\\)?",
+      "options": {
+        "A": "It is the value of \\(f\\) at \\(a\\).",
+        "B": "It is the value that \\(f(x)\\) gets arbitrarily close to as \\(x\\) gets arbitrarily close to \\(a\\).",
+        "C": "It is the maximum value of \\(f\\) on the interval around \\(a\\).",
+        "D": "It is the average of the values of \\(f\\) near \\(a\\)."
+      },
+      "correct_option": "B",
+      "answer": "It is the value that \\(f(x)\\) gets arbitrarily close to as \\(x\\) gets arbitrarily close to \\(a\\).",
+      "explanation": "The definition of a limit focuses on the behavior of the function near the point, not necessarily its actual value at that point. Option A confuses limit with function value, while C and D describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find \\(\\displaystyle \\lim_{x\\to5} (2x - 3)\\).",
+      "options": {
+        "A": "7",
+        "B": "10",
+        "C": "2",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "7",
+      "explanation": "The expression 2x‑3 is continuous, so substitute x = 5 directly: 2·5 – 3 = 10 – 3 = 7. The other options result from incorrect arithmetic or confusing the limit with the input value.",
+      "difficulty": "easy"
+    }
+  ]
+}

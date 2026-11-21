@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0028",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-265-9",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "For the piecewise function \\(f(x)=\\begin{cases} x+1, & x<0 \\\\ x^{2}, & x\\ge 0 \\end{cases}\\), compare the left‑hand and right‑hand limits as \\(x\\) approaches 0 and decide whether \\(\\lim_{x\\to 0} f(x)\\) exists.",
+      "options": {
+        "A": "Both one‑sided limits equal 1, so the limit exists and equals 1.",
+        "B": "Left‑hand limit is 1, right‑hand limit is 0; therefore the limit does not exist.",
+        "C": "Left‑hand limit is 0, right‑hand limit is 1; therefore the limit does not exist.",
+        "D": "Both one‑sided limits equal 0, so the limit exists and equals 0."
+      },
+      "correct_option": "B",
+      "answer": "Left‑hand limit is 1, right‑hand limit is 0; therefore the limit does not exist.",
+      "explanation": "As \\(x\\to0^{-}\\), \\(f(x)=x+1\\) so \\(\\lim_{x\\to0^{-}}f(x)=0+1=1\\). As \\(x\\to0^{+}\\), \\(f(x)=x^{2}\\) so \\(\\lim_{x\\to0^{+}}f(x)=0^{2}=0\\). Because the left‑hand and right‑hand limits are different, the two‑sided limit does not exist. Option B correctly states this. The other options either give equal limits or swap the values, which is incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-265-10",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Evaluate \\(\\displaystyle\\lim_{x\\to3}\\frac{2x^{2}-5x+3}{x-1}\\) using direct substitution.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "3",
+      "explanation": "At \\(x=3\\) the denominator \\(3-1=2\\neq0\\), so direct substitution is valid. Substituting gives \\(2(3)^{2}-5(3)+3 = 18-15+3 = 6\\). Hence the limit is \\(6/2 = 3\\). Option B is correct. The other numbers arise from arithmetic mistakes or ignoring the denominator.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-265-11",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "Which statement best describes the intuitive meaning of \\(\\displaystyle\\lim_{x\\to a} f(x)\\)?",
+      "options": {
+        "A": "It is the value of \\(f\\) at \\(x=a\\).",
+        "B": "It is the value that \\(f(x)\\) gets arbitrarily close to as \\(x\\) gets arbitrarily close to \\(a\\), regardless of \\(f(a)\\).",
+        "C": "It is the average of the values of \\(f\\) near \\(a\\).",
+        "D": "It is the maximum value of \\(f\\) in a neighbourhood of \\(a\\)."
+      },
+      "correct_option": "B",
+      "answer": "It is the value that \\(f(x)\\) gets arbitrarily close to as \\(x\\) gets arbitrarily close to \\(a\\), regardless of \\(f(a)\\).",
+      "explanation": "The limit describes the behaviour of the function as the input approaches a point, not necessarily the function's actual value at that point. Option B captures this idea. Option A confuses limit with function value, while C and D describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-265-12",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find \\(\\displaystyle\\lim_{x\\to2} (3x-5)\\).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "answer": "1",
+      "explanation": "The function \\(3x-5\\) is continuous everywhere, so we substitute \\(x=2\\): \\(3(2)-5 = 6-5 = 1\\). Hence the limit is 1. Option B is correct; the other options are results of incorrect substitution.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-265-13",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "To evaluate \\(\\displaystyle\\lim_{x\\to1}\\frac{x^{2}-1}{x-1}\\), which step is essential?",
+      "options": {
+        "A": "Directly substitute \\(x=1\\).",
+        "B": "Factor the numerator as \\((x-1)(x+1)\\) and cancel the common factor \\((x-1)\\).",
+        "C": "Apply L'Hôpital's Rule.",
+        "D": "Multiply numerator and denominator by \\((x+1)\\)."
+      },
+      "correct_option": "B",
+      "answer": "Factor the numerator as \\((x-1)(x+1)\\) and cancel the common factor \\((x-1)\\).",
+      "explanation": "At \\(x=1\\) the expression is \\(0/0\\), an indeterminate form. Factoring gives \\(\\frac{(x-1)(x+1)}{x-1}=x+1\\) for \\(x\\neq1\\). The limit is then \\(1+1=2\\). Option B describes this essential simplification. Direct substitution (A) would give \\(0/0\\), L'Hôpital (C) is unnecessary after simplification, and (D) does not resolve the indeterminate form.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-265-14",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "For the function \\(f(x)=\\begin{cases}2x+3, & x<1 \\\\ x^{2}, & x\\ge 1 \\end{cases}\\), what is the right‑hand limit \\(\\displaystyle\\lim_{x\\to1^{+}} f(x)\\)?",
+      "options": {
+        "A": "5",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_option": "C",
+      "answer": "1",
+      "explanation": "The right‑hand limit uses the expression valid for \\(x\\ge1\\), i.e., \\(x^{2}\\). Substituting \\(x=1\\) gives \\(1^{2}=1\\). Hence the right‑hand limit is 1. Option C is correct; the other numbers come from evaluating the left‑hand piece or arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-265-15",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Which of the following limits can be evaluated directly by substituting the approaching value without any algebraic manipulation?",
+      "options": {
+        "A": "\\(\\displaystyle\\lim_{x\\to2}\\frac{x^{2}-4}{x-2}\\)",
+        "B": "\\(\\displaystyle\\lim_{x\\to0}\\frac{\\sin x}{x}\\)",
+        "C": "\\(\\displaystyle\\lim_{x\\to5}(3x+7)\\)",
+        "D": "\\(\\displaystyle\\lim_{x\\to-1}\\frac{x^{3}+x^{2}+x+1}{x+1}\\)"
+      },
+      "correct_option": "C",
+      "answer": "\\(\\displaystyle\\lim_{x\\to5}(3x+7)\\)",
+      "explanation": "For option C the function \\(3x+7\\) is continuous at \\(x=5\\); substituting gives \\(3(5)+7=22\\). No indeterminate form appears, so direct substitution works. Options A and D give \\(0/0\\) forms, and B gives \\(0/0\\) as well; they require simplification or special limits. Hence C is the only correct choice.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-265-16",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "A car’s speed \\(v(t)\\) (in m/s) is given by \\(v(t)=\\begin{cases}5t, & t<4 \\\\ 20, & t\\ge4 \\end{cases}\\). As \\(t\\) approaches 4 seconds, what does \\(\\displaystyle\\lim_{t\\to4} v(t)\\) represent?",
+      "options": {
+        "A": "The speed of the car exactly at \\(t=4\\) seconds.",
+        "B": "The speed the car is approaching just before \\(t=4\\) seconds.",
+        "C": "The average speed between \\(t=3\\) and \\(t=5\\) seconds.",
+        "D": "The maximum speed the car ever attains."
+      },
+      "correct_option": "B",
+      "answer": "The speed the car is approaching just before \\(t=4\\) seconds.",
+      "explanation": "The limit describes the value that \\(v(t)\\) gets arbitrarily close to as \\(t\\) approaches 4 from either side. For \\(t<4\\), \\(v(t)=5t\\) approaches \\(5\\times4=20\\). For \\(t\\ge4\\), the speed is already 20. Thus the limit is 20, representing the speed the car is approaching as it nears 4 seconds. Option B captures this idea. Option A confuses limit with actual value (though they coincide here), while C and D describe unrelated concepts.",
+      "difficulty": "medium"
+    }
+  ]
+}

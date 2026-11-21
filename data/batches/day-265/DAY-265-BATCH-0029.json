@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "Find \\(\\displaystyle \\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\).",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "4",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "C",
+      "answer": "4",
+      "explanation": "Factor the numerator: \\(x^{2}-4=(x-2)(x+2)\\). Cancel the common factor \\((x-2)\\) (except at \\(x=2\\)). The expression simplifies to \\(x+2\\). Substituting \\(x=2\\) gives \\(2+2=4\\). Hence the limit is 4. Options A and B are results of incorrect direct substitution, and D ignores the simplification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Evaluate \\(\\displaystyle \\lim_{x\\to 3}\\frac{x^{2}-9}{x-3}\\).",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "6",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "answer": "6",
+      "explanation": "Rewrite \\(x^{2}-9\\) as \\((x-3)(x+3)\\). Cancel the factor \\((x-3)\\) (for \\(x\\neq3\\)). The limit becomes \\(\\lim_{x\\to3}(x+3)=3+3=6\\). Options A and B arise from forgetting the factor \\(x+3\\), while D is the value of \\(x^{2}\\) at \\(x=3\\) without simplification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "For the piecewise function \\(f(x)=\\begin{cases} x+2, & x<1 \\\\ 5-x, & x\\ge 1 \\end{cases}\\), what are the left‑hand and right‑hand limits as \\(x\\) approaches 1?",
+      "options": {
+        "A": "Both limits equal 3",
+        "B": "Left‑hand limit = 3, right‑hand limit = 4",
+        "C": "Left‑hand limit = 4, right‑hand limit = 3",
+        "D": "The limits do not exist"
+      },
+      "correct_option": "B",
+      "answer": "Left‑hand limit = 3, right‑hand limit = 4",
+      "explanation": "Approaching 1 from the left, use the expression \\(x+2\\): \\(\\lim_{x\\to1^-}(x+2)=1+2=3\\). Approaching from the right, use \\(5-x\\): \\(\\lim_{x\\to1^+}(5-x)=5-1=4\\). Since the two one‑sided limits differ, the two‑sided limit does not exist, but the individual one‑sided limits are 3 and 4 respectively. Options A and C swap or equal the values incorrectly, and D ignores the existence of one‑sided limits.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Identify cases where direct substitution works",
+      "question": "Which of the following limits can be evaluated by direct substitution?",
+      "options": {
+        "A": "\\(\\displaystyle \\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\)",
+        "B": "\\(\\displaystyle \\lim_{x\\to -1}(3x+7)\\)",
+        "C": "\\(\\displaystyle \\lim_{x\\to 0}\\frac{\\sin x}{x}\\)",
+        "D": "\\(\\displaystyle \\lim_{x\\to 1}\\frac{1}{x-1}\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\displaystyle \\lim_{x\\to -1}(3x+7)\\)",
+      "explanation": "Polynomials are continuous everywhere, so \\(\\lim_{x\\to -1}(3x+7)=3(-1)+7=4\\) by direct substitution. Option A yields a 0/0 indeterminate form and needs simplification; Option C is a standard limit that requires the sine limit theorem; Option D is undefined because the denominator approaches zero, leading to an infinite discontinuity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand intuitive meaning of limit",
+      "question": "In simple terms, what does the statement \\(\\displaystyle \\lim_{x\\to a} f(x)=L\\) mean?",
+      "options": {
+        "A": "The function equals \\(L\\) for every \\(x\\)",
+        "B": "As \\(x\\) gets arbitrarily close to \\(a\\), \\(f(x)\\) gets arbitrarily close to \\(L\\)",
+        "C": "The function has a maximum value \\(L\\) at \\(x=a\\)",
+        "D": "The derivative of \\(f\\) at \\(a\\) is \\(L\\)"
+      },
+      "correct_option": "B",
+      "answer": "As \\(x\\) gets arbitrarily close to \\(a\\), \\(f(x)\\) gets arbitrarily close to \\(L\\)",
+      "explanation": "The definition of a limit describes the behavior of \\(f(x)\\) as the input approaches a particular point, not the actual value at that point. Option A confuses limit with function value, C describes an extremum, and D confuses limit with derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Evaluate simple limits",
+      "question": "What is \\(\\displaystyle \\lim_{x\\to 0}(3x+5)\\)?",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "5",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "answer": "5",
+      "explanation": "The function \\(3x+5\\) is continuous everywhere. Substituting \\(x=0\\) gives \\(3(0)+5=5\\). Options A and B are results of omitting the constant term, while D adds the two terms incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Use algebraic simplification",
+      "question": "Which step correctly uses algebraic simplification to find \\(\\displaystyle \\lim_{x\\to 2}\\frac{x^{2}-4}{x-2}\\)?",
+      "options": {
+        "A": "Substitute \\(x=2\\) directly to obtain \\(0/0\\)",
+        "B": "Factor the numerator as \\((x-2)(x+2)\\) and cancel the common factor \\((x-2)\\)",
+        "C": "Differentiate numerator and denominator",
+        "D": "Apply L'Hôpital's rule immediately"
+      },
+      "correct_option": "B",
+      "answer": "Factor the numerator as \\((x-2)(x+2)\\) and cancel the common factor \\((x-2)\\)",
+      "explanation": "Algebraic simplification involves rewriting the expression to eliminate the indeterminate form. Factoring \\(x^{2}-4\\) and cancelling \\((x-2)\\) yields \\(x+2\\), whose limit at \\(x=2\\) is 4. Option A leaves the indeterminate form, C and D are calculus techniques not required for this simple algebraic case.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01125",
+      "learning_point": "Understand one-sided approach at an introductory level",
+      "question": "A ball’s height (in metres) is given by \\(h(t)= -5t+20\\) for \\(t<2\\) seconds and \\(h(t)=0\\) for \\(t\\ge 2\\) seconds. What is the left‑hand limit of the height as \\(t\\) approaches 2 seconds?",
+      "options": {
+        "A": "0",
+        "B": "10",
+        "C": "20",
+        "D": "The limit does not exist"
+      },
+      "correct_option": "B",
+      "answer": "10",
+      "explanation": "Approaching 2 seconds from the left, use the expression \\(-5t+20\\). Substituting \\(t=2\\) gives \\(-5(2)+20 = -10+20 = 10\\). Hence the left‑hand limit is 10 metres. Option A is the height after 2 seconds, C is the initial height, and D ignores the existence of the one‑sided limit.",
+      "difficulty": "easy"
+    }
+  ]
+}
