@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following statements correctly defines the universal quantifier (∀) in mathematical logic?",
+      "options": {
+        "A": "It asserts that there exists at least one element in the domain for which the property holds.",
+        "B": "It asserts that for every element in the domain, the property holds.",
+        "C": "It asserts that no element in the domain satisfies the property.",
+        "D": "It asserts that the property holds for exactly one element in the domain."
+      },
+      "correct_option": "B",
+      "answer": "It asserts that for every element in the domain, the property holds.",
+      "explanation": "The universal quantifier (∀) states that a property P(x) is true for all elements x in the domain. Option B captures this meaning. Option A describes the existential quantifier, C describes a universal negation, and D is incorrect because the universal quantifier does not limit to a single element.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "Consider the statement: \"There is a real number x such that x^2 = 4.\" Which quantifier best represents this statement?",
+      "options": {
+        "A": "Universal quantifier (∀)",
+        "B": "Existential quantifier (∃)",
+        "C": "Both universal and existential",
+        "D": "No quantifier needed"
+      },
+      "correct_option": "B",
+      "answer": "Existential quantifier (∃)",
+      "explanation": "The phrase \"there is a real number\" asserts the existence of at least one element satisfying the condition, which is precisely the role of the existential quantifier (∃). The universal quantifier would require the condition to hold for all real numbers, which is not intended here.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English statement into symbolic form: \"All prime numbers greater than 2 are odd.\"",
+      "options": {
+        "A": "∀p (Prime(p) ∧ p > 2 → Odd(p))",
+        "B": "∃p (Prime(p) ∧ p > 2 ∧ Odd(p))",
+        "C": "∀p (Prime(p) → (p > 2 ∧ Odd(p)))",
+        "D": "∃p (Prime(p) → (p > 2 ∧ Odd(p)))"
+      },
+      "correct_option": "A",
+      "answer": "∀p (Prime(p) ∧ p > 2 → Odd(p))",
+      "explanation": "The universal quantifier ∀p is used because the statement applies to every prime p that is greater than 2. The antecedent is \"Prime(p) ∧ p > 2\" and the consequent is \"Odd(p)\". Option A correctly captures this structure. Options B and D use existential quantifier incorrectly, and C changes the logical relationship by making \"p > 2\" a consequence rather than a condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "Given the statement \"Every student in the class passed the test,\" which of the following is its correct logical negation?",
+      "options": {
+        "A": "∃x (Student(x) ∧ Passed(x))",
+        "B": "∀x (Student(x) → Passed(x))",
+        "C": "∃x (Student(x) ∧ ¬Passed(x))",
+        "D": "∀x (Student(x) ∧ ¬Passed(x))"
+      },
+      "correct_option": "C",
+      "answer": "∃x (Student(x) ∧ ¬Passed(x))",
+      "explanation": "Negating a universal statement ∀x (Student(x) → Passed(x)) yields an existential statement asserting that there exists at least one student who did not pass: ∃x (Student(x) ∧ ¬Passed(x)). Option C expresses exactly this. Option A states that some student passed, which does not contradict the original. Option B repeats the original statement, and D is too strong, claiming all students failed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "A common misconception is that the universal quantifier (∀) means \"at least one.\" Which of the following statements correctly clarifies its meaning?",
+      "options": {
+        "A": "∀x P(x) means there is at least one x for which P(x) is true.",
+        "B": "∀x P(x) means P(x) is true for every possible x in the domain.",
+        "C": "∀x P(x) means P(x) is false for all x.",
+        "D": "∀x P(x) means exactly one x satisfies P(x)."
+      },
+      "correct_option": "B",
+      "answer": "∀x P(x) means P(x) is true for every possible x in the domain.",
+      "explanation": "The universal quantifier asserts that the predicate holds for all elements without exception, which is expressed in option B. Options A and D describe the existential quantifier or a uniqueness condition, while C is the opposite of the universal claim.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "If the domain is the set of natural numbers ℕ, evaluate the truth of the statement \"∃x (x^2 = 2)\". Which reasoning is correct?",
+      "options": {
+        "A": "True, because 2 is a natural number and its square root exists.",
+        "B": "False, because there is no natural number whose square is 2.",
+        "C": "True, because the statement only requires existence of a real number, not necessarily natural.",
+        "D": "False, because the universal quantifier is needed for such statements."
+      },
+      "correct_option": "B",
+      "answer": "False, because there is no natural number whose square is 2.",
+      "explanation": "Within ℕ, the only squares are 0,1,4,9,…; 2 is not a perfect square, so no natural number x satisfies x^2 = 2. Hence the existential statement is false. Option C would be correct only if the domain were ℝ, not ℕ. Options A and D are incorrect for the same reason.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Which of the following pairs of quantified statements are logically equivalent?",
+      "options": {
+        "A": "(i) ∀x (Bird(x) → CanFly(x)) ; (ii) ∃x (Bird(x) ∧ ¬CanFly(x))",
+        "B": "(i) ∀x (Bird(x) → CanFly(x)) ; (ii) ¬∃x (Bird(x) ∧ ¬CanFly(x))",
+        "C": "(i) ∃x (Bird(x) ∧ CanFly(x)) ; (ii) ∀x (Bird(x) → CanFly(x))",
+        "D": "(i) ¬∀x (Bird(x) → CanFly(x)) ; (ii) ∀x (Bird(x) ∧ ¬CanFly(x))"
+      },
+      "correct_option": "B",
+      "answer": "(i) ∀x (Bird(x) → CanFly(x)) ; (ii) ¬∃x (Bird(x) ∧ ¬CanFly(x))",
+      "explanation": "The statement \"All birds can fly\" (∀x (Bird(x) → CanFly(x))) is equivalent to saying \"There does not exist a bird that cannot fly\" (¬∃x (Bird(x) ∧ ¬CanFly(x))). Option B captures this equivalence. Option A is the negation, C mixes existential with universal incorrectly, and D misrepresents the logical relationships.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "Negate the statement \"∃x ∀y (x + y > 0)\" and express the negation without any negation symbols directly in front of quantifiers. Which option is correct?",
+      "options": {
+        "A": "∀x ∃y (x + y ≤ 0)",
+        "B": "∃x ∀y (x + y ≤ 0)",
+        "C": "∀x ∀y (x + y ≤ 0)",
+        "D": "∃x ∃y (x + y > 0)"
+      },
+      "correct_option": "A",
+      "answer": "∀x ∃y (x + y ≤ 0)",
+      "explanation": "Negating ∃x ∀y P(x,y) yields ∀x ∃y ¬P(x,y). Here P(x,y) is (x + y > 0); its negation is (x + y ≤ 0). Therefore the correct negation is ∀x ∃y (x + y ≤ 0), which is option A. Options B and C change the quantifier order incorrectly, and D re‑introduces the original positive condition.",
+      "difficulty": "hard"
+    }
+  ]
+}

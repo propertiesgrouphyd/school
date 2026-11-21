@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following reflects a common misconception about the meaning of the universal quantifier ∀x P(x)?",
+      "options": {
+        "A": "It asserts that there exists at least one element x for which P(x) is true.",
+        "B": "It asserts that P(x) is true for every element x in the domain.",
+        "C": "It asserts that P(x) must be checked individually for each x.",
+        "D": "It asserts that P(x) is true for all x unless a counterexample is found."
+      },
+      "correct_option": "A",
+      "answer": "It asserts that there exists at least one element x for which P(x) is true.",
+      "explanation": "The universal quantifier ∀x means \"for every x in the domain, P(x) holds\". Interpreting it as \"there exists at least one x\" is the definition of the existential quantifier ∃x, so option A is a misconception. Options B, C and D correctly describe the universal quantifier or are equivalent statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "The statement ∃x (x² = 9) is true. Which of the following conclusions is logically valid?",
+      "options": {
+        "A": "There is at least one real number whose square equals 9.",
+        "B": "Every real number squares to 9.",
+        "C": "No real number squares to 9.",
+        "D": "Exactly one real number squares to 9."
+      },
+      "correct_option": "A",
+      "answer": "There is at least one real number whose square equals 9.",
+      "explanation": "∃x (x² = 9) asserts the existence of at least one x satisfying the condition; therefore we can conclude that such a real number exists. It does not claim uniqueness (D) nor universality (B), and it certainly does not deny existence (C).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Consider the English statements: (i) \"Every natural number is greater than or equal to zero.\" (ii) \"Some prime numbers are odd.\" Which of the following option pairs correctly translates these statements into logical notation?",
+      "options": {
+        "A": "(i) ∀n ∈ ℕ, n ≥ 0 ; (ii) ∃p ∈ ℙ, p is odd",
+        "B": "(i) ∃n ∈ ℕ, n ≥ 0 ; (ii) ∀p ∈ ℙ, p is odd",
+        "C": "(i) ∀n ∈ ℕ, n > 0 ; (ii) ∃p ∈ ℙ, p is even",
+        "D": "(i) ∀n ∈ ℕ, n ≤ 0 ; (ii) ∃p ∈ ℙ, p is odd"
+      },
+      "correct_option": "A",
+      "answer": "(i) ∀n ∈ ℕ, n ≥ 0 ; (ii) ∃p ∈ ℙ, p is odd",
+      "explanation": "Statement (i) uses a universal quantifier because it applies to every natural number, giving ∀n ∈ ℕ (n ≥ 0). Statement (ii) uses an existential quantifier because it asserts the existence of at least one prime that is odd, giving ∃p ∈ ℙ (p is odd). Options B, C, and D misuse the quantifiers or the relational symbols.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement ∀x ∈ ℝ (x² ≥ 0)?",
+      "options": {
+        "A": "∃x ∈ ℝ such that x² < 0",
+        "B": "∃x ∈ ℝ such that x² > 0",
+        "C": "∀x ∈ ℝ x² < 0",
+        "D": "∃x ∈ ℝ such that x² = 0"
+      },
+      "correct_option": "A",
+      "answer": "∃x ∈ ℝ such that x² < 0",
+      "explanation": "Negating a universal statement ∀x P(x) yields ∃x ¬P(x). Here P(x) is \"x² ≥ 0\", so ¬P(x) is \"x² < 0\". Hence the negation is ∃x ∈ ℝ (x² < 0). Options B, C, and D do not represent the proper logical negation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "In predicate logic, what does the universal quantifier ∀x represent?",
+      "options": {
+        "A": "For all elements x in the domain, the predicate holds.",
+        "B": "There exists at least one element x in the domain for which the predicate holds.",
+        "C": "The predicate holds for no elements x.",
+        "D": "It indicates that x is a variable with no restriction."
+      },
+      "correct_option": "A",
+      "answer": "For all elements x in the domain, the predicate holds.",
+      "explanation": "The symbol ∀x reads as \"for every x\" and asserts that the associated predicate is true for each element of the domain. Option B describes the existential quantifier, while C and D are incorrect interpretations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "What does the existential quantifier ∃x signify in a mathematical statement?",
+      "options": {
+        "A": "There exists at least one element x in the domain for which the predicate is true.",
+        "B": "For every element x in the domain, the predicate is true.",
+        "C": "No element x satisfies the predicate.",
+        "D": "x must be a specific constant."
+      },
+      "correct_option": "A",
+      "answer": "There exists at least one element x in the domain for which the predicate is true.",
+      "explanation": "∃x reads as \"there exists an x\" and claims the existence of at least one element making the predicate true. Option B describes the universal quantifier, while C and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Which of the following correctly distinguishes the translation of the statements \"All squares are rectangles\" and \"Some squares are rectangles\" into logical notation?",
+      "options": {
+        "A": "'All squares are rectangles' → ∀x (Square(x) → Rectangle(x)); 'Some squares are rectangles' → ∃x (Square(x) ∧ Rectangle(x))",
+        "B": "'All squares are rectangles' → ∃x (Square(x) → Rectangle(x)); 'Some squares are rectangles' → ∀x (Square(x) ∧ Rectangle(x))",
+        "C": "'All squares are rectangles' → ∀x (Square(x) ∧ Rectangle(x)); 'Some squares are rectangles' → ∃x (Square(x) → Rectangle(x))",
+        "D": "'All squares are rectangles' → ∀x (Rectangle(x) → Square(x)); 'Some squares are rectangles' → ∃x (Rectangle(x) ∧ Square(x))"
+      },
+      "correct_option": "A",
+      "answer": "'All squares are rectangles' → ∀x (Square(x) → Rectangle(x)); 'Some squares are rectangles' → ∃x (Square(x) ∧ Rectangle(x))",
+      "explanation": "The universal statement uses implication: for every x, if x is a square then x is a rectangle. The existential statement asserts the existence of at least one x that is both a square and a rectangle. Options B, C, and D misuse the quantifiers or the direction of implication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "The statement \"All birds can fly\" is false. Which of the following is the correct logical negation of this statement?",
+      "options": {
+        "A": "There exists at least one bird that cannot fly.",
+        "B": "All birds cannot fly.",
+        "C": "Some birds can fly.",
+        "D": "No bird can fly."
+      },
+      "correct_option": "A",
+      "answer": "There exists at least one bird that cannot fly.",
+      "explanation": "Negating a universal claim ∀x P(x) yields ∃x ¬P(x). Here P(x) is \"bird x can fly\"; its negation is \"bird x cannot fly\". Hence the correct negation is that at least one bird cannot fly. Options B, C, and D do not represent the logical negation.",
+      "difficulty": "easy"
+    }
+  ]
+}

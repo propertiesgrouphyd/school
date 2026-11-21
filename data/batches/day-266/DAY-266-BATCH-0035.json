@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following statements correctly uses the universal quantifier for the domain of all integers?",
+      "options": {
+        "A": "∃ x ∈ ℤ such that x² = 4",
+        "B": "∀ x ∈ ℤ, x + 0 = x",
+        "C": "∃ x ∈ ℤ, x + 0 = x",
+        "D": "∀ x ∈ ℤ, x² = 2"
+      },
+      "correct_option": "B",
+      "answer": "∀ x ∈ ℤ, x + 0 = x",
+      "explanation": "The universal quantifier (∀) states that the property holds for every element of the domain. Option B says that for every integer x, adding zero leaves x unchanged, which is true for all integers. Option A and C use the existential quantifier (∃), and option D is false because not every integer squares to 2.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In a class of students, which statement correctly asserts that at least one student scored above 90 marks?",
+      "options": {
+        "A": "All students scored above 90 marks.",
+        "B": "There exists a student who scored above 90 marks.",
+        "C": "No student scored above 90 marks.",
+        "D": "Every student scored 90 marks or less."
+      },
+      "correct_option": "B",
+      "answer": "There exists a student who scored above 90 marks.",
+      "explanation": "The existential quantifier (∃) expresses that the property holds for at least one element of the domain. Option B captures this meaning. Options A and D describe universal statements, while option C is the negation of the existential claim.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "The English sentence \"All prime numbers are odd\" is represented by which of the following symbolic statements?",
+      "options": {
+        "A": "∀ p ∈ ℙ, p is odd",
+        "B": "∃ p ∈ ℙ, p is odd",
+        "C": "∀ p ∈ ℙ, p is even",
+        "D": "∃ p ∈ ℙ, p is even"
+      },
+      "correct_option": "A",
+      "answer": "∀ p ∈ ℙ, p is odd",
+      "explanation": "The phrase \"All prime numbers\" translates to a universal quantifier (∀) over the set of primes ℙ. Hence the correct symbolic form is ∀ p ∈ ℙ, p is odd. Option B mistakenly uses an existential quantifier, and options C and D state incorrect properties about primes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement \"∀ x ∈ ℝ, x² ≥ 0\"?",
+      "options": {
+        "A": "∃ x ∈ ℝ such that x² < 0",
+        "B": "∀ x ∈ ℝ, x² < 0",
+        "C": "∃ x ∈ ℝ such that x² ≥ 0",
+        "D": "∀ x ∈ ℝ, x² > 0"
+      },
+      "correct_option": "A",
+      "answer": "∃ x ∈ ℝ such that x² < 0",
+      "explanation": "Negating a universal statement ∀x P(x) yields an existential statement ∃x ¬P(x). Here P(x) is \"x² ≥ 0\", so ¬P(x) is \"x² < 0\". Therefore the negation is \"There exists a real number whose square is negative\" (option A). The other options either keep the universal quantifier or do not correctly apply negation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which pair correctly contrasts the truth conditions of a universally quantified statement and its existential counterpart?",
+      "options": {
+        "A": "∀x P(x) is true iff there exists at least one x for which P(x) is true; ∃x P(x) is true iff P(x) holds for all x.",
+        "B": "∀x P(x) is true only when P(x) holds for every element of the domain; ∃x P(x) is true when P(x) holds for at least one element.",
+        "C": "Both ∀x P(x) and ∃x P(x) require P(x) to hold for all elements of the domain.",
+        "D": "∃x P(x) is false only when P(x) holds for all elements."
+      },
+      "correct_option": "B",
+      "answer": "∀x P(x) is true only when P(x) holds for every element of the domain; ∃x P(x) is true when P(x) holds for at least one element.",
+      "explanation": "A universal statement (∀) demands the predicate to be true for every element; an existential statement (∃) needs the predicate to be true for at least one element. Option B states this precisely. Options A, C, and D invert or confuse the conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In the set S = {1, 2, 3, 4, 5}, which statement is logically equivalent to \"∃ x ∈ S such that x is a multiple of 3\"?",
+      "options": {
+        "A": "x = 3 is the only element satisfying the condition.",
+        "B": "There exists at least one element in S that is divisible by 3.",
+        "C": "All elements of S are multiples of 3.",
+        "D": "No element of S is a multiple of 3."
+      },
+      "correct_option": "B",
+      "answer": "There exists at least one element in S that is divisible by 3.",
+      "explanation": "The existential quantifier asserts the existence of at least one element with the property. In S, the number 3 is such an element, making statement B correct. Statement A is too restrictive, C is false, and D contradicts the original existential claim.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Express the sentence \"Some even number is greater than 10\" using quantifiers.",
+      "options": {
+        "A": "∃ n ∈ ℤ, (n is even ∧ n > 10)",
+        "B": "∀ n ∈ ℤ, (n is even → n > 10)",
+        "C": "∃ n ∈ ℤ, (n is odd ∧ n > 10)",
+        "D": "∀ n ∈ ℤ, (n > 10 → n is even)"
+      },
+      "correct_option": "A",
+      "answer": "∃ n ∈ ℤ, (n is even ∧ n > 10)",
+      "explanation": "The phrase \"Some\" translates to the existential quantifier (∃). We need an integer n that satisfies both conditions: being even and greater than 10. Option A captures this exactly. Options B and D use universal quantifiers, and option C mentions odd numbers, which is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "Negate the statement \"∃ y ∈ ℕ such that y is prime and y is even\".",
+      "options": {
+        "A": "∀ y ∈ ℕ, y is not prime or y is not even",
+        "B": "∀ y ∈ ℕ, y is prime and y is even",
+        "C": "∃ y ∈ ℕ, y is not prime and y is not even",
+        "D": "∃ y ∈ ℕ, y is prime or y is even"
+      },
+      "correct_option": "A",
+      "answer": "∀ y ∈ ℕ, y is not prime or y is not even",
+      "explanation": "The negation of an existential statement ∃y P(y) is the universal statement ∀y ¬P(y). Here P(y) is \"y is prime and y is even\"; its negation is \"y is not prime or y is not even\". Option A correctly reflects this. Options B, C, and D either retain the existential quantifier or apply the wrong logical connector.",
+      "difficulty": "easy"
+    }
+  ]
+}

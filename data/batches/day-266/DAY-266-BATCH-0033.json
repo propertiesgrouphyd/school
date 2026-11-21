@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Consider the statements: (i) ∀x∈ℤ, x² ≥ 0. (ii) ∀x∈ℤ, x² > 0. Which of the following correctly compares the truth values of (i) and (ii)?",
+      "options": {
+        "A": "Both statements are true.",
+        "B": "(i) is true and (ii) is false.",
+        "C": "(i) is false and (ii) is true.",
+        "D": "Both statements are false."
+      },
+      "correct_option": "B",
+      "answer": "(i) is true and (ii) is false.",
+      "explanation": "The universal quantifier ∀ means the statement must hold for every integer. For (i), x² ≥ 0 is true for all integers, including 0, so (i) is true. For (ii), x² > 0 fails when x = 0, so (ii) is false. Hence option B is correct; the other options misstate the truth values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In a competitive exam, the statement \"∃x∈ℝ such that x² + 1 = 0\" is given. Which of the following conclusions is correct?",
+      "options": {
+        "A": "The statement is true because such an x exists in ℝ.",
+        "B": "The statement is false because no real number satisfies the equation.",
+        "C": "The statement is true because complex numbers are considered in ℝ.",
+        "D": "The statement is undecidable with the given information."
+      },
+      "correct_option": "B",
+      "answer": "The statement is false because no real number satisfies the equation.",
+      "explanation": "The existential quantifier ∃ asserts the existence of at least one element in the domain (here ℝ) that makes the predicate true. The equation x² + 1 = 0 has solutions x = ±i, which are not real numbers. Therefore no real x satisfies it, making the statement false. Options A and C ignore the domain restriction, and D is incorrect because the truth value is determinable.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English sentence into symbolic form: \"Every natural number n is greater than or equal to zero.\"",
+      "options": {
+        "A": "∀n∈ℕ, n ≥ 0",
+        "B": "∃n∈ℕ, n ≥ 0",
+        "C": "∀n∈ℕ, n > 0",
+        "D": "∃n∈ℕ, n < 0"
+      },
+      "correct_option": "A",
+      "answer": "∀n∈ℕ, n ≥ 0",
+      "explanation": "The phrase \"Every\" corresponds to the universal quantifier ∀, and the domain is the set of natural numbers ℕ. The condition \"greater than or equal to zero\" is written as n ≥ 0. Hence option A correctly captures the statement. Options B, C, and D either use the existential quantifier or change the inequality.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "What is the correct negation of the statement \"∀x∈ℝ, x > 1\"?",
+      "options": {
+        "A": "∃x∈ℝ such that x ≤ 1",
+        "B": "∃x∈ℝ such that x > 1",
+        "C": "∀x∈ℝ, x ≤ 1",
+        "D": "∃x∈ℝ such that x < 1"
+      },
+      "correct_option": "A",
+      "answer": "∃x∈ℝ such that x ≤ 1",
+      "explanation": "Negating a universal statement ∀x P(x) yields an existential statement ∃x ¬P(x). Here P(x) is \"x > 1\", so ¬P(x) is \"x ≤ 1\". Therefore the negation is \"There exists a real number x such that x ≤ 1\", which is option A. Options B and D give weaker or unrelated conditions, and C incorrectly keeps the universal quantifier.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand universal quantifier",
+      "question": "Which of the following pairs correctly matches each quantifier with its definition?",
+      "options": {
+        "A": "∀ – ‘there exists at least one’, ∃ – ‘for all’",
+        "B": "∀ – ‘for all’, ∃ – ‘there exists at least one’",
+        "C": "∀ – ‘for some’, ∃ – ‘for none’",
+        "D": "∀ – ‘there exists exactly one’, ∃ – ‘for all’"
+      },
+      "correct_option": "B",
+      "answer": "∀ – ‘for all’, ∃ – ‘there exists at least one’",
+      "explanation": "The universal quantifier ∀ means “for all elements of the domain”, while the existential quantifier ∃ means “there exists at least one element”. Option B states these definitions correctly. All other options swap or distort the meanings.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand existential quantifier",
+      "question": "In a class of 30 students, the statement \"∃ student who scored 100 marks\" is true. Which of the following best interprets this statement?",
+      "options": {
+        "A": "Every student scored 100 marks.",
+        "B": "No student scored 100 marks.",
+        "C": "At least one student scored 100 marks.",
+        "D": "Exactly one student scored 100 marks."
+      },
+      "correct_option": "C",
+      "answer": "At least one student scored 100 marks.",
+      "explanation": "The existential quantifier ∃ asserts the existence of at least one element satisfying the condition. Hence the statement means that there is at least one student with a score of 100. It does not require all students (A) nor exclude any (B), and it does not limit the number to exactly one (D).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Translate simple quantified statements",
+      "question": "Translate the English sentence into symbolic form: \"Some even integers are divisible by 4.\"",
+      "options": {
+        "A": "∃n∈ℤ, (n is even) ∧ (4 | n)",
+        "B": "∀n∈ℤ, (n is even) → (4 | n)",
+        "C": "∃n∈ℤ, (n is even) → (4 | n)",
+        "D": "∀n∈ℤ, (n is even) ∧ (4 | n)"
+      },
+      "correct_option": "A",
+      "answer": "∃n∈ℤ, (n is even) ∧ (4 | n)",
+      "explanation": "The phrase \"Some\" indicates an existential quantifier ∃. The condition requires both that n is even and that 4 divides n, which is expressed by the conjunction ∧. Therefore option A correctly captures the meaning. Option B uses a universal quantifier, C misplaces the implication, and D incorrectly asserts the property for all integers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01130",
+      "learning_point": "Understand negation of quantified statements",
+      "question": "A teacher says, \"All students in my class have submitted their assignments.\" Which of the following statements correctly represents the negation of this claim?",
+      "options": {
+        "A": "No student has submitted the assignment.",
+        "B": "At least one student has not submitted the assignment.",
+        "C": "Exactly one student has submitted the assignment.",
+        "D": "All students have submitted more than one assignment."
+      },
+      "correct_option": "B",
+      "answer": "At least one student has not submitted the assignment.",
+      "explanation": "Negating a universal statement (∀) yields an existential statement (∃) with the negated predicate. The original claim is ∀x (x is a student → x submitted). Its negation is ∃x (x is a student ∧ x did not submit), i.e., \"There exists at least one student who has not submitted the assignment.\" Option B states this precisely. Options A, C, and D do not correspond to the logical negation.",
+      "difficulty": "medium"
+    }
+  ]
+}
