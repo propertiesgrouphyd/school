@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "Let P and Q be two statements. Which of the following correctly describes the truth value of the compound statement \"P \\u2228 Q\" (P or Q)?",
+      "options": {
+        "A": "It is true only when both P and Q are true.",
+        "B": "It is false only when both P and Q are false.",
+        "C": "It is true only when exactly one of P or Q is true.",
+        "D": "It is false when at least one of P or Q is true."
+      },
+      "correct_option": "B",
+      "answer": "It is false only when both P and Q are false.",
+      "explanation": "For a disjunction (P \\u2228 Q) the only case when it is false is when both components are false; in all other cases (one true or both true) the disjunction is true. Hence option B is correct, while the other options misstate the truth condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "Consider the implication \"If it rains, then the ground gets wet\" represented as P \\u2192 Q. Which of the following rows gives a correct truth‑value pair for P, Q and the implication P \\u2192 Q?",
+      "options": {
+        "A": "P is true, Q is true, and P \\u2192 Q is false.",
+        "B": "P is true, Q is false, and P \\u2192 Q is false.",
+        "C": "P is false, Q is true, and P \\u2192 Q is false.",
+        "D": "P is false, Q is false, and P \\u2192 Q is true."
+      },
+      "correct_option": "B",
+      "answer": "P is true, Q is false, and P \\u2192 Q is false.",
+      "explanation": "An implication P \\u2192 Q is false only when the antecedent P is true and the consequent Q is false. All other combinations make the implication true. Therefore option B correctly captures the only false case; the other options either give wrong truth values for the implication or mis‑represent the condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which statement correctly compares the biconditional \"P \\u2194 Q\" with the expression \"(P \\u2227 Q) \\u2228 (\\u00acP \\u2227 \\u00acQ)\"?",
+      "options": {
+        "A": "They are not equivalent; the biconditional is true only when both P and Q are true.",
+        "B": "They are equivalent because both are true exactly when P and Q have the same truth value.",
+        "C": "The biconditional is true only when P and Q are both false, whereas the expression is true only when both are true.",
+        "D": "The biconditional is true when at least one of P or Q is true, while the expression is true only when both are false."
+      },
+      "correct_option": "B",
+      "answer": "They are equivalent because both are true exactly when P and Q have the same truth value.",
+      "explanation": "A biconditional P \\u2194 Q is true when P and Q are both true or both false. The expression (P \\u2227 Q) \\u2228 (\\u00acP \\u2227 \\u00acQ) captures the same two cases, making the two statements logically equivalent. Options A, C, and D misstate the truth conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Given the compound statement \\((P \\u2228 Q) \\u2192 (P \\u2227 R)\\), what is its truth value when P is false, Q is true and R is false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Indeterminate",
+        "D": "Depends on the truth value of R"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "First evaluate the antecedent: P \\u2228 Q = false \\u2228 true = true. The consequent: P \\u2227 R = false \\u2227 false = false. An implication true \\u2192 false is false. Hence the whole statement is false, making option B correct. The other options ignore the implication rule.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "Which of the following correctly defines the logical conjunction \"P \\u2227 Q\"?",
+      "options": {
+        "A": "It is true only when both P and Q are true.",
+        "B": "It is true when at least one of P or Q is true.",
+        "C": "It is false only when both P and Q are false.",
+        "D": "It is true when exactly one of P or Q is true."
+      },
+      "correct_option": "A",
+      "answer": "It is true only when both P and Q are true.",
+      "explanation": "Conjunction (P \\u2227 Q) requires both component statements to be true for the whole to be true; any false component makes the conjunction false. Option A states this precisely, while the other options describe disjunction or other incorrect conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The logical disjunction \"P \\u2228 Q\" is true in which of the following situations?",
+      "options": {
+        "A": "Only when both P and Q are true.",
+        "B": "When at least one of P or Q is true.",
+        "C": "Only when exactly one of P or Q is true.",
+        "D": "When both P and Q are false."
+      },
+      "correct_option": "B",
+      "answer": "When at least one of P or Q is true.",
+      "explanation": "A disjunction is false only when both components are false; in every other case (one true or both true) it is true. Therefore option B correctly captures the condition. Options A and C are too restrictive, and D describes the false case.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "Which statement correctly distinguishes the implication \"P \\u2192 Q\" from its converse \"Q \\u2192 P\"?",
+      "options": {
+        "A": "P \\u2192 Q is true when P is false or Q is true; the converse swaps the roles of P and Q.",
+        "B": "P \\u2192 Q is true only when both P and Q are true; the converse is always false.",
+        "C": "P \\u2192 Q is false only when P is true and Q is false; the converse has the same truth condition.",
+        "D": "There is no difference; implication and its converse are logically identical."
+      },
+      "correct_option": "A",
+      "answer": "P \\u2192 Q is true when P is false or Q is true; the converse swaps the roles of P and Q.",
+      "explanation": "An implication P \\u2192 Q is false only in the case P true and Q false; otherwise it is true. The converse Q \\u2192 P simply interchanges antecedent and consequent, so its truth conditions are based on Q and P respectively. Option A states this accurately. Option B misstates the condition, C incorrectly claims both have identical truth tables, and D ignores the difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following sentences correctly uses a biconditional (\"if and only if\") relationship?",
+      "options": {
+        "A": "If a number is even, then its square is even.",
+        "B": "If a number's square is even, then the number is even.",
+        "C": "A number is even if and only if its square is even.",
+        "D": "None of the above."
+      },
+      "correct_option": "C",
+      "answer": "A number is even if and only if its square is even.",
+      "explanation": "The phrase \"if and only if\" denotes a biconditional, meaning both directions hold: a number being even implies its square is even, and conversely, an even square implies the number is even. Option C captures this two‑way relationship. Options A and B each state only one direction, not a biconditional, and D is therefore incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

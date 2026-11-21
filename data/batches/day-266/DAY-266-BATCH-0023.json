@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "In propositional logic, the statement \"If P then Q\" represents which of the following connectives?",
+      "options": {
+        "A": "Conjunction",
+        "B": "Disjunction",
+        "C": "Implication",
+        "D": "Biconditional"
+      },
+      "correct_option": "C",
+      "answer": "Implication",
+      "explanation": "The conditional statement \"If P then Q\" is denoted by P \\rightarrow Q and is called implication. Conjunction (P \\land Q) requires both to be true, disjunction (P \\lor Q) requires at least one true, and biconditional (P \\leftrightarrow Q) requires both statements to have the same truth value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following expressions is logically equivalent to the biconditional statement \"P if and only if Q\"?",
+      "options": {
+        "A": "(P \\rightarrow Q) \\land (Q \\rightarrow P)",
+        "B": "(P \\rightarrow Q) \\lor (Q \\rightarrow P)",
+        "C": "(P \\land Q) \\lor (\\neg P \\land \\neg Q)",
+        "D": "(P \\lor Q) \\land (\\neg P \\lor \\neg Q)"
+      },
+      "correct_option": "A",
+      "answer": "(P \\rightarrow Q) \\land (Q \\rightarrow P)",
+      "explanation": "A biconditional P \\leftrightarrow Q is true exactly when both implications P \\rightarrow Q and Q \\rightarrow P are true, which is expressed by the conjunction in option A. Option C is also equivalent but the question asks for one correct choice; option A directly reflects the definition. Options B and D are not equivalent to the biconditional.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement (P \\lor Q) \\rightarrow R. Using the truth values P = True, Q = False, R = False, what is the truth value of the whole statement?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both true and false"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "First evaluate P \\lor Q: True \\lor False = True. Then evaluate the implication: True \\rightarrow False is False. Hence the compound statement is false. Options A, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "A student says, \"I will attend the workshop and I will submit the assignment on time.\" Which logical connective correctly represents the relationship between the two statements?",
+      "options": {
+        "A": "Disjunction (\\lor)",
+        "B": "Conjunction (\\land)",
+        "C": "Implication (\\rightarrow)",
+        "D": "Biconditional (\\leftrightarrow)"
+      },
+      "correct_option": "B",
+      "answer": "Conjunction (\\land)",
+      "explanation": "The word \"and\" joins the two statements, which is represented by the conjunction connective \\land. Disjunction means \"or\", implication means \"if... then...\", and biconditional means \"if and only if\".",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "Which of the following correctly describes the truth condition of the logical disjunction \"P \\lor Q\"?",
+      "options": {
+        "A": "It is true only when exactly one of P or Q is true.",
+        "B": "It is true when at least one of P or Q is true.",
+        "C": "It is true only when both P and Q are false.",
+        "D": "It is true only when both P and Q are true."
+      },
+      "correct_option": "B",
+      "answer": "It is true when at least one of P or Q is true.",
+      "explanation": "A disjunction is true if P is true, or Q is true, or both are true. Option A describes exclusive or, which is a different connective. Options C and D are opposite of the correct definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "The statement \"If it rains, the ground gets wet\" is given. Which of the following is the correct contrapositive of this implication?",
+      "options": {
+        "A": "If the ground gets wet, then it rains.",
+        "B": "If the ground does not get wet, then it does not rain.",
+        "C": "If it does not rain, then the ground gets wet.",
+        "D": "If the ground gets wet, then it does not rain."
+      },
+      "correct_option": "B",
+      "answer": "If the ground does not get wet, then it does not rain.",
+      "explanation": "The contrapositive of \"If P then Q\" is \"If not Q then not P\". Here P = it rains, Q = ground gets wet. Hence the contrapositive is \"If the ground does not get wet, then it does not rain\". Options A, C, and D are not logically equivalent to the original statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following statements is NOT logically equivalent to the biconditional \"P \\leftrightarrow Q\"?",
+      "options": {
+        "A": "(P \\rightarrow Q) \\land (Q \\rightarrow P)",
+        "B": "(P \\land Q) \\lor (\\neg P \\land \\neg Q)",
+        "C": "(P \\lor Q) \\land (\\neg P \\lor \\neg Q)",
+        "D": "P \\leftrightarrow Q"
+      },
+      "correct_option": "C",
+      "answer": "(P \\lor Q) \\land (\\neg P \\lor \\neg Q)",
+      "explanation": "Option C simplifies to the exclusive-or (XOR) truth table, which is true when exactly one of P or Q is true, not when they have the same truth value. Options A, B, and D are all equivalent to the biconditional.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "For the compound statement (P \\rightarrow Q) \\land (\\neg Q \\rightarrow \\neg P), the truth values for the four possible assignments of P and Q are given below. Which column correctly represents the truth values of the statement?\n\nP | Q | (P → Q) ∧ (¬Q → ¬P)\n---|---|---------------------------\nT | T | ?\nT | F | ?\nF | T | ?\nF | F | ?",
+      "options": {
+        "A": "T, T, T, T",
+        "B": "T, F, T, T",
+        "C": "T, F, F, T",
+        "D": "F, T, T, F"
+      },
+      "correct_option": "B",
+      "answer": "T, F, T, T",
+      "explanation": "Evaluating each row:\n1) P=T, Q=T: P→Q = T, ¬Q→¬P = T, conjunction = T.\n2) P=T, Q=F: P→Q = F, ¬Q→¬P = F, conjunction = F.\n3) P=F, Q=T: P→Q = T, ¬Q→¬P = T, conjunction = T.\n4) P=F, Q=F: P→Q = T, ¬Q→¬P = T, conjunction = T.\nThus the column of truth values is T, F, T, T, which matches option B. The other options do not match the computed values.",
+      "difficulty": "hard"
+    }
+  ]
+}

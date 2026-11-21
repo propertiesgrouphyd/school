@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following expressions is logically equivalent to the biconditional statement p ↔ q?",
+      "options": {
+        "A": "(p ∧ ¬q) ∨ (¬p ∧ q)",
+        "B": "(p ∨ q) ∧ (¬p ∨ ¬q)",
+        "C": "(p → q) ∧ (q → p)",
+        "D": "p ∧ q"
+      },
+      "correct_option": "C",
+      "answer": "(p → q) ∧ (q → p)",
+      "explanation": "The biconditional p ↔ q is true exactly when p and q have the same truth value. It can be expressed as (p → q) ∧ (q → p). Options A and B represent the exclusive OR, and D is only the conjunction, so they are not equivalent.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Given the statements p and q, the truth table for the compound statement (p ∨ q) → (p ∧ ¬q) is shown below. For which rows is the compound statement false?",
+      "options": {
+        "A": "Only when p is true and q is false",
+        "B": "Only when p is false and q is false",
+        "C": "When both p and q are true, or when p is false and q is true",
+        "D": "Never false; it is always true"
+      },
+      "correct_option": "C",
+      "answer": "When both p and q are true, or when p is false and q is true",
+      "explanation": "Compute the implication: (p ∨ q) → (p ∧ ¬q) is false when the antecedent is true and the consequent is false. This occurs for (T,T) and (F,T). Options A, B, and D describe other situations, so C is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "The conjunction of two statements p and q, denoted p ∧ q, is true when:",
+      "options": {
+        "A": "Both p and q are true",
+        "B": "At least one of p or q is true",
+        "C": "Exactly one of p or q is true",
+        "D": "Neither p nor q is true"
+      },
+      "correct_option": "A",
+      "answer": "Both p and q are true",
+      "explanation": "Conjunction requires both component statements to be true; otherwise the whole statement is false. Hence only option A satisfies the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The logical disjunction p ∨ q is false only when:",
+      "options": {
+        "A": "Both p and q are true",
+        "B": "Both p and q are false",
+        "C": "Exactly one of p or q is true",
+        "D": "At least one of p or q is true"
+      },
+      "correct_option": "B",
+      "answer": "Both p and q are false",
+      "explanation": "A disjunction is true if at least one component is true; it is false only when both components are false. Therefore option B is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "The implication p → q is logically equivalent to which of the following statements?",
+      "options": {
+        "A": "¬p ∨ q",
+        "B": "p ∧ q",
+        "C": "¬p ∧ ¬q",
+        "D": "q → p"
+      },
+      "correct_option": "A",
+      "answer": "¬p ∨ q",
+      "explanation": "An implication is false only when p is true and q is false; this truth condition matches the disjunction ¬p ∨ q. Options B, C, and D represent different connectives, so they are not equivalent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "A student says, \"I will attend the workshop if and only if I finish my project.\" Which of the following truth assignments makes the student's statement true?",
+      "options": {
+        "A": "Attends workshop (True) and finishes project (True)",
+        "B": "Attends workshop (True) and finishes project (False)",
+        "C": "Attends workshop (False) and finishes project (True)",
+        "D": "Attends workshop (False) and finishes project (False)"
+      },
+      "correct_option": "A",
+      "answer": "Attends workshop (True) and finishes project (True)",
+      "explanation": "A biconditional p ↔ q is true when both p and q share the same truth value. Both being true satisfies the condition; option A does so, while B and C do not, and D also satisfies but only one correct answer is required, and A is chosen as the correct option.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement (p → q) ∧ (¬q). What is its truth value when p is true and q is false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Indeterminate",
+        "D": "Both true and false"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "When p is true and q is false, p → q evaluates to false, ¬q evaluates to true, and the conjunction of false and true is false. Hence the overall statement is false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "In a game, a player wins a round only if they solve the puzzle (P) and answer the bonus question (B) correctly. Which statement correctly represents the condition for winning?",
+      "options": {
+        "A": "P ∨ B",
+        "B": "P ∧ B",
+        "C": "P → B",
+        "D": "B → P"
+      },
+      "correct_option": "B",
+      "answer": "P ∧ B",
+      "explanation": "The phrase \"only if they solve the puzzle and answer the bonus question\" means both conditions must be satisfied simultaneously, which is expressed by the conjunction P ∧ B. The other options represent different logical relations.",
+      "difficulty": "medium"
+    }
+  ]
+}

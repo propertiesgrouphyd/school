@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "For the statements p = True and q = False, what is the truth value of the compound statement (p ∧ q) ∨ (¬p)?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "None of the above"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "First evaluate p ∧ q: True ∧ False = False. Next evaluate ¬p: ¬True = False. The disjunction (False) ∨ (False) = False. Hence the correct answer is False (option B). Options A and D are incorrect because the result is not True, and option C is wrong because the truth value is determinable.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "Statement A: \"It is raining.\" Statement B: \"The temperature is below 0°C.\" Which of the following represents the conjunction of A and B?",
+      "options": {
+        "A": "\"It is raining or the temperature is below 0°C.\"",
+        "B": "\"It is raining and the temperature is below 0°C.\"",
+        "C": "\"If it is raining, then the temperature is below 0°C.\"",
+        "D": "\"It is not raining and the temperature is not below 0°C.\""
+      },
+      "correct_option": "B",
+      "answer": "\"It is raining and the temperature is below 0°C.\"",
+      "explanation": "Conjunction combines two statements with the logical connective AND, which is expressed as \"and\". Option B correctly states both conditions must hold simultaneously. Option A uses OR, option C uses implication, and option D uses negation of both statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "Many students think that the statement \"p or q\" is true only when exactly one of p or q is true. Which option correctly describes the inclusive disjunction used in logical reasoning?",
+      "options": {
+        "A": "It is true when exactly one of p or q is true, but false when both are true.",
+        "B": "It is true when at least one of p or q is true, including the case when both are true.",
+        "C": "It is true only when both p and q are false.",
+        "D": "It is true only when both p and q are true."
+      },
+      "correct_option": "B",
+      "answer": "It is true when at least one of p or q is true, including the case when both are true.",
+      "explanation": "In propositional logic, the symbol \"or\" denotes inclusive disjunction, which is true if either or both operands are true. Option B captures this definition. Option A describes exclusive or, which is a different connective. Options C and D are incorrect definitions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "If p is False and q is True, what is the truth value of the implication p → q?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined",
+        "D": "Both A and B are correct depending on interpretation"
+      },
+      "correct_option": "A",
+      "answer": "True",
+      "explanation": "An implication p → q is false only when p is true and q is false; in all other cases it is true. Here p is False, so the implication is true regardless of q's value. Therefore option A is correct. Options B, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following statements correctly distinguishes a biconditional (p ↔ q) from a simple conjunction (p ∧ q)?",
+      "options": {
+        "A": "p ↔ q is true only when both p and q are true, whereas p ∧ q is true when either p or q is true.",
+        "B": "p ↔ q is true when p and q have the same truth value, while p ∧ q is true only when both are true.",
+        "C": "p ↔ q is true when at least one of p or q is true, whereas p ∧ q is true only when both are false.",
+        "D": "p ↔ q and p ∧ q are logically equivalent; there is no distinction."
+      },
+      "correct_option": "B",
+      "answer": "p ↔ q is true when p and q have the same truth value, while p ∧ q is true only when both are true.",
+      "explanation": "A biconditional is true when both statements share the same truth value (both true or both false). A conjunction requires both statements to be true. Option B captures this difference. Option A incorrectly describes conjunction. Option C misstates both connectives. Option D is false because they are not equivalent.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement (p → q) ∧ (q → r). Which of the following rows of the truth table makes the whole statement true?\n\nOptions list the truth values of (p, q, r).",
+      "options": {
+        "A": "(True, False, True)",
+        "B": "(False, True, False)",
+        "C": "(True, True, False)",
+        "D": "(False, False, False)"
+      },
+      "correct_option": "D",
+      "answer": "(False, False, False)",
+      "explanation": "First evaluate each implication: p → q is false only when p is true and q is false; otherwise true. q → r is false only when q is true and r is false. For the conjunction to be true, both implications must be true.\n- In option D, p=False, q=False, r=False. p → q = True (since antecedent false), q → r = True (antecedent false). Hence the conjunction is True.\n- Options A, B, and C each make at least one implication false, so the whole statement is false. Therefore D is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "In propositional logic, the conjunction of two statements p and q is denoted by:",
+      "options": {
+        "A": "p ∨ q",
+        "B": "p → q",
+        "C": "p ∧ q",
+        "D": "p ↔ q"
+      },
+      "correct_option": "C",
+      "answer": "p ∧ q",
+      "explanation": "The symbol ∧ represents logical AND, i.e., conjunction. Option C is therefore correct. Option A is disjunction (OR), B is implication, and D is biconditional.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "Which of the following best describes the logical disjunction (p ∨ q)?",
+      "options": {
+        "A": "It is true only when both p and q are true.",
+        "B": "It is true when at least one of p or q is true, including the case when both are true.",
+        "C": "It is false when both p and q are false, and true otherwise.",
+        "D": "Both B and C are correct descriptions."
+      },
+      "correct_option": "D",
+      "answer": "Both B and C are correct descriptions.",
+      "explanation": "Disjunction (p ∨ q) is true if at least one operand is true; this includes the case where both are true. Hence statements B and C convey the same meaning. Option D correctly notes that both are accurate. Option A describes conjunction, not disjunction.",
+      "difficulty": "easy"
+    }
+  ]
+}

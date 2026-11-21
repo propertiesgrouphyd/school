@@ -1,0 +1,150 @@
+{
+  "day": 266,
+  "batch_id": "DAY-266-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "Which of the following symbols correctly represents the conjunction of two statements P and Q?",
+      "options": {
+        "A": "P ∧ Q",
+        "B": "P ∨ Q",
+        "C": "P → Q",
+        "D": "P ↔ Q"
+      },
+      "correct_option": "A",
+      "answer": "P ∧ Q",
+      "explanation": "The conjunction (AND) of P and Q is denoted by P ∧ Q and is true only when both P and Q are true. Option B is disjunction, C is implication, and D is biconditional.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "The compound statement ‘P or Q’ (P ∨ Q) is false only when:",
+      "options": {
+        "A": "Both P and Q are true",
+        "B": "Both P and Q are false",
+        "C": "At least one of P or Q is true",
+        "D": "Exactly one of P or Q is true"
+      },
+      "correct_option": "B",
+      "answer": "Both P and Q are false",
+      "explanation": "A disjunction is true if at least one component is true; it becomes false only when both components are false. Hence option B is correct. All other options describe situations where the disjunction is true.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "In the implication P → Q, the statement is false only when:",
+      "options": {
+        "A": "P is true and Q is false",
+        "B": "Both P and Q are true",
+        "C": "Both P and Q are false",
+        "D": "P is false"
+      },
+      "correct_option": "A",
+      "answer": "P is true and Q is false",
+      "explanation": "An implication is false only in the case where the antecedent (P) is true while the consequent (Q) is false. In all other cases (both true, both false, or P false) the implication is considered true.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand biconditional statements",
+      "question": "Which of the following expressions is logically equivalent to the biconditional P ↔ Q?",
+      "options": {
+        "A": "(P ∧ Q) ∨ (¬P ∧ ¬Q)",
+        "B": "P ∧ Q",
+        "C": "P ∨ Q",
+        "D": "P → Q"
+      },
+      "correct_option": "A",
+      "answer": "(P ∧ Q) ∨ (¬P ∧ ¬Q)",
+      "explanation": "A biconditional is true when both statements have the same truth value—both true or both false. The expression (P ∧ Q) ∨ (¬P ∧ ¬Q) captures exactly those two cases. Options B, C, and D represent conjunction, disjunction, and implication respectively, not the biconditional.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Construct and interpret truth tables",
+      "question": "Consider the compound statement (P ∨ Q) ∧ ¬R. Which of the following assignments of truth values makes the whole statement true?",
+      "options": {
+        "A": "P = True, Q = False, R = False",
+        "B": "P = False, Q = False, R = True",
+        "C": "P = False, Q = True, R = True",
+        "D": "P = True, Q = True, R = True"
+      },
+      "correct_option": "A",
+      "answer": "P = True, Q = False, R = False",
+      "explanation": "First evaluate P ∨ Q: with P true and Q false, the result is true. ¬R is true because R is false. Hence (true) ∧ (true) = true, so the compound statement is true. In options B, C, and D either the disjunction is false or ¬R is false, making the whole statement false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand conjunction",
+      "question": "Let P denote ‘It is raining’ and Q denote ‘It is windy’. In which scenario is the conjunction P ∧ Q true?",
+      "options": {
+        "A": "It is raining but not windy.",
+        "B": "It is windy but not raining.",
+        "C": "Both it is raining and it is windy.",
+        "D": "Neither it is raining nor it is windy."
+      },
+      "correct_option": "C",
+      "answer": "Both it is raining and it is windy.",
+      "explanation": "A conjunction P ∧ Q is true only when both component statements are true simultaneously. Scenario C satisfies both conditions. All other scenarios have at least one false component, making the conjunction false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand disjunction",
+      "question": "A common misconception is that ‘P or Q’ is false when both P and Q are true. Which of the following correctly states the truth value of the disjunction when both P and Q are true?",
+      "options": {
+        "A": "The disjunction is true.",
+        "B": "The disjunction is false.",
+        "C": "The disjunction is indeterminate.",
+        "D": "The truth value depends on the context."
+      },
+      "correct_option": "A",
+      "answer": "The disjunction is true.",
+      "explanation": "In classical logic, the inclusive ‘or’ (P ∨ Q) is true if at least one of the statements is true, including the case where both are true. Therefore option A is correct; the other options reflect the misconception or irrelevant considerations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01129",
+      "learning_point": "Understand implication",
+      "question": "If a number is divisible by 4 (P) then it is even (Q). Which of the following statements is a logically valid conclusion derived from this implication?",
+      "options": {
+        "A": "If a number is odd, then it is not divisible by 4.",
+        "B": "If a number is even, then it is divisible by 4.",
+        "C": "If a number is not even, then it is not divisible by 4.",
+        "D": "If a number is not divisible by 4, then it is odd."
+      },
+      "correct_option": "C",
+      "answer": "If a number is not even, then it is not divisible by 4.",
+      "explanation": "The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent to the original implication. Here, ¬Q means ‘not even’ and ¬P means ‘not divisible by 4’, giving option C. Option A is not guaranteed (an odd number could be divisible by 4? actually impossible, but it is not the direct contrapositive). Option B and D are not valid deductions from the given implication.",
+      "difficulty": "medium"
+    }
+  ]
+}
