@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "Data set X = {2, 4, 6, 8, 10} and data set Y = {5, 5, 5, 5, 5}. Which statement about their variances is correct?",
+      "options": {
+        "A": "Set X has a larger variance than set Y.",
+        "B": "Set Y has a larger variance than set X.",
+        "C": "Both sets have the same variance.",
+        "D": "The variances cannot be compared without more information."
+      },
+      "correct_option": "A",
+      "answer": "Set X has a larger variance than set Y.",
+      "explanation": "For set X, mean = 6. Squared deviations: (2‑6)²=16, (4‑6)²=4, (6‑6)²=0, (8‑6)²=4, (10‑6)²=16; sum = 40; variance = 40/5 = 8. For set Y, all values equal the mean 5, so each deviation is 0; variance = 0. Hence X’s variance is larger.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "In a competitive exam, the scores of two groups of students have variances 20 and 5 respectively. Which interpretation is correct?",
+      "options": {
+        "A": "The group with variance 20 has scores that are more spread out around the mean.",
+        "B": "The group with variance 20 necessarily has a higher average score.",
+        "C": "The group with variance 5 performed better overall.",
+        "D": "Variance does not provide any information about the distribution of scores."
+      },
+      "correct_option": "A",
+      "answer": "The group with variance 20 has scores that are more spread out around the mean.",
+      "explanation": "Variance measures the average squared deviation from the mean. A larger variance indicates that the data points are more dispersed. It does not directly indicate a higher mean or better performance; it only describes spread.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "Which of the following best defines the variance of a data set?",
+      "options": {
+        "A": "The average of the squared deviations of each observation from the mean.",
+        "B": "The average of the absolute deviations of each observation from the mean.",
+        "C": "The median of the data set.",
+        "D": "The difference between the maximum and minimum values."
+      },
+      "correct_option": "A",
+      "answer": "The average of the squared deviations of each observation from the mean.",
+      "explanation": "Variance is defined as \\(\\sigma^2 = \\frac{1}{N}\\sum_{i=1}^{N}(x_i-\\mu)^2\\), i.e., the mean of the squared deviations from the mean. Options B, C, and D describe other concepts (mean absolute deviation, median, range).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "Find the variance of the data set {3, 7, 7, 19}. (Use the population variance formula.)",
+      "options": {
+        "A": "36",
+        "B": "24",
+        "C": "30",
+        "D": "40"
+      },
+      "correct_option": "A",
+      "answer": "36",
+      "explanation": "Mean = (3+7+7+19)/4 = 9. Squared deviations: (3‑9)²=36, (7‑9)²=4, (7‑9)²=4, (19‑9)²=100. Sum = 144. Population variance = 144/4 = 36.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Which expression represents the squared deviation of an observation \\(x_i\\) from the mean \\(\\mu\\)?",
+      "options": {
+        "A": "(x_i - \\mu)^2",
+        "B": "|x_i - \\mu|",
+        "C": "(x_i + \\mu)^2",
+        "D": "(\\mu - x_i)"
+      },
+      "correct_option": "A",
+      "answer": "(x_i - \\mu)^2",
+      "explanation": "The squared deviation is obtained by subtracting the mean from the observation and squaring the result, i.e., \\((x_i-\\mu)^2\\). Option B is absolute deviation, C adds instead of subtracts, D lacks squaring.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "For the data set {5, 9, 11}, what is the population variance (rounded to two decimal places)?",
+      "options": {
+        "A": "6.22",
+        "B": "5.50",
+        "C": "7.00",
+        "D": "8.00"
+      },
+      "correct_option": "A",
+      "answer": "6.22",
+      "explanation": "Mean = (5+9+11)/3 = 8.33. Squared deviations: (5‑8.33)²≈11.11, (9‑8.33)²≈0.44, (11‑8.33)²≈7.11. Sum ≈ 18.66. Variance = 18.66/3 ≈ 6.22.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "Class A students scored mostly between 68 and 72, while Class B scores ranged from 30 to 110. Which statement about the variances of the two classes is true?",
+      "options": {
+        "A": "Class B has a higher variance than Class A.",
+        "B": "Class A has a higher variance than Class B.",
+        "C": "Both classes have the same variance.",
+        "D": "Variance cannot be compared without the exact scores."
+      },
+      "correct_option": "A",
+      "answer": "Class B has a higher variance than Class A.",
+      "explanation": "Variance reflects how spread out the data are. Since Class B's scores cover a much wider range, its variance will be larger. Even without exact numbers, the spread indicates higher variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A farmer records daily rainfall for a week as 2, 2, 2, 2, 2, 2, 2 cm. What does the variance of this data indicate?",
+      "options": {
+        "A": "The variance is zero, indicating no variation in daily rainfall.",
+        "B": "The variance is high, indicating unpredictable rainfall.",
+        "C": "The variance equals the mean rainfall.",
+        "D": "The variance is negative, which is impossible."
+      },
+      "correct_option": "A",
+      "answer": "The variance is zero, indicating no variation in daily rainfall.",
+      "explanation": "All observations are identical, so each deviation from the mean (which is 2 cm) is zero. Squaring zero gives zero, and the average of these squared deviations is zero. Hence variance = 0, meaning no variability.",
+      "difficulty": "medium"
+    }
+  ]
+}

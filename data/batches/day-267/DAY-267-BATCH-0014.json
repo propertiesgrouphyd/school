@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01134-001",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "What is the definition of standard deviation for a set of data?",
+      "options": {
+        "A": "The positive square root of the variance",
+        "B": "The average of the data values",
+        "C": "The sum of the squared deviations from the mean",
+        "D": "The range of the data set"
+      },
+      "correct_option": "A",
+      "answer": "The positive square root of the variance",
+      "explanation": "Standard deviation is defined as the positive square root of the variance, which measures the average spread of the data about the mean. Option B describes the mean, C describes the total of squared deviations, and D is the difference between maximum and minimum, not the standard deviation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01134-002",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "What is the standard deviation of the data set {2, 4, 6, 8}?",
+      "options": {
+        "A": "√5",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "answer": "√5",
+      "explanation": "Mean = (2+4+6+8)/4 = 5. Deviations: -3, -1, 1, 3. Squares: 9,1,1,9. Sum = 20. Variance = 20/4 = 5. Standard deviation = √5. Hence option A is correct; the other numbers are common miscalculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01134-003",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Which of the following statements correctly describes how standard deviation is used to compare the spread of two data sets?",
+      "options": {
+        "A": "A larger standard deviation indicates the data are more spread out.",
+        "B": "A larger standard deviation indicates the data are less spread out.",
+        "C": "Standard deviation does not give any information about spread.",
+        "D": "Two data sets have the same spread if their means are equal"
+      },
+      "correct_option": "A",
+      "answer": "A larger standard deviation indicates the data are more spread out.",
+      "explanation": "Standard deviation quantifies dispersion; a higher value means observations deviate more from the mean, indicating greater spread. Options B and C are opposite of the definition, and D confuses spread with central tendency.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-01134-004",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "If the observations in a data set are measured in centimeters, what are the units of its standard deviation?",
+      "options": {
+        "A": "Centimeters",
+        "B": "Square centimeters",
+        "C": "Centimeters squared",
+        "D": "Meters"
+      },
+      "correct_option": "A",
+      "answer": "Centimeters",
+      "explanation": "Standard deviation has the same unit as the original data because it is the square root of variance (which has squared units). Hence the unit remains centimeters. Options B and C are units of area, and D is a different length unit.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-01134-005",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Class X and Class Y took the same exam. Both classes have the same average score, but Class X has a standard deviation of 5 points while Class Y has a standard deviation of 12 points. Which class shows more consistency in performance?",
+      "options": {
+        "A": "Class X",
+        "B": "Class Y",
+        "C": "Both classes are equally consistent",
+        "D": "Consistency cannot be determined from the given information"
+      },
+      "correct_option": "A",
+      "answer": "Class X",
+      "explanation": "A smaller standard deviation means the scores are clustered closer to the mean, indicating higher consistency. Therefore Class X, with SD = 5, is more consistent than Class Y, which has a larger spread (SD = 12).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01134-006",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Define standard deviation",
+      "question": "A researcher states, \"The standard deviation of our measurements is the average deviation of each observation from the mean.\" Is this statement correct?",
+      "options": {
+        "A": "No, because standard deviation is the square root of the variance, not the average deviation",
+        "B": "Yes, because average deviation and standard deviation are the same concept",
+        "C": "No, because standard deviation is measured in squared units",
+        "D": "Yes, because both involve deviations from the mean"
+      },
+      "correct_option": "A",
+      "answer": "No, because standard deviation is the square root of the variance, not the average deviation",
+      "explanation": "Standard deviation is defined as the positive square root of the variance (average of squared deviations). The average (or mean) absolute deviation is a different measure. Hence the researcher’s statement is incorrect, making option A correct. Options B and D conflate the two measures, and C misstates the unit (standard deviation has the same unit as the data).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01134-007",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "For the data set {3, 3, 3, 3}, what is the correct value of the standard deviation?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "1",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "All observations are identical, so each deviation from the mean (which is 3) is zero. Variance = 0, and the square root of 0 is 0. A common misconception is to think any non‑zero number is needed, but the correct answer is 0. The other options arise from mistakenly adding or taking square roots of non‑zero sums.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01134-008",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Data Set A: {10, 12, 14, 16, 18} and Data Set B: {10, 11, 12, 13, 14}. Both sets have the same mean. Which set has greater variability?",
+      "options": {
+        "A": "Data Set A",
+        "B": "Data Set B",
+        "C": "Both have equal variability",
+        "D": "Variability cannot be compared without knowing the sample size"
+      },
+      "correct_option": "A",
+      "answer": "Data Set A",
+      "explanation": "Although both sets share the same mean (12), Data Set A’s values are spread over a wider range (8 units) compared to Data Set B’s range (4 units). Consequently, its variance and standard deviation are larger, indicating greater variability. Option B is opposite, C is false, and D is irrelevant because sample sizes are equal.",
+      "difficulty": "medium"
+    }
+  ]
+}

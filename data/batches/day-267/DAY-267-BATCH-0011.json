@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "What is the correct definition of the variance of a data set?",
+      "options": {
+        "A": "The average of the data values",
+        "B": "The average of the squared deviations from the mean",
+        "C": "The square root of the average deviation from the mean",
+        "D": "The difference between the highest and lowest values"
+      },
+      "correct_option": "B",
+      "answer": "The average of the squared deviations from the mean",
+      "explanation": "Variance is defined as the mean of the squared differences between each observation and the arithmetic mean of the data. Option B states this definition exactly. Option A describes the mean, C describes the standard deviation, and D describes the range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "For the data set {2, 4, 6, 8}, what is the variance (population variance)?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "answer": "5",
+      "explanation": "Mean = (2+4+6+8)/4 = 5. Squared deviations: (2‑5)²=9, (4‑5)²=1, (6‑5)²=1, (8‑5)²=9. Sum = 20. Variance = 20/4 = 5. Hence option B is correct. The other options result from incorrect arithmetic.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Which statement correctly describes a squared deviation?",
+      "options": {
+        "A": "It is the deviation multiplied by itself, always non‑negative",
+        "B": "It can be negative if the observation is below the mean",
+        "C": "It is the same as the absolute deviation",
+        "D": "It equals the variance of the data set"
+      },
+      "correct_option": "A",
+      "answer": "It is the deviation multiplied by itself, always non‑negative",
+      "explanation": "Squaring a number makes it non‑negative, so a squared deviation is always ≥ 0. Option A captures this. Option B is false because squaring removes the sign. Option C confuses squared deviation with absolute deviation. Option D confuses a single squared deviation with the average of all such values (variance).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "Using the variance formula, what is the variance of the data set {5, 5, 5, 5, 5}?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "All observations are equal to the mean (which is 5). Each deviation is 0, so each squared deviation is 0. The average of zeros is 0, giving variance 0. Hence option A is correct. Any non‑zero option would imply some spread, which does not exist.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "Class A has a variance of 2 while Class B has a variance of 10. Which statement is true?",
+      "options": {
+        "A": "The scores in Class B are more spread out than those in Class A.",
+        "B": "The scores in Class A are more spread out than those in Class B.",
+        "C": "Both classes have the same amount of spread.",
+        "D": "Variance does not provide any information about spread."
+      },
+      "correct_option": "A",
+      "answer": "The scores in Class B are more spread out than those in Class A.",
+      "explanation": "A larger variance indicates a greater average squared deviation from the mean, meaning the data are more dispersed. Since 10 > 2, Class B's scores are more spread out. Options B and C contradict this, and D is false because variance is a standard measure of dispersion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Define variance",
+      "question": "A researcher states, “Variance tells us how far individual observations are from the average.” Which of the following definitions best matches this description?",
+      "options": {
+        "A": "Variance is the sum of all observations divided by the number of observations.",
+        "B": "Variance is the average of the squared deviations of each observation from the mean.",
+        "C": "Variance is the square root of the average absolute deviation from the mean.",
+        "D": "Variance is the difference between the maximum and minimum observations."
+      },
+      "correct_option": "B",
+      "answer": "Variance is the average of the squared deviations of each observation from the mean.",
+      "explanation": "The researcher’s description aligns with the formal definition: variance equals the mean of the squared differences between each data point and the mean. Option B states this precisely. Option A describes the mean, C describes the standard deviation, and D describes the range.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "For the data set {3, 7, 7, 7}, which expression correctly computes the variance (population variance)?",
+      "options": {
+        "A": "[(3‑6)+(7‑6)+(7‑6)+(7‑6)] / 4",
+        "B": "[(3‑6)²+(7‑6)²+(7‑6)²+(7‑6)²] / 4",
+        "C": "[(3‑6)+(7‑6)+(7‑6)+(7‑6)]² / 4",
+        "D": "[(3‑6)²+(7‑6)+(7‑6)+(7‑6)] / 4"
+      },
+      "correct_option": "B",
+      "answer": "[(3‑6)²+(7‑6)²+(7‑6)²+(7‑6)²] / 4",
+      "explanation": "Variance requires squaring each deviation before averaging. Option B follows this rule. Option A omits squaring, leading to zero (since deviations sum to zero). Option C squares the sum of deviations, which is incorrect. Option D squares only the first deviation, mixing methods.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Why are squared deviations used in the formula for variance instead of absolute deviations?",
+      "options": {
+        "A": "Squaring ensures all contributions are positive and gives more weight to larger deviations.",
+        "B": "Squaring makes the calculations easier than using absolute values.",
+        "C": "Absolute deviations cannot be summed mathematically.",
+        "D": "Squaring converts the units back to the original measurement units."
+      },
+      "correct_option": "A",
+      "answer": "Squaring ensures all contributions are positive and gives more weight to larger deviations.",
+      "explanation": "Squaring each deviation guarantees non‑negative values and amplifies larger deviations, reflecting their greater impact on overall spread. Option B is false because absolute values are equally easy to handle. Option C is incorrect; absolute deviations can be summed. Option D is wrong because squaring changes the unit to the square of the original (e.g., cm²).",
+      "difficulty": "medium"
+    }
+  ]
+}

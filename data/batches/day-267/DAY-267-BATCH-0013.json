@@ -1,0 +1,78 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-267-97",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Calculate variance",
+      "question": "A data set consists of the numbers 4, 8, 12. A student finds the mean, then adds the deviations (without squaring) and divides by 3 to obtain the variance. Which statement correctly identifies the error in this calculation?",
+      "options": {
+        "A": "The student should have squared each deviation before averaging.",
+        "B": "The student should have divided by (n‑1) instead of n.",
+        "C": "The student should have taken absolute values of the deviations.",
+        "D": "The student should have multiplied each deviation by 2 before averaging."
+      },
+      "correct_option": "A",
+      "answer": "The student should have squared each deviation before averaging.",
+      "explanation": "Variance is defined as the average of the squared deviations from the mean. Adding raw deviations (which sum to zero) and dividing by n gives zero, not the variance. The correct step is to square each deviation, making all contributions non‑negative, and then average them. Option B refers to sample variance, not the population variance asked here. Options C and D are not part of the variance definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-267-98",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Understand squared deviations",
+      "question": "Why does the formula for variance use squared deviations instead of absolute deviations?",
+      "options": {
+        "A": "Squaring ensures all contributions are non‑negative and gives more weight to larger deviations.",
+        "B": "Squaring simplifies the calculation because square roots are easy to compute.",
+        "C": "Squaring converts the units of variance to the same units as the original data.",
+        "D": "Squaring eliminates the need to compute the mean of the data set."
+      },
+      "correct_option": "A",
+      "answer": "Squaring ensures all contributions are non‑negative and gives more weight to larger deviations.",
+      "explanation": "Squaring each deviation makes every term positive, preventing cancellation of positive and negative deviations. It also accentuates larger deviations, reflecting greater spread. Absolute deviations would also be non‑negative but do not give the same mathematical properties (e.g., differentiability) that are useful in statistical theory. Options B, C, and D are incorrect statements about the role of squaring in variance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-267-99",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Apply variance formulae",
+      "question": "For the data set {2, 4, 6, 8}, the population variance can be calculated using (i) the definition Σ(x‑μ)² / N and (ii) the shortcut formula Σx² / N – μ². Which statement is true?",
+      "options": {
+        "A": "Both methods give the same value, 5.",
+        "B": "Method (i) gives 5, while method (ii) gives 6.",
+        "C": "Method (i) gives 6, while method (ii) gives 5.",
+        "D": "The shortcut formula cannot be used for this data set."
+      },
+      "correct_option": "A",
+      "answer": "Both methods give the same value, 5.",
+      "explanation": "First find the mean μ = (2+4+6+8)/4 = 5. Using definition: Σ(x‑μ)² = (2‑5)²+(4‑5)²+(6‑5)²+(8‑5)² = 9+1+1+9 = 20; variance = 20/4 = 5. Shortcut: Σx² = 2²+4²+6²+8² = 4+16+36+64 = 120; Σx²/N = 120/4 = 30; μ² = 25; variance = 30‑25 = 5. Both give 5, confirming the equivalence of the two formulae. Options B, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-267-100",
+      "learning_unit_id": "LU-01133",
+      "learning_point": "Interpret variance",
+      "question": "In a competitive exam, two classes took the same test. Class A's scores have variance 4, while Class B's scores have variance 16. Which statement best interprets this information?",
+      "options": {
+        "A": "Class B's scores are more widely spread around the mean than Class A's.",
+        "B": "Class A performed better overall than Class B.",
+        "C": "The average score of Class B is higher than that of Class A.",
+        "D": "Class A's scores are more reliable than Class B's."
+      },
+      "correct_option": "A",
+      "answer": "Class B's scores are more widely spread around the mean than Class A's.",
+      "explanation": "Variance quantifies the average squared deviation from the mean; a larger variance indicates that the data points are more dispersed. Hence, a variance of 16 shows a greater spread than a variance of 4. Variance does not convey information about the mean (so B and C are unrelated) nor about reliability in the sense of measurement error (D). Therefore, option A correctly interprets the variance values.",
+      "difficulty": "hard"
+    }
+  ]
+}
