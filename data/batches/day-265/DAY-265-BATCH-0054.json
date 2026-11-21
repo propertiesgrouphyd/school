@@ -1,0 +1,150 @@
+{
+  "day": 265,
+  "batch_id": "DAY-265-BATCH-0054",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Which of the following statements gives the correct derivative of the indicated trigonometric function?",
+      "options": {
+        "A": "d/dx (sin x) = -cos x",
+        "B": "d/dx (cos x) = sin x",
+        "C": "d/dx (tan x) = sec^2 x",
+        "D": "d/dx (csc x) = -cot x"
+      },
+      "correct_option": "C",
+      "answer": "d/dx (tan x) = sec^2 x",
+      "explanation": "The derivative of tan x is sec^2 x, so option C is correct. The derivative of sin x is +cos x (not -cos x), the derivative of cos x is -sin x (not sin x), and the derivative of csc x is -csc x·cot x, not just -cot x. Hence the other options are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "If f(x)= (3x^4-2x^3)+(5x-7), what is f'(2)?",
+      "options": {
+        "A": "77",
+        "B": "75",
+        "C": "79",
+        "D": "81"
+      },
+      "correct_option": "A",
+      "answer": "77",
+      "explanation": "Differentiate term‑by‑term: f'(x)=12x^3-6x^2+5. Substituting x=2 gives 12·8-6·4+5=96-24+5=77. Therefore option A is correct; the other numbers result from arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "Find the derivative of p(x)=4x^3-6x^2+2x-5.",
+      "options": {
+        "A": "12x^2-12x+2",
+        "B": "12x^2-6x+2",
+        "C": "4x^2-6x+2",
+        "D": "12x^3-6x^2+2"
+      },
+      "correct_option": "A",
+      "answer": "12x^2-12x+2",
+      "explanation": "Apply the power rule: d/dx(4x^3)=12x^2, d/dx(-6x^2)=-12x, d/dx(2x)=2, and the constant term disappears. Hence the derivative is 12x^2-12x+2, which is option A.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate constant functions",
+      "question": "What is the derivative of the constant function f(x)=k, where k is a constant?",
+      "options": {
+        "A": "k",
+        "B": "1",
+        "C": "0",
+        "D": "Undefined"
+      },
+      "correct_option": "C",
+      "answer": "0",
+      "explanation": "A constant does not change with x, so its rate of change is zero. Therefore the derivative of any constant function is 0, making option C correct. The other choices misinterpret the definition of derivative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Use basic derivative rules",
+      "question": "Which of the following is NOT a basic derivative rule?",
+      "options": {
+        "A": "Power rule: d/dx[x^n]=n x^{n-1}",
+        "B": "Sum rule: d/dx[u+v]=u'+v'",
+        "C": "Constant multiple rule: d/dx[c·u]=c·u'",
+        "D": "Integration by parts"
+      },
+      "correct_option": "D",
+      "answer": "Integration by parts",
+      "explanation": "Power, sum, and constant‑multiple rules are fundamental derivative rules. Integration by parts is a technique for integration, not differentiation, so option D is the correct choice.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate simple trigonometric functions",
+      "question": "Find dy/dx if y=sin(2x).",
+      "options": {
+        "A": "2 sin(2x)",
+        "B": "2 cos(2x)",
+        "C": "cos(2x)",
+        "D": "-2 sin(2x)"
+      },
+      "correct_option": "B",
+      "answer": "2 cos(2x)",
+      "explanation": "Using the chain rule, dy/dx = cos(2x)·d/dx(2x)=cos(2x)·2 = 2 cos(2x). Hence option B is correct; the other options either miss the chain rule factor or have the wrong sign.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate sums and differences",
+      "question": "Differentiate f(x)= (3x^3-2x+5) + (4 sin x).",
+      "options": {
+        "A": "9x^2-2+4 cos x",
+        "B": "9x^2+2+4 sin x",
+        "C": "3x^2-2+4 cos x",
+        "D": "9x^2-2-4 sin x"
+      },
+      "correct_option": "A",
+      "answer": "9x^2-2+4 cos x",
+      "explanation": "Apply the sum rule: derivative of 3x^3 is 9x^2, of -2x is -2, of constant 5 is 0, and of 4 sin x is 4 cos x. Adding gives 9x^2-2+4 cos x, which is option A.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01127",
+      "learning_point": "Differentiate polynomial functions",
+      "question": "A particle moves along a line with displacement s(t)=5t^3-2t^2+t (meters). What is its velocity at t=2 seconds?",
+      "options": {
+        "A": "53",
+        "B": "55",
+        "C": "51",
+        "D": "49"
+      },
+      "correct_option": "A",
+      "answer": "53",
+      "explanation": "Velocity is the derivative of displacement: v(t)=ds/dt=15t^2-4t+1. Substituting t=2 gives v=15·4-8+1=60-8+1=53 m/s. Hence option A is correct; the other numbers arise from miscalculations.",
+      "difficulty": "medium"
+    }
+  ]
+}
