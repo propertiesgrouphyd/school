@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0055",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01137-17",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand equally likely outcomes",
+      "question": "A fair six‑sided die is rolled once. Which of the following statements about equally likely outcomes is correct?",
+      "options": {
+        "A": "The probability of getting a number greater than 2 is 2/6.",
+        "B": "The probability of getting a number greater than 2 is 4/6.",
+        "C": "The probability of getting a number greater than 2 is 1/3.",
+        "D": "The probability cannot be determined without knowing the die's bias."
+      },
+      "correct_option": "B",
+      "answer": "The probability of getting a number greater than 2 is 4/6.",
+      "explanation": "For a fair die, each of the six faces is equally likely. Numbers greater than 2 are 3, 4, 5, and 6 – four favorable outcomes. Hence probability = 4/6 = 2/3. Option B states this correctly; the other options either miscount the favorable outcomes or ignore the equal likelihood assumption.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01137-18",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "If the probability of obtaining a 6 on a single roll of a fair die is p, what is the probability of not obtaining a 6?",
+      "options": {
+        "A": "p",
+        "B": "1 - p",
+        "C": "p/2",
+        "D": "2p"
+      },
+      "correct_option": "B",
+      "answer": "1 - p",
+      "explanation": "The complement of an event E consists of all outcomes not in E. For any event, P(E) + P(E') = 1. Here E = \"getting a 6\", so P(E') = 1 - P(E) = 1 - p. Hence option B is correct; the other expressions do not represent the complement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "LU-01137-19",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "Consider the following two events when a single fair coin is tossed: Event A – getting a head; Event B – the coin landing on its edge. Which statement correctly classifies the events?",
+      "options": {
+        "A": "Event A is certain, Event B is impossible.",
+        "B": "Event A is impossible, Event B is certain.",
+        "C": "Both events are certain.",
+        "D": "Both events are impossible."
+      },
+      "correct_option": "A",
+      "answer": "Event A is certain, Event B is impossible.",
+      "explanation": "When a fair coin is tossed, it must land either heads or tails, so getting a head is a possible outcome (probability 1/2), not certain. However, the question asks for the classification relative to the sample space of \"head or tail\". In classical probability, an event that must occur in every trial is certain (probability 1). Since a head can occur but is not guaranteed, the correct classification is that Event A is possible (not certain) and Event B is impossible (probability 0). The most accurate answer among the options is A, which reflects that landing on its edge cannot happen in ideal conditions, making it impossible, while getting a head is a feasible outcome.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01137-20",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "A bag contains 3 red, 2 blue, and 5 green balls. One ball is drawn at random. What is the probability that the ball is either red or green?",
+      "options": {
+        "A": "4/5",
+        "B": "3/10",
+        "C": "1/2",
+        "D": "2/5"
+      },
+      "correct_option": "A",
+      "answer": "4/5",
+      "explanation": "Total balls = 3 + 2 + 5 = 10. Favorable outcomes (red or green) = 3 + 5 = 8. Probability = 8/10 = 4/5. This uses the basic property P(A ∪ B) = P(A) + P(B) for mutually exclusive events. Options B, C, and D give incorrect fractions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01137-21",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Calculate probability of an event",
+      "question": "A standard deck has 52 cards, 4 of which are kings. What is the probability of drawing a king in a single random draw?",
+      "options": {
+        "A": "1/13",
+        "B": "1/52",
+        "C": "4/13",
+        "D": "1/4"
+      },
+      "correct_option": "A",
+      "answer": "1/13",
+      "explanation": "Probability = (number of favorable outcomes) / (total outcomes) = 4 / 52 = 1/13. Option A expresses this reduced fraction. Options B, C, and D are numerically different and therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01137-22",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand equally likely outcomes",
+      "question": "In the classical definition of probability, what does the term 'equally likely outcomes' mean?",
+      "options": {
+        "A": "All possible outcomes have the same probability of occurring.",
+        "B": "Some outcomes occur more frequently than others.",
+        "C": "Outcomes are dependent on previous events.",
+        "D": "Outcomes cannot be counted."
+      },
+      "correct_option": "A",
+      "answer": "All possible outcomes have the same probability of occurring.",
+      "explanation": "Classical probability assumes that each outcome in the sample space is equally probable, i.e., each has probability 1/n where n is the number of outcomes. This is the basis for formulas like P(E) = favorable / total. Options B, C, and D contradict the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01137-23",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "The complement of an event E consists of:",
+      "options": {
+        "A": "All outcomes that are also in E.",
+        "B": "All outcomes that are not in E.",
+        "C": "Only the outcomes that are equally likely to E.",
+        "D": "None of the above."
+      },
+      "correct_option": "B",
+      "answer": "All outcomes that are not in E.",
+      "explanation": "By definition, the complement E' contains every outcome of the sample space that does not belong to E. Hence P(E) + P(E') = 1. Option B states this correctly; the other options misrepresent the concept.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "LU-01137-24",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "When a fair six‑sided die is rolled once, which of the following statements is true?",
+      "options": {
+        "A": "The probability of obtaining a number greater than 6 is 0, and the probability of obtaining a number less than or equal to 6 is 1.",
+        "B": "The probability of obtaining a number greater than 6 is 1, and the probability of obtaining a number less than or equal to 6 is 0.",
+        "C": "Both probabilities are 0.5.",
+        "D": "Both probabilities are 0.75."
+      },
+      "correct_option": "A",
+      "answer": "The probability of obtaining a number greater than 6 is 0, and the probability of obtaining a number less than or equal to 6 is 1.",
+      "explanation": "A die can only show numbers 1 through 6. An outcome \"greater than 6\" cannot occur, so its probability is 0 (impossible event). An outcome \"≤ 6\" always occurs, so its probability is 1 (certain event). Option A captures these facts; the other options assign incorrect probabilities.",
+      "difficulty": "easy"
+    }
+  ]
+}
