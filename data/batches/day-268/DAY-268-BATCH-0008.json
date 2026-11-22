@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following statements about the addition theorem for two events A and B is NOT correct?",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+        "B": "If A and B are mutually exclusive, then P(A ∪ B) = P(A) + P(B)",
+        "C": "The theorem automatically adds the probabilities of A and B without considering any overlap.",
+        "D": "For any events, the probability of the union cannot exceed 1."
+      },
+      "correct_option": "C",
+      "answer": "The theorem automatically adds the probabilities of A and B without considering any overlap.",
+      "explanation": "The addition theorem explicitly subtracts the overlap P(A ∩ B) to avoid double‑counting. Option C ignores this subtraction, which is a common misconception. Options A, B and D are correct statements of the theorem and its properties.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A fair die is rolled once. Let A be the event ‘the outcome is even’ and B be the event ‘the outcome is greater than 3’. What is P(A ∪ B)?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "5/6",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "P(A)=3/6=1/2, P(B)=3/6=1/2, and P(A ∩ B)=2/6=1/3 (numbers 4 and 6). Using the addition theorem: P(A ∪ B)=P(A)+P(B)−P(A ∩ B)=1/2+1/2−1/3=2/3. The other options do not follow the correct calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Consider two events C and D. Which pair of statements correctly distinguishes mutually exclusive events from independent events?",
+      "options": {
+        "A": "Mutually exclusive events cannot occur together, i.e., P(C ∩ D)=0, while independent events satisfy P(C ∩ D)=P(C)·P(D).",
+        "B": "Mutually exclusive events satisfy P(C ∩ D)=P(C)·P(D), while independent events cannot occur together.",
+        "C": "Both mutually exclusive and independent events satisfy P(C ∩ D)=0.",
+        "D": "Mutually exclusive events always have P(C)=P(D), whereas independent events have equal probabilities."
+      },
+      "correct_option": "A",
+      "answer": "Mutually exclusive events cannot occur together, i.e., P(C ∩ D)=0, while independent events satisfy P(C ∩ D)=P(C)·P(D).",
+      "explanation": "For mutually exclusive events the intersection is impossible, so its probability is zero. Independence is defined by the product rule P(C ∩ D)=P(C)·P(D). Options B, C and D confuse these definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "A bag contains 5 red, 4 blue and 3 green balls. Two balls are drawn without replacement. Let A be the event ‘at least one red ball is drawn’ and B be the event ‘both balls are of the same colour’. Find P(A ∪ B).",
+      "options": {
+        "A": "7/11",
+        "B": "8/11",
+        "C": "9/11",
+        "D": "10/11"
+      },
+      "correct_option": "C",
+      "answer": "9/11",
+      "explanation": "Total ways = C(12,2)=66.\nP(A): outcomes with at least one red = 66 – C(7,2)=66‑21=45 ⇒ 45/66=15/22.\nP(B): same‑colour pairs = C(5,2)+C(4,2)+C(3,2)=10+6+3=19 ⇒ 19/66.\nIntersection A∩B = only the red‑red pairs =10 ⇒ 10/66=5/33.\nUnion = 15/22 + 19/66 – 10/66 = 54/66 = 9/11.\nThus option C is correct; the other fractions arise from mis‑counting the overlap.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "What is the addition theorem (formula) for the probability of the union of two events A and B?",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B)",
+        "B": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+        "C": "P(A ∪ B) = P(A ∩ B)",
+        "D": "P(A ∪ B) = P(A) – P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+      "explanation": "The addition theorem adds the individual probabilities and subtracts the intersection to avoid double counting. Option A omits the subtraction, while C and D are unrelated expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "If P(A)=0.4, P(B)=0.5 and P(A ∩ B)=0.2, what is P(A ∪ B)?",
+      "options": {
+        "A": "0.5",
+        "B": "0.6",
+        "C": "0.7",
+        "D": "0.9"
+      },
+      "correct_option": "C",
+      "answer": "0.7",
+      "explanation": "Apply the addition theorem: P(A ∪ B)=0.4+0.5−0.2=0.7. The other options result from incorrect addition or omission of the intersection term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which statement correctly defines mutually exclusive events?",
+      "options": {
+        "A": "Two events are mutually exclusive if the occurrence of one prevents the occurrence of the other, i.e., P(E ∩ F)=0.",
+        "B": "Two events are mutually exclusive if the occurrence of one increases the probability of the other.",
+        "C": "Two events are mutually exclusive if P(E ∩ F)=P(E)·P(F).",
+        "D": "Two events are mutually exclusive if they are independent."
+      },
+      "correct_option": "A",
+      "answer": "Two events are mutually exclusive if the occurrence of one prevents the occurrence of the other, i.e., P(E ∩ F)=0.",
+      "explanation": "Mutual exclusivity means the events cannot happen together, giving an intersection probability of zero. Options B, C and D describe other relationships (positive influence, independence) not mutual exclusivity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "A box contains 3 white and 2 black balls. One ball is drawn at random. Let A be the event ‘a white ball is drawn’ and B be the event ‘a black ball is drawn’. What is P(A ∪ B)?",
+      "options": {
+        "A": "0.5",
+        "B": "0.6",
+        "C": "0.8",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "answer": "1",
+      "explanation": "The events A and B are exhaustive; a drawn ball must be either white or black. Hence P(A)+P(B)=1 and there is no overlap, so P(A ∪ B)=1. Options A‑C underestimate the total probability.",
+      "difficulty": "easy"
+    }
+  ]
+}

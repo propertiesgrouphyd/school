@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following statements correctly expresses the addition theorem for any two events A and B?",
+      "options": {
+        "A": "P(A \\cup B) = P(A) + P(B)",
+        "B": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)",
+        "C": "P(A \\cup B) = P(A) - P(B) + P(A \\cap B)",
+        "D": "P(A \\cup B) = P(A) \\times P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B)",
+      "explanation": "The addition theorem (also called the inclusion‑exclusion principle) states that for any two events A and B, the probability of their union is the sum of their individual probabilities minus the probability of their overlap: P(A∪B)=P(A)+P(B)−P(A∩B). Option B reflects this exactly; the other options either omit the overlap term or use incorrect operations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A standard deck of 52 cards is shuffled. Let A be the event \"the drawn card is a heart\" and B be the event \"the drawn card is a king\". What is P(A \\cup B)?",
+      "options": {
+        "A": "5/13",
+        "B": "4/13",
+        "C": "7/26",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "answer": "4/13",
+      "explanation": "P(A)=13/52=1/4, P(B)=4/52=1/13, and the overlap (king of hearts) has probability 1/52. Using the addition theorem: P(A∪B)=1/4+1/13-1/52 = (13+4-1)/52 =16/52 =4/13. Hence option B is correct; the other fractions arise from arithmetic errors or ignoring the overlap term.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which description best defines mutually exclusive events?",
+      "options": {
+        "A": "Events that can occur together but have equal probabilities",
+        "B": "Events whose occurrence together is impossible, i.e., P(A \\cap B)=0",
+        "C": "Events that are independent, so P(A \\cap B)=P(A)P(B)",
+        "D": "Events that always have the same outcome"
+      },
+      "correct_option": "B",
+      "answer": "Events whose occurrence together is impossible, i.e., P(A \\cap B)=0",
+      "explanation": "Mutually exclusive (or disjoint) events cannot happen at the same time, so their intersection is empty and its probability is zero. Option B states this precisely. Option C describes independence, not mutual exclusivity, while A and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "A fair die is rolled once. Let A be the event \"an even number appears\" and B be the event \"the number is greater than 3\". What is P(A \\cup B)?",
+      "options": {
+        "A": "5/6",
+        "B": "2/3",
+        "C": "1/2",
+        "D": "3/4"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "P(A)=3/6=1/2 (even numbers 2,4,6). P(B)=3/6=1/2 (numbers 4,5,6). Intersection A∩B = {4,6} → 2/6=1/3. Using addition theorem: P(A∪B)=1/2+1/2-1/3=1-1/3=2/3. Option B matches; other options result from omitting the overlap or miscounting outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Select the statement that correctly defines the addition theorem for probabilities and distinguishes it from simple addition of probabilities.",
+      "options": {
+        "A": "P(A \\cup B)=P(A)+P(B) because the events are always independent",
+        "B": "P(A \\cup B)=P(A)+P(B)-P(A \\cap B); the subtraction removes the double‑counted overlap",
+        "C": "P(A \\cup B)=P(A)\\times P(B); this accounts for overlap",
+        "D": "P(A \\cup B)=\\max\\{P(A),P(B)\\}; this ensures the larger probability dominates"
+      },
+      "correct_option": "B",
+      "answer": "P(A \\cup B)=P(A)+P(B)-P(A \\cap B); the subtraction removes the double‑counted overlap",
+      "explanation": "The addition theorem (inclusion‑exclusion) states that the probability of the union equals the sum of individual probabilities minus the probability of their intersection, preventing double‑counting. Option B captures this; the other options misrepresent independence, multiplication, or a max function.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A bag contains 5 red, 3 blue, and 2 green balls. Event A: drawing a red ball. Event B: drawing a green ball. What is the probability of drawing a ball that is either red or green?",
+      "options": {
+        "A": "7/10",
+        "B": "3/5",
+        "C": "1/2",
+        "D": "4/5"
+      },
+      "correct_option": "A",
+      "answer": "7/10",
+      "explanation": "Total balls =10. P(A)=5/10=1/2, P(B)=2/10=1/5, and A and B are mutually exclusive (no ball is both red and green), so P(A∪B)=1/2+1/5=5/10+2/10=7/10. Option A is correct; the others arise from incorrect addition or ignoring exclusivity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which pair of events below are mutually exclusive?",
+      "options": {
+        "A": "Rolling a 2 on a die and rolling an even number on the same die",
+        "B": "Drawing a queen from a deck of cards and drawing a red card",
+        "C": "Selecting a student who studies Mathematics and selecting a student who studies Physics, given that 10 students study both subjects",
+        "D": "Getting a head on a single coin toss and getting a tail on the same toss"
+      },
+      "correct_option": "D",
+      "answer": "Getting a head on a single coin toss and getting a tail on the same toss",
+      "explanation": "A single coin toss cannot result in both head and tail simultaneously, so these events are mutually exclusive (intersection probability zero). Option A is not mutually exclusive because 2 is even; Option B overlaps (queen of hearts or diamonds); Option C overlaps because some students study both subjects.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "In a class of 40 students, 22 study Mathematics, 18 study Physics, and 10 study both subjects. If a student is chosen at random, what is the probability that the student studies Mathematics or Physics (or both)?",
+      "options": {
+        "A": "3/4",
+        "B": "2/3",
+        "C": "5/8",
+        "D": "7/10"
+      },
+      "correct_option": "A",
+      "answer": "3/4",
+      "explanation": "Number studying at least one of the subjects = 22 + 18 – 10 = 30 (inclusion‑exclusion). Probability = 30/40 = 3/4. Option A matches; the other fractions result from omitting the overlap subtraction or miscalculating the total.",
+      "difficulty": "medium"
+    }
+  ]
+}

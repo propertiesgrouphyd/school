@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "What is the addition theorem for the probability of the union of two events A and B?",
+      "options": {
+        "A": "P(A\\u222aB)=P(A)+P(B)",
+        "B": "P(A\\u222aB)=P(A)+P(B)-P(A\\u2229B)",
+        "C": "P(A\\u222aB)=P(A\\u2229B)",
+        "D": "P(A\\u222aB)=P(A)\\times P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A\\u222aB)=P(A)+P(B)-P(A\\u2229B)",
+      "explanation": "The addition theorem states that the probability of the union of two events equals the sum of their individual probabilities minus the probability of their intersection, to avoid double‑counting the overlap. Option B expresses this correctly; the other options either omit the overlap term or give unrelated formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "If P(A)=0.3, P(B)=0.4 and P(A\\u2229B)=0.1, what is P(A\\u222aB)?",
+      "options": {
+        "A": "0.5",
+        "B": "0.6",
+        "C": "0.7",
+        "D": "0.8"
+      },
+      "correct_option": "B",
+      "answer": "0.6",
+      "explanation": "Using the addition theorem: P(A\\u222aB)=0.3+0.4-0.1=0.6. Option B matches this calculation; the other values result from incorrect addition or omission of the intersection term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which statement correctly defines mutually exclusive events?",
+      "options": {
+        "A": "Events that cannot occur together; therefore P(A\\u2229B)=0",
+        "B": "Events that always occur together; therefore P(A\\u2229B)=1",
+        "C": "Events that are independent; therefore P(A\\u2229B)=P(A)P(B)",
+        "D": "Events that are complementary; therefore P(A\\u2229B)=P(A)+P(B)"
+      },
+      "correct_option": "A",
+      "answer": "Events that cannot occur together; therefore P(A\\u2229B)=0",
+      "explanation": "Mutually exclusive (disjoint) events have no common outcomes, so their intersection probability is zero. Option A states this definition. Options B, C, and D describe different concepts (certain co‑occurrence, independence, and complementarity).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "A fair die is rolled. Let A be the event \"even number\" and B be the event \"number greater than 3\". What is P(A\\u222aB)?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "5/6"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "A={2,4,6} so P(A)=3/6=1/2. B={4,5,6} so P(B)=3/6=1/2. Intersection A\\u2229B={4,6} gives P=2/6=1/3. Using the addition theorem: 1/2+1/2-1/3=2/3. Option B is correct; the others ignore the overlap or miscalculate fractions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "In a survey, P(A)=0.2, P(B)=0.5 and P(A\\u2229B)=0.1. Which formula gives the correct value of P(A\\u222aB)?",
+      "options": {
+        "A": "P(A\\u222aB)=0.2+0.5-0.1",
+        "B": "P(A\\u222aB)=0.2+0.5",
+        "C": "P(A\\u222aB)=0.5-0.1",
+        "D": "P(A\\u222aB)=0.2\\times0.5"
+      },
+      "correct_option": "A",
+      "answer": "P(A\\u222aB)=0.2+0.5-0.1",
+      "explanation": "The addition theorem requires subtracting the intersection to avoid double counting, giving 0.2+0.5-0.1=0.6. Option A reflects the theorem; the other options either omit the intersection term or use unrelated operations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A bag contains 5 red, 3 blue and 2 green balls. Event A: drawing a red or blue ball. Event B: drawing a blue or green ball. What is P(A\\u222aB)?",
+      "options": {
+        "A": "0.7",
+        "B": "0.8",
+        "C": "0.9",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "answer": "1",
+      "explanation": "P(A)= (5+3)/10 = 0.8, P(B)= (3+2)/10 = 0.5, P(A\\u2229B)=blue = 3/10 = 0.3. Using the addition theorem: 0.8+0.5-0.3 = 1.0, meaning the union covers all possible balls. Hence the probability is 1 (certain). Options A‑C are lower values and therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "If P(A)=0.6 and P(B)=0.5, then events A and B are mutually exclusive. This statement is:",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined from the given information",
+        "D": "Both A and B"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "For mutually exclusive events, P(A)+P(B) cannot exceed 1 because they have no overlap. Here 0.6+0.5=1.1>1, which is impossible for disjoint events, so the statement is false. Option B is correct; the other choices ignore this probability rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "In a class of 40 students, 25 study mathematics, 20 study physics and 10 study both subjects. What is the probability that a randomly chosen student studies either mathematics or physics?",
+      "options": {
+        "A": "0.75",
+        "B": "0.80",
+        "C": "0.875",
+        "D": "0.90"
+      },
+      "correct_option": "C",
+      "answer": "0.875",
+      "explanation": "Number studying at least one of the subjects = 25+20-10 = 35. Probability = 35/40 = 0.875 = 7/8. Option C matches this result. The other options arise from incorrect addition or forgetting to subtract the overlap.",
+      "difficulty": "medium"
+    }
+  ]
+}
