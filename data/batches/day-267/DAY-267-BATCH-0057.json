@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0057",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "In classical probability, the complement of an event A is defined as which of the following?",
+      "options": {
+        "A": "All outcomes in the sample space that are not in A",
+        "B": "Only the outcomes that are in A",
+        "C": "Outcomes that are equally likely as those in A",
+        "D": "Outcomes that have the same probability as A"
+      },
+      "correct_option": "A",
+      "answer": "All outcomes in the sample space that are not in A",
+      "explanation": "The complement of A, denoted A', consists of every outcome in the sample space that does not belong to A. Hence option A correctly describes the complement. Options B, C and D misstate the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "When a fair six‑sided die is rolled, which of the following events is impossible?",
+      "options": {
+        "A": "Getting a number greater than 6",
+        "B": "Getting an even number",
+        "C": "Getting a number less than 7",
+        "D": "Getting a number equal to 3"
+      },
+      "correct_option": "A",
+      "answer": "Getting a number greater than 6",
+      "explanation": "A standard die shows numbers 1 to 6 only, so obtaining a number >6 cannot occur; its probability is 0, making it an impossible event. The other options can occur and are therefore not impossible.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "If P(A)=0.4 and P(B)=0.5 and the events A and B are mutually exclusive, what is P(A∪B)?",
+      "options": {
+        "A": "0.9",
+        "B": "0.1",
+        "C": "0.5",
+        "D": "0.4"
+      },
+      "correct_option": "A",
+      "answer": "0.9",
+      "explanation": "For mutually exclusive events, P(A∪B)=P(A)+P(B). Substituting the given values gives 0.4+0.5=0.9. Options B, C, and D ignore the addition rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Calculate probability of an event",
+      "question": "A bag contains 3 red, 5 blue and 2 green balls. One ball is drawn at random. What is the probability that the ball drawn is blue?",
+      "options": {
+        "A": "1/2",
+        "B": "3/10",
+        "C": "2/5",
+        "D": "1/5"
+      },
+      "correct_option": "A",
+      "answer": "1/2",
+      "explanation": "Total balls = 3+5+2 = 10. Number of blue balls = 5. Probability = 5/10 = 1/2. The other fractions correspond to incorrect counts or simplifications.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand equally likely outcomes",
+      "question": "Which of the following statements about equally likely outcomes is FALSE?",
+      "options": {
+        "A": "In tossing a fair coin, heads and tails each have probability 1/2",
+        "B": "When rolling a fair die, each face has probability 1/6",
+        "C": "In drawing a card from a standard deck, the probability of drawing an ace is the same as drawing a king",
+        "D": "When selecting a random integer between 1 and 10, the probability of getting 7 is 0.2"
+      },
+      "correct_option": "D",
+      "answer": "When selecting a random integer between 1 and 10, the probability of getting 7 is 0.2",
+      "explanation": "There are 10 equally likely integers, so each has probability 1/10 = 0.1. Option D overstates the probability, making it false. Options A, B, and C correctly describe equally likely situations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "A box contains 8 white and 12 black balls. One ball is drawn at random. What is the probability that the ball drawn is NOT white?",
+      "options": {
+        "A": "3/5",
+        "B": "2/5",
+        "C": "1/2",
+        "D": "7/10"
+      },
+      "correct_option": "A",
+      "answer": "3/5",
+      "explanation": "P(not white)=1−P(white)=1−(8/20)=12/20=3/5. Option A matches this calculation. The other options result from incorrect subtraction or simplification.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "Consider two events when a fair die is rolled: E1 = \"the outcome is a number greater than 6\" and E2 = \"the outcome is a number between 1 and 6 inclusive\". Which statement correctly compares their probabilities?",
+      "options": {
+        "A": "P(E1)=0 and P(E2)=1",
+        "B": "P(E1)=1 and P(E2)=0",
+        "C": "Both have probability 0.5",
+        "D": "Both have probability 1"
+      },
+      "correct_option": "A",
+      "answer": "P(E1)=0 and P(E2)=1",
+      "explanation": "E1 cannot occur, so its probability is 0 (impossible). E2 always occurs, so its probability is 1 (certain). Hence option A is correct; the other options misrepresent these definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "In a class of 100 students, 72 play cricket, 45 play football and 20 play both. If a student is selected at random, what is the probability that the student plays either cricket or football?",
+      "options": {
+        "A": "0.97",
+        "B": "0.85",
+        "C": "0.72",
+        "D": "0.45"
+      },
+      "correct_option": "A",
+      "answer": "0.97",
+      "explanation": "Using the addition rule: P(C∪F) = (72+45−20)/100 = 97/100 = 0.97. Option A reflects this result. Options B, C, D ignore the overlap or use incorrect arithmetic.",
+      "difficulty": "hard"
+    }
+  ]
+}
