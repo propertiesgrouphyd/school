@@ -1,0 +1,78 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Define coefficient of variation",
+      "question": "Which of the following statements correctly defines the coefficient of variation (CV) for a data set?",
+      "options": {
+        "A": "CV = (mean ÷ standard deviation) × 100%",
+        "B": "CV = (standard deviation ÷ mean) × 100%",
+        "C": "CV = (range ÷ mean) × 100%",
+        "D": "CV = (variance ÷ mean) × 100%"
+      },
+      "correct_option": "B",
+      "answer": "CV = (standard deviation ÷ mean) × 100%",
+      "explanation": "The coefficient of variation is the ratio of the standard deviation to the mean, expressed as a percentage. It measures relative dispersion irrespective of the unit of measurement. Option B states this correctly. Option A reverses the ratio, while C and D use unrelated measures (range and variance).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Calculate coefficient of variation",
+      "question": "For the data set {12, 15, 18, 21, 24}, what is the coefficient of variation (rounded to one decimal place)?",
+      "options": {
+        "A": "23.6%",
+        "B": "25.0%",
+        "C": "20.0%",
+        "D": "30.0%"
+      },
+      "correct_option": "A",
+      "answer": "23.6%",
+      "explanation": "Mean = (12+15+18+21+24)/5 = 18. Deviations from mean are -6, -3, 0, 3, 6; squares are 36, 9, 0, 9, 36; variance = (36+9+0+9+36)/5 = 18; standard deviation = √18 ≈ 4.2426. CV = (4.2426 ÷ 18) × 100 ≈ 23.57%, which rounds to 23.6%. Hence option A is correct. The other options correspond to common rounding or calculation errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Compare consistency of data sets",
+      "question": "Two data sets are given:\nSet A: 50, 55, 60, 65, 70\nSet B: 30, 45, 60, 75, 90\nWhich set shows greater consistency (i.e., lower relative variability)?",
+      "options": {
+        "A": "Set A",
+        "B": "Set B",
+        "C": "Both sets have the same consistency",
+        "D": "Consistency cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Set A",
+      "explanation": "For Set A, mean = 60, σ = √50 ≈ 7.07, CV = (7.07/60)×100 ≈ 11.8%. For Set B, mean = 60, σ = √450 ≈ 21.21, CV = (21.21/60)×100 ≈ 35.4%. A lower CV indicates less relative dispersion, so Set A is more consistent. Options B, C, and D are incorrect because the calculations clearly differentiate the variability.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Interpret relative dispersion",
+      "question": "In a competitive exam, Class X has an average score of 70 with a standard deviation of 5, while Class Y has an average score of 80 with a standard deviation of 8. Which class exhibits less relative dispersion in performance?",
+      "options": {
+        "A": "Class X",
+        "B": "Class Y",
+        "C": "Both classes have the same relative dispersion",
+        "D": "There is insufficient data to compare"
+      },
+      "correct_option": "A",
+      "answer": "Class X",
+      "explanation": "CV for Class X = (5 ÷ 70) × 100 ≈ 7.14%. CV for Class Y = (8 ÷ 80) × 100 = 10%. The smaller CV indicates lower relative dispersion, so Class X's scores are more uniformly distributed. Options B, C, and D are incorrect because the CV calculation provides a clear comparison.",
+      "difficulty": "hard"
+    }
+  ]
+}
