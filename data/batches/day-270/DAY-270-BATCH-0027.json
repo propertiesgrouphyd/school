@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-270-1",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "In physics, what is meant by the term 'dimensions' of a physical quantity?",
+      "options": {
+        "A": "The numerical value of a quantity measured in a particular unit system.",
+        "B": "The physical nature of a quantity expressed as powers of the fundamental quantities mass (M), length (L), and time (T).",
+        "C": "The size or magnitude of an object in three-dimensional space.",
+        "D": "The unit symbols used to represent a quantity."
+      },
+      "correct_option": "B",
+      "answer": "The physical nature of a quantity expressed as powers of the fundamental quantities mass (M), length (L), and time (T).",
+      "explanation": "Dimensions describe how a physical quantity relates to the fundamental quantities mass (M), length (L) and time (T). They are expressed as products of powers of M, L, and T, e.g., force has dimensions M L T^{-2}. Options A, C and D describe numerical values, spatial size, or units, which are not dimensions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-270-2",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "Which of the following is the correct dimensional formula for force?",
+      "options": {
+        "A": "M L T^{-2}",
+        "B": "M L^{2} T^{-2}",
+        "C": "M L T^{-1}",
+        "D": "M^{2} L T^{-2}"
+      },
+      "correct_option": "A",
+      "answer": "M L T^{-2}",
+      "explanation": "Force is mass times acceleration (F = m a). Mass has dimension M, acceleration has dimension L T^{-2}. Multiplying gives M L T^{-2}. The other options either add extra powers of L or M, or miss the correct time exponent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-270-3",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Which of the following equations is dimensionally consistent?",
+      "options": {
+        "A": "v = u + a t",
+        "B": "s = u t + \\frac{1}{2} a t^{3}",
+        "C": "F = m v",
+        "D": "P = I V^{2}"
+      },
+      "correct_option": "A",
+      "answer": "v = u + a t",
+      "explanation": "All terms in option A have dimensions of velocity (L T^{-1}). In B, the second term has dimensions L T^{2}, not length. In C, force (M L T^{-2}) is set equal to mass times velocity (M L T^{-1}), which is inconsistent. In D, power (M L^{2} T^{-3}) is equated to current times voltage squared, which does not match the correct power formula (P = IV).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-270-4",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, the period T of a simple pendulum of length l is proportional to which combination of l and the acceleration due to gravity g?",
+      "options": {
+        "A": "T \\propto \\sqrt{l/g}",
+        "B": "T \\propto l/g",
+        "C": "T \\propto l \\cdot g",
+        "D": "T \\propto \\sqrt{g/l}"
+      },
+      "correct_option": "A",
+      "answer": "T \\propto \\sqrt{l/g}",
+      "explanation": "Period T has dimension T. Length l has dimension L, and g has dimension L T^{-2}. To obtain T, combine them as T \\propto l^{a} g^{b}. Solving L^{a} (L T^{-2})^{b} = T^{1} gives a = 1/2, b = -1/2, leading to T \\propto \\sqrt{l/g}. The other options give incorrect dimensions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-270-5",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "A speed is given as 72 km/h. Using dimensional reasoning, what is its value in m/s?",
+      "options": {
+        "A": "20 m/s",
+        "B": "72 m/s",
+        "C": "0.02 m/s",
+        "D": "7.2 m/s"
+      },
+      "correct_option": "A",
+      "answer": "20 m/s",
+      "explanation": "1 km = 1000 m and 1 h = 3600 s. So 72 km/h = 72 × 1000 m / 3600 s = 72000/3600 = 20 m/s. Options B, C, D are incorrect conversions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-270-6",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Dimensional analysis cannot determine the numerical factor in the expression for the period of a simple pendulum. Which of the following reasons best explains this limitation?",
+      "options": {
+        "A": "Because the analysis does not account for dimensionless constants such as 2π.",
+        "B": "Because mass appears in the period formula.",
+        "C": "Because length is not a fundamental dimension.",
+        "D": "Because gravity varies with altitude."
+      },
+      "correct_option": "A",
+      "answer": "Because the analysis does not account for dimensionless constants such as 2π.",
+      "explanation": "Dimensional analysis yields the form of a relation up to a dimensionless constant. For a pendulum, the exact period is T = 2π\\sqrt{l/g}; the factor 2π cannot be obtained from dimensions alone. Options B, C, D are unrelated to the limitation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-270-7",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "Which statement below is a common misconception about dimensions?",
+      "options": {
+        "A": "Dimensions are the same as units.",
+        "B": "Dimensions are expressed as powers of fundamental quantities.",
+        "C": "Dimensions help check the correctness of equations.",
+        "D": "Dimensions are independent of the system of units."
+      },
+      "correct_option": "A",
+      "answer": "Dimensions are the same as units.",
+      "explanation": "Dimensions describe the nature of a quantity (e.g., M L T^{-2}) and are independent of the particular units used (e.g., newton, dyne). Therefore, equating dimensions with units is a misconception. Options B, C, and D are correct statements about dimensions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-270-8",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "The dimensional formula of kinetic energy (½ m v^{2}) is:",
+      "options": {
+        "A": "M L^{2} T^{-2}",
+        "B": "M L T^{-2}",
+        "C": "M^{2} L^{2} T^{-2}",
+        "D": "L^{2} T^{-2}"
+      },
+      "correct_option": "A",
+      "answer": "M L^{2} T^{-2}",
+      "explanation": "Mass m has dimension M. Velocity v has dimension L T^{-1}; squaring gives L^{2} T^{-2}. Multiplying with M gives M L^{2} T^{-2}. The factor ½ is dimensionless and does not affect dimensions. Options B, C, D miss the correct combination of powers.",
+      "difficulty": "medium"
+    }
+  ]
+}

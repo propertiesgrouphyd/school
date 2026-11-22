@@ -1,0 +1,78 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Count significant figures",
+      "question": "Which of the following numbers contains exactly four significant figures?",
+      "options": {
+        "A": "0.004560",
+        "B": "4500",
+        "C": "12.3",
+        "D": "0.0300"
+      },
+      "correct_option": "A",
+      "answer": "0.004560",
+      "explanation": "In 0.004560 the leading zeros are not significant; the digits 4,5,6,0 are significant, giving four significant figures. In B, trailing zeros without a decimal are not significant (only 2). In C, only three digits are significant. In D, the trailing zero after the decimal is significant, but the leading zero is not, giving three significant figures.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules involving zeros",
+      "question": "Which of the following numbers has exactly three significant figures?",
+      "options": {
+        "A": "0.00520",
+        "B": "5200",
+        "C": "0.052",
+        "D": "500.0"
+      },
+      "correct_option": "A",
+      "answer": "0.00520",
+      "explanation": "In 0.00520 the leading zeros are not significant; the digits 5,2,0 are significant, giving three significant figures. In B, trailing zeros without a decimal are not significant, so only 2 figures (5 and 2). In C, only two significant figures (5 and 2). In D, the trailing zero after the decimal is significant, giving four significant figures (5,0,0,0).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Round measurements correctly",
+      "question": "A length is measured as 12.3456 cm. What is the value of this length rounded to three significant figures?",
+      "options": {
+        "A": "12.3 cm",
+        "B": "12.35 cm",
+        "C": "12.4 cm",
+        "D": "12.34 cm"
+      },
+      "correct_option": "A",
+      "answer": "12.3 cm",
+      "explanation": "To round to three significant figures we keep the first three digits (1,2,3). The next digit is 4, which is less than 5, so we do not round up. Hence the rounded value is 12.3 cm. Options B, C, and D correspond to rounding to more than three significant figures or rounding incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply significant-figure rules in addition and subtraction",
+      "question": "Add the following measurements and give the result with the correct number of significant figures: 12.3 cm + 0.456 cm + 0.02 cm = ?",
+      "options": {
+        "A": "12.8 cm",
+        "B": "12.78 cm",
+        "C": "12.776 cm",
+        "D": "12.7 cm"
+      },
+      "correct_option": "A",
+      "answer": "12.8 cm",
+      "explanation": "In addition/subtraction the result is limited by the least precise decimal place. The numbers are precise to the tenths (12.3 cm), hundredths (0.02 cm), and thousandths (0.456 cm). The tenths place is the limiting factor, so the sum 12.776 cm must be rounded to the nearest tenth, giving 12.8 cm. Options B and C retain too many decimal places, and D rounds down incorrectly.",
+      "difficulty": "hard"
+    }
+  ]
+}

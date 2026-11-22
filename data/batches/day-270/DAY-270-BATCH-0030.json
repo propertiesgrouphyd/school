@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "Which of the following statements best defines the dimensions of a physical quantity?",
+      "options": {
+        "A": "The numerical value of the quantity measured in a specific unit.",
+        "B": "The combination of fundamental physical quantities (such as M, L, T) that represent the quantity.",
+        "C": "The unit symbol used to express the quantity.",
+        "D": "The magnitude of the quantity irrespective of its direction."
+      },
+      "correct_option": "B",
+      "answer": "The combination of fundamental physical quantities (such as M, L, T) that represent the quantity.",
+      "explanation": "Dimensions are expressed as powers of the fundamental quantities mass (M), length (L) and time (T). They describe how a quantity is built from these base quantities, not its numerical value or unit symbol. Option B captures this definition, while the other options describe unrelated aspects.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "A particle falls from rest under gravity and attains speed v after falling a height h, where v = sqrt(2gh). What is the dimensional formula of the speed v?",
+      "options": {
+        "A": "L T^{-1}",
+        "B": "L^{2} T^{-2}",
+        "C": "M L T^{-2}",
+        "D": "M^{1/2} L^{1/2} T^{-1}"
+      },
+      "correct_option": "A",
+      "answer": "L T^{-1}",
+      "explanation": "Speed is distance divided by time, so its dimensions are length over time, L T^{-1}. The expression sqrt(2gh) involves g (L T^{-2}) and h (L); taking the square root gives (L^{2} T^{-2})^{1/2}=L T^{-1}, matching option A. The other options correspond to different physical quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Consider the kinematic equation s = ut + 0.5 a t^{3}. Which term, if any, is dimensionally inconsistent?",
+      "options": {
+        "A": "ut",
+        "B": "0.5 a t^{3}",
+        "C": "Both terms are consistent",
+        "D": "Neither term is consistent"
+      },
+      "correct_option": "B",
+      "answer": "0.5 a t^{3}",
+      "explanation": "The term ut has dimensions (L T^{-1})(T)=L, which is consistent with displacement s. Acceleration a has dimensions L T^{-2}; multiplying by t^{3} gives L T, not length. Hence 0.5 a t^{3} is dimensionally incorrect, making option B correct. Options C and D are therefore false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, which of the following expressions correctly relates the period T of a simple pendulum to its length L and the acceleration due to gravity g?",
+      "options": {
+        "A": "T = 2π \\sqrt{L/g}",
+        "B": "T = 2π (L/g)",
+        "C": "T = 2π \\sqrt{g/L}",
+        "D": "T = (L g)^{1/2}"
+      },
+      "correct_option": "A",
+      "answer": "T = 2π \\sqrt{L/g}",
+      "explanation": "Period T must have dimension T. Length L has dimension L, and g has L T^{-2}. The combination L/g gives T^{2}, whose square root yields T. Multiplying by the dimensionless constant 2π gives the correct dimensional form. Options B and C give wrong dimensions, and D lacks the constant and gives dimensions of (L^{2} T^{-2})^{1/2}=L T^{-1}, which is not time.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "Which of the following statements about unit conversion using dimensional reasoning is correct?",
+      "options": {
+        "A": "1 N = 10^{5} dynes and 1 J = 10^{7} ergs, so the numerical value of 1 N is larger than that of 1 J.",
+        "B": "1 N = 10^{5} dynes and 1 J = 10^{7} ergs, therefore 1 J is numerically larger than 1 N when expressed in CGS units.",
+        "C": "1 N = 10^{3} dynes and 1 J = 10^{5} ergs.",
+        "D": "1 N = 10^{5} dynes and 1 J = 10^{5} ergs."
+      },
+      "correct_option": "B",
+      "answer": "1 N = 10^{5} dynes and 1 J = 10^{7} ergs, therefore 1 J is numerically larger than 1 N when expressed in CGS units.",
+      "explanation": "In the CGS system, 1 newton equals 10^{5} dynes and 1 joule equals 10^{7} ergs. Since 10^{7} > 10^{5}, the numerical value of 1 J is larger than that of 1 N when both are expressed in CGS units. Option A incorrectly compares the magnitudes without considering that the quantities are of different physical nature. Options C and D give wrong conversion factors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Which of the following is a limitation of dimensional analysis?",
+      "options": {
+        "A": "It can determine the exact numerical coefficient in a physical law.",
+        "B": "It cannot predict dimensionless constants such as π.",
+        "C": "It can be applied to any non‑physical quantity like profit.",
+        "D": "It provides the direction of vector quantities."
+      },
+      "correct_option": "B",
+      "answer": "It cannot predict dimensionless constants such as π.",
+      "explanation": "Dimensional analysis yields the form of a relation up to a dimensionless constant; it cannot give the value of constants like π, e, or specific numerical factors. Hence option B states a true limitation. Option A is false because the method does not give exact coefficients. Option C is incorrect because dimensional analysis applies only to physical quantities with defined dimensions. Option D is false because dimensions do not convey vector direction.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "The dimension of velocity is expressed as:",
+      "options": {
+        "A": "L T^{-1}",
+        "B": "M L T^{-2}",
+        "C": "M L^{2} T^{-2}",
+        "D": "L^{2} T^{-1}"
+      },
+      "correct_option": "A",
+      "answer": "L T^{-1}",
+      "explanation": "Velocity is distance travelled per unit time, so its dimensions are length divided by time, written as L T^{-1}. The other options correspond to acceleration (M L T^{-2}), energy (M L^{2} T^{-2}), and an incorrect combination respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "Which of the following is the correct dimensional formula for energy?",
+      "options": {
+        "A": "M L^{2} T^{-2}",
+        "B": "M L T^{-2}",
+        "C": "M L^{2} T^{-1}",
+        "D": "L^{2} T^{-2}"
+      },
+      "correct_option": "A",
+      "answer": "M L^{2} T^{-2}",
+      "explanation": "Energy (or work) is force times distance. Force has dimensions M L T^{-2}; multiplying by length (L) gives M L^{2} T^{-2}. Therefore option A is correct. Option B is the dimension of force, C mixes time incorrectly, and D lacks the mass dimension.",
+      "difficulty": "easy"
+    }
+  ]
+}

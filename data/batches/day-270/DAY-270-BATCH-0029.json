@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "A car travels 90 km in 2 hours. Which of the following is the correct conversion of its speed to metres per second (m/s)?",
+      "options": {
+        "A": "12.5 m/s",
+        "B": "45 m/s",
+        "C": "0.025 m/s",
+        "D": "90 m/s"
+      },
+      "correct_option": "A",
+      "answer": "12.5 m/s",
+      "explanation": "Speed = distance/time = 90 km / 2 h = 45 km/h. Converting km to metres (×1000) and hours to seconds (×3600) gives 45 × 1000 / 3600 = 12.5 m/s. Options B, C and D arise from common mistakes such as forgetting the conversion factors or mixing up numerator and denominator.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Which statement correctly describes a limitation of dimensional analysis?",
+      "options": {
+        "A": "It can determine the exact numerical value of a constant like π.",
+        "B": "It cannot predict dimensionless constants such as π.",
+        "C": "It can be used to derive equations involving only dimensionless quantities.",
+        "D": "It can replace experimental verification of a formula."
+      },
+      "correct_option": "B",
+      "answer": "It cannot predict dimensionless constants such as π.",
+      "explanation": "Dimensional analysis works only with dimensions; it cannot give the numerical value of pure numbers (dimensionless constants) like π, e, or the fine‑structure constant. Options A, C and D overstate its capability.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "Which of the following statements correctly distinguishes dimensions from units?",
+      "options": {
+        "A": "Dimensions are the same as units; both are measured in meters, kilograms, etc.",
+        "B": "Dimensions refer to the physical nature expressed as powers of fundamental quantities, while units are the specific measures like meters, seconds.",
+        "C": "Units are derived from dimensions, but dimensions are arbitrary.",
+        "D": "Dimensions are only used in chemistry, whereas units are only used in physics."
+      },
+      "correct_option": "B",
+      "answer": "Dimensions refer to the physical nature expressed as powers of fundamental quantities, while units are the specific measures like meters, seconds.",
+      "explanation": "Dimensions describe how a quantity is built from the fundamental quantities (M, L, T, etc.) and are expressed as exponents. Units are the concrete scales (metre, kilogram, second) that give a numerical value to a quantity. Options A, C and D are incorrect definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "What is the dimensional formula of pressure?",
+      "options": {
+        "A": "M L T^{-2}",
+        "B": "M L^{-1} T^{-2}",
+        "C": "M L^{2} T^{-2}",
+        "D": "M^{2} L^{-1} T^{-2}"
+      },
+      "correct_option": "B",
+      "answer": "M L^{-1} T^{-2}",
+      "explanation": "Pressure = force/area. Force has dimension M L T^{-2}; area has dimension L^{2}. Dividing gives M L^{-1} T^{-2}. The other options correspond to force, energy, or incorrect combinations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Is the equation s = ut + 0.5 a t^{2} dimensionally consistent?",
+      "options": {
+        "A": "Yes, the equation is dimensionally consistent.",
+        "B": "No, because the term ut has dimensions of length while 0.5 a t^{2} has dimensions of acceleration.",
+        "C": "No, because the coefficient 0.5 introduces a dimension.",
+        "D": "Yes, but only if u is in m/s and a in m/s^{2}."
+      },
+      "correct_option": "A",
+      "answer": "Yes, the equation is dimensionally consistent.",
+      "explanation": "Both terms on the right side have dimensions of length: ut (L T^{-1} × T = L) and a t^{2} (L T^{-2} × T^{2} = L). The numerical factor 0.5 is dimensionless, so the whole equation is consistent. Options B and C misinterpret dimensions, while D adds an unnecessary condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, the period T of a simple pendulum depends on its length l and the gravitational acceleration g as T = k \\times l^{?} g^{?}. Which pair of exponents is correct?",
+      "options": {
+        "A": "T \\propto l^{1} g^{0}",
+        "B": "T \\propto l^{0} g^{-1}",
+        "C": "T \\propto l^{1/2} g^{-1/2}",
+        "D": "T \\propto l^{-1/2} g^{1/2}"
+      },
+      "correct_option": "C",
+      "answer": "T \\propto l^{1/2} g^{-1/2}",
+      "explanation": "Period T has dimension T. Length l is L, and g is L T^{-2}. Assuming T = k l^{a} g^{b}, we have T^{1} = L^{a} (L T^{-2})^{b} = L^{a+b} T^{-2b}. Equating exponents: for T: 1 = -2b ⇒ b = -1/2; for L: 0 = a + b ⇒ a = 1/2. Hence T ∝ l^{1/2} g^{-1/2}. Options A, B, D do not satisfy the dimensional balance.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "Which statement correctly describes dimensional reasoning in unit conversion?",
+      "options": {
+        "A": "Dimensional reasoning changes the numerical value of a quantity without altering its units.",
+        "B": "It involves expressing the quantity in terms of its fundamental dimensions and then applying appropriate conversion factors.",
+        "C": "It replaces the need for a conversion factor by using algebraic manipulation.",
+        "D": "It only works for converting between metric units."
+      },
+      "correct_option": "B",
+      "answer": "It involves expressing the quantity in terms of its fundamental dimensions and then applying appropriate conversion factors.",
+      "explanation": "Dimensional reasoning first writes the quantity in terms of M, L, T etc., ensuring the dimensions match, and then uses known conversion factors (e.g., 1 km = 1000 m) to obtain the desired unit. Option A misstates the process, C ignores the role of conversion factors, and D limits the method incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "When using dimensional analysis to derive the period of a simple pendulum, which of the following cannot be obtained from the analysis alone?",
+      "options": {
+        "A": "Whether the period depends on the length of the pendulum.",
+        "B": "Whether the period depends on the acceleration due to gravity.",
+        "C": "The numerical factor 2π that appears in the exact formula.",
+        "D": "The unit in which the period should be expressed."
+      },
+      "correct_option": "C",
+      "answer": "The numerical factor 2π that appears in the exact formula.",
+      "explanation": "Dimensional analysis tells us the functional dependence (T ∝ √{l/g}) and the correct dimensions, but it cannot provide the dimensionless constant 2π that comes from solving the differential equation. Options A, B and D are obtainable from dimensional considerations.",
+      "difficulty": "easy"
+    }
+  ]
+}
