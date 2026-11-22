@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0064",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "Consider the following two events: (i) Rolling a 7 on a standard six‑sided die, (ii) Getting a head when a fair coin is tossed. Which statement correctly compares their probabilities?",
+      "options": {
+        "A": "Both events are impossible.",
+        "B": "Both events are certain.",
+        "C": "Event (i) is impossible while event (ii) is certain.",
+        "D": "Event (i) is certain while event (ii) is impossible."
+      },
+      "correct_option": "C",
+      "answer": "Event (i) is impossible while event (ii) is certain.",
+      "explanation": "Rolling a 7 on a six‑sided die cannot occur, so its probability is 0 (impossible). Getting a head on a fair coin has probability 1/2, which is greater than 0 and the event is possible; in the context of a single toss it is not certain, but among the two options only C correctly identifies the impossibility of the die roll and the possibility (not certainty) of the coin. Options A and B are false because the events are not both impossible or both certain. Option D reverses the correct classification.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "If P(A)=0.3 and P(B)=0.5 and the events A and B are mutually exclusive, what is P(A ∪ B)?",
+      "options": {
+        "A": "0.8",
+        "B": "0.15",
+        "C": "0.2",
+        "D": "0.6"
+      },
+      "correct_option": "A",
+      "answer": "0.8",
+      "explanation": "For mutually exclusive events, P(A ∪ B)=P(A)+P(B). Substituting the given values gives 0.3+0.5=0.8. The other options result from incorrect operations: B is the product, C is the difference, D omits the addition of both probabilities.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Calculate probability of an event",
+      "question": "A bag contains 3 red, 5 blue, and 2 green balls. One ball is drawn at random. What is the probability that the ball is blue?",
+      "options": {
+        "A": "1/2",
+        "B": "5/9",
+        "C": "5/8",
+        "D": "5/3"
+      },
+      "correct_option": "A",
+      "answer": "1/2",
+      "explanation": "Total balls = 3+5+2 = 10. Number of favorable outcomes (blue balls) = 5. Probability = 5/10 = 1/2. Option B uses total 9 incorrectly, C uses 8, and D is greater than 1, which is impossible for a probability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand equally likely outcomes",
+      "question": "When a fair six‑sided die is rolled, which of the following statements is true about the outcomes?",
+      "options": {
+        "A": "Outcomes 1 and 2 are equally likely.",
+        "B": "Outcome 6 is twice as likely as outcome 3.",
+        "C": "All outcomes are equally likely.",
+        "D": "Outcome 4 is impossible."
+      },
+      "correct_option": "C",
+      "answer": "All outcomes are equally likely.",
+      "explanation": "A fair die gives each of the six faces the same chance, namely 1/6. Therefore all outcomes are equally likely (option C). Options A and B incorrectly suggest a difference in likelihood, and D incorrectly claims an outcome is impossible.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "The complement of an event E consists of:",
+      "options": {
+        "A": "All outcomes that are also in E",
+        "B": "All outcomes that are not in E",
+        "C": "Only the outcomes that make E certain",
+        "D": "No outcomes"
+      },
+      "correct_option": "B",
+      "answer": "All outcomes that are not in E",
+      "explanation": "By definition, the complement of E includes every outcome in the sample space that does not belong to E. Option A describes E itself, C is unrelated, and D contradicts the definition because a complement is never empty unless E is the whole sample space.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "A student claims that the probability of drawing a queen from a standard deck of 52 cards after removing all queens is 0. What type of event is this?",
+      "options": {
+        "A": "Impossible",
+        "B": "Certain",
+        "C": "Equally likely",
+        "D": "Complementary"
+      },
+      "correct_option": "A",
+      "answer": "Impossible",
+      "explanation": "Since all queens have been removed, there is no favorable outcome; the event cannot occur, making it impossible. It is not certain, equally likely, or a complement of another event in this context.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "In a class, 40% of students play cricket, 25% play football, and 10% play both. What is the probability that a randomly selected student plays either cricket or football?",
+      "options": {
+        "A": "0.55",
+        "B": "0.65",
+        "C": "0.75",
+        "D": "0.85"
+      },
+      "correct_option": "A",
+      "answer": "0.55",
+      "explanation": "Use the inclusion–exclusion principle: P(C ∪ F)=P(C)+P(F)−P(C∩F)=0.40+0.25−0.10=0.55. The other options arise from forgetting to subtract the intersection or adding extra percentages.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Calculate probability of an event",
+      "question": "A box contains 4 white, 3 black, and 5 red marbles. Two marbles are drawn successively without replacement. What is the probability that both marbles are white?",
+      "options": {
+        "A": "1/33",
+        "B": "1/11",
+        "C": "2/33",
+        "D": "3/44"
+      },
+      "correct_option": "B",
+      "answer": "1/11",
+      "explanation": "First draw: 4 white out of 12 total → 4/12 = 1/3. After removing one white, 3 white remain out of 11 marbles → 3/11. Multiply: (1/3)*(3/11)=1/11. Option A is (1/3)*(1/11), C is (2/33) from mis‑calculations, D is unrelated.",
+      "difficulty": "medium"
+    }
+  ]
+}

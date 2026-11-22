@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0062",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "In classical probability, the complement of an event A, denoted A', is:",
+      "options": {
+        "A": "The set of outcomes that are also in A.",
+        "B": "The set of outcomes that are not in A.",
+        "C": "The set of outcomes that occur before A.",
+        "D": "The set of outcomes that occur after A."
+      },
+      "correct_option": "B",
+      "answer": "The set of outcomes that are not in A.",
+      "explanation": "The complement A' consists of all outcomes in the sample space that do not belong to A. Consequently, P(A') = 1 - P(A). Options A, C and D describe unrelated concepts, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "When a fair six‑sided die is rolled, what is the probability of the event “getting a number greater than 6”?",
+      "options": {
+        "A": "0",
+        "B": "1/6",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "answer": "0",
+      "explanation": "No outcome of a standard die exceeds 6, so the event is impossible. In probability, an impossible event has probability 0. The other options correspond to possible or certain events, which is not the case here.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "If P(A)=0.3, P(B)=0.5 and P(A∩B)=0.1, what is P(A∪B)?",
+      "options": {
+        "A": "0.7",
+        "B": "0.8",
+        "C": "0.9",
+        "D": "0.6"
+      },
+      "correct_option": "A",
+      "answer": "0.7",
+      "explanation": "Using the addition rule: P(A∪B)=P(A)+P(B)-P(A∩B)=0.3+0.5-0.1=0.7. Options B, C and D result from incorrect arithmetic or omission of the intersection term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Calculate probability of an event",
+      "question": "A bag contains 3 red, 2 blue and 5 green balls. One ball is drawn at random. What is the probability that the ball drawn is red?",
+      "options": {
+        "A": "3/10",
+        "B": "2/10",
+        "C": "5/10",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "answer": "3/10",
+      "explanation": "Total balls = 3+2+5 = 10. Favourable outcomes (red balls) = 3. Hence P(red)=3/10. The other fractions correspond to different counts and are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand equally likely outcomes",
+      "question": "A student claims: “When a fair coin is tossed, the probability of getting heads is 0.6 because the coin is biased.” Which statement correctly identifies the misconception?",
+      "options": {
+        "A": "The statement is correct because coins can be biased.",
+        "B": "The statement is incorrect; for a fair coin the outcomes are equally likely, so the probability of heads is 0.5.",
+        "C": "The statement is correct because probability values can be any number between 0 and 1.",
+        "D": "The statement is incorrect because probability must be either 0 or 1."
+      },
+      "correct_option": "B",
+      "answer": "The statement is incorrect; for a fair coin the outcomes are equally likely, so the probability of heads is 0.5.",
+      "explanation": "A fair coin has two equally likely outcomes, each with probability 1/2 = 0.5. Claiming 0.6 assumes bias, contradicting the premise of a fair coin. Options A and C ignore the definition of fairness, while D misstates the range of probability values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "A box contains 4 white and 6 black balls. One ball is drawn at random. What is the probability that the ball drawn is not white?",
+      "options": {
+        "A": "0.4",
+        "B": "0.6",
+        "C": "0.5",
+        "D": "0.7"
+      },
+      "correct_option": "B",
+      "answer": "0.6",
+      "explanation": "P(not white) = 1 – P(white). P(white) = 4/10 = 0.4, so P(not white) = 1 – 0.4 = 0.6. Option B matches this result. The other options arise from miscalculations or ignoring the complement rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "Which of the following pairs correctly matches the type of event with its probability?",
+      "options": {
+        "A": "Impossible event – probability 1",
+        "B": "Certain event – probability 0",
+        "C": "Impossible event – probability 0",
+        "D": "Certain event – probability 0.5"
+      },
+      "correct_option": "C",
+      "answer": "Impossible event – probability 0",
+      "explanation": "An impossible event cannot occur, so its probability is 0. A certain event is guaranteed to occur, so its probability is 1. Therefore, option C is the only correct pairing. Options A, B and D assign incorrect probabilities to the event types.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "In an experiment, events A and B satisfy P(A)=0.4 and P(B)=0.7. What is the minimum possible value of P(A∪B)?",
+      "options": {
+        "A": "0.7",
+        "B": "0.4",
+        "C": "1.0",
+        "D": "0.3"
+      },
+      "correct_option": "A",
+      "answer": "0.7",
+      "explanation": "The smallest union occurs when the overlap is as large as possible, i.e., when A is completely contained in B. The maximum possible intersection is min(P(A),P(B)) = 0.4. Hence, minimum P(A∪B) = P(A)+P(B)‑max intersection = 0.4+0.7‑0.4 = 0.7. Options B, C and D result from incorrect reasoning about overlap.",
+      "difficulty": "hard"
+    }
+  ]
+}

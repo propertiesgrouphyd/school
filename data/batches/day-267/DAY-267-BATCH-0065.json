@@ -1,0 +1,78 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand equally likely outcomes",
+      "question": "A fair six‑sided die is rolled once. Which statement about the outcomes is correct?",
+      "options": {
+        "A": "The six faces are not equally likely because opposite faces are paired together.",
+        "B": "Each of the six faces has the same probability of 1/6.",
+        "C": "The probability of obtaining a prime number is 2/6.",
+        "D": "The probability of obtaining a number less than 7 is 5/6."
+      },
+      "correct_option": "B",
+      "answer": "Each of the six faces has the same probability of 1/6.",
+      "explanation": "For a fair die every face (1,2,3,4,5,6) is equally likely, so each has probability 1/6. Option B states this correctly. Options A and D are false statements about fairness, and option C gives an incorrect probability for primes (there are three primes 2,3,5, so the probability would be 3/6).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Use complement of an event",
+      "question": "A fair coin is tossed twice. What is the probability of getting at least one head?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "answer": "3/4",
+      "explanation": "The event \"at least one head\" is the complement of \"no heads\" (i.e., two tails). Probability of two tails = (1/2)*(1/2)=1/4. Hence the complement has probability 1‑1/4 = 3/4. Option C matches this value; the other options are the probabilities of different events.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Understand impossible and certain events",
+      "question": "Which pair correctly identifies an impossible event and a certain event respectively when a fair six‑sided die is rolled?",
+      "options": {
+        "A": "Getting a sum of 7 on a single die; Getting a sum of 2 on two dice",
+        "B": "Drawing a red card from a standard deck; Drawing a card that is either a heart or a spade",
+        "C": "Getting a number greater than 6; Getting a number less than or equal to 6",
+        "D": "Getting a prime number; Getting an even number"
+      },
+      "correct_option": "C",
+      "answer": "Getting a number greater than 6; Getting a number less than or equal to 6",
+      "explanation": "On a standard die the outcomes are 1‑6. \"Number greater than 6\" can never occur – an impossible event (probability 0). \"Number ≤6\" always occurs – a certain event (probability 1). Option C states these correctly. The other options either describe possible but not certain events or mix unrelated contexts.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01137",
+      "learning_point": "Apply basic probability properties",
+      "question": "In a class of 60 students, 35 study Mathematics, 28 study Physics, and 12 study both Mathematics and Physics. If a student is chosen at random, what is the probability that the student studies Mathematics or Physics?",
+      "options": {
+        "A": "23/60",
+        "B": "35/60",
+        "C": "51/60",
+        "D": "47/60"
+      },
+      "correct_option": "C",
+      "answer": "51/60",
+      "explanation": "Use the addition rule: P(M∪P)=P(M)+P(P)−P(M∩P). Numerically, (35+28−12)=51 students study at least one of the subjects. Hence probability = 51/60 = 17/20. Option C gives the correct fraction. The other options result from omitting the intersection term or mis‑counting.",
+      "difficulty": "hard"
+    }
+  ]
+}
