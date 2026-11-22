@@ -1,0 +1,78 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-267-97",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Calculate standard deviation",
+      "question": "The data set {4, 8, 6, 10, 12} is given. What is the population standard deviation of this set?",
+      "options": {
+        "A": "2.0",
+        "B": "4.0",
+        "C": "√8",
+        "D": "8.0"
+      },
+      "correct_option": "C",
+      "answer": "√8",
+      "explanation": "First find the mean: (4+8+6+10+12)/5 = 8. The squared deviations are (4-8)²=16, (8-8)²=0, (6-8)²=4, (10-8)²=4, (12-8)²=16. Sum = 40. Variance = 40/5 = 8. Standard deviation is the positive square root of variance, √8 ≈ 2.83. Option C is the correct value. Option D (8.0) is the variance, a common misconception where students forget to take the square root. Options A and B are unrelated numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-267-98",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Compare data sets using standard deviation",
+      "question": "Consider two data sets:\nSet A = {7, 7, 7, 7, 7}\nSet B = {3, 5, 7, 9, 11}\nWhich set has the larger standard deviation?",
+      "options": {
+        "A": "Set A",
+        "B": "Set B",
+        "C": "Both sets have the same standard deviation",
+        "D": "It cannot be determined without calculation"
+      },
+      "correct_option": "B",
+      "answer": "Set B",
+      "explanation": "Set A consists of identical numbers, so each deviation from the mean is zero; its standard deviation is 0. Set B has values spread around its mean (which is 7), giving non‑zero deviations. Hence Set B has a larger standard deviation, indicating greater spread. Option B is correct. Option A is wrong because identical data give zero spread. Option C is false, and Option D is unnecessary because the reasoning is sufficient without full calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-267-99",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Understand units of standard deviation",
+      "question": "If a set of measurements is recorded in kilograms, which statement about the unit of its standard deviation is correct?",
+      "options": {
+        "A": "It is expressed in kilograms squared (kg²).",
+        "B": "It has the same unit as the original data, i.e., kilograms (kg).",
+        "C": "It is a dimensionless number.",
+        "D": "It is expressed in kilograms per unit."
+      },
+      "correct_option": "B",
+      "answer": "It has the same unit as the original data, i.e., kilograms (kg).",
+      "explanation": "Standard deviation is the square root of variance. Variance has units squared (kg²), but taking the square root returns the original unit, kilograms. Therefore the standard deviation is expressed in kg, not kg² or a dimensionless quantity. Option B correctly states this. Options A and D misuse the unit, and Option C ignores the unit transformation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-267-100",
+      "learning_unit_id": "LU-01134",
+      "learning_point": "Interpret consistency and spread",
+      "question": "Student X scored 78, 80, 79, 81, 80 in five tests, while Student Y scored 60, 90, 70, 85, 55. Which statement is true regarding their consistency?",
+      "options": {
+        "A": "Student X is more consistent because his standard deviation is lower.",
+        "B": "Student Y is more consistent because his average score is higher.",
+        "C": "Both students have the same level of consistency.",
+        "D": "Consistency cannot be inferred from standard deviation."
+      },
+      "correct_option": "A",
+      "answer": "Student X is more consistent because his standard deviation is lower.",
+      "explanation": "Consistency refers to how tightly the scores cluster around the mean, measured by standard deviation. Student X's scores vary only by ±2 around the mean (≈79.8), giving a small standard deviation. Student Y's scores range from 55 to 90, producing a much larger standard deviation, indicating lower consistency. Hence Option A is correct. Option B confuses consistency with average performance. Option C is false because the spreads differ, and Option D is incorrect because standard deviation directly quantifies consistency.",
+      "difficulty": "hard"
+    }
+  ]
+}
