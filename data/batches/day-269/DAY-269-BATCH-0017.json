@@ -1,0 +1,150 @@
+{
+  "day": 269,
+  "batch_id": "DAY-269-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand least count",
+      "question": "A vernier caliper has a main scale division of 1 mm and 50 divisions on the vernier scale. What is the least count of the vernier caliper?",
+      "options": {
+        "A": "0.02 mm",
+        "B": "0.05 mm",
+        "C": "0.01 mm",
+        "D": "0.1 mm"
+      },
+      "correct_option": "A",
+      "answer": "0.02 mm",
+      "explanation": "Least count = (value of one main scale division) / (number of vernier divisions) = 1 mm / 50 = 0.02 mm. Hence option A is correct. The other options correspond to incorrect divisions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand metre scale",
+      "question": "Riya measures the length of a wooden plank using a metre scale that has markings at every 1 mm. She notes that the plank extends from the 0.0 cm mark to the 152.3 cm mark. What length does she read from the metre scale?",
+      "options": {
+        "A": "152.3 cm",
+        "B": "1.523 m",
+        "C": "152.0 cm",
+        "D": "1.52 m"
+      },
+      "correct_option": "A",
+      "answer": "152.3 cm",
+      "explanation": "The scale directly shows the reading as 152.3 cm. Converting to metres gives 1.523 m, but the question asks for the reading on the metre scale, which is 152.3 cm. Options B, C and D are either converted or rounded incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand vernier calipers",
+      "question": "When using a vernier caliper, the zero of the vernier scale always coincides exactly with the zero of the main scale when the jaws are closed. Which statement is correct?",
+      "options": {
+        "A": "The statement is true for all vernier calipers",
+        "B": "The statement is false because there can be zero error",
+        "C": "The statement is false because the least count changes when the jaws are closed",
+        "D": "The statement is true only for digital vernier calipers"
+      },
+      "correct_option": "B",
+      "answer": "The statement is false because there can be zero error",
+      "explanation": "A vernier caliper may have a positive or negative zero error, meaning the zero marks may not coincide when the jaws are perfectly closed. Therefore the given statement is false due to possible zero error. Options A, C and D are incorrect interpretations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand screw gauge",
+      "question": "A screw gauge has a pitch of 0.5 mm and 100 divisions on the circular scale. The instrument shows a zero error of +0.02 mm. If a rod’s true thickness is 2.35 mm, what reading will the screw gauge display?",
+      "options": {
+        "A": "2.35 mm",
+        "B": "2.37 mm",
+        "C": "2.33 mm",
+        "D": "2.40 mm"
+      },
+      "correct_option": "B",
+      "answer": "2.37 mm",
+      "explanation": "Least count = pitch / number of divisions = 0.5 mm / 100 = 0.005 mm. True thickness = 2.35 mm. Because the zero error is +0.02 mm (instrument reads higher), the displayed reading = true thickness + zero error = 2.35 mm + 0.02 mm = 2.37 mm. Hence option B is correct. Options A, C and D ignore the zero error or use wrong arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Read instrument scales correctly",
+      "question": "Which statement correctly compares the readings obtained from a vernier caliper and a screw gauge when both are used to measure the same object of length 12.34 mm?",
+      "options": {
+        "A": "Vernier caliper will give 12.34 mm while screw gauge will give 12.340 mm",
+        "B": "Both give 12.34 mm but the screw gauge provides higher precision",
+        "C": "Vernier caliper gives 12.340 mm and screw gauge gives 12.34 mm",
+        "D": "Both give the same reading and the same precision"
+      },
+      "correct_option": "B",
+      "answer": "Both give 12.34 mm but the screw gauge provides higher precision",
+      "explanation": "Both instruments can be read to 12.34 mm, but the screw gauge typically has a smaller least count (e.g., 0.01 mm) than a standard vernier caliper (0.02 mm), giving higher precision. Option B captures this. Options A and C incorrectly suggest different numerical readings, and D ignores the difference in precision.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Identify zero error",
+      "question": "In a JEE style problem, a screw gauge with a pitch of 0.1 mm and 50 divisions on the circular scale shows a reading of 23 divisions. The instrument has a negative zero error of -0.02 mm. What is the actual thickness of the wire?",
+      "options": {
+        "A": "0.046 mm",
+        "B": "0.066 mm",
+        "C": "0.026 mm",
+        "D": "0.086 mm"
+      },
+      "correct_option": "B",
+      "answer": "0.066 mm",
+      "explanation": "Least count = 0.1 mm / 50 = 0.002 mm. Reading = 23 × 0.002 = 0.046 mm. Negative zero error means the instrument reads less than the true value, so actual thickness = reading - (negative zero error) = 0.046 mm + 0.02 mm = 0.066 mm. Hence option B is correct. Options A, C and D result from ignoring the zero error or using wrong sign.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand least count",
+      "question": "What is the definition of the least count of a measuring instrument?",
+      "options": {
+        "A": "The smallest division on the main scale",
+        "B": "The difference between one main scale division and one vernier scale division",
+        "C": "The smallest length that can be measured accurately with the instrument",
+        "D": "The total length of the instrument"
+      },
+      "correct_option": "C",
+      "answer": "The smallest length that can be measured accurately with the instrument",
+      "explanation": "Least count is defined as the smallest measurement that can be reliably distinguished using the instrument, i.e., its resolution. Option C states this definition. Option A refers only to the main scale, B to a specific vernier relationship, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand metre scale",
+      "question": "A metre scale is graduated in centimetres and millimetres. What is the smallest length that can be directly read from it without any auxiliary instrument?",
+      "options": {
+        "A": "1 cm",
+        "B": "0.5 cm",
+        "C": "1 mm",
+        "D": "0.1 mm"
+      },
+      "correct_option": "C",
+      "answer": "1 mm",
+      "explanation": "The finest markings on a standard metre scale are at 1 mm intervals, so the smallest directly readable length is 1 mm. Option C is correct. Options A and B are larger divisions, and D is finer than the scale provides.",
+      "difficulty": "easy"
+    }
+  ]
+}
