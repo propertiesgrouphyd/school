@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which of the following statements reflects a common misconception about conditional probability?",
+      "options": {
+        "A": "If event B has occurred, the probability of A is still the same as P(A).",
+        "B": "Conditional probability of A given B is calculated as P(A ∩ B) ÷ P(B).",
+        "C": "P(A|B) can be greater than 1 when B is a rare event.",
+        "D": "If A and B are mutually exclusive, then P(A|B) = 0."
+      },
+      "correct_option": "A",
+      "answer": "If event B has occurred, the probability of A is still the same as P(A).",
+      "explanation": "The misconception is thinking that the occurrence of B does not change the likelihood of A, i.e., P(A|B)=P(A). In reality, conditional probability is P(A ∩ B)/P(B), which can differ from P(A) unless A and B are independent. Options B and D are correct statements, and C is false because probabilities cannot exceed 1.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A box contains 3 red, 2 blue, and 5 green balls. One ball is drawn at random and it is known that the ball is not blue. What is the probability that the ball is red?",
+      "options": {
+        "A": "3/8",
+        "B": "1/3",
+        "C": "5/8",
+        "D": "2/5"
+      },
+      "correct_option": "A",
+      "answer": "3/8",
+      "explanation": "Total balls = 10. Not blue balls = 3 red + 5 green = 8. Probability of red given not blue = 3/10 ÷ 8/10 = 3/8. Option B (1/3) would be the unconditional probability, while C and D are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Which of the following statements correctly expresses the multiplication rule for two events A and B?",
+      "options": {
+        "A": "P(A ∩ B) = P(A) × P(B) for all events.",
+        "B": "P(A ∩ B) = P(A) × P(B|A).",
+        "C": "P(A ∩ B) = P(B) × P(A|B) only when A and B are mutually exclusive.",
+        "D": "P(A ∩ B) = P(A) + P(B|A)."
+      },
+      "correct_option": "B",
+      "answer": "P(A ∩ B) = P(A) × P(B|A).",
+      "explanation": "The general multiplication rule states that the probability of both A and B occurring equals the probability of A times the conditional probability of B given A. Option A is true only for independent events. Option C misstates the condition, and D is not a probability formula.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Which pair of events are independent?",
+      "options": {
+        "A": "Drawing a king from a deck and then drawing a queen without replacement.",
+        "B": "Getting heads on the first toss of a fair coin and getting heads on the second toss of the same coin.",
+        "C": "Selecting a red marble from a bag and then, without replacement, selecting a blue marble from the same bag.",
+        "D": "Rolling a die and then drawing a card from a deck, where the die roll determines whether the card is drawn face‑up or face‑down."
+      },
+      "correct_option": "B",
+      "answer": "Getting heads on the first toss of a fair coin and getting heads on the second toss of the same coin.",
+      "explanation": "Two tosses of a fair coin do not affect each other; the outcome of the first toss does not change the probability of heads on the second, making them independent. In option A, the first draw changes the composition of the deck, so the events are dependent. Option C also changes the composition. Option D involves a relationship between the two actions, so they are not independent.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which statement correctly defines the conditional probability of event A given that event B has occurred?",
+      "options": {
+        "A": "P(A|B) = P(A ∩ B) ÷ P(B).",
+        "B": "P(A|B) = P(A) + P(B).",
+        "C": "P(A|B) = P(A) × P(B).",
+        "D": "P(A|B) = P(B) ÷ P(A)."
+      },
+      "correct_option": "A",
+      "answer": "P(A|B) = P(A ∩ B) ÷ P(B).",
+      "explanation": "Conditional probability is defined as the probability that both A and B occur divided by the probability that B occurs, provided P(B) > 0. Options B, C, and D are incorrect formulations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A fair six‑sided die is rolled. Given that the outcome is an even number, what is the probability that the outcome is greater than 3?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "1/3"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "Even numbers on a die are {2,4,6}. Among these, numbers greater than 3 are {4,6} – 2 out of 3. Hence P(>3 | even) = 2/3. Option A would be the unconditional probability of >3, while C and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "The multiplication rule for probabilities states that:",
+      "options": {
+        "A": "For any events A and B, P(A ∩ B) = P(A) × P(B|A); if A and B are independent then P(B|A) = P(B).",
+        "B": "If A and B are independent, P(A ∩ B) = P(A) + P(B).",
+        "C": "For dependent events, P(A ∩ B) = P(A) × P(B).",
+        "D": "The multiplication rule applies only when events are mutually exclusive."
+      },
+      "correct_option": "A",
+      "answer": "For any events A and B, P(A ∩ B) = P(A) × P(B|A); if A and B are independent then P(B|A) = P(B).",
+      "explanation": "The general multiplication rule is P(A ∩ B) = P(A)·P(B|A). When A and B are independent, the conditional probability P(B|A) equals the unconditional P(B), reducing the formula to P(A)·P(B). Options B, C, and D misstate the rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "In a manufacturing plant, the operation of Machine X does not affect the operation of Machine Y. Which description best characterizes the relationship between the two events?",
+      "options": {
+        "A": "The events are independent.",
+        "B": "The events are mutually exclusive.",
+        "C": "The events are dependent.",
+        "D": "The events are complementary."
+      },
+      "correct_option": "A",
+      "answer": "The events are independent.",
+      "explanation": "When the outcome of one event does not influence the probability of the other, the events are independent (Option A). Mutually exclusive events cannot occur together, which is not the case here. Dependent events influence each other, and complementary events together cover the entire sample space, none of which apply.",
+      "difficulty": "easy"
+    }
+  ]
+}

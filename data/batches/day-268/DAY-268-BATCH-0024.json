@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0024",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "What does conditional probability represent?",
+      "options": {
+        "A": "The probability that both events A and B occur together",
+        "B": "The probability of event A occurring given that event B has already occurred",
+        "C": "The probability of event B occurring given that event A has already occurred",
+        "D": "The probability that either event A or event B occurs"
+      },
+      "correct_option": "B",
+      "answer": "The probability of event A occurring given that event B has already occurred",
+      "explanation": "Conditional probability quantifies the likelihood of an event A under the condition that another event B is known to have happened. It is denoted as P(A|B). Option A describes joint probability, C reverses the condition, and D describes a union probability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A bag contains 3 red balls and 2 blue balls. One ball is drawn and not replaced. What is the probability that the second ball drawn is red given that the first ball drawn was blue?",
+      "options": {
+        "A": "1/2",
+        "B": "3/5",
+        "C": "3/4",
+        "D": "2/3"
+      },
+      "correct_option": "C",
+      "answer": "3/4",
+      "explanation": "After a blue ball is removed, 3 red and 1 blue remain, i.e., 4 balls total. The probability of drawing a red ball now is 3/4. Options A, B, and D are incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Which of the following expressions correctly represents the multiplication rule for two events A and B?",
+      "options": {
+        "A": "P(A ∩ B) = P(A) + P(B)",
+        "B": "P(A ∩ B) = P(A) × P(B|A)",
+        "C": "P(A ∩ B) = P(A|B) × P(B|A)",
+        "D": "P(A ∩ B) = P(A) × P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A ∩ B) = P(A) × P(B|A)",
+      "explanation": "The multiplication rule states that the probability of both A and B occurring equals the probability of A multiplied by the conditional probability of B given A. Option D is only valid when A and B are independent. Options A and C are incorrect formulations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Two dice are rolled. Let A be the event \"the sum of the dice is 7\" and B be the event \"the first die shows 4\". Are A and B independent?",
+      "options": {
+        "A": "Yes, because P(A ∩ B) = P(A) × P(B)",
+        "B": "No, because they are mutually exclusive",
+        "C": "Yes, because they involve different dice",
+        "D": "No, because knowing B changes the probability of A"
+      },
+      "correct_option": "A",
+      "answer": "Yes, because P(A ∩ B) = P(A) × P(B)",
+      "explanation": "P(A)=6/36=1/6, P(B)=1/6. The intersection A∩B occurs when the first die is 4 and the sum is 7, which forces the second die to be 3, giving probability 1/36 = (1/6)*(1/6). Hence P(A∩B)=P(A)P(B), confirming independence. Option C is a vague statement; the rigorous test is the equality of probabilities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "In a class, 60% of the students passed mathematics. Among those who passed mathematics, 70% also passed physics. What is the probability that a randomly selected student passed physics given that the student passed mathematics?",
+      "options": {
+        "A": "0.42",
+        "B": "0.60",
+        "C": "0.70",
+        "D": "0.30"
+      },
+      "correct_option": "C",
+      "answer": "0.70",
+      "explanation": "The conditional probability P(Physics | Mathematics) is directly given as 70%, i.e., 0.70. Option A multiplies the two percentages incorrectly, while B and D do not represent the conditional relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A standard deck has 52 cards. One card is drawn and not replaced. What is the probability that the second card drawn is a king given that the first card drawn was a king?",
+      "options": {
+        "A": "1/13",
+        "B": "1/17",
+        "C": "3/52",
+        "D": "4/51"
+      },
+      "correct_option": "B",
+      "answer": "1/17",
+      "explanation": "After removing one king, 3 kings remain out of 51 cards. Hence P(second is king | first is king) = 3/51 = 1/17. Option A would be the unconditional probability of a king on any draw, C and D are incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "A bag contains 4 red and 6 green balls. Two balls are drawn successively without replacement. Which expression correctly gives the probability that both balls drawn are red?",
+      "options": {
+        "A": "(4/10) + (4/9)",
+        "B": "(4/10) × (4/10)",
+        "C": "(4/10) × (3/9)",
+        "D": "(4/10) × (4/9)"
+      },
+      "correct_option": "C",
+      "answer": "(4/10) × (3/9)",
+      "explanation": "For the first draw, P(red) = 4/10. After removing a red ball, 3 red remain out of 9 balls, so P(red on second draw | first red) = 3/9. Multiplying gives (4/10)*(3/9). Option B ignores the change in composition, D uses the original count for the second draw, and A adds probabilities, which is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "If two events A and B satisfy P(B|A) = P(B), which statement is true?",
+      "options": {
+        "A": "A and B are mutually exclusive",
+        "B": "A and B are independent",
+        "C": "A implies B",
+        "D": "B implies A"
+      },
+      "correct_option": "B",
+      "answer": "A and B are independent",
+      "explanation": "The definition of independence is P(B|A) = P(B) (and equivalently P(A|B) = P(A)). Hence the events do not affect each other's occurrence. They are not mutually exclusive (which would give P(B|A)=0), nor does one imply the other.",
+      "difficulty": "medium"
+    }
+  ]
+}

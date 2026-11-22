@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0025",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "For events A and B with P(A)=0.2, P(B)=0.5 and P(A∩B)=0.1, which statement correctly compares P(A|B) and P(B|A)?",
+      "options": {
+        "A": "P(A|B) = P(B|A)",
+        "B": "P(A|B) > P(B|A)",
+        "C": "P(A|B) < P(B|A)",
+        "D": "The comparison cannot be determined from the given data"
+      },
+      "correct_option": "C",
+      "answer": "P(A|B) < P(B|A)",
+      "explanation": "P(A|B)=P(A∩B)/P(B)=0.1/0.5=0.2. P(B|A)=P(A∩B)/P(A)=0.1/0.2=0.5. Since 0.2 < 0.5, P(A|B) is less than P(B|A). Options A and B are therefore false, and D is incorrect because the values are known.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A bag contains 3 red, 4 blue and 5 green balls. Two balls are drawn without replacement. What is the probability that the second ball is green given that the first ball drawn was red?",
+      "options": {
+        "A": "5/9",
+        "B": "4/9",
+        "C": "5/12",
+        "D": "1/3"
+      },
+      "correct_option": "A",
+      "answer": "5/9",
+      "explanation": "After a red ball is removed, 9 balls remain: 4 blue and 5 green. The conditional probability of drawing a green ball next is 5/9. The other options correspond to incorrect counts or assume replacement.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "If P(A)=0.4 and P(B|A)=0.6, what is P(A∩B)?",
+      "options": {
+        "A": "0.24",
+        "B": "0.6",
+        "C": "0.4",
+        "D": "1.0"
+      },
+      "correct_option": "A",
+      "answer": "0.24",
+      "explanation": "The multiplication rule states P(A∩B)=P(A)·P(B|A)=0.4×0.6=0.24. Options B, C, D ignore the rule or give impossible probabilities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Which of the following pairs of events are independent?",
+      "options": {
+        "A": "Result of the first die roll is 4 and result of the second die roll is 5",
+        "B": "First card drawn is an ace and second card drawn (without replacement) is a king",
+        "C": "A student is male and the same student is taller than 180 cm",
+        "D": "A tossed coin lands heads and the coin is known to be fair"
+      },
+      "correct_option": "A",
+      "answer": "Result of the first die roll is 4 and result of the second die roll is 5",
+      "explanation": "Two rolls of a fair die do not affect each other, so the events are independent. In B the composition of the deck changes, making them dependent. C may be dependent due to gender‑height correlation. D mixes a random outcome with a deterministic property, not a pair of random events.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which statement correctly defines conditional probability and distinguishes it from ordinary probability?",
+      "options": {
+        "A": "Conditional probability of A given B is P(A∩B)/P(B), whereas ordinary probability of A is simply P(A).",
+        "B": "Conditional probability of A given B is P(A)+P(B), while ordinary probability is P(A)−P(B).",
+        "C": "Conditional probability of A given B equals P(A)×P(B), which is the same as ordinary probability.",
+        "D": "Conditional probability does not require B to be an event, unlike ordinary probability."
+      },
+      "correct_option": "A",
+      "answer": "Conditional probability of A given B is P(A∩B)/P(B), whereas ordinary probability of A is simply P(A).",
+      "explanation": "The definition of conditional probability is P(A|B)=P(A∩B)/P(B) provided P(B)>0. Ordinary (unconditional) probability of A is just P(A). Options B, C, and D give incorrect formulas or statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "In a class of 30 students, 18 study mathematics, 12 study physics, and 6 study both subjects. If a student is known to study mathematics, what is the probability that the same student also studies physics?",
+      "options": {
+        "A": "1/3",
+        "B": "1/2",
+        "C": "6/30",
+        "D": "12/30"
+      },
+      "correct_option": "A",
+      "answer": "1/3",
+      "explanation": "P(Physics|Mathematics)=Number studying both / Number studying mathematics = 6/18 = 1/3. Options B, C, D use incorrect numerators or ignore the conditional nature.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "A box contains 2 white, 3 black and 5 red balls. Two balls are drawn sequentially without replacement. What is the probability that the first ball is white and the second ball is red?",
+      "options": {
+        "A": "1/9",
+        "B": "1/5",
+        "C": "2/9",
+        "D": "1/3"
+      },
+      "correct_option": "A",
+      "answer": "1/9",
+      "explanation": "P(first white)=2/10=0.2. After removing a white ball, 9 balls remain with 5 red, so P(second red|first white)=5/9. Multiplying: (2/10)*(5/9)=10/90=1/9. The other options arise from miscalculations or ignoring the multiplication rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "A factory produces items, 5% of which are defective. An inspector selects two items sequentially without replacement. Which statement correctly describes the relationship between the events \"first item is defective\" and \"second item is defective\"?",
+      "options": {
+        "A": "They are independent because defectiveness is an inherent property of each item.",
+        "B": "They are dependent because removing the first item changes the composition of the remaining items.",
+        "C": "They are independent because the probability remains 5% for each draw.",
+        "D": "They are dependent because the first event determines the second event with certainty."
+      },
+      "correct_option": "B",
+      "answer": "They are dependent because removing the first item changes the composition of the remaining items.",
+      "explanation": "Since the draws are without replacement, the outcome of the first draw alters the total number of items and the number of defective items left, making the events dependent. Option A ignores the effect of removal, C incorrectly assumes unchanged probability, and D overstates the dependence.",
+      "difficulty": "medium"
+    }
+  ]
+}

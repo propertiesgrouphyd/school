@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "What is the definition of the conditional probability of event A given event B, and how does it differ from the ordinary (unconditional) probability of A?",
+      "options": {
+        "A": "P(A|B)=P(A∩B)/P(B); it differs because it is evaluated under the condition that B has already occurred.",
+        "B": "P(A|B)=P(A)+P(B); it differs because it adds the probabilities of A and B.",
+        "C": "P(A|B)=P(A)·P(B); it differs because it multiplies the two probabilities.",
+        "D": "P(A|B)=P(A)−P(B); it differs because it subtracts the probability of B from that of A."
+      },
+      "correct_option": "A",
+      "answer": "P(A|B)=P(A∩B)/P(B); it differs because it is evaluated under the condition that B has already occurred.",
+      "explanation": "Conditional probability is defined as P(A|B)=P(A∩B)/P(B) provided P(B)>0. This formula measures the likelihood of A when we already know that B has happened, unlike the ordinary probability P(A) which ignores any prior information. Options B, C, and D are incorrect formulas and do not represent conditional probability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A box contains 2 white balls and 3 black balls. One ball is drawn at random and is found to be black. Without replacing it, a second ball is drawn. What is the probability that the second ball drawn is also black?",
+      "options": {
+        "A": "1/2",
+        "B": "2/5",
+        "C": "3/5",
+        "D": "1/4"
+      },
+      "correct_option": "A",
+      "answer": "1/2",
+      "explanation": "After the first black ball is removed, 2 black balls remain out of a total of 4 balls. Hence P(second black | first black) = 2/4 = 1/2. The other options arise from incorrect counting or forgetting the removal of the first ball.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Two dice are rolled simultaneously. What is the probability that the first die shows a 4 and the sum of the two dice is 7?",
+      "options": {
+        "A": "1/36",
+        "B": "1/12",
+        "C": "1/6",
+        "D": "1/18"
+      },
+      "correct_option": "A",
+      "answer": "1/36",
+      "explanation": "Let A be the event \"first die = 4\" (P(A)=1/6). Given A, the second die must be 3 for the sum to be 7, so P(B|A)=1/6. By the multiplication rule, P(A∩B)=P(A)·P(B|A)=1/6·1/6=1/36. The other options result from omitting the conditional step or using addition instead of multiplication.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Which of the following pairs of events are independent?",
+      "options": {
+        "A": "Drawing two cards from a deck without replacement.",
+        "B": "Drawing two cards from a deck with replacement.",
+        "C": "Selecting a student from a class and then selecting another student from the same class without replacement.",
+        "D": "Tossing a fair coin and then rolling a fair die."
+      },
+      "correct_option": "D",
+      "answer": "Tossing a fair coin and then rolling a fair die.",
+      "explanation": "Two events are independent if the occurrence of one does not affect the probability of the other. Tossing a coin does not influence the outcome of rolling a die, so they are independent (option D). In options A, B, and C the outcomes are linked to the same set of objects, making them dependent (especially without replacement). Even with replacement (option B) the draws are independent, but option D is the classic textbook example and is unambiguous.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which of the following statements about conditional probability is FALSE?",
+      "options": {
+        "A": "P(A|B)=P(A∩B)/P(B) provided P(B)>0.",
+        "B": "If A and B are independent, then P(A|B)=P(A).",
+        "C": "P(A|B)=P(A)·P(B).",
+        "D": "P(A|B) is defined only when P(B) is greater than zero."
+      },
+      "correct_option": "C",
+      "answer": "P(A|B)=P(A)·P(B).",
+      "explanation": "The correct formula for conditional probability is P(A|B)=P(A∩B)/P(B). Multiplying P(A) and P(B) gives the joint probability only when A and B are independent, not the conditional probability. Hence statement C is false. Statements A, B, and D are true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A box contains 4 red and 6 green balls. Two balls are drawn successively without replacement. What is the probability that the second ball is red given that the first ball drawn was green?",
+      "options": {
+        "A": "4/9",
+        "B": "2/5",
+        "C": "1/2",
+        "D": "3/8"
+      },
+      "correct_option": "A",
+      "answer": "4/9",
+      "explanation": "After a green ball is removed, the box has 4 red and 5 green balls left, total 9 balls. Hence P(second red | first green)=4/9. Options B, C, and D arise from incorrect counting of remaining balls or ignoring the condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Which of the following expressions correctly represents the multiplication rule for finding the probability of two events A and B occurring together?",
+      "options": {
+        "A": "P(A∩B)=P(A)+P(B|A)",
+        "B": "P(A∩B)=P(A)·P(B|A)",
+        "C": "P(A∩B)=P(A|B)·P(B)",
+        "D": "Both B and C are correct"
+      },
+      "correct_option": "D",
+      "answer": "Both B and C are correct",
+      "explanation": "The multiplication rule can be written as P(A∩B)=P(A)·P(B|A) or equivalently as P(A∩B)=P(B)·P(A|B). Both forms are valid and give the same joint probability. Option A is incorrect because it adds probabilities, and option B and C are each individually correct, making D the best choice.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "In a test, a candidate attempts Question 1 and Question 2. Both questions have four options with exactly one correct answer each. The candidate will attempt Question 2 only if he answers Question 1 correctly. What is the probability that the candidate answers both questions correctly?",
+      "options": {
+        "A": "1/8",
+        "B": "1/16",
+        "C": "1/4",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "answer": "1/16",
+      "explanation": "The events are dependent because the second attempt occurs only after a correct first answer. P(first correct)=1/4. Given the first is correct, the probability of answering the second correctly is again 1/4. Hence the joint probability = (1/4)·(1/4)=1/16. Options A, C, and D ignore the dependence or miscalculate the product.",
+      "difficulty": "hard"
+    }
+  ]
+}

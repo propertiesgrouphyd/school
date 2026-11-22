@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "A fair six‑sided die is rolled. What is the probability that the outcome is even given that the outcome is greater than 3?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "1/3"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "The condition \"greater than 3\" restricts the sample space to {4,5,6}. Among these three outcomes, the even ones are {4,6}, i.e., 2 outcomes. Hence P(even | >3)=2/3. Options A, C and D give incorrect fractions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A bag contains 3 red and 2 blue balls. Two balls are drawn without replacement. What is the probability that the second ball is blue given that the first ball drawn was red?",
+      "options": {
+        "A": "1/5",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "3/5"
+      },
+      "correct_option": "B",
+      "answer": "1/2",
+      "explanation": "After a red ball is removed, the bag has 2 red and 2 blue balls left, a total of 4. The probability that the next ball is blue is 2/4 = 1/2. The other options do not reflect the updated composition of the bag.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Which of the following statements correctly expresses the multiplication rule for two events A and B?",
+      "options": {
+        "A": "P(A∩B)=P(A)+P(B)",
+        "B": "P(A∩B)=P(A)·P(B) only when A and B are independent",
+        "C": "P(A∩B)=P(A|B)·P(B)",
+        "D": "P(A∩B)=P(B|A)·P(A)"
+      },
+      "correct_option": "C",
+      "answer": "P(A∩B)=P(A|B)·P(B)",
+      "explanation": "The general multiplication rule is P(A∩B)=P(A|B)·P(B). Option B is a special case that holds only for independent events, while A is addition, not multiplication, and D, although mathematically true, is not the standard form asked for.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "A card is drawn from a standard deck, its face is noted, the card is replaced, and a second card is drawn. Are the events \"first card is a heart\" and \"second card is a king\" independent or dependent?",
+      "options": {
+        "A": "Independent",
+        "B": "Dependent",
+        "C": "Mutually exclusive",
+        "D": "Neither independent nor dependent"
+      },
+      "correct_option": "A",
+      "answer": "Independent",
+      "explanation": "Because the first card is replaced, the composition of the deck is unchanged before the second draw. Hence the outcome of the first draw does not affect the probability of the second draw, making the events independent. The other options mischaracterize the relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "In a class of 100 students, 40 study mathematics, 30 study physics, and 10 study both subjects. Which statement correctly compares the conditional probability of studying physics given that a student studies mathematics with the unconditional probability of studying physics?",
+      "options": {
+        "A": "Conditional probability = 0.25, which is less than the unconditional probability 0.30.",
+        "B": "Conditional probability = 0.30, equal to the unconditional probability.",
+        "C": "Conditional probability = 0.40, greater than the unconditional probability.",
+        "D": "Conditional probability = 0.25, greater than the unconditional probability."
+      },
+      "correct_option": "A",
+      "answer": "Conditional probability = 0.25, which is less than the unconditional probability 0.30.",
+      "explanation": "P(Physics|Math)=10/40=0.25. The overall probability of studying physics is 30/100=0.30. Thus the conditional probability is lower than the unconditional one. Options B, C, and D give incorrect numerical relationships.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A box contains 4 red, 5 green, and 6 blue balls. Two balls are drawn sequentially without replacement. What is the probability that the second ball is green given that the first ball drawn was red?",
+      "options": {
+        "A": "5/15",
+        "B": "5/14",
+        "C": "4/14",
+        "D": "6/14"
+      },
+      "correct_option": "B",
+      "answer": "5/14",
+      "explanation": "After a red ball is removed, the box has 14 balls left (3 red, 5 green, 6 blue). The probability that the next ball is green is 5/14. Option A uses the original total, while C and D are unrelated fractions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "If P(A)=0.3 and P(B|A)=0.5, what is P(A∩B)?",
+      "options": {
+        "A": "0.15",
+        "B": "0.8",
+        "C": "0.5",
+        "D": "0.3"
+      },
+      "correct_option": "A",
+      "answer": "0.15",
+      "explanation": "Using the multiplication rule, P(A∩B)=P(A)·P(B|A)=0.3×0.5=0.15. The other options do not follow this calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Which of the following pairs of events are independent?",
+      "options": {
+        "A": "Drawing a king from a deck and then drawing another king without replacement",
+        "B": "Getting a head on a coin toss and rolling a 6 on a die",
+        "C": "Selecting a red marble and then selecting a blue marble without replacement",
+        "D": "Selecting a red ball and then selecting a red ball without replacement"
+      },
+      "correct_option": "B",
+      "answer": "Getting a head on a coin toss and rolling a 6 on a die",
+      "explanation": "The outcome of a coin toss does not affect the outcome of a die roll, so the events are independent. Options A, C, and D involve draws without replacement, making the second event dependent on the first.",
+      "difficulty": "easy"
+    }
+  ]
+}
