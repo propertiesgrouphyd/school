@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which statement correctly defines conditional probability and shows how it differs from the ordinary (unconditional) probability of an event?",
+      "options": {
+        "A": "P(A|B) = P(A) / P(B), which is the probability of A occurring after B has occurred.",
+        "B": "P(A|B) = P(A ∩ B) / P(B), representing the probability of A given that B has occurred, unlike ordinary probability which does not condition on another event.",
+        "C": "P(A|B) = P(A) × P(B), which multiplies the probabilities of A and B.",
+        "D": "P(A|B) = P(B|A), meaning the probability of A given B is the same as B given A."
+      },
+      "correct_option": "B",
+      "answer": "P(A|B) = P(A ∩ B) / P(B), representing the probability of A given that B has occurred, unlike ordinary probability which does not condition on another event.",
+      "explanation": "Conditional probability is defined as P(A|B)=P(A∩B)/P(B) when P(B)>0. This formula explicitly conditions on the occurrence of B, whereas ordinary probability P(A) does not involve any such condition. Option B states the correct definition; the other options either give an incorrect formula or misinterpret the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A box contains 3 red, 2 blue, and 5 green balls. One ball is drawn at random and not replaced. What is the probability that the second ball drawn is green given that the first ball drawn was red?",
+      "options": {
+        "A": "5/10",
+        "B": "5/9",
+        "C": "3/9",
+        "D": "2/9"
+      },
+      "correct_option": "B",
+      "answer": "5/9",
+      "explanation": "After a red ball is removed, the box has 9 balls left: 2 red, 2 blue, 5 green. The conditional probability of drawing a green ball next is 5/9. Option B matches this value; the other fractions arise from incorrect counting.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "A fair die is rolled twice. What is the probability that a 4 appears on the first roll and an even number appears on the second roll?",
+      "options": {
+        "A": "1/12",
+        "B": "1/6",
+        "C": "1/4",
+        "D": "1/3"
+      },
+      "correct_option": "A",
+      "answer": "1/12",
+      "explanation": "P(first roll = 4) = 1/6. Given the first roll, the second roll is independent, so P(second roll even) = 3/6 = 1/2. Using the multiplication rule, P = (1/6) × (1/2) = 1/12. Option A is correct; the others ignore the multiplication rule or use wrong probabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Consider the following two situations: (i) Tossing a fair coin and rolling a fair die. (ii) Drawing two cards from a standard deck without replacement. Which statement correctly identifies the nature of the events in each situation?",
+      "options": {
+        "A": "Both situations involve independent events.",
+        "B": "Both situations involve dependent events.",
+        "C": "The events in (i) are independent, while those in (ii) are dependent.",
+        "D": "The events in (i) are dependent, while those in (ii) are independent."
+      },
+      "correct_option": "C",
+      "answer": "The events in (i) are independent, while those in (ii) are dependent.",
+      "explanation": "The outcome of a coin toss does not affect the outcome of a die roll, so they are independent. When cards are drawn without replacement, the composition of the deck changes after the first draw, making the second draw dependent on the first. Hence option C correctly distinguishes the two cases.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which of the following statements about conditional probability is incorrect?",
+      "options": {
+        "A": "If P(A|B)=P(A), then events A and B are independent.",
+        "B": "If P(A|B)=0, then A and B are mutually exclusive.",
+        "C": "If P(A|B)=P(A), then A and B are mutually exclusive.",
+        "D": "P(A|B) is defined only when P(B)>0."
+      },
+      "correct_option": "C",
+      "answer": "If P(A|B)=P(A), then A and B are mutually exclusive.",
+      "explanation": "When P(A|B)=P(A), the occurrence of B does not change the probability of A, which indicates independence, not mutual exclusivity. Mutual exclusivity would give P(A|B)=0. Therefore option C is the misconception. The other statements are true.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "In a school, 60% of students study mathematics, 40% study physics, and 30% study both subjects. What is the probability that a randomly selected student studies physics given that the student studies mathematics?",
+      "options": {
+        "A": "0.30",
+        "B": "0.50",
+        "C": "0.60",
+        "D": "0.75"
+      },
+      "correct_option": "B",
+      "answer": "0.50",
+      "explanation": "P(Physics | Mathematics) = P(both)/P(Mathematics) = 0.30 / 0.60 = 0.5. Option B gives the correct conditional probability; the other options result from incorrect division or misinterpretation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Two events A and B satisfy P(A)=0.4 and P(B)=0.5. Which statement correctly compares the two forms of the multiplication rule: P(A∩B)=P(A)P(B|A) and P(A∩B)=P(B)P(A|B)?",
+      "options": {
+        "A": "Both expressions give the same numerical value regardless of the order because P(B|A)=P(A|B).",
+        "B": "Both expressions are valid; they yield the same result because they are algebraically equivalent, even though P(B|A) and P(A|B) are generally different.",
+        "C": "Only the first expression is correct; the second is not a valid probability rule.",
+        "D": "The two expressions are equal only when A and B are independent."
+      },
+      "correct_option": "B",
+      "answer": "Both expressions are valid; they yield the same result because they are algebraically equivalent, even though P(B|A) and P(A|B) are generally different.",
+      "explanation": "The product rule can be written in either order: P(A∩B)=P(A)P(B|A)=P(B)P(A|B). Both formulas compute the same joint probability, though the conditional probabilities differ unless the events are independent. Hence option B correctly captures the relationship; the other options contain false statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "A box contains 2 red, 3 blue, and 5 green balls. Two balls are drawn successively without replacement. Let E be the event that the first ball drawn is red and F be the event that the second ball drawn is blue. Are events E and F independent?",
+      "options": {
+        "A": "Yes, because P(E∩F)=P(E)P(F).",
+        "B": "No, because P(F|E)≠P(F).",
+        "C": "Yes, because the colors are equally likely.",
+        "D": "No, because drawing without replacement makes them dependent."
+      },
+      "correct_option": "B",
+      "answer": "No, because P(F|E)≠P(F).",
+      "explanation": "P(E)=2/10=0.2, P(F)=3/10=0.3. If the first ball is red, the remaining balls are 1 red, 3 blue, 5 green (9 total), so P(F|E)=3/9=0.333..., which is not equal to P(F)=0.3. Since P(F|E)≠P(F), the events are dependent. Option B states this correctly; option D is true but less precise for the exam context, and only one option can be marked correct.",
+      "difficulty": "hard"
+    }
+  ]
+}

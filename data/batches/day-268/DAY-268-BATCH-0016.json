@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "A bag contains 3 red balls and 2 blue balls. One ball is drawn and not replaced. What is the probability that the second ball drawn is red given that the first ball drawn was blue?",
+      "options": {
+        "A": "2/5",
+        "B": "3/5",
+        "C": "3/4",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "answer": "3/4",
+      "explanation": "After a blue ball is removed, 3 red and 1 blue remain, a total of 4 balls. The probability of drawing a red ball now is 3/4. A common mistake is to think the probability stays at the original 3/5, ignoring the changed composition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "In a class, 60% of students study mathematics, 40% study physics, and 20% study both subjects. If a student is known to study mathematics, what is the probability that the student also studies physics?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "2/3",
+        "D": "1/4"
+      },
+      "correct_option": "B",
+      "answer": "1/3",
+      "explanation": "P(Physics | Mathematics) = P(both)/P(Mathematics) = 0.20 / 0.60 = 1/3. The other options arise from incorrect use of addition or ignoring the conditional nature.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Two events A and B satisfy P(A)=0.4 and P(B)=0.5. What is P(A∩B) if the events are independent, and what is P(A∩B) if they are mutually exclusive?",
+      "options": {
+        "A": "0.2 and 0",
+        "B": "0.9 and 0.5",
+        "C": "0.2 and 0.5",
+        "D": "0 and 0.9"
+      },
+      "correct_option": "A",
+      "answer": "0.2 and 0",
+      "explanation": "For independent events, P(A∩B)=P(A)·P(B)=0.4×0.5=0.2. For mutually exclusive events, they cannot occur together, so P(A∩B)=0. The other options mix up the rules.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "A fair die is rolled twice. Let X be the event 'first roll is even' and Y be the event 'sum of the two rolls is odd'. Which of the following correctly describes the relationship between X and Y?",
+      "options": {
+        "A": "Independent",
+        "B": "Dependent",
+        "C": "Mutually exclusive",
+        "D": "Neither independent nor dependent"
+      },
+      "correct_option": "A",
+      "answer": "Independent",
+      "explanation": "P(Y)=1/2 (half of the 36 outcomes give an odd sum). Given X (first roll even), the second roll must be odd for the sum to be odd, which occurs in 3 of the 6 possibilities, so P(Y|X)=1/2 = P(Y). Since P(Y|X)=P(Y), X and Y are independent. They are not mutually exclusive because they can occur together.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which statement best defines the conditional probability of event B given that event A has occurred?",
+      "options": {
+        "A": "The probability of B occurring regardless of A",
+        "B": "The probability of A and B occurring together",
+        "C": "The probability of B occurring when A has already occurred",
+        "D": "The probability of A occurring after B"
+      },
+      "correct_option": "C",
+      "answer": "The probability of B occurring when A has already occurred",
+      "explanation": "Conditional probability P(B|A) measures the likelihood of B under the condition that A is known to have happened. Options A, B, and D describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A single card is drawn from a standard 52‑card deck. What is the probability that the card is a queen given that it is a face card?",
+      "options": {
+        "A": "1/4",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "1/6"
+      },
+      "correct_option": "B",
+      "answer": "1/3",
+      "explanation": "There are 12 face cards (J, Q, K of each suit). Among them, 4 are queens. Hence P(Queen | Face) = 4/12 = 1/3. The other fractions correspond to incorrect counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "The multiplication rule for two events A and B states that P(A∩B) equals:",
+      "options": {
+        "A": "P(A) + P(B)",
+        "B": "P(A) × P(B)",
+        "C": "P(A) × P(B|A)",
+        "D": "P(A|B) – P(B)"
+      },
+      "correct_option": "C",
+      "answer": "P(A) × P(B|A)",
+      "explanation": "The general multiplication rule is P(A∩B)=P(A)·P(B|A). Option B applies only when A and B are independent. Options A and D are unrelated formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Two cards are drawn successively without replacement from a standard deck. Is the event 'the first card drawn is an ace' independent of the event 'the second card drawn is an ace'?",
+      "options": {
+        "A": "Independent",
+        "B": "Dependent",
+        "C": "Mutually exclusive",
+        "D": "Neither independent nor dependent"
+      },
+      "correct_option": "B",
+      "answer": "Dependent",
+      "explanation": "Without replacement, the outcome of the first draw changes the composition of the deck, affecting the probability of drawing an ace on the second draw. Hence the events are dependent. They are not mutually exclusive because both can occur together.",
+      "difficulty": "easy"
+    }
+  ]
+}

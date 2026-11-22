@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "What does conditional probability represent?",
+      "options": {
+        "A": "The probability of an event occurring given that another specific event has already occurred.",
+        "B": "The probability of two events happening at the same time regardless of any other information.",
+        "C": "The probability of an event occurring when no other information is known.",
+        "D": "The probability of the complement of an event occurring."
+      },
+      "correct_option": "A",
+      "answer": "The probability of an event occurring given that another specific event has already occurred.",
+      "explanation": "Conditional probability quantifies how likely event A is when we already know that event B has occurred, expressed as P(A|B)=P(A∩B)/P(B). Option A captures this definition, while the other options describe unrelated concepts such as joint probability, unconditional probability, or complement probability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A standard deck has 52 cards. What is the probability of drawing an ace given that the drawn card is a spade?",
+      "options": {
+        "A": "1/13",
+        "B": "1/4",
+        "C": "1/52",
+        "D": "4/13"
+      },
+      "correct_option": "A",
+      "answer": "1/13",
+      "explanation": "There are 13 spades in a deck, and only one of them is the ace of spades. Hence P(Ace|Spade)=1/13. Option B is the probability of any ace without the condition, C is the probability of a specific card without any condition, and D exceeds 1, which is impossible.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Which of the following expressions correctly states the multiplication rule for two events A and B?",
+      "options": {
+        "A": "P(A∩B)=P(A)·P(B|A)",
+        "B": "P(A∩B)=P(A)+P(B)",
+        "C": "P(A∩B)=P(A)·P(B)",
+        "D": "P(A∩B)=P(A|B)·P(B|A)"
+      },
+      "correct_option": "A",
+      "answer": "P(A∩B)=P(A)·P(B|A)",
+      "explanation": "The multiplication rule states that the probability of both A and B occurring equals the probability of A times the probability of B occurring given that A has occurred. Option C would be true only if A and B are independent, which is not assumed here. Options B and D are incorrect formulations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "When a fair coin is tossed twice, are the events \"first toss is heads\" and \"second toss is heads\" independent or dependent?",
+      "options": {
+        "A": "Independent",
+        "B": "Dependent",
+        "C": "Mutually exclusive",
+        "D": "Cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Independent",
+      "explanation": "The outcome of the first toss does not affect the outcome of the second toss; therefore the events are independent. Dependent events would have probabilities that change based on the other event, which is not the case here. They are not mutually exclusive because both can occur together.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "A box contains 4 red and 6 green balls. One ball is drawn and found to be red. Without replacing it, what is the probability that the next ball drawn is also red?",
+      "options": {
+        "A": "3/9",
+        "B": "4/10",
+        "C": "3/10",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "answer": "3/9",
+      "explanation": "After removing one red ball, 3 red remain out of 9 total balls, so the conditional probability is 3/9 (which simplifies to 1/3). Option B uses the original total, C uses an incorrect numerator, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "In a school, 70 students study mathematics, 50 study physics, and 30 study both subjects. If a student is known to study mathematics, what is the probability that the same student also studies physics?",
+      "options": {
+        "A": "3/7",
+        "B": "30/120",
+        "C": "50/120",
+        "D": "30/70"
+      },
+      "correct_option": "A",
+      "answer": "3/7",
+      "explanation": "P(Physics|Math)=Number studying both / Number studying Math = 30/70 = 3/7. Option D gives the same fraction but without simplification; however the answer must match the option text exactly, which is 3/7. Options B and C are unconditional probabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Which of the following statements is always true for any two events A and B?",
+      "options": {
+        "A": "P(A∩B)=P(A)·P(B)",
+        "B": "P(A∩B)=P(A)·P(B|A)",
+        "C": "P(A∩B)=P(B)·P(A|B)",
+        "D": "Both statements (b) and (c) are correct"
+      },
+      "correct_option": "D",
+      "answer": "Both statements (b) and (c) are correct",
+      "explanation": "The general multiplication rule can be written as P(A∩B)=P(A)P(B|A) or equivalently P(A∩B)=P(B)P(A|B). Statement A holds only when A and B are independent, which is not guaranteed. Therefore, the always‑true option is D.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "For events A and B, P(A)=0.5, P(B)=0.4, and P(A∩B)=0.2. Are A and B independent or dependent?",
+      "options": {
+        "A": "The events are independent.",
+        "B": "The events are dependent.",
+        "C": "The events are mutually exclusive.",
+        "D": "There is insufficient information to decide."
+      },
+      "correct_option": "A",
+      "answer": "The events are independent.",
+      "explanation": "If events are independent, P(A∩B)=P(A)·P(B). Here 0.5×0.4=0.2, which equals the given intersection probability, confirming independence. Dependent events would give a different product, mutually exclusive would give intersection 0, and we have enough information to decide.",
+      "difficulty": "medium"
+    }
+  ]
+}

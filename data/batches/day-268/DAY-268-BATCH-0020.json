@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0020",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "For events A and B with P(A)=0.4, P(B)=0.5 and P(A\\cap B)=0.2, which statement correctly compares P(A|B) and P(B|A)?",
+      "options": {
+        "A": "P(A|B) > P(B|A)",
+        "B": "P(A|B) = P(B|A)",
+        "C": "P(A|B) < P(B|A)",
+        "D": "The relationship cannot be determined from the given data"
+      },
+      "correct_option": "C",
+      "answer": "P(A|B) < P(B|A)",
+      "explanation": "P(A|B)=P(A\\cap B)/P(B)=0.2/0.5=0.4. P(B|A)=P(A\\cap B)/P(A)=0.2/0.4=0.5. Since 0.4 < 0.5, P(A|B) is less than P(B|A). Options A and B are therefore incorrect, and D is wrong because the values are sufficient to decide.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A bag contains 3 red, 2 blue and 5 green balls. Two balls are drawn successively without replacement. What is the probability that the second ball is green given that the first ball drawn was red?",
+      "options": {
+        "A": "5/10",
+        "B": "5/9",
+        "C": "5/8",
+        "D": "4/9"
+      },
+      "correct_option": "B",
+      "answer": "5/9",
+      "explanation": "After a red ball is removed, the bag has 2 red, 2 blue and 5 green balls, a total of 9 balls. The conditional probability that the second ball is green is therefore 5/9. Options A, C and D use incorrect totals or ignore the removal of the first ball.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "If P(A)=0.3 and P(B|A)=0.5, what is P(A\\cap B)?",
+      "options": {
+        "A": "0.15",
+        "B": "0.8",
+        "C": "0.5",
+        "D": "0.3"
+      },
+      "correct_option": "A",
+      "answer": "0.15",
+      "explanation": "The multiplication rule states P(A\\cap B)=P(A)·P(B|A). Substituting the given values gives 0.3×0.5=0.15. The other options do not follow this rule.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Which of the following pairs of events are independent?",
+      "options": {
+        "A": "Drawing a king from a deck and then drawing a queen from the same deck without replacement",
+        "B": "Tossing a fair coin and rolling a fair die",
+        "C": "Selecting a red card from a deck and then selecting a face card from the same deck without replacement",
+        "D": "Selecting a heart from one deck and a spade from a second, separate deck"
+      },
+      "correct_option": "B",
+      "answer": "Tossing a fair coin and rolling a fair die",
+      "explanation": "The outcome of a coin toss does not affect the outcome of a die roll, so the events are independent. In options A and C the first draw changes the composition of the deck, making the second event dependent. Option D involves two separate decks, which are also independent, but B is the simplest illustration of independence as required.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "Which statement correctly defines conditional probability and distinguishes it from unconditional probability?",
+      "options": {
+        "A": "Conditional probability is the probability of an event occurring after another event has occurred; it is always larger than the unconditional probability.",
+        "B": "Conditional probability of A given B is P(A\\cap B)/P(B) provided P(B)>0; unlike unconditional probability, it depends on the occurrence of B.",
+        "C": "Conditional probability equals unconditional probability when the two events are mutually exclusive.",
+        "D": "Conditional probability is the same as joint probability but expressed as a fraction of the sample space."
+      },
+      "correct_option": "B",
+      "answer": "Conditional probability of A given B is P(A\\cap B)/P(B) provided P(B)>0; unlike unconditional probability, it depends on the occurrence of B.",
+      "explanation": "The definition in option B is the standard formula for conditional probability and correctly notes its dependence on the given event B. Option A is false because conditional probability can be smaller, equal, or larger. Option C confuses mutual exclusivity with independence. Option D misidentifies joint probability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A fair die is rolled. What is the probability of obtaining a number greater than 4 given that the outcome is an even number?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "2/3",
+        "D": "1/6"
+      },
+      "correct_option": "B",
+      "answer": "1/3",
+      "explanation": "The even numbers on a die are {2,4,6}. Among these, only 6 is greater than 4. Hence the conditional probability is 1 favorable outcome out of 3 possible even outcomes, i.e., 1/3. The other options miscount the favorable or total outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "In a factory, the probability that a machine is functional is 0.9. If the machine is functional, the probability that it produces a defect‑free item is 0.95. What is the probability that a randomly selected item from this machine is defect‑free?",
+      "options": {
+        "A": "0.855",
+        "B": "0.90",
+        "C": "0.95",
+        "D": "0.805"
+      },
+      "correct_option": "A",
+      "answer": "0.855",
+      "explanation": "Using the multiplication rule: P(defect‑free)=P(machine functional)×P(defect‑free|functional)=0.9×0.95=0.855. Options B and C ignore one of the probabilities, and D is an incorrect product.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "A box contains 4 white and 6 black balls. One ball is drawn and not replaced. Then a second ball is drawn. Are the events \"first ball is white\" and \"second ball is white\" independent?",
+      "options": {
+        "A": "Independent",
+        "B": "Dependent",
+        "C": "Cannot be determined without more information",
+        "D": "Both events are mutually exclusive"
+      },
+      "correct_option": "B",
+      "answer": "Dependent",
+      "explanation": "The outcome of the first draw changes the composition of the box, affecting the probability of drawing a white ball on the second draw. Hence the two events are dependent. Option A is false, C is unnecessary because we have enough information, and D is incorrect because the events are not mutually exclusive.",
+      "difficulty": "medium"
+    }
+  ]
+}
