@@ -1,0 +1,150 @@
+{
+  "day": 269,
+  "batch_id": "DAY-269-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand least count",
+      "question": "What is the least count of a measuring instrument and how does it differ from the absolute error?",
+      "options": {
+        "A": "The smallest division that can be read on the scale; it is the same as absolute error.",
+        "B": "The smallest division that can be read on the scale; it represents the instrument's precision, whereas absolute error is the difference between measured value and true value.",
+        "C": "The maximum reading possible; it is unrelated to error.",
+        "D": "The average of multiple readings; it equals systematic error."
+      },
+      "correct_option": "B",
+      "answer": "The smallest division that can be read on the scale; it represents the instrument's precision, whereas absolute error is the difference between measured value and true value.",
+      "explanation": "Least count is the smallest division that can be discerned on the scale, indicating the instrument's precision. Absolute error is the deviation of the measured value from the true value. They are related but not identical; least count limits the smallest possible error, while absolute error quantifies the actual deviation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand metre scale",
+      "question": "A student uses a standard metre scale (with divisions of 1 mm) to measure the length of a wooden rod. If the rod spans 45 full centimetres and 7 additional small divisions, what is the measured length?",
+      "options": {
+        "A": "45.07 cm",
+        "B": "45.7 cm",
+        "C": "45.70 cm",
+        "D": "45.0 cm"
+      },
+      "correct_option": "C",
+      "answer": "45.70 cm",
+      "explanation": "Each small division on a metre scale is 1 mm = 0.1 cm. Seven divisions add 0.7 cm to the 45 cm, giving 45.7 cm, which is expressed as 45.70 cm to reflect the precision of the instrument.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand vernier calipers",
+      "question": "A vernier caliper has a main‑scale division of 1 mm and 50 vernier divisions that coincide with 49 mm on the main scale. What is its least count, and what reading would you record for a measured length where the main scale reads 12.3 cm and the 23rd vernier division aligns with the main scale?",
+      "options": {
+        "A": "Least count 0.02 mm; reading 12.34 cm",
+        "B": "Least count 0.02 mm; reading 12.35 cm",
+        "C": "Least count 0.01 mm; reading 12.34 cm",
+        "D": "Least count 0.01 mm; reading 12.35 cm"
+      },
+      "correct_option": "B",
+      "answer": "Least count 0.02 mm; reading 12.35 cm",
+      "explanation": "One vernier division = 49 mm/50 = 0.98 mm, so least count = 1 mm − 0.98 mm = 0.02 mm. Vernier contribution = 23 × 0.02 mm = 0.46 mm = 0.046 cm. Adding to the main‑scale reading 12.30 cm gives 12.346 cm, which rounds to 12.35 cm with the instrument’s precision.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand screw gauge",
+      "question": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. When measuring a thin sheet, the zero of the circular scale coincides with the main scale at 1.20 mm, and the 12th division of the circular scale aligns with the main scale. What is the thickness of the sheet?",
+      "options": {
+        "A": "1.32 mm",
+        "B": "1.30 mm",
+        "C": "1.22 mm",
+        "D": "1.24 mm"
+      },
+      "correct_option": "A",
+      "answer": "1.32 mm",
+      "explanation": "Least count = pitch / number of divisions = 0.5 mm / 50 = 0.01 mm. Vernier contribution = 12 × 0.01 mm = 0.12 mm. Adding to the main‑scale reading 1.20 mm gives a total thickness of 1.32 mm.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Read instrument scales correctly",
+      "question": "A student measures a length using a vernier caliper and records the reading as 15.6 cm because the vernier scale shows 6 divisions aligning, ignoring the main‑scale reading. Which statement best identifies the mistake?",
+      "options": {
+        "A": "The student correctly added the vernier reading to the main scale reading.",
+        "B": "The student omitted the main‑scale reading, leading to an under‑estimate.",
+        "C": "The student added an extra zero, causing an over‑estimate.",
+        "D": "The student confused least count with zero error."
+      },
+      "correct_option": "B",
+      "answer": "The student omitted the main‑scale reading, leading to an under‑estimate.",
+      "explanation": "In a vernier caliper the total reading is the sum of the main‑scale reading and the vernier contribution. Ignoring the main‑scale value discards the bulk of the measurement, resulting in a value that is too low.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Identify zero error",
+      "question": "In a screw gauge, the zero of the circular scale lies 0.02 mm to the right of the main‑scale zero when the jaws are closed. What type of zero error is present and how should it be corrected in a measurement?",
+      "options": {
+        "A": "Positive zero error; subtract 0.02 mm from the measured value.",
+        "B": "Negative zero error; add 0.02 mm to the measured value.",
+        "C": "No zero error; no correction needed.",
+        "D": "Positive zero error; add 0.02 mm to the measured value."
+      },
+      "correct_option": "A",
+      "answer": "Positive zero error; subtract 0.02 mm from the measured value.",
+      "explanation": "When the circular scale reads a positive value with closed jaws, the instrument shows a larger value than the true zero—this is a positive zero error. To obtain the true measurement, the indicated reading must be reduced by the zero‑error amount.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand least count",
+      "question": "Which instrument provides a finer least count, and by how much is it finer? (Vernier caliper: 0.02 mm; Screw gauge: 0.01 mm)",
+      "options": {
+        "A": "Vernier caliper is finer by 0.01 mm.",
+        "B": "Screw gauge is finer by 0.01 mm.",
+        "C": "Both have the same least count.",
+        "D": "Screw gauge is coarser by 0.01 mm."
+      },
+      "correct_option": "B",
+      "answer": "Screw gauge is finer by 0.01 mm.",
+      "explanation": "A smaller least count indicates higher precision. The screw gauge’s least count of 0.01 mm is 0.01 mm smaller than the vernier caliper’s 0.02 mm, making it the finer instrument.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01144",
+      "learning_point": "Understand metre scale",
+      "question": "In a JEE‑style problem, a rod of length 1.00 m is measured using a metre scale with a least count of 1 mm. If the measured value is recorded as 1.001 m, what is the maximum possible percentage error in the measurement?",
+      "options": {
+        "A": "0.05%",
+        "B": "0.10%",
+        "C": "0.15%",
+        "D": "0.20%"
+      },
+      "correct_option": "B",
+      "answer": "0.10%",
+      "explanation": "Least count = 0.001 m, which is the maximum absolute error. Percentage error = (0.001 / 1.001) × 100 ≈ 0.0999 % ≈ 0.10 %.",
+      "difficulty": "hard"
+    }
+  ]
+}
