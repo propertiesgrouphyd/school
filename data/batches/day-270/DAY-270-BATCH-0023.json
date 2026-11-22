@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0023",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Count significant figures",
+      "question": "How many significant figures are present in the measurement 0.004560 m?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "In 0.004560, the leading zeros are not significant. The digits 4, 5, 6 and the trailing zero after the decimal are significant, giving a total of 4 significant figures. Options A, C and D count the zeros incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules involving zeros",
+      "question": "Which of the following numbers contains exactly three significant figures?",
+      "options": {
+        "A": "0.0045",
+        "B": "4500",
+        "C": "4.500",
+        "D": "0.0450"
+      },
+      "correct_option": "D",
+      "answer": "0.0450",
+      "explanation": "In 0.0450, the leading zeros are not significant, while the digits 4, 5 and the trailing zero after the decimal are significant, giving three significant figures. Option A has two, B has two (trailing zeros without a decimal are not significant), and C has four.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Round measurements correctly",
+      "question": "A length is measured as 12.3456 cm. What is the value of this length when rounded to three significant figures?",
+      "options": {
+        "A": "12.3 cm",
+        "B": "12.35 cm",
+        "C": "12.4 cm",
+        "D": "12.34 cm"
+      },
+      "correct_option": "A",
+      "answer": "12.3 cm",
+      "explanation": "The first three significant figures are 1, 2, and 3. The next digit is 4 (<5), so the third figure remains 3. Hence the rounded value is 12.3 cm. Options B, C and D either keep too many figures or round incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply significant-figure rules in addition and subtraction",
+      "question": "Add the following measurements using the correct rule for addition/subtraction: 12.11 cm + 0.023 cm + 1.4 cm. What is the result expressed with the proper number of significant figures?",
+      "options": {
+        "A": "13.53 cm",
+        "B": "13.5 cm",
+        "C": "13.6 cm",
+        "D": "13.4 cm"
+      },
+      "correct_option": "B",
+      "answer": "13.5 cm",
+      "explanation": "In addition/subtraction the result is limited by the least number of decimal places. The numbers have 2, 3 and 1 decimal places respectively, so the sum must be reported to one decimal place. 12.11 + 0.023 + 1.4 = 13.533 cm → 13.5 cm. Options A retains too many decimal places, C rounds up incorrectly, D rounds down incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules in multiplication and division",
+      "question": "What is the correctly rounded result of multiplying 4.56 (3 sf) by 1.4 (2 sf)?",
+      "options": {
+        "A": "6.384",
+        "B": "6.38",
+        "C": "6.4",
+        "D": "6.40"
+      },
+      "correct_option": "C",
+      "answer": "6.4",
+      "explanation": "The product must have as many significant figures as the factor with the fewest (2 sf). 4.56 × 1.4 = 6.384, which rounded to two significant figures is 6.4. Option A keeps all digits, B has three significant figures, and D shows an unnecessary trailing zero implying three significant figures.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Report calculated quantities appropriately",
+      "question": "A length measured as 12.30 cm is multiplied by 3.0 to find a total length. How should the final answer be reported?",
+      "options": {
+        "A": "36.9 cm",
+        "B": "36.90 cm",
+        "C": "36.0 cm",
+        "D": "36 cm"
+      },
+      "correct_option": "A",
+      "answer": "36.9 cm",
+      "explanation": "12.30 cm has three significant figures, 3.0 has two. The product must be reported with two significant figures, giving 36.9 cm. Option B implies three significant figures, C also implies three, and D loses the decimal point, making the precision unclear.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Count significant figures",
+      "question": "Which of the following statements is correct?\n\nI. 0.0045600 has more significant figures than 0.00456.\nII. Both numbers have the same number of significant figures.\nIII. 0.00456 has more significant figures than 0.0045600.",
+      "options": {
+        "A": "Statement I only",
+        "B": "Statement II only",
+        "C": "Statement III only",
+        "D": "None of the above"
+      },
+      "correct_option": "A",
+      "answer": "Statement I only",
+      "explanation": "0.0045600 contains the digits 4,5,6,0,0 after the leading zeros, giving five significant figures. 0.00456 contains only 4,5,6, i.e., three significant figures. Therefore, the first number has more significant figures, making statement I true and the others false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules involving zeros",
+      "question": "Which of the following numbers has exactly two significant figures?",
+      "options": {
+        "A": "0.0045",
+        "B": "4500",
+        "C": "4.500×10^3",
+        "D": "0.0450"
+      },
+      "correct_option": "A",
+      "answer": "0.0045",
+      "explanation": "In 0.0045 the leading zeros are not significant; only the digits 4 and 5 are, giving exactly two significant figures. Option B’s trailing zeros are ambiguous without a decimal point, option C has four significant figures (4,5,0,0), and option D has three significant figures (4,5,0).",
+      "difficulty": "hard"
+    }
+  ]
+}
