@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "What is the addition theorem for the probabilities of two events A and B?",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B)",
+        "B": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+        "C": "P(A ∪ B) = P(A ∩ B)",
+        "D": "P(A ∪ B) = P(A) × P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+      "explanation": "The addition theorem (or principle of inclusion‑exclusion for two events) states that the probability of the union of A and B equals the sum of their individual probabilities minus the probability of their intersection, to avoid double‑counting the overlap.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "If P(A)=0.3, P(B)=0.4 and P(A ∩ B)=0.1, what is P(A ∪ B)?",
+      "options": {
+        "A": "0.6",
+        "B": "0.7",
+        "C": "0.5",
+        "D": "0.9"
+      },
+      "correct_option": "A",
+      "answer": "0.6",
+      "explanation": "Using the addition theorem: P(A ∪ B)=P(A)+P(B)−P(A ∩ B)=0.3+0.4−0.1=0.6. The other options ignore the subtraction of the overlap or add extra probability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which of the following best defines mutually exclusive events?",
+      "options": {
+        "A": "Events that cannot occur together",
+        "B": "Events whose occurrences are independent",
+        "C": "Events that always occur together",
+        "D": "Events that have equal probabilities"
+      },
+      "correct_option": "A",
+      "answer": "Events that cannot occur together",
+      "explanation": "Mutually exclusive (or disjoint) events have no common outcomes, so the occurrence of one prevents the occurrence of the other. Independence (option B) is a different concept, and options C and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "A bag contains 5 red, 7 blue and 3 green balls. One ball is drawn at random. Let A be the event \"red ball\" and B be the event \"blue ball\". What is P(A ∪ B)?",
+      "options": {
+        "A": "0.8",
+        "B": "0.6",
+        "C": "0.7",
+        "D": "0.5"
+      },
+      "correct_option": "A",
+      "answer": "0.8",
+      "explanation": "Total balls = 15. P(A)=5/15=1/3, P(B)=7/15. Since a ball cannot be both red and blue, P(A ∩ B)=0. Using the addition theorem: P(A ∪ B)=1/3+7/15=5/15+7/15=12/15=0.8. The other options either ignore the zero intersection or mis‑calculate the fractions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "In a survey, 40% of people like tea, 30% like coffee, and 10% like both. According to the addition theorem, what percentage like tea or coffee (or both)?",
+      "options": {
+        "A": "70%",
+        "B": "80%",
+        "C": "60%",
+        "D": "90%"
+      },
+      "correct_option": "C",
+      "answer": "60%",
+      "explanation": "Apply P(Tea ∪ Coffee)=P(Tea)+P(Coffee)−P(Tea ∩ Coffee)=40%+30%−10%=60%. Option A adds the percentages without subtracting the overlap, while B and D are too large.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "Two fair dice are rolled. Let A be the event \"sum of the dice is 7\" and B be the event \"at least one die shows 6\". What is P(A ∪ B)?",
+      "options": {
+        "A": "5/12",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "7/12"
+      },
+      "correct_option": "A",
+      "answer": "5/12",
+      "explanation": "Total outcomes = 36. P(A)=6/36=1/6. P(B)=11/36 (any outcome with a 6). Intersection A ∩ B consists of (1,6) and (6,1) → 2/36=1/18. Using the addition theorem: P(A ∪ B)=1/6+11/36−1/18 = 6/36+11/36−2/36 = 15/36 = 5/12. The other options result from incorrect counting of the intersection or omission of it.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "True or False: If two events are mutually exclusive, then P(A ∩ B) = P(A) × P(B).",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Both can be true depending on the events",
+        "D": "Neither; the expression is undefined for mutually exclusive events"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "For mutually exclusive events, P(A ∩ B)=0 because they cannot occur together. The product P(A)×P(B) is generally non‑zero unless one of the events has probability zero. Hence the statement is false. Option A confuses mutual exclusivity with independence, while C and D misinterpret the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "In a class, 20 students study mathematics, 15 study physics, and 5 study both subjects. Using the addition theorem, how many students study either mathematics or physics (or both)?",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "25",
+        "D": "40"
+      },
+      "correct_option": "A",
+      "answer": "30",
+      "explanation": "Number studying either subject = 20 + 15 – 5 = 30. The subtraction removes the double‑counted 5 students who study both. Options B, C, and D either add the overlap or ignore it.",
+      "difficulty": "medium"
+    }
+  ]
+}

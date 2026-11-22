@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following statements correctly states the addition theorem for any two events A and B in a probability experiment?",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+        "B": "P(A ∪ B) = P(A) + P(B) + P(A ∩ B)",
+        "C": "P(A ∪ B) = P(A) – P(B) + P(A ∩ B)",
+        "D": "P(A ∪ B) = P(A) + P(B) – 2·P(A ∩ B)"
+      },
+      "correct_option": "A",
+      "answer": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+      "explanation": "The addition theorem accounts for the overlap between events by subtracting the probability of their intersection. Hence the correct formula is P(A ∪ B) = P(A) + P(B) – P(A ∩ B). The other options either add the intersection or subtract it incorrectly.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A standard deck of 100 cards contains 40 red cards and 4 king cards. Only one card, the red king, belongs to both categories. What is the probability of drawing a card that is either red or a king?",
+      "options": {
+        "A": "0.44",
+        "B": "0.43",
+        "C": "0.45",
+        "D": "0.42"
+      },
+      "correct_option": "B",
+      "answer": "0.43",
+      "explanation": "Using the addition theorem: P(red ∪ king) = (40/100) + (4/100) – (1/100) = 43/100 = 0.43. Option B matches this value. The other options arise from incorrect addition or subtraction of the overlap.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Two events are said to be mutually exclusive if",
+      "options": {
+        "A": "they cannot occur together; i.e., P(A ∩ B) = 0",
+        "B": "they are independent; i.e., P(A ∩ B) = P(A)·P(B)",
+        "C": "one event is a subset of the other",
+        "D": "they have equal probabilities"
+      },
+      "correct_option": "A",
+      "answer": "they cannot occur together; i.e., P(A ∩ B) = 0",
+      "explanation": "Mutually exclusive (disjoint) events have no common outcomes, so their intersection probability is zero. Independence (option B) is a different concept, and the other statements do not define mutual exclusivity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "If P(A) = 0.3, P(B) = 0.5 and P(A ∩ B) = 0.1, what is P(A ∪ B)?",
+      "options": {
+        "A": "0.6",
+        "B": "0.7",
+        "C": "0.8",
+        "D": "0.9"
+      },
+      "correct_option": "B",
+      "answer": "0.7",
+      "explanation": "Using the addition theorem: P(A ∪ B) = 0.3 + 0.5 – 0.1 = 0.7. Option B is correct. The other options result from omitting the subtraction of the intersection or miscalculating.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which statement correctly distinguishes the addition theorem from the multiplication rule for probabilities?",
+      "options": {
+        "A": "The addition theorem gives P(A ∪ B)=P(A)+P(B)−P(A∩B); the multiplication rule gives P(A∩B)=P(A)·P(B) only when A and B are independent.",
+        "B": "The addition theorem gives P(A∩B)=P(A)+P(B)−P(A∪B); the multiplication rule gives P(A∪B)=P(A)·P(B) for any events.",
+        "C": "Both theorems are the same and can be used interchangeably.",
+        "D": "The addition theorem applies only to mutually exclusive events."
+      },
+      "correct_option": "A",
+      "answer": "The addition theorem gives P(A ∪ B)=P(A)+P(B)−P(A∩B); the multiplication rule gives P(A∩B)=P(A)·P(B) only when A and B are independent.",
+      "explanation": "Option A correctly states both formulas and the condition for the multiplication rule (independence). Options B, C, and D contain incorrect statements about the formulas or their applicability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A bag contains 5 red, 7 blue, and 3 green balls (total 15). Let A be the event \"ball is red or blue\" and B be the event \"ball is red\". What is P(A ∪ B)?",
+      "options": {
+        "A": "0.8",
+        "B": "0.6",
+        "C": "0.7",
+        "D": "0.9"
+      },
+      "correct_option": "A",
+      "answer": "0.8",
+      "explanation": "Event A already includes all red balls, so A ∪ B = A. Number of favorable outcomes = 5 (red) + 7 (blue) = 12. Probability = 12/15 = 0.8. Option A is correct; the other options arise from incorrect counting or unnecessary addition of P(B).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "From a standard deck of 52 cards, which pair of events are mutually exclusive?",
+      "options": {
+        "A": "Event A: drawing a heart, Event B: drawing a queen",
+        "B": "Event A: drawing a red card, Event B: drawing a black card",
+        "C": "Event A: drawing an ace, Event B: drawing a king",
+        "D": "Event A: drawing a face card, Event B: drawing a king"
+      },
+      "correct_option": "C",
+      "answer": "Event A: drawing an ace, Event B: drawing a king",
+      "explanation": "A single card cannot be both an ace and a king, so the events are mutually exclusive (P=0). In option A, the queen of hearts belongs to both events; option B cannot occur because a card cannot be both red and black; option D is not mutually exclusive because a king is a face card.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "In a class of 60 students, 35 play cricket, 28 play football, and 12 play both cricket and football. What is the probability that a randomly selected student plays either cricket or football?",
+      "options": {
+        "A": "0.85",
+        "B": "0.80",
+        "C": "0.75",
+        "D": "0.90"
+      },
+      "correct_option": "A",
+      "answer": "0.85",
+      "explanation": "Using the addition theorem: Number playing at least one sport = 35 + 28 – 12 = 51. Probability = 51/60 = 0.85. Option A matches this value. The other options result from forgetting to subtract the overlap or from arithmetic errors.",
+      "difficulty": "medium"
+    }
+  ]
+}

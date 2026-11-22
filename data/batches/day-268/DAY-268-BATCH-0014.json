@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-1",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "What does the conditional probability P(A|B) represent?",
+      "options": {
+        "A": "The probability that both events A and B occur.",
+        "B": "The probability of event A occurring given that event B has occurred.",
+        "C": "The probability of event B occurring given that event A has occurred.",
+        "D": "The probability that event A occurs regardless of event B."
+      },
+      "correct_option": "B",
+      "answer": "The probability of event A occurring given that event B has occurred.",
+      "explanation": "Conditional probability P(A|B) is defined as the likelihood that event A happens under the condition that event B is known to have happened. It is calculated as P(A∩B)/P(B) when P(B)>0. Option B states this definition, while the other options describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-2",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "A standard deck has 52 cards. If it is known that a drawn card is a face card (Jack, Queen, or King), what is the probability that the card is a King?",
+      "options": {
+        "A": "1/4",
+        "B": "1/3",
+        "C": "1/13",
+        "D": "1/12"
+      },
+      "correct_option": "B",
+      "answer": "1/3",
+      "explanation": "There are 12 face cards in a deck (3 per suit). Among them, 4 are Kings. Hence P(King|Face)=4/12=1/3. Option B is correct; the other fractions correspond to different counts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-3",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "Which formula correctly states the multiplication rule for two events A and B?",
+      "options": {
+        "A": "P(A\\u2229B)=P(A)+P(B|A)",
+        "B": "P(A\\u2229B)=P(A)\\u00b7P(B|A)",
+        "C": "P(A\\u2229B)=P(A)\\u00b7P(B)",
+        "D": "P(A\\u2229B)=P(B)\\u00b7P(A|B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A\\u2229B)=P(A)\\u00b7P(B|A)",
+      "explanation": "The multiplication rule states that the probability of both A and B occurring equals the probability of A times the probability of B given that A has occurred. Option B expresses this correctly. Option C would be valid only for independent events, and A and D are algebraically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-4",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Which pair of events below are independent?",
+      "options": {
+        "A": "Getting a head on the first toss of a coin and getting a head on the second toss of the same coin",
+        "B": "Drawing a king from a deck and then drawing a queen without replacement",
+        "C": "Selecting a red ball from a bag and then selecting a blue ball from the same bag without replacement",
+        "D": "Choosing a card from a deck and then choosing a card from the same deck after shuffling"
+      },
+      "correct_option": "A",
+      "answer": "Getting a head on the first toss of a coin and getting a head on the second toss of the same coin",
+      "explanation": "Two tosses of a fair coin do not influence each other; the outcome of the first toss does not affect the probability of the second. Hence they are independent. Options B and C involve draws without replacement, creating dependence. Option D would also be independent after reshuffling, but option A is the simplest illustration as required.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-5",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Understand conditional probability",
+      "question": "A bag contains 3 red and 2 blue balls. One ball is drawn and not replaced. If the first ball drawn is red, what does the conditional probability of drawing a red ball on the second draw represent?",
+      "options": {
+        "A": "The chance of drawing a red ball on the second draw irrespective of the first draw",
+        "B": "The chance that the first ball was red",
+        "C": "The chance of drawing a red ball on the second draw given that the first ball was red",
+        "D": "The overall probability of drawing two red balls in succession"
+      },
+      "correct_option": "C",
+      "answer": "The chance of drawing a red ball on the second draw given that the first ball was red",
+      "explanation": "Conditional probability quantifies the likelihood of an event under a specific condition. Here it measures the probability of a red ball on the second draw **under the condition** that a red ball was already drawn first. Option C captures this meaning; the other options describe unrelated probabilities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-6",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Calculate conditional probability",
+      "question": "In a class, 60% of students study for an exam. Among those who study, 80% pass. Among those who do not study, 30% pass. What is the conditional probability that a student passes given that the student studied?",
+      "options": {
+        "A": "0.48",
+        "B": "0.60",
+        "C": "0.80",
+        "D": "0.30"
+      },
+      "correct_option": "C",
+      "answer": "0.80",
+      "explanation": "The conditional probability P(Pass|Study) is directly given as 80% for the subgroup that studies. Hence the answer is 0.80. Options A and B mix overall probabilities, while D refers to the non‑studying group.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-7",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Use multiplication rule",
+      "question": "A box contains 5 red and 5 blue balls. Two balls are drawn successively without replacement. Which of the following reflects a common mistake when applying the multiplication rule to find the probability that both balls are red?",
+      "options": {
+        "A": "Multiplying P(first red)=5/10 by P(second red)=5/10",
+        "B": "Multiplying P(first red)=5/10 by P(second red)=4/9",
+        "C": "Adding the two probabilities",
+        "D": "Using P(first red)=5/10 alone"
+      },
+      "correct_option": "A",
+      "answer": "Multiplying P(first red)=5/10 by P(second red)=5/10",
+      "explanation": "A frequent error is to treat the draws as independent and use the original proportion for both draws. After a red ball is removed, the correct second‑draw probability is 4/9, not 5/10. Option A shows the mistaken calculation; option B is the correct application, while C and D are unrelated errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-8",
+      "learning_unit_id": "LU-01139",
+      "learning_point": "Distinguish independent and dependent events at the required level",
+      "question": "Two cards are drawn, one from each of two separate, well-shuffled standard decks. Are the events 'first card is an ace' and 'second card is an ace' independent, and why?",
+      "options": {
+        "A": "Yes, because the outcome of the first draw does not affect the second deck",
+        "B": "No, because drawing an ace reduces the number of aces in the second deck",
+        "C": "Yes, because both events are mutually exclusive",
+        "D": "No, because the decks are identical"
+      },
+      "correct_option": "A",
+      "answer": "Yes, because the outcome of the first draw does not affect the second deck",
+      "explanation": "Since the cards come from different decks that are independently shuffled, the result of the first draw has no influence on the composition of the second deck. Therefore the events are independent. Option B incorrectly assumes a shared deck, C misstates independence as mutual exclusivity, and D is irrelevant.",
+      "difficulty": "medium"
+    }
+  ]
+}

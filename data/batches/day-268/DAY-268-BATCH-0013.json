@@ -1,0 +1,78 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following statements correctly expresses the addition theorem for two events A and B?",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B)",
+        "B": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+        "C": "P(A ∪ B) = P(A ∩ B)",
+        "D": "P(A ∪ B) = P(A) – P(B) + P(A ∩ B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+      "explanation": "The addition theorem accounts for the overlap between events. If A and B are not mutually exclusive, the intersection P(A ∩ B) is counted twice when adding P(A) and P(B); therefore it must be subtracted once. Option B states this correctly. Option A ignores the overlap, option C confuses union with intersection, and option D is algebraically incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A card is drawn at random from a standard deck of 52 cards. Let A be the event \"the card is a heart\" and B be the event \"the card is a king\". What is P(A ∪ B)?",
+      "options": {
+        "A": "4/13",
+        "B": "5/13",
+        "C": "4/52",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "answer": "4/13",
+      "explanation": "P(A) = 13/52 (hearts). P(B) = 4/52 (kings). The intersection is the king of hearts, so P(A ∩ B) = 1/52. Using the addition theorem: P(A ∪ B) = 13/52 + 4/52 – 1/52 = 16/52 = 4/13. Option A matches this value; the other options are results of incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which of the following statements correctly describes mutually exclusive events?",
+      "options": {
+        "A": "For mutually exclusive events, P(A ∩ B) = 0 and P(A ∪ B) = P(A) + P(B).",
+        "B": "For mutually exclusive events, P(A ∩ B) = P(A)·P(B).",
+        "C": "For mutually exclusive events, P(A ∪ B) = P(A)·P(B).",
+        "D": "For mutually exclusive events, P(A ∩ B) = P(A) + P(B)."
+      },
+      "correct_option": "A",
+      "answer": "For mutually exclusive events, P(A ∩ B) = 0 and P(A ∪ B) = P(A) + P(B).",
+      "explanation": "Mutually exclusive (disjoint) events cannot occur together, so their intersection probability is zero. Consequently, the probability of their union is simply the sum of the individual probabilities. Option A states this precisely. Options B, C, and D confuse the definition with the multiplication rule for independent events or give mathematically impossible statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "In a class of 100 students, 60 study Mathematics, 45 study Physics, and 30 study both subjects. If a student is selected at random, what is the probability that the student studies at least one of the two subjects?",
+      "options": {
+        "A": "0.55",
+        "B": "0.65",
+        "C": "0.75",
+        "D": "0.85"
+      },
+      "correct_option": "C",
+      "answer": "0.75",
+      "explanation": "Let M be the event \"studies Mathematics\" and P be \"studies Physics\". P(M) = 60/100 = 0.60, P(P) = 45/100 = 0.45, and P(M ∩ P) = 30/100 = 0.30. Using the addition theorem: P(M ∪ P) = 0.60 + 0.45 – 0.30 = 0.75. Hence the probability is 0.75 (option C). The other options result from omitting the intersection term or mis‑adding the probabilities.",
+      "difficulty": "hard"
+    }
+  ]
+}
