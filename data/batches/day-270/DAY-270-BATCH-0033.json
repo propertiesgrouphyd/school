@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0033",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "Which of the following statements correctly compares the dimensions of force and energy?",
+      "options": {
+        "A": "Both force and energy have the same dimensions.",
+        "B": "Energy has dimensions M L² T⁻², which is the dimensions of force multiplied by length.",
+        "C": "Force has dimensions M L² T⁻², which is the dimensions of energy divided by length.",
+        "D": "Energy has dimensions M L T⁻², the same as force."
+      },
+      "correct_option": "B",
+      "answer": "Energy has dimensions M L² T⁻², which is the dimensions of force multiplied by length.",
+      "explanation": "Force = M L T⁻². Energy (or work) = force × displacement, so its dimensions are (M L T⁻²) × L = M L² T⁻². Hence option B correctly describes the relationship; the other options either claim identical dimensions or reverse the relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "What is the correct dimensional formula for power?",
+      "options": {
+        "A": "M L² T⁻³",
+        "B": "M L T⁻²",
+        "C": "M L² T⁻²",
+        "D": "M L⁻¹ T⁻³"
+      },
+      "correct_option": "A",
+      "answer": "M L² T⁻³",
+      "explanation": "Power is the rate of doing work: P = work/time. Work has dimensions M L² T⁻²; dividing by time (T) gives M L² T⁻³. Option A matches this; the other options correspond to dimensions of force, energy, or an incorrect combination.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "The equation s = ut + \\frac{1}{2} a t^2 is dimensionally consistent. Which check confirms this?",
+      "options": {
+        "A": "Both sides have the dimension of length.",
+        "B": "Both sides have the dimension of time.",
+        "C": "Both sides have the dimension of velocity.",
+        "D": "Both sides have the dimension of acceleration."
+      },
+      "correct_option": "A",
+      "answer": "Both sides have the dimension of length.",
+      "explanation": "s (displacement) has dimension L. The term ut is (velocity)(time) → (L T⁻¹)(T) = L. The term (1/2) a t^2 is (acceleration)(time²) → (L T⁻²)(T²) = L. Hence each term and the left‑hand side are of dimension L, confirming consistency. The other options refer to incorrect dimensions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, the period T of a simple pendulum depends on its length l and the acceleration due to gravity g. Which relation is obtained?",
+      "options": {
+        "A": "T \\propto \\sqrt{l/g}",
+        "B": "T \\propto l/g",
+        "C": "T \\propto l\\sqrt{g}",
+        "D": "T \\propto g/l"
+      },
+      "correct_option": "A",
+      "answer": "T \\propto \\sqrt{l/g}",
+      "explanation": "Period T has dimension T. Length l is L, and g is L T⁻². To combine them to give T, we need T ∝ l^{a} g^{b}. Solving L^{a+b} T^{-2b} = T¹ gives a + b = 0 and -2b = 1 → b = -1/2, a = 1/2. Hence T ∝ l^{1/2} g^{-1/2} = √(l/g). Option A is correct; the others give wrong dimensional dependence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "Which statement correctly distinguishes converting 500 cm to meters using dimensional reasoning?",
+      "options": {
+        "A": "Multiply by 10² because 1 m = 100 cm.",
+        "B": "Divide by 10² because the dimension of length stays the same; only the numerical factor changes.",
+        "C": "Add 100 because dimensions are added.",
+        "D": "Subtract 100 because dimensions are subtracted."
+      },
+      "correct_option": "B",
+      "answer": "Divide by 10² because the dimension of length stays the same; only the numerical factor changes.",
+      "explanation": "Dimensional reasoning tells us that the physical dimension (length) does not change; we only adjust the numerical value. Since 1 m = 100 cm, 500 cm = 500/100 = 5 m, i.e., divide by 10². Option B captures this; option A would give 500 × 100 = 50 000 m, which is incorrect, and C/D misuse addition/subtraction of dimensions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "In which of the following situations can dimensional analysis NOT provide a complete answer?",
+      "options": {
+        "A": "Finding the period of a simple pendulum.",
+        "B": "Determining the numerical coefficient in the kinetic energy expression \\(\\frac{1}{2}mv^2\\).",
+        "C": "Checking whether the equation \\(F = ma\\) is dimensionally consistent.",
+        "D": "Deriving the relation between force, mass and acceleration."
+      },
+      "correct_option": "B",
+      "answer": "Determining the numerical coefficient in the kinetic energy expression \\(\\frac{1}{2}mv^2\\).",
+      "explanation": "Dimensional analysis can give the form of a relation but cannot yield dimensionless numerical factors such as the 1/2 in kinetic energy. Options A, C, and D involve only the form of relations, which dimensional analysis can handle; option B requires a specific constant, which is beyond its scope.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "The quantity electric charge Q is measured in coulombs. Which of the following correctly defines its dimensions?",
+      "options": {
+        "A": "[Q] = I T",
+        "B": "[Q] = M L² T⁻³ I⁻¹",
+        "C": "[Q] = M L T⁻²",
+        "D": "[Q] = L² T⁻²"
+      },
+      "correct_option": "A",
+      "answer": "[Q] = I T",
+      "explanation": "Electric current I has dimension I (by definition). Charge is current multiplied by time, so its dimension is I × T. Option A states this correctly. The other options mix unrelated fundamental dimensions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "A particle moves under a constant force F through a displacement d. The work done is given by W = F d. What is the dimensional formula of work?",
+      "options": {
+        "A": "M L² T⁻²",
+        "B": "M L T⁻²",
+        "C": "M L² T⁻³",
+        "D": "M L⁻¹ T⁻²"
+      },
+      "correct_option": "A",
+      "answer": "M L² T⁻²",
+      "explanation": "Force has dimensions M L T⁻² and displacement has dimensions L. Multiplying gives M L T⁻² × L = M L² T⁻², which is the dimension of work (or energy). Option A matches this; the other options correspond to dimensions of force, power, or an incorrect combination.",
+      "difficulty": "medium"
+    }
+  ]
+}

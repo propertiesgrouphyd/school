@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Which of the following expressions is dimensionally inconsistent?",
+      "options": {
+        "A": "v = u + a t",
+        "B": "F = m a^{2}",
+        "C": "E = \\frac{1}{2} m v^{2}",
+        "D": "p = m v"
+      },
+      "correct_option": "B",
+      "answer": "F = m a^{2}",
+      "explanation": "Force has dimensions M L T^{-2}. In option B, the right‑hand side is mass (M) multiplied by acceleration squared (L^{2} T^{-4}), giving M L^{2} T^{-4}, which does not match the dimensions of force. Options A, C and D all have matching dimensions on both sides, so they are consistent.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "The period T of a simple pendulum depends only on its length L and the acceleration due to gravity g. Which of the following expressions is dimensionally consistent for T?",
+      "options": {
+        "A": "T = 2\\pi \\sqrt{L/g}",
+        "B": "T = 2\\pi \\sqrt{g/L}",
+        "C": "T = 2\\pi L/g",
+        "D": "T = 2\\pi g L"
+      },
+      "correct_option": "A",
+      "answer": "T = 2\\pi \\sqrt{L/g}",
+      "explanation": "Length L has dimension L, and g has dimension L T^{-2}. The ratio L/g therefore has dimension T^{2}. Taking the square root gives T, matching the dimension of period. Option A respects this, while the other options give dimensions of T^{-1}, L T^{-1}, or L^{2} T^{-2}, which are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "The speed of sound in air is 340 m s⁻¹. Which of the following values is the same speed expressed in km h⁻¹?",
+      "options": {
+        "A": "1020 km/h",
+        "B": "1224 km/h",
+        "C": "1500 km/h",
+        "D": "1800 km/h"
+      },
+      "correct_option": "B",
+      "answer": "1224 km/h",
+      "explanation": "1 m s⁻¹ = 3.6 km h⁻¹. Multiplying 340 by 3.6 gives 1224 km h⁻¹. The other options correspond to different conversion factors and are therefore incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Which of the following statements describes a limitation of dimensional analysis?",
+      "options": {
+        "A": "It cannot determine the numerical value of dimensionless constants in a physical law.",
+        "B": "It can predict the exact numerical coefficient in any formula.",
+        "C": "It can be used to derive the precise form of all physical equations.",
+        "D": "It can add quantities having different dimensions."
+      },
+      "correct_option": "A",
+      "answer": "It cannot determine the numerical value of dimensionless constants in a physical law.",
+      "explanation": "Dimensional analysis yields the form of a relation up to a dimensionless constant; it cannot provide that constant's numerical value. Options B and C are false because dimensional analysis does not give exact coefficients or complete equations. Option D is also false because adding quantities of different dimensions is mathematically meaningless, not a limitation of the method.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "In physics, what is the definition of 'dimensions' of a physical quantity?",
+      "options": {
+        "A": "Dimensions are the units assigned to a physical quantity.",
+        "B": "Dimensions are the fundamental nature of a physical quantity expressed in terms of base quantities.",
+        "C": "Dimensions are the numerical values obtained when measuring the quantity.",
+        "D": "Dimensions are the symbols used in equations to represent the quantity."
+      },
+      "correct_option": "B",
+      "answer": "Dimensions are the fundamental nature of a physical quantity expressed in terms of base quantities.",
+      "explanation": "Dimensions describe how a quantity is built from the fundamental base quantities (M, L, T, etc.). Units (option A) are specific measures of those dimensions, while numerical values (option C) and symbols (option D) are different concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "What is the dimensional formula of force?",
+      "options": {
+        "A": "M L T^{-2}",
+        "B": "M L^{2} T^{-2}",
+        "C": "M L T^{-1}",
+        "D": "M L^{-1} T^{-2}"
+      },
+      "correct_option": "A",
+      "answer": "M L T^{-2}",
+      "explanation": "Force = mass × acceleration. Mass has dimension M, acceleration has dimension L T^{-2}. Multiplying gives M L T^{-2}. The other options correspond to different physical quantities such as energy (M L^{2} T^{-2}) or momentum (M L T^{-1}).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Consider the following equations. Which one is dimensionally inconsistent?",
+      "options": {
+        "A": "s = u t + \\frac{1}{2} a t^{2}",
+        "B": "v = u + \\frac{1}{2} a t^{2}",
+        "C": "p = m v",
+        "D": "E = \\frac{1}{2} m v^{2}"
+      },
+      "correct_option": "B",
+      "answer": "v = u + \\frac{1}{2} a t^{2}",
+      "explanation": "Velocity (v) and initial velocity (u) have dimension L T^{-1}. The term a t^{2} has dimension (L T^{-2}) × T^{2} = L, which is not a velocity. Hence option B mixes incompatible dimensions. Options A, C, and D are all dimensionally consistent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "The time period T of a mass‑spring system depends on the mass m and the spring constant k. Which of the following expressions is dimensionally correct for T?",
+      "options": {
+        "A": "T = 2\\pi \\sqrt{m/k}",
+        "B": "T = 2\\pi \\sqrt{k/m}",
+        "C": "T = 2\\pi m/k",
+        "D": "T = 2\\pi k m"
+      },
+      "correct_option": "A",
+      "answer": "T = 2\\pi \\sqrt{m/k}",
+      "explanation": "Mass m has dimension M, spring constant k has dimension M T^{-2}. The ratio m/k therefore has dimension T^{2}. Taking the square root yields T, matching the period's dimension. Option A respects this, while B gives T^{-1}, C gives dimensionless, and D gives M^{2} T^{-2}, all incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

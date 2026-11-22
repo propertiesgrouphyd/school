@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "A car travels at 90 km/h. Using dimensional reasoning, what is its speed in m/s?",
+      "options": {
+        "A": "25 m/s",
+        "B": "30 m/s",
+        "C": "20 m/s",
+        "D": "15 m/s"
+      },
+      "correct_option": "A",
+      "answer": "25 m/s",
+      "explanation": "90 km/h = 90×1000 m / 3600 s = 90000/3600 s = 25 m/s. Converting km to m multiplies by 1000 and converting hour to seconds divides by 3600, giving 25 m/s. The other options result from incorrect conversion factors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Which statement correctly describes a limitation of dimensional analysis?",
+      "options": {
+        "A": "It cannot determine dimensionless constants",
+        "B": "It can predict the exact numerical value of physical constants",
+        "C": "It can derive exact equations for all physical phenomena",
+        "D": "It can replace experimental verification"
+      },
+      "correct_option": "A",
+      "answer": "It cannot determine dimensionless constants",
+      "explanation": "Dimensional analysis provides the form of relationships but cannot give the numerical value of pure numbers (dimensionless constants) that appear in the final equation. Options B, C and D overstate its capability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "In physics, the term 'dimensions' of a physical quantity refers to:",
+      "options": {
+        "A": "The numerical value of the quantity in a chosen unit system",
+        "B": "The combination of fundamental base quantities that represent the quantity",
+        "C": "The unit symbols used to express the quantity",
+        "D": "The graphical representation of the quantity"
+      },
+      "correct_option": "B",
+      "answer": "The combination of fundamental base quantities that represent the quantity",
+      "explanation": "Dimensions express a quantity as a product of powers of the fundamental base quantities (M, L, T, etc.). The numerical value (A) depends on the unit, while unit symbols (C) are not dimensions, and graphs (D) are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "What is the dimensional formula of pressure?",
+      "options": {
+        "A": "M L^{-1} T^{-2}",
+        "B": "M L^{-2} T^{-2}",
+        "C": "M L T^{-2}",
+        "D": "M L^{-1} T^{-1}"
+      },
+      "correct_option": "A",
+      "answer": "M L^{-1} T^{-2}",
+      "explanation": "Pressure = force/area. Force has dimensions M L T^{-2}; area has L^{2}. Dividing gives M L^{-1} T^{-2}. Options B, C, D result from incorrect division or omission of a length factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Which of the following equations is dimensionally consistent?",
+      "options": {
+        "A": "s = ut + (1/2) a t^{2}",
+        "B": "v = u + a t^{3}",
+        "C": "F = m a^{2}",
+        "D": "P = V I^{2}"
+      },
+      "correct_option": "A",
+      "answer": "s = ut + (1/2) a t^{2}",
+      "explanation": "s (L) = u (L T^{-1})·t (T) + a (L T^{-2})·t^{2} (T^{2}) → both terms give L. Options B (a t^{3} gives L T^{-2}·T^{3}=L T) mismatches velocity (L T^{-1}); C gives dimensions M·(L T^{-2})^{2}=M L^{2} T^{-4} not force (M L T^{-2}); D gives power (M L^{2} T^{-3}) vs V I^{2} (M L^{2} T^{-3}) actually dimensionally correct, but the standard form is P = V I, not V I^{2}, making it inconsistent with known relation. Hence A is the clear consistent equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "The period T of a simple pendulum depends on its length l and the gravitational acceleration g. Using dimensional analysis, which relation could be correct?",
+      "options": {
+        "A": "T = k \\; l \\; g",
+        "B": "T = k \\; \\sqrt{l/g}",
+        "C": "T = k \\; l / g",
+        "D": "T = k \\; g / \\sqrt{l}"
+      },
+      "correct_option": "B",
+      "answer": "T = k \\; \\sqrt{l/g}",
+      "explanation": "Period T has dimension T. Length l is L, g is L T^{-2}. To obtain T, combine as (l/g)^{1/2} → (L / (L T^{-2}))^{1/2}=T. Hence T ∝ √(l/g). Options A, C, D give incorrect dimensions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "A student says that multiplying a length in meters by 1000 gives the length in centimeters, and the same factor can be used to convert kilometers to meters. Is this reasoning correct?",
+      "options": {
+        "A": "Yes, because the factor 1000 works for any conversion involving powers of ten",
+        "B": "No, because converting meters to centimeters requires a factor of 100, not 1000",
+        "C": "No, because conversion factors depend on the specific units involved",
+        "D": "Yes, because dimensional analysis ignores unit prefixes"
+      },
+      "correct_option": "C",
+      "answer": "No, because conversion factors depend on the specific units involved",
+      "explanation": "Each pair of units has its own conversion factor: 1 m = 100 cm (factor 100) and 1 km = 1000 m (factor 1000). Using the same factor for different unit pairs is incorrect, so the student's reasoning is flawed. Options A and D are false; B is true but does not address the broader misconception, whereas C captures the core error.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Why can't dimensional analysis be used to find the numerical value of the drag coefficient (a dimensionless quantity) in fluid flow?",
+      "options": {
+        "A": "Because the drag coefficient has dimensions of force",
+        "B": "Because dimensional analysis only works for quantities with dimensions",
+        "C": "Because the drag coefficient depends on shape and Reynolds number, which are themselves dimensionless",
+        "D": "Because the drag coefficient is measured in newtons"
+      },
+      "correct_option": "B",
+      "answer": "Because dimensional analysis only works for quantities with dimensions",
+      "explanation": "Dimensional analysis can relate quantities that have dimensions; it cannot determine the value of a pure number that carries no dimensions. The drag coefficient is dimensionless, so its numerical value must be obtained experimentally or from detailed theory, not from dimensional reasoning. Options A and D incorrectly assign dimensions, while C, although true about dependence, does not explain the limitation of dimensional analysis.",
+      "difficulty": "medium"
+    }
+  ]
+}

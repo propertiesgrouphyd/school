@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Which of the following equations is dimensionally consistent?",
+      "options": {
+        "A": "v = u + a t",
+        "B": "s = u t + \\frac{1}{2} a t^{3}",
+        "C": "F = m a^{2}",
+        "D": "P = \\frac{V}{I}"
+      },
+      "correct_option": "A",
+      "answer": "v = u + a t",
+      "explanation": "In v = u + a t, each term has dimensions of speed (L T^{-1}). u is speed, a t has dimensions (L T^{-2})·T = L T^{-1}. Hence the equation is dimensionally consistent. Option B has t^{3} giving dimensions L T^{2}, which does not match speed. Option C squares acceleration giving L^{2} T^{-4} multiplied by mass, not force. Option D gives power as voltage divided by current, which yields dimensions M L^{2} T^{-3} I^{-2}, not power. Therefore only option A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, the period T of a simple pendulum depends on its length l and the acceleration due to gravity g. Which expression could represent T?",
+      "options": {
+        "A": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
+        "B": "T = 2\\pi \\frac{l}{g}",
+        "C": "T = 2\\pi \\sqrt{\\frac{g}{l}}",
+        "D": "T = 2\\pi l g"
+      },
+      "correct_option": "A",
+      "answer": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
+      "explanation": "Period T has dimension [T]. Length l is [L] and g is [L T^{-2}]. To obtain [T] we need \\sqrt{l/g}: [L]/[L T^{-2}] = T^{2}, square root gives [T]. Multiplying by a dimensionless constant 2π yields a correct dimensional form. Options B, C, and D give dimensions [L T^{-2}], [T^{-1}], and [L^{2} T^{-2}] respectively, which are not time. Hence A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "A car travels 90 km in 2 h. What is its speed in metres per second (m/s)?",
+      "options": {
+        "A": "12.5 m/s",
+        "B": "45 m/s",
+        "C": "0.025 m/s",
+        "D": "180 m/s"
+      },
+      "correct_option": "A",
+      "answer": "12.5 m/s",
+      "explanation": "Convert distance: 90 km = 90,000 m. Convert time: 2 h = 2×60×60 = 7200 s. Speed = distance/time = 90,000/7200 = 12.5 m/s. The other options result from incorrect conversion factors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Dimensional analysis can give the form of the period of a simple pendulum but cannot determine the numerical factor involving \\pi. Which statement best explains this limitation?",
+      "options": {
+        "A": "Dimensional analysis cannot predict dimensionless constants.",
+        "B": "Dimensional analysis cannot be applied to vector quantities.",
+        "C": "Dimensional analysis fails when non‑SI units are used.",
+        "D": "Dimensional analysis is only valid for electromagnetic phenomena."
+      },
+      "correct_option": "A",
+      "answer": "Dimensional analysis cannot predict dimensionless constants.",
+      "explanation": "Dimensional analysis relates quantities based on their dimensions and can reveal the functional dependence, but any pure number without dimensions (like 2\\pi) remains undetermined. Options B, C, and D are unrelated to the limitation described.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "Which of the following statements about dimensions is correct?",
+      "options": {
+        "A": "Dimensions are the same as units.",
+        "B": "Dimensions represent the nature of a physical quantity expressed in terms of fundamental quantities.",
+        "C": "Dimensions change when the unit system changes.",
+        "D": "Dimensions have numerical values."
+      },
+      "correct_option": "B",
+      "answer": "Dimensions represent the nature of a physical quantity expressed in terms of fundamental quantities.",
+      "explanation": "Dimensions describe a quantity in terms of the fundamental base quantities (M, L, T, etc.) and are independent of the unit system. Hence statement B is correct. A confuses dimensions with units, C is false because dimensions are unit‑independent, and D is meaningless as dimensions are not numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "What is the dimensional formula of force?",
+      "options": {
+        "A": "M L T^{-2}",
+        "B": "M L^{2} T^{-2}",
+        "C": "M L T^{-1}",
+        "D": "M L^{2} T^{-3}"
+      },
+      "correct_option": "A",
+      "answer": "M L T^{-2}",
+      "explanation": "Force is defined as mass times acceleration (F = m a). Mass has dimension M, acceleration is L T^{-2}. Multiplying gives M L T^{-2}. The other options correspond to energy, momentum, and power respectively, not force.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Consider the two equations: (1) \\(E = \\frac{1}{2} m v^{2}\\) and (2) \\(E = m v\\). Which statement about their dimensional consistency is correct?",
+      "options": {
+        "A": "Both equations are dimensionally consistent.",
+        "B": "Only equation (1) is dimensionally consistent.",
+        "C": "Only equation (2) is dimensionally consistent.",
+        "D": "Neither equation is dimensionally consistent."
+      },
+      "correct_option": "B",
+      "answer": "Only equation (1) is dimensionally consistent.",
+      "explanation": "Energy has dimension M L^{2} T^{-2}. In (1), m v^{2} gives M (L T^{-1})^{2}= M L^{2} T^{-2}, matching energy. In (2), m v gives M L T^{-1}, which is the dimension of momentum, not energy. Hence only (1) is consistent.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, the kinetic energy K of a particle can be expressed as \\(K = C\\, p^{\\alpha} m^{\\beta}\\), where p is momentum, m is mass and C is a dimensionless constant. What are the values of \\(\\alpha\\) and \\(\\beta\\)?",
+      "options": {
+        "A": "\\(\\alpha = 2, \\; \\beta = -1\\)",
+        "B": "\\(\\alpha = 1, \\; \\beta = 1\\)",
+        "C": "\\(\\alpha = 2, \\; \\beta = 0\\)",
+        "D": "\\(\\alpha = 1, \\; \\beta = -2\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\alpha = 2, \\; \\beta = -1\\)",
+      "explanation": "K has dimension M L^{2} T^{-2}. Momentum p has dimension M L T^{-1}. Assume K = C p^{\\alpha} m^{\\beta}. Then dimensions: (M L T^{-1})^{\\alpha} (M)^{\\beta} = M^{\\alpha+\\beta} L^{\\alpha} T^{-\\alpha}. Equate exponents: For M: \\alpha+\\beta = 1. For L: \\alpha = 2. For T: -\\alpha = -2 → \\alpha = 2 (consistent). Substituting \\alpha = 2 gives \\beta = 1-2 = -1. Hence option A is correct. The other options do not satisfy the dimensional equations.",
+      "difficulty": "hard"
+    }
+  ]
+}
