@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0037",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Which of the following equations is dimensionally consistent?",
+      "options": {
+        "A": "s = ut + (1/2) a t^2",
+        "B": "v = u + a t^3",
+        "C": "F = m a^2",
+        "D": "P = m v"
+      },
+      "correct_option": "A",
+      "answer": "s = ut + (1/2) a t^2",
+      "explanation": "The left‑hand side (s) has dimension L. The first term ut has dimensions (L T⁻¹)(T)=L, and the second term (1/2) a t^2 has dimensions (L T⁻²)(T²)=L. All terms are length, so the equation is dimensionally consistent. Options B, C and D give mismatched dimensions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, which of the following expressions could correctly represent the period T of a simple pendulum of length L under gravitational acceleration g?",
+      "options": {
+        "A": "T = 2π √(L/g)",
+        "B": "T = 2π L/g",
+        "C": "T = 2π √(g/L)",
+        "D": "T = L/g"
+      },
+      "correct_option": "A",
+      "answer": "T = 2π √(L/g)",
+      "explanation": "Period T has dimension T. Length L is [L] and g is [L T⁻²]. √(L/g) gives √(L / (L T⁻²)) = √(T²) = T, so the expression is dimensionally correct. The factor 2π is dimensionless. All other options give dimensions other than time.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "Which of the following unit conversions is correctly obtained by dimensional reasoning?",
+      "options": {
+        "A": "1 kilometre = 1000 metres",
+        "B": "1 hour = 60 seconds",
+        "C": "1 kilogram = 10 grams",
+        "D": "1 litre = 0.5 cubic metres"
+      },
+      "correct_option": "A",
+      "answer": "1 kilometre = 1000 metres",
+      "explanation": "A kilometre is 10³ metres, so the conversion 1 km = 1000 m is dimensionally and numerically correct. Option B is wrong because 1 hour = 3600 seconds, not 60. Option C is wrong because 1 kg = 1000 g. Option D is wrong because 1 litre = 0.001 cubic metres.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Which statement about dimensional analysis is FALSE?",
+      "options": {
+        "A": "It can determine the exact numerical value of dimensionless constants such as 2π.",
+        "B": "It cannot give numerical factors like 2π that are dimensionless.",
+        "C": "It can predict the form of a relation between physical variables.",
+        "D": "It can be used to check the consistency of an equation."
+      },
+      "correct_option": "A",
+      "answer": "It can determine the exact numerical value of dimensionless constants such as 2π.",
+      "explanation": "Dimensional analysis deals only with dimensions; it cannot provide specific numerical constants (e.g., 2π). Therefore statement A is false. Statements B, C, and D correctly describe the limitations and uses of dimensional analysis.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "What are the dimensions of force?",
+      "options": {
+        "A": "M L T⁻²",
+        "B": "M L² T⁻²",
+        "C": "M T⁻¹",
+        "D": "L T⁻²"
+      },
+      "correct_option": "A",
+      "answer": "M L T⁻²",
+      "explanation": "Force is defined as mass times acceleration (F = m a). Mass has dimension M, acceleration has dimension L T⁻², so force has dimensions M·L·T⁻². The other options correspond to different physical quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "A physical quantity is described as \"mass multiplied by the square of acceleration\". What is its dimensional formula?",
+      "options": {
+        "A": "M L² T⁻⁴",
+        "B": "M L T⁻²",
+        "C": "M L² T⁻²",
+        "D": "M² L T⁻³"
+      },
+      "correct_option": "A",
+      "answer": "M L² T⁻⁴",
+      "explanation": "Acceleration has dimensions L T⁻². Squaring it gives L² T⁻⁴. Multiplying by mass (M) yields M L² T⁻⁴. Option B is the dimension of force, C lacks the extra T⁻², and D mixes powers incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "The equation s = ut + (1/2) a t is dimensionally consistent. Is this statement true or false?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Cannot be determined without numerical values",
+        "D": "Both sides have the same dimensions, so it is always true"
+      },
+      "correct_option": "B",
+      "answer": "False",
+      "explanation": "s (displacement) has dimension L. The term ut has dimension L, but (1/2) a t has dimension (L T⁻²)(T)=L T⁻¹, which is not a length. Hence the equation is dimensionally inconsistent, making the statement false. Options C and D are incorrect reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "Using dimensional analysis, which of the following could be the correct dependence of kinetic energy K on mass m and speed v of a particle?",
+      "options": {
+        "A": "K ∝ m v²",
+        "B": "K ∝ m² v",
+        "C": "K ∝ m v",
+        "D": "K ∝ v² / m"
+      },
+      "correct_option": "A",
+      "answer": "K ∝ m v²",
+      "explanation": "Kinetic energy has dimensions of work, i.e., M L² T⁻². Mass contributes M, and speed v contributes L T⁻¹. Squaring v gives L² T⁻², so m v² yields M L² T⁻², matching the required dimensions. The other options give mismatched dimensions.",
+      "difficulty": "medium"
+    }
+  ]
+}

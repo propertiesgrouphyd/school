@@ -1,0 +1,78 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-097",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "Which of the following statements correctly defines the term \"dimension\" in physics?",
+      "options": {
+        "A": "A dimension is the numerical value of a physical quantity measured in a specific unit.",
+        "B": "A dimension is the physical nature of a quantity expressed as a combination of the fundamental quantities (M, L, T).",
+        "C": "A dimension is the same as the unit of measurement.",
+        "D": "A dimension is the magnitude of a vector quantity."
+      },
+      "correct_option": "B",
+      "answer": "A dimension is the physical nature of a quantity expressed as a combination of the fundamental quantities (M, L, T).",
+      "explanation": "In dimensional analysis, a dimension describes the physical nature of a quantity in terms of the fundamental dimensions: mass (M), length (L) and time (T). Option B captures this definition. Option A confuses dimension with numerical value, Option C confuses dimension with unit, and Option D describes magnitude, not dimension.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-098",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "If the dimensional formula of energy is \\(M L^{2} T^{-2}\\), what is the dimensional formula of power?",
+      "options": {
+        "A": "M L^{2} T^{-3}",
+        "B": "M L T^{-2}",
+        "C": "M L^{2} T^{-1}",
+        "D": "M L T^{-3}"
+      },
+      "correct_option": "A",
+      "answer": "M L^{2} T^{-3}",
+      "explanation": "Power is defined as energy per unit time. Dividing the dimensional formula of energy (M L^2 T^{-2}) by time (T) gives M L^2 T^{-3}. Hence option A is correct. The other options either miss the time exponent or alter the length exponent incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-099",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Which of the following equations is dimensionally consistent?",
+      "options": {
+        "A": "v = u + a t^{2}",
+        "B": "s = u t + \\frac{1}{2} a t^{2}",
+        "C": "F = m a^{2}",
+        "D": "P = V I^{2} t"
+      },
+      "correct_option": "B",
+      "answer": "s = u t + \\frac{1}{2} a t^{2}",
+      "explanation": "The left‑hand side (s) has dimension L. On the right, u t gives (L T^{-1})(T)=L and a t^{2} gives (L T^{-2})(T^{2})=L, so both terms have dimension L, making the equation consistent. Option A adds a term a t^{2} (L) to u (L T^{-1}), which is inconsistent. Option C gives dimensions M L T^{-2} vs M (L T^{-2})^{2}=M L^{2} T^{-4}. Option D mixes power (M L^{2} T^{-3}) with V I^{2} t (L^{2} M T^{-3}), which is not dimensionally the same as P. Hence only B is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "The period \\(T\\) of a simple pendulum depends only on its length \\(L\\) and the acceleration due to gravity \\(g\\). Using dimensional analysis, which of the following could be the correct relation?",
+      "options": {
+        "A": "T \\propto \\sqrt{\\dfrac{L}{g}}",
+        "B": "T \\propto \\dfrac{L}{g}",
+        "C": "T \\propto \\sqrt{\\dfrac{g}{L}}",
+        "D": "T \\propto L \\sqrt{g}"
+      },
+      "correct_option": "A",
+      "answer": "T \\propto \\sqrt{\\dfrac{L}{g}}",
+      "explanation": "Period \\(T\\) has dimension \\(T\\). Length \\(L\\) is \\(L\\) and gravity \\(g\\) is \\(L T^{-2}\\). To obtain \\(T\\) we need \\(L^{1}\\) divided by \\(L T^{-2}\\) giving \\(T^{2}\\); taking the square root yields \\(T\\). Hence \\(T \\propto \\sqrt{L/g}\\) (option A). The other options give dimensions of \\(L T^{-1}\\), \\(T^{-1}\\), or \\(L^{3/2} T^{-1}\\), which are not the dimension of time.",
+      "difficulty": "hard"
+    }
+  ]
+}

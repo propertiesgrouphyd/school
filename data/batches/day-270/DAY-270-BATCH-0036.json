@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "In physics, the term 'dimensions' of a physical quantity refers to:",
+      "options": {
+        "A": "The numerical value of the quantity in a chosen unit system.",
+        "B": "The expression of the quantity in terms of the fundamental base quantities (M, L, T).",
+        "C": "The graphical representation of the quantity on a chart.",
+        "D": "The unit symbol assigned to the quantity."
+      },
+      "correct_option": "B",
+      "answer": "The expression of the quantity in terms of the fundamental base quantities (M, L, T).",
+      "explanation": "Dimensions describe how a physical quantity is built from the fundamental quantities mass (M), length (L) and time (T). They are independent of the numerical value or the unit symbol. Option B correctly captures this definition, while the other options describe unrelated aspects.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "What is the dimensional formula of force?",
+      "options": {
+        "A": "M L T^-2",
+        "B": "M L^2 T^-2",
+        "C": "M L T^-1",
+        "D": "M T^-2"
+      },
+      "correct_option": "A",
+      "answer": "M L T^-2",
+      "explanation": "Force is mass times acceleration (F = m·a). Mass has dimension M, acceleration is L T^-2, so the product gives M L T^-2. Option A matches this; the other options either miss a length factor or have incorrect exponents.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Check dimensional consistency",
+      "question": "Consider the kinematic equation s = ut + (1/2) a t^2, where s is displacement, u is initial velocity, a is acceleration and t is time. Is this equation dimensionally consistent?",
+      "options": {
+        "A": "Yes, because each term has dimensions of length.",
+        "B": "No, because the first term has dimensions of length while the second term has dimensions of time.",
+        "C": "Yes, because both terms have dimensions of velocity.",
+        "D": "No, because the coefficient 1/2 introduces a dimension."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because each term has dimensions of length.",
+      "explanation": "The term ut has dimensions (L T^-1)(T) = L, and (1/2) a t^2 has dimensions (L T^-2)(T^2) = L. Both sides are lengths, so the equation is dimensionally consistent. The coefficient 1/2 is dimensionless, so it does not affect consistency. Options B, C, and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Derive relations using dimensions",
+      "question": "A simple pendulum of length l swings with small amplitude under gravity g. Using dimensional analysis, which of the following relations for its period T is most plausible?",
+      "options": {
+        "A": "T = k \\* l / g",
+        "B": "T = k \\* \\sqrt{l/g}",
+        "C": "T = k \\* g / l",
+        "D": "T = k \\* l \\* g"
+      },
+      "correct_option": "B",
+      "answer": "T = k \\* \\sqrt{l/g}",
+      "explanation": "Period T has dimension T. Length l is L, and g is L T^-2. To obtain T, combine them as \\sqrt{l/g} which gives (L)/(L T^-2)^{1/2} = T. Hence T ∝ \\sqrt{l/g}. Option B reflects this; the other options give incorrect dimensions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Convert units using dimensional reasoning",
+      "question": "A student claims that 5 km/h is equal to 5000 m/60 s = 83.33 m/s. Identify the mistake in this unit conversion.",
+      "options": {
+        "A": "The student incorrectly used 60 seconds for one hour.",
+        "B": "The student used the correct conversion factors.",
+        "C": "The student should have multiplied by 1000 instead of dividing.",
+        "D": "The student confused kilometers with meters."
+      },
+      "correct_option": "A",
+      "answer": "The student incorrectly used 60 seconds for one hour.",
+      "explanation": "1 hour = 3600 seconds, not 60 seconds. Correct conversion: 5 km/h = 5000 m / 3600 s ≈ 1.389 m/s. The student's use of 60 s leads to a huge over‑estimate. Options B, C, and D do not describe the actual error.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Identify limitations of dimensional analysis",
+      "question": "Which of the following cannot be determined solely by dimensional analysis?",
+      "options": {
+        "A": "The form of the relationship between variables.",
+        "B": "The numerical dimensionless constant (e.g., ½) in an equation.",
+        "C": "The dependence of a quantity on fundamental dimensions.",
+        "D": "The consistency of an equation."
+      },
+      "correct_option": "B",
+      "answer": "The numerical dimensionless constant (e.g., ½) in an equation.",
+      "explanation": "Dimensional analysis tells us how quantities depend on fundamental dimensions and can test consistency, but it cannot provide the exact numerical factor that is dimensionless. Hence option B is the limitation. The other options are within the scope of dimensional reasoning.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Define dimensions",
+      "question": "Compare the dimensions of velocity and acceleration. Which option correctly states both?",
+      "options": {
+        "A": "Velocity: L T^-1; Acceleration: L T^-2",
+        "B": "Velocity: M L T^-1; Acceleration: M L T^-2",
+        "C": "Velocity: L T; Acceleration: L T^2",
+        "D": "Velocity: M L^2 T^-2; Acceleration: M L T^-2"
+      },
+      "correct_option": "A",
+      "answer": "Velocity: L T^-1; Acceleration: L T^-2",
+      "explanation": "Velocity is displacement per unit time, giving dimensions L T^-1. Acceleration is change of velocity per unit time, giving L T^-2. Option A lists these correctly. Options B, C, and D introduce extra mass dimensions or incorrect exponents.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01149",
+      "learning_point": "Write dimensional formulae",
+      "question": "In competitive exams, the dimensional formula of pressure is often asked. What is it?",
+      "options": {
+        "A": "M L^-1 T^-2",
+        "B": "M L T^-2",
+        "C": "M L^-2 T^-2",
+        "D": "M L^-1 T^-1"
+      },
+      "correct_option": "A",
+      "answer": "M L^-1 T^-2",
+      "explanation": "Pressure = force/area. Force has dimension M L T^-2 and area is L^2, so pressure = M L T^-2 / L^2 = M L^-1 T^-2. Option A matches this; the others are incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}
