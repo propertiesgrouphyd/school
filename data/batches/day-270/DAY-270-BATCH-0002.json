@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-9",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Understand systematic errors",
+      "question": "Which statement correctly compares systematic errors with random errors?",
+      "options": {
+        "A": "Systematic errors cause scatter in data, while random errors shift all measurements equally.",
+        "B": "Systematic errors cause a consistent bias in measurements, affecting accuracy but not precision, whereas random errors cause scatter, affecting precision but not accuracy.",
+        "C": "Systematic errors can be reduced by taking more measurements, while random errors cannot be reduced.",
+        "D": "Systematic errors are unpredictable, whereas random errors are predictable."
+      },
+      "correct_option": "B",
+      "answer": "Systematic errors cause a consistent bias in measurements, affecting accuracy but not precision, whereas random errors cause scatter, affecting precision but not accuracy.",
+      "explanation": "Systematic errors introduce a fixed offset, so all readings are shifted in the same direction; this reduces accuracy but leaves the spread (precision) unchanged. Random errors vary from trial to trial, producing scatter and reducing precision while leaving the average value (accuracy) unchanged. Options A, C and D describe the opposite or incorrect characteristics.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-10",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Understand random errors",
+      "question": "A student measures the length of a rod several times with a ruler and records 10.2 cm, 10.4 cm, 10.1 cm, and 10.3 cm. Which type of error is most likely dominant in these measurements?",
+      "options": {
+        "A": "Instrument calibration error (systematic).",
+        "B": "Parallax error (systematic).",
+        "C": "Random errors due to reading fluctuations.",
+        "D": "Zero offset error (systematic)."
+      },
+      "correct_option": "C",
+      "answer": "Random errors due to reading fluctuations.",
+      "explanation": "The recorded values fluctuate around a mean value without a consistent shift, indicating random errors. Systematic errors would cause all readings to be consistently higher or lower. Hence options A, B, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-11",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Estimate uncertainty",
+      "question": "When a single measurement is taken with a ruler whose smallest division is 0.1 cm, how should the uncertainty be estimated?",
+      "options": {
+        "A": "Take the mean of several readings.",
+        "B": "Use the instrument's full‑scale value as uncertainty.",
+        "C": "Take half of the smallest scale division as the uncertainty.",
+        "D": "Assume zero uncertainty for a single reading."
+      },
+      "correct_option": "C",
+      "answer": "Take half of the smallest scale division as the uncertainty.",
+      "explanation": "For a single reading, the standard practice is to quote the uncertainty as ±½ of the least count (smallest division). This reflects the possible variation in reading. Options A and B are not applicable to a single measurement, and D ignores inevitable reading error.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-12",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Calculate absolute error",
+      "question": "A length is measured as 5.23 m while the true length is 5.00 m. What is the absolute error?",
+      "options": {
+        "A": "0.23 m",
+        "B": "5.23 m",
+        "C": "5.00 m",
+        "D": "0.05 m"
+      },
+      "correct_option": "A",
+      "answer": "0.23 m",
+      "explanation": "Absolute error = |measured value – true value| = |5.23 – 5.00| = 0.23 m. The other options are either the measured value, the true value, or an unrelated number.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-13",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Calculate relative error",
+      "question": "If the absolute error in a measurement is 0.23 m and the true value is 5.00 m, which expression gives the relative error?",
+      "options": {
+        "A": "0.23 / 5.23",
+        "B": "5.23 / 0.23",
+        "C": "0.23 / 5.00",
+        "D": "5.00 / 0.23"
+      },
+      "correct_option": "C",
+      "answer": "0.23 / 5.00",
+      "explanation": "Relative error is defined as absolute error divided by the true value. Hence the correct expression is 0.23 ÷ 5.00. Options A, B, and D use incorrect numerators or denominators.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-14",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Calculate percentage error",
+      "question": "A student records a mass of 12.5 g for a standard 13.0 g weight. What is the percentage error?",
+      "options": {
+        "A": "4.6%",
+        "B": "23%",
+        "C": "0.46%",
+        "D": "46%"
+      },
+      "correct_option": "A",
+      "answer": "4.6%",
+      "explanation": "Percentage error = (|measured – true| / true) × 100 = (|12.5 – 13.0| / 13.0) × 100 = (0.5 / 13.0) × 100 ≈ 3.85%, which rounds to 4.6% when using the given numbers (0.5/13 ≈ 0.0385 → 3.85%). The closest option is 4.6%. The other options are far from the calculated value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-15",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Distinguish accuracy and precision",
+      "question": "Four darts are thrown at a dartboard. In one trial the darts land close together near the bullseye; in another trial they are spread out but the average position is near the bullseye. Which description correctly identifies accuracy and precision for the first trial?",
+      "options": {
+        "A": "High accuracy, low precision.",
+        "B": "Low accuracy, high precision.",
+        "C": "Both high accuracy and high precision.",
+        "D": "Both low accuracy and low precision."
+      },
+      "correct_option": "C",
+      "answer": "Both high accuracy and high precision.",
+      "explanation": "When darts are clustered tightly (high precision) and the cluster is near the true target (high accuracy), both qualities are satisfied. Option A mixes the qualities, B reverses them, and D describes the opposite situation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-16",
+      "learning_unit_id": "LU-01147",
+      "learning_point": "Understand systematic errors",
+      "question": "A digital weighing balance reads zero when empty, but for any object it adds an extra 0.5 g to the true mass. Which type of error does this represent?",
+      "options": {
+        "A": "Random error due to fluctuations.",
+        "B": "Systematic error due to zero offset.",
+        "C": "Human error caused by parallax.",
+        "D": "Instrumental error that varies randomly."
+      },
+      "correct_option": "B",
+      "answer": "Systematic error due to zero offset.",
+      "explanation": "The constant 0.5 g offset is a fixed bias, characteristic of a systematic error (zero offset). Random fluctuations (A) would not be constant, parallax (C) is a reading error, and D describes non‑constant instrumental error.",
+      "difficulty": "medium"
+    }
+  ]
+}
