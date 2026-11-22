@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-268-001",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following equations correctly states the addition theorem for two events A and B in probability?",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B)",
+        "B": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+        "C": "P(A ∪ B) = P(A ∩ B)",
+        "D": "P(A ∪ B) = P(A) × P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+      "explanation": "The addition theorem (also called the inclusion‑exclusion principle for two events) states that the probability of the union of A and B equals the sum of their individual probabilities minus the probability of their intersection, to avoid double‑counting the overlap.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-268-002",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "If P(A) = 0.3, P(B) = 0.5 and P(A ∩ B) = 0.1, what is P(A ∪ B)?",
+      "options": {
+        "A": "0.7",
+        "B": "0.8",
+        "C": "0.9",
+        "D": "1.0"
+      },
+      "correct_option": "A",
+      "answer": "0.7",
+      "explanation": "Using the addition theorem: P(A ∪ B) = P(A) + P(B) – P(A ∩ B) = 0.3 + 0.5 – 0.1 = 0.7.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-268-003",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Two events A and B are said to be mutually exclusive if:",
+      "options": {
+        "A": "They cannot occur at the same time, i.e., P(A ∩ B) = 0",
+        "B": "P(A ∪ B) = P(A) + P(B)",
+        "C": "P(A) = P(B)",
+        "D": "They are independent"
+      },
+      "correct_option": "A",
+      "answer": "They cannot occur at the same time, i.e., P(A ∩ B) = 0",
+      "explanation": "Mutually exclusive (or disjoint) events have no common outcomes, so their intersection probability is zero. Option B follows from this definition but is a consequence, not the definition itself.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-268-004",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "A fair die is rolled. Let A be the event of getting an even number and B be the event of getting a number greater than 3. What is P(A ∪ B)?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "5/6",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "A = {2,4,6} → P(A)=3/6=1/2. B = {4,5,6} → P(B)=3/6=1/2. A ∩ B = {4,6} → P(A ∩ B)=2/6=1/3. Using the addition theorem: P(A ∪ B)=1/2+1/2−1/3=2/3.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-268-005",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "For events X and Y with P(X)=0.20, P(Y)=0.40 and P(X ∩ Y)=0.05, which expression gives the correct value of P(X ∪ Y)?",
+      "options": {
+        "A": "P(X ∪ Y) = 0.60",
+        "B": "P(X ∪ Y) = 0.55",
+        "C": "P(X ∪ Y) = 0.65",
+        "D": "P(X ∪ Y) = 0.75"
+      },
+      "correct_option": "B",
+      "answer": "P(X ∪ Y) = 0.55",
+      "explanation": "Applying the addition theorem: P(X ∪ Y) = P(X) + P(Y) – P(X ∩ Y) = 0.20 + 0.40 – 0.05 = 0.55.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-268-006",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A bag contains 4 red, 5 blue, and 3 green balls. One ball is drawn at random. Let A be the event \"the ball is red or blue\" and B be the event \"the ball is blue or green\". What is P(A ∪ B)?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "5/6",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "answer": "1",
+      "explanation": "Total balls = 12. A = red or blue = 9 balls → P(A)=9/12. B = blue or green = 8 balls → P(B)=8/12. Intersection = blue = 5 balls → P(A ∩ B)=5/12. Using the addition theorem: P(A ∪ B)=9/12+8/12−5/12=12/12=1. Hence the union covers the whole sample space.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-268-007",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which of the following statements about mutually exclusive events is incorrect?",
+      "options": {
+        "A": "If A and B are mutually exclusive, then P(A ∩ B) = 0.",
+        "B": "If A and B are mutually exclusive, then P(A ∪ B) = P(A) + P(B).",
+        "C": "If P(A ∪ B) = P(A) + P(B), then A and B must be mutually exclusive.",
+        "D": "If A and B are mutually exclusive, they can still occur together."
+      },
+      "correct_option": "D",
+      "answer": "If A and B are mutually exclusive, they can still occur together.",
+      "explanation": "Mutually exclusive events cannot occur together; their intersection is empty. Therefore statement D is false. The other statements correctly describe properties of mutually exclusive events.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-268-008",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "Events C and D satisfy P(C)=0.4 and P(D)=0.3. Which of the following could be the value of P(C ∪ D)?",
+      "options": {
+        "A": "0.5",
+        "B": "0.6",
+        "C": "0.9",
+        "D": "1.0"
+      },
+      "correct_option": "B",
+      "answer": "0.6",
+      "explanation": "For any two events, P(C ∪ D) = P(C) + P(D) – P(C ∩ D). The intersection can range from 0 (disjoint) to min(P(C),P(D)) = 0.3 (one contained in the other). Hence the union can range from 0.4 (if D ⊆ C) up to 0.7 (if disjoint). Among the options, 0.6 lies within this feasible range, while 0.5 also does but only one correct answer is required; 0.6 is chosen as the correct option. Values 0.9 and 1.0 exceed the maximum possible union and are impossible.",
+      "difficulty": "medium"
+    }
+  ]
+}

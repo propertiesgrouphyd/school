@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0002",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "LU-01138-9",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following statements correctly expresses the addition theorem for two events A and B?",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+        "B": "P(A ∪ B) = P(A) + P(B)",
+        "C": "P(A ∪ B) = P(A ∩ B)",
+        "D": "P(A ∪ B) = P(A) × P(B)"
+      },
+      "correct_option": "A",
+      "answer": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+      "explanation": "The addition theorem states that the probability of the union of two events equals the sum of their individual probabilities minus the probability of their intersection, which removes the double‑counted overlap. Option A reflects this formula; the other options either omit the overlap term or misuse multiplication.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01138-10",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "If P(A) = 0.4, P(B) = 0.5 and P(A ∩ B) = 0.2, what is P(A ∪ B)?",
+      "options": {
+        "A": "0.7",
+        "B": "0.9",
+        "C": "0.5",
+        "D": "0.6"
+      },
+      "correct_option": "A",
+      "answer": "0.7",
+      "explanation": "Using the addition theorem: P(A ∪ B) = 0.4 + 0.5 – 0.2 = 0.7. The other options result from incorrect addition or omission of the intersection term.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01138-11",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Two events are said to be mutually exclusive if",
+      "options": {
+        "A": "they cannot occur together",
+        "B": "they are independent",
+        "C": "P(A ∩ B) = P(A) × P(B)",
+        "D": "P(A ∪ B) = P(A) + P(B) for all events"
+      },
+      "correct_option": "A",
+      "answer": "they cannot occur together",
+      "explanation": "Mutually exclusive (or disjoint) events have no common outcomes, so their intersection is empty and they cannot happen simultaneously. Independence (option B) is a different concept, and option D is true only when events are mutually exclusive, not for all events.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01138-12",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "Given P(A)=0.3, P(B)=0.2 and P(A ∩ B)=0.1, find P(A ∪ B).",
+      "options": {
+        "A": "0.4",
+        "B": "0.5",
+        "C": "0.6",
+        "D": "0.7"
+      },
+      "correct_option": "A",
+      "answer": "0.4",
+      "explanation": "Apply the addition theorem: P(A ∪ B) = 0.3 + 0.2 – 0.1 = 0.4. The other options arise from forgetting to subtract the intersection or adding extra terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01138-13",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Select the correct definition of the addition theorem for two events A and B.",
+      "options": {
+        "A": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+        "B": "P(A ∪ B) = P(A) + P(B)",
+        "C": "P(A ∪ B) = P(A ∩ B)",
+        "D": "P(A ∪ B) = P(A) × P(B)"
+      },
+      "correct_option": "A",
+      "answer": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B)",
+      "explanation": "The addition theorem adjusts for the overlap between A and B by subtracting the intersection probability. Option A states this precisely; the other options either ignore the overlap or misuse multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "LU-01138-14",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A bag contains 5 red, 3 blue and 2 green balls. Event A = drawing a red ball, Event B = drawing a blue ball. What is P(A ∪ B)?",
+      "options": {
+        "A": "0.8",
+        "B": "0.5",
+        "C": "0.3",
+        "D": "1.0"
+      },
+      "correct_option": "A",
+      "answer": "0.8",
+      "explanation": "Total balls = 10. Favorable for A or B = 5 (red) + 3 (blue) = 8. Since red and blue are mutually exclusive, P(A ∪ B) = 8/10 = 0.8. Options B, C, D are incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "LU-01138-15",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "In a class of 20 students, 12 play cricket, 8 play football, and 5 play both sports. Are the events \"playing cricket\" and \"playing football\" mutually exclusive?",
+      "options": {
+        "A": "Yes, because some students play both sports",
+        "B": "No, because some students play both sports",
+        "C": "Yes, because cricket and football are different sports",
+        "D": "No, because the events are independent"
+      },
+      "correct_option": "B",
+      "answer": "No, because some students play both sports",
+      "explanation": "Mutually exclusive events cannot occur together. Since 5 students play both cricket and football, the events are not mutually exclusive. Option B correctly states this; the other options misinterpret the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01138-16",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "From a standard deck of 52 cards, let A be the event \"drawing a heart\" and B be the event \"drawing a king\". What is P(A ∪ B)?",
+      "options": {
+        "A": "4/13",
+        "B": "5/13",
+        "C": "3/13",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "answer": "4/13",
+      "explanation": "P(A)=13/52, P(B)=4/52, overlap (king of hearts)=1/52. Using the addition theorem: (13+4‑1)/52 = 16/52 = 4/13. Option A matches this result; the others arise from incorrect addition or omission of the overlap.",
+      "difficulty": "medium"
+    }
+  ]
+}

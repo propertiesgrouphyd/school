@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following statements correctly expresses the addition theorem for two events A and B?",
+      "options": {
+        "A": "P(A∪B) = P(A) + P(B)",
+        "B": "P(A∪B) = P(A) + P(B) – P(A∩B)",
+        "C": "P(A∪B) = P(A∩B)",
+        "D": "P(A∪B) = P(A) – P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A∪B) = P(A) + P(B) – P(A∩B)",
+      "explanation": "The addition theorem states that the probability of the union of two events equals the sum of their individual probabilities minus the probability of their intersection, to avoid double‑counting the overlap. Option A ignores the overlap, C gives the intersection instead of the union, and D is not a valid formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A standard deck has 52 cards. Let A be the event \"a heart is drawn\" and B be the event \"a king is drawn\". What is P(A ∪ B)?",
+      "options": {
+        "A": "4/13",
+        "B": "1/3",
+        "C": "5/13",
+        "D": "7/13"
+      },
+      "correct_option": "A",
+      "answer": "4/13",
+      "explanation": "P(A)=13/52=1/4, P(B)=4/52=1/13, and P(A∩B)=1/52 (the king of hearts). Using the addition theorem: 1/4 + 1/13 – 1/52 = (13+4‑1)/52 = 16/52 = 4/13. The other options result from incorrect arithmetic or ignoring the overlap.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which statement correctly distinguishes mutually exclusive events from independent events?",
+      "options": {
+        "A": "Mutually exclusive events can occur together, while independent events cannot.",
+        "B": "For mutually exclusive events, P(A∩B)=0; for independent events, P(A∩B)=P(A)·P(B).",
+        "C": "Mutually exclusive events always have P(A)=P(B); independent events have P(A)=1‑P(B).",
+        "D": "Independence implies mutual exclusivity."
+      },
+      "correct_option": "B",
+      "answer": "For mutually exclusive events, P(A∩B)=0; for independent events, P(A∩B)=P(A)·P(B).",
+      "explanation": "Mutually exclusive events cannot happen at the same time, so their intersection probability is zero. Independent events may occur together, and their joint probability equals the product of their individual probabilities. Options A, C, and D misstate these definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "In a school, 40% of students study Mathematics, 30% study Physics, and 15% study both subjects. What is the probability that a randomly chosen student studies at least one of these two subjects?",
+      "options": {
+        "A": "0.45",
+        "B": "0.55",
+        "C": "0.65",
+        "D": "0.75"
+      },
+      "correct_option": "B",
+      "answer": "0.55",
+      "explanation": "Using the addition theorem: P(M ∪ P) = P(M) + P(P) – P(M ∩ P) = 0.40 + 0.30 – 0.15 = 0.55. The other options arise from omitting the overlap term or using incorrect arithmetic.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Select the correct statement of the addition theorem for two events A and B.",
+      "options": {
+        "A": "P(A∪B) = P(A) + P(B) – P(A∩B)",
+        "B": "P(A∪B) = P(A)·P(B)",
+        "C": "P(A∪B) = P(A) + P(B)",
+        "D": "P(A∪B) = P(A∩B)"
+      },
+      "correct_option": "A",
+      "answer": "P(A∪B) = P(A) + P(B) – P(A∩B)",
+      "explanation": "The addition theorem adds the individual probabilities and subtracts the intersection to avoid double counting. Option B is the multiplication rule for independent events, C ignores overlap, and D gives the intersection instead of the union.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A fair die is rolled once. Let A be the event \"an even number appears\" and B be the event \"a number greater than 3 appears\". What is P(A ∪ B)?",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "5/6"
+      },
+      "correct_option": "B",
+      "answer": "2/3",
+      "explanation": "Even numbers: {2,4,6} → P(A)=3/6=1/2. Numbers >3: {4,5,6} → P(B)=3/6=1/2. Intersection {4,6} → P(A∩B)=2/6=1/3. Using the addition theorem: 1/2 + 1/2 – 1/3 = 1 – 1/3 = 2/3. The other options result from miscalculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which of the following correctly defines mutually exclusive events and gives a suitable example?",
+      "options": {
+        "A": "Two events that cannot occur together; e.g., getting a head and a tail on a single coin toss.",
+        "B": "Two events that occur together with probability equal to the product of their probabilities.",
+        "C": "Two events that are equally likely to occur.",
+        "D": "Two events that are independent of each other."
+      },
+      "correct_option": "A",
+      "answer": "Two events that cannot occur together; e.g., getting a head and a tail on a single coin toss.",
+      "explanation": "Mutually exclusive events have no common outcomes, so their intersection probability is zero. The coin‑toss example illustrates this because a single toss cannot be both head and tail. Options B, C, and D describe other concepts (independence, equal likelihood).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "A bag contains 5 red, 4 blue, and 3 green balls. If one ball is drawn at random, what is the probability that the ball is either red or blue?",
+      "options": {
+        "A": "1/2",
+        "B": "3/4",
+        "C": "2/3",
+        "D": "5/6"
+      },
+      "correct_option": "B",
+      "answer": "3/4",
+      "explanation": "Total balls = 12. P(red)=5/12, P(blue)=4/12=1/3. Red and blue are mutually exclusive, so P(red ∪ blue)=5/12 + 4/12 = 9/12 = 3/4. Option B is correct; the others arise from incorrect addition or ignoring mutual exclusivity.",
+      "difficulty": "easy"
+    }
+  ]
+}

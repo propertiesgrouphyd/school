@@ -1,0 +1,150 @@
+{
+  "day": 268,
+  "batch_id": "DAY-268-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following correctly states the addition theorem for two events A and B in probability?",
+      "options": {
+        "A": "P(A\\u222aB)=P(A)+P(B)",
+        "B": "P(A\\u222aB)=P(A)+P(B)-P(A\\u2229B)",
+        "C": "P(A\\u222aB)=P(A\\u2229B)",
+        "D": "P(A\\u222aB)=P(A)\\times P(B)"
+      },
+      "correct_option": "B",
+      "answer": "P(A\\u222aB)=P(A)+P(B)-P(A\\u2229B)",
+      "explanation": "The addition theorem for any two events A and B is P(A∪B)=P(A)+P(B)-P(A∩B). Option B matches this formula. Option A omits the overlap term, Option C confuses union with intersection, and Option D is the multiplication rule for independent events, not the addition theorem.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A standard deck has 52 cards. Let A be the event \"a red card is drawn\" and B be the event \"a king is drawn\". What is P(A\\u222aB)?",
+      "options": {
+        "A": "5/13",
+        "B": "7/13",
+        "C": "1/2",
+        "D": "1/4"
+      },
+      "correct_option": "B",
+      "answer": "7/13",
+      "explanation": "P(A)=26/52=1/2, P(B)=4/52=1/13, and P(A\\u2229B)=2/52=1/26 (the two red kings). Using the addition theorem: P(A\\u222aB)=1/2+1/13-1/26=13/26+2/26-1/26=14/26=7/13. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Which statement correctly describes mutually exclusive events?",
+      "options": {
+        "A": "They cannot occur together, so P(A\\u2229B)=0 and the addition theorem reduces to P(A\\u222aB)=P(A)+P(B).",
+        "B": "If two events are mutually exclusive, they are always independent.",
+        "C": "For mutually exclusive events, P(A\\u222aB)=P(A)\\times P(B).",
+        "D": "Mutually exclusive events may have a non‑zero intersection probability."
+      },
+      "correct_option": "A",
+      "answer": "They cannot occur together, so P(A\\u2229B)=0 and the addition theorem reduces to P(A\\u222aB)=P(A)+P(B).",
+      "explanation": "Mutually exclusive (disjoint) events never happen simultaneously, so their intersection probability is zero. Therefore the general addition formula simplifies to P(A∪B)=P(A)+P(B). Options B and C confuse exclusivity with independence, and D contradicts the definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "If P(A)=0.4, P(B)=0.5 and P(A\\u2229B)=0.2, what is P(A\\u222aB)?",
+      "options": {
+        "A": "0.7",
+        "B": "0.9",
+        "C": "0.6",
+        "D": "0.8"
+      },
+      "correct_option": "A",
+      "answer": "0.7",
+      "explanation": "Using the addition theorem: P(A\\u222aB)=P(A)+P(B)-P(A\\u2229B)=0.4+0.5-0.2=0.7. The other options result from incorrect arithmetic or omitting the intersection term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "State addition theorem",
+      "question": "Which of the following correctly compares the general addition theorem with its special case for mutually exclusive events?",
+      "options": {
+        "A": "The general theorem is P(A\\u222aB)=P(A)+P(B)-P(A\\u2229B); when A and B are mutually exclusive, P(A\\u2229B)=0 so it reduces to P(A\\u222aB)=P(A)+P(B).",
+        "B": "The general theorem is P(A\\u222aB)=P(A)+P(B); for mutually exclusive events an extra term P(A\\u2229B) must be subtracted.",
+        "C": "Both the general theorem and the mutually exclusive case give P(A\\u222aB)=P(A)\\times P(B).",
+        "D": "The general theorem applies only to independent events, while the mutually exclusive case applies to dependent events."
+      },
+      "correct_option": "A",
+      "answer": "The general theorem is P(A\\u222aB)=P(A)+P(B)-P(A\\u2229B); when A and B are mutually exclusive, P(A\\u2229B)=0 so it reduces to P(A\\u222aB)=P(A)+P(B).",
+      "explanation": "Option A accurately states the universal addition formula and shows how it simplifies when the intersection probability is zero (mutually exclusive). Options B, C, and D contain false statements about the theorem and its conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Calculate probability of A union B",
+      "question": "A bag contains 5 red, 3 blue and 2 green balls. Let A be the event \"the ball drawn is red or blue\" and B be the event \"the ball drawn is blue or green\". What is P(A\\u222aB)?",
+      "options": {
+        "A": "1",
+        "B": "0.9",
+        "C": "0.8",
+        "D": "0.7"
+      },
+      "correct_option": "A",
+      "answer": "1",
+      "explanation": "Total balls =10. P(A)=8/10=0.8 (red or blue). P(B)=5/10=0.5 (blue or green). Intersection = blue balls =3/10=0.3. Using the addition theorem: 0.8+0.5-0.3=1.0. Hence the union is certain, giving probability 1. The other options underestimate the certainty.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Understand mutually exclusive events",
+      "question": "Two events are said to be mutually exclusive if:",
+      "options": {
+        "A": "They cannot occur together, i.e., their intersection is empty.",
+        "B": "The occurrence of one does not affect the probability of the other.",
+        "C": "Their probabilities add up to 1.",
+        "D": "They are independent and have equal probabilities."
+      },
+      "correct_option": "A",
+      "answer": "They cannot occur together, i.e., their intersection is empty.",
+      "explanation": "Mutually exclusive (disjoint) events have no common outcomes, so P(A\\u2229B)=0. Option B describes independence, C is a property of complementary events, and D mixes unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01138",
+      "learning_point": "Apply the theorem to numerical problems",
+      "question": "Given P(A)=0.2, P(B)=0.3 and P(A\\u2229B)=0.05, find P(A\\u222aB).",
+      "options": {
+        "A": "0.45",
+        "B": "0.55",
+        "C": "0.35",
+        "D": "0.5"
+      },
+      "correct_option": "A",
+      "answer": "0.45",
+      "explanation": "Using the addition theorem: P(A\\u222aB)=0.2+0.3-0.05=0.45. The other options arise from forgetting to subtract the intersection or from arithmetic errors.",
+      "difficulty": "easy"
+    }
+  ]
+}
