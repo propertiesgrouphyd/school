@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define sample space",
+      "question": "In probability theory, the set that contains every possible outcome of a random experiment is called:",
+      "options": {
+        "A": "Sample space",
+        "B": "Event",
+        "C": "Outcome",
+        "D": "Probability distribution"
+      },
+      "correct_option": "A",
+      "answer": "Sample space",
+      "explanation": "The sample space (often denoted by S) is defined as the collection of all possible outcomes of a random experiment. An event is any subset of this space, an outcome is a single element of the space, and a probability distribution assigns probabilities to the outcomes.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define event",
+      "question": "A coin is tossed twice. Which of the following sets of outcomes represents an event?",
+      "options": {
+        "A": "{HH, HT, TH, TT}",
+        "B": "{HH, HT}",
+        "C": "{HH}",
+        "D": "{ }"
+      },
+      "correct_option": "B",
+      "answer": "{HH, HT}",
+      "explanation": "An event is any subset of the sample space. The sample space for two coin tosses is {HH, HT, TH, TT}. The set {HH, HT} is a non‑empty subset, therefore it is an event. Option A is the whole sample space (also an event but the question asks for a specific event), C is a single‑outcome event (also valid) but B best illustrates a typical event with more than one outcome, and D is the null event, which is also an event but less illustrative.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Identify elementary and compound events",
+      "question": "When a fair die is rolled, which of the following correctly classifies the listed events?",
+      "options": {
+        "A": "\"Getting a 3\" is an elementary event; \"Getting an even number\" is a compound event.",
+        "B": "\"Getting a 3\" is a compound event; \"Getting an even number\" is an elementary event.",
+        "C": "Both are elementary events.",
+        "D": "Both are compound events."
+      },
+      "correct_option": "A",
+      "answer": "\"Getting a 3\" is an elementary event; \"Getting an even number\" is a compound event.",
+      "explanation": "An elementary (simple) event corresponds to a single outcome—in this case, the outcome 3. \"Getting an even number\" includes the outcomes {2,4,6}, so it is a compound event (a set containing more than one elementary outcome). The other options misclassify these events.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define random experiment",
+      "question": "A student draws one card from a well‑shuffled standard deck of 52 cards and records its suit. Is this situation a random experiment?",
+      "options": {
+        "A": "Yes, because the outcome is uncertain before the card is drawn.",
+        "B": "No, because the deck composition is fixed.",
+        "C": "Yes, because it involves calculating probabilities of numbers on the cards.",
+        "D": "No, because the suit can be predicted from the back of the card."
+      },
+      "correct_option": "A",
+      "answer": "Yes, because the outcome is uncertain before the card is drawn.",
+      "explanation": "A random experiment is any process that yields one outcome from a set of possible outcomes, where the specific result cannot be predicted with certainty in advance. Drawing a card and noting its suit meets this definition. The other options either misunderstand the concept of randomness or introduce irrelevant details.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define outcome",
+      "question": "Which of the following statements correctly defines an outcome in probability?",
+      "options": {
+        "A": "An outcome is the set of all possible results of an experiment.",
+        "B": "An outcome is a single possible result of a random experiment.",
+        "C": "An outcome is the probability assigned to an event.",
+        "D": "An outcome is the same as an event."
+      },
+      "correct_option": "B",
+      "answer": "An outcome is a single possible result of a random experiment.",
+      "explanation": "An outcome refers to one specific result that can occur when a random experiment is performed, such as \"rolling a 4\" on a die. Option A describes the sample space, C confuses probability with outcome, and D incorrectly equates outcome with event (an event can contain many outcomes).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define sample space",
+      "question": "If a random experiment consists of rolling two distinguishable dice, which description correctly represents the sample space?",
+      "options": {
+        "A": "The set of ordered pairs (i, j) where i and j are integers from 1 to 6.",
+        "B": "The set of possible sums of the two dice, i.e., {2,3,…,12}.",
+        "C": "The set of numbers from 1 to 12.",
+        "D": "The set of unordered pairs {i, j} where i and j are from 1 to 6."
+      },
+      "correct_option": "A",
+      "answer": "The set of ordered pairs (i, j) where i and j are integers from 1 to 6.",
+      "explanation": "When the dice are distinguishable, each outcome is an ordered pair indicating the result on the first die and the second die. Hence the sample space consists of 36 ordered pairs. Options B and C describe sums, not individual outcomes, and D treats the dice as indistinguishable, which is not the case here.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define event",
+      "question": "Which statement correctly distinguishes an event from the sample space?",
+      "options": {
+        "A": "An event is any subset of the sample space, while the sample space is the set of all possible outcomes.",
+        "B": "An event is the entire sample space, while a sample space is a subset of an event.",
+        "C": "An event and the sample space are synonymous terms.",
+        "D": "An event must contain all outcomes, whereas a sample space may contain some."
+      },
+      "correct_option": "A",
+      "answer": "An event is any subset of the sample space, while the sample space is the set of all possible outcomes.",
+      "explanation": "The sample space (S) contains every possible outcome of an experiment. Any collection of these outcomes, including the empty set and S itself, is called an event; thus an event is a subset of S. Options B, C, and D invert or confuse these definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Identify elementary and compound events",
+      "question": "Two balls are drawn without replacement from a bag containing 3 red (R) and 2 blue (B) balls. Which of the following statements is true?",
+      "options": {
+        "A": "\"Both balls are red\" is an elementary event; \"At least one red ball\" is a compound event.",
+        "B": "\"Both balls are red\" is a compound event; \"First ball is red\" is an elementary event.",
+        "C": "Both described events are elementary.",
+        "D": "Both described events are compound."
+      },
+      "correct_option": "A",
+      "answer": "\"Both balls are red\" is an elementary event; \"At least one red ball\" is a compound event.",
+      "explanation": "When drawing two balls, an outcome can be represented as an ordered pair (color of first draw, color of second draw). The outcome (R,R) corresponds to \"both balls are red\" and is a single ordered pair, making it an elementary event. \"At least one red ball\" includes (R,R), (R,B), and (B,R), so it comprises multiple outcomes and is a compound event. Options B, C, and D misclassify these events.",
+      "difficulty": "hard"
+    }
+  ]
+}
