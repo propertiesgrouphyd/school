@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Define coefficient of variation",
+      "question": "What is the coefficient of variation (CV) in statistics?",
+      "options": {
+        "A": "The ratio of the standard deviation to the mean, expressed as a percentage.",
+        "B": "The difference between the maximum and minimum values of a data set.",
+        "C": "The square of the mean of the data set.",
+        "D": "The sum of all observations divided by the number of observations."
+      },
+      "correct_option": "A",
+      "answer": "The ratio of the standard deviation to the mean, expressed as a percentage.",
+      "explanation": "The coefficient of variation is defined as (standard deviation ÷ mean) × 100%, which measures relative variability. Options B, C and D describe range, a squared mean, and the mean itself, not CV.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Calculate coefficient of variation",
+      "question": "For the data set {10, 12, 14, 16, 18}, what is the coefficient of variation (rounded to one decimal place)?",
+      "options": {
+        "A": "20.2%",
+        "B": "14.0%",
+        "C": "28.3%",
+        "D": "10.0%"
+      },
+      "correct_option": "A",
+      "answer": "20.2%",
+      "explanation": "Mean = (10+12+14+16+18)/5 = 14. Variance = [(−4)²+(−2)²+0²+2²+4²]/5 = 40/5 = 8, so standard deviation = √8 ≈ 2.828. CV = (2.828/14)×100 ≈ 20.2%. The other options result from incorrect calculations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Compare consistency of data sets",
+      "question": "Data set A = {50, 55, 60, 65, 70} and Data set B = {30, 45, 60, 75, 90}. Which data set is more consistent?",
+      "options": {
+        "A": "Data set A",
+        "B": "Data set B",
+        "C": "Both are equally consistent",
+        "D": "Consistency cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "Data set A",
+      "explanation": "For A, mean = 60, σ ≈ 7.07, CV ≈ 11.8%. For B, mean = 60, σ ≈ 21.21, CV ≈ 35.4%. The smaller CV indicates lower relative dispersion, so A is more consistent. Options B, C, D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Interpret relative dispersion",
+      "question": "Class X scored an average of 80 with a standard deviation of 8. Class Y scored an average of 50 with a standard deviation of 12. Which class shows greater relative dispersion?",
+      "options": {
+        "A": "Class X",
+        "B": "Class Y",
+        "C": "Both have the same relative dispersion",
+        "D": "Cannot be determined without the number of students"
+      },
+      "correct_option": "B",
+      "answer": "Class Y",
+      "explanation": "CV_X = (8/80)×100 = 10%. CV_Y = (12/50)×100 = 24%. A higher CV means greater relative dispersion, so Class Y is more dispersed. Options A, C, D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Define coefficient of variation",
+      "question": "Which of the following statements about the coefficient of variation (CV) is a common misconception?",
+      "options": {
+        "A": "CV is always expressed as a percentage.",
+        "B": "CV is unit‑less and can be compared across different data sets.",
+        "C": "CV is always less than 1 (or 100%).",
+        "D": "CV can be used to compare relative variability of data sets with different units."
+      },
+      "correct_option": "C",
+      "answer": "CV is always less than 1 (or 100%).",
+      "explanation": "The misconception is that CV cannot exceed 1 (or 100%). In reality, if the standard deviation is larger than the mean, CV can be greater than 100%. Options A, B and D are correct statements about CV.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Calculate coefficient of variation",
+      "question": "A data set has a mean of 200 and a variance of 400. What is its coefficient of variation?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "correct_option": "B",
+      "answer": "10%",
+      "explanation": "Standard deviation = √variance = √400 = 20. CV = (20/200)×100 = 10%. The other options arise from incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Compare consistency of data sets",
+      "question": "Data set P = {40, 45, 50, 55, 60} and Data set Q = {30, 40, 50, 60, 70} have the same mean. Which set is more consistent?",
+      "options": {
+        "A": "Data set P",
+        "B": "Data set Q",
+        "C": "Both are equally consistent",
+        "D": "Consistency cannot be judged from the given information"
+      },
+      "correct_option": "A",
+      "answer": "Data set P",
+      "explanation": "Mean of both sets = 50. For P, σ ≈ 7.07, CV ≈ 14.1%. For Q, σ ≈ 14.14, CV ≈ 28.3%. The smaller CV (P) indicates higher consistency. Options B, C, D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01135",
+      "learning_point": "Interpret relative dispersion",
+      "question": "Two distributions have the same mean. Distribution A has a coefficient of variation of 12% and Distribution B has a coefficient of variation of 18%. Which statement is correct?",
+      "options": {
+        "A": "Distribution A is more relatively dispersed than Distribution B.",
+        "B": "Distribution B is more relatively dispersed than Distribution A.",
+        "C": "Both distributions have equal relative dispersion.",
+        "D": "Coefficient of variation cannot be used to compare relative dispersion."
+      },
+      "correct_option": "B",
+      "answer": "Distribution B is more relatively dispersed than Distribution A.",
+      "explanation": "A higher CV indicates greater relative dispersion. Since 18% > 12%, Distribution B is more dispersed. Option A reverses the relationship, C is false, and D is incorrect because CV is specifically designed for such comparisons.",
+      "difficulty": "hard"
+    }
+  ]
+}
