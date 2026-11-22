@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0019",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules in multiplication and division",
+      "question": "When multiplying 4.56 (3 significant figures) by 0.072 (2 significant figures), what is the correct way to express the result using significant‑figure rules?",
+      "options": {
+        "A": "0.32832",
+        "B": "0.33",
+        "C": "0.328",
+        "D": "0.33 (with three decimal places)"
+      },
+      "correct_option": "B",
+      "answer": "0.33",
+      "explanation": "The product 4.56 × 0.072 = 0.32832. In multiplication/division the result must have as many significant figures as the factor with the fewest significant figures, which is 2 (from 0.072). Rounding 0.32832 to 2 significant figures gives 0.33. Options A and C retain too many figures, and D adds an unnecessary decimal place.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Report calculated quantities appropriately",
+      "question": "A length is measured as 12.3 cm and a width as 4.56 cm. After calculating the area, how should the final area be reported according to significant‑figure rules?",
+      "options": {
+        "A": "56.088 cm²",
+        "B": "56.1 cm²",
+        "C": "56.09 cm²",
+        "D": "56 cm²"
+      },
+      "correct_option": "B",
+      "answer": "56.1 cm²",
+      "explanation": "Area = 12.3 × 4.56 = 56.088 cm². Both measurements have three significant figures, so the product must be reported with three significant figures. Rounding 56.088 to three significant figures gives 56.1 cm². Option A shows too many figures, C has four, and D has only two.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Count significant figures",
+      "question": "How many significant figures are present in the measurement 0.004560?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "Leading zeros are not significant. The digits 4, 5, 6 and the trailing zero after the decimal point are significant. Hence there are 4 significant figures. Options A, C, and D count the zeros incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules involving zeros",
+      "question": "Which of the following numbers has exactly two significant figures?",
+      "options": {
+        "A": "0.0045",
+        "B": "4500",
+        "C": "4.500",
+        "D": "0.04500"
+      },
+      "correct_option": "A",
+      "answer": "0.0045",
+      "explanation": "In 0.0045 the leading zeros are not significant; only 4 and 5 are, giving two significant figures. 4500 without a decimal point is ambiguous but is usually taken as two significant figures; however, option A is unambiguous. Options C and D each contain more than two significant figures because the trailing zeros after a decimal are significant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Round measurements correctly",
+      "question": "A mass is measured as 2.6789 g. To report this measurement with three significant figures, what is the correctly rounded value?",
+      "options": {
+        "A": "2.68 g",
+        "B": "2.679 g",
+        "C": "2.67 g",
+        "D": "2.6790 g"
+      },
+      "correct_option": "A",
+      "answer": "2.68 g",
+      "explanation": "The first three significant figures are 2, 6, and 7. The next digit is 8, so we round the 7 up to 8, giving 2.68 g (three significant figures). Options B and D retain more than three figures, and C rounds down incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply significant-figure rules in addition and subtraction",
+      "question": "A student adds 12.11 cm, 0.3 cm, and 0.045 cm. What is the correctly reported sum with proper significant figures?",
+      "options": {
+        "A": "12.455 cm",
+        "B": "12.46 cm",
+        "C": "12.5 cm",
+        "D": "12.4550 cm"
+      },
+      "correct_option": "C",
+      "answer": "12.5 cm",
+      "explanation": "For addition/subtraction, the result is limited by the least precise decimal place. The numbers are precise to hundredths (12.11), tenths (0.3), and thousandths (0.045). The least precise is the tenths place, so the final answer must be rounded to the tenths place: 12.455 → 12.5 cm. Options A and D keep too many decimal places, and B rounds to hundredths, which is more precise than allowed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules in multiplication and division",
+      "question": "A student multiplies 6.0 (2 significant figures) by 1.23 (3 significant figures) and writes the answer as 7.38 (3 significant figures). Why is this answer incorrect?",
+      "options": {
+        "A": "Because the product must have the same number of decimal places as the factor with the fewest decimal places.",
+        "B": "Because the product must have the same number of significant figures as the factor with the fewest significant figures.",
+        "C": "Because the student should have added the numbers instead of multiplying them.",
+        "D": "Because trailing zeros are never significant."
+      },
+      "correct_option": "B",
+      "answer": "Because the product must have the same number of significant figures as the factor with the fewest significant figures.",
+      "explanation": "In multiplication, the result must be reported with as many significant figures as the factor that has the fewest significant figures. Here the factor 6.0 has only 2 significant figures, so the product should be rounded to 2 significant figures: 6.0 × 1.23 = 7.38 → 7.4. Option A confuses the rule with decimal‑place rules for addition/subtraction. Options C and D are unrelated misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Report calculated quantities appropriately",
+      "question": "After calculating speed as 3.456 m/s from measured distance 1.23 m (3 significant figures) and time 0.356 s (3 significant figures), which of the following is the most appropriate way to report the speed?",
+      "options": {
+        "A": "3.456 m/s",
+        "B": "3.46 m/s",
+        "C": "3.5 m/s",
+        "D": "3.4560 m/s"
+      },
+      "correct_option": "B",
+      "answer": "3.46 m/s",
+      "explanation": "Both distance and time have three significant figures, so the speed must be reported with three significant figures. 3.456 has four, 3.5 has two, and 3.4560 has five. Rounding 3.456 to three significant figures gives 3.46 m/s. Hence option B is correct; the others either contain too many or too few significant figures.",
+      "difficulty": "medium"
+    }
+  ]
+}

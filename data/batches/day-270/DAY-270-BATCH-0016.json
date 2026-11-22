@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01148-17",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules in multiplication and division",
+      "question": "A = 4.56 (three significant figures) and B = 1.4 (two significant figures). What is the product A × B expressed with the correct number of significant figures?",
+      "options": {
+        "A": "6.384",
+        "B": "6.4",
+        "C": "6.38",
+        "D": "6.39"
+      },
+      "correct_option": "B",
+      "answer": "6.4",
+      "explanation": "In multiplication, the result must have as many significant figures as the factor with the fewest significant figures. B has only two significant figures, so the product must be reported with two significant figures. 4.56 × 1.4 = 6.384, which rounded to two significant figures is 6.4. Options A, C, and D retain more than two significant figures, making them incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01148-18",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Report calculated quantities appropriately",
+      "question": "A length is measured as 12.30 cm (four significant figures) and a width as 0.45 cm (two significant figures). What is the area reported correctly with proper significant figures?",
+      "options": {
+        "A": "5.535 cm²",
+        "B": "5.5 cm²",
+        "C": "5.54 cm²",
+        "D": "5.53 cm²"
+      },
+      "correct_option": "B",
+      "answer": "5.5 cm²",
+      "explanation": "Area = length × width = 12.30 × 0.45 = 5.535 cm². In multiplication, the result must have the same number of significant figures as the factor with the fewest, which is the width (2 sf). Rounding 5.535 to two significant figures gives 5.5 cm². Options A, C, and D retain three or more significant figures, so they are not correctly reported.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "LU-01148-19",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Count significant figures",
+      "question": "Which of the following numbers has the greatest number of significant figures?",
+      "options": {
+        "A": "0.004560",
+        "B": "4560.",
+        "C": "4560.0",
+        "D": "4.560×10³"
+      },
+      "correct_option": "C",
+      "answer": "4560.0",
+      "explanation": "Counting significant figures:\nA) 0.004560 → leading zeros are not significant, so 4,5,6,0 = 4 sf.\nB) 4560. → the decimal point indicates the trailing zero is significant, giving 4 sf.\nC) 4560.0 → both trailing zeros are significant, giving 5 sf.\nD) 4.560×10³ → the mantissa 4.560 has 4 sf.\nThus, option C has the most (5) significant figures. The other options have fewer.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01148-20",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules involving zeros",
+      "question": "In the measurement 0.0070300 m, how many significant figures are present?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "answer": "5",
+      "explanation": "Leading zeros (the first three zeros) are not significant. The digits 7, 0, and 3 are significant (the zero between 7 and 3 is a captive zero). The two zeros after the decimal point are trailing zeros and are also significant. Hence, 7, 0, 3, 0, 0 = 5 significant figures. Options B, C, and D miscount the zeros.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01148-21",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Round measurements correctly",
+      "question": "Round the measurement 2.6789 m to three significant figures.",
+      "options": {
+        "A": "2.68 m",
+        "B": "2.679 m",
+        "C": "2.7 m",
+        "D": "2.68"
+      },
+      "correct_option": "A",
+      "answer": "2.68 m",
+      "explanation": "To keep three significant figures, we look at the fourth digit (9). Since it is 5 or greater, we round the third digit up. 2.6789 → 2.68 (three significant figures). Option B retains four figures, C rounds to only two, and D omits the unit, so A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01148-22",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply significant-figure rules in addition and subtraction",
+      "question": "Add 12.11 cm and 0.3 cm. What is the sum reported with the correct number of significant figures?",
+      "options": {
+        "A": "12.41 cm",
+        "B": "12.4 cm",
+        "C": "12.5 cm",
+        "D": "12.410 cm"
+      },
+      "correct_option": "B",
+      "answer": "12.4 cm",
+      "explanation": "In addition/subtraction, the result is limited by the least precise decimal place. 12.11 cm is precise to the hundredths place, while 0.3 cm is precise only to the tenths place. Therefore, the sum must be reported to the tenths place: 12.11 + 0.3 = 12.41 → 12.4 cm. Options A and D keep extra decimal places, and C rounds incorrectly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01148-23",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules in multiplication and division",
+      "question": "Which statement correctly describes the rule for determining significant figures in a product?",
+      "options": {
+        "A": "The result must have as many decimal places as the factor with the fewest decimal places.",
+        "B": "The result must have as many significant figures as the factor with the fewest significant figures.",
+        "C": "The result must have the same number of significant figures as the first factor.",
+        "D": "The result must have the same number of decimal places as the factor with the most decimal places."
+      },
+      "correct_option": "B",
+      "answer": "The result must have as many significant figures as the factor with the fewest significant figures.",
+      "explanation": "For multiplication and division, the number of significant figures in the answer is limited by the operand that has the fewest significant figures. Option B states this rule correctly. Options A and D incorrectly refer to decimal places, and C incorrectly ties the rule to the first factor only.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "LU-01148-24",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Report calculated quantities appropriately",
+      "question": "A student measures mass as 5.678 g (four significant figures) and volume as 2.0 cm³ (two significant figures). What is the density reported correctly?",
+      "options": {
+        "A": "2.839 g/cm³",
+        "B": "2.84 g/cm³",
+        "C": "2.8 g/cm³",
+        "D": "2.84 g/cm³"
+      },
+      "correct_option": "C",
+      "answer": "2.8 g/cm³",
+      "explanation": "Density = mass/volume = 5.678 ÷ 2.0 = 2.839 g/cm³. Division follows the multiplication/division rule: the result must have the same number of significant figures as the quantity with the fewest (volume, 2 sf). Rounding 2.839 to two significant figures gives 2.8 g/cm³. Options A and B retain too many significant figures, while D repeats B.",
+      "difficulty": "easy"
+    }
+  ]
+}

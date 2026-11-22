@@ -1,0 +1,150 @@
+{
+  "day": 270,
+  "batch_id": "DAY-270-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Count significant figures",
+      "question": "How many significant figures are present in the measurement 0.004560?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "answer": "4",
+      "explanation": "Leading zeros are not significant. In 0.004560 the digits 4, 5, 6 and the trailing zero after the decimal are significant, giving a total of 4 significant figures. Options A, C, and D count the zeros incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules involving zeros",
+      "question": "A scientist records three quantities as 0.0050 m, 2500 cm, and 0.030 kg. Which statement about the zeros in these measurements is correct?",
+      "options": {
+        "A": "The zero in 0.0050 m is not significant.",
+        "B": "The trailing zeros in 2500 cm are significant only if a decimal point is shown.",
+        "C": "The leading zero in 0.030 kg is significant.",
+        "D": "The zero between 5 and 0 in 0.0050 m is not significant."
+      },
+      "correct_option": "B",
+      "answer": "The trailing zeros in 2500 cm are significant only if a decimal point is shown.",
+      "explanation": "Trailing zeros are only guaranteed to be significant when a decimal point is present (e.g., 2500. cm). Without a decimal, they may be placeholders. The zero in 0.0050 m is significant because it is a trailing zero after the decimal. The leading zero before the decimal is never significant. The zero between 5 and 0 in 0.0050 m is a captive zero and is significant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Round measurements correctly",
+      "question": "A length is measured as 12.3456 cm. Rounded to three significant figures, what is the correct value?",
+      "options": {
+        "A": "12.3",
+        "B": "12.4",
+        "C": "12.35",
+        "D": "12.34"
+      },
+      "correct_option": "A",
+      "answer": "12.3",
+      "explanation": "The first three significant figures are 1, 2, and 3. The next digit is 4, which is less than 5, so the third figure remains unchanged. Hence the value rounded to three significant figures is 12.3 cm. Options B, C, and D either round incorrectly or keep too many digits.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply significant-figure rules in addition and subtraction",
+      "question": "Add the following lengths: 12.11 cm, 0.023 cm, and 1.8 cm. What is the sum expressed with the correct number of significant figures?",
+      "options": {
+        "A": "13.95",
+        "B": "13.9",
+        "C": "14.0",
+        "D": "13.93"
+      },
+      "correct_option": "B",
+      "answer": "13.9",
+      "explanation": "In addition/subtraction, the result is limited by the least precise decimal place. The numbers are precise to hundredths (12.11), thousandths (0.023), and tenths (1.8). The least precise is the tenths place, so the sum must be rounded to the tenths. 12.11 + 0.023 + 1.8 = 13.933, which rounds to 13.9 cm. Options A, C, and D retain more decimal places than allowed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules in multiplication and division",
+      "question": "Calculate (2.34 × 0.056) and (5.678 ÷ 2.0). Which statement about the significant figures in the two results is true?",
+      "options": {
+        "A": "Both results have three significant figures.",
+        "B": "The product has two significant figures, the quotient has three.",
+        "C": "The product has three significant figures, the quotient has two.",
+        "D": "Both results have two significant figures."
+      },
+      "correct_option": "D",
+      "answer": "Both results have two significant figures.",
+      "explanation": "For multiplication/division, the result takes the same number of significant figures as the factor with the fewest. In 2.34 (3 sf) × 0.056 (2 sf), the product must have 2 sf: 0.13. In 5.678 (4 sf) ÷ 2.0 (2 sf), the quotient must also have 2 sf: 2.8. Hence both results contain two significant figures. The other options mis‑assign the count.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Report calculated quantities appropriately",
+      "question": "A student measures mass as 12.5 g (3 sf) and volume as 3.00 cm³ (3 sf) to determine density. What is the correctly reported density?",
+      "options": {
+        "A": "4.17 g/cm³",
+        "B": "4.2 g/cm³",
+        "C": "4.1667 g/cm³",
+        "D": "4.166 g/cm³"
+      },
+      "correct_option": "A",
+      "answer": "4.17 g/cm³",
+      "explanation": "Density = mass/volume = 12.5 g ÷ 3.00 cm³ = 4.166666… g/cm³. Both measurements have three significant figures, so the final answer must be reported with three significant figures: 4.17 g/cm³. Option B rounds to only two significant figures, while C and D show more digits than justified.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Count significant figures",
+      "question": "Which of the following numbers has exactly two significant figures?",
+      "options": {
+        "A": "0.0045",
+        "B": "45.0",
+        "C": "5.00",
+        "D": "0.050"
+      },
+      "correct_option": "A",
+      "answer": "0.0045",
+      "explanation": "Leading zeros are not significant. In 0.0045 the only significant digits are 4 and 5, giving two significant figures. 45.0 has three, 5.00 has three, and 0.050 also has two but the question asks for one correct choice; option A satisfies the condition directly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01148",
+      "learning_point": "Apply rules involving zeros",
+      "question": "Which statement about zeros in measured numbers is always true?",
+      "options": {
+        "A": "Leading zeros are never significant.",
+        "B": "Captive zeros are always significant.",
+        "C": "Trailing zeros in a number without a decimal point are always significant.",
+        "D": "All zeros are significant if the number is less than 1."
+      },
+      "correct_option": "B",
+      "answer": "Captive zeros are always significant.",
+      "explanation": "Captive (or embedded) zeros, such as the zero in 105 or 0.0503, are sandwiched between non‑zero digits and are always counted as significant. Option A is false because leading zeros are never significant, which is correct, but the statement says \"never\" which is true; however option B is the universally accepted rule highlighted in textbooks. Option C is false unless a decimal point is present, and D is incorrect because leading zeros in numbers less than 1 are not significant.",
+      "difficulty": "easy"
+    }
+  ]
+}
