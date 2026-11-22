@@ -1,0 +1,150 @@
+{
+  "day": 267,
+  "batch_id": "DAY-267-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define random experiment",
+      "question": "Which of the following best defines a random experiment in probability?",
+      "options": {
+        "A": "An experiment whose outcome is predetermined and known in advance.",
+        "B": "An experiment that can be performed repeatedly under the same conditions, and whose outcome cannot be predicted with certainty.",
+        "C": "An experiment that always yields the same result each time it is performed.",
+        "D": "An experiment that involves only deterministic processes."
+      },
+      "correct_option": "B",
+      "answer": "An experiment that can be performed repeatedly under the same conditions, and whose outcome cannot be predicted with certainty.",
+      "explanation": "A random experiment is one that can be repeated under identical conditions, yet its individual outcome cannot be predicted in advance. Option B captures this definition. Option A describes a deterministic experiment, C is incorrect because outcomes vary, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define outcome",
+      "question": "In the context of probability, an \"outcome\" refers to:",
+      "options": {
+        "A": "The set of all possible results of an experiment.",
+        "B": "A single possible result of a random experiment.",
+        "C": "A collection of several experiments performed together.",
+        "D": "The probability of an event occurring."
+      },
+      "correct_option": "B",
+      "answer": "A single possible result of a random experiment.",
+      "explanation": "An outcome is one specific result that may occur when a random experiment is performed. Option B states this precisely. Option A describes the sample space, C is not a definition of outcome, and D confuses outcome with probability.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define sample space",
+      "question": "The sample space of a random experiment is:",
+      "options": {
+        "A": "The set of all elementary events only.",
+        "B": "The set of all possible outcomes of the experiment.",
+        "C": "The set of outcomes that are impossible.",
+        "D": "The set of outcomes that have probability zero."
+      },
+      "correct_option": "B",
+      "answer": "The set of all possible outcomes of the experiment.",
+      "explanation": "The sample space (denoted S) contains every outcome that can possibly occur when the experiment is carried out. Option B is correct. Option A is too restrictive, C and D describe impossible or null events, not the full sample space.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define event",
+      "question": "An event in probability is:",
+      "options": {
+        "A": "A single outcome only.",
+        "B": "Any subset of the sample space, including possibly a single outcome or multiple outcomes.",
+        "C": "The complement of the sample space.",
+        "D": "The probability distribution of outcomes."
+      },
+      "correct_option": "B",
+      "answer": "Any subset of the sample space, including possibly a single outcome or multiple outcomes.",
+      "explanation": "An event is defined as any collection (subset) of outcomes from the sample space. It may consist of one outcome (elementary) or many (compound). Option B states this. Option A limits events incorrectly, C describes a specific event (complement), and D confuses event with probability distribution.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Identify elementary and compound events",
+      "question": "Consider tossing a fair coin twice. Let S be the sample space. Which of the following correctly identifies an elementary event and a compound event?",
+      "options": {
+        "A": "‘Head on first toss’ is elementary; ‘Exactly one head in two tosses’ is compound.",
+        "B": "‘Exactly one head in two tosses’ is elementary; ‘Head on first toss’ is compound.",
+        "C": "Both are elementary events.",
+        "D": "Both are compound events."
+      },
+      "correct_option": "A",
+      "answer": "‘Head on first toss’ is elementary; ‘Exactly one head in two tosses’ is compound.",
+      "explanation": "‘Head on first toss’ corresponds to a single specific outcome (e.g., HH or HT) and is therefore elementary. ‘Exactly one head in two tosses’ includes two outcomes (HT, TH) and is a compound event. Option A captures this distinction. Options B, C, D misclassify the events.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define random experiment",
+      "question": "A student draws a card at random from a standard deck of 52 cards and notes its suit. Which description best matches this situation?",
+      "options": {
+        "A": "A deterministic experiment because the suit can be known beforehand.",
+        "B": "A random experiment because the outcome (the suit) cannot be predicted with certainty before drawing.",
+        "C": "A non-random experiment because the deck is fixed.",
+        "D": "A random experiment only if the card is replaced after each draw."
+      },
+      "correct_option": "B",
+      "answer": "A random experiment because the outcome (the suit) cannot be predicted with certainty before drawing.",
+      "explanation": "Drawing a card without looking is a random experiment: the specific suit is uncertain until the draw. Option B correctly states this. Option A is false because the suit is not known in advance. Option C misinterprets randomness, and D adds an unnecessary condition about replacement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define outcome",
+      "question": "Which statement about an outcome is FALSE?",
+      "options": {
+        "A": "An outcome is one possible result of a random experiment.",
+        "B": "All outcomes together form the sample space.",
+        "C": "An outcome can be a set of multiple results.",
+        "D": "Each outcome is mutually exclusive with others."
+      },
+      "correct_option": "C",
+      "answer": "An outcome can be a set of multiple results.",
+      "explanation": "An outcome is a single result, not a set. Therefore statement C is false. Statements A, B, and D are true: each outcome is a single result, the collection of all outcomes makes the sample space, and distinct outcomes cannot occur simultaneously in a single trial.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01136",
+      "learning_point": "Define sample space",
+      "question": "If a die is rolled, which of the following correctly represents the sample space?",
+      "options": {
+        "A": "{1,2,3,4,5}",
+        "B": "{0,1,2,3,4,5,6}",
+        "C": "{1,2,3,4,5,6}",
+        "D": "{even numbers only}"
+      },
+      "correct_option": "C",
+      "answer": "{1,2,3,4,5,6}",
+      "explanation": "When a standard six‑sided die is rolled, any of the numbers 1 through 6 can appear, so the sample space is {1,2,3,4,5,6}. Option C is correct. Option A omits 6, B includes an impossible 0, and D excludes odd numbers, all of which are incorrect representations of the full sample space.",
+      "difficulty": "medium"
+    }
+  ]
+}
