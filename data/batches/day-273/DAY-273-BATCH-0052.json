@@ -1,0 +1,78 @@
+{
+  "day": 273,
+  "batch_id": "DAY-273-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "In deriving Newton's second law for a particle of constant mass, which of the following statements is NOT correct?",
+      "options": {
+        "A": "The net external force equals the rate of change of momentum, i.e., F = dp/dt.",
+        "B": "For constant mass, dp/dt simplifies to m dv/dt.",
+        "C": "Therefore, the net force can be written as F = m a.",
+        "D": "The net force is equal to the rate of change of velocity."
+      },
+      "correct_option": "D",
+      "answer": "The net force is equal to the rate of change of velocity.",
+      "explanation": "Newton's second law states that the net external force equals the time derivative of momentum (F = dp/dt). When mass is constant, dp/dt = m dv/dt, giving F = m a. It is incorrect to say that force equals the rate of change of velocity; force relates to the change in momentum, not directly to velocity. Options A, B, and C correctly follow the derivation, while D reflects a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A net horizontal force of 20 N acts on a 5 kg block on a frictionless surface. What is the magnitude of its acceleration?",
+      "options": {
+        "A": "2 m/s²",
+        "B": "4 m/s²",
+        "C": "5 m/s²",
+        "D": "10 m/s²"
+      },
+      "correct_option": "B",
+      "answer": "4 m/s²",
+      "explanation": "Using Newton's second law, F = m a, we solve for acceleration: a = F/m = 20 N / 5 kg = 4 m/s². Option B gives the correct value. The other options result from incorrect division or misinterpretation of the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Use vector form where appropriate",
+      "question": "Two forces act on a particle: 3 N directed east and 4 N directed north. Which method correctly gives the magnitude of the resultant force?",
+      "options": {
+        "A": "Add the magnitudes directly (3 N + 4 N).",
+        "B": "Apply the Pythagorean theorem to the perpendicular components.",
+        "C": "Multiply the magnitudes (3 N × 4 N).",
+        "D": "Subtract the smaller magnitude from the larger (4 N – 3 N)."
+      },
+      "correct_option": "B",
+      "answer": "Apply the Pythagorean theorem to the perpendicular components.",
+      "explanation": "When forces are perpendicular, their vector sum is found using the Pythagorean theorem: resultant = √(3² + 4²) = 5 N. Option B describes this correct vector method. Adding magnitudes (A) ignores direction, multiplication (C) and subtraction (D) are not valid for vector addition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Solve multi-force problems",
+      "question": "A 2 kg block on a frictionless horizontal surface is acted upon by three horizontal forces: 8 N to the right, 3 N to the left, and an unknown force F to the left. The block accelerates to the right at 2 m/s². What is the magnitude of F?",
+      "options": {
+        "A": "1 N",
+        "B": "2 N",
+        "C": "5 N",
+        "D": "8 N"
+      },
+      "correct_option": "A",
+      "answer": "1 N",
+      "explanation": "First find the net force required for the given acceleration: F_net = m a = 2 kg × 2 m/s² = 4 N to the right. Let rightward forces be positive. The equation for horizontal forces is 8 N – 3 N – F = 4 N. Solving gives 5 N – F = 4 N, so F = 1 N to the left. Option A is correct. The other options arise from arithmetic errors or neglecting the contribution of the 3 N leftward force.",
+      "difficulty": "hard"
+    }
+  ]
+}
