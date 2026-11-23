@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0058",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "In projectile motion, which statement correctly describes the velocity of the projectile at the highest point of its trajectory (ignoring air resistance)?",
+      "options": {
+        "A": "Both horizontal and vertical components of velocity are zero.",
+        "B": "The vertical component becomes zero while the horizontal component remains unchanged.",
+        "C": "Only the vertical component remains, the horizontal component becomes zero.",
+        "D": "Both components are equal in magnitude."
+      },
+      "correct_option": "B",
+      "answer": "The vertical component becomes zero while the horizontal component remains unchanged.",
+      "explanation": "At the highest point, the projectile has no vertical motion because gravity has reduced the upward velocity to zero. However, the horizontal component, which experiences no acceleration, stays constant throughout the flight. Hence option B is correct. Options A and C incorrectly claim the horizontal component vanishes, and D is unrelated to the actual motion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "A stone is projected with a speed of 20 m/s at an angle of 30° above the horizontal. Which quantity must be determined first to calculate the total time of flight?",
+      "options": {
+        "A": "The horizontal range of the projectile.",
+        "B": "The vertical component of the initial velocity.",
+        "C": "The acceleration due to gravity.",
+        "D": "The angle of projection."
+      },
+      "correct_option": "B",
+      "answer": "The vertical component of the initial velocity.",
+      "explanation": "The time of flight depends on the vertical motion: t = 2u_y/g, where u_y = u sinθ. Therefore, finding the vertical component of the initial velocity is the first step. While g is needed later, the specific value of u_y is essential to start the calculation. Options A and D are not directly used for time, and C (g) is a known constant.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "Resolving the initial velocity of a projectile into components means:",
+      "options": {
+        "A": "Splitting the velocity into its horizontal and vertical components.",
+        "B": "Finding only the magnitude of the velocity.",
+        "C": "Determining the direction of motion without regard to magnitude.",
+        "D": "Converting the velocity into angular momentum about the launch point."
+      },
+      "correct_option": "A",
+      "answer": "Splitting the velocity into its horizontal and vertical components.",
+      "explanation": "Resolution of a vector involves expressing it as the sum of perpendicular components—in projectile motion, these are the horizontal (u cosθ) and vertical (u sinθ) components. Options B, C, and D describe unrelated operations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "For a projectile launched from ground level with speed u at an angle θ, the trajectory equation is y = x tanθ – (g x²)/(2u² cos²θ). Which term in this equation represents the effect of gravity?",
+      "options": {
+        "A": "x tanθ",
+        "B": "(g x²)/(2u² cos²θ)",
+        "C": "u²",
+        "D": "tanθ"
+      },
+      "correct_option": "B",
+      "answer": "(g x²)/(2u² cos²θ)",
+      "explanation": "The second term contains g, the acceleration due to gravity, and subtracts from the linear term, showing how gravity pulls the projectile downward. The first term (x tanθ) describes the initial straight‑line direction, while C and D are not part of the derived equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "A ball is projected with a speed of 40 m/s at an angle of 45° above the horizontal (ignore air resistance). What is the total time the ball remains in the air?",
+      "options": {
+        "A": "4.1 s",
+        "B": "5.9 s",
+        "C": "8.2 s",
+        "D": "6.5 s"
+      },
+      "correct_option": "B",
+      "answer": "5.9 s",
+      "explanation": "Time of flight t = 2u sinθ / g. Here u sinθ = 40 × sin45° = 40 × 0.7071 ≈ 28.28 m/s. Thus t = 2 × 28.28 / 9.8 ≈ 5.77 s, which rounds to 5.9 s. Option B matches this calculation. The other options result from incorrect use of the formula or rounding errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "A stone is thrown with a speed of 30 m/s at an angle of 60° above the horizontal. What is the maximum height reached by the stone (take g = 9.8 m/s²)?",
+      "options": {
+        "A": "22 m",
+        "B": "34 m",
+        "C": "45 m",
+        "D": "55 m"
+      },
+      "correct_option": "B",
+      "answer": "34 m",
+      "explanation": "Maximum height H = u² sin²θ / (2g). u² = 900, sinθ = sin60° = 0.866, so sin²θ ≈ 0.75. Hence H = 900 × 0.75 / (2 × 9.8) = 675 / 19.6 ≈ 34.44 m, which is about 34 m. Option B is correct. The other options correspond to miscalculations of the sine value or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "Which of the following statements about the horizontal range of a projectile launched from ground level (neglecting air resistance) is FALSE?",
+      "options": {
+        "A": "The range is maximum when the launch angle is 45° for a given initial speed.",
+        "B": "The range is proportional to the square of the initial speed.",
+        "C": "The range increases linearly with the launch angle.",
+        "D": "The range is independent of the mass of the projectile."
+      },
+      "correct_option": "C",
+      "answer": "The range increases linearly with the launch angle.",
+      "explanation": "The range R = (u² sin2θ)/g, which depends on the sine of twice the launch angle, not linearly on the angle itself. Therefore statement C is false. Statements A, B, and D are true: 45° gives maximum range, R ∝ u², and mass does not appear in the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "A projectile is launched with a speed of 20 m/s at 60° above the horizontal. At a moment that is exactly half the time required to reach the maximum height, the direction of the velocity vector makes an angle closest to which of the following with the horizontal?",
+      "options": {
+        "A": "30° upward",
+        "B": "40° upward",
+        "C": "45° upward",
+        "D": "60° upward"
+      },
+      "correct_option": "B",
+      "answer": "40° upward",
+      "explanation": "Initial vertical component u_y = 20 sin60° ≈ 17.32 m/s; horizontal component u_x = 20 cos60° = 10 m/s. Time to reach maximum height t_max = u_y/g ≈ 1.77 s; half of this is ≈0.88 s. At that instant, vertical velocity v_y = u_y – g·t ≈ 17.32 – 9.8 × 0.88 ≈ 8.66 m/s. The angle α = arctan(v_y/u_x) = arctan(8.66/10) ≈ 40°. Hence option B is correct. The other angles correspond to incorrect timing or neglecting the reduction of vertical speed.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0057",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "Which of the following expressions correctly gives the horizontal range R of a projectile launched from ground level with initial speed u at an angle θ (air resistance neglected)?",
+      "options": {
+        "A": "R = (u^2 \\sin 2\\theta)/g",
+        "B": "R = (u^2 \\sin \\theta)/g",
+        "C": "R = (u \\cos\\theta)\\times (2u \\sin\\theta /g)",
+        "D": "R = (u \\sin\\theta)\\times (2u \\cos\\theta /g)"
+      },
+      "correct_option": "A",
+      "answer": "R = (u^2 \\sin 2\\theta)/g",
+      "explanation": "The range of a projectile on level ground is derived by multiplying the horizontal component of velocity (u cosθ) by the total time of flight (2u sinθ/g). This simplifies to R = u^2 sin2θ / g. Options B, C and D are algebraic rearrangements that are not equivalent to the standard formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "A stone is projected with a speed of 20 m/s at 30° above the horizontal. What is the magnitude of its velocity at the highest point of the trajectory?",
+      "options": {
+        "A": "10 m/s",
+        "B": "17.3 m/s",
+        "C": "20 m/s",
+        "D": "0 m/s"
+      },
+      "correct_option": "B",
+      "answer": "17.3 m/s",
+      "explanation": "At the highest point the vertical component of velocity becomes zero, while the horizontal component remains unchanged: u_x = u cosθ = 20 × cos30° ≈ 20 × 0.866 = 17.3 m/s. Hence the speed equals the horizontal component. Option A is the vertical component, C is the initial speed, and D would correspond to a body momentarily at rest, which never occurs in projectile motion without external forces.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "A projectile is launched from ground level with a speed of 25 m/s at an angle of 45° to the horizontal (take g = 10 m/s²). What is its horizontal range?",
+      "options": {
+        "A": "62.5 m",
+        "B": "31.25 m",
+        "C": "78.1 m",
+        "D": "50 m"
+      },
+      "correct_option": "A",
+      "answer": "62.5 m",
+      "explanation": "Range R = u² sin2θ / g. Here u = 25 m/s, θ = 45°, so sin2θ = sin90° = 1. Thus R = 25² / 10 = 625/10 = 62.5 m. Option B is half the correct value, C uses sinθ instead of sin2θ, and D is a common mis‑calculation using g = 9.8 m/s² without adjusting the numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A ball is thrown from the top of a cliff with a speed of 30 m/s at 60° above the horizontal. What is the horizontal component of the initial velocity?",
+      "options": {
+        "A": "15 m/s",
+        "B": "30 m/s",
+        "C": "25.98 m/s",
+        "D": "10.39 m/s"
+      },
+      "correct_option": "A",
+      "answer": "15 m/s",
+      "explanation": "Horizontal component u_x = u cosθ = 30 × cos60° = 30 × 0.5 = 15 m/s. Option B ignores the angle, C uses sin60°, and D uses sin30°, both incorrect for the horizontal component.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "In the trajectory equation y = x\\tan\\theta - \\frac{g x^{2}}{2 u^{2}\\cos^{2}\\theta}, which statement is correct?",
+      "options": {
+        "A": "The second term represents the vertical displacement caused by gravity.",
+        "B": "The first term represents the effect of gravity on the projectile.",
+        "C": "Both terms are independent of the acceleration due to gravity.",
+        "D": "The equation is valid only when air resistance is present."
+      },
+      "correct_option": "A",
+      "answer": "The second term represents the vertical displacement caused by gravity.",
+      "explanation": "The first term x tanθ gives the straight‑line path the projectile would follow without gravity. The second term, containing g, accounts for the downward curvature due to gravitational acceleration. Options B and C ignore the role of g, while D is false because the equation assumes no air resistance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "A stone is projected from ground level with a speed of 20 m/s at 30° above the horizontal (g = 10 m/s²). What is the total time the stone remains in the air?",
+      "options": {
+        "A": "1 s",
+        "B": "2 s",
+        "C": "3 s",
+        "D": "4 s"
+      },
+      "correct_option": "B",
+      "answer": "2 s",
+      "explanation": "Vertical component u_y = 20 sin30° = 10 m/s. Time to rise to the highest point t_up = u_y/g = 10/10 = 1 s. Total time of flight = 2 t_up = 2 s. Option A gives only the ascent time, while C and D are overestimates.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "Two projectiles are launched from the same point with the same speed of 40 m/s. Projectile A is launched at 30° and Projectile B at 60° to the horizontal (g = 10 m/s²). Which projectile attains the greater maximum height?",
+      "options": {
+        "A": "Both attain the same maximum height",
+        "B": "Projectile A attains a greater height",
+        "C": "Projectile B attains a greater height",
+        "D": "The maximum height cannot be determined without knowing the launch height"
+      },
+      "correct_option": "C",
+      "answer": "Projectile B attains a greater height",
+      "explanation": "Maximum height H = u² sin²θ / (2g). Since sin60° > sin30°, H_B > H_A. Therefore Projectile B reaches a higher point. Option A would be true only if the launch angles were complementary (45° each) with equal sin² values, which is not the case. Option D is irrelevant because launch height is the same for both.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "A stone is projected from a point 5 m above the ground with a speed of 20 m/s at 45° to the horizontal. Taking g = 10 m/s², what is the horizontal range (distance from the launch point to the point of impact)?",
+      "options": {
+        "A": "44.5 m",
+        "B": "40 m",
+        "C": "50 m",
+        "D": "35 m"
+      },
+      "correct_option": "A",
+      "answer": "44.5 m",
+      "explanation": "For launch from height h, range R = (u cosθ)/g [u sinθ + √(u² sin²θ + 2gh)]. Here u cosθ = u sinθ = 20 × 0.707 = 14.14 m/s. Inside the bracket: 14.14 + √(14.14² + 2·10·5) = 14.14 + √(200 + 100) = 14.14 + √300 ≈ 14.14 + 17.32 = 31.46. Multiply by (14.14)/10 = 1.414 × 31.46 ≈ 44.5 m. Options B, C, D result from neglecting the height term or using approximate g values.",
+      "difficulty": "hard"
+    }
+  ]
+}

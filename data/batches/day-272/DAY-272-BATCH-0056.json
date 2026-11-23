@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0056",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "A projectile is launched with a speed of 20 m/s at an angle of 30° above the horizontal. Ignoring air resistance, what is the maximum height reached by the projectile?",
+      "options": {
+        "A": "5.1 m",
+        "B": "4.0 m",
+        "C": "6.5 m",
+        "D": "8.0 m"
+      },
+      "correct_option": "A",
+      "answer": "5.1 m",
+      "explanation": "The vertical component of the initial velocity is u_y = 20 sin30° = 10 m/s. The maximum height is given by H = u_y²/(2g) = 10²/(2×9.8) ≈ 5.1 m. Options B, C and D use incorrect calculations of the vertical component or the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "A ball is thrown from ground level with a speed of 25 m/s at an angle of 45° to the horizontal. What is the horizontal range of the ball (neglect air resistance)?",
+      "options": {
+        "A": "64 m",
+        "B": "50 m",
+        "C": "80 m",
+        "D": "100 m"
+      },
+      "correct_option": "A",
+      "answer": "64 m",
+      "explanation": "Horizontal component u_x = 25 cos45° = 17.68 m/s. Vertical component u_y = 25 sin45° = 17.68 m/s. Time of flight t = 2u_y/g = 2×17.68/9.8 ≈ 3.61 s. Range = u_x t ≈ 17.68×3.61 ≈ 63.8 m, rounded to 64 m. The other options arise from using wrong components or forgetting the factor of 2 in time of flight.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "Which statement correctly describes the velocity of a projectile at the highest point of its trajectory (ignoring air resistance)?",
+      "options": {
+        "A": "Both the horizontal and vertical components of velocity become zero.",
+        "B": "The horizontal component becomes zero while the vertical component remains non‑zero.",
+        "C": "The vertical component becomes zero while the horizontal component remains unchanged.",
+        "D": "The speed of the projectile becomes zero."
+      },
+      "correct_option": "C",
+      "answer": "The vertical component becomes zero while the horizontal component remains unchanged.",
+      "explanation": "At the top of the trajectory the vertical component of velocity is zero because the projectile momentarily stops moving upward. The horizontal component, however, stays constant (no horizontal acceleration). Therefore option C is correct. Options A, B, and D incorrectly state that the horizontal component also vanishes or that the speed is zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "A stone is projected from a point 5 m above the ground with a speed of 30 m/s at an angle of 60° above the horizontal. How long does it take for the stone to hit the ground? (Take g = 9.8 m/s².)",
+      "options": {
+        "A": "5.5 s",
+        "B": "4.0 s",
+        "C": "3.0 s",
+        "D": "6.5 s"
+      },
+      "correct_option": "A",
+      "answer": "5.5 s",
+      "explanation": "Vertical component u_y = 30 sin60° = 25.98 m/s. Using y = h + u_y t – ½gt² = 0: 5 + 25.98t – 4.9t² = 0 → 4.9t² – 25.98t – 5 = 0. Solving gives t = [25.98 + √(25.98² + 4·4.9·5)]/(2·4.9) ≈ 5.49 s, which rounds to 5.5 s. Options B, C, and D result from neglecting the initial height or using an incorrect sign for the quadratic term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "Two projectiles are launched from the same point. Projectile (i) has speed 40 m/s at 30° above the horizontal. Projectile (ii) has speed 30 m/s at 60° above the horizontal. Which projectile has the larger horizontal component of its initial velocity?",
+      "options": {
+        "A": "Projectile (i) only",
+        "B": "Projectile (ii) only",
+        "C": "Both have equal horizontal components",
+        "D": "Neither; both have zero horizontal component"
+      },
+      "correct_option": "A",
+      "answer": "Projectile (i) only",
+      "explanation": "Horizontal component for (i): u_x = 40 cos30° = 34.64 m/s. For (ii): u_x = 30 cos60° = 15.0 m/s. Hence projectile (i) has the larger horizontal component. Options B, C, and D are incorrect because they either reverse the comparison or ignore the non‑zero horizontal components.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "In deriving the trajectory equation y = x tanθ – (g x²)/(2u² cos²θ) for a projectile launched from the origin with speed u at angle θ, which of the following steps is essential?",
+      "options": {
+        "A": "Express the time of flight as t = x/(u cosθ) and substitute it into the vertical motion equation.",
+        "B": "Apply conservation of mechanical energy to relate kinetic and potential energies.",
+        "C": "Use Newton’s second law only in the vertical direction, ignoring horizontal motion.",
+        "D": "Assume that the vertical component of velocity remains constant throughout the motion."
+      },
+      "correct_option": "A",
+      "answer": "Express the time of flight as t = x/(u cosθ) and substitute it into the vertical motion equation.",
+      "explanation": "The trajectory equation is obtained by eliminating time. From horizontal motion, x = u cosθ · t ⇒ t = x/(u cosθ). Substituting this t into the vertical equation y = u sinθ · t – ½gt² yields the required relation. Options B, C, and D do not lead to the correct elimination of time and therefore are not part of the standard derivation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "A projectile is launched from ground level with a speed of 15 m/s at an angle of 30° above the horizontal. What is the total time the projectile remains in the air?",
+      "options": {
+        "A": "1.5 s",
+        "B": "2.0 s",
+        "C": "3.0 s",
+        "D": "0.75 s"
+      },
+      "correct_option": "A",
+      "answer": "1.5 s",
+      "explanation": "Vertical component u_y = 15 sin30° = 7.5 m/s. Time of flight t = 2u_y/g = 2×7.5/9.8 ≈ 1.53 s, which rounds to 1.5 s. Options B, C, and D arise from using wrong components or omitting the factor of 2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "Which of the following expressions correctly gives the maximum height H of a projectile launched from ground level with speed u at an angle θ (neglecting air resistance)?",
+      "options": {
+        "A": "H = (u² sin²θ)/(2g)",
+        "B": "H = (u² cos²θ)/(2g)",
+        "C": "H = (u sinθ)/g",
+        "D": "H = (u cosθ)/g"
+      },
+      "correct_option": "A",
+      "answer": "H = (u² sin²θ)/(2g)",
+      "explanation": "The vertical component of the initial velocity is u sinθ. Using H = (u sinθ)²/(2g) gives H = u² sin²θ/(2g). Option B uses the horizontal component, while C and D are missing the square and the factor of ½, so they are incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}

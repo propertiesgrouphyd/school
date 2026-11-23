@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0060",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A projectile is launched with speed u at an angle θ above the horizontal. A common mistake is to take the horizontal component as u sinθ. Which of the following correctly gives the horizontal component of the initial velocity?",
+      "options": {
+        "A": "u cosθ",
+        "B": "u sinθ",
+        "C": "u tanθ",
+        "D": "u / cosθ"
+      },
+      "correct_option": "A",
+      "answer": "u cosθ",
+      "explanation": "The horizontal component of the initial velocity is obtained by multiplying the speed by the cosine of the launch angle: u cosθ. Using sinθ gives the vertical component, which is a typical misconception. Options B, C, and D are incorrect for the horizontal component.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "Which of the following equations correctly represents the trajectory y(x) of a projectile launched from the origin with speed u at angle θ, neglecting air resistance?",
+      "options": {
+        "A": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+        "B": "y = x tanθ + (g x²)/(2 u² sin²θ)",
+        "C": "y = (u² sin2θ)/g - (g x²)/(2 u² cos²θ)",
+        "D": "y = x cotθ - (g x²)/(2 u² sin²θ)"
+      },
+      "correct_option": "A",
+      "answer": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+      "explanation": "Starting from the horizontal motion x = u cosθ t and vertical motion y = u sinθ t - ½gt², eliminating t gives y = x tanθ - (g x²)/(2 u² cos²θ). This is the standard trajectory equation. The other options either have wrong signs or incorrect trigonometric functions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "Two projectiles are launched from the same level with the same speed u. Projectile A is launched at 30° above the horizontal, Projectile B at 60°. Ignoring air resistance, which statement about their times of flight is correct?",
+      "options": {
+        "A": "Both have the same time of flight",
+        "B": "Projectile A stays longer in the air",
+        "C": "Projectile B stays longer in the air",
+        "D": "Time of flight depends only on speed, not on angle"
+      },
+      "correct_option": "C",
+      "answer": "Projectile B stays longer in the air",
+      "explanation": "Time of flight T = (2u sinθ)/g. Since sin60° > sin30°, Projectile B (60°) has a larger vertical component and therefore a longer flight time. Option A is false because angle matters; B is opposite; D ignores the angle dependence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "A stone is projected with speed 20 m/s at 45° above the horizontal from ground level. What is the maximum height reached?",
+      "options": {
+        "A": "5.1 m",
+        "B": "10.2 m",
+        "C": "15.3 m",
+        "D": "20.4 m"
+      },
+      "correct_option": "B",
+      "answer": "10.2 m",
+      "explanation": "Maximum height H = (u² sin²θ)/(2g). Here u² = 400, sin45° = √2/2, so sin²θ = 0.5. Thus H = (400 × 0.5)/(2 × 9.8) = 200/19.6 ≈ 10.2 m. Options A, C, D result from incorrect use of the formula or arithmetic errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "The horizontal range R of a projectile launched from level ground with speed u at angle θ (neglecting air resistance) is given by which expression?",
+      "options": {
+        "A": "R = (u² sin2θ)/g",
+        "B": "R = (u² cos2θ)/g",
+        "C": "R = (u sinθ)/g",
+        "D": "R = (u² sinθ)/g"
+      },
+      "correct_option": "A",
+      "answer": "R = (u² sin2θ)/g",
+      "explanation": "Range R = (horizontal speed) × time of flight = u cosθ × (2u sinθ/g) = (u² sin2θ)/g. Options B, C, D misuse trigonometric functions or omit factors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "At the highest point of its trajectory, the velocity of a projectile is",
+      "options": {
+        "A": "Zero",
+        "B": "Directed vertically downward",
+        "C": "Directed horizontally",
+        "D": "Equal to the initial velocity"
+      },
+      "correct_option": "C",
+      "answer": "Directed horizontally",
+      "explanation": "At the peak, the vertical component of velocity becomes zero while the horizontal component remains unchanged, so the velocity is purely horizontal. Option A would be true only for a body momentarily at rest, which is not the case; B and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "Which statement correctly distinguishes projectile motion from simple vertical motion?",
+      "options": {
+        "A": "Projectile motion has both horizontal and vertical components of motion, while vertical motion has only vertical displacement.",
+        "B": "In projectile motion, acceleration is zero; in vertical motion, acceleration is g.",
+        "C": "Projectile motion occurs only in a vacuum; vertical motion occurs in air.",
+        "D": "The time of flight in projectile motion is always twice that of vertical motion for the same initial speed."
+      },
+      "correct_option": "A",
+      "answer": "Projectile motion has both horizontal and vertical components of motion, while vertical motion has only vertical displacement.",
+      "explanation": "Projectile motion combines uniform horizontal motion with uniformly accelerated vertical motion, whereas pure vertical motion involves only the vertical direction. Options B, C, and D contain false statements about acceleration, medium, and time of flight.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A ball is thrown with speed 30 m/s at an angle of 37° above the horizontal. What is the horizontal component of its initial velocity (to two decimal places)?",
+      "options": {
+        "A": "18.0 m/s",
+        "B": "24.0 m/s",
+        "C": "30.0 m/s",
+        "D": "38.0 m/s"
+      },
+      "correct_option": "B",
+      "answer": "24.0 m/s",
+      "explanation": "Horizontal component = u cosθ = 30 × cos37°. cos37° ≈ 0.7986, so the component ≈ 30 × 0.7986 ≈ 23.96 m/s, which rounds to 24.0 m/s. Options A, C, D are results of using sinθ, neglecting the cosine, or arithmetic errors.",
+      "difficulty": "easy"
+    }
+  ]
+}
