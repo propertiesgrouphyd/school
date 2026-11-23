@@ -1,0 +1,150 @@
+{
+  "day": 271,
+  "batch_id": "DAY-271-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "Which of the following equations is obtained by integrating the definition of acceleration (a = dv/dt) for motion with constant acceleration, assuming the initial velocity is u and the initial displacement is zero?",
+      "options": {
+        "A": "v = u + at",
+        "B": "s = ut + \\frac{1}{2}at^{2}",
+        "C": "v^{2} = u^{2} + 2as",
+        "D": "a = (v - u)/t"
+      },
+      "correct_option": "B",
+      "answer": "s = ut + \\frac{1}{2}at^{2}",
+      "explanation": "Integrating a = dv/dt once gives v = u + at. Integrating v with respect to time again, and using the condition that displacement is zero at t = 0, yields s = ut + ½at². Hence option B is the equation derived from the second integration. Options A and D are first‑order results, and C is obtained by eliminating time, not directly by integration of acceleration.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A car moves with an initial speed of 15 m/s and accelerates uniformly at 2 m/s² for 5 s. What is its speed after the 5 s interval?",
+      "options": {
+        "A": "20 m/s",
+        "B": "25 m/s",
+        "C": "30 m/s",
+        "D": "35 m/s"
+      },
+      "correct_option": "B",
+      "answer": "25 m/s",
+      "explanation": "Using the equation v = u + at, v = 15 m/s + (2 m/s²)(5 s) = 15 m/s + 10 m/s = 25 m/s. The other options result from incorrect arithmetic or using the wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use s = ut + 1/2 at²",
+      "question": "A ball is projected vertically upward with an initial speed of 20 m/s. Taking upward as positive and g = 10 m/s², what is its displacement after 2 s?",
+      "options": {
+        "A": "0 m",
+        "B": "20 m",
+        "C": "10 m",
+        "D": "-20 m"
+      },
+      "correct_option": "B",
+      "answer": "20 m",
+      "explanation": "Here u = 20 m/s, a = –g = –10 m/s², t = 2 s. Using s = ut + ½at² gives s = (20)(2) + ½(–10)(4) = 40 – 20 = 20 m upward. Option B is correct; the other values arise from neglecting the sign of acceleration or mis‑applying the formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v² = u² + 2as",
+      "question": "A stone is dropped from rest and falls a vertical distance of 45 m (ignore air resistance). What is its speed just before hitting the ground? (Take g = 10 m/s²)",
+      "options": {
+        "A": "30 m/s",
+        "B": "20 m/s",
+        "C": "15 m/s",
+        "D": "45 m/s"
+      },
+      "correct_option": "A",
+      "answer": "30 m/s",
+      "explanation": "With u = 0, a = g = 10 m/s², s = 45 m, the equation v² = u² + 2as gives v = √(2·10·45) = √900 = 30 m/s. Option A is correct; the other options correspond to arithmetic errors or using the wrong formula.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Select appropriate equations",
+      "question": "A particle moves with constant acceleration. Which kinematic equation should be used when the time interval is unknown but the initial velocity, final velocity, and displacement are given?",
+      "options": {
+        "A": "v = u + at",
+        "B": "s = ut + \\frac{1}{2}at^{2}",
+        "C": "v^{2} = u^{2} + 2as",
+        "D": "a = (v - u)/t"
+      },
+      "correct_option": "C",
+      "answer": "v^{2} = u^{2} + 2as",
+      "explanation": "When time t is not provided, the equation that relates u, v, a, and s without t is v² = u² + 2as. Options A and D contain t, and option B also requires t, so they are unsuitable for this situation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Solve numerical motion problems",
+      "question": "A vehicle starts from rest, accelerates uniformly at 4 m/s² for 5 s and then continues at the attained constant speed for another 10 s. What is the total distance covered in the 15 s?",
+      "options": {
+        "A": "150 m",
+        "B": "200 m",
+        "C": "250 m",
+        "D": "300 m"
+      },
+      "correct_option": "C",
+      "answer": "250 m",
+      "explanation": "During the acceleration phase: v = 0 + 4·5 = 20 m/s; s₁ = ½·4·5² = 50 m. During the constant‑speed phase: s₂ = v·t = 20 m/s·10 s = 200 m. Total distance = 50 m + 200 m = 250 m, which is option C. The other options arise from omitting one of the phases or using incorrect arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "Consider the following two derivations of the equation v² = u² + 2as for constant acceleration.\n\nDerivation I: Start from v = u + at, multiply both sides by (v + u), and use a = (v – u)/t.\nDerivation II: Start from s = ut + ½at², solve for t from v = u + at, substitute the expression for t into the s‑equation and simplify.\n\nWhich statement is correct?",
+      "options": {
+        "A": "Both derivations are valid and lead to the same equation",
+        "B": "Derivation I is invalid because multiplying by (v + u) is not permissible",
+        "C": "Derivation II is invalid because t cannot be eliminated that way",
+        "D": "Neither derivation yields the correct equation"
+      },
+      "correct_option": "A",
+      "answer": "Both derivations are valid and lead to the same equation",
+      "explanation": "Both approaches are standard. In Derivation I, multiplying v = u + at by (v + u) gives v² – u² = (v + u)at; substituting a = (v – u)/t simplifies to v² – u² = 2as. In Derivation II, solving t = (v – u)/a from v = u + at and substituting into s = ut + ½at² also yields s = (v² – u²)/(2a). Hence both correctly produce v² = u² + 2as. Options B, C, and D incorrectly claim errors that do not exist.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A particle starts from rest and moves with a constant acceleration of 3 m/s². What is its speed after 4 s?",
+      "options": {
+        "A": "12 m/s",
+        "B": "24 m/s",
+        "C": "48 m/s",
+        "D": "64 m/s"
+      },
+      "correct_option": "A",
+      "answer": "12 m/s",
+      "explanation": "Using v = u + at with u = 0, a = 3 m/s² and t = 4 s gives v = 0 + (3)(4) = 12 m/s. The other options result from squaring the result or using the wrong formula (e.g., v² = u² + 2as).",
+      "difficulty": "hard"
+    }
+  ]
+}

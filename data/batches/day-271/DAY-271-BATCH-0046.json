@@ -1,0 +1,150 @@
+{
+  "day": 271,
+  "batch_id": "DAY-271-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "LU-01154-49",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "Which of the following pairs of statements correctly derives the displacement equation s = ut + ½ at² for uniformly accelerated motion?",
+      "options": {
+        "A": "Statement 1: a = (v – u)/t. Statement 2: Integrate v = u + at with respect to time to obtain s = ut + ½ at².",
+        "B": "Statement 1: a = (v – u)/t. Statement 2: Use s = (u + v)/2 × t directly without integration.",
+        "C": "Statement 1: v = u + at. Statement 2: Square both sides to get v² = u² + 2as.",
+        "D": "Statement 1: a = (v – u)/t. Statement 2: Substitute t = (v – u)/a into s = ut + ½ at² and simplify."
+      },
+      "correct_option": "A",
+      "answer": "Statement 1: a = (v – u)/t. Statement 2: Integrate v = u + at with respect to time to obtain s = ut + ½ at².",
+      "explanation": "The displacement equation is obtained by first writing the definition of acceleration a = (v – u)/t, which gives v = u + at. Integrating the velocity expression with respect to time, s = ∫(u + at)dt = ut + ½ at², yields the required equation. Options B, C and D either skip the integration step or use unrelated manipulations, so they are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01154-50",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A particle starts from rest and accelerates uniformly at 3 m s⁻² for 5 s. What is its final velocity?",
+      "options": {
+        "A": "15 m s⁻¹",
+        "B": "10 m s⁻¹",
+        "C": "18 m s⁻¹",
+        "D": "12 m s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "15 m s⁻¹",
+      "explanation": "Using v = u + at, with u = 0 m s⁻¹, a = 3 m s⁻² and t = 5 s, we get v = 0 + (3)(5) = 15 m s⁻¹. The other options result from incorrect multiplication or forgetting the initial velocity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01154-51",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use s = ut + 1/2 at²",
+      "question": "Which formula gives the displacement of a body moving with initial velocity u under constant acceleration a for a time t?",
+      "options": {
+        "A": "s = ut + ½ at²",
+        "B": "s = u + at²",
+        "C": "s = u t² + a",
+        "D": "s = (u + v)/2 × t"
+      },
+      "correct_option": "A",
+      "answer": "s = ut + ½ at²",
+      "explanation": "For uniformly accelerated motion, the displacement is given by s = ut + ½ at². Option B lacks the product of u and t, option C is dimensionally incorrect, and option D is the average‑velocity form, which is equivalent only after using v = u + at, not a direct expression of s in terms of u, a and t.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01154-52",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v² = u² + 2as",
+      "question": "Which of the following relations correctly connects final velocity v, initial velocity u, acceleration a and displacement s for uniformly accelerated motion?",
+      "options": {
+        "A": "v² = u² + 2as",
+        "B": "v = u + 2as",
+        "C": "v² = u² – 2as",
+        "D": "v = u + at"
+      },
+      "correct_option": "A",
+      "answer": "v² = u² + 2as",
+      "explanation": "The equation v² = u² + 2as is derived by eliminating time between v = u + at and s = ut + ½ at². Option B mixes dimensions, option C has the wrong sign for acceleration, and option D is the first‑order kinematic equation that still contains time.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01154-53",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Select appropriate equations",
+      "question": "A ball is thrown vertically upward. To find the maximum height reached, which kinematic equation should be used?",
+      "options": {
+        "A": "v = u + at",
+        "B": "s = ut + ½ at²",
+        "C": "v² = u² + 2as",
+        "D": "a = (v – u)/t"
+      },
+      "correct_option": "C",
+      "answer": "v² = u² + 2as",
+      "explanation": "At the highest point the final velocity v = 0. Using v² = u² + 2as with a = –g gives the maximum displacement directly. Equation v = u + at still contains time, and s = ut + ½ at² requires knowing the time of ascent, which is not given. Option D is merely the definition of acceleration.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "LU-01154-54",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Solve numerical motion problems",
+      "question": "A car accelerates uniformly from 10 m s⁻¹ to 30 m s⁻¹ in 5 s. What distance does it cover during this interval?",
+      "options": {
+        "A": "100 m",
+        "B": "150 m",
+        "C": "80 m",
+        "D": "120 m"
+      },
+      "correct_option": "A",
+      "answer": "100 m",
+      "explanation": "First find acceleration: a = (v – u)/t = (30 – 10)/5 = 4 m s⁻². Using s = ut + ½ at²: s = (10)(5) + ½(4)(25) = 50 + 50 = 100 m. The average‑velocity method gives the same result: s = ((10+30)/2)×5 = 20×5 = 100 m. All other options are obtained from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "LU-01154-55",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "In the standard derivation of v² = u² + 2as, which of the following steps is essential?",
+      "options": {
+        "A": "Multiply the equation v = u + at by (v + u) and simplify.",
+        "B": "Integrate the acceleration a with respect to time.",
+        "C": "Square both sides of v = u + at directly.",
+        "D": "Substitute t = (v – u)/a into s = ut + ½ at²."
+      },
+      "correct_option": "A",
+      "answer": "Multiply the equation v = u + at by (v + u) and simplify.",
+      "explanation": "Starting from v = u + at, multiplying both sides by (v + u) gives v² – u² = 2as after replacing at with s/t, leading to v² = u² + 2as. Option B leads to the velocity‑time relation, not the squared‑velocity form. Option C gives v² = u² + 2uat + a²t², which is not the desired result. Option D is a valid method but yields the same equation only after further manipulation; the most direct essential step is the multiplication by (v + u).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01154-56",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A cyclist increases his speed from 5 m s⁻¹ to 15 m s⁻¹ in 4 s. Using v = u + at, what is his acceleration?",
+      "options": {
+        "A": "2.5 m s⁻²",
+        "B": "5 m s⁻²",
+        "C": "2 m s⁻²",
+        "D": "3 m s⁻²"
+      },
+      "correct_option": "A",
+      "answer": "2.5 m s⁻²",
+      "explanation": "Acceleration a = (v – u)/t = (15 – 5)/4 = 10/4 = 2.5 m s⁻². Option B would correspond to a 20 m s⁻¹ change, option C assumes a 8 m s⁻¹ change, and option D is a miscalculation of the division.",
+      "difficulty": "medium"
+    }
+  ]
+}
