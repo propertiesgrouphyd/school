@@ -1,0 +1,150 @@
+{
+  "day": 273,
+  "batch_id": "DAY-273-BATCH-0045",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "State Newton's second law",
+      "question": "Which of the following correctly states Newton's second law of motion?",
+      "options": {
+        "A": "The net force acting on a body is equal to the rate of change of its momentum.",
+        "B": "For every action there is an equal and opposite reaction.",
+        "C": "An object at rest stays at rest unless acted upon by a net external force.",
+        "D": "Force equals mass times acceleration squared."
+      },
+      "correct_option": "A",
+      "answer": "The net force acting on a body is equal to the rate of change of its momentum.",
+      "explanation": "Newton's second law states that the net external force on a body equals the time rate of change of its momentum (F = dp/dt). Option A expresses this correctly. Option B describes the third law, Option C the first law, and Option D is a misstatement of the second law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "If the mass of a body remains constant, which step correctly leads from Newton's second law (F = dp/dt) to the familiar form F = ma?",
+      "options": {
+        "A": "Since p = mv, dp/dt = m dv/dt = ma.",
+        "B": "Since p = mv, dp/dt = v dm/dt = 0.",
+        "C": "Since p = mv, dp/dt = m dv/dt + v dm/dt, and with constant mass dm/dt = 0, giving F = ma.",
+        "D": "Since p = mv, dp/dt = m dv/dt - v dm/dt."
+      },
+      "correct_option": "C",
+      "answer": "Since p = mv, dp/dt = m dv/dt + v dm/dt, and with constant mass dm/dt = 0, giving F = ma.",
+      "explanation": "Newton's second law in its general form is F = dp/dt. With momentum p = mv, the derivative is dp/dt = m dv/dt + v dm/dt. For constant mass, dm/dt = 0, so dp/dt = m dv/dt = ma, yielding F = ma. Option C shows the complete reasoning; Option A skips the explicit term but is also correct, however C matches the required derivation step.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A 2 kg block is pushed with a constant force of 10 N on a frictionless surface. What is the magnitude of its acceleration?",
+      "options": {
+        "A": "5 m/s²",
+        "B": "10 m/s²",
+        "C": "20 m/s²",
+        "D": "0.5 m/s²"
+      },
+      "correct_option": "A",
+      "answer": "5 m/s²",
+      "explanation": "Using Newton's second law, a = F/m = 10 N / 2 kg = 5 m/s². Option A is correct. The other options result from incorrect division or misplacement of decimal points.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Use vector form where appropriate",
+      "question": "A particle experiences two forces: \\(\\mathbf{F}_1 = 3\\hat{i} + 4\\hat{j}\\) N and \\(\\mathbf{F}_2 = -2\\hat{i} + 5\\hat{j}\\) N. What is the net force vector acting on the particle?",
+      "options": {
+        "A": "(1\\hat{i} + 9\\hat{j}) N",
+        "B": "(5\\hat{i} - 1\\hat{j}) N",
+        "C": "(-5\\hat{i} + 9\\hat{j}) N",
+        "D": "(1\\hat{i} - 1\\hat{j}) N"
+      },
+      "correct_option": "A",
+      "answer": "(1\\hat{i} + 9\\hat{j}) N",
+      "explanation": "Add the components: i‑components: 3 + (‑2) = 1; j‑components: 4 + 5 = 9. Hence the resultant is (1i + 9j) N. Option A matches this result; the others are algebraic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Solve multi-force problems",
+      "question": "A 5 kg crate is pulled horizontally by a 30 N force to the right. Kinetic friction opposes motion with a force of 12 N to the left, and a rope exerts a tension of 10 N at 30° above the horizontal. What is the magnitude of the crate’s acceleration?",
+      "options": {
+        "A": "5.33 m/s²",
+        "B": "4.00 m/s²",
+        "C": "6.00 m/s²",
+        "D": "3.20 m/s²"
+      },
+      "correct_option": "A",
+      "answer": "5.33 m/s²",
+      "explanation": "Resolve the tension: horizontal component = 10 cos30° ≈ 8.66 N. Net horizontal force = 30 N (right) – 12 N (left) + 8.66 N (right) = 26.66 N. Acceleration = F/m = 26.66 N / 5 kg ≈ 5.33 m/s². Option A is correct; the other values arise from neglecting one of the forces or rounding incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "State Newton's second law",
+      "question": "A car of mass 1000 kg accelerates from rest to 20 m/s in 10 s. Which statement correctly applies Newton's second law to find the average net force on the car?",
+      "options": {
+        "A": "F = (1000 kg)(20 m/s) / 10 s = 2000 N",
+        "B": "F = (1000 kg)(20 m/s) = 20 000 N",
+        "C": "F = (1000 kg)(2 m/s²) = 2000 N",
+        "D": "F = (1000 kg)(0.5 m/s²) = 500 N"
+      },
+      "correct_option": "C",
+      "answer": "F = (1000 kg)(2 m/s²) = 2000 N",
+      "explanation": "Acceleration a = Δv/Δt = 20 m/s / 10 s = 2 m/s². Using F = ma gives F = 1000 kg × 2 m/s² = 2000 N. Option C follows the correct procedure. Option A mistakenly divides the product of mass and velocity by time, which is not the definition of force. Options B and D use incorrect accelerations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "A student claims that because momentum p = mv, Newton's second law can be written as F = mv. Which of the following identifies the error in this reasoning?",
+      "options": {
+        "A": "The student ignored that force is the time derivative of momentum, not momentum itself.",
+        "B": "The student incorrectly assumed mass varies with time.",
+        "C": "The student used the wrong units for force.",
+        "D": "The student omitted the vector nature of force."
+      },
+      "correct_option": "A",
+      "answer": "The student ignored that force is the time derivative of momentum, not momentum itself.",
+      "explanation": "Newton's second law states F = dp/dt. Simply equating force to momentum (mv) neglects the derivative with respect to time. The correct step is dp/dt = m dv/dt when mass is constant, leading to F = ma. Option A pinpoints this conceptual mistake; the other options address unrelated issues.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A 1500 kg car accelerates uniformly from 5 m/s to 25 m/s in 5 s. Without using a calculator, which statement about the average net force acting on the car is correct?",
+      "options": {
+        "A": "The average net force is greater than 6000 N.",
+        "B": "The average net force is exactly 6000 N.",
+        "C": "The average net force is less than 6000 N.",
+        "D": "The average net force cannot be determined without knowing the friction."
+      },
+      "correct_option": "B",
+      "answer": "The average net force is exactly 6000 N.",
+      "explanation": "Acceleration a = (25 - 5) m/s ÷ 5 s = 4 m/s². Force = m a = 1500 kg × 4 m/s² = 6000 N. Hence the average net force is exactly 6000 N, making option B correct. Options A and C are incorrect estimations, and D is irrelevant because the net force is already defined by the given acceleration regardless of frictional details.",
+      "difficulty": "medium"
+    }
+  ]
+}

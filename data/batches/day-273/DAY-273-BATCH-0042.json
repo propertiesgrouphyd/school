@@ -1,0 +1,150 @@
+{
+  "day": 273,
+  "batch_id": "DAY-273-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-273-17",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "A student claims that Newton's second law, F = ma, can be applied only when the acceleration of the object is constant. Which statement correctly addresses this misconception for a particle of constant mass?",
+      "options": {
+        "A": "F = ma is valid only if both mass and acceleration are constant throughout the motion.",
+        "B": "For a constant mass, the net force at any instant equals the mass multiplied by the instantaneous acceleration, regardless of whether acceleration changes with time.",
+        "C": "The law applies only when the net force is zero, leading to constant velocity.",
+        "D": "F = ma is a definition of mass, not a relation between force and acceleration."
+      },
+      "correct_option": "B",
+      "answer": "For a constant mass, the net force at any instant equals the mass multiplied by the instantaneous acceleration, regardless of whether acceleration changes with time.",
+      "explanation": "Newton's second law states that \\(\\vec F = \\frac{d\\vec p}{dt}\\). For constant mass, momentum \\(\\vec p = m\\vec v\\) and \\(\\frac{d\\vec p}{dt}=m\\frac{d\\vec v}{dt}=m\\vec a\\). Hence \\(\\vec F = m\\vec a\\) holds at every instant, even if the acceleration varies. Option B captures this; the other options either add unnecessary restrictions or misinterpret the law.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-273-18",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A 5.0 kg cart is pulled on a frictionless horizontal track by a constant horizontal force of 20 N. What is the magnitude of the cart's acceleration?",
+      "options": {
+        "A": "2.0 m/s²",
+        "B": "4.0 m/s²",
+        "C": "10.0 m/s²",
+        "D": "25.0 m/s²"
+      },
+      "correct_option": "B",
+      "answer": "4.0 m/s²",
+      "explanation": "Using Newton's second law, \\(a = F/m = 20\\,\\text{N} / 5.0\\,\\text{kg} = 4.0\\,\\text{m/s}²\\). Option B is the correct calculation. The other options result from incorrect division or mis‑placement of the mass and force values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-273-19",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Use vector form where appropriate",
+      "question": "Which of the following correctly distinguishes the scalar and vector forms of Newton's second law for a particle of constant mass?",
+      "options": {
+        "A": "Scalar form: F = m a, where F and a are magnitudes; Vector form: **F** = m **a**, where **F** and **a** are vectors having the same direction.",
+        "B": "Scalar form includes direction, vector form does not.",
+        "C": "Vector form uses F = m a², scalar form uses F = m a.",
+        "D": "Both forms are identical; there is no distinction between scalar and vector representations."
+      },
+      "correct_option": "A",
+      "answer": "Scalar form: F = m a, where F and a are magnitudes; Vector form: **F** = m **a**, where **F** and **a** are vectors having the same direction.",
+      "explanation": "The scalar form deals only with magnitudes, while the vector form retains direction, expressing the law as \\(\\vec F = m\\vec a\\). Option A states this precisely. Options B, C, and D contain false statements about direction and the mathematical form.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-273-20",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Solve multi-force problems",
+      "question": "A 2 kg block rests on a rough horizontal surface with a coefficient of kinetic friction μ = 0.2. Two horizontal forces act on the block: 8 N to the right and 5 N to the left. What is the magnitude of the block's acceleration?",
+      "options": {
+        "A": "0.23 m/s²",
+        "B": "0.46 m/s²",
+        "C": "0.92 m/s²",
+        "D": "1.96 m/s²"
+      },
+      "correct_option": "B",
+      "answer": "0.46 m/s²",
+      "explanation": "Net applied force to the right = 8 N – 5 N = 3 N. Friction force = μ m g = 0.2 × 2 kg × 9.8 m/s² ≈ 3.92 N, acting opposite to the direction of motion. The resultant horizontal force = 3 N – 3.92 N = –0.92 N (to the left). Magnitude of acceleration = |F_net|/m = 0.92 N / 2 kg = 0.46 m/s². Option B matches this result. The other options arise from neglecting friction or sign errors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-273-21",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "State Newton's second law",
+      "question": "Which statement precisely states Newton's second law of motion?",
+      "options": {
+        "A": "An object at rest stays at rest unless acted upon by a net external force.",
+        "B": "The net external force acting on a body is equal to the rate of change of its momentum.",
+        "C": "For every action, there is an equal and opposite reaction.",
+        "D": "Work done is equal to force times displacement."
+      },
+      "correct_option": "B",
+      "answer": "The net external force acting on a body is equal to the rate of change of its momentum.",
+      "explanation": "Newton's second law is expressed as \\(\\vec F_{net}=\\frac{d\\vec p}{dt}\\), i.e., the net force equals the time rate of change of momentum. Option B captures this definition. Option A describes the first law, C the third law, and D is the definition of work.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-273-22",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "When the mass of a particle remains constant, how does Newton's second law lead to the familiar equation F = ma?",
+      "options": {
+        "A": "Because momentum p = mv, differentiating with respect to time gives F = m dv/dt = ma.",
+        "B": "Because force is defined as mass times velocity.",
+        "C": "Because acceleration is the derivative of force.",
+        "D": "Because mass varies with velocity, leading to F = m a."
+      },
+      "correct_option": "A",
+      "answer": "Because momentum p = mv, differentiating with respect to time gives F = m dv/dt = ma.",
+      "explanation": "With constant mass, \\(p = mv\\). Differentiating, \\(\\frac{dp}{dt}=m\\frac{dv}{dt}=ma\\). Newton's second law \\(F = dp/dt\\) thus becomes \\(F = ma\\). Option A states this derivation correctly; the other options misrepresent the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-273-23",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A 10 kg object experiences a net force of 50 N directed east. What is its acceleration?",
+      "options": {
+        "A": "0.2 m/s² east",
+        "B": "5 m/s² east",
+        "C": "0.5 m/s² east",
+        "D": "500 m/s² east"
+      },
+      "correct_option": "B",
+      "answer": "5 m/s² east",
+      "explanation": "Using \\(a = F/m\\), we get \\(a = 50\\,\\text{N} / 10\\,\\text{kg} = 5\\,\\text{m/s}²\\) toward the east. Option B is correct. Options A, C, and D arise from arithmetic mistakes (misplacing decimal point or swapping numerator/denominator).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-273-24",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Use vector form where appropriate",
+      "question": "A particle moves in the xy‑plane with a net force **F** = (3 î – 4 ĵ) N and has a constant mass of 2 kg. What is the acceleration vector of the particle?",
+      "options": {
+        "A": "(1.5 î – 2 ĵ) m/s²",
+        "B": "(6 î – 8 ĵ) m/s²",
+        "C": "(1.5 î + 2 ĵ) m/s²",
+        "D": "(3 î – 4 ĵ) m/s²"
+      },
+      "correct_option": "A",
+      "answer": "(1.5 î – 2 ĵ) m/s²",
+      "explanation": "From \\(\\vec a = \\vec F / m\\), divide each component by 2 kg: \\(a_x = 3/2 = 1.5\\) m/s², \\(a_y = -4/2 = -2\\) m/s². Hence \\(\\vec a = (1.5 î – 2 ĵ)\\) m/s², which is option A. Option B multiplies instead of dividing, C changes the sign of the y‑component, and D omits the division by mass.",
+      "difficulty": "easy"
+    }
+  ]
+}
