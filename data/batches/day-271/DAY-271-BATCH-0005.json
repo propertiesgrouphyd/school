@@ -1,0 +1,150 @@
+{
+  "day": 271,
+  "batch_id": "DAY-271-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Understand instantaneous speed",
+      "question": "Which of the following statements correctly defines instantaneous speed?",
+      "options": {
+        "A": "The speed of an object at a particular instant, obtained as the limit of the average speed as the time interval approaches zero",
+        "B": "The total distance travelled divided by the total time taken",
+        "C": "The magnitude of the instantaneous velocity vector, irrespective of direction",
+        "D": "The average of the speeds measured at the start and end of a motion"
+      },
+      "correct_option": "A",
+      "answer": "The speed of an object at a particular instant, obtained as the limit of the average speed as the time interval approaches zero",
+      "explanation": "Instantaneous speed is defined as the limit of the average speed when the time interval becomes infinitesimally small. It is a scalar quantity and equals the magnitude of the instantaneous velocity at that instant. Option B describes average speed, C is true but does not capture the limiting process, and D is not a definition of instantaneous speed.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Understand instantaneous velocity",
+      "question": "A particle moves along a straight line with position given by s(t)=5t^2 metres, where t is in seconds. What is its instantaneous velocity at t=3 s?",
+      "options": {
+        "A": "10 m/s",
+        "B": "15 m/s",
+        "C": "30 m/s",
+        "D": "45 m/s"
+      },
+      "correct_option": "C",
+      "answer": "30 m/s",
+      "explanation": "Instantaneous velocity is the derivative of position with respect to time: v=ds/dt=10t. At t=3 s, v=10×3=30 m/s. Option A is the derivative at t=1 s, B is half the correct value, and D corresponds to t=4.5 s, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Distinguish scalar speed from vector velocity",
+      "question": "A cyclist travels 20 km north in 1 hour and then 20 km south in the next hour. Which statement correctly distinguishes speed from velocity for this motion?",
+      "options": {
+        "A": "The cyclist’s speed is 20 km/h, while the velocity is 0 km/h because the displacement is zero",
+        "B": "The cyclist’s speed is 40 km/h, while the velocity is 20 km/h north",
+        "C": "The cyclist’s speed is 20 km/h, while the velocity is 20 km/h north for the first hour only",
+        "D": "The cyclist’s speed and velocity are both 20 km/h north"
+      },
+      "correct_option": "C",
+      "answer": "The cyclist’s speed is 20 km/h, while the velocity is 20 km/h north for the first hour only",
+      "explanation": "Speed is a scalar and is the distance covered per unit time; during each hour the cyclist covers 20 km, so speed = 20 km/h. Velocity is a vector; for the first hour the displacement is 20 km north, giving 20 km/h north. Over the two‑hour interval the net displacement is zero, so average velocity would be 0, but the statement asks for a distinction, making option C correct. Options A and B misuse the definitions, and D ignores the southward leg.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Define average speed",
+      "question": "A car travels 150 km in the first 2 hours and then another 50 km in the next 1 hour. What is the car’s average speed over the whole 3‑hour journey?",
+      "options": {
+        "A": "66.7 km/h",
+        "B": "70 km/h",
+        "C": "75 km/h",
+        "D": "80 km/h"
+      },
+      "correct_option": "A",
+      "answer": "66.7 km/h",
+      "explanation": "Average speed = total distance / total time = (150+50) km / 3 h = 200/3 ≈ 66.7 km/h. Option B would be correct if the total distance were 210 km, C if 225 km, and D if 240 km, none of which match the given data.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Define average velocity",
+      "question": "A particle moves 40 m east and then 30 m west in a total time of 10 s. What is its average velocity?",
+      "options": {
+        "A": "7 m/s east",
+        "B": "4 m/s east",
+        "C": "1 m/s east",
+        "D": "1 m/s west"
+      },
+      "correct_option": "C",
+      "answer": "1 m/s east",
+      "explanation": "Average velocity = total displacement / total time. Net displacement = 40 m east – 30 m west = 10 m east. Dividing by 10 s gives 1 m/s east. Option A uses total distance (70 m) giving average speed, B uses 40 m/10 s, and D has the wrong direction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Understand instantaneous speed",
+      "question": "A runner’s distance‑time graph is a smooth curve. At a point where the tangent to the curve is horizontal, what can be said about the runner’s instantaneous speed at that instant?",
+      "options": {
+        "A": "It is zero because the distance is not changing at that instant",
+        "B": "It is maximum because the slope is greatest",
+        "C": "It is equal to the average speed over the whole run",
+        "D": "It cannot be determined without more information"
+      },
+      "correct_option": "A",
+      "answer": "It is zero because the distance is not changing at that instant",
+      "explanation": "The slope of the distance‑time graph gives instantaneous speed. A horizontal tangent means slope = 0, so instantaneous speed is zero. Option B confuses with a steep slope, C is unrelated, and D is unnecessary because the graph provides the needed information.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Understand instantaneous velocity",
+      "question": "For a particle moving along a straight line with position x(t)=t^3−6t^2+9t (in metres, t in seconds), which of the following statements is true?",
+      "options": {
+        "A": "At t=2 s, the instantaneous velocity equals the average velocity over the interval 0–4 s",
+        "B": "The instantaneous velocity is always equal to the instantaneous speed for this motion",
+        "C": "The instantaneous velocity is zero at t=0 s and t=3 s, but the speed is non‑zero at those instants",
+        "D": "The instantaneous velocity and average velocity over any interval are always of opposite sign"
+      },
+      "correct_option": "B",
+      "answer": "The instantaneous velocity is always equal to the instantaneous speed for this motion",
+      "explanation": "Instantaneous speed is the magnitude of instantaneous velocity. Since the motion is along a straight line, the velocity can be positive or negative, but its magnitude (speed) is always the absolute value. Thus they are equal in magnitude at every instant, making statement B correct. A is false because velocities differ; C is false because when velocity is zero, speed is also zero; D is false as sign can be same depending on interval.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01151",
+      "learning_point": "Distinguish scalar speed from vector velocity",
+      "question": "In a JEE‑style question, a particle moves in a straight line with a constant speed of 20 m/s for 5 s, then reverses direction instantly and continues with the same speed for another 5 s. What is the magnitude of the particle’s average velocity over the 10‑second interval?",
+      "options": {
+        "A": "0 m/s",
+        "B": "10 m/s",
+        "C": "20 m/s",
+        "D": "40 m/s"
+      },
+      "correct_option": "A",
+      "answer": "0 m/s",
+      "explanation": "Average velocity = total displacement / total time. The particle moves 20 m/s ×5 s =100 m forward, then 100 m backward, giving net displacement 0. Hence average velocity magnitude is 0 m/s. Option B would be average speed (200 m/10 s), C is the constant speed, D is double the speed, none represent average velocity magnitude.",
+      "difficulty": "hard"
+    }
+  ]
+}
