@@ -1,0 +1,150 @@
+{
+  "day": 271,
+  "batch_id": "DAY-271-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01154-MCQ-1",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "Which of the following equations is obtained by integrating the constant acceleration a = \\(\\text{constant}\\) twice with respect to time?",
+      "options": {
+        "A": "s = ut + \\(\\frac{1}{2}at^{2}\\)",
+        "B": "v = u + at",
+        "C": "v^{2} = u^{2} + 2as",
+        "D": "a = (v - u)/t"
+      },
+      "correct_option": "A",
+      "answer": "s = ut + \\(\\frac{1}{2}at^{2}\\)",
+      "explanation": "Integrating a = constant once gives v = u + at. Integrating again gives s = \\int v dt = \\int (u + at) dt = ut + \\frac{1}{2}at^{2}. Hence option A is the displacement equation derived from double integration. The other options are either the first integration result (B), a relation obtained by eliminating time (C), or the definition of acceleration (D).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01154-MCQ-2",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A particle starts from rest and accelerates uniformly at 2 m/s². What is its velocity after 5 s?",
+      "options": {
+        "A": "5 m/s",
+        "B": "10 m/s",
+        "C": "7 m/s",
+        "D": "12 m/s"
+      },
+      "correct_option": "B",
+      "answer": "10 m/s",
+      "explanation": "Using v = u + at with u = 0, a = 2 m/s² and t = 5 s gives v = 0 + (2)(5) = 10 m/s. Option B is correct. Options A, C and D result from incorrect arithmetic or using wrong values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01154-MCQ-3",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use s = ut + 1/2 at²",
+      "question": "In which of the following situations is the equation s = ut + \\(\\frac{1}{2}at^{2}\\) NOT applicable?",
+      "options": {
+        "A": "A car moving in a straight line with constant acceleration",
+        "B": "A particle whose acceleration varies with time",
+        "C": "A ball thrown vertically upward neglecting air resistance",
+        "D": "A train that starts from rest and accelerates uniformly"
+      },
+      "correct_option": "B",
+      "answer": "A particle whose acceleration varies with time",
+      "explanation": "The equation s = ut + ½ at² assumes constant (uniform) acceleration. If acceleration changes with time, the equation cannot be used directly. Hence option B is the correct choice. Options A, C and D all involve uniform acceleration, so the equation is valid for them.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-01154-MCQ-4",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v² = u² + 2as",
+      "question": "A car accelerates uniformly from 20 m/s to a higher speed, covering a distance of 100 m while its acceleration is 2 m/s². What is its final speed?",
+      "options": {
+        "A": "28 m/s (approximately)",
+        "B": "30 m/s",
+        "C": "25 m/s",
+        "D": "35 m/s"
+      },
+      "correct_option": "A",
+      "answer": "28 m/s (approximately)",
+      "explanation": "Using v² = u² + 2as: v² = (20)² + 2(2)(100) = 400 + 400 = 800, so v = √800 ≈ 28.28 m/s. Rounded to the nearest whole number, this is 28 m/s, option A. The other options correspond to incorrect arithmetic or using the wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-01154-MCQ-5",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Select appropriate equations",
+      "question": "A ball is thrown vertically upward with an initial speed of 20 m/s. Which kinematic equation is most suitable to find the maximum height reached?",
+      "options": {
+        "A": "v = u + at",
+        "B": "s = ut + \\(\\frac{1}{2}at^{2}\\)",
+        "C": "v^{2} = u^{2} + 2as",
+        "D": "a = (v - u)/t"
+      },
+      "correct_option": "C",
+      "answer": "v^{2} = u^{2} + 2as",
+      "explanation": "At the maximum height the final velocity v = 0. Using v² = u² + 2as allows us to solve for s (the height) directly without needing the time of flight. Hence option C is the most efficient choice. Option A requires time, option B also needs time, and option D is just the definition of acceleration.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01154-MCQ-6",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Solve numerical motion problems",
+      "question": "A train starts from rest, accelerates uniformly at 0.5 m/s² for 40 s, then travels at the attained constant speed for 2 minutes, and finally decelerates uniformly to rest in 30 s. What is the total distance covered?",
+      "options": {
+        "A": "3100 m",
+        "B": "3200 m",
+        "C": "3000 m",
+        "D": "3500 m"
+      },
+      "correct_option": "A",
+      "answer": "3100 m",
+      "explanation": "Phase 1: s₁ = 0·40 + ½·0.5·40² = 400 m, v₁ = 0 + 0.5·40 = 20 m/s. Phase 2: s₂ = 20·120 = 2400 m. Phase 3: a = (0‑20)/30 = –2/3 m/s², s₃ = 20·30 + ½(–2/3)·30² = 600 – 300 = 300 m. Total distance = 400 + 2400 + 300 = 3100 m, which is option A. The other options arise from arithmetic errors or neglecting one of the phases.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01154-MCQ-7",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "Which of the following statements reflects a common misconception when deriving the displacement equation s = ut + \\(\\frac{1}{2}at^{2}\\) for uniformly accelerated motion?",
+      "options": {
+        "A": "Assuming the acceleration is zero",
+        "B": "Using the velocity equation v = u + at directly as the expression for displacement",
+        "C": "Forgetting to multiply the acceleration by time during integration",
+        "D": "Assuming the initial velocity u is zero"
+      },
+      "correct_option": "B",
+      "answer": "Using the velocity equation v = u + at directly as the expression for displacement",
+      "explanation": "A frequent error is to think that s can be obtained by simply replacing v with u + at, i.e., s = u + at, which ignores the integration over time. The correct derivation requires integrating v = u + at, giving s = ut + ½ at². Hence option B identifies the misconception. Options A, C and D are not typical misconceptions in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01154-MCQ-8",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A particle’s velocity doubles in 4 seconds while moving with constant acceleration. What is the ratio of its acceleration to its initial velocity?",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "answer": "1/4",
+      "explanation": "Let initial velocity be u and final velocity be 2u after t = 4 s. Using v = u + at: 2u = u + a·4 ⇒ a·4 = u ⇒ a = u/4. Therefore a/u = 1/4, which corresponds to option B. The other ratios result from incorrect algebraic manipulation.",
+      "difficulty": "medium"
+    }
+  ]
+}
