@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0063",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "A projectile is launched with an initial speed of 20 m/s at an angle of 30° above the horizontal. What is the maximum height reached by the projectile (take g = 9.8 m/s²)?",
+      "options": {
+        "A": "4.0 m",
+        "B": "5.1 m",
+        "C": "6.5 m",
+        "D": "2.0 m"
+      },
+      "correct_option": "B",
+      "answer": "5.1 m",
+      "explanation": "The vertical component of the initial velocity is u_y = u sinθ = 20 × sin30° = 10 m/s. The maximum height H = u_y²/(2g) = 10²/(2 × 9.8) ≈ 100/19.6 ≈ 5.1 m. Option B gives this value. The other options correspond to incorrect calculations or neglecting the vertical component.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "Which of the following expressions gives the horizontal range R of a projectile launched from level ground with speed u at an angle θ (neglecting air resistance)?",
+      "options": {
+        "A": "R = (u² sin θ)/g",
+        "B": "R = (u² sin 2θ)/g",
+        "C": "R = (2u² sin θ cos θ)/g",
+        "D": "R = (u cos θ)/g"
+      },
+      "correct_option": "B",
+      "answer": "R = (u² sin 2θ)/g",
+      "explanation": "The range formula derived from projectile motion is R = (u² sin 2θ)/g. Option B matches this exact expression. Option C is algebraically the same as B but written incorrectly (missing the factor of 2 in the numerator), and the other options do not represent the range.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "At the highest point of the trajectory of a projectile launched from ground level, which statement correctly describes its velocity components?",
+      "options": {
+        "A": "Horizontal component is zero, vertical component is maximum.",
+        "B": "Horizontal component is maximum, vertical component is zero.",
+        "C": "Both horizontal and vertical components are zero.",
+        "D": "Horizontal component remains unchanged, vertical component is zero."
+      },
+      "correct_option": "D",
+      "answer": "Horizontal component remains unchanged, vertical component is zero.",
+      "explanation": "During projectile motion, horizontal velocity remains constant (no horizontal acceleration). At the peak, the vertical component becomes zero because the projectile momentarily stops moving upward before descending. Hence option D is correct. Options A, B, and C misrepresent the behavior of the components.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "A stone is thrown from ground level with a speed of 25 m/s at an angle of 45° above the horizontal. What is the total time the stone remains in the air? (Take g = 9.8 m/s².)",
+      "options": {
+        "A": "3.6 s",
+        "B": "5.1 s",
+        "C": "2.5 s",
+        "D": "4.0 s"
+      },
+      "correct_option": "A",
+      "answer": "3.6 s",
+      "explanation": "Time of flight T = (2u sinθ)/g. Here u sinθ = 25 × sin45° = 25 × 0.7071 ≈ 17.68 m/s. Thus T = 2 × 17.68 / 9.8 ≈ 35.36 / 9.8 ≈ 3.61 s, which rounds to 3.6 s. Option A matches this result. The other options arise from incorrect use of the formula or neglecting the factor of 2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A projectile is launched with a speed of 30 m/s at an angle of 60° above the horizontal. What are the horizontal (u_x) and vertical (u_y) components of the initial velocity?",
+      "options": {
+        "A": "u_x = 15 m/s, u_y = 25.98 m/s",
+        "B": "u_x = 15 m/s, u_y = 26 m/s",
+        "C": "u_x = 30 m/s, u_y = 0 m/s",
+        "D": "u_x = 30 cos60° = 15 m/s, u_y = 30 sin60° = 25.98 m/s"
+      },
+      "correct_option": "D",
+      "answer": "u_x = 30 cos60° = 15 m/s, u_y = 30 sin60° = 25.98 m/s",
+      "explanation": "Resolving the velocity: u_x = u cosθ = 30 × cos60° = 30 × 0.5 = 15 m/s. u_y = u sinθ = 30 × sin60° = 30 × 0.8660 ≈ 25.98 m/s. Option D states the calculation explicitly and is correct. Option A gives the same numbers but without showing the method; however, the exact phrasing required is the resolved expression, making D the best answer. Options B and C are inaccurate.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "When deriving the trajectory equation of a projectile launched from the origin with speed u at angle θ, the final expression is y = x tanθ – (g x²)/(2u² cos²θ). Which term in this equation represents the effect of gravity on the projectile’s path?",
+      "options": {
+        "A": "x tanθ",
+        "B": "- (g x²)/(2u² cos²θ)",
+        "C": "u²",
+        "D": "tanθ"
+      },
+      "correct_option": "B",
+      "answer": "- (g x²)/(2u² cos²θ)",
+      "explanation": "The term –(g x²)/(2u² cos²θ) arises from the vertical displacement due to constant downward acceleration g. It causes the parabolic curvature of the trajectory. The first term x tanθ would be the straight‑line path without gravity. Hence option B correctly identifies the gravity term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "A common misconception is that the time of flight of a projectile depends on its horizontal component of velocity. Which of the following statements is correct?",
+      "options": {
+        "A": "The time of flight depends only on the vertical component of the initial velocity.",
+        "B": "The time of flight depends on both horizontal and vertical components.",
+        "C": "The time of flight is independent of the launch angle.",
+        "D": "The time of flight equals the horizontal range divided by the launch speed."
+      },
+      "correct_option": "A",
+      "answer": "The time of flight depends only on the vertical component of the initial velocity.",
+      "explanation": "Time of flight T = (2u sinθ)/g, which involves only the vertical component u sinθ. The horizontal component u cosθ influences the range but not the duration aloft. Therefore option A corrects the misconception. Options B, C, and D are false statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "Two projectiles are launched from the same point with the same speed. Projectile A is launched at 30° and Projectile B at 60° above the horizontal. Which projectile attains the greater maximum height?",
+      "options": {
+        "A": "Projectile A (30°)",
+        "B": "Projectile B (60°)",
+        "C": "Both attain the same maximum height",
+        "D": "It depends on the mass of the projectile"
+      },
+      "correct_option": "B",
+      "answer": "Projectile B (60°)",
+      "explanation": "Maximum height H = (u² sin²θ)/(2g). With the same speed u, the height is proportional to sin²θ. sin30° = 0.5, sin²30° = 0.25; sin60° = 0.866, sin²60° ≈ 0.75. Hence Projectile B reaches a larger H. Option B is correct. Options A and C ignore the dependence on the vertical component, and D is irrelevant because mass does not affect projectile motion in the absence of air resistance.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0064",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "Two projectiles are launched from the same point on level ground with the same initial speed. One is projected at 30° above the horizontal and the other at 45°. Which projectile travels the greater horizontal range?",
+      "options": {
+        "A": "The projectile launched at 30°",
+        "B": "The projectile launched at 45°",
+        "C": "Both travel the same range",
+        "D": "Cannot be determined without the speed value"
+      },
+      "correct_option": "B",
+      "answer": "The projectile launched at 45°",
+      "explanation": "The horizontal range R = (u² sin2θ)/g. For the same speed u, sin2θ determines the range. sin(2×30°)=sin60°=0.866, sin(2×45°)=sin90°=1. Hence the 45° launch gives the larger sin2θ and therefore the greater range. Option B is correct; the other angles give smaller or equal ranges.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "A projectile is launched from ground level with a speed of 20 m/s at an angle of 30° above the horizontal. What is the magnitude of its velocity when it has risen to a height equal to half of its maximum height? (Take g = 9.8 m/s²)",
+      "options": {
+        "A": "18.7 m/s",
+        "B": "20.0 m/s",
+        "C": "15.0 m/s",
+        "D": "10.0 m/s"
+      },
+      "correct_option": "A",
+      "answer": "18.7 m/s",
+      "explanation": "Maximum height H = u² sin²θ / (2g) = 400·(0.5)²/(19.6)=5.10 m. Half of H is 2.55 m. Using energy: v² = u² – 2g·y = 400 – 2·9.8·2.55 ≈ 350.0, so v ≈ 18.7 m/s. Hence option A is correct; the other values do not satisfy the energy relation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "A stone is projected with a speed of 20 m/s at an angle of 60° above the horizontal from level ground. What is the total time the stone remains in the air? (g = 9.8 m/s²)",
+      "options": {
+        "A": "2.0 s",
+        "B": "3.5 s",
+        "C": "4.0 s",
+        "D": "5.0 s"
+      },
+      "correct_option": "B",
+      "answer": "3.5 s",
+      "explanation": "Time of flight T = 2u sinθ / g = 2·20·sin60° / 9.8 = 40·0.866 / 9.8 ≈ 3.5 s. Option B matches this calculation; the other options are inconsistent with the formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A projectile is launched with a speed of 25 m/s at 37° above the horizontal. What are the horizontal and vertical components of the initial velocity?",
+      "options": {
+        "A": "≈20 m/s horizontal, ≈15 m/s vertical",
+        "B": "≈15 m/s horizontal, ≈20 m/s vertical",
+        "C": "25 m/s horizontal, 0 m/s vertical",
+        "D": "0 m/s horizontal, 25 m/s vertical"
+      },
+      "correct_option": "A",
+      "answer": "≈20 m/s horizontal, ≈15 m/s vertical",
+      "explanation": "Horizontal component uₓ = u cosθ = 25·cos37° ≈ 25·0.798 ≈ 20 m/s. Vertical component u_y = u sinθ = 25·sin37° ≈ 25·0.601 ≈ 15 m/s. Hence option A is correct; the other options swap or ignore the trigonometric decomposition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "Which of the following is the correct Cartesian equation of the trajectory for a projectile launched from the origin with initial speed u at angle θ (neglecting air resistance)?",
+      "options": {
+        "A": "y = x tanθ – (g x²)/(2 u² cos²θ)",
+        "B": "y = x tanθ + (g x²)/(2 u² cos²θ)",
+        "C": "y = x cotθ – (g x²)/(2 u² sin²θ)",
+        "D": "y = (u² sin2θ)/g"
+      },
+      "correct_option": "A",
+      "answer": "y = x tanθ – (g x²)/(2 u² cos²θ)",
+      "explanation": "Deriving from x = u cosθ·t and y = u sinθ·t – ½gt², eliminating t gives y = x tanθ – (g x²)/(2 u² cos²θ). Option A matches this result; the other forms have incorrect signs or variables.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "A ball is thrown horizontally from the top of a 20 m high cliff with a speed of 5 m/s. How long does it take to reach the ground? (g = 9.8 m/s²)",
+      "options": {
+        "A": "1.0 s",
+        "B": "2.0 s",
+        "C": "3.0 s",
+        "D": "4.0 s"
+      },
+      "correct_option": "B",
+      "answer": "2.0 s",
+      "explanation": "For horizontal launch, vertical motion is free fall: h = ½gt² ⇒ t = √(2h/g) = √(40/9.8) ≈ 2.0 s. Option B is correct; the other times do not satisfy the free‑fall equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "A projectile is launched with a speed of 30 m/s at an angle of 45° above the horizontal. What is its maximum height? (g = 9.8 m/s²)",
+      "options": {
+        "A": "≈23 m",
+        "B": "≈15 m",
+        "C": "≈30 m",
+        "D": "≈45 m"
+      },
+      "correct_option": "A",
+      "answer": "≈23 m",
+      "explanation": "Maximum height H = u² sin²θ / (2g) = 900·(0.707)² / 19.6 = 900·0.5 / 19.6 ≈ 22.96 m, rounded to 23 m. Option A matches; the other values are too high or low.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "A stone is projected from ground level with a speed of 40 m/s at an angle of 30° above the horizontal. What horizontal distance does it cover before landing? (g = 9.8 m/s²)",
+      "options": {
+        "A": "100 m",
+        "B": "141 m",
+        "C": "200 m",
+        "D": "250 m"
+      },
+      "correct_option": "B",
+      "answer": "141 m",
+      "explanation": "Range R = u² sin2θ / g = 1600·sin60° / 9.8 = 1600·0.866 / 9.8 ≈ 141.4 m, rounded to 141 m. Hence option B is correct; the other distances result from incorrect use of the formula or angles.",
+      "difficulty": "medium"
+    }
+  ]
+}

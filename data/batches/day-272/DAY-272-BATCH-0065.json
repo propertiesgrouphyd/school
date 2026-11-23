@@ -1,0 +1,78 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-272-97",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "At the highest point of a projectile's trajectory (ignoring air resistance), which statement about its velocity is correct?",
+      "options": {
+        "A": "Both horizontal and vertical components are zero.",
+        "B": "Horizontal component is zero, vertical component is maximum.",
+        "C": "Horizontal component is unchanged, vertical component is zero.",
+        "D": "Both components are equal in magnitude."
+      },
+      "correct_option": "C",
+      "answer": "Horizontal component is unchanged, vertical component is zero.",
+      "explanation": "At the top of the flight the vertical component of velocity becomes zero because the projectile momentarily stops moving upward. The horizontal component, however, remains constant throughout the motion because there is no horizontal acceleration (air resistance is neglected). Therefore only option C correctly describes the velocity at the highest point. Options A and B are wrong because the horizontal component never becomes zero, and option D is incorrect because the components are not equal in magnitude.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-272-98",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "A stone is projected from ground level with a speed of 20 m s⁻¹ at an angle of 30° above the horizontal. Ignoring air resistance, what is the total time the stone remains in the air?",
+      "options": {
+        "A": "1 s",
+        "B": "2 s",
+        "C": "3 s",
+        "D": "4 s"
+      },
+      "correct_option": "B",
+      "answer": "2 s",
+      "explanation": "The vertical component of the initial velocity is v_y = 20 sin30° = 10 m s⁻¹. The time to reach the highest point is t_up = v_y / g = 10 / 10 = 1 s (taking g = 10 m s⁻² for NCERT convenience). The descent takes the same amount of time, so the total time of flight is 2 t_up = 2 s. Hence option B is correct; the other options correspond to incorrect calculations of the vertical component or neglecting the symmetric ascent‑descent motion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-272-99",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "Two projectiles are launched from the same point with the same speed v. Projectile A is launched at 30° above the horizontal and Projectile B at 60°. Which of the following statements about their initial velocity components is correct?",
+      "options": {
+        "A": "Projectile A has a larger horizontal component than Projectile B.",
+        "B": "Projectile B has a larger horizontal component than Projectile A.",
+        "C": "Both projectiles have equal horizontal components.",
+        "D": "Both projectiles have equal vertical components."
+      },
+      "correct_option": "A",
+      "answer": "Projectile A has a larger horizontal component than Projectile B.",
+      "explanation": "The horizontal component is v cosθ. Since cos30° (≈0.866) > cos60° (0.5), Projectile A’s horizontal component v cos30° is larger than Projectile B’s v cos60°. The vertical components are opposite: v sin60° > v sin30°, so option D is false. Option B contradicts the cosine values, and option C is false because the cosines differ. Therefore option A correctly compares the horizontal components.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-272-100",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "A projectile is launched from the origin with initial speed u at an angle θ to the horizontal. Neglecting air resistance, which of the following expressions gives the Cartesian equation of its trajectory?",
+      "options": {
+        "A": "y = x tanθ + (g x²)/(2 u² cos²θ)",
+        "B": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+        "C": "y = x cotθ - (g x²)/(2 u² sin²θ)",
+        "D": "y = x tanθ - (g x²)/(2 u² sin²θ)"
+      },
+      "correct_option": "B",
+      "answer": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+      "explanation": "From the kinematic equations: horizontal motion gives x = u cosθ · t ⇒ t = x/(u cosθ). Substituting this t into the vertical motion equation y = u sinθ · t – (1/2) g t² yields y = x tanθ – (g x²)/(2 u² cos²θ). This is the standard trajectory equation for projectile motion. Option B matches this derived form. Option A has the wrong sign, option C uses cotθ and sin²θ incorrectly, and option D has sin²θ in the denominator, which is not the result of the substitution.",
+      "difficulty": "hard"
+    }
+  ]
+}
