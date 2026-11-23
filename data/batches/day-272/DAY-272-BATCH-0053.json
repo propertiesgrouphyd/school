@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0053",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-272-1",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A projectile is launched with initial speed v₀ at an angle θ above the horizontal. Which expression gives the horizontal component of the initial velocity?",
+      "options": {
+        "A": "v₀ sinθ",
+        "B": "v₀ cosθ",
+        "C": "v₀ tanθ",
+        "D": "v₀ / cosθ"
+      },
+      "correct_option": "B",
+      "answer": "v₀ cosθ",
+      "explanation": "The horizontal component is obtained by multiplying the magnitude by the cosine of the launch angle: v₀ₓ = v₀ cosθ. Option A gives the vertical component, C is the ratio of vertical to horizontal, and D is not a standard component expression.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-272-2",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "Which of the following equations correctly represents the trajectory y(x) of a projectile launched from the origin with speed u at angle θ (neglecting air resistance)?",
+      "options": {
+        "A": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+        "B": "y = x tanθ + (g x²)/(2 u² cos²θ)",
+        "C": "y = u sinθ t - (1/2) g t²",
+        "D": "y = u cosθ t"
+      },
+      "correct_option": "A",
+      "answer": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+      "explanation": "Eliminating time t between x = u cosθ t and y = u sinθ t - (1/2) g t² yields y = x tanθ - (g x²)/(2 u² cos²θ). Option B has the wrong sign, C and D are the parametric forms, not the trajectory equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-272-3",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "A projectile is launched from ground level and lands at the same level. Which formula gives its total time of flight?",
+      "options": {
+        "A": "T = (2 u sinθ)/g",
+        "B": "T = (u sinθ)/g",
+        "C": "T = (2 u cosθ)/g",
+        "D": "T = (u cosθ)/g"
+      },
+      "correct_option": "A",
+      "answer": "T = (2 u sinθ)/g",
+      "explanation": "The upward and downward journeys are symmetric; the time to reach the highest point is u sinθ/g, so total time is twice that, giving T = 2u sinθ/g. Options B, C, D misuse components or miss the factor of 2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-272-4",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "A stone is projected with speed 20 m s⁻¹ at 30° above the horizontal. What is its maximum height (take g = 9.8 m s⁻²)?",
+      "options": {
+        "A": "5.1 m",
+        "B": "10.2 m",
+        "C": "2.55 m",
+        "D": "20.4 m"
+      },
+      "correct_option": "A",
+      "answer": "5.1 m",
+      "explanation": "Maximum height H = u² sin²θ/(2g). Here sin30° = 0.5, so H = (400 × 0.25)/(19.6) ≈ 5.1 m. Option B is double, C is half, D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-272-5",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "A projectile is launched with speed 25 m s⁻¹ at 45° to the horizontal. Ignoring air resistance, what is its horizontal range? (g = 9.8 m s⁻²)",
+      "options": {
+        "A": "63.8 m",
+        "B": "50.0 m",
+        "C": "78.5 m",
+        "D": "100 m"
+      },
+      "correct_option": "A",
+      "answer": "63.8 m",
+      "explanation": "Range R = u² sin2θ/g. With θ = 45°, sin90° = 1, so R = 625/9.8 ≈ 63.8 m. The other options correspond to incorrect use of the formula or rounding errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-272-6",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "A projectile is at the highest point of its trajectory. Which component of its velocity is zero at that instant?",
+      "options": {
+        "A": "Horizontal component",
+        "B": "Vertical component",
+        "C": "Both components",
+        "D": "Neither component"
+      },
+      "correct_option": "B",
+      "answer": "Vertical component",
+      "explanation": "At the apex the vertical motion momentarily stops, so the vertical component of velocity is zero while the horizontal component remains unchanged. Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-272-7",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "Two projectiles are launched from the same point with identical speed and angle, but one is twice as massive as the other. In vacuum, their horizontal ranges will be:",
+      "options": {
+        "A": "The same, because mass does not affect projectile motion",
+        "B": "Different, the heavier one will travel farther",
+        "C": "Different, the lighter one will travel farther",
+        "D": "Impossible to determine without air resistance data"
+      },
+      "correct_option": "A",
+      "answer": "The same, because mass does not affect projectile motion",
+      "explanation": "In the absence of air resistance, projectile motion depends only on initial speed, angle, and gravity; mass cancels out of the equations. Therefore both have identical ranges. Options B and C reflect the common misconception that heavier objects travel farther, and D is irrelevant because the scenario explicitly neglects air resistance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-272-8",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A projectile is launched with speed 30 m s⁻¹ at an angle of 37° above the horizontal. What is the magnitude of its horizontal component (use cos 37° ≈ 0.80)?",
+      "options": {
+        "A": "24 m s⁻¹",
+        "B": "30 m s⁻¹",
+        "C": "18 m s⁻¹",
+        "D": "12 m s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "24 m s⁻¹",
+      "explanation": "Horizontal component = v₀ cosθ = 30 × 0.80 ≈ 24 m s⁻¹. Option B ignores the angle, C corresponds to the vertical component (30 × 0.60), and D is unrelated.",
+      "difficulty": "medium"
+    }
+  ]
+}

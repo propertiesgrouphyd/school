@@ -1,0 +1,78 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01158",
+      "learning_point": "Resolve vectors into components",
+      "question": "A vector of magnitude 10 m makes an angle of 30° with the horizontal. Which of the following statements about its components is correct?",
+      "options": {
+        "A": "The horizontal component is 5 m.",
+        "B": "The vertical component is 5 m.",
+        "C": "The sum of the magnitudes of the horizontal and vertical components equals the magnitude of the vector.",
+        "D": "The horizontal component is 10 cos 30° and the vertical component is 10 sin 30°."
+      },
+      "correct_option": "D",
+      "answer": "The horizontal component is 10 cos 30° and the vertical component is 10 sin 30°.",
+      "explanation": "Resolving a vector into perpendicular components uses trigonometric relations: horizontal = magnitude × cos θ, vertical = magnitude × sin θ. For a 10 m vector at 30°, the components are 10 cos 30° ≈ 8.66 m (horizontal) and 10 sin 30° = 5 m (vertical). Options A and B give only one component without the correct relation, and C is a common misconception – the magnitudes of components do not add vectorially to give the original magnitude.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01158",
+      "learning_point": "Calculate rectangular components",
+      "question": "A displacement vector has magnitude 20 m and is directed 60° north of east. What are its rectangular components (eastward, northward)?",
+      "options": {
+        "A": "(10 m, 17.3 m)",
+        "B": "(17.3 m, 10 m)",
+        "C": "(20 m, 0 m)",
+        "D": "(0 m, 20 m)"
+      },
+      "correct_option": "A",
+      "answer": "(10 m, 17.3 m)",
+      "explanation": "Component along east = 20 cos 60° = 20 × 0.5 = 10 m. Component along north = 20 sin 60° = 20 × √3/2 ≈ 17.32 m. Hence the rectangular components are (10 m east, 17.3 m north). Option B swaps the components, while C and D ignore the angle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01158",
+      "learning_point": "Reconstruct a vector from components",
+      "question": "Two vectors have the following components (in metres): Vector P = 3 i + 4 j, Vector Q = 5 i + 12 j. Which statement is true?",
+      "options": {
+        "A": "Both vectors have the same magnitude.",
+        "B": "Vector Q has a larger magnitude than Vector P.",
+        "C": "Vector P has a larger magnitude than Vector Q.",
+        "D": "Their magnitudes cannot be compared without knowing the angle between them."
+      },
+      "correct_option": "B",
+      "answer": "Vector Q has a larger magnitude than Vector P.",
+      "explanation": "Magnitude of a vector = √(x² + y²). For P: √(3² + 4²) = √(9 + 16) = √25 = 5 m. For Q: √(5² + 12²) = √(25 + 144) = √169 = 13 m. Therefore, Q is larger. Option A is false because magnitudes differ; C is opposite; D is unnecessary because magnitudes are obtained directly from components.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01158",
+      "learning_point": "Use component methods in physical problems",
+      "question": "A projectile is launched from ground level with a speed of 50 m/s at an angle of 30° above the horizontal. Ignoring air resistance and taking g = 10 m/s², what is the horizontal range of the projectile?",
+      "options": {
+        "A": "≈ 216 m",
+        "B": "250 m",
+        "C": "300 m",
+        "D": "433 m"
+      },
+      "correct_option": "A",
+      "answer": "≈ 216 m",
+      "explanation": "Resolve the initial velocity: Vₓ = 50 cos 30° = 50 × √3/2 ≈ 43.3 m/s, Vᵧ = 50 sin 30° = 25 m/s. Time of flight = 2Vᵧ/g = 2 × 25/10 = 5 s. Horizontal range = Vₓ × time = 43.3 × 5 ≈ 216.5 m, rounded to 216 m. Options B, C, D are significantly larger and result from incorrect use of trigonometric values or forgetting the factor of 2 in time of flight.",
+      "difficulty": "hard"
+    }
+  ]
+}

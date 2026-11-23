@@ -1,0 +1,150 @@
+{
+  "day": 272,
+  "batch_id": "DAY-272-BATCH-0054",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-272-9",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "Which of the following statements correctly gives the trajectory equation of a projectile launched with initial speed u at an angle θ above the horizontal (taking upward as positive and neglecting air resistance)?",
+      "options": {
+        "A": "y = x tanθ + (g x^2)/(2 u^2 cos^2θ)",
+        "B": "y = x tanθ - (g x^2)/(2 u^2 cos^2θ)",
+        "C": "y = x cotθ - (g x^2)/(2 u^2 sin^2θ)",
+        "D": "y = x tanθ - (g x^2)/(2 u^2 sin^2θ)"
+      },
+      "correct_option": "B",
+      "answer": "y = x tanθ - (g x^2)/(2 u^2 cos^2θ)",
+      "explanation": "Starting from the horizontal motion x = u cosθ·t and vertical motion y = u sinθ·t - (1/2) g t^2, eliminate t = x/(u cosθ). Substituting gives y = x tanθ - (g x^2)/(2 u^2 cos^2θ). Option B matches this derived expression; the other options have incorrect signs or use cotangent/sine where cosine should appear.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-272-10",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate time of flight",
+      "question": "A projectile is launched with a speed of 20 m/s at an angle of 30° above the horizontal. Ignoring air resistance and taking g = 10 m/s², what is the total time the projectile remains in the air?",
+      "options": {
+        "A": "1 s",
+        "B": "2 s",
+        "C": "3 s",
+        "D": "4 s"
+      },
+      "correct_option": "B",
+      "answer": "2 s",
+      "explanation": "Time of flight T = (2 u sinθ)/g. Here u = 20 m/s, sin30° = 0.5, g = 10 m/s². So T = (2 × 20 × 0.5)/10 = 20/10 = 2 s. Option B is correct; the other values arise from mis‑using the formula or forgetting the factor of 2.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-272-11",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate maximum height",
+      "question": "Which expression gives the maximum height H reached by a projectile launched with initial speed u at an angle θ (upward) from level ground?",
+      "options": {
+        "A": "H = (u² sin²θ) / (2g)",
+        "B": "H = (u² cos²θ) / (2g)",
+        "C": "H = (u sinθ) / g",
+        "D": "H = (u²) / (2g sinθ)"
+      },
+      "correct_option": "A",
+      "answer": "H = (u² sin²θ) / (2g)",
+      "explanation": "Maximum height is obtained from the vertical motion where final vertical velocity is zero: 0 = u sinθ - g t_up, giving t_up = (u sinθ)/g. Substituting into H = u sinθ·t_up - (1/2) g t_up² yields H = (u² sin²θ)/(2g). Option A matches; the others misuse cosine or omit the square of sinθ.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-272-12",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Calculate horizontal range",
+      "question": "The horizontal range R of a projectile launched from level ground with speed u at angle θ (neglecting air resistance) is given by:",
+      "options": {
+        "A": "R = (u² sin2θ) / g",
+        "B": "R = (u² cos2θ) / g",
+        "C": "R = (2u² sinθ cosθ) / g",
+        "D": "Both A and C are correct"
+      },
+      "correct_option": "D",
+      "answer": "Both A and C are correct",
+      "explanation": "Using R = (u cosθ)·T and T = (2u sinθ)/g, we get R = (u² sin2θ)/g because sin2θ = 2 sinθ cosθ. Hence both forms A (explicit sin2θ) and C (expanded) represent the same range. Option D correctly states that both are valid; B is incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-272-13",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Understand velocity at different points",
+      "question": "Which statement correctly distinguishes the projectile’s velocity at launch, at the highest point, and just before landing (assuming launch and landing heights are the same)?",
+      "options": {
+        "A": "At launch the velocity is purely horizontal; at the highest point it is purely vertical; just before landing it is again purely horizontal.",
+        "B": "At launch the velocity has both horizontal and vertical components; at the highest point the vertical component is zero while the horizontal component remains unchanged; just before landing the vertical component is downward with the same magnitude as at launch.",
+        "C": "At launch the velocity is zero; at the highest point it is maximum; just before landing it is zero again.",
+        "D": "The magnitude of velocity is constant throughout the motion, only its direction changes."
+      },
+      "correct_option": "B",
+      "answer": "At launch the velocity has both horizontal and vertical components; at the highest point the vertical component is zero while the horizontal component remains unchanged; just before landing the vertical component is downward with the same magnitude as at launch.",
+      "explanation": "Projectile motion combines constant horizontal velocity (u cosθ) with uniformly accelerated vertical motion. At launch both components exist. At the peak, vertical velocity becomes zero, but horizontal component stays u cosθ. Just before landing, vertical velocity equals -u sinθ (same magnitude, opposite direction). Option B captures these facts; the other options misstate the nature of the components.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-272-14",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Solve projectile problems",
+      "question": "A stone is projected from ground level with a speed of 10 m/s at an angle of 45° to the horizontal. Ignoring air resistance and taking g = 10 m/s², what is the horizontal range of the stone?",
+      "options": {
+        "A": "5 m",
+        "B": "10 m",
+        "C": "15 m",
+        "D": "20 m"
+      },
+      "correct_option": "B",
+      "answer": "10 m",
+      "explanation": "Range R = (u² sin2θ)/g. Here u = 10 m/s, θ = 45°, so sin2θ = sin90° = 1. Thus R = (10² × 1)/10 = 100/10 = 10 m. Option B is correct; the other values arise from arithmetic errors or using the wrong angle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-272-15",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Resolve initial velocity",
+      "question": "A projectile is launched with a speed of 25 m/s at 30° above the horizontal. What is the magnitude of the horizontal component of the initial velocity?",
+      "options": {
+        "A": "21.7 m/s",
+        "B": "22.5 m/s",
+        "C": "20.0 m/s",
+        "D": "25.0 m/s"
+      },
+      "correct_option": "A",
+      "answer": "21.7 m/s",
+      "explanation": "Horizontal component u_x = u cosθ = 25 × cos30°. cos30° = √3/2 ≈ 0.866. Hence u_x ≈ 25 × 0.866 = 21.65 ≈ 21.7 m/s. Option A matches; B uses a slightly larger value, C ignores the cosine factor, D gives the total speed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-272-16",
+      "learning_unit_id": "LU-01159",
+      "learning_point": "Derive trajectory equation",
+      "question": "A ball is thrown from a point O with speed u at an angle θ to the horizontal. A friend watches the motion from a point P located directly 5 m horizontally from O. Which of the following equations correctly relates the vertical displacement y of the ball from O to its horizontal displacement x (measured from O) for this scenario?",
+      "options": {
+        "A": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+        "B": "y = x tanθ + (g x²)/(2 u² cos²θ)",
+        "C": "y = x cotθ - (g x²)/(2 u² sin²θ)",
+        "D": "y = x tanθ - (g (x-5)²)/(2 u² cos²θ)"
+      },
+      "correct_option": "A",
+      "answer": "y = x tanθ - (g x²)/(2 u² cos²θ)",
+      "explanation": "The standard derivation does not depend on the observer’s position; it uses the projectile’s own coordinates. Eliminating time t from x = u cosθ·t and y = u sinθ·t - (1/2) g t² gives y = x tanθ - (g x²)/(2 u² cos²θ). Option A is the correct trajectory equation. Option B has the wrong sign, C uses cotθ incorrectly, and D incorrectly shifts the horizontal coordinate by 5 m.",
+      "difficulty": "medium"
+    }
+  ]
+}
