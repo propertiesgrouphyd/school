@@ -1,0 +1,78 @@
+{
+  "day": 273,
+  "batch_id": "DAY-273-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01162",
+      "learning_point": "Define linear momentum",
+      "question": "Which of the following statements correctly defines linear momentum?",
+      "options": {
+        "A": "It is the product of mass and speed, and is a scalar quantity.",
+        "B": "It is the product of mass and velocity, and is a vector quantity.",
+        "C": "It is the product of force and time, and is a vector quantity.",
+        "D": "It is the ratio of mass to velocity, and is a scalar quantity."
+      },
+      "correct_option": "B",
+      "answer": "It is the product of mass and velocity, and is a vector quantity.",
+      "explanation": "Linear momentum \\(p\\) is defined as the product of an object's mass \\(m\\) and its velocity \\(v\\): \\(p = m v\\). Because velocity has both magnitude and direction, momentum is a vector quantity pointing in the direction of motion. Option A confuses speed (scalar) with velocity, making momentum scalar, which is incorrect. Option C describes impulse, not momentum. Option D incorrectly uses a ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01162",
+      "learning_point": "Calculate momentum",
+      "question": "A car of mass 1500 kg moves with a speed of 20 m/s. What is its linear momentum?",
+      "options": {
+        "A": "30000 kg·m/s",
+        "B": "75000 kg·m/s",
+        "C": "1500 kg·m/s",
+        "D": "30 kg·m/s"
+      },
+      "correct_option": "A",
+      "answer": "30000 kg·m/s",
+      "explanation": "Momentum is calculated using \\(p = m v\\). Here, \\(m = 1500\\) kg and \\(v = 20\\) m/s, so \\(p = 1500 \\times 20 = 30000\\) kg·m/s. The other options arise from arithmetic errors: B uses \\(1500 \\times 50\\), C omits the velocity factor, and D mistakenly divides mass by speed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01162",
+      "learning_point": "Understand vector nature of momentum",
+      "question": "Two particles, each of mass 2 kg, move with a speed of 3 m/s. Particle A moves east and particle B moves north. What is the magnitude of the total linear momentum of the system?",
+      "options": {
+        "A": "12 kg·m/s",
+        "B": "8.49 kg·m/s",
+        "C": "6 kg·m/s",
+        "D": "0 kg·m/s"
+      },
+      "correct_option": "B",
+      "answer": "8.49 kg·m/s",
+      "explanation": "Each particle has momentum magnitude \\(p = m v = 2 \\times 3 = 6\\) kg·m/s. Because the momenta are perpendicular, the resultant is found using vector addition: \\(p_{total} = \\sqrt{6^2 + 6^2} = 6\\sqrt{2} \\approx 8.49\\) kg·m/s. Option A adds the magnitudes as scalars (incorrect for vectors). Option C gives the magnitude of a single particle, and D would be true only if the momenta were equal and opposite.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01162",
+      "learning_point": "Relate force to rate of change of momentum",
+      "question": "A constant force acts on a 5 kg object, changing its momentum from 0 to 20 kg·m/s in 4 seconds. What is the magnitude of the force?",
+      "options": {
+        "A": "5 N",
+        "B": "20 N",
+        "C": "4 N",
+        "D": "25 N"
+      },
+      "correct_option": "A",
+      "answer": "5 N",
+      "explanation": "Impulse-momentum theorem: \\(F = \\Delta p / \\Delta t\\). Here, \\(\\Delta p = 20\\) kg·m/s and \\(\\Delta t = 4\\) s, so \\(F = 20 / 4 = 5\\) N. Option B mistakenly treats the final momentum as the force, C uses the time interval as the force, and D adds the mass and force incorrectly.",
+      "difficulty": "hard"
+    }
+  ]
+}

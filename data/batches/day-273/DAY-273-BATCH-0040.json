@@ -1,0 +1,150 @@
+{
+  "day": 273,
+  "batch_id": "DAY-273-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-273-01",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "State Newton's second law",
+      "question": "Which of the following correctly states Newton's second law of motion?",
+      "options": {
+        "A": "The net force acting on a body is equal to the product of its mass and its acceleration.",
+        "B": "An object at rest stays at rest unless acted upon by an external force.",
+        "C": "For every action there is an equal and opposite reaction.",
+        "D": "The acceleration of a body is inversely proportional to the net force applied to it."
+      },
+      "correct_option": "A",
+      "answer": "The net force acting on a body is equal to the product of its mass and its acceleration.",
+      "explanation": "Newton's second law states that \\(\\vec F_{net}=m\\vec a\\). It relates the net external force on a body to its mass and the resulting acceleration. Option A expresses this relationship correctly; the other options describe the first law, third law, or an incorrect inverse relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-273-02",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "In deriving Newton's second law for a body of constant mass, which of the following steps is correct?",
+      "options": {
+        "A": "Start with the definition of momentum \\(p = mv\\) and differentiate with respect to time, assuming mass \\(m\\) is constant.",
+        "B": "Assume that force is directly proportional to velocity.",
+        "C": "Assume that the mass of the body changes with time.",
+        "D": "Integrate acceleration with respect to time to obtain force."
+      },
+      "correct_option": "A",
+      "answer": "Start with the definition of momentum \\(p = mv\\) and differentiate with respect to time, assuming mass \\(m\\) is constant.",
+      "explanation": "For constant mass, \\(\\frac{dp}{dt}=\\frac{d(mv)}{dt}=m\\frac{dv}{dt}=ma\\). By definition, \\(\\frac{dp}{dt}=F_{net}\\), giving \\(F=ma\\). Options B, C, and D misuse the relationships and are not part of the correct derivation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-273-03",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A net force of 20 N acts on a 4 kg block on a frictionless surface. What is the magnitude of its acceleration?",
+      "options": {
+        "A": "5 m/s²",
+        "B": "4 m/s²",
+        "C": "2 m/s²",
+        "D": "8 m/s²"
+      },
+      "correct_option": "A",
+      "answer": "5 m/s²",
+      "explanation": "Using \\(F = ma\\), acceleration \\(a = F/m = 20\\,\\text{N} / 4\\,\\text{kg} = 5\\,\\text{m/s}^2\\). The other options result from incorrect division or multiplication.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-273-04",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Use vector form where appropriate",
+      "question": "A 10 N force acts east and a 10 N force acts north on a particle. What is the magnitude of the resultant net force?",
+      "options": {
+        "A": "10 N",
+        "B": "14.14 N",
+        "C": "20 N",
+        "D": "0 N"
+      },
+      "correct_option": "B",
+      "answer": "14.14 N",
+      "explanation": "The forces are perpendicular. The resultant magnitude is \\(\\sqrt{10^2 + 10^2} = \\sqrt{200} \\approx 14.14\\) N. Option A ignores vector addition, C adds magnitudes linearly, and D would be true only for equal opposite forces.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-273-05",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Solve multi-force problems",
+      "question": "A 5 kg crate on a horizontal floor is acted upon by three forces: 30 N east, 20 N north, and 10 N at 30° south of west. Assuming negligible friction, what is the magnitude of the crate's acceleration?",
+      "options": {
+        "A": "4.0 m/s²",
+        "B": "5.2 m/s²",
+        "C": "6.0 m/s²",
+        "D": "7.5 m/s²"
+      },
+      "correct_option": "B",
+      "answer": "5.2 m/s²",
+      "explanation": "Resolve the 10 N force: \\(x = -8.66\\) N, \\(y = -5\\) N. Summing components gives \\(F_x = 21.34\\) N, \\(F_y = 15\\) N. Resultant \\(F = \\sqrt{21.34^2 + 15^2} \\approx 26.07\\) N. Acceleration \\(a = F/m = 26.07/5 \\approx 5.2\\) m/s². Options A, C, D are results of incorrect vector addition or division.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-273-06",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "State Newton's second law",
+      "question": "A car of mass 1500 kg accelerates from rest to 20 m/s in 10 s. Which statement correctly applies Newton's second law to this situation?",
+      "options": {
+        "A": "The net external force on the car is zero because its mass is constant.",
+        "B": "The net external force equals the product of the car's mass and its acceleration.",
+        "C": "The net external force equals the change in velocity divided by time.",
+        "D": "Newton's second law does not apply to vehicles."
+      },
+      "correct_option": "B",
+      "answer": "The net external force equals the product of the car's mass and its acceleration.",
+      "explanation": "First find acceleration: \\(a = \\Delta v / \\Delta t = 20/10 = 2\\) m/s². Newton's second law gives \\(F = ma = 1500 \\times 2 = 3000\\) N. Option B states the law correctly; A is false because a net force is required for acceleration, C confuses force with acceleration, and D is incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-273-07",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "A student claims that Newton's second law can be written as \\(F = m\\,\\frac{dv}{dt} + v\\,\\frac{dm}{dt}\\), and therefore for a constant mass the term \\(v\\,\\frac{dm}{dt}\\) is zero, leaving \\(F = m\\,\\frac{dv}{dt}\\). Which of the following identifies the flaw in this reasoning?",
+      "options": {
+        "A": "The term \\(v\\,\\frac{dm}{dt}\\) is always zero, even when mass changes.",
+        "B": "The correct differentiation of momentum \\(p = mv\\) gives \\(F = m\\,\\frac{dv}{dt}\\) only if mass is constant; the student's expression incorrectly adds an extra term.",
+        "C": "Newton's second law does not involve momentum.",
+        "D": "Mass cannot change in any physical situation."
+      },
+      "correct_option": "B",
+      "answer": "The correct differentiation of momentum \\(p = mv\\) gives \\(F = m\\,\\frac{dv}{dt}\\) only if mass is constant; the student's expression incorrectly adds an extra term.",
+      "explanation": "When mass is constant, \\(\\frac{dm}{dt}=0\\) and the momentum derivative reduces to \\(F = m\\,\\frac{dv}{dt}\\). The student's formula mixes the product rule without recognizing that the extra term vanishes only for constant mass; it is not an additional physical term. Options A, C, and D are inaccurate statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-273-08",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A 2 kg object experiences a net force that doubles its acceleration from 3 m/s² to 6 m/s². What is the magnitude of the net force acting on the object?",
+      "options": {
+        "A": "6 N",
+        "B": "12 N",
+        "C": "3 N",
+        "D": "9 N"
+      },
+      "correct_option": "B",
+      "answer": "12 N",
+      "explanation": "Using \\(F = ma\\) with the final acceleration: \\(F = 2\\,\\text{kg} \\times 6\\,\\text{m/s}^2 = 12\\,\\text{N}\\). Option B is correct. Option A corresponds to the original acceleration, C and D are incorrect calculations.",
+      "difficulty": "medium"
+    }
+  ]
+}
