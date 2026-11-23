@@ -1,0 +1,150 @@
+{
+  "day": 271,
+  "batch_id": "DAY-271-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use s = ut + 1/2 at²",
+      "question": "Which of the following expressions correctly gives the displacement s of a particle moving with initial velocity u, constant acceleration a, after time t?",
+      "options": {
+        "A": "s = ut + 1/2 at²",
+        "B": "s = ut - 1/2 at²",
+        "C": "s = u²t + 1/2 a",
+        "D": "s = (u + at) t"
+      },
+      "correct_option": "A",
+      "answer": "s = ut + 1/2 at²",
+      "explanation": "For uniformly accelerated motion the standard kinematic equation is s = ut + (1/2) a t², obtained by integrating velocity v = u + at with respect to time. Option B has the wrong sign, C mixes units, and D expands to s = ut + at², missing the 1/2 factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v² = u² + 2as",
+      "question": "A car starts from rest and accelerates uniformly at 3 m·s⁻². How much will its speed increase after it has traveled 45 m?",
+      "options": {
+        "A": "16.4 m·s⁻¹",
+        "B": "12.0 m·s⁻¹",
+        "C": "9.8 m·s⁻¹",
+        "D": "18.0 m·s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "16.4 m·s⁻¹",
+      "explanation": "Using v² = u² + 2as with u = 0, a = 3 m·s⁻² and s = 45 m gives v² = 2·3·45 = 270, so v = √270 ≈ 16.43 m·s⁻¹ (rounded to 16.4). The other options result from incorrect arithmetic or using the wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Select appropriate equations",
+      "question": "A stone is thrown vertically upward with an initial speed of 20 m·s⁻¹. Which kinematic equation should be used to find the maximum height reached?",
+      "options": {
+        "A": "v = u + at",
+        "B": "s = ut + 1/2 at²",
+        "C": "v² = u² + 2as",
+        "D": "a = (v - u)/t"
+      },
+      "correct_option": "C",
+      "answer": "v² = u² + 2as",
+      "explanation": "At the maximum height the final velocity v becomes zero. Relating u, v and s without involving time is done with v² = u² + 2as, giving s = u²/(2a). Options A and D involve time, and B still contains time, which is unnecessary for this problem.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Solve numerical motion problems",
+      "question": "A ball is projected horizontally from a cliff 80 m high with a speed of 12 m·s⁻¹. How far from the base of the cliff does it land? (Take g = 9.8 m·s⁻²)",
+      "options": {
+        "A": "48 m",
+        "B": "36 m",
+        "C": "60 m",
+        "D": "24 m"
+      },
+      "correct_option": "A",
+      "answer": "48 m",
+      "explanation": "Vertical motion: ½ g t² = 80 ⇒ t = √(160/9.8) ≈ 4.04 s. Horizontal distance = u·t = 12 × 4.04 ≈ 48.5 m, rounded to 48 m. Options B, C, D use incorrect time or ignore vertical acceleration.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "In deriving s = ut + 1/2 at², which of the following statements is incorrect?",
+      "options": {
+        "A": "Acceleration is constant during the motion.",
+        "B": "Velocity is the integral of acceleration with respect to time.",
+        "C": "Displacement is the integral of velocity with respect to time.",
+        "D": "Acceleration can be treated as a function of displacement."
+      },
+      "correct_option": "D",
+      "answer": "Acceleration can be treated as a function of displacement.",
+      "explanation": "For uniformly accelerated motion, acceleration is constant, not a function of displacement. Statements A, B, and C correctly describe the relationships used in the derivation. Treating a as a function of s leads to a different differential equation and is the misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A particle’s velocity increases uniformly from 5 m·s⁻¹ to 17 m·s⁻¹ in 4 seconds. What is its acceleration?",
+      "options": {
+        "A": "2 m·s⁻²",
+        "B": "3 m·s⁻²",
+        "C": "4 m·s⁻²",
+        "D": "5 m·s⁻²"
+      },
+      "correct_option": "B",
+      "answer": "3 m·s⁻²",
+      "explanation": "Using v = u + at, a = (v - u)/t = (17 - 5)/4 = 12/4 = 3 m·s⁻². Option A underestimates, C and D overestimate the acceleration.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use s = ut + 1/2 at²",
+      "question": "Which statement correctly compares the displacement formula for (i) constant acceleration and (ii) zero acceleration?",
+      "options": {
+        "A": "For zero acceleration, s = ut + ½ at² reduces to s = ut, which is the correct expression.",
+        "B": "For zero acceleration, s = ut + ½ at² reduces to s = ½ ut², which is incorrect.",
+        "C": "For constant acceleration, s = ut + ½ at² is identical to s = vt for all times.",
+        "D": "For constant acceleration, s = ut + ½ at² cannot be used when the initial velocity is zero."
+      },
+      "correct_option": "A",
+      "answer": "For zero acceleration, s = ut + ½ at² reduces to s = ut, which is the correct expression.",
+      "explanation": "If a = 0, the term (1/2) a t² vanishes, leaving s = ut, the expected result for motion with constant velocity. Option B mis‑applies the reduction, C confuses average velocity with instantaneous velocity, and D is false because the formula works with u = 0, giving s = ½ a t².",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v² = u² + 2as",
+      "question": "A particle starts from rest and moves with constant acceleration a. After traveling 100 m, its speed becomes 20 m·s⁻¹. What is the value of a?",
+      "options": {
+        "A": "1 m·s⁻²",
+        "B": "2 m·s⁻²",
+        "C": "4 m·s⁻²",
+        "D": "5 m·s⁻²"
+      },
+      "correct_option": "B",
+      "answer": "2 m·s⁻²",
+      "explanation": "Using v² = u² + 2as with u = 0, v = 20 m·s⁻¹ and s = 100 m: a = v²/(2s) = 400/(200) = 2 m·s⁻². Options A, C, D result from incorrect algebraic manipulation.",
+      "difficulty": "hard"
+    }
+  ]
+}

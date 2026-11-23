@@ -1,0 +1,150 @@
+{
+  "day": 271,
+  "batch_id": "DAY-271-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "Which of the following is the correct form of the equation that relates displacement (s), initial velocity (u), acceleration (a) and time (t) for uniformly accelerated motion, derived from the definitions of velocity and acceleration?",
+      "options": {
+        "A": "s = ut + \\frac{1}{2}at^{2}",
+        "B": "s = u + at",
+        "C": "v^{2} = u^{2} + 2as",
+        "D": "s = vt"
+      },
+      "correct_option": "A",
+      "answer": "s = ut + \\frac{1}{2}at^{2}",
+      "explanation": "Starting from a = dv/dt and integrating, v = u + at. Integrating v with respect to time gives s = ut + ½at². This is the standard displacement equation for constant acceleration. Options B and D are not displacement formulas, and option C is the velocity‑displacement relation, not the displacement‑time relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "A car starts from rest and accelerates uniformly at 3 m/s² for 5 s. What is its final velocity?",
+      "options": {
+        "A": "8 m/s",
+        "B": "15 m/s",
+        "C": "20 m/s",
+        "D": "30 m/s"
+      },
+      "correct_option": "B",
+      "answer": "15 m/s",
+      "explanation": "Using v = u + at with u = 0, a = 3 m/s² and t = 5 s, v = 0 + 3×5 = 15 m/s. The other options result from incorrect multiplication or omission of the initial velocity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use s = ut + 1/2 at²",
+      "question": "A student claims that for a body starting from rest, the displacement after time t under constant acceleration a is given by s = ut + \\frac{1}{2}at^{2}, where u is the final velocity. Is this statement correct?",
+      "options": {
+        "A": "Correct, because u is the final velocity",
+        "B": "Incorrect, because u must be the initial velocity",
+        "C": "Incorrect, the correct formula is s = vt - \\frac{1}{2}at^{2}",
+        "D": "Incorrect, the factor should be at^{3}"
+      },
+      "correct_option": "B",
+      "answer": "Incorrect, because u must be the initial velocity",
+      "explanation": "In the equation s = ut + ½at², u denotes the initial velocity at the start of the time interval. For a body starting from rest, u = 0. Using the final velocity would double‑count the effect of acceleration, making the expression wrong. Options C and D are unrelated formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v² = u² + 2as",
+      "question": "A stone is thrown vertically upward with an initial speed of 20 m/s. Ignoring air resistance, what is its speed just before it returns to the thrower's hand?",
+      "options": {
+        "A": "0 m/s",
+        "B": "20 m/s",
+        "C": "40 m/s",
+        "D": "28.3 m/s"
+      },
+      "correct_option": "B",
+      "answer": "20 m/s",
+      "explanation": "At the highest point the speed is 0, but when it comes back down the magnitude of velocity is the same as the initial because the motion is symmetric. Using v² = u² + 2as with a = –g and total displacement zero gives v = ±u, so the speed is 20 m/s. Options A and C are incorrect magnitudes, and D results from using g = 10 m/s² incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Select appropriate equations",
+      "question": "A particle moves with constant acceleration. Which of the following pairs correctly matches the situation with the most suitable kinematic equation to use?",
+      "options": {
+        "A": "Find displacement when initial and final velocities and time are known – use s = (u+v)/2 \\times t",
+        "B": "Find final velocity when initial velocity, acceleration and displacement are known – use v^{2}=u^{2}+2as",
+        "C": "Find time when displacement, initial velocity and acceleration are known – use v = u + at",
+        "D": "Find acceleration when final velocity, time and displacement are known – use s = ut + \\frac{1}{2}at^{2}"
+      },
+      "correct_option": "B",
+      "answer": "Find final velocity when initial velocity, acceleration and displacement are known – use v^{2}=u^{2}+2as",
+      "explanation": "The equation v² = u² + 2as directly relates the three quantities asked for in option B, making it the most efficient choice. Option A uses an average‑velocity form that is valid but not one of the standard three primary equations. Options C and D pair quantities that do not appear together in the indicated equations, so they are unsuitable.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Solve numerical motion problems",
+      "question": "A particle starts from rest and moves with constant acceleration. After traveling 100 m its speed is 20 m/s. What is the time taken to travel the next 100 m?",
+      "options": {
+        "A": "3.5 s",
+        "B": "4.0 s",
+        "C": "4.14 s",
+        "D": "5.0 s"
+      },
+      "correct_option": "C",
+      "answer": "4.14 s",
+      "explanation": "First find acceleration: 20² = 0 + 2a·100 ⇒ a = 2 m/s². For the next 100 m, u = 20 m/s, s = 100 m, a = 2 m/s². Using s = ut + ½at² gives 100 = 20t + t² ⇒ t² + 20t – 100 = 0. Solving, t = (–20 + √(400+400))/2 ≈ 4.14 s. Option C matches this value; the others arise from rounding or using incorrect equations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Derive the standard equations of uniformly accelerated motion",
+      "question": "Which of the following is one of the standard equations of motion for uniformly accelerated linear motion?",
+      "options": {
+        "A": "v = u + at",
+        "B": "v = u - at",
+        "C": "s = ut - \\frac{1}{2}at^{2}",
+        "D": "a = \\frac{v - u}{t^{2}}"
+      },
+      "correct_option": "A",
+      "answer": "v = u + at",
+      "explanation": "The equation v = u + at is obtained directly from the definition of constant acceleration a = (v‑u)/t. Options B changes the sign, C has an incorrect sign for the acceleration term, and D incorrectly squares the time in the denominator.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01154",
+      "learning_point": "Use v = u + at",
+      "question": "In the equation v = u + at, what does the term 'at' represent?",
+      "options": {
+        "A": "The final velocity",
+        "B": "The initial velocity",
+        "C": "The change in velocity due to acceleration",
+        "D": "The displacement traveled"
+      },
+      "correct_option": "C",
+      "answer": "The change in velocity due to acceleration",
+      "explanation": "'at' is the product of acceleration (a) and time (t), giving the increase (or decrease) in velocity over the time interval. Hence it represents the change in velocity. Options A and B misidentify the term, and D confuses velocity with displacement.",
+      "difficulty": "easy"
+    }
+  ]
+}
