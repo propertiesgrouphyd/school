@@ -1,0 +1,150 @@
+{
+  "day": 273,
+  "batch_id": "DAY-273-BATCH-0050",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "State Newton's second law",
+      "question": "Which of the following correctly states Newton's second law of motion?",
+      "options": {
+        "A": "The net force on an object is equal to its mass times velocity.",
+        "B": "For every action, there is an equal and opposite reaction.",
+        "C": "An object at rest stays at rest unless acted upon by a net external force.",
+        "D": "The net force on an object is equal to the product of its mass and its acceleration."
+      },
+      "correct_option": "D",
+      "answer": "The net force on an object is equal to the product of its mass and its acceleration.",
+      "explanation": "Newton's second law states that the net external force acting on a body equals the mass of the body multiplied by its acceleration (F = ma). Option D expresses this relationship correctly. Option A confuses force with momentum, B describes the third law, and C describes the first law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "When the mass of a body remains constant, which step correctly leads from Newton's second law (F = dp/dt) to the familiar form F = ma?",
+      "options": {
+        "A": "Since momentum p = mv, differentiate to get dp/dt = m dv/dt, so F = m a.",
+        "B": "Assume p = mv^2, differentiate to get dp/dt = 2m v dv/dt.",
+        "C": "Treat mass as variable, so dp/dt = m dv/dt + v dm/dt.",
+        "D": "Integrate F with respect to time to obtain momentum."
+      },
+      "correct_option": "A",
+      "answer": "Since momentum p = mv, differentiate to get dp/dt = m dv/dt, so F = m a.",
+      "explanation": "With constant mass, p = mv. Differentiating with respect to time gives dp/dt = m dv/dt because dm/dt = 0. Substituting into F = dp/dt yields F = m a. Options B and C misuse the definition of momentum, and D reverses the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "Which of the following statements correctly distinguishes force from acceleration?",
+      "options": {
+        "A": "Force is a vector quantity that causes a change in acceleration, while acceleration is the rate of change of velocity.",
+        "B": "Force is measured in meters per second squared, whereas acceleration is measured in newtons.",
+        "C": "Force and acceleration are the same physical quantity expressed in different units.",
+        "D": "Acceleration is the cause of force, which is the effect."
+      },
+      "correct_option": "A",
+      "answer": "Force is a vector quantity that causes a change in acceleration, while acceleration is the rate of change of velocity.",
+      "explanation": "Force (measured in newtons) is the cause that produces acceleration (measured in m/s²), which is the rate of change of velocity. Option B swaps the units, C incorrectly claims they are the same, and D reverses the cause‑effect relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Use vector form where appropriate",
+      "question": "A 5 kg block experiences two forces: 12 N east and 9 N north. What is the magnitude of the net force on the block?",
+      "options": {
+        "A": "15 N",
+        "B": "21 N",
+        "C": "3 N",
+        "D": "12 N"
+      },
+      "correct_option": "A",
+      "answer": "15 N",
+      "explanation": "Treat the forces as perpendicular vectors. Net force magnitude = √(12² + 9²) = √(144 + 81) = √225 = 15 N. The other options result from incorrect addition or omission of vector components.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Solve multi-force problems",
+      "question": "A 10 kg crate on a frictionless horizontal surface is pulled by three forces: 20 N east, 15 N north, and 5 N at 30° south of east. What is the magnitude of the crate's acceleration?",
+      "options": {
+        "A": "2.7 m/s²",
+        "B": "3.5 m/s²",
+        "C": "1.8 m/s²",
+        "D": "4.0 m/s²"
+      },
+      "correct_option": "A",
+      "answer": "2.7 m/s²",
+      "explanation": "Resolve the 5 N force: east component = 5 cos30° ≈ 4.33 N, south component = 5 sin30° = 2.5 N. Net east = 20 + 4.33 = 24.33 N; net north = 15 – 2.5 = 12.5 N. Net force magnitude = √(24.33² + 12.5²) ≈ 27.36 N. Acceleration = F/m = 27.36 N / 10 kg ≈ 2.74 m/s², rounded to 2.7 m/s². Other options arise from neglecting vector addition or using incorrect components.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "State Newton's second law",
+      "question": "A car of mass 800 kg accelerates from rest to 20 m/s in 10 s. Which statement correctly applies Newton's second law to find the average net force on the car during this interval?",
+      "options": {
+        "A": "F = (800 kg)(20 m/s) / 10 s = 1600 N",
+        "B": "F = (800 kg)(20 m/s²) = 16000 N",
+        "C": "F = (800 kg)(2 m/s²) = 1600 N",
+        "D": "F = (800 kg)(0.2 m/s²) = 160 N"
+      },
+      "correct_option": "C",
+      "answer": "F = (800 kg)(2 m/s²) = 1600 N",
+      "explanation": "Acceleration a = Δv/Δt = 20 m/s ÷ 10 s = 2 m/s². Using F = ma gives F = 800 kg × 2 m/s² = 1600 N. Option C reflects this calculation. Option A incorrectly multiplies mass by velocity then divides by time (units mismatch). Option B uses an incorrect acceleration value, and D uses a wrong acceleration.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Derive F = ma for constant mass",
+      "question": "A student claims that because momentum p = mv, Newton's second law can be written as F = mv. Which statement best identifies the error in this reasoning?",
+      "options": {
+        "A": "The student omitted the time derivative; the correct relation is F = d(mv)/dt, which for constant mass gives F = m dv/dt.",
+        "B": "Mass is not constant, so the formula should include dm/dt.",
+        "C": "Force is a scalar, while mv is a vector, so they cannot be equated.",
+        "D": "Newton's second law actually states that acceleration is proportional to force, not the other way around."
+      },
+      "correct_option": "A",
+      "answer": "The student omitted the time derivative; the correct relation is F = d(mv)/dt, which for constant mass gives F = m dv/dt.",
+      "explanation": "Newton's second law is F = dp/dt. Since p = mv, differentiating gives dp/dt = m dv/dt (if mass is constant). The student's expression F = mv lacks the derivative, making it dimensionally incorrect. Option B is irrelevant because mass is assumed constant here, C misstates scalar/vector nature, and D reverses the proportionality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01163",
+      "learning_point": "Calculate force and acceleration",
+      "question": "A 2 kg object is acted upon by a net force that varies with time as F(t) = 6t N, where t is in seconds. What is the object's acceleration at t = 3 s?",
+      "options": {
+        "A": "3 m/s²",
+        "B": "6 m/s²",
+        "C": "9 m/s²",
+        "D": "12 m/s²"
+      },
+      "correct_option": "C",
+      "answer": "9 m/s²",
+      "explanation": "At t = 3 s, the force is F = 6 × 3 = 18 N. Acceleration a = F/m = 18 N / 2 kg = 9 m/s². Options A, B, and D result from using incorrect force values or division.",
+      "difficulty": "medium"
+    }
+  ]
+}
