@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0040",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-01177-1",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "Which of the following correctly defines the angular momentum of a particle about a chosen origin?",
+      "options": {
+        "A": "Product of its mass and linear velocity",
+        "B": "Vector product of its position vector r and linear momentum p (L = r × p)",
+        "C": "Product of its moment of inertia and angular velocity (L = I ω)",
+        "D": "Rate of change of torque with time"
+      },
+      "correct_option": "B",
+      "answer": "Vector product of its position vector r and linear momentum p (L = r × p)",
+      "explanation": "Angular momentum L of a particle about a point is defined as the cross product of its position vector r (from the point) and its linear momentum p, i.e., L = r × p. Option B states this definition. Option C is a form for a rigid body (L = I ω) and not the fundamental definition for a particle. Options A and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-01177-2",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "What is the relationship between the external torque τ acting on a system and the time rate of change of its angular momentum L?",
+      "options": {
+        "A": "τ = dL/dt",
+        "B": "τ = L × t",
+        "C": "τ = I α",
+        "D": "τ = d(p)/dt"
+      },
+      "correct_option": "A",
+      "answer": "τ = dL/dt",
+      "explanation": "Newton's second law for rotation states that the net external torque on a system equals the time derivative of its angular momentum: τ = dL/dt. Option A expresses this directly. Option C is the rotational analogue of F = ma for a rigid body (τ = Iα) but does not link torque to angular momentum. Options B and D are incorrect expressions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-01177-3",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "Angular momentum of an isolated system remains constant when which of the following conditions is satisfied?",
+      "options": {
+        "A": "Net external torque on the system is zero",
+        "B": "Net external force on the system is zero",
+        "C": "Linear momentum of the system is zero",
+        "D": "Kinetic energy of the system is constant"
+      },
+      "correct_option": "A",
+      "answer": "Net external torque on the system is zero",
+      "explanation": "Conservation of angular momentum requires that the vector sum of external torques acting on the system be zero. Hence, when net external torque is zero, the total angular momentum remains unchanged. Zero external force (option B) guarantees linear momentum conservation, not angular momentum. Options C and D are unrelated to angular momentum conservation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-01177-4",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A figure skater rotating with arms extended has a moment of inertia I₁ and angular speed ω₁. She pulls her arms in, reducing her moment of inertia to I₂ = I₁/2. What is her new angular speed ω₂?",
+      "options": {
+        "A": "ω₁/2",
+        "B": "ω₁",
+        "C": "2 ω₁",
+        "D": "4 ω₁"
+      },
+      "correct_option": "C",
+      "answer": "2 ω₁",
+      "explanation": "Conservation of angular momentum gives I₁ ω₁ = I₂ ω₂. Substituting I₂ = I₁/2 yields I₁ ω₁ = (I₁/2) ω₂ ⇒ ω₂ = 2 ω₁. Therefore the skater spins twice as fast. Options A, B, and D do not satisfy the conservation equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-01177-5",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "A particle of mass m moves in a circular path of radius r with constant speed v. What is the magnitude of its angular momentum about the centre of the circle?",
+      "options": {
+        "A": "m v r",
+        "B": "(1/2) m v r",
+        "C": "m v / r",
+        "D": "m r² v"
+      },
+      "correct_option": "A",
+      "answer": "m v r",
+      "explanation": "For a particle moving in a circle, r is perpendicular to the linear momentum p = m v, so the magnitude of L = r p sin 90° = r m v = m v r. Option A gives this value. The other options are algebraically incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-01177-6",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "A wheel initially having angular momentum L₀ is subjected to a constant external torque τ for a time interval Δt. Assuming the torque direction is the same as the initial angular momentum, what is the wheel’s angular momentum after the interval?",
+      "options": {
+        "A": "L₀ + τ Δt",
+        "B": "L₀ – τ Δt",
+        "C": "L₀ + τ / Δt",
+        "D": "L₀ (unchanged)"
+      },
+      "correct_option": "A",
+      "answer": "L₀ + τ Δt",
+      "explanation": "From τ = dL/dt, integrating over the time Δt gives ΔL = τ Δt. Therefore the final angular momentum is L₀ + τ Δt. Option B would correspond to a torque opposite to L₀, which is not the case. Options C and D are inconsistent with the integration of τ = dL/dt.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-01177-7",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "A spinning ice skater extends her arms outward while no external torque acts on her. Which statement is correct?",
+      "options": {
+        "A": "Her angular momentum decreases because her moment of inertia increases.",
+        "B": "Her angular momentum remains constant, but her angular speed decreases.",
+        "C": "Both her angular momentum and angular speed increase.",
+        "D": "Her angular momentum remains constant only if her linear momentum is also conserved."
+      },
+      "correct_option": "B",
+      "answer": "Her angular momentum remains constant, but her angular speed decreases.",
+      "explanation": "With zero external torque, angular momentum is conserved. When the skater extends her arms, her moment of inertia I increases, so to keep I ω constant, the angular speed ω must decrease. Option B states this correctly. Option A incorrectly claims angular momentum changes. Option C is opposite of the truth, and option D adds an unnecessary condition about linear momentum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-01177-8",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A child stands on a rotating platform holding a spinning disc that rotates clockwise. The child flips the disc so that it now rotates counter‑clockwise with the same speed. Assuming no external torque, what happens to the angular speed of the platform?",
+      "options": {
+        "A": "It increases to conserve total angular momentum.",
+        "B": "It decreases.",
+        "C": "It remains unchanged.",
+        "D": "The platform stops rotating."
+      },
+      "correct_option": "A",
+      "answer": "It increases to conserve total angular momentum.",
+      "explanation": "Initially, the disc’s angular momentum adds to that of the platform. Flipping the disc reverses its angular momentum direction, effectively subtracting the same magnitude from the total. To keep the total angular momentum unchanged (zero external torque), the platform must increase its own angular momentum, which it does by spinning faster. Hence option A is correct. Options B, C, and D contradict the conservation requirement.",
+      "difficulty": "medium"
+    }
+  ]
+}
