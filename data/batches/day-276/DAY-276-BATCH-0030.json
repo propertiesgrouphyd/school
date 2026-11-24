@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Apply torque equilibrium",
+      "question": "A uniform beam 4.0 m long is pivoted at its centre. A downward force of 20 N is applied at a point 0.5 m from the left end. To keep the beam in rotational equilibrium, what magnitude of upward force must be applied at the right end?",
+      "options": {
+        "A": "10 N",
+        "B": "15 N",
+        "C": "20 N",
+        "D": "25 N"
+      },
+      "correct_option": "B",
+      "answer": "15 N",
+      "explanation": "Taking moments about the centre, the 20 N force is 1.5 m from the pivot (2.0 m – 0.5 m). Its clockwise torque is 20 N × 1.5 m = 30 N·m. Let the required upward force be F applied at the right end, 2.0 m from the pivot. For equilibrium, counter‑clockwise torque must equal clockwise torque: F × 2.0 m = 30 N·m, so F = 15 N. Options A, C and D give incorrect torques.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Define torque",
+      "question": "A person pushes a door by applying a force of 30 N at the handle, which is 0.8 m from the hinges, causing the door to rotate about the hinges. Which of the following best defines the torque produced by this action?",
+      "options": {
+        "A": "The product of the applied force and the perpendicular distance from the axis of rotation",
+        "B": "The product of the applied force and the angle between the force and the lever arm",
+        "C": "The product of the applied force and the total length of the door",
+        "D": "The product of the applied force and the mass of the door"
+      },
+      "correct_option": "A",
+      "answer": "The product of the applied force and the perpendicular distance from the axis of rotation",
+      "explanation": "Torque (τ) is defined as τ = r × F = r F sinθ, where r is the perpendicular distance from the axis to the line of action of the force. In the door example, r = 0.8 m and the force is perpendicular, so τ = 0.8 m × 30 N = 24 N·m. Option A states the correct definition; the other options describe unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Calculate moment of force",
+      "question": "A force of 50 N is applied at an angle of 30° to a lever arm that is 0.4 m long. What is the magnitude of the moment of force (torque) about the pivot?",
+      "options": {
+        "A": "10 N·m",
+        "B": "17.3 N·m",
+        "C": "20 N·m",
+        "D": "25 N·m"
+      },
+      "correct_option": "A",
+      "answer": "10 N·m",
+      "explanation": "Torque is τ = r F sinθ. Here r = 0.4 m, F = 50 N, sin30° = 0.5. Thus τ = 0.4 × 50 × 0.5 = 10 N·m. A common mistake is to use cosθ, which would give 17.3 N·m (option B). Options C and D are also incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Understand lever arm",
+      "question": "Two equal forces act on a lever that can rotate about a fixed pivot. Force F₁ is applied 0.2 m from the pivot, while force F₂ is applied 0.6 m from the pivot. Which statement is correct?",
+      "options": {
+        "A": "F₁ produces a larger torque than F₂",
+        "B": "F₂ produces a larger torque than F₁",
+        "C": "Both forces produce the same torque",
+        "D": "The torques cannot be compared without knowing the direction of the forces"
+      },
+      "correct_option": "B",
+      "answer": "F₂ produces a larger torque than F₁",
+      "explanation": "Torque τ = r F (for forces perpendicular to the lever). Since the forces are equal, the torque is directly proportional to the lever arm length r. With r₂ = 0.6 m > r₁ = 0.2 m, τ₂ > τ₁. Option B is correct; the other options ignore the lever‑arm relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Determine direction of torque",
+      "question": "A rectangular board lies in the plane of the page. A 10 N upward force is applied at a point 0.3 m to the right of a pivot O, and a 10 N downward force is applied at a point 0.3 m to the left of O. Considering an axis perpendicular to the page (out of the page positive), which statement correctly describes the directions of the two torques?",
+      "options": {
+        "A": "Both torques are clockwise",
+        "B": "Both torques are anticlockwise (out of the page)",
+        "C": "One torque is clockwise and the other is anticlockwise",
+        "D": "The torques cancel each other completely"
+      },
+      "correct_option": "B",
+      "answer": "Both torques are anticlockwise (out of the page)",
+      "explanation": "Torque direction follows the right‑hand rule: τ = r × F. For the upward force on the right side, r points right (×) F up gives a vector out of the page (anticlockwise). For the downward force on the left side, r points left and F points down; the cross product also points out of the page. Hence both torques have the same (anticlockwise) direction. Option B is correct; the other options misinterpret the cross‑product sign.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Apply torque equilibrium",
+      "question": "A uniform horizontal rod 2.0 m long is hinged at its left end O. A 10 N weight hangs from the right end. A force P is applied at a point 0.5 m from O, making an angle of 30° with the rod. For the rod to be in rotational equilibrium about O, what is the magnitude of P?",
+      "options": {
+        "A": "40 N",
+        "B": "60 N",
+        "C": "80 N",
+        "D": "100 N"
+      },
+      "correct_option": "C",
+      "answer": "80 N",
+      "explanation": "Weight produces a clockwise torque: τ_weight = 10 N × 2.0 m = 20 N·m. The applied force P has a component perpendicular to the rod equal to P sin30° = 0.5P. Its anticlockwise torque about O is τ_P = 0.5 m × 0.5P = 0.25P. Setting τ_P = τ_weight for equilibrium gives 0.25P = 20 N·m → P = 80 N. Options A, B, and D give incorrect torques.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Define torque",
+      "question": "Torque is best defined as:",
+      "options": {
+        "A": "Force multiplied by the distance from the axis measured along the line of action",
+        "B": "Product of force and the perpendicular distance from the axis of rotation",
+        "C": "Force divided by distance",
+        "D": "Mass times acceleration"
+      },
+      "correct_option": "B",
+      "answer": "Product of force and the perpendicular distance from the axis of rotation",
+      "explanation": "The standard definition of torque (τ) is τ = r F sinθ, which for a force perpendicular to the lever arm reduces to τ = r F, where r is the perpendicular distance from the axis. Option B captures this definition precisely; the other options describe unrelated concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01176",
+      "learning_point": "Calculate moment of force",
+      "question": "A force of 12 N acts perpendicular to a lever arm that is 0.25 m long. What is the magnitude of the torque produced?",
+      "options": {
+        "A": "3 N·m",
+        "B": "4 N·m",
+        "C": "5 N·m",
+        "D": "6 N·m"
+      },
+      "correct_option": "A",
+      "answer": "3 N·m",
+      "explanation": "Since the force is perpendicular, torque τ = r F = 0.25 m × 12 N = 3 N·m. Options B, C, and D result from incorrect multiplication or unit errors.",
+      "difficulty": "easy"
+    }
+  ]
+}
