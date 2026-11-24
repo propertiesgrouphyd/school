@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0062",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following best defines the moment of inertia of a rigid body about a specified axis?",
+      "options": {
+        "A": "The sum of each mass element multiplied by the square of its perpendicular distance from the axis.",
+        "B": "The product of the total mass and the distance of its centre of mass from the axis.",
+        "C": "The torque required to produce a unit angular acceleration.",
+        "D": "The linear momentum of the body divided by its angular velocity."
+      },
+      "correct_option": "A",
+      "answer": "The sum of each mass element multiplied by the square of its perpendicular distance from the axis.",
+      "explanation": "Moment of inertia (I) is defined as I = Σ m_i r_i^2, i.e., the sum of each mass element times the square of its perpendicular distance from the chosen axis. Option B describes a different quantity (mass times centre‑of‑mass distance). Option C describes rotational inertia in terms of torque but not the definition. Option D mixes linear momentum and angular velocity, which is unrelated. Hence A is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two solid discs have the same mass M and radius R. Disc A has its mass uniformly distributed, while Disc B has most of its mass concentrated near the rim. Which disc has the larger moment of inertia about an axis through its centre perpendicular to the plane?",
+      "options": {
+        "A": "Disc A",
+        "B": "Disc B",
+        "C": "Both have the same moment of inertia",
+        "D": "It cannot be determined without knowing the exact distribution"
+      },
+      "correct_option": "B",
+      "answer": "Disc B",
+      "explanation": "Moment of inertia depends on how far the mass lies from the axis (I = Σ m r^2). When more mass is located farther from the axis, I increases. Disc B, with mass concentrated near the rim, therefore has a larger I than the uniformly distributed Disc A. Options A and C are incorrect for this reason, and D is unnecessary because the qualitative description is sufficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "What is the moment of inertia of a thin uniform rod of length L and mass M about an axis through its centre and perpendicular to the rod?",
+      "options": {
+        "A": "(1/12) M L²",
+        "B": "(1/3) M L²",
+        "C": "(1/2) M L²",
+        "D": "M L²"
+      },
+      "correct_option": "A",
+      "answer": "(1/12) M L²",
+      "explanation": "For a thin rod rotating about its centre, the standard result from integration is I = (1/12) M L². Option B corresponds to an axis at one end, option C to a different geometry, and option D is not a correct formula for any common axis of a rod. Hence A is the correct value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "A solid cylinder of mass M and radius R rotates about its central longitudinal axis. Its radius of gyration k about this axis is:",
+      "options": {
+        "A": "R/√2",
+        "B": "R",
+        "C": "√2 R",
+        "D": "R/2"
+      },
+      "correct_option": "A",
+      "answer": "R/√2",
+      "explanation": "The radius of gyration k is defined by I = M k². For a solid cylinder about its central axis, I = (1/2) M R². Solving for k gives k = √(I/M) = √[(1/2)R²] = R/√2. The other options do not satisfy this relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following statements is NOT correct regarding the moment of inertia?",
+      "options": {
+        "A": "It depends on the axis about which it is calculated.",
+        "B": "It is zero for a point mass located on the axis of rotation.",
+        "C": "It depends only on the total mass of the body, not on how the mass is distributed.",
+        "D": "It has the dimensions of mass times length squared."
+      },
+      "correct_option": "C",
+      "answer": "It depends only on the total mass of the body, not on how the mass is distributed.",
+      "explanation": "Moment of inertia is highly sensitive to the distribution of mass relative to the axis (I = Σ m r²). Therefore statement C is false. Statements A, B, and D are true: I varies with axis, a point mass on the axis contributes zero, and its units are kg·m².",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "A solid sphere and a thin spherical shell have the same mass M and radius R. Which one has the greater moment of inertia about a diameter?",
+      "options": {
+        "A": "The solid sphere",
+        "B": "The thin spherical shell",
+        "C": "Both have equal moments of inertia",
+        "D": "It depends on the material density"
+      },
+      "correct_option": "B",
+      "answer": "The thin spherical shell",
+      "explanation": "For a solid sphere I = (2/5) M R², whereas for a thin spherical shell I = (2/3) M R². Because the shell’s mass lies farther from the axis, its I is larger. Hence option B is correct; the other options are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "Compare the moments of inertia about a central axis perpendicular to the plane for a thin hoop and a solid disc, each having the same mass M and radius R. Which statement is correct?",
+      "options": {
+        "A": "The hoop has I = (1/2) M R², the same as the disc.",
+        "B": "The hoop has I = M R², which is larger than the disc's I = (1/2) M R².",
+        "C": "The disc has I = M R², larger than the hoop's I = (1/2) M R².",
+        "D": "Both have I = (1/2) M R²."
+      },
+      "correct_option": "B",
+      "answer": "The hoop has I = M R², which is larger than the disc's I = (1/2) M R².",
+      "explanation": "Standard results: thin hoop I = M R², solid disc I = (1/2) M R² about an axis through the centre perpendicular to the plane. Therefore the hoop’s moment is twice that of the disc, making option B correct. Options A, C, and D contradict the known formulas.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "For a thin uniform rectangular plate of mass M, length a and breadth b, what is the radius of gyration k about an axis through its centre and perpendicular to the plane?",
+      "options": {
+        "A": "√[(a² + b²)/12]",
+        "B": "√[(a² + b²)/8]",
+        "C": "√[(a² + b²)/6]",
+        "D": "√[(a² + b²)/4]"
+      },
+      "correct_option": "A",
+      "answer": "√[(a² + b²)/12]",
+      "explanation": "The moment of inertia of such a plate about the stated axis is I = (1/12) M (a² + b²). Using I = M k² gives k = √(I/M) = √[(a² + b²)/12]. Hence option A is correct; the other denominators arise from incorrect integration limits.",
+      "difficulty": "hard"
+    }
+  ]
+}

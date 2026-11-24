@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0064",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following statements correctly compares the moment of inertia of a rigid body about an axis with its linear (translational) mass inertia?",
+      "options": {
+        "A": "Moment of inertia depends on how the mass is distributed with respect to the axis, whereas linear mass inertia depends only on the total mass.",
+        "B": "Moment of inertia is independent of the choice of axis, while linear mass inertia varies with direction of motion.",
+        "C": "Both moment of inertia and linear mass inertia have the same units and are scalar quantities.",
+        "D": "Moment of inertia is the product of mass and linear velocity."
+      },
+      "correct_option": "A",
+      "answer": "Moment of inertia depends on how the mass is distributed with respect to the axis, whereas linear mass inertia depends only on the total mass.",
+      "explanation": "Moment of inertia (I) measures resistance to angular acceleration and is given by I = Σ m_i r_i^2, showing explicit dependence on the distance of each mass element from the axis. Linear (translational) inertia is simply the total mass m, independent of geometry. Hence option A correctly captures the comparison. Options B, C, and D are incorrect because I does depend on the axis, has units kg·m^2 (different from kg), and is not defined as mass times velocity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two identical uniform rods each of length L and mass M are free to rotate about a vertical axis. Rod A is hinged at its centre, while Rod B is hinged at one end. Which rod has the larger moment of inertia about its respective hinge?",
+      "options": {
+        "A": "Rod A, because the axis passes through its centre of mass.",
+        "B": "Rod B, because more of its mass lies farther from the axis.",
+        "C": "Both have the same moment of inertia since they have identical mass and length.",
+        "D": "Rod A, because the distribution of mass is symmetric about the axis."
+      },
+      "correct_option": "B",
+      "answer": "Rod B, because more of its mass lies farther from the axis.",
+      "explanation": "For a uniform rod about its centre, I_center = (1/12)ML^2. About an end, using the parallel‑axis theorem, I_end = I_center + M(L/2)^2 = (1/12)ML^2 + (1/4)ML^2 = (1/3)ML^2, which is larger. Thus the rod hinged at the end (Rod B) has a greater I because a larger fraction of its mass is at larger radii from the axis. Options A, C, and D ignore the parallel‑axis contribution.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A thin circular hoop of mass 2 kg and radius 0.5 m rotates about an axis through its centre and perpendicular to the plane of the hoop. What is its moment of inertia?",
+      "options": {
+        "A": "0.25 kg·m²",
+        "B": "0.5 kg·m²",
+        "C": "1.0 kg·m²",
+        "D": "2.0 kg·m²"
+      },
+      "correct_option": "B",
+      "answer": "0.5 kg·m²",
+      "explanation": "For a thin hoop, I = MR². Substituting M = 2 kg and R = 0.5 m gives I = 2 × (0.5)² = 2 × 0.25 = 0.5 kg·m². Option B matches this result. The other options arise from arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "The radius of gyration k of a body about a given axis is defined as:",
+      "options": {
+        "A": "k = I / M, where I is the moment of inertia and M is the mass.",
+        "B": "k = √(I / M), where I is the moment of inertia and M is the mass.",
+        "C": "k = I × M, where I is the moment of inertia and M is the mass.",
+        "D": "k = I² / M, where I is the moment of inertia and M is the mass."
+      },
+      "correct_option": "B",
+      "answer": "k = √(I / M), where I is the moment of inertia and M is the mass.",
+      "explanation": "The radius of gyration k is defined by the relation I = M k², which rearranges to k = √(I/M). Option B states this correctly. Options A, C, and D misuse the formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which statement correctly defines moment of inertia and distinguishes it from torque?",
+      "options": {
+        "A": "Moment of inertia is the product of mass and radius; torque is the product of force and distance from the axis.",
+        "B": "Moment of inertia quantifies a body's resistance to angular acceleration (I = Σmr²), whereas torque measures the tendency of a force to cause angular acceleration (τ = r × F).",
+        "C": "Moment of inertia and torque are both forces that act tangentially on a rotating body.",
+        "D": "Moment of inertia is a vector quantity like torque, both having the same units."
+      },
+      "correct_option": "B",
+      "answer": "Moment of inertia quantifies a body's resistance to angular acceleration (I = Σmr²), whereas torque measures the tendency of a force to cause angular acceleration (τ = r × F).",
+      "explanation": "I = Σmr² depends only on mass distribution and has units kg·m²; it is a scalar (or tensor) representing rotational inertia. Torque τ = r × F is a vector with units N·m, representing the rotational effect of a force. Option B captures both definitions and the distinction. Options A, C, and D contain incorrect statements about formulas, nature, or units.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "A thin uniform rod of length 2 L and mass M is hinged at its centre. Two point masses, each of mass M/2, are attached at the ends of the rod. What is the moment of inertia of the system about the hinge?",
+      "options": {
+        "A": "(1/12) M (2L)² + (M/2) L²",
+        "B": "(1/12) M (2L)² + (M/2) (L)² + (M/2) (L)²",
+        "C": "(1/12) M (2L)² + (M/2) (2L)²",
+        "D": "(1/12) M (2L)²"
+      },
+      "correct_option": "B",
+      "answer": "(1/12) M (2L)² + (M/2) (L)² + (M/2) (L)²",
+      "explanation": "The rod about its centre: I_rod = (1/12) M (2L)² = (1/3) M L². Each attached point mass is at distance L from the hinge, contributing I = (M/2) L². Two such masses give total I_masses = (M/2) L² + (M/2) L² = M L². Adding, I_total = (1/3) M L² + M L² = (4/3) M L², which corresponds to option B when expressed in the unsimplified form. Options A, C, and D either miss one of the point masses or use incorrect distances.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A solid cylinder of mass 4 kg and radius 0.30 m rotates about its central axis. What is its moment of inertia?",
+      "options": {
+        "A": "0.09 kg·m²",
+        "B": "0.12 kg·m²",
+        "C": "0.18 kg·m²",
+        "D": "0.36 kg·m²"
+      },
+      "correct_option": "C",
+      "answer": "0.18 kg·m²",
+      "explanation": "For a solid cylinder about its symmetry axis, I = (1/2) M R². Substituting M = 4 kg and R = 0.30 m gives I = 0.5 × 4 × (0.30)² = 2 × 0.09 = 0.18 kg·m². Option C matches this calculation. The other options arise from using incorrect coefficients or arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "A uniform disc of mass 5 kg rotates about an axis through its centre. Its measured moment of inertia about this axis is 2.5 kg·m². What is the radius of gyration of the disc about the same axis?",
+      "options": {
+        "A": "0.35 m",
+        "B": "0.50 m",
+        "C": "0.71 m",
+        "D": "1.00 m"
+      },
+      "correct_option": "C",
+      "answer": "0.71 m",
+      "explanation": "Radius of gyration k is given by k = √(I/M). Here I = 2.5 kg·m² and M = 5 kg, so k = √(2.5/5) = √0.5 ≈ 0.707 m, which rounds to 0.71 m. Option C is correct. Options A, B, and D correspond to incorrect square‑root evaluations or misplacements of the mass factor.",
+      "difficulty": "medium"
+    }
+  ]
+}

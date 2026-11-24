@@ -1,0 +1,78 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following statements correctly defines the moment of inertia of a rigid body about a specified axis?",
+      "options": {
+        "A": "The product of the body's total mass and its linear velocity.",
+        "B": "The sum of the masses of all particles constituting the body.",
+        "C": "The sum of each particle's mass multiplied by the square of its perpendicular distance from the axis (I = Σ m_i r_i^2).",
+        "D": "The ratio of the applied torque to the angular displacement of the body."
+      },
+      "correct_option": "C",
+      "answer": "The sum of each particle's mass multiplied by the square of its perpendicular distance from the axis (I = Σ m_i r_i^2).",
+      "explanation": "Moment of inertia (I) quantifies a body's resistance to angular acceleration about an axis. It is defined as I = Σ m_i r_i^2, where m_i is the mass of each particle and r_i is its perpendicular distance from the axis. Option C states this definition. Option A confuses linear momentum, B ignores distance, and D describes a different relationship (torque = I·α).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two cylinders have the same mass M and the same outer radius R. Cylinder A is solid, while Cylinder B is a thin-walled hollow cylinder. Which cylinder has the larger moment of inertia about its central longitudinal axis?",
+      "options": {
+        "A": "Cylinder A (solid) because its mass is concentrated closer to the axis.",
+        "B": "Cylinder B (hollow) because more of its mass lies farther from the axis.",
+        "C": "Both have the same moment of inertia because they have identical mass and radius.",
+        "D": "It depends on the material density of the cylinders."
+      },
+      "correct_option": "B",
+      "answer": "Cylinder B (hollow) because more of its mass lies farther from the axis.",
+      "explanation": "Moment of inertia depends on how mass is distributed relative to the axis. For a solid cylinder I = (1/2)MR^2, whereas for a thin-walled hollow cylinder I = MR^2. Since the hollow cylinder places all its mass at the maximum radius, its I is larger. Option B captures this reasoning. Option A is opposite, C ignores distribution, and D is irrelevant because density does not affect I when total mass and radius are fixed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A thin uniform rod of length L and mass M is rotated about an axis perpendicular to the rod. Which statement correctly compares its moment of inertia about the centre of the rod (I_center) and about an axis through one end (I_end)?",
+      "options": {
+        "A": "I_center = (1/12)ML^2, I_end = (1/3)ML^2, so I_end is four times I_center.",
+        "B": "I_center = (1/12)ML^2, I_end = (1/2)ML^2, so I_end is six times I_center.",
+        "C": "I_center = (1/12)ML^2, I_end = (1/3)ML^2, so I_end is three times I_center.",
+        "D": "I_center = (1/12)ML^2, I_end = (1/12)ML^2; both are equal."
+      },
+      "correct_option": "A",
+      "answer": "I_center = (1/12)ML^2, I_end = (1/3)ML^2, so I_end is four times I_center.",
+      "explanation": "For a thin rod about its centre, I_center = (1/12)ML^2. Using the parallel‑axis theorem, I_end = I_center + M (L/2)^2 = (1/12)ML^2 + (1/4)ML^2 = (1/3)ML^2. The ratio I_end / I_center = (1/3)/(1/12) = 4, meaning the end axis moment is four times the centre axis moment. Option A states this correctly. Options B, C, and D contain incorrect numerical factors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "The radius of gyration k of a rigid body about a given axis is defined as the distance from the axis at which the entire mass M of the body could be assumed to be concentrated to give the same moment of inertia I. Which expression correctly gives k in terms of I and M?",
+      "options": {
+        "A": "k = I / M",
+        "B": "k = √(I / M)",
+        "C": "k = I × M",
+        "D": "k = √(M / I)"
+      },
+      "correct_option": "B",
+      "answer": "k = √(I / M)",
+      "explanation": "By definition, I = M k^2. Solving for k gives k = √(I / M). Option B reflects this relationship. Option A would give units of length squared, C and D are dimensionally incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}
