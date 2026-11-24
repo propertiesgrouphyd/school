@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0056",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "An object rotates about a fixed axis. Which of the following statements best defines its moment of inertia?",
+      "options": {
+        "A": "The product of the object's mass and its linear velocity",
+        "B": "The sum of each mass element multiplied by the square of its perpendicular distance from the axis (I = Σ m_i r_i^2)",
+        "C": "The torque required to keep the object rotating at a constant angular speed",
+        "D": "The angular displacement of the object per unit time"
+      },
+      "correct_option": "B",
+      "answer": "The sum of each mass element multiplied by the square of its perpendicular distance from the axis (I = Σ m_i r_i^2)",
+      "explanation": "Moment of inertia quantifies a body's resistance to angular acceleration and is calculated as I = Σ m_i r_i^2. Option B states this definition correctly. Option A describes linear momentum, C describes torque, and D describes angular velocity, none of which define moment of inertia.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two thin uniform rods each of mass M and length L are mounted on frictionless pivots. Rod A rotates about an axis through its centre, while Rod B rotates about an axis through one end. Which rod has the larger moment of inertia about its respective axis?",
+      "options": {
+        "A": "Rod A (axis through centre)",
+        "B": "Rod B (axis through one end)",
+        "C": "Both have the same moment of inertia",
+        "D": "It depends on the material of the rods"
+      },
+      "correct_option": "B",
+      "answer": "Rod B (axis through one end)",
+      "explanation": "For a thin rod about its centre I = (1/12)ML^2, whereas about an end I = (1/3)ML^2. Since (1/3) > (1/12), Rod B has the larger moment of inertia. Options A, C, and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A solid cylinder of mass M and radius R rotates about its central axis. A student mistakenly uses the formula I = MR^2 (the formula for a thin hoop) to calculate its moment of inertia. Which of the following identifies the error?",
+      "options": {
+        "A": "The student used the correct formula; there is no error",
+        "B": "The student should have used I = (1/2)MR^2 for a solid cylinder",
+        "C": "The student confused radius with diameter in the formula",
+        "D": "The student should have added a factor of 2 to the formula"
+      },
+      "correct_option": "B",
+      "answer": "The student should have used I = (1/2)MR^2 for a solid cylinder",
+      "explanation": "For a solid cylinder rotating about its symmetry axis, the correct moment of inertia is I = (1/2)MR^2. Using I = MR^2 applies to a thin hoop, not a solid cylinder. Hence option B correctly points out the mistake. Options A, C, and D do not address the specific formula error.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "The radius of gyration k of a body about a given axis is defined by the relation I = M k^2, where I is the moment of inertia and M is the total mass. Which expression correctly gives k?",
+      "options": {
+        "A": "k = √(I/M)",
+        "B": "k = I/M",
+        "C": "k = I × M",
+        "D": "k = I²/M"
+      },
+      "correct_option": "A",
+      "answer": "k = √(I/M)",
+      "explanation": "Rearranging I = M k^2 gives k = √(I/M). Option A reflects this relationship. Options B, C, and D are algebraically incorrect transformations of the defining equation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which statement correctly compares moment of inertia with linear inertia (mass)?",
+      "options": {
+        "A": "Moment of inertia depends only on shape, while linear inertia depends only on mass",
+        "B": "Both are measures of resistance, but moment of inertia is for translational motion and linear inertia for rotational motion",
+        "C": "Linear inertia is the rotational analogue of moment of inertia",
+        "D": "Both are measures of resistance to change in motion; mass resists linear acceleration, while moment of inertia resists angular acceleration"
+      },
+      "correct_option": "D",
+      "answer": "Both are measures of resistance to change in motion; mass resists linear acceleration, while moment of inertia resists angular acceleration",
+      "explanation": "Mass (linear inertia) quantifies resistance to linear acceleration; moment of inertia quantifies resistance to angular acceleration. Option D captures this parallel. Options A, B, and C misstate the relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two solid discs have the same mass M. Disc X has radius R, and disc Y has radius 2R. Both rotate about their central axes. By what factor is the moment of inertia of disc Y greater than that of disc X?",
+      "options": {
+        "A": "It is the same for both discs",
+        "B": "Four times greater",
+        "C": "Two times greater",
+        "D": "Eight times greater"
+      },
+      "correct_option": "B",
+      "answer": "Four times greater",
+      "explanation": "For a solid disc, I = (1/2) M R^2. Substituting 2R for disc Y gives I_Y = (1/2) M (2R)^2 = (1/2) M 4R^2 = 4 × (1/2) M R^2 = 4 I_X. Hence disc Y’s moment of inertia is four times that of disc X. Options A, C, and D are incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A thin uniform rod of mass 2 kg and length 3 m rotates about an axis through its centre perpendicular to its length. What is its moment of inertia? (Use I = (1/12) M L^2)",
+      "options": {
+        "A": "0.75 kg·m²",
+        "B": "1.0 kg·m²",
+        "C": "1.5 kg·m²",
+        "D": "2.0 kg·m²"
+      },
+      "correct_option": "C",
+      "answer": "1.5 kg·m²",
+      "explanation": "I = (1/12) × 2 kg × (3 m)² = (1/12) × 2 × 9 = (1/12) × 18 = 1.5 kg·m². Option C matches this calculation. The other options result from incorrect arithmetic or using a wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "The radius of gyration of a body about a specified axis is defined as:",
+      "options": {
+        "A": "The actual radius of the body measured from the axis",
+        "B": "The distance at which the body's mass would have to be concentrated to give the same linear momentum",
+        "C": "The distance from the axis at which the entire mass of the body could be imagined to be concentrated to produce the same moment of inertia",
+        "D": "The average distance of all particles from the axis"
+      },
+      "correct_option": "C",
+      "answer": "The distance from the axis at which the entire mass of the body could be imagined to be concentrated to produce the same moment of inertia",
+      "explanation": "Radius of gyration k satisfies I = M k^2, meaning the whole mass placed at distance k from the axis yields the same I. Option C states this definition. Options A, B, and D describe other concepts and are not the definition of radius of gyration.",
+      "difficulty": "easy"
+    }
+  ]
+}

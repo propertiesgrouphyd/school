@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0060",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01178-MCQ-57",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following statements correctly defines the moment of inertia of a rigid body about a specified axis?",
+      "options": {
+        "A": "It is the product of the body's total mass and the square of the distance of its centre of mass from the axis.",
+        "B": "It is the sum of each particle's mass multiplied by the square of its perpendicular distance from the axis.",
+        "C": "It is the resistance offered by the body to linear acceleration under an applied force.",
+        "D": "It is the torque required to produce a unit angular acceleration."
+      },
+      "correct_option": "B",
+      "answer": "It is the sum of each particle's mass multiplied by the square of its perpendicular distance from the axis.",
+      "explanation": "Moment of inertia (I) about an axis is defined as I = Σ m_i r_i^2, where m_i is the mass of each particle and r_i is its perpendicular distance from the axis. Option A confuses I with a point‑mass formula, C describes mass, and D describes torque per unit angular acceleration, which equals I but is not the definition itself.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01178-MCQ-58",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "A uniform solid disc and a thin hoop have the same mass M and the same outer radius R. Which statement about their moments of inertia about a central axis perpendicular to the plane is true?",
+      "options": {
+        "A": "Both have the same moment of inertia because they have the same mass and radius.",
+        "B": "The solid disc has a larger moment of inertia because its mass is distributed closer to the axis.",
+        "C": "The thin hoop has a larger moment of inertia because more of its mass is located farther from the axis.",
+        "D": "Both have zero moment of inertia about that axis."
+      },
+      "correct_option": "C",
+      "answer": "The thin hoop has a larger moment of inertia because more of its mass is located farther from the axis.",
+      "explanation": "For the solid disc I = (1/2)MR^2, while for the thin hoop I = MR^2. Because the hoop’s entire mass lies at the maximum distance R, its I is larger. Option A ignores the distribution, B reverses the effect, and D is false because both have non‑zero I.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "LU-01178-MCQ-59",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "Consider two bodies each of mass 2 kg. Body A is a solid cylinder of radius 0.10 m rotating about its central axis. Body B is a solid sphere of the same radius rotating about a diameter. Which body has the larger moment of inertia about the given axis?",
+      "options": {
+        "A": "Body A (solid cylinder) has the larger moment of inertia.",
+        "B": "Body B (solid sphere) has the larger moment of inertia.",
+        "C": "Both have equal moments of inertia.",
+        "D": "Cannot be determined without knowing the angular speed."
+      },
+      "correct_option": "A",
+      "answer": "Body A (solid cylinder) has the larger moment of inertia.",
+      "explanation": "I_cylinder = (1/2)MR^2 = 0.5 × 2 × 0.01 = 0.01 kg·m². I_sphere = (2/5)MR^2 = 0.4 × 2 × 0.01 = 0.008 kg·m². Hence the cylinder’s I is larger. Angular speed does not affect the value of I, so D is irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01178-MCQ-60",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "A solid uniform cylinder of mass 5 kg and radius 0.20 m rotates about its central axis. Its moment of inertia is I = (1/2)MR². What is the radius of gyration k of this cylinder about the same axis?",
+      "options": {
+        "A": "0.10 m",
+        "B": "0.14 m",
+        "C": "0.20 m",
+        "D": "0.28 m"
+      },
+      "correct_option": "B",
+      "answer": "0.14 m",
+      "explanation": "First compute I: I = 0.5 × 5 kg × (0.20 m)² = 0.5 × 5 × 0.04 = 0.10 kg·m². Radius of gyration k is defined by I = Mk², so k = √(I/M) = √(0.10/5) = √0.02 ≈ 0.141 m, which matches option B. The other options correspond to incorrect arithmetic or mis‑application of the formula.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01178-MCQ-61",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Moment of inertia of a rigid body about an axis is best described as:",
+      "options": {
+        "A": "The total mass of the body.",
+        "B": "The sum of each particle's mass times the square of its distance from the axis.",
+        "C": "The angular speed of the body.",
+        "D": "The torque required to keep the body at rest."
+      },
+      "correct_option": "B",
+      "answer": "The sum of each particle's mass times the square of its distance from the axis.",
+      "explanation": "By definition, I = Σ m_i r_i². Option A describes mass, C describes angular velocity, and D confuses torque with the product of I and angular acceleration.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01178-MCQ-62",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Which arrangement gives the greatest moment of inertia about a given axis?",
+      "options": {
+        "A": "A point mass M placed at a distance r/2 from the axis.",
+        "B": "The same mass M uniformly distributed as a thin ring of radius r about the axis.",
+        "C": "The same mass M concentrated at the axis.",
+        "D": "The same mass M spread as a solid disc of radius r."
+      },
+      "correct_option": "B",
+      "answer": "The same mass M uniformly distributed as a thin ring of radius r about the axis.",
+      "explanation": "I for a point mass at r/2 is M(r/2)² = ¼Mr². For a thin ring, all mass is at distance r, giving I = Mr², the largest among the options. A solid disc has I = (1/2)Mr², and mass at the axis gives I = 0.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01178-MCQ-63",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "Which expression correctly gives the moment of inertia of a thin circular hoop of mass M and radius R about an axis through its centre and perpendicular to the plane of the hoop?",
+      "options": {
+        "A": "I = (1/2) M R²",
+        "B": "I = M R²",
+        "C": "I = (2/5) M R²",
+        "D": "I = (3/4) M R²"
+      },
+      "correct_option": "B",
+      "answer": "I = M R²",
+      "explanation": "All the mass of a thin hoop lies at distance R from the axis, so I = Σ m_i R² = M R². Option A is for a solid disc, C for a solid sphere, and D is not a standard formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "LU-01178-MCQ-64",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "A uniform solid disc of mass 4 kg has a moment of inertia I = 0.8 kg·m² about its central axis. What is its radius of gyration k about that axis?",
+      "options": {
+        "A": "0.20 m",
+        "B": "0.40 m",
+        "C": "0.45 m",
+        "D": "0.80 m"
+      },
+      "correct_option": "C",
+      "answer": "0.45 m",
+      "explanation": "k = √(I/M) = √(0.8 / 4) = √0.2 ≈ 0.447 m, which rounds to 0.45 m (option C). Options A and B are too small, D is the value of I, not k.",
+      "difficulty": "easy"
+    }
+  ]
+}

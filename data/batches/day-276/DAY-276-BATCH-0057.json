@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0057",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following best defines the moment of inertia of a rigid body about a specified axis?",
+      "options": {
+        "A": "The product of the body's mass and the square of its linear velocity.",
+        "B": "The sum of each particle's mass multiplied by the square of its perpendicular distance from the axis.",
+        "C": "The torque required to produce a unit angular acceleration.",
+        "D": "The angular momentum of the body per unit angular velocity."
+      },
+      "correct_option": "B",
+      "answer": "The sum of each particle's mass multiplied by the square of its perpendicular distance from the axis.",
+      "explanation": "Moment of inertia (I) is defined as I = Σ m_i r_i^2, where m_i is the mass of each particle and r_i is its perpendicular distance from the axis of rotation. Option B states exactly this definition. Option A confuses linear kinetic energy, C describes moment of inertia only indirectly via torque, and D describes angular momentum, not inertia.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two solid discs have the same mass M and radius R. In disc A the mass is uniformly distributed, while in disc B all the mass is concentrated in a thin ring at the outer edge. Which disc has the larger moment of inertia about an axis through their centres perpendicular to the plane?",
+      "options": {
+        "A": "Disc A (uniform distribution)",
+        "B": "Disc B (mass at the outer edge)",
+        "C": "Both have the same moment of inertia",
+        "D": "Neither disc possesses a moment of inertia"
+      },
+      "correct_option": "B",
+      "answer": "Disc B (mass at the outer edge)",
+      "explanation": "Moment of inertia depends on how far the mass lies from the axis. For a uniform disc I = (1/2)MR^2, whereas for a thin hoop I = MR^2. Because disc B places all its mass at the maximum distance R, its I is larger. Option B is correct; A is smaller, C is false, and D is meaningless.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "What is the moment of inertia of a thin uniform rod of length L and mass M about an axis through its centre and perpendicular to the rod?",
+      "options": {
+        "A": "(1/12) M L²",
+        "B": "(1/3) M L²",
+        "C": "(1/2) M L²",
+        "D": "(1/8) M L²"
+      },
+      "correct_option": "A",
+      "answer": "(1/12) M L²",
+      "explanation": "For a thin rod about its centre, I = ∫ (x² dm) from –L/2 to L/2 = (1/12)ML². Option A gives the correct formula. Options B, C, and D correspond to other axes or incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "A solid uniform cylinder of mass M and radius R rotates about its central axis. Its moment of inertia is I = (1/2) M R². The radius of gyration k is defined by I = M k². What is k?",
+      "options": {
+        "A": "R/2",
+        "B": "R/√2",
+        "C": "R/√3",
+        "D": "R/4"
+      },
+      "correct_option": "B",
+      "answer": "R/√2",
+      "explanation": "From I = M k², k = √(I/M) = √[(1/2) R²] = R/√2. Option B matches this result. Options A, C, and D arise from incorrect algebraic manipulation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which statement correctly describes the moment of inertia of a rigid body?",
+      "options": {
+        "A": "It depends only on the total mass of the body.",
+        "B": "It depends on how the mass is distributed relative to the axis of rotation.",
+        "C": "It is independent of the shape of the body.",
+        "D": "It is equal to the linear momentum of the body."
+      },
+      "correct_option": "B",
+      "answer": "It depends on how the mass is distributed relative to the axis of rotation.",
+      "explanation": "Moment of inertia measures resistance to angular acceleration and is given by Σ m r², so the distribution of mass with respect to the axis matters. Option B states this. Option A ignores distribution, C is false because shape influences distribution, and D confuses inertia with linear momentum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "If the same total mass of a rotating disc is moved from the inner region to the outer region while keeping the disc’s radius unchanged, what happens to its moment of inertia about the central axis?",
+      "options": {
+        "A": "It increases.",
+        "B": "It decreases.",
+        "C": "It remains the same.",
+        "D": "It becomes zero."
+      },
+      "correct_option": "A",
+      "answer": "It increases.",
+      "explanation": "Moving mass to larger radii raises each term m r² in the sum for I, therefore I grows. Hence option A is correct. Decrease or no change would require mass moving inward or staying at the same radii, and zero is impossible for a physical body.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A thin hoop and a solid disc both have the same mass M and radius R. Which one has the larger moment of inertia about an axis through their centres perpendicular to the plane?",
+      "options": {
+        "A": "The thin hoop",
+        "B": "The solid disc",
+        "C": "Both have equal moments of inertia",
+        "D": "It depends on the material’s density distribution"
+      },
+      "correct_option": "A",
+      "answer": "The thin hoop",
+      "explanation": "For a thin hoop I = M R², while for a solid disc I = (1/2) M R². Since MR² > (1/2)MR², the hoop’s inertia is larger. Option A is correct; B is smaller, C is false, D is irrelevant because mass and radius are identical.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40-LU-01178",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "The radius of gyration k of a uniform thin rod of length L about an axis through one end perpendicular to the rod is defined by I = M k². What is k?",
+      "options": {
+        "A": "L/√12",
+        "B": "L/√3",
+        "C": "L/2",
+        "D": "L/√2"
+      },
+      "correct_option": "B",
+      "answer": "L/√3",
+      "explanation": "For a thin rod about one end, I = (1/3) M L². Setting I = M k² gives k = √(I/M) = √[(1/3)L²] = L/√3. Option B matches this. Options A, C, and D correspond to other axes or incorrect algebra.",
+      "difficulty": "hard"
+    }
+  ]
+}
