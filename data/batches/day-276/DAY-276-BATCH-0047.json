@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0047",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "Which of the following statements correctly defines the angular momentum **L** of a particle of mass *m* moving with velocity **v** at a position vector **r** from a chosen origin?",
+      "options": {
+        "A": "L = r \\times v",
+        "B": "L = m r v",
+        "C": "L = r \\times p (where p = m v)",
+        "D": "L = I \\omega"
+      },
+      "correct_option": "C",
+      "answer": "L = r \\times p (where p = m v)",
+      "explanation": "Angular momentum of a particle is defined as the cross product of its position vector **r** and its linear momentum **p = m v**, i.e., **L = r \\times p**. Option A omits the mass factor, Option B treats the product as scalar, and Option D applies only to a rigid body with moment of inertia **I** and angular speed **\\omega**. Hence, option C is the correct definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "A constant torque **\\tau** is applied to a rigid body initially at rest. Which of the following best describes the effect of this torque on the body's angular momentum **L** over time?",
+      "options": {
+        "A": "The torque causes the angular momentum to increase linearly with time.",
+        "B": "The torque causes the angular momentum to increase exponentially with time.",
+        "C": "The torque does not affect angular momentum; it only changes angular velocity.",
+        "D": "The torque causes the angular momentum to remain constant."
+      },
+      "correct_option": "A",
+      "answer": "The torque causes the angular momentum to increase linearly with time.",
+      "explanation": "By definition, torque is the time derivative of angular momentum: **\\tau = dL/dt**. If **\\tau** is constant, integrating gives **L = \\tau t + L_0**; with the body initially at rest (**L_0 = 0**) the angular momentum grows linearly with time. The other options contradict this fundamental relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "Which of the following situations illustrates the principle of conservation of angular momentum but NOT the principle of conservation of linear momentum?",
+      "options": {
+        "A": "A skater pulling in her arms while spinning on ice.",
+        "B": "A block sliding down a frictionless inclined plane.",
+        "C": "Two ice skaters pushing off each other on a frictionless surface.",
+        "D": "A car accelerating on a straight road."
+      },
+      "correct_option": "A",
+      "answer": "A skater pulling in her arms while spinning on ice.",
+      "explanation": "When the skater changes her arm position, no external torque acts about the vertical axis, so her angular momentum about that axis remains constant. However, external forces from the ice (normal and friction) mean the skater's linear momentum is not necessarily conserved in the horizontal direction. Options B and C involve conservation of linear momentum (and in C, also angular momentum), while D involves external forces changing linear momentum.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A rotating platform has a moment of inertia I₁ = 2.0 kg·m² and rotates at an angular speed ω₁ = 3.0 rad/s. A student gently places a solid disc of moment of inertia I₂ = 1.0 kg·m² onto the platform so that they rotate together without slipping. Assuming no external torque acts, what is the final angular speed ω_f of the combined system?",
+      "options": {
+        "A": "2.0 rad/s",
+        "B": "3.0 rad/s",
+        "C": "4.5 rad/s",
+        "D": "6.0 rad/s"
+      },
+      "correct_option": "A",
+      "answer": "2.0 rad/s",
+      "explanation": "With no external torque, angular momentum is conserved: L_initial = I₁ω₁ = 2.0×3.0 = 6.0 kg·m²·s⁻¹. The combined moment of inertia is I_total = I₁+I₂ = 3.0 kg·m². Hence ω_f = L_initial / I_total = 6.0 / 3.0 = 2.0 rad/s. The other options result from incorrect arithmetic or ignoring conservation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "What is the definition of angular momentum **L** for a particle of mass *m* moving with velocity **v** at a position vector **r** from a chosen origin?",
+      "options": {
+        "A": "L = m v r",
+        "B": "L = r \\times p, where p = m v",
+        "C": "L = I \\omega",
+        "D": "L = \\tau t"
+      },
+      "correct_option": "B",
+      "answer": "L = r \\times p, where p = m v",
+      "explanation": "Angular momentum is defined as the cross product of the position vector **r** and the linear momentum **p = m v**, giving **L = r \\times p**. Option A lacks the cross product, Option C is for a rigid body, and Option D mixes torque and time, which is not the definition of angular momentum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "Which equation correctly relates the external torque **\\tau** acting on a system to the rate of change of its angular momentum **L**?",
+      "options": {
+        "A": "\\tau = dL/dt",
+        "B": "\\tau = L \\times t",
+        "C": "\\tau = I \\alpha",
+        "D": "\\tau = m a r"
+      },
+      "correct_option": "A",
+      "answer": "\\tau = dL/dt",
+      "explanation": "The fundamental relation is **\\tau = dL/dt**. While **\\tau = I\\alpha** holds for a rigid body with constant moment of inertia, the most general expression connecting torque and angular momentum is the time derivative form. Options B and D are not physically meaningful.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "How does the conservation of angular momentum differ from the conservation of linear momentum?",
+      "options": {
+        "A": "Angular momentum is conserved only when net external torque is zero, whereas linear momentum is conserved only when net external force is zero.",
+        "B": "Both are conserved under the same conditions; there is no difference.",
+        "C": "Linear momentum is always conserved, but angular momentum is not.",
+        "D": "Angular momentum depends on mass, while linear momentum does not."
+      },
+      "correct_option": "A",
+      "answer": "Angular momentum is conserved only when net external torque is zero, whereas linear momentum is conserved only when net external force is zero.",
+      "explanation": "Conservation laws depend on the absence of the corresponding external influence: zero net external torque → angular momentum conserved; zero net external force → linear momentum conserved. Options B, C, and D misstate these principles.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A uniform disc of moment of inertia I₁ = 0.50 kg·m² rotates at ω₁ = 4.0 rad/s about its central axis. A small mass m = 0.20 kg is gently dropped onto the disc at a distance r = 0.50 m from the axis and sticks to it. Assuming no external torque, what is the angular speed ω_f of the disc‑mass system after the mass sticks?",
+      "options": {
+        "A": "3.64 rad/s",
+        "B": "4.00 rad/s",
+        "C": "4.40 rad/s",
+        "D": "5.00 rad/s"
+      },
+      "correct_option": "A",
+      "answer": "3.64 rad/s",
+      "explanation": "The added mass contributes an extra moment of inertia I₂ = m r² = 0.20×0.5² = 0.05 kg·m². Total I = 0.50 + 0.05 = 0.55 kg·m². Initial angular momentum L_i = I₁ ω₁ = 0.50×4.0 = 2.0 kg·m²·s⁻¹. Conserving L: ω_f = L_i / I_total = 2.0 / 0.55 ≈ 3.64 rad/s. The other options arise from neglecting the added inertia or arithmetic errors.",
+      "difficulty": "easy"
+    }
+  ]
+}

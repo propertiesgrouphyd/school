@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "Which of the following statements correctly compares angular momentum with linear momentum?",
+      "options": {
+        "A": "Both are conserved in isolated systems, but angular momentum depends on the choice of axis while linear momentum does not.",
+        "B": "Angular momentum is a scalar quantity just like linear momentum.",
+        "C": "Linear momentum is defined as m v, whereas angular momentum is defined as I ω only for rigid bodies, not for individual particles.",
+        "D": "Angular momentum has the same units (kg·m/s) as linear momentum."
+      },
+      "correct_option": "A",
+      "answer": "Both are conserved in isolated systems, but angular momentum depends on the choice of axis while linear momentum does not.",
+      "explanation": "In an isolated system, both linear momentum (p = m v) and angular momentum (L = r × p) are conserved. However, angular momentum is vectorial and its value changes with the reference axis chosen, whereas linear momentum is independent of any axis. Options B, C, and D are incorrect because angular momentum is a vector, it is defined for particles as r × p (not only I ω), and its SI unit is kg·m²/s, different from linear momentum.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "According to Newton's second law for rotation, the external torque τ acting on a system is equal to:",
+      "options": {
+        "A": "the time derivative of angular momentum, τ = dL/dt",
+        "B": "the angular momentum itself, τ = L",
+        "C": "the product of moment of inertia and angular acceleration, τ = I α",
+        "D": "the square of angular velocity, τ = ω²"
+      },
+      "correct_option": "A",
+      "answer": "the time derivative of angular momentum, τ = dL/dt",
+      "explanation": "The rotational analogue of Newton's second law states that the net external torque on a system equals the rate of change of its angular momentum (τ = dL/dt). Option C describes torque for a rigid body with constant I, but the general law is expressed with dL/dt. Options B and D are not correct relationships.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "If no external torque acts on a system, what can be said about its angular momentum?",
+      "options": {
+        "A": "It remains constant in magnitude and direction.",
+        "B": "It increases linearly with time.",
+        "C": "It decreases exponentially with time.",
+        "D": "It oscillates about a mean value."
+      },
+      "correct_option": "A",
+      "answer": "It remains constant in magnitude and direction.",
+      "explanation": "Conservation of angular momentum states that in the absence of external torque, the total angular momentum of a closed system does not change. Therefore it stays constant both in magnitude and direction. The other options describe behaviours that would require external influences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A figure skater spins with arms extended. When she pulls her arms close to her body, what happens to her angular speed?",
+      "options": {
+        "A": "Her angular speed increases.",
+        "B": "Her angular speed decreases.",
+        "C": "Her angular speed remains unchanged.",
+        "D": "She stops rotating."
+      },
+      "correct_option": "A",
+      "answer": "Her angular speed increases.",
+      "explanation": "Pulling the arms reduces the skater's moment of inertia. Because angular momentum L = I ω is conserved (no external torque), a decrease in I must be compensated by an increase in ω, so the skater spins faster. Options B, C, and D contradict conservation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "The angular momentum L of a particle of mass m moving with velocity v at position vector r (relative to an origin) is given by:",
+      "options": {
+        "A": "L = r × p, where p = m v",
+        "B": "L = m v",
+        "C": "L = I α",
+        "D": "L = ½ I ω²"
+      },
+      "correct_option": "A",
+      "answer": "L = r × p, where p = m v",
+      "explanation": "For a particle, angular momentum is the cross product of its position vector r and linear momentum p (L = r × p). Option B is linear momentum, C is torque (or angular momentum for a rigid body with constant I), and D is rotational kinetic energy, not angular momentum.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "A wheel initially has angular momentum L₀. A constant external torque τ is applied for a time interval Δt. What is the change ΔL in the wheel's angular momentum?",
+      "options": {
+        "A": "ΔL = τ Δt",
+        "B": "ΔL = τ / Δt",
+        "C": "ΔL = L₀ / τ",
+        "D": "ΔL = 0"
+      },
+      "correct_option": "A",
+      "answer": "ΔL = τ Δt",
+      "explanation": "From τ = dL/dt, integrating over a time Δt gives ΔL = τ Δt for a constant torque. Options B and C misuse the relationship, and D would be true only if τ = 0.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "A child standing on a frictionless rotating platform holds a spinning bicycle wheel with its axle horizontal. When the child flips the wheel over, the platform and child start rotating. Why does this happen?",
+      "options": {
+        "A": "The system conserves angular momentum, so the platform rotates opposite to the wheel’s change in angular momentum.",
+        "B": "Flipping the wheel adds kinetic energy, causing the platform to spin in the same direction.",
+        "C": "The child’s muscles exert a torque that initiates rotation.",
+        "D": "The wheel’s linear momentum is transferred to the platform."
+      },
+      "correct_option": "A",
+      "answer": "The system conserves angular momentum, so the platform rotates opposite to the wheel’s change in angular momentum.",
+      "explanation": "When the wheel is flipped, its angular momentum vector reverses. To keep the total angular momentum of the isolated system zero, the platform‑child system acquires an equal and opposite angular momentum, causing rotation. Options B, C, and D invoke incorrect mechanisms (energy addition, internal torque, linear momentum).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A satellite in space is rotating with angular speed ω₁ and moment of inertia I₁. It extends a small mass outward along a rigid arm, increasing its moment of inertia to I₂ (I₂ > I₁). Assuming no external torques, what happens to its angular speed ω₂?",
+      "options": {
+        "A": "ω₂ decreases so that I₁ ω₁ = I₂ ω₂.",
+        "B": "ω₂ increases because the satellite gains mass.",
+        "C": "ω₂ remains the same because angular speed is independent of moment of inertia.",
+        "D": "The satellite stops rotating."
+      },
+      "correct_option": "A",
+      "answer": "ω₂ decreases so that I₁ ω₁ = I₂ ω₂.",
+      "explanation": "Conservation of angular momentum (L = I ω) requires I₁ ω₁ = I₂ ω₂ when no external torque acts. Since I₂ > I₁, ω₂ must be smaller than ω₁. Options B, C, and D contradict the conservation principle.",
+      "difficulty": "medium"
+    }
+  ]
+}
