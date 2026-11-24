@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0054",
+  "mcqs": [
+    {
+      "job_number": 9,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-276-9",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following statements correctly compares moment of inertia with linear mass (inertia)?",
+      "options": {
+        "A": "Moment of inertia is the rotational analogue of mass; it quantifies resistance to angular acceleration, whereas mass quantifies resistance to linear acceleration.",
+        "B": "Moment of inertia measures the amount of rotational kinetic energy, while mass measures the amount of translational kinetic energy for a given speed.",
+        "C": "Moment of inertia depends only on the total mass of a body, just like linear mass, and is independent of how the mass is distributed.",
+        "D": "Moment of inertia is the product of mass and linear velocity, analogous to linear momentum."
+      },
+      "correct_option": "A",
+      "answer": "Moment of inertia is the rotational analogue of mass; it quantifies resistance to angular acceleration, whereas mass quantifies resistance to linear acceleration.",
+      "explanation": "Moment of inertia (I) plays the same role in rotational dynamics as mass (m) does in linear dynamics. It measures how much a body resists a change in its angular speed, just as mass measures resistance to change in linear speed. Option A states this correctly. Option B confuses kinetic energy with inertia. Option C ignores the crucial dependence on mass distribution. Option D mixes concepts of momentum and inertia.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 10,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-276-10",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two circular discs have the same mass M and the same radius R. Disc A is a solid disc, while Disc B is a thin hoop. Which disc has the larger moment of inertia about an axis through its centre perpendicular to the plane?",
+      "options": {
+        "A": "Disc A (solid disc)",
+        "B": "Disc B (thin hoop)",
+        "C": "Both have the same moment of inertia",
+        "D": "It depends on the material density distribution, not just the shape"
+      },
+      "correct_option": "B",
+      "answer": "Disc B (thin hoop)",
+      "explanation": "For a solid disc, I = (1/2)MR². For a thin hoop, I = MR². Since both have the same M and R, the hoop’s moment of inertia is twice that of the solid disc, showing the strong dependence on how the mass is distributed (all at the rim for the hoop). Options A and C are therefore incorrect, and D is irrelevant because the problem already specifies identical mass and radius.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 11,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-276-11",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A thin uniform rod of length 2.0 m and mass 3.0 kg is rotated about an axis through its centre and perpendicular to its length. What is its moment of inertia?",
+      "options": {
+        "A": "0.5 kg·m²",
+        "B": "1.0 kg·m²",
+        "C": "1.5 kg·m²",
+        "D": "2.0 kg·m²"
+      },
+      "correct_option": "B",
+      "answer": "1.0 kg·m²",
+      "explanation": "For a thin rod about its centre, I = (1/12)ML². Substituting M = 3 kg and L = 2 m gives I = (1/12)×3×(2)² = (1/12)×3×4 = 1 kg·m². Hence option B is correct. The other options result from incorrect use of the formula or arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 12,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-276-12",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "The radius of gyration k of a rigid body about a given axis is defined as:",
+      "options": {
+        "A": "k = I / M, where I is the moment of inertia and M is the mass.",
+        "B": "k = √(I / M), where I is the moment of inertia and M is the mass.",
+        "C": "k = I × M, the product of moment of inertia and mass.",
+        "D": "k = I – M, the difference between moment of inertia and mass."
+      },
+      "correct_option": "B",
+      "answer": "k = √(I / M), where I is the moment of inertia and M is the mass.",
+      "explanation": "The radius of gyration k is defined by the relation I = M k², which rearranges to k = √(I/M). Option B expresses this correctly. Option A omits the square root, while C and D are not related to the definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 13,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-276-13",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following statements correctly defines the moment of inertia of a rigid body about a specified axis?",
+      "options": {
+        "A": "It is the sum of the products of each particle’s mass and the square of its distance from the axis.",
+        "B": "It is the total mass of the body multiplied by the square of the radius of the body.",
+        "C": "It is the torque required to keep the body rotating at a constant angular speed.",
+        "D": "It is the linear momentum of the body divided by its angular velocity."
+      },
+      "correct_option": "A",
+      "answer": "It is the sum of the products of each particle’s mass and the square of its distance from the axis.",
+      "explanation": "Moment of inertia I = Σ m_i r_i², where r_i is the perpendicular distance of each mass element from the axis. Option A states this definition. Option B incorrectly uses total mass and a single radius. Option C describes torque, not inertia. Option D mixes linear momentum and angular velocity, which is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 14,
+      "question_type": "application",
+      "mcq_id": "MCQ-276-14",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two identical thin rods of length L and mass M are pivoted at their centres. Rod X has its mass uniformly distributed. Rod Y has most of its mass concentrated at its ends. Which rod has the larger moment of inertia about the pivot?",
+      "options": {
+        "A": "Rod X (uniform distribution)",
+        "B": "Rod Y (mass at the ends)",
+        "C": "Both have the same moment of inertia",
+        "D": "It cannot be determined without knowing the exact mass distribution function"
+      },
+      "correct_option": "B",
+      "answer": "Rod Y (mass at the ends)",
+      "explanation": "Moment of inertia depends on how far mass lies from the axis (I = Σ m r²). Placing more mass at larger distances (the ends) increases I. Therefore Rod Y, with mass concentrated at the ends, has a larger I than the uniformly distributed Rod X. Option A is opposite, C ignores distribution, and D is unnecessary because the qualitative description is sufficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 15,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-276-15",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A thin circular hoop of radius 0.50 m has a mass of 2.0 kg. What is its moment of inertia about an axis through its centre perpendicular to the plane of the hoop?",
+      "options": {
+        "A": "0.25 kg·m²",
+        "B": "0.50 kg·m²",
+        "C": "1.00 kg·m²",
+        "D": "2.00 kg·m²"
+      },
+      "correct_option": "B",
+      "answer": "0.50 kg·m²",
+      "explanation": "For a thin hoop, I = M R². Substituting M = 2.0 kg and R = 0.50 m gives I = 2.0 × (0.50)² = 2.0 × 0.25 = 0.50 kg·m². Hence option B is correct. The other options arise from mis‑applying the formula or arithmetic mistakes.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 16,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-276-16",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "A solid cylinder of mass 4.0 kg and radius 0.20 m rotates about its central axis. What is the radius of gyration k of the cylinder about this axis?",
+      "options": {
+        "A": "0.10 m",
+        "B": "0.14 m",
+        "C": "0.20 m",
+        "D": "0.28 m"
+      },
+      "correct_option": "B",
+      "answer": "0.14 m",
+      "explanation": "For a solid cylinder, I = (1/2) M R² = 0.5 × 4.0 × (0.20)² = 0.5 × 4.0 × 0.04 = 0.08 kg·m². The radius of gyration k satisfies I = M k², so k = √(I/M) = √(0.08 / 4.0) = √0.02 ≈ 0.1414 m, which matches option B (0.14 m). Options A, C, and D correspond to incorrect calculations or misinterpretations of the relationship.",
+      "difficulty": "medium"
+    }
+  ]
+}

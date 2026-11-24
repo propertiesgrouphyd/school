@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0053",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-276-001",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "Which of the following best defines the moment of inertia of a rigid body about a given axis?",
+      "options": {
+        "A": "Product of its mass and linear velocity.",
+        "B": "Sum of the masses of all particles of the body.",
+        "C": "Sum of each particle's mass multiplied by the square of its perpendicular distance from the axis.",
+        "D": "Force required to start the body rotating."
+      },
+      "correct_option": "C",
+      "answer": "Sum of each particle's mass multiplied by the square of its perpendicular distance from the axis.",
+      "explanation": "Moment of inertia (I) about an axis is defined as I = Σ m_i r_i^2, where m_i is the mass of the i‑th particle and r_i is its perpendicular distance from the axis. Option C states exactly this definition. Options A and D describe unrelated concepts, and B ignores the distance factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-276-002",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two disks have the same mass. Disk A has its mass concentrated near the centre, while Disk B has its mass concentrated near the rim. Which statement is true about their moments of inertia about a central axis?",
+      "options": {
+        "A": "Both disks have equal moments of inertia because their masses are equal.",
+        "B": "Disk A has a larger moment of inertia than Disk B.",
+        "C": "Disk B has a larger moment of inertia than Disk A.",
+        "D": "The moment of inertia depends only on total mass, not on how the mass is distributed."
+      },
+      "correct_option": "C",
+      "answer": "Disk B has a larger moment of inertia than Disk A.",
+      "explanation": "Moment of inertia depends on how far the mass lies from the axis (I = Σ m r^2). When more mass is farther from the axis, I increases. Therefore the disk with mass near the rim (Disk B) has a larger I. Options A and D ignore the distance factor, and B reverses the correct relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-276-003",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "What is the moment of inertia of a solid uniform cylinder of mass M and radius R about its central longitudinal axis?",
+      "options": {
+        "A": "I = (1/2) M R²",
+        "B": "I = (1/3) M R²",
+        "C": "I = (2/5) M R²",
+        "D": "I = M R²"
+      },
+      "correct_option": "A",
+      "answer": "I = (1/2) M R²",
+      "explanation": "For a solid cylinder rotating about its symmetry axis, the standard formula is I = (1/2) M R². Option A gives this expression. Options B and C correspond to a thin rod about its end and a solid sphere, respectively, while D omits the geometrical factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-276-004",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "The radius of gyration k of a body about a given axis is defined as the distance from the axis at which the entire mass of the body could be concentrated to give the same moment of inertia. Which equation correctly relates I, M and k?",
+      "options": {
+        "A": "I = M k",
+        "B": "I = M k²",
+        "C": "I = k / M",
+        "D": "I = M² k"
+      },
+      "correct_option": "B",
+      "answer": "I = M k²",
+      "explanation": "By definition, I = Σ m r² = M k², where k is the radius of gyration. Hence option B is correct. Option A lacks the square, while C and D are dimensionally incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-276-005",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Define moment of inertia",
+      "question": "A thin hoop of mass 2 kg and radius 0.5 m rotates about its central axis. Which of the following statements correctly defines its moment of inertia?",
+      "options": {
+        "A": "I = 2 × (0.5)² = 0.5 kg·m², which is the product of mass and radius.",
+        "B": "I = 2 × (0.5)² = 0.5 kg·m², which is the sum of each mass element times the square of its distance from the axis.",
+        "C": "I = 2 × 0.5 = 1.0 kg·m², which is mass times radius.",
+        "D": "I = (1/2) × 2 × (0.5)² = 0.25 kg·m², which is half the product of mass and radius squared."
+      },
+      "correct_option": "B",
+      "answer": "I = 2 × (0.5)² = 0.5 kg·m², which is the sum of each mass element times the square of its distance from the axis.",
+      "explanation": "For a thin hoop, every mass element lies at the same distance r = 0.5 m from the axis, so I = M r² = 2 × 0.5² = 0.5 kg·m². Option B states this definition correctly. Option A mislabels the expression, C uses an incorrect formula, and D applies the factor for a solid disc, not a hoop.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-276-006",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand dependence on mass distribution",
+      "question": "Two identical rods each have mass 1 kg. Rod A is 2 m long, Rod B is 1 m long. Both are rotated about an axis through one end perpendicular to the length. Which rod has the larger moment of inertia about the axis?",
+      "options": {
+        "A": "Rod A (the longer rod)",
+        "B": "Rod B (the shorter rod)",
+        "C": "Both have the same moment of inertia",
+        "D": "Cannot be determined without knowing the material density"
+      },
+      "correct_option": "A",
+      "answer": "Rod A (the longer rod)",
+      "explanation": "For a thin rod rotating about one end, I = (1/3) M L². With equal mass, the longer rod (L = 2 m) gives I = (1/3) × 1 × 4 = 4/3 kg·m², whereas the shorter rod (L = 1 m) gives I = (1/3) kg·m². Hence Rod A has the larger I. Option D is irrelevant because the formula already accounts for uniform density.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-276-007",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Calculate moment of inertia for standard bodies at the required level",
+      "question": "A solid sphere of mass M and radius R has the correct moment of inertia I = (2/5) M R² about any diameter. A student mistakenly uses I = M R². Which statement best describes the error?",
+      "options": {
+        "A": "She used the correct formula for a solid cylinder instead of a sphere.",
+        "B": "She omitted the factor 2/5, thereby over‑estimating the moment of inertia.",
+        "C": "She confused linear momentum with moment of inertia.",
+        "D": "She used the radius of gyration instead of the actual radius."
+      },
+      "correct_option": "B",
+      "answer": "She omitted the factor 2/5, thereby over‑estimating the moment of inertia.",
+      "explanation": "The correct expression includes the geometrical factor 2/5. By writing I = M R², the student has left out this factor, leading to a value 2.5 times larger than the true I. Option A refers to a cylinder (I = (1/2) M R²), which is also incorrect, but the specific mistake is the missing factor. Options C and D describe unrelated misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-276-008",
+      "learning_unit_id": "LU-01178",
+      "learning_point": "Understand radius of gyration",
+      "question": "A thin circular hoop of radius R and a solid disc of the same radius R have the same mass M. Which statement correctly compares their radii of gyration about a central axis perpendicular to the plane?",
+      "options": {
+        "A": "Both have k = R.",
+        "B": "The hoop has k = R, while the disc has k = R / √2.",
+        "C": "The hoop has k = R / √2, while the disc has k = R.",
+        "D": "Both have k = R / 2."
+      },
+      "correct_option": "B",
+      "answer": "The hoop has k = R, while the disc has k = R / √2.",
+      "explanation": "Radius of gyration k satisfies I = M k². For a hoop, I = M R², giving k = R. For a solid disc, I = (1/2) M R², so k = √(I/M) = √(1/2) R = R / √2. Hence option B is correct. Options A, C, and D give incorrect relationships.",
+      "difficulty": "medium"
+    }
+  ]
+}

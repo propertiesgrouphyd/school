@@ -1,0 +1,78 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "Which of the following statements correctly defines the angular momentum of a particle?",
+      "options": {
+        "A": "L = m v, the product of mass and linear speed.",
+        "B": "L = r × p, the cross‑product of the position vector and linear momentum.",
+        "C": "L = I ω, the product of moment of inertia and angular speed.",
+        "D": "L = τ t, the product of torque and time."
+      },
+      "correct_option": "B",
+      "answer": "L = r × p, the cross‑product of the position vector and linear momentum.",
+      "explanation": "Angular momentum **L** of a particle is defined as the vector product **r × p**, where **r** is the position vector from the chosen origin and **p = m v** is the linear momentum. Option B states this definition exactly. Option A omits the vector nature and cross‑product, Option C is the expression for a rigid body’s angular momentum, and Option D confuses torque with angular momentum.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "A constant external torque τ acts on a rotating rigid body. Which relation correctly connects τ with the body’s angular momentum L?",
+      "options": {
+        "A": "τ = dL/dt",
+        "B": "τ = L/t",
+        "C": "τ = I α, where α is the angular acceleration",
+        "D": "τ = L × ω"
+      },
+      "correct_option": "A",
+      "answer": "τ = dL/dt",
+      "explanation": "Newton’s second law for rotation states that the net external torque on a system equals the time derivative of its angular momentum: **τ = dL/dt**. This directly links torque to the rate of change of angular momentum. Option C is also true (τ = Iα) but it does not explicitly involve L. Options B and D are incorrect formulations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "How does the principle of conservation of angular momentum differ from the principle of conservation of linear momentum?",
+      "options": {
+        "A": "Angular momentum is conserved only when the net external torque is zero, whereas linear momentum is conserved only when the net external force is zero.",
+        "B": "Angular momentum is always conserved regardless of external torques, while linear momentum requires zero net force.",
+        "C": "Linear momentum conservation applies only to rotating bodies, whereas angular momentum applies to translational motion.",
+        "D": "Both are conserved only in closed systems, but angular momentum also requires the moment of inertia to remain constant."
+      },
+      "correct_option": "A",
+      "answer": "Angular momentum is conserved only when the net external torque is zero, whereas linear momentum is conserved only when the net external force is zero.",
+      "explanation": "The conservation laws are analogous: **linear momentum** is conserved when **∑F_ext = 0**, and **angular momentum** is conserved when **∑τ_ext = 0**. Option A states this correctly. Option B incorrectly claims angular momentum is always conserved. Option C reverses the domains of the two quantities. Option D adds an unnecessary condition about moment of inertia; angular momentum can be conserved even if I changes, provided L remains constant.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A figure skater spins with her arms extended at 2 rev s⁻¹. Her moment of inertia in this position is 5 kg·m². When she pulls her arms in, her moment of inertia becomes 2 kg·m². Assuming no external torque, what is her new spin rate?",
+      "options": {
+        "A": "2 rev s⁻¹",
+        "B": "3 rev s⁻¹",
+        "C": "5 rev s⁻¹",
+        "D": "10 rev s⁻¹"
+      },
+      "correct_option": "C",
+      "answer": "5 rev s⁻¹",
+      "explanation": "Conservation of angular momentum gives **I₁ ω₁ = I₂ ω₂**. Initial angular speed ω₁ = 2 rev s⁻¹ = 2 × 2π = 4π rad s⁻¹. Initial angular momentum L = I₁ ω₁ = 5 × 4π = 20π kg·m² s⁻¹. With I₂ = 2 kg·m², the new angular speed ω₂ = L/I₂ = 20π/2 = 10π rad s⁻¹ = (10π)/(2π) = 5 rev s⁻¹. Hence option C is correct. The other options either ignore the change in moment of inertia or misapply the conservation principle.",
+      "difficulty": "hard"
+    }
+  ]
+}
