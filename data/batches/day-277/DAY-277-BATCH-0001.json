@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-277-001",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "What is the correct relationship between the net torque (τ) acting on a rigid body and its angular acceleration (α)?",
+      "options": {
+        "A": "τ = I α",
+        "B": "τ = m α",
+        "C": "τ = I / α",
+        "D": "τ = α / I"
+      },
+      "correct_option": "A",
+      "answer": "τ = I α",
+      "explanation": "Torque is directly proportional to the moment of inertia (I) and the angular acceleration, analogous to F = ma. Hence τ = Iα. Option B mixes linear mass, C and D are algebraically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-277-002",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "Which statement correctly gives the rotational kinetic energy of a rotating rigid body?",
+      "options": {
+        "A": "K_rot = (1/2) I ω²",
+        "B": "K_rot = (1/2) m v²",
+        "C": "K_rot = I ω",
+        "D": "K_rot = (1/2) I α²"
+      },
+      "correct_option": "A",
+      "answer": "K_rot = (1/2) I ω²",
+      "explanation": "Rotational kinetic energy depends on the moment of inertia and the square of angular speed: K = ½ I ω². Option B is the translational form, C lacks the ½ factor, D incorrectly uses angular acceleration.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-277-003",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which equation correctly relates angular displacement (θ), initial angular velocity (ω₀), angular acceleration (α) and time (t) for constant α?",
+      "options": {
+        "A": "θ = ω₀ t + (1/2) α t²",
+        "B": "θ = ω₀ + α t",
+        "C": "θ = (1/2) ω₀ t² + α t",
+        "D": "θ = ω₀ t – (1/2) α t²"
+      },
+      "correct_option": "A",
+      "answer": "θ = ω₀ t + (1/2) α t²",
+      "explanation": "This is the rotational analogue of s = ut + ½at². Options B, C, D are algebraically incorrect or miss the quadratic term.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-277-004",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid cylinder of radius r rolls without slipping down an incline that makes an angle θ with the horizontal. What is its linear acceleration a down the plane?",
+      "options": {
+        "A": "a = g sinθ / (1 + 1/2)",
+        "B": "a = (2/3) g sinθ",
+        "C": "a = (3/4) g sinθ",
+        "D": "a = g sinθ"
+      },
+      "correct_option": "B",
+      "answer": "a = (2/3) g sinθ",
+      "explanation": "For a solid cylinder I = (1/2)mr². Using a = g sinθ / (1 + I/(mr²)) gives a = g sinθ / (1 + 1/2) = (2/3)g sinθ. Option A is algebraically same but less simplified; B is the standard form. C and D ignore rotational inertia.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-277-005",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "A wheel has a moment of inertia of 0.5 kg·m². A constant torque of 2 N·m is applied. What is the angular acceleration of the wheel?",
+      "options": {
+        "A": "4 rad/s²",
+        "B": "2 rad/s²",
+        "C": "0.5 rad/s²",
+        "D": "1 rad/s²"
+      },
+      "correct_option": "A",
+      "answer": "4 rad/s²",
+      "explanation": "Using τ = Iα → α = τ/I = 2 / 0.5 = 4 rad/s². The other options result from incorrect division or omission of the factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-277-006",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A figure skater spins with angular speed 5 rad/s and moment of inertia 2 kg·m². She pulls her arms in, reducing her moment of inertia to 1 kg·m². Assuming no external torque, what is her new angular speed?",
+      "options": {
+        "A": "2.5 rad/s",
+        "B": "5 rad/s",
+        "C": "10 rad/s",
+        "D": "20 rad/s"
+      },
+      "correct_option": "C",
+      "answer": "10 rad/s",
+      "explanation": "Conservation of angular momentum: I₁ω₁ = I₂ω₂ → ω₂ = (I₁/I₂)ω₁ = (2/1)·5 = 10 rad/s. Options A and B ignore the change, D over‑applies the factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-277-007",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following is a common mistake when applying the rotational equation τ = I α?",
+      "options": {
+        "A": "Assuming torque can be zero while angular acceleration is non‑zero",
+        "B": "Forgetting that the moment of inertia depends on the mass distribution",
+        "C": "Using the linear mass of the object instead of its moment of inertia",
+        "D": "All of the above"
+      },
+      "correct_option": "D",
+      "answer": "All of the above",
+      "explanation": "All three statements are typical misconceptions: zero torque cannot produce angular acceleration, I must reflect mass distribution, and using mass instead of I gives wrong results. Hence option D is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-277-008",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A wheel of radius 0.30 m rolls without slipping on a horizontal surface with an angular speed of 10 rad/s. What is the linear speed of its centre?",
+      "options": {
+        "A": "3 m/s",
+        "B": "0.30 m/s",
+        "C": "30 m/s",
+        "D": "0.03 m/s"
+      },
+      "correct_option": "A",
+      "answer": "3 m/s",
+      "explanation": "For pure rolling, v = ω r = 10 rad/s × 0.30 m = 3 m/s. The other options arise from misplaced decimal placement or confusing ω with v.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "LU-01179-MCQ-25",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "A uniform solid disc of mass 2 kg and radius 0.5 m is acted upon by a constant torque of 10 N·m about its central axis. What is the angular acceleration of the disc?",
+      "options": {
+        "A": "20 rad s⁻²",
+        "B": "40 rad s⁻²",
+        "C": "80 rad s⁻²",
+        "D": "10 rad s⁻²"
+      },
+      "correct_option": "B",
+      "answer": "40 rad s⁻²",
+      "explanation": "For a solid disc I = ½ mr² = ½×2×0.5² = 0.25 kg·m². Angular acceleration α = τ/I = 10 N·m / 0.25 kg·m² = 40 rad s⁻². Option B matches this value. The other options arise from arithmetic errors such as forgetting the ½ factor or dividing incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01179-MCQ-26",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A wheel of moment of inertia 0.20 kg·m² rotates at 10 rad s⁻¹. What is its rotational kinetic energy?",
+      "options": {
+        "A": "0.5 J",
+        "B": "1 J",
+        "C": "10 J",
+        "D": "20 J"
+      },
+      "correct_option": "C",
+      "answer": "10 J",
+      "explanation": "Rotational kinetic energy K = ½ I ω² = ½×0.20×(10)² = 0.10×100 = 10 J. Hence option C is correct. Options A and B are ten‑times smaller, and D is twice the correct value, reflecting common mis‑placement of the ½ factor or squaring errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01179-MCQ-27",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following statements is NOT a correct rotational kinematic equation?",
+      "options": {
+        "A": "v = u + at",
+        "B": "ω = ω₀ + αt",
+        "C": "θ = ω₀t + ½αt²",
+        "D": "ω² = ω₀² + 2αθ"
+      },
+      "correct_option": "A",
+      "answer": "v = u + at",
+      "explanation": "The equation v = u + at is a linear (translational) relation; the rotational counterpart uses angular symbols: ω = ω₀ + αt. Options B, C, and D are the correct rotational forms. Selecting A tests the common misconception of directly copying linear formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01179-MCQ-28",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid cylinder of radius R rolls down a smooth incline of angle θ without slipping. What is the ratio of its linear acceleration a to the acceleration due to gravity g?",
+      "options": {
+        "A": "a/g = sinθ",
+        "B": "a/g = (3/2) sinθ",
+        "C": "a/g = (2/3) sinθ",
+        "D": "a/g = (1/2) sinθ"
+      },
+      "correct_option": "C",
+      "answer": "a/g = (2/3) sinθ",
+      "explanation": "For a solid cylinder I = ½ mR². Using a = g sinθ / (1 + I/(mR²)) gives a = g sinθ / (1 + ½) = (2/3) g sinθ. Option C expresses this correctly. Options A, B, D correspond to neglecting rotational inertia or using incorrect I values.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "LU-01179-MCQ-29",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "A constant torque τ is applied to two bodies of identical mass m and radius R: (i) a thin hoop, and (ii) a solid sphere. Which statement about their angular accelerations is correct?",
+      "options": {
+        "A": "Both have the same angular acceleration because τ and the geometry are identical.",
+        "B": "The solid sphere acquires a larger angular acceleration than the thin hoop.",
+        "C": "The thin hoop acquires a larger angular acceleration than the solid sphere.",
+        "D": "Angular acceleration cannot be compared without knowing the exact value of τ."
+      },
+      "correct_option": "B",
+      "answer": "The solid sphere acquires a larger angular acceleration than the thin hoop.",
+      "explanation": "Moment of inertia: thin hoop I₁ = mR², solid sphere I₂ = (2/5)mR². Since α = τ/I, the sphere’s I is smaller, giving a larger α for the same τ. Hence option B is correct. Option A ignores I differences; C reverses the relationship; D is unnecessary because τ cancels when comparing ratios.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01179-MCQ-30",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A solid sphere of mass m rolls without slipping on a horizontal surface with speed v. What fraction of the total kinetic energy is rotational?",
+      "options": {
+        "A": "1/5",
+        "B": "2/7",
+        "C": "3/5",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "answer": "2/7",
+      "explanation": "Rotational KE = ½ I ω² = ½×(2/5)mR²×(v²/R²)= (1/5) m v². Translational KE = ½ m v². Total KE = (1/5 + 1/2) m v² = (7/10) m v². Fraction rotational = (1/5)/(7/10)= (2/7). Option B matches this result. Options A and D are common mis‑calculations that ignore the translational part or use incorrect I values; C is unrelated.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01179-MCQ-31",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which equation correctly relates angular displacement (θ), initial angular velocity (ω₀), angular acceleration (α), and time (t) for constant α?",
+      "options": {
+        "A": "θ = ω₀t + ½αt²",
+        "B": "θ = ω₀ + αt²",
+        "C": "θ = ½(ω₀ + α)t",
+        "D": "θ = ω₀t² + αt"
+      },
+      "correct_option": "A",
+      "answer": "θ = ω₀t + ½αt²",
+      "explanation": "The standard rotational kinematic equation for constant angular acceleration is θ = ω₀t + ½αt², directly analogous to linear motion s = ut + ½at². Option A is the only correct form; the others mix terms incorrectly or miss the factor ½.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01179-MCQ-32",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "When a wheel rolls without slipping on a flat surface, what is the instantaneous velocity of the point of the wheel that is in contact with the ground?",
+      "options": {
+        "A": "It moves forward with the same speed as the centre of mass.",
+        "B": "It moves backward with the same speed as the centre of mass.",
+        "C": "It is at rest relative to the ground.",
+        "D": "Its speed is twice the speed of the centre of mass."
+      },
+      "correct_option": "C",
+      "answer": "It is at rest relative to the ground.",
+      "explanation": "No slipping means the point of contact has zero velocity relative to the ground at each instant; the translational motion of the centre is exactly cancelled by the rotational motion of that point. Hence option C is correct. Options A and B ignore the rotational contribution; D is a common misconception arising from adding speeds instead of vectorially combining them.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-277-17",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "A uniform solid disc of radius R is acted upon by a constant torque τ about its central axis. Which statement about the disc’s angular acceleration α is correct?",
+      "options": {
+        "A": "The angular acceleration increases as the disc’s angular speed increases.",
+        "B": "The angular acceleration remains constant as long as the applied torque is constant.",
+        "C": "The angular acceleration decreases with time because the angular momentum grows.",
+        "D": "The angular acceleration is zero because torque only changes angular velocity, not acceleration."
+      },
+      "correct_option": "B",
+      "answer": "The angular acceleration remains constant as long as the applied torque is constant.",
+      "explanation": "Torque τ and angular acceleration α are related by τ = Iα, where I is the moment of inertia. For a given rigid body, I is constant, so if τ is constant, α = τ/I is also constant, independent of the current angular speed. Option A confuses angular acceleration with angular velocity, option C incorrectly links α to angular momentum, and option D misstates the role of torque.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-277-18",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A solid cylinder and a thin hoop, each of mass M and radius R, rotate about their central axes with the same angular speed ω. Which object possesses the larger rotational kinetic energy?",
+      "options": {
+        "A": "The solid cylinder has greater rotational kinetic energy.",
+        "B": "The thin hoop has greater rotational kinetic energy.",
+        "C": "Both have the same rotational kinetic energy.",
+        "D": "It depends on how the mass is distributed; cannot be decided."
+      },
+      "correct_option": "B",
+      "answer": "The thin hoop has greater rotational kinetic energy.",
+      "explanation": "Rotational kinetic energy is K = ½ I ω². For a solid cylinder I = (1/2)MR², while for a thin hoop I = MR². With identical ω, the hoop’s larger moment of inertia gives a larger K. Hence option B is correct; options A and C ignore the difference in I, and D is unnecessary because the values are known.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-277-19",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following pairs is NOT a correct rotational analogue of the given translational equation?",
+      "options": {
+        "A": "v = u + at ↔ ω = ω₀ + αt",
+        "B": "s = ut + ½ at² ↔ θ = ω₀ t + ½ α t²",
+        "C": "v² = u² + 2as ↔ ω² = ω₀² + 2αθ",
+        "D": "v = u + (½)at ↔ ω = ω₀ + (½)αt"
+      },
+      "correct_option": "D",
+      "answer": "v = u + (½)at ↔ ω = ω₀ + (½)αt",
+      "explanation": "The standard translational kinematic equations have direct rotational counterparts: v = u + at ↔ ω = ω₀ + αt, s = ut + ½ at² ↔ θ = ω₀ t + ½ α t², and v² = u² + 2as ↔ ω² = ω₀² + 2αθ. There is no translational equation v = u + (½)at, so its rotational version is also invalid, making option D the incorrect analogue.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-277-20",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid sphere of radius r rolls without slipping down an incline that makes an angle θ with the horizontal. What is the linear acceleration a of the sphere’s centre of mass?",
+      "options": {
+        "A": "g sin θ",
+        "B": "(5/7) g sin θ",
+        "C": "(2/3) g sin θ",
+        "D": "(7/5) g sin θ"
+      },
+      "correct_option": "B",
+      "answer": "(5/7) g sin θ",
+      "explanation": "For rolling without slipping, a = g sinθ / (1 + I/(mr²)). For a solid sphere I = (2/5)mr², so a = g sinθ / (1 + 2/5) = (5/7) g sinθ. Option B matches this result. Option A ignores rotational inertia, while C and D arise from incorrect algebra.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-277-21",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "Which equation correctly relates the torque τ acting on a rigid body to its angular acceleration α?",
+      "options": {
+        "A": "τ = I α",
+        "B": "τ = m α",
+        "C": "τ = I / α",
+        "D": "τ = α / I"
+      },
+      "correct_option": "A",
+      "answer": "τ = I α",
+      "explanation": "The rotational analogue of Newton’s second law is τ = Iα, where I is the moment of inertia. Options B, C, and D misuse mass or invert the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-277-22",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "The rotational kinetic energy K_rot of a rotating rigid body is given by:",
+      "options": {
+        "A": "K_rot = ½ I ω²",
+        "B": "K_rot = I ω",
+        "C": "K_rot = ½ m v²",
+        "D": "K_rot = I α²"
+      },
+      "correct_option": "A",
+      "answer": "K_rot = ½ I ω²",
+      "explanation": "Rotational kinetic energy depends on the moment of inertia I and the square of angular speed ω: K = ½ I ω². Option B lacks the factor ½ and ω should be squared; option C is the translational form; option D incorrectly uses angular acceleration.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-277-23",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which statement correctly distinguishes angular displacement θ from angular velocity ω?",
+      "options": {
+        "A": "Angular displacement θ is measured in radians, whereas angular velocity ω is measured in radians per second.",
+        "B": "Angular displacement θ is a vector quantity, while angular velocity ω is a scalar.",
+        "C": "Angular displacement θ is the rate of change of angular velocity ω.",
+        "D": "Angular velocity ω is the integral of angular displacement θ over time."
+      },
+      "correct_option": "A",
+      "answer": "Angular displacement θ is measured in radians, whereas angular velocity ω is measured in radians per second.",
+      "explanation": "θ represents the amount of rotation (unit: rad). ω = dθ/dt, so its unit is rad s⁻¹. Option B is wrong because both are vectors (direction along the axis). Option C reverses the relationship, and option D incorrectly states the integral direction.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-277-24",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A cylinder of radius 0.5 m rolls without slipping down a smooth incline. If its centre moves 2 m along the slope, what is the angular displacement of the cylinder in radians?",
+      "options": {
+        "A": "4 rad",
+        "B": "2 rad",
+        "C": "8 rad",
+        "D": "1 rad"
+      },
+      "correct_option": "A",
+      "answer": "4 rad",
+      "explanation": "For pure rolling, linear displacement s = r θ. Hence θ = s / r = 2 m / 0.5 m = 4 rad. Options B, C, and D result from incorrect division or multiplication.",
+      "difficulty": "easy"
+    }
+  ]
+}

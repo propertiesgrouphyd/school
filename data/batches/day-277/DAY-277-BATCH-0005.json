@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "Which of the following statements correctly relates the net external torque \\(\\tau\\) on a rigid body rotating about a fixed axis to its angular acceleration \\(\\alpha\\)?",
+      "options": {
+        "A": "\\(\\tau = I \\alpha\\)",
+        "B": "\\(\\tau = m r \\times a\\)",
+        "C": "\\(\\tau = \\frac{1}{2} I \\omega^{2}\\)",
+        "D": "\\(\\tau = I \\omega\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\tau = I \\alpha\\)",
+      "explanation": "The rotational analogue of Newton's second law is \\(\\tau = I\\alpha\\), where \\(I\\) is the moment of inertia about the axis of rotation. Option B mixes linear quantities, C is the expression for rotational kinetic energy, and D is dimensionally incorrect. Hence A is the only correct relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A solid disc of mass 2 kg and radius 0.5 m rotates at 10 rad s⁻¹. What is its rotational kinetic energy?",
+      "options": {
+        "A": "12.5 J",
+        "B": "25 J",
+        "C": "6.25 J",
+        "D": "50 J"
+      },
+      "correct_option": "A",
+      "answer": "12.5 J",
+      "explanation": "For a solid disc, \\(I=\\frac{1}{2}mr^{2}=\\frac{1}{2}(2)(0.5)^{2}=0.25\\,\\text{kg·m}^{2}\\). Rotational kinetic energy \\(K=\\frac{1}{2}I\\omega^{2}=\\frac{1}{2}(0.25)(10)^{2}=12.5\\,\\text{J}\\). The other options result from incorrect use of the formula or arithmetic errors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "A wheel starts from rest and rotates with a constant angular acceleration of 2 rad s⁻². What angular displacement does it cover in the first 5 s?",
+      "options": {
+        "A": "20 rad",
+        "B": "25 rad",
+        "C": "30 rad",
+        "D": "35 rad"
+      },
+      "correct_option": "B",
+      "answer": "25 rad",
+      "explanation": "Using \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\) with \\(\\omega_{0}=0\\), \\(\\theta = \\frac{1}{2}(2)(5)^{2}=\\frac{1}{2}\\times2\\times25=25\\,\\text{rad}\\). Options A, C and D arise from using wrong coefficients or forgetting the ½ factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid cylinder rolls without slipping down a smooth incline that makes an angle of 30° with the horizontal. What is its linear acceleration down the plane?",
+      "options": {
+        "A": "\\(\\frac{2}{3}g\\sin30^{\\circ}\\)",
+        "B": "\\(\\frac{1}{2}g\\sin30^{\\circ}\\)",
+        "C": "\\(\\frac{3}{4}g\\sin30^{\\circ}\\)",
+        "D": "\\(g\\sin30^{\\circ}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{2}{3}g\\sin30^{\\circ}\\)",
+      "explanation": "For a solid cylinder, \\(I=\\frac{1}{2}mR^{2}\\). The acceleration is \\(a=\\frac{g\\sin\\theta}{1+I/(mR^{2})}=\\frac{g\\sin\\theta}{1+1/2}=\\frac{2}{3}g\\sin\\theta\\). With \\(\\theta=30^{\\circ}\\) this gives the expression in option A. The other options ignore the rotational inertia contribution.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "Which of the following statements about torque and angular acceleration is **incorrect**?",
+      "options": {
+        "A": "The net torque on a body is equal to the product of its moment of inertia and angular acceleration.",
+        "B": "A larger applied torque produces a larger angular acceleration, all else being equal.",
+        "C": "Torque depends directly on the angular velocity of the rotating body.",
+        "D": "If the net external torque is zero, the angular acceleration is zero."
+      },
+      "correct_option": "C",
+      "answer": "Torque depends directly on the angular velocity of the rotating body.",
+      "explanation": "Torque is related to angular acceleration, not angular velocity. Statement C confuses the role of torque; it should involve \\(\\tau = I\\alpha\\). Statements A, B and D correctly describe the relationship between torque and angular acceleration.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "Two disks rotate at the same angular speed \\(\\omega\\). Disk A is a solid disk (\\(I_A=\\frac{1}{2}mR^{2}\\)). Disk B is a thin hoop (\\(I_B=mR^{2}\\)). Which statement is true about their rotational kinetic energies?",
+      "options": {
+        "A": "Both have the same rotational kinetic energy because they share the same \\(\\omega\\).",
+        "B": "Disk A has greater rotational kinetic energy because its mass is concentrated nearer the axis.",
+        "C": "Disk B has greater rotational kinetic energy because its moment of inertia is larger.",
+        "D": "Rotational kinetic energy depends only on mass, so they are equal."
+      },
+      "correct_option": "C",
+      "answer": "Disk B has greater rotational kinetic energy because its moment of inertia is larger.",
+      "explanation": "Rotational kinetic energy \\(K=\\frac{1}{2}I\\omega^{2}\\). With identical \\(\\omega\\), the disk with larger moment of inertia (the hoop, \\(I_B=mR^{2}\\)) possesses greater kinetic energy. Options A and D ignore the role of \\(I\\); B incorrectly assumes mass distribution reduces energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following statements correctly compares translational and rotational kinematic equations?",
+      "options": {
+        "A": "The rotational analogue of Newton’s second law \\(F=ma\\) is \\(\\tau = I\\alpha\\).",
+        "B": "The translational equation \\(v = u + at\\) has no rotational counterpart.",
+        "C": "The rotational equation \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\) is unrelated to any translational equation.",
+        "D": "The translational equation \\(s = ut + \\frac{1}{2}at^{2}\\) is identical to the rotational equation \\(\\omega = \\omega_{0} + \\alpha t\\)."
+      },
+      "correct_option": "A",
+      "answer": "The rotational analogue of Newton’s second law \\(F=ma\\) is \\(\\tau = I\\alpha\\).",
+      "explanation": "Option A correctly identifies the rotational counterpart of Newton’s second law. Options B, C, and D are false: the rotational analogue of \\(v = u + at\\) is \\(\\omega = \\omega_{0} + \\alpha t\\); the rotational displacement equation mirrors the translational one; and \\(s = ut + \\frac{1}{2}at^{2}\\) corresponds to \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid sphere of mass \\(m\\) and radius \\(R\\) rolls down a smooth incline that makes an angle of 30° with the horizontal without slipping. What is the minimum coefficient of static friction \\(\\mu_{min}\\) required to prevent slipping?",
+      "options": {
+        "A": "\\(\\frac{2}{7}\\tan30^{\\circ}\\)",
+        "B": "\\(\\frac{1}{3}\\tan30^{\\circ}\\)",
+        "C": "\\(\\frac{2}{5}\\tan30^{\\circ}\\)",
+        "D": "\\(\\frac{5}{7}\\tan30^{\\circ}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\frac{2}{7}\\tan30^{\\circ}\\)",
+      "explanation": "For a solid sphere, \\(I=\\frac{2}{5}mR^{2}\\). The linear acceleration is \\(a=\\frac{g\\sin\\theta}{1+I/(mR^{2})}=\\frac{5}{7}g\\sin\\theta\\). The required static friction is \\(f=m g\\sin\\theta - m a = \\frac{2}{7}m g\\sin\\theta\\). Setting \\(f \\le \\mu m g\\cos\\theta\\) gives \\(\\mu_{min}=\\frac{2}{7}\\tan\\theta\\). With \\(\\theta=30^{\\circ}\\) the expression matches option A. The other options arise from incorrect algebraic manipulation.",
+      "difficulty": "hard"
+    }
+  ]
+}
