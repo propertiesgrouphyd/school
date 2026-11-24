@@ -1,0 +1,150 @@
+{
+  "day": 276,
+  "batch_id": "DAY-276-BATCH-0042",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "Which of the following statements correctly defines angular momentum of a particle?",
+      "options": {
+        "A": "It is the product of the particle's mass and its linear speed.",
+        "B": "It is the vector product of the particle's position vector (r) and its linear momentum (p).",
+        "C": "It is the scalar product of the particle's velocity and the torque acting on it.",
+        "D": "It is the rate at which the particle's kinetic energy changes with time."
+      },
+      "correct_option": "B",
+      "answer": "It is the vector product of the particle's position vector (r) and its linear momentum (p).",
+      "explanation": "Angular momentum \\(\\mathbf{L}\\) of a particle is defined as \\(\\mathbf{L}=\\mathbf{r}\\times\\mathbf{p}\\), where \\(\\mathbf{r}\\) is the position vector from the chosen origin and \\(\\mathbf{p}=m\\mathbf{v}\\) is the linear momentum. Option A describes linear momentum, C confuses with power, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "A constant external torque \\(\\tau\\) is applied to a rotating disc. Which equation correctly relates the torque to the disc's angular momentum \\(L\\)?",
+      "options": {
+        "A": "\\(\\tau = \\dfrac{dL}{dt}\\)",
+        "B": "\\(\\tau = L \\times t\\)",
+        "C": "\\(\\tau = I \\alpha\\) only when \\(I\\) is constant",
+        "D": "\\(\\tau = \\dfrac{L}{t}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\tau = \\dfrac{dL}{dt}\\)",
+      "explanation": "The rotational analogue of Newton's second law states that the net external torque equals the time rate of change of angular momentum: \\(\\tau = dL/dt\\). Option C is a special case (when \\(I\\) is constant, \\(\\tau = I\\alpha\\) and \\(L = I\\omega\\)), but the most general relation is option A. Options B and D are dimensionally incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "Two systems are described below. In which system is angular momentum definitely conserved?",
+      "options": {
+        "A": "A figure skater spinning with arms extended, then pulling them in while no external torque acts.",
+        "B": "A rotating merry‑go‑round that is being pushed by a child at its rim.",
+        "C": "A planet orbiting the Sun while experiencing a constant solar wind force.",
+        "D": "A spinning top that gradually slows down due to friction with the table."
+      },
+      "correct_option": "A",
+      "answer": "A figure skater spinning with arms extended, then pulling them in while no external torque acts.",
+      "explanation": "Angular momentum is conserved only when the net external torque on the system is zero. In option A, the skater is an isolated system with no external torque, so \\(L\\) is conserved. Options B, C, and D involve external torques (push, solar wind, friction) that change the angular momentum.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A turntable has a moment of inertia \\(I_1 = 2.0\\,\\text{kg·m}^2\\) and rotates at \\(\\omega_1 = 3.0\\,\\text{rad s}^{-1}\\). A small mass \\(m = 0.5\\,\\text{kg}\\) is gently placed on the turntable at a distance \\(r = 0.5\\,\\text{m}\\) from the axis and sticks to it. Assuming no external torque, what is the final angular speed of the combined system?",
+      "options": {
+        "A": "2.12 rad s⁻¹",
+        "B": "2.82 rad s⁻¹",
+        "C": "3.00 rad s⁻¹",
+        "D": "3.50 rad s⁻¹"
+      },
+      "correct_option": "B",
+      "answer": "2.82 rad s⁻¹",
+      "explanation": "Initial angular momentum: \\(L_i = I_1\\omega_1 = 2.0 \\times 3.0 = 6.0\\,\\text{kg·m}^2\\text{s}^{-1}\\). After the mass sticks, the new moment of inertia is \\(I_2 = I_1 + mr^2 = 2.0 + 0.5\\times0.5^2 = 2.0 + 0.125 = 2.125\\,\\text{kg·m}^2\\). Conserving angular momentum, \\(\\omega_2 = L_i / I_2 = 6.0 / 2.125 \\approx 2.8235\\,\\text{rad s}^{-1}\\), which matches option B (2.82 rad s⁻¹). The other options either ignore the added inertia or use incorrect arithmetic.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Define angular momentum",
+      "question": "What is the definition of angular momentum for a particle moving in a plane about a fixed origin?",
+      "options": {
+        "A": "Mass multiplied by linear speed.",
+        "B": "The product of the particle's speed and the radius of its circular path.",
+        "C": "The vector product of the position vector and the linear momentum vector.",
+        "D": "The scalar product of torque and angular displacement."
+      },
+      "correct_option": "C",
+      "answer": "The vector product of the position vector and the linear momentum vector.",
+      "explanation": "Angular momentum \\(\\mathbf{L}\\) is defined as \\(\\mathbf{L}=\\mathbf{r}\\times\\mathbf{p}\\), where \\(\\mathbf{r}\\) is the position vector from the origin and \\(\\mathbf{p}=m\\mathbf{v}\\) is the linear momentum. This definition captures both magnitude and direction (perpendicular to the plane of motion). Options A and B describe linear momentum and speed, while D confuses torque with work.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Relate torque to rate of change of angular momentum",
+      "question": "Which equation correctly expresses the relationship between external torque \\(\\tau\\) and the angular momentum \\(L\\) of a rigid body?",
+      "options": {
+        "A": "\\(\\tau = \\dfrac{dL}{dt}\\)",
+        "B": "\\(\\tau = L \\times t\\)",
+        "C": "\\(\\tau = \\dfrac{L}{t}\\)",
+        "D": "\\(\\tau = I \\omega\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\tau = \\dfrac{dL}{dt}\\)",
+      "explanation": "The fundamental rotational dynamics law states that the net external torque equals the time derivative of angular momentum: \\(\\tau = dL/dt\\). Option D is the expression for angular momentum itself (\\(L = I\\omega\\)), not its rate of change. Options B and C are dimensionally incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Understand conservation of angular momentum",
+      "question": "How does the principle of conservation of angular momentum differ from the statement that an object's angular velocity remains constant?",
+      "options": {
+        "A": "Conservation of angular momentum requires zero external torque, while constant angular velocity can occur even with external torques.",
+        "B": "Conservation of angular momentum applies only to point particles, whereas constant angular velocity applies to rigid bodies.",
+        "C": "Conservation of angular momentum deals with linear motion, while constant angular velocity deals with rotational motion.",
+        "D": "They are the same statement expressed in different words."
+      },
+      "correct_option": "A",
+      "answer": "Conservation of angular momentum requires zero external torque, while constant angular velocity can occur even with external torques.",
+      "explanation": "Angular momentum is conserved only when the net external torque on the system is zero. An object can have constant angular velocity if the net torque is zero *or* if the torque is balanced by a change in moment of inertia (e.g., a skater pulling in arms). Thus, option A correctly distinguishes the two concepts. Options B, C, and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01177",
+      "learning_point": "Apply angular-momentum conservation to simple systems",
+      "question": "A figure skater initially rotates with her arms extended, having a moment of inertia \\(I_i = 4.0\\,\\text{kg·m}^2\\) and angular speed \\(\\omega_i = 2.0\\,\\text{rad s}^{-1}\\). She pulls her arms in, reducing her moment of inertia to \\(I_f = 2.0\\,\\text{kg·m}^2\\). Assuming no external torque, what is her final angular speed?",
+      "options": {
+        "A": "1.0 rad s⁻¹",
+        "B": "2.0 rad s⁻¹",
+        "C": "4.0 rad s⁻¹",
+        "D": "8.0 rad s⁻¹"
+      },
+      "correct_option": "C",
+      "answer": "4.0 rad s⁻¹",
+      "explanation": "Conserve angular momentum: \\(L_i = I_i\\omega_i = 4.0 \\times 2.0 = 8.0\\,\\text{kg·m}^2\\text{s}^{-1}\\). After pulling in her arms, \\(L_f = I_f\\omega_f\\) must equal \\(L_i\\). Thus \\(\\omega_f = L_i / I_f = 8.0 / 2.0 = 4.0\\,\\text{rad s}^{-1}\\). Option C is correct. Options A and B underestimate the speed, and D would imply angular momentum doubled, which violates conservation.",
+      "difficulty": "easy"
+    }
+  ]
+}
