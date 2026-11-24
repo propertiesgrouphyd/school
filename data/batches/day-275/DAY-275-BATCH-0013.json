@@ -1,0 +1,78 @@
+{
+  "day": 275,
+  "batch_id": "DAY-275-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01168-97",
+      "learning_unit_id": "LU-01168",
+      "learning_point": "Define kinetic energy",
+      "question": "Which of the following statements correctly defines kinetic energy of a body?",
+      "options": {
+        "A": "The energy possessed by a body due to its motion, given by (1/2)mv².",
+        "B": "The energy stored in a compressed spring.",
+        "C": "The energy associated with the position of a body in a gravitational field.",
+        "D": "The energy required to start a body moving from rest."
+      },
+      "correct_option": "A",
+      "answer": "The energy possessed by a body due to its motion, given by (1/2)mv².",
+      "explanation": "Kinetic energy is the energy a body has because it is moving. For a particle of mass m moving with speed v, the kinetic energy is K = ½ mv². Option B describes elastic potential energy, C describes gravitational potential energy, and D confuses kinetic energy with the concept of work needed to set the body in motion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01168-98",
+      "learning_unit_id": "LU-01168",
+      "learning_point": "Derive K = 1/2 mv²",
+      "question": "A constant horizontal force F accelerates a mass m from rest to a speed v over a distance s. Using the work‑energy theorem, which of the following steps correctly leads to the expression K = ½ mv²?",
+      "options": {
+        "A": "Work done = F s = ½ mv², because s = v²/(2a) and a = F/m.",
+        "B": "Work done = F s = mv, because force times distance equals momentum.",
+        "C": "Work done = F t = ½ mv², because time t = v/a.",
+        "D": "Work done = m a s = ½ mv², because acceleration a = v/s."
+      },
+      "correct_option": "A",
+      "answer": "Work done = F s = ½ mv², because s = v²/(2a) and a = F/m.",
+      "explanation": "The work done by a constant force is W = F s. From Newton’s second law, a = F/m. Using the kinematic relation s = v²/(2a) for motion from rest, substitute a and s into W: W = F·(v²/2a) = (ma)·(v²/2a) = ½ mv². This equals the kinetic energy. Options B, C, and D misuse the definitions of work or kinematic relations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "LU-01168-99",
+      "learning_unit_id": "LU-01168",
+      "learning_point": "Calculate kinetic energy",
+      "question": "Object A (mass 2 kg) moves at 5 m/s, while Object B (mass 3 kg) moves at 4 m/s. Which object has the larger kinetic energy?",
+      "options": {
+        "A": "Object A, because its speed is higher.",
+        "B": "Object B, because its mass is larger.",
+        "C": "Object A, because (1/2)(2)(5)² = 25 J, which is greater than Object B's kinetic energy.",
+        "D": "Both have the same kinetic energy."
+      },
+      "correct_option": "C",
+      "answer": "Object A, because (1/2)(2)(5)² = 25 J, which is greater than Object B's kinetic energy.",
+      "explanation": "Kinetic energy K = ½ mv². For Object A: K_A = ½·2·5² = 25 J. For Object B: K_B = ½·3·4² = 24 J. Hence Object A has the larger kinetic energy. Option A is incomplete (speed alone does not decide KE), B is similarly incomplete, and D is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01168-100",
+      "learning_unit_id": "LU-01168",
+      "learning_point": "Relate work to change in kinetic energy",
+      "question": "A particle of mass 0.5 kg moves along a straight line under a variable force F(x) = 4x N, where x is measured in meters from the origin. The particle starts from rest at x = 0 and moves to x = 3 m. What is the change in its kinetic energy?",
+      "options": {
+        "A": "12 J",
+        "B": "18 J",
+        "C": "24 J",
+        "D": "30 J"
+      },
+      "correct_option": "B",
+      "answer": "18 J",
+      "explanation": "Work done by a variable force is the integral of F·dx. W = ∫₀³ 4x dx = 4·(½x²)│₀³ = 2·9 = 18 J. By the work‑energy theorem, the work done equals the change in kinetic energy (ΔK = W). Hence ΔK = 18 J. The other options correspond to incorrect evaluations of the integral.",
+      "difficulty": "hard"
+    }
+  ]
+}
