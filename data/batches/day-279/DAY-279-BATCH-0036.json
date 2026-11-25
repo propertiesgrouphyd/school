@@ -1,0 +1,150 @@
+{
+  "day": 279,
+  "batch_id": "DAY-279-BATCH-0036",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand atmospheric pressure",
+      "question": "Which of the following statements correctly defines atmospheric pressure and distinguishes it from gauge pressure?",
+      "options": {
+        "A": "Atmospheric pressure is the pressure exerted by the weight of the Earth's atmosphere at sea level, about 101.3 kPa; gauge pressure is the pressure measured relative to atmospheric pressure.",
+        "B": "Atmospheric pressure is the pressure measured relative to vacuum; gauge pressure is the pressure exerted by the atmosphere on a surface.",
+        "C": "Atmospheric pressure is always zero at sea level; gauge pressure is the absolute pressure of a fluid.",
+        "D": "Atmospheric pressure varies only with temperature; gauge pressure varies only with depth."
+      },
+      "correct_option": "A",
+      "answer": "Atmospheric pressure is the pressure exerted by the weight of the Earth's atmosphere at sea level, about 101.3 kPa; gauge pressure is the pressure measured relative to atmospheric pressure.",
+      "explanation": "Atmospheric pressure is the weight of the air column above a unit area at a given location, roughly 101.3 kPa at sea level. Gauge pressure is the difference between the absolute pressure and atmospheric pressure, i.e., it tells how much pressure exceeds (or falls below) atmospheric pressure. Options B, C, and D contain incorrect definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand pressure variation with depth",
+      "question": "A diver descends 20 m below the surface of freshwater (density = 1000 kg·m⁻³). Ignoring atmospheric pressure, what is the increase in pressure due to the water column?",
+      "options": {
+        "A": "0.196 kPa",
+        "B": "1.96 kPa",
+        "C": "19.6 kPa",
+        "D": "196 kPa"
+      },
+      "correct_option": "D",
+      "answer": "196 kPa",
+      "explanation": "Pressure increase in a fluid is given by ρgh. Here ρ = 1000 kg·m⁻³, g = 9.8 m·s⁻², h = 20 m. So ΔP = 1000 × 9.8 × 20 = 196,000 Pa = 196 kPa. Options A‑C are off by factors of 10, 100, and 10 respectively.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Apply pressure concepts to fluids",
+      "question": "In a hydraulic press, a small piston of area 0.01 m² is pushed with a force of 500 N. If the large piston has an area of 0.5 m², what maximum force can the large piston lift (assume an ideal fluid)?",
+      "options": {
+        "A": "2,500 N",
+        "B": "25,000 N",
+        "C": "5,000 N",
+        "D": "500 N"
+      },
+      "correct_option": "B",
+      "answer": "25,000 N",
+      "explanation": "Pascal’s principle: pressure is transmitted unchanged. Pressure on small piston = F₁/A₁ = 500 N / 0.01 m² = 50,000 Pa. The same pressure acts on the large piston, so F₂ = P × A₂ = 50,000 Pa × 0.5 m² = 25,000 N. Options A, C, and D result from incorrect area ratios.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Define pressure",
+      "question": "A student of mass 60 kg stands on a flat floor with both feet together covering an area of 0.02 m². What pressure does the student exert on the floor?",
+      "options": {
+        "A": "2.94 × 10⁵ Pa",
+        "B": "2.94 × 10⁴ Pa",
+        "C": "5.88 × 10⁵ Pa",
+        "D": "1.47 × 10⁵ Pa"
+      },
+      "correct_option": "A",
+      "answer": "2.94 × 10⁵ Pa",
+      "explanation": "Pressure = Force/Area = (mg)/A = (60 kg × 9.8 m·s⁻²) / 0.02 m² = 588 N / 0.02 m² = 29,400 Pa = 2.94 × 10⁵ Pa. Option B is ten times smaller, C is double, D is half of the correct value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Calculate pressure",
+      "question": "Two pressure sensors are placed at the same depth of 5 m in a water tank. Sensor A has an opening area of 1 cm² and Sensor B has an opening area of 10 cm². Which sensor records a higher pressure?",
+      "options": {
+        "A": "Sensor A records a higher pressure",
+        "B": "Sensor B records a higher pressure",
+        "C": "Both sensors record the same pressure",
+        "D": "Neither sensor records any pressure"
+      },
+      "correct_option": "C",
+      "answer": "Both sensors record the same pressure",
+      "explanation": "In a fluid at rest, pressure at a given depth depends only on the depth (ρgh) and not on the area of the surface. Therefore both sensors read the same pressure. Options A and B reflect the common misconception that larger area means larger pressure, which is false. Option D is nonsensical.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand atmospheric pressure",
+      "question": "A mercury barometer at sea level shows a height of 760 mm. If atmospheric pressure increases by 10% while temperature remains constant, what will be the new height of the mercury column?",
+      "options": {
+        "A": "770 mm",
+        "B": "836 mm",
+        "C": "800 mm",
+        "D": "900 mm"
+      },
+      "correct_option": "B",
+      "answer": "836 mm",
+      "explanation": "Barometer height is directly proportional to atmospheric pressure (P = ρgh). A 10% increase in pressure raises the height by 10%: 760 mm × 1.10 = 836 mm. Options A, C, and D correspond to smaller or larger changes that do not match the 10% increase.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand pressure variation with depth",
+      "question": "Two vertical columns each 10 m deep are filled with different fluids: Column A contains water (ρ = 1000 kg·m⁻³) and Column B contains oil (ρ = 800 kg·m⁻³). Ignoring atmospheric pressure, which column exerts a larger pressure at its bottom?",
+      "options": {
+        "A": "Column A (water)",
+        "B": "Column B (oil)",
+        "C": "Both columns exert the same pressure",
+        "D": "Cannot be determined without temperature information"
+      },
+      "correct_option": "A",
+      "answer": "Column A (water)",
+      "explanation": "Pressure due to a fluid column is ρgh. With the same depth (h = 10 m) and g constant, the larger density gives larger pressure. Water’s density (1000 kg·m⁻³) > oil’s (800 kg·m⁻³), so Column A has higher pressure. Option C ignores density, and D is irrelevant because temperature does not affect hydrostatic pressure in this context.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Apply pressure concepts to fluids",
+      "question": "A tank holds water (ρ = 1000 kg·m⁻³) up to a height of 6 m. The atmospheric pressure is 1.01 × 10⁵ Pa. What is the absolute pressure at the bottom of the tank?",
+      "options": {
+        "A": "1.01 × 10⁵ Pa",
+        "B": "1.60 × 10⁵ Pa",
+        "C": "2.10 × 10⁵ Pa",
+        "D": "2.58 × 10⁵ Pa"
+      },
+      "correct_option": "B",
+      "answer": "1.60 × 10⁵ Pa",
+      "explanation": "Absolute pressure = atmospheric pressure + hydrostatic pressure. Hydrostatic pressure = ρgh = 1000 × 9.8 × 6 = 58,800 Pa ≈ 5.88 × 10⁴ Pa. Adding atmospheric pressure: 1.01 × 10⁵ Pa + 5.88 × 10⁴ Pa = 1.598 × 10⁵ Pa ≈ 1.60 × 10⁵ Pa. Options A omits the fluid contribution, C and D are too large.",
+      "difficulty": "hard"
+    }
+  ]
+}

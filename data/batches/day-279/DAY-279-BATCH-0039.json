@@ -1,0 +1,78 @@
+{
+  "day": 279,
+  "batch_id": "DAY-279-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-279-97",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Calculate pressure",
+      "question": "A piston of area 2.0 cm² pushes down on water with a force of 10 N. A student argues that the pressure exerted depends only on the depth of water, not on the piston area. Which of the following calculations gives the correct pressure exerted by the piston?",
+      "options": {
+        "A": "P = 10 N ÷ 2.0×10⁻⁴ m² = 5.0×10⁴ Pa",
+        "B": "P = 10 N × 2.0×10⁻⁴ m² = 2.0×10⁻³ Pa",
+        "C": "P = 2.0 cm² ÷ 10 N = 0.2 Pa",
+        "D": "P = 10 N (depth does not matter)"
+      },
+      "correct_option": "A",
+      "answer": "P = 10 N ÷ 2.0×10⁻⁴ m² = 5.0×10⁴ Pa",
+      "explanation": "Pressure is defined as force per unit area (P = F/A). The piston area must be converted to square metres: 2.0 cm² = 2.0×10⁻⁴ m². Hence P = 10 N / 2.0×10⁻⁴ m² = 5.0×10⁴ Pa. Options B and C misuse the formula, and D ignores the definition of pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-279-98",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand atmospheric pressure",
+      "question": "A sealed, empty glass bottle rests on a table. Despite atmospheric pressure acting on its outer surface, the bottle does not collapse. Which statement best explains this observation?",
+      "options": {
+        "A": "Atmospheric pressure acts equally on all surfaces of the bottle, producing no net compressive force.",
+        "B": "The glass material is immune to pressure because it is a solid.",
+        "C": "Atmospheric pressure only acts on horizontal surfaces, not on vertical walls.",
+        "D": "The bottle contains a vacuum that counteracts atmospheric pressure."
+      },
+      "correct_option": "A",
+      "answer": "Atmospheric pressure acts equally on all surfaces of the bottle, producing no net compressive force.",
+      "explanation": "Atmospheric pressure exerts a force of about 1.01×10⁵ Pa on every part of the bottle’s surface. Since the forces on opposite sides are equal and opposite, the resultant net force is zero, so the bottle does not collapse. Option B is incorrect because solids still experience pressure. Option C misstates the direction of pressure, and D is false for an empty sealed bottle.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-279-99",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand pressure variation with depth",
+      "question": "Two vertical columns are open to the atmosphere. Column A contains water (density 1000 kg·m⁻³) and is 6 m high. Column B contains oil (density 800 kg·m⁻³) and is 8 m high. Which column exerts the greater pressure at its base?",
+      "options": {
+        "A": "Column A, because water is denser than oil.",
+        "B": "Column B, because its height is greater despite lower density.",
+        "C": "Both columns exert the same pressure because they are open to the same atmosphere.",
+        "D": "Neither column exerts pressure at the base; only the atmosphere does."
+      },
+      "correct_option": "B",
+      "answer": "Column B, because its height is greater despite lower density.",
+      "explanation": "Pressure at a depth h in a fluid is P = P₀ + ρgh. For column A: ΔP = 1000×9.8×6 = 5.88×10⁴ Pa. For column B: ΔP = 800×9.8×8 = 6.272×10⁴ Pa. The oil column, though less dense, is taller, giving a larger ρgh term, so it exerts greater pressure at its base. Option A ignores the height factor, C ignores fluid weight, and D is incorrect because fluids add to atmospheric pressure.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-279-100",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Apply pressure concepts to fluids",
+      "question": "A hydraulic press has a small piston of area 1.0×10⁻³ m² on which a force of 500 N is applied. The large piston has an area of 2.0×10⁻² m². Assuming the fluid is incompressible and there is no loss, what is the maximum load that can be lifted by the large piston?",
+      "options": {
+        "A": "10 N",
+        "B": "500 N",
+        "C": "10 000 N",
+        "D": "100 000 N"
+      },
+      "correct_option": "C",
+      "answer": "10 000 N",
+      "explanation": "Pascal’s principle states that pressure is transmitted unchanged: F₁/A₁ = F₂/A₂. Hence F₂ = F₁·(A₂/A₁) = 500 N × (2.0×10⁻² m² / 1.0×10⁻³ m²) = 500 N × 20 = 10 000 N. Option A uses the inverse ratio, B ignores area change, and D overestimates by a factor of ten.",
+      "difficulty": "hard"
+    }
+  ]
+}
