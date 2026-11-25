@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0043",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "A point in a gravitational field has a potential V and a field strength g. Which of the following statements correctly relates the gravitational potential and the field strength?",
+      "options": {
+        "A": "g = -dV/dr (magnitude of field equals the spatial rate of change of potential)",
+        "B": "V = g r",
+        "C": "g = V / r",
+        "D": "V = -g / r"
+      },
+      "correct_option": "A",
+      "answer": "g = -dV/dr (magnitude of field equals the spatial rate of change of potential)",
+      "explanation": "The gravitational field is the negative gradient of the potential: \\(\\mathbf{g}= -\\nabla V\\). In one dimension this reduces to \\(g = -dV/dr\\). This shows how the field strength is obtained from how rapidly the potential changes with distance. The other options do not follow from the definition of the field as the gradient of the potential.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential",
+      "question": "An external agent does 6.3 × 10⁷ J of work to bring a 1 kg test mass from infinity to a point P near Earth. What is the gravitational potential at point P?",
+      "options": {
+        "A": "-6.3 × 10⁷ J kg⁻¹",
+        "B": "+6.3 × 10⁷ J kg⁻¹",
+        "C": "0 J kg⁻¹",
+        "D": "-6.3 × 10⁷ N·kg kg⁻¹"
+      },
+      "correct_option": "B",
+      "answer": "+6.3 × 10⁷ J kg⁻¹",
+      "explanation": "Gravitational potential at a point is defined as the work done per unit mass by an external agent in bringing the mass from infinity to that point. Here the work is 6.3 × 10⁷ J for 1 kg, so the potential V = 6.3 × 10⁷ J kg⁻¹. The sign is positive because the external agent does positive work against the attractive field. Options A and D give incorrect signs, and option C would correspond to a reference where no work is required.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential energy",
+      "question": "Which of the following statements about the gravitational potential energy (U) of a mass m near Earth's surface is incorrect?",
+      "options": {
+        "A": "U = m g h",
+        "B": "U = G M m / r",
+        "C": "U = - m g h",
+        "D": "U = - G M m / r"
+      },
+      "correct_option": "C",
+      "answer": "U = - m g h",
+      "explanation": "Near Earth's surface the gravitational potential energy is defined as U = m g h (positive when the object is lifted). The negative sign in option C is a common misconception; it would imply that raising an object reduces its energy, which is opposite to the correct definition. Options A, B, and D are either correct forms (A for near‑surface, B for general two‑mass system) or correctly negative for the two‑mass case (D).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Calculate potential due to a point mass",
+      "question": "What is the gravitational potential at a distance of 4.0 × 10⁶ m from a point mass of 5.0 × 10¹² kg? (Use G = 6.67 × 10⁻¹¹ N·m² kg⁻².)",
+      "options": {
+        "A": "-8.34 × 10⁻³ J kg⁻¹",
+        "B": "-8.34 × 10⁻⁴ J kg⁻¹",
+        "C": "-8.34 × 10⁻⁶ J kg⁻¹",
+        "D": "-8.34 × 10⁻⁵ J kg⁻¹"
+      },
+      "correct_option": "D",
+      "answer": "-8.34 × 10⁻⁵ J kg⁻¹",
+      "explanation": "Gravitational potential due to a point mass is V = -GM/r. First compute GM: G × M = 6.67×10⁻¹¹ × 5.0×10¹² = 333.5. Then V = -333.5 / (4.0×10⁶) = -8.3375×10⁻⁵ J kg⁻¹, which matches option D. The other options differ by orders of magnitude due to misplaced decimal placement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "When the reference for gravitational potential is taken (i) at infinity and (ii) at Earth's surface, which of the following statements about the potential at a point P above the surface is true?",
+      "options": {
+        "A": "With reference at infinity, the potential at P is zero; with reference at Earth's surface, the potential at P is negative.",
+        "B": "With reference at infinity, the potential at P is negative; with reference at Earth's surface, the potential at P is less negative (higher) than with the infinity reference.",
+        "C": "Both references give the same numerical value for the potential at P.",
+        "D": "With reference at Earth's surface, the potential at P is always positive."
+      },
+      "correct_option": "B",
+      "answer": "With reference at infinity, the potential at P is negative; with reference at Earth's surface, the potential at P is less negative (higher) than with the infinity reference.",
+      "explanation": "Taking infinity as the zero of potential makes V at any finite point negative (V = -GM/r). If the zero is chosen at Earth's surface, the surface potential is defined as zero, so any point above the surface has a potential that is higher (less negative) than the value obtained with the infinity reference. Option B correctly captures this relationship; the other options misstate the sign or equality of the potentials.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "In a region where the gravitational potential varies with distance as V = -k / r² (k > 0), what is the magnitude of the gravitational field g at a distance r from the source?",
+      "options": {
+        "A": "g = k / r²",
+        "B": "g = 2k / r³",
+        "C": "g = k / r⁴",
+        "D": "g = -k / r²"
+      },
+      "correct_option": "B",
+      "answer": "g = 2k / r³",
+      "explanation": "The gravitational field is the negative gradient of the potential: g = -dV/dr. Differentiating V = -k r⁻² gives dV/dr = 2k r⁻³, so g = - (2k r⁻³) = 2k / r³ (magnitude). Option B reflects this result. Option A ignores the derivative, option C uses an incorrect power, and option D retains the original sign of the potential rather than the field.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential",
+      "question": "Gravitational potential at a point is defined as:",
+      "options": {
+        "A": "Work done per unit mass by an external agent in bringing a test mass from infinity to the point.",
+        "B": "Work done per unit mass by the gravitational field in moving a test mass from the point to infinity.",
+        "C": "The force experienced by a unit mass at that point.",
+        "D": "The acceleration due to gravity at that point."
+      },
+      "correct_option": "A",
+      "answer": "Work done per unit mass by an external agent in bringing a test mass from infinity to the point.",
+      "explanation": "Gravitational potential (V) is defined as the work done per unit mass by an external agent against the gravitational field to bring a test mass from infinity (where potential is zero) to the point of interest. This definition yields V = -GM/r for a point mass. Options B, C, and D describe different concepts (field work, force, and acceleration).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential energy",
+      "question": "The gravitational potential energy of a system consisting of two masses M and m separated by a distance r is:",
+      "options": {
+        "A": "+ G M m / r",
+        "B": "+ G M m r",
+        "C": "- G M m / r",
+        "D": "- G M / r²"
+      },
+      "correct_option": "C",
+      "answer": "- G M m / r",
+      "explanation": "Gravitational potential energy (U) for two point masses is given by U = - G M m / r, reflecting that work must be done against the attractive force to separate them to infinity (where U = 0). Option C is the correct expression; option A has the wrong sign, option B has incorrect dimensions, and option D is not an energy expression.",
+      "difficulty": "easy"
+    }
+  ]
+}

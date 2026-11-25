@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0044",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Calculate potential due to a point mass",
+      "question": "What is the expression for the gravitational potential V at a distance r from a point mass M (taking the potential to be zero at infinity)?",
+      "options": {
+        "A": "-G M / r",
+        "B": "-G M m / r",
+        "C": "G M / r^2",
+        "D": "G M / r"
+      },
+      "correct_option": "A",
+      "answer": "-G M / r",
+      "explanation": "Gravitational potential is defined as the work done per unit mass in bringing a test mass from infinity to a point at distance r. The work done is -G M m / r, and dividing by the test mass m gives V = -G M / r. Option B includes the test mass, which is not part of the potential definition. Options C and D are incorrect forms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "If the gravitational potential is defined to be zero at infinity, what is the potential at a point 10 m from a point mass of 5 kg? (Take G = 6.67 × 10⁻¹¹ N·m²/kg²)",
+      "options": {
+        "A": "-3.3 × 10⁻¹¹ J/kg",
+        "B": "-3.3 × 10⁻¹⁰ J/kg",
+        "C": "3.3 × 10⁻¹¹ J/kg",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "-3.3 × 10⁻¹¹ J/kg",
+      "explanation": "V = -G M / r = -(6.67×10⁻¹¹ × 5) / 10 = -3.335×10⁻¹¹ J/kg ≈ -3.3×10⁻¹¹ J/kg. The negative sign shows the potential is lower than the reference at infinity. Options B and C have incorrect magnitude or sign, and D would be true only at infinity.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "In a uniform gravitational field g = 9.8 m/s² directed downward, a particle is lifted upward by 2 m. How does the gravitational potential of the particle change?",
+      "options": {
+        "A": "It decreases by 19.6 J/kg",
+        "B": "It increases by 19.6 J/kg",
+        "C": "It decreases by 9.8 J/kg",
+        "D": "It increases by 9.8 J/kg"
+      },
+      "correct_option": "B",
+      "answer": "It increases by 19.6 J/kg",
+      "explanation": "Change in potential ΔV = g Δh. Here Δh = +2 m, so ΔV = 9.8 × 2 = 19.6 J/kg increase. The field does negative work, so the potential (energy per unit mass) rises. Option A is opposite, C and D use half the correct value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential",
+      "question": "A spacecraft far from Earth is being brought closer. The engineer states: “The gravitational potential at a point is the work done per unit mass in bringing the spacecraft from infinity to that point.” Which of the following statements correctly defines gravitational potential?",
+      "options": {
+        "A": "It is the work done per unit mass to move a test mass from infinity to the point.",
+        "B": "It is the total work done multiplied by the test mass.",
+        "C": "It is the gravitational potential energy of the test mass at that point.",
+        "D": "It is the magnitude of the gravitational force at that point."
+      },
+      "correct_option": "A",
+      "answer": "It is the work done per unit mass to move a test mass from infinity to the point.",
+      "explanation": "Gravitational potential V is defined as the work required per unit mass to bring a test mass from the reference point (infinity) to the location of interest. Option B confuses potential with work, C describes potential energy (which is m V), and D describes force, not potential.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential energy",
+      "question": "Which of the following statements about gravitational potential energy (U) is a common misconception?",
+      "options": {
+        "A": "U = m g h is valid only near Earth’s surface where g is approximately constant.",
+        "B": "U = m g h is always the correct expression for any distance from Earth.",
+        "C": "U = –G M m / r gives the correct potential energy for a point mass system.",
+        "D": "Both A and C are correct statements."
+      },
+      "correct_option": "B",
+      "answer": "U = m g h is always the correct expression for any distance from Earth.",
+      "explanation": "The expression U = m g h assumes a uniform gravitational field and is accurate only for small heights near Earth’s surface. For larger distances the correct formula is U = –G M m / r. Therefore option B is the misconception. Option A correctly notes the limitation, C is the general formula, and D combines two correct statements, so they are not misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Calculate potential due to a point mass",
+      "question": "Two point masses, M₁ = 10 kg and M₂ = 20 kg, are placed at the same location. What is the gravitational potential at a point 5 m away from that location? (Use G = 6.67 × 10⁻¹¹ N·m²/kg²)",
+      "options": {
+        "A": "-4.0 × 10⁻¹⁰ J/kg",
+        "B": "-2.0 × 10⁻¹⁰ J/kg",
+        "C": "-1.33 × 10⁻¹⁰ J/kg",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "-4.0 × 10⁻¹⁰ J/kg",
+      "explanation": "Potentials from multiple masses add algebraically: V = -G(M₁+M₂)/r = -(6.67×10⁻¹¹ × 30)/5 = -4.002×10⁻¹⁰ J/kg ≈ -4.0×10⁻¹⁰ J/kg. Option B uses only one mass, C uses an incorrect total, and D would be true only at infinity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "If the gravitational potential is chosen to be zero at Earth’s surface instead of at infinity, what is the potential 10 m above the surface? (Take G M = 3.986 × 10¹⁴ m³/s², Earth’s radius R = 6.371 × 10⁶ m)",
+      "options": {
+        "A": "+9.8 × 10¹ J/kg",
+        "B": "-9.8 × 10¹ J/kg",
+        "C": "0",
+        "D": "+9.8 J/kg"
+      },
+      "correct_option": "A",
+      "answer": "+9.8 × 10¹ J/kg",
+      "explanation": "With V = 0 at r = R, the potential at r = R+10 m is ΔV = G M (1/R – 1/(R+10)). Using the given values, ΔV ≈ 9.8 × 10¹ J/kg (≈ 98 J/kg) and is positive because the point is farther from Earth than the reference. Option B has the wrong sign, C would be true only if the reference were at that point, and D is off by a factor of ten.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "The gravitational field g is the negative gradient of the potential V. If V = -k / r (k > 0), what is the magnitude of the gravitational field at a distance r from the mass?",
+      "options": {
+        "A": "k / r²",
+        "B": "k / r",
+        "C": "k / r³",
+        "D": "-k / r²"
+      },
+      "correct_option": "A",
+      "answer": "k / r²",
+      "explanation": "g = -dV/dr. Differentiating V = -k/r gives dV/dr = k/r², so g = -k/r² (directed radially inward). The magnitude is therefore k/r². Option D includes the sign, but magnitude is positive. Options B and C are incorrect powers of r.",
+      "difficulty": "hard"
+    }
+  ]
+}
