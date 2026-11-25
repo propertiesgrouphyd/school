@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0027",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-277-001",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "How is the acceleration due to gravity (g) at the Earth's surface expressed in terms of the universal gravitational constant (G), the Earth's mass (M), and its radius (R)?",
+      "options": {
+        "A": "g = G M / R",
+        "B": "g = G M / R^2",
+        "C": "g = G M^2 / R^2",
+        "D": "g = G / (M R^2)"
+      },
+      "correct_option": "B",
+      "answer": "g = G M / R^2",
+      "explanation": "The universal law of gravitation gives the force F = G M m / R^2. Dividing by the test mass m gives the acceleration g = F/m = G M / R^2. Options A, C, and D are algebraically incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-277-002",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "When a body is moved to a height h above the Earth's surface (h << Earth's radius), the acceleration due to gravity:",
+      "options": {
+        "A": "Increases because the body is farther from the Earth's centre of mass.",
+        "B": "Decreases because the distance from the Earth's centre increases.",
+        "C": "Remains exactly the same because g depends only on Earth's mass.",
+        "D": "First decreases then increases as the body moves farther away."
+      },
+      "correct_option": "B",
+      "answer": "Decreases because the distance from the Earth's centre increases.",
+      "explanation": "g varies as g = G M / (R + h)^2. As h increases, the denominator grows, making g smaller. Option A is opposite, C ignores the distance dependence, and D describes no physical behaviour.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-277-003",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "Inside a uniformly dense Earth, how does the value of g change as you go a distance d below the surface (d < R)?",
+      "options": {
+        "A": "g remains constant because the mass of Earth does not change.",
+        "B": "g increases linearly with depth.",
+        "C": "g decreases linearly with depth.",
+        "D": "g varies as the inverse square of the distance from the centre."
+      },
+      "correct_option": "C",
+      "answer": "g decreases linearly with depth.",
+      "explanation": "For a uniform sphere, only the mass within radius r = R - d contributes to the gravitational field, giving g = g_surface × (r / R) = g_surface × (1 - d/R). Hence g falls linearly with depth. Options A, B, and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-277-004",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with latitude qualitatively",
+      "question": "Why is the measured value of g slightly larger at the poles than at the equator?",
+      "options": {
+        "A": "The Earth is farther from the Sun at the poles, increasing gravitational pull.",
+        "B": "The Earth's rotation reduces the effective gravity more at the equator than at the poles.",
+        "C": "The Earth's mass is concentrated at the poles.",
+        "D": "Air pressure is higher at the poles, adding to the weight."
+      },
+      "correct_option": "B",
+      "answer": "The Earth's rotation reduces the effective gravity more at the equator than at the poles.",
+      "explanation": "Centrifugal acceleration due to Earth's rotation acts outward and is maximum at the equator, lowering the effective g there. At the poles, there is no centrifugal effect, so g is slightly larger. Options A, C, and D are unrelated to the latitude variation of g.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-277-005",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Distinguish mass and weight",
+      "question": "A 10 kg block is taken from Earth to the Moon (the Moon’s mass is 1/81 of Earth’s and its radius is 1/27 of Earth’s). Which statement is correct?",
+      "options": {
+        "A": "Its mass becomes 0.123 kg on the Moon.",
+        "B": "Its weight becomes 0.123 kg on the Moon.",
+        "C": "Its mass remains 10 kg, but its weight reduces to about 1/6 of its Earth weight.",
+        "D": "Both its mass and weight remain unchanged."
+      },
+      "correct_option": "C",
+      "answer": "Its mass remains 10 kg, but its weight reduces to about 1/6 of its Earth weight.",
+      "explanation": "Mass is an intrinsic property and does not change with location; it stays 10 kg. Weight = mg, and g on the Moon is roughly 1/6 of that on Earth, so the weight reduces accordingly. Options A and B incorrectly treat mass as variable, and D ignores the change in g.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-277-006",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "A hypothetical planet has twice the Earth's mass and twice the Earth's radius. What is the acceleration due to gravity on its surface compared to Earth's g?",
+      "options": {
+        "A": "g/2",
+        "B": "g",
+        "C": "2g",
+        "D": "4g"
+      },
+      "correct_option": "A",
+      "answer": "g/2",
+      "explanation": "For the planet, g' = G(2M) / (2R)^2 = (2/4)·(GM/R^2) = (1/2)·g. Hence the surface gravity is half that on Earth. Options B, C, and D ignore the combined effect of mass and radius.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-277-007",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "A common misconception is that the acceleration due to gravity becomes zero at an altitude of 100 km. Which of the following statements is correct?",
+      "options": {
+        "A": "g is exactly zero at 100 km above the Earth's surface.",
+        "B": "g at 100 km is about 97 % of its value at the surface.",
+        "C": "g at 100 km is about 50 % of its surface value.",
+        "D": "g does not change with altitude; it stays the same."
+      },
+      "correct_option": "B",
+      "answer": "g at 100 km is about 97 % of its value at the surface.",
+      "explanation": "Using g = GM/(R+h)^2 with R ≈ 6370 km and h = 100 km, g reduces by (6370/6470)^2 ≈ 0.97, i.e., about a 3 % decrease. It is far from zero, and certainly not 50 % or unchanged. Option A is the misconception, C and D are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-277-008",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "Assuming the Earth has uniform density, what is the magnitude of g at a point located halfway between the surface and the centre of the Earth (i.e., at radius R/2)?",
+      "options": {
+        "A": "g/2",
+        "B": "g/4",
+        "C": "g",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "g/2",
+      "explanation": "Inside a uniform sphere, g varies linearly with distance from the centre: g(r) = g_surface × (r/R). At r = R/2, g = g_surface × (1/2) = g/2. Option B would correspond to r = R/√4, C ignores depth, and D would be true only at the exact centre.",
+      "difficulty": "medium"
+    }
+  ]
+}

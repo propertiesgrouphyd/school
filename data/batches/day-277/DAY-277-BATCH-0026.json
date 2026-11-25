@@ -1,0 +1,78 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Calculate gravitational force",
+      "question": "Two point masses, m1 = 5 kg and m2 = 10 kg, are placed 2 m apart. What is the magnitude of the gravitational force between them?",
+      "options": {
+        "A": "8.34 × 10^-10 N",
+        "B": "3.34 × 10^-10 N",
+        "C": "1.67 × 10^-9 N",
+        "D": "6.67 × 10^-11 N"
+      },
+      "correct_option": "A",
+      "answer": "8.34 × 10^-10 N",
+      "explanation": "The universal law of gravitation gives F = G m1 m2 / r^2. Using G = 6.674×10^-11 N·m^2/kg^2, m1 = 5 kg, m2 = 10 kg and r = 2 m, we get F = (6.674×10^-11 × 5 × 10) / (2^2) = (6.674×10^-11 × 50) / 4 = 8.34×10^-10 N. Option A matches this value. Option B results from using r instead of r^2, option C from using r instead of r^2 and multiplying by 2, and option D is just the value of G, not the force.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand gravitational constant",
+      "question": "Which of the following statements about the universal gravitational constant G is correct?",
+      "options": {
+        "A": "G has dimensions of N·m^2·kg^-2 and its numerical value is 6.674×10^-11 in SI units.",
+        "B": "G varies depending on the masses involved in the interaction.",
+        "C": "G is equal to 9.8 m·s^-2, the acceleration due to gravity at Earth's surface.",
+        "D": "G is only applicable for forces near the Earth's surface."
+      },
+      "correct_option": "A",
+      "answer": "G has dimensions of N·m^2·kg^-2 and its numerical value is 6.674×10^-11 in SI units.",
+      "explanation": "The universal gravitational constant G is a fundamental constant of nature. Its SI unit is N·m^2·kg^-2 (or equivalently m^3·kg^-1·s^-2) and its measured value is 6.674×10^-11. It does not depend on the masses (option B), is not the same as the acceleration due to gravity g (option C), and applies to any two masses anywhere, not just near Earth (option D).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand inverse-square dependence",
+      "question": "If the distance between two point masses is doubled, how does the gravitational force between them change?",
+      "options": {
+        "A": "It becomes one‑fourth of the original force.",
+        "B": "It becomes one‑half of the original force.",
+        "C": "It remains the same.",
+        "D": "It becomes twice the original force."
+      },
+      "correct_option": "A",
+      "answer": "It becomes one‑fourth of the original force.",
+      "explanation": "Gravitational force follows an inverse‑square law: F ∝ 1/r^2. When the separation r is doubled (r → 2r), the force changes by a factor of 1/(2r)^2 = 1/4r^2, i.e., it becomes one‑fourth of its original value. Options B, C, and D contradict the inverse‑square relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Apply superposition in simple cases",
+      "question": "A small mass m is placed at a point equidistant from two equal masses M that are 4 m apart. What is the net gravitational force on m?",
+      "options": {
+        "A": "Zero",
+        "B": "Directed towards one of the masses",
+        "C": "Directed away from both masses",
+        "D": "Magnitude = G M m / (2^2)"
+      },
+      "correct_option": "A",
+      "answer": "Zero",
+      "explanation": "Each mass M exerts a gravitational force of magnitude F = G M m / (2^2) on the small mass m, because the distance from each M to m is 2 m. The forces are equal in magnitude and opposite in direction along the line joining the two M's, so they cancel by superposition. Hence the net force is zero. Option B and C ignore the symmetry, and option D gives the magnitude of each individual force, not the net result.",
+      "difficulty": "hard"
+    }
+  ]
+}
