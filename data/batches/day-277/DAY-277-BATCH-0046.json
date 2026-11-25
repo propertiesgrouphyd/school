@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0046",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "Which statement correctly compares the gravitational potential at a point when the reference is taken at infinity versus when the reference is taken at the Earth's surface?",
+      "options": {
+        "A": "Both references give the same numerical value for potential at any point.",
+        "B": "Taking infinity as reference gives zero potential at infinity, while taking the Earth's surface as reference gives a negative potential at the same point because work is done against gravity.",
+        "C": "Using infinity as reference yields positive potential everywhere, whereas Earth's surface reference yields zero potential everywhere.",
+        "D": "The choice of reference does not affect the sign of the potential, only its magnitude."
+      },
+      "correct_option": "B",
+      "answer": "Taking infinity as reference gives zero potential at infinity, while taking the Earth's surface as reference gives a negative potential at the same point because work is done against gravity.",
+      "explanation": "When the reference is at infinity, the gravitational potential is defined to be zero there. Bringing a mass from infinity to a point near Earth requires negative work (gravity does positive work), so the potential at that point is negative. If the reference were taken at the Earth's surface, the potential at the same point would be measured relative to that surface value, changing its numerical value and sign. Hence option B correctly captures the comparison.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "In a gravitational field, how is the gravitational field magnitude at a point related to the gravitational potential V at that point?",
+      "options": {
+        "A": "It is equal to the potential divided by the distance from the source.",
+        "B": "It is the negative gradient (spatial derivative) of the potential.",
+        "C": "It is the square of the potential.",
+        "D": "It is unrelated to the potential."
+      },
+      "correct_option": "B",
+      "answer": "It is the negative gradient (spatial derivative) of the potential.",
+      "explanation": "The gravitational field **g** is defined as **g = -∇V**; that is, the field vector points in the direction of decreasing potential and its magnitude equals the rate of change of potential with distance. Option B states this relationship correctly. Options A, C, and D misrepresent the fundamental link between field and potential.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential",
+      "question": "Gravitational potential at a point in a field is defined as:",
+      "options": {
+        "A": "Work done per unit mass in bringing a test mass from infinity to that point.",
+        "B": "Force experienced per unit mass at that point.",
+        "C": "Energy stored per unit volume at that point.",
+        "D": "Acceleration due to gravity at that point."
+      },
+      "correct_option": "A",
+      "answer": "Work done per unit mass in bringing a test mass from infinity to that point.",
+      "explanation": "Gravitational potential V is the work done by an external agent per unit mass to move a test mass from a reference point at infinity (where V=0) to the point of interest. This matches option A. Options B, C, and D describe different quantities (field, energy density, and acceleration).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential energy",
+      "question": "Gravitational potential energy of a system of two masses is defined as:",
+      "options": {
+        "A": "Work done by an external agent in bringing the masses from infinite separation to a separation r.",
+        "B": "Work done by gravity in moving the masses from separation r to infinity.",
+        "C": "Kinetic energy of the masses at separation r.",
+        "D": "Force between the masses multiplied by distance r."
+      },
+      "correct_option": "A",
+      "answer": "Work done by an external agent in bringing the masses from infinite separation to a separation r.",
+      "explanation": "Gravitational potential energy U = -GMm/r is the negative of the work done by gravity; equivalently, it is the work that must be done against gravity (by an external agent) to assemble the masses from infinity to a distance r. Hence option A is correct. Options B, C, and D describe other concepts.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Calculate potential due to a point mass",
+      "question": "The gravitational potential V at a distance r from a point mass M is given by:",
+      "options": {
+        "A": "V = -GM/r",
+        "B": "V = -GM/r^2",
+        "C": "V = GM/r",
+        "D": "V = GM/r^2"
+      },
+      "correct_option": "A",
+      "answer": "V = -GM/r",
+      "explanation": "For a point mass, the potential is the work per unit mass to bring a test mass from infinity to distance r, yielding V = -GM/r. Option B is the expression for the field magnitude, while C and D have incorrect signs or powers.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "What is the gravitational potential at the Earth's surface (radius 6.4×10^6 m) due to Earth (mass 5.97×10^24 kg) when the reference is taken at infinity?",
+      "options": {
+        "A": "-6.2×10^7 J kg⁻¹",
+        "B": "-9.8 J kg⁻¹",
+        "C": "+6.2×10^7 J kg⁻¹",
+        "D": "-1.0×10^8 J kg⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "-6.2×10^7 J kg⁻¹",
+      "explanation": "Using V = -GM/R, with G = 6.674×10⁻¹¹ N m² kg⁻², GM ≈ 3.986×10¹⁴ m³ s⁻². Dividing by R = 6.4×10⁶ m gives V ≈ -6.23×10⁷ J kg⁻¹, rounded to -6.2×10⁷ J kg⁻¹. Options B, C, and D are either wrong magnitude or sign.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "For a point mass M, the gravitational potential is V = -GM/r. What is the magnitude of the gravitational field at a distance r = 2R_E (twice Earth's radius) from the centre of Earth? (Take G M = 3.986×10¹⁴ m³ s⁻², R_E = 6.4×10⁶ m)",
+      "options": {
+        "A": "2.44 m s⁻²",
+        "B": "9.80 m s⁻²",
+        "C": "0.61 m s⁻²",
+        "D": "4.88 m s⁻²"
+      },
+      "correct_option": "A",
+      "answer": "2.44 m s⁻²",
+      "explanation": "The field magnitude g = GM/r². Here r = 2R_E = 1.28×10⁷ m. g = 3.986×10¹⁴ / (1.28×10⁷)² ≈ 3.986×10¹⁴ / 1.6384×10¹⁴ ≈ 2.44 m s⁻². Option A matches this calculation. Option B is the surface value, C corresponds to 4R_E, and D is twice the correct value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential",
+      "question": "An astronaut of mass 80 kg is brought from infinity to a point 1.0×10⁷ m from the centre of a planet of mass 8×10²⁴ kg. What is the gravitational potential (in J kg⁻¹) at that point, taking infinity as the reference?",
+      "options": {
+        "A": "-5.34×10⁷ J kg⁻¹",
+        "B": "-3.34×10⁷ J kg⁻¹",
+        "C": "+5.34×10⁷ J kg⁻¹",
+        "D": "-1.0×10⁸ J kg⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "-5.34×10⁷ J kg⁻¹",
+      "explanation": "V = -GM/r. G = 6.674×10⁻¹¹, M = 8×10²⁴ kg → GM ≈ 5.3392×10¹⁴ m³ s⁻². Dividing by r = 1.0×10⁷ m gives V ≈ -5.3392×10⁷ J kg⁻¹, rounded to -5.34×10⁷ J kg⁻¹. Option A is correct; B has wrong magnitude, C has wrong sign, D is too large.",
+      "difficulty": "medium"
+    }
+  ]
+}

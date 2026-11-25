@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0049",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Calculate potential due to a point mass",
+      "question": "Which of the following statements correctly defines the gravitational potential V due to a point mass M at a distance r and distinguishes it from gravitational potential energy U of a test mass m placed at the same point?",
+      "options": {
+        "A": "V = -GM/r; it is the potential energy per unit mass, whereas U = -GMm/r is the total potential energy of the test mass.",
+        "B": "V = -GMm/r; it is the total potential energy, whereas U = -GM/r is the energy per unit mass.",
+        "C": "V = GM/r; it is positive because work is done against gravity, while U = -GMm/r is always negative.",
+        "D": "V = -GM/r^2; it represents the gravitational field, not the potential, and U = -GMm/r is unrelated."
+      },
+      "correct_option": "A",
+      "answer": "V = -GM/r; it is the potential energy per unit mass, whereas U = -GMm/r is the total potential energy of the test mass.",
+      "explanation": "Gravitational potential V at a point is defined as the work done per unit mass in bringing a test mass from infinity to that point, giving V = -GM/r. Gravitational potential energy U of a specific test mass m is the total work done, U = mV = -GMm/r. Options B, C, and D either mix up the definitions or give incorrect formulas.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "If the gravitational potential is taken to be zero at infinity, what is the potential at a point 10 m away from a point mass of 5 kg? (Take G = 6.67×10⁻¹¹ N·m²·kg⁻²)",
+      "options": {
+        "A": "-3.3×10⁻¹¹ J kg⁻¹",
+        "B": "-6.7×10⁻¹¹ J kg⁻¹",
+        "C": "0 J kg⁻¹",
+        "D": "+3.3×10⁻¹¹ J kg⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "-3.3×10⁻¹¹ J kg⁻¹",
+      "explanation": "Using V = -GM/r, V = -(6.67×10⁻¹¹ × 5)/10 = -3.335×10⁻¹¹ J kg⁻¹, which rounds to -3.3×10⁻¹¹ J kg⁻¹. The reference at infinity makes the potential negative near the mass. Options B, C, and D give incorrect magnitudes or sign.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "At a point near the Earth's surface the gravitational field strength is 9.8 N kg⁻¹ directed downward. What is the rate of change of gravitational potential V with respect to the upward radial distance r at that point?",
+      "options": {
+        "A": "-9.8 J kg⁻¹ m⁻¹",
+        "B": "+9.8 J kg⁻¹ m⁻¹",
+        "C": "0 J kg⁻¹ m⁻¹",
+        "D": "-4.9 J kg⁻¹ m⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "-9.8 J kg⁻¹ m⁻¹",
+      "explanation": "The relation between field and potential is E = -dV/dr. Here E = 9.8 N kg⁻¹ (downward), so dV/dr = -E = -9.8 J kg⁻¹ m⁻¹. This means the potential decreases by 9.8 J per kilogram for each metre upward. Options B, C, and D are inconsistent with the sign convention.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential",
+      "question": "A spacecraft far from Earth is reported to have a gravitational potential of –2.5×10⁷ J kg⁻¹. Which of the following best describes what this number signifies?",
+      "options": {
+        "A": "The work required per kilogram to bring the spacecraft from infinity to its present position.",
+        "B": "The total kinetic energy of the spacecraft.",
+        "C": "The gravitational force acting on the spacecraft.",
+        "D": "The gravitational potential energy of Earth."
+      },
+      "correct_option": "A",
+      "answer": "The work required per kilogram to bring the spacecraft from infinity to its present position.",
+      "explanation": "Gravitational potential V is defined as the work done per unit mass in moving a test mass from infinity to the point in question. Hence the negative value indicates that work would have to be done against gravity to move the spacecraft back to infinity. Options B, C, and D refer to different quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential energy",
+      "question": "Which statement correctly addresses the common misconception about the sign of gravitational potential energy U = –GMm/r for two masses?",
+      "options": {
+        "A": "U is always negative because the zero of potential energy is chosen at infinity; a positive value would imply the masses are unbound.",
+        "B": "U is always positive because gravity is an attractive force.",
+        "C": "U can be either positive or negative depending on the masses involved.",
+        "D": "U is zero everywhere because only potential differences matter."
+      },
+      "correct_option": "A",
+      "answer": "U is always negative because the zero of potential energy is chosen at infinity; a positive value would imply the masses are unbound.",
+      "explanation": "By convention, gravitational potential energy is set to zero when the two masses are infinitely separated. Bringing them together releases energy, so U becomes negative. This explains why bound systems have negative U. Options B, C, and D misinterpret the sign convention or the role of reference.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Calculate potential due to a point mass",
+      "question": "Two point masses, M₁ = 2 kg and M₂ = 3 kg, are placed at the same location. What is the gravitational potential at a point 5 m away from that location?",
+      "options": {
+        "A": "V = –G(M₁+M₂)/5 m",
+        "B": "V = –GM₁/5 m + GM₂/5 m",
+        "C": "V = –GM₁M₂/5 m",
+        "D": "V = –G(M₁–M₂)/5 m"
+      },
+      "correct_option": "A",
+      "answer": "V = –G(M₁+M₂)/5 m",
+      "explanation": "Gravitational potential is a scalar quantity and adds algebraically. The combined mass is (M₁+M₂), so V = –G(M₁+M₂)/r. Option B incorrectly mixes signs, C uses a product of masses (incorrect for potential), and D subtracts masses, which is not how potentials combine.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "Which of the following comparisons correctly describes the effect of choosing the reference point for gravitational potential at infinity versus at the Earth's surface?",
+      "options": {
+        "A": "With infinity as reference, potentials near Earth are negative; with the surface as reference, potentials above the surface become positive.",
+        "B": "Both choices give the same numerical values for potential at any point because only differences matter.",
+        "C": "Choosing infinity as reference makes the potential zero everywhere, while the surface reference makes it zero only at the surface.",
+        "D": "Infinity as reference yields positive potentials near Earth, whereas surface reference yields negative potentials everywhere."
+      },
+      "correct_option": "A",
+      "answer": "With infinity as reference, potentials near Earth are negative; with the surface as reference, potentials above the surface become positive.",
+      "explanation": "If V = 0 at infinity, any point in the Earth's gravitational field has V = –GM/r, a negative value. If we instead set V = 0 at the Earth's surface (r = Rₑ), then points above the surface have V = –GM(1/r – 1/Rₑ), which is positive because 1/r < 1/Rₑ. Option B ignores the shift in zero, C misstates the effect, and D reverses the sign conventions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "In a certain region the gravitational potential varies with distance r as V(r) = –k/r², where k is a positive constant. What is the magnitude and direction of the corresponding gravitational field E(r)?",
+      "options": {
+        "A": "E = 2k/r³ directed radially inward",
+        "B": "E = –2k/r³ directed radially outward",
+        "C": "E = k/r⁴ directed radially inward",
+        "D": "E = –k/r³ directed radially outward"
+      },
+      "correct_option": "A",
+      "answer": "E = 2k/r³ directed radially inward",
+      "explanation": "The field is the negative gradient of the potential: E = –dV/dr. Differentiating V = –k r⁻² gives dV/dr = 2k r⁻³. Hence E = –(2k/r³) = –2k/r³. The negative sign indicates the field points toward decreasing r, i.e., radially inward. The magnitude is 2k/r³. Option A expresses the magnitude correctly and states the inward direction; the sign convention is incorporated in the direction description. Options B, C, and D have incorrect magnitude or direction.",
+      "difficulty": "hard"
+    }
+  ]
+}
