@@ -1,0 +1,150 @@
+{
+  "day": 278,
+  "batch_id": "DAY-278-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand orbital velocity",
+      "question": "What is the expression for the orbital velocity of a satellite moving in a circular orbit of radius r around the Earth?",
+      "options": {
+        "A": "√(GM/r)",
+        "B": "√(GM/r²)",
+        "C": "GM/r",
+        "D": "√(GM·r)"
+      },
+      "correct_option": "A",
+      "answer": "√(GM/r)",
+      "explanation": "For a circular orbit the required centripetal force is provided by gravity: mv²/r = GMm/r². Solving for v gives v = √(GM/r). Options B, C and D either use the wrong power of r or miss the square‑root, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Calculate satellite speed",
+      "question": "A satellite is in a circular orbit 800 km above the Earth's surface. What is its speed? (Take Earth's radius = 6371 km and GM = 3.986×10¹⁴ m³·s⁻².)",
+      "options": {
+        "A": "7.5 km/s",
+        "B": "5.0 km/s",
+        "C": "9.0 km/s",
+        "D": "3.0 km/s"
+      },
+      "correct_option": "A",
+      "answer": "7.5 km/s",
+      "explanation": "The orbital radius r = 6371 km + 800 km = 7171 km = 7.171×10⁶ m. Using v = √(GM/r) gives v = √(3.986×10¹⁴ / 7.171×10⁶) ≈ √(5.56×10⁷) ≈ 7.46×10³ m/s ≈ 7.5 km/s. The other options are not consistent with this calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand time period of orbit",
+      "question": "Which of the following expressions correctly gives the orbital period T of a satellite in a circular orbit of radius r around Earth?",
+      "options": {
+        "A": "T = 2πr / v",
+        "B": "T = 2π √(r³/GM)",
+        "C": "T = v / (2πr)",
+        "D": "T = √(GM/r³)"
+      },
+      "correct_option": "B",
+      "answer": "T = 2π √(r³/GM)",
+      "explanation": "From Kepler’s third law for circular orbits, T = 2πr / v and substituting v = √(GM/r) leads to T = 2π √(r³/GM). Option A is the definition before substitution, C is dimensionally incorrect, and D lacks the factor 2π.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand geostationary satellites",
+      "question": "At approximately what altitude above the Earth's surface must a satellite be placed to remain geostationary (i.e., appear stationary to an observer on Earth)?",
+      "options": {
+        "A": "35,786 km",
+        "B": "20,200 km",
+        "C": "12,000 km",
+        "D": "42,164 km"
+      },
+      "correct_option": "A",
+      "answer": "35,786 km",
+      "explanation": "A geostationary orbit requires the orbital period to equal Earth's rotation period (24 h). Solving T = 2π √(r³/GM) for T = 24 h gives r ≈ 42,164 km from Earth's centre, which is about 35,786 km above the surface. Option D gives the orbital radius, not the altitude.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand weightlessness in orbit",
+      "question": "Astronauts inside the International Space Station experience weightlessness. Which statement best explains this phenomenon?",
+      "options": {
+        "A": "There is no gravitational force acting at the ISS altitude.",
+        "B": "The gravitational force on the astronauts is exactly balanced by the normal force from the floor.",
+        "C": "Both the astronaut and the ISS are in free‑fall, so they experience weightlessness.",
+        "D": "The ISS provides an upward thrust equal to the astronaut's weight."
+      },
+      "correct_option": "C",
+      "answer": "Both the astronaut and the ISS are in free‑fall, so they experience weightlessness.",
+      "explanation": "The ISS and everything inside it are continuously falling toward Earth under gravity, but their forward tangential speed keeps them in orbit. Because they share the same free‑fall motion, no normal force is felt, producing weightlessness. Option A is false—gravity at 400 km is still ~90% of surface value. Option B describes a stationary situation, not orbit. Option D is incorrect because the ISS does not produce a continuous upward thrust.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand orbital velocity",
+      "question": "A satellite is in a circular orbit at a radius of 2Rₑ (twice Earth's radius) with orbital speed v. If it is moved to a circular orbit at a radius of 4Rₑ while keeping the same central mass, what will be its new orbital speed?",
+      "options": {
+        "A": "v/√2",
+        "B": "v/2",
+        "C": "v·√2",
+        "D": "v·2"
+      },
+      "correct_option": "A",
+      "answer": "v/√2",
+      "explanation": "Orbital speed v = √(GM/r). When the radius doubles from 2Rₑ to 4Rₑ, the speed becomes √(GM/4Rₑ) = √(1/2)·√(GM/2Rₑ) = v/√2. Options B, C, and D do not follow the inverse‑square‑root dependence on radius.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Calculate satellite speed",
+      "question": "A student writes that the speed of a satellite in a circular orbit is given by v = GM/r. Which of the following identifies the error in this expression?",
+      "options": {
+        "A": "The formula should be v = √(GM/r).",
+        "B": "The formula should be v = √(GM/r²).",
+        "C": "The formula should be v = GM/r².",
+        "D": "The student's formula is correct."
+      },
+      "correct_option": "A",
+      "answer": "The formula should be v = √(GM/r).",
+      "explanation": "Deriving from mv²/r = GMm/r² gives v² = GM/r, so v = √(GM/r). The student's expression lacks the square root, making the units inconsistent (GM/r has units of m³·s⁻²·kg⁻¹·m⁻¹ = m²·s⁻², not speed). Options B and C are also incorrect forms, and D contradicts the derivation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand time period of orbit",
+      "question": "If the orbital radius of a satellite is doubled, how does its orbital period change?",
+      "options": {
+        "A": "It increases by a factor of √8 (≈2.83).",
+        "B": "It doubles.",
+        "C": "It increases by a factor of √2 (≈1.41).",
+        "D": "It remains unchanged."
+      },
+      "correct_option": "A",
+      "answer": "It increases by a factor of √8 (≈2.83).",
+      "explanation": "Kepler’s third law for circular orbits gives T ∝ r^{3/2}. If r → 2r, then T → (2)^{3/2} T = 2^{1.5} T = √8 T ≈ 2.83 T. Therefore the period grows by √8. Options B and C correspond to linear or square‑root dependence, which are not correct, and D is obviously wrong.",
+      "difficulty": "medium"
+    }
+  ]
+}

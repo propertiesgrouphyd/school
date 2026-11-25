@@ -1,0 +1,150 @@
+{
+  "day": 278,
+  "batch_id": "DAY-278-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Calculate satellite speed",
+      "question": "A satellite is in a circular orbit 300 km above the Earth's surface. Which of the following expressions gives the correct orbital speed of the satellite?",
+      "options": {
+        "A": "v = \\sqrt{\\dfrac{GM}{R_{E}}}",
+        "B": "v = \\sqrt{\\dfrac{GM}{R_{E}+h}}",
+        "C": "v = \\sqrt{\\dfrac{GM}{R_{E}-h}}",
+        "D": "v = \\dfrac{GM}{R_{E}+h}"
+      },
+      "correct_option": "B",
+      "answer": "v = \\sqrt{\\dfrac{GM}{R_{E}+h}}",
+      "explanation": "For a circular orbit the required centripetal force is provided by gravity: \\(\\frac{mv^{2}}{r}=\\frac{GMm}{r^{2}}\\). Solving gives \\(v=\\sqrt{GM/r}\\) where \\(r\\) is the distance from Earth's centre. The satellite is at altitude \\(h\\) above the surface, so \\(r=R_{E}+h\\). Option B correctly reflects this relation. Option A ignores the altitude, option C uses an impossible radius, and option D has incorrect dimensions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand time period of orbit",
+      "question": "Satellite A orbits the Earth in a circular path of radius r. Satellite B orbits in a circular path of radius 2r. Which statement about their orbital periods is correct?",
+      "options": {
+        "A": "Both satellites have the same orbital period.",
+        "B": "The period of Satellite B is twice that of Satellite A.",
+        "C": "The period of Satellite B is \\(2\\sqrt{2}\\) times that of Satellite A.",
+        "D": "The period of Satellite B is four times that of Satellite A."
+      },
+      "correct_option": "C",
+      "answer": "The period of Satellite B is \\(2\\sqrt{2}\\) times that of Satellite A.",
+      "explanation": "For a circular orbit, the period \\(T = 2\\pi\\sqrt{r^{3}/GM}\\). Hence \\(T \\propto r^{3/2}\\). If \\(r_{B}=2r_{A}\\), then \\(T_{B}= (2)^{3/2} T_{A}=2\\sqrt{2}\\,T_{A}\\). Option C expresses this correctly. Options A, B and D do not follow the \\(r^{3/2}\\) dependence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand geostationary satellites",
+      "question": "Which of the following statements correctly distinguishes a geostationary satellite from a generic geosynchronous satellite?",
+      "options": {
+        "A": "A geostationary satellite moves in a circular equatorial orbit with a period of 24 h, whereas a geosynchronous satellite may have an inclined or elliptical orbit but the same period.",
+        "B": "A geostationary satellite has a period of 12 h, while a geosynchronous satellite always has a period of 24 h.",
+        "C": "Both geostationary and geosynchronous satellites must orbit over the poles.",
+        "D": "A geostationary satellite can have any orbital period as long as it stays above the same latitude."
+      },
+      "correct_option": "A",
+      "answer": "A geostationary satellite moves in a circular equatorial orbit with a period of 24 h, whereas a geosynchronous satellite may have an inclined or elliptical orbit but the same period.",
+      "explanation": "Geostationary satellites are a special case of geosynchronous satellites: they have a circular orbit in the Earth's equatorial plane and an orbital period equal to Earth's rotation (24 h), making them appear fixed over one point. Geosynchronous satellites share the 24‑hour period but can have inclined or elliptical orbits, causing them to trace a figure‑8 in the sky. Options B, C, and D contain incorrect statements about periods and orbital planes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand weightlessness in orbit",
+      "question": "An astronaut inside a spacecraft orbiting Earth experiences weightlessness. Which explanation best describes this phenomenon?",
+      "options": {
+        "A": "The gravitational force becomes zero at orbital altitude.",
+        "B": "Both the spacecraft and the astronaut are in continuous free fall, so no normal force acts on the astronaut.",
+        "C": "The spacecraft’s engines continuously counteract gravity, creating a zero‑gravity environment.",
+        "D": "The astronaut’s inertial mass disappears while in orbit."
+      },
+      "correct_option": "B",
+      "answer": "Both the spacecraft and the astronaut are in continuous free fall, so no normal force acts on the astronaut.",
+      "explanation": "Weight is the normal force exerted by a support. In orbit, the spacecraft and everything inside are in free fall under gravity; they accelerate together, so the astronaut feels no normal force and perceives weightlessness. Gravity at low‑Earth orbit is still about 90 % of its surface value, so option A is wrong. Engines are not required to maintain orbit (option C), and mass does not vanish (option D).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand orbital velocity",
+      "question": "Orbital velocity of a satellite in a circular orbit is defined as:",
+      "options": {
+        "A": "The speed required for the satellite to escape Earth's gravitational field.",
+        "B": "The speed at which the gravitational force on the satellite exactly provides the required centripetal force for circular motion.",
+        "C": "The speed of Earth's rotation at the equator.",
+        "D": "The speed of light in vacuum."
+      },
+      "correct_option": "B",
+      "answer": "The speed at which the gravitational force on the satellite exactly provides the required centripetal force for circular motion.",
+      "explanation": "For a circular orbit, the gravitational attraction supplies the centripetal force: \\(\\frac{GMm}{r^{2}} = \\frac{mv^{2}}{r}\\). Solving gives \\(v = \\sqrt{GM/r}\\). This definition matches option B. Option A describes escape velocity, not orbital velocity. Options C and D are unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Calculate satellite speed",
+      "question": "A satellite is placed in a circular orbit 400 km above the Earth's surface. Using \\(R_{E}=6.371\\times10^{6}\\) m and \\(GM=3.986\\times10^{14}\\) m³ s⁻², what is its orbital speed (to the nearest 0.1 km s⁻¹)?",
+      "options": {
+        "A": "5.0 km s⁻¹",
+        "B": "7.7 km s⁻¹",
+        "C": "11.2 km s⁻¹",
+        "D": "3.0 km s⁻¹"
+      },
+      "correct_option": "B",
+      "answer": "7.7 km s⁻¹",
+      "explanation": "The orbital radius is \\(r = R_{E}+h = 6.371\\times10^{6}\\,\\text{m} + 4.0\\times10^{5}\\,\\text{m}=6.771\\times10^{6}\\,\\text{m}\\). Orbital speed \\(v = \\sqrt{GM/r}=\\sqrt{3.986\\times10^{14}/6.771\\times10^{6}}\\approx 7.67\\times10^{3}\\,\\text{m s}^{-1}=7.7\\,\\text{km s}^{-1}\\). Option B matches this value. The other options correspond to incorrect calculations or unrelated speeds such as escape velocity (≈11.2 km s⁻¹).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand time period of orbit",
+      "question": "The orbital period of a satellite is:",
+      "options": {
+        "A": "The time taken by the satellite to complete one full revolution around the Earth.",
+        "B": "The time taken by the satellite to reach its highest point above the Earth.",
+        "C": "The interval between two successive launches of identical satellites.",
+        "D": "The time required for a radio signal to travel from the satellite to a ground station."
+      },
+      "correct_option": "A",
+      "answer": "The time taken by the satellite to complete one full revolution around the Earth.",
+      "explanation": "Orbital period (T) is defined as the duration of one complete orbit. It depends on the orbital radius via Kepler's third law. Options B, C, and D describe unrelated time intervals.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand geostationary satellites",
+      "question": "A communication satellite must remain fixed over a point on the equator. Approximately at what altitude above the Earth's surface should it be placed?",
+      "options": {
+        "A": "500 km",
+        "B": "2,000 km",
+        "C": "35,800 km",
+        "D": "100,000 km"
+      },
+      "correct_option": "C",
+      "answer": "35,800 km",
+      "explanation": "A geostationary satellite must have an orbital period equal to Earth's rotation (24 h). Using \\(T = 2\\pi\\sqrt{r^{3}/GM}\\) gives a radius \\(r \\approx 42,164\\) km from Earth's centre. Subtracting Earth's radius (≈6,371 km) yields an altitude of about 35,800 km. Option C is the correct altitude. The other altitudes correspond to low‑Earth or medium‑Earth orbits, which do not satisfy the geostationary condition.",
+      "difficulty": "easy"
+    }
+  ]
+}
