@@ -1,0 +1,78 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "A solid disc of mass M and radius R is free to rotate about a fixed horizontal axis through its centre. A constant torque \\(\\tau\\) is applied. Which statement about the resulting angular acceleration \\(\\alpha\\) is correct?",
+      "options": {
+        "A": "\\(\\alpha = \\tau / I\\) where \\(I=\\frac{1}{2}MR^{2}\\), so \\(\\alpha\\) is independent of the disc’s mass",
+        "B": "\\(\\alpha = \\tau / I\\) where \\(I=\\frac{1}{2}MR^{2}\\), therefore \\(\\alpha\\) decreases as the disc’s mass increases",
+        "C": "\\(\\alpha = \\tau \\times I\\), so a larger moment of inertia gives a larger \\(\\alpha\\)",
+        "D": "\\(\\alpha\\) is directly proportional to \\(\\tau\\) and independent of the moment of inertia"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\alpha = \\tau / I\\) where \\(I=\\frac{1}{2}MR^{2}\\), therefore \\(\\alpha\\) decreases as the disc’s mass increases",
+      "explanation": "The rotational analogue of Newton’s second law is \\(\\tau = I\\alpha\\). Rearranging gives \\(\\alpha = \\tau/I\\). For a solid disc \\(I=\\frac{1}{2}MR^{2}\\); thus, if the mass (and therefore I) increases while the applied torque remains the same, the angular acceleration becomes smaller. Options A, C and D ignore the dependence on I, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A thin hoop of mass M and radius R rotates about its central axis with angular speed \\(\\omega\\). Which expression gives its rotational kinetic energy?",
+      "options": {
+        "A": "\\(\\frac{1}{2}M\\omega^{2}\\)",
+        "B": "\\(\\frac{1}{2}I\\omega^{2}\\) where \\(I=MR^{2}\\)",
+        "C": "\\(\\frac{1}{2}MR^{2}\\omega^{2}\\)",
+        "D": "\\(\\frac{1}{2}I\\omega\\) where \\(I=MR^{2}\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\frac{1}{2}I\\omega^{2}\\) where \\(I=MR^{2}\\)",
+      "explanation": "Rotational kinetic energy is given by \\(K_{rot}=\\frac{1}{2}I\\omega^{2}\\). For a thin hoop the moment of inertia about its central axis is \\(I=MR^{2}\\). Substituting gives \\(K_{rot}=\\frac{1}{2}MR^{2}\\omega^{2}\\), which is represented by option B. Option A omits the moment of inertia, option C mistakenly places \\(R^{2}\\) outside the I definition, and option D has the wrong power of \\(\\omega\\).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which set correctly matches each translational kinematic equation with its rotational analogue?",
+      "options": {
+        "A": "\\(v = u + at\\) ↔ \\(\\omega = \\omega_{0} + \\alpha t\\); \\(s = ut + \\frac{1}{2}at^{2}\\) ↔ \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\); \\(v^{2}=u^{2}+2as\\) ↔ \\(\\omega^{2}=\\omega_{0}^{2}+2\\alpha\\theta\\)",
+        "B": "\\(v = u + at\\) ↔ \\(\\omega = \\omega_{0} + \\alpha t\\); \\(s = ut + \\frac{1}{2}at^{2}\\) ↔ \\(\\theta = \\omega_{0}t + \\alpha t^{2}\\); \\(v^{2}=u^{2}+2as\\) ↔ \\(\\omega^{2}=\\omega_{0}^{2}+\\alpha\\theta\\)",
+        "C": "\\(v = u + at\\) ↔ \\(\\omega = \\omega_{0} + \\alpha t\\); \\(s = ut + \\frac{1}{2}at^{2}\\) ↔ \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t\\); \\(v^{2}=u^{2}+2as\\) ↔ \\(\\omega^{2}=\\omega_{0}^{2}+2\\alpha\\theta\\)",
+        "D": "\\(v = u + at\\) ↔ \\(\\omega = \\omega_{0} + \\alpha t\\); \\(s = ut + \\frac{1}{2}at^{2}\\) ↔ \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\); \\(v^{2}=u^{2}+2as\\) ↔ \\(\\omega^{2}=\\omega_{0}^{2}+\\alpha\\theta\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(v = u + at\\) ↔ \\(\\omega = \\omega_{0} + \\alpha t\\); \\(s = ut + \\frac{1}{2}at^{2}\\) ↔ \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\); \\(v^{2}=u^{2}+2as\\) ↔ \\(\\omega^{2}=\\omega_{0}^{2}+2\\alpha\\theta\\)",
+      "explanation": "The translational kinematic equations have direct rotational counterparts: (1) \\(v = u + at\\) becomes \\(\\omega = \\omega_{0} + \\alpha t\\). (2) \\(s = ut + \\frac{1}{2}at^{2}\\) becomes \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\). (3) \\(v^{2}=u^{2}+2as\\) becomes \\(\\omega^{2}=\\omega_{0}^{2}+2\\alpha\\theta\\). Option A lists all three correctly. The other options contain errors such as missing the factor ½, wrong powers of \\(t\\), or missing the factor 2 in the last relation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid cylinder of mass M and radius R rolls down a smooth incline that makes an angle \\(\\theta\\) with the horizontal without slipping. What is the linear acceleration \\(a\\) of its centre of mass?",
+      "options": {
+        "A": "\\(g\\sin\\theta\\)",
+        "B": "\\(\\frac{2}{3}g\\sin\\theta\\)",
+        "C": "\\(\\frac{3}{4}g\\sin\\theta\\)",
+        "D": "\\(\\frac{1}{2}g\\sin\\theta\\)"
+      },
+      "correct_option": "B",
+      "answer": "\\(\\frac{2}{3}g\\sin\\theta\\)",
+      "explanation": "For pure rolling, \\(a = \\alpha R\\) and the torque about the centre is \\(\\tau = Mg\\sin\\theta \\; R = I\\alpha\\). For a solid cylinder \\(I = \\frac{1}{2}MR^{2}\\). Substituting \\(\\alpha = a/R\\) gives \\(Mg\\sin\\theta \\; R = \\frac{1}{2}MR^{2}\\times a/R\\) → \\(Mg\\sin\\theta = \\frac{1}{2}Ma\\). Solving, \\(a = \\frac{2}{3}g\\sin\\theta\\). Option B matches this result. Options A, C, and D either ignore rotational inertia or use incorrect factors.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "Which of the following equations correctly relates the net torque (τ) on a rigid body to its moment of inertia (I) and angular acceleration (α)?",
+      "options": {
+        "A": "τ = Iα",
+        "B": "τ = I/α",
+        "C": "τ = α/I",
+        "D": "τ = I²α"
+      },
+      "correct_option": "A",
+      "answer": "τ = Iα",
+      "explanation": "The rotational analogue of Newton's second law is τ = Iα, where τ is the net external torque, I is the moment of inertia about the axis of rotation, and α is the angular acceleration. The other options misuse the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "What is the expression for the rotational kinetic energy (K_rot) of a rigid body rotating with angular speed ω?",
+      "options": {
+        "A": "(1/2) I ω²",
+        "B": "(1/2) m v²",
+        "C": "I ω",
+        "D": "(1/2) I α²"
+      },
+      "correct_option": "A",
+      "answer": "(1/2) I ω²",
+      "explanation": "Rotational kinetic energy is given by K_rot = ½ I ω², analogous to translational kinetic energy (½ m v²). It depends on the moment of inertia and the square of the angular speed. Options B and D involve linear quantities, and option C lacks the factor ½.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Match each symbol with its correct physical quantity in rotational motion.",
+      "options": {
+        "A": "θ: angular displacement, ω: angular velocity, α: angular acceleration",
+        "B": "θ: angular velocity, ω: angular displacement, α: angular acceleration",
+        "C": "θ: angular acceleration, ω: angular displacement, α: angular velocity",
+        "D": "θ: angular displacement, ω: angular acceleration, α: angular velocity"
+      },
+      "correct_option": "A",
+      "answer": "θ: angular displacement, ω: angular velocity, α: angular acceleration",
+      "explanation": "θ denotes angular displacement (how far an object has rotated), ω denotes angular velocity (rate of change of θ), and α denotes angular acceleration (rate of change of ω). The other options mix up these definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid cylinder of radius R rolls down a smooth incline that makes an angle θ with the horizontal without slipping. What is its linear acceleration a down the plane?",
+      "options": {
+        "A": "a = (2/3) g sinθ",
+        "B": "a = (3/4) g sinθ",
+        "C": "a = g sinθ",
+        "D": "a = (1/2) g sinθ"
+      },
+      "correct_option": "A",
+      "answer": "a = (2/3) g sinθ",
+      "explanation": "For a solid cylinder I = (1/2) mR². Using a = g sinθ / (1 + I/(mR²)) gives a = g sinθ / (1 + 1/2) = (2/3) g sinθ. The other options correspond to incorrect moments of inertia.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "A wheel of radius 0.5 m has a moment of inertia of 2 kg·m². A tangential force of 10 N is applied at its rim. What is the angular acceleration of the wheel?",
+      "options": {
+        "A": "2.5 rad/s²",
+        "B": "5 rad/s²",
+        "C": "10 rad/s²",
+        "D": "0.5 rad/s²"
+      },
+      "correct_option": "A",
+      "answer": "2.5 rad/s²",
+      "explanation": "Torque τ = rF = 0.5 m × 10 N = 5 N·m. Using τ = Iα, α = τ/I = 5 / 2 = 2.5 rad/s². The other options arise from arithmetic errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A flywheel with moment of inertia 5 kg·m² rotates at 300 rpm. What is its rotational kinetic energy (in joules)?",
+      "options": {
+        "A": "≈2.5×10³ J",
+        "B": "≈5.0×10³ J",
+        "C": "≈1.2×10³ J",
+        "D": "≈3.0×10³ J"
+      },
+      "correct_option": "A",
+      "answer": "≈2.5×10³ J",
+      "explanation": "First convert 300 rpm to rad/s: ω = 300 × 2π / 60 = 10π rad/s ≈ 31.42 rad/s. Rotational KE = ½ I ω² = 0.5 × 5 × (31.42)² ≈ 2.5 × 986.9 ≈ 2.47×10³ J, which matches option A. The other values result from incorrect conversion or arithmetic.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following statements about rotational motion is false?",
+      "options": {
+        "A": "ω = v / r",
+        "B": "v = ω r",
+        "C": "α = a_t / r",
+        "D": "ω = v (i.e., angular velocity equals linear velocity)"
+      },
+      "correct_option": "D",
+      "answer": "ω = v (i.e., angular velocity equals linear velocity)",
+      "explanation": "Angular velocity ω and linear speed v are related by ω = v/r, not equal. Statements A, B, and C are correct relationships; D is a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "Two cylinders of equal mass and radius roll down the same smooth incline without slipping. One is a solid cylinder (I = ½ mR²) and the other is a thin‑walled hollow cylinder (I = mR²). Which cylinder reaches the bottom first?",
+      "options": {
+        "A": "The hollow cylinder",
+        "B": "The solid cylinder",
+        "C": "Both reach at the same time",
+        "D": "It depends on the angle of the incline"
+      },
+      "correct_option": "B",
+      "answer": "The solid cylinder",
+      "explanation": "Linear acceleration a = g sinθ / (1 + I/(mR²)). For the solid cylinder, I/(mR²)=½, giving a = (2/3) g sinθ. For the hollow cylinder, I/(mR²)=1, giving a = (1/2) g sinθ. Since (2/3) g sinθ > (1/2) g sinθ, the solid cylinder accelerates faster and reaches the bottom first. Options A, C, and D are therefore incorrect.",
+      "difficulty": "medium"
+    }
+  ]
+}
