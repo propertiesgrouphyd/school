@@ -1,0 +1,78 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Define gravitational potential energy",
+      "question": "Which of the following correctly defines gravitational potential energy of a mass placed at a point in a gravitational field?",
+      "options": {
+        "A": "Work done against the gravitational force in bringing a mass from infinity to the point.",
+        "B": "Work done by the gravitational force in moving the mass from the point to infinity.",
+        "C": "Kinetic energy of the mass at that point.",
+        "D": "Zero for all positions because gravitational potential energy is always zero."
+      },
+      "correct_option": "A",
+      "answer": "Work done against the gravitational force in bringing a mass from infinity to the point.",
+      "explanation": "Gravitational potential energy (U) is the work that must be done by an external agent against gravity to bring a mass from infinity (where U is defined as zero) to the specified point. Option B describes the negative of this work, C confuses potential energy with kinetic energy, and D is false because U varies with position.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Calculate potential due to a point mass",
+      "question": "A point mass of 10 kg is located at the origin. What is the gravitational potential at a point 5 m away from it? (Take G = 6.67×10⁻¹¹ N·m²/kg².)",
+      "options": {
+        "A": "-1.33×10⁻¹⁰ J kg⁻¹",
+        "B": "-1.33×10⁻⁹ J kg⁻¹",
+        "C": "-6.67×10⁻¹² J kg⁻¹",
+        "D": "0 J kg⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "-1.33×10⁻¹⁰ J kg⁻¹",
+      "explanation": "Gravitational potential V = -GM/r. Substituting G=6.67×10⁻¹¹, M=10 kg, r=5 m gives V = -(6.67×10⁻¹¹×10)/5 = -1.334×10⁻¹⁰ J kg⁻¹, which rounds to -1.33×10⁻¹⁰ J kg⁻¹. Options B and C are off by factors of 10, and D would correspond to the reference at infinity, not a finite distance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Understand reference at infinity",
+      "question": "Why is the reference point for gravitational potential usually taken at infinity?",
+      "options": {
+        "A": "Because the potential is defined to be zero at infinity, making potentials at finite distances negative.",
+        "B": "Because the potential becomes infinitely large at infinity, providing a positive reference.",
+        "C": "Because the gravitational field is strongest at infinity, making it a natural reference.",
+        "D": "Because the Earth's surface potential is used as zero reference, not infinity."
+      },
+      "correct_option": "A",
+      "answer": "Because the potential is defined to be zero at infinity, making potentials at finite distances negative.",
+      "explanation": "By definition, the work required to bring a unit mass from infinity to infinity is zero, so the gravitational potential at infinity is set to zero. Consequently, at any finite distance the potential is negative. Option B incorrectly states the potential is infinitely large, C mischaracterises the field strength at infinity (the field actually vanishes), and D describes a different, non‑standard reference.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01182",
+      "learning_point": "Relate potential and field conceptually",
+      "question": "How is the gravitational field vector related to the gravitational potential scalar at a point in space?",
+      "options": {
+        "A": "The gravitational field is the negative gradient of the gravitational potential.",
+        "B": "The gravitational field is the positive gradient of the gravitational potential.",
+        "C": "The gravitational field equals the gravitational potential multiplied by the distance from the source.",
+        "D": "The gravitational field and potential are unrelated scalar and vector quantities."
+      },
+      "correct_option": "A",
+      "answer": "The gravitational field is the negative gradient of the gravitational potential.",
+      "explanation": "Mathematically, **g = -∇V**, where g is the gravitational field (a vector) and V is the gravitational potential (a scalar). The negative sign indicates that the field points in the direction of decreasing potential. Option B has the wrong sign, C is dimensionally incorrect, and D ignores the established relationship.",
+      "difficulty": "hard"
+    }
+  ]
+}

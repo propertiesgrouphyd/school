@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0053",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-277-001",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "What is the definition of escape speed?",
+      "options": {
+        "A": "Minimum speed required for an object to escape Earth's gravitational field without further propulsion.",
+        "B": "Maximum speed an object can attain under gravity.",
+        "C": "Speed at which a projectile returns to Earth.",
+        "D": "Speed needed to maintain a circular orbit around Earth."
+      },
+      "correct_option": "A",
+      "answer": "Minimum speed required for an object to escape Earth's gravitational field without further propulsion.",
+      "explanation": "Escape speed is the least speed an object must have at the surface of a celestial body so that its kinetic energy equals the gravitational potential energy needed to reach infinity. It does not depend on any further propulsion after launch. Options B, C, and D describe different concepts (terminal speed, return speed, orbital speed).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-277-002",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "Which of the following equations correctly gives the escape speed from a planet of mass M and radius R?",
+      "options": {
+        "A": "v = sqrt(2GM/R)",
+        "B": "v = sqrt(GM/R)",
+        "C": "v = sqrt(2GM/R^2)",
+        "D": "v = GM/R"
+      },
+      "correct_option": "A",
+      "answer": "v = sqrt(2GM/R)",
+      "explanation": "Starting from energy conservation, ½mv^2 = GMm/R, solving for v gives v = sqrt(2GM/R). Option B lacks the factor 2, C has an extra R in the denominator, and D is dimensionally incorrect. Hence A is the correct escape‑speed relation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-277-003",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "If the mass of a planet is doubled while its radius remains unchanged, how does its escape speed change?",
+      "options": {
+        "A": "It increases by a factor of √2.",
+        "B": "It doubles.",
+        "C": "It remains the same.",
+        "D": "It increases by a factor of 2."
+      },
+      "correct_option": "A",
+      "answer": "It increases by a factor of √2.",
+      "explanation": "From v = sqrt(2GM/R), v ∝ sqrt(M). Doubling M makes v multiply by sqrt(2). Options B and D assume linear dependence, while C ignores the mass effect. Therefore A correctly describes the change.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-277-004",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Which statement about escape speed is correct?",
+      "options": {
+        "A": "It depends only on the mass and radius of the celestial body, not on the mass of the projectile.",
+        "B": "It increases with the mass of the projectile.",
+        "C": "It decreases with the mass of the projectile.",
+        "D": "It depends on the shape of the projectile."
+      },
+      "correct_option": "A",
+      "answer": "It depends only on the mass and radius of the celestial body, not on the mass of the projectile.",
+      "explanation": "Escape speed is derived from equating kinetic and gravitational potential energies; the projectile’s mass cancels out, leaving a formula that involves only the planet’s mass and radius. Hence options B, C, and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-277-005",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "The escape speed from the Moon is about 2.38 km/s. Which statement best explains why this value is lower than Earth’s escape speed (~11.2 km/s)?",
+      "options": {
+        "A": "It is lower because the Moon has a smaller mass and radius than Earth.",
+        "B": "It is higher because the Moon is closer to Earth.",
+        "C": "It is the same as Earth’s because escape speed is a universal constant.",
+        "D": "It depends on the Moon’s thin atmosphere."
+      },
+      "correct_option": "A",
+      "answer": "It is lower because the Moon has a smaller mass and radius than Earth.",
+      "explanation": "Escape speed depends on √(2GM/R). The Moon’s mass and radius are both much smaller than Earth’s, giving a smaller value. Proximity to Earth (B) and atmospheric effects (D) are irrelevant, and escape speed is not a universal constant (C).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-277-006",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "A spacecraft is launched from a planet with mass 5×10^24 kg and radius 6×10^6 m. Using the escape‑speed formula, what is the minimum speed required to leave the planet’s gravitational field?",
+      "options": {
+        "A": "10.5 km/s",
+        "B": "5.2 km/s",
+        "C": "15.0 km/s",
+        "D": "20.0 km/s"
+      },
+      "correct_option": "A",
+      "answer": "10.5 km/s",
+      "explanation": "v = sqrt(2GM/R). Substituting G = 6.67×10⁻¹¹ N·m²/kg², M = 5×10²⁴ kg, R = 6×10⁶ m gives v ≈ sqrt(2·6.67×10⁻¹¹·5×10²⁴ / 6×10⁶) ≈ sqrt(1.11×10⁸) ≈ 1.05×10⁴ m/s = 10.5 km/s. The other options are not consistent with this calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-277-007",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "Which of the following is a common misconception about escape speed?",
+      "options": {
+        "A": "It depends only on the planet’s radius, not its mass.",
+        "B": "It depends on both mass and radius as v = sqrt(2GM/R).",
+        "C": "It is independent of both mass and radius.",
+        "D": "It increases with the square of the radius."
+      },
+      "correct_option": "A",
+      "answer": "It depends only on the planet’s radius, not its mass.",
+      "explanation": "The correct relation v = sqrt(2GM/R) shows that both mass (M) and radius (R) influence escape speed. Option A states the opposite, making it the misconception. Options B, C, and D are either correct (B) or clearly wrong statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-277-008",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Two rockets of different masses are launched from Earth with the same speed equal to Earth’s escape speed. Which statement is true?",
+      "options": {
+        "A": "Both will escape Earth’s gravity regardless of their masses.",
+        "B": "The lighter rocket will escape, the heavier will fall back.",
+        "C": "The heavier rocket will escape, the lighter will fall back.",
+        "D": "Neither will escape because mass matters."
+      },
+      "correct_option": "A",
+      "answer": "Both will escape Earth’s gravity regardless of their masses.",
+      "explanation": "Escape speed is independent of the projectile’s mass; any object launched at or above this speed will overcome Earth’s gravitational pull. Therefore both rockets succeed. Options B, C, and D incorrectly attribute a mass dependence.",
+      "difficulty": "medium"
+    }
+  ]
+}
