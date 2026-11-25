@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0056",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "Which of the following best defines the escape speed of a celestial body?",
+      "options": {
+        "A": "The minimum speed required for an object to move away from the body's surface and reach an infinite distance without any further propulsion.",
+        "B": "The speed needed for an object to enter a stable circular orbit just above the surface.",
+        "C": "The speed at which an object experiences zero net gravitational force.",
+        "D": "The speed required for an object to fall back to the surface after being thrown upward."
+      },
+      "correct_option": "A",
+      "answer": "The minimum speed required for an object to move away from the body's surface and reach an infinite distance without any further propulsion.",
+      "explanation": "Escape speed is defined as the minimum speed that an object must have at the surface of a planet (or any massive body) so that it can move away to infinity, overcoming gravity, without any additional propulsion. Option A states this definition precisely. Option B describes orbital speed, not escape speed. Option C is incorrect because gravity never becomes zero; it only diminishes with distance. Option D describes a sub‑escape trajectory where the object returns.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "A spacecraft is launched from the surface of a planet of mass M and radius R with just enough speed to escape the planet’s gravitational field. Which expression gives the required escape speed?",
+      "options": {
+        "A": "v = sqrt(2GM/R)",
+        "B": "v = sqrt(GM/R)",
+        "C": "v = sqrt(2G M R)",
+        "D": "v = sqrt(GM/2R)"
+      },
+      "correct_option": "A",
+      "answer": "v = sqrt(2GM/R)",
+      "explanation": "Escape speed is obtained by equating the kinetic energy (½mv²) at the surface to the gravitational potential energy needed to reach infinity (GMm/R). Setting ½mv² = GMm/R gives v = sqrt(2GM/R). Option A matches this result. Option B lacks the factor 2, Option C has incorrect dimensions, and Option D incorrectly places the factor 2 in the denominator.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "Which of the following statements about escape speed is incorrect?",
+      "options": {
+        "A": "Escape speed increases with the mass of the planet.",
+        "B": "Escape speed decreases with the radius of the planet.",
+        "C": "Escape speed depends on the mass of the projectile.",
+        "D": "Escape speed is independent of the projectile’s mass."
+      },
+      "correct_option": "C",
+      "answer": "Escape speed depends on the mass of the projectile.",
+      "explanation": "From the formula v = sqrt(2GM/R), escape speed depends only on the planet’s mass (M) and radius (R); the projectile’s mass cancels out. Therefore, statement C is false. Statements A, B, and D correctly describe the dependence (or independence) of escape speed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Why does the mass of a projectile not affect the value of the escape speed required to leave a planet?",
+      "options": {
+        "A": "Because gravitational force does not act on massless objects.",
+        "B": "Because both kinetic and gravitational potential energies are directly proportional to the projectile’s mass, causing the mass to cancel when equating them.",
+        "C": "Because the planet’s mass dominates the interaction, making the projectile’s mass negligible.",
+        "D": "Because escape speed is defined only for photons, which have no rest mass."
+      },
+      "correct_option": "B",
+      "answer": "Because both kinetic and gravitational potential energies are directly proportional to the projectile’s mass, causing the mass to cancel when equating them.",
+      "explanation": "The derivation sets ½mv² = GMm/R. The mass m of the projectile appears on both sides and cancels, leaving v = sqrt(2GM/R). Hence the required speed is independent of m. Options A, C, and D are unrelated or incorrect statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "At the surface of a planet, which relationship correctly compares the escape speed (v_e) with the speed required for a low circular orbit (v_o)?",
+      "options": {
+        "A": "v_e = v_o",
+        "B": "v_e = sqrt(2) * v_o",
+        "C": "v_e = 2 * v_o",
+        "D": "v_e = v_o / sqrt(2)"
+      },
+      "correct_option": "B",
+      "answer": "v_e = sqrt(2) * v_o",
+      "explanation": "Circular orbital speed at the surface is v_o = sqrt(GM/R). Escape speed is v_e = sqrt(2GM/R) = sqrt(2) * sqrt(GM/R) = sqrt(2) * v_o. Therefore option B is correct. Options A, C, and D give incorrect proportionalities.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "In the standard derivation of the escape speed formula, which of the following assumptions is NOT used?",
+      "options": {
+        "A": "The gravitational force decreases with the square of the distance from the planet’s centre.",
+        "B": "The total mechanical energy (kinetic + potential) at infinity is zero.",
+        "C": "The gravitational force is assumed to be constant throughout the ascent.",
+        "D": "Conservation of energy is applied between the planet’s surface and infinity."
+      },
+      "correct_option": "C",
+      "answer": "The gravitational force is assumed to be constant throughout the ascent.",
+      "explanation": "The derivation uses the inverse‑square law (A), sets the total energy at infinity to zero (B), and applies energy conservation (D). It does NOT assume a constant gravitational force; the force varies with distance, which is essential for integrating the potential energy. Hence option C is the incorrect assumption.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "Escape speed from a planet depends directly on which two planetary properties?",
+      "options": {
+        "A": "Surface temperature and atmospheric pressure.",
+        "B": "Mass of the planet and its radius.",
+        "C": "Distance from the Sun and orbital period.",
+        "D": "Density of the planet’s core and magnetic field strength."
+      },
+      "correct_option": "B",
+      "answer": "Mass of the planet and its radius.",
+      "explanation": "The escape speed formula v = sqrt(2GM/R) shows dependence on the planet’s mass (M) and radius (R). Options A, C, and D involve unrelated parameters.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Escape speed is independent of the mass of the object because:",
+      "options": {
+        "A": "The object's mass cancels out when equating kinetic energy to gravitational potential energy.",
+        "B": "Gravitational force does not act on massive objects.",
+        "C": "The planet’s gravity only depends on its own mass.",
+        "D": "Objects with larger mass automatically have higher speeds."
+      },
+      "correct_option": "A",
+      "answer": "The object's mass cancels out when equating kinetic energy to gravitational potential energy.",
+      "explanation": "Setting ½mv² = GMm/R leads to cancellation of m, leaving v = sqrt(2GM/R). Thus the required speed does not depend on the projectile’s mass. Options B, C, and D are incorrect statements about gravity and motion.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0058",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "What is the definition of escape speed?",
+      "options": {
+        "A": "The minimum speed required for an object to leave a planet’s gravitational field without any further propulsion",
+        "B": "The maximum speed an object can have while remaining in a stable orbit",
+        "C": "The speed needed to reach a geostationary orbit",
+        "D": "The speed at which the gravitational force on the object becomes zero"
+      },
+      "correct_option": "A",
+      "answer": "The minimum speed required for an object to leave a planet’s gravitational field without any further propulsion",
+      "explanation": "Escape speed is defined as the smallest speed that an object must have at the surface of a celestial body to reach infinity with zero kinetic energy, i.e., to escape the body’s gravity without additional thrust. Option B describes orbital speed, C is unrelated, and D is incorrect because gravity never becomes zero at the surface.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "Which of the following equations correctly gives the escape speed from a planet of mass M and radius R?",
+      "options": {
+        "A": "v = \\sqrt{\\frac{2GM}{R}}",
+        "B": "v = \\sqrt{\\frac{GM}{R}}",
+        "C": "v = \\sqrt{\\frac{2GM}{R^{2}}}",
+        "D": "v = \\frac{GM}{R}"
+      },
+      "correct_option": "A",
+      "answer": "v = \\sqrt{\\frac{2GM}{R}}",
+      "explanation": "Starting from energy conservation, ½mv^2 = GMm/R gives v = sqrt(2GM/R). Option B lacks the factor 2, C has wrong dimensionality, and D is not a speed expression. Hence A is the correct escape‑speed formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "If the mass of a planet is doubled while its radius stays the same, how does the escape speed change?",
+      "options": {
+        "A": "It increases by a factor of \\sqrt{2}",
+        "B": "It doubles",
+        "C": "It remains unchanged",
+        "D": "It increases by a factor of 2"
+      },
+      "correct_option": "A",
+      "answer": "It increases by a factor of \\sqrt{2}",
+      "explanation": "Escape speed v = sqrt(2GM/R). Doubling M makes the numerator twice as large, so v becomes sqrt(2) times the original. Therefore the speed increases by √2, not by a full factor of 2. Options B, C, and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Two rockets of different masses are launched from the same planet with the same speed equal to the planet’s escape speed. Which statement is true?",
+      "options": {
+        "A": "Both rockets will escape the planet’s gravity regardless of their masses",
+        "B": "Only the lighter rocket will escape",
+        "C": "Only the heavier rocket will escape",
+        "D": "Neither will escape because mass matters"
+      },
+      "correct_option": "A",
+      "answer": "Both rockets will escape the planet’s gravity regardless of their masses",
+      "explanation": "Escape speed depends only on the planet’s mass and radius, not on the mass of the object. As long as the initial speed equals or exceeds the escape speed, any object—light or heavy—will escape. Hence A is correct; B, C, and D reflect the common misconception that mass matters.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "A spacecraft is launched from the Moon with a speed of 2.4 km/s. The Moon’s escape speed is 2.38 km/s. What can be concluded about the spacecraft’s motion?",
+      "options": {
+        "A": "It will escape the Moon’s gravitational field",
+        "B": "It will fall back to the Moon’s surface",
+        "C": "It will enter a stable low‑Moon orbit",
+        "D": "It will immediately escape Earth’s gravity as well"
+      },
+      "correct_option": "A",
+      "answer": "It will escape the Moon’s gravitational field",
+      "explanation": "Since the launch speed (2.4 km/s) exceeds the Moon’s escape speed (2.38 km/s), the spacecraft has enough kinetic energy to overcome lunar gravity and will leave the Moon’s sphere of influence. It will not fall back (B), nor stay in orbit (C). Escaping Earth’s gravity (D) requires a much higher speed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "An astronaut is on a planet with mass 5.0×10^{24} kg and radius 6.0×10^{6} m. Using the escape‑speed formula, what is the planet’s escape speed (to two significant figures)?",
+      "options": {
+        "A": "1.0×10^{4} m/s",
+        "B": "5.2×10^{3} m/s",
+        "C": "1.5×10^{4} m/s",
+        "D": "2.0×10^{4} m/s"
+      },
+      "correct_option": "A",
+      "answer": "1.0×10^{4} m/s",
+      "explanation": "Escape speed v = sqrt(2GM/R). G = 6.67×10^{-11} N·m^{2}/kg^{2}. Compute 2GM = 2×6.67×10^{-11}×5.0×10^{24}=6.67×10^{14}. Divide by R: 6.67×10^{14}/6.0×10^{6}=1.11×10^{8}. sqrt gives ≈1.05×10^{4} m/s, i.e., about 1.0×10^{4} m/s. Option A matches; the others are off.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "A student argues that because Earth and Mars have nearly the same average density, their escape speeds must be identical. Which response correctly addresses this misconception?",
+      "options": {
+        "A": "Escape speed depends on both mass and radius, so the two planets have different escape speeds despite similar densities",
+        "B": "Escape speed depends only on density, so the student’s claim is correct",
+        "C": "Escape speed is independent of planetary size, therefore it is the same for all planets",
+        "D": "Escape speed is the same for any body with the same surface gravity, which Earth and Mars share"
+      },
+      "correct_option": "A",
+      "answer": "Escape speed depends on both mass and radius, so the two planets have different escape speeds despite similar densities",
+      "explanation": "Escape speed v = sqrt(2GM/R). Even if density (ρ = M/(4/3πR^3)) is similar, differences in radius lead to different masses and thus different v. Therefore the student’s claim is false. Options B, C, and D ignore the role of radius and mass.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Two meteoroids, one of mass 10^6 kg and another of mass 10^3 kg, are both given the same speed equal to Earth’s escape speed. What will happen to each meteoroid?",
+      "options": {
+        "A": "Both will escape Earth’s gravity",
+        "B": "Only the lighter meteoroid will escape",
+        "C": "Only the heavier meteoroid will escape",
+        "D": "Both will fall back because mass affects escape"
+      },
+      "correct_option": "A",
+      "answer": "Both will escape Earth’s gravity",
+      "explanation": "Escape speed is independent of the escaping object’s mass. As long as the initial speed meets or exceeds the escape speed, any object—regardless of its mass—will leave Earth’s gravitational field. Hence both meteoroids escape; the other options reflect the mistaken belief that mass matters.",
+      "difficulty": "medium"
+    }
+  ]
+}
