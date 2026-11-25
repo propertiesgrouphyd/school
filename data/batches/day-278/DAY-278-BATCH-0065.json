@@ -1,0 +1,78 @@
+{
+  "day": 278,
+  "batch_id": "DAY-278-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01188",
+      "learning_point": "Calculate longitudinal strain",
+      "question": "A metal rod of original length 2.00 m is stretched to a length of 2.05 m. What is the longitudinal (linear) strain of the rod?",
+      "options": {
+        "A": "0.05 m",
+        "B": "40",
+        "C": "0.025",
+        "D": "2.5 × 10⁻² m⁻¹"
+      },
+      "correct_option": "C",
+      "answer": "0.025",
+      "explanation": "Longitudinal strain is defined as the change in length divided by the original length: ε = ΔL / L₀. Here ΔL = 2.05 m – 2.00 m = 0.05 m and L₀ = 2.00 m, so ε = 0.05 / 2.00 = 0.025 (dimensionless). Option A gives the absolute change, not the relative change. Option B is the reciprocal of the strain. Option D mixes units; strain has no units.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01188",
+      "learning_point": "Understand volume strain",
+      "question": "A cubic specimen of side 10 cm experiences a uniform increase in its dimensions so that its new side length becomes 10.2 cm. Which expression correctly represents the volume strain of the specimen?",
+      "options": {
+        "A": "ΔV / V₀",
+        "B": "ΔV",
+        "C": "(ΔV / V₀) × 100",
+        "D": "(ΔL / L₀)³"
+      },
+      "correct_option": "A",
+      "answer": "ΔV / V₀",
+      "explanation": "Volume strain is the fractional change in volume, defined as ε_v = ΔV / V₀, where V₀ is the original volume and ΔV is the change in volume. Option C adds a percentage factor, which is not the definition of strain. Option D would give the same numerical value for isotropic expansion but is not the standard definition; the definition is directly the ratio of volume change to original volume.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01188",
+      "learning_point": "Understand shear strain",
+      "question": "When a rectangular block is subjected to a pure shear stress, its top face shifts horizontally, producing a small angular distortion θ (in radians). Which of the following correctly relates shear strain (γ) to this angular distortion?",
+      "options": {
+        "A": "γ = tan θ",
+        "B": "γ = θ (when θ is expressed in radians)",
+        "C": "γ = sin θ",
+        "D": "γ = cos θ"
+      },
+      "correct_option": "B",
+      "answer": "γ = θ (when θ is expressed in radians)",
+      "explanation": "Shear strain γ is defined as the tangent of the angular distortion, but for small angles (as in typical engineering problems) tan θ ≈ θ (in radians). Hence γ is effectively equal to θ when θ is measured in radians. Option A is the exact definition but for small angles the approximation is used; the question asks for the correct relation used in strain analysis, which is γ ≈ θ. Options C and D are unrelated to the definition of shear strain.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01188",
+      "learning_point": "Recognise that strain is dimensionless",
+      "question": "Which statement about mechanical strain is correct?",
+      "options": {
+        "A": "Strain is measured in meters (m).",
+        "B": "Strain has the same units as stress, i.e., pascals (Pa).",
+        "C": "Strain is a dimensionless quantity.",
+        "D": "Strain is expressed in newtons (N)."
+      },
+      "correct_option": "C",
+      "answer": "Strain is a dimensionless quantity.",
+      "explanation": "Strain is defined as a ratio of lengths (or volumes), such as ΔL/L₀ or ΔV/V₀. Because it is a ratio of two quantities with the same unit, the units cancel, making strain dimensionless. Therefore options A, B, and D are incorrect as they assign units to strain.",
+      "difficulty": "hard"
+    }
+  ]
+}
