@@ -1,0 +1,150 @@
+{
+  "day": 279,
+  "batch_id": "DAY-279-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Compare material stiffness",
+      "question": "A steel rod and a rubber rod of identical length and cross‑section are subjected to the same tensile force. Which statement correctly compares their stiffness?",
+      "options": {
+        "A": "The steel rod is less stiff than the rubber rod",
+        "B": "The steel rod is more stiff than the rubber rod",
+        "C": "Both rods have the same stiffness",
+        "D": "The rubber rod is more stiff than the steel rod"
+      },
+      "correct_option": "B",
+      "answer": "The steel rod is more stiff than the rubber rod",
+      "explanation": "Stiffness is proportional to the Young's modulus. Steel has a Young's modulus (~200 GPa) that is orders of magnitude larger than that of rubber (~0.01 GPa), so for the same geometry and load the steel rod deforms far less, making it much stiffer. Options A, C and D contradict this relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define Young's modulus",
+      "question": "A wire of length 2.00 m and cross‑sectional area 1.0 mm² elongates by 0.50 mm when a tensile force of 500 N is applied. What is the Young's modulus of the material?",
+      "options": {
+        "A": "2×10⁹ Pa",
+        "B": "2×10¹⁰ Pa",
+        "C": "2×10¹¹ Pa",
+        "D": "2×10¹² Pa"
+      },
+      "correct_option": "D",
+      "answer": "2×10¹² Pa",
+      "explanation": "Stress = F/A = 500 N / 1.0×10⁻⁶ m² = 5×10⁸ Pa. Strain = ΔL/L = 0.50×10⁻³ m / 2.00 m = 2.5×10⁻⁴. Young's modulus E = stress/strain = (5×10⁸)/(2.5×10⁻⁴) = 2×10¹² Pa. Options A‑C give values ten to a hundred times smaller, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define bulk modulus",
+      "question": "Which of the following statements about bulk modulus is false?",
+      "options": {
+        "A": "Bulk modulus relates the change in pressure to the fractional change in volume.",
+        "B": "It is defined as K = -V ΔP/ΔV.",
+        "C": "Bulk modulus is high for compressible liquids.",
+        "D": "For most solids, bulk modulus is larger than Young's modulus."
+      },
+      "correct_option": "C",
+      "answer": "Bulk modulus is high for compressible liquids.",
+      "explanation": "Bulk modulus measures resistance to uniform compression; a high value means the material is incompressible. Liquids are generally incompressible, so the statement that bulk modulus is high for compressible liquids is false. Statements A, B and D correctly describe bulk modulus.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define shear modulus",
+      "question": "A material is subjected to a shear stress of 30 MPa and shears by an angle of 0.01 rad. What is its shear modulus?",
+      "options": {
+        "A": "3×10⁶ Pa",
+        "B": "3×10⁷ Pa",
+        "C": "3×10⁸ Pa",
+        "D": "3×10⁹ Pa"
+      },
+      "correct_option": "D",
+      "answer": "3×10⁹ Pa",
+      "explanation": "Shear modulus G = shear stress / shear strain = τ/γ. Here τ = 30 MPa = 3×10⁷ Pa and γ = 0.01 rad, so G = 3×10⁷ Pa / 0.01 = 3×10⁹ Pa. Options A‑C are off by factors of 10³‑10⁶.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Calculate elastic moduli",
+      "question": "Three materials show the following stress–strain data in the elastic region: Material A: stress = 200 MPa, strain = 0.001; Material B: stress = 150 MPa, strain = 0.0005; Material C: stress = 250 MPa, strain = 0.002. Which material possesses the greatest Young's modulus?",
+      "options": {
+        "A": "Material A",
+        "B": "Material B",
+        "C": "Material C",
+        "D": "All have the same Young's modulus"
+      },
+      "correct_option": "B",
+      "answer": "Material B",
+      "explanation": "Young's modulus E = stress/strain. For A: 200 MPa/0.001 = 200 GPa. For B: 150 MPa/0.0005 = 300 GPa. For C: 250 MPa/0.002 = 125 GPa. Hence Material B has the highest value. Option D is incorrect because the values differ.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Compare material stiffness",
+      "question": "In a JEE‑type question, which material would be most suitable for a spring that must be both very stiff and lightweight?",
+      "options": {
+        "A": "Steel",
+        "B": "Aluminium",
+        "C": "Rubber",
+        "D": "Wood"
+      },
+      "correct_option": "A",
+      "answer": "Steel",
+      "explanation": "Stiffness depends on Young's modulus; steel has a very high modulus (~200 GPa) while still offering a relatively low density compared with many other high‑modulus materials. Aluminium is lighter but less stiff; rubber and wood are far less stiff. Therefore steel best satisfies the requirement.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define Young's modulus",
+      "question": "Young's modulus of a material is defined as:",
+      "options": {
+        "A": "The ratio of normal stress to normal strain in the elastic region",
+        "B": "The ratio of pressure change to relative volume change",
+        "C": "The ratio of shear stress to shear strain",
+        "D": "The ratio of force to cross‑sectional area"
+      },
+      "correct_option": "A",
+      "answer": "The ratio of normal stress to normal strain in the elastic region",
+      "explanation": "Young's modulus (E) quantifies the linear relationship between normal stress (σ) and normal strain (ε) for elastic deformation: E = σ/ε. Option B describes bulk modulus, C describes shear modulus, and D describes stress, not a modulus.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define bulk modulus",
+      "question": "Bulk modulus of a material is defined as:",
+      "options": {
+        "A": "The ratio of shear stress to shear strain",
+        "B": "The negative ratio of pressure change to fractional volume change",
+        "C": "The ratio of normal stress to normal strain",
+        "D": "The ratio of force to area"
+      },
+      "correct_option": "B",
+      "answer": "The negative ratio of pressure change to fractional volume change",
+      "explanation": "Bulk modulus K = -V ΔP/ΔV = -ΔP/(ΔV/V). The negative sign ensures K is positive because an increase in pressure reduces volume. Option A is shear modulus, C is Young's modulus, D is stress.",
+      "difficulty": "easy"
+    }
+  ]
+}
