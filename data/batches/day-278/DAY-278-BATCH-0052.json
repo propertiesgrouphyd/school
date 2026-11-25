@@ -1,0 +1,78 @@
+{
+  "day": 278,
+  "batch_id": "DAY-278-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01187",
+      "learning_point": "Calculate stress",
+      "question": "A force of 500 N is applied uniformly on a surface having an area of 0.02 m². What is the stress produced on the material?",
+      "options": {
+        "A": "10,000 Pa",
+        "B": "25,000 Pa",
+        "C": "0.04 Pa",
+        "D": "500 Pa"
+      },
+      "correct_option": "B",
+      "answer": "25,000 Pa",
+      "explanation": "Stress is defined as the internal restoring force per unit area, σ = F/A. Here σ = 500 N / 0.02 m² = 25,000 N/m² = 25,000 Pa. Option A results from dividing by 0.05 m² (incorrect area). Option C mistakenly multiplies force and area. Option D uses the force value directly without dividing by area. Hence, B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01187",
+      "learning_point": "Understand longitudinal stress",
+      "question": "When a uniform tensile force is applied along the length of a cylindrical rod, the internal stress acting on any cross‑section perpendicular to the rod is called:",
+      "options": {
+        "A": "Shear stress",
+        "B": "Bulk stress",
+        "C": "Longitudinal (tensile) stress",
+        "D": "Torsional stress"
+      },
+      "correct_option": "C",
+      "answer": "Longitudinal (tensile) stress",
+      "explanation": "Longitudinal stress arises when a force is applied parallel to the axis of a body, producing normal stress on cross‑sections perpendicular to the force. Shear stress acts parallel to the surface, bulk stress is hydrostatic, and torsional stress is due to twisting. Therefore, option C correctly identifies longitudinal stress.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01187",
+      "learning_point": "Understand bulk stress",
+      "question": "Which statement correctly distinguishes bulk stress from longitudinal stress in a solid?",
+      "options": {
+        "A": "Bulk stress acts on a surface parallel to the applied force, while longitudinal stress acts on a surface perpendicular to the force.",
+        "B": "Bulk stress is defined as force per unit area on any face of a body under hydrostatic pressure, whereas longitudinal stress is force per unit area on a cross‑section due to axial loading.",
+        "C": "Bulk stress involves shear forces, whereas longitudinal stress involves normal forces.",
+        "D": "Bulk stress is always larger than longitudinal stress for the same magnitude of force."
+      },
+      "correct_option": "B",
+      "answer": "Bulk stress is defined as force per unit area on any face of a body under hydrostatic pressure, whereas longitudinal stress is force per unit area on a cross‑section due to axial loading.",
+      "explanation": "Bulk (or hydrostatic) stress acts equally in all directions on all faces of a body under uniform pressure, and it is normal to the surface. Longitudinal stress results from an axial force and acts on the cross‑section perpendicular to that force. Option A reverses the orientation, C incorrectly labels bulk stress as shear, and D is not generally true. Hence, B is the correct distinction.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01187",
+      "learning_point": "Understand tangential stress",
+      "question": "A solid circular shaft of radius 0.05 m transmits a torque of 120 N·m. What is the maximum tangential (shear) stress on the shaft? (Use τ = T·r / J, where J = πr⁴/2 for a solid shaft.)",
+      "options": {
+        "A": "3.0 × 10⁵ Pa",
+        "B": "6.1 × 10⁵ Pa",
+        "C": "1.2 × 10⁶ Pa",
+        "D": "2.4 × 10⁵ Pa"
+      },
+      "correct_option": "B",
+      "answer": "6.1 × 10⁵ Pa",
+      "explanation": "First compute the polar moment of inertia: r = 0.05 m, r⁴ = (0.05)⁴ = 6.25 × 10⁻⁶ m⁴. J = πr⁴/2 = (π × 6.25 × 10⁻⁶)/2 ≈ 9.82 × 10⁻⁶ m⁴. The shear stress τ = T·r / J = (120 N·m × 0.05 m) / 9.82 × 10⁻⁶ m⁴ ≈ 6.1 × 10⁵ N/m² = 6.1 × 10⁵ Pa. Option B matches this value. Options A, C, and D arise from arithmetic errors such as using an incorrect J or missing the factor of 0.5.",
+      "difficulty": "hard"
+    }
+  ]
+}
