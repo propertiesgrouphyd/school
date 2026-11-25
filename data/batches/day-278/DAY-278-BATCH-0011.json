@@ -1,0 +1,150 @@
+{
+  "day": 278,
+  "batch_id": "DAY-278-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand orbital velocity",
+      "question": "What is the expression for the orbital velocity \\(v\\) of a satellite moving in a circular orbit of radius \\(r\\) around the Earth?",
+      "options": {
+        "A": "\\(v=\\sqrt{\\frac{GM}{r}}\\)",
+        "B": "\\(v=\\frac{GM}{r}\\)",
+        "C": "\\(v=\\sqrt{\\frac{2GM}{r}}\\)",
+        "D": "\\(v=\\frac{1}{2}\\sqrt{\\frac{GM}{r}}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(v=\\sqrt{\\frac{GM}{r}}\\)",
+      "explanation": "The required centripetal force is provided by gravity: \\(\\frac{mv^{2}}{r}=\\frac{GMm}{r^{2}}\\). Solving for \\(v\\) gives \\(v=\\sqrt{GM/r}\\). Options B and D are dimensionally incorrect, and option C corresponds to escape speed, not orbital speed.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Calculate satellite speed",
+      "question": "A satellite is in a circular orbit 300 km above the Earth's surface (Earth's radius \\(R=6371\\) km, \\(GM=3.986\\times10^{14}\\) m³/s²). What is its speed (to two significant figures)?",
+      "options": {
+        "A": "7.8 km/s",
+        "B": "5.5 km/s",
+        "C": "9.0 km/s",
+        "D": "3.2 km/s"
+      },
+      "correct_option": "A",
+      "answer": "7.8 km/s",
+      "explanation": "The orbital radius \\(r=R+300\\) km = 6671 km = 6.671×10⁶ m. Speed \\(v=\\sqrt{GM/r}=\\sqrt{3.986\\times10^{14}/6.671\\times10^{6}}\\approx7.73\\times10^{3}\\) m/s ≈ 7.8 km/s. The other numbers result from using incorrect formulas or radii.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand time period of orbit",
+      "question": "According to Kepler's third law, how does the orbital period \\(T\\) of a satellite depend on the radius \\(r\\) of its circular orbit?",
+      "options": {
+        "A": "\\(T\\propto r^{3/2}\\)",
+        "B": "\\(T\\propto r\\)",
+        "C": "\\(T\\propto 1/\\sqrt{r}\\)",
+        "D": "\\(T\\) is independent of \\(r\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(T\\propto r^{3/2}\\)",
+      "explanation": "From \\(T=2\\pi\\sqrt{r^{3}/GM}\\), the period varies as the 3/2 power of the radius. Option B would be linear dependence, C is inverse square‑root, and D ignores the radius, all incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand geostationary satellites",
+      "question": "A satellite must have an orbital period equal to the Earth's rotation period (24 h) to appear stationary over a point on the equator. Approximately what altitude above the Earth's surface is required for such a geostationary orbit?",
+      "options": {
+        "A": "35,800 km",
+        "B": "20,200 km",
+        "C": "500 km",
+        "D": "10,000 km"
+      },
+      "correct_option": "A",
+      "answer": "35,800 km",
+      "explanation": "Setting \\(T=24\\) h in \\(T=2\\pi\\sqrt{r^{3}/GM}\\) gives \\(r\\approx42,200\\) km from Earth's centre. Subtracting Earth's radius (≈6,400 km) yields an altitude of about 35,800 km. The other values correspond to low‑Earth or medium‑Earth orbits.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand weightlessness in orbit",
+      "question": "Astronauts inside the International Space Station experience weightlessness. Which statement best explains this phenomenon?",
+      "options": {
+        "A": "There is no gravity at the ISS altitude.",
+        "B": "Gravity provides the centripetal force that keeps the ISS in orbit, so the astronauts and the station are in continuous free‑fall.",
+        "C": "The ISS moves in a straight line, so no force acts on the astronauts.",
+        "D": "Air resistance inside the ISS cancels the effect of gravity."
+      },
+      "correct_option": "B",
+      "answer": "Gravity provides the centripetal force that keeps the ISS in orbit, so the astronauts and the station are in continuous free‑fall.",
+      "explanation": "Even at ~400 km altitude, Earth's gravity is about 90 % of its surface value. The ISS and everything inside it are in free‑fall, producing apparent weightlessness. Option A is false because gravity is still strong; C misidentifies orbital motion; D is irrelevant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand orbital velocity",
+      "question": "Satellite A orbits the Earth at a radius of 7,000 km, while Satellite B orbits at a radius of 14,000 km, both in circular orbits. Which satellite has the greater orbital speed?",
+      "options": {
+        "A": "Satellite A",
+        "B": "Satellite B",
+        "C": "Both have the same speed",
+        "D": "Cannot be determined without knowing their masses"
+      },
+      "correct_option": "A",
+      "answer": "Satellite A",
+      "explanation": "Orbital speed \\(v=\\sqrt{GM/r}\\). Since \\(r\\) for A is half that of B, \\(v\\) for A is larger by a factor \\(\\sqrt{2}\\). Mass of the satellite does not affect orbital speed, so D is wrong.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Calculate satellite speed",
+      "question": "A student claims that the speed of a satellite in circular orbit is given by \\(v=\\sqrt{\\frac{2GM}{r}}\\). Which of the following statements is correct?",
+      "options": {
+        "A": "The student's formula is correct for all circular orbits.",
+        "B": "The correct formula for circular orbital speed is \\(v=\\sqrt{\\frac{GM}{r}}\\).",
+        "C": "Satellite speed depends only on its altitude, not on Earth's mass.",
+        "D": "The speed equals the product of the orbital period and the radius."
+      },
+      "correct_option": "B",
+      "answer": "The correct formula for circular orbital speed is \\(v=\\sqrt{\\frac{GM}{r}}\\).",
+      "explanation": "\\(v=\\sqrt{2GM/r}\\) is the escape speed, not the speed for a bound circular orbit. Option C ignores the gravitational parameter, and D mixes dimensions incorrectly. Hence B is the only correct statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand time period of orbit",
+      "question": "If the radius of a satellite's circular orbit is doubled, by what factor does its orbital period increase?",
+      "options": {
+        "A": "It doubles (factor 2)",
+        "B": "It increases by \\(\\sqrt{2}\\)",
+        "C": "It increases by \\(2\\sqrt{2}\\)",
+        "D": "It remains unchanged"
+      },
+      "correct_option": "C",
+      "answer": "It increases by \\(2\\sqrt{2}\\)",
+      "explanation": "From Kepler's third law, \\(T\\propto r^{3/2}\\). If \\(r\\) becomes \\(2r\\), then \\(T\\) becomes \\((2)^{3/2}T = 2\\sqrt{2}\\,T\\). Thus the period grows by a factor of \\(2\\sqrt{2}\\). The other options misapply the exponent.",
+      "difficulty": "medium"
+    }
+  ]
+}

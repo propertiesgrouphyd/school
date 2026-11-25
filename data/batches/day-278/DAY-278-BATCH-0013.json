@@ -1,0 +1,78 @@
+{
+  "day": 278,
+  "batch_id": "DAY-278-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Calculate satellite speed",
+      "question": "A satellite of mass 1200 kg is placed in a circular orbit 500 km above the Earth's surface (Earth's radius = 6370 km, GM = 3.986 × 10^14 m³·s⁻²). Which statement about its orbital speed is correct?",
+      "options": {
+        "A": "The speed is √(GM / r) and does not depend on the satellite’s mass.",
+        "B": "The speed is √(GM / (r × m)) and therefore decreases with larger mass.",
+        "C": "The speed is √(G M m / r) and increases with the satellite’s mass.",
+        "D": "The speed is given by GM / r and is directly proportional to the satellite’s mass."
+      },
+      "correct_option": "A",
+      "answer": "The speed is √(GM / r) and does not depend on the satellite’s mass.",
+      "explanation": "For a body in a circular orbit the required centripetal force is provided by gravity: m v² / r = GMm / r². Cancelling the mass m gives v = √(GM / r). Hence orbital speed depends only on the distance from Earth's centre, not on the satellite’s mass. Options B, C and D incorrectly introduce the satellite’s mass into the formula, which is a common misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand time period of orbit",
+      "question": "If the radius of a circular orbit around Earth is doubled, by what factor does the orbital period change? (Assume the orbit remains circular and neglect atmospheric drag.)",
+      "options": {
+        "A": "√2",
+        "B": "2",
+        "C": "√8",
+        "D": "4"
+      },
+      "correct_option": "C",
+      "answer": "√8",
+      "explanation": "The orbital period T is given by Kepler’s third law: T = 2π √(r³ / GM). If the radius r becomes 2r, then T' = 2π √((2r)³ / GM) = 2π √(8 r³ / GM) = √8 × 2π √(r³ / GM) = √8 × T. Therefore the period increases by a factor of √8 (≈2.83). Options A, B, and D correspond to incorrect applications of the square‑root or linear scaling.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand geostationary satellites",
+      "question": "Which of the following statements correctly distinguishes a geostationary satellite from a typical low‑Earth‑orbit (LEO) satellite?",
+      "options": {
+        "A": "A geostationary satellite orbits in the equatorial plane with a period equal to 24 h, appearing fixed to an observer on Earth, whereas a LEO satellite has a much shorter period and moves across the sky.",
+        "B": "A geostationary satellite travels faster than a LEO satellite because it is farther from Earth.",
+        "C": "Both geostationary and LEO satellites have the same orbital period but differ in inclination.",
+        "D": "A geostationary satellite experiences weightlessness, while a LEO satellite does not."
+      },
+      "correct_option": "A",
+      "answer": "A geostationary satellite orbits in the equatorial plane with a period equal to 24 h, appearing fixed to an observer on Earth, whereas a LEO satellite has a much shorter period and moves across the sky.",
+      "explanation": "A geostationary satellite must satisfy three conditions: (1) circular orbit, (2) zero inclination (equatorial plane), and (3) orbital period equal to Earth’s rotation period (24 h). This makes it appear stationary to ground observers. LEO satellites orbit at altitudes of a few hundred kilometres, have periods of about 90 minutes, and therefore sweep across the sky. Option B is wrong because orbital speed decreases with altitude. Option C is false because periods differ dramatically. Option D misstates weightlessness; both experience weightlessness, but that is not a distinguishing feature.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01184",
+      "learning_point": "Understand weightlessness in orbit",
+      "question": "An astronaut inside a spacecraft orbiting Earth feels weightless. Which of the following best explains this phenomenon?",
+      "options": {
+        "A": "The gravitational force on the astronaut is zero at orbital altitude.",
+        "B": "The spacecraft and the astronaut are in free fall, so both experience the same gravitational acceleration.",
+        "C": "The astronaut’s mass becomes zero while in orbit.",
+        "D": "Centrifugal force exactly cancels the gravitational force inside the spacecraft."
+      },
+      "correct_option": "B",
+      "answer": "The spacecraft and the astronaut are in free fall, so both experience the same gravitational acceleration.",
+      "explanation": "Weightlessness in orbit is not due to the absence of gravity; Earth's gravity at typical orbital heights is still about 90 % of its surface value. Both the spacecraft and everything inside are in continuous free fall toward Earth, sharing the same acceleration, so no normal force acts on the astronaut, producing the sensation of weightlessness. Option A is incorrect because gravity is still present. Option C is physically impossible. Option D misinterprets centrifugal force; while a rotating frame can introduce a pseudo‑force, the primary reason for weightlessness is free fall, not a balance of forces.",
+      "difficulty": "hard"
+    }
+  ]
+}
