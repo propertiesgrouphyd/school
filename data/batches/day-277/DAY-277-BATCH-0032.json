@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0032",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "Which of the following expressions correctly gives the acceleration due to gravity (g) at the Earth's surface in terms of the universal gravitational constant (G), Earth's mass (M) and Earth's radius (R)?",
+      "options": {
+        "A": "g = G M R^2",
+        "B": "g = G M / R",
+        "C": "g = G M / R^2",
+        "D": "g = G / (M R^2)"
+      },
+      "correct_option": "C",
+      "answer": "g = G M / R^2",
+      "explanation": "From Newton's law of universal gravitation, the force on a mass m at the Earth's surface is F = G M m / R^2. Setting F = m g gives g = G M / R^2. Options A, B and D have incorrect algebraic forms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "If a small object is moved to a height h above the Earth's surface (h << R), how does the acceleration due to gravity g' at that height compare to the value g at the surface?",
+      "options": {
+        "A": "g' = g (no change)",
+        "B": "g' = g (1 - h/R)",
+        "C": "g' = g (1 - 2h/R)",
+        "D": "g' = g (1 - h^2/R^2)"
+      },
+      "correct_option": "C",
+      "answer": "g' = g (1 - 2h/R)",
+      "explanation": "Using g' = G M / (R+h)^2 and expanding for h << R gives g' ≈ g (1 - 2h/R). Option B neglects the factor of 2, while A and D are incorrect approximations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "Inside a uniform spherical Earth, how does the acceleration due to gravity g' at a distance r from the centre (r < R) vary with r?",
+      "options": {
+        "A": "g' = g (r / R)",
+        "B": "g' = g (R / r)",
+        "C": "g' = g (r^2 / R^2)",
+        "D": "g' = g (R^2 / r^2)"
+      },
+      "correct_option": "A",
+      "answer": "g' = g (r / R)",
+      "explanation": "Only the mass enclosed within radius r contributes to the gravitational field, giving g' = G (M r^3 / R^3) / r^2 = g (r / R). Hence g' varies linearly with r. The other options represent incorrect dependencies.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with latitude qualitatively",
+      "question": "Why is the measured value of g slightly larger at the poles than at the equator?",
+      "options": {
+        "A": "The Earth’s radius is larger at the poles.",
+        "B": "The Earth rotates faster at the poles.",
+        "C": "The Earth’s radius is smaller at the poles and the centrifugal effect is zero there.",
+        "D": "The gravitational constant G is larger at the poles."
+      },
+      "correct_option": "C",
+      "answer": "The Earth’s radius is smaller at the poles and the centrifugal effect is zero there.",
+      "explanation": "At the poles the distance to the Earth's centre is less (smaller radius) and there is no centrifugal reduction because the rotation axis passes through the poles. Both factors increase g. Options A, B, and D are factually incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Distinguish mass and weight",
+      "question": "A 70‑kg astronaut on Earth has a weight of about 686 N. On the Moon, the same astronaut’s mass remains 70 kg. Which statement correctly distinguishes mass and weight for the astronaut on the Moon?",
+      "options": {
+        "A": "Mass is 70 kg and weight is also 686 N because weight does not change.",
+        "B": "Mass is 70 kg and weight is about 112 N because weight = mass × lunar g.",
+        "C": "Mass is 112 N and weight is 70 kg.",
+        "D": "Mass and weight are both measured in newtons on the Moon."
+      },
+      "correct_option": "B",
+      "answer": "Mass is 70 kg and weight is about 112 N because weight = mass × lunar g.",
+      "explanation": "Mass is an intrinsic property and stays 70 kg. Lunar g ≈ 1.62 m/s², so weight = 70 × 1.62 ≈ 113 N (≈112 N). Option A ignores the change in g, C swaps units, and D misstates the units of mass.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "A planet X has twice the mass of Earth but three times its radius. What is the acceleration due to gravity at its surface compared to Earth's g?",
+      "options": {
+        "A": "(2/9) g",
+        "B": "(4/9) g",
+        "C": "(2/3) g",
+        "D": "(4/3) g"
+      },
+      "correct_option": "A",
+      "answer": "(2/9) g",
+      "explanation": "g_X = G (2M) / (3R)^2 = (2/9) (G M / R^2) = (2/9) g. Hence the surface gravity is only about 22% of Earth's. Options B, C, D correspond to different ratios and are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "Some students think that the acceleration due to gravity remains exactly the same at any altitude above the Earth's surface. Which of the following statements correctly addresses this misconception?",
+      "options": {
+        "A": "g is constant because the Earth's mass does not change with altitude.",
+        "B": "g decreases with altitude because the distance from Earth's centre increases.",
+        "C": "g increases with altitude because the gravitational pull becomes stronger.",
+        "D": "g varies randomly with altitude."
+      },
+      "correct_option": "B",
+      "answer": "g decreases with altitude because the distance from Earth's centre increases.",
+      "explanation": "Gravity follows an inverse‑square law; as altitude (and thus distance from the centre) grows, g diminishes. Option A ignores the distance factor, C reverses the trend, and D is baseless.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "A mine shaft is dug 500 m vertically downwards from the Earth's surface. Assuming the Earth is a uniform sphere, which of the following best explains the change in the value of g at the bottom of the shaft compared to the surface?",
+      "options": {
+        "A": "g increases because you are closer to the Earth's centre, so the whole mass contributes more.",
+        "B": "g decreases because only the mass at a radius smaller than your distance contributes to the net gravitational force.",
+        "C": "g remains unchanged because the Earth's total mass is unchanged.",
+        "D": "g becomes zero because the gravitational forces cancel out at any depth."
+      },
+      "correct_option": "B",
+      "answer": "g decreases because only the mass at a radius smaller than your distance contributes to the net gravitational force.",
+      "explanation": "Inside a uniform sphere, only the mass enclosed within the radius at your depth produces net gravity; the outer shell exerts no net force. Hence g decreases linearly with depth. Option A is wrong because the outer mass does not add to the field, C ignores the shell theorem, and D is false except at the centre.",
+      "difficulty": "medium"
+    }
+  ]
+}

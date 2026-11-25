@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Distinguish mass and weight",
+      "question": "A student places a 2‑kg block on a balance scale in a laboratory on Earth and then lifts the same block on the Moon. Which of the following statements correctly distinguishes mass and weight in these situations?",
+      "options": {
+        "A": "The mass of the block is 2 kg on Earth and 2 kg on the Moon, while its weight is greater on Earth than on the Moon.",
+        "B": "The mass of the block changes with location, but its weight remains the same.",
+        "C": "Both mass and weight are the same on Earth and Moon.",
+        "D": "Mass is measured in newtons, weight in kilograms."
+      },
+      "correct_option": "A",
+      "answer": "The mass of the block is 2 kg on Earth and 2 kg on the Moon, while its weight is greater on Earth than on the Moon.",
+      "explanation": "Mass is an intrinsic property of a body and does not change with location; it is measured in kilograms. Weight is the gravitational force on the body, given by W = mg, and therefore depends on the local acceleration due to gravity. Since g on Earth (~9.8 m/s²) is larger than on the Moon (~1.6 m/s²), the block’s weight is larger on Earth while its mass remains 2 kg in both places.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "If the universal gravitational constant G, Earth's mass M, and the distance r from Earth's centre are known, which expression gives the acceleration due to gravity g at that point?",
+      "options": {
+        "A": "g = G M / r²",
+        "B": "g = G M r²",
+        "C": "g = G M / r",
+        "D": "g = G / (M r²)"
+      },
+      "correct_option": "A",
+      "answer": "g = G M / r²",
+      "explanation": "From Newton's law of universal gravitation, the force on a mass m is F = G M m / r². Dividing by m gives the acceleration g = F/m = G M / r². The other options either multiply or invert the correct relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "A common misconception is that the acceleration due to gravity remains exactly 9.8 m/s² at any altitude above Earth's surface. Which statement correctly describes how g changes with altitude?",
+      "options": {
+        "A": "g decreases as altitude increases because the distance from Earth's centre increases.",
+        "B": "g increases with altitude because the atmosphere becomes thinner.",
+        "C": "g stays constant up to 10,000 km then drops sharply.",
+        "D": "g becomes zero at the edge of the atmosphere."
+      },
+      "correct_option": "A",
+      "answer": "g decreases as altitude increases because the distance from Earth's centre increases.",
+      "explanation": "Since g = G M / r², increasing the distance r (altitude) reduces g. The thinning of the atmosphere does not affect the gravitational field, and g never becomes zero until an infinite distance.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "A mine shaft is dug straight down to a depth of 2 km below Earth's surface. Assuming Earth has uniform density, how does the acceleration due to gravity at that depth compare to the surface value g₀?",
+      "options": {
+        "A": "It is (1 – d/R) g₀, i.e., slightly less than g₀.",
+        "B": "It is (1 + d/R) g₀, i.e., greater than g₀.",
+        "C": "It remains exactly g₀ regardless of depth.",
+        "D": "It becomes zero at any depth."
+      },
+      "correct_option": "A",
+      "answer": "It is (1 – d/R) g₀, i.e., slightly less than g₀.",
+      "explanation": "Inside a uniformly dense sphere, only the mass at a radius smaller than the point contributes to gravity. The effective gravitational acceleration varies linearly with distance from the centre: g = g₀ (1 – d/R), where d is depth and R ≈ 6370 km. At 2 km depth, g ≈ 0.9997 g₀, a slight reduction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with latitude qualitatively",
+      "question": "Which of the following best explains why the measured value of g is slightly larger at the poles than at the equator?",
+      "options": {
+        "A": "At the poles, the distance from Earth's centre is smaller and the centrifugal effect due to Earth's rotation is zero, both increasing g.",
+        "B": "At the poles, Earth's mass is greater than at the equator, increasing g.",
+        "C": "The atmosphere is denser at the poles, increasing g.",
+        "D": "The Earth's magnetic field is stronger at the poles, affecting g."
+      },
+      "correct_option": "A",
+      "answer": "At the poles, the distance from Earth's centre is smaller and the centrifugal effect due to Earth's rotation is zero, both increasing g.",
+      "explanation": "Earth is an oblate spheroid; the polar radius (~6357 km) is less than the equatorial radius (~6378 km), so g is larger at the poles. Additionally, the centrifugal acceleration due to rotation reduces the effective g at the equator but is zero at the poles. Mass distribution and atmospheric or magnetic effects do not cause the observed variation.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Distinguish mass and weight",
+      "question": "An astronaut of mass 80 kg stands on a scale on the International Space Station where the local acceleration due to gravity is about 8.7 m/s². The scale is calibrated to read weight in newtons. Which statement correctly distinguishes his mass and weight in this situation?",
+      "options": {
+        "A": "His mass is 80 kg everywhere, but his weight on the ISS is 696 N, less than the 784 N he would have on Earth.",
+        "B": "His mass changes to 70 kg on the ISS because of lower gravity.",
+        "C": "His weight is 80 N on the ISS because weight is measured in kilograms.",
+        "D": "Both his mass and weight are the same on the ISS as on Earth."
+      },
+      "correct_option": "A",
+      "answer": "His mass is 80 kg everywhere, but his weight on the ISS is 696 N, less than the 784 N he would have on Earth.",
+      "explanation": "Mass is an intrinsic property and does not depend on location; it remains 80 kg. Weight is the gravitational force, W = mg. On the ISS, g ≈ 8.7 m/s², so W = 80 kg × 8.7 m/s² = 696 N. On Earth, g ≈ 9.8 m/s², giving 784 N. The other options confuse mass with weight or assume they are unchanged.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "The acceleration due to gravity g at a distance r from Earth's centre is given by which formula?",
+      "options": {
+        "A": "g = G M / r²",
+        "B": "g = G M r²",
+        "C": "g = G / (M r²)",
+        "D": "g = M / (G r²)"
+      },
+      "correct_option": "A",
+      "answer": "g = G M / r²",
+      "explanation": "Newton's law of universal gravitation gives the force F = G M m / r². Dividing by the test mass m yields the acceleration g = F/m = G M / r². The other expressions are dimensionally incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "If a person climbs a mountain 5 km above sea level, how does the value of g at the top compare to sea level?",
+      "options": {
+        "A": "It is slightly less than at sea level because the distance from Earth's centre is larger.",
+        "B": "It is slightly greater because the atmosphere is thinner.",
+        "C": "It remains exactly the same because altitude does not affect g.",
+        "D": "It becomes zero at 5 km altitude."
+      },
+      "correct_option": "A",
+      "answer": "It is slightly less than at sea level because the distance from Earth's centre is larger.",
+      "explanation": "g = G M / r²; increasing r by 5 km (relative to Earth's radius ~6370 km) reduces g by a small amount (~0.0015 g). Atmospheric thickness does not influence the gravitational field, and g never becomes zero at such low altitudes.",
+      "difficulty": "easy"
+    }
+  ]
+}
