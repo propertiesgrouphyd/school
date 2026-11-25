@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0016",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-277-17",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Calculate gravitational force",
+      "question": "A student calculates the gravitational force between Earth (mass = 5.97×10^24 kg) and a 1000 kg satellite at an altitude of 400 km by using only the satellite’s mass in the formula F = G m1 m2 / r². Which statement correctly identifies the error in this calculation?",
+      "options": {
+        "A": "The distance r must be measured from Earth's surface, not from its centre.",
+        "B": "The mass of the Earth must also be included in the numerator.",
+        "C": "The gravitational constant G should be replaced by 9.8 m/s².",
+        "D": "The force does not depend on the satellite’s mass."
+      },
+      "correct_option": "B",
+      "answer": "The mass of the Earth must also be included in the numerator.",
+      "explanation": "Newton's law of universal gravitation is F = G M m / r², where M is the mass of Earth and m is the mass of the satellite. Omitting Earth's mass makes the numerator incomplete, leading to a force of zero. Option B points out this missing factor. Option A is wrong because r must be measured from Earth's centre, but the main error is the missing Earth mass. Option C confuses the universal constant G with the local acceleration g. Option D is false because the force is directly proportional to both masses.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-277-18",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand gravitational constant",
+      "question": "Which of the following statements about the universal gravitational constant G is true?",
+      "options": {
+        "A": "G has the same numerical value in all unit systems.",
+        "B": "G is determined experimentally and its value is approximately 6.674×10⁻¹¹ N·m²·kg⁻².",
+        "C": "G varies with the masses involved in the interaction.",
+        "D": "G equals the acceleration due to gravity at Earth's surface."
+      },
+      "correct_option": "B",
+      "answer": "G is determined experimentally and its value is approximately 6.674×10⁻¹¹ N·m²·kg⁻².",
+      "explanation": "The gravitational constant G is a universal constant measured experimentally; its accepted value is 6.674×10⁻¹¹ N·m²·kg⁻². It does not change with the choice of units (its numerical value changes when units change), nor does it depend on the masses in a particular problem, and it is distinct from the local acceleration g (~9.8 m/s²). Hence option B is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-277-19",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand inverse-square dependence",
+      "question": "Consider two identical pairs of point masses. In each pair the masses are m and 2m. Pair A has the masses separated by a distance r, while Pair B has the same masses separated by 2r. Which statement correctly compares the gravitational forces acting between the masses in the two pairs?",
+      "options": {
+        "A": "The force in Pair A is four times the force in Pair B.",
+        "B": "The force in Pair A is twice the force in Pair B.",
+        "C": "The forces in the two pairs are equal.",
+        "D": "The force in Pair B is four times the force in Pair A."
+      },
+      "correct_option": "A",
+      "answer": "The force in Pair A is four times the force in Pair B.",
+      "explanation": "Gravitational force follows the inverse‑square law: F ∝ 1/r². Doubling the separation (r → 2r) reduces the force by a factor of (2)² = 4. Therefore the force at distance r (Pair A) is four times larger than at distance 2r (Pair B). Options B, C, and D contradict the inverse‑square relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-277-20",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Apply superposition in simple cases",
+      "question": "Three point masses are placed on a straight line. From left to right they are: 5 kg, 5 kg, and 10 kg. The distance between each adjacent pair is 0.20 m. What is the direction of the net gravitational force on the middle 5 kg mass?",
+      "options": {
+        "A": "Zero (the forces cancel exactly).",
+        "B": "Towards the left (the 5 kg mass on the left).",
+        "C": "Towards the right (the 10 kg mass on the right).",
+        "D": "Upward, perpendicular to the line."
+      },
+      "correct_option": "C",
+      "answer": "Towards the right (the 10 kg mass on the right).",
+      "explanation": "Force from the left 5 kg mass: F₁ = G·5·5 / (0.20)² = 25G / 0.04 = 625G, directed left. Force from the right 10 kg mass: F₂ = G·5·10 / (0.20)² = 50G / 0.04 = 1250G, directed right. Since F₂ > F₁, the resultant is to the right. Therefore option C is correct. Option A would be true only if the two outer masses were equal, which they are not. Options B and D are incorrect for the reasons explained.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-277-21",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "State Newton's law of gravitation",
+      "question": "Newton's law of universal gravitation can be expressed as:",
+      "options": {
+        "A": "F = G m₁ m₂ / r², where F is the attractive force between two masses m₁ and m₂ separated by distance r.",
+        "B": "F = m a, where F is the force on a mass m moving with acceleration a.",
+        "C": "E = mc², relating energy and mass.",
+        "D": "p = mv, where p is momentum of a mass m moving with velocity v."
+      },
+      "correct_option": "A",
+      "answer": "F = G m₁ m₂ / r², where F is the attractive force between two masses m₁ and m₂ separated by distance r.",
+      "explanation": "Option A correctly states Newton's universal gravitation law, introducing the gravitational constant G and the inverse‑square dependence on separation r. Options B, C, and D describe other fundamental physics relations (Newton's second law, mass‑energy equivalence, and momentum) and are not the law of gravitation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-277-22",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Calculate gravitational force",
+      "question": "A 1000 kg satellite orbits Earth at an altitude of 400 km above the surface. Using G = 6.674×10⁻¹¹ N·m²·kg⁻² and Earth's radius 6.37×10⁶ m, what is the magnitude of the gravitational force acting on the satellite?",
+      "options": {
+        "A": "8.7×10³ N",
+        "B": "9.8×10³ N",
+        "C": "1.2×10⁴ N",
+        "D": "5.0×10³ N"
+      },
+      "correct_option": "A",
+      "answer": "8.7×10³ N",
+      "explanation": "Distance from Earth's centre r = 6.37×10⁶ m + 4.0×10⁵ m = 6.77×10⁶ m. Gravitational force F = G M m / r² = (6.674×10⁻¹¹)(5.97×10²⁴)(1000) / (6.77×10⁶)² ≈ 8.7×10³ N. Option A matches this calculation. Options B, C, and D are off by significant factors.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-277-23",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand gravitational constant",
+      "question": "Which statement correctly distinguishes the universal gravitational constant G from the acceleration due to gravity g at Earth's surface?",
+      "options": {
+        "A": "G is a universal constant (≈6.674×10⁻¹¹ N·m²·kg⁻²) that appears in the law of gravitation, whereas g (~9.8 m/s²) is the specific acceleration experienced by objects near Earth's surface.",
+        "B": "G varies from planet to planet, while g is the same everywhere in the universe.",
+        "C": "Both G and g have the same numerical value but different units.",
+        "D": "G is measured in m/s² and g is measured in N·m²·kg⁻²."
+      },
+      "correct_option": "A",
+      "answer": "G is a universal constant (≈6.674×10⁻¹¹ N·m²·kg⁻²) that appears in the law of gravitation, whereas g (~9.8 m/s²) is the specific acceleration experienced by objects near Earth's surface.",
+      "explanation": "Option A correctly identifies that G is a universal constant governing the strength of gravity between any two masses, while g is the local gravitational acceleration due to Earth. Options B, C, and D contain incorrect statements about variability, numerical equality, and units.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-277-24",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand inverse-square dependence",
+      "question": "If the distance between two 10 kg masses is reduced from 4 m to 2 m, how does the magnitude of the gravitational force between them change?",
+      "options": {
+        "A": "It doubles.",
+        "B": "It becomes four times larger.",
+        "C": "It remains the same.",
+        "D": "It is reduced to half its original value."
+      },
+      "correct_option": "B",
+      "answer": "It becomes four times larger.",
+      "explanation": "Gravitational force follows F ∝ 1/r². Halving the separation (r → r/2) increases the force by (1/(r/2)²) = (4/r²), i.e., four times the original magnitude. Therefore option B is correct. Options A, C, and D contradict the inverse‑square law.",
+      "difficulty": "easy"
+    }
+  ]
+}

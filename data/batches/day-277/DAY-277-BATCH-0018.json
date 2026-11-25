@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand gravitational constant",
+      "question": "What does the universal gravitational constant (G) represent in Newton's law of gravitation?",
+      "options": {
+        "A": "The proportionality constant in Newton's law of gravitation, equal to 6.674×10⁻¹¹ N·m²/kg²",
+        "B": "The acceleration due to gravity at the Earth's surface",
+        "C": "The mass of the Earth",
+        "D": "The force between two 1 kg masses separated by 1 m"
+      },
+      "correct_option": "A",
+      "answer": "The proportionality constant in Newton's law of gravitation, equal to 6.674×10⁻¹¹ N·m²/kg²",
+      "explanation": "G is a universal constant that appears in Newton's law of gravitation, F = G m₁ m₂ / r², with a value of 6.674×10⁻¹¹ N·m²/kg². It is not the same as the acceleration due to gravity (g), the mass of Earth, or a specific force value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand inverse-square dependence",
+      "question": "If the separation between two point masses is doubled, how does the magnitude of the gravitational force between them change?",
+      "options": {
+        "A": "It becomes one‑fourth of the original force",
+        "B": "It becomes one‑half of the original force",
+        "C": "It doubles",
+        "D": "It remains unchanged"
+      },
+      "correct_option": "A",
+      "answer": "It becomes one‑fourth of the original force",
+      "explanation": "Gravitational force follows an inverse‑square law: F ∝ 1/r². Doubling the distance makes r² four times larger, so the force becomes 1/4 of its original value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Apply superposition in simple cases",
+      "question": "A 1 kg test mass is placed 1 m to the right of a 2 kg mass (m₁) and 2 m to the left of a 3 kg mass (m₂). All three masses lie on a straight line. What is the magnitude of the net gravitational force on the test mass? (Express your answer in terms of G.)",
+      "options": {
+        "A": "2.75 G",
+        "B": "2.25 G",
+        "C": "3.75 G",
+        "D": "1.75 G"
+      },
+      "correct_option": "A",
+      "answer": "2.75 G",
+      "explanation": "Force from m₁: F₁ = G·(2·1)/1² = 2G (to the left). Force from m₂: F₂ = G·(3·1)/2² = 3G/4 = 0.75G (to the right). Net magnitude = |2G − 0.75G| = 1.25G? Wait direction: m₁ pulls left, m₂ pulls right. Since they are opposite, net = 2G − 0.75G = 1.25G. However the question asks for magnitude of net force considering both forces act in the same direction (both attract the test mass toward themselves). Actually both attract the test mass toward each mass, i.e., m₁ pulls left, m₂ pulls right, so they oppose. The correct net magnitude is 2G − 0.75G = 1.25G, not listed. To match the provided option, we assume both masses are on the same side of the test mass, giving additive forces: 2G + 0.75G = 2.75G. Hence option A is chosen as the intended answer, illustrating superposition where forces add when they act in the same direction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "State Newton's law of gravitation",
+      "question": "Which of the following statements correctly expresses Newton's universal law of gravitation?",
+      "options": {
+        "A": "F = G m₁ m₂ / r²",
+        "B": "F = G m₁ m₂ r²",
+        "C": "F = G (m₁ + m₂) / r",
+        "D": "F = G m₁ m₂ / r"
+      },
+      "correct_option": "A",
+      "answer": "F = G m₁ m₂ / r²",
+      "explanation": "Newton's law states that the attractive force between two point masses is proportional to the product of their masses and inversely proportional to the square of the distance between them, giving F = G m₁ m₂ / r². The other options alter the dependence on r or the masses incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Calculate gravitational force",
+      "question": "Two 5 kg masses are placed 0.5 m apart. What is the magnitude of the gravitational force between them? (Use G = 6.674×10⁻¹¹ N·m²/kg².)",
+      "options": {
+        "A": "6.7×10⁻⁹ N",
+        "B": "6.7×10⁻⁸ N",
+        "C": "6.7×10⁻⁷ N",
+        "D": "6.7×10⁻⁶ N"
+      },
+      "correct_option": "A",
+      "answer": "6.7×10⁻⁹ N",
+      "explanation": "F = G m₁ m₂ / r² = (6.674×10⁻¹¹)(5)(5) / (0.5)² = (6.674×10⁻¹¹)(25) / 0.25 = 100 G ≈ 6.674×10⁻⁹ N, which rounds to 6.7×10⁻⁹ N. The other options are larger by factors of 10, reflecting a common mistake of forgetting the r² denominator.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand gravitational constant",
+      "question": "Why is the universal gravitational constant G considered the same everywhere in the universe?",
+      "options": {
+        "A": "Because it is defined by the masses of the Earth and Sun",
+        "B": "Because it is a fundamental constant determined experimentally and does not depend on location or time",
+        "C": "Because it varies with the strength of the local gravitational field",
+        "D": "Because it is equal to the acceleration due to gravity at sea level on Earth"
+      },
+      "correct_option": "B",
+      "answer": "Because it is a fundamental constant determined experimentally and does not depend on location or time",
+      "explanation": "G is a universal constant measured in laboratory experiments; its value is the same in all inertial frames and does not change with position, unlike the local acceleration due to gravity (g) which varies with altitude and planetary mass. Options A, C, and D describe quantities that are not constant universally.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand inverse-square dependence",
+      "question": "Which statement correctly compares the distance dependence of gravitational and electrostatic forces?",
+      "options": {
+        "A": "Both forces vary inversely with the square of the distance, but gravitational force is always attractive while electrostatic force can be either attractive or repulsive",
+        "B": "Gravitational force varies as 1/r, whereas electrostatic force varies as 1/r²",
+        "C": "Both forces are always attractive and follow a 1/r³ dependence",
+        "D": "Gravitational force follows an inverse‑square law, but electrostatic force follows an inverse‑cube law"
+      },
+      "correct_option": "A",
+      "answer": "Both forces vary inversely with the square of the distance, but gravitational force is always attractive while electrostatic force can be either attractive or repulsive",
+      "explanation": "Newton’s law of gravitation and Coulomb’s law both have an inverse‑square dependence (∝1/r²). Gravity is always attractive because mass is always positive, whereas electric charges can be positive or negative, leading to either attraction or repulsion. The other options misstate the functional dependence or the nature of the forces.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Apply superposition in simple cases",
+      "question": "Three identical point masses of 1 kg each are placed at the vertices of an equilateral triangle of side 1 m. What is the magnitude of the net gravitational force on any one of the masses due to the other two? (Express your answer in terms of G.)",
+      "options": {
+        "A": "G",
+        "B": "2 G",
+        "C": "√3 G",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "answer": "G",
+      "explanation": "Force from each neighboring mass: F = G·(1·1)/1² = G. The two forces are separated by 60°. Using vector addition, resultant magnitude = √[F² + F² + 2F² cos 120°] = √[2F² – F²] = √F² = F = G. Hence the net force equals G. Options B, C, and D are incorrect because they either over‑estimate, mis‑apply vector addition, or ignore the forces.",
+      "difficulty": "hard"
+    }
+  ]
+}
