@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Apply superposition in simple cases",
+      "question": "Two point masses m1 = 2 kg and m2 = 3 kg are placed 4 m apart. A third mass m3 = 1 kg is placed exactly midway between them. Using the principle of superposition, what is the magnitude and direction of the net gravitational force on m3?",
+      "options": {
+        "A": "Magnitude = G/4 N, directed towards the 3 kg mass",
+        "B": "Magnitude = G/4 N, directed towards the 2 kg mass",
+        "C": "Magnitude = 5G/4 N, directed towards the 3 kg mass",
+        "D": "Magnitude = 5G/4 N, directed towards the 2 kg mass"
+      },
+      "correct_option": "A",
+      "answer": "Magnitude = G/4 N, directed towards the 3 kg mass",
+      "explanation": "Each force magnitude is F = G m_i m3 / r^2. The distance from each outer mass to the midpoint is 2 m, so F1 = G·2·1/2^2 = G/2 and F2 = G·3·1/2^2 = 3G/4. The forces are opposite; the larger one (3G/4) wins, leaving a net force of (3G/4 – G/2) = G/4 towards the 3 kg mass. Options B, C and D give either the wrong direction or an incorrect magnitude.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "State Newton's law of gravitation",
+      "question": "Two isolated bodies of masses m1 and m2 are separated by a distance r in empty space. Which of the following equations correctly represents Newton's universal law of gravitation for the magnitude of the attractive force between them?",
+      "options": {
+        "A": "F = G m1 m2 / r",
+        "B": "F = G m1 m2 r^2",
+        "C": "F = G m1 m2 / r^2",
+        "D": "F = G (m1 + m2) / r^2"
+      },
+      "correct_option": "C",
+      "answer": "F = G m1 m2 / r^2",
+      "explanation": "Newton's law states that the gravitational force is directly proportional to the product of the two masses and inversely proportional to the square of the distance between them, i.e., F = G m1 m2 / r^2. Options A and B have incorrect dependence on r, and D incorrectly adds the masses.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Calculate gravitational force",
+      "question": "A 5 kg object is placed 2 m above the Earth's surface (Earth's radius ≈ 6.4 × 10⁶ m). Which expression correctly gives the magnitude of the gravitational force on the object?",
+      "options": {
+        "A": "F = G·5·6×10²⁴ / (2)²",
+        "B": "F = G·5·6×10²⁴ / (6.4×10⁶)²",
+        "C": "F = G·5·6×10²⁴ / (6.4×10⁶ + 2)²",
+        "D": "F = G·5·6×10²⁴·(6.4×10⁶ + 2)²"
+      },
+      "correct_option": "C",
+      "answer": "F = G·5·6×10²⁴ / (6.4×10⁶ + 2)²",
+      "explanation": "The distance r in the law must be measured from the centre of the Earth, so r = Earth's radius + altitude = 6.4×10⁶ m + 2 m. Option A uses the altitude alone, B uses the radius but ignores the altitude, and D multiplies instead of dividing.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand gravitational constant",
+      "question": "The universal gravitational constant G is 6.674 × 10⁻¹¹ in SI units. Which of the following correctly represents its dimensional formula?",
+      "options": {
+        "A": "kg·m·s⁻²",
+        "B": "m³·kg⁻¹·s⁻²",
+        "C": "N·kg⁻²",
+        "D": "m²·kg·s⁻²"
+      },
+      "correct_option": "B",
+      "answer": "m³·kg⁻¹·s⁻²",
+      "explanation": "From F = G m1 m2 / r², rearranging gives G = F r² / (m1 m2). Substituting dimensions: [F] = N = kg·m·s⁻², [r] = m, [m] = kg, we obtain [G] = (kg·m·s⁻²)·m² / (kg·kg) = m³·kg⁻¹·s⁻². Options A, C, and D are missing one of the required powers.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Understand inverse-square dependence",
+      "question": "Which statement correctly compares the distance dependence of the gravitational force between two masses with that of the magnetic force between two magnetic poles?",
+      "options": {
+        "A": "Gravitational force varies as 1/r, while magnetic force varies as 1/r².",
+        "B": "Both gravitational and magnetic forces vary as 1/r².",
+        "C": "Gravitational force varies as 1/r², while magnetic force varies as 1/r³.",
+        "D": "Gravitational force is independent of distance, whereas magnetic force varies as 1/r²."
+      },
+      "correct_option": "B",
+      "answer": "Both gravitational and magnetic forces vary as 1/r².",
+      "explanation": "Newton’s law gives a 1/r² dependence for gravity. The force between two magnetic poles (modeled as magnetic monopoles) also follows an inverse‑square law, similar to Coulomb’s law for electric charges. Options A, C, and D incorrectly describe the distance dependence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Apply superposition in simple cases",
+      "question": "Three identical point masses m are placed at the vertices of an equilateral triangle of side a. What is the magnitude and direction of the net gravitational force on any one of the masses due to the other two?",
+      "options": {
+        "A": "Magnitude = √3 G m² / a², directed towards the triangle’s centroid",
+        "B": "Magnitude = 2 G m² / a², directed along one side",
+        "C": "Magnitude = G m² / a², directed away from the triangle’s centroid",
+        "D": "Magnitude = √2 G m² / a², directed towards the opposite vertex"
+      },
+      "correct_option": "A",
+      "answer": "Magnitude = √3 G m² / a², directed towards the triangle’s centroid",
+      "explanation": "Each of the two forces on the chosen mass has magnitude F = G m² / a² and makes a 60° angle with the other. The vector sum gives F_net = 2F cos30° = 2F·(√3/2) = √3 G m² / a², pointing along the bisector of the angle, i.e., towards the centroid. Options B, C, and D give incorrect magnitudes or directions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "State Newton's law of gravitation",
+      "question": "Select the correct statement of Newton’s universal law of gravitation.",
+      "options": {
+        "A": "The force is proportional to the product of the masses and inversely proportional to the distance.",
+        "B": "The force is proportional to the sum of the masses and inversely proportional to the square of the distance.",
+        "C": "The force is proportional to the product of the masses and inversely proportional to the square of the distance.",
+        "D": "The force is independent of the masses and varies inversely with the distance."
+      },
+      "correct_option": "C",
+      "answer": "The force is proportional to the product of the masses and inversely proportional to the square of the distance.",
+      "explanation": "Newton’s law states F = G m₁ m₂ / r², meaning the force grows with the product of the two masses and falls off with the square of the separation. Option A misses the square on r, B uses sum instead of product, and D is entirely incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01180",
+      "learning_point": "Calculate gravitational force",
+      "question": "Two point masses of 10 kg and 20 kg are separated by 0.5 m. Using G = 6.67 × 10⁻¹¹ N·m²·kg⁻², what is the magnitude of the gravitational force between them?",
+      "options": {
+        "A": "5.34 × 10⁻⁸ N",
+        "B": "2.67 × 10⁻⁸ N",
+        "C": "1.33 × 10⁻⁷ N",
+        "D": "6.67 × 10⁻⁹ N"
+      },
+      "correct_option": "A",
+      "answer": "5.34 × 10⁻⁸ N",
+      "explanation": "F = G m₁ m₂ / r² = 6.67×10⁻¹¹ × 10 × 20 / (0.5)² = 6.67×10⁻¹¹ × 200 / 0.25 = 6.67×10⁻¹¹ × 800 = 5.336×10⁻⁸ N ≈ 5.34×10⁻⁸ N. The other options result from arithmetic errors such as missing the factor of 2 or using the wrong denominator.",
+      "difficulty": "easy"
+    }
+  ]
+}
