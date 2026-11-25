@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "What is the relationship between the net external torque (τ) acting on a rigid body and its angular acceleration (α)?",
+      "options": {
+        "A": "τ = I α",
+        "B": "τ = m a",
+        "C": "τ = I ω²",
+        "D": "τ = r × F"
+      },
+      "correct_option": "A",
+      "answer": "τ = I α",
+      "explanation": "The rotational analogue of Newton's second law is τ = Iα, where I is the moment of inertia. This directly relates net torque to angular acceleration. Option B is the linear form, C is incorrect dimensionally, and D describes torque definition but not its relation to α.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "Which expression correctly gives the rotational kinetic energy of a rotating rigid body?",
+      "options": {
+        "A": "K = ½ I ω²",
+        "B": "K = ½ m v²",
+        "C": "K = I α",
+        "D": "K = τ θ"
+      },
+      "correct_option": "A",
+      "answer": "K = ½ I ω²",
+      "explanation": "Rotational kinetic energy is K = ½ I ω², analogous to translational kinetic energy ½ m v². Option B is translational, C mixes inertia with angular acceleration, and D mixes torque with angular displacement, which is work, not kinetic energy.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following is the correct rotational analogue of the linear equation v = u + a t?",
+      "options": {
+        "A": "ω = ω₀ + α t",
+        "B": "θ = ω₀ + α t",
+        "C": "ω = ω₀ + τ t",
+        "D": "α = ω₀ + ω t"
+      },
+      "correct_option": "A",
+      "answer": "ω = ω₀ + α t",
+      "explanation": "The linear equation v = u + a t becomes ω = ω₀ + α t for angular quantities. Option B incorrectly mixes angular displacement with acceleration, C uses torque instead of angular acceleration, and D is dimensionally inconsistent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid cylinder of radius R rolls without slipping down an incline. Which relation correctly describes the translational speed v of its centre in terms of its angular speed ω?",
+      "options": {
+        "A": "v = ω R",
+        "B": "v = ω R⁄2",
+        "C": "v = 2 ω R",
+        "D": "v = ω² R"
+      },
+      "correct_option": "A",
+      "answer": "v = ω R",
+      "explanation": "For pure rolling, the point of contact is instantaneously at rest, giving the condition v = ω R. The other options do not satisfy the no‑slip condition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "A uniform disc has a moment of inertia I = 2 kg·m². If a constant torque of 10 N·m is applied, what is the angular acceleration α of the disc?",
+      "options": {
+        "A": "5 rad/s²",
+        "B": "10 rad/s²",
+        "C": "20 rad/s²",
+        "D": "0.5 rad/s²"
+      },
+      "correct_option": "A",
+      "answer": "5 rad/s²",
+      "explanation": "Using τ = Iα, α = τ/I = 10 N·m / 2 kg·m² = 5 rad/s². Option B would correspond to I = 1 kg·m², C to I = 0.5 kg·m², and D to I = 20 kg·m², none of which match the given data.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A flywheel with moment of inertia I = 0.5 kg·m² rotates at an angular speed of 300 rad/s. What is its rotational kinetic energy?",
+      "options": {
+        "A": "22 500 J",
+        "B": "45 000 J",
+        "C": "2 250 J",
+        "D": "0.75 J"
+      },
+      "correct_option": "A",
+      "answer": "22 500 J",
+      "explanation": "K = ½ I ω² = ½ × 0.5 kg·m² × (300 rad/s)² = 0.25 × 90 000 = 22 500 J. Option B is double the correct value, C is ten times smaller, and D is far too small.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following statements is incorrect?",
+      "options": {
+        "A": "The angular displacement after time t is θ = ω₀ t + ½ α t²",
+        "B": "The final angular speed after time t is ω = ω₀ + α t",
+        "C": "The linear speed of a point at radius r is v = ω r",
+        "D": "The angular acceleration can be found using α = (v_f - v_i)/t"
+      },
+      "correct_option": "D",
+      "answer": "The angular acceleration can be found using α = (v_f - v_i)/t",
+      "explanation": "Angular acceleration relates change in angular speed, not linear speed; the correct formula is α = (ω_f - ω_i)/t. Options A, B, and C are the proper rotational analogues of linear kinematic equations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid sphere of mass m and radius R rolls without slipping down a frictionless incline. Why does its linear acceleration down the slope be less than that of a sliding block of the same mass?",
+      "options": {
+        "A": "Part of the gravitational potential energy is converted into rotational kinetic energy, reducing translational acceleration",
+        "B": "Static friction opposes the motion of the sphere",
+        "C": "Air resistance is greater for the sphere",
+        "D": "The sphere’s moment of inertia is zero"
+      },
+      "correct_option": "A",
+      "answer": "Part of the gravitational potential energy is converted into rotational kinetic energy, reducing translational acceleration",
+      "explanation": "In rolling, some of the gravitational energy goes into rotational kinetic energy (½ I ω²), leaving less for translational kinetic energy, so the linear acceleration is smaller. Friction here is static and does not dissipate energy (B is wrong), air resistance is negligible (C), and the moment of inertia is not zero (D).",
+      "difficulty": "medium"
+    }
+  ]
+}

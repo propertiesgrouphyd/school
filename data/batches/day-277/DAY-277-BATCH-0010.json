@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "Which of the following equations correctly relates the net external torque \\(\\tau\\) acting on a rigid body to its angular acceleration \\(\\alpha\\)?",
+      "options": {
+        "A": "\\(\\tau = I \\alpha\\)",
+        "B": "\\(\\tau = m r \\alpha\\)",
+        "C": "\\(\\tau = I \\omega^{2}\\)",
+        "D": "\\(\\tau = \\frac{I}{\\alpha}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(\\tau = I \\alpha\\)",
+      "explanation": "The rotational analogue of Newton's second law is \\(\\tau = I\\alpha\\), where \\(I\\) is the moment of inertia. Option B mixes linear mass with radius, C is dimensionally incorrect, and D inverts the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "A solid disc of mass 2 kg and radius 0.5 m rotates with an angular speed of 10 rad/s. What is its rotational kinetic energy?",
+      "options": {
+        "A": "5 J",
+        "B": "12.5 J",
+        "C": "20 J",
+        "D": "40 J"
+      },
+      "correct_option": "B",
+      "answer": "12.5 J",
+      "explanation": "For a solid disc, \\(I = \\frac{1}{2}mr^{2}=0.5\\times2\\times0.5^{2}=0.25\\,\\text{kg·m}^{2}\\). Rotational kinetic energy \\(K = \\frac{1}{2}I\\omega^{2}=0.5\\times0.25\\times10^{2}=12.5\\,\\text{J}\\). The other options result from incorrect use of the formula or wrong moments of inertia.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "A wheel initially at rest is subjected to a constant angular acceleration of 2 rad/s². What angular displacement does it undergo in the first 5 s?",
+      "options": {
+        "A": "10 rad",
+        "B": "20 rad",
+        "C": "25 rad",
+        "D": "30 rad"
+      },
+      "correct_option": "C",
+      "answer": "25 rad",
+      "explanation": "Using \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\) with \\(\\omega_{0}=0\\), \\(\\theta = 0.5\\times2\\times5^{2}=25\\,\\text{rad}\\). Options A, B, and D correspond to incorrect arithmetic or omission of the ½ factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid cylinder of radius 0.2 m rolls down a smooth incline of 30° without slipping. What is its linear acceleration down the plane?",
+      "options": {
+        "A": "g\\sin30°",
+        "B": "\\frac{2}{3}g\\sin30°",
+        "C": "\\frac{3}{4}g\\sin30°",
+        "D": "\\frac{1}{2}g\\sin30°"
+      },
+      "correct_option": "B",
+      "answer": "\\frac{2}{3}g\\sin30°",
+      "explanation": "For a solid cylinder, \\(I = \\frac{1}{2}mr^{2}\\). The acceleration is \\(a = \\frac{g\\sin\\theta}{1+I/(mr^{2})}=\\frac{g\\sin30°}{1+0.5}=\\frac{2}{3}g\\sin30°\\). Options A, C, D ignore the rotational inertia term.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Relate torque and angular acceleration",
+      "question": "Which of the following statements is a common misconception about the relationship between torque and angular acceleration?",
+      "options": {
+        "A": "Torque is directly proportional to angular acceleration for a given moment of inertia.",
+        "B": "Torque causes angular acceleration just as force causes linear acceleration.",
+        "C": "A larger torque always results in a larger angular velocity irrespective of time.",
+        "D": "Net external torque determines the angular acceleration of a rigid body."
+      },
+      "correct_option": "C",
+      "answer": "A larger torque always results in a larger angular velocity irrespective of time.",
+      "explanation": "Torque influences angular acceleration, not angular velocity directly; the velocity also depends on the time over which the torque acts. Options A, B, and D correctly describe the torque‑acceleration relationship, while C is the misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Understand rotational kinetic energy",
+      "question": "Two identical solid discs rotate about the same axis. Disc A has an angular speed twice that of Disc B. Which statement about their rotational kinetic energies is correct?",
+      "options": {
+        "A": "The kinetic energy of Disc A is twice that of Disc B.",
+        "B": "The kinetic energy of Disc A is four times that of Disc B.",
+        "C": "Both discs have the same kinetic energy.",
+        "D": "The kinetic energy of Disc A is half that of Disc B."
+      },
+      "correct_option": "B",
+      "answer": "The kinetic energy of Disc A is four times that of Disc B.",
+      "explanation": "Rotational kinetic energy \\(K = \\frac{1}{2}I\\omega^{2}\\). If \\(\\omega_{A}=2\\omega_{B}\\), then \\(K_{A}=\\frac{1}{2}I(2\\omega_{B})^{2}=4\\times\\frac{1}{2}I\\omega_{B}^{2}=4K_{B}\\). Options A, C, D ignore the square dependence on angular speed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Use basic rotational equations",
+      "question": "Which of the following correctly matches a translational kinematic equation with its rotational analogue?",
+      "options": {
+        "A": "v = u + at \\;\\leftrightarrow\\; \\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}",
+        "B": "s = ut + \\frac{1}{2}at^{2} \\;\\leftrightarrow\\; \\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}",
+        "C": "v^{2} = u^{2} + 2as \\;\\leftrightarrow\\; \\omega = \\omega_{0} + \\alpha t",
+        "D": "a = (v-u)/t \\;\\leftrightarrow\\; \\alpha = (\\omega^{2}-\\omega_{0}^{2})/\\theta"
+      },
+      "correct_option": "B",
+      "answer": "s = ut + \\frac{1}{2}at^{2} \\;\\leftrightarrow\\; \\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}",
+      "explanation": "The translational displacement equation \\(s = ut + \\frac{1}{2}at^{2}\\) corresponds to the rotational angular displacement equation \\(\\theta = \\omega_{0}t + \\frac{1}{2}\\alpha t^{2}\\). Option A mixes velocity with displacement, C pairs the wrong forms, and D gives a non‑standard and incorrect analogue.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01179",
+      "learning_point": "Analyse rolling motion at the required level",
+      "question": "A solid sphere of mass 2 kg and radius 0.1 m rolls without slipping down a rough incline of 20° from rest. If it descends a vertical height of 7 m, what is its linear speed at the bottom? (Take g = 9.8 m/s²)",
+      "options": {
+        "A": "9.9 m/s",
+        "B": "10.5 m/s",
+        "C": "11.0 m/s",
+        "D": "12.0 m/s"
+      },
+      "correct_option": "A",
+      "answer": "9.9 m/s",
+      "explanation": "Energy conservation: \\(mgh = \\frac{1}{2}mv^{2}+\\frac{1}{2}I\\omega^{2}\\). For a solid sphere, \\(I=\\frac{2}{5}mr^{2}\\) and \\(\\omega=v/r\\). Substituting gives \\(mgh = \\frac{7}{10}mv^{2}\\) ⇒ \\(v^{2}=\\frac{10}{7}gh = \\frac{10}{7}\\times9.8\\times7 = 70\\). Hence \\(v=\\sqrt{70}\\approx9.9\\,\\text{m/s}\\). The other options result from arithmetic errors or neglecting rotational kinetic energy.",
+      "difficulty": "hard"
+    }
+  ]
+}
