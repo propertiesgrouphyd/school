@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0037",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "According to Newton’s law of universal gravitation, the acceleration due to gravity g at the Earth’s surface is given by which expression?",
+      "options": {
+        "A": "g = G M / R",
+        "B": "g = G M / R^2",
+        "C": "g = G M^2 / R^2",
+        "D": "g = G / (M R^2)"
+      },
+      "correct_option": "B",
+      "answer": "g = G M / R^2",
+      "explanation": "Newton’s law gives the force F = G M m / R^2. Setting F = m g leads to g = G M / R^2. Option B is the correct formula; the others are dimensionally incorrect or miss a factor of mass.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "If a body is moved to a height h above the Earth’s surface (h ≪ R), how does the acceleration due to gravity g' compare to the standard value g?",
+      "options": {
+        "A": "g' = g (1 + h/R)",
+        "B": "g' = g (1 - h/R)",
+        "C": "g' = g (1 - 2h/R)",
+        "D": "g' = g (1 + 2h/R)"
+      },
+      "correct_option": "C",
+      "answer": "g' = g (1 - 2h/R)",
+      "explanation": "Using g' = G M/(R+h)^2 ≈ G M/R^2·(1 - 2h/R) for h ≪ R, the gravity decreases approximately by the factor (1‑2h/R). Option C reflects this approximation; the other options give incorrect dependence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "Inside a uniformly dense Earth, the acceleration due to gravity at a depth d below the surface (distance r = R - d from the centre) varies as:",
+      "options": {
+        "A": "g' = g (r / R)",
+        "B": "g' = g (r^2 / R^2)",
+        "C": "g' = g (R / r)",
+        "D": "g' = g (R^2 / r^2)"
+      },
+      "correct_option": "A",
+      "answer": "g' = g (r / R)",
+      "explanation": "Only the mass enclosed within radius r contributes to the gravitational field. For uniform density, that mass is proportional to r^3, giving g' = G M_enclosed / r^2 = G (M r^3 / R^3)/r^2 = g (r/R). Hence option A is correct; the others misrepresent the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with latitude qualitatively",
+      "question": "Why is the measured value of g slightly larger at the poles than at the equator?",
+      "options": {
+        "A": "Earth’s radius is larger at the poles, increasing g.",
+        "B": "Centrifugal acceleration due to Earth’s rotation is larger at the poles.",
+        "C": "Earth’s radius is smaller at the poles and centrifugal effect is zero at the poles.",
+        "D": "The gravitational constant G is larger at the poles."
+      },
+      "correct_option": "C",
+      "answer": "Earth’s radius is smaller at the poles and centrifugal effect is zero at the poles.",
+      "explanation": "The Earth is an oblate spheroid, so the polar radius is about 21 km less than the equatorial radius, making g larger. Additionally, the centrifugal acceleration from rotation is maximal at the equator and zero at the poles, further reducing g at the equator. Option C captures both effects; the other options are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Distinguish mass and weight",
+      "question": "Two objects, each of mass 10 kg, are placed on Earth and on the Moon. Which statement correctly distinguishes mass and weight?",
+      "options": {
+        "A": "Both objects have the same weight on Earth and Moon because mass is the same.",
+        "B": "Both objects have the same mass, but the object on Earth weighs more than the one on the Moon.",
+        "C": "The object on the Moon has greater weight because lunar gravity is stronger.",
+        "D": "Mass and weight are identical concepts, so both are the same on both bodies."
+      },
+      "correct_option": "B",
+      "answer": "Both objects have the same mass, but the object on Earth weighs more than the one on the Moon.",
+      "explanation": "Mass is an intrinsic property and does not change with location; both objects have 10 kg. Weight equals mass times local g, so the Earth object weighs about 98 N while the Moon object weighs about 16 N. Option B states this correctly; the others conflate mass and weight or reverse the relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "A hypothetical planet has the same radius as Earth but twice the mass. What would be the acceleration due to gravity at its surface compared to Earth’s g?",
+      "options": {
+        "A": "Same as Earth’s g",
+        "B": "Twice Earth’s g",
+        "C": "Half Earth’s g",
+        "D": "Four times Earth’s g"
+      },
+      "correct_option": "B",
+      "answer": "Twice Earth’s g",
+      "explanation": "g = G M / R^2. If M doubles while R stays the same, g doubles: g' = G (2M)/R^2 = 2 (G M / R^2) = 2g. Hence option B is correct; the others misapply the proportionality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "A student claims that the acceleration due to gravity does not change when moving to a height of 10 km above the Earth’s surface. Which response correctly addresses this misconception?",
+      "options": {
+        "A": "The claim is correct; g is constant up to 100 km.",
+        "B": "g decreases slightly with altitude; at 10 km it is about 0.3 % less than at sea level.",
+        "C": "g increases with altitude because you are farther from the Earth’s centre.",
+        "D": "g becomes zero at any altitude above the surface."
+      },
+      "correct_option": "B",
+      "answer": "g decreases slightly with altitude; at 10 km it is about 0.3 % less than at sea level.",
+      "explanation": "Using g' ≈ g (1‑2h/R), with h = 10 km and R ≈ 6370 km, the reduction is ≈0.3 %. Therefore gravity does decrease, though only marginally. Option B states the correct quantitative trend; the other options are either false or absurd.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "Considering a tunnel drilled through the Earth’s centre, how does the magnitude of g change as you move from the surface toward the centre?",
+      "options": {
+        "A": "It remains constant throughout the tunnel.",
+        "B": "It increases linearly, reaching maximum at the centre.",
+        "C": "It decreases linearly, becoming zero at the centre.",
+        "D": "It first decreases then increases, being zero at the centre."
+      },
+      "correct_option": "C",
+      "answer": "It decreases linearly, becoming zero at the centre.",
+      "explanation": "Inside a uniformly dense sphere, only the mass at radius r contributes, giving g ∝ r. As r decreases from R to 0, g decreases linearly to zero at the centre. Option C captures this; option D incorrectly adds an increase after the centre, while A and B contradict the linear decrease.",
+      "difficulty": "medium"
+    }
+  ]
+}

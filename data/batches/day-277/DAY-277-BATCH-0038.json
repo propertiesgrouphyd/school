@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0038",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with latitude qualitatively",
+      "question": "Considering the Earth's oblate shape and its rotation, which statement correctly compares the magnitude of the acceleration due to gravity (g) at the equator with that at the poles?",
+      "options": {
+        "A": "g at the equator is greater than g at the poles because the equatorial bulge brings the surface closer to the centre.",
+        "B": "g at the poles is greater than g at the equator because the poles are nearer the centre and experience no centrifugal reduction.",
+        "C": "g is the same at the equator and the poles because the Earth's mass is uniformly distributed.",
+        "D": "g at the equator is greater than g at the poles because the higher linear speed at the equator adds to the gravitational pull."
+      },
+      "correct_option": "B",
+      "answer": "g at the poles is greater than g at the equator because the poles are nearer the centre and experience no centrifugal reduction.",
+      "explanation": "The Earth is slightly flattened at the poles, making the polar radius smaller than the equatorial radius. Hence a point on the pole is closer to the Earth's centre, giving a larger GM/R^2 term. Additionally, the centrifugal acceleration due to Earth's rotation reduces the effective g at the equator but is absent at the poles. Therefore g is largest at the poles and smallest at the equator.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Distinguish mass and weight",
+      "question": "A 10 kg mass is taken from the surface of the Earth to the surface of the Moon. Which of the following statements is correct?",
+      "options": {
+        "A": "Both its mass and its weight remain unchanged.",
+        "B": "Its mass remains 10 kg, but its weight becomes about one‑sixth of its weight on Earth.",
+        "C": "Its mass decreases to about one‑sixth of 10 kg, while its weight stays the same.",
+        "D": "Both its mass and its weight become one‑sixth of their Earth values."
+      },
+      "correct_option": "B",
+      "answer": "Its mass remains 10 kg, but its weight becomes about one‑sixth of its weight on Earth.",
+      "explanation": "Mass is an intrinsic property of matter and does not change with location; it stays 10 kg. Weight is the force mg, where g on the Moon is roughly 1/6 that on Earth, so the weight reduces proportionally. Options A, C, and D incorrectly treat mass as variable or assume weight is unchanged.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "According to Newton’s law of universal gravitation, the acceleration due to gravity at the Earth’s surface is given by:",
+      "options": {
+        "A": "g = G M_earth / R_earth",
+        "B": "g = G M_earth / R_earth^2",
+        "C": "g = G M_earth^2 / R_earth",
+        "D": "g = G / (M_earth R_earth^2)"
+      },
+      "correct_option": "B",
+      "answer": "g = G M_earth / R_earth^2",
+      "explanation": "Newton’s law states that the gravitational force on a mass m at distance R from Earth’s centre is F = G M_earth m / R^2. Dividing by m gives the acceleration g = G M_earth / R^2. Option B reflects this relation; the other options have incorrect powers or missing terms.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with altitude",
+      "question": "If a point is raised to a small altitude h (h << R_earth) above the Earth’s surface, the acceleration due to gravity g′ at that altitude is approximately:",
+      "options": {
+        "A": "g′ = g (1 + 2h / R_earth)",
+        "B": "g′ = g (1 - h / R_earth)",
+        "C": "g′ = g (1 - 2h / R_earth)",
+        "D": "g′ = g (1 + h / R_earth)"
+      },
+      "correct_option": "C",
+      "answer": "g′ = g (1 - 2h / R_earth)",
+      "explanation": "From g = GM/R^2, expanding for R = R_earth + h and using the binomial approximation gives g′ ≈ g (1 - 2h / R_earth) for h much smaller than R_earth. Hence gravity decreases with altitude. Options A and D suggest an increase, and B uses the wrong coefficient.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with depth",
+      "question": "Assuming the Earth has uniform density, how does the acceleration due to gravity change when you go a distance d below the surface (d << R_earth)?",
+      "options": {
+        "A": "g′ = g (1 - d / R_earth)",
+        "B": "g′ = g (1 - 2d / R_earth)",
+        "C": "g′ = g (1 + d / R_earth)",
+        "D": "g′ = g (1 + 2d / R_earth)"
+      },
+      "correct_option": "A",
+      "answer": "g′ = g (1 - d / R_earth)",
+      "explanation": "Inside a uniformly dense sphere, only the mass at radius r < R contributes to the gravitational field, giving g′ = G M(r) / r^2 = G (M/R^3) r = g (r / R). With r = R - d, g′ = g (1 - d / R). Hence gravity decreases linearly with depth. Options B, C, D use incorrect factors or sign.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Understand variation with latitude qualitatively",
+      "question": "A simple pendulum with length L is calibrated at the equator where its period is T_eq. The same pendulum is moved to a latitude of 45° without changing L. How does its period T_45 compare to T_eq?",
+      "options": {
+        "A": "T_45 > T_eq because g is smaller at 45° latitude.",
+        "B": "T_45 = T_eq because pendulum period does not depend on latitude.",
+        "C": "T_45 < T_eq because g is larger at 45° latitude than at the equator.",
+        "D": "T_45 > T_eq because the pendulum experiences a larger centrifugal force at 45°."
+      },
+      "correct_option": "C",
+      "answer": "T_45 < T_eq because g is larger at 45° latitude than at the equator.",
+      "explanation": "Pendulum period T = 2π√(L/g). At higher latitudes the effective g is larger (smaller centrifugal effect and smaller radius), so the denominator increases, making T smaller. Therefore the period at 45° is slightly less than at the equator. Options A and D incorrectly state g is smaller, and B ignores the latitude effect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Distinguish mass and weight",
+      "question": "A 5 kg block is placed on a balance scale on Earth and then on the same scale on Mars (where g ≈ 0.38 g_Earth). Which statement correctly describes the readings?",
+      "options": {
+        "A": "The scale reads 5 kg on both planets because mass does not change.",
+        "B": "The scale reads 5 kg on Earth and about 1.9 kg on Mars because the scale measures weight.",
+        "C": "The scale reads about 12.3 N on Earth and about 4.7 N on Mars, but both are displayed as 5 kg.",
+        "D": "The scale reads 5 kg on Earth and about 1.9 kg on Mars because the scale directly measures weight and converts it to mass using the local g."
+      },
+      "correct_option": "D",
+      "answer": "The scale reads 5 kg on Earth and about 1.9 kg on Mars because the scale directly measures weight and converts it to mass using the local g.",
+      "explanation": "A balance scale actually measures the force (weight) and then divides by the local acceleration due to gravity to display a mass value. On Earth, weight = 5 kg × 9.8 m/s² ≈ 49 N, which the scale interprets as 5 kg. On Mars, weight = 5 kg × 0.38×9.8 ≈ 18.6 N, which the scale interprets as 18.6 N / (0.38×9.8 m/s²) ≈ 1.9 kg. Option A ignores the conversion, B incorrectly says the scale measures weight but displays weight as kg, and C mixes units incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01181",
+      "learning_point": "Relate g to universal gravitation",
+      "question": "Suppose the Earth’s mass were suddenly doubled while its radius remained unchanged. What would be the new value of the acceleration due to gravity at the surface, expressed in terms of the original g?",
+      "options": {
+        "A": "g_new = 0.5 g",
+        "B": "g_new = g",
+        "C": "g_new = 2 g",
+        "D": "g_new = 4 g"
+      },
+      "correct_option": "C",
+      "answer": "g_new = 2 g",
+      "explanation": "From g = GM/R², if M → 2M while R stays the same, g scales linearly with mass: g_new = G(2M)/R² = 2(GM/R²) = 2g. Therefore the surface gravity would double. Options A and D use incorrect scaling, and B suggests no change.",
+      "difficulty": "medium"
+    }
+  ]
+}
