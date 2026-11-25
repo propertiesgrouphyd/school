@@ -1,0 +1,150 @@
+{
+  "day": 279,
+  "batch_id": "DAY-279-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Compare material stiffness",
+      "question": "Material A (steel) has a Young's modulus of 2.0×10^11 N/m², while Material B (rubber) has a Young's modulus of 1.0×10^6 N/m². Which material is stiffer?",
+      "options": {
+        "A": "Steel",
+        "B": "Rubber",
+        "C": "Both are equally stiff",
+        "D": "Cannot be determined from the given data"
+      },
+      "correct_option": "A",
+      "answer": "Steel",
+      "explanation": "Stiffness of a material in tension is directly proportional to its Young's modulus. Since steel's Young's modulus (2.0×10^11 N/m²) is many orders of magnitude larger than rubber's (1.0×10^6 N/m²), steel is far stiffer. Options B, C, and D are incorrect because they ignore the quantitative difference in moduli.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define Young's modulus",
+      "question": "A wire of original length L and cross‑sectional area A is subjected to a tensile force F, producing an extension ΔL. Which expression correctly defines Young's modulus (Y) for this situation?",
+      "options": {
+        "A": "Y = (F/A) ÷ (ΔL/L)",
+        "B": "Y = (ΔL/L) ÷ (F/A)",
+        "C": "Y = (F·L) ÷ (A·ΔL)",
+        "D": "Y = (A·ΔL) ÷ (F·L)"
+      },
+      "correct_option": "A",
+      "answer": "Y = (F/A) ÷ (ΔL/L)",
+      "explanation": "Young's modulus is defined as the ratio of normal stress (F/A) to normal strain (ΔL/L) in the linear elastic region. Option A reflects this definition. Options B, C, and D invert or rearrange the ratio incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define bulk modulus",
+      "question": "Which of the following statements about bulk modulus is correct?",
+      "options": {
+        "A": "Bulk modulus relates to the change in volume of a material under uniform pressure.",
+        "B": "Bulk modulus is the same as Young's modulus.",
+        "C": "Bulk modulus measures the material's resistance to shear deformation.",
+        "D": "Bulk modulus is unrelated to any type of deformation."
+      },
+      "correct_option": "A",
+      "answer": "Bulk modulus relates to the change in volume of a material under uniform pressure.",
+      "explanation": "Bulk modulus (K) is defined as K = -ΔP / (ΔV/V), i.e., the ratio of applied pressure to the resulting fractional change in volume. It is distinct from Young's modulus (tensile) and shear modulus (shear). Hence options B, C, and D are misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define shear modulus",
+      "question": "Shear modulus (G) characterizes a material's response to shear stress. Which formula correctly expresses G?",
+      "options": {
+        "A": "G = (shear stress) ÷ (shear strain)",
+        "B": "G = (normal stress) ÷ (normal strain)",
+        "C": "G = (pressure) ÷ (fractional volume change)",
+        "D": "G = (force) ÷ (area)"
+      },
+      "correct_option": "A",
+      "answer": "G = (shear stress) ÷ (shear strain)",
+      "explanation": "Shear modulus is defined as the ratio of shear stress (force parallel to the face per unit area) to shear strain (angular deformation). Option A states this definition. Options B and C describe Young's and bulk moduli respectively, while D is simply pressure, not a modulus.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Calculate elastic moduli",
+      "question": "A cylindrical rod of length 1.0 m and cross‑sectional area 1.0×10⁻⁴ m² is pulled with a force of 1.0×10⁴ N, causing an extension of 0.5 mm. What is the Young's modulus of the material?",
+      "options": {
+        "A": "2.0×10¹¹ N/m²",
+        "B": "1.0×10¹¹ N/m²",
+        "C": "5.0×10¹⁰ N/m²",
+        "D": "2.5×10¹¹ N/m²"
+      },
+      "correct_option": "A",
+      "answer": "2.0×10¹¹ N/m²",
+      "explanation": "Stress = F/A = 1.0×10⁴ N / 1.0×10⁻⁴ m² = 1.0×10⁸ N/m². Strain = ΔL/L = 0.5 mm = 5×10⁻⁴ m / 1.0 m = 5×10⁻⁴. Young's modulus Y = stress/strain = (1.0×10⁸) / (5×10⁻⁴) = 2.0×10¹¹ N/m². Hence option A is correct; the others are numerically incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Compare material stiffness",
+      "question": "Material X has Young's modulus 70 GPa and bulk modulus 120 GPa. Material Y has Young's modulus 200 GPa and bulk modulus 150 GPa. Which statement is true regarding their overall stiffness under both tensile and volumetric loads?",
+      "options": {
+        "A": "Material X is stiffer in both tensile and volumetric deformations.",
+        "B": "Material Y is stiffer in both tensile and volumetric deformations.",
+        "C": "Material X is stiffer in tension but Material Y is stiffer in compression.",
+        "D": "The relative stiffness cannot be determined without Poisson's ratio."
+      },
+      "correct_option": "B",
+      "answer": "Material Y is stiffer in both tensile and volumetric deformations.",
+      "explanation": "Higher Young's modulus indicates greater resistance to tensile deformation; higher bulk modulus indicates greater resistance to volume change. Material Y has larger values for both moduli, so it is overall stiffer. Option A is opposite, C mixes the two moduli incorrectly, and D is unnecessary because the given moduli already allow direct comparison.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define Young's modulus",
+      "question": "Young's modulus of a material is defined as:",
+      "options": {
+        "A": "The ratio of tensile stress to tensile strain in the linear elastic region.",
+        "B": "The ratio of shear stress to shear strain.",
+        "C": "The ratio of applied pressure to fractional change in volume.",
+        "D": "The ratio of force to cross‑sectional area."
+      },
+      "correct_option": "A",
+      "answer": "The ratio of tensile stress to tensile strain in the linear elastic region.",
+      "explanation": "Young's modulus (Y) quantifies a material's resistance to uniaxial stretching and is given by Y = stress/strain for normal (tensile) loading. Options B and C describe shear and bulk moduli, while D describes pressure, not a modulus.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define bulk modulus",
+      "question": "Bulk modulus of a material is:",
+      "options": {
+        "A": "The ratio of applied pressure to the resulting fractional change in volume.",
+        "B": "The ratio of tensile stress to tensile strain.",
+        "C": "The ratio of shear stress to shear strain.",
+        "D": "The ratio of force to area."
+      },
+      "correct_option": "A",
+      "answer": "The ratio of applied pressure to the resulting fractional change in volume.",
+      "explanation": "Bulk modulus (K) measures resistance to uniform compression and is defined as K = -ΔP / (ΔV/V). Option A captures this definition. Options B and C refer to Young's and shear moduli, while D is simply pressure.",
+      "difficulty": "easy"
+    }
+  ]
+}
