@@ -1,0 +1,78 @@
+{
+  "day": 279,
+  "batch_id": "DAY-279-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-279-97",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define bulk modulus",
+      "question": "Which of the following statements correctly defines the bulk modulus of a material?",
+      "options": {
+        "A": "It is the ratio of the increase in pressure to the fractional decrease in volume of a material under uniform compression.",
+        "B": "It is the ratio of shear stress to shear strain.",
+        "C": "It is the ratio of tensile stress to tensile strain.",
+        "D": "It is the product of the applied pressure and the original volume."
+      },
+      "correct_option": "A",
+      "answer": "It is the ratio of the increase in pressure to the fractional decrease in volume of a material under uniform compression.",
+      "explanation": "Bulk modulus K measures a material's resistance to uniform compression and is defined as K = -V (ΔP/ΔV) = (increase in pressure)/(fractional decrease in volume). Option A states this definition correctly. Option B describes shear modulus, Option C describes Young's (elastic) modulus, and Option D is not a definition of any elastic modulus.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-279-98",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Define shear modulus",
+      "question": "The shear modulus G of a material is best expressed by which of the following relations?",
+      "options": {
+        "A": "G = τ / γ, where τ is shear stress and γ is shear strain.",
+        "B": "G = -V (ΔP/ΔV), where ΔP is pressure change and ΔV is volume change.",
+        "C": "G = σ / ε, where σ is normal stress and ε is normal strain.",
+        "D": "G = (ΔL/L) / (F/A), where ΔL is change in length."
+      },
+      "correct_option": "A",
+      "answer": "G = τ / γ, where τ is shear stress and γ is shear strain.",
+      "explanation": "Shear modulus (also called modulus of rigidity) is defined as the ratio of shear stress to shear strain, G = τ/γ. Option B is the bulk modulus formula, Option C is Young's modulus, and Option D mixes unrelated quantities.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-279-99",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Calculate elastic moduli",
+      "question": "A cylindrical rod of a certain material has length L = 0.5 m and cross‑sectional area A = 1.0×10⁻⁴ m². When a tensile force of 500 N is applied, the rod elongates by 2.5×10⁻⁵ m. The same material is subjected to a hydrostatic pressure increase of 2×10⁸ Pa, producing a fractional volume decrease of 1×10⁻⁴. Under a shear stress of 30 MPa the material exhibits a shear strain of 0.0015. Which statement about the calculated elastic moduli is correct?",
+      "options": {
+        "A": "Young's modulus = 100 GPa, Bulk modulus = 2000 GPa, Shear modulus = 20 GPa; the bulk modulus is the largest.",
+        "B": "Young's modulus = 20 GPa, Bulk modulus = 100 GPa, Shear modulus = 2000 GPa; the shear modulus is the largest.",
+        "C": "Young's modulus = 2000 GPa, Bulk modulus = 20 GPa, Shear modulus = 100 GPa; the Young's modulus is the largest.",
+        "D": "All three moduli have the same numerical value of 100 GPa."
+      },
+      "correct_option": "A",
+      "answer": "Young's modulus = 100 GPa, Bulk modulus = 2000 GPa, Shear modulus = 20 GPa; the bulk modulus is the largest.",
+      "explanation": "Calculations: \n- Stress = F/A = 500 N / 1×10⁻⁴ m² = 5×10⁶ Pa. Strain = ΔL/L = 2.5×10⁻⁵ m / 0.5 m = 5×10⁻⁵. Young's modulus E = stress/strain = 5×10⁶ / 5×10⁻⁵ = 1×10¹¹ Pa = 100 GPa.\n- Bulk modulus K = ΔP / (ΔV/V) = 2×10⁸ Pa / 1×10⁻⁴ = 2×10¹² Pa = 2000 GPa.\n- Shear modulus G = τ/γ = 30×10⁶ Pa / 0.0015 = 2×10⁷ Pa = 20 GPa.\nThus option A lists the correct values and correctly notes that the bulk modulus is the greatest. The other options mix up the values.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-279-100",
+      "learning_unit_id": "LU-01190",
+      "learning_point": "Compare material stiffness",
+      "question": "Material X has Young's modulus 70 GPa, Bulk modulus 120 GPa, and Shear modulus 26 GPa. Material Y has Young's modulus 200 GPa, Bulk modulus 150 GPa, and Shear modulus 80 GPa. Which material offers greater resistance to shape change when subjected to a shear stress?",
+      "options": {
+        "A": "Material X",
+        "B": "Material Y",
+        "C": "Both materials have equal resistance to shear deformation.",
+        "D": "The information given is insufficient to decide."
+      },
+      "correct_option": "B",
+      "answer": "Material Y",
+      "explanation": "Resistance to shape change under shear is quantified by the shear modulus (G). Material X has G = 26 GPa, whereas Material Y has G = 80 GPa. Since a higher shear modulus means greater rigidity against shear deformation, Material Y is stiffer in shear. Options A, C, and D are therefore incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 279,
+  "batch_id": "DAY-279-BATCH-0030",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Apply pressure concepts to fluids",
+      "question": "A rectangular plate of area 0.5 m² is placed horizontally at the bottom of a tank containing water (density 1000 kg/m³). The water depth above the plate is 8 m. What is the magnitude of the force exerted by the water on the plate?",
+      "options": {
+        "A": "3.9 × 10^4 N",
+        "B": "1.96 × 10^4 N",
+        "C": "7.84 × 10^4 N",
+        "D": "5.88 × 10^4 N"
+      },
+      "correct_option": "A",
+      "answer": "3.9 × 10^4 N",
+      "explanation": "Pressure at depth h is p = ρgh = 1000×9.8×8 = 7.84×10^4 Pa. Force = p×area = 7.84×10^4×0.5 = 3.92×10^4 N ≈ 3.9×10^4 N, which is option A. The other options result from using incorrect area or forgetting the factor of 0.5.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Define pressure",
+      "question": "A student pushes on a vertical wall with a force of 50 N over an area of 0.20 m². What is the pressure exerted on the wall?",
+      "options": {
+        "A": "250 Pa",
+        "B": "500 Pa",
+        "C": "100 Pa",
+        "D": "125 Pa"
+      },
+      "correct_option": "A",
+      "answer": "250 Pa",
+      "explanation": "Pressure is defined as force per unit area: p = F/A = 50 N / 0.20 m² = 250 N/m² = 250 Pa. Option A is correct; the other values arise from arithmetic errors such as using the wrong area or forgetting to divide.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Calculate pressure",
+      "question": "Which of the following statements about fluid pressure is NOT correct?",
+      "options": {
+        "A": "Pressure at a given depth is the same in all directions.",
+        "B": "Pressure increases linearly with depth.",
+        "C": "Pressure depends on the weight of the fluid column directly above the point.",
+        "D": "Pressure at a point depends on the shape of the container."
+      },
+      "correct_option": "D",
+      "answer": "Pressure at a point depends on the shape of the container.",
+      "explanation": "In a static fluid, pressure at a point depends only on the depth (and fluid density), not on the container’s shape. Hence statement D is false. Statements A, B, and C correctly describe hydrostatic pressure behavior.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand atmospheric pressure",
+      "question": "Why does a mercury barometer at sea level show a column height of about 760 mm?",
+      "options": {
+        "A": "Because mercury is denser than water, a shorter column balances atmospheric pressure.",
+        "B": "Atmospheric pressure equals the weight of the mercury column of height 760 mm.",
+        "C": "The barometer measures the temperature of the atmosphere.",
+        "D": "The vacuum at the top of the tube reduces the pressure."
+      },
+      "correct_option": "B",
+      "answer": "Atmospheric pressure equals the weight of the mercury column of height 760 mm.",
+      "explanation": "A barometer balances atmospheric pressure with the weight of a mercury column: p_atm = ρ_mercury·g·h. At sea level, h ≈ 760 mm gives p_atm ≈ 1.01×10^5 Pa. Option B states this principle. Option A is partially true but does not explain the specific height; C and D are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Understand pressure variation with depth",
+      "question": "Two vertical tubes are open at the top. Tube A contains water (ρ = 1000 kg/m³) to a depth of 5 m, and tube B contains oil (ρ = 800 kg/m³) to the same depth. Which statement correctly compares the pressure at the bottom of the two tubes?",
+      "options": {
+        "A": "The pressure at the bottom of tube A is greater than that in tube B.",
+        "B": "The pressure at the bottom of tube B is greater than that in tube A.",
+        "C": "The pressures at the bottoms of both tubes are equal.",
+        "D": "The pressures cannot be compared without knowing the fluid viscosities."
+      },
+      "correct_option": "A",
+      "answer": "The pressure at the bottom of tube A is greater than that in tube B.",
+      "explanation": "Hydrostatic pressure p = ρgh. For tube A: p = 1000×9.8×5 = 4.9×10^4 Pa. For tube B: p = 800×9.8×5 = 3.92×10^4 Pa. Hence tube A has higher pressure. Option A is correct; B is opposite, C ignores density difference, D is irrelevant because viscosity does not affect static pressure.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Apply pressure concepts to fluids",
+      "question": "A piston of area 0.01 m² supports a 50 kg mass. The piston is placed in a fluid of density 1000 kg/m³. Ignoring atmospheric pressure, what minimum depth of the fluid is required to just support the mass?",
+      "options": {
+        "A": "4.9 m",
+        "B": "5.0 m",
+        "C": "5.1 m",
+        "D": "6.0 m"
+      },
+      "correct_option": "B",
+      "answer": "5.0 m",
+      "explanation": "Required pressure = weight/area = (50×9.8)/0.01 = 4.9×10^4 Pa. Depth h = p/(ρg) = 4.9×10^4/(1000×9.8) = 5.0 m. Option B matches. Options A and C are rounding errors; D is too large.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Define pressure",
+      "question": "Pressure is defined as:",
+      "options": {
+        "A": "Force per unit area",
+        "B": "Area per unit force",
+        "C": "Mass per unit volume",
+        "D": "Energy per unit time"
+      },
+      "correct_option": "A",
+      "answer": "Force per unit area",
+      "explanation": "By definition, pressure (p) = Force (F) divided by the area (A) over which it acts, p = F/A. Option A states this correctly; the other options describe different physical quantities (inverse pressure, density, power).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01191",
+      "learning_point": "Calculate pressure",
+      "question": "A force of 200 N acts uniformly on a surface of area 0.04 m². What is the pressure exerted on the surface?",
+      "options": {
+        "A": "5.0 × 10^3 Pa",
+        "B": "8.0 × 10^3 Pa",
+        "C": "2.0 × 10^3 Pa",
+        "D": "1.0 × 10^4 Pa"
+      },
+      "correct_option": "A",
+      "answer": "5.0 × 10^3 Pa",
+      "explanation": "Pressure p = F/A = 200 N / 0.04 m² = 5000 N/m² = 5.0×10^3 Pa, which is option A. The other options result from incorrect division or multiplication.",
+      "difficulty": "easy"
+    }
+  ]
+}
