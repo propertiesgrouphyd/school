@@ -1,0 +1,150 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0062",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "What is the correct definition of escape speed for a celestial body?",
+      "options": {
+        "A": "The minimum speed required for an object to leave the body's gravitational field without any further propulsion",
+        "B": "The speed at which a projectile returns to the launch point after reaching its highest point",
+        "C": "The speed needed to place an object into a stable circular orbit just above the surface",
+        "D": "The speed of sound in the planet's atmosphere"
+      },
+      "correct_option": "A",
+      "answer": "The minimum speed required for an object to leave the body's gravitational field without any further propulsion",
+      "explanation": "Escape speed is defined as the least speed an object must have at the surface of a planet (or any massive body) so that its kinetic energy can overcome the gravitational potential energy and it can move to infinity without any additional thrust. Options B, C and D describe unrelated concepts (return trajectory, orbital speed, and acoustic speed).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "Which of the following equations correctly gives the escape speed \\(v_{e}\\) from a planet of mass \\(M\\) and radius \\(R\\)?",
+      "options": {
+        "A": "\\(v_{e}=\\sqrt{\\frac{2GM}{R}}\\)",
+        "B": "\\(v_{e}=\\sqrt{\\frac{GM}{R}}\\)",
+        "C": "\\(v_{e}=\\sqrt{\\frac{2GM}{R^{2}}}\\)",
+        "D": "\\(v_{e}=\\frac{GM}{R}\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(v_{e}=\\sqrt{\\frac{2GM}{R}}\\)",
+      "explanation": "Starting from energy conservation, the kinetic energy \\(\\frac12 mv_{e}^{2}\\) must equal the gravitational potential energy \\(\\frac{GMm}{R}\\) needed to reach infinity. Solving gives \\(v_{e}=\\sqrt{2GM/R}\\). Options B, C, and D arise from incorrect algebraic manipulations or missing the factor 2.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "A planet has twice the mass of Earth and also twice the radius of Earth. How does its escape speed compare with Earth's escape speed?",
+      "options": {
+        "A": "It is the same as Earth's escape speed",
+        "B": "It is \\(\\sqrt{2}\\) times Earth's escape speed",
+        "C": "It is twice Earth's escape speed",
+        "D": "It is \\(1/\\sqrt{2}\\) times Earth's escape speed"
+      },
+      "correct_option": "A",
+      "answer": "It is the same as Earth's escape speed",
+      "explanation": "Escape speed varies as \\(\\sqrt{M/R}\\). For the given planet, \\(M=2M_{E}\\) and \\(R=2R_{E}\\); thus \\(\\sqrt{M/R}=\\sqrt{2/2}=1\\). Hence the escape speed equals that of Earth. The other options correspond to incorrect scaling of the ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Two rockets, one of mass 500 kg and another of mass 2000 kg, are launched from the same planet with the same initial speed equal to the planet's escape speed. Which of the following statements is true?",
+      "options": {
+        "A": "Both rockets will escape the planet's gravitational field",
+        "B": "Only the lighter rocket will escape",
+        "C": "Only the heavier rocket will escape",
+        "D": "Neither rocket will escape"
+      },
+      "correct_option": "A",
+      "answer": "Both rockets will escape the planet's gravitational field",
+      "explanation": "Escape speed depends only on the planet's mass and radius, not on the mass of the projectile. Since both rockets are given the same escape speed, both will reach infinity regardless of their masses. Options B, C, and D ignore this independence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "Statement: \"The escape speed of a planet depends on the mass of the object that is launched from its surface.\" Which response is correct?",
+      "options": {
+        "A": "The statement is true for all objects",
+        "B": "The statement is false; escape speed depends only on the planet's mass and radius",
+        "C": "The statement is true only for rockets with engines",
+        "D": "The statement is false because atmospheric drag determines escape speed"
+      },
+      "correct_option": "B",
+      "answer": "The statement is false; escape speed depends only on the planet's mass and radius",
+      "explanation": "Escape speed is derived from the planet’s gravitational potential and is independent of the projectile’s mass. Atmospheric drag can affect the actual launch but does not change the theoretical escape speed. Hence option B is correct; the others misattribute dependence to object mass or drag.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "In deriving the escape‑speed formula, which of the following reasoning steps is essential?",
+      "options": {
+        "A": "Equating the kinetic energy \\(\\frac12 mv^{2}\\) to the gravitational potential energy \\(\\frac{GMm}{R}\\) required to reach infinity",
+        "B": "Equating the kinetic energy to twice the gravitational potential energy at the surface",
+        "C": "Setting the kinetic energy to zero at the planet’s surface",
+        "D": "Balancing the centripetal force with the gravitational force at the surface"
+      },
+      "correct_option": "A",
+      "answer": "Equating the kinetic energy \\(\\frac12 mv^{2}\\) to the gravitational potential energy \\(\\frac{GMm}{R}\\) required to reach infinity",
+      "explanation": "The derivation uses conservation of mechanical energy: the kinetic energy at launch must equal the work needed to overcome the gravitational potential energy from the surface to infinity. This yields \\(\\frac12 mv^{2}=\\frac{GMm}{R}\\) and leads to \\(v=\\sqrt{2GM/R}\\). Options B, C, and D are unrelated to the energy‑based derivation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "Planet X has mass 4 M⊕ and radius 2 R⊕. Planet Y has mass 1 M⊕ and radius 0.5 R⊕ (M⊕ and R⊕ are Earth’s mass and radius). Which planet has the greater escape speed?",
+      "options": {
+        "A": "Planet X has a higher escape speed than Planet Y",
+        "B": "Planet Y has a higher escape speed than Planet X",
+        "C": "Both planets have the same escape speed",
+        "D": "The comparison cannot be made without knowing the planets' densities"
+      },
+      "correct_option": "C",
+      "answer": "Both planets have the same escape speed",
+      "explanation": "Escape speed ∝ √(M/R). For Planet X: √(4/2)=√2. For Planet Y: √(1/0.5)=√2. Both give the same value, so their escape speeds are equal. Option D is unnecessary because the formula already incorporates mass and radius; density is not required separately.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "A spacecraft of mass \\(m\\) is launched from Earth with a speed exactly equal to Earth's escape speed. Which statement is correct?",
+      "options": {
+        "A": "The required escape speed does not depend on the spacecraft’s mass",
+        "B": "The required escape speed increases linearly with the spacecraft’s mass",
+        "C": "The required escape speed decreases as the spacecraft’s mass increases",
+        "D": "The required escape speed depends on the shape of the spacecraft"
+      },
+      "correct_option": "A",
+      "answer": "The required escape speed does not depend on the spacecraft’s mass",
+      "explanation": "Escape speed is a property of the planet (or celestial body) alone, derived from its mass and radius. It is independent of the mass, shape, or composition of the object being launched. Therefore option A is correct; the other options incorrectly introduce dependence on mass or shape.",
+      "difficulty": "hard"
+    }
+  ]
+}

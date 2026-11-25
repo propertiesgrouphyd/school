@@ -1,0 +1,78 @@
+{
+  "day": 277,
+  "batch_id": "DAY-277-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-277-97",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Define escape speed",
+      "question": "Which of the following best defines the escape speed of a planet?",
+      "options": {
+        "A": "The minimum speed required for an object to move away from the planet's surface and reach an infinite distance without any further propulsion.",
+        "B": "The speed needed for a projectile to reach its highest point in the atmosphere.",
+        "C": "The speed at which an object will orbit the planet in a circular orbit just above the surface.",
+        "D": "The speed required for an object to fall back to the planet after being thrown upward."
+      },
+      "correct_option": "A",
+      "answer": "The minimum speed required for an object to move away from the planet's surface and reach an infinite distance without any further propulsion.",
+      "explanation": "Escape speed is defined as the minimum speed an object must have at the surface of a celestial body to move away indefinitely, reaching infinity, without any additional thrust. Options B, C, and D describe unrelated concepts such as maximum height, orbital speed, and falling back, respectively.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-277-98",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Derive escape-speed relation",
+      "question": "Using conservation of energy, which expression correctly gives the escape speed \\(v_e\\) from the surface of a planet of mass \\(M\\) and radius \\(R\\)?",
+      "options": {
+        "A": "v_e = \\sqrt{\\dfrac{2GM}{R}}",
+        "B": "v_e = \\sqrt{\\dfrac{GM}{R}}",
+        "C": "v_e = \\sqrt{\\dfrac{2GM}{R^2}}",
+        "D": "v_e = \\sqrt{\\dfrac{GM}{2R}}"
+      },
+      "correct_option": "A",
+      "answer": "v_e = \\sqrt{\\dfrac{2GM}{R}}",
+      "explanation": "At the surface, kinetic energy (½mv_e^2) must equal the gravitational potential energy needed to reach infinity (GMm/R). Setting ½mv_e^2 = GMm/R gives v_e = sqrt(2GM/R). Options B, C, and D miss the factor of 2 or have incorrect dimensions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-277-99",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Relate escape speed to planetary mass and radius",
+      "question": "Planet X has twice the Earth's mass and 1.5 times Earth's radius. Planet Y has the same mass and radius as Earth. Which planet has the higher escape speed?",
+      "options": {
+        "A": "Planet X has a higher escape speed than Planet Y.",
+        "B": "Planet Y has a higher escape speed than Planet X.",
+        "C": "Both planets have the same escape speed.",
+        "D": "The escape speeds cannot be compared without knowing the planets' densities."
+      },
+      "correct_option": "A",
+      "answer": "Planet X has a higher escape speed than Planet Y.",
+      "explanation": "Escape speed varies as \\(v_e \\propto \\sqrt{M/R}\\). For Planet X, \\(\\sqrt{(2M)/(1.5R)} = \\sqrt{1.333\\,M/R} \\approx 1.155\\sqrt{M/R}\\). For Planet Y, \\(\\sqrt{M/R}\\). Hence Planet X's escape speed is about 15.5% larger. Option D is unnecessary because mass and radius already determine the speed.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-277-100",
+      "learning_unit_id": "LU-01183",
+      "learning_point": "Understand independence from projectile mass",
+      "question": "Why is the escape speed of a planet independent of the mass of the projectile launched from its surface?",
+      "options": {
+        "A": "Because gravitational force does not act on the projectile.",
+        "B": "Because the projectile’s mass appears in both kinetic and potential energy terms, which cancel when equating them.",
+        "C": "Because escape speed depends on the square of the projectile’s mass.",
+        "D": "Because the shape of the projectile determines the required speed, not its mass."
+      },
+      "correct_option": "B",
+      "answer": "Because the projectile’s mass appears in both kinetic and potential energy terms, which cancel when equating them.",
+      "explanation": "In the energy balance ½mv_e^2 = GMm/R, the mass \\(m\\) of the projectile cancels, leaving \\(v_e = \\sqrt{2GM/R}\\). Hence escape speed depends only on the planet’s mass and radius, not on the projectile’s mass. Options A, C, and D are incorrect statements.",
+      "difficulty": "hard"
+    }
+  ]
+}
