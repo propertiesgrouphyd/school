@@ -1,0 +1,150 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Relate pressure changes to flow speed",
+      "question": "A horizontal pipe narrows from a diameter of 10 cm to 5 cm. Water flows steadily through it. Which statement correctly relates the pressure and flow speed at the two sections?",
+      "options": {
+        "A": "The pressure is higher at the narrower section because the fluid is compressed.",
+        "B": "The pressure is lower at the narrower section because the speed is higher there.",
+        "C": "The pressure remains the same at both sections because the pipe is horizontal.",
+        "D": "The pressure is higher at the narrower section because kinetic energy is converted to pressure energy."
+      },
+      "correct_option": "B",
+      "answer": "The pressure is lower at the narrower section because the speed is higher there.",
+      "explanation": "According to Bernoulli's principle, for an ideal steady flow the sum of pressure energy, kinetic energy per unit volume, and potential energy per unit volume is constant along a streamline. When the pipe narrows, the fluid speed increases, so the kinetic energy term (½ρv²) increases. To keep the total constant, the pressure energy must decrease, making the pressure lower at the narrower section. Options A, C, and D contradict this relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "State Bernoulli's principle",
+      "question": "Consider water flowing steadily through a horizontal pipe that first widens and then narrows. According to Bernoulli's principle, which statement is true?",
+      "options": {
+        "A": "The sum of pressure energy, kinetic energy per unit volume, and potential energy per unit volume is constant along a streamline.",
+        "B": "Pressure is directly proportional to flow speed at all points.",
+        "C": "The fluid density changes to maintain continuity.",
+        "D": "Viscous losses increase the total mechanical energy along the flow."
+      },
+      "correct_option": "A",
+      "answer": "The sum of pressure energy, kinetic energy per unit volume, and potential energy per unit volume is constant along a streamline.",
+      "explanation": "Bernoulli's principle states that for an incompressible, non‑viscous fluid in steady flow, the total mechanical energy per unit volume (pressure + ½ρv² + ρgh) remains constant along a streamline. Hence option A correctly states the principle. Options B, C, and D are false: pressure is inversely related to speed, density is assumed constant for incompressible flow, and viscous losses actually decrease mechanical energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Understand assumptions",
+      "question": "Which of the following is NOT an assumption underlying Bernoulli's equation for an ideal fluid?",
+      "options": {
+        "A": "The flow is steady.",
+        "B": "The fluid is incompressible.",
+        "C": "The fluid has no viscosity.",
+        "D": "The fluid is compressible."
+      },
+      "correct_option": "D",
+      "answer": "The fluid is compressible.",
+      "explanation": "Bernoulli's equation is derived for an ideal fluid that is steady, incompressible, and non‑viscous. Therefore, assuming compressibility contradicts the ideal‑fluid model, making option D the incorrect assumption. Options A, B, and C are valid assumptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Apply Bernoulli equation",
+      "question": "Water (ρ = 1000 kg·m⁻³) flows steadily in a horizontal pipe. At point A the pressure is 200 kPa and the speed is 5 m·s⁻¹. At point B the speed is 10 m·s⁻¹ and the height is the same as at A. What is the pressure at point B?",
+      "options": {
+        "A": "212.5 kPa",
+        "B": "162.5 kPa",
+        "C": "150 kPa",
+        "D": "175 kPa"
+      },
+      "correct_option": "B",
+      "answer": "162.5 kPa",
+      "explanation": "Bernoulli's equation for a horizontal flow: P_A + ½ρv_A² = P_B + ½ρv_B². Compute kinetic terms: ½ρv_A² = 0.5 × 1000 × 5² = 12,500 Pa = 12.5 kPa. ½ρv_B² = 0.5 × 1000 × 10² = 50,000 Pa = 50 kPa. Rearranging gives P_B = P_A + 12.5 kPa – 50 kPa = 200 kPa – 37.5 kPa = 162.5 kPa. Hence option B is correct. The other options result from arithmetic errors or neglecting the kinetic‑energy change.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Explain basic applications",
+      "question": "Which statement correctly compares the use of Bernoulli's principle in an airplane wing and a venturi flow meter?",
+      "options": {
+        "A": "Both devices generate lift by creating a pressure difference.",
+        "B": "Both devices measure a pressure drop to infer the flow rate.",
+        "C": "An airplane wing uses the pressure difference to produce lift, whereas a venturi meter uses the pressure drop to measure the flow rate.",
+        "D": "A venturi meter creates lift in the same way as an airplane wing."
+      },
+      "correct_option": "C",
+      "answer": "An airplane wing uses the pressure difference to produce lift, whereas a venturi meter uses the pressure drop to measure the flow rate.",
+      "explanation": "Bernoulli's principle explains that faster flow leads to lower pressure. In an airplane wing, the shape causes higher speed over the upper surface, lowering pressure and generating lift (application). In a venturi meter, the constriction increases speed, lowers pressure, and the measured pressure difference is used to calculate the volumetric flow rate. Options A, B, and D misrepresent the distinct purposes of the two devices.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Relate pressure changes to flow speed",
+      "question": "In a horizontal pipe, the speed of an incompressible fluid doubles from v to 2v. By how much does the pressure change relative to the original dynamic pressure term (½ρv²)?",
+      "options": {
+        "A": "No change",
+        "B": "Decrease by ½ × (½ρv²)",
+        "C": "Decrease by 1 × (½ρv²)",
+        "D": "Decrease by 3/2 × (½ρv²)"
+      },
+      "correct_option": "D",
+      "answer": "Decrease by 3/2 × (½ρv²)",
+      "explanation": "Bernoulli's equation (horizontal flow) gives P₁ + ½ρv₁² = P₂ + ½ρv₂². Let v₁ = v, v₂ = 2v. Then ½ρv₂² = ½ρ(4v²) = 4 × ½ρv². The increase in kinetic energy per unit volume is 4 × ½ρv² – ½ρv² = 3 × ½ρv². To keep the sum constant, the pressure must drop by exactly this amount, i.e., 3 × ½ρv² = 3/2 × (½ρv²). Hence option D is correct. Options A, B, and C underestimate the required pressure drop.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "State Bernoulli's principle",
+      "question": "Bernoulli's principle states that for an ideal fluid in steady flow, the sum of which quantities remains constant along a streamline?",
+      "options": {
+        "A": "Pressure only",
+        "B": "Velocity only",
+        "C": "Pressure energy, kinetic energy per unit volume, and potential energy per unit volume",
+        "D": "Temperature only"
+      },
+      "correct_option": "C",
+      "answer": "Pressure energy, kinetic energy per unit volume, and potential energy per unit volume",
+      "explanation": "The principle asserts that P + ½ρv² + ρgh = constant along a streamline, where P is pressure energy, ½ρv² is kinetic energy per unit volume, and ρgh is potential energy per unit volume. Options A, B, and D omit essential terms and are therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Understand assumptions",
+      "question": "Which of the following correctly lists the assumptions made when applying Bernoulli's equation to a fluid flow?",
+      "options": {
+        "A": "The flow is steady, incompressible, and non‑viscous.",
+        "B": "The flow is unsteady and compressible.",
+        "C": "The fluid experiences significant viscous dissipation.",
+        "D": "The flow is turbulent with varying density."
+      },
+      "correct_option": "A",
+      "answer": "The flow is steady, incompressible, and non‑viscous.",
+      "explanation": "Bernoulli's equation is derived under the ideal‑fluid assumptions: the flow does not change with time (steady), the fluid density remains constant (incompressible), and internal friction is negligible (non‑viscous). Options B, C, and D describe conditions that violate these assumptions, making them incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}
