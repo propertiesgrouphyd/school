@@ -1,0 +1,150 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0021",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Understand assumptions",
+      "question": "Which of the following statements is NOT an assumption required for the standard form of Bernoulli’s equation to be valid for a fluid flow?",
+      "options": {
+        "A": "The fluid density remains constant (incompressible flow).",
+        "B": "The flow is steady, i.e., fluid properties at a point do not change with time.",
+        "C": "The fluid has negligible viscosity (ideal fluid).",
+        "D": "The temperature of the fluid remains constant along the streamline."
+      },
+      "correct_option": "D",
+      "answer": "The temperature of the fluid remains constant along the streamline.",
+      "explanation": "Bernoulli’s equation is derived under the assumptions of incompressible, non‑viscous (ideal) fluid, steady flow, and that the equation is applied along a single streamline. Temperature is not a required assumption; the equation does not depend on thermal conditions. Hence option D is not an assumption, while A, B and C are.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Apply Bernoulli equation",
+      "question": "Water flows through a horizontal pipe that narrows from a cross‑sectional area 2A to A. The pressure at the wider section is 150 kPa and the speed there is 3 m s⁻¹. What is the pressure at the narrow section? (Take ρ = 1000 kg m⁻³ and neglect height differences.)",
+      "options": {
+        "A": "136.5 kPa",
+        "B": "140 kPa",
+        "C": "150 kPa",
+        "D": "162 kPa"
+      },
+      "correct_option": "A",
+      "answer": "136.5 kPa",
+      "explanation": "Continuity gives v₂ = (A₁/A₂)·v₁ = (2A/A)·3 = 6 m s⁻¹. Bernoulli: P₁ + ½ρv₁² = P₂ + ½ρv₂². Substituting: 150 kPa + ½·1000·3² = P₂ + ½·1000·6² → 150 kPa + 4.5 kPa = P₂ + 18 kPa → P₂ = 150 kPa + 4.5 kPa – 18 kPa = 136.5 kPa. Option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Explain basic applications",
+      "question": "Which statement correctly compares how Bernoulli’s principle is utilized in (i) an airplane wing and (ii) a venturi flow meter?",
+      "options": {
+        "A": "Both devices rely on higher pressure at the region of higher fluid speed.",
+        "B": "In the wing, higher speed on the upper surface leads to lower pressure producing lift, whereas in the venturi the higher‑speed region has higher pressure that drives the fluid.",
+        "C": "In the wing, higher speed on the upper surface leads to lower pressure generating lift, while in the venturi the higher‑speed region has lower pressure causing a measurable pressure drop.",
+        "D": "Neither application involves a pressure change with speed."
+      },
+      "correct_option": "C",
+      "answer": "In the wing, higher speed on the upper surface leads to lower pressure generating lift, while in the venturi the higher‑speed region has lower pressure causing a measurable pressure drop.",
+      "explanation": "Bernoulli’s principle states that where the fluid speed is higher, the pressure is lower. An airplane wing is shaped so that air moves faster over the upper surface, creating lower pressure and thus lift. In a venturi meter the fluid speeds up in the narrow throat, producing a pressure drop; this drop is measured to infer flow rate. Option C captures both correctly; the other options misstate the pressure‑speed relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Relate pressure changes to flow speed",
+      "question": "Water flows in a pipe that rises vertically by 5 m. At point A (lower level) the pressure is 200 kPa and the speed is 4 m s⁻¹. At point B (higher level) the speed is 2 m s⁻¹. What is the pressure at point B? (Take ρ = 1000 kg m⁻³, g = 9.8 m s⁻².)",
+      "options": {
+        "A": "157 kPa",
+        "B": "165 kPa",
+        "C": "150 kPa",
+        "D": "140 kPa"
+      },
+      "correct_option": "A",
+      "answer": "157 kPa",
+      "explanation": "Apply Bernoulli with height term: P_A + ½ρv_A² = P_B + ½ρv_B² + ρgh. Compute: ½ρv_A² = 0.5·1000·4² = 8 kPa; ½ρv_B² = 0.5·1000·2² = 2 kPa; ρgh = 1000·9.8·5 = 49 kPa. Hence P_B = 200 kPa + 8 kPa – 2 kPa – 49 kPa = 157 kPa. Option A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "State Bernoulli's principle",
+      "question": "Bernoulli’s principle for an ideal, incompressible fluid flowing steadily along a streamline states that:",
+      "options": {
+        "A": "The sum of pressure energy, kinetic energy per unit volume, and potential energy per unit volume remains constant along the streamline.",
+        "B": "The pressure of the fluid is directly proportional to its speed.",
+        "C": "Viscous forces are the dominant factor determining fluid motion.",
+        "D": "The fluid density must increase as the speed increases."
+      },
+      "correct_option": "A",
+      "answer": "The sum of pressure energy, kinetic energy per unit volume, and potential energy per unit volume remains constant along the streamline.",
+      "explanation": "Bernoulli’s principle expresses conservation of mechanical energy for an ideal fluid: P + ½ρv² + ρgh = constant along a streamline. Option A states this precisely. Options B, C, and D contradict the principle (pressure actually decreases with speed, viscosity is neglected, and density is constant for incompressible flow).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Understand assumptions",
+      "question": "Which condition is essential for the direct application of Bernoulli’s equation to a fluid flow?",
+      "options": {
+        "A": "The flow must be turbulent.",
+        "B": "The fluid must be compressible.",
+        "C": "The flow must be steady and along a streamline.",
+        "D": "The temperature of the fluid must increase along the flow direction."
+      },
+      "correct_option": "C",
+      "answer": "The flow must be steady and along a streamline.",
+      "explanation": "Bernoulli’s equation is derived under the assumptions of steady (time‑independent) flow and that it is applied along a single streamline. Turbulence, compressibility, and temperature variations are not required and, if present, invalidate the simple form of the equation. Hence option C is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Apply Bernoulli equation",
+      "question": "Which statement correctly distinguishes Bernoulli’s equation from the continuity equation?",
+      "options": {
+        "A": "Bernoulli’s equation relates pressure and speed of a fluid, whereas the continuity equation relates the cross‑sectional area and speed to conserve mass flow rate.",
+        "B": "Both equations describe how pressure varies along a pipe.",
+        "C": "The continuity equation includes the effect of fluid viscosity, while Bernoulli’s equation does not.",
+        "D": "Bernoulli’s equation is applicable only to gases, whereas the continuity equation applies only to liquids."
+      },
+      "correct_option": "A",
+      "answer": "Bernoulli’s equation relates pressure and speed of a fluid, whereas the continuity equation relates the cross‑sectional area and speed to conserve mass flow rate.",
+      "explanation": "The continuity equation expresses mass conservation: A₁v₁ = A₂v₂ for incompressible flow. Bernoulli’s equation expresses energy conservation: P + ½ρv² + ρgh = constant. Option A correctly captures this distinction. Options B, C, and D are inaccurate statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Explain basic applications",
+      "question": "In a venturi flow meter the pressure difference between the wide and narrow sections is measured as 20 kPa. The density of water is 1000 kg m⁻³ and the area ratio (wide : narrow) is 4 : 1. What is the speed of water in the narrow section?",
+      "options": {
+        "A": "6.5 m s⁻¹",
+        "B": "4.0 m s⁻¹",
+        "C": "8.0 m s⁻¹",
+        "D": "10.0 m s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "6.5 m s⁻¹",
+      "explanation": "Let v₂ be the speed in the narrow section and v₁ = v₂·(A₂/A₁) = v₂·(1/4). Bernoulli gives ΔP = ½ρ(v₁² – v₂²). Substituting: 20 kPa = 0.5·1000[(v₂/4)² – v₂²] = 500[(v₂²/16) – v₂²] = –(500·15/16)v₂². Taking magnitude: 20 000 Pa = 468.75 v₂² ⇒ v₂² ≈ 42.7 ⇒ v₂ ≈ 6.5 m s⁻¹. Option A matches this result.",
+      "difficulty": "easy"
+    }
+  ]
+}
