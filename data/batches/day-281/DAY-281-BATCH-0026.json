@@ -1,0 +1,78 @@
+{
+  "day": 281,
+  "batch_id": "DAY-281-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01200",
+      "learning_point": "Define specific heat capacity",
+      "question": "Which of the following statements correctly defines specific heat capacity?",
+      "options": {
+        "A": "The amount of heat required to raise the temperature of 1 kilogram of a substance by 1 °C (or 1 K).",
+        "B": "The amount of heat required to raise the temperature of 1 cubic metre of a substance by 1 °C.",
+        "C": "The amount of heat required to raise the temperature of 1 mole of a substance by 1 °C.",
+        "D": "The amount of heat required to melt 1 kilogram of a substance at its melting point."
+      },
+      "correct_option": "A",
+      "answer": "The amount of heat required to raise the temperature of 1 kilogram of a substance by 1 °C (or 1 K).",
+      "explanation": "Specific heat capacity (c) is defined as the heat energy needed to raise the temperature of unit mass (1 kg) of a material by one degree Celsius (or Kelvin). Option B confuses mass with volume, option C refers to molar heat capacity, and option D describes latent heat of fusion, not specific heat.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01200",
+      "learning_point": "Use Q = mcΔT",
+      "question": "A 2 kg block of a material has a specific heat capacity of 0.5 kJ·kg⁻¹·K⁻¹. How much heat must be supplied to raise its temperature by 10 °C?",
+      "options": {
+        "A": "5 kJ",
+        "B": "10 kJ",
+        "C": "20 kJ",
+        "D": "0.5 kJ"
+      },
+      "correct_option": "B",
+      "answer": "10 kJ",
+      "explanation": "Using Q = m c ΔT: Q = 2 kg × 0.5 kJ·kg⁻¹·K⁻¹ × 10 K = 10 kJ. Option A underestimates by a factor of two, C overestimates by a factor of two, and D is far too small.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01200",
+      "learning_point": "Solve calorimetry problems",
+      "question": "Which of the following calorimetry situations involves the larger amount of heat transfer?",
+      "options": {
+        "A": "Heating 100 g of aluminum (c = 0.900 J·g⁻¹·K⁻¹) from 20 °C to 80 °C.",
+        "B": "Heating 50 g of iron (c = 0.450 J·g⁻¹·K⁻¹) from 20 °C to 120 °C.",
+        "C": "Heating 200 g of water (c = 4.18 J·g⁻¹·K⁻¹) from 10 °C to 15 °C.",
+        "D": "Heating 30 g of copper (c = 0.385 J·g⁻¹·K⁻¹) from 0 °C to 100 °C."
+      },
+      "correct_option": "A",
+      "answer": "Heating 100 g of aluminum (c = 0.900 J·g⁻¹·K⁻¹) from 20 °C to 80 °C.",
+      "explanation": "Calculate heat for each case: \nA: Q = 100 g × 0.900 J·g⁻¹·K⁻¹ × 60 K = 5400 J.\nB: Q = 50 g × 0.450 J·g⁻¹·K⁻¹ × 100 K = 2250 J.\nC: Q = 200 g × 4.18 J·g⁻¹·K⁻¹ × 5 K = 4180 J.\nD: Q = 30 g × 0.385 J·g⁻¹·K⁻¹ × 100 K = 1155 J.\nThus, scenario A transfers the most heat (5400 J). The other options involve either smaller mass, lower specific heat, or smaller temperature change.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01200",
+      "learning_point": "Understand thermal equilibrium in mixtures",
+      "question": "Two metal blocks, A and B, have masses m_A and m_B, specific heats c_A and c_B, and initial temperatures T_A and T_B respectively. After being placed in thermal contact in an insulated container, they reach a common equilibrium temperature T_f. Which expression correctly gives T_f?",
+      "options": {
+        "A": "T_f = (m_A c_A T_A + m_B c_B T_B) / (m_A c_A + m_B c_B)",
+        "B": "T_f = (m_A T_A + m_B T_B) / (m_A + m_B)",
+        "C": "T_f = (c_A T_A + c_B T_B) / (c_A + c_B)",
+        "D": "T_f = (T_A + T_B) / 2"
+      },
+      "correct_option": "A",
+      "answer": "T_f = (m_A c_A T_A + m_B c_B T_B) / (m_A c_A + m_B c_B)",
+      "explanation": "At thermal equilibrium, the heat lost by the hotter body equals the heat gained by the cooler one: m_A c_A (T_A – T_f) = m_B c_B (T_f – T_B). Solving for T_f yields T_f = (m_A c_A T_A + m_B c_B T_B) / (m_A c_A + m_B c_B). Options B, C, and D ignore the product of mass and specific heat, which is essential for correct weighting of each body's thermal inertia.",
+      "difficulty": "hard"
+    }
+  ]
+}
