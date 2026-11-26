@@ -1,0 +1,150 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0029",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-17",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Understand coefficient of viscosity",
+      "question": "Which of the following statements about the coefficient of viscosity (η) of a fluid is correct?",
+      "options": {
+        "A": "It has units of kg·m⁻¹·s⁻¹ and represents the fluid’s internal friction.",
+        "B": "It is numerically equal to the fluid’s density.",
+        "C": "It increases when the fluid flows faster.",
+        "D": "It is independent of temperature for all fluids."
+      },
+      "correct_option": "A",
+      "answer": "It has units of kg·m⁻¹·s⁻¹ and represents the fluid’s internal friction.",
+      "explanation": "The coefficient of viscosity η quantifies a fluid’s internal friction and has SI units of kg·m⁻¹·s⁻¹ (equivalently Pa·s). It is not the same as density, does not depend on the speed of flow, and varies with temperature for most fluids. Hence option A is correct, while B, C, and D are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-18",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Understand viscous force",
+      "question": "A plate of area A moves with constant speed v over a stationary plate, separated by a thin layer of fluid of thickness d. The viscous force acting on the moving plate is proportional to:",
+      "options": {
+        "A": "η A v / d",
+        "B": "η A d / v",
+        "C": "η v / (A d)",
+        "D": "η A d v"
+      },
+      "correct_option": "A",
+      "answer": "η A v / d",
+      "explanation": "According to Newton’s law of viscosity, the shear stress τ = η (v/d). Multiplying by the area A gives the viscous force F = τ A = η A v / d. Options B, C, and D misuse the relationship between the variables, so they are incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-19",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Understand terminal velocity qualitatively",
+      "question": "Two solid spheres of the same material but different radii (r₁ < r₂) are released in a viscous liquid where the flow remains laminar. Which statement about their terminal velocities is correct?",
+      "options": {
+        "A": "The larger sphere attains a higher terminal velocity because its weight increases faster than the viscous drag.",
+        "B": "The smaller sphere attains a higher terminal velocity because it experiences less drag.",
+        "C": "Both spheres reach the same terminal velocity because viscosity dominates over size effects.",
+        "D": "Neither sphere reaches a terminal velocity in the laminar regime."
+      },
+      "correct_option": "A",
+      "answer": "The larger sphere attains a higher terminal velocity because its weight increases faster than the viscous drag.",
+      "explanation": "In laminar flow, the drag force follows Stokes’ law (F_drag = 6π η r v). The weight scales with volume (∝ r³) while drag scales with radius (∝ r). Hence, as radius increases, weight grows faster than drag, giving a larger sphere a higher terminal velocity. Options B, C, and D ignore this size dependence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-20",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Recognise factors affecting viscosity",
+      "question": "Which of the following does NOT affect the viscosity of a liquid under ordinary conditions?",
+      "options": {
+        "A": "Temperature",
+        "B": "Pressure",
+        "C": "Molecular size of the liquid particles",
+        "D": "Colour of the liquid"
+      },
+      "correct_option": "D",
+      "answer": "Colour of the liquid",
+      "explanation": "Viscosity depends on temperature (higher T usually lowers η), pressure (significant at very high pressures), and molecular characteristics such as size and intermolecular forces. Colour is a visual property unrelated to molecular interactions governing flow resistance, so option D is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-21",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Define viscosity",
+      "question": "Viscosity of a fluid is best defined as:",
+      "options": {
+        "A": "A measure of the fluid’s resistance to shear or flow.",
+        "B": "A measure of the fluid’s density.",
+        "C": "A measure of the fluid’s surface tension.",
+        "D": "A measure of the fluid’s compressibility."
+      },
+      "correct_option": "A",
+      "answer": "A measure of the fluid’s resistance to shear or flow.",
+      "explanation": "Viscosity quantifies how much a fluid resists deformation under shear stress, i.e., its resistance to flow. It is unrelated to density, surface tension, or compressibility, making option A the precise definition.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-22",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Understand coefficient of viscosity",
+      "question": "What is the SI unit of the coefficient of viscosity (η) of a fluid?",
+      "options": {
+        "A": "kg·m⁻¹·s⁻¹",
+        "B": "kg·m·s⁻²",
+        "C": "N·s·m⁻²",
+        "D": "Pa·s²"
+      },
+      "correct_option": "A",
+      "answer": "kg·m⁻¹·s⁻¹",
+      "explanation": "The coefficient of viscosity has dimensions of pressure·time, which is Pascal·second (Pa·s). Since 1 Pa = 1 N·m⁻² = 1 kg·m⁻¹·s⁻², Pa·s simplifies to kg·m⁻¹·s⁻¹. Option A expresses this unit correctly; the other options are dimensionally inconsistent.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-23",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Understand viscous force",
+      "question": "Which statement correctly distinguishes viscous force from the weight of an object moving through a fluid?",
+      "options": {
+        "A": "Viscous force acts opposite to the relative motion and depends on the velocity gradient, whereas weight acts downward due to gravity and is independent of the object's motion.",
+        "B": "Viscous force acts downward, while weight always opposes the direction of motion.",
+        "C": "Both forces are independent of the object's surface area.",
+        "D": "Both forces are proportional only to the fluid’s density."
+      },
+      "correct_option": "A",
+      "answer": "Viscous force acts opposite to the relative motion and depends on the velocity gradient, whereas weight acts downward due to gravity and is independent of the object's motion.",
+      "explanation": "Viscous force arises from internal friction and is proportional to the velocity gradient (shear rate) and the area of contact; it always opposes motion. Weight is the gravitational force mg, acting vertically downward regardless of any motion. Options B, C, and D misrepresent these fundamental differences.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-24",
+      "learning_unit_id": "LU-01196",
+      "learning_point": "Understand terminal velocity qualitatively",
+      "question": "A small steel ball is dropped into a container of oil and after a short time moves at a constant speed. What is the primary reason for this constant speed?",
+      "options": {
+        "A": "The upward viscous drag force balances the downward weight of the ball.",
+        "B": "The ball’s mass increases with time, keeping the speed constant.",
+        "C": "Gravity weakens inside the oil, so the ball stops accelerating.",
+        "D": "The buoyant force continuously grows until it equals the weight."
+      },
+      "correct_option": "A",
+      "answer": "The upward viscous drag force balances the downward weight of the ball.",
+      "explanation": "When the ball reaches terminal velocity, the net force is zero: weight (mg) downward is exactly balanced by the sum of upward forces—buoyant force and viscous drag. In most textbook problems, the dominant balancing force is the viscous drag, giving a constant speed. Options B, C, and D describe incorrect mechanisms.",
+      "difficulty": "easy"
+    }
+  ]
+}

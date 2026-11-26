@@ -1,0 +1,78 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-280-97",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Understand assumptions",
+      "question": "Which of the following is NOT an assumption underlying the Bernoulli equation for ideal steady flow?",
+      "options": {
+        "A": "The fluid is incompressible.",
+        "B": "The flow is steady along a streamline.",
+        "C": "Viscous friction forces are negligible.",
+        "D": "The fluid temperature varies significantly along the streamline."
+      },
+      "correct_option": "D",
+      "answer": "The fluid temperature varies significantly along the streamline.",
+      "explanation": "Bernoulli's equation assumes an ideal fluid: incompressible, non‑viscous (negligible friction), and flow that is steady and along a streamline. Temperature variation is not an assumption; the equation does not require the fluid temperature to change significantly. Hence option D is not an assumption, while A, B and C are part of the standard assumptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-280-98",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Apply Bernoulli equation",
+      "question": "Water (ρ = 1000 kg·m⁻³) flows steadily along a streamline. At point 1 the pressure is 200 kPa, the speed is 5 m·s⁻¹ and the height is 10 m. At point 2 the speed is 10 m·s⁻¹ and the height is 5 m. What is the pressure at point 2?",
+      "options": {
+        "A": "212.5 kPa",
+        "B": "187.5 kPa",
+        "C": "200 kPa",
+        "D": "225 kPa"
+      },
+      "correct_option": "A",
+      "answer": "212.5 kPa",
+      "explanation": "Using Bernoulli’s equation in head form: \\(\\frac{p}{\\rho g}+\\frac{v^{2}}{2g}+h = \\text{constant}\\).\\n\\nAt point 1: \\(p_1/\\rho g = 200000/(1000\\times10)=20\\) m, \\(v_1^{2}/2g = 5^{2}/(2\\times10)=1.25\\) m, \\(h_1 = 10\\) m. Total = 31.25 m.\\n\\nAt point 2: \\(v_2^{2}/2g = 10^{2}/(2\\times10)=5\\) m, \\(h_2 = 5\\) m. Hence \\(p_2/\\rho g = 31.25 - (5+5) = 21.25\\) m. Converting back: \\(p_2 = 21.25\\times\\rho g = 21.25\\times10,000 = 212,500\\) Pa = 212.5 kPa. Option A matches this value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-280-99",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Explain basic applications",
+      "question": "Which statement correctly compares the pressure variation in a Venturi tube and over the upper surface of an airplane wing, both explained by Bernoulli’s principle?",
+      "options": {
+        "A": "In both cases, pressure is lower where the fluid speed is higher.",
+        "B": "In a Venturi tube pressure is higher at the throat, whereas over the wing it is lower.",
+        "C": "The wing experiences higher pressure on the upper surface, while the Venturi tube has lower pressure at the narrow section.",
+        "D": "Bernoulli’s principle does not apply to airflow over a wing."
+      },
+      "correct_option": "A",
+      "answer": "In both cases, pressure is lower where the fluid speed is higher.",
+      "explanation": "Bernoulli’s principle states that an increase in fluid speed along a streamline is accompanied by a decrease in pressure (for incompressible, non‑viscous flow). In a Venturi tube the speed increases at the throat, causing a pressure drop there. Over the upper surface of an airplane wing the air speeds up, also producing a lower pressure compared with the lower surface. Hence option A correctly captures the common pressure‑speed relationship; the other options misstate the principle or its applicability.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-280-100",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Relate pressure changes to flow speed",
+      "question": "A horizontal pipe carrying water (ρ = 1000 kg·m⁻³) narrows from a cross‑sectional area of 4 cm² to 1 cm². If the speed of water in the wider section is 2 m·s⁻¹, what is the pressure difference \\(p_1 - p_2\\) between the wide and narrow sections?",
+      "options": {
+        "A": "30 kPa",
+        "B": "15 kPa",
+        "C": "45 kPa",
+        "D": "60 kPa"
+      },
+      "correct_option": "A",
+      "answer": "30 kPa",
+      "explanation": "First, use continuity: \\(A_1 v_1 = A_2 v_2\\) ⇒ \\(v_2 = (A_1/A_2) v_1 = (4/1)\\times2 = 8\\) m·s⁻¹.\\n\\nApply Bernoulli’s equation for a horizontal pipe (h constant): \\(p_1 + \\frac{1}{2}\\rho v_1^{2} = p_2 + \\frac{1}{2}\\rho v_2^{2}\\).\\n\\nRearrange: \\(p_1 - p_2 = \\frac{1}{2}\\rho (v_2^{2} - v_1^{2})\\).\\n\\nSubstituting values: \\(v_2^{2}=64\\), \\(v_1^{2}=4\\), difference = 60.\\n\\n\\(p_1 - p_2 = 0.5 \\times 1000 \\times 60 = 30,000\\) Pa = 30 kPa. Option A is correct; the other numbers arise from incorrect use of the continuity relation or omission of the ½ factor.",
+      "difficulty": "hard"
+    }
+  ]
+}
