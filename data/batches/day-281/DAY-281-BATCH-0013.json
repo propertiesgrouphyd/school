@@ -1,0 +1,78 @@
+{
+  "day": 281,
+  "batch_id": "DAY-281-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01199",
+      "learning_point": "Understand area expansion",
+      "question": "A thin square metal plate of side L₀ is heated uniformly by ΔT. Which of the following statements about the change in its area is correct?",
+      "options": {
+        "A": "The area increases by 2α A₀ ΔT, where α is the linear coefficient of expansion",
+        "B": "The area increases by α A₀ ΔT",
+        "C": "The area remains unchanged",
+        "D": "The area decreases"
+      },
+      "correct_option": "A",
+      "answer": "The area increases by 2α A₀ ΔT, where α is the linear coefficient of expansion",
+      "explanation": "For a small temperature change, each side length changes by ΔL = α L₀ ΔT. The original area is A₀ = L₀². The new area is (L₀+ΔL)² ≈ L₀² + 2L₀ΔL = A₀ + 2α A₀ ΔT. Hence the fractional change in area is 2α ΔT. Option A reflects this; option B omits the factor 2, while C and D contradict the basic principle that solids expand when heated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01199",
+      "learning_point": "Understand volume expansion",
+      "question": "A solid cylinder of initial volume V₀ is heated by ΔT. Which expression correctly gives the fractional change in its volume?",
+      "options": {
+        "A": "α ΔT",
+        "B": "3α ΔT",
+        "C": "2α ΔT",
+        "D": "α² ΔT"
+      },
+      "correct_option": "B",
+      "answer": "3α ΔT",
+      "explanation": "For isotropic solids the volume expansion coefficient β is approximately three times the linear coefficient α (β ≈ 3α). The fractional change in volume is ΔV/V₀ = β ΔT = 3α ΔT. Option B is therefore correct. Option A uses the linear coefficient directly, option C uses an incorrect factor, and option D is dimensionally inconsistent.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01199",
+      "learning_point": "Use coefficients of expansion",
+      "question": "Three rods of equal length are made of aluminum (α = 2.4×10⁻⁵ K⁻¹), copper (α = 1.7×10⁻⁵ K⁻¹) and steel (α = 1.2×10⁻⁵ K⁻¹). Which rod will show the greatest increase in length when all are heated by the same temperature rise?",
+      "options": {
+        "A": "Aluminum rod",
+        "B": "Copper rod",
+        "C": "Steel rod",
+        "D": "All three expand by the same amount"
+      },
+      "correct_option": "A",
+      "answer": "Aluminum rod",
+      "explanation": "The linear expansion ΔL = α L₀ ΔT. With the same initial length L₀ and temperature change ΔT, the rod with the largest α expands the most. Aluminum has the highest α among the three, so it experiences the greatest length increase. Options B and C have smaller α values, and D is false because expansion depends on α.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01199",
+      "learning_point": "Explain practical applications",
+      "question": "Which of the following devices directly utilizes the principle of thermal expansion of a solid material for temperature measurement?",
+      "options": {
+        "A": "Mercury thermometer",
+        "B": "Bimetallic strip thermostat",
+        "C": "Thermocouple",
+        "D": "Infrared sensor"
+      },
+      "correct_option": "B",
+      "answer": "Bimetallic strip thermostat",
+      "explanation": "A bimetallic strip consists of two metals with different linear expansion coefficients bonded together. When temperature changes, the differential expansion causes the strip to bend, and this mechanical motion is used in thermostats to indicate temperature. A mercury thermometer relies on liquid expansion, a thermocouple uses the Seebeck effect (voltage generation), and an infrared sensor detects emitted radiation—none of these directly exploit solid thermal expansion. Hence, option B is correct.",
+      "difficulty": "hard"
+    }
+  ]
+}
