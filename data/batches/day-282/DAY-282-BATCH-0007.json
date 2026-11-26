@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0007",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "According to Newton's law of cooling, which statement correctly compares the initial cooling rates of two objects placed in the same surroundings at 20°C, if object A is initially at 80°C and object B is initially at 50°C?",
+      "options": {
+        "A": "Object A cools faster than object B",
+        "B": "Both objects cool at the same rate",
+        "C": "Object B cools faster than object A",
+        "D": "Neither object cools because both are above the surroundings temperature"
+      },
+      "correct_option": "A",
+      "answer": "Object A cools faster than object B",
+      "explanation": "Newton's law of cooling states that the rate of temperature change is proportional to the temperature difference (T‑object – T‑surroundings). The initial difference for A is 80‑20 = 60°C, for B it is 50‑20 = 30°C. Since 60 > 30, the magnitude of the cooling rate for A is larger, so A cools faster initially. Options B, C and D contradict the proportional relationship or misinterpret the law.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A cooling curve of a hot metal placed in a room at 20°C shows a very steep slope at the beginning, which gradually becomes less steep as the temperature approaches 20°C. Which part of the curve best illustrates the region where Newton's law of cooling is most accurately applicable?",
+      "options": {
+        "A": "The initial steep portion of the curve",
+        "B": "The middle portion where the slope is moderate",
+        "C": "The final flat portion near 20°C",
+        "D": "The entire curve is equally applicable"
+      },
+      "correct_option": "A",
+      "answer": "The initial steep portion of the curve",
+      "explanation": "Newton's law assumes a constant ambient temperature and a linear relationship between rate and temperature difference. When the temperature difference is large (initial steep part), the proportionality holds best and the exponential decay model fits the data. As the temperature difference becomes small, experimental deviations increase, making the law less accurate. Options B, C and D ignore the condition of a large, constant temperature difference.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following is an essential assumption underlying Newton's law of cooling?",
+      "options": {
+        "A": "The surrounding temperature remains constant during the cooling process",
+        "B": "Heat is transferred only by radiation",
+        "C": "The object’s temperature is always higher than the surrounding temperature",
+        "D": "The cooling medium must be a perfect vacuum"
+      },
+      "correct_option": "A",
+      "answer": "The surrounding temperature remains constant during the cooling process",
+      "explanation": "Newton's law derives from the assumption that the ambient temperature (T_s) does not change while the object cools, allowing the rate to be expressed as dT/dt = -k(T‑T_s). Heat transfer can occur by conduction, convection, or radiation, so B is false. The law also applies when the object is cooler than the surroundings (heating), so C is false. A vacuum is not required, making D false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Which mathematical expression correctly represents Newton's law of cooling for an object of temperature T(t) in surroundings of constant temperature T_s?",
+      "options": {
+        "A": "dT/dt = -k\\,(T - T_s)",
+        "B": "dT/dt = k\\,(T + T_s)",
+        "C": "dT/dt = -k\\,(T + T_s)",
+        "D": "dT/dt = k\\,(T - T_s)"
+      },
+      "correct_option": "A",
+      "answer": "dT/dt = -k\\,(T - T_s)",
+      "explanation": "The law states that the rate of change of the object's temperature is proportional to the temperature difference (T - T_s) and opposite in sign because the temperature decreases when T > T_s. Hence the correct differential equation is dT/dt = -k(T - T_s). Options B, C, and D either change the sign or add the temperatures, which contradicts the law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Which statement correctly distinguishes a cooling curve from a heating curve?",
+      "options": {
+        "A": "A cooling curve shows temperature decreasing with time, while a heating curve shows temperature increasing with time",
+        "B": "A cooling curve is always steeper than a heating curve for the same material",
+        "C": "A cooling curve requires the presence of latent heat, whereas a heating curve does not",
+        "D": "Both curves are identical; the only difference is the direction of the arrow on the graph"
+      },
+      "correct_option": "A",
+      "answer": "A cooling curve shows temperature decreasing with time, while a heating curve shows temperature increasing with time",
+      "explanation": "The fundamental difference is the direction of temperature change: cooling curves plot a fall in temperature, heating curves plot a rise. The steepness depends on experimental conditions, not a universal rule, so B is false. Latent heat can appear in both processes (e.g., melting and freezing), making C false. D is incorrect because the shapes can differ due to differing rates of heat transfer.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A metal rod is placed in a room where the ambient temperature rises steadily from 20°C to 30°C over an hour. Can Newton's law of cooling be directly applied to predict the rod’s temperature at any instant?",
+      "options": {
+        "A": "No, because the ambient temperature is not constant",
+        "B": "Yes, because the law works for any temperature variation",
+        "C": "No, because the law only applies to gases, not solids",
+        "D": "Yes, as long as the rod’s temperature remains above 30°C"
+      },
+      "correct_option": "A",
+      "answer": "No, because the ambient temperature is not constant",
+      "explanation": "One of the core assumptions of Newton's law is a constant surrounding temperature. A changing ambient temperature violates this condition, so the simple exponential form cannot be used without modification. The law is not limited to gases (C false) and the temperature of the rod relative to the ambient does not restore validity (D false).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A cup of coffee at 90°C cools to 70°C in 5 minutes in a room kept at 20°C. Assuming Newton's law of cooling holds, what will be the temperature of the coffee after another 5 minutes?",
+      "options": {
+        "A": "55°C",
+        "B": "60°C",
+        "C": "65°C",
+        "D": "70°C"
+      },
+      "correct_option": "A",
+      "answer": "55°C",
+      "explanation": "Newton's law gives T(t)-T_s = (T_0 - T_s) e^{-kt}. From the first 5 min: 70‑20 = 50 = (90‑20) e^{-5k} ⇒ e^{-5k}=5/7. After another 5 min the temperature difference becomes 50 × (5/7)=35°C, so T = 20+35 = 55°C. Options B, C, D result from incorrect arithmetic or ignoring the exponential decay.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "During an experiment, a cooling curve of a liquid shows a horizontal plateau at 100°C before the temperature continues to fall. What does this plateau represent?",
+      "options": {
+        "A": "The liquid is undergoing a phase change at its boiling point, absorbing latent heat",
+        "B": "The thermometer is malfunctioning at high temperatures",
+        "C": "The ambient temperature is exactly 100°C",
+        "D": "The liquid has reached thermal equilibrium with the surroundings"
+      },
+      "correct_option": "A",
+      "answer": "The liquid is undergoing a phase change at its boiling point, absorbing latent heat",
+      "explanation": "A horizontal segment in a cooling (or heating) curve indicates that temperature remains constant while the substance changes phase; the energy supplied or released is used as latent heat. Hence the plateau at 100°C corresponds to boiling/condensation. Options B, C, and D do not explain the constant temperature despite ongoing heat transfer.",
+      "difficulty": "medium"
+    }
+  ]
+}

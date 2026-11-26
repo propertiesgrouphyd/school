@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0009",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A hot metal rod initially at 150 °C is placed in a room at 25 °C. The temperature of the rod is recorded at regular intervals and the data are plotted. The curve approaches 25 °C asymptotically. Which feature of this cooling curve indicates that Newton's law of cooling is applicable?",
+      "options": {
+        "A": "The temperature decreases linearly with time.",
+        "B": "The temperature difference decays exponentially with time.",
+        "C": "The temperature becomes constant after a short period.",
+        "D": "The temperature first rises and then falls."
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference decays exponentially with time.",
+      "explanation": "Newton's law predicts that the temperature difference (T‑object – T‑surroundings) decreases exponentially: ΔT = ΔT₀ e⁻ᵏᵗ. On a plot, this appears as a curve that approaches the ambient temperature asymptotically, not as a straight line. Option B correctly describes this behaviour; the other options contradict the exponential nature of the law.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A scientist uses Newton's law of cooling to predict the temperature fall of a cup of coffee placed on a windowsill where a strong wind blows. Which assumption of Newton's law is most likely violated in this situation?",
+      "options": {
+        "A": "The surrounding temperature remains constant.",
+        "B": "Heat transfer occurs only by conduction.",
+        "C": "The temperature difference between coffee and air is small.",
+        "D": "The coffee cup is perfectly insulated."
+      },
+      "correct_option": "B",
+      "answer": "Heat transfer occurs only by conduction.",
+      "explanation": "Newton's law assumes that the rate of heat loss is proportional to the temperature difference, independent of the mode of heat transfer. In a windy environment, convective heat transfer dominates, violating the implicit assumption that conduction is the only mechanism. Option B identifies this limitation; the other options are either still valid or not central to the wind effect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Which of the following statements about Newton's law of cooling is correct?",
+      "options": {
+        "A": "The temperature difference between an object and its surroundings decreases linearly with time.",
+        "B": "An object reaches the ambient temperature in a finite amount of time.",
+        "C": "The rate of cooling is proportional to the instantaneous temperature difference.",
+        "D": "The law is applicable only to phase‑change processes."
+      },
+      "correct_option": "C",
+      "answer": "The rate of cooling is proportional to the instantaneous temperature difference.",
+      "explanation": "Newton's law states that dT/dt = –k(T – Tₛ), i.e., the cooling rate is directly proportional to the instantaneous temperature difference. The difference does not decrease linearly (A), the object asymptotically approaches but never truly reaches ambient temperature (B), and the law is not limited to phase changes (D). Hence, option C is the only correct statement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "On a cooling curve that follows Newton's law, the time at which the temperature of the object is exactly halfway between its initial temperature and the ambient temperature corresponds to:",
+      "options": {
+        "A": "One time constant (τ) of the exponential decay.",
+        "B": "The moment when the slope of the curve is maximum.",
+        "C": "The instant when the object reaches ambient temperature.",
+        "D": "Zero temperature difference between object and surroundings."
+      },
+      "correct_option": "A",
+      "answer": "One time constant (τ) of the exponential decay.",
+      "explanation": "For exponential decay, T(t) – Tₛ = (T₀ – Tₛ) e⁻ᵗ/τ. When the temperature difference has reduced to half its initial value, e⁻ᵗ/τ = 0.5, which occurs at t = τ (one time constant). Therefore option A is correct; the other options describe unrelated features of the curve.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following situations is Newton's law of cooling least accurate compared to the Stefan‑Boltzmann law?",
+      "options": {
+        "A": "A small metal sphere cooling in still air at room temperature.",
+        "B": "A hot metal plate at 500 °C cooling in a vacuum.",
+        "C": "A cup of water cooling in an insulated container.",
+        "D": "A room‑temperature object cooling in still air."
+      },
+      "correct_option": "B",
+      "answer": "A hot metal plate at 500 °C cooling in a vacuum.",
+      "explanation": "At very high temperatures, radiative heat loss (∝ T⁴) dominates, and the simple linear dependence on temperature difference assumed by Newton's law fails. The Stefan‑Boltzmann law accurately describes such radiative cooling. In the other cases, convection or conduction dominate and Newton's law remains a good approximation. Hence option B is the correct comparison.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A body at 100 °C is placed in a room maintained at 20 °C. After 5 minutes its temperature is 60 °C. Assuming Newton's law of cooling holds, what will be its temperature after 10 minutes?",
+      "options": {
+        "A": "40 °C",
+        "B": "45 °C",
+        "C": "50 °C",
+        "D": "55 °C"
+      },
+      "correct_option": "A",
+      "answer": "40 °C",
+      "explanation": "Newton's law: T(t) – Ts = (T₀ – Ts) e⁻ᵏᵗ.\nGiven Ts = 20 °C, T₀ = 100 °C, T(5) = 60 °C.\n60 – 20 = 40 = 80 e⁻⁵ᵏ ⇒ e⁻⁵ᵏ = 0.5 ⇒ k = (ln2)/5 ≈ 0.1386 min⁻¹.\nAfter 10 min: T – 20 = 80 e⁻¹⁰ᵏ = 80 e⁻¹·386 ≈ 80 × 0.250 = 20.\nThus T ≈ 20 + 20 = 40 °C. Option A is correct; the other values result from incorrect algebra or neglecting the exponential nature.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "In a cooling curve that follows Newton's law, the slope at any point on the curve represents:",
+      "options": {
+        "A": "The ambient temperature.",
+        "B": "The instantaneous rate of temperature change of the object.",
+        "C": "The heat capacity of the object.",
+        "D": "The elapsed time."
+      },
+      "correct_option": "B",
+      "answer": "The instantaneous rate of temperature change of the object.",
+      "explanation": "The slope dT/dt on a cooling curve is the derivative of temperature with respect to time, i.e., the instantaneous cooling rate. Newton's law states this slope is proportional to the temperature difference. It does not directly give ambient temperature, heat capacity, or time, so options A, C, and D are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Newton's law of cooling assumes that the rate of heat loss from an object is proportional to:",
+      "options": {
+        "A": "The absolute temperature of the object.",
+        "B": "The temperature difference between the object and its surroundings.",
+        "C": "The square of the temperature difference.",
+        "D": "Only the surface area of the object."
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference between the object and its surroundings.",
+      "explanation": "The fundamental statement of Newton's law is dT/dt = –k(T – Tₛ), indicating proportionality to the temperature difference. It does not depend on the absolute temperature (A), the square of the difference (C), or solely on surface area (D). Hence option B correctly captures the core assumption.",
+      "difficulty": "easy"
+    }
+  ]
+}

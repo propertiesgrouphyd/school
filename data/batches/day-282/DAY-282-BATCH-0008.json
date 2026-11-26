@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0008",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A student claims that according to Newton's law of cooling, the rate of temperature change of a hot object is directly proportional to its absolute temperature. Which statement correctly identifies the misconception?",
+      "options": {
+        "A": "The law relates the rate to the temperature difference between the object and its surroundings, not to the absolute temperature.",
+        "B": "The law assumes the surrounding temperature changes with time.",
+        "C": "The law is valid only for very small temperature differences.",
+        "D": "The law includes internal heat generation within the object."
+      },
+      "correct_option": "A",
+      "answer": "The law relates the rate to the temperature difference between the object and its surroundings, not to the absolute temperature.",
+      "explanation": "Newton's law of cooling states that dT/dt = -k(T - Ts), where the rate of cooling depends on the temperature *difference* (T - Ts). It does not depend on the absolute temperature of the object. Therefore option A correctly points out the misconception. Options B, C, and D describe assumptions that are not part of the stated misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "An object at temperature T(t) is placed in surroundings at constant temperature Ts. Newton's law of cooling is written as dT/dt = -k (T - Ts). Why does the equation contain a negative sign?",
+      "options": {
+        "A": "Because the temperature difference (T - Ts) decreases with time, making the rate of change negative.",
+        "B": "Because the cooling constant k is negative.",
+        "C": "Because heat flows from the colder surroundings to the hotter object.",
+        "D": "Because time flows in the forward direction."
+      },
+      "correct_option": "A",
+      "answer": "Because the temperature difference (T - Ts) decreases with time, making the rate of change negative.",
+      "explanation": "The negative sign indicates that the object's temperature approaches the surrounding temperature; as T > Ts, (T - Ts) is positive, so dT/dt is negative, meaning T decreases. Option A captures this reasoning. k is a positive constant, so B is wrong. Heat flows from hot to cold, not the reverse, eliminating C. Option D is irrelevant to the sign convention.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Two identical metal spheres are cooled in the same room. Curve X shows a rapid temperature drop in the first 5 minutes and then slows markedly. Curve Y shows a smooth exponential decline with the same time constant throughout. Which statement correctly compares the curves with respect to Newton's law of cooling?",
+      "options": {
+        "A": "Curve X violates the assumption of a constant cooling constant because the surrounding temperature changes during cooling.",
+        "B": "Curve Y better illustrates Newton's law because it follows a single exponential decay, indicating a constant k and constant surroundings.",
+        "C": "Both curves equally satisfy the law, as any decrease in temperature is acceptable.",
+        "D": "Curve X indicates that heat is being generated inside the sphere during cooling."
+      },
+      "correct_option": "B",
+      "answer": "Curve Y better illustrates Newton's law because it follows a single exponential decay, indicating a constant k and constant surroundings.",
+      "explanation": "Newton's law predicts an exponential approach to the ambient temperature when k and Ts remain constant. Curve Y, with a steady exponential shape, matches this prediction, while Curve X's change in slope suggests a variation in k or Ts, violating the law's assumptions. Options A, C, and D misinterpret the behavior.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "When applying Newton's law of cooling to a small metal sphere cooling in air, which of the following is NOT an assumed condition?",
+      "options": {
+        "A": "The temperature of the surrounding air remains constant during the cooling process.",
+        "B": "Heat transfer occurs only by convection, with radiation neglected.",
+        "C": "The temperature difference between the sphere and the air is small enough for a linear approximation.",
+        "D": "The sphere's temperature is uniform throughout its volume."
+      },
+      "correct_option": "B",
+      "answer": "Heat transfer occurs only by convection, with radiation neglected.",
+      "explanation": "Newton's law assumes that the net heat loss is proportional to the temperature difference; it does not require that the mechanism be purely convection. Radiation can be present as long as the overall proportionality holds (often valid for small temperature differences). Therefore, option B is NOT an assumed condition. Options A, C, and D are standard assumptions for the law's simple form.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Newton's law of cooling states that the rate of change of temperature of an object is proportional to what?",
+      "options": {
+        "A": "The absolute temperature of the object.",
+        "B": "The temperature difference between the object and its surroundings.",
+        "C": "The square of the temperature difference.",
+        "D": "The ambient temperature alone."
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference between the object and its surroundings.",
+      "explanation": "The law is expressed as dT/dt = -k (T - Ts), showing direct proportionality to the temperature *difference* (T - Ts). Hence option B is correct. Options A, C, and D do not represent the law's statement.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A cooling curve of a hot liquid placed in a room shows a straight line when the logarithm of the temperature difference (T - Ts) is plotted against time. What does this indicate about the cooling process?",
+      "options": {
+        "A": "The temperature difference remains constant during cooling.",
+        "B": "The cooling follows Newton's law with a constant cooling constant k.",
+        "C": "Heat is being generated inside the liquid while it cools.",
+        "D": "The ambient temperature is increasing with time."
+      },
+      "correct_option": "B",
+      "answer": "The cooling follows Newton's law with a constant cooling constant k.",
+      "explanation": "Taking natural log of the solution T(t) = Ts + (T0 - Ts) e^{-kt} gives ln(T - Ts) = ln(T0 - Ts) - kt, which is a straight line with slope -k. Therefore a linear plot confirms Newton's law with constant k. Options A, C, and D are inconsistent with the observed linear relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which statement correctly distinguishes Newton's law of cooling from the Stefan‑Boltzmann law?",
+      "options": {
+        "A": "Newton's law applies only to radiative cooling, while the Stefan‑Boltzmann law applies only to convection.",
+        "B": "Newton's law assumes a linear dependence on temperature difference, whereas the Stefan‑Boltzmann law assumes the radiated power varies with the fourth power of absolute temperature.",
+        "C": "Both laws predict the same temperature dependence for all objects.",
+        "D": "The Stefan‑Boltzmann law is valid only at low temperatures."
+      },
+      "correct_option": "B",
+      "answer": "Newton's law assumes a linear dependence on temperature difference, whereas the Stefan‑Boltzmann law assumes the radiated power varies with the fourth power of absolute temperature.",
+      "explanation": "Newton's law: rate ∝ (T - Ts) (linear). Stefan‑Boltzmann law: power radiated ∝ T⁴ (fourth power of absolute temperature). Hence option B correctly distinguishes the two. Options A, C, and D are factually incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A metal rod initially at 80 °C is placed in a room kept at 20 °C. If the cooling constant k = 0.05 s⁻¹, what will be the temperature of the rod after 10 s?",
+      "options": {
+        "A": "56.4 °C",
+        "B": "62.0 °C",
+        "C": "48.0 °C",
+        "D": "70.0 °C"
+      },
+      "correct_option": "A",
+      "answer": "56.4 °C",
+      "explanation": "Newton's law gives T(t) = Ts + (T0 - Ts) e^{-kt}. Here, T0 = 80 °C, Ts = 20 °C, k = 0.05 s⁻¹, t = 10 s. ΔT0 = 60 °C. e^{-0.05×10}=e^{-0.5}=0.6065. ΔT = 60 × 0.6065 ≈ 36.39 °C. Adding the ambient temperature: 20 °C + 36.39 °C ≈ 56.4 °C. Hence option A is correct. The other options result from incorrect arithmetic or misuse of the formula.",
+      "difficulty": "easy"
+    }
+  ]
+}

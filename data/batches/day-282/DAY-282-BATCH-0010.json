@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01203-73",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Newton's law of cooling states that the rate at which the temperature of an object changes is proportional to which of the following?",
+      "options": {
+        "A": "The difference between the object's temperature and the ambient temperature",
+        "B": "The absolute temperature of the object",
+        "C": "The square of the temperature difference between the object and the surroundings",
+        "D": "The ambient temperature alone"
+      },
+      "correct_option": "A",
+      "answer": "The difference between the object's temperature and the ambient temperature",
+      "explanation": "Newton's law of cooling says dT/dt = -k (T - T_s), i.e., the rate of temperature change is proportional to the temperature difference (T - T_s). It does not depend on the absolute temperature, the square of the difference, or the ambient temperature alone.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "LU-01203-74",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A cooling curve of a hot metal placed in air shows a steep slope initially that becomes gentler with time. Which statement best explains this change in the slope?",
+      "options": {
+        "A": "The temperature difference between the metal and the air decreases, reducing the cooling rate.",
+        "B": "The thermal conductivity of the metal increases as it cools.",
+        "C": "The ambient temperature rises as the metal loses heat.",
+        "D": "The mass of the metal decreases during cooling."
+      },
+      "correct_option": "A",
+      "answer": "The temperature difference between the metal and the air decreases, reducing the cooling rate.",
+      "explanation": "According to Newton's law, the cooling rate is proportional to the temperature difference. As the metal approaches the ambient temperature, this difference becomes smaller, so the slope (rate of temperature change) becomes less steep. The other options are not relevant to the observed behaviour.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "LU-01203-75",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A small object is cooling inside a vacuum chamber where heat loss occurs only by thermal radiation. Which assumption of Newton's law of cooling is violated in this situation?",
+      "options": {
+        "A": "Heat transfer occurs only by convection and conduction.",
+        "B": "The surrounding temperature remains constant.",
+        "C": "The object's heat capacity is temperature‑independent.",
+        "D": "The temperature difference is small."
+      },
+      "correct_option": "A",
+      "answer": "Heat transfer occurs only by convection and conduction.",
+      "explanation": "Newton's law of cooling assumes that heat loss is governed by convection (or conduction) and is proportional to the temperature difference. In a vacuum, convection is absent and radiation dominates, breaking this assumption. The other statements are not the primary limitation in this case.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01203-76",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A cup of coffee at 90 °C is placed in a room kept at 20 °C. After 5 minutes its temperature falls to 70 °C. Assuming Newton's law of cooling holds, what will be its temperature after 10 minutes?",
+      "options": {
+        "A": "55 °C",
+        "B": "60 °C",
+        "C": "65 °C",
+        "D": "70 °C"
+      },
+      "correct_option": "A",
+      "answer": "55 °C",
+      "explanation": "Newton's law gives T(t)-T_s = (T_0 - T_s) e^{-kt}. From the data: 70‑20 = 50 = 70 e^{-5k} ⇒ e^{-5k}=5/7. After 10 min, T‑20 = 70 e^{-10k}=70 (e^{-5k})^2 = 70 (5/7)^2 = 70 × 25/49 ≈ 35.7 °C, so T ≈ 20 + 35.7 ≈ 55.7 °C, rounded to 55 °C. The other options are higher than the calculated value.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01203-77",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Which of the following statements about a cooling curve is **incorrect**?",
+      "options": {
+        "A": "A steeper slope indicates a larger temperature difference between the object and its surroundings.",
+        "B": "When the curve becomes a straight line, the temperature difference is constant.",
+        "C": "The curve approaches the ambient temperature asymptotically.",
+        "D": "The initial part of the curve usually shows a rapid temperature drop."
+      },
+      "correct_option": "B",
+      "answer": "When the curve becomes a straight line, the temperature difference is constant.",
+      "explanation": "A straight line on a temperature‑time graph would imply a constant rate of temperature change, which contradicts Newton's law (the rate should decrease as the temperature difference shrinks). Therefore statement B is false. The other statements correctly describe features of cooling curves.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01203-78",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Under which condition is Newton's law of cooling most likely to give inaccurate predictions?",
+      "options": {
+        "A": "When the temperature difference between the object and surroundings is very small.",
+        "B": "When the object is a good conductor of heat.",
+        "C": "When the object is at a temperature high enough that radiative heat loss dominates.",
+        "D": "When the surrounding medium is still air."
+      },
+      "correct_option": "C",
+      "answer": "When the object is at a temperature high enough that radiative heat loss dominates.",
+      "explanation": "Newton's law assumes heat loss is proportional to the temperature difference, which is valid when convection/conduction dominate. At high temperatures, radiation (which varies with the fourth power of temperature) becomes significant, violating the law's linear assumption. The other options do not inherently cause large errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "LU-01203-79",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Compared to Newton's law of cooling, the Stefan‑Boltzmann law for radiative cooling predicts that the rate of heat loss:",
+      "options": {
+        "A": "Is proportional to the first power of the temperature difference.",
+        "B": "Is proportional to the square of the temperature difference.",
+        "C": "Is proportional to the fourth power of the absolute temperature of the object.",
+        "D": "Is independent of temperature."
+      },
+      "correct_option": "C",
+      "answer": "Is proportional to the fourth power of the absolute temperature of the object.",
+      "explanation": "Newton's law: rate ∝ (T - T_s). Stefan‑Boltzmann law: radiated power ∝ σ A (T^4 - T_s^4), i.e., depends on the fourth power of absolute temperature. Hence option C correctly contrasts the two laws. Options A and B describe Newtonian or intermediate forms, while D is incorrect.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01203-80",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "For an object obeying Newton's law of cooling, the temperature as a function of time is T(t)=T_s + (T_0 - T_s) e^{-kt}. If the object’s initial temperature is 80 °C and the surroundings are at 20 °C, after how many time constants (τ = 1/k) will the temperature reach 50 °C?",
+      "options": {
+        "A": "0.5 τ",
+        "B": "0.69 τ",
+        "C": "1 τ",
+        "D": "2 τ"
+      },
+      "correct_option": "B",
+      "answer": "0.69 τ",
+      "explanation": "Set T = 50 °C: 50 = 20 + (80‑20) e^{-t/τ} ⇒ 30 = 60 e^{-t/τ} ⇒ e^{-t/τ}=0.5 ⇒ t/τ = ln 2 ≈ 0.693. Hence about 0.69 τ. Option B matches this value; the others are incorrect.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Which of the following best describes the shape of a cooling curve for an object that obeys Newton's law of cooling?",
+      "options": {
+        "A": "A straight‑line (linear) decrease of temperature with time.",
+        "B": "An exponential decay: a rapid initial drop that gradually flattens as the temperature approaches the surroundings.",
+        "C": "A constant temperature for a period followed by a sudden drop.",
+        "D": "A temperature that first rises and then falls."
+      },
+      "correct_option": "B",
+      "answer": "An exponential decay: a rapid initial drop that gradually flattens as the temperature approaches the surroundings.",
+      "explanation": "Newton's law of cooling predicts that the rate of temperature change is proportional to the temperature difference between the object and its surroundings. Solving the differential equation gives T(t) = T_s + (T_0 - T_s) e^{-kt}, which is an exponential decay. Hence the curve is steep initially and becomes flatter as the object approaches ambient temperature. The other options describe behaviours that do not follow this law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which assumption is essential for Newton's law of cooling to be applicable?",
+      "options": {
+        "A": "The object's temperature must be lower than the surrounding temperature.",
+        "B": "The heat‑transfer coefficient remains constant and the surrounding temperature stays unchanged during cooling.",
+        "C": "The object must be a perfect conductor of heat.",
+        "D": "Radiative heat loss must dominate over convective loss."
+      },
+      "correct_option": "B",
+      "answer": "The heat‑transfer coefficient remains constant and the surrounding temperature stays unchanged during cooling.",
+      "explanation": "Newton's law assumes a constant proportionality (heat‑transfer coefficient) between the cooling rate and the temperature difference, and that the ambient temperature T_s does not vary while the object cools. If either changes, the simple exponential form no longer holds. Options A, C, and D are not required assumptions of the law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Newton's law of cooling states that the rate of change of temperature of an object is proportional to which of the following?",
+      "options": {
+        "A": "The absolute temperature of the object.",
+        "B": "The temperature difference between the object and its surroundings.",
+        "C": "The surface area of the object only.",
+        "D": "The square of the temperature difference."
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference between the object and its surroundings.",
+      "explanation": "Mathematically, the law is expressed as dT/dt = -k (T - T_s), where T is the object's temperature, T_s the surrounding temperature, and k a positive constant. Thus the rate depends linearly on the temperature difference, not on the absolute temperature, surface area alone, or the square of the difference.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "On a typical cooling curve that follows Newton's law, which region indicates the highest instantaneous cooling rate?",
+      "options": {
+        "A": "The initial steep part of the curve, just after the object is placed in the surroundings.",
+        "B": "The middle portion where the curve appears almost straight.",
+        "C": "The final flat portion as the temperature approaches ambient.",
+        "D": "The point where the curve crosses the ambient temperature line."
+      },
+      "correct_option": "A",
+      "answer": "The initial steep part of the curve, just after the object is placed in the surroundings.",
+      "explanation": "Cooling rate is proportional to the temperature difference. At the start, this difference is largest, giving the greatest magnitude of dT/dt, which appears as a steep slope on the graph. As the object cools, the difference shrinks, the slope becomes gentler, and finally the curve flattens near ambient temperature. Options B, C, and D correspond to lower or zero cooling rates.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A cup of hot tea is placed in a room where an air‑conditioning system periodically lowers the room temperature. Which assumption of Newton's law of cooling is violated in this situation?",
+      "options": {
+        "A": "The cup’s material is assumed to be a perfect insulator.",
+        "B": "The surrounding (room) temperature is assumed to remain constant during the cooling process.",
+        "C": "The heat‑transfer coefficient is assumed to be zero.",
+        "D": "The temperature difference is assumed to be negative."
+      },
+      "correct_option": "B",
+      "answer": "The surrounding (room) temperature is assumed to remain constant during the cooling process.",
+      "explanation": "Newton's law requires a constant ambient temperature T_s. If the room temperature changes because of the air‑conditioning cycles, the proportionality relation dT/dt = -k (T - T_s) no longer holds with a single constant k, and the simple exponential cooling model breaks down. Options A, C, and D do not represent the key assumption in question.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A metal rod is initially at 150 °C and is placed in water maintained at 20 °C. After 2 minutes its temperature falls to 100 °C. Assuming Newton's law of cooling remains valid, what will be its temperature after 4 minutes?",
+      "options": {
+        "A": "Approximately 40 °C",
+        "B": "Approximately 70 °C",
+        "C": "Approximately 90 °C",
+        "D": "Approximately 100 °C"
+      },
+      "correct_option": "B",
+      "answer": "Approximately 70 °C",
+      "explanation": "Newton's law gives T(t) - T_s = (T_0 - T_s) e^{-kt}. With T_s = 20 °C, T_0 = 150 °C, and T(2) = 100 °C:\n80 = 130 e^{-2k} → e^{-2k}=0.6154 → k≈0.2427 min⁻¹.\nAt t = 4 min: e^{-4k}=e^{-0.971}=0.379.\nThus T(4) - 20 = 130 × 0.379 ≈ 49 °C → T(4) ≈ 69 °C, i.e., about 70 °C. Option B is the closest. The other options are inconsistent with the exponential decay predicted by the law.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A student claims that the cooling rate of an object remains constant until the object reaches the ambient temperature. Which statement correctly refutes this misconception?",
+      "options": {
+        "A": "The cooling rate is actually zero at the start and increases with time.",
+        "B": "The cooling rate is highest when the temperature difference is greatest and decreases as the object approaches ambient temperature.",
+        "C": "The cooling rate is independent of the temperature difference and stays constant throughout.",
+        "D": "The cooling rate becomes negative after the object reaches ambient temperature."
+      },
+      "correct_option": "B",
+      "answer": "The cooling rate is highest when the temperature difference is greatest and decreases as the object approaches ambient temperature.",
+      "explanation": "According to Newton's law, dT/dt = -k (T - T_s). The magnitude of the rate is proportional to the temperature difference (T - T_s). Hence, when the object is much hotter than its surroundings, the rate is large; as the temperatures converge, the rate diminishes, eventually approaching zero at equilibrium. Options A, C, and D misrepresent the relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "An object is cooling in a perfect vacuum where no air is present. Which assumption of Newton's law of cooling fails, and what is the likely consequence for the cooling behaviour?",
+      "options": {
+        "A": "The assumption of constant ambient temperature fails, causing the object to heat up instead of cool.",
+        "B": "The assumption of convective heat transfer with a constant coefficient fails, so the cooling will be much slower and may not follow an exponential law.",
+        "C": "The assumption that the object's temperature is always higher than ambient fails, leading to an immediate temperature rise.",
+        "D": "The assumption of linear heat capacity fails, resulting in a linear cooling curve."
+      },
+      "correct_option": "B",
+      "answer": "The assumption of convective heat transfer with a constant coefficient fails, so the cooling will be much slower and may not follow an exponential law.",
+      "explanation": "Newton's law presumes heat loss by convection (or conduction) with a constant heat‑transfer coefficient k. In a vacuum, convection is absent; only radiation (and possibly conduction through supports) can remove heat, and the rate no longer follows the simple proportionality to temperature difference. Consequently, cooling is slower and the exponential form is not valid. Options A, C, and D describe unrelated or incorrect failures.",
+      "difficulty": "medium"
+    }
+  ]
+}
