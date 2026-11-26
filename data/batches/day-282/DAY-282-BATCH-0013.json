@@ -1,0 +1,78 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Which of the following statements about Newton's law of cooling reflects a common misconception?",
+      "options": {
+        "A": "The rate of cooling is proportional to the temperature difference between the object and its surroundings.",
+        "B": "The rate of cooling is proportional to the absolute temperature of the object itself, irrespective of the surroundings.",
+        "C": "The rate of cooling depends only on the surface area of the object.",
+        "D": "The rate of cooling is independent of the temperature of the surroundings."
+      },
+      "correct_option": "B",
+      "answer": "The rate of cooling is proportional to the absolute temperature of the object itself, irrespective of the surroundings.",
+      "explanation": "Newton's law of cooling states that the rate of temperature change of an object is proportional to the *difference* between its temperature and that of the surroundings (dT/dt = -k(T - Ts)). It does NOT depend on the absolute temperature of the object alone. Option B describes the misconception; the other options either correctly describe the law or are unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A hot metal rod initially at 80 °C is placed in a room maintained at 20 °C. Its temperature versus time graph is plotted. Which statement correctly interprets the shape of this cooling curve?",
+      "options": {
+        "A": "The curve is a straight line because the temperature decreases uniformly with time.",
+        "B": "The curve is exponential, approaching 20 °C asymptotically as time increases.",
+        "C": "The curve shows the temperature rising after an initial drop due to heat absorption from the room.",
+        "D": "The slope of the curve remains constant throughout the cooling process."
+      },
+      "correct_option": "B",
+      "answer": "The curve is exponential, approaching 20 °C asymptotically as time increases.",
+      "explanation": "According to Newton's law of cooling, temperature follows T(t) = Ts + (T0‑Ts) e^(-kt), which yields an exponential decay that never actually reaches the ambient temperature but approaches it asymptotically. Hence the curve is curved, not a straight line, and its slope decreases with time. Options A, C, and D misrepresent this behavior.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following situations violates an essential assumption underlying Newton's law of cooling?",
+      "options": {
+        "A": "The temperature difference between the object and surroundings is small, and the surrounding temperature remains constant.",
+        "B": "The object is very hot, causing the surrounding air temperature to rise noticeably during the experiment.",
+        "C": "The object is a solid with uniform temperature throughout its volume at each instant.",
+        "D": "The heat‑transfer coefficient between the object and the surrounding medium stays constant during cooling."
+      },
+      "correct_option": "B",
+      "answer": "The object is very hot, causing the surrounding air temperature to rise noticeably during the experiment.",
+      "explanation": "Newton's law assumes the surrounding temperature stays effectively constant. If the object is so hot that it changes the ambient temperature, this assumption is violated, making the law inaccurate. Options A, C, and D describe conditions that satisfy the law's assumptions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A body at 80 °C is placed in a room kept at 20 °C. Its temperature follows Newton's law of cooling with a cooling constant k = 0.1 s⁻¹. After how many seconds will the body’s temperature reach 50 °C?",
+      "options": {
+        "A": "5.0 s",
+        "B": "6.9 s",
+        "C": "10.0 s",
+        "D": "13.9 s"
+      },
+      "correct_option": "B",
+      "answer": "6.9 s",
+      "explanation": "Newton's law gives T(t) = Ts + (T₀‑Ts) e^(‑kt). Substituting T₀ = 80 °C, Ts = 20 °C, T = 50 °C and k = 0.1 s⁻¹:\n50 = 20 + 60 e^(‑0.1t) → 30 = 60 e^(‑0.1t) → e^(‑0.1t) = 0.5.\nTaking natural logs: ‑0.1t = ln 0.5 = –0.6931 → t = 6.931 s ≈ 6.9 s. Hence option B is correct. The other options correspond to incorrect algebraic manipulation or neglect of the exponential nature.",
+      "difficulty": "hard"
+    }
+  ]
+}

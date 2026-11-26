@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0012",
+  "mcqs": [
+    {
+      "job_number": 89,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-89",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Two identical metal spheres are heated to different initial temperatures and then allowed to cool in the same room. Sphere A starts at 80°C, Sphere B at 40°C. Their temperature‑versus‑time graphs are plotted. Which statement correctly compares the slopes of the two cooling curves at the instant both spheres reach 60°C?",
+      "options": {
+        "A": "The slope of Sphere A’s curve is steeper than that of Sphere B.",
+        "B": "The slope of Sphere B’s curve is steeper than that of Sphere A.",
+        "C": "Both slopes are equal because the temperature difference with the surroundings is the same.",
+        "D": "The slopes cannot be compared without knowing the heat‑transfer coefficient."
+      },
+      "correct_option": "C",
+      "answer": "Both slopes are equal because the temperature difference with the surroundings is the same.",
+      "explanation": "Newton’s law of cooling states that the rate of temperature change (the slope of the cooling curve) is proportional to the instantaneous temperature difference (T‑T₀). When both spheres are at 60°C in the same environment, their temperature differences with the surroundings are identical, so the slopes must be equal. Options A and B ignore this proportionality, and D is unnecessary because the coefficient cancels when the temperature differences are equal.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 90,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-90",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "When applying Newton’s law of cooling to a hot object placed in air, which of the following is NOT an implicit assumption of the law?",
+      "options": {
+        "A": "Heat transfer occurs only by convection.",
+        "B": "The temperature of the surroundings remains constant during cooling.",
+        "C": "The rate of heat loss is proportional to the temperature difference between the object and its surroundings.",
+        "D": "The object’s temperature is uniform throughout its volume at any instant."
+      },
+      "correct_option": "A",
+      "answer": "Heat transfer occurs only by convection.",
+      "explanation": "Newton’s law assumes (B) a constant ambient temperature, (C) proportionality of heat loss to temperature difference, and (D) an isothermal object. It does **not** restrict the mode of heat transfer to convection alone; radiation can also contribute, making option A the statement that is NOT an assumption. Hence A is correct.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 91,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-91",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Newton’s law of cooling states that the rate of change of temperature of an object is proportional to what?",
+      "options": {
+        "A": "The absolute temperature of the object.",
+        "B": "The temperature difference between the object and its surroundings.",
+        "C": "The square of the temperature difference.",
+        "D": "The surface area of the object."
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference between the object and its surroundings.",
+      "explanation": "The law is expressed as dT/dt = –k(T – T₀), where T is the object’s temperature, T₀ the ambient temperature, and k a positive constant. Thus the rate of cooling is directly proportional to the temperature difference (T – T₀). Options A, C, and D describe other possible dependencies but are not part of Newton’s law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 92,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-92",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "In a cooling curve plotted as temperature versus time on semi‑logarithmic paper, a straight‑line segment indicates that:",
+      "options": {
+        "A": "The temperature of the object remains constant.",
+        "B": "The rate of cooling is increasing with time.",
+        "C": "The cooling follows Newton’s law with a constant ambient temperature.",
+        "D": "The object has reached thermal equilibrium with its surroundings."
+      },
+      "correct_option": "C",
+      "answer": "The cooling follows Newton’s law with a constant ambient temperature.",
+      "explanation": "When Newton’s law holds and the ambient temperature is constant, the solution T – T₀ = (T_initial – T₀) e^{‑kt} gives a straight line on a plot of ln(T – T₀) versus time. Hence a straight‑line segment on a semi‑log plot confirms exponential decay as predicted by the law. Options A and D describe no change, and B contradicts the exponential decay behavior.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 93,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-93",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which statement correctly distinguishes an assumption from a limitation in Newton’s law of cooling?",
+      "options": {
+        "A": "Assuming constant ambient temperature is an assumption; the law’s inability to account for radiative heat loss is a limitation.",
+        "B": "Assuming proportionality between heat loss and temperature difference is a limitation; constant ambient temperature is an assumption.",
+        "C": "Both constant ambient temperature and proportionality are assumptions; there are no limitations.",
+        "D": "Both constant ambient temperature and proportionality are limitations; the law makes no assumptions."
+      },
+      "correct_option": "A",
+      "answer": "Assuming constant ambient temperature is an assumption; the law’s inability to account for radiative heat loss is a limitation.",
+      "explanation": "Newton’s law explicitly assumes (i) a constant surrounding temperature and (ii) that the object is isothermal, leading to a proportional relationship. These are **assumptions**. However, the law does not include radiative heat transfer, which becomes significant at large temperature differences; this omission is a **limitation**. Option A captures this distinction correctly, while the other options mix up the categories.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 94,
+      "question_type": "application",
+      "mcq_id": "MCQ-94",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A metal rod initially at 100°C is placed in a room kept at 20°C. After 5 minutes its temperature drops to 60°C. Using Newton’s law of cooling, the cooling constant k (in min⁻¹) is closest to:",
+      "options": {
+        "A": "0.069",
+        "B": "0.14",
+        "C": "0.20",
+        "D": "0.28"
+      },
+      "correct_option": "B",
+      "answer": "0.14",
+      "explanation": "Newton’s law gives T – T₀ = (T_i – T₀) e^{‑kt}. Here T_i = 100°C, T₀ = 20°C, T = 60°C, t = 5 min.\n\n60 – 20 = 40, 100 – 20 = 80 → 40 = 80 e^{‑5k} → e^{‑5k} = 0.5.\nTaking natural logs: –5k = ln 0.5 = –0.693 → k = 0.693/5 ≈ 0.1386 min⁻¹, which rounds to 0.14. Option B is therefore correct. The other options correspond to different logarithmic values.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 95,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-95",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A cup of coffee cools from 90°C to 70°C in the first 3 minutes and from 70°C to 60°C in the next 4 minutes. Which statement best describes the cooling behavior according to Newton’s law?",
+      "options": {
+        "A": "The cooling rate increased after the first 3 minutes.",
+        "B": "The cooling rate decreased after the first 3 minutes.",
+        "C": "The cooling rate remained constant throughout the 7 minutes.",
+        "D": "The coffee reached thermal equilibrium after 7 minutes."
+      },
+      "correct_option": "B",
+      "answer": "The cooling rate decreased after the first 3 minutes.",
+      "explanation": "Newton’s law predicts that the rate of cooling is proportional to the temperature difference (T – T₀). As the coffee temperature falls, this difference becomes smaller, so the rate of temperature drop slows down. The temperature drop of 20°C in 3 min (≈6.7°C/min) is larger than the subsequent drop of 10°C in 4 min (≈2.5°C/min), indicating a decreasing rate. Hence option B is correct; options A and C contradict the law, and D is false because equilibrium is not reached at 60°C.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 96,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-96",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A researcher applies Newton’s law to predict the cooling of a large steel block placed in a freezer at –20°C. After 30 minutes the block’s surface temperature is measured at –5°C, while its interior remains at 0°C. Which underlying assumption of the law is being violated in this situation?",
+      "options": {
+        "A": "The object’s temperature is uniform throughout its volume at any instant.",
+        "B": "The ambient temperature stays constant during the cooling process.",
+        "C": "The rate of heat loss is linearly proportional to the temperature difference.",
+        "D": "The heat capacity of the object is negligible."
+      },
+      "correct_option": "A",
+      "answer": "The object’s temperature is uniform throughout its volume at any instant.",
+      "explanation": "Newton’s law assumes the cooling body is isothermal, i.e., its temperature is the same everywhere at a given moment. The observed temperature gradient (surface at –5°C, interior at 0°C) shows that this assumption is not satisfied. Options B, C, and D are still valid in this scenario (the freezer temperature is constant, proportionality still holds locally, and heat capacity is not assumed negligible). Therefore, the violation pertains to assumption A.",
+      "difficulty": "medium"
+    }
+  ]
+}

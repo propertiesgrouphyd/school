@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0011",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following is an explicit assumption made when applying Newton's law of cooling?",
+      "options": {
+        "A": "The object's surface area changes during cooling.",
+        "B": "The surrounding (ambient) temperature remains constant.",
+        "C": "The object undergoes a phase change during the process.",
+        "D": "Heat is transferred only by radiation."
+      },
+      "correct_option": "B",
+      "answer": "The surrounding (ambient) temperature remains constant.",
+      "explanation": "Newton's law of cooling assumes that the ambient temperature does not vary while the object cools. If the surroundings change, the simple proportional relationship no longer holds. Options A, C, and D describe conditions that are not part of the basic assumption.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "According to Newton's law of cooling, the instantaneous rate of temperature change of an object is proportional to:",
+      "options": {
+        "A": "The absolute temperature of the object.",
+        "B": "The temperature difference between the object and its surroundings.",
+        "C": "The surface area of the object.",
+        "D": "The thermal conductivity of the material."
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference between the object and its surroundings.",
+      "explanation": "Newton's law states dT/dt = -k (T - T_s), where T is the object's temperature, T_s is the surrounding temperature, and k is a constant. Hence the rate is directly proportional to the temperature difference. The other options are not part of the basic law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "On a typical cooling curve plotted as temperature versus time, the region with the steepest slope indicates:",
+      "options": {
+        "A": "The moment when the object reaches thermal equilibrium with the surroundings.",
+        "B": "The period when the temperature difference between object and surroundings is greatest.",
+        "C": "The point at which the object's temperature is equal to the ambient temperature.",
+        "D": "The stage where latent heat is being released."
+      },
+      "correct_option": "B",
+      "answer": "The period when the temperature difference between object and surroundings is greatest.",
+      "explanation": "A steep slope means a large rate of temperature change, which according to Newton's law occurs when the temperature difference (T - T_s) is large. Options A and C describe equilibrium, where the slope is zero. Option D refers to phase change, which appears as a horizontal segment, not a steep slope.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A hot metal rod is placed in a room where the temperature is steadily increasing from 20 °C to 30 °C over ten minutes. Which assumption of Newton's law of cooling is violated in this situation?",
+      "options": {
+        "A": "The rod’s heat capacity remains constant.",
+        "B": "The ambient temperature is constant.",
+        "C": "Heat transfer occurs only by convection.",
+        "D": "The rod’s surface area changes with temperature."
+      },
+      "correct_option": "B",
+      "answer": "The ambient temperature is constant.",
+      "explanation": "Newton's law requires a fixed surrounding temperature (T_s). Here the room temperature changes, breaking that assumption. The other options are not required for the basic form of the law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "An object initially at 80 °C cools to 60 °C in 5 minutes while the surrounding temperature is 20 °C. Assuming Newton's law of cooling holds, what will be its temperature after another 5 minutes?",
+      "options": {
+        "A": "45 °C",
+        "B": "46.7 °C",
+        "C": "50 °C",
+        "D": "55 °C"
+      },
+      "correct_option": "B",
+      "answer": "46.7 °C",
+      "explanation": "From Newton's law: (T‑T_s) = (T₀‑T_s) e^{‑kt}. First interval gives e^{‑5k}= (60‑20)/(80‑20)=40/60=2/3. After another 5 min, (T‑20)=60 (e^{‑5k})² =60 (2/3)² =60 × 4/9 =26.67 °C, so T≈46.7 °C. Options A, C, D are incorrect calculations.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Two identical metal spheres are placed in the same room at 25 °C. Sphere A is initially at 90 °C, while Sphere B is at 60 °C. Their temperature versus time curves are plotted. Which curve will show a steeper initial slope and why?",
+      "options": {
+        "A": "Sphere A, because it has a larger temperature difference from the surroundings.",
+        "B": "Sphere B, because it is closer to the ambient temperature.",
+        "C": "Both curves will have the same initial slope because the spheres are identical.",
+        "D": "Neither curve will have a slope; both start with a horizontal line."
+      },
+      "correct_option": "A",
+      "answer": "Sphere A, because it has a larger temperature difference from the surroundings.",
+      "explanation": "Newton's law states the cooling rate ∝ (T‑T_s). Sphere A starts at a larger ΔT (90‑25 = 65 °C) than Sphere B (60‑25 = 35 °C), giving a greater initial rate of temperature change, i.e., a steeper slope. Options B, C, and D contradict the law.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following statements about Newton's law of cooling is a common misconception?",
+      "options": {
+        "A": "The law applies equally well during phase changes such as melting.",
+        "B": "The law assumes a constant ambient temperature.",
+        "C": "The cooling rate is proportional to the temperature difference.",
+        "D": "The proportionality constant depends on the nature of the object and the surrounding medium."
+      },
+      "correct_option": "A",
+      "answer": "The law applies equally well during phase changes such as melting.",
+      "explanation": "Newton's law does NOT apply during phase changes because latent heat dominates and the temperature remains nearly constant despite heat exchange. Options B, C, and D correctly describe the law's assumptions and parameters.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "If an object is cooler than its surroundings, what does Newton's law of cooling predict about the direction of heat flow and the sign of the temperature change rate?",
+      "options": {
+        "A": "Heat flows from the object to the surroundings; the temperature of the object decreases.",
+        "B": "Heat flows from the surroundings to the object; the temperature of the object increases.",
+        "C": "No heat flows because the law only describes cooling, not heating.",
+        "D": "Heat flow direction is unpredictable; the law does not apply when the object is cooler."
+      },
+      "correct_option": "B",
+      "answer": "Heat flows from the surroundings to the object; the temperature of the object increases.",
+      "explanation": "Newton's law is symmetric: dT/dt = -k (T‑T_s). If T < T_s, then (T‑T_s) is negative, making dT/dt positive, meaning the object's temperature rises as heat flows from the warmer surroundings. Options A, C, and D misinterpret the sign convention.",
+      "difficulty": "medium"
+    }
+  ]
+}
