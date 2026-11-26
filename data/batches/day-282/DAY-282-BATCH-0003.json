@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0003",
+  "mcqs": [
+    {
+      "job_number": 17,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-282-17",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A student looks at a cooling curve of a hot metal rod placed in air and says, \"Since the curve is a straight line, the temperature of the rod decreases at a constant rate throughout the cooling process.\" Which statement best identifies the misconception in this interpretation?",
+      "options": {
+        "A": "The curve is straight only because the temperature difference is small; the rate is actually proportional to the difference.",
+        "B": "A straight‑line segment indicates a constant temperature difference, not a constant rate of cooling.",
+        "C": "Newton's law of cooling predicts an exponential decay, so a perfectly straight line is impossible except over a very short interval.",
+        "D": "The rod cools faster at higher temperatures, so the slope of the curve must become steeper, not remain constant."
+      },
+      "correct_option": "C",
+      "answer": "Newton's law of cooling predicts an exponential decay, so a perfectly straight line is impossible except over a very short interval.",
+      "explanation": "Newton's law of cooling states that the rate of temperature change is proportional to the temperature difference, leading to an exponential decay curve. A perfectly straight line would imply a constant rate, which contradicts the law. Option C correctly points out this misconception, while the other options describe related but inaccurate statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 18,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-282-18",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following is NOT an assumption underlying Newton's law of cooling when it is applied to a hot object placed in a room?",
+      "options": {
+        "A": "The surrounding medium (air) remains at a uniform temperature throughout the process.",
+        "B": "The heat transfer coefficient stays constant during cooling.",
+        "C": "The object's temperature distribution is uniform at every instant.",
+        "D": "The object emits radiation according to the Stefan‑Boltzmann law with a temperature‑fourth‑power dependence."
+      },
+      "correct_option": "D",
+      "answer": "The object emits radiation according to the Stefan‑Boltzmann law with a temperature‑fourth‑power dependence.",
+      "explanation": "Newton's law of cooling assumes convective heat transfer with a rate proportional to the temperature difference, not radiative transfer that follows the Stefan‑Boltzmann law (∝ T⁴). Options A, B, and C are standard assumptions (uniform surroundings, constant coefficient, and uniform object temperature). Hence D is the statement that does NOT belong to the assumptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 19,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-282-19",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "How does Newton's law of cooling differ from the simple linear cooling model that assumes a constant rate of temperature change?",
+      "options": {
+        "A": "Newton's law predicts a temperature that changes linearly with time, while the linear model predicts exponential decay.",
+        "B": "Newton's law relates the rate of temperature change to the temperature difference, leading to exponential decay; the linear model assumes a constant rate independent of temperature difference.",
+        "C": "Both models give identical predictions for small temperature differences, but differ for large differences.",
+        "D": "Newton's law applies only to liquids, whereas the linear model applies to solids."
+      },
+      "correct_option": "B",
+      "answer": "Newton's law relates the rate of temperature change to the temperature difference, leading to exponential decay; the linear model assumes a constant rate independent of temperature difference.",
+      "explanation": "Newton's law states dT/dt = -k(T‑T_s), producing an exponential approach to the surroundings' temperature. A linear model with constant dT/dt would give a straight‑line temperature vs. time graph, which contradicts the dependence on temperature difference. Options A, C, and D are incorrect statements.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 20,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-282-20",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A metal sphere initially at 120 °C is placed in a room maintained at 20 °C. Its temperature T (in °C) after time t (in minutes) follows T = 20 + 100 e⁻⁰·⁰⁵ᵗ. After how many minutes will the sphere’s temperature be 70 °C?",
+      "options": {
+        "A": "Approximately 13.9 minutes",
+        "B": "Approximately 22.0 minutes",
+        "C": "Approximately 34.7 minutes",
+        "D": "Approximately 46.1 minutes"
+      },
+      "correct_option": "A",
+      "answer": "Approximately 13.9 minutes",
+      "explanation": "Set 70 = 20 + 100 e⁻⁰·⁰⁵ᵗ ⇒ 50 = 100 e⁻⁰·⁰⁵ᵗ ⇒ e⁻⁰·⁰⁵ᵗ = 0.5 ⇒ -0.05 t = ln 0.5 = -0.6931 ⇒ t = 0.6931/0.05 ≈ 13.86 min, which matches option A. The other options correspond to incorrect algebraic manipulations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 21,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-282-21",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which statement correctly describes an assumption made when applying Newton's law of cooling?",
+      "options": {
+        "A": "The heat transfer coefficient varies with the object's temperature.",
+        "B": "The surrounding medium’s temperature changes significantly during cooling.",
+        "C": "The temperature difference between the object and surroundings is small enough that radiation can be ignored.",
+        "D": "The object's shape changes during cooling, affecting surface area."
+      },
+      "correct_option": "C",
+      "answer": "The temperature difference between the object and surroundings is small enough that radiation can be ignored.",
+      "explanation": "Newton's law assumes convective heat transfer dominates and that radiative effects are negligible, which is reasonable when temperature differences are modest. Options A, B, and D describe situations that violate the usual assumptions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 22,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-282-22",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "According to Newton's law of cooling, the rate of change of temperature of an object is:",
+      "options": {
+        "A": "Directly proportional to the absolute temperature of the object.",
+        "B": "Directly proportional to the temperature difference between the object and its surroundings.",
+        "C": "Inversely proportional to the temperature of the surroundings.",
+        "D": "Independent of any temperature difference."
+      },
+      "correct_option": "B",
+      "answer": "Directly proportional to the temperature difference between the object and its surroundings.",
+      "explanation": "Newton's law is expressed as dT/dt = -k(T‑T_s), showing that the cooling rate depends linearly on the temperature difference (T‑T_s). Options A, C, and D misrepresent the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 23,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-282-23",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Which of the following correctly distinguishes a cooling curve from a heating curve for the same material?",
+      "options": {
+        "A": "A cooling curve shows temperature decreasing with time, while a heating curve shows temperature increasing with time, both following the same exponential form.",
+        "B": "A cooling curve is always steeper than a heating curve because heat loss is faster than heat gain.",
+        "C": "A cooling curve approaches the ambient temperature asymptotically, whereas a heating curve approaches the source temperature asymptotically.",
+        "D": "A cooling curve is linear, while a heating curve is exponential."
+      },
+      "correct_option": "C",
+      "answer": "A cooling curve approaches the ambient temperature asymptotically, whereas a heating curve approaches the source temperature asymptotically.",
+      "explanation": "Both curves are exponential in nature, but the cooling curve tends toward the surrounding (ambient) temperature, while the heating curve tends toward the temperature of the heat source. Option C captures this distinction. Option A incorrectly claims identical exponential forms without noting different asymptotes; B and D are false statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 24,
+      "question_type": "application",
+      "mcq_id": "MCQ-282-24",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A scientist uses Newton's law of cooling to estimate the time required for a hot metal plate to reach 30 °C in a furnace that is being heated from 20 °C to 200 °C during the experiment. Which assumption of the law is violated in this scenario?",
+      "options": {
+        "A": "The heat transfer coefficient remains constant.",
+        "B": "The temperature of the surroundings stays constant.",
+        "C": "The plate’s temperature is uniform throughout.",
+        "D": "The cooling occurs only by convection."
+      },
+      "correct_option": "B",
+      "answer": "The temperature of the surroundings stays constant.",
+      "explanation": "Newton's law requires the surrounding temperature (T_s) to be constant. In the described experiment, the furnace temperature is changing, violating this assumption. While A, C, and D are also assumptions, the primary breach here is the non‑constant surrounding temperature.",
+      "difficulty": "easy"
+    }
+  ]
+}

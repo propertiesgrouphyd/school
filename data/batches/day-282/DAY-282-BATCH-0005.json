@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0005",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following is an explicit assumption made when applying Newton's law of cooling to an object placed in a surrounding medium?",
+      "options": {
+        "A": "The temperature of the surrounding medium remains essentially constant during the cooling process.",
+        "B": "Heat is transferred from the object only by radiation.",
+        "C": "The object's heat capacity changes linearly with its temperature.",
+        "D": "The cooling takes place in a perfect vacuum."
+      },
+      "correct_option": "A",
+      "answer": "The temperature of the surrounding medium remains essentially constant during the cooling process.",
+      "explanation": "Newton's law of cooling assumes that the surroundings are large enough that their temperature does not change appreciably while the object cools. Options B, C and D describe conditions that are not part of the basic assumptions of the law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A hot metal rod at 80°C is placed in a room maintained at 20°C. If the cooling constant k is 0.1 s⁻¹, what is the temperature of the rod after 10 s? (Use T(t)=Ts+(T0‑Ts)e^{-kt})",
+      "options": {
+        "A": "42°C",
+        "B": "50°C",
+        "C": "30°C",
+        "D": "60°C"
+      },
+      "correct_option": "A",
+      "answer": "42°C",
+      "explanation": "ΔT₀ = 80‑20 = 60°C. After 10 s, e^{-0.1×10}=e^{-1}=0.3679. ΔT = 60×0.3679≈22.1°C. Final temperature = 20+22.1≈42°C. The other options result from incorrect arithmetic or neglecting the exponential factor.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A cooling curve of a hot object shows a steep initial decline in temperature that gradually becomes less steep as time passes. Which statement best explains this behaviour?",
+      "options": {
+        "A": "The large initial temperature difference causes a rapid rate of heat loss, which slows as the difference decreases.",
+        "B": "The object remains at a constant temperature for a while before cooling rapidly.",
+        "C": "The temperature decreases linearly with time throughout the process.",
+        "D": "After the initial drop, the object's temperature begins to rise again due to ambient heating."
+      },
+      "correct_option": "A",
+      "answer": "The large initial temperature difference causes a rapid rate of heat loss, which slows as the difference decreases.",
+      "explanation": "Newton's law predicts a rate proportional to the instantaneous temperature difference. A big difference gives a high rate initially; as the object approaches the surroundings, the rate diminishes, producing the observed curve. Options B, C, and D contradict the typical exponential behaviour.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A small insulated box contains a hot metal piece and a limited amount of air. As the metal cools, the air temperature rises noticeably. Which limitation of Newton's law of cooling is being violated in this scenario?",
+      "options": {
+        "A": "The assumption that the surrounding temperature stays constant",
+        "B": "The linear proportionality between heat loss rate and temperature difference",
+        "C": "The neglect of phase change during cooling",
+        "D": "The assumption that heat transfer occurs only by conduction"
+      },
+      "correct_option": "A",
+      "answer": "The assumption that the surrounding temperature stays constant",
+      "explanation": "Newton's law assumes an effectively infinite surrounding that does not change temperature. In the insulated box the air temperature changes, breaking this assumption. The other options are not the primary limitation highlighted here.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Which of the following statements about Newton's law of cooling is FALSE?",
+      "options": {
+        "A": "The law can be applied equally to heating and cooling processes as long as the temperature difference is defined appropriately.",
+        "B": "The rate of temperature change is proportional to the instantaneous temperature difference between the object and its surroundings.",
+        "C": "The surrounding medium is assumed to have a constant temperature during the process.",
+        "D": "The law is most accurate when the temperature difference is not extremely large."
+      },
+      "correct_option": "A",
+      "answer": "The law can be applied equally to heating and cooling processes as long as the temperature difference is defined appropriately.",
+      "explanation": "While the mathematical form can describe heating, the common misconception is that the law automatically works for heating without considering that the proportionality constant may differ and other mechanisms may dominate. Statements B, C, and D correctly describe the law's features.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A cooling experiment records the temperature of an object as follows: at t=0 s, T=80°C; at t=5 s, T=60°C; at t=10 s, T=50°C. Which conclusion about the rate of cooling is most accurate?",
+      "options": {
+        "A": "The cooling rate during the first 5 s is greater than during the second 5 s.",
+        "B": "The cooling rate is the same in both intervals.",
+        "C": "The cooling rate during the second 5 s is greater than during the first 5 s.",
+        "D": "The data are insufficient to compare the rates."
+      },
+      "correct_option": "A",
+      "answer": "The cooling rate during the first 5 s is greater than during the second 5 s.",
+      "explanation": "Rate = ΔT/Δt. First interval: (80‑60)/5 = 4°C/s. Second interval: (60‑50)/5 = 2°C/s. The larger initial temperature difference yields a higher rate, consistent with Newton's law. Options B, C, and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which statement correctly distinguishes Newton's law of cooling from the Stefan‑Boltzmann law of thermal radiation?",
+      "options": {
+        "A": "Newton's law assumes a linear dependence on the temperature difference, whereas the Stefan‑Boltzmann law involves a fourth‑power dependence on absolute temperature.",
+        "B": "Both laws predict that heat loss is directly proportional to the temperature difference between object and surroundings.",
+        "C": "Newton's law applies only to radiative heat transfer, while the Stefan‑Boltzmann law applies only to conductive transfer.",
+        "D": "Both laws require that the surrounding temperature remain constant throughout the process."
+      },
+      "correct_option": "A",
+      "answer": "Newton's law assumes a linear dependence on the temperature difference, whereas the Stefan‑Boltzmann law involves a fourth‑power dependence on absolute temperature.",
+      "explanation": "Newton's law: rate ∝ (T‑Ts). Stefan‑Boltzmann: power radiated ∝ T⁴. Hence the functional forms differ as described in option A. Options B, C, and D misrepresent the scope and assumptions of the two laws.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A metal sphere initially at 200°C is immersed in a large water bath maintained at 20°C. Its temperature follows Newton's law with a cooling constant k = 0.05 s⁻¹. After how many seconds will the sphere's temperature reach 80°C? (Use T(t)=Ts+(T0‑Ts)e^{-kt})",
+      "options": {
+        "A": "22 s",
+        "B": "30 s",
+        "C": "45 s",
+        "D": "60 s"
+      },
+      "correct_option": "A",
+      "answer": "22 s",
+      "explanation": "Set 80 = 20 + (200‑20)e^{-0.05t} → 60 = 180 e^{-0.05t} → e^{-0.05t}=1/3 → -0.05t = ln(1/3) → t = (ln3)/0.05 ≈ 1.0986/0.05 ≈ 21.97 s ≈ 22 s. The other options correspond to incorrect algebra or neglect of the exponential term.",
+      "difficulty": "hard"
+    }
+  ]
+}

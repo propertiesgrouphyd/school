@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0004",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A hot metal rod of initial temperature 150°C is placed in a room whose temperature is maintained at 25°C. After 5 minutes the rod’s temperature falls to 100°C. Assuming Newton's law of cooling applies, which statement is correct?",
+      "options": {
+        "A": "The instantaneous rate of temperature change is proportional to the difference between the rod’s temperature and 25°C.",
+        "B": "The rod will reach 25°C exactly after another 5 minutes.",
+        "C": "The temperature difference decreases linearly with time.",
+        "D": "The cooling constant k for this situation is 0.1 min⁻¹."
+      },
+      "correct_option": "A",
+      "answer": "The instantaneous rate of temperature change is proportional to the difference between the rod’s temperature and 25°C.",
+      "explanation": "Newton's law of cooling states that dT/dt = -k(T - Ts), where Ts is the surrounding temperature. Hence the rate of cooling at any instant is directly proportional to the temperature difference (T - Ts). Options B, C and D are not implied by the law; the temperature does not reach the ambient value in a fixed time, the decay is exponential not linear, and the value of k cannot be deduced from the given data without further calculation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A graph shows the temperature of a liquid decreasing rapidly at first and then more slowly, approaching 20°C asymptotically as time increases. Which interpretation of this curve is correct?",
+      "options": {
+        "A": "The surrounding temperature is 20°C and the liquid follows Newton's law of cooling.",
+        "B": "The liquid is undergoing a phase change at 20°C.",
+        "C": "The cooling rate is increasing with time.",
+        "D": "The surrounding temperature is decreasing with time."
+      },
+      "correct_option": "A",
+      "answer": "The surrounding temperature is 20°C and the liquid follows Newton's law of cooling.",
+      "explanation": "In Newtonian cooling, the temperature of the object approaches the ambient temperature asymptotically, producing a curve that flattens out near the surrounding temperature. The rapid initial drop reflects a large temperature difference, which diminishes over time, causing the rate to slow. Options B, C, and D describe different phenomena not represented by the given exponential‑type curve.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following statements about Newton's law of cooling is NOT a valid assumption underlying the law?",
+      "options": {
+        "A": "The temperature of the surroundings remains constant during the cooling process.",
+        "B": "The temperature within the object is uniform at any instant.",
+        "C": "The heat‑transfer coefficient is independent of the temperature difference.",
+        "D": "The law provides an accurate description even when the temperature difference is very large."
+      },
+      "correct_option": "D",
+      "answer": "The law provides an accurate description even when the temperature difference is very large.",
+      "explanation": "Newton's law assumes a small to moderate temperature difference so that the heat‑transfer coefficient can be treated as constant. For very large differences, radiation becomes significant and the linear relationship breaks down, making statement D false. Statements A, B and C are standard assumptions for the law's applicability.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "According to Newton's law of cooling, if the temperature difference between an object and its surroundings is halved, what happens to the instantaneous rate of cooling?",
+      "options": {
+        "A": "It doubles.",
+        "B": "It is halved.",
+        "C": "It remains unchanged.",
+        "D": "It becomes zero."
+      },
+      "correct_option": "B",
+      "answer": "It is halved.",
+      "explanation": "The law states dT/dt = -k(T - Ts). The rate of cooling is directly proportional to the temperature difference (T - Ts). Halving that difference halves the magnitude of dT/dt. Therefore the correct answer is B. Options A and C contradict the proportionality, and D would only occur if the temperature difference were zero.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Two identical metal spheres are cooled in different rooms. Sphere A is in a room at 20°C, Sphere B in a room at 30°C. Both start at 80°C. When each sphere has cooled to 50°C, which statement correctly compares the slopes of their temperature‑time curves at that instant?",
+      "options": {
+        "A": "The slope for Sphere A is steeper than that for Sphere B.",
+        "B": "The slope for Sphere B is steeper than that for Sphere A.",
+        "C": "Both slopes are equal.",
+        "D": "The slopes cannot be compared without knowing the cooling constant k."
+      },
+      "correct_option": "A",
+      "answer": "The slope for Sphere A is steeper than that for Sphere B.",
+      "explanation": "For Newtonian cooling, the magnitude of the slope |dT/dt| = k|T - Ts|. At 50°C, the temperature difference for Sphere A is 30°C (50‑20) and for Sphere B is 20°C (50‑30). With the same k, the larger difference for Sphere A gives a larger magnitude of slope, i.e., a steeper decline. Option D is unnecessary because k is the same for identical spheres under identical conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "In which of the following situations would Newton's law of cooling provide a poor approximation?",
+      "options": {
+        "A": "A small metal sphere cooling in air with a temperature difference of only 5°C.",
+        "B": "A large block of ice melting in water that is already at 0°C.",
+        "C": "A hot object cooling primarily by radiation in a vacuum.",
+        "D": "A liquid cooling in a well‑mixed container where the ambient temperature stays constant."
+      },
+      "correct_option": "C",
+      "answer": "A hot object cooling primarily by radiation in a vacuum.",
+      "explanation": "Newton's law assumes convective heat transfer with a constant heat‑transfer coefficient. When radiation dominates, especially in vacuum where convection is absent, the linear dependence on temperature difference no longer holds, making the law inaccurate. Options A, B and D involve conditions where the law’s assumptions (small ΔT, constant ambient temperature, convective cooling) are reasonably satisfied.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Newton's law of cooling states that the rate of change of temperature of an object is proportional to what?",
+      "options": {
+        "A": "Its absolute temperature.",
+        "B": "The temperature difference between the object and its surroundings.",
+        "C": "The ambient temperature alone.",
+        "D": "The surface area of the object."
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference between the object and its surroundings.",
+      "explanation": "The law is expressed as dT/dt = -k(T - Ts), showing that the rate of cooling is directly proportional to the temperature difference (T - Ts). The other options describe quantities that are not the basis of the proportionality in Newton's law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "On a cooling curve that follows Newton's law, what does the horizontal asymptote represent?",
+      "options": {
+        "A": "The initial temperature of the object.",
+        "B": "The temperature at which cooling stops instantly.",
+        "C": "The constant temperature of the surroundings.",
+        "D": "The average temperature of the object during cooling."
+      },
+      "correct_option": "C",
+      "answer": "The constant temperature of the surroundings.",
+      "explanation": "Newtonian cooling predicts an exponential approach of the object's temperature toward the ambient temperature Ts. On a temperature‑time graph this appears as a horizontal line that the curve approaches but never reaches, representing the surrounding (ambient) temperature. The other options misinterpret the meaning of the asymptote.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-282-1",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "Newton's law of cooling states that the rate of change of temperature of an object is proportional to which of the following?",
+      "options": {
+        "A": "The temperature difference between the object and its surroundings",
+        "B": "The square of the object's temperature",
+        "C": "The absolute temperature of the surroundings",
+        "D": "The mass of the object"
+      },
+      "correct_option": "A",
+      "answer": "The temperature difference between the object and its surroundings",
+      "explanation": "Newton's law of cooling says dT/dt = -k (T - Ts), where T is the object's temperature, Ts is the surrounding temperature, and k is a positive constant. Hence the rate is proportional to the temperature difference. The other options are not part of the law.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-282-2",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "In a cooling curve of a hot metal placed in room air, the steepest slope on the graph corresponds to which condition?",
+      "options": {
+        "A": "When the temperature difference between the metal and the room is greatest",
+        "B": "When the temperature difference is smallest",
+        "C": "When the metal's temperature equals the room temperature",
+        "D": "When the metal has already reached room temperature"
+      },
+      "correct_option": "A",
+      "answer": "When the temperature difference between the metal and the room is greatest",
+      "explanation": "A steeper slope indicates a larger rate of temperature change. According to Newton's law, the rate is larger when the temperature difference is larger, i.e., at the beginning of cooling. Options B, C, and D describe later stages where the slope is gentler.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-282-3",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "Which of the following is an explicit assumption made when applying Newton's law of cooling?",
+      "options": {
+        "A": "Heat transfer occurs only by convection",
+        "B": "The temperature difference is small enough that the rate varies linearly with it",
+        "C": "The object behaves as a perfect black body",
+        "D": "The surrounding temperature changes with time"
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference is small enough that the rate varies linearly with it",
+      "explanation": "Newton's law assumes a linear relationship between the cooling rate and the temperature difference, which is valid for modest temperature differences. It does not require pure convection, black‑body behavior, or a constant surrounding temperature (the latter is a separate assumption of constancy, not a change).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-282-4",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A cup of tea at 80 °C cools to 60 °C in 5 minutes in a room kept at 20 °C. Assuming Newton's law of cooling holds, what will be its temperature after another 5 minutes?",
+      "options": {
+        "A": "50 °C",
+        "B": "46 °C",
+        "C": "40 °C",
+        "D": "30 °C"
+      },
+      "correct_option": "B",
+      "answer": "46 °C",
+      "explanation": "Newton's law gives T(t) = Ts + (T0‑Ts) e^{‑kt}. From the first 5 min: 60‑20 = (80‑20) e^{‑5k} → 40 = 60 e^{‑5k} → e^{‑5k}=2/3. After another 5 min, the temperature difference is 60 (e^{‑5k})^2 = 60 (2/3)^2 = 26.7 °C. Adding the surroundings temperature (20 °C) gives ≈ 46 °C. Option B matches this value.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-282-5",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "A cooling curve shows a steep initial decline, then gradually flattens and finally becomes almost horizontal near 25 °C, the ambient temperature. Which part of the curve indicates that the temperature difference between the object and the surroundings is small?",
+      "options": {
+        "A": "The initial steep part",
+        "B": "The middle region where the slope is decreasing",
+        "C": "The flat region close to 25 °C",
+        "D": "The point where the curve crosses 50 °C"
+      },
+      "correct_option": "C",
+      "answer": "The flat region close to 25 °C",
+      "explanation": "When the object's temperature approaches the ambient temperature, the temperature difference becomes small, causing the cooling rate (slope) to become very low. This appears as a nearly horizontal segment of the curve. The steep part corresponds to a large difference, and the middle region to a moderate difference.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-282-6",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Recognise assumptions and limitations",
+      "question": "A scientist applies Newton's law of cooling to predict the temperature of a large steel block placed in a freezer, but the freezer temperature drops as the block cools. Why is the prediction likely to be inaccurate?",
+      "options": {
+        "A": "Because the block's mass is too small",
+        "B": "Because the ambient temperature is not constant",
+        "C": "Because steel does not conduct heat well",
+        "D": "Because Newton's law only applies to gases"
+      },
+      "correct_option": "B",
+      "answer": "Because the ambient temperature is not constant",
+      "explanation": "Newton's law assumes a constant surrounding temperature (Ts). If the freezer temperature changes while cooling proceeds, the basic form of the law no longer describes the process accurately. The other options are unrelated to the law's assumptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-282-7",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Understand Newton's law of cooling",
+      "question": "A common misconception is that Newton's law of cooling predicts an object will reach the ambient temperature in a finite time. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "The object actually reaches ambient temperature instantly",
+        "B": "The temperature difference decays exponentially and approaches zero asymptotically, never truly reaching it",
+        "C": "The law predicts a linear decrease that stops exactly at the ambient temperature",
+        "D": "The law is only valid after the object has already reached ambient temperature"
+      },
+      "correct_option": "B",
+      "answer": "The temperature difference decays exponentially and approaches zero asymptotically, never truly reaching it",
+      "explanation": "Newton's law yields an exponential decay: T(t) = Ts + (T0‑Ts) e^{‑kt}. As t → ∞, e^{‑kt} → 0, so the temperature approaches Ts but never exactly equals it in finite time. This corrects the misconception. Options A, C, and D are false.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-282-8",
+      "learning_unit_id": "LU-01203",
+      "learning_point": "Interpret cooling curves",
+      "question": "Two identical objects are initially at 80 °C. One is placed in a room at 30 °C and the other in a room at 10 °C. Which object will show a steeper initial cooling curve and why?",
+      "options": {
+        "A": "The object in the 30 °C room because it has a larger temperature difference",
+        "B": "The object in the 10 °C room because it has a larger temperature difference",
+        "C": "Both objects will have the same initial slope because they are identical",
+        "D": "Neither object cools initially because the temperature difference is zero"
+      },
+      "correct_option": "B",
+      "answer": "The object in the 10 °C room because it has a larger temperature difference",
+      "explanation": "Newton's law states the cooling rate is proportional to the temperature difference (T‑Ts). The 10 °C room gives a difference of 70 °C, larger than the 50 °C difference for the 30 °C room, so the initial slope (rate) is steeper for the object in the cooler room. Options A, C, and D contradict the law.",
+      "difficulty": "medium"
+    }
+  ]
+}
