@@ -1,0 +1,78 @@
+{
+  "day": 279,
+  "batch_id": "DAY-279-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-279-97",
+      "learning_unit_id": "LU-01192",
+      "learning_point": "State Pascal's law",
+      "question": "Which of the following statements correctly describes Pascal's law?",
+      "options": {
+        "A": "The pressure applied to a confined fluid is transmitted equally in all directions throughout the fluid.",
+        "B": "The pressure increases only at the point where the force is applied.",
+        "C": "The fluid expands, causing a decrease in pressure at other points.",
+        "D": "The pressure is transmitted only in the vertical direction."
+      },
+      "correct_option": "A",
+      "answer": "The pressure applied to a confined fluid is transmitted equally in all directions throughout the fluid.",
+      "explanation": "Pascal's law states that any change in pressure applied to an incompressible, confined fluid is transmitted undiminished in all directions throughout the fluid. Option A captures this definition. Options B, C, and D reflect common misconceptions: pressure does not stay localized, the fluid does not expand appreciably, and transmission is not limited to vertical direction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-279-98",
+      "learning_unit_id": "LU-01192",
+      "learning_point": "Explain hydraulic machines",
+      "question": "A hydraulic jack has a small piston of area 2 cm² and a large piston of area 200 cm². Which statement best explains how the jack can lift a heavy car?",
+      "options": {
+        "A": "The force applied on the small piston is multiplied by the ratio of the large to small piston areas, producing a much larger lifting force on the large piston.",
+        "B": "The fluid in the jack stores the applied force as potential energy, which is later released to lift the car.",
+        "C": "The small piston creates a vacuum that pulls the car upward.",
+        "D": "The large piston rotates, converting linear motion into rotational motion that lifts the car."
+      },
+      "correct_option": "A",
+      "answer": "The force applied on the small piston is multiplied by the ratio of the large to small piston areas, producing a much larger lifting force on the large piston.",
+      "explanation": "In a hydraulic machine, the same pressure acts on both pistons (Pascal's law). Because pressure = force/area, the force on the large piston equals the pressure multiplied by its larger area, i.e., the input force multiplied by the area ratio (200/2 = 100). This explains the multiplication of force. Options B, C, and D describe mechanisms unrelated to hydraulic operation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-279-99",
+      "learning_unit_id": "LU-01192",
+      "learning_point": "Apply pressure multiplication",
+      "question": "Two hydraulic systems are compared:\nSystem I: input pressure = 0.5 MPa, area ratio (large:small) = 10:1.\nSystem II: input pressure = 0.8 MPa, area ratio = 5:1.\nWhich system provides the greater output force?",
+      "options": {
+        "A": "System I",
+        "B": "System II",
+        "C": "Both systems give the same output force",
+        "D": "It cannot be determined without knowing the absolute piston areas"
+      },
+      "correct_option": "A",
+      "answer": "System I",
+      "explanation": "Output force = input pressure × large piston area. Since large area = (area ratio) × small area, and the small area is common to both systems for comparison, the relative output forces are proportional to (input pressure × area ratio). For System I: 0.5 MPa × 10 = 5 (arbitrary units). For System II: 0.8 MPa × 5 = 4. Hence System I yields the larger output force. Option D is unnecessary because the ratio comparison cancels the unknown small area.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-279-100",
+      "learning_unit_id": "LU-01192",
+      "learning_point": "Solve hydraulic press problems",
+      "question": "In a hydraulic press, the small piston has a radius of 1 cm and the large piston has a radius of 10 cm. If a force of 200 N is applied on the small piston, what is the maximum upward force that can be exerted by the large piston?",
+      "options": {
+        "A": "2.0 × 10⁴ N",
+        "B": "1.0 × 10⁴ N",
+        "C": "5.0 × 10³ N",
+        "D": "4.0 × 10³ N"
+      },
+      "correct_option": "A",
+      "answer": "2.0 × 10⁴ N",
+      "explanation": "Area of small piston = π(0.01 m)² = 3.14 × 10⁻⁴ m².\nPressure generated = 200 N / 3.14×10⁻⁴ m² ≈ 6.37 × 10⁵ Pa.\nArea of large piston = π(0.10 m)² = 3.14 × 10⁻² m².\nOutput force = pressure × large area = 6.37×10⁵ Pa × 3.14×10⁻² m² ≈ 2.0 × 10⁴ N.\nThus the large piston can lift a weight corresponding to about 20,000 N. Options B‑D are lower and result from incorrect area or pressure calculations.",
+      "difficulty": "hard"
+    }
+  ]
+}
