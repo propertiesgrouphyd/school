@@ -1,0 +1,78 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Understand streamline flow",
+      "question": "A fluid flows steadily through a horizontal pipe that narrows from a wide section to a narrow section. Which of the following statements about the streamline flow is correct?",
+      "options": {
+        "A": "The fluid speed is higher in the narrow section than in the wide section.",
+        "B": "The fluid speed is lower in the narrow section than in the wide section.",
+        "C": "The fluid speed is the same in both sections because the flow is steady.",
+        "D": "The fluid speed depends only on the fluid’s viscosity, not on the pipe’s cross‑section."
+      },
+      "correct_option": "A",
+      "answer": "The fluid speed is higher in the narrow section than in the wide section.",
+      "explanation": "For steady incompressible flow, the continuity equation A₁v₁ = A₂v₂ holds. When the cross‑sectional area decreases, the speed must increase to keep the volume flow rate constant. Hence the speed is higher in the narrow section. Options B and C contradict the continuity principle, and D confuses viscosity with the geometric requirement of continuity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Define volume flow rate",
+      "question": "Which expression correctly defines the volume flow rate (Q) of an incompressible fluid flowing through a pipe?",
+      "options": {
+        "A": "Q = A × v",
+        "B": "Q = ρ × A × v",
+        "C": "Q = A ÷ v",
+        "D": "Q = v ÷ A"
+      },
+      "correct_option": "A",
+      "answer": "Q = A × v",
+      "explanation": "Volume flow rate is the volume of fluid passing a cross‑section per unit time. It is given by the product of the cross‑sectional area (A) and the flow speed (v). Option B includes density, which is part of mass flow rate, not volume flow rate. Options C and D are mathematically incorrect for this definition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Use continuity equation",
+      "question": "A horizontal pipe carries water with a steady incompressible flow. At section 1 the cross‑sectional area is 3 cm² and the speed is 4 m s⁻¹. At section 2 the area is 6 cm². Which of the following statements is true?",
+      "options": {
+        "A": "The speed at section 2 is 2 m s⁻¹.",
+        "B": "The speed at section 2 is 8 m s⁻¹.",
+        "C": "The speed at section 2 is 4 m s⁻¹.",
+        "D": "The speed at section 2 cannot be determined without knowing the fluid density."
+      },
+      "correct_option": "A",
+      "answer": "The speed at section 2 is 2 m s⁻¹.",
+      "explanation": "Using the continuity equation A₁v₁ = A₂v₂, we have v₂ = (A₁/A₂)·v₁ = (3 cm²/6 cm²)·4 m s⁻¹ = 0.5·4 = 2 m s⁻¹. Density is irrelevant for volume flow rate, so option D is wrong. Option B gives the inverse ratio, and C assumes speed unchanged, both contradict continuity.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Relate speed to cross-sectional area",
+      "question": "Water flows steadily through a pipe that narrows from an area of 4.0 cm² to 1.0 cm². If the speed of water in the wider section is 2.0 m s⁻¹, what is the speed in the narrower section?",
+      "options": {
+        "A": "8.0 m s⁻¹",
+        "B": "0.5 m s⁻¹",
+        "C": "2.0 m s⁻¹",
+        "D": "4.0 m s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "8.0 m s⁻¹",
+      "explanation": "Continuity gives A₁v₁ = A₂v₂. Thus v₂ = (A₁/A₂)·v₁ = (4.0 cm²/1.0 cm²)·2.0 m s⁻¹ = 4·2 = 8.0 m s⁻¹. The other options either ignore the area ratio or use it incorrectly.",
+      "difficulty": "hard"
+    }
+  ]
+}

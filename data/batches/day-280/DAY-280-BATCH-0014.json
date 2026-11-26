@@ -1,0 +1,150 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "DAY-280-J1",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "State Bernoulli's principle",
+      "question": "Which of the following correctly states Bernoulli's principle for an ideal incompressible fluid in steady flow?",
+      "options": {
+        "A": "The sum of pressure, kinetic energy per unit volume and potential energy per unit volume is constant along a streamline.",
+        "B": "Pressure is directly proportional to the fluid velocity.",
+        "C": "Fluid velocity is independent of pressure.",
+        "D": "Density of the fluid varies with its speed."
+      },
+      "correct_option": "A",
+      "answer": "The sum of pressure, kinetic energy per unit volume and potential energy per unit volume is constant along a streamline.",
+      "explanation": "Bernoulli's principle states that for an ideal, incompressible, non‑viscous fluid undergoing steady flow, the total mechanical energy per unit volume (pressure p + ½ρv² + ρgh) remains constant along a streamline. Option A expresses this exactly. Options B, C and D misrepresent the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "DAY-280-J2",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Understand assumptions",
+      "question": "Which of the following is NOT an assumption made in deriving Bernoulli's equation?",
+      "options": {
+        "A": "The flow is steady (properties at a point do not change with time).",
+        "B": "The fluid is incompressible.",
+        "C": "The flow is turbulent.",
+        "D": "Viscous forces are negligible (the fluid is ideal)."
+      },
+      "correct_option": "C",
+      "answer": "The flow is turbulent.",
+      "explanation": "Bernoulli's equation is derived under the assumptions of steady, incompressible, non‑viscous (ideal) flow along a streamline. Turbulence violates the ideal, non‑viscous assumption, so option C is not an assumption. The other three statements are required assumptions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "DAY-280-J3",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Apply Bernoulli equation",
+      "question": "In Bernoulli's equation, which term represents the kinetic energy per unit volume of the fluid?",
+      "options": {
+        "A": "p (the static pressure)",
+        "B": "½ ρ v²",
+        "C": "ρ g h",
+        "D": "m g"
+      },
+      "correct_option": "B",
+      "answer": "½ ρ v²",
+      "explanation": "The term ½ ρ v² is the kinetic energy per unit volume (½ mass × velocity² divided by volume). p is the pressure energy, ρ g h is the gravitational potential energy per unit volume, and m g is a weight, not an energy per unit volume.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "DAY-280-J4",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Explain basic applications",
+      "question": "A venturi tube is used to measure the flow speed of water. If the cross‑sectional area at the throat is half that of the wider section (both at the same height), how does the pressure at the throat compare to the pressure at the wider section?",
+      "options": {
+        "A": "The pressures are equal.",
+        "B": "The pressure at the throat is higher than at the wider section.",
+        "C": "The pressure at the throat is lower than at the wider section.",
+        "D": "The pressure cannot be determined without knowing the fluid density."
+      },
+      "correct_option": "C",
+      "answer": "The pressure at the throat is lower than at the wider section.",
+      "explanation": "When the area decreases, the fluid speed increases (continuity equation). Bernoulli's principle then requires a drop in static pressure to conserve total energy, so the pressure at the throat is lower. Option C captures this; the other options contradict the principle.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "DAY-280-J5",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Relate pressure changes to flow speed",
+      "question": "In a horizontal pipe, water flows from a section of diameter 10 cm where its speed is 2 m s⁻¹ and pressure is 200 kPa. The pipe then narrows to a diameter of 5 cm. What is the pressure in the narrower section? (Take ρ = 1000 kg m⁻³ and neglect height differences.)",
+      "options": {
+        "A": "170 kPa",
+        "B": "200 kPa",
+        "C": "230 kPa",
+        "D": "260 kPa"
+      },
+      "correct_option": "A",
+      "answer": "170 kPa",
+      "explanation": "Continuity: A₁v₁ = A₂v₂. Area ratio = (0.10)²/(0.05)² = 4, so v₂ = 4 v₁ = 8 m s⁻¹. Bernoulli: p₁ + ½ρv₁² = p₂ + ½ρv₂². Δp = ½ρ(v₂² – v₁²) = 0.5 × 1000 × (64 – 4) = 30 000 Pa = 30 kPa. Hence p₂ = 200 kPa – 30 kPa = 170 kPa. Option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "DAY-280-J6",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "State Bernoulli's principle",
+      "question": "A pilot notices that the pressure reading from a pitot‑static tube at the aircraft’s nose is lower than expected during level flight at constant altitude. Which of the following best explains this observation using Bernoulli's principle?",
+      "options": {
+        "A": "The aircraft’s airspeed has decreased, reducing the dynamic pressure measured by the pitot tube.",
+        "B": "The air density has increased, raising the static pressure component.",
+        "C": "The pitot tube is only measuring static pressure, not dynamic pressure.",
+        "D": "The aircraft is climbing, increasing its gravitational potential energy."
+      },
+      "correct_option": "A",
+      "answer": "The aircraft’s airspeed has decreased, reducing the dynamic pressure measured by the pitot tube.",
+      "explanation": "A pitot tube measures total (stagnation) pressure = static pressure + ½ρv². If the indicated pressure is lower, the most plausible cause is a reduction in velocity, which lowers the dynamic pressure term. Options B, C, and D do not directly relate to the observed lower total pressure in level flight.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "DAY-280-J7",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Understand assumptions",
+      "question": "A common misconception is that Bernoulli's principle implies fluids always flow from regions of higher pressure to lower pressure. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "Fluids flow from high to low pressure only if the flow is viscous.",
+        "B": "The pressure difference is a result of the flow; fluid accelerates when pressure decreases along the streamline.",
+        "C": "Bernoulli's principle applies only to gases, not liquids.",
+        "D": "Pressure is always constant along a streamline."
+      },
+      "correct_option": "B",
+      "answer": "The pressure difference is a result of the flow; fluid accelerates when pressure decreases along the streamline.",
+      "explanation": "Bernoulli's equation shows that when a fluid speeds up, its static pressure drops; the pressure gradient is a consequence of the acceleration, not the cause. Hence fluids do not *always* move from high to low pressure; the relationship depends on the flow conditions. Options A, C, and D are incorrect statements.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "DAY-280-J8",
+      "learning_unit_id": "LU-01195",
+      "learning_point": "Apply Bernoulli equation",
+      "question": "A fluid element moves from point A at height h₁ with speed v₁ and pressure p₁ to point B at height h₂ with speed v₂ and pressure p₂. Using Bernoulli’s equation, which relationship must hold true along the streamline?",
+      "options": {
+        "A": "p₁ + ½ρv₁² + ρg h₁ = p₂ + ½ρv₂² + ρg h₂",
+        "B": "p₁ – ½ρv₁² + ρg h₁ = p₂ – ½ρv₂² + ρg h₂",
+        "C": "p₁ + ρv₁² + ρg h₁ = p₂ + ρv₂² + ρg h₂",
+        "D": "p₁ + ½ρv₁ + ρg h₁ = p₂ + ½ρv₂ + ρg h₂"
+      },
+      "correct_option": "A",
+      "answer": "p₁ + ½ρv₁² + ρg h₁ = p₂ + ½ρv₂² + ρg h₂",
+      "explanation": "Bernoulli's equation for an ideal, incompressible, non‑viscous fluid in steady flow along a streamline is p + ½ρv² + ρg h = constant. Therefore the sum of pressure, kinetic energy per unit volume, and potential energy per unit volume at point A equals that at point B, which is expressed in option A. The other options alter signs or coefficients, violating the correct form.",
+      "difficulty": "medium"
+    }
+  ]
+}
