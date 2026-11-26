@@ -1,0 +1,150 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0001",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01194-MCQ-001",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Understand streamline flow",
+      "question": "What best describes streamline flow in a fluid?",
+      "options": {
+        "A": "Flow in which fluid particles follow identical paths and do not cross each other.",
+        "B": "Flow where the fluid velocity is zero everywhere.",
+        "C": "Flow characterized by turbulent eddies and random motion.",
+        "D": "Flow in which pressure is constant throughout the fluid."
+      },
+      "correct_option": "A",
+      "answer": "Flow in which fluid particles follow identical paths and do not cross each other.",
+      "explanation": "In streamline (laminar) flow, each fluid particle moves along a smooth path called a streamline, and neighboring streamlines never intersect. This contrasts with turbulent flow where paths cross and eddies form. Option A captures this definition; the other options describe unrelated or incorrect situations.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01194-MCQ-002",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Define volume flow rate",
+      "question": "The volume flow rate (Q) of an incompressible fluid is defined as:",
+      "options": {
+        "A": "Mass of fluid passing per unit time",
+        "B": "Volume of fluid passing per unit time",
+        "C": "Pressure exerted per unit area",
+        "D": "Force applied per unit time"
+      },
+      "correct_option": "B",
+      "answer": "Volume of fluid passing per unit time",
+      "explanation": "Volume flow rate Q = A·v, where A is cross‑sectional area and v is fluid speed. It measures how much volume passes a given section each second. Option B states this definition; the other options refer to different physical quantities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "LU-01194-MCQ-003",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Use continuity equation",
+      "question": "Which of the following statements correctly represents the continuity equation for steady incompressible flow?",
+      "options": {
+        "A": "ρAv = constant",
+        "B": "P + ½ρv² = constant",
+        "C": "v₁/v₂ = A₂/A₁",
+        "D": "v₁A₁ = v₂A₂"
+      },
+      "correct_option": "D",
+      "answer": "v₁A₁ = v₂A₂",
+      "explanation": "For an incompressible fluid, the mass flow rate ρAv is constant, which reduces to A₁v₁ = A₂v₂ because density ρ is constant. Option D expresses this directly. Option A includes density but is less explicit; Option B is Bernoulli’s equation; Option C is algebraically equivalent to D but less commonly presented, and could cause confusion, so D is the standard form.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "LU-01194-MCQ-004",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Relate speed to cross-sectional area",
+      "question": "A pipe narrows from a cross‑sectional area of 4 cm² to 1 cm². If the fluid speed in the wider section is 2 m/s, what is the speed in the narrower section (assuming incompressible steady flow)?",
+      "options": {
+        "A": "0.5 m/s",
+        "B": "2 m/s",
+        "C": "4 m/s",
+        "D": "8 m/s"
+      },
+      "correct_option": "D",
+      "answer": "8 m/s",
+      "explanation": "Continuity gives A₁v₁ = A₂v₂ → v₂ = (A₁/A₂)·v₁ = (4 cm²/1 cm²)·2 m/s = 8 m/s. Option D matches this calculation; the other options result from incorrect ratios or neglecting the inverse relationship between area and speed.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "LU-01194-MCQ-005",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Understand streamline flow",
+      "question": "Which of the following situations best illustrates streamline (laminar) flow?",
+      "options": {
+        "A": "Water issuing steadily from a faucet forming smooth, parallel streams",
+        "B": "Smoke rising from a candle and forming swirling eddies",
+        "C": "A river flowing over a steep waterfall with white‑water rapids",
+        "D": "Air flowing over an aircraft wing at high speed causing turbulent separation"
+      },
+      "correct_option": "A",
+      "answer": "Water issuing steadily from a faucet forming smooth, parallel streams",
+      "explanation": "In laminar flow, fluid layers slide past each other smoothly without mixing, as seen in a steady faucet stream (Option A). The other options involve turbulence, where flow is chaotic and streamlines intersect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01194-MCQ-006",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Define volume flow rate",
+      "question": "A fluid moves through a pipe of cross‑sectional area 0.005 m² with a speed of 4 m/s. What is the volume flow rate of the fluid?",
+      "options": {
+        "A": "0.02 m³/s",
+        "B": "0.2 m³/s",
+        "C": "2 m³/s",
+        "D": "20 m³/s"
+      },
+      "correct_option": "A",
+      "answer": "0.02 m³/s",
+      "explanation": "Volume flow rate Q = A·v = 0.005 m² × 4 m/s = 0.02 m³/s. Option A is the correct calculation. The other options arise from misplaced decimal places.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01194-MCQ-007",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Use continuity equation",
+      "question": "Which statement about the continuity equation is FALSE?",
+      "options": {
+        "A": "For incompressible flow, A₁v₁ = A₂v₂",
+        "B": "The mass flow rate remains constant along a streamline",
+        "C": "Fluid speed decreases when the cross‑sectional area increases",
+        "D": "The continuity equation can be applied to compressible gases without modification"
+      },
+      "correct_option": "D",
+      "answer": "The continuity equation can be applied to compressible gases without modification",
+      "explanation": "Continuity in its simple form A₁v₁ = A₂v₂ assumes constant density, which is true for incompressible fluids. For compressible gases, density changes and the full form ρ₁A₁v₁ = ρ₂A₂v₂ must be used. Hence statement D is false. Statements A, B, and C correctly describe incompressible flow.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01194-MCQ-008",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Relate speed to cross-sectional area",
+      "question": "A fluid flows from a section of area 0.03 m² with speed 5 m/s into a section of area 0.01 m². What is the speed in the second section?",
+      "options": {
+        "A": "1.5 m/s",
+        "B": "5 m/s",
+        "C": "15 m/s",
+        "D": "0.33 m/s"
+      },
+      "correct_option": "C",
+      "answer": "15 m/s",
+      "explanation": "Using continuity: A₁v₁ = A₂v₂ → v₂ = (A₁/A₂)·v₁ = (0.03/0.01)·5 m/s = 3·5 m/s = 15 m/s. Option C matches this result. Options A and D are inverses, and B ignores the area change.",
+      "difficulty": "medium"
+    }
+  ]
+}
