@@ -1,0 +1,150 @@
+{
+  "day": 280,
+  "batch_id": "DAY-280-BATCH-0006",
+  "mcqs": [
+    {
+      "job_number": 41,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-41",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Understand streamline flow",
+      "question": "Which of the following best describes streamline flow in a fluid?",
+      "options": {
+        "A": "A flow in which fluid particles follow smooth, non‑intersecting paths and the velocity at any point remains constant over time.",
+        "B": "A flow where the fluid density changes rapidly with pressure.",
+        "C": "A flow characterized by chaotic eddies and vortices.",
+        "D": "A flow that only occurs in gases at high temperatures."
+      },
+      "correct_option": "A",
+      "answer": "A flow in which fluid particles follow smooth, non‑intersecting paths and the velocity at any point remains constant over time.",
+      "explanation": "Streamline (laminar) flow is characterized by smooth, parallel paths of fluid particles that do not cross each other, and the velocity at a given point does not fluctuate with time. Options B and C describe turbulent or compressible effects, and D is unrelated.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 42,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-42",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Define volume flow rate",
+      "question": "The volume flow rate of a fluid is defined as:",
+      "options": {
+        "A": "The volume of fluid passing through a cross‑section per unit time (Q = A·v).",
+        "B": "The mass of fluid per unit volume.",
+        "C": "The pressure difference between two points in a fluid.",
+        "D": "The kinetic energy of fluid particles."
+      },
+      "correct_option": "A",
+      "answer": "The volume of fluid passing through a cross‑section per unit time (Q = A·v).",
+      "explanation": "Volume flow rate Q is the amount of fluid volume that crosses a given cross‑section each second, mathematically Q = A·v where A is area and v is speed. The other options describe density, pressure drop, and kinetic energy, not flow rate.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 43,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-43",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Use continuity equation",
+      "question": "The continuity equation for incompressible flow states that:",
+      "options": {
+        "A": "A1 v1 = A2 v2, indicating that the product of cross‑sectional area and flow speed is constant along a streamline.",
+        "B": "P1 + ½ρv1^2 = P2 + ½ρv2^2, relating pressure and speed.",
+        "C": "ρ1 v1 = ρ2 v2, expressing conservation of momentum.",
+        "D": "ΔP = ρ g h, describing hydrostatic pressure."
+      },
+      "correct_option": "A",
+      "answer": "A1 v1 = A2 v2, indicating that the product of cross‑sectional area and flow speed is constant along a streamline.",
+      "explanation": "For a steady, incompressible fluid the mass flow rate ρAv is constant; with constant density this reduces to A1v1 = A2v2. Option B is Bernoulli’s equation, C mixes density incorrectly, and D is the hydrostatic pressure formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 44,
+      "question_type": "application",
+      "mcq_id": "MCQ-44",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Relate speed to cross-sectional area",
+      "question": "A horizontal pipe narrows from a cross‑sectional area of 4 cm² to 1 cm². If the fluid speed in the wider section is 2 m/s, what is the speed in the narrower section?",
+      "options": {
+        "A": "2 m/s",
+        "B": "4 m/s",
+        "C": "6 m/s",
+        "D": "8 m/s"
+      },
+      "correct_option": "D",
+      "answer": "8 m/s",
+      "explanation": "Using continuity A1v1 = A2v2 → v2 = (A1/A2)·v1 = (4 cm²/1 cm²)·2 m/s = 8 m/s. Options A‑C result from incorrect proportionality or omission of the area ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 45,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-45",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Understand streamline flow",
+      "question": "Which condition most reliably ensures that fluid flow in a pipe remains streamline (laminar)?",
+      "options": {
+        "A": "When the Reynolds number is low (typically < 2000), indicating laminar flow.",
+        "B": "When the fluid temperature is above its boiling point.",
+        "C": "When the pipe diameter is extremely large.",
+        "D": "When the fluid is highly compressible."
+      },
+      "correct_option": "A",
+      "answer": "When the Reynolds number is low (typically < 2000), indicating laminar flow.",
+      "explanation": "A low Reynolds number (Re = ρvD/μ) signifies that viscous forces dominate over inertial forces, producing smooth, orderly (laminar) flow. High temperature, large diameter, or compressibility do not guarantee laminar flow and may even promote turbulence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 46,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-46",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Define volume flow rate",
+      "question": "Water flows through a circular pipe of radius 5 cm with a speed of 3 m/s. What is the volume flow rate? (Take π≈3.14)",
+      "options": {
+        "A": "0.015 m³/s",
+        "B": "0.0236 m³/s",
+        "C": "0.035 m³/s",
+        "D": "0.047 m³/s"
+      },
+      "correct_option": "B",
+      "answer": "0.0236 m³/s",
+      "explanation": "Area A = πr² = 3.14 × (0.05 m)² = 3.14 × 0.0025 = 0.00785 m². Q = A·v = 0.00785 m² × 3 m/s = 0.02355 m³/s ≈ 0.0236 m³/s. Option B matches this calculation; the others are off by significant factors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 47,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-47",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Use continuity equation",
+      "question": "Which of the following statements about the continuity equation is FALSE?",
+      "options": {
+        "A": "It applies only to incompressible fluids.",
+        "B": "It can be used for gases at low speeds where density change is negligible.",
+        "C": "It requires that the mass flow rate be constant along the streamline.",
+        "D": "It states that pressure is the same at all points in the flow."
+      },
+      "correct_option": "D",
+      "answer": "It states that pressure is the same at all points in the flow.",
+      "explanation": "The continuity equation concerns conservation of mass (constant A·v for incompressible flow) and says nothing about pressure distribution. Statements A‑C are true (A is a common simplification, B is acceptable for low‑speed gases, C is the definition of continuity).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 48,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-48",
+      "learning_unit_id": "LU-01194",
+      "learning_point": "Relate speed to cross-sectional area",
+      "question": "A fluid moves from a wide pipe into a narrower pipe. Which reasoning correctly explains the change in speed?",
+      "options": {
+        "A": "The speed decreases because the fluid loses kinetic energy in the narrower section.",
+        "B": "The speed remains unchanged because the fluid accelerates due to pressure increase.",
+        "C": "The speed increases proportionally because the same volume flow rate must pass through a smaller area.",
+        "D": "The speed becomes zero as the fluid cannot pass through a smaller area."
+      },
+      "correct_option": "C",
+      "answer": "The speed increases proportionally because the same volume flow rate must pass through a smaller area.",
+      "explanation": "Continuity requires Q = A·v to stay constant; when area A decreases, velocity v must increase proportionally (v ∝ 1/A). Options A and B misinterpret energy and pressure effects, while D is physically impossible.",
+      "difficulty": "medium"
+    }
+  ]
+}
