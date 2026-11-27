@@ -1,0 +1,78 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01205",
+      "learning_point": "Distinguish heat and work",
+      "question": "Which of the following statements correctly distinguishes heat from work as modes of energy transfer?",
+      "options": {
+        "A": "Heat is energy transferred due to a temperature difference, while work is energy transferred when a macroscopic force acts through a distance.",
+        "B": "Heat is energy transferred when a macroscopic force acts through a distance, while work is energy transferred due to a temperature difference.",
+        "C": "Both heat and work are transferred only when there is a change in the internal energy of a system.",
+        "D": "Heat and work are identical concepts; the terms are used interchangeably in thermodynamics."
+      },
+      "correct_option": "A",
+      "answer": "Heat is energy transferred due to a temperature difference, while work is energy transferred when a macroscopic force acts through a distance.",
+      "explanation": "Heat refers to energy that moves because of a temperature gradient between the system and its surroundings. Work refers to energy transferred when an external force moves the system's boundary (e.g., piston moving). Option A captures this distinction. Option B reverses the definitions, C confuses transfer with internal energy change, and D is false because heat and work are distinct modes of energy transfer.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01205",
+      "learning_point": "Understand sign conventions",
+      "question": "According to the sign convention used in NCERT physics for thermodynamic processes, if 500 J of work is done by the system and 200 J of heat is added to the system, what is the change in the internal energy of the system?",
+      "options": {
+        "A": "+300 J",
+        "B": "–300 J",
+        "C": "+700 J",
+        "D": "–700 J"
+      },
+      "correct_option": "B",
+      "answer": "–300 J",
+      "explanation": "NCERT physics adopts the sign convention ΔU = Q – W, where Q is heat added to the system (positive) and W is work done by the system (positive). Here Q = +200 J and W = +500 J, so ΔU = 200 J – 500 J = –300 J. The internal energy decreases by 300 J. Options A, C, and D result from incorrect application of the sign rule.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01205",
+      "learning_point": "Calculate work in simple thermodynamic processes",
+      "question": "A 1 mol ideal gas expands from 1 L to 3 L at 300 K. In process (i) the expansion is carried out isothermally and reversibly; in process (ii) the expansion occurs at constant external pressure of 1 atm (isobaric). Which process results in a larger magnitude of work done by the gas?",
+      "options": {
+        "A": "The isobaric process does more work.",
+        "B": "The isothermal reversible process does more work.",
+        "C": "Both processes do the same amount of work.",
+        "D": "The work cannot be compared without knowing the heat capacity of the gas."
+      },
+      "correct_option": "B",
+      "answer": "The isothermal reversible process does more work.",
+      "explanation": "For the isobaric (constant‑pressure) expansion: W = PΔV = (1 atm)(3 L – 1 L) = 2 L·atm = 2 × 101.3 J ≈ 202.6 J. For the reversible isothermal expansion of 1 mol ideal gas: W = nRT ln(Vf/Vi) = (1 mol)(8.314 J mol⁻¹ K⁻¹)(300 K) ln(3) ≈ 2494 J × 1.0986 ≈ 2738 J. Hence the isothermal reversible process does far more work. Option B is correct; the other options either reverse the comparison or claim insufficient information, which is not true.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01205",
+      "learning_point": "Interpret pressure-volume diagrams",
+      "question": "In the pressure‑volume (P‑V) diagram described below, the system follows a rectangular cycle: (1) isobaric expansion from (P₁ = 2 atm, V₁ = 1 L) to (P₁, V₂ = 3 L); (2) isochoric heating to (P₂ = 1 atm, V₂); (3) isobaric compression back to (P₂, V₁); (4) isochoric cooling to the initial state. What is the net work done by the system in one complete cycle?",
+      "options": {
+        "A": "0 J",
+        "B": "202.6 J",
+        "C": "–202.6 J",
+        "D": "404 J"
+      },
+      "correct_option": "B",
+      "answer": "202.6 J",
+      "explanation": "The net work in a cyclic P‑V process equals the area enclosed by the loop. The rectangle has height |P₁ – P₂| = |2 atm – 1 atm| = 1 atm and width |V₂ – V₁| = 3 L – 1 L = 2 L. Area = 1 atm × 2 L = 2 L·atm. Converting to joules (1 L·atm = 101.3 J) gives 2 × 101.3 J ≈ 202.6 J. Positive sign indicates work done by the system. Options A and C are incorrect because the loop is not degenerate, and D is twice the actual area.",
+      "difficulty": "hard"
+    }
+  ]
+}
