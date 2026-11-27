@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0022",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "LU-01209-65",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "A diagram shows a heat engine receiving heat Qₕ from a hot reservoir, delivering work W to the surroundings, and rejecting heat Q𝚌 to a cold reservoir. Which statement correctly describes the energy flow in this diagram?",
+      "options": {
+        "A": "Heat Qₕ enters the engine, part of it is converted to work W, and the remaining heat Q𝚌 leaves the engine to the cold reservoir.",
+        "B": "Work W is supplied to the engine, which then absorbs heat Qₕ from the cold reservoir and releases Q𝚌 to the hot reservoir.",
+        "C": "Heat Q𝚌 is absorbed from the cold reservoir, all of it is converted to work W, and Qₕ is expelled to the hot reservoir.",
+        "D": "The engine creates heat Qₕ and Q𝚌 internally without any heat exchange with external reservoirs."
+      },
+      "correct_option": "A",
+      "answer": "Heat Qₕ enters the engine, part of it is converted to work W, and the remaining heat Q𝚌 leaves the engine to the cold reservoir.",
+      "explanation": "In a heat engine, energy enters as heat Qₕ from the hot source. According to the first law, Qₕ = W + Q𝚌, so part of the absorbed heat is transformed into work and the rest is expelled as Q𝚌 to the cold sink. Options B, C, and D describe processes that violate the definition of a heat engine or the direction of heat flow.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "LU-01209-66",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand heat engine",
+      "question": "A steam turbine operates between a boiler at 500 K and a condenser at 300 K. Which of the following best describes the role of the turbine in this heat engine?",
+      "options": {
+        "A": "It converts part of the heat supplied by the boiler into mechanical work while allowing the remaining heat to flow to the condenser.",
+        "B": "It supplies heat to the boiler and extracts work from the condenser.",
+        "C": "It stores the heat from the boiler and releases it later as work without any temperature change.",
+        "D": "It directly transfers heat from the boiler to the condenser without producing any work."
+      },
+      "correct_option": "A",
+      "answer": "It converts part of the heat supplied by the boiler into mechanical work while allowing the remaining heat to flow to the condenser.",
+      "explanation": "In a heat engine, the working substance (steam) absorbs heat from the high‑temperature source (boiler), expands in the turbine producing work, and then rejects the leftover heat to the low‑temperature sink (condenser). Options B, C, and D misrepresent the direction of energy flow or the function of the turbine.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "LU-01209-67",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "Which of the following expressions correctly defines the thermal efficiency (η) of a heat engine?",
+      "options": {
+        "A": "η = W_out / Q_in",
+        "B": "η = Q_out / W_out",
+        "C": "η = Q_in / (W_out + Q_out)",
+        "D": "η = W_out / Q_out"
+      },
+      "correct_option": "A",
+      "answer": "η = W_out / Q_in",
+      "explanation": "Thermal efficiency is the ratio of the useful work output (W_out) to the heat energy taken from the hot reservoir (Q_in). Option B inverts the ratio, C is dimensionally incorrect, and D uses the rejected heat Q_out instead of the input heat.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "LU-01209-68",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand refrigerator",
+      "question": "A refrigerator operates between a freezer at 260 K and a kitchen at 300 K. Which statement correctly explains why work must be supplied to the refrigerator?",
+      "options": {
+        "A": "Work is needed to move heat from the lower‑temperature freezer to the higher‑temperature kitchen, against the natural direction of heat flow.",
+        "B": "Work is required to increase the temperature of the freezer above that of the kitchen.",
+        "C": "Work is supplied to convert the kitchen’s heat directly into electrical energy.",
+        "D": "Work is unnecessary; the refrigerator works solely by passive heat conduction."
+      },
+      "correct_option": "A",
+      "answer": "Work is needed to move heat from the lower‑temperature freezer to the higher‑temperature kitchen, against the natural direction of heat flow.",
+      "explanation": "A refrigerator is a heat pump that extracts heat from a cold space and discharges it to a warmer space. This transfer is opposite to spontaneous heat flow, so external work must be provided (usually by a compressor). Options B, C, and D misstate the purpose or physics of refrigeration.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "LU-01209-69",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define coefficient of performance",
+      "question": "For two ideal devices operating between the same reservoirs (hot at 400 K, cold at 300 K), which statement is true regarding their coefficients of performance (COP)?",
+      "options": {
+        "A": "The refrigerator’s COP (Q_c/W) is larger than the heat‑pump’s COP (Q_h/W) because Q_c < Q_h.",
+        "B": "The heat‑pump’s COP (Q_h/W) is larger than the refrigerator’s COP (Q_c/W) because Q_h > Q_c.",
+        "C": "Both devices have the same COP because they share the same temperature limits.",
+        "D": "COP cannot be compared without knowing the actual work input."
+      },
+      "correct_option": "B",
+      "answer": "The heat‑pump’s COP (Q_h/W) is larger than the refrigerator’s COP (Q_c/W) because Q_h > Q_c.",
+      "explanation": "For an ideal Carnot device, Q_h = Q_c + W, so Q_h > Q_c. Therefore, COP_heat‑pump = Q_h/W is greater than COP_refrigerator = Q_c/W. Option A reverses the inequality, C ignores the definition, and D is unnecessary for ideal devices.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "LU-01209-70",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "In a Carnot engine diagram, heat Qₕ is absorbed from a reservoir at temperature Tₕ, work W is produced, and heat Q𝚌 is rejected to a reservoir at temperature T𝚌. Which of the following relationships is always true for this ideal engine?",
+      "options": {
+        "A": "W = Qₕ - Q𝚌 and η = 1 - (T𝚌/Tₕ)",
+        "B": "W = Q𝚌 - Qₕ and η = 1 - (Tₕ/T𝚌)",
+        "C": "Qₕ = Q𝚌 and η = Tₕ/T𝚌",
+        "D": "W = Qₕ + Q𝚌 and η = (Tₕ - T𝚌)/Tₕ"
+      },
+      "correct_option": "A",
+      "answer": "W = Qₕ - Q𝚌 and η = 1 - (T𝚌/Tₕ)",
+      "explanation": "For any heat engine, the first law gives Qₕ = W + Q𝚌, so W = Qₕ - Q𝚌. The Carnot efficiency, the maximum possible, is η = 1 - (T𝚌/Tₕ). Options B, C, and D violate the first law or use incorrect efficiency formulas.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "LU-01209-71",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand heat engine",
+      "question": "Which of the following best describes a heat engine?",
+      "options": {
+        "A": "A device that converts part of the heat absorbed from a high‑temperature source into mechanical work while rejecting the rest to a low‑temperature sink.",
+        "B": "A device that uses mechanical work to move heat from a low‑temperature region to a high‑temperature region.",
+        "C": "A system that stores heat without any conversion to work.",
+        "D": "A machine that creates heat from work without any external heat source."
+      },
+      "correct_option": "A",
+      "answer": "A device that converts part of the heat absorbed from a high‑temperature source into mechanical work while rejecting the rest to a low‑temperature sink.",
+      "explanation": "A heat engine operates on the principle of converting heat from a hot reservoir into work, with some heat inevitably expelled to a colder reservoir. Option B describes a refrigerator, while C and D do not represent heat‑engine operation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "LU-01209-72",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "The efficiency (η) of a heat engine is defined as:",
+      "options": {
+        "A": "η = (Work output) / (Heat input)",
+        "B": "η = (Heat rejected) / (Work output)",
+        "C": "η = (Heat input) / (Work output)",
+        "D": "η = (Work output) / (Heat rejected)"
+      },
+      "correct_option": "A",
+      "answer": "η = (Work output) / (Heat input)",
+      "explanation": "Efficiency measures how much of the supplied heat is turned into useful work, so η = W_out / Q_in. The other options invert or misuse the quantities.",
+      "difficulty": "easy"
+    }
+  ]
+}
