@@ -1,0 +1,78 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-282-97",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand adiabatic process",
+      "question": "Which of the following statements about an ideal gas undergoing an adiabatic expansion is a common misconception?",
+      "options": {
+        "A": "No heat is transferred to or from the system.",
+        "B": "The change in internal energy equals the work done by the gas.",
+        "C": "The temperature of the gas remains constant during the expansion.",
+        "D": "For an ideal gas, the product PV^γ remains constant."
+      },
+      "correct_option": "C",
+      "answer": "The temperature of the gas remains constant during the expansion.",
+      "explanation": "In an adiabatic process the system does not exchange heat with the surroundings, so statements A and D are true, and because ΔU = -W for an ideal gas, statement B is also true. However, the temperature does change; it falls during an adiabatic expansion. Therefore option C is the misconception. Options A, B and D are correct descriptions of an adiabatic process, while C incorrectly assumes isothermal behaviour.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-282-98",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isobaric process",
+      "question": "For an ideal gas undergoing a reversible isobaric (constant‑pressure) process, which statement is always true?",
+      "options": {
+        "A": "The work done by the gas is zero.",
+        "B": "The heat added equals the change in internal energy.",
+        "C": "The heat added equals the change in enthalpy.",
+        "D": "The temperature of the gas remains constant."
+      },
+      "correct_option": "C",
+      "answer": "The heat added equals the change in enthalpy.",
+      "explanation": "At constant pressure, the first law gives Q = ΔU + PΔV. For an ideal gas, PΔV = RΔT, and ΔU = nC_vΔT, so Q = n(C_v + R)ΔT = nC_pΔT = ΔH. Hence the heat supplied equals the change in enthalpy (option C). Work is not zero (option A) because the volume changes, heat is not generally equal to ΔU alone (option B), and temperature can change (option D).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-282-99",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isochoric process",
+      "question": "Consider two reversible processes in which an ideal gas experiences the same temperature increase ΔT. In process A the volume is kept constant (isochoric) and in process B the pressure is kept constant (isobaric). Which of the following correctly compares the work done (W) and heat transferred (Q) in the two processes?",
+      "options": {
+        "A": "W = 0 for the isochoric process, W ≠ 0 for the isobaric process; Q is smaller for the isochoric than for the isobaric process because C_v < C_p.",
+        "B": "W is the same for both processes, but Q is larger for the isochoric process.",
+        "C": "Both W and Q are larger for the isochoric process than for the isobaric process.",
+        "D": "W is larger for the isochoric process, while Q is zero for the isobaric process."
+      },
+      "correct_option": "A",
+      "answer": "W = 0 for the isochoric process, W ≠ 0 for the isobaric process; Q is smaller for the isochoric than for the isobaric process because C_v < C_p.",
+      "explanation": "In an isochoric (constant‑volume) process ΔV = 0, so work W = ∫P dV = 0. In an isobaric (constant‑pressure) process the volume changes, giving W = PΔV ≠ 0. Heat transferred is Q = nC_vΔT for isochoric and Q = nC_pΔT for isobaric. Since C_p > C_v for any ideal gas, the heat absorbed in the isobaric case is larger. Options B, C and D contradict these fundamental relations.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-282-100",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Compare work and heat transfer in standard processes",
+      "question": "An ideal gas is taken from an initial state (P₁, V₁, T₁) to a final state (P₂, V₂, T₂) by four different reversible paths: isothermal, isobaric, isochoric, and adiabatic. Which of the following statements about the heat transferred (Q) in each path is always correct?",
+      "options": {
+        "A": "Q is zero for the isochoric path and positive for the other three paths.",
+        "B": "Q = 0 for the adiabatic path, while Q > 0 for the isochoric, isobaric, and isothermal paths (provided the gas expands).",
+        "C": "Q is the same for the isothermal and adiabatic paths and larger for the isobaric and isochoric paths.",
+        "D": "Q is negative for the isobaric path and positive for the other three paths."
+      },
+      "correct_option": "B",
+      "answer": "Q = 0 for the adiabatic path, while Q > 0 for the isochoric, isobaric, and isothermal paths (provided the gas expands).",
+      "explanation": "In an adiabatic process no heat is exchanged, so Q = 0. For an isochoric process ΔV = 0, but the temperature changes, so Q = nC_vΔT > 0 if ΔT > 0. In an isobaric process Q = nC_pΔT > 0 for a temperature rise. In an isothermal process ΔU = 0, so Q = W; if the gas expands (V₂ > V₁) the work is positive, making Q positive. Hence option B correctly captures the heat behaviour. Options A, C, and D either misstate the adiabatic case or give incorrect signs.",
+      "difficulty": "hard"
+    }
+  ]
+}

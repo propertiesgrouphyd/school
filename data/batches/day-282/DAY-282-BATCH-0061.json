@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0061",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-282-65",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Compare work and heat transfer in standard processes",
+      "question": "One mole of an ideal monatomic gas is taken from the same initial state (P₁, V₁, T₁) to the same final temperature T₂ through four different reversible processes: (i) isothermal expansion, (ii) adiabatic expansion, (iii) isobaric expansion, and (iv) isochoric heating. Which process results in the greatest magnitude of work done by the gas?",
+      "options": {
+        "A": "Isothermal expansion",
+        "B": "Adiabatic expansion",
+        "C": "Isobaric expansion",
+        "D": "Isochoric heating"
+      },
+      "correct_option": "A",
+      "answer": "Isothermal expansion",
+      "explanation": "For a reversible isothermal expansion of an ideal gas, the work is W = nRT₁ ln(V₂/V₁). In an adiabatic expansion the work is smaller because the temperature drops, giving W = (P₁V₁ - P₂V₂)/(γ-1). Isobaric and isochoric processes involve either a constant pressure (less work than isothermal for the same temperature change) or zero volume change (no work). Hence the isothermal path yields the maximum work.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-282-66",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isothermal process",
+      "question": "A cylinder containing an ideal gas expands slowly while its temperature is kept exactly constant at 300 K. Which of the following best describes the relationship between pressure (P) and volume (V) during this process?",
+      "options": {
+        "A": "P is directly proportional to V (P ∝ V)",
+        "B": "P is inversely proportional to V (P ∝ 1/V)",
+        "C": "P remains constant while V changes",
+        "D": "Both P and V remain constant"
+      },
+      "correct_option": "B",
+      "answer": "P is inversely proportional to V (P ∝ 1/V)",
+      "explanation": "In an isothermal process for an ideal gas, the temperature T is constant, so the ideal‑gas equation PV = nRT reduces to PV = constant. Therefore, pressure varies inversely with volume (P ∝ 1/V). Option B correctly states this relationship; the other options contradict the constant‑temperature condition.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-282-67",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand adiabatic process",
+      "question": "During a reversible adiabatic expansion of an ideal gas, the temperature of the gas remains constant. Which statement is correct?",
+      "options": {
+        "A": "True, because no heat is exchanged, the temperature cannot change.",
+        "B": "False, the temperature decreases because the internal energy is used to do work.",
+        "C": "True, because the work done is exactly compensated by a rise in internal energy.",
+        "D": "False, the temperature increases due to compression of the gas."
+      },
+      "correct_option": "B",
+      "answer": "False, the temperature decreases because the internal energy is used to do work.",
+      "explanation": "In an adiabatic process, Q = 0. For an ideal gas, the change in internal energy ΔU = nC_vΔT equals the negative of the work done (ΔU = -W). Since the gas does work on the surroundings, its internal energy and thus temperature drop. Therefore the statement that temperature remains constant is a common misconception; option B correctly identifies the error.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-282-68",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isobaric process",
+      "question": "A sample of ideal gas undergoes a reversible isobaric (constant‑pressure) expansion. Which of the following quantities is directly proportional to the temperature change ΔT of the gas?",
+      "options": {
+        "A": "Change in volume ΔV",
+        "B": "Change in pressure ΔP",
+        "C": "Change in internal energy ΔU",
+        "D": "Number of moles n"
+      },
+      "correct_option": "A",
+      "answer": "Change in volume ΔV",
+      "explanation": "For an isobaric process, P is constant, so from PV = nRT we have V ∝ T (V = nR T / P). Hence the change in volume is directly proportional to the temperature change. ΔP is zero, ΔU is proportional to ΔT but also depends on the heat capacity (C_v), not a simple direct proportionality in the context of the question, and n is constant for the process. Therefore option A is correct.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-282-69",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isochoric process",
+      "question": "For an ideal gas undergoing (i) an isochoric heating and (ii) an isobaric expansion, both from the same initial temperature T₁ to the same final temperature T₂, which of the following statements is true?",
+      "options": {
+        "A": "In the isochoric process the work done is zero and the heat supplied equals the increase in internal energy; in the isobaric process the work done is non‑zero and the heat supplied exceeds the increase in internal energy.",
+        "B": "In the isochoric process the work done is non‑zero, while in the isobaric process the work done is zero.",
+        "C": "Both processes involve the same amount of work because the temperature change is the same.",
+        "D": "In the isochoric process the heat supplied is zero, whereas in the isobaric process the heat supplied equals the work done."
+      },
+      "correct_option": "A",
+      "answer": "In the isochoric process the work done is zero and the heat supplied equals the increase in internal energy; in the isobaric process the work done is non‑zero and the heat supplied exceeds the increase in internal energy.",
+      "explanation": "During an isochoric (constant‑volume) process ΔV = 0, so work W = PΔV = 0. The first law gives Q = ΔU. In an isobaric (constant‑pressure) expansion, ΔV ≠ 0, so work W = PΔV > 0. The heat supplied Q = ΔU + W, therefore Q is larger than the increase in internal energy. Option A correctly captures these relationships; the other options contradict the definitions of the processes.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-282-70",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Compare work and heat transfer in standard processes",
+      "question": "One mole of an ideal gas is taken from state (P₁, V₁, T₁) to a final state with temperature T₂ (> T₁). Which reversible process will deliver the maximum work done by the gas on the surroundings?",
+      "options": {
+        "A": "Isothermal expansion at temperature T₁",
+        "B": "Adiabatic expansion from T₁ to T₂",
+        "C": "Isobaric expansion from T₁ to T₂",
+        "D": "Isochoric heating from T₁ to T₂"
+      },
+      "correct_option": "A",
+      "answer": "Isothermal expansion at temperature T₁",
+      "explanation": "For a given temperature, the work done in a reversible isothermal expansion is W = nRT₁ ln(V₂/V₁). In an adiabatic expansion the temperature falls, reducing the pressure and consequently the work. Isobaric and isochoric processes either involve lower pressure differences or no volume change, giving less work. Hence the isothermal path at the higher constant temperature yields the greatest work, matching the answer choice A.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-282-71",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isothermal process",
+      "question": "In a reversible isothermal expansion of an ideal gas, which of the following statements is always true?",
+      "options": {
+        "A": "The change in internal energy ΔU is zero.",
+        "B": "The change in internal energy ΔU is positive.",
+        "C": "The gas does no work.",
+        "D": "The temperature of the gas decreases."
+      },
+      "correct_option": "A",
+      "answer": "The change in internal energy ΔU is zero.",
+      "explanation": "For an ideal gas, internal energy depends only on temperature. In an isothermal process the temperature remains constant, so ΔU = 0. Consequently, the heat supplied equals the work done (Q = W). Options B, C, and D contradict the definition of an isothermal process.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-282-72",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand adiabatic process",
+      "question": "For a reversible adiabatic process involving an ideal gas, which of the following equations correctly relates pressure (P) and volume (V)?",
+      "options": {
+        "A": "PV = constant",
+        "B": "PV^{γ} = constant",
+        "C": "P^{γ}V = constant",
+        "D": "P = constant"
+      },
+      "correct_option": "B",
+      "answer": "PV^{γ} = constant",
+      "explanation": "In a reversible adiabatic (no heat exchange) process for an ideal gas, the relation PV^{γ} = constant holds, where γ = C_p/C_v. This follows from combining the first law (Q = 0) with the ideal‑gas law. Option B expresses this correctly; the other options describe isothermal (PV = constant), an incorrect form, or constant‑pressure processes.",
+      "difficulty": "easy"
+    }
+  ]
+}
