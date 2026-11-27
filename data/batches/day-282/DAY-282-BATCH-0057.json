@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0057",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isobaric process",
+      "question": "Which of the following statements correctly defines an isobaric process and distinguishes it from an isochoric process?",
+      "options": {
+        "A": "The pressure remains constant while the volume changes, so the system does work when heat is added.",
+        "B": "The volume remains constant while the pressure changes, so no work is done during heat transfer.",
+        "C": "Both pressure and volume remain constant, implying no heat exchange occurs.",
+        "D": "The temperature remains constant while pressure and volume both change."
+      },
+      "correct_option": "A",
+      "answer": "The pressure remains constant while the volume changes, so the system does work when heat is added.",
+      "explanation": "In an isobaric process the pressure is constant (P = constant). When heat is supplied, the gas expands, its volume increases and it does work W = PΔV. In an isochoric process the volume is constant, so no work is done (W = 0). Options B, C and D describe other processes (isochoric, isothermal, etc.) and are therefore incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isochoric process",
+      "question": "A 2‑mol ideal gas is confined in a rigid container. Its temperature rises from 300 K to 350 K. If the molar heat capacity at constant volume is 20.8 J·mol⁻¹·K⁻¹, how much heat is added to the gas?",
+      "options": {
+        "A": "2080 J",
+        "B": "1040 J",
+        "C": "4160 J",
+        "D": "0 J"
+      },
+      "correct_option": "A",
+      "answer": "2080 J",
+      "explanation": "For an isochoric (constant‑volume) process, work done W = 0, so Q = ΔU. ΔU = n C_v ΔT = 2 mol × 20.8 J·mol⁻¹·K⁻¹ × (350 K − 300 K) = 2 × 20.8 × 50 = 2080 J. Hence 2080 J of heat must be supplied. The other options correspond to half, double, or zero heat, which are inconsistent with the calculation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Compare work and heat transfer in standard processes",
+      "question": "For an ideal gas expanding from volume V₁ to V₂ at the same initial temperature, which statement correctly compares the work done during an isothermal expansion with that during an adiabatic expansion between the same volumes?",
+      "options": {
+        "A": "The work done in the isothermal expansion is greater than that in the adiabatic expansion.",
+        "B": "The work done in the adiabatic expansion is greater than that in the isothermal expansion.",
+        "C": "Both expansions do the same amount of work because the volume change is identical.",
+        "D": "No work is done in either process because the temperature change is zero in the isothermal case and heat transfer is zero in the adiabatic case."
+      },
+      "correct_option": "A",
+      "answer": "The work done in the isothermal expansion is greater than that in the adiabatic expansion.",
+      "explanation": "During an isothermal expansion of an ideal gas, the pressure remains higher (P = nRT/V) than during an adiabatic expansion, where the gas cools and pressure drops faster. Consequently, the area under the P‑V curve (work) is larger for the isothermal path. Options B and C ignore the pressure‑volume relationship, and D is wrong because work is done whenever volume changes under non‑zero pressure.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isothermal process",
+      "question": "One mole of an ideal gas expands isothermally at 300 K from 1.0 L to 2.0 L. What is the work done by the gas? (R = 8.314 J·mol⁻¹·K⁻¹)",
+      "options": {
+        "A": "1.73 × 10³ J",
+        "B": "2.00 × 10³ J",
+        "C": "1.50 × 10³ J",
+        "D": "0 J"
+      },
+      "correct_option": "A",
+      "answer": "1.73 × 10³ J",
+      "explanation": "For an isothermal expansion, W = nRT ln(V₂/V₁). Substituting n = 1 mol, R = 8.314 J·mol⁻¹·K⁻¹, T = 300 K, V₂/V₁ = 2, we get W = 8.314 × 300 × ln 2 ≈ 8.314 × 300 × 0.693 ≈ 1.73 × 10³ J. Option B overestimates, C underestimates, and D would be true only for a constant‑volume process.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand adiabatic process",
+      "question": "A common misconception is that because no heat is exchanged in an adiabatic process (Q = 0), the internal energy of an ideal gas does not change. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "The internal energy always remains constant in an adiabatic process because Q = 0.",
+        "B": "For an ideal gas, internal energy depends only on temperature, and temperature never changes in an adiabatic process.",
+        "C": "Even though Q = 0, the gas can do work; the internal energy changes by ΔU = –W.",
+        "D": "Adiabatic processes are always isothermal, so internal energy is unchanged."
+      },
+      "correct_option": "C",
+      "answer": "Even though Q = 0, the gas can do work; the internal energy changes by ΔU = –W.",
+      "explanation": "The first law gives ΔU = Q – W. In an adiabatic process Q = 0, so ΔU = –W. If the gas expands (does positive work), its internal energy decreases; if it is compressed, internal energy increases. Options A, B, and D incorrectly assume temperature or internal energy stay constant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isobaric process",
+      "question": "During an isobaric expansion, a gas absorbs 500 J of heat and does 300 J of work on the surroundings. What is the change in the internal energy of the gas?",
+      "options": {
+        "A": "800 J",
+        "B": "200 J",
+        "C": "-200 J",
+        "D": "0 J"
+      },
+      "correct_option": "B",
+      "answer": "200 J",
+      "explanation": "From the first law, ΔU = Q – W. Substituting Q = 500 J and W = 300 J gives ΔU = 500 J – 300 J = 200 J. Option A adds instead of subtracts, C gives the opposite sign, and D would be true only if Q = W.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isochoric process",
+      "question": "Which of the following statements correctly compares the molar heat capacities at constant volume (C_v) and at constant pressure (C_p) for an ideal gas?",
+      "options": {
+        "A": "C_v is always greater than C_p because volume is fixed.",
+        "B": "C_p equals C_v for a mono‑atomic ideal gas.",
+        "C": "C_p is less than C_v by an amount equal to the gas constant R.",
+        "D": "C_p is greater than C_v by exactly the universal gas constant R."
+      },
+      "correct_option": "D",
+      "answer": "C_p is greater than C_v by exactly the universal gas constant R.",
+      "explanation": "For any ideal gas, the relation C_p = C_v + R holds, where R is the universal gas constant (≈8.314 J·mol⁻¹·K⁻¹). Therefore C_p is always larger than C_v by R. Options A and C reverse the relationship, and B is false because C_p > C_v for all ideal gases, regardless of molecular type.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Compare work and heat transfer in standard processes",
+      "question": "In a Carnot cycle operating between two temperatures, the four stages are: isothermal expansion, adiabatic expansion, isothermal compression, and adiabatic compression. Which of the following correctly orders the magnitudes of work done (positive when done by the system, negative when done on the system) in these stages?",
+      "options": {
+        "A": "W_iso‑exp > W_adiab‑exp > 0 > W_adiab‑comp > W_iso‑comp",
+        "B": "W_iso‑exp > 0 > W_iso‑comp > W_adiab‑exp > W_adiab‑comp",
+        "C": "W_adiab‑exp > W_iso‑exp > 0 > W_iso‑comp > W_adiab‑comp",
+        "D": "All four works have equal magnitude."
+      },
+      "correct_option": "A",
+      "answer": "W_iso‑exp > W_adiab‑exp > 0 > W_adiab‑comp > W_iso‑comp",
+      "explanation": "During the isothermal expansion the gas does the largest positive work because pressure stays relatively high. In the subsequent adiabatic expansion the gas still does positive work but less, as temperature falls. The two compression phases involve negative work: the adiabatic compression does less negative work (smaller magnitude) than the isothermal compression, whose pressure is higher. Hence the ordering in option A is correct. Options B and C misplace the signs or magnitudes, and D is false because the work magnitudes differ.",
+      "difficulty": "hard"
+    }
+  ]
+}

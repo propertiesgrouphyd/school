@@ -1,0 +1,150 @@
+{
+  "day": 282,
+  "batch_id": "DAY-282-BATCH-0056",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Compare work and heat transfer in standard processes",
+      "question": "One mole of an ideal gas expands isothermally at 300 K from a volume of 10 L to 20 L while the external pressure is kept constant at 1 atm. Which of the following correctly describes the relationship between the magnitude of work done by the gas and the heat absorbed by the gas during this process?",
+      "options": {
+        "A": "The work done is greater than the heat absorbed.",
+        "B": "The work done is equal to the heat absorbed.",
+        "C": "The work done is less than the heat absorbed.",
+        "D": "No heat is absorbed because the temperature is constant."
+      },
+      "correct_option": "B",
+      "answer": "The work done is equal to the heat absorbed.",
+      "explanation": "For an isothermal process of an ideal gas, the internal energy change ΔU = 0. From the first law, ΔU = Q - W, so Q = W. Hence the magnitude of work done by the gas equals the heat absorbed. Options A and C contradict the first law, and D is wrong because heat must flow to keep the temperature constant.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isothermal process",
+      "question": "A piston contains 2 moles of an ideal gas at 300 K and a pressure of 2 atm. The gas is allowed to expand isothermally until its volume doubles. Which statement is true after the expansion?",
+      "options": {
+        "A": "The final pressure is 4 atm.",
+        "B": "The final pressure is 1 atm.",
+        "C": "The temperature of the gas increases.",
+        "D": "The internal energy of the gas decreases."
+      },
+      "correct_option": "B",
+      "answer": "The final pressure is 1 atm.",
+      "explanation": "In an isothermal process, PV = constant for an ideal gas. Doubling the volume halves the pressure, so 2 atm → 1 atm. Option A is opposite, C is false because temperature remains constant, and D is false because internal energy depends only on temperature for an ideal gas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand adiabatic process",
+      "question": "Which of the following statements about an adiabatic expansion of an ideal gas is correct?",
+      "options": {
+        "A": "The temperature of the gas remains constant because no heat is exchanged.",
+        "B": "The temperature of the gas decreases during the expansion.",
+        "C": "The temperature of the gas increases because work is done on the gas.",
+        "D": "The temperature change depends only on the external pressure, not on the volume change."
+      },
+      "correct_option": "B",
+      "answer": "The temperature of the gas decreases during the expansion.",
+      "explanation": "In an adiabatic process, Q = 0. The gas does work on the surroundings, so its internal energy decreases, leading to a drop in temperature. Option A confuses adiabatic with isothermal, C is opposite of the actual work direction, and D ignores the relationship between work and internal energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isobaric process",
+      "question": "During an isobaric (constant‑pressure) expansion of an ideal gas, which equation correctly relates the heat added (Q) to the change in internal energy (ΔU) and the work done (W)?",
+      "options": {
+        "A": "Q = ΔU – PΔV",
+        "B": "Q = ΔU + PΔV",
+        "C": "Q = ΔU",
+        "D": "Q = PΔV"
+      },
+      "correct_option": "B",
+      "answer": "Q = ΔU + PΔV",
+      "explanation": "For any process, the first law gives Q = ΔU + W. In an isobaric process, work done by the gas is W = PΔV. Substituting gives Q = ΔU + PΔV. Option A has the wrong sign, C ignores work, and D ignores internal energy change.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isochoric process",
+      "question": "Which of the following statements correctly compares the work done on/by an ideal gas in the four standard processes (isothermal, isobaric, adiabatic, and isochoric) when each process results in the same change in volume?",
+      "options": {
+        "A": "Only the isochoric process does zero work; the other three processes involve non‑zero work.",
+        "B": "Work done is the same for isothermal and isobaric processes, but different for adiabatic and isochoric.",
+        "C": "The adiabatic process always does the greatest amount of work for a given volume change.",
+        "D": "Work done is independent of the type of process and depends only on the volume change."
+      },
+      "correct_option": "A",
+      "answer": "Only the isochoric process does zero work; the other three processes involve non‑zero work.",
+      "explanation": "In an isochoric (constant‑volume) process, ΔV = 0, so work W = ∫P dV = 0. In isothermal, isobaric, and adiabatic processes, the volume changes, so work is non‑zero. Option B is false because work differs among those processes; C is not generally true; D ignores the pressure‑volume relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Compare work and heat transfer in standard processes",
+      "question": "A monatomic ideal gas undergoes a reversible cyclic process consisting of: (1) isothermal expansion at T₁, (2) adiabatic expansion to temperature T₂ (< T₁), (3) isothermal compression at T₂, and (4) adiabatic compression back to the initial state. Which statement about the net work done by the gas over one complete cycle is correct?",
+      "options": {
+        "A": "The net work done is zero because the internal energy returns to its initial value.",
+        "B": "The net work done is negative; more work is done on the gas than by the gas.",
+        "C": "The net work done is positive; the gas does more work during the isothermal expansion than it receives during compression.",
+        "D": "The net work done cannot be determined without numerical values of T₁ and T₂."
+      },
+      "correct_option": "C",
+      "answer": "The net work done is positive; the gas does more work during the isothermal expansion than it receives during compression.",
+      "explanation": "For a reversible cycle, ΔU over one complete cycle is zero, so net heat Q_net equals net work W_net. Because the two isotherms occur at different temperatures (T₁ > T₂), the area enclosed by the cycle on a PV diagram is positive, indicating net work done by the gas. Option A confuses zero ΔU with zero net work; B is opposite; D is unnecessary because the qualitative relationship is fixed by the temperature difference.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand isothermal process",
+      "question": "During an isothermal process of an ideal gas, the internal energy of the gas:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains unchanged",
+        "D": "Depends on the amount of work done"
+      },
+      "correct_option": "C",
+      "answer": "Remains unchanged",
+      "explanation": "For an ideal gas, internal energy depends only on temperature. In an isothermal process the temperature is constant, so the internal energy does not change regardless of work or heat exchange.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01207",
+      "learning_point": "Understand adiabatic process",
+      "question": "In an adiabatic process involving an ideal gas, the heat exchanged with the surroundings (Q) is:",
+      "options": {
+        "A": "Equal to the change in internal energy",
+        "B": "Equal to the work done by the gas",
+        "C": "Zero",
+        "D": "Proportional to the temperature change"
+      },
+      "correct_option": "C",
+      "answer": "Zero",
+      "explanation": "By definition, an adiabatic process occurs without any heat transfer between the system and its surroundings, so Q = 0. Option A describes the first law (Q = ΔU + W) but does not set Q to zero; B is also incorrect; D is not a definition of adiabatic processes.",
+      "difficulty": "easy"
+    }
+  ]
+}
