@@ -1,0 +1,78 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0026",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "Which of the following statements correctly defines the efficiency of a heat engine?",
+      "options": {
+        "A": "Efficiency = (Work done by the engine) ÷ (Heat absorbed from the high‑temperature source)",
+        "B": "Efficiency = (Heat expelled to the low‑temperature sink) ÷ (Heat absorbed from the source)",
+        "C": "Efficiency = (Work done by the engine) ÷ (Heat expelled to the sink)",
+        "D": "Efficiency = (Work input to the engine) ÷ (Heat absorbed from the source)"
+      },
+      "correct_option": "A",
+      "answer": "Efficiency = (Work done by the engine) ÷ (Heat absorbed from the high‑temperature source)",
+      "explanation": "The efficiency (η) of a heat engine is defined as the ratio of the useful work output (W) to the heat energy taken from the high‑temperature reservoir (Q_h): η = W / Q_h. Option A states exactly this relationship. Option B confuses the ratio with heat rejected, Option C uses the wrong denominator, and Option D mistakenly uses work input, which applies to refrigerators, not heat engines.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand refrigerator",
+      "question": "Why does a refrigerator require work input to move heat from its interior (low temperature) to the surrounding room (higher temperature)?",
+      "options": {
+        "A": "The compressor does work, raising the pressure of the refrigerant so that heat can be expelled to the higher‑temperature surroundings.",
+        "B": "Heat naturally flows from cold to hot, so no work is needed; the refrigerator only speeds up this spontaneous flow.",
+        "C": "The interior heat is directly converted into electrical energy, which powers the cooling process.",
+        "D": "A refrigerator operates as a heat engine in reverse and therefore does not need any external work."
+      },
+      "correct_option": "A",
+      "answer": "The compressor does work, raising the pressure of the refrigerant so that heat can be expelled to the higher‑temperature surroundings.",
+      "explanation": "A refrigerator works on the reverse Carnot cycle. Work supplied to the compressor compresses the refrigerant, increasing its temperature and pressure, allowing it to release absorbed heat to the surroundings at a higher temperature. This is why external work is essential. Option B is false because heat does not flow spontaneously from cold to hot. Option C misrepresents the energy conversion, and Option D incorrectly states that no work is needed.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define coefficient of performance",
+      "question": "Which expression correctly gives the coefficient of performance (COP) of a refrigerator, and how does its magnitude compare with the efficiency of a heat engine operating between the same two reservoirs?",
+      "options": {
+        "A": "COP = Q_c ÷ W, and it is always greater than the efficiency of a heat engine between the same reservoirs.",
+        "B": "COP = W ÷ Q_c, and it is always less than the efficiency of a heat engine between the same reservoirs.",
+        "C": "COP = Q_h ÷ W, which is identical to the efficiency of a heat engine.",
+        "D": "COP = Q_c ÷ Q_h, a ratio unrelated to the engine efficiency."
+      },
+      "correct_option": "A",
+      "answer": "COP = Q_c ÷ W, and it is always greater than the efficiency of a heat engine between the same reservoirs.",
+      "explanation": "For a refrigerator, COP is defined as the heat removed from the cold reservoir (Q_c) divided by the work input (W): COP = Q_c / W. Because Q_c = Q_h – W, the COP can be expressed as 1/(1 – η), where η is the efficiency of a heat engine operating between the same temperatures. This makes COP always larger than η. Option B inverts the ratio, Option C gives the engine efficiency formula, and Option D gives an unrelated ratio.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "Consider the following two energy‑flow diagrams:\n\nDiagram I: Heat Q_h is absorbed from a high‑temperature reservoir, work W is produced, and heat Q_c is rejected to a low‑temperature reservoir.\nDiagram II: Work W is supplied to the system, heat Q_c is absorbed from a low‑temperature reservoir, and heat Q_h is expelled to a high‑temperature reservoir.\n\nWhich diagram correctly represents the operation of a refrigerator?",
+      "options": {
+        "A": "Diagram I",
+        "B": "Diagram II",
+        "C": "Both diagrams",
+        "D": "Neither diagram"
+      },
+      "correct_option": "B",
+      "answer": "Diagram II",
+      "explanation": "A refrigerator requires external work (W) to extract heat (Q_c) from a cold reservoir and reject a larger amount of heat (Q_h) to a hot reservoir. Diagram II shows exactly this flow: work input, heat taken from the low‑temperature interior, and heat expelled to the surroundings. Diagram I describes a heat engine, where work is produced rather than consumed. Therefore, only Diagram II correctly depicts a refrigerator.",
+      "difficulty": "hard"
+    }
+  ]
+}
