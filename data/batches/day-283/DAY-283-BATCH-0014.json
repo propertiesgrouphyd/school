@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0014",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-283-001",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand heat engine",
+      "question": "Which of the following best describes a heat engine?",
+      "options": {
+        "A": "A device that converts all absorbed heat into work.",
+        "B": "A device that converts part of the absorbed heat into work while rejecting the rest as waste heat.",
+        "C": "A device that uses work to transfer heat from a low‑temperature reservoir to a high‑temperature reservoir.",
+        "D": "A device that stores heat without performing any work."
+      },
+      "correct_option": "B",
+      "answer": "A device that converts part of the absorbed heat into work while rejecting the rest as waste heat.",
+      "explanation": "A heat engine operates between two reservoirs. It absorbs heat Q_H from the hot reservoir, converts a fraction of it into useful work W, and rejects the remaining heat Q_C to the cold reservoir. Hence only part of the absorbed heat is turned into work, which matches option B. Options A, C and D describe other concepts (perfect conversion, refrigerator, and heat storage).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-283-002",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "The efficiency (η) of a heat engine is defined as:",
+      "options": {
+        "A": "η = W / Q_H, where W is the work output and Q_H is the heat absorbed from the hot reservoir.",
+        "B": "η = Q_C / Q_H, where Q_C is the heat rejected to the cold reservoir.",
+        "C": "η = Q_H / W, the ratio of heat absorbed to work output.",
+        "D": "η = (Q_H - Q_C) / Q_C, the ratio of net heat transferred to the rejected heat."
+      },
+      "correct_option": "A",
+      "answer": "η = W / Q_H, where W is the work output and Q_H is the heat absorbed from the hot reservoir.",
+      "explanation": "Efficiency measures how much of the input heat is converted into useful work. By definition η = W/Q_H. Option B is the fraction of heat rejected, not efficiency. Option C inverts the definition, and option D is not a standard efficiency expression.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-283-003",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand refrigerator",
+      "question": "Which statement correctly distinguishes a refrigerator from a heat engine?",
+      "options": {
+        "A": "A refrigerator converts heat into work, while a heat engine uses work to move heat.",
+        "B": "A refrigerator uses work to transfer heat from a colder to a hotter reservoir, whereas a heat engine produces work by allowing heat to flow from a hotter to a colder reservoir.",
+        "C": "Both devices operate on the same principle and have identical efficiency definitions.",
+        "D": "A refrigerator rejects heat to the cold reservoir, while a heat engine rejects heat to the hot reservoir."
+      },
+      "correct_option": "B",
+      "answer": "A refrigerator uses work to transfer heat from a colder to a hotter reservoir, whereas a heat engine produces work by allowing heat to flow from a hotter to a colder reservoir.",
+      "explanation": "A refrigerator is a thermal machine that consumes work to move heat against its natural temperature gradient (cold → hot). A heat engine does the opposite: it lets heat flow spontaneously from hot to cold and extracts work. Option B captures this distinction. Options A, C, and D contain incorrect statements about the direction of heat flow and definitions.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-283-004",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define coefficient of performance",
+      "question": "The coefficient of performance (COP) of a refrigerator is given by:",
+      "options": {
+        "A": "COP = Q_C / W, where Q_C is the heat removed from the cold reservoir and W is the work input.",
+        "B": "COP = W / Q_H, where Q_H is the heat absorbed from the hot reservoir.",
+        "C": "COP = Q_H / W, where Q_H is the heat absorbed from the hot reservoir.",
+        "D": "COP = (Q_H - Q_C) / W, the net heat transferred divided by work input."
+      },
+      "correct_option": "A",
+      "answer": "COP = Q_C / W, where Q_C is the heat removed from the cold reservoir and W is the work input.",
+      "explanation": "For a refrigerator, COP measures how much heat is extracted from the cold space per unit of work supplied: COP = Q_C/W. Options B and C refer to heat engine relations, and option D is not the standard COP definition for a refrigerator.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-283-005",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "In a heat engine, 500 J of heat is absorbed from the source and 300 J is rejected to the sink. What is the work output of the engine?",
+      "options": {
+        "A": "200 J",
+        "B": "300 J",
+        "C": "500 J",
+        "D": "800 J"
+      },
+      "correct_option": "A",
+      "answer": "200 J",
+      "explanation": "Energy conservation for a heat engine gives Q_H = W + Q_C. Rearranging, W = Q_H – Q_C = 500 J – 300 J = 200 J. Therefore option A is correct. The other options either ignore the rejected heat or add quantities incorrectly.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-283-006",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand heat engine",
+      "question": "A car engine takes in 1000 J of heat from fuel combustion and does 350 J of mechanical work. How much heat is expelled to the surroundings?",
+      "options": {
+        "A": "650 J",
+        "B": "350 J",
+        "C": "1000 J",
+        "D": "0 J"
+      },
+      "correct_option": "A",
+      "answer": "650 J",
+      "explanation": "Using the first law, Q_H = W + Q_C. Hence Q_C = Q_H – W = 1000 J – 350 J = 650 J. The engine must reject 650 J as waste heat. Options B, C, and D do not satisfy energy conservation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-283-007",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "A student claims that a heat engine can have an efficiency of 120% because it produces more work than the heat it absorbs. Which statement correctly addresses this misconception?",
+      "options": {
+        "A": "Efficiencies greater than 100% are possible if the engine uses external work.",
+        "B": "The second law of thermodynamics limits efficiency to less than 100%; an engine cannot produce more work than the heat absorbed.",
+        "C": "Efficiency is defined as Q_H/W, so values greater than 100% are common.",
+        "D": "Efficiency can exceed 100% in ideal Carnot engines."
+      },
+      "correct_option": "B",
+      "answer": "The second law of thermodynamics limits efficiency to less than 100%; an engine cannot produce more work than the heat absorbed.",
+      "explanation": "By definition η = W/Q_H, and because work cannot exceed the heat input, η ≤ 1 (or 100%). The second law forbids perpetual‑motion machines of the second kind, so efficiencies above 100% are impossible. Options A, C, and D misinterpret the definition or the limits set by thermodynamics.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-283-008",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand refrigerator",
+      "question": "If a refrigerator removes 400 J of heat from its interior while consuming 100 J of electrical work, what is its coefficient of performance (COP) and what does this value indicate?",
+      "options": {
+        "A": "COP = 4; this indicates a relatively high performance because the refrigerator removes four times more heat than the work supplied.",
+        "B": "COP = 0.25; this indicates poor performance because the refrigerator removes far less heat than the work supplied.",
+        "C": "COP = 500; this value is physically impossible for a real refrigerator.",
+        "D": "COP = 1; this indicates that the refrigerator removes the same amount of heat as the work input."
+      },
+      "correct_option": "A",
+      "answer": "COP = 4; this indicates a relatively high performance because the refrigerator removes four times more heat than the work supplied.",
+      "explanation": "COP for a refrigerator is Q_C/W = 400 J / 100 J = 4. A COP greater than 1 shows that the device moves more heat than the work invested, which is typical for refrigeration cycles. Option A correctly states the calculation and its implication. Options B, C, and D give incorrect calculations or interpretations.",
+      "difficulty": "medium"
+    }
+  ]
+}
