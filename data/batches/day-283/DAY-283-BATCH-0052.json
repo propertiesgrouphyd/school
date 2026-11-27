@@ -1,0 +1,78 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0052",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-283-97",
+      "learning_unit_id": "LU-01211",
+      "learning_point": "Understand origin of gas pressure",
+      "question": "Which of the following statements correctly describes the origin of pressure in an ideal gas confined in a rigid container?",
+      "options": {
+        "A": "Pressure arises from the continual collisions of gas molecules with the walls of the container.",
+        "B": "Pressure is produced by attractive forces pulling the molecules toward each other.",
+        "C": "Pressure results from the weight of the gas acting on the container floor.",
+        "D": "Pressure is generated because gas molecules move in perfect circles inside the container."
+      },
+      "correct_option": "A",
+      "answer": "Pressure arises from the continual collisions of gas molecules with the walls of the container.",
+      "explanation": "In kinetic theory, gas pressure is the result of momentum transferred to the container walls during elastic collisions of the molecules. The other options describe misconceptions: attractive forces affect internal energy but not pressure directly, weight contributes to hydrostatic pressure in a fluid column, and circular motion does not produce net force on the walls.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-283-98",
+      "learning_unit_id": "LU-01211",
+      "learning_point": "Relate pressure to molecular motion",
+      "question": "An ideal gas is kept in a rigid container. If its temperature is doubled while the volume remains unchanged, what happens to the pressure of the gas?",
+      "options": {
+        "A": "The pressure is reduced to half of its original value.",
+        "B": "The pressure remains the same.",
+        "C": "The pressure becomes twice its original value.",
+        "D": "The pressure becomes four times its original value."
+      },
+      "correct_option": "C",
+      "answer": "The pressure becomes twice its original value.",
+      "explanation": "According to kinetic theory, the pressure of an ideal gas is proportional to the average kinetic energy of its molecules, which is (3/2)kT. Doubling the temperature doubles the average kinetic energy, and because volume is constant, pressure also doubles. Options A, B, and D contradict this direct proportionality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-283-99",
+      "learning_unit_id": "LU-01211",
+      "learning_point": "Understand momentum transfer during collisions",
+      "question": "A single gas molecule strikes a perfectly rigid wall. Which statement correctly compares the momentum transferred to the wall in a head‑on collision versus a glancing (oblique) collision of the same speed?",
+      "options": {
+        "A": "The magnitude of momentum transferred is the same for both collisions.",
+        "B": "The head‑on collision transfers a larger magnitude of momentum than the glancing collision.",
+        "C": "The glancing collision transfers a larger magnitude of momentum than the head‑on collision.",
+        "D": "No momentum is transferred in a head‑on collision."
+      },
+      "correct_option": "B",
+      "answer": "The head‑on collision transfers a larger magnitude of momentum than the glancing collision.",
+      "explanation": "Momentum transferred to the wall equals the change in the component of the molecule’s momentum normal to the surface. In a head‑on collision this normal component equals the full momentum mv, giving a change of 2mv. In an oblique collision only the normal component (mv cosθ) contributes, resulting in a smaller change. Hence option B is correct; the other options misrepresent the vector nature of momentum transfer.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-283-100",
+      "learning_unit_id": "LU-01211",
+      "learning_point": "Use the kinetic-theory pressure relation at the required level",
+      "question": "A sample contains 2.0×10^23 molecules of an ideal gas. Each molecule has a mass of 5.0×10^-26 kg and an average speed of 500 m s⁻¹. The gas occupies a volume of 0.020 m³. Using the kinetic‑theory expression P = (1/3)(N m v²)/V, what is the pressure of the gas (in pascals)?",
+      "options": {
+        "A": "1.3×10^4 Pa",
+        "B": "4.2×10^4 Pa",
+        "C": "7.5×10^4 Pa",
+        "D": "1.0×10^5 Pa"
+      },
+      "correct_option": "B",
+      "answer": "4.2×10^4 Pa",
+      "explanation": "First compute N m v²: v² = (500)² = 2.5×10^5 m²/s². N m v² = (2.0×10^23)(5.0×10^-26 kg)(2.5×10^5) = 2.5×10^3 kg·m²/s². Divide by V = 0.020 m³ gives 1.25×10^5 Pa. Multiply by 1/3: P = (1/3)×1.25×10^5 ≈ 4.17×10^4 Pa, which rounds to 4.2×10^4 Pa. Option B matches this result; the other options arise from arithmetic errors such as omitting the 1/3 factor or mis‑calculating the product.",
+      "difficulty": "hard"
+    }
+  ]
+}

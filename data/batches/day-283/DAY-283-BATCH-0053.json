@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0053",
+  "mcqs": [
+    {
+      "job_number": 1,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-283-001",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "How is the absolute temperature of an ideal gas related to the average translational kinetic energy of its molecules?",
+      "options": {
+        "A": "It is directly proportional to the average translational kinetic energy of the molecules.",
+        "B": "It is inversely proportional to the average translational kinetic energy of the molecules.",
+        "C": "It is independent of the average translational kinetic energy of the molecules.",
+        "D": "It is proportional to the square of the average translational kinetic energy of the molecules."
+      },
+      "correct_option": "A",
+      "answer": "It is directly proportional to the average translational kinetic energy of the molecules.",
+      "explanation": "For an ideal gas, the average translational kinetic energy per molecule is (3/2)k_B T. Hence temperature is directly proportional to the average kinetic energy. Option B is opposite, C ignores the relationship, and D misrepresents the proportionality.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 2,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-283-002",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "Which of the following best describes the root‑mean‑square (rms) speed of gas molecules?",
+      "options": {
+        "A": "The arithmetic mean of the speeds of all molecules.",
+        "B": "The square root of the average of the squares of the molecular speeds.",
+        "C": "The speed of the most probable molecule in the distribution.",
+        "D": "The minimum speed that any molecule can have."
+      },
+      "correct_option": "B",
+      "answer": "The square root of the average of the squares of the molecular speeds.",
+      "explanation": "rms speed is defined as v_rms = √(⟨v^2⟩), i.e., the square root of the mean of the squared speeds. Option A describes simple average, C describes most probable speed, and D is incorrect because molecules can have very low speeds.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 3,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-283-003",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "Which statement correctly relates the rms speed (v_rms) of a gas to its absolute temperature (T) and molar mass (M)?",
+      "options": {
+        "A": "v_rms is proportional to √(T/M).",
+        "B": "v_rms is proportional to √(M/T).",
+        "C": "v_rms is directly proportional to the product T·M.",
+        "D": "v_rms is independent of the molar mass of the gas."
+      },
+      "correct_option": "A",
+      "answer": "v_rms is proportional to √(T/M).",
+      "explanation": "From kinetic theory, v_rms = √(3RT/M); thus it varies as the square root of temperature divided by molar mass. Option B inverts the relationship, C suggests linear dependence, and D ignores the mass effect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 4,
+      "question_type": "application",
+      "mcq_id": "MCQ-283-004",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "If the absolute temperature of an ideal gas is doubled, what happens to the average translational kinetic energy of its molecules?",
+      "options": {
+        "A": "It also doubles.",
+        "B": "It is reduced to half its original value.",
+        "C": "It becomes four times larger.",
+        "D": "It remains unchanged."
+      },
+      "correct_option": "A",
+      "answer": "It also doubles.",
+      "explanation": "Average translational kinetic energy per molecule is (3/2)k_B T, so it varies linearly with temperature. Doubling T doubles the kinetic energy. Options B and C give incorrect proportionalities, D ignores the temperature dependence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 5,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-283-005",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "Helium gas (molar mass = 4 g mol⁻¹) is at 300 K. Using v_rms = √(3RT/M), what is its rms speed? (R = 8.314 J mol⁻¹ K⁻¹, convert M to kg mol⁻¹)",
+      "options": {
+        "A": "≈1.36 × 10³ m s⁻¹",
+        "B": "≈5.0 × 10² m s⁻¹",
+        "C": "≈2.0 × 10³ m s⁻¹",
+        "D": "≈8.0 × 10² m s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "≈1.36 × 10³ m s⁻¹",
+      "explanation": "M = 4 g mol⁻¹ = 0.004 kg mol⁻¹. v_rms = √[3·8.314·300 / 0.004] ≈ √1.87 × 10⁶ ≈ 1.36 × 10³ m s⁻¹. The other options result from incorrect arithmetic or unit errors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 6,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-283-006",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "Two gases, hydrogen (M = 2 g mol⁻¹) and nitrogen (M = 28 g mol⁻¹), are kept at the same temperature of 400 K. Which gas has the higher rms speed?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Nitrogen",
+        "C": "Both have the same rms speed",
+        "D": "It depends on the pressure of the gases"
+      },
+      "correct_option": "A",
+      "answer": "Hydrogen",
+      "explanation": "v_rms ∝ √(T/M). With identical T, the gas with smaller molar mass (hydrogen) has larger √(1/M) and thus higher rms speed. Pressure does not affect rms speed directly, so options C and D are wrong.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 7,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-283-007",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "Which of the following statements about temperature and kinetic energy is correct?",
+      "options": {
+        "A": "Temperature is proportional to the total kinetic energy of all molecules in a sample.",
+        "B": "Temperature is proportional to the average kinetic energy per molecule.",
+        "C": "Temperature depends primarily on the potential energy of intermolecular forces.",
+        "D": "Temperature is unrelated to molecular motion."
+      },
+      "correct_option": "B",
+      "answer": "Temperature is proportional to the average kinetic energy per molecule.",
+      "explanation": "Temperature reflects the average translational kinetic energy per molecule, not the total kinetic energy (which also depends on the number of molecules). Options C and D are false; temperature is a measure of molecular motion, not potential energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 8,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-283-008",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "If the rms speed of a gas at temperature T is v, what will be its rms speed when the temperature is increased to 4T while the molar mass remains unchanged?",
+      "options": {
+        "A": "It becomes twice as large as v.",
+        "B": "It becomes four times as large as v.",
+        "C": "It becomes half as large as v.",
+        "D": "It remains the same as v."
+      },
+      "correct_option": "A",
+      "answer": "It becomes twice as large as v.",
+      "explanation": "Since v_rms ∝ √T, raising T to 4T multiplies the rms speed by √4 = 2. Therefore the speed doubles. Options B, C, and D misapply the square‑root relationship.",
+      "difficulty": "medium"
+    }
+  ]
+}
