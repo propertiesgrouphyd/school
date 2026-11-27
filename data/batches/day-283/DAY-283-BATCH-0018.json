@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0018",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand refrigerator",
+      "question": "In thermodynamics, a refrigerator is best described as:",
+      "options": {
+        "A": "A device that converts heat completely into work.",
+        "B": "A device that uses work to transfer heat from a low‑temperature reservoir to a high‑temperature reservoir.",
+        "C": "A device that produces cooling without any external work.",
+        "D": "A device that extracts work from the surroundings while delivering heat to a colder body."
+      },
+      "correct_option": "B",
+      "answer": "A device that uses work to transfer heat from a low‑temperature reservoir to a high‑temperature reservoir.",
+      "explanation": "A refrigerator operates by consuming external work (e.g., electrical energy) to move heat from a colder region to a hotter one, opposite to the natural direction of heat flow. Option A describes a heat engine, not a refrigerator. Option C is impossible because work is required. Option D describes a heat pump operating in reverse, not a refrigerator.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define coefficient of performance",
+      "question": "A refrigerator removes 500 kJ of heat from its interior while consuming 150 kJ of electrical work. What is its coefficient of performance (COP)?",
+      "options": {
+        "A": "2.33",
+        "B": "3.33",
+        "C": "0.30",
+        "D": "1.00"
+      },
+      "correct_option": "B",
+      "answer": "3.33",
+      "explanation": "COP for a refrigerator is defined as COP = Q_c / W, where Q_c is the heat extracted from the cold reservoir and W is the work input. Here, COP = 500 kJ ÷ 150 kJ = 3.33. The other options result from incorrect arithmetic or using the wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "Which of the following energy‑flow diagrams correctly represents a heat engine operating between a hot reservoir and a cold reservoir?",
+      "options": {
+        "A": "Heat Q_h flows from the hot reservoir to the engine, part of it is converted to work W, and the remaining heat Q_c is rejected to the cold reservoir.",
+        "B": "Heat Q_h flows from the hot reservoir to the engine, which converts all of it into work W with no heat rejection.",
+        "C": "Work W is supplied to the engine, which then transfers heat Q_c from the cold reservoir to the hot reservoir.",
+        "D": "Heat Q_c flows from the cold reservoir to the engine, which produces work W and releases heat Q_h to the hot reservoir."
+      },
+      "correct_option": "A",
+      "answer": "Heat Q_h flows from the hot reservoir to the engine, part of it is converted to work W, and the remaining heat Q_c is rejected to the cold reservoir.",
+      "explanation": "A heat engine absorbs heat Q_h from a high‑temperature source, converts a fraction into useful work W, and discards the leftover heat Q_c to a low‑temperature sink. Option B violates the second law (no heat rejection). Option C describes a refrigerator, not a heat engine. Option D reverses the direction of heat flow.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand heat engine",
+      "question": "A device receives 800 J of heat from a furnace at 500 K and rejects 300 J of heat to a sink at 300 K. Which statement about this device is true?",
+      "options": {
+        "A": "It is a heat engine with an efficiency of 0.375.",
+        "B": "It violates the second law of thermodynamics.",
+        "C": "It functions as a refrigerator.",
+        "D": "Its efficiency is 0.625."
+      },
+      "correct_option": "D",
+      "answer": "Its efficiency is 0.625.",
+      "explanation": "For a heat engine, efficiency η = W / Q_h, where work output W = Q_h – Q_c. Here, W = 800 J – 300 J = 500 J, so η = 500 J / 800 J = 0.625. Option A uses the wrong numerator (300 J). Option B is incorrect because the device obeys the second law. Option C misidentifies the device’s function.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "The efficiency of a heat engine is defined as:",
+      "options": {
+        "A": "The ratio of work output to heat input, expressed as a percentage.",
+        "B": "The ratio of heat input to work output, expressed as a percentage.",
+        "C": "A value that can exceed 100 % for an ideal engine.",
+        "D": "A quantity that is independent of the temperatures of the reservoirs."
+      },
+      "correct_option": "A",
+      "answer": "The ratio of work output to heat input, expressed as a percentage.",
+      "explanation": "Efficiency η = (W_out / Q_in) × 100 %. Option B inverts the ratio. Option C is false because no real or ideal engine can have efficiency > 100 % (that would violate energy conservation). Option D is false; efficiency depends on the temperature difference between the reservoirs.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand refrigerator",
+      "question": "A refrigerator has a coefficient of performance (COP) of 4. If it extracts 200 kJ of heat from its interior, how much work must be supplied to it?",
+      "options": {
+        "A": "800 kJ",
+        "B": "50 kJ",
+        "C": "200 kJ",
+        "D": "8 kJ"
+      },
+      "correct_option": "B",
+      "answer": "50 kJ",
+      "explanation": "For a refrigerator, COP = Q_c / W. Rearranging gives W = Q_c / COP = 200 kJ / 4 = 50 kJ. Option A mistakenly multiplies instead of dividing. Option C assumes COP = 1. Option D is far too small.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define coefficient of performance",
+      "question": "A refrigerator operates between a cold reservoir at 273 K and a hot reservoir at 303 K. Its coefficient of performance is given by COP_R = T_c / (T_h – T_c). A heat pump working between the same reservoirs has COP_HP = T_h / (T_h – T_c). Which of the following statements is correct?",
+      "options": {
+        "A": "COP_R is always larger than COP_HP.",
+        "B": "COP_HP is larger than COP_R by a factor of T_h / T_c.",
+        "C": "COP_R equals COP_HP for any pair of reservoirs.",
+        "D": "COP_R is smaller than COP_HP because T_h > T_c."
+      },
+      "correct_option": "D",
+      "answer": "COP_R is smaller than COP_HP because T_h > T_c.",
+      "explanation": "Since T_h > T_c, the numerator of COP_HP (T_h) is larger than that of COP_R (T_c) while the denominator (T_h – T_c) is the same for both. Therefore, COP_HP > COP_R, making statement D correct. Option B is numerically true but not the best conceptual comparison; the factor is indeed T_h/T_c, but the statement D directly addresses the size relationship. Options A and C are false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "Consider a combined system in which the waste heat Q_w from a heat engine is used to drive a refrigerator. The heat engine absorbs Q_h from a high‑temperature source, produces work W_e, and rejects Q_c to a sink. The refrigerator uses part of the engine’s work W_r (where W_r ≤ W_e) and the waste heat Q_w = Q_c to extract heat Q_c' from a low‑temperature reservoir and reject Q_h' to the same sink. Which diagram correctly shows the net work output and the direction of all heat flows?",
+      "options": {
+        "A": "Heat Q_h → Engine → Work W_e (output) → Net work = W_e – W_r; Engine rejects Q_c, which becomes the input heat for the refrigerator; Refrigerator consumes W_r, extracts Q_c' from the low‑temperature reservoir, and rejects Q_h' to the sink.",
+        "B": "Engine and refrigerator operate independently: Engine produces work W_e and rejects Q_c to the sink; Refrigerator draws its own separate work W_r from an external source and extracts Q_c' from the low‑temperature reservoir, rejecting Q_h' to the sink.",
+        "C": "Refrigerator is placed before the engine: Refrigerator first extracts Q_c' using work W_r, then the engine uses the extracted heat Q_c' as its input heat Q_h.",
+        "D": "Both devices are arranged in parallel, each receiving the same heat Q_h from the source and each rejecting heat to the sink, with no interaction between them."
+      },
+      "correct_option": "A",
+      "answer": "Heat Q_h → Engine → Work W_e (output) → Net work = W_e – W_r; Engine rejects Q_c, which becomes the input heat for the refrigerator; Refrigerator consumes W_r, extracts Q_c' from the low‑temperature reservoir, and rejects Q_h' to the sink.",
+      "explanation": "Option A correctly captures the series coupling: the engine’s waste heat Q_c is fed to the refrigerator, and part of the engine’s work W_e is used by the refrigerator (W_r). The net work delivered to the external world is the difference W_e – W_r. Options B, C, and D describe configurations that do not represent the described combined system and therefore misrepresent the energy flows.",
+      "difficulty": "hard"
+    }
+  ]
+}

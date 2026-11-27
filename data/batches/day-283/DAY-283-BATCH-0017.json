@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0017",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-25",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "In a heat engine, heat Q_H is absorbed from a high‑temperature reservoir, work W is done by the engine, and heat Q_C is rejected to a low‑temperature reservoir. Which of the following best describes the energy flow in this diagram?",
+      "options": {
+        "A": "Q_H → work → Q_C",
+        "B": "Q_H → Q_C → work",
+        "C": "work → Q_H → Q_C",
+        "D": "Q_C → Q_H → work"
+      },
+      "correct_option": "A",
+      "answer": "Q_H → work → Q_C",
+      "explanation": "In a heat engine the sequence is: heat is taken from the hot reservoir (Q_H), part of it is converted into work (W), and the remaining heat (Q_C) is expelled to the cold reservoir. Option A correctly shows this flow. The other options place the processes in the wrong order.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-26",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand heat engine",
+      "question": "A steam turbine receives 500 kJ of heat from a boiler, does 200 kJ of work, and rejects 300 kJ to a condenser. Which statement correctly describes this device?",
+      "options": {
+        "A": "It is a refrigerator that removes heat from the condenser.",
+        "B": "It is a heat engine that converts part of the absorbed heat into work.",
+        "C": "It is a heat pump that delivers heat to the boiler.",
+        "D": "It violates the first law of thermodynamics."
+      },
+      "correct_option": "B",
+      "answer": "It is a heat engine that converts part of the absorbed heat into work.",
+      "explanation": "The device takes in heat (500 kJ), produces work (200 kJ), and expels the remainder (300 kJ). This is the defining operation of a heat engine. Options A and C describe opposite devices, and D is incorrect because energy is conserved (500 = 200 + 300).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-27",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "The efficiency (η) of a heat engine is defined as η = W_out / Q_in. Which of the following statements is correct?",
+      "options": {
+        "A": "η can be greater than 1 if the engine is very good.",
+        "B": "η is always less than or equal to 1.",
+        "C": "η is the ratio of heat rejected to heat absorbed.",
+        "D": "η equals Q_in / W_out."
+      },
+      "correct_option": "B",
+      "answer": "η is always less than or equal to 1.",
+      "explanation": "Since the work output cannot exceed the heat input, the ratio W_out / Q_in is at most 1 (or 100%). Option A is a common misconception; options C and D give incorrect formulas.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-28",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand refrigerator",
+      "question": "A refrigerator operates between a cold interior at 4°C and the surrounding room at 25°C. Which of the following correctly describes the direction of heat and work?",
+      "options": {
+        "A": "Heat is absorbed from the room and work is done on the interior.",
+        "B": "Heat is absorbed from the interior and work is supplied to the system.",
+        "C": "Heat is expelled to the interior and work is extracted from the system.",
+        "D": "No heat flow occurs; only work is transferred."
+      },
+      "correct_option": "B",
+      "answer": "Heat is absorbed from the interior and work is supplied to the system.",
+      "explanation": "A refrigerator extracts heat from its cold interior (the refrigerated space) and, by consuming external work (usually electrical), rejects that heat plus the work input to the warmer surroundings. Option B captures this; the other options invert the heat flow or ignore the work input.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-29",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define coefficient of performance",
+      "question": "Which statement correctly compares the coefficient of performance (COP) of a refrigerator and a heat pump operating between the same two reservoirs?",
+      "options": {
+        "A": "The refrigerator’s COP is always larger than the heat pump’s COP.",
+        "B": "The heat pump’s COP is always larger than the refrigerator’s COP.",
+        "C": "Both have equal COP.",
+        "D": "COP is unrelated to the type of device."
+      },
+      "correct_option": "B",
+      "answer": "The heat pump’s COP is always larger than the refrigerator’s COP.",
+      "explanation": "For the same temperature limits, COP_refrigerator = Q_C / W, while COP_heat‑pump = Q_H / W = (Q_C + W)/W = COP_refrigerator + 1. Hence the heat pump’s COP is always greater by exactly 1. Options A and C are false, and D ignores the definition.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-30",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Analyse basic energy-flow diagrams",
+      "question": "In a Carnot engine, heat Q_H is absorbed from a source at temperature T_H, work W is produced, and heat Q_C is rejected to a sink at temperature T_C. Which of the following correctly represents the energy flow and the relation among these quantities?",
+      "options": {
+        "A": "Q_H = W + Q_C and η = 1 - T_C/T_H",
+        "B": "Q_H = W - Q_C and η = T_H/T_C",
+        "C": "W = Q_H + Q_C and η = T_C/T_H",
+        "D": "Q_C = Q_H - W and η = T_H - T_C"
+      },
+      "correct_option": "A",
+      "answer": "Q_H = W + Q_C and η = 1 - T_C/T_H",
+      "explanation": "Energy conservation gives Q_H = W + Q_C. For a reversible Carnot engine the efficiency is η = 1 - T_C/T_H. Option A states both correctly. Options B, C, and D misuse the energy balance or give incorrect efficiency formulas.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-31",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Understand heat engine",
+      "question": "A heat engine operates by taking heat from a high‑temperature source, converting part of it into work, and discarding the remaining heat to a low‑temperature sink. Which of the following best describes its primary function?",
+      "options": {
+        "A": "To transfer heat from cold to hot using work",
+        "B": "To convert heat completely into work",
+        "C": "To convert part of heat into work while rejecting the rest",
+        "D": "To store heat without any work output"
+      },
+      "correct_option": "C",
+      "answer": "To convert part of heat into work while rejecting the rest",
+      "explanation": "A heat engine never converts all absorbed heat into work; the second law requires some heat to be expelled. Option C captures this essential feature. Option A describes a refrigerator, B is impossible, and D is not a heat engine.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-32",
+      "learning_unit_id": "LU-01209",
+      "learning_point": "Define efficiency",
+      "question": "The efficiency η of a heat engine is defined as the ratio of:",
+      "options": {
+        "A": "Heat rejected to heat absorbed",
+        "B": "Work output to heat absorbed",
+        "C": "Heat absorbed to work output",
+        "D": "Work output to heat rejected"
+      },
+      "correct_option": "B",
+      "answer": "Work output to heat absorbed",
+      "explanation": "Efficiency η = W_out / Q_in, i.e., the useful work obtained per unit of heat taken from the source. Option B states this directly; the other options invert or misidentify the quantities.",
+      "difficulty": "easy"
+    }
+  ]
+}
