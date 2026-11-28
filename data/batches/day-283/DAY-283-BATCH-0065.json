@@ -1,0 +1,78 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "Which of the following statements correctly describes the relationship between the temperature of an ideal gas and the kinetic energy of its molecules?",
+      "options": {
+        "A": "Temperature is directly proportional to the total kinetic energy of all molecules in the sample.",
+        "B": "Temperature is directly proportional to the average translational kinetic energy of a single molecule.",
+        "C": "Temperature is independent of molecular kinetic energy.",
+        "D": "Temperature is proportional to the potential energy of the molecules."
+      },
+      "correct_option": "B",
+      "answer": "Temperature is directly proportional to the average translational kinetic energy of a single molecule.",
+      "explanation": "For an ideal gas, the temperature T is a measure of the average translational kinetic energy per molecule, given by (3/2)kT = (1/2)mv_{rms}^2. Option A is a common misconception: total kinetic energy also depends on the number of molecules, so temperature does not change with the amount of gas at the same T. Options C and D are incorrect because temperature is directly linked to kinetic, not potential, energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "Helium gas at 300 K has an rms speed of about 1.36×10³ m/s. If the temperature is raised to 600 K while the gas remains ideal, what happens to the rms speed?",
+      "options": {
+        "A": "It doubles.",
+        "B": "It increases by a factor of √2.",
+        "C": "It remains the same.",
+        "D": "It halves."
+      },
+      "correct_option": "B",
+      "answer": "It increases by a factor of √2.",
+      "explanation": "The rms speed v_{rms} = √(3kT/m) ∝ √T. Doubling the temperature from 300 K to 600 K therefore multiplies v_{rms} by √(600/300) = √2. Hence the speed increases by a factor of √2, not by a factor of 2. Options A, C, and D contradict the √T dependence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "At 300 K, two ideal gases are kept at the same pressure: hydrogen (M = 2 g·mol⁻¹) and oxygen (M = 32 g·mol⁻¹). Which statement correctly compares their rms molecular speeds?",
+      "options": {
+        "A": "Hydrogen molecules move twice as fast as oxygen molecules.",
+        "B": "Hydrogen molecules move four times as fast as oxygen molecules.",
+        "C": "Hydrogen molecules move eight times as fast as oxygen molecules.",
+        "D": "Both gases have the same rms speed."
+      },
+      "correct_option": "B",
+      "answer": "Hydrogen molecules move four times as fast as oxygen molecules.",
+      "explanation": "For an ideal gas, v_{rms} = √(3RT/M). At the same temperature, v_{rms} ∝ 1/√M. The ratio v_{H2}/v_{O2} = √(M_{O2}/M_{H2}) = √(32/2) = √16 = 4. Therefore hydrogen molecules travel four times faster than oxygen molecules. Options A, C, and D are inconsistent with the 1/√M dependence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "What is the average translational kinetic energy per molecule of an ideal gas at 400 K? (Take Boltzmann constant k = 1.38×10⁻²³ J·K⁻¹)",
+      "options": {
+        "A": "8.28×10⁻²¹ J",
+        "B": "2.07×10⁻²⁰ J",
+        "C": "1.66×10⁻²⁰ J",
+        "D": "5.52×10⁻²¹ J"
+      },
+      "correct_option": "A",
+      "answer": "8.28×10⁻²¹ J",
+      "explanation": "The average translational kinetic energy per molecule is (3/2)kT. Substituting k = 1.38×10⁻²³ J·K⁻¹ and T = 400 K gives (3/2) × 1.38×10⁻²³ × 400 = 1.5 × 5.52×10⁻²¹ = 8.28×10⁻²¹ J. Option A matches this calculation. The other options arise from incorrect multiplication or omission of the 3/2 factor.",
+      "difficulty": "hard"
+    }
+  ]
+}

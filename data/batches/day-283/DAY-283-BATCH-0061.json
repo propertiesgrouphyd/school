@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0061",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "The rms speed of O₂ molecules at 300 K is approximately 484 m/s. What would be the rms speed of the same O₂ molecules if the temperature is raised to 600 K, keeping the pressure constant?",
+      "options": {
+        "A": "484 m/s",
+        "B": "684 m/s",
+        "C": "342 m/s",
+        "D": "968 m/s"
+      },
+      "correct_option": "B",
+      "answer": "684 m/s",
+      "explanation": "For an ideal gas, v_rms ∝ √T. Doubling the temperature from 300 K to 600 K increases the rms speed by a factor of √2 ≈ 1.414. Hence, 484 m/s × 1.414 ≈ 684 m/s. The other options either keep the speed unchanged, decrease it, or increase it by a factor of 2, which is not consistent with the √T dependence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "A sealed container holds equal numbers of molecules of hydrogen (H₂, M = 2 g·mol⁻¹) and carbon dioxide (CO₂, M = 44 g·mol⁻¹) at 300 K. Which gas has the higher rms speed?",
+      "options": {
+        "A": "Hydrogen (H₂)",
+        "B": "Carbon dioxide (CO₂)",
+        "C": "Both have the same rms speed",
+        "D": "It cannot be determined without knowing the pressure"
+      },
+      "correct_option": "A",
+      "answer": "Hydrogen (H₂)",
+      "explanation": "The rms speed v_rms = √(3RT/M). At the same temperature, v_rms is inversely proportional to the square root of the molar mass. Since hydrogen has a much smaller molar mass than CO₂, its rms speed is larger. Pressure does not affect the speed directly in this relation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "Which of the following statements about temperature and kinetic energy of an ideal gas is correct?",
+      "options": {
+        "A": "The temperature of a gas is directly proportional to the total kinetic energy of all its molecules.",
+        "B": "The temperature is directly proportional to the average kinetic energy per molecule.",
+        "C": "Temperature depends on the potential energy of the molecules.",
+        "D": "Temperature is independent of molecular motion."
+      },
+      "correct_option": "B",
+      "answer": "The temperature is directly proportional to the average kinetic energy per molecule.",
+      "explanation": "For an ideal gas, the average translational kinetic energy per molecule is (3/2)k_B T, showing a direct proportionality between temperature and average kinetic energy. Total kinetic energy also depends on the number of molecules, so statement A is misleading. Statements C and D are incorrect because temperature is a measure of kinetic, not potential, energy and is fundamentally linked to molecular motion.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "Reasoning: The rms speed of gas molecules is given by v_rms = √(3RT/M). Which of the following correctly explains why v_rms increases when temperature increases?",
+      "options": {
+        "A": "Because the mass M decreases with temperature.",
+        "B": "Because the gas constant R increases with temperature.",
+        "C": "Because the average kinetic energy, which is proportional to temperature, increases, leading to higher speed.",
+        "D": "Because pressure directly adds to the speed of the molecules."
+      },
+      "correct_option": "C",
+      "answer": "Because the average kinetic energy, which is proportional to temperature, increases, leading to higher speed.",
+      "explanation": "The formula shows v_rms depends on √T; as temperature rises, the average translational kinetic energy (3/2 k_B T) rises, so molecules move faster. Mass M and the universal gas constant R are constants, and pressure does not appear in the rms speed expression.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "Sample X contains O₂ gas at 300 K, while Sample Y contains H₂ gas at 600 K. Which sample has the higher rms speed?",
+      "options": {
+        "A": "Sample X (O₂ at 300 K) has the higher rms speed.",
+        "B": "Sample Y (H₂ at 600 K) has the higher rms speed.",
+        "C": "Both samples have the same rms speed.",
+        "D": "The comparison cannot be made without knowing the pressures."
+      },
+      "correct_option": "B",
+      "answer": "Sample Y (H₂ at 600 K) has the higher rms speed.",
+      "explanation": "Using v_rms = √(3RT/M), calculate the ratio: v_H2/v_O2 = √[(600/0.002)/(300/0.032)] = √(32) ≈ 5.66. Hence, H₂ at 600 K moves much faster than O₂ at 300 K. Pressure does not affect rms speed in this expression, making option D irrelevant.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "The average translational kinetic energy of molecules of an ideal gas is measured to be 6.21 × 10⁻²¹ J. What is the temperature of the gas?",
+      "options": {
+        "A": "150 K",
+        "B": "300 K",
+        "C": "450 K",
+        "D": "600 K"
+      },
+      "correct_option": "B",
+      "answer": "300 K",
+      "explanation": "For an ideal gas, ⟨KE⟩ = (3/2)k_B T. Solving for T gives T = (2/3)(⟨KE⟩/k_B). Substituting ⟨KE⟩ = 6.21×10⁻²¹ J and k_B = 1.38×10⁻²³ J·K⁻¹, T = (2/3)(6.21×10⁻²¹ / 1.38×10⁻²³) ≈ (2/3)(450) ≈ 300 K. The other options correspond to incorrect scaling of the kinetic energy.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "In kinetic theory, the root‑mean‑square (rms) speed of gas molecules is defined as:",
+      "options": {
+        "A": "The arithmetic mean of all molecular speeds.",
+        "B": "The square root of the average of the squares of molecular speeds.",
+        "C": "The most probable speed of the molecules.",
+        "D": "The speed of the fastest molecule in the sample."
+      },
+      "correct_option": "B",
+      "answer": "The square root of the average of the squares of molecular speeds.",
+      "explanation": "The rms speed is mathematically expressed as v_rms = √⟨v²⟩, i.e., the square root of the mean of the squared speeds. It is distinct from the arithmetic mean (A), the most probable speed (C), or the maximum speed (D).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "Which of the following correctly describes how the rms speed of gas molecules depends on temperature (T) and molar mass (M)?",
+      "options": {
+        "A": "v_rms ∝ √(T·M)",
+        "B": "v_rms ∝ √(T/M)",
+        "C": "v_rms ∝ T/M",
+        "D": "v_rms ∝ 1/√(T·M)"
+      },
+      "correct_option": "B",
+      "answer": "v_rms ∝ √(T/M)",
+      "explanation": "From the kinetic theory formula v_rms = √(3RT/M), rms speed is proportional to the square root of temperature divided by molar mass. Option B captures this relationship; the other options invert or multiply the variables incorrectly.",
+      "difficulty": "easy"
+    }
+  ]
+}
