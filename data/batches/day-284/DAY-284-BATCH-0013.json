@@ -1,0 +1,78 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0013",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand degrees of freedom",
+      "question": "Which of the following statements about the degrees of freedom of a diatomic gas molecule at ordinary room temperature is correct?",
+      "options": {
+        "A": "It has only 3 translational degrees of freedom; rotational and vibrational motions do not count.",
+        "B": "It possesses 5 active degrees of freedom – 3 translational and 2 rotational – while the vibrational mode is frozen at room temperature.",
+        "C": "All 6 possible degrees of freedom (3 translational, 2 rotational, 1 vibrational) are equally active at room temperature.",
+        "D": "Degrees of freedom are irrelevant for kinetic theory; only the total kinetic energy matters."
+      },
+      "correct_option": "B",
+      "answer": "It possesses 5 active degrees of freedom – 3 translational and 2 rotational – while the vibrational mode is frozen at room temperature.",
+      "explanation": "A diatomic molecule has 3 translational, 2 rotational and 1 vibrational mode, giving a total of 6 degrees of freedom. At ordinary temperatures the vibrational mode is not excited because its quantum energy gap is large, so only the 5 (3 translational + 2 rotational) are active. Option B states this correctly. Option A ignores rotational motion, Option C incorrectly assumes the vibrational mode is active, and Option D misrepresents the role of degrees of freedom in kinetic theory.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand equipartition theorem at the required level",
+      "question": "According to the equipartition theorem, if the temperature of 1 mole of a monatomic ideal gas is raised from T to 2T, how does its internal energy change?",
+      "options": {
+        "A": "It remains unchanged because internal energy depends only on volume.",
+        "B": "It doubles because internal energy is directly proportional to temperature.",
+        "C": "It triples because each molecule gains an extra degree of freedom at higher temperature.",
+        "D": "It increases by a factor of √2 because kinetic energy varies with the square root of temperature."
+      },
+      "correct_option": "B",
+      "answer": "It doubles because internal energy is directly proportional to temperature.",
+      "explanation": "For a monatomic ideal gas, internal energy U = (3/2) nRT. Since n and R are constants, U is directly proportional to temperature T. Raising T to 2T therefore doubles U. Option B captures this relationship. Option A is false; internal energy depends on temperature, not volume. Option C is incorrect because no new degrees of freedom appear. Option D misapplies the square‑root relationship, which does not pertain to kinetic energy in the equipartition context.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Relate degrees of freedom to internal energy",
+      "question": "At the same temperature T, which of the following correctly compares the internal energies of 1 mole of a monatomic gas and 1 mole of a diatomic gas (with vibrational mode frozen)?",
+      "options": {
+        "A": "Both gases have the same internal energy because internal energy depends only on temperature, not on degrees of freedom.",
+        "B": "The monatomic gas has higher internal energy because it has fewer degrees of freedom, leading to larger energy per mode.",
+        "C": "The diatomic gas has higher internal energy because it possesses more active degrees of freedom (5 versus 3).",
+        "D": "Both gases have zero internal energy at this temperature because kinetic energy is cancelled by potential energy."
+      },
+      "correct_option": "C",
+      "answer": "The diatomic gas has higher internal energy because it possesses more active degrees of freedom (5 versus 3).",
+      "explanation": "Internal energy per mole is U = (f/2) nRT, where f is the number of active degrees of freedom. For a monatomic gas f = 3, giving U = (3/2)RT. For a diatomic gas with vibrational mode frozen, f = 5, giving U = (5/2)RT, which is larger at the same T. Hence option C is correct. Option A ignores the f factor, Option B reverses the relationship, and Option D is physically meaningless.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand degrees of freedom",
+      "question": "A non‑linear polyatomic molecule contains N = 5 atoms. According to classical kinetic theory, how many independent degrees of freedom does it possess?",
+      "options": {
+        "A": "3N = 15, because all motions are translational.",
+        "B": "3N – 3 = 12, after subtracting the three translational motions.",
+        "C": "3N – 6 = 9, after removing three translational and three rotational degrees of freedom.",
+        "D": "3N – 5 = 10, because one vibrational mode remains frozen at room temperature."
+      },
+      "correct_option": "C",
+      "answer": "3N – 6 = 9, after removing three translational and three rotational degrees of freedom.",
+      "explanation": "A molecule with N atoms has 3N total coordinates. For a non‑linear molecule, 3 correspond to overall translation and 3 to overall rotation, leaving 3N‑6 internal degrees of freedom (vibrational modes). With N = 5, this gives 3×5‑6 = 9. Option C states this correctly. Option A neglects rotational and vibrational subtraction, Option B subtracts only translation, and Option D incorrectly assumes only one vibrational mode is frozen.",
+      "difficulty": "hard"
+    }
+  ]
+}
