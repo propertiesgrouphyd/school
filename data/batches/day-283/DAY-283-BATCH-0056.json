@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0056",
+  "mcqs": [
+    {
+      "job_number": 25,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-283-25",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "If the temperature of an ideal gas is increased from 300 K to 600 K, how does the average translational kinetic energy of its molecules change?",
+      "options": {
+        "A": "It remains the same",
+        "B": "It doubles",
+        "C": "It halves",
+        "D": "It quadruples"
+      },
+      "correct_option": "B",
+      "answer": "It doubles",
+      "explanation": "The average translational kinetic energy per molecule is given by (3/2)k_B T. Since it is directly proportional to temperature, doubling the temperature from 300 K to 600 K doubles the average kinetic energy. Options A, C, and D contradict this direct proportionality.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 26,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-283-26",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "Two samples of ideal gases are kept at the same temperature of 300 K. Sample 1 contains helium (He) atoms and Sample 2 contains argon (Ar) atoms. Which sample has the higher root‑mean‑square (rms) speed of its molecules?",
+      "options": {
+        "A": "Helium (He) sample",
+        "B": "Argon (Ar) sample",
+        "C": "Both have the same rms speed",
+        "D": "Rms speed depends only on pressure, not on the gas type"
+      },
+      "correct_option": "A",
+      "answer": "Helium (He) sample",
+      "explanation": "The rms speed v_rms = sqrt(3k_B T / m) (or sqrt(3RT/M)). At a given temperature, lighter molecules (smaller mass m or molar mass M) have higher rms speed. Helium atoms are much lighter than argon atoms, so Sample 1 has the higher rms speed. Options B, C, and D ignore the mass dependence.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 27,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-283-27",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "A student claims that, at the same temperature, molecules of a heavier gas move faster than those of a lighter gas. Which statement is correct?",
+      "options": {
+        "A": "Heavier gas molecules indeed move faster because they have more mass.",
+        "B": "Lighter gas molecules move faster because rms speed is inversely proportional to the square root of molar mass.",
+        "C": "Both gases have the same molecular speed at the same temperature.",
+        "D": "Molecular speed is independent of both temperature and molar mass."
+      },
+      "correct_option": "B",
+      "answer": "Lighter gas molecules move faster because rms speed is inversely proportional to the square root of molar mass.",
+      "explanation": "From v_rms = sqrt(3RT/M), rms speed decreases with increasing molar mass. Therefore, at a given temperature, lighter gases have higher molecular speeds. Option A reverses the relationship, C ignores mass dependence, and D is false because temperature directly affects kinetic energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 28,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-283-28",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "Why does a gas at a higher temperature exert a greater pressure on the walls of its container?",
+      "options": {
+        "A": "Higher temperature increases the average kinetic energy of molecules, leading to more frequent and energetic collisions with the walls.",
+        "B": "Higher temperature reduces the speed of molecules, causing them to push harder on the walls.",
+        "C": "Temperature does not affect molecular motion; pressure depends only on the volume of the container.",
+        "D": "Pressure is solely determined by the number of molecules, not by their kinetic energy."
+      },
+      "correct_option": "A",
+      "answer": "Higher temperature increases the average kinetic energy of molecules, leading to more frequent and energetic collisions with the walls.",
+      "explanation": "Temperature is a measure of the average translational kinetic energy (KE = 3/2 k_B T). When KE increases, molecules strike the container walls more often and with greater force, raising the pressure (P = (2/3)(N/V) ⟨KE⟩). Options B, C, and D misrepresent the role of temperature and kinetic energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 29,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-283-29",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "Which of the following statements is correct regarding the root‑mean‑square speeds of the gases described?\n\n- Hydrogen (H₂) at 300 K\n- Nitrogen (N₂) at 600 K",
+      "options": {
+        "A": "Hydrogen at 300 K has a greater rms speed than nitrogen at 600 K.",
+        "B": "Nitrogen at 600 K has a greater rms speed than hydrogen at 300 K.",
+        "C": "Both gases have the same rms speed because the product T/M is equal.",
+        "D": "The rms speeds cannot be compared without knowing the pressure."
+      },
+      "correct_option": "A",
+      "answer": "Hydrogen at 300 K has a greater rms speed than nitrogen at 600 K.",
+      "explanation": "Rms speed v_rms = sqrt(3RT/M). For H₂ (M≈2 g mol⁻¹) at 300 K, v ∝ sqrt(300/2)=sqrt(150). For N₂ (M≈28 g mol⁻¹) at 600 K, v ∝ sqrt(600/28)=sqrt(21.43). Since sqrt(150) > sqrt(21.43), hydrogen’s rms speed is larger despite the lower temperature. Option B reverses the calculation, C is incorrect because T/M values differ, and D is irrelevant because rms speed depends only on T and M, not pressure.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 30,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-283-30",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "An ideal gas at 400 K has a molar mass of 32 g mol⁻¹. What is the root‑mean‑square speed of its molecules? (Take R = 8.314 J mol⁻¹ K⁻¹.)",
+      "options": {
+        "A": "558 m s⁻¹",
+        "B": "450 m s⁻¹",
+        "C": "620 m s⁻¹",
+        "D": "720 m s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "558 m s⁻¹",
+      "explanation": "v_rms = sqrt(3RT/M). Convert M to kg mol⁻¹: 32 g mol⁻¹ = 0.032 kg mol⁻¹.\n3RT = 3 × 8.314 × 400 = 9 976.8 J mol⁻¹.\n3RT/M = 9 976.8 / 0.032 = 311 775 m² s⁻².\nTaking the square root gives v_rms ≈ 558 m s⁻¹. Options B, C, and D result from incorrect arithmetic or using a wrong factor (e.g., 2RT/M).",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 31,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-283-31",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "How does the average translational kinetic energy of molecules in an ideal gas vary with temperature (in Kelvin)?",
+      "options": {
+        "A": "It is directly proportional to the absolute temperature.",
+        "B": "It is inversely proportional to the absolute temperature.",
+        "C": "It is independent of temperature.",
+        "D": "It varies with the square of the temperature."
+      },
+      "correct_option": "A",
+      "answer": "It is directly proportional to the absolute temperature.",
+      "explanation": "For an ideal gas, ⟨KE⟩ = (3/2)k_B T, showing a linear (direct) relationship with absolute temperature. Option B contradicts the formula, C ignores temperature, and D suggests a quadratic dependence, all of which are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 32,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-283-32",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "Which of the following expressions correctly gives the root‑mean‑square speed of molecules in an ideal gas?",
+      "options": {
+        "A": "v_{rms} = \\sqrt{\\dfrac{3k_{B}T}{m}}",
+        "B": "v_{rms} = \\dfrac{3k_{B}T}{m}",
+        "C": "v_{rms} = \\sqrt{\\dfrac{k_{B}T}{3m}}",
+        "D": "v_{rms} = \\sqrt{\\dfrac{2RT}{M}}"
+      },
+      "correct_option": "A",
+      "answer": "v_{rms} = \\sqrt{\\dfrac{3k_{B}T}{m}}",
+      "explanation": "The rms speed is derived from kinetic theory: v_{rms} = sqrt(3k_B T / m) = sqrt(3RT/M). Option A matches this formula. Option B lacks the square root, C inverts the factor, and D uses 2RT/M, which corresponds to the average speed for a Maxwell‑Boltzmann distribution, not the rms speed.",
+      "difficulty": "easy"
+    }
+  ]
+}

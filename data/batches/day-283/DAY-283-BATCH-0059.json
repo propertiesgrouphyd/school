@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0059",
+  "mcqs": [
+    {
+      "job_number": 49,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-49",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "Consider two samples of ideal gases, each containing the same number of molecules. Sample X is at temperature T₁ = 300 K, and Sample Y is at temperature T₂ = 600 K. Which of the following comparisons is correct regarding their average translational kinetic energies and root‑mean‑square speeds?",
+      "options": {
+        "A": "Both samples have the same average translational kinetic energy, but Sample Y has a higher rms speed.",
+        "B": "Sample Y has twice the average translational kinetic energy of Sample X, and its rms speed is √2 times that of Sample X.",
+        "C": "Sample Y has twice the average translational kinetic energy of Sample X, and its rms speed is twice that of Sample X.",
+        "D": "Both the average translational kinetic energy and rms speed of Sample Y are four times those of Sample X."
+      },
+      "correct_option": "B",
+      "answer": "Sample Y has twice the average translational kinetic energy of Sample X, and its rms speed is √2 times that of Sample X.",
+      "explanation": "For an ideal gas, the average translational kinetic energy per molecule is (3/2)k_B T, so it is directly proportional to temperature. Doubling the temperature from 300 K to 600 K doubles the kinetic energy. The rms speed v_rms = √(3k_B T/m) ∝ √T, so the speed increases by the factor √(600/300) = √2. Hence option B is correct; the other options either misstate the proportionality or give incorrect factors.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 50,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-50",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "The root‑mean‑square speed of helium (M = 4 g·mol⁻¹) at 300 K is approximately 1.36 × 10³ m·s⁻¹. What would be the rms speed of nitrogen (M = 28 g·mol⁻¹) at the same temperature?",
+      "options": {
+        "A": "2.0 × 10³ m·s⁻¹",
+        "B": "1.0 × 10³ m·s⁻¹",
+        "C": "5.1 × 10² m·s⁻¹",
+        "D": "2.5 × 10² m·s⁻¹"
+      },
+      "correct_option": "C",
+      "answer": "5.1 × 10² m·s⁻¹",
+      "explanation": "v_rms ∝ 1/√M. The ratio v_N2 / v_He = √(M_He / M_N2) = √(4/28) ≈ 0.378. Multiplying 0.378 × 1360 m·s⁻¹ gives ≈ 514 m·s⁻¹, which matches option C (5.1 × 10² m·s⁻¹). The other options ignore the inverse square‑root dependence on molar mass.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 51,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-51",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "According to kinetic theory, how does the root‑mean‑square speed of gas molecules change when the temperature is quadrupled while the molar mass remains unchanged?",
+      "options": {
+        "A": "It doubles.",
+        "B": "It quadruples.",
+        "C": "It remains the same.",
+        "D": "It halves."
+      },
+      "correct_option": "A",
+      "answer": "It doubles.",
+      "explanation": "v_rms = √(3RT/M). With M constant, v_rms ∝ √T. If T becomes 4T, √T becomes √(4T) = 2√T, so the speed doubles. Options B, C, and D contradict the √T dependence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 52,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-52",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "Which statement correctly describes the relationship between temperature and the average translational kinetic energy of molecules in an ideal gas?",
+      "options": {
+        "A": "Temperature is directly proportional to the average translational kinetic energy.",
+        "B": "Temperature is inversely proportional to the average translational kinetic energy.",
+        "C": "Temperature is proportional to the square of the average translational kinetic energy.",
+        "D": "Temperature is independent of the average translational kinetic energy."
+      },
+      "correct_option": "A",
+      "answer": "Temperature is directly proportional to the average translational kinetic energy.",
+      "explanation": "For an ideal gas, the average translational kinetic energy per molecule is (3/2)k_B T, showing a direct proportionality with temperature. Therefore option A is correct; the other options misrepresent the relationship.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 53,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-53",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "What is the definition of the root‑mean‑square (rms) speed of gas molecules, and how does it differ from the simple arithmetic mean speed?",
+      "options": {
+        "A": "rms speed is the square root of the average of the squares of molecular speeds; it is always greater than or equal to the arithmetic mean speed.",
+        "B": "rms speed is the average of the squares of molecular speeds; it is always less than the arithmetic mean speed.",
+        "C": "rms speed is the square of the average speed; it is equal to the arithmetic mean speed.",
+        "D": "rms speed is the same as the most probable speed; it is unrelated to the arithmetic mean speed."
+      },
+      "correct_option": "A",
+      "answer": "rms speed is the square root of the average of the squares of molecular speeds; it is always greater than or equal to the arithmetic mean speed.",
+      "explanation": "By definition, v_rms = √⟨v²⟩, where ⟨v²⟩ is the mean of the squared speeds. Because of the Cauchy–Schwarz inequality, √⟨v²⟩ ≥ ⟨v⟩, so rms speed is never less than the arithmetic mean speed. Options B, C, and D give incorrect definitions or relationships.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 54,
+      "question_type": "application",
+      "mcq_id": "MCQ-54",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "A sample of oxygen gas (M = 32 g·mol⁻¹) has a root‑mean‑square speed of 480 m·s⁻¹ at 300 K. What would be its rms speed at 600 K, assuming the gas behaves ideally?",
+      "options": {
+        "A": "480 m·s⁻¹",
+        "B": "679 m·s⁻¹",
+        "C": "960 m·s⁻¹",
+        "D": "340 m·s⁻¹"
+      },
+      "correct_option": "B",
+      "answer": "679 m·s⁻¹",
+      "explanation": "v_rms ∝ √T (M unchanged). The temperature doubles, so the factor is √(600/300) = √2 ≈ 1.414. Multiplying 480 m·s⁻¹ by 1.414 gives ≈ 679 m·s⁻¹. Options A, C, and D do not reflect the √T dependence.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 55,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-55",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "If 2.0 mol of an ideal gas at 27°C has an average translational kinetic energy of 6.2 × 10⁻²¹ J per molecule, what is the temperature of the gas in Kelvin?",
+      "options": {
+        "A": "150 K",
+        "B": "300 K",
+        "C": "450 K",
+        "D": "600 K"
+      },
+      "correct_option": "B",
+      "answer": "300 K",
+      "explanation": "Average translational kinetic energy per molecule = (3/2)k_B T. Solving for T: T = (2/3)(E/k_B) = (2/3)(6.2×10⁻²¹ J / 1.38×10⁻²³ J·K⁻¹) ≈ 300 K. Hence option B is correct; the other temperatures are inconsistent with the given energy.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 56,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-56",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "In a sealed container, two gases, hydrogen (M = 2 g·mol⁻¹) and carbon dioxide (M = 44 g·mol⁻¹), are at the same temperature of 350 K. Which gas will diffuse across a small opening faster, and why?",
+      "options": {
+        "A": "Hydrogen, because its rms speed is higher due to lower molar mass.",
+        "B": "Carbon dioxide, because its rms speed is higher due to higher molar mass.",
+        "C": "Both diffuse at the same rate because they are at the same temperature.",
+        "D": "Neither diffuses because diffusion requires a pressure gradient."
+      },
+      "correct_option": "A",
+      "answer": "Hydrogen, because its rms speed is higher due to lower molar mass.",
+      "explanation": "rms speed v_rms = √(3RT/M). At equal temperature, a smaller molar mass gives a larger v_rms. Hydrogen’s molar mass (2 g·mol⁻¹) is far lower than CO₂’s (44 g·mol⁻¹), so hydrogen molecules move faster and diffuse more quickly. Options B, C, and D ignore the mass dependence or the fact that diffusion can occur even without a pressure gradient due to random molecular motion.",
+      "difficulty": "medium"
+    }
+  ]
+}

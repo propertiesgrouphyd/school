@@ -1,0 +1,150 @@
+{
+  "day": 283,
+  "batch_id": "DAY-283-BATCH-0060",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "Which of the following statements correctly describes the relationship between molecular speed, temperature, and molar mass for gases at the same temperature?",
+      "options": {
+        "A": "At a given temperature, heavier gas molecules move faster than lighter ones.",
+        "B": "At a given temperature, lighter gas molecules move faster than heavier ones.",
+        "C": "Molecular speed is independent of molar mass at a given temperature.",
+        "D": "Molecular speed depends only on pressure, not on molar mass."
+      },
+      "correct_option": "B",
+      "answer": "At a given temperature, lighter gas molecules move faster than heavier ones.",
+      "explanation": "The root‑mean‑square speed v_rms = sqrt(3RT/M) shows that speed is inversely proportional to the square root of molar mass. Hence, at the same temperature, lighter molecules (smaller M) have higher speeds. Option A is opposite, C ignores mass dependence, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "If the temperature of an ideal gas is increased from 300 K to 450 K, how does the average translational kinetic energy of its molecules change?",
+      "options": {
+        "A": "It remains the same because kinetic energy does not depend on temperature.",
+        "B": "It increases by a factor of 1.5.",
+        "C": "It decreases because temperature increase reduces kinetic energy.",
+        "D": "It doubles."
+      },
+      "correct_option": "B",
+      "answer": "It increases by a factor of 1.5.",
+      "explanation": "For an ideal gas, average translational kinetic energy per molecule is (3/2)k_B T, directly proportional to temperature. Raising T from 300 K to 450 K multiplies T by 450/300 = 1.5, so kinetic energy also increases by 1.5 times. Options A and C contradict the proportionality, and D would require temperature to double.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "For a sample of ideal gas at temperature T, which of the following correctly orders the most probable speed (v_mp), the average speed (v_avg), and the root‑mean‑square speed (v_rms)?",
+      "options": {
+        "A": "v_rms < v_avg < v_mp",
+        "B": "v_mp < v_avg < v_rms",
+        "C": "v_avg < v_mp < v_rms",
+        "D": "v_rms < v_mp < v_avg"
+      },
+      "correct_option": "B",
+      "answer": "v_mp < v_avg < v_rms",
+      "explanation": "For the Maxwell‑Boltzmann distribution, the most probable speed is the peak of the distribution, the average speed is slightly higher, and the rms speed is the highest because it involves squaring the speeds before averaging. Hence v_mp < v_avg < v_rms. The other orderings are inconsistent with the statistical definitions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "The molar mass of nitrogen (N₂) is 28 g mol⁻¹. What is the root‑mean‑square speed of N₂ molecules at 300 K? (Take R = 8.314 J mol⁻¹ K⁻¹.)",
+      "options": {
+        "A": "517 m s⁻¹",
+        "B": "300 m s⁻¹",
+        "C": "720 m s⁻¹",
+        "D": "400 m s⁻¹"
+      },
+      "correct_option": "A",
+      "answer": "517 m s⁻¹",
+      "explanation": "v_rms = sqrt(3RT/M). Convert M to kg: 28 g mol⁻¹ = 0.028 kg mol⁻¹. Compute 3RT = 3 × 8.314 × 300 = 7482.6 J mol⁻¹. Divide by M: 7482.6 / 0.028 ≈ 267,236. sqrt gives ≈ 517 m s⁻¹. The other options are off by significant margins.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "In kinetic theory, temperature of an ideal gas is directly proportional to which of the following?",
+      "options": {
+        "A": "Average translational kinetic energy of its molecules",
+        "B": "Average potential energy of its molecules",
+        "C": "Total number of molecules",
+        "D": "Volume of the container"
+      },
+      "correct_option": "A",
+      "answer": "Average translational kinetic energy of its molecules",
+      "explanation": "The kinetic theory relates temperature T to the average translational kinetic energy per molecule by (3/2)k_B T. Potential energy is negligible for ideal gases, and the number of molecules or volume affect pressure, not temperature directly.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Understand root-mean-square speed",
+      "question": "What does the root‑mean‑square (rms) speed of gas molecules represent?",
+      "options": {
+        "A": "The arithmetic mean of all molecular speeds",
+        "B": "The square root of the average of the squares of molecular speeds",
+        "C": "The most frequently occurring molecular speed",
+        "D": "The speed of the fastest molecule in the sample"
+      },
+      "correct_option": "B",
+      "answer": "The square root of the average of the squares of molecular speeds",
+      "explanation": "By definition, v_rms = sqrt(⟨v²⟩), i.e., take each molecular speed, square it, average over all molecules, then take the square root. It is not a simple arithmetic mean (A), nor the mode (C), nor the maximum speed (D).",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate molecular speed to temperature and molar mass",
+      "question": "Which statement correctly distinguishes molecular speed from molecular kinetic energy?",
+      "options": {
+        "A": "Speed is a scalar quantity while kinetic energy is a vector quantity.",
+        "B": "Speed depends on mass, whereas kinetic energy depends only on temperature.",
+        "C": "Speed is the magnitude of velocity; kinetic energy is proportional to the square of speed and also depends on mass.",
+        "D": "Speed and kinetic energy are numerically equal for all molecules."
+      },
+      "correct_option": "C",
+      "answer": "Speed is the magnitude of velocity; kinetic energy is proportional to the square of speed and also depends on mass.",
+      "explanation": "Speed (|v|) is a scalar magnitude of velocity. Kinetic energy = (1/2) m v², so it depends on both the square of speed and the mass of the molecule. Option A is wrong because kinetic energy is also a scalar. Option B ignores the mass factor in kinetic energy. Option D is false.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01212",
+      "learning_point": "Relate temperature to molecular kinetic energy",
+      "question": "A sample of ideal gas is heated from 300 K to 600 K. By what factor does its root‑mean‑square speed change?",
+      "options": {
+        "A": "It remains unchanged",
+        "B": "Increases by a factor of 2",
+        "C": "Increases by a factor of √2",
+        "D": "Decreases by a factor of √2"
+      },
+      "correct_option": "C",
+      "answer": "Increases by a factor of √2",
+      "explanation": "v_rms ∝ √T. Doubling the temperature from 300 K to 600 K gives √(600/300) = √2 ≈ 1.414. Hence the rms speed increases by √2. Options A and D are opposite to the temperature increase, and B would require linear dependence on T, which is incorrect.",
+      "difficulty": "easy"
+    }
+  ]
+}
