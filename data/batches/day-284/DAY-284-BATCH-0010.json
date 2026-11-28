@@ -1,0 +1,150 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0010",
+  "mcqs": [
+    {
+      "job_number": 73,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-73",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand degrees of freedom",
+      "question": "In the kinetic theory of gases, which of the following best defines the \"degrees of freedom\" of a molecule?",
+      "options": {
+        "A": "Number of independent ways in which the molecule can store energy",
+        "B": "Number of molecules present in a unit volume of the gas",
+        "C": "Number of collisions a molecule undergoes per second",
+        "D": "The temperature of the gas"
+      },
+      "correct_option": "A",
+      "answer": "Number of independent ways in which the molecule can store energy",
+      "explanation": "Degrees of freedom are the independent modes of motion (translational, rotational, vibrational) that can store kinetic energy. Option B describes concentration, C describes collision frequency, and D is a thermodynamic variable, not a degree of freedom.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 74,
+      "question_type": "application",
+      "mcq_id": "MCQ-74",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand equipartition theorem at the required level",
+      "question": "According to the equipartition theorem, what is the average kinetic energy associated with each translational degree of freedom of a molecule at temperature T?",
+      "options": {
+        "A": "(1/2)k_B T",
+        "B": "k_B T",
+        "C": "(3/2)k_B T",
+        "D": "2k_B T"
+      },
+      "correct_option": "A",
+      "answer": "(1/2)k_B T",
+      "explanation": "The equipartition theorem states that each quadratic degree of freedom contributes (1/2)k_B T to the average energy. Translational motion has three such degrees, each giving (1/2)k_B T. Options B, C, D assign incorrect multiples of k_B T.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 75,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-75",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Relate degrees of freedom to internal energy",
+      "question": "A diatomic gas molecule at moderate temperature has 5 active degrees of freedom (3 translational and 2 rotational). Using the equipartition theorem, what is the molar internal energy (U) of 1 mole of this gas at temperature T?",
+      "options": {
+        "A": "(5/2)RT",
+        "B": "(3/2)RT",
+        "C": "3RT",
+        "D": "(7/2)RT"
+      },
+      "correct_option": "A",
+      "answer": "(5/2)RT",
+      "explanation": "Each degree of freedom contributes (1/2)RT per mole. With 5 degrees, U = 5 × (1/2)RT = (5/2)RT. Options B, C, D correspond to fewer or extra contributions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 76,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-76",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand degrees of freedom",
+      "question": "A sealed container holds a gas of linear molecules at 300 K. Which statement about the degrees of freedom of the molecules is correct?",
+      "options": {
+        "A": "They have only translational degrees of freedom.",
+        "B": "They have three translational and two rotational degrees of freedom, while vibrational modes are frozen at this temperature.",
+        "C": "They have three translational, two rotational, and one vibrational degree active.",
+        "D": "They have six translational degrees of freedom."
+      },
+      "correct_option": "B",
+      "answer": "They have three translational and two rotational degrees of freedom, while vibrational modes are frozen at this temperature.",
+      "explanation": "Linear (diatomic) molecules possess 3 translational and 2 rotational degrees. At 300 K vibrational modes are usually not excited, so they are effectively frozen. Options A, C, D misstate the count or type of degrees.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 77,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-77",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand equipartition theorem at the required level",
+      "question": "Which of the following statements reflects a common misconception about the equipartition theorem?",
+      "options": {
+        "A": "All gases, irrespective of molecular complexity, have internal energy (3/2)RT per mole at any temperature.",
+        "B": "The theorem applies only to translational motion of molecules.",
+        "C": "Vibrational modes contribute (1/2)RT per degree at all temperatures.",
+        "D": "Degrees of freedom are the same for monatomic and polyatomic gases."
+      },
+      "correct_option": "A",
+      "answer": "All gases, irrespective of molecular complexity, have internal energy (3/2)RT per mole at any temperature.",
+      "explanation": "The equipartition theorem gives (f/2)RT, where f depends on molecular structure. Monatomic gases have f=3, diatomic f=5 (or more if vibrations are active). Hence statement A is a misconception. Options B, C, D are also incorrect but A is the classic oversimplified belief the question targets.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 78,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-78",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Relate degrees of freedom to internal energy",
+      "question": "If a gas molecule has f degrees of freedom, how does its contribution to the internal energy of 1 mole of gas at temperature T relate to f?",
+      "options": {
+        "A": "U = f·k_B·T",
+        "B": "U = (f/2)·R·T",
+        "C": "U = (f/2)·k_B·T",
+        "D": "U = f·R·T"
+      },
+      "correct_option": "B",
+      "answer": "U = (f/2)·R·T",
+      "explanation": "For one mole, each degree of freedom contributes (1/2)RT, so total internal energy U = (f/2)RT. Option A uses Boltzmann constant instead of gas constant, C mixes constants incorrectly, and D omits the 1/2 factor.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 79,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-79",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand degrees of freedom",
+      "question": "Compare monatomic, diatomic, and nonlinear polyatomic gases. Which option correctly matches the total number of degrees of freedom (including translational, rotational, and vibrational at room temperature where vibrational modes are frozen) with the expression for molar internal energy?",
+      "options": {
+        "A": "Monatomic – 3, U = (3/2)RT; Diatomic – 5, U = (5/2)RT; Nonlinear polyatomic – 6, U = (6/2)RT",
+        "B": "Monatomic – 3, U = (3/2)RT; Diatomic – 5, U = (3/2)RT; Nonlinear polyatomic – 6, U = (6/2)RT",
+        "C": "Monatomic – 3, U = (3/2)RT; Diatomic – 5, U = (5/2)RT; Nonlinear polyatomic – 6, U = (3)RT",
+        "D": "Monatomic – 3, U = (3/2)RT; Diatomic – 5, U = (5/2)RT; Nonlinear polyatomic – 6, U = (3)RT"
+      },
+      "correct_option": "D",
+      "answer": "Monatomic – 3, U = (3/2)RT; Diatomic – 5, U = (5/2)RT; Nonlinear polyatomic – 6, U = (3)RT",
+      "explanation": "Monatomic gases have 3 translational degrees → (3/2)RT. Linear diatomic gases have 3 translational + 2 rotational =5 → (5/2)RT (vibrations frozen). Nonlinear polyatomic gases have 3 translational + 3 rotational =6 → (6/2)RT = 3RT. Option D reflects these values; the other options contain mismatched energy expressions.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 80,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-80",
+      "learning_unit_id": "LU-01213",
+      "learning_point": "Understand equipartition theorem at the required level",
+      "question": "A mixture contains 1 mole of a monatomic ideal gas and 1 mole of a diatomic ideal gas at temperature T. Assuming vibrational modes are frozen, what is the total internal energy of the mixture?",
+      "options": {
+        "A": "4RT",
+        "B": "3RT",
+        "C": "(7/2)RT",
+        "D": "(5/2)RT"
+      },
+      "correct_option": "A",
+      "answer": "4RT",
+      "explanation": "Monatomic gas: f=3 → U₁ = (3/2)RT. Diatomic gas: f=5 → U₂ = (5/2)RT. Total U = (3/2 + 5/2)RT = (8/2)RT = 4RT. Options B, C, D give lower values and ignore contributions from one of the gases.",
+      "difficulty": "hard"
+    }
+  ]
+}
