@@ -1,0 +1,78 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0065",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-97",
+      "learning_unit_id": "LU-01217",
+      "learning_point": "Derive time-period relation at the required level",
+      "question": "In deriving the time period T = 2π√(L/g) for a simple pendulum, which of the following statements is a misconception?",
+      "options": {
+        "A": "The restoring torque is approximated as -mgL sinθ ≈ -mgL θ for small angles.",
+        "B": "The angular displacement θ is measured in radians.",
+        "C": "The period is independent of the mass of the bob.",
+        "D": "The approximation sinθ ≈ θ is valid for any amplitude of oscillation."
+      },
+      "correct_option": "D",
+      "answer": "The approximation sinθ ≈ θ is valid for any amplitude of oscillation.",
+      "explanation": "Option D is a misconception because the small‑angle approximation sinθ ≈ θ holds only for small amplitudes (typically θ < 10°). For larger angles the approximation fails, leading to an incorrect period formula. Options A, B and C are correct statements used in the proper derivation.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-98",
+      "learning_unit_id": "LU-01217",
+      "learning_point": "Identify dependence on length and gravitational acceleration",
+      "question": "A simple pendulum of length L is placed in a region where the gravitational acceleration is g. If the length is doubled and the local g is reduced to half its original value, how does the period change compared to its original period T0 = 2π√(L/g)?",
+      "options": {
+        "A": "It becomes √2 times the original period.",
+        "B": "It becomes twice the original period.",
+        "C": "It remains the same.",
+        "D": "It becomes half the original period."
+      },
+      "correct_option": "B",
+      "answer": "It becomes twice the original period.",
+      "explanation": "The period T → 2π√(L/g). New period T' = 2π√((2L)/(0.5g)) = 2π√(4L/g) = 2·2π√(L/g) = 2T0. Hence the period doubles. Options A, C, D give incorrect scaling factors.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-99",
+      "learning_unit_id": "LU-01217",
+      "learning_point": "Understand independence from bob mass",
+      "question": "Two simple pendulums have identical lengths but bob masses of 50 g and 200 g respectively. Which statement correctly describes their oscillatory behavior for small amplitudes?",
+      "options": {
+        "A": "The heavier bob will have a longer period than the lighter bob.",
+        "B": "Both pendulums will have the same period.",
+        "C": "The lighter bob will swing faster because its mass is smaller.",
+        "D": "The period depends on the square root of the mass, so the heavier pendulum has a period √4 = 2 times longer."
+      },
+      "correct_option": "B",
+      "answer": "Both pendulums will have the same period.",
+      "explanation": "For a simple pendulum undergoing small oscillations, the period T = 2π√(L/g) depends only on length L and gravitational acceleration g; it is independent of the bob's mass. Therefore both pendulums have identical periods. Options A, C, and D incorrectly introduce mass dependence.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-100",
+      "learning_unit_id": "LU-01217",
+      "learning_point": "Solve pendulum problems",
+      "question": "A simple pendulum of length 0.5 m has a period of T on Earth where g = 9.8 m/s². The same pendulum is taken to a planet where the gravitational acceleration is 1.5 times that on Earth. What is its period on the new planet expressed in terms of T?",
+      "options": {
+        "A": "T × √(2/3)",
+        "B": "T × √(3/2)",
+        "C": "T ÷ 1.5",
+        "D": "T × (2/3)"
+      },
+      "correct_option": "A",
+      "answer": "T × √(2/3)",
+      "explanation": "Period T → 2π√(L/g). On the new planet g' = 1.5g, so T' = 2π√(L/g') = 2π√(L/(1.5g)) = T √(g/g') = T √(1/1.5) = T √(2/3). Hence option A is correct. Options B, C, and D use incorrect scaling of the period with g.",
+      "difficulty": "hard"
+    }
+  ]
+}
