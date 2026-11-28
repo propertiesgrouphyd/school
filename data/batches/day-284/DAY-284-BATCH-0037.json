@@ -1,0 +1,150 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0037",
+  "mcqs": [
+    {
+      "job_number": 81,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-81",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "Which of the following equations correctly represents the displacement x of a particle undergoing simple harmonic motion with amplitude A, angular frequency ω and phase constant φ as a function of time t?",
+      "options": {
+        "A": "x = A \\sin(\\omega t + \\phi)",
+        "B": "x = A \\cos(\\omega t)",
+        "C": "x = A e^{\\omega t}",
+        "D": "x = \\frac{A}{\\omega t}"
+      },
+      "correct_option": "A",
+      "answer": "x = A \\sin(\\omega t + \\phi)",
+      "explanation": "In SHM the displacement is given by x = A sin(ωt + φ) or an equivalent cosine form. Option A includes the correct sinusoidal dependence with amplitude, angular frequency and phase. Option B lacks the phase term (though it can represent a special case when φ = 0), Option C is an exponential, not periodic, and Option D is not dimensionally correct. Hence A is the correct SHM equation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 82,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-82",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "Which of the following relations correctly connects the acceleration a of a particle to its instantaneous displacement x in simple harmonic motion?",
+      "options": {
+        "A": "a = -\\omega^{2} x",
+        "B": "a = -\\omega x",
+        "C": "a = -\\frac{x}{\\omega^{2}}",
+        "D": "a = \\frac{\\omega^{2}}{x}"
+      },
+      "correct_option": "A",
+      "answer": "a = -\\omega^{2} x",
+      "explanation": "For SHM the restoring acceleration is directly proportional to the negative of the displacement: a = -ω²x. This expresses that the acceleration always points toward the equilibrium position. Options B, C and D do not have the correct proportionality and dimensions, so they are incorrect.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 83,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-83",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Understand phase",
+      "question": "In the context of simple harmonic motion, the term \"phase\" refers to:",
+      "options": {
+        "A": "The angle that determines the particle’s position at a given instant",
+        "B": "The maximum displacement from equilibrium",
+        "C": "The frequency of the oscillation",
+        "D": "The mass of the oscillator"
+      },
+      "correct_option": "A",
+      "answer": "The angle that determines the particle’s position at a given instant",
+      "explanation": "Phase (often denoted by φ) is the angular argument inside the sine or cosine function that sets the initial condition of the motion, i.e., where the particle is at t = 0. It is not the amplitude, frequency, or mass, which are separate quantities.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 84,
+      "question_type": "application",
+      "mcq_id": "MCQ-84",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Interpret SHM graphs",
+      "question": "The displacement‑time graph of a particle in simple harmonic motion is a sine curve. Which of the following best describes the shape of its velocity‑time graph?",
+      "options": {
+        "A": "A cosine curve of the same amplitude, shifted by 90°",
+        "B": "A sine curve with double the frequency",
+        "C": "A straight line through the origin",
+        "D": "A parabolic curve"
+      },
+      "correct_option": "A",
+      "answer": "A cosine curve of the same amplitude, shifted by 90°",
+      "explanation": "Velocity is the time derivative of displacement. Differentiating a sine function gives a cosine function (v = ωA cos(ωt + φ)), which has the same amplitude ωA and is shifted by 90° relative to the displacement graph. The other options do not follow from differentiation.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 85,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-85",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Define simple harmonic motion",
+      "question": "Which of the following motions is a textbook example of simple harmonic motion?",
+      "options": {
+        "A": "A mass‑spring system executing small‑amplitude oscillations",
+        "B": "A projectile moving under gravity",
+        "C": "Uniform circular motion of a particle",
+        "D": "A body in free fall"
+      },
+      "correct_option": "A",
+      "answer": "A mass‑spring system executing small‑amplitude oscillations",
+      "explanation": "Simple harmonic motion occurs when the restoring force is proportional to displacement and directed toward equilibrium. A mass attached to a spring obeys F = –kx, satisfying this condition. Projectile motion, uniform circular motion, and free fall do not meet the SHM criteria.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 86,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-86",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Identify restoring force",
+      "question": "A 0.2 kg mass attached to a horizontal spring (k = 50 N m⁻¹) is pulled 5 cm to the right and released from rest. At the instant of release, the restoring force acting on the mass is:",
+      "options": {
+        "A": "Directed to the left with magnitude 2.5 N",
+        "B": "Directed to the right with magnitude 2.5 N",
+        "C": "Zero because the velocity is zero",
+        "D": "Directed upward and independent of displacement"
+      },
+      "correct_option": "A",
+      "answer": "Directed to the left with magnitude 2.5 N",
+      "explanation": "The restoring force of a spring is F = –kx. Here x = 0.05 m, so F = –(50)(0.05) = –2.5 N; the negative sign indicates the force acts opposite to the displacement, i.e., to the left. The force is non‑zero even though the velocity is zero at release. Options B, C and D are therefore incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 87,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-87",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "A student writes the displacement of a particle in SHM as x = A sin(ωt) and claims this correctly describes a motion that starts from maximum displacement at t = 0. Which statement is correct?",
+      "options": {
+        "A": "The expression is correct because the phase constant is zero",
+        "B": "The expression is incorrect because the particle would start from the equilibrium position",
+        "C": "The expression is correct only if the amplitude A is zero",
+        "D": "The expression is incorrect because ω must be squared"
+      },
+      "correct_option": "B",
+      "answer": "The expression is incorrect because the particle would start from the equilibrium position",
+      "explanation": "For x = A sin(ωt), at t = 0 the sine term is zero, giving x = 0, i.e., the particle is at equilibrium, not at maximum displacement. To start from maximum displacement the cosine form x = A cos(ωt) or a sine with a phase shift (π/2) is required. Hence option B identifies the misconception.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 88,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-88",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "A particle undergoing simple harmonic motion has angular frequency ω = 5 rad s⁻¹. At an instant its displacement from equilibrium is x = 0.10 m. What is the magnitude of its acceleration at that instant?",
+      "options": {
+        "A": "0.5 m s⁻²",
+        "B": "2.5 m s⁻²",
+        "C": "5.0 m s⁻²",
+        "D": "25 m s⁻²"
+      },
+      "correct_option": "B",
+      "answer": "2.5 m s⁻²",
+      "explanation": "In SHM, a = –ω²x. The magnitude is |a| = ω²|x| = (5 rad s⁻¹)² × 0.10 m = 25 × 0.10 = 2.5 m s⁻². Option B matches this calculation; the other options result from incorrect arithmetic or omitting the square on ω.",
+      "difficulty": "medium"
+    }
+  ]
+}

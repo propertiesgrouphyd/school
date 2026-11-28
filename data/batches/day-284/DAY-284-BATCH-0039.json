@@ -1,0 +1,78 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0039",
+  "mcqs": [
+    {
+      "job_number": 97,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-284-97",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Define simple harmonic motion",
+      "question": "Which of the following statements correctly defines simple harmonic motion (SHM)?",
+      "options": {
+        "A": "A motion in which the restoring acceleration is proportional to the displacement and directed toward the equilibrium position.",
+        "B": "A motion in which the velocity of the particle remains constant throughout the motion.",
+        "C": "A motion in which the acceleration is directly proportional to the velocity of the particle.",
+        "D": "A motion in which the displacement increases linearly with time."
+      },
+      "correct_option": "A",
+      "answer": "A motion in which the restoring acceleration is proportional to the displacement and directed toward the equilibrium position.",
+      "explanation": "In SHM, the defining feature is that the restoring force (and therefore acceleration) is proportional to the displacement from equilibrium and always points toward the equilibrium position (F = -kx, a = -ω²x). Options B, C, and D describe unrelated types of motion and are common misconceptions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 98,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-284-98",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Identify restoring force",
+      "question": "A block of mass m is attached to a horizontal spring of force constant k and is set into simple harmonic motion on a frictionless surface. Which force acts as the restoring force that brings the block back toward the equilibrium position?",
+      "options": {
+        "A": "The gravitational force acting on the block.",
+        "B": "The elastic force exerted by the spring.",
+        "C": "The normal reaction from the surface.",
+        "D": "An externally applied periodic force."
+      },
+      "correct_option": "B",
+      "answer": "The elastic force exerted by the spring.",
+      "explanation": "In a mass‑spring system, the spring exerts an elastic force given by F = -kx, which is opposite to the displacement and thus serves as the restoring force. Gravity and the normal force balance each other and do not depend on the displacement, while an external periodic force would drive the system, not restore it.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 99,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-284-99",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "Which of the following expressions correctly represents the displacement x of a particle executing simple harmonic motion as a function of time t?",
+      "options": {
+        "A": "x = A \\cos(\\omega t + \\phi)",
+        "B": "x = A \\sin(\\omega t) + vt",
+        "C": "x = \\frac{1}{2} a t^2 + v_0 t + x_0",
+        "D": "x = A e^{\\omega t}"
+      },
+      "correct_option": "A",
+      "answer": "x = A \\cos(\\omega t + \\phi)",
+      "explanation": "The standard SHM displacement equation is x = A cos(ωt + φ) (or equivalently A sin(ωt + φ)), where A is amplitude, ω angular frequency, and φ phase constant. Option B mixes SHM with uniform motion, C is the kinematic equation for constant acceleration, and D is an exponential growth, none of which describe SHM.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 100,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-284-100",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "A particle executes simple harmonic motion with amplitude A and angular frequency ω. When its displacement from equilibrium is x = \\frac{A}{2}, what is the magnitude of its acceleration expressed as a fraction of the maximum acceleration a_{max}?",
+      "options": {
+        "A": "\\frac{1}{2} a_{max}",
+        "B": "\\frac{\\sqrt{3}}{2} a_{max}",
+        "C": "\\frac{3}{4} a_{max}",
+        "D": "\\frac{1}{4} a_{max}"
+      },
+      "correct_option": "A",
+      "answer": "\\frac{1}{2} a_{max}",
+      "explanation": "In SHM, acceleration a = -ω^2 x and the maximum acceleration a_{max} = ω^2 A (occurs at x = A). Substituting x = A/2 gives |a| = ω^2 (A/2) = (1/2) ω^2 A = (1/2) a_{max}. Hence the correct fraction is 1/2. The other options arise from incorrect algebraic manipulations.",
+      "difficulty": "hard"
+    }
+  ]
+}
