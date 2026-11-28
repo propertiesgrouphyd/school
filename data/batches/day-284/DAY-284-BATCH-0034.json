@@ -1,0 +1,150 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0034",
+  "mcqs": [
+    {
+      "job_number": 57,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-57",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "Which of the following statements about the simple harmonic motion equation \\(x = A\\cos(\\omega t + \\phi)\\) is incorrect?",
+      "options": {
+        "A": "The amplitude \\(A\\) represents the maximum displacement from equilibrium.",
+        "B": "The angular frequency \\(\\omega\\) determines how fast the system oscillates.",
+        "C": "The equation implies that acceleration is proportional to displacement and opposite in direction.",
+        "D": "The period \\(T\\) is given by \\(T = \\frac{2\\pi}{\\omega^{2}}\\)."
+      },
+      "correct_option": "D",
+      "answer": "The period \\(T\\) is given by \\(T = \\frac{2\\pi}{\\omega^{2}}\\).",
+      "explanation": "For simple harmonic motion the period is \\(T = \\frac{2\\pi}{\\omega}\\). Option D uses \\(\\omega^{2}\\) in the denominator, which is wrong. Options A, B, and C correctly describe the amplitude, angular frequency, and the acceleration‑displacement relationship.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 58,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-58",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "A particle executes SHM with displacement \\(x = A\\cos(\\omega t)\\). Which relationship correctly connects its maximum speed \\(v_{\\max}\\) and maximum acceleration \\(a_{\\max}\\)?",
+      "options": {
+        "A": "\\(v_{\\max} = \\omega A\\)",
+        "B": "\\(a_{\\max} = \\omega^{2} A\\)",
+        "C": "\\(v_{\\max} = \\dfrac{a_{\\max}}{\\omega}\\)",
+        "D": "\\(v_{\\max} = \\dfrac{a_{\\max}}{\\omega^{2}}\\)"
+      },
+      "correct_option": "C",
+      "answer": "\\(v_{\\max} = \\dfrac{a_{\\max}}{\\omega}\\)",
+      "explanation": "From \\(x = A\\cos(\\omega t)\\) we get \\(v = -A\\omega\\sin(\\omega t)\\) so \\(v_{\\max}=A\\omega\\). Acceleration is \\(a = -A\\omega^{2}\\cos(\\omega t)\\) giving \\(a_{\\max}=A\\omega^{2}\\). Eliminating \\(A\\) yields \\(v_{\\max}=a_{\\max}/\\omega\\). Options A and B are individual formulas, while D is dimensionally incorrect.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 59,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-59",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Understand phase",
+      "question": "Two particles execute SHM with the same amplitude \\(A\\) and angular frequency \\(\\omega\\) but a phase difference of \\(\\frac{\\pi}{2}\\). Which statement correctly describes their motions?",
+      "options": {
+        "A": "When one particle is at its maximum displacement, the other is also at its maximum displacement.",
+        "B": "When one particle passes through the equilibrium position, the other is at its maximum displacement.",
+        "C": "Their phases differ by 180°, so they are always opposite in displacement.",
+        "D": "Both particles have identical velocity at every instant."
+      },
+      "correct_option": "B",
+      "answer": "When one particle passes through the equilibrium position, the other is at its maximum displacement.",
+      "explanation": "A phase difference of \\(\\frac{\\pi}{2}\\) means the motions are quarter‑cycle apart: \\(x_{1}=A\\cos(\\omega t)\\) and \\(x_{2}=A\\cos(\\omega t+\\frac{\\pi}{2})=-A\\sin(\\omega t)\\). At the instant \\(x_{1}=0\\) (equilibrium), \\(x_{2}=\\pm A\\) (maximum displacement). Options A, C, and D contradict the quarter‑cycle relationship.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 60,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-60",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Interpret SHM graphs",
+      "question": "For a particle in simple harmonic motion, the displacement‑time graph is a sine curve. Which of the following correctly describes the corresponding velocity‑time graph?",
+      "options": {
+        "A": "It is also a sine curve with the same amplitude \\(A\\).",
+        "B": "It is a cosine curve with amplitude \\(\\omega A\\).",
+        "C": "It is a cosine curve with amplitude \\(\\dfrac{A}{\\omega}\\).",
+        "D": "It is a sine curve with amplitude \\(\\omega A\\)."
+      },
+      "correct_option": "B",
+      "answer": "It is a cosine curve with amplitude \\(\\omega A\\).",
+      "explanation": "Velocity is the time derivative of displacement: \\(v = \\frac{dx}{dt} = A\\omega\\cos(\\omega t + \\phi)\\). Hence the velocity graph is a cosine wave whose peak value is \\(\\omega A\\). Option B captures both the shape and amplitude correctly; the other options either give the wrong shape or wrong amplitude.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 61,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-61",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Define simple harmonic motion",
+      "question": "Simple harmonic motion (SHM) is best defined as:",
+      "options": {
+        "A": "Motion in which the restoring force is proportional to displacement and directed toward the equilibrium position.",
+        "B": "Motion with constant speed along a circular path.",
+        "C": "Motion where acceleration is zero at all times.",
+        "D": "Motion in which displacement increases linearly with time."
+      },
+      "correct_option": "A",
+      "answer": "Motion in which the restoring force is proportional to displacement and directed toward the equilibrium position.",
+      "explanation": "In SHM the key characteristic is a linear restoring force \\(F = -k x\\) (or equivalently \\(a = -\\omega^{2} x\\)) that always points toward equilibrium. Options B, C, and D describe unrelated types of motion.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 62,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-62",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Identify restoring force",
+      "question": "For a simple pendulum executing small‑angle SHM, which force acts as the restoring force?",
+      "options": {
+        "A": "Tension in the string",
+        "B": "Component of gravity along the arc",
+        "C": "Air resistance",
+        "D": "Centrifugal force"
+      },
+      "correct_option": "B",
+      "answer": "Component of gravity along the arc",
+      "explanation": "When the pendulum bob is displaced, the component of its weight parallel to the arc, \\(mg\\sin\\theta\\), pulls it back toward the lowest point, providing the restoring force. Tension balances the radial component, while air resistance is a damping force and centrifugal force is not relevant here.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 63,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-63",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "Which statement correctly distinguishes the SHM equation \\(x = A\\cos(\\omega t + \\phi)\\) from the statement \"acceleration is proportional to displacement\"?",
+      "options": {
+        "A": "The equation gives displacement as a function of time, whereas the statement describes the relationship between acceleration and displacement.",
+        "B": "Both expressions are mathematically identical and convey the same information.",
+        "C": "The equation applies only to damped oscillations, while the proportionality statement applies only to undamped motion.",
+        "D": "The proportionality statement is valid for any periodic motion, but the equation is specific to SHM."
+      },
+      "correct_option": "A",
+      "answer": "The equation gives displacement as a function of time, whereas the statement describes the relationship between acceleration and displacement.",
+      "explanation": "The SHM equation explicitly provides the time‑dependence of displacement. The proportionality \\(a = -\\omega^{2}x\\) is a derived relationship linking acceleration to displacement, independent of time. Options B, C, and D misrepresent the scope and applicability of the two statements.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 64,
+      "question_type": "application",
+      "mcq_id": "MCQ-64",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "A mass‑spring system oscillates with amplitude \\(5\\,\\text{cm}\\) and angular frequency \\(10\\,\\text{rad s}^{-1}\\). What is its acceleration when the displacement from equilibrium is \\(3\\,\\text{cm}\\)?",
+      "options": {
+        "A": "-0.3 m/s²",
+        "B": "-3 m/s²",
+        "C": "-30 m/s²",
+        "D": "0 m/s²"
+      },
+      "correct_option": "B",
+      "answer": "-3 m/s²",
+      "explanation": "For SHM, \\(a = -\\omega^{2} x\\). Convert displacement to metres: \\(3\\,\\text{cm}=0.03\\,\\text{m}\\). Then \\(a = -(10)^{2} \\times 0.03 = -100 \\times 0.03 = -3\\,\\text{m/s}^{2}\\). Option B matches this value; the other options are either magnitude errors or ignore the sign.",
+      "difficulty": "easy"
+    }
+  ]
+}

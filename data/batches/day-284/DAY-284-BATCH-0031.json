@@ -1,0 +1,150 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0031",
+  "mcqs": [
+    {
+      "job_number": 33,
+      "question_type": "definition_and_distinction",
+      "mcq_id": "MCQ-33",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "Which of the following expressions correctly represents the displacement \\(x\\) of a particle undergoing simple harmonic motion with angular frequency \\(\\omega\\) and amplitude \\(A\\), measured from the equilibrium position?",
+      "options": {
+        "A": "x = A \\sin(\\omega t + \\phi)",
+        "B": "x = A \\cos(\\omega t) + vt",
+        "C": "x = vt + \\frac{1}{2} a t^{2}",
+        "D": "x = A e^{\\omega t}"
+      },
+      "correct_option": "A",
+      "answer": "x = A \\sin(\\omega t + \\phi)",
+      "explanation": "In SHM the displacement from equilibrium is given by \\(x = A\\sin(\\omega t + \\phi)\\) or equivalently \\(x = A\\cos(\\omega t + \\phi)\\). Option A matches this form. Option B adds a linear term, Option C is the kinematic equation for uniformly accelerated motion, and Option D is an exponential, none of which describe SHM.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 34,
+      "question_type": "application",
+      "mcq_id": "MCQ-34",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "A particle executes SHM with amplitude \\(A = 5\\,\\text{cm}\\) and angular frequency \\(\\omega = 10\\,\\text{rad s}^{-1}\\). When its displacement from equilibrium is \\(x = 3\\,\\text{cm}\\), what is the magnitude of its velocity?",
+      "options": {
+        "A": "30 \\text{ cm s}^{-1}",
+        "B": "40 \\text{ cm s}^{-1}",
+        "C": "50 \\text{ cm s}^{-1}",
+        "D": "60 \\text{ cm s}^{-1}"
+      },
+      "correct_option": "B",
+      "answer": "40 \\text{ cm s}^{-1}",
+      "explanation": "For SHM, \\(v = \\pm \\omega\\sqrt{A^{2}-x^{2}}\\). Substituting \\(A=5\\,\\text{cm}, x=3\\,\\text{cm}, \\omega=10\\,\\text{rad s}^{-1}\\) gives \\(v = 10\\sqrt{25-9}=10\\times4=40\\,\\text{cm s}^{-1}\\). The other options result from incorrect arithmetic or using the wrong formula.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 35,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-35",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Understand phase",
+      "question": "A particle undergoing SHM is described by \\(x = A\\cos(\\omega t + \\phi)\\). At which value of the phase \\(\\phi\\) does the particle attain its maximum positive displacement?",
+      "options": {
+        "A": "\\phi = 0",
+        "B": "\\phi = \\frac{\\pi}{2}",
+        "C": "\\phi = \\pi",
+        "D": "\\phi = \\frac{3\\pi}{2}"
+      },
+      "correct_option": "A",
+      "answer": "\\phi = 0",
+      "explanation": "The cosine function reaches its maximum value of +1 when its argument is zero (or an integer multiple of \\(2\\pi\\)). Hence \\(\\omega t + \\phi = 0\\) gives the maximum positive displacement, which occurs for \\(\\phi = 0\\) at \\(t=0\\). Options B, C, D correspond to zero, negative, or minimum displacement respectively.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 36,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-36",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Interpret SHM graphs",
+      "question": "A displacement‑time graph of a particle in SHM is a sinusoidal curve. Which point on the graph corresponds to the particle having zero displacement and maximum positive velocity?",
+      "options": {
+        "A": "The peak of the sinusoid",
+        "B": "The upward zero‑crossing (rising through the equilibrium)",
+        "C": "The downward zero‑crossing (falling through the equilibrium)",
+        "D": "The trough of the sinusoid"
+      },
+      "correct_option": "B",
+      "answer": "The upward zero‑crossing (rising through the equilibrium)",
+      "explanation": "At the equilibrium position (zero displacement) the speed is maximum. When the curve crosses the axis with a positive slope, the velocity is positive (upward zero‑crossing). The peak and trough correspond to zero velocity, and the downward crossing gives maximum negative velocity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 37,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-37",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Define simple harmonic motion",
+      "question": "Which of the following statements correctly defines simple harmonic motion (SHM)?",
+      "options": {
+        "A": "In SHM the restoring force is proportional to the square of the displacement.",
+        "B": "In SHM the restoring force is directly proportional to the displacement and directed toward the equilibrium position.",
+        "C": "In SHM the restoring force is proportional to the velocity of the particle.",
+        "D": "In SHM the motion is uniform circular motion projected onto a line."
+      },
+      "correct_option": "B",
+      "answer": "In SHM the restoring force is directly proportional to the displacement and directed toward the equilibrium position.",
+      "explanation": "The defining feature of SHM is a restoring force \\(F = -kx\\) (or acceleration \\(a = -\\omega^{2}x\\)) that is proportional to displacement and opposite in direction. Option A incorrectly uses the square, C confuses with damping, and D describes a related but distinct concept (projection of uniform circular motion).",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 38,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-38",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Identify restoring force",
+      "question": "A mass \\(m\\) is attached to an ideal spring of force constant \\(k\\) on a frictionless horizontal surface. Which expression gives the restoring force acting on the mass when it is displaced by a distance \\(x\\) from equilibrium?",
+      "options": {
+        "A": "\\(F = -kx\\)",
+        "B": "\\(F = +kx\\)",
+        "C": "\\(F = -mv\\)",
+        "D": "\\(F = kv\\)"
+      },
+      "correct_option": "A",
+      "answer": "\\(F = -kx\\)",
+      "explanation": "Hooke's law states that the restoring force exerted by a spring is \\(F = -kx\\), where the negative sign indicates the force is opposite to the displacement direction. Option B lacks the sign, C mixes mass and velocity, and D incorrectly relates force to velocity.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 39,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-39",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "Two particles execute SHM described by \\(x_{1}=A\\cos(\\omega t)\\) and \\(x_{2}=A\\sin(\\omega t)\\). Which statement correctly describes the relationship between the two motions?",
+      "options": {
+        "A": "They are identical and have zero phase difference.",
+        "B": "They differ by a phase of \\(\\frac{\\pi}{2}\\) radians.",
+        "C": "They differ by a phase of \\(\\pi\\) radians.",
+        "D": "They are unrelated because one uses cosine and the other sine."
+      },
+      "correct_option": "B",
+      "answer": "They differ by a phase of \\(\\frac{\\pi}{2}\\) radians.",
+      "explanation": "Since \\(\\sin(\\omega t)=\\cos(\\omega t-\\frac{\\pi}{2})\\), the sine expression lags the cosine expression by \\(\\frac{\\pi}{2}\\) rad. Thus the two motions are the same amplitude and frequency but are phase‑shifted by 90°. Options A and C give wrong phase differences, D is incorrect because sine and cosine are phase‑shifted versions of each other.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 40,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-40",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "A particle performs SHM with amplitude \\(A = 10\\,\\text{cm}\\) and angular frequency \\(\\omega = 5\\,\\text{rad s}^{-1}\\). At what displacement \\(x\\) is the magnitude of its acceleration equal to half of the maximum acceleration?",
+      "options": {
+        "A": "2 \\text{ cm}",
+        "B": "5 \\text{ cm}",
+        "C": "7.5 \\text{ cm}",
+        "D": "10 \\text{ cm}"
+      },
+      "correct_option": "B",
+      "answer": "5 \\text{ cm}",
+      "explanation": "Maximum acceleration is \\(a_{\\max}=\\omega^{2}A = 5^{2}\\times10 = 250\\,\\text{cm s}^{-2}\\). Half of this is 125 cm s⁻². For SHM, \\(|a| = \\omega^{2}|x|\\). Setting \\(\\omega^{2}|x| = 125\\) gives \\(|x| = 125/25 = 5\\,\\text{cm}\\). The other options correspond to incorrect algebraic steps.",
+      "difficulty": "hard"
+    }
+  ]
+}

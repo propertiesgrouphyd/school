@@ -1,0 +1,150 @@
+{
+  "day": 284,
+  "batch_id": "DAY-284-BATCH-0035",
+  "mcqs": [
+    {
+      "job_number": 65,
+      "question_type": "example_based",
+      "mcq_id": "MCQ-65",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Understand phase",
+      "question": "A particle executes simple harmonic motion described by x = A cos(ωt + φ). At t = 0 the displacement is zero and the velocity is maximum in the positive direction. What is the value of the phase constant φ?",
+      "options": {
+        "A": "0",
+        "B": "π/2",
+        "C": "-π/2",
+        "D": "π"
+      },
+      "correct_option": "C",
+      "answer": "-π/2",
+      "explanation": "From x = A cos(ωt + φ), x(0)=0 gives cos φ = 0 ⇒ φ = ±π/2. Velocity v = -Aω sin(ωt + φ); v(0) must be +Aω (maximum positive). Hence -Aω sin φ = +Aω ⇒ sin φ = -1 ⇒ φ = -π/2. Option C is correct; the other values either give non‑zero displacement at t=0 or give velocity in the wrong direction.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 66,
+      "question_type": "scenario_based",
+      "mcq_id": "MCQ-66",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Interpret SHM graphs",
+      "question": "A mass attached to a spring is pulled to a displacement +A and released from rest. Which of the following displacement‑time graphs correctly represents its subsequent motion?",
+      "options": {
+        "A": "A sine curve that starts from the origin (x = 0) and rises.",
+        "B": "A cosine curve that starts at the maximum positive displacement (+A) and then decreases.",
+        "C": "A cosine curve that starts at the maximum negative displacement (‑A).",
+        "D": "A sine curve that starts at the maximum positive displacement (+A)."
+      },
+      "correct_option": "B",
+      "answer": "A cosine curve that starts at the maximum positive displacement (+A) and then decreases.",
+      "explanation": "When released from rest at +A, the displacement follows x = A cos(ωt) because at t = 0, cos 0 = 1 giving x = +A and the velocity (proportional to -sin ωt) is zero. Hence the graph is a cosine curve beginning at the top (+A) and moving downward. Option B matches this; the other options describe incorrect initial conditions.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 67,
+      "question_type": "misconception_check",
+      "mcq_id": "MCQ-67",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Define simple harmonic motion",
+      "question": "Which of the following statements correctly defines simple harmonic motion (SHM)?",
+      "options": {
+        "A": "SHM occurs whenever the net force on a particle is proportional to its velocity.",
+        "B": "SHM occurs when the restoring force on a particle is directly proportional to its displacement and directed toward the equilibrium position.",
+        "C": "SHM is the motion of a particle when its kinetic energy remains constant.",
+        "D": "SHM happens only for motions that involve circular trajectories."
+      },
+      "correct_option": "B",
+      "answer": "SHM occurs when the restoring force on a particle is directly proportional to its displacement and directed toward the equilibrium position.",
+      "explanation": "The defining feature of SHM is a restoring force (or acceleration) that obeys F = –k x (or a = –ω² x), i.e., it is proportional to displacement and opposite in direction. Option B states this correctly. Option A confuses damping with SHM, C is false because kinetic energy varies, and D is unrelated.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 68,
+      "question_type": "reasoning",
+      "mcq_id": "MCQ-68",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Identify restoring force",
+      "question": "A 0.5 kg block is attached to a horizontal spring of force constant 200 N m⁻¹. The block is displaced 5 cm to the right and released. In which direction does the restoring force act immediately after release?",
+      "options": {
+        "A": "To the right",
+        "B": "To the left",
+        "C": "Upward",
+        "D": "Downward"
+      },
+      "correct_option": "B",
+      "answer": "To the left",
+      "explanation": "The restoring force of a spring is given by F = –k x. Here x = +0.05 m (rightward), so F = –200 × 0.05 = –10 N, i.e., 10 N directed opposite to the displacement, i.e., to the left. Hence option B is correct; the other directions do not oppose the displacement.",
+      "difficulty": "medium"
+    },
+    {
+      "job_number": 69,
+      "question_type": "comparison",
+      "mcq_id": "MCQ-69",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Use SHM equation",
+      "question": "Two students write the displacement of a particle in SHM as (i) x = A cos(ωt + φ) and (ii) x = A sin(ωt + φ). For a motion that starts from the equilibrium position moving in the positive direction, which of the following statements is true?",
+      "options": {
+        "A": "Equation (i) with φ = 0 correctly describes the motion, while equation (ii) cannot.",
+        "B": "Equation (ii) with φ = 0 correctly describes the motion, while equation (i) cannot.",
+        "C": "Both equations describe the same motion if φ is chosen appropriately.",
+        "D": "Neither equation can represent the described motion."
+      },
+      "correct_option": "C",
+      "answer": "Both equations describe the same motion if φ is chosen appropriately.",
+      "explanation": "Starting from equilibrium (x = 0) with positive velocity requires sin (ωt + φ) = 0 and cos (ωt + φ) = 1 at t = 0. This is achieved by (i) with φ = –π/2 (cos(–π/2)=0, velocity positive) or by (ii) with φ = 0 (sin 0 = 0, velocity positive). Thus, by selecting suitable phase constants, both forms represent the same physical motion. Options A and B ignore the role of φ, and D is false.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 70,
+      "question_type": "competitive_exam",
+      "mcq_id": "MCQ-70",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Relate displacement, velocity and acceleration",
+      "question": "For a particle executing SHM with amplitude A and angular frequency ω, which of the following relationships is always true?",
+      "options": {
+        "A": "Maximum speed v_max = ω A and maximum acceleration a_max = ω A",
+        "B": "Maximum speed v_max = ω A and maximum acceleration a_max = ω² A",
+        "C": "Maximum speed v_max = ω² A and maximum acceleration a_max = ω A",
+        "D": "Maximum speed v_max = A/ω and maximum acceleration a_max = A/ω²"
+      },
+      "correct_option": "B",
+      "answer": "Maximum speed v_max = ω A and maximum acceleration a_max = ω² A",
+      "explanation": "In SHM, x = A cos(ωt + φ). Differentiating gives v = –Aω sin(ωt + φ) → |v|_max = Aω. Differentiating again gives a = –Aω² cos(ωt + φ) → |a|_max = Aω². Therefore option B correctly states both maxima. Options A, C, and D misuse the powers of ω.",
+      "difficulty": "hard"
+    },
+    {
+      "job_number": 71,
+      "question_type": "direct_concept",
+      "mcq_id": "MCQ-71",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Understand phase",
+      "question": "In the SHM expression x = A cos(ωt + φ), the term φ is called the:",
+      "options": {
+        "A": "Amplitude",
+        "B": "Angular frequency",
+        "C": "Phase constant",
+        "D": "Period"
+      },
+      "correct_option": "C",
+      "answer": "Phase constant",
+      "explanation": "The symbol φ (phi) represents the phase constant (or initial phase) which determines the starting point of the motion on the cosine curve. Amplitude is A, angular frequency is ω, and period is 2π/ω. Hence option C is correct.",
+      "difficulty": "easy"
+    },
+    {
+      "job_number": 72,
+      "question_type": "conceptual_understanding",
+      "mcq_id": "MCQ-72",
+      "learning_unit_id": "LU-01215",
+      "learning_point": "Interpret SHM graphs",
+      "question": "Which of the following correctly describes the velocity‑time graph for a particle undergoing simple harmonic motion?",
+      "options": {
+        "A": "It is a sine wave that is in phase with the displacement graph.",
+        "B": "It is a cosine wave that is 90° out of phase with the displacement graph.",
+        "C": "It is a straight line passing through the origin.",
+        "D": "It is a cosine wave that is in phase with the displacement graph."
+      },
+      "correct_option": "B",
+      "answer": "It is a cosine wave that is 90° out of phase with the displacement graph.",
+      "explanation": "For SHM, if displacement is x = A cos(ωt + φ), velocity is v = –Aω sin(ωt + φ), which is a sine (or cosine shifted by –90°) and therefore 90° out of phase with displacement. Option B captures this relationship. Option A incorrectly states they are in phase, C is wrong because velocity varies sinusoidally, and D repeats the displacement phase.",
+      "difficulty": "easy"
+    }
+  ]
+}
